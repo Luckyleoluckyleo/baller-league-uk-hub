@@ -36,7 +36,6 @@ run("node scripts/generate-previews.mjs", "5/6 Generating fixture previews");
 console.log("\n⚠  Don't forget to manually update:");
 console.log("   src/data/fixtures.json — next gameweek fixtures");
 
-run("npm run build", "6/6 Building site");
-run("node scripts/generate-sitemap.mjs", "Generating sitemap");
+run("npm run build", "6/6 Building site + sitemap");
 
 console.log("\n✓ All done! Site ready in dist/");
