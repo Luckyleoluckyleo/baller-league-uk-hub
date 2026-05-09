@@ -4,7 +4,7 @@ import tableData from '../data/table.json';
 import fixturesData from '../data/fixtures.json';
 import gcData from '../data/gamechangers.json';
 
-const upcomingGW = fixturesData.upcoming[0]?.gameweek ?? 9;
+const upcomingGW = fixturesData.upcoming[0]?.gameweek ?? 10;
 
 // Build results by gameweek from scraped data
 const s3Matches = (gcData.seasons['3']?.matches as any[] || []).filter((m: any) => m.homeScore > 0 || m.awayScore > 0);
