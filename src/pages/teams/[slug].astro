@@ -199,7 +199,7 @@ const schema = {
           {teamUpcoming.map((f: any) => (
             <div class="fixture-card">
               <div class="fixture-team home">
-                <img src={`/logos/${f.homeSlug}.svg`} class="td-logo" style="width:28px;height:28px;" onerror="this.hidden=true" alt="" />
+                <img src={`/logos/${f.homeSlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt="" />
                 <span class="fixture-team-name">{f.homeTeam}</span>
               </div>
               <div class="fixture-vs-box">
@@ -207,7 +207,7 @@ const schema = {
                 <div class="fixture-date">GW{f.gameweek} &middot; {f.date}</div>
               </div>
               <div class="fixture-team away">
-                <img src={`/logos/${f.awaySlug}.svg`} class="td-logo" style="width:28px;height:28px;" onerror="this.hidden=true" alt="" />
+                <img src={`/logos/${f.awaySlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt="" />
                 <span class="fixture-team-name">{f.awayTeam}</span>
               </div>
             </div>
@@ -221,7 +221,7 @@ const schema = {
           {teamResults.map((m: any) => (
             <a href={`/match/${getMatchIdx(m)}`} class="fixture-card fixture-result-card" style="text-decoration:none;">
               <div class="fixture-team home">
-                <img src={`/logos/${m.homeSlug}.svg`} class="td-logo" style="width:28px;height:28px;" onerror="this.hidden=true" alt="" />
+                <img src={`/logos/${m.homeSlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt="" />
                 <span class="fixture-team-name">{m.homeTeam}</span>
               </div>
               <div class="fixture-vs-box">
@@ -229,7 +229,7 @@ const schema = {
                 <div class="fixture-date">GW{m.gameweek}</div>
               </div>
               <div class="fixture-team away">
-                <img src={`/logos/${m.awaySlug}.svg`} class="td-logo" style="width:28px;height:28px;" onerror="this.hidden=true" alt="" />
+                <img src={`/logos/${m.awaySlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt="" />
                 <span class="fixture-team-name">{m.awayTeam}</span>
               </div>
             </a>
