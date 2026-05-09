@@ -1,0 +1,25 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Page Not Found – Baller League UK" description="This page doesn't exist. Head back to the Baller League UK homepage.">
+  <div class="not-found">
+    <div class="container not-found-inner">
+      <div class="nf-icon">⚽</div>
+      <h1>Out of Bounds</h1>
+      <p>That page doesn't exist — someone must have kicked it out for a corner.<br/>Good news: in Baller League, that's a penalty.</p>
+      <div class="nf-actions">
+        <a href="/" class="btn btn-primary btn-lg">Back to Home</a>
+        <a href="/table" class="btn btn-secondary btn-lg">View Table</a>
+      </div>
+    </div>
+  </div>
+</Base>
+<style>
+.not-found { min-height: 80vh; display: flex; align-items: center; justify-content: center; }
+.not-found-inner { text-align: center; }
+.nf-icon { font-size: 5rem; margin-bottom: var(--space-lg); animation: spin 3s linear infinite; display: inline-block; }
+@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+h1 { margin-bottom: var(--space-md); }
+p { margin-bottom: var(--space-xl); }
+.nf-actions { display: flex; gap: var(--space-md); justify-content: center; flex-wrap: wrap; }
+</style>

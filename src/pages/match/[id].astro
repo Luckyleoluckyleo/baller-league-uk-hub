@@ -1,0 +1,187 @@
+---
+import Base from '../../layouts/Base.astro';
+import gcData from '../../data/gamechangers.json';
+
+export async function getStaticPaths() {
+  const paths: { params: { id: string } }[] = [];
+  let idx = 1;
+  for (const [, season] of Object.entries(gcData.seasons)) {
+    for (const m of (season as any).matches as any[]) {
+      if (m.homeScore === undefined && m.awayScore === undefined) continue;
+      paths.push({ params: { id: String(idx) } });
+      idx++;
+    }
+  }
+  return paths;
+}
+
+const { id } = Astro.params;
+
+// Build a simple in-memory map of match index -> match
+const allMatches: any[] = [];
+const matchMeta: any[] = [];
+for (const [sKey, season] of Object.entries(gcData.seasons)) {
+  for (const m of (season as any).matches as any[]) {
+    if (m.homeScore === 0 && m.awayScore === 0 && m.gamechanger1?.type === 'unknown') continue;
+    allMatches.push({ ...m, season: sKey });
+    matchMeta.push({ ...m, season: sKey });
+  }
+}
+
+const idx = parseInt(id) - 1;
+const match = allMatches[idx];
+
+if (!match) {
+  Astro.response.status = 404;
+}
+
+const gc1def = gcData.definitions.firstHalf.find(g => g.id === match?.gamechanger1?.type) || gcData.definitions.secondHalf.find(g => g.id === match?.gamechanger1?.type);
+const gc2def = gcData.definitions.secondHalf.find(g => g.id === match?.gamechanger2?.type);
+const totalGCGoals = (match?.gamechanger1?.goalsScored || 0) + (match?.gamechanger2?.goalsScored || 0);
+---
+
+<Base
+  title={match ? `${match.homeTeam} ${match.homeScore}-${match.awayScore} ${match.awayTeam} — Match Detail` : 'Match Not Found'}
+  description={match ? `Full match detail for ${match.homeTeam} vs ${match.awayTeam} — Gameweek ${match.gameweek}, Season ${match.season}. Gamechanger analysis included.` : 'Match not found.'}
+>
+
+  {!match ? (
+    <div class="page-header">
+      <div class="container">
+        <h1>Match Not Found</h1>
+        <p class="section-subtitle"><a href="/gamechangers">Back to Gamechanger Analysis</a></p>
+      </div>
+    </div>
+  ) : (
+    <>
+      <div class="page-header">
+        <div class="container">
+          <nav class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&#x203A;</span><a href="/gamechangers">Gamechangers</a><span class="breadcrumb-sep">&#x203A;</span><span>Match Detail</span></nav>
+        </div>
+      </div>
+
+      <div class="container match-page">
+
+        <!-- SCORECARD -->
+        <div class="match-scorecard card">
+          <div class="card-body">
+            <div class="scorecard-header">
+              <span class="section-label">Season {match.season} &middot; Gameweek {match.gameweek}</span>
+            </div>
+            <div class="scorecard-main">
+              <div class="scorecard-team home">
+                <img src={`/logos/${match.homeSlug}.svg`} class="team-hero-logo" style="width:64px;height:64px;" onerror="this.hidden=true" alt="" />
+                <a href={`/teams/${match.homeSlug}`} class="scorecard-team-name">{match.homeTeam}</a>
+              </div>
+              <div class="scorecard-score">
+                <span class="score-num">{match.homeScore}</span>
+                <span class="score-sep">&ndash;</span>
+                <span class="score-num">{match.awayScore}</span>
+              </div>
+              <div class="scorecard-team away">
+                <img src={`/logos/${match.awaySlug}.svg`} style="width:64px;height:64px;object-fit:contain;" onerror="this.hidden=true" alt="" />
+                <a href={`/teams/${match.awaySlug}`} class="scorecard-team-name">{match.awayTeam}</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- GC ANALYSIS -->
+        <div class="gc-analysis-grid">
+          <div class="card gc-analysis-card first-half-gc">
+            <div class="card-body">
+              <div class="gc-half-badge">1st Half &middot; 12'</div>
+              <div class="gc-analysis-type">
+                <span class="gc-icon">{gc1def?.icon || '&#x26A0;'}</span>
+                <div>
+                  <div class="gc-type-name">{gc1def?.name || match.gamechanger1?.type || 'Unknown'}</div>
+                  <div class="gc-type-desc">{gc1def?.description || ''}</div>
+                </div>
+              </div>
+              <div class="gc-goal-count">
+                <span class="gc-goal-num">{match.gamechanger1?.goalsScored || 0}</span>
+                <span class="gc-goal-label">goals during GC</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card gc-analysis-card second-half-gc">
+            <div class="card-body">
+              <div class="gc-half-badge second">2nd Half &middot; 27'</div>
+              <div class="gc-analysis-type">
+                <span class="gc-icon">{gc2def?.icon || '&#x26A0;'}</span>
+                <div>
+                  <div class="gc-type-name">{gc2def?.name || match.gamechanger2?.type || 'Unknown'}</div>
+                  <div class="gc-type-desc">{gc2def?.description || ''}</div>
+                </div>
+              </div>
+              <div class="gc-goal-count">
+                <span class="gc-goal-num">{match.gamechanger2?.goalsScored || 0}</span>
+                <span class="gc-goal-label">goals during GC</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TOTAL GC GOALS -->
+        <div class="card gc-summary-card">
+          <div class="card-body text-center">
+            <span class="gc-total-label">Total GC Goals</span>
+            <span class="gc-total-num">{totalGCGoals}</span>
+          </div>
+        </div>
+
+        <!-- NAVIGATION -->
+        <div class="match-navigation">
+          {idx > 0 && (
+            <a href={`/match/${idx}`} class="btn btn-ghost">&larr; Previous Match</a>
+          )}
+          <a href="/gamechangers" class="btn btn-ghost">All Matches</a>
+          {idx + 1 < allMatches.length && (
+            <a href={`/match/${idx + 2}`} class="btn btn-ghost">Next Match &rarr;</a>
+          )}
+        </div>
+      </div>
+    </>
+  )}
+</Base>
+
+<style>
+.match-page { padding-bottom: var(--space-3xl); display: flex; flex-direction: column; gap: var(--space-lg); }
+
+.match-scorecard { border: 1px solid rgba(0,230,118,0.15); }
+.scorecard-header { text-align: center; margin-bottom: var(--space-lg); }
+.scorecard-main { display: flex; align-items: center; justify-content: center; gap: var(--space-2xl); flex-wrap: wrap; }
+.scorecard-team { display: flex; flex-direction: column; align-items: center; gap: var(--space-sm); min-width: 140px; }
+.team-emoji-lg { font-size: 3rem; }
+.scorecard-team-name { font-family: var(--font-display); font-size: 1.3rem; color: var(--text-primary); }
+.scorecard-score { display: flex; align-items: center; gap: var(--space-md); }
+.score-num { font-family: var(--font-display); font-size: 3.5rem; color: var(--text-primary); }
+.score-sep { font-size: 2rem; color: var(--text-muted); }
+
+.gc-analysis-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-lg); }
+.gc-analysis-card { }
+.first-half-gc { border-left: 3px solid var(--green); }
+.second-half-gc { border-left: 3px solid var(--purple); }
+.gc-half-badge { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--green); margin-bottom: var(--space-md); }
+.gc-half-badge.second { color: var(--purple); }
+.gc-analysis-type { display: flex; gap: var(--space-md); align-items: flex-start; margin-bottom: var(--space-md); }
+.gc-icon { font-size: 1.6rem; }
+.gc-type-name { font-size: 1.1rem; font-weight: 700; color: var(--text-primary); margin-bottom: 2px; }
+.gc-type-desc { font-size: 0.82rem; color: var(--text-muted); line-height: 1.5; }
+.gc-goal-count { display: flex; align-items: baseline; gap: var(--space-sm); }
+.gc-goal-num { font-family: var(--font-display); font-size: 2.5rem; color: var(--text-primary); }
+.gc-goal-label { font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; }
+
+.gc-summary-card { border: 1px solid var(--border); }
+.gc-total-label { display: block; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin-bottom: 4px; }
+.gc-total-num { font-family: var(--font-display); font-size: 3rem; color: var(--green); }
+
+.match-navigation { display: flex; justify-content: center; gap: var(--space-md); flex-wrap: wrap; }
+
+@media (max-width: 768px) {
+  .gc-analysis-grid { grid-template-columns: 1fr; }
+  .scorecard-main { flex-direction: column; gap: var(--space-md); }
+  .scorecard-score { order: -1; }
+}
+</style>

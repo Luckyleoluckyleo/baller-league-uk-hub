@@ -1,0 +1,147 @@
+---
+import Base from '../layouts/Base.astro';
+import fixturesData from '../data/fixtures.json';
+
+const upcoming = fixturesData.upcoming;
+const upcomingGW = upcoming[0]?.gameweek ?? 9;
+---
+
+<Base
+  title="Where to Watch Baller League UK – Sky Sports, Twitch & YouTube"
+  description="Find out where to watch Baller League UK live. Stream on Sky Sports and Twitch. Catch highlights on YouTube. Full schedule and social links."
+>
+
+  <div class="page-header">
+    <div class="container">
+      <nav class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">›</span><span>Watch</span></nav>
+      <div class="section-label">Live & On Demand</div>
+      <h1>Where to Watch</h1>
+      <p class="section-subtitle">Catch every match live or on demand across Sky Sports, Twitch and YouTube.</p>
+    </div>
+  </div>
+
+  <div class="container watch-page">
+
+    <div class="watch-platforms">
+
+      <div class="card watch-card sky-card">
+        <div class="watch-card-body">
+          <div class="watch-platform-label">Live Broadcast</div>
+          <h2>Sky Sports</h2>
+          <p>All Baller League UK games are broadcast live on <strong>Sky Sports</strong>. Available on Sky Sports Mix and Sky Sports Football.</p>
+          <div class="watch-details">
+            <span class="badge badge-green">Live Matches</span>
+            <span class="badge badge-purple">Match Replays</span>
+            <span class="badge badge-orange">Analysis</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card watch-card twitch-card">
+        <div class="watch-card-body">
+          <div class="watch-platform-label">Free Live Stream</div>
+          <h2>Twitch</h2>
+          <p>Watch <strong>for free</strong> on the official Twitch channel. Live chat lets fans interact in real time. No subscription needed.</p>
+          <div class="watch-details">
+            <span class="badge badge-purple">Free to Watch</span>
+            <span class="badge badge-green">Live Chat</span>
+          </div>
+          <a href="https://www.twitch.tv/ballerleagueuk" target="_blank" rel="noopener noreferrer" class="btn btn-purple" style="margin-top: var(--space-lg);">Watch on Twitch</a>
+        </div>
+      </div>
+
+      <div class="card watch-card youtube-card">
+        <div class="watch-card-body">
+          <div class="watch-platform-label">Highlights & VODs</div>
+          <h2>YouTube</h2>
+          <p>The official channel publishes match highlights, goals compilations, behind-the-scenes content, and full match VODs.</p>
+          <div class="watch-details">
+            <span class="badge badge-orange">Highlights</span>
+            <span class="badge badge-green">Full Match VODs</span>
+          </div>
+          <a href="https://www.youtube.com/@BallerLeagueUK" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="margin-top: var(--space-lg);">YouTube Channel</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- UPCOMING SCHEDULE -->
+    <div class="card schedule-card">
+      <div class="card-body">
+        <h2>Upcoming — Gameweek {upcomingGW}</h2>
+        <p class="text-muted" style="margin-bottom: var(--space-lg);">{upcoming[0]?.date}</p>
+        <div class="schedule-list">
+          {upcoming.map(f => (
+            <div class="schedule-row">
+              <span class="schedule-time-col">{f.time}</span>
+              <div class="schedule-match">
+                <img src={`/logos/${f.homeSlug}.svg`} class="td-logo" style="width:24px;height:24px;" onerror="this.hidden=true" alt="" />
+                <span class="schedule-team">{f.homeTeam}</span>
+                <span class="schedule-vs">vs</span>
+                <span class="schedule-team">{f.awayTeam}</span>
+                <img src={`/logos/${f.awaySlug}.svg`} class="td-logo" style="width:24px;height:24px;" onerror="this.hidden=true" alt="" />
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+
+    <!-- SOCIAL LINKS -->
+    <div class="social-section">
+      <h2 class="section-title">Follow Baller League UK</h2>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/ballerleagueuk" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="Instagram">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5"/></svg>
+        </a>
+        <a href="https://www.tiktok.com/@BallerLeagueUK" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="TikTok">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
+        </a>
+        <a href="https://www.twitch.tv/ballerleagueuk" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="Twitch">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 2H3v16h5v4l4-4h5l4-4V2Zm-10 9V5m5 6V5"/></svg>
+        </a>
+        <a href="https://www.youtube.com/@BallerLeagueUK" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="YouTube">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29.94 29.94 0 0 0 1 11.75a29.94 29.94 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29.94 29.94 0 0 0 .46-5.25 29.94 29.94 0 0 0-.46-5.33Z"/><polygon points="10 15 15 12 10 9 10 15"/></svg>
+        </a>
+        <a href="https://twitter.com/BallerLeagueUK" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="X (Twitter)">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4l7.5 11.5L4 20h2l6-7 5 7h5L14 8.5 20 4h-2l-5.5 7L7 4H4z"/></svg>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</Base>
+
+<style>
+.watch-page { padding-bottom: var(--space-3xl); }
+.watch-platforms { display: flex; flex-direction: column; gap: var(--space-lg); margin-bottom: var(--space-2xl); }
+
+.watch-card { display: flex; padding: var(--space-xl); }
+.sky-card { border-left: 3px solid #0072ce; }
+.twitch-card { border-left: 3px solid var(--purple); }
+.youtube-card { border-left: 3px solid #ff0000; }
+.watch-card-body { flex: 1; }
+.watch-platform-label { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); margin-bottom: var(--space-xs); }
+.watch-card-body h2 { margin-bottom: var(--space-md); }
+.watch-card-body p { margin-bottom: var(--space-md); }
+.watch-details { display: flex; gap: var(--space-sm); flex-wrap: wrap; }
+
+.schedule-card { margin-bottom: var(--space-2xl); }
+.schedule-card h2 { margin-bottom: var(--space-xs); }
+.schedule-list { display: flex; flex-direction: column; gap: var(--space-sm); }
+.schedule-row { display: flex; align-items: center; gap: var(--space-md); padding: var(--space-sm) 0; border-bottom: 1px solid var(--border-subtle); }
+.schedule-row:last-child { border-bottom: none; }
+.schedule-time-col { font-size: 0.85rem; font-weight: 700; color: var(--green); min-width: 50px; font-variant-numeric: tabular-nums; }
+.schedule-match { display: flex; align-items: center; gap: var(--space-sm); flex: 1; }
+.schedule-team { font-size: 0.9rem; color: var(--text-primary); font-weight: 600; }
+.schedule-vs { font-size: 0.78rem; color: var(--text-muted); margin: 0 4px; }
+
+.social-section { text-align: center; padding: var(--space-2xl) 0; }
+.social-icons { display: flex; justify-content: center; gap: var(--space-lg); margin-top: var(--space-lg); flex-wrap: wrap; }
+.social-icon-link { width: 52px; height: 52px; background: var(--bg-elevated); border: 1px solid var(--border); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; color: var(--text-secondary); transition: all var(--transition); }
+.social-icon-link:hover { border-color: var(--green); color: var(--green); background: var(--green-glow); transform: translateY(-2px); }
+
+@media (max-width: 768px) {
+  .watch-card { flex-direction: column; }
+}
+</style>

@@ -1,0 +1,310 @@
+---
+import Base from '../layouts/Base.astro';
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "name": "Baller League UK Hub – Rules & Format",
+  "description": "Complete rules and format guide for Baller League UK: 6v6, 30-minute matches, Game Changers at 12' and 27', no corner kicks, 11-game season with Final Four playoffs.",
+  "about": { "@type": "SportsOrganization", "name": "Baller League UK" }
+};
+---
+
+<Base
+  title="Baller League UK Hub — Rules & Format"
+  description="Complete guide to Baller League UK rules: 6v6 format, Game Changers at 12' and 27', no corner kicks, 30-minute matches, season structure and Final Four playoffs."
+  schema={schema}
+>
+
+  <div class="page-header">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span class="breadcrumb-sep">›</span>
+        <span>Rules</span>
+      </nav>
+      <div class="section-label">Official Guide</div>
+      <h1>Baller League UK — Rules & Format</h1>
+      <p class="section-subtitle">Everything you need to know about how Baller League UK works — from kick-off to the Final Four.</p>
+    </div>
+  </div>
+
+  <div class="container rules-layout">
+
+    <!-- QUICK SUMMARY STATS -->
+    <div class="rules-summary grid-4">
+      <div class="stat-box"><div class="stat-box-number">6v6</div><div class="stat-box-label">Players per side</div></div>
+      <div class="stat-box"><div class="stat-box-number">30</div><div class="stat-box-label">Minutes per match</div></div>
+      <div class="stat-box"><div class="stat-box-number">11</div><div class="stat-box-label">Regular season games</div></div>
+      <div class="stat-box"><div class="stat-box-number">12</div><div class="stat-box-label">Teams competing</div></div>
+    </div>
+
+    <div class="rules-content">
+
+      <!-- SECTION 1 -->
+      <div class="rule-block card">
+        <div class="card-body">
+          <div class="rule-icon">⚽</div>
+          <h2>The Basic Format</h2>
+          <p>Baller League UK is a six-a-side football competition played in a purpose-built indoor arena. Each team fields six players at a time — five outfield players and one goalkeeper. Matches last 30 minutes, played as two 15-minute halves with no half-time break.</p>
+
+          <h3>Team Structure</h3>
+          <ul class="rule-list">
+            <li><strong>6 players</strong> on the pitch per team at any one time</li>
+            <li><strong>Rolling substitutions</strong> — teams can make unlimited substitutions during play</li>
+            <li>Each team is managed by a <strong>celebrity or influencer manager</strong> who picks the starting lineup and tactics</li>
+            <li>Teams can include <strong>professional footballers, semi-pros, and select influencer players</strong></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- SECTION 2 -->
+      <div class="rule-block card">
+        <div class="card-body">
+          <div class="rule-icon">🚫</div>
+          <h2>Key Rule Differences</h2>
+          <p>Baller League UK deliberately removes several traditional football rules to increase goals, action, and entertainment. Here's what's different:</p>
+
+          <div class="key-rules-grid">
+            <div class="key-rule no-rule">
+              <span class="key-rule-badge">REMOVED</span>
+              <h4>❌ No Corner Kicks</h4>
+              <p>Traditional corner kicks are replaced by direct penalty kicks. Whenever the ball goes out for what would have been a corner, the attacking team is awarded a direct penalty instead.</p>
+            </div>
+            <div class="key-rule yes-rule">
+              <span class="key-rule-badge yes">INCLUDED</span>
+              <h4>✅ Offside Rule (except during Onside GC)</h4>
+              <p>Offside rules apply throughout normal play. The only exception is when the <strong>Onside Game Changer</strong> is activated at the 12th minute — during that period, all offside rules are suspended and players can position anywhere.</p>
+            </div>
+            <div class="key-rule yes-rule">
+              <span class="key-rule-badge yes">INCLUDED</span>
+              <h4>✅ Penalty Shootouts</h4>
+              <p>If a match is level after 30 minutes, the result goes straight to a penalty shootout to determine the winner. Drawn results are not possible in the final standings.</p>
+            </div>
+            <div class="key-rule yes-rule">
+              <span class="key-rule-badge yes">INCLUDED</span>
+              <h4>✅ Golden Goal Option</h4>
+              <p>In some match formats, teams can enter an overtime period where the first team to score wins the match instantly — the classic golden goal rule.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECTION 3 - GAME CHANGERS -->
+      <div class="rule-block card gamechanger-card">
+        <div class="card-body">
+          <div class="rule-icon">⚡</div>
+          <div class="gc-badge">The Signature Rule</div>
+          <h2>Game Changers</h2>
+          <p class="gc-intro">Twice per match — at the <strong>12th minute</strong> (1st half) and <strong>27th minute</strong> (2nd half) — a random Game Changer is activated, temporarily rewriting the rules. Each half has three possible Game Changers, drawn randomly before the match.</p>
+
+          <h3 style="margin-top: var(--space-xl); margin-bottom: var(--space-lg); color: var(--green);">1st Half — Activated at 12'</h3>
+          <div class="gc-rules">
+            <div class="gc-rule">
+              <span class="gc-rule-num">01</span>
+              <div>
+                <h4>🏃 Onside</h4>
+                <p>All offside rules are suspended. Attacking players can position themselves freely anywhere on the pitch — creating chaos and opening up the game.</p>
+              </div>
+            </div>
+            <div class="gc-rule">
+              <span class="gc-rule-num">02</span>
+              <div>
+                <h4>➕ Plus One</h4>
+                <p>The game restarts as a 1v1 (plus goalkeepers). After each goal, both teams add one outfield player, building back up to full 5v5 play. Every goal changes the match state.</p>
+              </div>
+            </div>
+            <div class="gc-rule">
+              <span class="gc-rule-num">03</span>
+              <div>
+                <h4>⏱️ 3Play</h4>
+                <p>Teams shrink to 3-a-side (including goalkeeper). A 30-second shot clock forces rapid attacks — lose the ball or let the clock expire and it's a turnover. Fast, fierce, relentless.</p>
+              </div>
+            </div>
+          </div>
+
+          <h3 style="margin-top: var(--space-xl); margin-bottom: var(--space-lg); color: var(--purple);">2nd Half — Activated at 27'</h3>
+          <div class="gc-rules">
+            <div class="gc-rule">
+              <span class="gc-rule-num">04</span>
+              <div>
+                <h4>⚔️ 1-on-1</h4>
+                <p>The game becomes a one-on-one duel. Each player stays in their own half with a 15-second shot clock per possession — pure skill, no hiding.</p>
+              </div>
+            </div>
+            <div class="gc-rule">
+              <span class="gc-rule-num">05</span>
+              <div>
+                <h4>📏 The Line</h4>
+                <p>Goals scored from in front of the offside line count <strong>double</strong>. Rewards precision and long-range brilliance — every shot from distance becomes a game-changer.</p>
+              </div>
+            </div>
+            <div class="gc-rule">
+              <span class="gc-rule-num">06</span>
+              <div>
+                <h4>🟥 Fairplay</h4>
+                <p>Any foul, handball, or dissent = <strong>immediate send-off</strong> with no replacement. Finish the match with whoever is left standing — discipline or disaster.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="gc-callout">
+            <strong>⚡ Why it matters:</strong> A team with a lethal striker might pray for 1-on-1. A disciplined side wants Fairplay. The draw before each match can make or break a gameweek. See our <a href="/gamechangers" style="color: var(--green);">Gamechanger Analysis</a> to discover which types produce the most goals.
+          </div>
+        </div>
+      </div>
+
+      <!-- SECTION 4 - SEASON FORMAT -->
+      <div class="rule-block card">
+        <div class="card-body">
+          <div class="rule-icon">🏆</div>
+          <h2>Season Format</h2>
+
+          <h3>Regular Season (11 Gameweeks)</h3>
+          <p>All 12 teams compete over 11 gameweeks. Each gameweek features multiple matches. Points are awarded as follows:</p>
+          <ul class="rule-list">
+            <li><strong>Win:</strong> 3 points</li>
+            <li><strong>Draw (after 90 min, before penalty shootout):</strong> 1 point each</li>
+            <li><strong>Penalty Shootout Win:</strong> 1 additional bonus point for the winner</li>
+            <li><strong>Loss:</strong> 0 points</li>
+          </ul>
+
+          <h3>Final Four Playoffs</h3>
+          <p>At the end of the regular season, the <strong>top 4 teams</strong> qualify for the Final Four — a knockout tournament to decide the Baller League UK champion.</p>
+          <ul class="rule-list">
+            <li><strong>Semi-final 1:</strong> 1st vs 4th place</li>
+            <li><strong>Semi-final 2:</strong> 2nd vs 3rd place</li>
+            <li><strong>Grand Final:</strong> Two semi-final winners meet in the championship match</li>
+          </ul>
+          <p>The Game Changer rule applies in all playoff matches.</p>
+        </div>
+      </div>
+
+      <!-- SECTION 5 - MANAGERS -->
+      <div class="rule-block card">
+        <div class="card-body">
+          <div class="rule-icon">🎽</div>
+          <h2>Managers & Team Ownership</h2>
+          <p>Each Baller League UK team is led by a celebrity manager — a recognisable face from football, entertainment, or social media. Managers are responsible for:</p>
+          <ul class="rule-list">
+            <li>Picking the starting lineup for each gameweek</li>
+            <li>Deciding tactics and substitutions during matches</li>
+            <li>Signing and releasing players during transfer windows</li>
+            <li>Representing the team in pre and post-match interviews</li>
+          </ul>
+          <p>Some teams also have an <strong>owner or president</strong> (such as KSI at Yanited) who sits above the manager and makes high-level decisions including player recruitment.</p>
+          <a href="/teams" class="btn btn-secondary" style="margin-top: var(--space-md);">Meet All 12 Managers</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- SIDEBAR CTA -->
+    <aside class="rules-aside">
+      <div class="card aside-card">
+        <div class="card-body">
+          <h4>Quick Navigation</h4>
+          <ul class="aside-links">
+            <li><a href="#format">Basic Format</a></li>
+            <li><a href="#rules">Key Rule Differences</a></li>
+            <li><a href="#gamechanger">Game Changers</a></li>
+            <li><a href="#season">Season Format</a></li>
+            <li><a href="#managers">Managers</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="card aside-card">
+        <div class="card-body">
+          <h4>Related Pages</h4>
+          <ul class="aside-links">
+            <li><a href="/compare">Kings League vs Baller League</a></li>
+            <li><a href="/teams">All 12 Teams</a></li>
+            <li><a href="/table">Current Standings</a></li>
+            <li><a href="/watch">Where to Watch</a></li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+
+  </div>
+
+</Base>
+
+<style>
+.rules-layout {
+  display: grid;
+  grid-template-columns: 1fr 260px;
+  grid-template-rows: auto auto;
+  gap: var(--space-xl);
+  padding-bottom: var(--space-3xl);
+}
+.rules-summary { grid-column: 1 / -1; margin-bottom: var(--space-sm); }
+.rules-content { display: flex; flex-direction: column; gap: var(--space-lg); }
+.rules-aside { display: flex; flex-direction: column; gap: var(--space-lg); align-self: start; position: sticky; top: calc(var(--nav-height) + 24px); }
+
+.rule-block { }
+.rule-icon { font-size: 2.4rem; margin-bottom: var(--space-md); }
+.rule-block h2 { margin-bottom: var(--space-md); }
+.rule-block h3 { font-size: 1.1rem; margin-top: var(--space-lg); margin-bottom: var(--space-sm); color: var(--text-primary); font-family: var(--font-body); font-weight: 700; }
+.rule-block p  { margin-bottom: var(--space-md); }
+
+.rule-list { list-style: none; display: flex; flex-direction: column; gap: var(--space-sm); }
+.rule-list li { font-size: 0.92rem; color: var(--text-secondary); padding-left: var(--space-md); position: relative; }
+.rule-list li::before { content: '→'; position: absolute; left: 0; color: var(--green); }
+.rule-list li strong { color: var(--text-primary); }
+
+/* Key Rules */
+.key-rules-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-md); margin-top: var(--space-lg); }
+.key-rule { background: var(--bg-elevated); border: 1px solid var(--border); border-radius: var(--radius); padding: var(--space-md); }
+.key-rule.no-rule  { border-left: 3px solid var(--orange); }
+.key-rule.yes-rule { border-left: 3px solid var(--green); }
+.key-rule h4 { font-size: 0.95rem; font-family: var(--font-body); font-weight: 700; color: var(--text-primary); margin-bottom: var(--space-sm); }
+.key-rule p { font-size: 0.85rem; margin: 0; }
+
+.key-rule-badge {
+  display: inline-block;
+  font-size: 0.6rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--orange);
+  border: 1px solid var(--orange);
+  border-radius: var(--radius-full);
+  padding: 2px 8px;
+  margin-bottom: var(--space-sm);
+}
+.key-rule-badge.yes { color: var(--green); border-color: var(--green); }
+
+/* Game Changer */
+.gamechanger-card { border: 1px solid rgba(0,230,118,0.25); background: linear-gradient(135deg, var(--bg-card), rgba(0,230,118,0.04)); }
+.gc-badge { display: inline-block; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--green); border: 1px solid var(--green); border-radius: var(--radius-full); padding: 3px 10px; margin-bottom: var(--space-sm); }
+.gc-intro { margin-bottom: var(--space-xl); }
+.gc-rules { display: flex; flex-direction: column; gap: var(--space-lg); margin-bottom: var(--space-xl); }
+.gc-rule { display: flex; gap: var(--space-lg); align-items: flex-start; }
+.gc-rule-num { font-family: var(--font-display); font-size: 3rem; color: var(--green); opacity: 0.3; line-height: 1; flex-shrink: 0; width: 48px; }
+.gc-rule h4 { font-size: 1rem; font-family: var(--font-body); font-weight: 700; color: var(--text-primary); margin-bottom: var(--space-xs); }
+.gc-rule p { font-size: 0.88rem; margin: 0; }
+
+.gc-callout {
+  background: var(--green-glow);
+  border: 1px solid rgba(0,230,118,0.2);
+  border-radius: var(--radius);
+  padding: var(--space-md);
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+/* Aside */
+.aside-card { }
+.aside-card h4 { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); margin-bottom: var(--space-md); }
+.aside-links { list-style: none; display: flex; flex-direction: column; gap: var(--space-sm); }
+.aside-links li a { font-size: 0.88rem; color: var(--text-secondary); transition: color var(--transition); }
+.aside-links li a:hover { color: var(--green); }
+
+@media (max-width: 900px) {
+  .rules-layout { grid-template-columns: 1fr; }
+  .rules-aside { position: static; }
+  .key-rules-grid { grid-template-columns: 1fr; }
+}
+</style>

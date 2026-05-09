@@ -1,0 +1,85 @@
+---
+export interface Props {
+  title: string;
+  slug: string;
+  date: Date;
+  category: string;
+  excerpt: string;
+  featured?: boolean;
+  gameweek?: number | null;
+}
+const { title, slug, date, category, excerpt, featured = false, gameweek = null } = Astro.props;
+
+const formattedDate = date.toLocaleDateString('en-GB', {
+  day: 'numeric', month: 'long', year: 'numeric'
+});
+
+const catClass =
+  category === 'Match Report'   ? 'cat-match'    :
+  category === 'Transfer News'  ? 'cat-transfer'  :
+  category === 'Preview'        ? 'cat-preview'   :
+  'cat-social';
+---
+<a href={`/news/${slug}`} class={`news-card card card-glow ${featured ? 'news-featured' : ''}`}>
+  <div class="card-body">
+    <div class="nc-meta">
+      <span class={`badge ${catClass}`}>{category}</span>
+      {gameweek && <span class="badge badge-gw">GW{gameweek}</span>}
+      <span class="nc-date">{formattedDate}</span>
+    </div>
+    <h3 class="nc-title">{title}</h3>
+    <p class="nc-excerpt">{excerpt}</p>
+    <span class="nc-read">Read more →</span>
+  </div>
+</a>
+
+<style>
+.news-card { display: block; text-decoration: none; }
+.news-featured { border-left: 3px solid var(--green); }
+
+.nc-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-md);
+  flex-wrap: wrap;
+}
+
+.nc-date { font-size: 0.8rem; color: var(--text-muted); }
+
+.badge-gw {
+  background: var(--bg-elevated);
+  color: var(--text-secondary);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.nc-title {
+  font-size: 1.35rem;
+  color: var(--text-primary);
+  margin-bottom: var(--space-sm);
+  line-height: 1.3;
+  transition: color var(--transition);
+}
+.news-card:hover .nc-title { color: var(--green); }
+
+.nc-excerpt {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: var(--space-md);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.nc-read {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--green);
+  transition: letter-spacing var(--transition);
+}
+.news-card:hover .nc-read { letter-spacing: 0.02em; }
+</style>

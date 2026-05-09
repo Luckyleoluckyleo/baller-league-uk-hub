@@ -1,0 +1,328 @@
+---
+import Base from '../layouts/Base.astro';
+import NewsCard from '../components/NewsCard.astro';
+import TeamCard from '../components/TeamCard.astro';
+import { getCollection } from 'astro:content';
+import tableData from '../data/table.json';
+import fixturesData from '../data/fixtures.json';
+import gcData from '../data/gamechangers.json';
+
+const allNews = await getCollection('news');
+
+function extractGW(slug: string): number {
+  const m = slug.match(/(?:gw|gameweek[-]?)(\d+)/i);
+  return m ? parseInt(m[1]) : 0;
+}
+
+const latestNews = allNews
+  .filter(a => a.data.category === 'Match Report')
+  .sort((a, b) => extractGW(b.slug) - extractGW(a.slug))
+  .slice(0, 3);
+
+const top3 = tableData.slice(0, 3);
+const upcomingFixtures = fixturesData.upcoming;
+const upcomingGW = upcomingFixtures[0]?.gameweek ?? 9;
+
+// Latest gameweek results from scraped data
+const s3Matches = (gcData.seasons['3']?.matches as any[] || []).filter((m: any) => m.homeScore > 0 || m.awayScore > 0);
+const gws = [...new Set(s3Matches.map((m: any) => m.gameweek))].sort((a: any, b: any) => b - a);
+const lastGW = gws[0] ?? 8;
+const recentResults = s3Matches.filter((m: any) => m.gameweek === lastGW);
+
+// Compute GF/GA for top 3
+const teamStats: Record<string, { gf: number; ga: number }> = {};
+for (const m of s3Matches) {
+  if (!teamStats[m.homeTeam]) teamStats[m.homeTeam] = { gf: 0, ga: 0 };
+  if (!teamStats[m.awayTeam]) teamStats[m.awayTeam] = { gf: 0, ga: 0 };
+  teamStats[m.homeTeam].gf += m.homeScore;
+  teamStats[m.homeTeam].ga += m.awayScore;
+  teamStats[m.awayTeam].gf += m.awayScore;
+  teamStats[m.awayTeam].ga += m.homeScore;
+}
+const computedTable = tableData.map(row => ({
+  ...row,
+  gf: teamStats[row.team]?.gf ?? row.gf,
+  ga: teamStats[row.team]?.ga ?? row.ga,
+}));
+
+function getForm(slug: string): { label: string; cls: string }[] {
+  const m = s3Matches
+    .filter((x: any) => (x.homeSlug === slug || x.awaySlug === slug))
+    .sort((a: any, b: any) => b.gameweek - a.gameweek)
+    .slice(0, 5);
+  return m.map((x: any) => {
+    const isHome = x.homeSlug === slug;
+    const gd = isHome ? x.homeScore - x.awayScore : x.awayScore - x.homeScore;
+    if (gd > 0) return { label: 'W', cls: 'form-win' };
+    if (gd < 0) return { label: 'L', cls: 'form-loss' };
+    return { label: 'D', cls: 'form-draw' };
+  });
+}
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "SportsOrganization",
+  "name": "Baller League UK",
+  "url": "https://ballerleagueuk.com",
+  "description": "Baller League UK is a 6v6 celebrity and influencer football league broadcast on Sky Sports and Twitch.",
+  "sport": "Football",
+  "location": { "@type": "Place", "name": "London, United Kingdom" }
+};
+---
+
+<Base
+  title="Baller League UK Hub – Stats, Table, Teams & Gamechangers"
+  description="The unofficial Baller League UK hub. Live table, fixtures, team profiles, player stats, Gamechanger analysis, roundups and news."
+  schema={schema}
+>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-grid-bg"></div>
+    <div class="container hero-content">
+      <div class="hero-eyebrow">⚽ Season 3 — Gameweek {upcomingGW} of 11</div>
+      <h1 class="hero-title">
+        Your Hub for
+        <span class="accent">Baller League UK</span>
+      </h1>
+      <p class="hero-subtitle">
+        6v6 football. Celebrity managers. The UK's most exciting football format — featuring KSI, Angry Ginge, Niko Omilana, Sharky, Mark Goldbridge and more.
+      </p>
+      <div class="hero-actions">
+        <a href="/table" class="btn btn-primary btn-lg">View League Table</a>
+        <a href="/rules" class="btn btn-secondary btn-lg">How It Works</a>
+        <a href="/watch" class="btn btn-ghost btn-lg">Watch Live</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="hero-stat-number">12</div>
+          <div class="hero-stat-label">Teams</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-number">6v6</div>
+          <div class="hero-stat-label">Format</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-number">30</div>
+          <div class="hero-stat-label">Min Matches</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-number">11</div>
+          <div class="hero-stat-label">Game Season</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TOP 3 TABLE WIDGET -->
+  <section class="section section--sm">
+    <div class="container">
+      <div class="section-header flex-between">
+        <div>
+          <div class="section-label">Standings</div>
+          <h2 class="section-title">Top of the Table</h2>
+        </div>
+        <a href="/table" class="view-all">Full Table</a>
+      </div>
+
+      <div class="table-wrap home-table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Team</th>
+              <th>W</th>
+              <th>D</th>
+              <th>L</th>
+              <th>GF</th>
+              <th>GA</th>
+              <th>GD</th>
+              <th>Form</th>
+              <th>PTS</th>
+            </tr>
+          </thead>
+          <tbody>
+            {computedTable.map(row => (
+              <tr>
+                <td><span class={`pos-num ${row.pos <= 4 ? 'top-4' : ''}`}>{row.pos}</span></td>
+                <td>
+                  <a href={`/teams/${row.slug}`} class="td-team-name">
+                    <img src={`/logos/${row.slug}.svg`} class="td-logo" onerror="this.hidden=true" alt="" />
+                    <span class="team-badge td-emoji-fallback">{row.emoji}</span>
+                    {row.team}
+                  </a>
+                </td>
+                <td>{row.won}</td>
+                <td>{row.drawn}</td>
+                <td>{row.lost}</td>
+                <td>{row.gf}</td>
+                <td>{row.ga}</td>
+                <td class={row.gd > 0 ? 'text-green' : row.gd < 0 ? 'text-orange' : ''}>{row.gd > 0 ? `+${row.gd}` : row.gd}</td>
+                <td class="form-cell" style="display:flex;gap:3px;">
+                  {getForm(row.slug).map(f => (
+                    <span class={`form-badge ${f.cls}`}>{f.label}</span>
+                  ))}
+                </td>
+                <td class="pts-cell">{row.pts}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p class="table-note text-muted">🟢 Top 4 qualify for the Final Four playoffs</p>
+    </div>
+  </section>
+
+  <!-- FIXTURES AND RESULTS TWO-COL -->
+  <section class="section section--sm" style="background: var(--bg-secondary); padding-top: var(--space-2xl); padding-bottom: var(--space-2xl);">
+    <div class="container">
+      <div class="fixtures-grid">
+
+        <div>
+          <div class="section-header flex-between">
+            <div>
+              <div class="section-label">Gameweek {upcomingGW}</div>
+              <h2 class="section-title">Upcoming Fixtures</h2>
+            </div>
+            <a href="/table" class="view-all">All Fixtures</a>
+          </div>
+          <div class="fixtures-list">
+            {upcomingFixtures.map(f => (
+              <div class="fixture-card">
+                <div class="fixture-team home">
+                  <img src={`/logos/${f.homeSlug}.svg`} class="td-logo" style="width:28px;height:28px;" onerror="this.hidden=true" alt="" />
+                  <span class="fixture-team-name">{f.homeTeam}</span>
+                </div>
+                <div class="fixture-vs-box">
+                  <div class="fixture-score">vs</div>
+                  <div class="fixture-date">{f.time}</div>
+                </div>
+                <div class="fixture-team away">
+                  <img src={`/logos/${f.awaySlug}.svg`} class="td-logo" style="width:28px;height:28px;" onerror="this.hidden=true" alt="" />
+                  <span class="fixture-team-name">{f.awayTeam}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div>
+          <div class="section-header flex-between">
+            <div>
+              <div class="section-label">Gameweek {lastGW}</div>
+              <h2 class="section-title">Recent Results</h2>
+            </div>
+          </div>
+          <div class="fixtures-list">
+            {recentResults.map(r => (
+              <div class="fixture-card">
+                <div class="fixture-team home">
+                  <img src={`/logos/${r.homeSlug}.svg`} class="td-logo" style="width:28px;height:28px;" onerror="this.hidden=true" alt="" />
+                  <span class="fixture-team-name">{r.homeTeam}</span>
+                </div>
+                <div class="fixture-vs-box">
+                  <div class="fixture-score">{r.homeScore}–{r.awayScore}</div>
+                  <div class="fixture-date">FT</div>
+                </div>
+                <div class="fixture-team away">
+                  <img src={`/logos/${r.awaySlug}.svg`} class="td-logo" style="width:28px;height:28px;" onerror="this.hidden=true" alt="" />
+                  <span class="fixture-team-name">{r.awayTeam}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- LATEST NEWS -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header flex-between">
+        <div>
+          <div class="section-label">Latest</div>
+          <h2 class="section-title">News & Reports</h2>
+        </div>
+        <a href="/news" class="view-all">All News</a>
+      </div>
+      <div class="grid-3">
+        {latestNews.map(article => (
+          <NewsCard
+            title={article.data.title}
+            slug={article.slug}
+            date={article.data.date}
+            category={article.data.category}
+            excerpt={article.data.excerpt}
+            featured={article.data.featured}
+            gameweek={extractGW(article.slug)}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT CALLOUT -->
+  <section class="section--sm about-callout">
+    <div class="container">
+      <div class="callout-card card">
+        <div class="card-body callout-inner">
+          <div>
+            <div class="section-label">New to Baller League?</div>
+            <h2 class="section-title">What is Baller League UK?</h2>
+            <p>
+              Baller League UK is a 6-a-side celebrity football league where influencers, footballers
+              and entertainers manage teams in a fast-paced, entertainment-first competition.
+              Think King League, but British — with Sky Sports coverage, a packed arena
+              and a packed roster of UK talent.
+            </p>
+            <div class="callout-actions">
+              <a href="/rules" class="btn btn-primary">Read the Rules</a>
+              <a href="/teams" class="btn btn-ghost">Meet the Teams</a>
+            </div>
+          </div>
+          <div class="callout-stats">
+            <div class="stat-box"><div class="stat-box-number">6v6</div><div class="stat-box-label">Players per side</div></div>
+            <div class="stat-box"><div class="stat-box-number">30</div><div class="stat-box-label">Minutes per game</div></div>
+            <div class="stat-box"><div class="stat-box-number">0</div><div class="stat-box-label">Offside rule</div></div>
+            <div class="stat-box"><div class="stat-box-number">3v3</div><div class="stat-box-label">Game Changer</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</Base>
+
+<style>
+.home-table-wrap { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-lg); margin-bottom: var(--space-md); }
+.table-note { font-size: 0.78rem; }
+
+.fixtures-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-2xl);
+}
+.fixtures-list { display: flex; flex-direction: column; gap: var(--space-sm); }
+
+.callout-card { border: 1px solid var(--border); }
+.callout-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-2xl);
+  align-items: center;
+}
+.callout-inner p { margin-bottom: var(--space-lg); }
+.callout-actions { display: flex; gap: var(--space-sm); flex-wrap: wrap; }
+.callout-stats { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-md); }
+
+@media (max-width: 768px) {
+  .fixtures-grid { grid-template-columns: 1fr; gap: var(--space-xl); }
+  .callout-inner { grid-template-columns: 1fr; }
+}
+.form-badge { width: 22px; height: 22px; display: inline-flex; align-items: center; justify-content: center; border-radius: 4px; font-size: 0.65rem; font-weight: 800; }
+.form-win { background: rgba(0,230,118,0.15); color: var(--green); }
+.form-loss { background: rgba(255,107,53,0.12); color: var(--orange); }
+.form-draw { background: rgba(255,214,0,0.12); color: var(--gold); }
+</style>

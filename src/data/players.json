@@ -1,0 +1,2843 @@
+{
+  "players": [
+    {
+      "slug": "abdulahi-abdulazeez",
+      "name": "Abdulahi Abdulazeez",
+      "team": "Wembley Rangers AFC",
+      "teamSlug": "wembley-rangers-afc",
+      "position": "Striker",
+      "age": null,
+      "number": 10,
+      "seasons": {
+        "3": {
+          "apps": 6,
+          "goals": 1,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "adam-dawson",
+      "name": "Adam Dawson",
+      "team": "Deportrio",
+      "teamSlug": "deportrio",
+      "position": "Midfielder",
+      "age": null,
+      "number": 10,
+      "seasons": {
+        "3": {
+          "apps": 0,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {
+            "Tickets On Sale Now for The Final Four at The O": 2,
+            "on Monday": 25,
+            "Baller League": 2026,
+            "sweetalert": 2
+          }
+        }
+      }
+    },
+    {
+      "slug": "addison-garnett",
+      "name": "Addison Garnett",
+      "team": "N5 FC",
+      "teamSlug": "n5-fc",
+      "position": "Defender",
+      "age": null,
+      "number": 16,
+      "seasons": {
+        "3": {
+          "apps": 6,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "adrian-tajik",
+      "name": "Adrian Tajik",
+      "team": "VZN FC",
+      "teamSlug": "vzn-fc",
+      "position": "Striker",
+      "age": null,
+      "number": 11,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 2,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "aiden-prall",
+      "name": "Aiden Prall",
+      "team": "Rukkas FC",
+      "teamSlug": "rukkas-fc",
+      "position": "Goalkeeper",
+      "age": null,
+      "number": 1,
+      "seasons": {
+        "3": {
+          "apps": 3,
+          "goals": 0,
+          "assists": 1,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "albie-sheehan",
+      "name": "Albie Sheehan",
+      "team": "Clutch FC",
+      "teamSlug": "clutch-fc",
+      "position": "Defender",
+      "age": null,
+      "number": 5,
+      "seasons": {
+        "3": {
+          "apps": 5,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "alex-byrne",
+      "name": "Alex Byrne",
+      "team": "Community FC",
+      "teamSlug": "community-fc",
+      "position": "Striker",
+      "age": null,
+      "number": 10,
+      "seasons": {
+        "3": {
+          "apps": 7,
+          "goals": 8,
+          "assists": 6,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "alfie-matthews",
+      "name": "Alfie Matthews",
+      "team": "Clutch FC",
+      "teamSlug": "clutch-fc",
+      "position": "Striker",
+      "age": null,
+      "number": 8,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 12,
+          "assists": 4,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "amadou-kassarate",
+      "name": "Amadou Kassaraté",
+      "team": "NDL FC",
+      "teamSlug": "ndl-fc",
+      "position": "Defender",
+      "age": null,
+      "number": 47,
+      "seasons": {
+        "3": {
+          "apps": 4,
+          "goals": 1,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "amin-belaid",
+      "name": "Amin Belaid",
+      "team": "NDL FC",
+      "teamSlug": "ndl-fc",
+      "position": "Striker",
+      "age": null,
+      "number": 7,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 3,
+          "assists": 6,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "amine-sassi",
+      "name": "Amine Sassi",
+      "team": "Deportrio",
+      "teamSlug": "deportrio",
+      "position": "Midfielder",
+      "age": null,
+      "number": 94,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 1,
+          "assists": 2,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "arezki-hamouchene",
+      "name": "Arezki Hamouchene",
+      "team": "Gold Devils FC",
+      "teamSlug": "gold-devils-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 18,
+      "seasons": {
+        "3": {
+          "apps": 3,
+          "goals": 1,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "arjun-jung",
+      "name": "Arjun Jung",
+      "team": "Wembley Rangers AFC",
+      "teamSlug": "wembley-rangers-afc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 12,
+      "seasons": {
+        "3": {
+          "apps": 6,
+          "goals": 1,
+          "assists": 4,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "bayli-spencer-adams",
+      "name": "Bayli Spencer-Adams",
+      "team": "Yanited",
+      "teamSlug": "yanited",
+      "position": "Defender",
+      "age": null,
+      "number": 4,
+      "seasons": {
+        "3": {
+          "apps": 2,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "ben-long",
+      "name": "Ben Long",
+      "team": "Wembley Rangers AFC",
+      "teamSlug": "wembley-rangers-afc",
+      "position": "Defender",
+      "age": null,
+      "number": 5,
+      "seasons": {
+        "3": {
+          "apps": 7,
+          "goals": 2,
+          "assists": 1,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "bilal-sayoud",
+      "name": "Bilal Sayoud",
+      "team": "Gold Devils FC",
+      "teamSlug": "gold-devils-fc",
+      "position": "Striker",
+      "age": null,
+      "number": 23,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 7,
+          "assists": 7,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "bradley-williams",
+      "name": "Bradley Williams",
+      "team": "Rukkas FC",
+      "teamSlug": "rukkas-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 22,
+      "seasons": {
+        "3": {
+          "apps": 6,
+          "goals": 1,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "braulio-valera-pinto-maieco",
+      "name": "Bráulio Valera Pinto Maieco",
+      "team": "Prime FC",
+      "teamSlug": "prime-fc",
+      "position": "Striker",
+      "age": null,
+      "number": 17,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 8,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "bryan-ly",
+      "name": "Bryan Ly",
+      "team": "Clutch FC",
+      "teamSlug": "clutch-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 27,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 1,
+          "assists": 1,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "callam-gardner",
+      "name": "Callam Gardner",
+      "team": "Wembley Rangers AFC",
+      "teamSlug": "wembley-rangers-afc",
+      "position": "Striker",
+      "age": null,
+      "number": 7,
+      "seasons": {
+        "3": {
+          "apps": 7,
+          "goals": 5,
+          "assists": 1,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "callum-charlton",
+      "name": "Callum Charlton",
+      "team": "Community FC",
+      "teamSlug": "community-fc",
+      "position": "Defender",
+      "age": null,
+      "number": 3,
+      "seasons": {
+        "3": {
+          "apps": 6,
+          "goals": 1,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "callum-rowe",
+      "name": "Callum Rowe",
+      "team": "Community FC",
+      "teamSlug": "community-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 21,
+      "seasons": {
+        "3": {
+          "apps": 5,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "calum-butcher",
+      "name": "Calum Butcher",
+      "team": "Yanited",
+      "teamSlug": "yanited",
+      "position": "Midfielder",
+      "age": null,
+      "number": 66,
+      "seasons": {
+        "3": {
+          "apps": 7,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "camilo-restrepo",
+      "name": "Camilo Restrepo",
+      "team": "SDS FC",
+      "teamSlug": "sds-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 99,
+      "seasons": {
+        "3": {
+          "apps": 7,
+          "goals": 4,
+          "assists": 1,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "che-krabbendam",
+      "name": "Che Krabbendam",
+      "team": "VZN FC",
+      "teamSlug": "vzn-fc",
+      "position": "Defender",
+      "age": null,
+      "number": 2,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 1,
+          "assists": 3,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "chiekh-thiam",
+      "name": "Chiekh Thiam",
+      "team": "Wembley Rangers AFC",
+      "teamSlug": "wembley-rangers-afc",
+      "position": "Defender",
+      "age": null,
+      "number": 77,
+      "seasons": {
+        "3": {
+          "apps": 5,
+          "goals": 1,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "ciaran-clark",
+      "name": "Ciaran Clark",
+      "team": "NDL FC",
+      "teamSlug": "ndl-fc",
+      "position": "Defender",
+      "age": null,
+      "number": 5,
+      "seasons": {
+        "3": {
+          "apps": 7,
+          "goals": 0,
+          "assists": 1,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "connor-wood",
+      "name": "Connor Wood",
+      "team": "SDS FC",
+      "teamSlug": "sds-fc",
+      "position": "Defender",
+      "age": null,
+      "number": 23,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 6,
+          "assists": 2,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "daniel-atherton",
+      "name": "Daniel Atherton",
+      "team": "Deportrio",
+      "teamSlug": "deportrio",
+      "position": "Goalkeeper",
+      "age": null,
+      "number": 1,
+      "seasons": {
+        "3": {
+          "apps": 5,
+          "goals": 0,
+          "assists": 1,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "daniel-bowry",
+      "name": "Daniel Bowry",
+      "team": "VZN FC",
+      "teamSlug": "vzn-fc",
+      "position": "Defender",
+      "age": null,
+      "number": 8,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 4,
+          "assists": 2,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "danny-bassett",
+      "name": "Danny Bassett",
+      "team": "SDS FC",
+      "teamSlug": "sds-fc",
+      "position": "Striker",
+      "age": null,
+      "number": 7,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 3,
+          "assists": 1,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "dara-dada",
+      "name": "Dara Dada",
+      "team": "NDL FC",
+      "teamSlug": "ndl-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 20,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 7,
+          "assists": 2,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "david-marques-castanho",
+      "name": "David Marques Castanho",
+      "team": "Clutch FC",
+      "teamSlug": "clutch-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 10,
+      "seasons": {
+        "3": {
+          "apps": 7,
+          "goals": 3,
+          "assists": 2,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "david-oupoh",
+      "name": "David Oupoh",
+      "team": "Rukkas FC",
+      "teamSlug": "rukkas-fc",
+      "position": "Striker",
+      "age": null,
+      "number": 77,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 5,
+          "assists": 1,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "declan-mccarthy",
+      "name": "Declan McCarthy",
+      "team": "VZN FC",
+      "teamSlug": "vzn-fc",
+      "position": "Goalkeeper",
+      "age": null,
+      "number": 1,
+      "seasons": {
+        "3": {
+          "apps": 0,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {
+            "Tickets On Sale Now for The Final Four at The O": 2,
+            "on Monday": 25,
+            "Baller League": 2026,
+            "sweetalert": 2
+          }
+        }
+      }
+    },
+    {
+      "slug": "devonte-totesaut",
+      "name": "Devonte Totesaut",
+      "team": "Wembley Rangers AFC",
+      "teamSlug": "wembley-rangers-afc",
+      "position": "Striker",
+      "age": null,
+      "number": 9,
+      "seasons": {
+        "3": {
+          "apps": 4,
+          "goals": 1,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "dillon-barnes",
+      "name": "Dillon Barnes",
+      "team": "NDL FC",
+      "teamSlug": "ndl-fc",
+      "position": "Goalkeeper",
+      "age": null,
+      "number": 1,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 0,
+          "assists": 3,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "domingos-pires",
+      "name": "Domingos Pires",
+      "team": "Wembley Rangers AFC",
+      "teamSlug": "wembley-rangers-afc",
+      "position": "Striker",
+      "age": null,
+      "number": 11,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 3,
+          "assists": 1,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "dominic-morgan-griffiths",
+      "name": "Dominic Morgan Griffiths",
+      "team": "Wembley Rangers AFC",
+      "teamSlug": "wembley-rangers-afc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 80,
+      "seasons": {
+        "3": {
+          "apps": 7,
+          "goals": 1,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "ebenezer-addo-kufuor",
+      "name": "Ebenezer Addo-Kufuor",
+      "team": "SDS FC",
+      "teamSlug": "sds-fc",
+      "position": "Defender",
+      "age": null,
+      "number": 2,
+      "seasons": {
+        "3": {
+          "apps": 7,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "emmanuel-robe",
+      "name": "Emmanuel Robe",
+      "team": "Rukkas FC",
+      "teamSlug": "rukkas-fc",
+      "position": "Striker",
+      "age": null,
+      "number": 14,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 2,
+          "assists": 3,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "eric-de-melo",
+      "name": "Eric De Melo",
+      "team": "VZN FC",
+      "teamSlug": "vzn-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 33,
+      "seasons": {
+        "3": {
+          "apps": 6,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "erick-kenko",
+      "name": "Erick Kenko",
+      "team": "Clutch FC",
+      "teamSlug": "clutch-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 38,
+      "seasons": {
+        "3": {
+          "apps": 4,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "ethan-kachosa",
+      "name": "Ethan Kachosa",
+      "team": "Prime FC",
+      "teamSlug": "prime-fc",
+      "position": "Defender",
+      "age": null,
+      "number": 5,
+      "seasons": {
+        "3": {
+          "apps": 2,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "evans-kouassi",
+      "name": "Evans Kouassi",
+      "team": "Clutch FC",
+      "teamSlug": "clutch-fc",
+      "position": "Striker",
+      "age": null,
+      "number": 77,
+      "seasons": {
+        "3": {
+          "apps": 5,
+          "goals": 2,
+          "assists": 1,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "florian-kastrati",
+      "name": "Florian Kastrati",
+      "team": "VZN FC",
+      "teamSlug": "vzn-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 7,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 5,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "francis-gerard-mampolo",
+      "name": "Francis Gerard Mampolo",
+      "team": "Prime FC",
+      "teamSlug": "prime-fc",
+      "position": "Striker",
+      "age": null,
+      "number": 11,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 14,
+          "assists": 3,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "frank-keita",
+      "name": "Frank Keita",
+      "team": "SDS FC",
+      "teamSlug": "sds-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 27,
+      "seasons": {
+        "3": {
+          "apps": 4,
+          "goals": 0,
+          "assists": 1,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "george-chmiel",
+      "name": "George Chmiel",
+      "team": "Community FC",
+      "teamSlug": "community-fc",
+      "position": "Striker",
+      "age": null,
+      "number": 8,
+      "seasons": {
+        "3": {
+          "apps": 7,
+          "goals": 1,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "george-nikaj",
+      "name": "George Nikaj",
+      "team": "VZN FC",
+      "teamSlug": "vzn-fc",
+      "position": "Striker",
+      "age": null,
+      "number": 10,
+      "seasons": {
+        "3": {
+          "apps": 6,
+          "goals": 7,
+          "assists": 3,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "hafed-al-droubi",
+      "name": "Hafed Al Droubi",
+      "team": "SDS FC",
+      "teamSlug": "sds-fc",
+      "position": "Goalkeeper",
+      "age": null,
+      "number": 1,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 1,
+          "assists": 2,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "hani-berchiche",
+      "name": "Hani Berchiche",
+      "team": "Prime FC",
+      "teamSlug": "prime-fc",
+      "position": "Defender",
+      "age": null,
+      "number": 8,
+      "seasons": {
+        "3": {
+          "apps": 4,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "hassan-jalloh",
+      "name": "Hassan Jalloh",
+      "team": "Wembley Rangers AFC",
+      "teamSlug": "wembley-rangers-afc",
+      "position": "Striker",
+      "age": null,
+      "number": 19,
+      "seasons": {
+        "3": {
+          "apps": 3,
+          "goals": 1,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "hubert-graczyk",
+      "name": "Hubert Graczyk",
+      "team": "Yanited",
+      "teamSlug": "yanited",
+      "position": "Goalkeeper",
+      "age": null,
+      "number": 1,
+      "seasons": {
+        "3": {
+          "apps": 7,
+          "goals": 0,
+          "assists": 2,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "ibrahim-ugradar",
+      "name": "Ibrahim Ugradar",
+      "team": "N5 FC",
+      "teamSlug": "n5-fc",
+      "position": "Goalkeeper",
+      "age": null,
+      "number": 1,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 1,
+          "assists": 2,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "isaac-modi",
+      "name": "Isaac Modi",
+      "team": "NDL FC",
+      "teamSlug": "ndl-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 23,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 5,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "j-ardell-stirling",
+      "name": "J&#039;ardell Stirling",
+      "team": "Deportrio",
+      "teamSlug": "deportrio",
+      "position": "Defender",
+      "age": null,
+      "number": 17,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 2,
+          "assists": 3,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "jack-connors",
+      "name": "Jack Connors",
+      "team": "Wembley Rangers AFC",
+      "teamSlug": "wembley-rangers-afc",
+      "position": "Defender",
+      "age": null,
+      "number": 3,
+      "seasons": {
+        "3": {
+          "apps": 6,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "jack-mcconnell",
+      "name": "Jack McConnell",
+      "team": "Deportrio",
+      "teamSlug": "deportrio",
+      "position": "Defender",
+      "age": null,
+      "number": 23,
+      "seasons": {
+        "3": {
+          "apps": 4,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "james-nolan",
+      "name": "James Nolan",
+      "team": "Gold Devils FC",
+      "teamSlug": "gold-devils-fc",
+      "position": "Defender",
+      "age": null,
+      "number": 3,
+      "seasons": {
+        "3": {
+          "apps": 5,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "jay-emmanuel-thomas",
+      "name": "Jay Emmanuel-Thomas",
+      "team": "Deportrio",
+      "teamSlug": "deportrio",
+      "position": "Striker",
+      "age": null,
+      "number": 50,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 15,
+          "assists": 6,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "jean-baptiste-fischer",
+      "name": "Jean-Baptiste Fischer",
+      "team": "N5 FC",
+      "teamSlug": "n5-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 5,
+      "seasons": {
+        "3": {
+          "apps": 5,
+          "goals": 1,
+          "assists": 1,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "jesus-abreu",
+      "name": "Jesus Abreu",
+      "team": "Rukkas FC",
+      "teamSlug": "rukkas-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 6,
+      "seasons": {
+        "3": {
+          "apps": 4,
+          "goals": 1,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "jezreel-davies",
+      "name": "Jezreel Davies",
+      "team": "N5 FC",
+      "teamSlug": "n5-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 10,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 3,
+          "assists": 4,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "joe-bennett",
+      "name": "Joe Bennett",
+      "team": "N5 FC",
+      "teamSlug": "n5-fc",
+      "position": "Defender",
+      "age": null,
+      "number": 10,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 11,
+          "assists": 2,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "john-bostock",
+      "name": "John Bostock",
+      "team": "Yanited",
+      "teamSlug": "yanited",
+      "position": "Midfielder",
+      "age": null,
+      "number": 15,
+      "seasons": {
+        "3": {
+          "apps": 6,
+          "goals": 4,
+          "assists": 1,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "jordan-antonio-brown",
+      "name": "Jordan Antonio Brown",
+      "team": "NDL FC",
+      "teamSlug": "ndl-fc",
+      "position": "Defender",
+      "age": null,
+      "number": 96,
+      "seasons": {
+        "3": {
+          "apps": 1,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "jordon-thompson",
+      "name": "Jordon Thompson",
+      "team": "Gold Devils FC",
+      "teamSlug": "gold-devils-fc",
+      "position": "Defender",
+      "age": null,
+      "number": 6,
+      "seasons": {
+        "3": {
+          "apps": 6,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "josh-harrop",
+      "name": "Josh Harrop",
+      "team": "Deportrio",
+      "teamSlug": "deportrio",
+      "position": "Midfielder",
+      "age": null,
+      "number": 8,
+      "seasons": {
+        "3": {
+          "apps": 4,
+          "goals": 1,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "joshua-abbott",
+      "name": "Joshua Abbott",
+      "team": "SDS FC",
+      "teamSlug": "sds-fc",
+      "position": "Defender",
+      "age": null,
+      "number": 14,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 4,
+          "assists": 2,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "joshua-emmanuel",
+      "name": "Joshua Emmanuel",
+      "team": "Yanited",
+      "teamSlug": "yanited",
+      "position": "Defender",
+      "age": null,
+      "number": 2,
+      "seasons": {
+        "3": {
+          "apps": 7,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "junaid-raia",
+      "name": "Junaid Raia",
+      "team": "Community FC",
+      "teamSlug": "community-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 41,
+      "seasons": {
+        "3": {
+          "apps": 0,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "kadell-daniel",
+      "name": "Kadell Daniel",
+      "team": "Yanited",
+      "teamSlug": "yanited",
+      "position": "Striker",
+      "age": null,
+      "number": 45,
+      "seasons": {
+        "3": {
+          "apps": 5,
+          "goals": 7,
+          "assists": 3,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "kazaiah-sterling",
+      "name": "Kazaiah Sterling",
+      "team": "SDS FC",
+      "teamSlug": "sds-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 45,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 5,
+          "assists": 4,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "keane-joyce",
+      "name": "Keane Joyce",
+      "team": "Community FC",
+      "teamSlug": "community-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 6,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 3,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "keir-dickson",
+      "name": "Keir Dickson",
+      "team": "Clutch FC",
+      "teamSlug": "clutch-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 11,
+      "seasons": {
+        "3": {
+          "apps": 4,
+          "goals": 1,
+          "assists": 2,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "kieron-freeman",
+      "name": "Kieron Freeman",
+      "team": "N5 FC",
+      "teamSlug": "n5-fc",
+      "position": "Defender",
+      "age": null,
+      "number": 13,
+      "seasons": {
+        "3": {
+          "apps": 7,
+          "goals": 1,
+          "assists": 2,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "kojo-apenteng",
+      "name": "Kojo Apenteng",
+      "team": "Gold Devils FC",
+      "teamSlug": "gold-devils-fc",
+      "position": "Defender",
+      "age": null,
+      "number": 2,
+      "seasons": {
+        "3": {
+          "apps": 6,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "kristian-campbell",
+      "name": "Kristian Campbell",
+      "team": "Wembley Rangers AFC",
+      "teamSlug": "wembley-rangers-afc",
+      "position": "Defender",
+      "age": null,
+      "number": 33,
+      "seasons": {
+        "3": {
+          "apps": 7,
+          "goals": 2,
+          "assists": 1,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "krystian-pearce",
+      "name": "Krystian Pearce",
+      "team": "Deportrio",
+      "teamSlug": "deportrio",
+      "position": "Defender",
+      "age": null,
+      "number": 5,
+      "seasons": {
+        "3": {
+          "apps": 5,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "louie-johnson",
+      "name": "Louie Johnson",
+      "team": "Gold Devils FC",
+      "teamSlug": "gold-devils-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 8,
+      "seasons": {
+        "3": {
+          "apps": 5,
+          "goals": 0,
+          "assists": 2,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "luqman-kassim",
+      "name": "Luqman Kassim",
+      "team": "Gold Devils FC",
+      "teamSlug": "gold-devils-fc",
+      "position": "Striker",
+      "age": null,
+      "number": 14,
+      "seasons": {
+        "3": {
+          "apps": 5,
+          "goals": 3,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "marvel-ekpiteta",
+      "name": "Marvel Ekpiteta",
+      "team": "Gold Devils FC",
+      "teamSlug": "gold-devils-fc",
+      "position": "Defender",
+      "age": null,
+      "number": 22,
+      "seasons": {
+        "3": {
+          "apps": 7,
+          "goals": 1,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "marvin-sordell",
+      "name": "Marvin Sordell",
+      "team": "Deportrio",
+      "teamSlug": "deportrio",
+      "position": "Striker",
+      "age": null,
+      "number": 88,
+      "seasons": {
+        "3": {
+          "apps": 6,
+          "goals": 2,
+          "assists": 1,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "matthew-waller",
+      "name": "Matthew Waller",
+      "team": "Community FC",
+      "teamSlug": "community-fc",
+      "position": "Striker",
+      "age": null,
+      "number": 45,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 3,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "mauro-vilhete",
+      "name": "Mauro Vilhete",
+      "team": "Prime FC",
+      "teamSlug": "prime-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 20,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 1,
+          "assists": 4,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "max-pitman",
+      "name": "Max Pitman",
+      "team": "Wembley Rangers AFC",
+      "teamSlug": "wembley-rangers-afc",
+      "position": "Goalkeeper",
+      "age": null,
+      "number": 1,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 0,
+          "assists": 1,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "medy-elito",
+      "name": "Medy Elito",
+      "team": "Yanited",
+      "teamSlug": "yanited",
+      "position": "Midfielder",
+      "age": null,
+      "number": 21,
+      "seasons": {
+        "3": {
+          "apps": 6,
+          "goals": 0,
+          "assists": 2,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "michael-folivi",
+      "name": "Michael Folivi",
+      "team": "Yanited",
+      "teamSlug": "yanited",
+      "position": "Striker",
+      "age": null,
+      "number": 9,
+      "seasons": {
+        "3": {
+          "apps": 6,
+          "goals": 0,
+          "assists": 1,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "michael-hill",
+      "name": "Michael Hill",
+      "team": "N5 FC",
+      "teamSlug": "n5-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 26,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 14,
+          "assists": 6,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "montel-mckenzie",
+      "name": "Montel McKenzie",
+      "team": "Prime FC",
+      "teamSlug": "prime-fc",
+      "position": "Defender",
+      "age": null,
+      "number": 3,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 2,
+          "assists": 4,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "mulugeta-kidu",
+      "name": "Mulugeta Kidu",
+      "team": "Community FC",
+      "teamSlug": "community-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 99,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 1,
+          "assists": 3,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "mussa-bham",
+      "name": "Mussa Bham",
+      "team": "Rukkas FC",
+      "teamSlug": "rukkas-fc",
+      "position": "Striker",
+      "age": null,
+      "number": 7,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 5,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "mustapha-carayol",
+      "name": "Mustapha Carayol",
+      "team": "N5 FC",
+      "teamSlug": "n5-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 18,
+      "seasons": {
+        "3": {
+          "apps": 4,
+          "goals": 1,
+          "assists": 1,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "nathan-oduwa",
+      "name": "Nathan Oduwa",
+      "team": "Yanited",
+      "teamSlug": "yanited",
+      "position": "Midfielder",
+      "age": null,
+      "number": 17,
+      "seasons": {
+        "3": {
+          "apps": 7,
+          "goals": 1,
+          "assists": 2,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "nile-ranger",
+      "name": "Nile Ranger",
+      "team": "N5 FC",
+      "teamSlug": "n5-fc",
+      "position": "Striker",
+      "age": null,
+      "number": 50,
+      "seasons": {
+        "3": {
+          "apps": 6,
+          "goals": 2,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "nya-kirby",
+      "name": "Nya Kirby",
+      "team": "SDS FC",
+      "teamSlug": "sds-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 5,
+      "seasons": {
+        "3": {
+          "apps": 7,
+          "goals": 1,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "osman-ali",
+      "name": "Osman Ali",
+      "team": "Rukkas FC",
+      "teamSlug": "rukkas-fc",
+      "position": "Defender",
+      "age": null,
+      "number": 4,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 2,
+          "assists": 2,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "paul-jose-mpoku",
+      "name": "Paul-José M&#039;Poku",
+      "team": "Yanited",
+      "teamSlug": "yanited",
+      "position": "Midfielder",
+      "age": null,
+      "number": 40,
+      "seasons": {
+        "3": {
+          "apps": 7,
+          "goals": 2,
+          "assists": 2,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "pique-humble",
+      "name": "Pique Humble",
+      "team": "Rukkas FC",
+      "teamSlug": "rukkas-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 17,
+      "seasons": {
+        "3": {
+          "apps": 2,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "remy-clerima",
+      "name": "Remy Clerima",
+      "team": "Clutch FC",
+      "teamSlug": "clutch-fc",
+      "position": "Defender",
+      "age": null,
+      "number": 20,
+      "seasons": {
+        "3": {
+          "apps": 7,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "richard-afrane-kesey",
+      "name": "Richard Afrane-Kesey",
+      "team": "Clutch FC",
+      "teamSlug": "clutch-fc",
+      "position": "Striker",
+      "age": null,
+      "number": 4,
+      "seasons": {
+        "3": {
+          "apps": 6,
+          "goals": 4,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "rodney-ajayi",
+      "name": "Rodney Ajayi",
+      "team": "Deportrio",
+      "teamSlug": "deportrio",
+      "position": "Striker",
+      "age": null,
+      "number": 6,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 1,
+          "assists": 1,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "rohdell-gordon",
+      "name": "Rohdell Gordon",
+      "team": "VZN FC",
+      "teamSlug": "vzn-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 17,
+      "seasons": {
+        "3": {
+          "apps": 6,
+          "goals": 0,
+          "assists": 1,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "ruben-junior",
+      "name": "Ruben Junior",
+      "team": "N5 FC",
+      "teamSlug": "n5-fc",
+      "position": "Striker",
+      "age": null,
+      "number": 45,
+      "seasons": {
+        "3": {
+          "apps": 4,
+          "goals": 0,
+          "assists": 1,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "ryan-gondoh",
+      "name": "Ryan Gondoh",
+      "team": "Gold Devils FC",
+      "teamSlug": "gold-devils-fc",
+      "position": "Striker",
+      "age": null,
+      "number": 99,
+      "seasons": {
+        "3": {
+          "apps": 5,
+          "goals": 1,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "ryan-tunnicliffe",
+      "name": "Ryan Tunnicliffe",
+      "team": "N5 FC",
+      "teamSlug": "n5-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 46,
+      "seasons": {
+        "3": {
+          "apps": 6,
+          "goals": 1,
+          "assists": 2,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "sak-hassan",
+      "name": "Sak Hassan",
+      "team": "Prime FC",
+      "teamSlug": "prime-fc",
+      "position": "Striker",
+      "age": null,
+      "number": 7,
+      "seasons": {
+        "3": {
+          "apps": 7,
+          "goals": 5,
+          "assists": 4,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "salim-nassor",
+      "name": "Salim Nassor",
+      "team": "Gold Devils FC",
+      "teamSlug": "gold-devils-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 17,
+      "seasons": {
+        "3": {
+          "apps": 7,
+          "goals": 4,
+          "assists": 2,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "sam-fitzgerald",
+      "name": "Sam Fitzgerald",
+      "team": "NDL FC",
+      "teamSlug": "ndl-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 10,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 7,
+          "assists": 4,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "selim-saied",
+      "name": "Selim Saied",
+      "team": "SDS FC",
+      "teamSlug": "sds-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 10,
+      "seasons": {
+        "3": {
+          "apps": 5,
+          "goals": 2,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "serge-faye",
+      "name": "Serge Faye",
+      "team": "Community FC",
+      "teamSlug": "community-fc",
+      "position": "Goalkeeper",
+      "age": null,
+      "number": 1,
+      "seasons": {
+        "3": {
+          "apps": 5,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "serine-sanneh",
+      "name": "Serine Sanneh",
+      "team": "Gold Devils FC",
+      "teamSlug": "gold-devils-fc",
+      "position": "Goalkeeper",
+      "age": null,
+      "number": 1,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 0,
+          "assists": 1,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "solomon-baugh",
+      "name": "Solomon Baugh",
+      "team": "NDL FC",
+      "teamSlug": "ndl-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 73,
+      "seasons": {
+        "3": {
+          "apps": 6,
+          "goals": 2,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "stefan-ilic",
+      "name": "Stefan Ilic",
+      "team": "Prime FC",
+      "teamSlug": "prime-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 10,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 3,
+          "assists": 4,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "taufee-skandari",
+      "name": "Taufee Skandari",
+      "team": "Prime FC",
+      "teamSlug": "prime-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 99,
+      "seasons": {
+        "3": {
+          "apps": 7,
+          "goals": 1,
+          "assists": 2,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "tawab-djankpata",
+      "name": "Tawab Djankpata",
+      "team": "Community FC",
+      "teamSlug": "community-fc",
+      "position": "Striker",
+      "age": null,
+      "number": 82,
+      "seasons": {
+        "3": {
+          "apps": 6,
+          "goals": 2,
+          "assists": 2,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "timmy-abraham",
+      "name": "Timmy Abraham",
+      "team": "Prime FC",
+      "teamSlug": "prime-fc",
+      "position": "Striker",
+      "age": null,
+      "number": 9,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 7,
+          "assists": 2,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "toby-bull",
+      "name": "Toby Bull",
+      "team": "Prime FC",
+      "teamSlug": "prime-fc",
+      "position": "Goalkeeper",
+      "age": null,
+      "number": 1,
+      "seasons": {
+        "3": {
+          "apps": 7,
+          "goals": 0,
+          "assists": 1,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "tyler-winters",
+      "name": "Tyler Winters",
+      "team": "Clutch FC",
+      "teamSlug": "clutch-fc",
+      "position": "Striker",
+      "age": null,
+      "number": 99,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 4,
+          "assists": 2,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "tyrell-miller-rodney",
+      "name": "Tyrell Miller-Rodney",
+      "team": "Yanited",
+      "teamSlug": "yanited",
+      "position": "Midfielder",
+      "age": null,
+      "number": 8,
+      "seasons": {
+        "3": {
+          "apps": 7,
+          "goals": 6,
+          "assists": 2,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "youssef-chentouf",
+      "name": "Youssef Chentouf",
+      "team": "SDS FC",
+      "teamSlug": "sds-fc",
+      "position": "Striker",
+      "age": null,
+      "number": 11,
+      "seasons": {
+        "3": {
+          "apps": 7,
+          "goals": 0,
+          "assists": 1,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "zaid-al-hussaini",
+      "name": "Zaid Al Hussaini",
+      "team": "Rukkas FC",
+      "teamSlug": "rukkas-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 90,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 3,
+          "assists": 4,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "zion-nditi",
+      "name": "Zion Nditi",
+      "team": "VZN FC",
+      "teamSlug": "vzn-fc",
+      "position": "Defender",
+      "age": null,
+      "number": 40,
+      "seasons": {
+        "3": {
+          "apps": 2,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "blaise-riley-snow",
+      "name": "Blaise Riley-Snow",
+      "team": "Rukkas FC",
+      "teamSlug": "rukkas-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 36,
+      "seasons": {
+        "3": {
+          "apps": 5,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "eddie-allsopp",
+      "name": "Eddie Allsopp",
+      "team": "VZN FC",
+      "teamSlug": "vzn-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 99,
+      "seasons": {
+        "3": {
+          "apps": 6,
+          "goals": 1,
+          "assists": 2,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "inih-effiong",
+      "name": "Inih Effiong",
+      "team": "Yanited",
+      "teamSlug": "yanited",
+      "position": "Striker",
+      "age": null,
+      "number": 22,
+      "seasons": {
+        "3": {
+          "apps": 2,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "isiah-noel-williams",
+      "name": "Isiah Noel-Williams",
+      "team": "VZN FC",
+      "teamSlug": "vzn-fc",
+      "position": "",
+      "age": null,
+      "number": null,
+      "seasons": {
+        "3": {
+          "apps": 0,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {
+            "Tickets On Sale Now for The Final Four at The O": 2,
+            "on Monday": 25,
+            "Baller League": 2026,
+            "sweetalert": 2
+          }
+        }
+      }
+    },
+    {
+      "slug": "jahvarn-stewart",
+      "name": "Jahvarn Stewart",
+      "team": "Gold Devils FC",
+      "teamSlug": "gold-devils-fc",
+      "position": "",
+      "age": null,
+      "number": 9,
+      "seasons": {
+        "3": {
+          "apps": 0,
+          "goals": 2,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "joshua-parker",
+      "name": "Joshua Parker",
+      "team": "NDL FC",
+      "teamSlug": "ndl-fc",
+      "position": "Striker",
+      "age": null,
+      "number": 14,
+      "seasons": {
+        "3": {
+          "apps": 5,
+          "goals": 4,
+          "assists": 3,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "kole-hall",
+      "name": "Kole Hall",
+      "team": "Deportrio",
+      "teamSlug": "deportrio",
+      "position": "Striker",
+      "age": null,
+      "number": 21,
+      "seasons": {
+        "3": {
+          "apps": 2,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "sahid-kamara",
+      "name": "Sahid Kamara",
+      "team": "Deportrio",
+      "teamSlug": "deportrio",
+      "position": "Midfielder",
+      "age": null,
+      "number": 47,
+      "seasons": {
+        "3": {
+          "apps": 5,
+          "goals": 7,
+          "assists": 2,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "sandro-camara",
+      "name": "Sandro Camara",
+      "team": "Clutch FC",
+      "teamSlug": "clutch-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 10,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 7,
+          "assists": 1,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "bayley-brown",
+      "name": "Bayley Brown",
+      "team": "SDS FC",
+      "teamSlug": "sds-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 88,
+      "seasons": {
+        "3": {
+          "apps": 2,
+          "goals": 0,
+          "assists": 1,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "dimitri-nicolaou",
+      "name": "Dimitri Nicolaou",
+      "team": "VZN FC",
+      "teamSlug": "vzn-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 77,
+      "seasons": {
+        "3": {
+          "apps": 6,
+          "goals": 1,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "dominic-vose",
+      "name": "Dominic Vose",
+      "team": "Rukkas FC",
+      "teamSlug": "rukkas-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 8,
+      "seasons": {
+        "3": {
+          "apps": 5,
+          "goals": 0,
+          "assists": 1,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "ergys-pepaj",
+      "name": "Ergys Pepaj",
+      "team": "Prime FC",
+      "teamSlug": "prime-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 23,
+      "seasons": {
+        "3": {
+          "apps": 8,
+          "goals": 6,
+          "assists": 2,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "george-edwards",
+      "name": "George Edwards",
+      "team": "N5 FC",
+      "teamSlug": "n5-fc",
+      "position": "Defender",
+      "age": null,
+      "number": 23,
+      "seasons": {
+        "3": {
+          "apps": 3,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "jacob-mensah",
+      "name": "Jacob Mensah",
+      "team": "Clutch FC",
+      "teamSlug": "clutch-fc",
+      "position": "Defender",
+      "age": null,
+      "number": 21,
+      "seasons": {
+        "3": {
+          "apps": 6,
+          "goals": 1,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "kevin-weggen",
+      "name": "Kevin Weggen",
+      "team": "NDL FC",
+      "teamSlug": "ndl-fc",
+      "position": "",
+      "age": null,
+      "number": 33,
+      "seasons": {
+        "3": {
+          "apps": 0,
+          "goals": 5,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "mohammad-dabre",
+      "name": "Mohammad Dabre",
+      "team": "Rukkas FC",
+      "teamSlug": "rukkas-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 25,
+      "seasons": {
+        "3": {
+          "apps": 1,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "razzaq-coleman",
+      "name": "Razzaq Coleman",
+      "team": "NDL FC",
+      "teamSlug": "ndl-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 4,
+      "seasons": {
+        "3": {
+          "apps": 2,
+          "goals": 2,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "bieron-berisha",
+      "name": "Bieron Berisha",
+      "team": "Rukkas FC",
+      "teamSlug": "rukkas-fc",
+      "position": "Goalkeeper",
+      "age": null,
+      "number": null,
+      "seasons": {
+        "3": {
+          "apps": 3,
+          "goals": 0,
+          "assists": 1,
+          "detailed": {
+            "Tickets On Sale Now for The Final Four at The O": 2,
+            "on Monday": 25,
+            "Baller League": 2026,
+            "sweetalert": 2
+          }
+        }
+      }
+    },
+    {
+      "slug": "cesur-uzar",
+      "name": "Cesur Uzar",
+      "team": "VZN FC",
+      "teamSlug": "vzn-fc",
+      "position": "",
+      "age": null,
+      "number": null,
+      "seasons": {
+        "3": {
+          "apps": 0,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {
+            "Tickets On Sale Now for The Final Four at The O": 2,
+            "on Monday": 25,
+            "Baller League": 2026,
+            "sweetalert": 2
+          }
+        }
+      }
+    },
+    {
+      "slug": "d-sean-theobalds",
+      "name": "D&#039;Sean Theobalds",
+      "team": "Gold Devils FC",
+      "teamSlug": "gold-devils-fc",
+      "position": "",
+      "age": null,
+      "number": null,
+      "seasons": {
+        "3": {
+          "apps": 0,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {
+            "Tickets On Sale Now for The Final Four at The O": 2,
+            "on Monday": 25,
+            "Baller League": 2026,
+            "sweetalert": 2
+          }
+        }
+      }
+    },
+    {
+      "slug": "frankie-beckles",
+      "name": "Frankie Beckles",
+      "team": "Yanited",
+      "teamSlug": "yanited",
+      "position": "Goalkeeper",
+      "age": null,
+      "number": null,
+      "seasons": {
+        "3": {
+          "apps": 1,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {
+            "Tickets On Sale Now for The Final Four at The O": 2,
+            "on Monday": 25,
+            "Baller League": 2026,
+            "sweetalert": 2
+          }
+        }
+      }
+    },
+    {
+      "slug": "frankie-leonard",
+      "name": "Frankie Leonard",
+      "team": "VZN FC",
+      "teamSlug": "vzn-fc",
+      "position": "Goalkeeper",
+      "age": null,
+      "number": 1,
+      "seasons": {
+        "3": {
+          "apps": 6,
+          "goals": 3,
+          "assists": 2,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "ibrahim-akanbi",
+      "name": "Ibrahim Akanbi",
+      "team": "N5 FC",
+      "teamSlug": "n5-fc",
+      "position": "Striker",
+      "age": null,
+      "number": 12,
+      "seasons": {
+        "3": {
+          "apps": 2,
+          "goals": 1,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "jordan-eastham",
+      "name": "Jordan Eastham",
+      "team": "Community FC",
+      "teamSlug": "community-fc",
+      "position": "Goalkeeper",
+      "age": null,
+      "number": 35,
+      "seasons": {
+        "3": {
+          "apps": 3,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "josh-schofield",
+      "name": "Josh Schofield",
+      "team": "Deportrio",
+      "teamSlug": "deportrio",
+      "position": "Goalkeeper",
+      "age": null,
+      "number": null,
+      "seasons": {
+        "3": {
+          "apps": 3,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {
+            "Tickets On Sale Now for The Final Four at The O": 2,
+            "on Monday": 25,
+            "Baller League": 2026,
+            "sweetalert": 2
+          }
+        }
+      }
+    },
+    {
+      "slug": "keane-barugh",
+      "name": "Keane Barugh",
+      "team": "Community FC",
+      "teamSlug": "community-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 13,
+      "seasons": {
+        "3": {
+          "apps": 1,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {
+            "Tickets On Sale Now for The Final Four at The O": 2,
+            "on Monday": 25,
+            "Baller League": 2026,
+            "sweetalert": 2
+          }
+        }
+      }
+    },
+    {
+      "slug": "louis-socratous",
+      "name": "Louis Socratous",
+      "team": "Gold Devils FC",
+      "teamSlug": "gold-devils-fc",
+      "position": "",
+      "age": null,
+      "number": 13,
+      "seasons": {
+        "3": {
+          "apps": 0,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {
+            "Tickets On Sale Now for The Final Four at The O": 2,
+            "on Monday": 25,
+            "Baller League": 2026,
+            "sweetalert": 2
+          }
+        }
+      }
+    },
+    {
+      "slug": "malik-nosike",
+      "name": "Malik Nosike",
+      "team": "Rukkas FC",
+      "teamSlug": "rukkas-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 13,
+      "seasons": {
+        "3": {
+          "apps": 5,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "misha-djmaili",
+      "name": "Misha Djmaili",
+      "team": "Gold Devils FC",
+      "teamSlug": "gold-devils-fc",
+      "position": "Defender",
+      "age": null,
+      "number": null,
+      "seasons": {
+        "3": {
+          "apps": 2,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {
+            "Tickets On Sale Now for The Final Four at The O": 2,
+            "on Monday": 25,
+            "Baller League": 2026,
+            "sweetalert": 2
+          }
+        }
+      }
+    },
+    {
+      "slug": "momodou-touray",
+      "name": "Momodou Touray",
+      "team": "Community FC",
+      "teamSlug": "community-fc",
+      "position": "",
+      "age": null,
+      "number": 25,
+      "seasons": {
+        "3": {
+          "apps": 0,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {
+            "Tickets On Sale Now for The Final Four at The O": 2,
+            "on Monday": 25,
+            "Baller League": 2026,
+            "sweetalert": 2
+          }
+        }
+      }
+    },
+    {
+      "slug": "niko-omilana",
+      "name": "Niko Omilana",
+      "team": "NDL FC",
+      "teamSlug": "ndl-fc",
+      "position": "Striker",
+      "age": null,
+      "number": null,
+      "seasons": {
+        "3": {
+          "apps": 0,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {
+            "Tickets On Sale Now for The Final Four at The O": 2,
+            "on Monday": 25,
+            "Baller League": 2026,
+            "sweetalert": 2
+          }
+        }
+      }
+    },
+    {
+      "slug": "nyron-dyer",
+      "name": "Nyron Dyer",
+      "team": "Rukkas FC",
+      "teamSlug": "rukkas-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": null,
+      "seasons": {
+        "3": {
+          "apps": 1,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {
+            "Tickets On Sale Now for The Final Four at The O": 2,
+            "on Monday": 25,
+            "Baller League": 2026,
+            "sweetalert": 2
+          }
+        }
+      }
+    },
+    {
+      "slug": "paul-semakula",
+      "name": "Paul Semakula",
+      "team": "Community FC",
+      "teamSlug": "community-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": null,
+      "seasons": {
+        "3": {
+          "apps": 5,
+          "goals": 1,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    },
+    {
+      "slug": "remy-lee-bennison",
+      "name": "Remy-Lee Bennison",
+      "team": "Gold Devils FC",
+      "teamSlug": "gold-devils-fc",
+      "position": "Defender",
+      "age": null,
+      "number": null,
+      "seasons": {
+        "3": {
+          "apps": 2,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {
+            "Tickets On Sale Now for The Final Four at The O": 2,
+            "on Monday": 25,
+            "Baller League": 2026,
+            "sweetalert": 2
+          }
+        }
+      }
+    },
+    {
+      "slug": "shaquille-whittingham",
+      "name": "Shaquille Whittingham",
+      "team": "Deportrio",
+      "teamSlug": "deportrio",
+      "position": "",
+      "age": null,
+      "number": null,
+      "seasons": {
+        "3": {
+          "apps": 0,
+          "goals": 1,
+          "assists": 0,
+          "detailed": {
+            "Tickets On Sale Now for The Final Four at The O": 2,
+            "on Monday": 25,
+            "Baller League": 2026,
+            "sweetalert": 2
+          }
+        }
+      }
+    },
+    {
+      "slug": "tom-carroll",
+      "name": "Tom Carroll",
+      "team": "Yanited",
+      "teamSlug": "yanited",
+      "position": "Striker",
+      "age": null,
+      "number": null,
+      "seasons": {
+        "3": {
+          "apps": 0,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {
+            "Tickets On Sale Now for The Final Four at The O": 2,
+            "on Monday": 25,
+            "Baller League": 2026,
+            "sweetalert": 2
+          }
+        }
+      }
+    },
+    {
+      "slug": "tommy-willard",
+      "name": "Tommy Willard",
+      "team": "Yanited",
+      "teamSlug": "yanited",
+      "position": "",
+      "age": null,
+      "number": 13,
+      "seasons": {
+        "3": {
+          "apps": 0,
+          "goals": 1,
+          "assists": 0,
+          "detailed": {}
+        }
+      }
+    }
+  ]
+}

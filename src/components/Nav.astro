@@ -1,0 +1,173 @@
+---
+const navLinks = [
+  { href: '/',              label: 'Home'             },
+  { href: '/table',         label: 'Table & Fixtures' },
+  { href: '/teams',         label: 'Teams'            },
+  { href: '/players',       label: 'Players'          },
+  { href: '/roundup',       label: 'Roundup'          },
+  { href: '/h2h',           label: 'H2H'              },
+  { href: '/gamechangers',  label: 'Gamechangers'     },
+  { href: '/news',          label: 'News'             },
+  { href: '/rules',         label: 'Rules'            },
+  { href: '/watch',         label: 'Watch'            },
+];
+
+const path = Astro.url.pathname;
+const isActive = (href: string) =>
+  href === '/' ? path === '/' : path.startsWith(href);
+---
+
+<header class="nav-header">
+  <div class="container nav-inner">
+    <a href="/" class="nav-logo" aria-label="Baller League UK Hub Home">
+      <img src="/logo.svg" alt="Baller League UK Hub" class="nav-logo-img" />
+    </a>
+
+    <ul class="nav-links" id="nav-links" role="list">
+      {navLinks.map(link => (
+        <li>
+          <a
+            href={link.href}
+            class={`nav-link ${isActive(link.href) ? 'active' : ''}`}
+          >
+            {link.label}
+          </a>
+        </li>
+      ))}
+    </ul>
+
+    <div class="nav-right">
+      <a href="/watch" class="btn btn-primary btn-sm nav-cta">Watch Live</a>
+      <button
+        class="hamburger"
+        id="hamburger"
+        aria-label="Toggle navigation menu"
+        aria-expanded="false"
+        aria-controls="nav-links"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<script>
+  const ham = document.getElementById('hamburger')!;
+  const links = document.getElementById('nav-links')!;
+  ham.addEventListener('click', () => {
+    const open = links.classList.toggle('open');
+    ham.classList.toggle('open', open);
+    ham.setAttribute('aria-expanded', String(open));
+  });
+  // Close on link click (mobile)
+  links.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', () => {
+      links.classList.remove('open');
+      ham.classList.remove('open');
+      ham.setAttribute('aria-expanded', 'false');
+    });
+  });
+</script>
+
+<style>
+.nav-header {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: var(--nav-height);
+  background: rgba(6, 6, 14, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border);
+  z-index: 1000;
+}
+
+.nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  gap: var(--space-lg);
+}
+
+/* Logo */
+.nav-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+.nav-logo-img { height: 38px; width: auto; }
+
+/* Links */
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 2px;
+  margin: 0;
+  padding: 0;
+}
+.nav-link {
+  display: block;
+  padding: 7px 12px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  border-radius: var(--radius-sm);
+  transition: color var(--transition), background var(--transition);
+  white-space: nowrap;
+}
+.nav-link:hover { color: var(--text-primary); background: rgba(255,255,255,0.05); }
+.nav-link.active { color: var(--green); background: var(--green-glow); }
+
+/* Right section */
+.nav-right { display: flex; align-items: center; gap: var(--space-sm); flex-shrink: 0; }
+
+/* Hamburger */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: var(--radius-sm);
+}
+.hamburger span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: var(--text-primary);
+  border-radius: 2px;
+  transition: transform var(--transition), opacity var(--transition);
+}
+.hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.hamburger.open span:nth-child(2) { opacity: 0; }
+.hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+/* Mobile */
+@media (max-width: 900px) {
+  .hamburger { display: flex; }
+  .nav-cta { display: none; }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: var(--nav-height);
+    left: 0; right: 0;
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--border);
+    padding: var(--space-md);
+    gap: 4px;
+  }
+  .nav-links.open { display: flex; }
+  .nav-link { font-size: 1rem; padding: 10px 14px; }
+}
+
+@media (max-width: 1100px) {
+  .nav-link { padding: 7px 9px; font-size: 0.8rem; }
+}
+</style>

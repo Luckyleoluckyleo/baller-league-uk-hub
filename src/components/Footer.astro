@@ -1,0 +1,135 @@
+---
+---
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <a href="/" class="footer-logo">
+          <img src="/logo.svg" alt="Baller League UK Hub" class="footer-logo-img" />
+        </a>
+        <p class="footer-tagline">
+          The unofficial home of Baller League UK. Stats, tables, teams, and news — all in one place. Not affiliated with Baller League or its partners.
+        </p>
+        <div class="footer-social">
+          <a href="https://www.youtube.com/@BallerLeagueUK" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="YouTube">▶</a>
+          <a href="https://www.twitch.tv/ballerleagueuk" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Twitch">📺</a>
+          <a href="https://twitter.com/BallerLeagueUK" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Twitter / X">𝕏</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="/table">League Table</a></li>
+          <li><a href="/teams">All Teams</a></li>
+          <li><a href="/players">Players</a></li>
+          <li><a href="/gamechangers">Gamechangers</a></li>
+          <li><a href="/news">News</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Info</h4>
+        <ul>
+          <li><a href="/rules">Rules & Format</a></li>
+          <li><a href="/gamechangers">Gamechanger Analysis</a></li>
+          <li><a href="/roundup">Weekly Roundup</a></li>
+          <li><a href="/watch">Where to Watch</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Season 3</h4>
+        <ul>
+          <li><span class="text-muted">Gameweek 9 of 11</span></li>
+          <li><span class="text-muted">Playoffs: Final Four</span></li>
+          <li><a href="/table">League Table</a></li>
+          <li><a href="/h2h">Head-to-Head</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-disclaimer">
+        Baller League UK Hub — An unofficial fan site. Not affiliated with or endorsed by Baller League or its partners.
+      </p>
+      <p class="footer-copy">© {new Date().getFullYear()} Baller League UK Hub</p>
+    </div>
+  </div>
+</footer>
+
+<style>
+.footer {
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border);
+  padding: var(--space-2xl) 0 var(--space-lg);
+  margin-top: var(--space-3xl);
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: var(--space-xl);
+  margin-bottom: var(--space-2xl);
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: var(--space-md);
+}
+.footer-logo-img { height: 44px; width: auto; }
+
+.footer-tagline { font-size: 0.88rem; color: var(--text-muted); line-height: 1.6; margin-bottom: var(--space-md); max-width: 280px; }
+
+.footer-social { display: flex; gap: var(--space-sm); }
+.social-link {
+  width: 36px; height: 36px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  transition: all var(--transition);
+}
+.social-link:hover { border-color: var(--green); color: var(--green); background: var(--green-glow); }
+
+.footer-col h4 {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: var(--space-md);
+}
+.footer-col ul { list-style: none; display: flex; flex-direction: column; gap: var(--space-sm); }
+.footer-col ul li a {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  transition: color var(--transition);
+}
+.footer-col ul li a:hover { color: var(--green); }
+
+.footer-bottom {
+  border-top: 1px solid var(--border);
+  padding-top: var(--space-lg);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+}
+.footer-disclaimer { font-size: 0.76rem; color: var(--text-muted); max-width: 500px; }
+.footer-copy { font-size: 0.76rem; color: var(--text-muted); white-space: nowrap; }
+
+@media (max-width: 900px) {
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 560px) {
+  .footer-grid { grid-template-columns: 1fr; }
+  .footer-bottom { flex-direction: column; }
+}
+</style>

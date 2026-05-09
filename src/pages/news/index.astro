@@ -1,0 +1,117 @@
+---
+import Base from '../../layouts/Base.astro';
+import NewsCard from '../../components/NewsCard.astro';
+import { getCollection } from 'astro:content';
+
+const allNews = await getCollection('news');
+
+function extractGameweek(slug: string): number | null {
+  const m = slug.match(/(?:gw|gameweek[-]?)(\d+)/i);
+  return m ? parseInt(m[1]) : null;
+}
+
+const enriched = allNews.map(a => ({ ...a, gameweek: extractGameweek(a.slug) }));
+
+const sorted = enriched.sort((a, b) => {
+  const catOrder = (c: string) => c === 'Preview' ? 1 : c === 'Match Report' ? 2 : 3;
+  const co = catOrder(a.data.category) - catOrder(b.data.category);
+  if (co !== 0) return co;
+  if (a.data.category === 'Preview') return (a.gameweek ?? 0) - (b.gameweek ?? 0);
+  return (b.gameweek ?? 0) - (a.gameweek ?? 0);
+});
+
+const categories = [...new Set(allNews.map(a => a.data.category))].sort();
+const gameweeks = [...new Set(enriched.filter(a => a.gameweek).map(a => a.gameweek))].sort((a: any, b: any) => b - a);
+---
+
+<Base
+  title="Baller League UK News – Match Reports, Transfers & Updates"
+  description="Latest Baller League UK news: match reports, previews, transfer news, and team updates."
+>
+  <div class="page-header">
+    <div class="container">
+      <nav class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">›</span><span>News</span></nav>
+      <div class="section-label">Season 3</div>
+      <h1>News & Reports</h1>
+      <p class="section-subtitle">Match reports, previews, transfer updates and social media from Baller League UK.</p>
+    </div>
+  </div>
+
+  <div class="container news-page">
+
+    <div class="cat-pills">
+      <button class="cat-pill active" data-cat="">All</button>
+      {categories.map(c => (
+        <button class="cat-pill" data-cat={c}>{c}</button>
+      ))}
+    </div>
+
+    <div class="news-grid" id="news-grid">
+      {sorted.map(article => (
+        <div class="news-card-wrapper" data-cat={article.data.category} data-gw={article.gameweek ?? ''}>
+          <NewsCard
+            title={article.data.title}
+            slug={article.slug}
+            date={article.data.date}
+            category={article.data.category}
+            excerpt={article.data.excerpt}
+            featured={article.data.featured}
+            gameweek={article.gameweek}
+          />
+        </div>
+      ))}
+    </div>
+
+  </div>
+</Base>
+
+<script>
+  const pills = document.querySelectorAll<HTMLButtonElement>('.cat-pill');
+  const cards = document.querySelectorAll<HTMLElement>('.news-card-wrapper');
+
+  pills.forEach(pill => {
+    pill.addEventListener('click', () => {
+      pills.forEach(p => p.classList.remove('active'));
+      pill.classList.add('active');
+      const cat = pill.dataset.cat ?? '';
+      cards.forEach(card => {
+        card.style.display = !cat || card.dataset.cat === cat ? '' : 'none';
+      });
+    });
+  });
+</script>
+
+<style>
+.news-page { padding-bottom: var(--space-3xl); }
+
+.cat-pills { display: flex; gap: var(--space-sm); margin-bottom: var(--space-xl); flex-wrap: wrap; }
+.cat-pill {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 8px 18px;
+  cursor: pointer;
+  transition: all var(--transition);
+  font-family: var(--font-body);
+}
+.cat-pill:hover { border-color: var(--green); color: var(--green); }
+.cat-pill.active { background: var(--green); border-color: var(--green); color: #000; }
+
+.news-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: var(--space-lg);
+}
+
+.news-card-wrapper { }
+
+@media (max-width: 900px) {
+  .news-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 560px) {
+  .news-grid { grid-template-columns: 1fr; }
+}
+</style>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 56">
+  <defs>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00e676"/>
+      <stop offset="100%" stop-color="#00c853"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#94a3b8"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- ICON -->
+  <g transform="translate(6 4)">
+    <path d="M36 0 L72 20 L72 62 L36 82 L0 62 L0 20 Z" fill="none" stroke="url(#neon)" stroke-width="2.5" filter="url(#glow)"/>
+    <path d="M36 8 L61 23 L61 59 L36 74 L11 59 L11 23 Z" stroke="#00e676" stroke-opacity="0.15" stroke-width="1.5"/>
+
+    <!-- Football -->
+    <g transform="translate(12 18)">
+      <circle cx="24" cy="22" r="18" fill="none" stroke="url(#neon)" stroke-width="2.5" filter="url(#glow)"/>
+      <circle cx="24" cy="22" r="14" stroke="#00e676" stroke-opacity="0.12" stroke-width="1.5"/>
+      <polygon points="24,11 30,16 28,24 20,24 18,16" fill="url(#silver)"/>
+      <path d="M24 11 L24 4" stroke="url(#silver)" stroke-width="1.5"/>
+      <path d="M30 16 L37 13" stroke="url(#silver)" stroke-width="1.5"/>
+      <path d="M28 24 L33 31" stroke="url(#silver)" stroke-width="1.5"/>
+      <path d="M20 24 L15 31" stroke="url(#silver)" stroke-width="1.5"/>
+      <path d="M18 16 L11 13" stroke="url(#silver)" stroke-width="1.5"/>
+    </g>
+  </g>
+
+  <!-- TEXT -->
+  <g transform="translate(108 4)">
+    <text x="0" y="26" fill="url(#silver)" font-family="'Inter','Segoe UI',sans-serif" font-size="22" font-weight="900" letter-spacing="2">BALLER LEAGUE UK</text>
+    <text x="2" y="46" fill="url(#neon)" font-family="'Inter','Segoe UI',sans-serif" font-size="14" font-weight="800" letter-spacing="8" filter="url(#glow)">HUB</text>
+  </g>
+
+  <!-- Accent dots -->
+</svg>

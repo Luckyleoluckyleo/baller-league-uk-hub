@@ -1,0 +1,288 @@
+---
+import Base from '../layouts/Base.astro';
+import tableData from '../data/table.json';
+import fixturesData from '../data/fixtures.json';
+import gcData from '../data/gamechangers.json';
+
+const upcomingGW = fixturesData.upcoming[0]?.gameweek ?? 9;
+
+// Build results by gameweek from scraped data
+const s3Matches = (gcData.seasons['3']?.matches as any[] || []).filter((m: any) => m.homeScore > 0 || m.awayScore > 0);
+const gws = [...new Set(s3Matches.map((m: any) => m.gameweek))].sort((a: any, b: any) => b - a);
+const maxGW = gws[0] ?? 8;
+
+// Compute GP, GF, GA per team from match data
+const gamesPlayed: Record<string, number> = {};
+const teamStats: Record<string, { gf: number; ga: number }> = {};
+for (const m of s3Matches) {
+  gamesPlayed[m.homeTeam] = (gamesPlayed[m.homeTeam] || 0) + 1;
+  gamesPlayed[m.awayTeam] = (gamesPlayed[m.awayTeam] || 0) + 1;
+  if (!teamStats[m.homeTeam]) teamStats[m.homeTeam] = { gf: 0, ga: 0 };
+  if (!teamStats[m.awayTeam]) teamStats[m.awayTeam] = { gf: 0, ga: 0 };
+  teamStats[m.homeTeam].gf += m.homeScore;
+  teamStats[m.homeTeam].ga += m.awayScore;
+  teamStats[m.awayTeam].gf += m.awayScore;
+  teamStats[m.awayTeam].ga += m.homeScore;
+}
+
+// Merge computed GP, GF, GA into table data
+const computedTable = tableData.map(row => ({
+  ...row,
+  played: gamesPlayed[row.team] ?? row.played,
+  gf: teamStats[row.team]?.gf ?? row.gf,
+  ga: teamStats[row.team]?.ga ?? row.ga,
+}));
+
+// Default to latest completed GW
+const requestedGW = Number(Astro.url.searchParams.get('gw')) || maxGW;
+
+const resultsByGW: Record<number, any[]> = {};
+for (const m of s3Matches) {
+  if (!resultsByGW[m.gameweek]) resultsByGW[m.gameweek] = [];
+  resultsByGW[m.gameweek].push(m);
+}
+for (const arr of Object.values(resultsByGW)) {
+  arr.sort((a: any, b: any) => (a._gameId || 0) - (b._gameId || 0));
+}
+
+const currentGWResults = resultsByGW[requestedGW] || [];
+
+// Form guide — last 5 matches per team
+function getForm(slug: string): { label: string; cls: string }[] {
+  const m = s3Matches
+    .filter((x: any) => (x.homeSlug === slug || x.awaySlug === slug))
+    .sort((a: any, b: any) => b.gameweek - a.gameweek)
+    .slice(0, 5);
+  return m.map((x: any) => {
+    const isHome = x.homeSlug === slug;
+    const gd = isHome ? x.homeScore - x.awayScore : x.awayScore - x.homeScore;
+    if (gd > 0) return { label: 'W', cls: 'form-win' };
+    if (gd < 0) return { label: 'L', cls: 'form-loss' };
+    return { label: 'D', cls: 'form-draw' };
+  });
+}
+
+function getMatchIndex(match: any): number {
+  const idx = s3Matches.findIndex((x: any) => x.homeTeam === match.homeTeam && x.awayTeam === match.awayTeam && x.gameweek === match.gameweek);
+  return idx >= 0 ? idx + 1 : 1;
+}
+---
+
+<Base
+  title={`Baller League UK Table — Season 3 Standings & Gameweek ${requestedGW} Results`}
+  description={`Baller League UK Season 3 league table. Full standings, Gameweek ${requestedGW} results, and upcoming GW${upcomingGW} fixtures.`}
+>
+
+  <div class="page-header">
+    <div class="container">
+      <nav class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">›</span><span>Table</span></nav>
+      <div class="section-label">Season 3 · Gameweek {maxGW} of 11</div>
+      <h1>League Table & Fixtures</h1>
+      <p class="section-subtitle">Current standings. Top 4 qualify for the Final Four playoffs. EP = Extra Points from the Pressure Point challenge.</p>
+    </div>
+  </div>
+
+  <div class="container table-page">
+
+    <div class="table-legend">
+      <span class="legend-item"><span class="legend-dot green"></span>Final Four places (1–4)</span>
+    </div>
+
+    <div class="table-wrap standings-table">
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Team</th>
+            <th title="Games Played">GP</th>
+            <th>W</th>
+            <th>D</th>
+            <th>L</th>
+            <th title="Goals For">GF</th>
+            <th title="Goals Against">GA</th>
+            <th title="Goal Difference">GD</th>
+            <th title="Extra Points">EP</th>
+            <th>Form</th>
+            <th title="Points">PTS</th>
+          </tr>
+        </thead>
+        <tbody>
+          {computedTable.map(row => (
+            <tr class={row.pos === 4 ? 'border-row' : ''}>
+              <td><span class={`pos-num ${row.pos <= 4 ? 'top-4' : ''}`}>{row.pos}</span></td>
+              <td>
+                <a href={`/teams/${row.slug}`} class="td-team-name">
+                  <img src={`/logos/${row.slug}.svg`} class="td-logo" onerror="this.hidden=true" alt="" />
+                  <span class="team-badge td-emoji-fallback">{row.emoji}</span>
+                  {row.team}
+                </a>
+              </td>
+              <td>{row.played}</td>
+              <td>{row.won}</td>
+              <td>{row.drawn}</td>
+              <td>{row.lost}</td>
+              <td class="pts-cell">{row.gf}</td>
+              <td>{row.ga}</td>
+              <td class={row.gd > 0 ? 'text-green' : row.gd < 0 ? 'text-orange' : ''}>{row.gd > 0 ? `+${row.gd}` : row.gd}</td>
+              <td class={row.ep > 0 ? 'text-gold' : 'text-muted'}>{row.ep > 0 ? `+${row.ep}` : row.ep}</td>
+              <td class="pts-cell">{row.pts}</td>
+              <td class="form-cell">
+                {getForm(row.slug).map(f => (
+                  <span class={`form-badge ${f.cls}`}>{f.label}</span>
+                ))}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <div class="table-fixtures-grid">
+
+      <!-- RESULTS WITH GW NAVIGATION -->
+      <div>
+        <div class="section-header">
+          <div class="section-label">Results</div>
+          <h2 class="section-title">Gameweek {requestedGW}</h2>
+        </div>
+
+        <div class="gw-nav">
+          {gws.map(gw => (
+            <a href={`/table?gw=${gw}`} class={`gw-nav-link ${gw === requestedGW ? 'active' : ''}`}>
+              GW{gw}
+            </a>
+          ))}
+        </div>
+
+        <div class="fixtures-list">
+          {currentGWResults.length > 0 ? currentGWResults.map((m: any) => (
+            <a href={`/match/${getMatchIndex(m)}`} class="fixture-card fixture-result-card">
+              <div class="fixture-team home">
+                <img src={`/logos/${m.homeSlug}.svg`} class="td-logo" style="width:28px;height:28px;" onerror="this.hidden=true" alt="" />
+                <span class="fixture-team-name">{m.homeTeam}</span>
+              </div>
+              <div class="fixture-vs-box">
+                <div class="fixture-score">{m.homeScore}–{m.awayScore}</div>
+                <div class="fixture-date">FT</div>
+              </div>
+              <div class="fixture-team away">
+                <img src={`/logos/${m.awaySlug}.svg`} class="td-logo" style="width:28px;height:28px;" onerror="this.hidden=true" alt="" />
+                <span class="fixture-team-name">{m.awayTeam}</span>
+              </div>
+            </a>
+          )) : (
+            <div class="card" style="padding: var(--space-lg); text-align: center;">
+              <p class="text-muted">No results available for this gameweek.</p>
+            </div>
+          )}
+        </div>
+      </div>
+
+      <!-- UPCOMING -->
+      <div>
+        <div class="section-header">
+          <div class="section-label">Upcoming</div>
+          <h2 class="section-title">Gameweek {upcomingGW} Fixtures</h2>
+        </div>
+        <div class="fixtures-list">
+          {fixturesData.upcoming.map(f => (
+            <div class="fixture-card">
+              <div class="fixture-team home">
+                <img src={`/logos/${f.homeSlug}.svg`} class="td-logo" style="width:28px;height:28px;" onerror="this.hidden=true" alt="" />
+                <div>
+                  <div class="fixture-team-name">{f.homeTeam}</div>
+                </div>
+              </div>
+              <div class="fixture-vs-box">
+                <div class="fixture-score">vs</div>
+                <div class="fixture-date">{f.date}</div>
+                <div class="fixture-date">{f.time}</div>
+              </div>
+              <div class="fixture-team away">
+                <img src={`/logos/${f.awaySlug}.svg`} class="td-logo" style="width:28px;height:28px;" onerror="this.hidden=true" alt="" />
+                <div>
+                  <div class="fixture-team-name">{f.awayTeam}</div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+    </div>
+
+    <div class="update-note card">
+      <div class="card-body update-inner">
+        <span>🔄</span>
+        <p>Table and results updated after each gameweek. Upcoming fixtures for Gameweek {upcomingGW}.</p>
+      </div>
+    </div>
+
+  </div>
+</Base>
+
+<style>
+.table-page { padding-bottom: var(--space-3xl); }
+
+.table-legend { display: flex; gap: var(--space-lg); margin-bottom: var(--space-lg); flex-wrap: wrap; }
+.legend-item { display: flex; align-items: center; gap: var(--space-sm); font-size: 0.9rem; color: var(--text-secondary); font-weight: 500; }
+.legend-dot { width: 12px; height: 12px; border-radius: 50%; }
+.legend-dot.green { background: var(--green); box-shadow: 0 0 10px var(--green); }
+
+.standings-table { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-lg); margin-bottom: var(--space-3xl); overflow: hidden; }
+.standings-table table tr:hover { background: rgba(255,255,255,0.02); }
+.border-row td { border-bottom: 3px solid var(--green) !important; }
+
+.pos-num { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px; 
+  height: 40px;
+  background: var(--bg-elevated);
+  border-radius: var(--radius-sm);
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  color: var(--text-muted); 
+}
+.pos-num.top-4 { 
+  color: var(--green); 
+  background: var(--green-glow);
+  border: 1px solid rgba(0,230,118,0.2);
+}
+
+.td-team-name {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.table-fixtures-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-3xl); margin-bottom: var(--space-2xl); }
+.fixtures-list { display: flex; flex-direction: column; gap: var(--space-sm); }
+
+/* GW Nav */
+.gw-nav { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: var(--space-md); }
+.gw-nav-link {
+  background: var(--bg-card); color: var(--text-secondary); border: 1px solid var(--border);
+  padding: 5px 12px; border-radius: var(--radius-sm); font-size: 0.78rem; font-weight: 600;
+  text-decoration: none; transition: all var(--transition); font-variant-numeric: tabular-nums;
+}
+.gw-nav-link:hover { border-color: var(--green); color: var(--green); }
+.gw-nav-link.active { background: var(--green-glow); border-color: var(--green); color: var(--green); }
+
+.fixture-result-card { text-decoration: none; }
+.fixture-result-card:hover .fixture-score { color: var(--green); }
+
+.form-cell { display: flex; gap: 3px; }
+.form-badge { width: 22px; height: 22px; display: inline-flex; align-items: center; justify-content: center; border-radius: 4px; font-size: 0.65rem; font-weight: 800; }
+.form-win { background: rgba(0,230,118,0.15); color: var(--green); }
+.form-loss { background: rgba(255,107,53,0.12); color: var(--orange); }
+.form-draw { background: rgba(255,214,0,0.12); color: var(--gold); }
+
+.update-note { border: 1px solid var(--border); }
+.update-inner { display: flex; align-items: flex-start; gap: var(--space-md); }
+.update-inner p { margin: 0; font-size: 0.85rem; }
+
+@media (max-width: 768px) {
+  .table-fixtures-grid { grid-template-columns: 1fr; }
+}
+</style>

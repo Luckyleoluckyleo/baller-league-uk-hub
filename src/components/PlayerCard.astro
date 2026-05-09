@@ -1,0 +1,78 @@
+---
+export interface Props {
+  name: string;
+  slug: string;
+  teamName: string;
+  teamSlug: string;
+  position: string;
+  goals: number;
+  assists?: number;
+  appearances?: number;
+  initials?: string;
+}
+const {
+  name, slug, teamName, teamSlug, position,
+  goals, assists = 0, appearances = 0, initials,
+} = Astro.props;
+
+const avatarText = initials ?? name.split(' ').map((n: string) => n[0]).join('').slice(0, 2).toUpperCase();
+---
+<a href={`/players/${slug}`} class="player-card card card-glow">
+  <div class="card-body">
+    <div class="pc-top">
+      <div class="player-avatar lg">{avatarText}</div>
+      <div class="pc-info">
+        <h3 class="pc-name">{name}</h3>
+        <a href={`/teams/${teamSlug}`} class="pc-team" onclick="event.stopPropagation()">
+          {teamName}
+        </a>
+        <span class="badge badge-green pc-pos">{position}</span>
+      </div>
+    </div>
+
+    <div class="pc-stats">
+      <div class="pc-stat">
+        <span class="pc-stat-val">{goals}</span>
+        <span class="pc-stat-lbl">Goals</span>
+      </div>
+      <div class="pc-stat">
+        <span class="pc-stat-val">{assists}</span>
+        <span class="pc-stat-lbl">Assists</span>
+      </div>
+      <div class="pc-stat">
+        <span class="pc-stat-val">{appearances}</span>
+        <span class="pc-stat-lbl">Apps</span>
+      </div>
+    </div>
+  </div>
+</a>
+
+<style>
+.player-card { display: block; text-decoration: none; }
+
+.pc-top { display: flex; align-items: flex-start; gap: var(--space-md); margin-bottom: var(--space-md); }
+
+.pc-info { flex: 1; min-width: 0; }
+.pc-name { font-size: 1.15rem; color: var(--text-primary); margin-bottom: 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pc-team {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--green);
+  font-weight: 600;
+  margin-bottom: var(--space-sm);
+  transition: color var(--transition);
+}
+.pc-team:hover { color: var(--green-mid); }
+.pc-pos { font-size: 0.65rem; }
+
+.pc-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-sm);
+  border-top: 1px solid var(--border-subtle);
+  padding-top: var(--space-md);
+}
+.pc-stat { text-align: center; }
+.pc-stat-val { display: block; font-family: var(--font-display); font-size: 1.6rem; color: var(--text-primary); line-height: 1; }
+.pc-stat-lbl { display: block; font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.07em; color: var(--text-muted); margin-top: 2px; }
+</style>

@@ -1,0 +1,44 @@
+{
+  "upcoming": [],
+  "results": [
+    {
+      "id": "gw7-1",
+      "gameweek": 7,
+      "homeTeam": "NDL FC",
+      "homeSlug": "ndl-fc",
+      "homeEmoji": "🏆",
+      "homeScore": 4,
+      "awayTeam": "Community FC",
+      "awaySlug": "community-fc",
+      "awayEmoji": "🤝",
+      "awayScore": 1,
+      "date": "26 Apr 2026"
+    },
+    {
+      "id": "gw7-2",
+      "gameweek": 7,
+      "homeTeam": "Prime FC",
+      "homeSlug": "prime-fc",
+      "homeEmoji": "⚡",
+      "homeScore": 5,
+      "awayTeam": "Rukkas FC",
+      "awaySlug": "rukkas-fc",
+      "awayEmoji": "💀",
+      "awayScore": 2,
+      "date": "26 Apr 2026"
+    },
+    {
+      "id": "gw7-3",
+      "gameweek": 7,
+      "homeTeam": "Yanited",
+      "homeSlug": "yanited",
+      "homeEmoji": "👑",
+      "homeScore": 2,
+      "awayTeam": "Deportrio",
+      "awaySlug": "deportrio",
+      "awayEmoji": "🔴",
+      "awayScore": 2,
+      "date": "27 Apr 2026"
+    }
+  ]
+}

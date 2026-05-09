@@ -1,0 +1,250 @@
+---
+export interface Props {
+  name: string;
+  slug: string;
+  manager: string;
+  managerRole?: string;
+  emoji?: string;
+  points?: number;
+  position?: number;
+}
+const { name, slug, manager, managerRole = 'Manager', emoji = '⚽', points, position } = Astro.props;
+---
+<a href={`/teams/${slug}`} class="team-card card card-glow">
+  <div class="tc-inner">
+    <div class="tc-content">
+      <div class="tc-header">
+        {position && (
+          <span class={`tc-pos-badge ${position <= 4 ? 'top-4' : ''}`}>#{position}</span>
+        )}
+        <h3 class="tc-name">{name}</h3>
+      </div>
+
+      <div class="tc-manager-box">
+        <div class="tc-manager-img-wrap">
+          <img 
+            src={`/managers/${slug}.webp`} 
+            alt={manager} 
+            class="tc-manager-img" 
+            loading="lazy" 
+            onerror="this.hidden=true" 
+          />
+        </div>
+        <div class="tc-manager-details">
+          <span class="tc-role">{managerRole}</span>
+          <span class="tc-manager">{manager}</span>
+        </div>
+      </div>
+
+      <div class="tc-footer">
+        {points !== undefined && (
+          <div class="tc-pts">
+            <span class="pts-val">{points}</span>
+            <span class="pts-label">points</span>
+          </div>
+        )}
+        <span class="tc-arrow">View Profile →</span>
+      </div>
+    </div>
+
+    <div class="tc-logo-container">
+      <div class="team-logo-wrap">
+        <img 
+          src={`/logos/${slug}.svg`} 
+          alt={name} 
+          class="team-logo-img" 
+          loading="lazy" 
+          onerror="this.style.display='none';this.nextElementSibling.style.display=''" 
+        />
+        <span class="team-logo-emoji">{emoji}</span>
+      </div>
+    </div>
+  </div>
+</a>
+
+<style>
+.team-card { 
+  display: block; 
+  text-decoration: none; 
+  overflow: hidden;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.tc-inner {
+  display: flex;
+  padding: var(--space-xl);
+  gap: var(--space-lg);
+  min-height: 200px;
+}
+
+.tc-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tc-header {
+  margin-bottom: var(--space-md);
+}
+
+.tc-pos-badge {
+  display: inline-block;
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  background: var(--bg-elevated);
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+  margin-bottom: var(--space-xs);
+  border: 1px solid var(--border);
+}
+.tc-pos-badge.top-4 { 
+  color: var(--green); 
+  border-color: rgba(0, 230, 118, 0.3);
+  background: rgba(0, 230, 118, 0.05);
+}
+
+.tc-name {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  line-height: 1.1;
+  margin: 0;
+}
+
+.tc-manager-box {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  margin: var(--space-md) 0;
+}
+
+.tc-manager-img-wrap {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+}
+
+.tc-manager-img {
+  width: 80px;
+  height: 80px;
+  border-radius: var(--radius-lg);
+  object-fit: cover;
+  border: 2px solid var(--border);
+  background: var(--bg-elevated);
+}
+
+.tc-manager-details {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.tc-manager {
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+.tc-role {
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--green);
+}
+
+.tc-footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: var(--space-md);
+}
+
+.tc-pts { 
+  display: flex; 
+  flex-direction: column;
+}
+.pts-val { 
+  font-family: var(--font-display); 
+  font-size: 1.5rem; 
+  color: var(--text-primary); 
+  line-height: 1;
+}
+.pts-label { 
+  font-size: 0.65rem; 
+  color: var(--text-muted); 
+  text-transform: uppercase; 
+  letter-spacing: 0.05em;
+}
+
+.tc-arrow {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--green);
+  transition: transform var(--transition);
+}
+
+.tc-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.team-logo-wrap { 
+  position: relative; 
+  width: 130px; 
+  height: 130px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-logo-img { 
+  width: 100%; 
+  height: 100%; 
+  object-fit: contain; 
+  filter: drop-shadow(0 10px 15px rgba(0,0,0,0.3));
+}
+
+.team-logo-emoji { 
+  display: none; 
+  font-size: 5rem; 
+}
+
+.team-card:hover {
+  transform: translateY(-4px);
+}
+
+.team-card:hover .tc-arrow {
+  transform: translateX(4px);
+}
+
+@media (max-width: 480px) {
+  .tc-inner {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    padding: var(--space-lg);
+  }
+  .tc-manager-box {
+    justify-content: center;
+  }
+  .tc-footer {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-md);
+  }
+  .tc-logo-container {
+    margin-bottom: var(--space-md);
+  }
+  .team-logo-wrap {
+    width: 100px;
+    height: 100px;
+  }
+}
+</style>
+

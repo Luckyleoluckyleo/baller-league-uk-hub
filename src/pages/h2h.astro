@@ -1,0 +1,204 @@
+---
+import Base from '../layouts/Base.astro';
+import gcData from '../data/gamechangers.json';
+
+const allMatches = Object.values(gcData.seasons).flatMap((s: any) => s.matches as any[]).filter((m: any) => m.homeScore !== undefined);
+
+const teams = [...new Set(allMatches.flatMap((m: any) => [m.homeTeam, m.awayTeam]))].sort();
+
+const teamSlugs: Record<string, string> = {};
+for (const m of allMatches) {
+  if (!teamSlugs[m.homeTeam]) teamSlugs[m.homeTeam] = m.homeSlug;
+  if (!teamSlugs[m.awayTeam]) teamSlugs[m.awayTeam] = m.awaySlug;
+}
+---
+
+<Base
+  title="Head-to-Head Comparison — Baller League UK"
+  description="Compare any two Baller League UK teams: all-time head-to-head record, recent meetings, and Gamechanger performance in the matchup."
+>
+
+  <div class="page-header">
+    <div class="container">
+      <nav class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&#x203A;</span><span>H2H</span></nav>
+      <div class="section-label">Comparison Tool</div>
+      <h1>Head-to-Head</h1>
+      <p class="section-subtitle">Pick two teams to compare their matchup history, including Gamechanger performance.</p>
+    </div>
+  </div>
+
+  <div class="container h2h-page">
+    <div class="h2h-selectors">
+      <select id="team1-select" aria-label="Team 1">
+        <option value="">— Pick Team 1 —</option>
+        {teams.map(t => <option value={t}>{t}</option>)}
+      </select>
+      <span class="h2h-vs">vs</span>
+      <select id="team2-select" aria-label="Team 2">
+        <option value="">— Pick Team 2 —</option>
+        {teams.map(t => <option value={t}>{t}</option>)}
+      </select>
+      <button id="compare-btn" class="btn btn-primary">Compare</button>
+    </div>
+
+    <div id="h2h-results" style="display: none;">
+      <!-- Rendered by client JS -->
+    </div>
+
+    <div id="h2h-placeholder" class="card" style="text-align: center;">
+      <div class="card-body">
+        <p class="text-muted" style="margin: 0;">Select two teams above to see their head-to-head record.</p>
+      </div>
+    </div>
+  </div>
+</Base>
+
+<script type="application/json" id="h2h-data" set:html={JSON.stringify({ gcData, teams, teamSlugs })}></script>
+<script>
+  const __d = JSON.parse(document.getElementById('h2h-data')!.textContent!);
+  const gcData = __d.gcData;
+  const teams = __d.teams;
+  const teamSlugs = __d.teamSlugs;
+
+  const allMatches = Object.values(gcData.seasons).flatMap(s => s.matches).filter(m => m.homeScore !== undefined);
+
+  function getH2H(team1: string, team2: string) {
+    return allMatches.filter(m =>
+      (m.homeTeam === team1 && m.awayTeam === team2) ||
+      (m.homeTeam === team2 && m.awayTeam === team1)
+    ).sort((a, b) => b.gameweek - a.gameweek);
+  }
+
+  function computeRecord(matches: any[], team1: string) {
+    let w = 0, d = 0, l = 0, gf = 0, ga = 0;
+    for (const m of matches) {
+      const isHome = m.homeTeam === team1;
+      gf += isHome ? m.homeScore : m.awayScore;
+      ga += isHome ? m.awayScore : m.homeScore;
+      const gd = (isHome ? m.homeScore : m.awayScore) - (isHome ? m.awayScore : m.homeScore);
+      if (gd > 0) w++; else if (gd < 0) l++; else d++;
+    }
+    return { w, d, l, gf, ga, played: w + d + l };
+  }
+
+  function render() {
+    const t1 = (document.getElementById('team1-select') as HTMLSelectElement).value;
+    const t2 = (document.getElementById('team2-select') as HTMLSelectElement).value;
+    if (!t1 || !t2 || t1 === t2) {
+      document.getElementById('h2h-results')!.style.display = 'none';
+      document.getElementById('h2h-placeholder')!.style.display = '';
+      return;
+    }
+
+    const matches = getH2H(t1, t2);
+    const record = computeRecord(matches, t1);
+    const totalGCGoals = matches.reduce((s, m) => s + (m.gamechanger1?.goalsScored || 0) + (m.gamechanger2?.goalsScored || 0), 0);
+
+    const lastFive = matches.slice(0, 5);
+    const form = lastFive.map(m => {
+      const gd = m.homeTeam === t1 ? m.homeScore - m.awayScore : m.awayScore - m.homeScore;
+      if (gd > 0) return { label: 'W', cls: 'form-win' };
+      if (gd < 0) return { label: 'L', cls: 'form-loss' };
+      return { label: 'D', cls: 'form-draw' };
+    });
+
+    const html = `
+      <div class="h2h-summary grid-2">
+        <div class="card">
+          <div class="card-body text-center">
+            <h3 class="h2h-team-name">${t1}</h3>
+            <div class="h2h-record">
+              <span class="h2h-stat"><span class="h2h-stat-val text-green">${record.w}</span><span class="h2h-stat-lbl">W</span></span>
+              <span class="h2h-stat"><span class="h2h-stat-val text-gold">${record.d}</span><span class="h2h-stat-lbl">D</span></span>
+              <span class="h2h-stat"><span class="h2h-stat-val text-orange">${record.l}</span><span class="h2h-stat-lbl">L</span></span>
+            </div>
+            <div class="h2h-sub">${record.gf} GF &middot; ${record.ga} GA</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body text-center">
+            <h3 class="h2h-team-name">${t2}</h3>
+            <div class="h2h-record">
+              <span class="h2h-stat"><span class="h2h-stat-val text-green">${record.l}</span><span class="h2h-stat-lbl">W</span></span>
+              <span class="h2h-stat"><span class="h2h-stat-val text-gold">${record.d}</span><span class="h2h-stat-lbl">D</span></span>
+              <span class="h2h-stat"><span class="h2h-stat-val text-orange">${record.w}</span><span class="h2h-stat-lbl">L</span></span>
+            </div>
+            <div class="h2h-sub">${record.ga} GF &middot; ${record.gf} GA</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top: var(--space-lg);">
+        <div class="card-body">
+          <h4 style="margin-bottom: var(--space-md);">Match History</h4>
+          ${matches.length === 0 ? '<p class="text-muted">No matches played between these teams.</p>' : ''}
+          <div class="h2h-matches">
+            ${matches.map(m => `
+              <div class="h2h-match-row">
+                <span class="text-muted" style="font-size: 0.8rem;">GW${m.gameweek}</span>
+                <span>${m.homeTeam}</span>
+                <span class="h2h-match-score">${m.homeScore}–${m.awayScore}</span>
+                <span>${m.awayTeam}</span>
+                <span class="badge badge-green" style="font-size: 0.6rem;">${totalGCGoals > 0 ? (m.gamechanger1?.goalsScored || 0) + (m.gamechanger2?.goalsScored || 0) : 0} GC goals</span>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top: var(--space-lg);">
+        <div class="card-body">
+          <h4 style="margin-bottom: var(--space-md);">H2H Stats</h4>
+          <div class="h2h-stats-grid">
+            <div class="stat-box"><div class="stat-box-number">${record.played}</div><div class="stat-box-label">Meetings</div></div>
+            <div class="stat-box"><div class="stat-box-number">${(record.gf / Math.max(record.played, 1)).toFixed(1)}</div><div class="stat-box-label">Avg Goals/Game (${t1})</div></div>
+            <div class="stat-box"><div class="stat-box-number">${totalGCGoals}</div><div class="stat-box-label">Total GC Goals</div></div>
+            <div class="stat-box"><div class="stat-box-number">${(totalGCGoals / Math.max(record.played, 1)).toFixed(1)}</div><div class="stat-box-label">Avg GC Goals/Match</div></div>
+          </div>
+        </div>
+      </div>
+    `;
+
+    document.getElementById('h2h-results')!.innerHTML = html;
+    document.getElementById('h2h-results')!.style.display = '';
+    document.getElementById('h2h-placeholder')!.style.display = 'none';
+  }
+
+  document.getElementById('compare-btn')!.addEventListener('click', render);
+</script>
+
+<style>
+.h2h-page { padding-bottom: var(--space-3xl); }
+
+.h2h-selectors { display: flex; gap: var(--space-md); align-items: center; justify-content: center; flex-wrap: wrap; margin-bottom: var(--space-2xl); }
+.h2h-selectors select { min-width: 180px; }
+.h2h-vs { font-family: var(--font-display); font-size: 1.2rem; color: var(--text-muted); }
+
+.h2h-team-name { font-size: 1rem; color: var(--text-primary); margin-bottom: var(--space-md); }
+.h2h-record { display: flex; justify-content: center; gap: var(--space-xl); margin-bottom: var(--space-sm); }
+.h2h-stat { text-align: center; }
+.h2h-stat-val { display: block; font-family: var(--font-display); font-size: 2.2rem; line-height: 1; }
+.h2h-stat-lbl { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); }
+.h2h-sub { font-size: 0.8rem; color: var(--text-muted); }
+
+.h2h-matches { display: flex; flex-direction: column; gap: var(--space-sm); }
+.h2h-match-row { display: flex; align-items: center; gap: var(--space-md); padding: var(--space-sm) 0; border-bottom: 1px solid var(--border-subtle); font-size: 0.88rem; }
+.h2h-match-row:last-child { border-bottom: none; }
+.h2h-match-score { font-weight: 700; color: var(--text-primary); font-variant-numeric: tabular-nums; }
+
+.h2h-stats-grid { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: var(--space-md); }
+.h2h-stats-grid .stat-box { padding: var(--space-md); text-align: center; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); }
+
+/* Form badges (reused) */
+.form-btn { display: inline-flex; gap: 4px; }
+.form-badge { width: 24px; height: 24px; display: flex; align-items: center; justify-content: center; border-radius: var(--radius-sm); font-size: 0.68rem; font-weight: 800; }
+.form-win { background: rgba(0,230,118,0.15); color: var(--green); }
+.form-loss { background: rgba(255,107,53,0.12); color: var(--orange); }
+.form-draw { background: rgba(255,214,0,0.12); color: var(--gold); }
+
+@media (max-width: 768px) {
+  .h2h-stats-grid { grid-template-columns: 1fr 1fr; }
+  .h2h-selectors { flex-direction: column; }
+  .h2h-vs { font-size: 1.5rem; }
+}
+</style>

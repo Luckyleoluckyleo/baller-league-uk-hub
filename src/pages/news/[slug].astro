@@ -1,0 +1,123 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('news');
+  return articles.map(article => ({
+    params: { slug: article.slug },
+    props: { article },
+  }));
+}
+
+const { article } = Astro.props;
+const { data } = article;
+const { Content } = await article.render();
+
+const formattedDate = data.date.toLocaleDateString('en-GB', {
+  weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'
+});
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": data.title,
+  "description": data.excerpt,
+  "datePublished": data.date.toISOString(),
+  "author": { "@type": "Organization", "name": data.author },
+  "publisher": { "@type": "Organization", "name": "Baller League UK Fan Site" }
+};
+
+const catClass =
+  data.category === 'Match Report'  ? 'cat-match'    :
+  data.category === 'Transfer News' ? 'cat-transfer'  :
+  data.category === 'Preview'       ? 'cat-preview'   : 'cat-social';
+---
+
+<Base
+  title={`${data.title} – Baller League UK`}
+  description={data.excerpt}
+  type="article"
+  schema={schema}
+>
+  <div class="page-header">
+    <div class="container article-header">
+      <nav class="breadcrumb">
+        <a href="/">Home</a><span class="breadcrumb-sep">›</span>
+        <a href="/news">News</a><span class="breadcrumb-sep">›</span>
+        <span>{data.category}</span>
+      </nav>
+      <span class={`badge ${catClass}`}>{data.category}</span>
+      <h1 class="article-title">{data.title}</h1>
+      <div class="article-meta">
+        <span>By {data.author}</span>
+        <span class="breadcrumb-sep">·</span>
+        <time datetime={data.date.toISOString()}>{formattedDate}</time>
+      </div>
+    </div>
+  </div>
+
+  <div class="container article-page">
+    <div class="article-layout">
+      <article class="article-body card">
+        <div class="card-body prose">
+          <p class="article-excerpt">{data.excerpt}</p>
+          <Content />
+        </div>
+      </article>
+
+      <aside class="article-aside">
+        <div class="card">
+          <div class="card-body">
+            <h4>More News</h4>
+            <ul class="aside-links">
+              <li><a href="/news">All Articles</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h4>Quick Links</h4>
+            <ul class="aside-links">
+              <li><a href="/table">League Table</a></li>
+              <li><a href="/teams">Teams</a></li>
+              <li><a href="/players">Players</a></li>
+              <li><a href="/watch">Where to Watch</a></li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</Base>
+
+<style>
+.article-header { }
+.article-header .badge { margin-bottom: var(--space-md); }
+.article-title { margin-bottom: var(--space-md); max-width: 800px; }
+.article-meta { font-size: 0.85rem; color: var(--text-muted); display: flex; align-items: center; gap: var(--space-sm); flex-wrap: wrap; }
+
+.article-page { padding-bottom: var(--space-3xl); }
+.article-layout { display: grid; grid-template-columns: 1fr 260px; gap: var(--space-xl); }
+
+.article-aside { display: flex; flex-direction: column; gap: var(--space-lg); align-self: start; position: sticky; top: calc(var(--nav-height) + 24px); }
+.article-aside h4 { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); margin-bottom: var(--space-md); }
+.aside-links { list-style: none; display: flex; flex-direction: column; gap: var(--space-sm); }
+.aside-links a { font-size: 0.88rem; color: var(--text-secondary); transition: color var(--transition); }
+.aside-links a:hover { color: var(--green); }
+
+.article-excerpt { color: var(--text-primary); font-size: 1.1rem; font-weight: 500; line-height: 1.7; border-left: 3px solid var(--green); margin-bottom: var(--space-xl); padding-left: var(--space-md); }
+
+/* PROSE styles */
+.prose :global(h2) { font-size: 1.8rem; margin: var(--space-xl) 0 var(--space-md); }
+.prose :global(h3) { font-size: 1.3rem; margin: var(--space-lg) 0 var(--space-sm); color: var(--text-primary); font-family: var(--font-body); font-weight: 700; }
+.prose :global(p) { margin-bottom: var(--space-md); }
+.prose :global(strong) { color: var(--text-primary); font-weight: 700; }
+.prose :global(ul), .prose :global(ol) { padding-left: var(--space-xl); margin-bottom: var(--space-md); display: flex; flex-direction: column; gap: var(--space-sm); }
+.prose :global(li) { color: var(--text-secondary); font-size: 0.95rem; }
+
+@media (max-width: 900px) {
+  .article-layout { grid-template-columns: 1fr; }
+  .article-aside { position: static; }
+}
+</style>

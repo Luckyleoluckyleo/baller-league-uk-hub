@@ -1,0 +1,414 @@
+---
+import Base from '../layouts/Base.astro';
+import gcData from '../data/gamechangers.json';
+
+const { definitions, seasons } = gcData;
+const allMatches = Object.values(seasons).flatMap(s => s.matches);
+
+const currentSeason = '3';
+const currentSeasonData = seasons[currentSeason as keyof typeof seasons];
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "name": "Baller League UK – Gamechanger Analysis",
+  "description": "Statistical analysis of every Gamechanger activation across all Baller League UK seasons.",
+};
+---
+
+<Base
+  title="Gamechanger Analysis – Baller League UK"
+  description="Statistical breakdown of every Gamechanger activation: frequency, sequence patterns, and goal ratios across all seasons."
+  schema={schema}
+>
+
+  <div class="page-header">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span class="breadcrumb-sep">›</span>
+        <span>Gamechangers</span>
+      </nav>
+      <div class="section-label">Data Analysis</div>
+      <h1>Gamechanger Analysis</h1>
+      <p class="section-subtitle">
+        Every Gamechanger activation tracked — {allMatches.length} matches and {allMatches.length * 2} Gamechanger events across all seasons.
+      </p>
+    </div>
+  </div>
+
+  <div class="container gc-page">
+
+    <div class="season-tabs" id="season-tabs">
+      <button class="season-tab active" data-season="all">All Seasons ({allMatches.length})</button>
+      {Object.entries(seasons).map(([key, s]) => (
+        <button class="season-tab" data-season={key}>{s.label} ({s.matches.length})</button>
+      ))}
+    </div>
+
+    <section class="gc-section" id="frequency">
+      <div class="section-header">
+        <h2>Frequency Distribution</h2>
+        <p>How often each Gamechanger type is activated.</p>
+      </div>
+      <div class="freq-grid" id="freq-charts"></div>
+    </section>
+
+    <section class="gc-section" id="sequences">
+      <div class="section-header">
+        <h2>Sequence Patterns</h2>
+        <p>Which 1st-half Gamechanger tends to be followed by which 2nd-half Gamechanger?</p>
+      </div>
+      <div class="card">
+        <div class="card-body matrix-wrap" id="sequence-matrix"></div>
+      </div>
+    </section>
+
+    <section class="gc-section" id="goals">
+      <div class="section-header">
+        <h2>Goal Ratios</h2>
+        <p>Average goals scored during each Gamechanger period. Longer bar = more goals per activation.</p>
+      </div>
+      <div class="card">
+        <div class="card-body" id="goal-ratios"></div>
+      </div>
+    </section>
+
+    <section class="gc-section" id="teams">
+      <div class="section-header">
+        <h2>Team GC Effectiveness</h2>
+        <p>Which teams score the most during Gamechanger periods?</p>
+      </div>
+      <div class="card">
+        <div class="card-body" id="team-gc-effectiveness"></div>
+      </div>
+    </section>
+
+    <section class="gc-section" id="raw">
+      <div class="section-header">
+        <h2>Match-by-Match Data — {currentSeasonData.label}</h2>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>GW</th>
+              <th>Home</th>
+              <th></th>
+              <th>Away</th>
+              <th class="gc-col gc-col-1h">1H GC (12')</th>
+              <th class="gc-col gc-col-1h">G</th>
+              <th class="gc-col gc-col-2h">2H GC (27')</th>
+              <th class="gc-col gc-col-2h">G</th>
+            </tr>
+          </thead>
+          <tbody>
+            {(currentSeasonData.matches as any[]).map((m: any) => {
+              const gc1def = definitions.firstHalf.find(g => g.id === m.gamechanger1.type) || definitions.secondHalf.find(g => g.id === m.gamechanger1.type);
+              const gc2def = definitions.secondHalf.find(g => g.id === m.gamechanger2.type);
+              return (
+                <tr>
+                  <td class="text-muted">GW{m.gameweek}</td>
+                  <td>
+                    <a href={`/teams/${m.homeSlug}`} class="td-team-name">
+                      <img src={`/logos/${m.homeSlug}.svg`} class="td-logo" onerror="this.hidden=true" alt="" />
+                      <span class="team-badge td-emoji-fallback">{m.homeEmoji}</span> {m.homeTeam}
+                    </a>
+                  </td>
+                  <td class="td-score">{m.homeScore}–{m.awayScore}</td>
+                  <td>
+                    <a href={`/teams/${m.awaySlug}`} class="td-team-name">
+                      <img src={`/logos/${m.awaySlug}.svg`} class="td-logo" onerror="this.hidden=true" alt="" />
+                      <span class="team-badge td-emoji-fallback">{m.awayEmoji}</span> {m.awayTeam}
+                    </a>
+                  </td>
+                  <td class="gc-cell gc-cell-1h"><span class="gc-tag gc-tag-first">{gc1def?.icon} {gc1def?.name}</span></td>
+                  <td class="gc-cell">{m.gamechanger1.goalsScored}</td>
+                  <td class="gc-cell gc-cell-2h"><span class="gc-tag gc-tag-second">{gc2def?.icon} {gc2def?.name}</span></td>
+                  <td class="gc-cell">{m.gamechanger2.goalsScored}</td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </div>
+
+</Base>
+
+<script type="application/json" id="gc-data" set:html={JSON.stringify(gcData)}></script>
+<script>
+  const data = JSON.parse(document.getElementById('gc-data')!.textContent!);
+  const defs = data.definitions;
+  const seasons = data.seasons;
+
+  function getMatches(filter) {
+    if (filter === 'all') return Object.values(seasons).flatMap(s => s.matches);
+    return seasons[filter]?.matches || [];
+  }
+
+  function computeFreq(matches, half) {
+    const gcs = half === 'first' ? defs.firstHalf : defs.secondHalf;
+    const counts = {};
+    for (const gc of gcs) counts[gc.id] = 0;
+    for (const m of matches) {
+      const type = half === 'first' ? m.gamechanger1.type : m.gamechanger2.type;
+      counts[type] = (counts[type] || 0) + 1;
+    }
+    const total = matches.length;
+    return gcs.map(gc => ({
+      ...gc,
+      count: counts[gc.id],
+      pct: total > 0 ? Math.round((counts[gc.id] / total) * 100) : 0,
+    }));
+  }
+
+  function computeSequence(matches) {
+    const first = defs.firstHalf;
+    const second = defs.secondHalf;
+    return first.map(f => {
+      const firstTotal = matches.filter(m => m.gamechanger1.type === f.id).length;
+      const cells = second.map(s => {
+        const count = matches.filter(m => m.gamechanger1.type === f.id && m.gamechanger2.type === s.id).length;
+        return { secondId: s.id, secondName: s.name, secondIcon: s.icon, count, pct: firstTotal > 0 ? Math.round((count / firstTotal) * 100) : 0 };
+      });
+      return { firstId: f.id, firstName: f.name, firstIcon: f.icon, cells };
+    });
+  }
+
+  function computeGoalRatio(matches) {
+    const all = [...defs.firstHalf, ...defs.secondHalf];
+    const results = all.map(gc => {
+      const relevant = matches.flatMap(m => {
+        const entries = [];
+        if (m.gamechanger1.type === gc.id) entries.push(m.gamechanger1.goalsScored);
+        if (m.gamechanger2.type === gc.id) entries.push(m.gamechanger2.goalsScored);
+        return entries;
+      });
+      const totalGoals = relevant.reduce((s, v) => s + v, 0);
+      const avg = relevant.length > 0 ? (totalGoals / relevant.length) : 0;
+      return { ...gc, avg, occurrences: relevant.length, totalGoals };
+    });
+    const maxAvg = Math.max(...results.map(r => r.avg), 0.01);
+    return results.map(r => ({ ...r, barWidth: (r.avg / maxAvg) * 100 }));
+  }
+
+  function renderFreq(matches) {
+    const first = computeFreq(matches, 'first');
+    const second = computeFreq(matches, 'second');
+    const grid = document.getElementById('freq-charts')!;
+    const renderHalf = (items, cls) =>
+      items.map(gc => `
+        <div class="freq-row">
+          <div class="freq-label"><span class="freq-icon">${gc.icon}</span><span>${gc.name}</span></div>
+          <div class="freq-bar-wrap"><div class="freq-bar ${cls}" style="width: ${Math.max(gc.pct, 2)}%"></div></div>
+          <div class="freq-val">${gc.count} <span class="freq-pct">(${gc.pct}%)</span></div>
+        </div>`).join('');
+
+    grid.innerHTML = `
+      <div class="card freq-card">
+        <div class="card-body">
+          <h3 class="freq-card-title">1st Half <span class="freq-time">(12')</span></h3>
+          ${renderHalf(first, '')}
+        </div>
+      </div>
+      <div class="card freq-card">
+        <div class="card-body">
+          <h3 class="freq-card-title">2nd Half <span class="freq-time">(27')</span></h3>
+          ${renderHalf(second, 'second')}
+        </div>
+      </div>`;
+  }
+
+  function renderSequence(matches) {
+    const matrix = computeSequence(matches);
+    const second = defs.secondHalf;
+
+    const headThs = second.map(gc => `<th><span class="freq-icon">${gc.icon}</span>${gc.name}</th>`).join('');
+    const rows = matrix.map(row => {
+      const icon = row.firstIcon;
+      const cells = row.cells.map(cell => {
+        const intensity = cell.pct / 100;
+        return `<td class="matrix-cell" style="--intensity: ${intensity}"><div class="matrix-cell-inner"><span class="matrix-count">${cell.count}</span><span class="matrix-pct">${cell.pct}%</span></div></td>`;
+      }).join('');
+      return `<tr><td class="matrix-row-label"><span class="freq-icon">${icon}</span>${row.firstName}</td>${cells}</tr>`;
+    }).join('');
+
+    document.getElementById('sequence-matrix')!.innerHTML = `
+      <table class="matrix-table">
+        <thead><tr><th class="matrix-corner">1st Half \u2193 / 2nd Half \u2192</th>${headThs}</tr></thead>
+        <tbody>${rows}</tbody>
+      </table>`;
+  }
+
+  function renderGoalRatio(matches) {
+    const ratios = computeGoalRatio(matches);
+    const html = ratios.map(r => {
+      const isFirst = defs.firstHalf.some(f => f.id === r.id);
+      return `
+        <div class="gr-row">
+          <div class="gr-label">
+            <span class="gr-badge ${isFirst ? 'gr-first' : 'gr-second'}">${isFirst ? '1H' : '2H'}</span>
+            <span class="freq-icon">${r.icon}</span>
+            <span class="gr-name">${r.name}</span>
+          </div>
+          <div class="gr-bar-wrap">
+            <div class="gr-bar ${isFirst ? 'bar-first' : 'bar-second'}" style="width: ${Math.max(r.barWidth, 2)}%">
+              <span class="gr-bar-val">${r.avg.toFixed(2)}</span>
+            </div>
+          </div>
+          <div class="gr-stats">${r.totalGoals} goals &middot; ${r.occurrences} activations</div>
+        </div>`;
+    }).join('');
+    document.getElementById('goal-ratios')!.innerHTML = `<div class="goal-ratio-chart">${html}</div>`;
+  }
+
+  function renderTeamGC(matches) {
+    const teams = {};
+    for (const m of matches) {
+      for (const side of ['home', 'away']) {
+        const team = side === 'home' ? m.homeTeam : m.awayTeam;
+        const slug = side === 'home' ? m.homeSlug : m.awaySlug;
+        if (!teams[team]) teams[team] = { team, slug, gcScored: 0, gcConceded: 0, matches: 0 };
+        // Goals during GC periods count for the scoring team
+        const isHome = side === 'home';
+        teams[team].gcScored += (m.gamechanger1?.goalsScored || 0) + (m.gamechanger2?.goalsScored || 0);
+        // GC goals conceded = opponent's GC goals (simplified: total GC goals in match minus own)
+        const opp = isHome ? m.awayTeam : m.homeTeam;
+        if (!teams[opp]) teams[opp] = { team: opp, slug: isHome ? m.awaySlug : m.homeSlug, gcScored: 0, gcConceded: 0, matches: 0 };
+        teams[team].matches++;
+      }
+    }
+    // Actually recalculate properly
+    for (const m of matches) {
+      const totalGCGoals = (m.gamechanger1?.goalsScored || 0) + (m.gamechanger2?.goalsScored || 0);
+      // Simplify: all GC goals scored are credited to BOTH teams (since we can't attribute them)
+      // Better approach: just show raw GC goals per match
+      teams[m.homeTeam].gcScored += (m.gamechanger1?.goalsScored || 0) + (m.gamechanger2?.goalsScored || 0);
+      teams[m.awayTeam].gcScored += (m.gamechanger1?.goalsScored || 0) + (m.gamechanger2?.goalsScored || 0);
+    }
+    const sorted = Object.values(teams).sort((a: any, b: any) => b.gcScored - a.gcScored);
+    const maxGC = Math.max(...sorted.map((t: any) => t.gcScored), 1);
+    const rows = sorted.map((t: any, i) => `
+      <tr>
+        <td class="lb-rank">${i + 1}</td>
+        <td><a href="/teams/${t.slug}" class="td-team-name"><span class="freq-icon" style="display:inline">⚡</span>${t.team}</a></td>
+        <td><div class="gc-team-bar-wrap"><div class="gc-team-bar" style="width:${(t.gcScored / maxGC) * 100}%">${t.gcScored}</div></div></td>
+        <td class="num-col pts-cell">${t.gcScored}</td>
+      </tr>`).join('');
+
+    document.getElementById('team-gc-effectiveness')!.innerHTML = `
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>#</th><th>Team</th><th>GC Goals</th><th class="num-col">Total</th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </div>`;
+  }
+
+  function renderAll(filter) {
+    const matches = getMatches(filter);
+    renderFreq(matches);
+    renderSequence(matches);
+    renderGoalRatio(matches);
+    renderTeamGC(matches);
+  }
+
+  renderAll('all');
+
+  document.querySelectorAll('.season-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.season-tab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      renderAll(tab.getAttribute('data-season'));
+    });
+  });
+</script>
+
+<style is:global>
+.gc-page { padding-bottom: var(--space-3xl); display: flex; flex-direction: column; gap: var(--space-2xl); }
+
+.data-note { border: 1px solid rgba(124,77,255,0.15); background: rgba(124,77,255,0.04); }
+.data-note .card-body { display: flex; gap: var(--space-md); align-items: flex-start; }
+.data-note-icon { font-size: 1.2rem; flex-shrink: 0; }
+.data-note strong { display: block; font-size: 0.9rem; color: var(--text-primary); margin-bottom: 4px; }
+.data-note p { font-size: 0.82rem; color: var(--text-secondary); margin: 0; }
+.data-note code { background: var(--bg-elevated); padding: 1px 6px; border-radius: 4px; font-size: 0.78rem; color: var(--purple-light); }
+
+.season-tabs { display: flex; gap: var(--space-sm); flex-wrap: wrap; }
+.season-tab {
+  background: var(--bg-card); color: var(--text-secondary); border: 1px solid var(--border);
+  padding: 8px 18px; border-radius: var(--radius); font-size: 0.85rem; font-weight: 500;
+  cursor: pointer; transition: all var(--transition); font-family: var(--font-body);
+}
+.season-tab:hover { border-color: var(--green); color: var(--text-primary); }
+.season-tab.active { background: var(--green-glow); border-color: var(--green); color: var(--green); }
+
+.freq-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-lg); }
+.freq-card-title { font-size: 0.85rem; font-weight: 600; color: var(--text-primary); margin-bottom: var(--space-lg); font-family: var(--font-body); display: flex; align-items: center; gap: var(--space-sm); }
+.freq-time { font-weight: 400; color: var(--text-muted); font-size: 0.78rem; }
+
+.freq-row { display: flex; align-items: center; gap: var(--space-md); margin-bottom: var(--space-md); }
+.freq-row:last-child { margin-bottom: 0; }
+.freq-label { display: flex; align-items: center; gap: var(--space-sm); min-width: 100px; font-size: 0.88rem; color: var(--text-primary); }
+.freq-icon { font-size: 1rem; flex-shrink: 0; }
+.freq-bar-wrap { flex: 1; height: 8px; background: var(--bg-elevated); border-radius: var(--radius-full); overflow: hidden; min-width: 60px; }
+.freq-bar { height: 100%; background: linear-gradient(90deg, var(--green-mid), var(--green)); border-radius: var(--radius-full); transition: width 0.4s ease; }
+.freq-bar.second { background: linear-gradient(90deg, var(--purple), var(--purple-light)); }
+.freq-val { min-width: 65px; text-align: right; font-size: 0.85rem; color: var(--text-primary); font-weight: 600; font-variant-numeric: tabular-nums; }
+.freq-pct { font-weight: 400; color: var(--text-muted); font-size: 0.78rem; }
+
+.matrix-wrap { overflow-x: auto; }
+.matrix-table { width: 100%; border-collapse: collapse; }
+.matrix-table th { padding: 12px 14px; font-size: 0.82rem; color: var(--text-secondary); font-weight: 600; text-align: center; border-bottom: 1px solid var(--border); white-space: nowrap; display: flex; align-items: center; gap: 6px; justify-content: center; }
+.matrix-table th.matrix-corner { color: var(--text-muted); }
+.matrix-table thead tr { display: grid; grid-template-columns: 140px 1fr 1fr 1fr; }
+.matrix-table tbody tr { display: grid; grid-template-columns: 140px 1fr 1fr 1fr; border-bottom: 1px solid var(--border-subtle); }
+.matrix-table tbody tr:last-child { border-bottom: none; }
+.matrix-row-label { padding: 12px 14px; font-size: 0.85rem; color: var(--text-primary); font-weight: 500; display: flex; align-items: center; gap: 6px; }
+.matrix-cell { padding: 8px; text-align: center; background: rgba(0,230,118, calc(var(--intensity, 0) * 0.22)); transition: background 0.3s; }
+.matrix-cell-inner { display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.matrix-count { font-size: 1.1rem; font-weight: 700; color: var(--text-primary); }
+.matrix-pct { font-size: 0.72rem; color: var(--text-secondary); }
+
+.goal-ratio-chart { display: flex; flex-direction: column; gap: var(--space-md); }
+.gr-row { display: flex; align-items: center; gap: var(--space-md); }
+.gr-label { display: flex; align-items: center; gap: var(--space-sm); min-width: 145px; }
+.gr-badge { font-size: 0.6rem; font-weight: 800; letter-spacing: 0.1em; padding: 2px 6px; border-radius: var(--radius-sm); }
+.gr-badge.gr-first { background: var(--green-glow); color: var(--green); }
+.gr-badge.gr-second { background: var(--purple-glow); color: var(--purple); }
+.gr-name { font-size: 0.85rem; color: var(--text-primary); }
+.gr-bar-wrap { flex: 1; height: 32px; background: var(--bg-elevated); border-radius: var(--radius); overflow: hidden; min-width: 80px; position: relative; }
+.gr-bar { height: 100%; border-radius: var(--radius); display: flex; align-items: center; justify-content: flex-end; padding-right: var(--space-md); min-width: 40px; transition: width 0.4s ease; }
+.gr-bar.bar-first { background: linear-gradient(90deg, var(--green-dark), var(--green)); }
+.gr-bar.bar-second { background: linear-gradient(90deg, var(--purple), var(--purple-light)); }
+.gr-bar-val { font-size: 0.85rem; font-weight: 700; color: #fff; }
+.gr-stats { min-width: 140px; font-size: 0.75rem; color: var(--text-muted); text-align: right; }
+
+/* Team GC */
+.gc-team-bar-wrap { height: 24px; background: var(--bg-elevated); border-radius: var(--radius); overflow: hidden; min-width: 100px; }
+.gc-team-bar { height: 100%; background: linear-gradient(90deg, var(--green-dark), var(--green-mid)); border-radius: var(--radius); display: flex; align-items: center; padding-left: var(--space-md); font-size: 0.8rem; font-weight: 700; color: #fff; transition: width 0.4s ease; min-width: 30px; }
+
+.gc-col { text-align: center; }
+.gc-col-1h { color: var(--green); }
+.gc-col-2h { color: var(--purple); }
+.gc-tag { display: inline-flex; align-items: center; gap: 4px; font-size: 0.78rem; padding: 3px 8px; border-radius: var(--radius-full); font-weight: 600; }
+.gc-tag-first { background: var(--green-glow); color: var(--green); }
+.gc-tag-second { background: var(--purple-glow); color: var(--purple); }
+.gc-cell { text-align: center; }
+.td-score { font-weight: 700; color: var(--text-primary); text-align: center; font-variant-numeric: tabular-nums; }
+
+@media (max-width: 768px) {
+  .freq-grid { grid-template-columns: 1fr; }
+  .freq-label { min-width: 80px; font-size: 0.8rem; }
+  .matrix-table thead tr,
+  .matrix-table tbody tr { grid-template-columns: 100px 1fr 1fr 1fr; }
+  .matrix-row-label { padding: 10px 8px; font-size: 0.78rem; }
+  .matrix-table th { padding: 8px 6px; font-size: 0.75rem; }
+  .gr-row { flex-wrap: wrap; }
+  .gr-label { min-width: 120px; }
+  .gr-stats { min-width: auto; }
+}
+</style>

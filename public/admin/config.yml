@@ -1,0 +1,64 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "news"
+    label: "News Articles"
+    folder: "src/content/news"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title",    name: "title",    widget: "string" }
+      - { label: "Date",     name: "date",     widget: "datetime", format: "YYYY-MM-DD", date_format: "DD MMM YYYY", time_format: false }
+      - { label: "Category", name: "category", widget: "select", options: ["Match Report", "Transfer News", "Preview", "Social Media Round-Up"] }
+      - { label: "Excerpt",  name: "excerpt",  widget: "text" }
+      - { label: "Author",   name: "author",   widget: "string", default: "Baller League UK" }
+      - { label: "Featured", name: "featured", widget: "boolean", default: false }
+      - { label: "Content",  name: "body",     widget: "markdown" }
+
+  - name: "players"
+    label: "Players"
+    folder: "src/content/players"
+    create: true
+    slug: "{{fields.slug}}"
+    fields:
+      - { label: "Full Name",    name: "name",        widget: "string" }
+      - { label: "URL Slug",     name: "slug",        widget: "string" }
+      - { label: "Team (slug)",  name: "team",        widget: "string", hint: "Use the team URL slug e.g. yanited, terrys-xi" }
+      - { label: "Team Name",    name: "teamName",    widget: "string" }
+      - { label: "Position",     name: "position",    widget: "select", options: ["Goalkeeper", "Defender", "Midfielder", "Attacking Midfielder", "Forward"] }
+      - { label: "Nationality",  name: "nationality", widget: "string", default: "England" }
+      - { label: "Goals",        name: "goals",       widget: "number", default: 0 }
+      - { label: "Assists",      name: "assists",     widget: "number", default: 0 }
+      - { label: "Appearances",  name: "appearances", widget: "number", default: 0 }
+      - { label: "Shirt Number", name: "number",      widget: "number", required: false }
+      - { label: "Initials",     name: "initials",    widget: "string", required: false, hint: "2 letters shown in avatar, e.g. MB" }
+      - { label: "Player Bio",   name: "body",        widget: "markdown" }
+
+  - name: "league_table"
+    label: "League Table"
+    files:
+      - name: "standings"
+        label: "Current Standings"
+        file: "src/data/table.json"
+        fields:
+          - name: "standings"
+            label: "Team Standings"
+            widget: "list"
+            fields:
+              - { label: "Position",       name: "pos",    widget: "number" }
+              - { label: "Team Name",      name: "team",   widget: "string" }
+              - { label: "Team Slug",      name: "slug",   widget: "string" }
+              - { label: "Emoji",          name: "emoji",  widget: "string" }
+              - { label: "Played",         name: "played", widget: "number" }
+              - { label: "Won",            name: "won",    widget: "number" }
+              - { label: "Drawn",          name: "drawn",  widget: "number" }
+              - { label: "Lost",           name: "lost",   widget: "number" }
+              - { label: "Goals For",      name: "gf",     widget: "number" }
+              - { label: "Goals Against",  name: "ga",     widget: "number" }
+              - { label: "Goal Difference",name: "gd",     widget: "number" }
+              - { label: "Points",         name: "pts",    widget: "number" }

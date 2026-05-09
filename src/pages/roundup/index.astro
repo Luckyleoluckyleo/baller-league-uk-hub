@@ -1,0 +1,18 @@
+---
+import gcData from '../../data/gamechangers.json';
+
+const s3Matches = (gcData.seasons['3']?.matches as any[] || []).filter((m: any) => m.homeScore > 0 || m.awayScore > 0);
+const gws = [...new Set(s3Matches.map((m: any) => m.gameweek))].sort((a: any, b: any) => b - a);
+const maxGW = gws[0] ?? 8;
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="refresh" content={`0;url=/roundup/${maxGW}`} />
+  <title>Redirecting to Latest Roundup — Baller League UK Hub</title>
+</head>
+<body>
+  <p>Redirecting to <a href={`/roundup/${maxGW}`}>latest gameweek</a>...</p>
+</body>
+</html>

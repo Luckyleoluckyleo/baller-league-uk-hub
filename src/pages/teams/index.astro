@@ -1,0 +1,64 @@
+---
+import Base from '../../layouts/Base.astro';
+import TeamCard from '../../components/TeamCard.astro';
+import { getCollection } from 'astro:content';
+import tableData from '../../data/table.json';
+
+const teams = await getCollection('teams');
+const teamsWithStandings = teams.map(team => {
+  const standing = tableData.find(t => t.slug === team.data.urlSlug);
+  return { ...team, standing };
+}).sort((a, b) => (a.standing?.pos ?? 99) - (b.standing?.pos ?? 99));
+---
+
+<Base
+  title="Baller League UK Teams – All 12 Teams, Managers & Squad Lists"
+  description="Browse all 12 Baller League UK teams. Find out who each manager is, view squad lists, and see where each team sits in the league table."
+>
+  <div class="page-header">
+    <div class="container">
+      <nav class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">›</span><span>Teams</span></nav>
+      <div class="section-label">Season 3</div>
+      <h1>All 12 Teams</h1>
+      <p class="section-subtitle">Every team competing in Baller League UK Season 3, ranked by current league position.</p>
+    </div>
+  </div>
+
+  <div class="container teams-page">
+    <div class="teams-grid">
+      {teamsWithStandings.map(team => (
+        <TeamCard
+          name={team.data.name}
+          slug={team.data.urlSlug}
+          manager={team.data.manager}
+          managerRole={team.data.managerRole}
+          emoji={team.data.emoji}
+          points={team.standing?.pts}
+          position={team.standing?.pos}
+        />
+      ))}
+    </div>
+  </div>
+</Base>
+
+<style>
+.teams-page { padding-bottom: var(--space-3xl); }
+.teams-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-xl);
+  margin-bottom: var(--space-2xl);
+}
+
+@media (max-width: 1024px) {
+  .teams-grid {
+    gap: var(--space-lg);
+  }
+}
+
+@media (max-width: 768px) {
+  .teams-grid { 
+    grid-template-columns: 1fr; 
+  }
+}
+</style>

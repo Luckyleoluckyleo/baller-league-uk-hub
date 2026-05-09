@@ -1,0 +1,145 @@
+---
+import Base from '../../layouts/Base.astro';
+import gcData from '../../data/gamechangers.json';
+import playerData from '../../data/players.json';
+import tableData from '../../data/table.json';
+
+export function getStaticPaths() {
+  const s3Matches = (gcData.seasons['3']?.matches as any[] || []).filter((m: any) => m.homeScore > 0 || m.awayScore > 0);
+  const gws = [...new Set(s3Matches.map((m: any) => m.gameweek))].sort((a: any, b: any) => a - b);
+  return gws.map(gw => ({ params: { gw: String(gw) } }));
+}
+
+const s3Matches = (gcData.seasons['3']?.matches as any[] || []).filter((m: any) => m.homeScore > 0 || m.awayScore > 0);
+const gws = [...new Set(s3Matches.map((m: any) => m.gameweek))].sort((a: any, b: any) => b - a);
+const maxGW = gws[0] ?? 8;
+const requestedGW = Number(Astro.params.gw);
+
+const gwMatches = s3Matches.filter((m: any) => m.gameweek === requestedGW);
+const totalGoals = gwMatches.reduce((s: number, m: any) => s + m.homeScore + m.awayScore, 0);
+const totalGCGoals = gwMatches.reduce((s: number, m: any) => s + (m.gamechanger1?.goalsScored || 0) + (m.gamechanger2?.goalsScored || 0), 0);
+
+const allPlayers = playerData.players;
+const teams = [...new Set(gwMatches.flatMap((m: any) => [m.homeTeam, m.awayTeam]))];
+
+const standings = tableData;
+
+function gcName(type: string): string {
+  const map: Record<string, string> = { onside: 'Onside', plusone: 'Plus One', '3play': '3Play', '1on1': '1-on-1', theline: 'The Line', fairplay: 'Fairplay' };
+  return map[type] || type || '?';
+}
+function getMatchIdx(match: any): number {
+  const idx = s3Matches.findIndex((x: any) => x.homeTeam === match.homeTeam && x.awayTeam === match.awayTeam && x.gameweek === match.gameweek);
+  return idx >= 0 ? idx + 1 : 1;
+}
+---
+
+<Base
+  title={`Gameweek ${requestedGW} Roundup — Baller League UK Hub`}
+  description={`Full Gameweek ${requestedGW} roundup: all ${gwMatches.length} match results, total goals, GC stats, and top performers.`}
+>
+
+  <div class="page-header">
+    <div class="container">
+      <nav class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">›</span><a href="/roundup">Roundup</a><span class="breadcrumb-sep">›</span><span>GW{requestedGW}</span></nav>
+      <div class="section-label">Season 3</div>
+      <h1>Gameweek {requestedGW} Roundup</h1>
+      <p class="section-subtitle">
+        {gwMatches.length} matches · {totalGoals} goals · {totalGCGoals} GC goals
+      </p>
+    </div>
+  </div>
+
+  <div class="container roundup-page">
+
+    <div class="gw-nav">
+      {gws.map(gw => (
+        <a href={`/roundup/${gw}`} class={`gw-nav-link ${gw === requestedGW ? 'active' : ''}`}>
+          GW{gw}
+        </a>
+      ))}
+    </div>
+
+    <!-- STATS ROW -->
+    <div class="roundup-stats grid-4">
+      <div class="stat-box"><div class="stat-box-number">{gwMatches.length}</div><div class="stat-box-label">Matches</div></div>
+      <div class="stat-box"><div class="stat-box-number">{totalGoals}</div><div class="stat-box-label">Total Goals</div></div>
+      <div class="stat-box"><div class="stat-box-number">{totalGCGoals}</div><div class="stat-box-label">GC Goals</div></div>
+      <div class="stat-box"><div class="stat-box-number">{(totalGoals / gwMatches.length).toFixed(1)}</div><div class="stat-box-label">Avg Goals/Match</div></div>
+    </div>
+
+    <!-- MATCH RESULTS -->
+    <section>
+      <div class="section-header">
+        <h2 class="section-title">Results</h2>
+      </div>
+      <div class="roundup-matches">
+        {gwMatches.map((m: any) => (
+          <a href={`/match/${getMatchIdx(m)}`} class="roundup-match-card card">
+            <div class="card-body">
+              <div class="rm-teams">
+                <div class="rm-team">
+                  <img src={`/logos/${m.homeSlug}.svg`} alt="" style="width:32px;height:32px;object-fit:contain;" onerror="this.hidden=true" />
+                  <span class="rm-team-name">{m.homeTeam}</span>
+                </div>
+                <div class="rm-score-wrap">
+                  <span class="rm-score">{m.homeScore} – {m.awayScore}</span>
+                  {m.homeScore + m.awayScore >= 10 && <span class="badge badge-orange" style="font-size:0.6rem;">High Score</span>}
+                </div>
+                <div class="rm-team rm-team-away">
+                  <span class="rm-team-name">{m.awayTeam}</span>
+                  <img src={`/logos/${m.awaySlug}.svg`} alt="" style="width:32px;height:32px;object-fit:contain;" onerror="this.hidden=true" />
+                </div>
+              </div>
+              <div class="rm-gc-info">
+                <span class="gc-tag gc-tag-first" style="font-size:0.7rem;">⚡ {gcName(m.gamechanger1?.type)} ({m.gamechanger1?.goalsScored || 0})</span>
+                <span class="gc-tag gc-tag-second" style="font-size:0.7rem;">⚡ {gcName(m.gamechanger2?.type)} ({m.gamechanger2?.goalsScored || 0})</span>
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <div class="roundup-nav">
+      {requestedGW > 1 && <a href={`/roundup/${requestedGW - 1}`} class="btn btn-ghost">← GW{requestedGW - 1}</a>}
+      {requestedGW < maxGW && <a href={`/roundup/${requestedGW + 1}`} class="btn btn-ghost">GW{requestedGW + 1} →</a>}
+    </div>
+
+  </div>
+</Base>
+
+<style>
+.roundup-page { padding-bottom: var(--space-3xl); }
+
+.gw-nav { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: var(--space-2xl); }
+.gw-nav-link {
+  background: var(--bg-card); color: var(--text-secondary); border: 1px solid var(--border);
+  padding: 6px 14px; border-radius: var(--radius-sm); font-size: 0.85rem; font-weight: 600;
+  text-decoration: none; transition: all var(--transition);
+}
+.gw-nav-link:hover { border-color: var(--green); color: var(--green); }
+.gw-nav-link.active { background: var(--green-glow); border-color: var(--green); color: var(--green); }
+
+.roundup-stats { margin-bottom: var(--space-2xl); }
+
+.roundup-matches { display: flex; flex-direction: column; gap: var(--space-md); margin-bottom: var(--space-xl); }
+.roundup-match-card { text-decoration: none; }
+.roundup-match-card:hover .rm-score { color: var(--green); }
+.rm-teams { display: flex; align-items: center; justify-content: space-between; gap: var(--space-md); margin-bottom: var(--space-md); }
+.rm-team { display: flex; align-items: center; gap: var(--space-sm); min-width: 140px; }
+.rm-team-away { justify-content: flex-end; }
+.rm-team-name { font-size: 0.95rem; font-weight: 600; color: var(--text-primary); }
+.rm-score-wrap { text-align: center; }
+.rm-score { font-family: var(--font-display); font-size: 1.8rem; color: var(--text-primary); }
+.rm-gc-info { display: flex; gap: var(--space-md); justify-content: center; flex-wrap: wrap; }
+.gc-tag-first { background: var(--green-glow) !important; color: var(--green) !important; }
+.gc-tag-second { background: var(--purple-glow) !important; color: var(--purple) !important; }
+
+.roundup-nav { display: flex; justify-content: center; gap: var(--space-md); }
+
+@media (max-width: 640px) {
+  .rm-teams { flex-direction: column; gap: var(--space-sm); }
+  .rm-team, .rm-team-away { justify-content: center; }
+}
+</style>
