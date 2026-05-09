@@ -240,7 +240,7 @@ const schema = {
 
     document.getElementById('sequence-matrix')!.innerHTML = `
       <table class="matrix-table">
-        <thead><tr><th class="matrix-corner">1st Half \u2193 / 2nd Half \u2192</th>${headThs}</tr></thead>
+        <thead><tr><th class="matrix-corner">1H \u2193 / 2H \u2192</th>${headThs}</tr></thead>
         <tbody>${rows}</tbody>
       </table>`;
   }
@@ -365,9 +365,9 @@ const schema = {
 .matrix-wrap { overflow-x: auto; }
 .matrix-table { width: 100%; border-collapse: collapse; }
 .matrix-table th { padding: 12px 14px; font-size: 0.82rem; color: var(--text-secondary); font-weight: 600; text-align: center; border-bottom: 1px solid var(--border); white-space: nowrap; display: flex; align-items: center; gap: 6px; justify-content: center; }
-.matrix-table th.matrix-corner { color: var(--text-muted); }
-.matrix-table thead tr { display: grid; grid-template-columns: 140px 1fr 1fr 1fr; }
-.matrix-table tbody tr { display: grid; grid-template-columns: 140px 1fr 1fr 1fr; border-bottom: 1px solid var(--border-subtle); }
+.matrix-table th.matrix-corner { color: var(--text-muted); white-space: normal; font-size: 0.75rem; }
+.matrix-table thead tr { display: grid; grid-template-columns: 120px 1fr 1fr 1fr; }
+.matrix-table tbody tr { display: grid; grid-template-columns: 120px 1fr 1fr 1fr; border-bottom: 1px solid var(--border-subtle); }
 .matrix-table tbody tr:last-child { border-bottom: none; }
 .matrix-row-label { padding: 12px 14px; font-size: 0.85rem; color: var(--text-primary); font-weight: 500; display: flex; align-items: center; gap: 6px; }
 .matrix-cell { padding: 8px; text-align: center; background: rgba(0,230,118, calc(var(--intensity, 0) * 0.22)); transition: background 0.3s; }
@@ -406,8 +406,8 @@ const schema = {
   .freq-grid { grid-template-columns: 1fr; }
   .freq-label { min-width: 80px; font-size: 0.8rem; }
   .matrix-table thead tr,
-  .matrix-table tbody tr { grid-template-columns: 100px 1fr 1fr 1fr; }
-  .matrix-row-label { padding: 10px 8px; font-size: 0.78rem; }
+  .matrix-table tbody tr { grid-template-columns: 90px 1fr 1fr 1fr; }
+  .matrix-row-label { padding: 10px 6px; font-size: 0.72rem; }
   .matrix-table th { padding: 8px 6px; font-size: 0.75rem; }
   .gr-row { flex-wrap: wrap; }
   .gr-label { min-width: 120px; }
