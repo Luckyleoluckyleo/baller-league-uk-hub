@@ -33,9 +33,7 @@ const computedTable = tableData.map(row => ({
   ga: teamStats[row.team]?.ga ?? row.ga,
 }));
 
-// Default to latest completed GW
-const requestedGW = Number(Astro.url.searchParams.get('gw')) || maxGW;
-
+// Build results by gameweek
 const resultsByGW: Record<number, any[]> = {};
 for (const m of s3Matches) {
   if (!resultsByGW[m.gameweek]) resultsByGW[m.gameweek] = [];
@@ -45,9 +43,11 @@ for (const arr of Object.values(resultsByGW)) {
   arr.sort((a: any, b: any) => (a._gameId || 0) - (b._gameId || 0));
 }
 
-const currentGWResults = resultsByGW[requestedGW] || [];
+function getMatchIndex(match: any): number {
+  const idx = s3Matches.findIndex((x: any) => x.homeTeam === match.homeTeam && x.awayTeam === match.awayTeam && x.gameweek === match.gameweek);
+  return idx >= 0 ? idx + 1 : 1;
+}
 
-// Form guide — last 5 matches per team
 function getForm(slug: string): { label: string; cls: string }[] {
   const m = s3Matches
     .filter((x: any) => (x.homeSlug === slug || x.awaySlug === slug))
@@ -69,8 +69,8 @@ function getMatchIndex(match: any): number {
 ---
 
 <Base
-  title={`Baller League UK Table — Season 3 Standings & Gameweek ${requestedGW} Results`}
-  description={`Baller League UK Season 3 league table. Full standings, Gameweek ${requestedGW} results, upcoming GW${upcomingGW} fixtures, team form and goals stats.`}
+  title={`Baller League UK Table — Season 3 Standings & Gameweek ${maxGW} Results`}
+  description={`Baller League UK Season 3 league table. Full standings, Gameweek ${maxGW} results, upcoming GW${upcomingGW} fixtures, team form and goals stats.`}
   keywords="league table, standings, fixtures, results, gameweek, Season 3, playoffs, top 4"
 >
 
@@ -144,38 +144,43 @@ function getMatchIndex(match: any): number {
       <div>
         <div class="section-header">
           <div class="section-label">Results</div>
-          <h2 class="section-title">Gameweek {requestedGW}</h2>
+          <h2 class="section-title" id="results-gw-title">Gameweek {maxGW}</h2>
         </div>
 
-        <div class="gw-nav">
+        <div class="gw-nav" id="table-gw-nav">
           {gws.map(gw => (
-            <a href={`/table?gw=${gw}`} class={`gw-nav-link ${gw === requestedGW ? 'active' : ''}`}>
+            <button type="button" data-gw={gw} class={`gw-nav-link ${gw === maxGW ? 'active' : ''}`}>
               GW{gw}
-            </a>
+            </button>
           ))}
         </div>
 
-        <div class="fixtures-list">
-          {currentGWResults.length > 0 ? currentGWResults.map((m: any) => (
-            <a href={`/match/${getMatchIndex(m)}`} class="fixture-card fixture-result-card">
-              <div class="fixture-team home">
-                <img src={`/logos/${m.homeSlug}.svg`} class="td-logo" style="width:28px;height:28px;" onerror="this.hidden=true" alt="" />
-                <span class="fixture-team-name">{m.homeTeam}</span>
-              </div>
-              <div class="fixture-vs-box">
-                <div class="fixture-score">{m.homeScore}–{m.awayScore}</div>
-                <div class="fixture-date">FT</div>
-              </div>
-              <div class="fixture-team away">
-                <img src={`/logos/${m.awaySlug}.svg`} class="td-logo" style="width:28px;height:28px;" onerror="this.hidden=true" alt="" />
-                <span class="fixture-team-name">{m.awayTeam}</span>
-              </div>
-            </a>
-          )) : (
-            <div class="card" style="padding: var(--space-lg); text-align: center;">
-              <p class="text-muted">No results available for this gameweek.</p>
+        <div class="fixtures-list" id="table-results">
+          {gws.map(gw => (
+            <div data-gw={gw} style={`display:${gw === maxGW ? 'contents' : 'none'}`}>
+              {(resultsByGW[gw] || []).map((m: any) => (
+                <a href={`/match/${getMatchIndex(m)}`} class="fixture-card fixture-result-card">
+                  <div class="fixture-team home">
+                    <img src={`/logos/${m.homeSlug}.svg`} class="td-logo" style="width:28px;height:28px;" onerror="this.hidden=true" alt="" />
+                    <span class="fixture-team-name">{m.homeTeam}</span>
+                  </div>
+                  <div class="fixture-vs-box">
+                    <div class="fixture-score">{m.homeScore}–{m.awayScore}</div>
+                    <div class="fixture-date">FT</div>
+                  </div>
+                  <div class="fixture-team away">
+                    <img src={`/logos/${m.awaySlug}.svg`} class="td-logo" style="width:28px;height:28px;" onerror="this.hidden=true" alt="" />
+                    <span class="fixture-team-name">{m.awayTeam}</span>
+                  </div>
+                </a>
+              ))}
+              {(!resultsByGW[gw] || resultsByGW[gw].length === 0) && (
+                <div class="card" style="padding: var(--space-lg); text-align: center;">
+                  <p class="text-muted">No results available for this gameweek.</p>
+                </div>
+              )}
             </div>
-          )}
+          ))}
         </div>
       </div>
 
@@ -221,6 +226,25 @@ function getMatchIndex(match: any): number {
 
   </div>
 </Base>
+
+<script>
+  const nav = document.getElementById('table-gw-nav');
+  const results = document.getElementById('table-results');
+  const title = document.getElementById('results-gw-title');
+  if (nav && results && title) {
+    nav.addEventListener('click', (e) => {
+      const btn = e.target.closest('button[data-gw]');
+      if (!btn) return;
+      const gw = btn.dataset.gw;
+      nav.querySelectorAll('button').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      title.textContent = 'Gameweek ' + gw;
+      results.querySelectorAll('[data-gw]').forEach(el => {
+        el.style.display = el.dataset.gw === gw ? 'contents' : 'none';
+      });
+    });
+  }
+</script>
 
 <style>
 .table-page { padding-bottom: var(--space-3xl); }
