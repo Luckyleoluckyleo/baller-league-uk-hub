@@ -142,12 +142,12 @@ function getMatchIndex(match: any): number {
               <td>{row.ga}</td>
               <td class={row.gd > 0 ? 'text-green' : row.gd < 0 ? 'text-orange' : ''}>{row.gd > 0 ? `+${row.gd}` : row.gd}</td>
               <td class={row.ep > 0 ? 'text-gold' : 'text-muted'}>{row.ep > 0 ? `+${row.ep}` : row.ep}</td>
-              <td class="pts-cell">{row.pts}</td>
               <td class="form-cell">
                 {getForm(row.slug).map(f => (
                   <span class={`form-badge ${f.cls}`}>{f.label}</span>
                 ))}
               </td>
+              <td class="pts-cell">{row.pts}</td>
             </tr>
           ))}
         </tbody>
@@ -313,8 +313,8 @@ function getMatchIndex(match: any): number {
 .fixture-result-card { text-decoration: none; }
 .fixture-result-card:hover .fixture-score { color: var(--green); }
 
-.form-cell { display: flex; gap: 3px; }
-.form-badge { width: 22px; height: 22px; display: inline-flex; align-items: center; justify-content: center; border-radius: 4px; font-size: 0.65rem; font-weight: 800; }
+.form-cell { white-space: nowrap; }
+.form-badge { width: 22px; height: 22px; display: inline-flex; align-items: center; justify-content: center; border-radius: 4px; font-size: 0.65rem; font-weight: 800; margin-right: 2px; }
 .form-win { background: rgba(0,230,118,0.15); color: var(--green); }
 .form-loss { background: rgba(255,107,53,0.12); color: var(--orange); }
 .form-draw { background: rgba(255,214,0,0.12); color: var(--gold); }
