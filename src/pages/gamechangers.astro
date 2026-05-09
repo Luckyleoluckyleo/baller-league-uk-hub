@@ -79,7 +79,7 @@ const schema = {
     <section class="gc-section" id="teams">
       <div class="section-header">
         <h2>Team GC Effectiveness</h2>
-        <p>Which teams score the most during Gamechanger periods?</p>
+        <p>Average GC goals per match for each team. GC goals are total goals scored during Gamechanger periods across that team's matches (both sides).</p>
       </div>
       <div class="card">
         <div class="card-body" id="team-gc-effectiveness"></div>
@@ -284,19 +284,22 @@ const schema = {
       }
     }
     const sorted = Object.values(teams).sort((a: any, b: any) => b.gcScored - a.gcScored);
-    const maxGC = Math.max(...sorted.map((t: any) => t.gcScored), 1);
-    const rows = sorted.map((t: any, i) => `
+    const maxGC = Math.max(...sorted.map((t: any) => t.gcScored / Math.max(t.matches, 1)), 0.01);
+    const rows = sorted.map((t: any, i) => {
+      const avg = (t.gcScored / Math.max(t.matches, 1)).toFixed(1);
+      return `
       <tr>
         <td class="lb-rank">${i + 1}</td>
         <td><a href="/teams/${t.slug}" class="td-team-name"><span class="freq-icon" style="display:inline">⚡</span>${t.team}</a></td>
-        <td><div class="gc-team-bar-wrap"><div class="gc-team-bar" style="width:${(t.gcScored / maxGC) * 100}%">${t.gcScored}</div></div></td>
-        <td class="num-col pts-cell">${t.gcScored}</td>
-      </tr>`).join('');
+        <td><div class="gc-team-bar-wrap"><div class="gc-team-bar" style="width:${(parseFloat(avg) / maxGC) * 100}%">${avg}</div></div></td>
+        <td class="num-col pts-cell">${avg}</td>
+      </tr>`;
+    }).join('');
 
     document.getElementById('team-gc-effectiveness')!.innerHTML = `
       <div class="table-wrap">
         <table>
-          <thead><tr><th>#</th><th>Team</th><th>GC Goals</th><th class="num-col">Total</th></tr></thead>
+          <thead><tr><th>#</th><th>Team</th><th>Avg GC Goals/Match</th><th class="num-col">Avg</th></tr></thead>
           <tbody>${rows}</tbody>
         </table>
       </div>`;
