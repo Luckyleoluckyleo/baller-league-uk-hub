@@ -153,6 +153,7 @@ const schema = {
               <th>GF</th>
               <th>GA</th>
               <th>GD</th>
+              <th title="Extra Points">EP</th>
               <th>Form</th>
               <th>PTS</th>
             </tr>
@@ -175,6 +176,7 @@ const schema = {
                 <td>{row.gf}</td>
                 <td>{row.ga}</td>
                 <td class={row.gd > 0 ? 'text-green' : row.gd < 0 ? 'text-orange' : ''}>{row.gd > 0 ? `+${row.gd}` : row.gd}</td>
+                <td class={row.ep > 0 ? 'text-gold' : 'text-muted'}>{row.ep > 0 ? `+${row.ep}` : row.ep}</td>
                 <td class="form-cell" style="display:flex;gap:3px;">
                   {getForm(row.slug).map(f => (
                     <span class={`form-badge ${f.cls}`}>{f.label}</span>
