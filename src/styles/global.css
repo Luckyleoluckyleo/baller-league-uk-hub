@@ -438,6 +438,12 @@ hr { border: none; border-top: 1px solid var(--border); margin: var(--space-xl) 
 ::-webkit-scrollbar-thumb { background: var(--bg-elevated); border-radius: var(--radius-full); }
 ::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.09); }
 
+.table-wrap::-webkit-scrollbar { height: 8px; }
+.table-wrap::-webkit-scrollbar-track { background: var(--bg-elevated); border-radius: var(--radius-full); margin: 0 var(--radius-lg); }
+.table-wrap::-webkit-scrollbar-thumb { background: var(--green-mid); border-radius: var(--radius-full); }
+.table-wrap::-webkit-scrollbar-thumb:hover { background: var(--green); }
+.table-wrap { scrollbar-width: thin; scrollbar-color: var(--green-mid) var(--bg-elevated); }
+
 /* === SELECTION === */
 ::selection { background: var(--green-glow-strong); color: var(--green); }
 
@@ -458,13 +464,4 @@ hr { border: none; border-top: 1px solid var(--border); margin: var(--space-xl) 
   .fixture-vs-box { margin: 0 auto; }
   .watch-card { flex-direction: column; }
   table th, table td { padding: 10px 10px; }
-
-  .table-wrap table { font-size: 0.65rem; }
-  .table-wrap table th { font-size: 0.5rem; letter-spacing: 0.03em; padding: 5px 3px; }
-  .table-wrap table td { padding: 5px 3px; }
-  .table-wrap .td-logo { width: 18px; height: 18px; margin-right: 2px; }
-  .table-wrap .td-team-name { font-size: 0.65rem; gap: 2px; }
-  .table-wrap .pos-num { width: 20px; height: 20px; font-size: 0.7rem; }
-  .table-wrap .form-badge { width: 14px; height: 14px; font-size: 0.5rem; margin-right: 1px; }
-  .table-wrap .team-badge { width: 22px; height: 22px; font-size: 0.65rem; }
 }
