@@ -29,21 +29,28 @@ const gws = [...new Set(s3Matches.map((m: any) => m.gameweek))].sort((a: any, b:
 const lastGW = gws[0] ?? 8;
 const recentResults = s3Matches.filter((m: any) => m.gameweek === lastGW);
 
-// Compute GF/GA for top 3
-const teamStats: Record<string, { gf: number; ga: number }> = {};
+// Compute GP, W/D/L, GF/GA for table
+const records: Record<string, { played: number; won: number; drawn: number; lost: number; gf: number; ga: number }> = {};
 for (const m of s3Matches) {
-  if (!teamStats[m.homeTeam]) teamStats[m.homeTeam] = { gf: 0, ga: 0 };
-  if (!teamStats[m.awayTeam]) teamStats[m.awayTeam] = { gf: 0, ga: 0 };
-  teamStats[m.homeTeam].gf += m.homeScore;
-  teamStats[m.homeTeam].ga += m.awayScore;
-  teamStats[m.awayTeam].gf += m.awayScore;
-  teamStats[m.awayTeam].ga += m.homeScore;
+  if (!records[m.homeTeam]) records[m.homeTeam] = { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0 };
+  if (!records[m.awayTeam]) records[m.awayTeam] = { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0 };
+  records[m.homeTeam].played++;
+  records[m.awayTeam].played++;
+  records[m.homeTeam].gf += m.homeScore;
+  records[m.homeTeam].ga += m.awayScore;
+  records[m.awayTeam].gf += m.awayScore;
+  records[m.awayTeam].ga += m.homeScore;
+  if (m.homeScore > m.awayScore) { records[m.homeTeam].won++; records[m.awayTeam].lost++; }
+  else if (m.awayScore > m.homeScore) { records[m.awayTeam].won++; records[m.homeTeam].lost++; }
+  else { records[m.homeTeam].drawn++; records[m.awayTeam].drawn++; }
 }
-const computedTable = tableData.map(row => ({
-  ...row,
-  gf: teamStats[row.team]?.gf ?? row.gf,
-  ga: teamStats[row.team]?.ga ?? row.ga,
-}));
+const computedTable = tableData.map(row => {
+  const r = records[row.team] || { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0 };
+  const gd = r.gf - r.ga;
+  const pts = r.won * 3 + r.drawn * 1 + (row.ep || 0);
+  return { ...row, played: r.played, won: r.won, drawn: r.drawn, lost: r.lost, gf: r.gf, ga: r.ga, gd, pts };
+});
+computedTable.sort((a, b) => b.pts - a.pts || b.gd - a.gd || b.gf - a.gf);
 
 function getForm(slug: string): { label: string; cls: string }[] {
   const m = s3Matches
