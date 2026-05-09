@@ -76,11 +76,11 @@ const upcomingGW = upcoming[0]?.gameweek ?? 10;
             <div class="schedule-row">
               <span class="schedule-time-col">{f.time}</span>
               <div class="schedule-match">
-                <img src={`/logos/${f.homeSlug}.svg`} class="td-logo" style="width:24px;height:24px;" onerror="this.hidden=true" alt="" />
+                <img src={`/logos/${f.homeSlug}.svg`} class="td-logo" style="width:24px;height:24px;" onerror="this.hidden=true" alt={f.homeTeam} />
                 <span class="schedule-team">{f.homeTeam}</span>
                 <span class="schedule-vs">vs</span>
                 <span class="schedule-team">{f.awayTeam}</span>
-                <img src={`/logos/${f.awaySlug}.svg`} class="td-logo" style="width:24px;height:24px;" onerror="this.hidden=true" alt="" />
+                <img src={`/logos/${f.awaySlug}.svg`} class="td-logo" style="width:24px;height:24px;" onerror="this.hidden=true" alt={f.awayTeam} />
               </div>
             </div>
           ))}

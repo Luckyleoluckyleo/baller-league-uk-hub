@@ -80,16 +80,16 @@ function getMatchIdx(match: any): number {
             <div class="card-body">
               <div class="rm-teams">
                 <div class="rm-team">
-                  <img src={`/logos/${m.homeSlug}.svg`} alt="" style="width:32px;height:32px;object-fit:contain;" onerror="this.hidden=true" />
-                  <span class="rm-team-name">{m.homeTeam}</span>
+                  <img src={`/logos/${m.homeSlug}.svg`} alt={m.homeTeam} style="width:32px;height:32px;object-fit:contain;" onerror="this.hidden=true" />
+                  <a href={`/teams/${m.homeSlug}`} class="rm-team-name">{m.homeTeam}</a>
                 </div>
                 <div class="rm-score-wrap">
                   <span class="rm-score">{m.homeScore} – {m.awayScore}</span>
                   {m.homeScore + m.awayScore >= 10 && <span class="badge badge-orange" style="font-size:0.6rem;">High Score</span>}
                 </div>
                 <div class="rm-team rm-team-away">
-                  <span class="rm-team-name">{m.awayTeam}</span>
-                  <img src={`/logos/${m.awaySlug}.svg`} alt="" style="width:32px;height:32px;object-fit:contain;" onerror="this.hidden=true" />
+                  <a href={`/teams/${m.awaySlug}`} class="rm-team-name">{m.awayTeam}</a>
+                  <img src={`/logos/${m.awaySlug}.svg`} alt={m.awayTeam} style="width:32px;height:32px;object-fit:contain;" onerror="this.hidden=true" />
                 </div>
               </div>
               <div class="rm-gc-info">

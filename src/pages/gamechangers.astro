@@ -113,14 +113,14 @@ const schema = {
                   <td class="text-muted">GW{m.gameweek}</td>
                   <td>
                     <a href={`/teams/${m.homeSlug}`} class="td-team-name">
-                      <img src={`/logos/${m.homeSlug}.svg`} class="td-logo" onerror="this.hidden=true" alt="" />
+                      <img src={`/logos/${m.homeSlug}.svg`} class="td-logo" onerror="this.hidden=true" alt={m.homeTeam} />
                       <span class="team-badge td-emoji-fallback">{m.homeEmoji}</span> {m.homeTeam}
                     </a>
                   </td>
                   <td class="td-score">{m.homeScore}–{m.awayScore}</td>
                   <td>
                     <a href={`/teams/${m.awaySlug}`} class="td-team-name">
-                      <img src={`/logos/${m.awaySlug}.svg`} class="td-logo" onerror="this.hidden=true" alt="" />
+                      <img src={`/logos/${m.awaySlug}.svg`} class="td-logo" onerror="this.hidden=true" alt={m.awayTeam} />
                       <span class="team-badge td-emoji-fallback">{m.awayEmoji}</span> {m.awayTeam}
                     </a>
                   </td>

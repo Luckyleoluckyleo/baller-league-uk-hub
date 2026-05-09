@@ -67,6 +67,11 @@ function getForm(slug: string): { label: string; cls: string }[] {
   });
 }
 
+function getMatchIndex(match: any): number {
+  const idx = s3Matches.findIndex((x: any) => x.homeTeam === match.homeTeam && x.awayTeam === match.awayTeam && x.gameweek === match.gameweek);
+  return idx >= 0 ? idx + 1 : 1;
+}
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "SportsOrganization",
@@ -164,7 +169,7 @@ const schema = {
                 <td><span class={`pos-num ${row.pos <= 4 ? 'top-4' : ''}`}>{row.pos}</span></td>
                 <td>
                   <a href={`/teams/${row.slug}`} class="td-team-name">
-                    <img src={`/logos/${row.slug}.svg`} class="td-logo" onerror="this.hidden=true" alt="" />
+                    <img src={`/logos/${row.slug}.svg`} class="td-logo" onerror="this.hidden=true" alt={row.team} />
                     <span class="team-badge td-emoji-fallback">{row.emoji}</span>
                     {row.team}
                   </a>
@@ -209,7 +214,7 @@ const schema = {
             {upcomingFixtures.map(f => (
               <div class="fixture-card">
                 <div class="fixture-team home">
-                  <img src={`/logos/${f.homeSlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt="" />
+                  <img src={`/logos/${f.homeSlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt={f.homeTeam} />
                   <span class="fixture-team-name">{f.homeTeam}</span>
                 </div>
                 <div class="fixture-vs-box">
@@ -217,7 +222,7 @@ const schema = {
                   <div class="fixture-date">{f.time}</div>
                 </div>
                 <div class="fixture-team away">
-                  <img src={`/logos/${f.awaySlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt="" />
+                  <img src={`/logos/${f.awaySlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt={f.awayTeam} />
                   <span class="fixture-team-name">{f.awayTeam}</span>
                 </div>
               </div>
@@ -234,9 +239,9 @@ const schema = {
           </div>
           <div class="fixtures-list">
             {recentResults.map(r => (
-              <div class="fixture-card">
+              <a href={`/match/${getMatchIndex(r)}`} class="fixture-card fixture-result-card">
                 <div class="fixture-team home">
-                  <img src={`/logos/${r.homeSlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt="" />
+                  <img src={`/logos/${r.homeSlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt={r.homeTeam} />
                   <span class="fixture-team-name">{r.homeTeam}</span>
                 </div>
                 <div class="fixture-vs-box">
@@ -244,10 +249,10 @@ const schema = {
                   <div class="fixture-date">FT</div>
                 </div>
                 <div class="fixture-team away">
-                  <img src={`/logos/${r.awaySlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt="" />
+                  <img src={`/logos/${r.awaySlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt={r.awayTeam} />
                   <span class="fixture-team-name">{r.awayTeam}</span>
                 </div>
-              </div>
+              </a>
             ))}
           </div>
         </div>

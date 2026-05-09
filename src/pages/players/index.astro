@@ -71,7 +71,7 @@ function initials(name: string): string {
                       <td class="lb-rank">{i + 1}</td>
                       <td>
                         <div class="lb-player">
-                          <img src={`/players/${p.slug}.webp`} alt="" class="player-thumb" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
+                          <img src={`/players/${p.slug}.webp`} alt={p.name} class="player-thumb" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
                           <span class="player-thumb-fallback lb-avatar">{initials(p.name)}</span>
                           <a href={`/players/${p.slug}`} class="td-team-name" style="gap: 0;">{p.name}</a>
                         </div>
@@ -101,7 +101,7 @@ function initials(name: string): string {
                       <td class="lb-rank">{i + 1}</td>
                       <td>
                         <div class="lb-player">
-                          <img src={`/players/${p.slug}.webp`} alt="" class="player-thumb" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
+                          <img src={`/players/${p.slug}.webp`} alt={p.name} class="player-thumb" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
                           <span class="player-thumb-fallback lb-avatar">{initials(p.name)}</span>
                           <a href={`/players/${p.slug}`} class="td-team-name" style="gap: 0;">{p.name}</a>
                         </div>
@@ -131,7 +131,7 @@ function initials(name: string): string {
                       <td class="lb-rank">{i + 1}</td>
                       <td>
                         <div class="lb-player">
-                          <img src={`/players/${p.slug}.webp`} alt="" class="player-thumb" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
+                          <img src={`/players/${p.slug}.webp`} alt={p.name} class="player-thumb" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
                           <span class="player-thumb-fallback lb-avatar">{initials(p.name)}</span>
                           <a href={`/players/${p.slug}`} class="td-team-name" style="gap: 0;">{p.name}</a>
                         </div>
@@ -186,7 +186,7 @@ function initials(name: string): string {
                   <td>
                     <div class="lb-player">
                       <a href={`/players/${p.slug}`} class="td-team-name" style="gap: 6px;">
-                        <img src={`/players/${p.slug}.webp`} alt="" class="player-thumb" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
+                        <img src={`/players/${p.slug}.webp`} alt={p.name} class="player-thumb" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
                         <span class="player-thumb-fallback lb-avatar">{initials(p.name)}</span>
                         <span>{p.name}</span>
                       </a>

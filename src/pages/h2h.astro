@@ -1,4 +1,5 @@
 ---
+
 import Base from '../layouts/Base.astro';
 import gcData from '../data/gamechangers.json';
 
@@ -10,6 +11,30 @@ const teamSlugs: Record<string, string> = {};
 for (const m of allMatches) {
   if (!teamSlugs[m.homeTeam]) teamSlugs[m.homeTeam] = m.homeSlug;
   if (!teamSlugs[m.awayTeam]) teamSlugs[m.awayTeam] = m.awaySlug;
+}
+
+function getH2HStatic(team1: string, team2: string) {
+  return allMatches.filter((m: any) =>
+    (m.homeTeam === team1 && m.awayTeam === team2) ||
+    (m.homeTeam === team2 && m.awayTeam === team1)
+  ).sort((a: any, b: any) => b.gameweek - a.gameweek);
+}
+
+let topRivalry: { t1: string; t2: string; matches: any[]; record: any; t1slug: string; t2slug: string } | null = null;
+let maxMeetings = 0;
+for (let i = 0; i < teams.length; i++) {
+  for (let j = i + 1; j < teams.length; j++) {
+    const h2h = getH2HStatic(teams[i], teams[j]);
+    if (h2h.length > maxMeetings) {
+      maxMeetings = h2h.length;
+      const w = h2h.filter((m: any) => (m.homeTeam === teams[i] && m.homeScore > m.awayScore) || (m.awayTeam === teams[i] && m.awayScore > m.homeScore)).length;
+      const l = h2h.filter((m: any) => (m.homeTeam === teams[i] && m.homeScore < m.awayScore) || (m.awayTeam === teams[i] && m.awayScore < m.homeScore)).length;
+      const d = h2h.length - w - l;
+      const gf = h2h.reduce((s: number, m: any) => s + (m.homeTeam === teams[i] ? m.homeScore : m.awayScore), 0);
+      const ga = h2h.reduce((s: number, m: any) => s + (m.homeTeam === teams[i] ? m.awayScore : m.homeScore), 0);
+      topRivalry = { t1: teams[i], t2: teams[j], matches: h2h, record: { w, d, l, gf, ga, played: h2h.length }, t1slug: teamSlugs[teams[i]], t2slug: teamSlugs[teams[j]] };
+    }
+  }
 }
 ---
 
@@ -51,6 +76,58 @@ for (const m of allMatches) {
         <p class="text-muted" style="margin: 0;">Select two teams above to see their head-to-head record.</p>
       </div>
     </div>
+
+    {topRivalry && topRivalry.record.played > 0 && (
+      <div style="margin-top: var(--space-2xl);">
+        <div class="section-header">
+          <div class="section-label">Featured Rivalry</div>
+          <h2 class="section-title">{topRivalry.t1} vs {topRivalry.t2}</h2>
+          <p class="section-subtitle">The most-played matchup with {topRivalry.record.played} meetings across all seasons.</p>
+        </div>
+        <div class="h2h-summary grid-2">
+          <div class="card">
+            <div class="card-body text-center">
+              <h3 class="h2h-team-name"><a href={`/teams/${topRivalry.t1slug}`}>{topRivalry.t1}</a></h3>
+              <div class="h2h-record">
+                <span class="h2h-stat"><span class="h2h-stat-val text-green">{topRivalry.record.w}</span><span class="h2h-stat-lbl">W</span></span>
+                <span class="h2h-stat"><span class="h2h-stat-val text-gold">{topRivalry.record.d}</span><span class="h2h-stat-lbl">D</span></span>
+                <span class="h2h-stat"><span class="h2h-stat-val text-orange">{topRivalry.record.l}</span><span class="h2h-stat-lbl">L</span></span>
+              </div>
+              <div class="h2h-sub">{topRivalry.record.gf} GF &middot; {topRivalry.record.ga} GA</div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body text-center">
+              <h3 class="h2h-team-name"><a href={`/teams/${topRivalry.t2slug}`}>{topRivalry.t2}</a></h3>
+              <div class="h2h-record">
+                <span class="h2h-stat"><span class="h2h-stat-val text-green">{topRivalry.record.l}</span><span class="h2h-stat-lbl">W</span></span>
+                <span class="h2h-stat"><span class="h2h-stat-val text-gold">{topRivalry.record.d}</span><span class="h2h-stat-lbl">D</span></span>
+                <span class="h2h-stat"><span class="h2h-stat-val text-orange">{topRivalry.record.w}</span><span class="h2h-stat-lbl">L</span></span>
+              </div>
+              <div class="h2h-sub">{topRivalry.record.ga} GF &middot; {topRivalry.record.gf} GA</div>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="margin-top: var(--space-lg);">
+          <div class="card-body">
+            <h4 style="margin-bottom: var(--space-md);">Recent Meetings</h4>
+            <div class="h2h-matches">
+              {topRivalry.matches.slice(0, 5).map((m: any) => {
+                const matchIdx = allMatches.findIndex((x: any) => x.homeTeam === m.homeTeam && x.awayTeam === m.awayTeam && x.gameweek === m.gameweek) + 1;
+                return (
+                  <a href={`/match/${matchIdx}`} class="h2h-match-row">
+                    <span class="text-muted" style="font-size: 0.8rem;">GW{m.gameweek}</span>
+                    <span><a href={`/teams/${teamSlugs[m.homeTeam]}`}>{m.homeTeam}</a></span>
+                    <span class="h2h-match-score">{m.homeScore}–{m.awayScore}</span>
+                    <span><a href={`/teams/${teamSlugs[m.awayTeam]}`}>{m.awayTeam}</a></span>
+                  </a>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      </div>
+    )}
   </div>
 </Base>
 

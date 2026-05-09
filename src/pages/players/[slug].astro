@@ -51,7 +51,7 @@ const schema = player ? {
               <h1 class="player-name">{player.name}</h1>
               {player.teamSlug ? (
                 <a href={`/teams/${player.teamSlug}`} class="player-team-link">
-                  <img src={`/logos/${player.teamSlug}.svg`} alt="" style="width:20px;height:20px;object-fit:contain;vertical-align:middle;margin-right:6px;" onerror="this.hidden=true" />
+                  <img src={`/logos/${player.teamSlug}.svg`} alt={player.teamName} style="width:20px;height:20px;object-fit:contain;vertical-align:middle;margin-right:6px;" onerror="this.hidden=true" />
                   {player.team}
                 </a>
               ) : (

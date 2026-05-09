@@ -38,11 +38,24 @@ if (!match) {
 const gc1def = gcData.definitions.firstHalf.find(g => g.id === match?.gamechanger1?.type) || gcData.definitions.secondHalf.find(g => g.id === match?.gamechanger1?.type);
 const gc2def = gcData.definitions.secondHalf.find(g => g.id === match?.gamechanger2?.type);
 const totalGCGoals = (match?.gamechanger1?.goalsScored || 0) + (match?.gamechanger2?.goalsScored || 0);
+
+const schema = match ? {
+  "@context": "https://schema.org",
+  "@type": "SportsEvent",
+  "name": `${match.homeTeam} vs ${match.awayTeam}`,
+  "description": `${match.homeTeam} ${match.homeScore}-${match.awayScore} ${match.awayTeam} — Gameweek ${match.gameweek}, Baller League UK Season ${match.season}`,
+  "sport": "Football",
+  "homeTeam": { "@type": "SportsTeam", "name": match.homeTeam, "url": `https://ballerleagueukhub.com/teams/${match.homeSlug}` },
+  "awayTeam": { "@type": "SportsTeam", "name": match.awayTeam, "url": `https://ballerleagueukhub.com/teams/${match.awaySlug}` },
+  "location": { "@type": "Place", "name": "Baller Arena" },
+  "organizer": { "@type": "Organization", "name": "Baller League UK", "url": "https://ballerleague.uk" }
+} : undefined;
 ---
 
 <Base
   title={match ? `${match.homeTeam} ${match.homeScore}-${match.awayScore} ${match.awayTeam} — Gameweek ${match.gameweek}` : 'Match Not Found'}
   description={match ? `Full match detail for ${match.homeTeam} vs ${match.awayTeam} (${match.homeScore}-${match.awayScore}) — Gameweek ${match.gameweek}, Season ${match.season}. Gamechanger analysis, goals and timeline.` : 'Match not found.'}
+  schema={schema}
 >
 
   {!match ? (
@@ -70,7 +83,7 @@ const totalGCGoals = (match?.gamechanger1?.goalsScored || 0) + (match?.gamechang
             </div>
             <div class="scorecard-main">
               <div class="scorecard-team home">
-                <img src={`/logos/${match.homeSlug}.svg`} class="team-hero-logo" style="width:64px;height:64px;" onerror="this.hidden=true" alt="" />
+                <img src={`/logos/${match.homeSlug}.svg`} class="team-hero-logo" style="width:64px;height:64px;" onerror="this.hidden=true" alt={match.homeTeam} />
                 <a href={`/teams/${match.homeSlug}`} class="scorecard-team-name">{match.homeTeam}</a>
               </div>
               <div class="scorecard-score">
@@ -79,7 +92,7 @@ const totalGCGoals = (match?.gamechanger1?.goalsScored || 0) + (match?.gamechang
                 <span class="score-num">{match.awayScore}</span>
               </div>
               <div class="scorecard-team away">
-                <img src={`/logos/${match.awaySlug}.svg`} style="width:64px;height:64px;object-fit:contain;" onerror="this.hidden=true" alt="" />
+                <img src={`/logos/${match.awaySlug}.svg`} style="width:64px;height:64px;object-fit:contain;" onerror="this.hidden=true" alt={match.awayTeam} />
                 <a href={`/teams/${match.awaySlug}`} class="scorecard-team-name">{match.awayTeam}</a>
               </div>
             </div>

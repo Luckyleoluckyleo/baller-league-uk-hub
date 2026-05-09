@@ -164,7 +164,7 @@ const schema = {
                   <td class="text-muted">{p.number || '—'}</td>
                   <td>
                     <a href={`/players/${p.slug}`} class="td-team-name" style="gap: 6px;">
-                      <img src={`/players/${p.slug}.webp`} alt="" class="player-thumb-xs" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
+                      <img src={`/players/${p.slug}.webp`} alt={p.name} class="player-thumb-xs" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
                       <span class="player-thumb-fallback-xs">{p.name.split(' ').map((n: string) => n[0]).join('').slice(0,2).toUpperCase()}</span>
                       <span>{p.name}</span>
                     </a>
@@ -199,16 +199,16 @@ const schema = {
           {teamUpcoming.map((f: any) => (
             <div class="fixture-card">
               <div class="fixture-team home">
-                <img src={`/logos/${f.homeSlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt="" />
-                <span class="fixture-team-name">{f.homeTeam}</span>
+                <img src={`/logos/${f.homeSlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt={f.homeTeam} />
+                <a href={`/teams/${f.homeSlug}`} class="fixture-team-name">{f.homeTeam}</a>
               </div>
               <div class="fixture-vs-box">
                 <div class="fixture-score">vs</div>
                 <div class="fixture-date">GW{f.gameweek} &middot; {f.date}</div>
               </div>
               <div class="fixture-team away">
-                <img src={`/logos/${f.awaySlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt="" />
-                <span class="fixture-team-name">{f.awayTeam}</span>
+                <img src={`/logos/${f.awaySlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt={f.awayTeam} />
+                <a href={`/teams/${f.awaySlug}`} class="fixture-team-name">{f.awayTeam}</a>
               </div>
             </div>
           ))}
@@ -221,7 +221,7 @@ const schema = {
           {teamResults.map((m: any) => (
             <a href={`/match/${getMatchIdx(m)}`} class="fixture-card fixture-result-card" style="text-decoration:none;">
               <div class="fixture-team home">
-                <img src={`/logos/${m.homeSlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt="" />
+                <img src={`/logos/${m.homeSlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt={m.homeTeam} />
                 <span class="fixture-team-name">{m.homeTeam}</span>
               </div>
               <div class="fixture-vs-box">
@@ -229,7 +229,7 @@ const schema = {
                 <div class="fixture-date">GW{m.gameweek}</div>
               </div>
               <div class="fixture-team away">
-                <img src={`/logos/${m.awaySlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt="" />
+                <img src={`/logos/${m.awaySlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt={m.awayTeam} />
                 <span class="fixture-team-name">{m.awayTeam}</span>
               </div>
             </a>

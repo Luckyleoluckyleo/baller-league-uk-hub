@@ -129,7 +129,7 @@ function getMatchIndex(match: any): number {
               <td><span class={`pos-num ${row.pos <= 4 ? 'top-4' : ''}`}>{row.pos}</span></td>
               <td>
                 <a href={`/teams/${row.slug}`} class="td-team-name">
-                  <img src={`/logos/${row.slug}.svg`} class="td-logo" onerror="this.hidden=true" alt="" />
+                  <img src={`/logos/${row.slug}.svg`} class="td-logo" onerror="this.hidden=true" alt={row.team} />
                   <span class="team-badge td-emoji-fallback">{row.emoji}</span>
                   {row.team}
                 </a>
@@ -177,7 +177,7 @@ function getMatchIndex(match: any): number {
               {(resultsByGW[gw] || []).map((m: any) => (
                 <a href={`/match/${getMatchIndex(m)}`} class="fixture-card fixture-result-card">
                   <div class="fixture-team home">
-                    <img src={`/logos/${m.homeSlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt="" />
+                    <img src={`/logos/${m.homeSlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt={m.homeTeam} />
                     <span class="fixture-team-name">{m.homeTeam}</span>
                   </div>
                   <div class="fixture-vs-box">
@@ -185,7 +185,7 @@ function getMatchIndex(match: any): number {
                     <div class="fixture-date">FT</div>
                   </div>
                   <div class="fixture-team away">
-                    <img src={`/logos/${m.awaySlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt="" />
+                    <img src={`/logos/${m.awaySlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt={m.awayTeam} />
                     <span class="fixture-team-name">{m.awayTeam}</span>
                   </div>
                 </a>
@@ -210,7 +210,7 @@ function getMatchIndex(match: any): number {
           {fixturesData.upcoming.map(f => (
             <div class="fixture-card">
               <div class="fixture-team home">
-                <img src={`/logos/${f.homeSlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt="" />
+                <img src={`/logos/${f.homeSlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt={f.homeTeam} />
                 <div>
                   <div class="fixture-team-name">{f.homeTeam}</div>
                 </div>
@@ -221,7 +221,7 @@ function getMatchIndex(match: any): number {
                 <div class="fixture-date">{f.time}</div>
               </div>
               <div class="fixture-team away">
-                <img src={`/logos/${f.awaySlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt="" />
+                <img src={`/logos/${f.awaySlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt={f.awayTeam} />
                 <div>
                   <div class="fixture-team-name">{f.awayTeam}</div>
                 </div>
