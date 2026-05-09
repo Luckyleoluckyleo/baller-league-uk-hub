@@ -283,14 +283,6 @@ const schema = {
         teams[team].matches++;
       }
     }
-    // Actually recalculate properly
-    for (const m of matches) {
-      const totalGCGoals = (m.gamechanger1?.goalsScored || 0) + (m.gamechanger2?.goalsScored || 0);
-      // Simplify: all GC goals scored are credited to BOTH teams (since we can't attribute them)
-      // Better approach: just show raw GC goals per match
-      teams[m.homeTeam].gcScored += (m.gamechanger1?.goalsScored || 0) + (m.gamechanger2?.goalsScored || 0);
-      teams[m.awayTeam].gcScored += (m.gamechanger1?.goalsScored || 0) + (m.gamechanger2?.goalsScored || 0);
-    }
     const sorted = Object.values(teams).sort((a: any, b: any) => b.gcScored - a.gcScored);
     const maxGC = Math.max(...sorted.map((t: any) => t.gcScored), 1);
     const rows = sorted.map((t: any, i) => `
