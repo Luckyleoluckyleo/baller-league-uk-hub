@@ -27,16 +27,16 @@ if (existsSync(CACHE_DIR)) {
   rmSync(CACHE_DIR, { recursive: true, force: true });
 }
 
-run("node scripts/scrape.mjs", "1/5 Scraping match results");
-run("node scripts/scrape-players.mjs", "2/5 Scraping player stats");
-run("node scripts/generate-reports.mjs", "3/5 Generating match reports");
-run("node scripts/generate-previews.mjs", "4/5 Generating fixture previews");
+run("node scripts/scrape.mjs", "1/6 Scraping match results");
+run("node scripts/scrape-ep.mjs", "2/6 Scraping EP values");
+run("node scripts/scrape-players.mjs", "3/6 Scraping player stats");
+run("node scripts/generate-reports.mjs", "4/6 Generating match reports");
+run("node scripts/generate-previews.mjs", "5/6 Generating fixture previews");
 
 console.log("\n⚠  Don't forget to manually update:");
-console.log("   src/data/table.json  — standings (W/D/L/PTS)");
 console.log("   src/data/fixtures.json — next gameweek fixtures");
 
-run("npm run build", "5/5 Building site");
+run("npm run build", "6/6 Building site");
 run("node scripts/generate-sitemap.mjs", "Generating sitemap");
 
 console.log("\n✓ All done! Site ready in dist/");
