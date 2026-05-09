@@ -51,6 +51,7 @@ const computedTable = tableData.map(row => {
   return { ...row, played: r.played, won: r.won, drawn: r.drawn, lost: r.lost, gf: r.gf, ga: r.ga, gd, pts };
 });
 computedTable.sort((a, b) => b.pts - a.pts || b.gd - a.gd || b.gf - a.gf);
+computedTable.forEach((row, i) => { row.pos = i + 1; });
 
 function getForm(slug: string): { label: string; cls: string }[] {
   const m = s3Matches
