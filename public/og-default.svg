@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00e676"/>
+      <stop offset="100%" stop-color="#00c853"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#94a3b8"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="#0a0f1a"/>
+
+  <!-- Grid background -->
+  <g opacity="0.04">
+    <line x1="0" y1="0" x2="1200" y2="0" stroke="white" stroke-width="1"/>
+    <line x1="0" y1="150" x2="1200" y2="150" stroke="white" stroke-width="1"/>
+    <line x1="0" y1="300" x2="1200" y2="300" stroke="white" stroke-width="1"/>
+    <line x1="0" y1="450" x2="1200" y2="450" stroke="white" stroke-width="1"/>
+    <line x1="0" y1="600" x2="1200" y2="600" stroke="white" stroke-width="1"/>
+    <line x1="0" y1="0" x2="0" y2="630" stroke="white" stroke-width="1"/>
+    <line x1="200" y1="0" x2="200" y2="630" stroke="white" stroke-width="1"/>
+    <line x1="400" y1="0" x2="400" y2="630" stroke="white" stroke-width="1"/>
+    <line x1="600" y1="0" x2="600" y2="630" stroke="white" stroke-width="1"/>
+    <line x1="800" y1="0" x2="800" y2="630" stroke="white" stroke-width="1"/>
+    <line x1="1000" y1="0" x2="1000" y2="630" stroke="white" stroke-width="1"/>
+    <line x1="1200" y1="0" x2="1200" y2="630" stroke="white" stroke-width="1"/>
+  </g>
+
+  <!-- Hexagon -->
+  <g transform="translate(600 200)">
+    <path d="M0 -80 L69 -40 L69 40 L0 80 L-69 40 L-69 -40 Z" fill="none" stroke="url(#neon)" stroke-width="4" filter="url(#glow)"/>
+    <path d="M0 -60 L52 -30 L52 30 L0 60 L-52 30 L-52 -30 Z" stroke="#00e676" stroke-opacity="0.15" stroke-width="2"/>
+
+    <!-- Football -->
+    <g transform="translate(-24 -22)">
+      <circle cx="24" cy="22" r="18" fill="none" stroke="url(#neon)" stroke-width="3" filter="url(#glow)"/>
+      <circle cx="24" cy="22" r="14" stroke="#00e676" stroke-opacity="0.12" stroke-width="1.5"/>
+      <polygon points="24,11 30,16 28,24 20,24 18,16" fill="url(#silver)"/>
+      <path d="M24 11 L24 4" stroke="url(#silver)" stroke-width="1.5"/>
+      <path d="M30 16 L37 13" stroke="url(#silver)" stroke-width="1.5"/>
+      <path d="M28 24 L33 31" stroke="url(#silver)" stroke-width="1.5"/>
+      <path d="M20 24 L15 31" stroke="url(#silver)" stroke-width="1.5"/>
+      <path d="M18 16 L11 13" stroke="url(#silver)" stroke-width="1.5"/>
+    </g>
+  </g>
+
+  <!-- BALLER LEAGUE UK text -->
+  <text x="600" y="350" text-anchor="middle" fill="url(#silver)" font-family="'Inter','Segoe UI',sans-serif" font-size="56" font-weight="900" letter-spacing="4">BALLER LEAGUE UK</text>
+
+  <!-- HUB text -->
+  <text x="600" y="420" text-anchor="middle" fill="url(#neon)" font-family="'Inter','Segoe UI',sans-serif" font-size="38" font-weight="900" letter-spacing="18" filter="url(#glow)">HUB</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="480" text-anchor="middle" fill="#64748b" font-family="'Inter','Segoe UI',sans-serif" font-size="22" font-weight="600" letter-spacing="6">STATS · TABLE · TEAMS · GAMECHANGERS</text>
+
+  <!-- URL -->
+  <text x="600" y="560" text-anchor="middle" fill="#475569" font-family="'Inter','Segoe UI',sans-serif" font-size="20" font-weight="500" letter-spacing="2">BALLERLEAGUEUKHUB.COM</text>
+</svg>
