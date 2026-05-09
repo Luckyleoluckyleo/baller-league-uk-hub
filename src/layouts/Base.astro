@@ -64,7 +64,7 @@ const jsonLd = JSON.stringify(schemas.length === 1 ? schemas[0] : { "@context": 
   <meta name="theme-color" content="#06060e" />
   <meta name="format-detection" content="telephone=no" />
   <link rel="canonical" href={canonicalURL} />
-  <link rel="sitemap" href="/sitemap-index.xml" />
+  <link rel="sitemap" href="/sitemap.xml" />
 
   <!-- Google AdSense -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7873503560434517" crossorigin="anonymous"></script>
@@ -102,5 +102,35 @@ const jsonLd = JSON.stringify(schemas.length === 1 ? schemas[0] : { "@context": 
     <slot />
   </main>
   <Footer />
+  <script>
+    (function() {
+      const bc = document.querySelector('.breadcrumb');
+      if (!bc) return;
+      const items = [];
+      let pos = 1;
+      bc.childNodes.forEach(node => {
+        if (node.classList && node.classList.contains('breadcrumb-sep')) return;
+        const a = node.tagName === 'A' ? node : null;
+        const name = (a || node).textContent.trim();
+        if (!name) return;
+        items.push({
+          "@type": "ListItem",
+          "position": pos++,
+          "name": name,
+          "item": a ? a.href : undefined
+        });
+      });
+      if (items.length < 2) return;
+      const ld = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": items
+      };
+      const el = document.createElement('script');
+      el.type = 'application/ld+json';
+      el.textContent = JSON.stringify(ld);
+      document.head.appendChild(el);
+    })();
+  </script>
 </body>
 </html>

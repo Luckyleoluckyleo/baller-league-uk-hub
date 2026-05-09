@@ -1,4 +1,5 @@
 ---
+
 import Base from '../../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 
@@ -13,6 +14,24 @@ export async function getStaticPaths() {
 const { article } = Astro.props;
 const { data } = article;
 const { Content } = await article.render();
+
+const allNews = await getCollection('news');
+
+function extractGW(slug: string): number {
+  const m = slug.match(/(?:gw|gameweek[-]?)(\d+)/i);
+  return m ? parseInt(m[1]) : 0;
+}
+
+const currentGW = extractGW(article.slug);
+const related = allNews
+  .filter(a => a.slug !== article.slug && extractGW(a.slug) === currentGW && currentGW > 0)
+  .sort((a, b) => a.data.title.localeCompare(b.data.title))
+  .slice(0, 5);
+
+const recentNews = allNews
+  .filter(a => a.slug !== article.slug)
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .slice(0, 5);
 
 const formattedDate = data.date.toLocaleDateString('en-GB', {
   weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'
@@ -69,11 +88,25 @@ const catClass =
       </article>
 
       <aside class="article-aside">
+        {related.length > 0 && (
+          <div class="card">
+            <div class="card-body">
+              <h4>Related GW{currentGW}</h4>
+              <ul class="aside-links">
+                {related.map(r => (
+                  <li><a href={`/news/${r.slug}`}>{r.data.title}</a></li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        )}
         <div class="card">
           <div class="card-body">
-            <h4>More News</h4>
+            <h4>Latest News</h4>
             <ul class="aside-links">
-              <li><a href="/news">All Articles</a></li>
+              {recentNews.map(r => (
+                <li><a href={`/news/${r.slug}`}>{r.data.title}</a></li>
+              ))}
             </ul>
           </div>
         </div>
@@ -81,9 +114,11 @@ const catClass =
           <div class="card-body">
             <h4>Quick Links</h4>
             <ul class="aside-links">
+              <li><a href="/news">All News</a></li>
               <li><a href="/table">League Table</a></li>
               <li><a href="/teams">Teams</a></li>
               <li><a href="/players">Players</a></li>
+              <li><a href="/gamechangers">Gamechangers</a></li>
               <li><a href="/watch">Where to Watch</a></li>
             </ul>
           </div>

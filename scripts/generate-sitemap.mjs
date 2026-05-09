@@ -1,4 +1,4 @@
-import { writeFileSync, readdirSync, existsSync } from "fs";
+import { writeFileSync, readdirSync, statSync } from "fs";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
 
@@ -23,7 +23,8 @@ function walk(dir, base = "") {
         .replace(/\.html$/, "");
       const fullUrl = `${SITE}/${url}`;
       if (!EXCLUDE.has(rel) && !rel.includes("roundup/index")) {
-        results.push({ url: fullUrl, path: rel });
+        const { mtime } = statSync(full);
+        results.push({ url: fullUrl, path: rel, mtime });
       }
     }
   }
@@ -33,15 +34,29 @@ function walk(dir, base = "") {
 const pages = walk(DIST_DIR);
 pages.sort((a, b) => a.url.localeCompare(b.url));
 
-const now = new Date().toISOString();
+function getPriority(url) {
+  if (url === `${SITE}/`) return "1.0";
+  if (url === `${SITE}/table` || url === `${SITE}/teams` || url === `${SITE}/players`) return "0.9";
+  if (url.startsWith(`${SITE}/teams/`) || url.startsWith(`${SITE}/players/`)) return "0.7";
+  if (url.startsWith(`${SITE}/news/`) || url.startsWith(`${SITE}/roundup/`)) return "0.7";
+  if (url.startsWith(`${SITE}/match/`)) return "0.6";
+  if (url === `${SITE}/gamechangers` || url === `${SITE}/h2h` || url === `${SITE}/rules` || url === `${SITE}/watch`) return "0.6";
+  return "0.5";
+}
+
+function getChangefreq(url) {
+  if (url === `${SITE}/` || url === `${SITE}/table`) return "daily";
+  if (url.startsWith(`${SITE}/news/`) || url.startsWith(`${SITE}/roundup/`)) return "weekly";
+  return "monthly";
+}
 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${pages.map(p => `  <url>
     <loc>${p.url}</loc>
-    <lastmod>${now}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>${p.url === `${SITE}/` ? "1.0" : p.url.startsWith(`${SITE}/news/`) ? "0.7" : "0.8"}</priority>
+    <lastmod>${p.mtime.toISOString()}</lastmod>
+    <changefreq>${getChangefreq(p.url)}</changefreq>
+    <priority>${getPriority(p.url)}</priority>
   </url>`).join("\n")}
 </urlset>`;
 
