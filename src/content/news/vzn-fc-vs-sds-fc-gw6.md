@@ -9,7 +9,7 @@ featured: false
 
 ## VZN FC 3-2 SDS FC — Gameweek 6 Report
 
-VZN FC edged past SDS FC 3-2 at Baller Arena in Gameweek 6 in a tight contest. VZN FC came into the match sitting 10th in the table, while SDS FC were 3rd.
+VZN FC edged past SDS FC 3-2 at Baller Arena in Gameweek 6 in a tight contest. VZN FC came into the match sitting 8th in the table, while SDS FC were 3rd.
 
 ## First Half
 

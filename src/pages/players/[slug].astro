@@ -13,11 +13,21 @@ const { playerSlug } = Astro.props;
 const player = playerData.players.find((p: any) => p.slug === playerSlug);
 const stats = player?.seasons?.['3'];
 const avatarFallback = player ? player.name.split(' ').map((n: string) => n[0]).join('').slice(0,2).toUpperCase() : '??';
----
+
+const schema = player ? {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": player.name,
+  "description": stats ? `${player.name} – ${stats.goals ?? 0} goals, ${stats.assists ?? 0} assists in ${stats.apps ?? 0} appearances for ${player.team} in Baller League UK Season 3.` : `${player.name} plays for ${player.team} in Baller League UK.`,
+  "affiliation": { "@type": "SportsTeam", "name": player.team, "sport": "Football" },
+  "image": player.image ? `/players/${player.image}` : undefined
+} : undefined;---
 
 <Base
-  title={player ? `${player.name} – Baller League UK Player Profile` : 'Player Not Found'}
-  description={player ? `${player.name}${stats ? ` — ${stats.goals ?? 0} goals, ${stats.assists ?? 0} assists in ${stats.apps ?? 0} apps for ${player.team}` : ''}.` : 'Player not found.'}
+  title={player ? `${player.name} — Baller League UK Player Profile` : 'Player Not Found'}
+  description={player ? `${player.name}${stats ? ` — ${stats.goals ?? 0} goals, ${stats.assists ?? 0} assists in ${stats.apps ?? 0} apps for ${player.team} in Baller League UK Season 3.` : ''}` : 'Player not found.'}
+  schema={schema}
+  keywords={player ? `${player.name}, ${player.team}, Baller League UK player, ${player.position ?? ''}, Season 3` : ''}
 >
 
   {!player ? (

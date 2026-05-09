@@ -9,7 +9,7 @@ featured: true
 
 ## Yanited 8-6 N5 FC — Gameweek 4 Report
 
-Yanited defeated N5 FC 8-6 at Baller Arena in Gameweek 4. Yanited came into the match sitting 5th in the table, while N5 FC were 7th.
+Yanited defeated N5 FC 8-6 at Baller Arena in Gameweek 4. Yanited came into the match sitting 6th in the table, while N5 FC were 7th.
 
 ## First Half
 

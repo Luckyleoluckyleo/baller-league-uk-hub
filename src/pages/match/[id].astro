@@ -41,8 +41,8 @@ const totalGCGoals = (match?.gamechanger1?.goalsScored || 0) + (match?.gamechang
 ---
 
 <Base
-  title={match ? `${match.homeTeam} ${match.homeScore}-${match.awayScore} ${match.awayTeam} — Match Detail` : 'Match Not Found'}
-  description={match ? `Full match detail for ${match.homeTeam} vs ${match.awayTeam} — Gameweek ${match.gameweek}, Season ${match.season}. Gamechanger analysis included.` : 'Match not found.'}
+  title={match ? `${match.homeTeam} ${match.homeScore}-${match.awayScore} ${match.awayTeam} — Gameweek ${match.gameweek}` : 'Match Not Found'}
+  description={match ? `Full match detail for ${match.homeTeam} vs ${match.awayTeam} (${match.homeScore}-${match.awayScore}) — Gameweek ${match.gameweek}, Season ${match.season}. Gamechanger analysis, goals and timeline.` : 'Match not found.'}
 >
 
   {!match ? (

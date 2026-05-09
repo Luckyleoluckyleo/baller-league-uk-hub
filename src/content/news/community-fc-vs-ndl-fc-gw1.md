@@ -9,7 +9,7 @@ featured: false
 
 ## Community FC 2-7 NDL FC — Gameweek 1 Report
 
-NDL FC demolished Community FC 2-7 at Baller Arena in Gameweek 1 in an emphatic display. Community FC came into the match sitting 12th in the table, while NDL FC were 1st.
+NDL FC demolished Community FC 2-7 at Baller Arena in Gameweek 1 in an emphatic display. Community FC came into the match sitting 11th in the table, while NDL FC were 1st.
 
 ## First Half
 

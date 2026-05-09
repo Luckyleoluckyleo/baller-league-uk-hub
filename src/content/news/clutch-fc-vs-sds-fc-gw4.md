@@ -9,7 +9,7 @@ featured: false
 
 ## Clutch FC 3-5 SDS FC — Gameweek 4 Report
 
-SDS FC defeated Clutch FC 3-5 at Baller Arena in Gameweek 4. Clutch FC came into the match sitting 6th in the table, while SDS FC were 3rd.
+SDS FC defeated Clutch FC 3-5 at Baller Arena in Gameweek 4. Clutch FC came into the match sitting 9th in the table, while SDS FC were 3rd.
 
 ## First Half
 

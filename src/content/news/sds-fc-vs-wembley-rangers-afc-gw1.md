@@ -9,7 +9,7 @@ featured: false
 
 ## SDS FC 3-2 Wembley Rangers AFC — Gameweek 1 Report
 
-SDS FC edged past Wembley Rangers AFC 3-2 at Baller Arena in Gameweek 1 in a tight contest. SDS FC came into the match sitting 3rd in the table, while Wembley Rangers AFC were 8th.
+SDS FC edged past Wembley Rangers AFC 3-2 at Baller Arena in Gameweek 1 in a tight contest. SDS FC came into the match sitting 3rd in the table, while Wembley Rangers AFC were 5th.
 
 ## First Half
 

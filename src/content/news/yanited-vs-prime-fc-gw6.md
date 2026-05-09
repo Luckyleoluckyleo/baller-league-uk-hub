@@ -9,7 +9,7 @@ featured: false
 
 ## Yanited 1-8 Prime FC — Gameweek 6 Report
 
-Prime FC demolished Yanited 1-8 at Baller Arena in Gameweek 6 in an emphatic display. Yanited came into the match sitting 5th in the table, while Prime FC were 2nd.
+Prime FC demolished Yanited 1-8 at Baller Arena in Gameweek 6 in an emphatic display. Yanited came into the match sitting 6th in the table, while Prime FC were 4th.
 
 ## First Half
 

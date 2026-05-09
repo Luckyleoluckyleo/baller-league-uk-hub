@@ -9,7 +9,7 @@ featured: true
 
 ## Rukkas FC 7-5 Clutch FC — Gameweek 1 Report
 
-Rukkas FC defeated Clutch FC 7-5 at Baller Arena in Gameweek 1. Rukkas FC came into the match sitting 11th in the table, while Clutch FC were 6th.
+Rukkas FC defeated Clutch FC 7-5 at Baller Arena in Gameweek 1. Rukkas FC came into the match sitting 12th in the table, while Clutch FC were 9th.
 
 ## First Half
 

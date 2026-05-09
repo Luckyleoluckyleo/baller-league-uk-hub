@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ballerleagueuk.com/sitemap-index.xml
+Sitemap: https://ballerleagueuk.com/sitemap.xml

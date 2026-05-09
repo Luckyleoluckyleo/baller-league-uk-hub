@@ -9,7 +9,7 @@ featured: false
 
 ## Community FC 4-3 VZN FC — Gameweek 4 Report
 
-Community FC edged past VZN FC 4-3 at Baller Arena in Gameweek 4 in a tight contest. Community FC came into the match sitting 12th in the table, while VZN FC were 10th.
+Community FC edged past VZN FC 4-3 at Baller Arena in Gameweek 4 in a tight contest. Community FC came into the match sitting 11th in the table, while VZN FC were 8th.
 
 ## First Half
 

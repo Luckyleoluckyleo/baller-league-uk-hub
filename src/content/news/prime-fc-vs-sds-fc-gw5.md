@@ -9,7 +9,7 @@ featured: false
 
 ## Prime FC 2-2 SDS FC — Gameweek 5 Report
 
-Prime FC and SDS FC played out an entertaining 2-2 draw at Baller Arena. Prime FC came into the match sitting 2nd in the table, while SDS FC were 3rd.
+Prime FC and SDS FC played out an entertaining 2-2 draw at Baller Arena. Prime FC came into the match sitting 4th in the table, while SDS FC were 3rd.
 
 ## First Half
 

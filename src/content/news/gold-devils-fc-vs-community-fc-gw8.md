@@ -9,7 +9,7 @@ featured: false
 
 ## Gold Devils FC 4-4 Community FC — Gameweek 8 Report
 
-Gold Devils FC and Community FC played out an entertaining 4-4 draw at Baller Arena. Gold Devils FC came into the match sitting 9th in the table, while Community FC were 12th.
+Gold Devils FC and Community FC played out an entertaining 4-4 draw at Baller Arena. Gold Devils FC came into the match sitting 10th in the table, while Community FC were 11th.
 
 ## First Half
 

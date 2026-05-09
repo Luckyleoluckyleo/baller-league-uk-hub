@@ -37,5 +37,6 @@ console.log("   src/data/table.json  — standings (W/D/L/PTS)");
 console.log("   src/data/fixtures.json — next gameweek fixtures");
 
 run("npm run build", "5/5 Building site");
+run("node scripts/generate-sitemap.mjs", "Generating sitemap");
 
 console.log("\n✓ All done! Site ready in dist/");

@@ -9,7 +9,7 @@ featured: false
 
 ## Deportrio 6-2 Gold Devils FC — Gameweek 1 Report
 
-Deportrio dominated Gold Devils FC 6-2 at Baller Arena in Gameweek 1 in an emphatic display. Deportrio came into the match sitting 4th in the table, while Gold Devils FC were 9th.
+Deportrio dominated Gold Devils FC 6-2 at Baller Arena in Gameweek 1 in an emphatic display. Deportrio came into the match sitting 2nd in the table, while Gold Devils FC were 10th.
 
 ## First Half
 

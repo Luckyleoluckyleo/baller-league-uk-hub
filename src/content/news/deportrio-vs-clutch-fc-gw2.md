@@ -9,7 +9,7 @@ featured: false
 
 ## Deportrio 1-4 Clutch FC — Gameweek 2 Report
 
-Clutch FC dominated Deportrio 1-4 at Baller Arena in Gameweek 2 in an emphatic display. Deportrio came into the match sitting 4th in the table, while Clutch FC were 6th.
+Clutch FC dominated Deportrio 1-4 at Baller Arena in Gameweek 2 in an emphatic display. Deportrio came into the match sitting 2nd in the table, while Clutch FC were 9th.
 
 ## First Half
 

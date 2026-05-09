@@ -9,7 +9,7 @@ featured: false
 
 ## Rukkas FC 3-4 Wembley Rangers AFC — Gameweek 6 Report
 
-Wembley Rangers AFC edged past Rukkas FC 3-4 at Baller Arena in Gameweek 6 in a tight contest. Rukkas FC came into the match sitting 11th in the table, while Wembley Rangers AFC were 8th.
+Wembley Rangers AFC edged past Rukkas FC 3-4 at Baller Arena in Gameweek 6 in a tight contest. Rukkas FC came into the match sitting 12th in the table, while Wembley Rangers AFC were 5th.
 
 ## First Half
 

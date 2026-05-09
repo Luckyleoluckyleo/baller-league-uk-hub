@@ -9,7 +9,7 @@ featured: false
 
 ## VZN FC 2-1 Clutch FC — Gameweek 8 Report
 
-VZN FC edged past Clutch FC 2-1 at Baller Arena in Gameweek 8 in a tight contest. VZN FC came into the match sitting 10th in the table, while Clutch FC were 6th.
+VZN FC edged past Clutch FC 2-1 at Baller Arena in Gameweek 8 in a tight contest. VZN FC came into the match sitting 8th in the table, while Clutch FC were 9th.
 
 ## First Half
 

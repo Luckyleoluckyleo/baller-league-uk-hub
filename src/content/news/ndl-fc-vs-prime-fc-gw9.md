@@ -9,7 +9,7 @@ featured: false
 
 ## NDL FC 5-3 Prime FC — Gameweek 9 Report
 
-NDL FC defeated Prime FC 5-3 at Baller Arena in Gameweek 9. NDL FC came into the match sitting 1st in the table, while Prime FC were 2nd.
+NDL FC defeated Prime FC 5-3 at Baller Arena in Gameweek 9. NDL FC came into the match sitting 1st in the table, while Prime FC were 4th.
 
 ## First Half
 

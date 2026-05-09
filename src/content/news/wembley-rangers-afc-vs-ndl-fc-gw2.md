@@ -9,7 +9,7 @@ featured: false
 
 ## Wembley Rangers AFC 2-2 NDL FC — Gameweek 2 Report
 
-Wembley Rangers AFC and NDL FC played out an entertaining 2-2 draw at Baller Arena. Wembley Rangers AFC came into the match sitting 8th in the table, while NDL FC were 1st.
+Wembley Rangers AFC and NDL FC played out an entertaining 2-2 draw at Baller Arena. Wembley Rangers AFC came into the match sitting 5th in the table, while NDL FC were 1st.
 
 ## First Half
 

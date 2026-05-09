@@ -9,7 +9,7 @@ featured: false
 
 ## SDS FC 2-2 Deportrio — Gameweek 7 Report
 
-SDS FC and Deportrio played out an entertaining 2-2 draw at Baller Arena. SDS FC came into the match sitting 3rd in the table, while Deportrio were 4th.
+SDS FC and Deportrio played out an entertaining 2-2 draw at Baller Arena. SDS FC came into the match sitting 3rd in the table, while Deportrio were 2nd.
 
 ## First Half
 

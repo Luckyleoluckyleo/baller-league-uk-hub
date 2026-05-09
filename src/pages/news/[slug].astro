@@ -24,8 +24,10 @@ const schema = {
   "headline": data.title,
   "description": data.excerpt,
   "datePublished": data.date.toISOString(),
+  "dateModified": data.date.toISOString(),
   "author": { "@type": "Organization", "name": data.author },
-  "publisher": { "@type": "Organization", "name": "Baller League UK Fan Site" }
+  "publisher": { "@type": "Organization", "name": "Baller League UK Hub", "url": "https://ballerleagueuk.com" },
+  "mainEntityOfPage": { "@type": "WebPage", "@id": new URL(Astro.url.pathname, Astro.site ?? 'https://ballerleagueuk.com').toString() }
 };
 
 const catClass =

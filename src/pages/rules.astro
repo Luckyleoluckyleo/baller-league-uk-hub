@@ -3,17 +3,25 @@ import Base from '../layouts/Base.astro';
 
 const schema = {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "name": "Baller League UK Hub – Rules & Format",
+  "@type": "FAQPage",
+  "name": "Baller League UK Rules & Format",
   "description": "Complete rules and format guide for Baller League UK: 6v6, 30-minute matches, Game Changers at 12' and 27', no corner kicks, 11-game season with Final Four playoffs.",
-  "about": { "@type": "SportsOrganization", "name": "Baller League UK" }
+  "mainEntity": [
+    { "@type": "Question", "name": "What is the format of Baller League UK?", "acceptedAnswer": { "@type": "Answer", "text": "Baller League UK is 6-a-side football with 30-minute matches (two 15-minute halves), unlimited rolling substitutions, and celebrity managers." } },
+    { "@type": "Question", "name": "What are Game Changers in Baller League UK?", "acceptedAnswer": { "@type": "Answer", "text": "Game Changers are random rule changes activated at the 12th and 27th minute of each match. First-half options are Onside, Plus One, and 3Play. Second-half options are 1-on-1, The Line, and Fairplay." } },
+    { "@type": "Question", "name": "Are there corner kicks in Baller League UK?", "acceptedAnswer": { "@type": "Answer", "text": "No. Traditional corner kicks are replaced by direct penalty kicks." } },
+    { "@type": "Question", "name": "How many teams are in Baller League UK?", "acceptedAnswer": { "@type": "Answer", "text": "12 teams compete in Baller League UK Season 3 over 11 gameweeks, with the top 4 qualifying for the Final Four playoffs." } },
+    { "@type": "Question", "name": "How does the Baller League UK scoring system work?", "acceptedAnswer": { "@type": "Answer", "text": "A win earns 3 points, a draw earns 1 point, and the penalty shootout winner earns 1 additional bonus point. Losses earn 0 points." } }
+  ]
 };
 ---
 
 <Base
-  title="Baller League UK Hub — Rules & Format"
+  title="Baller League UK Rules & Format — How It Works"
   description="Complete guide to Baller League UK rules: 6v6 format, Game Changers at 12' and 27', no corner kicks, 30-minute matches, season structure and Final Four playoffs."
   schema={schema}
+  keywords="rules, format, Game Changer, 6v6, offside, corner kicks, season structure, playoffs, Final Four"
+  type="article"
 >
 
   <div class="page-header">

@@ -9,7 +9,7 @@ featured: false
 
 ## Yanited 2-1 Rukkas FC — Gameweek 3 Report
 
-Yanited edged past Rukkas FC 2-1 at Baller Arena in Gameweek 3 in a tight contest. Yanited came into the match sitting 5th in the table, while Rukkas FC were 11th.
+Yanited edged past Rukkas FC 2-1 at Baller Arena in Gameweek 3 in a tight contest. Yanited came into the match sitting 6th in the table, while Rukkas FC were 12th.
 
 ## First Half
 

@@ -9,7 +9,7 @@ featured: false
 
 ## Yanited 5-3 Community FC — Gameweek 2 Report
 
-Yanited defeated Community FC 5-3 at Baller Arena in Gameweek 2. Yanited came into the match sitting 5th in the table, while Community FC were 12th.
+Yanited defeated Community FC 5-3 at Baller Arena in Gameweek 2. Yanited came into the match sitting 6th in the table, while Community FC were 11th.
 
 ## First Half
 

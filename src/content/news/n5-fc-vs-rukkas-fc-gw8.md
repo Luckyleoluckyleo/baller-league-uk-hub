@@ -9,7 +9,7 @@ featured: false
 
 ## N5 FC 8-1 Rukkas FC — Gameweek 8 Report
 
-N5 FC demolished Rukkas FC 8-1 at Baller Arena in Gameweek 8 in an emphatic display. N5 FC came into the match sitting 7th in the table, while Rukkas FC were 11th.
+N5 FC demolished Rukkas FC 8-1 at Baller Arena in Gameweek 8 in an emphatic display. N5 FC came into the match sitting 7th in the table, while Rukkas FC were 12th.
 
 ## First Half
 

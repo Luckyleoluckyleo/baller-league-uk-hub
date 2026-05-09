@@ -9,7 +9,7 @@ featured: false
 
 ## Yanited 2-2 Gold Devils FC — Gameweek 7 Report
 
-Yanited and Gold Devils FC played out an entertaining 2-2 draw at Baller Arena. Yanited came into the match sitting 5th in the table, while Gold Devils FC were 9th.
+Yanited and Gold Devils FC played out an entertaining 2-2 draw at Baller Arena. Yanited came into the match sitting 6th in the table, while Gold Devils FC were 10th.
 
 ## First Half
 

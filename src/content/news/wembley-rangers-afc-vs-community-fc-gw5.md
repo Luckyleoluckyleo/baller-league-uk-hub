@@ -9,7 +9,7 @@ featured: false
 
 ## Wembley Rangers AFC 5-1 Community FC — Gameweek 5 Report
 
-Wembley Rangers AFC dominated Community FC 5-1 at Baller Arena in Gameweek 5 in an emphatic display. Wembley Rangers AFC came into the match sitting 8th in the table, while Community FC were 12th.
+Wembley Rangers AFC dominated Community FC 5-1 at Baller Arena in Gameweek 5 in an emphatic display. Wembley Rangers AFC came into the match sitting 5th in the table, while Community FC were 11th.
 
 ## First Half
 

@@ -9,7 +9,7 @@ featured: false
 
 ## Prime FC 7-1 Wembley Rangers AFC — Gameweek 7 Report
 
-Prime FC demolished Wembley Rangers AFC 7-1 at Baller Arena in Gameweek 7 in an emphatic display. Prime FC came into the match sitting 2nd in the table, while Wembley Rangers AFC were 8th.
+Prime FC demolished Wembley Rangers AFC 7-1 at Baller Arena in Gameweek 7 in an emphatic display. Prime FC came into the match sitting 4th in the table, while Wembley Rangers AFC were 5th.
 
 ## First Half
 

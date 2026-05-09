@@ -9,7 +9,7 @@ featured: false
 
 ## N5 FC 3-8 Wembley Rangers AFC — Gameweek 9 Report
 
-Wembley Rangers AFC demolished N5 FC 3-8 at Baller Arena in Gameweek 9 in an emphatic display. N5 FC came into the match sitting 7th in the table, while Wembley Rangers AFC were 8th.
+Wembley Rangers AFC demolished N5 FC 3-8 at Baller Arena in Gameweek 9 in an emphatic display. N5 FC came into the match sitting 7th in the table, while Wembley Rangers AFC were 5th.
 
 ## First Half
 

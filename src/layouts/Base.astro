@@ -8,7 +8,9 @@ export interface Props {
   description: string;
   image?: string;
   type?: string;
-  schema?: object;
+  schema?: object | object[];
+  keywords?: string;
+  noindex?: boolean;
 }
 
 const {
@@ -17,6 +19,8 @@ const {
   image = '/og-default.png',
   type = 'website',
   schema,
+  keywords,
+  noindex = false,
 } = Astro.props;
 
 const siteTitle = title.includes('Baller League UK')
@@ -25,52 +29,69 @@ const siteTitle = title.includes('Baller League UK')
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site ?? 'https://ballerleagueuk.com');
 const ogImage = new URL(image, Astro.site ?? 'https://ballerleagueuk.com');
+
+const defaultKeywords = 'Baller League UK, Baller League, 6v6 football, celebrity football league, UK football, Sky Sports, Twitch, KSI, Angry Ginge, Niko Omilana';
+const metaKeywords = keywords ? `${keywords}, ${defaultKeywords}` : defaultKeywords;
+
+const schemas = Array.isArray(schema) ? schema : schema ? [schema] : [];
+
+schemas.push({
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Baller League UK Hub",
+  "url": "https://ballerleagueuk.com",
+  "description": "The unofficial Baller League UK fan hub. Live table, fixtures, team profiles, player stats, Gamechanger analysis, roundups and news.",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://ballerleagueuk.com/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+});
+
+const jsonLd = JSON.stringify(schemas.length === 1 ? schemas[0] : { "@context": "https://schema.org", "@graph": schemas });
 ---
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{siteTitle}</title>
   <meta name="description" content={description} />
+  <meta name="keywords" content={metaKeywords} />
+  <meta name="author" content="Baller League UK Hub" />
+  <meta name="robots" content={noindex ? 'noindex, follow' : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'} />
+  <meta name="theme-color" content="#06060e" />
+  <meta name="format-detection" content="telephone=no" />
   <link rel="canonical" href={canonicalURL} />
+  <link rel="sitemap" href="/sitemap-index.xml" />
 
-  <!-- Open Graph -->
   <meta property="og:title"       content={siteTitle} />
   <meta property="og:description" content={description} />
   <meta property="og:image"       content={ogImage} />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
   <meta property="og:type"        content={type} />
   <meta property="og:url"         content={canonicalURL} />
   <meta property="og:site_name"   content="Baller League UK Hub" />
   <meta property="og:locale"      content="en_GB" />
 
-  <!-- Twitter Card -->
   <meta name="twitter:card"        content="summary_large_image" />
   <meta name="twitter:title"       content={siteTitle} />
   <meta name="twitter:description" content={description} />
   <meta name="twitter:image"       content={ogImage} />
 
-  <!-- Favicon -->
+  <meta name="geo.region" content="GB" />
+  <meta name="geo.placename" content="United Kingdom" />
+
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
-  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
 
-  <!-- Schema Markup -->
-  {schema && (
-    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
-  )}
+  <script type="application/ld+json" set:html={jsonLd} />
 
-  <!-- Google Analytics 4 – replace G-XXXXXXXXXX with your Measurement ID -->
-  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-XXXXXXXXXX');
-  </script> -->
 </head>
 <body>
   <Nav />

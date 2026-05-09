@@ -9,7 +9,7 @@ featured: false
 
 ## N5 FC 5-6 Clutch FC — Gameweek 5 Report
 
-Clutch FC edged past N5 FC 5-6 at Baller Arena in Gameweek 5 in a tight contest. N5 FC came into the match sitting 7th in the table, while Clutch FC were 6th.
+Clutch FC edged past N5 FC 5-6 at Baller Arena in Gameweek 5 in a tight contest. N5 FC came into the match sitting 7th in the table, while Clutch FC were 9th.
 
 ## First Half
 

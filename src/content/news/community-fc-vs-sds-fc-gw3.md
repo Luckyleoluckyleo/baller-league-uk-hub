@@ -9,7 +9,7 @@ featured: false
 
 ## Community FC 3-7 SDS FC — Gameweek 3 Report
 
-SDS FC dominated Community FC 3-7 at Baller Arena in Gameweek 3 in an emphatic display. Community FC came into the match sitting 12th in the table, while SDS FC were 3rd.
+SDS FC dominated Community FC 3-7 at Baller Arena in Gameweek 3 in an emphatic display. Community FC came into the match sitting 11th in the table, while SDS FC were 3rd.
 
 ## First Half
 

@@ -62,18 +62,25 @@ function getForm(slug: string): { label: string; cls: string }[] {
 const schema = {
   "@context": "https://schema.org",
   "@type": "SportsOrganization",
-  "name": "Baller League UK",
+  "name": "Baller League UK Hub",
   "url": "https://ballerleagueuk.com",
-  "description": "Baller League UK is a 6v6 celebrity and influencer football league broadcast on Sky Sports and Twitch.",
+  "description": "The unofficial hub for Baller League UK — the 6v6 celebrity and influencer football league. Live standings, match results, team profiles, player stats and Gamechanger analysis.",
   "sport": "Football",
-  "location": { "@type": "Place", "name": "London, United Kingdom" }
+  "location": { "@type": "Place", "name": "London, United Kingdom" },
+  "sameAs": [
+    "https://www.youtube.com/@BallerLeagueUK",
+    "https://www.twitch.tv/ballerleagueuk",
+    "https://twitter.com/BallerLeagueUK"
+  ]
 };
 ---
 
 <Base
-  title="Baller League UK Hub – Stats, Table, Teams & Gamechangers"
-  description="The unofficial Baller League UK hub. Live table, fixtures, team profiles, player stats, Gamechanger analysis, roundups and news."
+  title="Baller League UK Hub — Stats, Table, Teams & Gamechangers"
+  description="The unofficial Baller League UK fan hub. Live league table, upcoming fixtures, team profiles, player stats, Gamechanger analysis, weekly roundups and latest news."
   schema={schema}
+  keywords="fixtures, results, standings, teams, players, gameweek, roundup"
+>
 >
 
   <!-- HERO -->
@@ -131,6 +138,7 @@ const schema = {
             <tr>
               <th>#</th>
               <th>Team</th>
+              <th>GP</th>
               <th>W</th>
               <th>D</th>
               <th>L</th>
@@ -152,6 +160,7 @@ const schema = {
                     {row.team}
                   </a>
                 </td>
+                <td>{row.played}</td>
                 <td>{row.won}</td>
                 <td>{row.drawn}</td>
                 <td>{row.lost}</td>

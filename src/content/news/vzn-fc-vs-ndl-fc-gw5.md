@@ -9,7 +9,7 @@ featured: false
 
 ## VZN FC 4-5 NDL FC — Gameweek 5 Report
 
-NDL FC edged past VZN FC 4-5 at Baller Arena in Gameweek 5 in a tight contest. VZN FC came into the match sitting 10th in the table, while NDL FC were 1st.
+NDL FC edged past VZN FC 4-5 at Baller Arena in Gameweek 5 in a tight contest. VZN FC came into the match sitting 8th in the table, while NDL FC were 1st.
 
 ## First Half
 

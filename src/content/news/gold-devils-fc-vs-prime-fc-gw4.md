@@ -9,7 +9,7 @@ featured: false
 
 ## Gold Devils FC 1-0 Prime FC — Gameweek 4 Report
 
-Gold Devils FC edged past Prime FC 1-0 at Baller Arena in Gameweek 4 in a tight contest. Gold Devils FC came into the match sitting 9th in the table, while Prime FC were 2nd.
+Gold Devils FC edged past Prime FC 1-0 at Baller Arena in Gameweek 4 in a tight contest. Gold Devils FC came into the match sitting 10th in the table, while Prime FC were 4th.
 
 ## First Half
 

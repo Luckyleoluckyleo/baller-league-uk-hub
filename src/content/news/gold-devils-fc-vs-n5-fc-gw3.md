@@ -9,7 +9,7 @@ featured: false
 
 ## Gold Devils FC 3-5 N5 FC — Gameweek 3 Report
 
-N5 FC defeated Gold Devils FC 3-5 at Baller Arena in Gameweek 3. Gold Devils FC came into the match sitting 9th in the table, while N5 FC were 7th.
+N5 FC defeated Gold Devils FC 3-5 at Baller Arena in Gameweek 3. Gold Devils FC came into the match sitting 10th in the table, while N5 FC were 7th.
 
 ## First Half
 

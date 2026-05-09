@@ -9,7 +9,7 @@ featured: false
 
 ## Rukkas FC 4-6 NDL FC — Gameweek 4 Report
 
-NDL FC defeated Rukkas FC 4-6 at Baller Arena in Gameweek 4. Rukkas FC came into the match sitting 11th in the table, while NDL FC were 1st.
+NDL FC defeated Rukkas FC 4-6 at Baller Arena in Gameweek 4. Rukkas FC came into the match sitting 12th in the table, while NDL FC were 1st.
 
 ## First Half
 

@@ -9,7 +9,7 @@ featured: false
 
 ## Community FC 1-5 N5 FC — Gameweek 7 Report
 
-N5 FC dominated Community FC 1-5 at Baller Arena in Gameweek 7 in an emphatic display. Community FC came into the match sitting 12th in the table, while N5 FC were 7th.
+N5 FC dominated Community FC 1-5 at Baller Arena in Gameweek 7 in an emphatic display. Community FC came into the match sitting 11th in the table, while N5 FC were 7th.
 
 ## First Half
 

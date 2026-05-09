@@ -9,7 +9,7 @@ featured: true
 
 ## Deportrio 8-6 Prime FC — Gameweek 8 Report
 
-Deportrio defeated Prime FC 8-6 at Baller Arena in Gameweek 8. Deportrio came into the match sitting 4th in the table, while Prime FC were 2nd.
+Deportrio defeated Prime FC 8-6 at Baller Arena in Gameweek 8. Deportrio came into the match sitting 2nd in the table, while Prime FC were 4th.
 
 ## First Half
 

@@ -9,7 +9,7 @@ featured: false
 
 ## Prime FC 7-3 N5 FC — Gameweek 1 Report
 
-Prime FC dominated N5 FC 7-3 at Baller Arena in Gameweek 1 in an emphatic display. Prime FC came into the match sitting 2nd in the table, while N5 FC were 7th.
+Prime FC dominated N5 FC 7-3 at Baller Arena in Gameweek 1 in an emphatic display. Prime FC came into the match sitting 4th in the table, while N5 FC were 7th.
 
 ## First Half
 

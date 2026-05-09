@@ -9,7 +9,7 @@ featured: false
 
 ## Wembley Rangers AFC 3-3 VZN FC — Gameweek 3 Report
 
-Wembley Rangers AFC and VZN FC played out an entertaining 3-3 draw at Baller Arena. Wembley Rangers AFC came into the match sitting 8th in the table, while VZN FC were 10th.
+Wembley Rangers AFC and VZN FC played out an entertaining 3-3 draw at Baller Arena. Wembley Rangers AFC came into the match sitting 5th in the table, while VZN FC were 8th.
 
 ## First Half
 

@@ -9,7 +9,7 @@ featured: false
 
 ## Rukkas FC 2-0 Gold Devils FC — Gameweek 5 Report
 
-Rukkas FC defeated Gold Devils FC 2-0 at Baller Arena in Gameweek 5. Rukkas FC came into the match sitting 11th in the table, while Gold Devils FC were 9th.
+Rukkas FC defeated Gold Devils FC 2-0 at Baller Arena in Gameweek 5. Rukkas FC came into the match sitting 12th in the table, while Gold Devils FC were 10th.
 
 ## First Half
 

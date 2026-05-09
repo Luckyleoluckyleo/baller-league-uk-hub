@@ -9,7 +9,7 @@ featured: false
 
 ## Wembley Rangers AFC 2-1 Yanited — Gameweek 8 Report
 
-Wembley Rangers AFC edged past Yanited 2-1 at Baller Arena in Gameweek 8 in a tight contest. Wembley Rangers AFC came into the match sitting 8th in the table, while Yanited were 5th.
+Wembley Rangers AFC edged past Yanited 2-1 at Baller Arena in Gameweek 8 in a tight contest. Wembley Rangers AFC came into the match sitting 5th in the table, while Yanited were 6th.
 
 ## First Half
 

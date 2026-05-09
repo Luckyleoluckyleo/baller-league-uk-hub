@@ -9,7 +9,7 @@ featured: false
 
 ## Clutch FC 6-4 Gold Devils FC — Gameweek 6 Report
 
-Clutch FC defeated Gold Devils FC 6-4 at Baller Arena in Gameweek 6. Clutch FC came into the match sitting 6th in the table, while Gold Devils FC were 9th.
+Clutch FC defeated Gold Devils FC 6-4 at Baller Arena in Gameweek 6. Clutch FC came into the match sitting 9th in the table, while Gold Devils FC were 10th.
 
 ## First Half
 

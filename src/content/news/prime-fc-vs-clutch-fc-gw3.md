@@ -9,7 +9,7 @@ featured: false
 
 ## Prime FC 6-2 Clutch FC — Gameweek 3 Report
 
-Prime FC dominated Clutch FC 6-2 at Baller Arena in Gameweek 3 in an emphatic display. Prime FC came into the match sitting 2nd in the table, while Clutch FC were 6th.
+Prime FC dominated Clutch FC 6-2 at Baller Arena in Gameweek 3 in an emphatic display. Prime FC came into the match sitting 4th in the table, while Clutch FC were 9th.
 
 ## First Half
 

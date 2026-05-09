@@ -9,7 +9,7 @@ featured: false
 
 ## Rukkas FC 3-8 Prime FC — Gameweek 2 Report
 
-Prime FC demolished Rukkas FC 3-8 at Baller Arena in Gameweek 2 in an emphatic display. Rukkas FC came into the match sitting 11th in the table, while Prime FC were 2nd.
+Prime FC demolished Rukkas FC 3-8 at Baller Arena in Gameweek 2 in an emphatic display. Rukkas FC came into the match sitting 12th in the table, while Prime FC were 4th.
 
 ## First Half
 

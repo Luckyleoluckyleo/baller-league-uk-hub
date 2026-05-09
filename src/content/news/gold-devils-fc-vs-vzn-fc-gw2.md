@@ -9,7 +9,7 @@ featured: false
 
 ## Gold Devils FC 3-1 VZN FC — Gameweek 2 Report
 
-Gold Devils FC defeated VZN FC 3-1 at Baller Arena in Gameweek 2. Gold Devils FC came into the match sitting 9th in the table, while VZN FC were 10th.
+Gold Devils FC defeated VZN FC 3-1 at Baller Arena in Gameweek 2. Gold Devils FC came into the match sitting 10th in the table, while VZN FC were 8th.
 
 ## First Half
 

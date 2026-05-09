@@ -9,7 +9,7 @@ featured: false
 
 ## Deportrio 3-6 NDL FC — Gameweek 3 Report
 
-NDL FC dominated Deportrio 3-6 at Baller Arena in Gameweek 3 in an emphatic display. Deportrio came into the match sitting 4th in the table, while NDL FC were 1st.
+NDL FC dominated Deportrio 3-6 at Baller Arena in Gameweek 3 in an emphatic display. Deportrio came into the match sitting 2nd in the table, while NDL FC were 1st.
 
 ## First Half
 

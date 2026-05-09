@@ -9,7 +9,7 @@ featured: false
 
 ## Deportrio 5-4 Yanited — Gameweek 5 Report
 
-Deportrio edged past Yanited 5-4 at Baller Arena in Gameweek 5 in a tight contest. Deportrio came into the match sitting 4th in the table, while Yanited were 5th.
+Deportrio edged past Yanited 5-4 at Baller Arena in Gameweek 5 in a tight contest. Deportrio came into the match sitting 2nd in the table, while Yanited were 6th.
 
 ## First Half
 

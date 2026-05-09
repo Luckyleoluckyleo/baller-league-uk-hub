@@ -9,7 +9,7 @@ featured: false
 
 ## Deportrio 6-4 VZN FC — Gameweek 9 Report
 
-Deportrio defeated VZN FC 6-4 at Baller Arena in Gameweek 9. Deportrio came into the match sitting 4th in the table, while VZN FC were 10th.
+Deportrio defeated VZN FC 6-4 at Baller Arena in Gameweek 9. Deportrio came into the match sitting 2nd in the table, while VZN FC were 8th.
 
 ## First Half
 

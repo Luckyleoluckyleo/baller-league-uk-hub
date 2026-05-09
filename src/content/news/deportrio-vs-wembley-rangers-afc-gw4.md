@@ -9,7 +9,7 @@ featured: false
 
 ## Deportrio 5-2 Wembley Rangers AFC — Gameweek 4 Report
 
-Deportrio dominated Wembley Rangers AFC 5-2 at Baller Arena in Gameweek 4 in an emphatic display. Deportrio came into the match sitting 4th in the table, while Wembley Rangers AFC were 8th.
+Deportrio dominated Wembley Rangers AFC 5-2 at Baller Arena in Gameweek 4 in an emphatic display. Deportrio came into the match sitting 2nd in the table, while Wembley Rangers AFC were 5th.
 
 ## First Half
 

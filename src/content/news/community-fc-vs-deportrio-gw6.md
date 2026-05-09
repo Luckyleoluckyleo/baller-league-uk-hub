@@ -9,7 +9,7 @@ featured: true
 
 ## Community FC 3-9 Deportrio — Gameweek 6 Report
 
-Deportrio demolished Community FC 3-9 at Baller Arena in Gameweek 6 in an emphatic display. Community FC came into the match sitting 12th in the table, while Deportrio were 4th.
+Deportrio demolished Community FC 3-9 at Baller Arena in Gameweek 6 in an emphatic display. Community FC came into the match sitting 11th in the table, while Deportrio were 2nd.
 
 ## First Half
 

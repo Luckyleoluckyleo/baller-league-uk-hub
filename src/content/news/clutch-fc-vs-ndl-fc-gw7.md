@@ -9,7 +9,7 @@ featured: false
 
 ## Clutch FC 3-6 NDL FC — Gameweek 7 Report
 
-NDL FC dominated Clutch FC 3-6 at Baller Arena in Gameweek 7 in an emphatic display. Clutch FC came into the match sitting 6th in the table, while NDL FC were 1st.
+NDL FC dominated Clutch FC 3-6 at Baller Arena in Gameweek 7 in an emphatic display. Clutch FC came into the match sitting 9th in the table, while NDL FC were 1st.
 
 ## First Half
 

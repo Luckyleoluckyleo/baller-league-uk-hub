@@ -9,7 +9,7 @@ featured: false
 
 ## VZN FC 7-3 Rukkas FC — Gameweek 7 Report
 
-VZN FC dominated Rukkas FC 7-3 at Baller Arena in Gameweek 7 in an emphatic display. VZN FC came into the match sitting 10th in the table, while Rukkas FC were 11th.
+VZN FC dominated Rukkas FC 7-3 at Baller Arena in Gameweek 7 in an emphatic display. VZN FC came into the match sitting 8th in the table, while Rukkas FC were 12th.
 
 ## First Half
 

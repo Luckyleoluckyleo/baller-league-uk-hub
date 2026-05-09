@@ -9,7 +9,7 @@ featured: false
 
 ## Yanited 3-3 VZN FC — Gameweek 1 Report
 
-Yanited and VZN FC played out an entertaining 3-3 draw at Baller Arena. Yanited came into the match sitting 5th in the table, while VZN FC were 10th.
+Yanited and VZN FC played out an entertaining 3-3 draw at Baller Arena. Yanited came into the match sitting 6th in the table, while VZN FC were 8th.
 
 ## First Half
 
