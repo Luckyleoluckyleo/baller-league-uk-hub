@@ -4,7 +4,7 @@ import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DIST_DIR = resolve(__dirname, "..", "dist");
-const SITE = "https://ballerleagueuk.com";
+const SITE = "https://ballerleagueukhub.com";
 
 const EXCLUDE = new Set(["404.html", "compare/", "roundup/index.html"]);
 

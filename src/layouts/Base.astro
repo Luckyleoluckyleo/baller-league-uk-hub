@@ -27,8 +27,8 @@ const siteTitle = title.includes('Baller League UK')
   ? title
   : `${title} | Baller League UK Hub`;
 
-const canonicalURL = new URL(Astro.url.pathname, Astro.site ?? 'https://ballerleagueuk.com');
-const ogImage = new URL(image, Astro.site ?? 'https://ballerleagueuk.com');
+const canonicalURL = new URL(Astro.url.pathname, Astro.site ?? 'https://ballerleagueukhub.com');
+const ogImage = new URL(image, Astro.site ?? 'https://ballerleagueukhub.com');
 
 const defaultKeywords = 'Baller League UK, Baller League, 6v6 football, celebrity football league, UK football, Sky Sports, Twitch, KSI, Angry Ginge, Niko Omilana';
 const metaKeywords = keywords ? `${keywords}, ${defaultKeywords}` : defaultKeywords;
@@ -39,11 +39,11 @@ schemas.push({
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "Baller League UK Hub",
-  "url": "https://ballerleagueuk.com",
+  "url": "https://ballerleagueukhub.com",
   "description": "The unofficial Baller League UK fan hub. Live table, fixtures, team profiles, player stats, Gamechanger analysis, roundups and news.",
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "https://ballerleagueuk.com/search?q={search_term_string}",
+    "target": "https://ballerleagueukhub.com/search?q={search_term_string}",
     "query-input": "required name=search_term_string"
   }
 });
