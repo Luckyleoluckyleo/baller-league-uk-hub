@@ -60,6 +60,7 @@ const catClass =
   description={data.excerpt}
   type="article"
   schema={schema}
+  noindex={data.category === 'Match Report' || data.category === 'Preview'}
 >
   <div class="page-header">
     <div class="container article-header">
