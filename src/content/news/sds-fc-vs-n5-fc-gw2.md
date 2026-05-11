@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — SDS FC 2-1 N5 FC
 
-The Gameweek 2 schedule pitted SDS FC against N5 FC, with SDS FC sitting 2nd and looking to strengthen their playoff push against 7th-placed N5 FC.
+Gameweek 2 brought SDS FC and N5 FC together at Baller Arena, with SDS FC sitting 2nd and looking to strengthen their playoff push against 7th-placed N5 FC.
 
-In a tense, tightly-contested affair, SDS FC held their nerve to beat N5 FC 2-1. The Game Changer period played a key role, with the 3Play and Fairplay activations contributing 2 goals to a match that saw 3 in total.
+SDS FC edged past N5 FC 2-1 in a nail-biting encounter that could have gone either way. The Game Changer period played a key role, with the 3Play and Fairplay activations contributing 2 goals to a match that saw 3 in total.
 
 **SDS FC form (before GW2):** 🤝 ✅ (D-W)  
 **N5 FC form (before GW2):** ✅ ❌ (W-L)
@@ -22,11 +22,11 @@ In a tense, tightly-contested affair, SDS FC held their nerve to beat N5 FC 2-1.
 
 ### First Half
 
-The 3Play Game Changer kicked in at the 12th minute and the teams made it count with 2 goals being scored. SDS FC shaded a competitive first period, taking their chances well.
+The 3Play Game Changer kicked in at the 12th minute and the teams made it count with 2 goals being scored. SDS FC edged the opening exchanges with a more clinical edge in front of goal.
 
 ### Second Half
 
-The Fairplay Game Changer activated at the 27th minute, but neither side could capitalise on the modified rules. The closing stages were nervy as N5 FC threw everything forward, but SDS FC stood strong to claim the points.
+The Fairplay Game Changer activated at the 27th minute, but neither side could capitalise on the modified rules. N5 FC pushed hard for an equaliser, with SDS FC defending resolutely to protect their lead.
 
 ---
 
@@ -83,25 +83,25 @@ The Game Changer period brought a modest 2 goals, with the modified rules creati
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
 | Connor Wood | 6 | 2 | 8 |
-| Kazaiah Sterling | 5 | 4 | 8 |
-| Camilo Restrepo | 4 | 1 | 7 |
-| Joshua Abbott | 4 | 2 | 8 |
+| Kazaiah Sterling | 5 | 4 | 9 |
+| Camilo Restrepo | 4 | 1 | 8 |
+| Joshua Abbott | 4 | 2 | 9 |
 | Danny Bassett | 3 | 1 | 8 |
 
 ### N5 FC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Michael Hill | 14 | 6 | 8 |
-| Joe Bennett | 11 | 2 | 8 |
-| Jezreel Davies | 3 | 4 | 8 |
+| Michael Hill | 16 | 6 | 9 |
+| Joe Bennett | 12 | 2 | 9 |
+| Jezreel Davies | 3 | 5 | 9 |
 | Nile Ranger | 2 | 0 | 6 |
-| Ibrahim Ugradar | 1 | 2 | 8 |
+| Ibrahim Ugradar | 1 | 2 | 9 |
 
 **Key Attacking Threats**
 
 - **Connor Wood** — SDS FC's leading marksman with 6 goals in 8 appearances, plus 2 assists. One of the most consistent finishers in the league. 
-- **Michael Hill** — N5 FC's top scorer with 14 goals and 6 assists from 8 outings. A reliable source of goals for his side. 
+- **Michael Hill** — N5 FC's top scorer with 16 goals and 6 assists from 9 outings. A reliable source of goals for his side. 
 
 
 ---
@@ -150,7 +150,7 @@ This was the **first ever competitive meeting** between SDS FC and N5 FC — a h
 - This was a Gameweek 2 fixture at Baller Arena
 - The Game Changers selected were 3Play and Fairplay
 - Connor Wood leads SDS FC with 6 goals this season
-- Michael Hill tops N5 FC's scoring charts with 14 goals
+- Michael Hill tops N5 FC's scoring charts with 16 goals
 - 2 of the 3 goals (67%) came from Game Changer activations
 
 ---
@@ -158,10 +158,10 @@ This was the **first ever competitive meeting** between SDS FC and N5 FC — a h
 ## What's Next
 
 ### SDS FC
-SDS FC await confirmation of their next fixture.
+SDS FC face **Yanited** in Gameweek 10. This will be another crucial fixture as the season enters its decisive phase.
 
 ### N5 FC
-N5 FC await confirmation of their next fixture.
+N5 FC take on **VZN FC** in Gameweek 10. They will be looking to bounce back and keep their season on track.
 
 
 

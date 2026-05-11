@@ -1,5 +1,5 @@
 ---
-title: "Gold Devils FC Edge Prime FC 1-0 in GW4 Thriller"
+title: "Gold Devils FC Scrape Past Prime FC 1-0 in Tight GW4 Contest"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "Gold Devils FC 1-0 Prime FC — Gameweek 4 match report. Bilal Sayoud (7 goals) leads Gold Devils FC's attack. Game Changers: Onside (0) & 1-on-1 (1). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Gold Devils FC 1-0 Prime FC
 
-Gold Devils FC and Prime FC faced off at Baller Arena, where 9th-placed Gold Devils FC looked to upset 3rd-placed Prime FC.
+Gameweek 4 brought Gold Devils FC and Prime FC together at Baller Arena, where 9th-placed Gold Devils FC looked to upset 3rd-placed Prime FC.
 
-Gold Devils FC edged past Prime FC 1-0 in a nail-biting encounter that could have gone either way. The Game Changer period played a key role, with the Onside and 1-on-1 activations contributing 1 goals to a match that saw 1 in total.
+Gold Devils FC scraped a hard-fought 1-0 win over Prime FC in a match where fine margins proved decisive. The Game Changer period played a key role, with the Onside and 1-on-1 activations contributing 1 goals to a match that saw 1 in total.
 
 **Gold Devils FC form (before GW4):** ❌ ✅ ❌ (L-W-L)  
 **Prime FC form (before GW4):** ✅ ✅ ✅ (W-W-W)
@@ -22,7 +22,7 @@ Gold Devils FC edged past Prime FC 1-0 in a nail-biting encounter that could hav
 
 ### First Half
 
-At the 12-minute mark, the Onside Game Changer came into effect, though goals proved elusive as both defences held firm. Gold Devils FC shaded a competitive first period, taking their chances well.
+The first half saw the Onside Game Changer activate at the 12th minute, but neither side could find the breakthrough during the activation. Gold Devils FC edged the opening exchanges with a more clinical edge in front of goal.
 
 ### Second Half
 
@@ -73,26 +73,26 @@ The Game Changer period brought a modest 1 goal, with the modified rules creatin
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Bilal Sayoud | 7 | 7 | 8 |
-| Salim Nassor | 4 | 2 | 7 |
-| Luqman Kassim | 3 | 0 | 5 |
+| Bilal Sayoud | 7 | 7 | 9 |
+| Salim Nassor | 4 | 2 | 8 |
+| Luqman Kassim | 3 | 1 | 6 |
+| Ryan Gondoh | 3 | 0 | 6 |
 | Jahvarn Stewart | 2 | 0 | 0 |
-| Arezki Hamouchene | 1 | 0 | 3 |
 
 ### Prime FC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Francis Gerard Mampolo | 14 | 3 | 8 |
-| Bráulio Valera Pinto Maieco | 8 | 0 | 8 |
-| Timmy Abraham | 7 | 2 | 8 |
-| Ergys Pepaj | 6 | 2 | 8 |
-| Sak Hassan | 5 | 4 | 7 |
+| Francis Gerard Mampolo | 15 | 4 | 9 |
+| Bráulio Valera Pinto Maieco | 9 | 0 | 9 |
+| Timmy Abraham | 7 | 2 | 9 |
+| Ergys Pepaj | 6 | 2 | 9 |
+| Sak Hassan | 5 | 4 | 8 |
 
 **Key Attacking Threats**
 
-- **Bilal Sayoud** — Gold Devils FC's leading marksman with 7 goals in 8 appearances, plus 7 assists. One of the most consistent finishers in the league. 
-- **Francis Gerard Mampolo** — Prime FC's top scorer with 14 goals and 3 assists from 8 outings. A reliable source of goals for his side. 
+- **Bilal Sayoud** — Gold Devils FC's leading marksman with 7 goals in 9 appearances, plus 7 assists. One of the most consistent finishers in the league. 
+- **Francis Gerard Mampolo** — Prime FC's top scorer with 15 goals and 4 assists from 9 outings. A reliable source of goals for his side. 
 
 
 ---
@@ -142,7 +142,7 @@ This was the **first ever competitive meeting** between Gold Devils FC and Prime
 - The Game Changers selected were Onside and 1-on-1
 - A tight defensive battle with just 1 goal scored
 - Bilal Sayoud leads Gold Devils FC with 7 goals this season
-- Francis Gerard Mampolo tops Prime FC's scoring charts with 14 goals
+- Francis Gerard Mampolo tops Prime FC's scoring charts with 15 goals
 - 1 of the 1 goals (100%) came from Game Changer activations
 
 ---
@@ -150,10 +150,10 @@ This was the **first ever competitive meeting** between Gold Devils FC and Prime
 ## What's Next
 
 ### Gold Devils FC
-Gold Devils FC await confirmation of their next fixture.
+Gold Devils FC face **NDL FC** in Gameweek 10. This will be another crucial fixture as the season enters its decisive phase.
 
 ### Prime FC
-Prime FC await confirmation of their next fixture.
+Prime FC take on **Community FC** in Gameweek 10. They will be looking to bounce back and keep their season on track.
 
 
 

@@ -1,17 +1,17 @@
 ---
-title: "Wembley Rangers AFC and VZN FC Play Out 3-3 Draw in Gameweek 3"
+title: "Wembley Rangers AFC and VZN FC Deadlocked at 3-3 in GW3"
 date: 2026-05-11
 category: "Match Report"
-excerpt: "Wembley Rangers AFC 3-3 VZN FC — Gameweek 3 match report. Callam Gardner (5 goals) leads Wembley Rangers AFC's attack. Game Changers: 3Play (2) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Wembley Rangers AFC 3-3 VZN FC — Gameweek 3 match report. Domingos Pires (8 goals) leads Wembley Rangers AFC's attack. Game Changers: 3Play (2) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: false
 ---
 
 ## Match Summary — Wembley Rangers AFC 3-3 VZN FC
 
-Wembley Rangers AFC took on VZN FC in a Gameweek 3 clash, two sides looking to climb the table from 5th and 7th respectively.
+Gameweek 3 brought Wembley Rangers AFC and VZN FC together at Baller Arena, two sides looking to climb the table from 5th and 7th respectively.
 
-Wembley Rangers AFC and VZN FC played out a thrilling 3-3 draw in a match where neither side deserved to lose. The 6 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through 3Play and The Line.
+Wembley Rangers AFC and VZN FC could not be separated as they battled to a 3-3 stalemate at Baller Arena. The 6 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through 3Play and The Line.
 
 **Wembley Rangers AFC form (before GW3):** 🤝 🤝 ✅ ❌ (D-D-W-L)  
 **VZN FC form (before GW3):** ✅ ❌ 🤝 🤝 (W-L-D-D)
@@ -26,7 +26,7 @@ The first half saw the 3Play Game Changer activate at the 12th minute, producing
 
 ### Second Half
 
-At the 27-minute mark, the The Line Game Changer came into play, though the goals dried up as the match wore on. Despite late pressure, neither team could find the decisive goal and the spoils were shared.
+The The Line Game Changer activated at the 27th minute, but neither side could capitalise on the modified rules. Despite late pressure, neither team could find the decisive goal and the spoils were shared.
 
 ---
 
@@ -86,26 +86,26 @@ The Game Changer period brought a modest 2 goals, with the modified rules creati
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Callam Gardner | 5 | 1 | 7 |
-| Domingos Pires | 3 | 1 | 8 |
+| Domingos Pires | 8 | 2 | 9 |
+| Callam Gardner | 6 | 1 | 8 |
 | Ben Long | 2 | 1 | 7 |
-| Kristian Campbell | 2 | 1 | 7 |
-| Abdulahi Abdulazeez | 1 | 0 | 6 |
+| Kristian Campbell | 2 | 1 | 8 |
+| Abdulahi Abdulazeez | 1 | 0 | 7 |
 
 ### VZN FC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| George Nikaj | 7 | 3 | 6 |
-| Florian Kastrati | 5 | 0 | 8 |
-| Daniel Bowry | 4 | 2 | 8 |
-| Frankie Leonard | 3 | 2 | 6 |
+| George Nikaj | 8 | 4 | 7 |
+| Florian Kastrati | 6 | 0 | 9 |
+| Daniel Bowry | 4 | 2 | 9 |
+| Frankie Leonard | 3 | 2 | 7 |
 | Adrian Tajik | 2 | 0 | 8 |
 
 **Key Attacking Threats**
 
-- **Callam Gardner** — Wembley Rangers AFC's leading marksman with 5 goals in 7 appearances, plus 1 assists. One of the most consistent finishers in the league. 
-- **George Nikaj** — VZN FC's top scorer with 7 goals and 3 assists from 6 outings. A reliable source of goals for his side. 
+- **Domingos Pires** — Wembley Rangers AFC's leading marksman with 8 goals in 9 appearances, plus 2 assists. One of the most consistent finishers in the league. 
+- **George Nikaj** — VZN FC's top scorer with 8 goals and 4 assists from 7 outings. A reliable source of goals for his side. 
 
 
 ---
@@ -153,8 +153,8 @@ This was the **first ever competitive meeting** between Wembley Rangers AFC and 
 
 - This was a Gameweek 3 fixture at Baller Arena
 - The Game Changers selected were 3Play and The Line
-- Callam Gardner leads Wembley Rangers AFC with 5 goals this season
-- George Nikaj tops VZN FC's scoring charts with 7 goals
+- Domingos Pires leads Wembley Rangers AFC with 8 goals this season
+- George Nikaj tops VZN FC's scoring charts with 8 goals
 - 2 of the 6 goals (33%) came from Game Changer activations
 
 ---
@@ -162,10 +162,10 @@ This was the **first ever competitive meeting** between Wembley Rangers AFC and 
 ## What's Next
 
 ### Wembley Rangers AFC
-Wembley Rangers AFC await confirmation of their next fixture.
+Wembley Rangers AFC face **Clutch FC** in Gameweek 10. This will be another crucial fixture as the season enters its decisive phase.
 
 ### VZN FC
-VZN FC await confirmation of their next fixture.
+VZN FC take on **N5 FC** in Gameweek 10. They will be looking to bounce back and keep their season on track.
 
 
 

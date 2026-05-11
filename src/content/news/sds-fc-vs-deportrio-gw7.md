@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — SDS FC 2-2 Deportrio
 
-Gameweek 7 brought SDS FC and Deportrio together at Baller Arena, with SDS FC sitting 1st and looking to strengthen their playoff push against 5th-placed Deportrio.
+SDS FC took on Deportrio in a Gameweek 7 clash, with SDS FC sitting 1st and looking to strengthen their playoff push against 5th-placed Deportrio.
 
-SDS FC and Deportrio played out a thrilling 2-2 draw in a match where neither side deserved to lose. The 4 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through 3Play and The Line.
+SDS FC and Deportrio could not be separated as they battled to a 2-2 stalemate at Baller Arena. The 4 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through 3Play and The Line.
 
 **SDS FC form (before GW7):** ❌ ✅ 🤝 ✅ ✅ (L-W-D-W-W)  
 **Deportrio form (before GW7):** 🤝 ✅ ✅ ✅ ✅ (D-W-W-W-W)
@@ -22,7 +22,7 @@ SDS FC and Deportrio played out a thrilling 2-2 draw in a match where neither si
 
 ### First Half
 
-The first half saw the 3Play Game Changer activate at the 12th minute, producing 3 goals in a frantic period of play. The two sides were inseparable at the break, with the contest finely poised.
+The first half saw the 3Play Game Changer activate at the 12th minute, generating 3 goals that set the tempo for the half. The two sides were inseparable at the break, with the contest finely poised.
 
 ### Second Half
 
@@ -86,25 +86,25 @@ The Game Changer period brought a modest 3 goals, with the modified rules creati
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
 | Connor Wood | 6 | 2 | 8 |
-| Kazaiah Sterling | 5 | 4 | 8 |
-| Camilo Restrepo | 4 | 1 | 7 |
-| Joshua Abbott | 4 | 2 | 8 |
+| Kazaiah Sterling | 5 | 4 | 9 |
+| Camilo Restrepo | 4 | 1 | 8 |
+| Joshua Abbott | 4 | 2 | 9 |
 | Danny Bassett | 3 | 1 | 8 |
 
 ### Deportrio — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Jay Emmanuel-Thomas | 15 | 6 | 8 |
-| Sahid Kamara | 7 | 2 | 5 |
-| J&#039;ardell Stirling | 2 | 3 | 8 |
-| Marvin Sordell | 2 | 1 | 6 |
-| Amine Sassi | 1 | 2 | 8 |
+| Jay Emmanuel-Thomas | 18 | 6 | 9 |
+| Sahid Kamara | 9 | 3 | 6 |
+| J&#039;ardell Stirling | 2 | 4 | 9 |
+| Marvin Sordell | 2 | 1 | 7 |
+| Amine Sassi | 1 | 3 | 9 |
 
 **Key Attacking Threats**
 
 - **Connor Wood** — SDS FC's leading marksman with 6 goals in 8 appearances, plus 2 assists. One of the most consistent finishers in the league. 
-- **Jay Emmanuel-Thomas** — Deportrio's top scorer with 15 goals and 6 assists from 8 outings. A reliable source of goals for his side. 
+- **Jay Emmanuel-Thomas** — Deportrio's top scorer with 18 goals and 6 assists from 9 outings. A reliable source of goals for his side. 
 
 
 ---
@@ -153,7 +153,7 @@ This was the **first ever competitive meeting** between SDS FC and Deportrio —
 - This was a Gameweek 7 fixture at Baller Arena
 - The Game Changers selected were 3Play and The Line
 - Connor Wood leads SDS FC with 6 goals this season
-- Jay Emmanuel-Thomas tops Deportrio's scoring charts with 15 goals
+- Jay Emmanuel-Thomas tops Deportrio's scoring charts with 18 goals
 - 3 of the 4 goals (75%) came from Game Changer activations
 
 ---
@@ -161,10 +161,10 @@ This was the **first ever competitive meeting** between SDS FC and Deportrio —
 ## What's Next
 
 ### SDS FC
-SDS FC await confirmation of their next fixture.
+SDS FC face **Yanited** in Gameweek 10. This will be another crucial fixture as the season enters its decisive phase.
 
 ### Deportrio
-Deportrio await confirmation of their next fixture.
+Deportrio take on **Rukkas FC** in Gameweek 10. They will be looking to bounce back and keep their season on track.
 
 
 

@@ -1,17 +1,17 @@
 ---
-title: "VZN FC Scrape Past SDS FC 3-2 in Tight GW6 Contest"
+title: "VZN FC Edge SDS FC 3-2 in GW6 Thriller"
 date: 2026-05-11
 category: "Match Report"
-excerpt: "VZN FC 3-2 SDS FC — Gameweek 6 match report. George Nikaj (7 goals) leads VZN FC's attack. Game Changers: 3Play (0) & 1-on-1 (0). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "VZN FC 3-2 SDS FC — Gameweek 6 match report. George Nikaj (8 goals) leads VZN FC's attack. Game Changers: 3Play (0) & 1-on-1 (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: false
 ---
 
 ## Match Summary — VZN FC 3-2 SDS FC
 
-VZN FC took on SDS FC in a Gameweek 6 clash, where 10th-placed VZN FC looked to upset 1st-placed SDS FC.
+All eyes were on Baller Arena as VZN FC met SDS FC, where 10th-placed VZN FC looked to upset 1st-placed SDS FC.
 
-VZN FC scraped a hard-fought 3-2 win over SDS FC in a match where fine margins proved decisive. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 0 goals to a match that saw 5 in total.
+VZN FC edged past SDS FC 3-2 in a nail-biting encounter that could have gone either way. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 0 goals to a match that saw 5 in total.
 
 **VZN FC form (before GW6):** ❌ ❌ ❌ ❌ 🤝 (L-L-L-L-D)  
 **SDS FC form (before GW6):** ✅ 🤝 ✅ ✅ ✅ (W-D-W-W-W)
@@ -22,11 +22,11 @@ VZN FC scraped a hard-fought 3-2 win over SDS FC in a match where fine margins p
 
 ### First Half
 
-The first half saw the 3Play Game Changer activate at the 12th minute, though goals proved elusive as both defences held firm. VZN FC shaded a competitive first period, taking their chances well.
+The 3Play Game Changer kicked in at the 12th minute, but neither side could find the breakthrough during the activation. VZN FC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-The 1-on-1 Game Changer kicked in at the 27th minute of the second half, though the goals dried up as the match wore on. The closing stages were nervy as SDS FC threw everything forward, but VZN FC stood strong to claim the points.
+At the 27-minute mark, the 1-on-1 Game Changer came into play, though the goals dried up as the match wore on. The closing stages were nervy as SDS FC threw everything forward, but VZN FC stood strong to claim the points.
 
 ---
 
@@ -88,10 +88,10 @@ In a rarity for Baller League, neither Game Changer activation yielded a goal. B
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| George Nikaj | 7 | 3 | 6 |
-| Florian Kastrati | 5 | 0 | 8 |
-| Daniel Bowry | 4 | 2 | 8 |
-| Frankie Leonard | 3 | 2 | 6 |
+| George Nikaj | 8 | 4 | 7 |
+| Florian Kastrati | 6 | 0 | 9 |
+| Daniel Bowry | 4 | 2 | 9 |
+| Frankie Leonard | 3 | 2 | 7 |
 | Adrian Tajik | 2 | 0 | 8 |
 
 ### SDS FC — Top Scorers
@@ -99,14 +99,14 @@ In a rarity for Baller League, neither Game Changer activation yielded a goal. B
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
 | Connor Wood | 6 | 2 | 8 |
-| Kazaiah Sterling | 5 | 4 | 8 |
-| Camilo Restrepo | 4 | 1 | 7 |
-| Joshua Abbott | 4 | 2 | 8 |
+| Kazaiah Sterling | 5 | 4 | 9 |
+| Camilo Restrepo | 4 | 1 | 8 |
+| Joshua Abbott | 4 | 2 | 9 |
 | Danny Bassett | 3 | 1 | 8 |
 
 **Key Attacking Threats**
 
-- **George Nikaj** — VZN FC's leading marksman with 7 goals in 6 appearances, plus 3 assists. One of the most consistent finishers in the league. 
+- **George Nikaj** — VZN FC's leading marksman with 8 goals in 7 appearances, plus 4 assists. One of the most consistent finishers in the league. 
 - **Connor Wood** — SDS FC's top scorer with 6 goals and 2 assists from 8 outings. A reliable source of goals for his side. 
 
 
@@ -167,7 +167,7 @@ VZN FC and SDS FC had faced each other **1 time** prior to this match. The rival
 - This was a Gameweek 6 fixture at Baller Arena
 - The Game Changers selected were 3Play and 1-on-1
 - This was a rare match where neither Game Changer produced a goal
-- George Nikaj leads VZN FC with 7 goals this season
+- George Nikaj leads VZN FC with 8 goals this season
 - Connor Wood tops SDS FC's scoring charts with 6 goals
 
 ---
@@ -175,10 +175,10 @@ VZN FC and SDS FC had faced each other **1 time** prior to this match. The rival
 ## What's Next
 
 ### VZN FC
-VZN FC await confirmation of their next fixture.
+VZN FC face **N5 FC** in Gameweek 10. This will be another crucial fixture as the season enters its decisive phase.
 
 ### SDS FC
-SDS FC await confirmation of their next fixture.
+SDS FC take on **Yanited** in Gameweek 10. They will be looking to bounce back and keep their season on track.
 
 
 

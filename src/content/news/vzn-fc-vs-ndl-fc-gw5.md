@@ -2,16 +2,16 @@
 title: "NDL FC Edge VZN FC 4-5 in GW5 Thriller"
 date: 2026-05-11
 category: "Match Report"
-excerpt: "VZN FC 4-5 NDL FC — Gameweek 5 match report. George Nikaj (7 goals) leads VZN FC's attack. Game Changers: Onside (1) & 1-on-1 (5). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "VZN FC 4-5 NDL FC — Gameweek 5 match report. George Nikaj (8 goals) leads VZN FC's attack. Game Changers: Onside (1) & 1-on-1 (5). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: false
 ---
 
 ## Match Summary — VZN FC 4-5 NDL FC
 
-VZN FC and NDL FC faced off at Baller Arena, where 10th-placed VZN FC looked to upset 1st-placed NDL FC.
+VZN FC took on NDL FC in a Gameweek 5 clash, where 10th-placed VZN FC looked to upset 1st-placed NDL FC.
 
-In a tense, tightly-contested affair, NDL FC held their nerve to beat VZN FC 4-5. The Game Changer period played a key role, with the Onside and 1-on-1 activations contributing 6 goals to a match that saw 9 in total.
+NDL FC scraped a hard-fought 4-5 win over VZN FC in a match where fine margins proved decisive. The Game Changer period played a key role, with the Onside and 1-on-1 activations contributing 6 goals to a match that saw 9 in total.
 
 **VZN FC form (before GW5):** ❌ ❌ ❌ 🤝 ✅ (L-L-L-D-W)  
 **NDL FC form (before GW5):** ✅ ✅ ✅ ✅ 🤝 (W-W-W-W-D)
@@ -22,11 +22,11 @@ In a tense, tightly-contested affair, NDL FC held their nerve to beat VZN FC 4-5
 
 ### First Half
 
-The Onside Game Changer kicked in at the 12th minute and the teams made it count with 1 goal being scored. NDL FC shaded a competitive first period, taking their chances well.
+The first half saw the Onside Game Changer activate at the 12th minute, generating 1 goal that set the tempo for the half. NDL FC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-The 1-on-1 Game Changer kicked in at the 27th minute of the second half, producing 5 goals at a crucial stage. VZN FC pushed hard for an equaliser, with NDL FC defending resolutely to protect their lead.
+At the 27-minute mark, the 1-on-1 Game Changer came into play and delivered 5 goals that shifted the momentum. The closing stages were nervy as VZN FC threw everything forward, but NDL FC stood strong to claim the points.
 
 ---
 
@@ -87,26 +87,26 @@ The Game Changers provided a genuine spectacle, with both activations contributi
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| George Nikaj | 7 | 3 | 6 |
-| Florian Kastrati | 5 | 0 | 8 |
-| Daniel Bowry | 4 | 2 | 8 |
-| Frankie Leonard | 3 | 2 | 6 |
+| George Nikaj | 8 | 4 | 7 |
+| Florian Kastrati | 6 | 0 | 9 |
+| Daniel Bowry | 4 | 2 | 9 |
+| Frankie Leonard | 3 | 2 | 7 |
 | Adrian Tajik | 2 | 0 | 8 |
 
 ### NDL FC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Dara Dada | 7 | 2 | 8 |
-| Sam Fitzgerald | 7 | 4 | 8 |
-| Isaac Modi | 5 | 0 | 8 |
-| Kevin Weggen | 5 | 0 | 0 |
-| Joshua Parker | 4 | 3 | 5 |
+| Sam Fitzgerald | 8 | 4 | 9 |
+| Dara Dada | 7 | 4 | 9 |
+| Isaac Modi | 6 | 0 | 9 |
+| Kevin Weggen | 6 | 0 | 0 |
+| Joshua Parker | 4 | 3 | 6 |
 
 **Key Attacking Threats**
 
-- **George Nikaj** — VZN FC's leading marksman with 7 goals in 6 appearances, plus 3 assists. One of the most consistent finishers in the league. 
-- **Dara Dada** — NDL FC's top scorer with 7 goals and 2 assists from 8 outings. A reliable source of goals for his side. 
+- **George Nikaj** — VZN FC's leading marksman with 8 goals in 7 appearances, plus 4 assists. One of the most consistent finishers in the league. 
+- **Sam Fitzgerald** — NDL FC's top scorer with 8 goals and 4 assists from 9 outings. A reliable source of goals for his side. 
 
 
 ---
@@ -165,8 +165,8 @@ VZN FC and NDL FC had faced each other **1 time** prior to this match. NDL FC ha
 
 - This was a Gameweek 5 fixture at Baller Arena
 - The Game Changers selected were Onside and 1-on-1
-- George Nikaj leads VZN FC with 7 goals this season
-- Dara Dada tops NDL FC's scoring charts with 7 goals
+- George Nikaj leads VZN FC with 8 goals this season
+- Sam Fitzgerald tops NDL FC's scoring charts with 8 goals
 - 6 of the 9 goals (67%) came from Game Changer activations
 
 ---
@@ -174,10 +174,10 @@ VZN FC and NDL FC had faced each other **1 time** prior to this match. NDL FC ha
 ## What's Next
 
 ### VZN FC
-VZN FC await confirmation of their next fixture.
+VZN FC face **N5 FC** in Gameweek 10. This will be another crucial fixture as the season enters its decisive phase.
 
 ### NDL FC
-NDL FC await confirmation of their next fixture.
+NDL FC take on **Gold Devils FC** in Gameweek 10. They will be looking to bounce back and keep their season on track.
 
 
 

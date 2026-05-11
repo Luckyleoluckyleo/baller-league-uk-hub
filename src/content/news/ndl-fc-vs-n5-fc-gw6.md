@@ -2,14 +2,14 @@
 title: "N5 FC Beat NDL FC 4-6 in Entertaining GW6 Clash"
 date: 2026-05-11
 category: "Match Report"
-excerpt: "NDL FC 4-6 N5 FC — Gameweek 6 match report. Dara Dada (7 goals) leads NDL FC's attack. Game Changers: 3Play (4) & 1-on-1 (1). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "NDL FC 4-6 N5 FC — Gameweek 6 match report. Sam Fitzgerald (8 goals) leads NDL FC's attack. Game Changers: 3Play (4) & 1-on-1 (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: true
 ---
 
 ## Match Summary — NDL FC 4-6 N5 FC
 
-NDL FC and N5 FC faced off at Baller Arena, with NDL FC sitting 2nd and looking to strengthen their playoff push against 6th-placed N5 FC.
+Gameweek 6 brought NDL FC and N5 FC together at Baller Arena, with NDL FC sitting 2nd and looking to strengthen their playoff push against 6th-placed N5 FC.
 
 N5 FC emerged 4-6 victors over NDL FC after a competitive clash that showcased the best of Baller League football. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 5 goals to a match that saw 10 in total.
 
@@ -22,11 +22,11 @@ N5 FC emerged 4-6 victors over NDL FC after a competitive clash that showcased t
 
 ### First Half
 
-The first half saw the 3Play Game Changer activate at the 12th minute, generating 4 goals that set the tempo for the half. N5 FC shaded a competitive first period, taking their chances well.
+At the 12-minute mark, the 3Play Game Changer came into effect, generating 4 goals that set the tempo for the half. N5 FC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-The 1-on-1 Game Changer activated at the 27th minute, adding 1 goal and injecting fresh energy into the contest. The closing stages were nervy as NDL FC threw everything forward, but N5 FC stood strong to claim the points. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 6.
+The 1-on-1 Game Changer activated at the 27th minute, adding 1 goal and injecting fresh energy into the contest. NDL FC pushed hard for an equaliser but N5 FC held firm, with N5 FC defending resolutely to protect their lead. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 6.
 
 ---
 
@@ -92,26 +92,26 @@ The Game Changers provided a genuine spectacle, with both activations contributi
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Dara Dada | 7 | 2 | 8 |
-| Sam Fitzgerald | 7 | 4 | 8 |
-| Isaac Modi | 5 | 0 | 8 |
-| Kevin Weggen | 5 | 0 | 0 |
-| Joshua Parker | 4 | 3 | 5 |
+| Sam Fitzgerald | 8 | 4 | 9 |
+| Dara Dada | 7 | 4 | 9 |
+| Isaac Modi | 6 | 0 | 9 |
+| Kevin Weggen | 6 | 0 | 0 |
+| Joshua Parker | 4 | 3 | 6 |
 
 ### N5 FC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Michael Hill | 14 | 6 | 8 |
-| Joe Bennett | 11 | 2 | 8 |
-| Jezreel Davies | 3 | 4 | 8 |
+| Michael Hill | 16 | 6 | 9 |
+| Joe Bennett | 12 | 2 | 9 |
+| Jezreel Davies | 3 | 5 | 9 |
 | Nile Ranger | 2 | 0 | 6 |
-| Ibrahim Ugradar | 1 | 2 | 8 |
+| Ibrahim Ugradar | 1 | 2 | 9 |
 
 **Key Attacking Threats**
 
-- **Dara Dada** — NDL FC's leading marksman with 7 goals in 8 appearances, plus 2 assists. One of the most consistent finishers in the league. 
-- **Michael Hill** — N5 FC's top scorer with 14 goals and 6 assists from 8 outings. A reliable source of goals for his side. 
+- **Sam Fitzgerald** — NDL FC's leading marksman with 8 goals in 9 appearances, plus 4 assists. One of the most consistent finishers in the league. 
+- **Michael Hill** — N5 FC's top scorer with 16 goals and 6 assists from 9 outings. A reliable source of goals for his side. 
 
 
 ---
@@ -171,8 +171,8 @@ NDL FC and N5 FC had faced each other **1 time** prior to this match. N5 FC had 
 - This was a Gameweek 6 fixture at Baller Arena
 - The Game Changers selected were 3Play and 1-on-1
 - This 10-goal thriller was one of the highest-scoring matches of Gameweek 6
-- Dara Dada leads NDL FC with 7 goals this season
-- Michael Hill tops N5 FC's scoring charts with 14 goals
+- Sam Fitzgerald leads NDL FC with 8 goals this season
+- Michael Hill tops N5 FC's scoring charts with 16 goals
 - 5 of the 10 goals (50%) came from Game Changer activations
 
 ---
@@ -180,10 +180,10 @@ NDL FC and N5 FC had faced each other **1 time** prior to this match. N5 FC had 
 ## What's Next
 
 ### NDL FC
-NDL FC await confirmation of their next fixture.
+NDL FC face **Gold Devils FC** in Gameweek 10. This will be another crucial fixture as the season enters its decisive phase.
 
 ### N5 FC
-N5 FC await confirmation of their next fixture.
+N5 FC take on **VZN FC** in Gameweek 10. They will be looking to bounce back and keep their season on track.
 
 
 

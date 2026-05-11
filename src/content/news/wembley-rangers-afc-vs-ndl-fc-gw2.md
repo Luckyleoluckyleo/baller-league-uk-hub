@@ -2,14 +2,14 @@
 title: "Wembley Rangers AFC and NDL FC Play Out 2-2 Draw in Gameweek 2"
 date: 2026-05-11
 category: "Match Report"
-excerpt: "Wembley Rangers AFC 2-2 NDL FC — Gameweek 2 match report. Callam Gardner (5 goals) leads Wembley Rangers AFC's attack. Game Changers: Onside (0) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Wembley Rangers AFC 2-2 NDL FC — Gameweek 2 match report. Domingos Pires (8 goals) leads Wembley Rangers AFC's attack. Game Changers: Onside (0) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: false
 ---
 
 ## Match Summary — Wembley Rangers AFC 2-2 NDL FC
 
-Wembley Rangers AFC took on NDL FC in a Gameweek 2 clash in a top-of-the-table showdown, with Wembley Rangers AFC sitting 4th and NDL FC 1st.
+All eyes were on Baller Arena as Wembley Rangers AFC met NDL FC in a top-of-the-table showdown, with Wembley Rangers AFC sitting 4th and NDL FC 1st.
 
 Wembley Rangers AFC and NDL FC played out a thrilling 2-2 draw in a match where neither side deserved to lose. The 4 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through Onside and The Line.
 
@@ -22,11 +22,11 @@ Wembley Rangers AFC and NDL FC played out a thrilling 2-2 draw in a match where 
 
 ### First Half
 
-At the 12-minute mark, the Onside Game Changer came into effect, though goals proved elusive as both defences held firm. The two sides were inseparable at the break, with the contest finely poised.
+At the 12-minute mark, the Onside Game Changer came into effect, but neither side could find the breakthrough during the activation. The two sides were inseparable at the break, with the contest finely poised.
 
 ### Second Half
 
-At the 27-minute mark, the The Line Game Changer came into play and delivered 1 goal that shifted the momentum. Despite late pressure, neither team could find the decisive goal and the spoils were shared.
+The The Line Game Changer activated at the 27th minute and delivered 1 goal that shifted the momentum. Both sides pushed for a winner but ultimately had to settle for a share of the points.
 
 ---
 
@@ -83,26 +83,26 @@ The Game Changer period brought a modest 1 goal, with the modified rules creatin
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Callam Gardner | 5 | 1 | 7 |
-| Domingos Pires | 3 | 1 | 8 |
+| Domingos Pires | 8 | 2 | 9 |
+| Callam Gardner | 6 | 1 | 8 |
 | Ben Long | 2 | 1 | 7 |
-| Kristian Campbell | 2 | 1 | 7 |
-| Abdulahi Abdulazeez | 1 | 0 | 6 |
+| Kristian Campbell | 2 | 1 | 8 |
+| Abdulahi Abdulazeez | 1 | 0 | 7 |
 
 ### NDL FC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Dara Dada | 7 | 2 | 8 |
-| Sam Fitzgerald | 7 | 4 | 8 |
-| Isaac Modi | 5 | 0 | 8 |
-| Kevin Weggen | 5 | 0 | 0 |
-| Joshua Parker | 4 | 3 | 5 |
+| Sam Fitzgerald | 8 | 4 | 9 |
+| Dara Dada | 7 | 4 | 9 |
+| Isaac Modi | 6 | 0 | 9 |
+| Kevin Weggen | 6 | 0 | 0 |
+| Joshua Parker | 4 | 3 | 6 |
 
 **Key Attacking Threats**
 
-- **Callam Gardner** — Wembley Rangers AFC's leading marksman with 5 goals in 7 appearances, plus 1 assists. One of the most consistent finishers in the league. 
-- **Dara Dada** — NDL FC's top scorer with 7 goals and 2 assists from 8 outings. A reliable source of goals for his side. 
+- **Domingos Pires** — Wembley Rangers AFC's leading marksman with 8 goals in 9 appearances, plus 2 assists. One of the most consistent finishers in the league. 
+- **Sam Fitzgerald** — NDL FC's top scorer with 8 goals and 4 assists from 9 outings. A reliable source of goals for his side. 
 
 
 ---
@@ -150,8 +150,8 @@ This was the **first ever competitive meeting** between Wembley Rangers AFC and 
 
 - This was a Gameweek 2 fixture at Baller Arena
 - The Game Changers selected were Onside and The Line
-- Callam Gardner leads Wembley Rangers AFC with 5 goals this season
-- Dara Dada tops NDL FC's scoring charts with 7 goals
+- Domingos Pires leads Wembley Rangers AFC with 8 goals this season
+- Sam Fitzgerald tops NDL FC's scoring charts with 8 goals
 - 1 of the 4 goals (25%) came from Game Changer activations
 
 ---
@@ -159,10 +159,10 @@ This was the **first ever competitive meeting** between Wembley Rangers AFC and 
 ## What's Next
 
 ### Wembley Rangers AFC
-Wembley Rangers AFC await confirmation of their next fixture.
+Wembley Rangers AFC face **Clutch FC** in Gameweek 10. This will be another crucial fixture as the season enters its decisive phase.
 
 ### NDL FC
-NDL FC await confirmation of their next fixture.
+NDL FC take on **Gold Devils FC** in Gameweek 10. They will be looking to bounce back and keep their season on track.
 
 
 

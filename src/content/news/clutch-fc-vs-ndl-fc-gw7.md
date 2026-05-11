@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Clutch FC 3-6 NDL FC
 
-All eyes were on Baller Arena as Clutch FC met NDL FC in a top-of-the-table showdown, with Clutch FC sitting 3rd and NDL FC 2nd.
+Clutch FC and NDL FC faced off at Baller Arena in a top-of-the-table showdown, with Clutch FC sitting 3rd and NDL FC 2nd.
 
-NDL FC proved too strong for Clutch FC, taking a convincing 3-6 victory that never looked in doubt. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 5 goals to a match that saw 9 in total.
+A composed, professional display from NDL FC saw them dispatch Clutch FC 3-6 to claim all three points. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 5 goals to a match that saw 9 in total.
 
 **Clutch FC form (before GW7):** ✅ ✅ ✅ ✅ ❌ (W-W-W-W-L)  
 **NDL FC form (before GW7):** ❌ ❌ ❌ ✅ ✅ (L-L-L-W-W)
@@ -22,11 +22,11 @@ NDL FC proved too strong for Clutch FC, taking a convincing 3-6 victory that nev
 
 ### First Half
 
-The first half saw the 3Play Game Changer activate at the 12th minute and the teams made it count with 2 goals being scored. NDL FC seized the initiative early and never looked back, building a commanding lead.
+At the 12-minute mark, the 3Play Game Changer came into effect, generating 2 goals that set the tempo for the half. NDL FC seized the initiative early and never looked back, building a commanding lead.
 
 ### Second Half
 
-The 1-on-1 Game Changer activated at the 27th minute, adding 3 goals and injecting fresh energy into the contest. NDL FC maintained their grip on the match throughout the second period to secure a comfortable win.
+At the 27-minute mark, the 1-on-1 Game Changer came into play, adding 3 goals and injecting fresh energy into the contest. NDL FC maintained their grip on the match throughout the second period to secure a comfortable win.
 
 ---
 
@@ -95,26 +95,26 @@ The Game Changers provided a genuine spectacle, with both activations contributi
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Alfie Matthews | 12 | 4 | 8 |
-| Sandro Camara | 7 | 1 | 8 |
-| Richard Afrane-Kesey | 4 | 0 | 6 |
-| Tyler Winters | 4 | 2 | 8 |
-| David Marques Castanho | 3 | 2 | 7 |
+| Alfie Matthews | 12 | 4 | 9 |
+| Sandro Camara | 7 | 1 | 9 |
+| Richard Afrane-Kesey | 6 | 1 | 7 |
+| Tyler Winters | 6 | 2 | 9 |
+| David Marques Castanho | 3 | 2 | 8 |
 
 ### NDL FC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Dara Dada | 7 | 2 | 8 |
-| Sam Fitzgerald | 7 | 4 | 8 |
-| Isaac Modi | 5 | 0 | 8 |
-| Kevin Weggen | 5 | 0 | 0 |
-| Joshua Parker | 4 | 3 | 5 |
+| Sam Fitzgerald | 8 | 4 | 9 |
+| Dara Dada | 7 | 4 | 9 |
+| Isaac Modi | 6 | 0 | 9 |
+| Kevin Weggen | 6 | 0 | 0 |
+| Joshua Parker | 4 | 3 | 6 |
 
 **Key Attacking Threats**
 
-- **Alfie Matthews** — Clutch FC's leading marksman with 12 goals in 8 appearances, plus 4 assists. One of the most consistent finishers in the league. 
-- **Dara Dada** — NDL FC's top scorer with 7 goals and 2 assists from 8 outings. A reliable source of goals for his side. 
+- **Alfie Matthews** — Clutch FC's leading marksman with 12 goals in 9 appearances, plus 4 assists. One of the most consistent finishers in the league. 
+- **Sam Fitzgerald** — NDL FC's top scorer with 8 goals and 4 assists from 9 outings. A reliable source of goals for his side. 
 
 
 ---
@@ -163,7 +163,7 @@ This was the **first ever competitive meeting** between Clutch FC and NDL FC —
 - This was a Gameweek 7 fixture at Baller Arena
 - The Game Changers selected were 3Play and 1-on-1
 - Alfie Matthews leads Clutch FC with 12 goals this season
-- Dara Dada tops NDL FC's scoring charts with 7 goals
+- Sam Fitzgerald tops NDL FC's scoring charts with 8 goals
 - 5 of the 9 goals (56%) came from Game Changer activations
 
 ---
@@ -171,10 +171,10 @@ This was the **first ever competitive meeting** between Clutch FC and NDL FC —
 ## What's Next
 
 ### Clutch FC
-Clutch FC await confirmation of their next fixture.
+Clutch FC face **Wembley Rangers AFC** in Gameweek 10. This will be another crucial fixture as the season enters its decisive phase.
 
 ### NDL FC
-NDL FC await confirmation of their next fixture.
+NDL FC take on **Gold Devils FC** in Gameweek 10. They will be looking to bounce back and keep their season on track.
 
 
 

@@ -2,16 +2,16 @@
 title: "Deportrio See Off Wembley Rangers AFC 5-2 in Gameweek 4"
 date: 2026-05-11
 category: "Match Report"
-excerpt: "Deportrio 5-2 Wembley Rangers AFC — Gameweek 4 match report. Jay Emmanuel-Thomas (15 goals) leads Deportrio's attack. Game Changers: Plus One (2) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Deportrio 5-2 Wembley Rangers AFC — Gameweek 4 match report. Jay Emmanuel-Thomas (18 goals) leads Deportrio's attack. Game Changers: Plus One (2) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: false
 ---
 
 ## Match Summary — Deportrio 5-2 Wembley Rangers AFC
 
-Deportrio took on Wembley Rangers AFC in a Gameweek 4 clash, two sides looking to climb the table from 10th and 6th respectively.
+All eyes were on Baller Arena as Deportrio met Wembley Rangers AFC, two sides looking to climb the table from 10th and 6th respectively.
 
-Deportrio proved too strong for Wembley Rangers AFC, taking a convincing 5-2 victory that never looked in doubt. The Game Changer period played a key role, with the Plus One and The Line activations contributing 3 goals to a match that saw 7 in total.
+A composed, professional display from Deportrio saw them dispatch Wembley Rangers AFC 5-2 to claim all three points. The Game Changer period played a key role, with the Plus One and The Line activations contributing 3 goals to a match that saw 7 in total.
 
 **Deportrio form (before GW4):** ❌ ❌ ❌ ❌ ✅ (L-L-L-L-W)  
 **Wembley Rangers AFC form (before GW4):** 🤝 🤝 🤝 🤝 ✅ (D-D-D-D-W)
@@ -22,11 +22,11 @@ Deportrio proved too strong for Wembley Rangers AFC, taking a convincing 5-2 vic
 
 ### First Half
 
-The first half saw the Plus One Game Changer activate at the 12th minute, producing 2 goals in a frantic period of play. Deportrio flew out of the blocks, overwhelming Wembley Rangers AFC with wave after wave of attacks.
+At the 12-minute mark, the Plus One Game Changer came into effect and the teams made it count with 2 goals being scored. Deportrio flew out of the blocks, overwhelming Wembley Rangers AFC with wave after wave of attacks.
 
 ### Second Half
 
-The The Line Game Changer kicked in at the 27th minute of the second half and delivered 1 goal that shifted the momentum. Deportrio managed the game superbly after the interval, seeing out a professional victory.
+The The Line Game Changer activated at the 27th minute, adding 1 goal and injecting fresh energy into the contest. Deportrio managed the game superbly after the interval, seeing out a professional victory.
 
 ---
 
@@ -90,26 +90,26 @@ The Game Changer period brought a modest 3 goals, with the modified rules creati
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Jay Emmanuel-Thomas | 15 | 6 | 8 |
-| Sahid Kamara | 7 | 2 | 5 |
-| J&#039;ardell Stirling | 2 | 3 | 8 |
-| Marvin Sordell | 2 | 1 | 6 |
-| Amine Sassi | 1 | 2 | 8 |
+| Jay Emmanuel-Thomas | 18 | 6 | 9 |
+| Sahid Kamara | 9 | 3 | 6 |
+| J&#039;ardell Stirling | 2 | 4 | 9 |
+| Marvin Sordell | 2 | 1 | 7 |
+| Amine Sassi | 1 | 3 | 9 |
 
 ### Wembley Rangers AFC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Callam Gardner | 5 | 1 | 7 |
-| Domingos Pires | 3 | 1 | 8 |
+| Domingos Pires | 8 | 2 | 9 |
+| Callam Gardner | 6 | 1 | 8 |
 | Ben Long | 2 | 1 | 7 |
-| Kristian Campbell | 2 | 1 | 7 |
-| Abdulahi Abdulazeez | 1 | 0 | 6 |
+| Kristian Campbell | 2 | 1 | 8 |
+| Abdulahi Abdulazeez | 1 | 0 | 7 |
 
 **Key Attacking Threats**
 
-- **Jay Emmanuel-Thomas** — Deportrio's leading marksman with 15 goals in 8 appearances, plus 6 assists. One of the most consistent finishers in the league. 
-- **Callam Gardner** — Wembley Rangers AFC's top scorer with 5 goals and 1 assists from 7 outings. A reliable source of goals for his side. 
+- **Jay Emmanuel-Thomas** — Deportrio's leading marksman with 18 goals in 9 appearances, plus 6 assists. One of the most consistent finishers in the league. 
+- **Domingos Pires** — Wembley Rangers AFC's top scorer with 8 goals and 2 assists from 9 outings. A reliable source of goals for his side. 
 
 
 ---
@@ -168,8 +168,8 @@ Deportrio and Wembley Rangers AFC had faced each other **1 time** prior to this 
 
 - This was a Gameweek 4 fixture at Baller Arena
 - The Game Changers selected were Plus One and The Line
-- Jay Emmanuel-Thomas leads Deportrio with 15 goals this season
-- Callam Gardner tops Wembley Rangers AFC's scoring charts with 5 goals
+- Jay Emmanuel-Thomas leads Deportrio with 18 goals this season
+- Domingos Pires tops Wembley Rangers AFC's scoring charts with 8 goals
 - 3 of the 7 goals (43%) came from Game Changer activations
 
 ---
@@ -177,10 +177,10 @@ Deportrio and Wembley Rangers AFC had faced each other **1 time** prior to this 
 ## What's Next
 
 ### Deportrio
-Deportrio await confirmation of their next fixture.
+Deportrio face **Rukkas FC** in Gameweek 10. This will be another crucial fixture as the season enters its decisive phase.
 
 ### Wembley Rangers AFC
-Wembley Rangers AFC await confirmation of their next fixture.
+Wembley Rangers AFC take on **Clutch FC** in Gameweek 10. They will be looking to bounce back and keep their season on track.
 
 
 

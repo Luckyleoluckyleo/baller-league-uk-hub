@@ -2,14 +2,14 @@
 title: "Deportrio Cruise Past Gold Devils FC in 6-2 Rout — GW1"
 date: 2026-05-11
 category: "Match Report"
-excerpt: "Deportrio 6-2 Gold Devils FC — Gameweek 1 match report. Jay Emmanuel-Thomas (15 goals) leads Deportrio's attack. Game Changers: 3Play (2) & 1-on-1 (2). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Deportrio 6-2 Gold Devils FC — Gameweek 1 match report. Jay Emmanuel-Thomas (18 goals) leads Deportrio's attack. Game Changers: 3Play (2) & 1-on-1 (2). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: false
 ---
 
 ## Match Summary — Deportrio 6-2 Gold Devils FC
 
-The Gameweek 1 schedule pitted Deportrio against Gold Devils FC
+Deportrio took on Gold Devils FC in a Gameweek 1 clash
 
 Deportrio controlled proceedings from start to finish, running out 6-2 winners in a performance that underlined their quality. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 4 goals to a match that saw 8 in total.
 
@@ -21,11 +21,11 @@ Deportrio controlled proceedings from start to finish, running out 6-2 winners i
 
 ### First Half
 
-The 3Play Game Changer kicked in at the 12th minute and the teams made it count with 2 goals being scored. Deportrio flew out of the blocks, overwhelming Gold Devils FC with wave after wave of attacks.
+The first half saw the 3Play Game Changer activate at the 12th minute and the teams made it count with 2 goals being scored. Deportrio flew out of the blocks, overwhelming Gold Devils FC with wave after wave of attacks.
 
 ### Second Half
 
-The 1-on-1 Game Changer activated at the 27th minute and delivered 2 goals that shifted the momentum. Deportrio managed the game superbly after the interval, seeing out a professional victory.
+The 1-on-1 Game Changer kicked in at the 27th minute of the second half, adding 2 goals and injecting fresh energy into the contest. Deportrio maintained their grip on the match throughout the second period to secure a comfortable win.
 
 ---
 
@@ -87,26 +87,26 @@ The Game Changers provided a genuine spectacle, with both activations contributi
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Jay Emmanuel-Thomas | 15 | 6 | 8 |
-| Sahid Kamara | 7 | 2 | 5 |
-| J&#039;ardell Stirling | 2 | 3 | 8 |
-| Marvin Sordell | 2 | 1 | 6 |
-| Amine Sassi | 1 | 2 | 8 |
+| Jay Emmanuel-Thomas | 18 | 6 | 9 |
+| Sahid Kamara | 9 | 3 | 6 |
+| J&#039;ardell Stirling | 2 | 4 | 9 |
+| Marvin Sordell | 2 | 1 | 7 |
+| Amine Sassi | 1 | 3 | 9 |
 
 ### Gold Devils FC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Bilal Sayoud | 7 | 7 | 8 |
-| Salim Nassor | 4 | 2 | 7 |
-| Luqman Kassim | 3 | 0 | 5 |
+| Bilal Sayoud | 7 | 7 | 9 |
+| Salim Nassor | 4 | 2 | 8 |
+| Luqman Kassim | 3 | 1 | 6 |
+| Ryan Gondoh | 3 | 0 | 6 |
 | Jahvarn Stewart | 2 | 0 | 0 |
-| Arezki Hamouchene | 1 | 0 | 3 |
 
 **Key Attacking Threats**
 
-- **Jay Emmanuel-Thomas** — Deportrio's leading marksman with 15 goals in 8 appearances, plus 6 assists. One of the most consistent finishers in the league. 
-- **Bilal Sayoud** — Gold Devils FC's top scorer with 7 goals and 7 assists from 8 outings. A reliable source of goals for his side. 
+- **Jay Emmanuel-Thomas** — Deportrio's leading marksman with 18 goals in 9 appearances, plus 6 assists. One of the most consistent finishers in the league. 
+- **Bilal Sayoud** — Gold Devils FC's top scorer with 7 goals and 7 assists from 9 outings. A reliable source of goals for his side. 
 
 
 ---
@@ -154,7 +154,7 @@ This was the **first ever competitive meeting** between Deportrio and Gold Devil
 
 - This was a Gameweek 1 fixture at Baller Arena
 - The Game Changers selected were 3Play and 1-on-1
-- Jay Emmanuel-Thomas leads Deportrio with 15 goals this season
+- Jay Emmanuel-Thomas leads Deportrio with 18 goals this season
 - Bilal Sayoud tops Gold Devils FC's scoring charts with 7 goals
 - 4 of the 8 goals (50%) came from Game Changer activations
 

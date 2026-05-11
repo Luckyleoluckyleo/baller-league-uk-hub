@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Gold Devils FC 4-4 Community FC
 
-Gold Devils FC took on Community FC in a Gameweek 8 clash, two sides looking to climb the table from 10th and 12th respectively.
+Gold Devils FC and Community FC faced off at Baller Arena, two sides looking to climb the table from 10th and 12th respectively.
 
-Gold Devils FC and Community FC played out a thrilling 4-4 draw in a match where neither side deserved to lose. The 8 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through 3Play and The Line.
+Honours were even as Gold Devils FC and Community FC shared the spoils in an entertaining 4-4 draw. The 8 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through 3Play and The Line.
 
 **Gold Devils FC form (before GW8):** 🤝 ❌ ❌ ✅ ❌ (D-L-L-W-L)  
 **Community FC form (before GW8):** ❌ ❌ ❌ ✅ ❌ (L-L-L-W-L)
@@ -22,11 +22,11 @@ Gold Devils FC and Community FC played out a thrilling 4-4 draw in a match where
 
 ### First Half
 
-The 3Play Game Changer kicked in at the 12th minute, generating 3 goals that set the tempo for the half. The two sides were inseparable at the break, with the contest finely poised.
+The first half saw the 3Play Game Changer activate at the 12th minute, generating 3 goals that set the tempo for the half. The two sides were inseparable at the break, with the contest finely poised.
 
 ### Second Half
 
-The The Line Game Changer kicked in at the 27th minute of the second half, but neither side could capitalise on the modified rules. Both sides pushed for a winner but ultimately had to settle for a share of the points.
+The The Line Game Changer activated at the 27th minute, though the goals dried up as the match wore on. Despite late pressure, neither team could find the decisive goal and the spoils were shared.
 
 ---
 
@@ -90,26 +90,26 @@ The Game Changer period brought a modest 3 goals, with the modified rules creati
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Bilal Sayoud | 7 | 7 | 8 |
-| Salim Nassor | 4 | 2 | 7 |
-| Luqman Kassim | 3 | 0 | 5 |
+| Bilal Sayoud | 7 | 7 | 9 |
+| Salim Nassor | 4 | 2 | 8 |
+| Luqman Kassim | 3 | 1 | 6 |
+| Ryan Gondoh | 3 | 0 | 6 |
 | Jahvarn Stewart | 2 | 0 | 0 |
-| Arezki Hamouchene | 1 | 0 | 3 |
 
 ### Community FC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Alex Byrne | 8 | 6 | 7 |
-| Keane Joyce | 3 | 0 | 8 |
-| Matthew Waller | 3 | 0 | 8 |
+| Alex Byrne | 8 | 7 | 8 |
+| Keane Joyce | 3 | 0 | 9 |
+| Matthew Waller | 3 | 1 | 9 |
+| George Chmiel | 2 | 0 | 8 |
 | Tawab Djankpata | 2 | 2 | 6 |
-| Callum Charlton | 1 | 0 | 6 |
 
 **Key Attacking Threats**
 
-- **Bilal Sayoud** — Gold Devils FC's leading marksman with 7 goals in 8 appearances, plus 7 assists. One of the most consistent finishers in the league. 
-- **Alex Byrne** — Community FC's top scorer with 8 goals and 6 assists from 7 outings. A reliable source of goals for his side. 
+- **Bilal Sayoud** — Gold Devils FC's leading marksman with 7 goals in 9 appearances, plus 7 assists. One of the most consistent finishers in the league. 
+- **Alex Byrne** — Community FC's top scorer with 8 goals and 7 assists from 8 outings. A reliable source of goals for his side. 
 
 
 ---
@@ -166,10 +166,10 @@ This was the **first ever competitive meeting** between Gold Devils FC and Commu
 ## What's Next
 
 ### Gold Devils FC
-Gold Devils FC await confirmation of their next fixture.
+Gold Devils FC face **NDL FC** in Gameweek 10. This will be another crucial fixture as the season enters its decisive phase.
 
 ### Community FC
-Community FC await confirmation of their next fixture.
+Community FC take on **Prime FC** in Gameweek 10. They will be looking to bounce back and keep their season on track.
 
 
 

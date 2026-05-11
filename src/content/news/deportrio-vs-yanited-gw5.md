@@ -1,15 +1,15 @@
 ---
-title: "Deportrio Scrape Past Yanited 5-4 in Tight GW5 Contest"
+title: "Deportrio Edge Yanited 5-4 in GW5 Thriller"
 date: 2026-05-11
 category: "Match Report"
-excerpt: "Deportrio 5-4 Yanited — Gameweek 5 match report. Jay Emmanuel-Thomas (15 goals) leads Deportrio's attack. Game Changers: 3Play (2) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Deportrio 5-4 Yanited — Gameweek 5 match report. Jay Emmanuel-Thomas (18 goals) leads Deportrio's attack. Game Changers: 3Play (2) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: false
 ---
 
 ## Match Summary — Deportrio 5-4 Yanited
 
-Deportrio took on Yanited in a Gameweek 5 clash, where 6th-placed Deportrio looked to upset 3rd-placed Yanited.
+The Gameweek 5 schedule pitted Deportrio against Yanited, where 6th-placed Deportrio looked to upset 3rd-placed Yanited.
 
 Deportrio edged past Yanited 5-4 in a nail-biting encounter that could have gone either way. The Game Changer period played a key role, with the 3Play and The Line activations contributing 3 goals to a match that saw 9 in total.
 
@@ -22,11 +22,11 @@ Deportrio edged past Yanited 5-4 in a nail-biting encounter that could have gone
 
 ### First Half
 
-The first half saw the 3Play Game Changer activate at the 12th minute and the teams made it count with 2 goals being scored. Deportrio shaded a competitive first period, taking their chances well.
+At the 12-minute mark, the 3Play Game Changer came into effect, generating 2 goals that set the tempo for the half. Deportrio edged the opening exchanges with a more clinical edge in front of goal.
 
 ### Second Half
 
-At the 27-minute mark, the The Line Game Changer came into play, producing 1 goal at a crucial stage. Yanited pushed hard for an equaliser, with Deportrio defending resolutely to protect their lead.
+The The Line Game Changer kicked in at the 27th minute of the second half and delivered 1 goal that shifted the momentum. The closing stages were nervy as Yanited threw everything forward, but Deportrio stood strong to claim the points.
 
 ---
 
@@ -92,26 +92,26 @@ The Game Changer period brought a modest 3 goals, with the modified rules creati
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Jay Emmanuel-Thomas | 15 | 6 | 8 |
-| Sahid Kamara | 7 | 2 | 5 |
-| J&#039;ardell Stirling | 2 | 3 | 8 |
-| Marvin Sordell | 2 | 1 | 6 |
-| Amine Sassi | 1 | 2 | 8 |
+| Jay Emmanuel-Thomas | 18 | 6 | 9 |
+| Sahid Kamara | 9 | 3 | 6 |
+| J&#039;ardell Stirling | 2 | 4 | 9 |
+| Marvin Sordell | 2 | 1 | 7 |
+| Amine Sassi | 1 | 3 | 9 |
 
 ### Yanited — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kadell Daniel | 7 | 3 | 5 |
-| Tyrell Miller-Rodney | 6 | 2 | 7 |
+| Kadell Daniel | 11 | 3 | 6 |
+| Tyrell Miller-Rodney | 6 | 3 | 8 |
 | John Bostock | 4 | 1 | 6 |
 | Paul-José M&#039;Poku | 2 | 2 | 7 |
-| Nathan Oduwa | 1 | 2 | 7 |
+| Nathan Oduwa | 1 | 2 | 8 |
 
 **Key Attacking Threats**
 
-- **Jay Emmanuel-Thomas** — Deportrio's leading marksman with 15 goals in 8 appearances, plus 6 assists. One of the most consistent finishers in the league. 
-- **Kadell Daniel** — Yanited's top scorer with 7 goals and 3 assists from 5 outings. A reliable source of goals for his side. 
+- **Jay Emmanuel-Thomas** — Deportrio's leading marksman with 18 goals in 9 appearances, plus 6 assists. One of the most consistent finishers in the league. 
+- **Kadell Daniel** — Yanited's top scorer with 11 goals and 3 assists from 6 outings. A reliable source of goals for his side. 
 
 
 ---
@@ -159,8 +159,8 @@ This was the **first ever competitive meeting** between Deportrio and Yanited �
 
 - This was a Gameweek 5 fixture at Baller Arena
 - The Game Changers selected were 3Play and The Line
-- Jay Emmanuel-Thomas leads Deportrio with 15 goals this season
-- Kadell Daniel tops Yanited's scoring charts with 7 goals
+- Jay Emmanuel-Thomas leads Deportrio with 18 goals this season
+- Kadell Daniel tops Yanited's scoring charts with 11 goals
 - 3 of the 9 goals (33%) came from Game Changer activations
 
 ---
@@ -168,10 +168,10 @@ This was the **first ever competitive meeting** between Deportrio and Yanited �
 ## What's Next
 
 ### Deportrio
-Deportrio await confirmation of their next fixture.
+Deportrio face **Rukkas FC** in Gameweek 10. This will be another crucial fixture as the season enters its decisive phase.
 
 ### Yanited
-Yanited await confirmation of their next fixture.
+Yanited take on **SDS FC** in Gameweek 10. They will be looking to bounce back and keep their season on track.
 
 
 

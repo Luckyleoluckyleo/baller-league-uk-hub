@@ -1,15 +1,15 @@
 ---
-title: "Prime FC and SDS FC Play Out 2-2 Draw in Gameweek 5"
+title: "Prime FC and SDS FC Deadlocked at 2-2 in GW5"
 date: 2026-05-11
 category: "Match Report"
-excerpt: "Prime FC 2-2 SDS FC — Gameweek 5 match report. Francis Gerard Mampolo (14 goals) leads Prime FC's attack. Game Changers: 3Play (2) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Prime FC 2-2 SDS FC — Gameweek 5 match report. Francis Gerard Mampolo (15 goals) leads Prime FC's attack. Game Changers: 3Play (2) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: false
 ---
 
 ## Match Summary — Prime FC 2-2 SDS FC
 
-Prime FC and SDS FC faced off at Baller Arena, where 5th-placed Prime FC looked to upset 2nd-placed SDS FC.
+Prime FC took on SDS FC in a Gameweek 5 clash, where 5th-placed Prime FC looked to upset 2nd-placed SDS FC.
 
 Honours were even as Prime FC and SDS FC shared the spoils in an entertaining 2-2 draw. The 4 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through 3Play and The Line.
 
@@ -22,11 +22,11 @@ Honours were even as Prime FC and SDS FC shared the spoils in an entertaining 2-
 
 ### First Half
 
-At the 12-minute mark, the 3Play Game Changer came into effect, producing 2 goals in a frantic period of play. The two sides were inseparable at the break, with the contest finely poised.
+The first half saw the 3Play Game Changer activate at the 12th minute, generating 2 goals that set the tempo for the half. The two sides were inseparable at the break, with the contest finely poised.
 
 ### Second Half
 
-The The Line Game Changer activated at the 27th minute, producing 1 goal at a crucial stage. Despite late pressure, neither team could find the decisive goal and the spoils were shared.
+The The Line Game Changer activated at the 27th minute and delivered 1 goal that shifted the momentum. Despite late pressure, neither team could find the decisive goal and the spoils were shared.
 
 ---
 
@@ -85,25 +85,25 @@ The Game Changer period brought a modest 3 goals, with the modified rules creati
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Francis Gerard Mampolo | 14 | 3 | 8 |
-| Bráulio Valera Pinto Maieco | 8 | 0 | 8 |
-| Timmy Abraham | 7 | 2 | 8 |
-| Ergys Pepaj | 6 | 2 | 8 |
-| Sak Hassan | 5 | 4 | 7 |
+| Francis Gerard Mampolo | 15 | 4 | 9 |
+| Bráulio Valera Pinto Maieco | 9 | 0 | 9 |
+| Timmy Abraham | 7 | 2 | 9 |
+| Ergys Pepaj | 6 | 2 | 9 |
+| Sak Hassan | 5 | 4 | 8 |
 
 ### SDS FC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
 | Connor Wood | 6 | 2 | 8 |
-| Kazaiah Sterling | 5 | 4 | 8 |
-| Camilo Restrepo | 4 | 1 | 7 |
-| Joshua Abbott | 4 | 2 | 8 |
+| Kazaiah Sterling | 5 | 4 | 9 |
+| Camilo Restrepo | 4 | 1 | 8 |
+| Joshua Abbott | 4 | 2 | 9 |
 | Danny Bassett | 3 | 1 | 8 |
 
 **Key Attacking Threats**
 
-- **Francis Gerard Mampolo** — Prime FC's leading marksman with 14 goals in 8 appearances, plus 3 assists. One of the most consistent finishers in the league. 
+- **Francis Gerard Mampolo** — Prime FC's leading marksman with 15 goals in 9 appearances, plus 4 assists. One of the most consistent finishers in the league. 
 - **Connor Wood** — SDS FC's top scorer with 6 goals and 2 assists from 8 outings. A reliable source of goals for his side. 
 
 
@@ -152,7 +152,7 @@ This was the **first ever competitive meeting** between Prime FC and SDS FC — 
 
 - This was a Gameweek 5 fixture at Baller Arena
 - The Game Changers selected were 3Play and The Line
-- Francis Gerard Mampolo leads Prime FC with 14 goals this season
+- Francis Gerard Mampolo leads Prime FC with 15 goals this season
 - Connor Wood tops SDS FC's scoring charts with 6 goals
 - 3 of the 4 goals (75%) came from Game Changer activations
 
@@ -161,10 +161,10 @@ This was the **first ever competitive meeting** between Prime FC and SDS FC — 
 ## What's Next
 
 ### Prime FC
-Prime FC await confirmation of their next fixture.
+Prime FC face **Community FC** in Gameweek 10. This will be another crucial fixture as the season enters its decisive phase.
 
 ### SDS FC
-SDS FC await confirmation of their next fixture.
+SDS FC take on **Yanited** in Gameweek 10. They will be looking to bounce back and keep their season on track.
 
 
 

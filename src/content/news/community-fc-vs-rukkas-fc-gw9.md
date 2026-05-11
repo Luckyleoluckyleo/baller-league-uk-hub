@@ -1,5 +1,5 @@
 ---
-title: "Rukkas FC Cruise Past Community FC in 2-6 Rout — GW9"
+title: "Rukkas FC Overpower Community FC 2-6 in Dominant Display — GW9"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "Community FC 2-6 Rukkas FC — Gameweek 9 match report. Alex Byrne (8 goals) leads Community FC's attack. Game Changers: Plus One (2) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Community FC 2-6 Rukkas FC
 
-Community FC took on Rukkas FC in a Gameweek 9 clash, two sides looking to climb the table from 12th and 11th respectively.
+The Gameweek 9 schedule pitted Community FC against Rukkas FC, two sides looking to climb the table from 12th and 11th respectively.
 
 A composed, professional display from Rukkas FC saw them dispatch Community FC 2-6 to claim all three points. The Game Changer period played a key role, with the Plus One and The Line activations contributing 2 goals to a match that saw 8 in total.
 
@@ -22,11 +22,11 @@ A composed, professional display from Rukkas FC saw them dispatch Community FC 2
 
 ### First Half
 
-At the 12-minute mark, the Plus One Game Changer came into effect, generating 2 goals that set the tempo for the half. Rukkas FC flew out of the blocks, overwhelming Community FC with wave after wave of attacks.
+The Plus One Game Changer kicked in at the 12th minute, producing 2 goals in a frantic period of play. Rukkas FC seized the initiative early and never looked back, building a commanding lead.
 
 ### Second Half
 
-The The Line Game Changer kicked in at the 27th minute of the second half, but neither side could capitalise on the modified rules. Rukkas FC maintained their grip on the match throughout the second period to secure a comfortable win.
+At the 27-minute mark, the The Line Game Changer came into play, but neither side could capitalise on the modified rules. Rukkas FC maintained their grip on the match throughout the second period to secure a comfortable win.
 
 ---
 
@@ -94,26 +94,26 @@ The Game Changer period brought a modest 2 goals, with the modified rules creati
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Alex Byrne | 8 | 6 | 7 |
-| Keane Joyce | 3 | 0 | 8 |
-| Matthew Waller | 3 | 0 | 8 |
+| Alex Byrne | 8 | 7 | 8 |
+| Keane Joyce | 3 | 0 | 9 |
+| Matthew Waller | 3 | 1 | 9 |
+| George Chmiel | 2 | 0 | 8 |
 | Tawab Djankpata | 2 | 2 | 6 |
-| Callum Charlton | 1 | 0 | 6 |
 
 ### Rukkas FC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| David Oupoh | 5 | 1 | 8 |
-| Mussa Bham | 5 | 0 | 8 |
-| Zaid Al Hussaini | 3 | 4 | 8 |
-| Emmanuel Robe | 2 | 3 | 8 |
-| Osman Ali | 2 | 2 | 8 |
+| Mussa Bham | 7 | 0 | 9 |
+| David Oupoh | 6 | 1 | 9 |
+| Zaid Al Hussaini | 4 | 5 | 9 |
+| Emmanuel Robe | 3 | 3 | 9 |
+| Osman Ali | 2 | 2 | 9 |
 
 **Key Attacking Threats**
 
-- **Alex Byrne** — Community FC's leading marksman with 8 goals in 7 appearances, plus 6 assists. One of the most consistent finishers in the league. 
-- **David Oupoh** — Rukkas FC's top scorer with 5 goals and 1 assists from 8 outings. A reliable source of goals for his side. 
+- **Alex Byrne** — Community FC's leading marksman with 8 goals in 8 appearances, plus 7 assists. One of the most consistent finishers in the league. 
+- **Mussa Bham** — Rukkas FC's top scorer with 7 goals from 9 outings. A reliable source of goals for his side. 
 
 
 ---
@@ -162,7 +162,7 @@ This was the **first ever competitive meeting** between Community FC and Rukkas 
 - This was a Gameweek 9 fixture at Baller Arena
 - The Game Changers selected were Plus One and The Line
 - Alex Byrne leads Community FC with 8 goals this season
-- David Oupoh tops Rukkas FC's scoring charts with 5 goals
+- Mussa Bham tops Rukkas FC's scoring charts with 7 goals
 - 2 of the 8 goals (25%) came from Game Changer activations
 
 ---
@@ -170,10 +170,10 @@ This was the **first ever competitive meeting** between Community FC and Rukkas 
 ## What's Next
 
 ### Community FC
-Community FC await confirmation of their next fixture.
+Community FC face **Prime FC** in Gameweek 10. This will be another crucial fixture as the season enters its decisive phase.
 
 ### Rukkas FC
-Rukkas FC await confirmation of their next fixture.
+Rukkas FC take on **Deportrio** in Gameweek 10. They will be looking to bounce back and keep their season on track.
 
 
 

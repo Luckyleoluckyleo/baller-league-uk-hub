@@ -1,5 +1,5 @@
 ---
-title: "NDL FC Overpower Community FC 2-7 in Dominant Display — GW1"
+title: "NDL FC Cruise Past Community FC in 2-7 Rout — GW1"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "Community FC 2-7 NDL FC — Gameweek 1 match report. Alex Byrne (8 goals) leads Community FC's attack. Game Changers: 3Play (3) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -11,7 +11,7 @@ featured: false
 
 Gameweek 1 brought Community FC and NDL FC together at Baller Arena
 
-NDL FC produced a statement performance, dismantling Community FC 2-7 with a ruthless attacking display that will send a message to the rest of the league. The Game Changer period played a key role, with the 3Play and The Line activations contributing 4 goals to a match that saw 9 in total.
+NDL FC were simply unstoppable as they crushed Community FC 2-7, delivering one of the most emphatic results of Gameweek 1. The Game Changer period played a key role, with the 3Play and The Line activations contributing 4 goals to a match that saw 9 in total.
 
 
 
@@ -21,11 +21,11 @@ NDL FC produced a statement performance, dismantling Community FC 2-7 with a rut
 
 ### First Half
 
-The 3Play Game Changer kicked in at the 12th minute, producing 3 goals in a frantic period of play. NDL FC flew out of the blocks, overwhelming Community FC with wave after wave of attacks.
+The 3Play Game Changer kicked in at the 12th minute, producing 3 goals in a frantic period of play. NDL FC seized the initiative early and never looked back, building a commanding lead.
 
 ### Second Half
 
-The The Line Game Changer kicked in at the 27th minute of the second half, producing 1 goal at a crucial stage. NDL FC showed no mercy after the break, piling on the goals to complete a resounding victory.
+At the 27-minute mark, the The Line Game Changer came into play, producing 1 goal at a crucial stage. NDL FC continued their onslaught, putting the game well beyond Community FC's reach in a relentless second-half showing.
 
 ---
 
@@ -89,26 +89,26 @@ The Game Changers provided a genuine spectacle, with both activations contributi
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Alex Byrne | 8 | 6 | 7 |
-| Keane Joyce | 3 | 0 | 8 |
-| Matthew Waller | 3 | 0 | 8 |
+| Alex Byrne | 8 | 7 | 8 |
+| Keane Joyce | 3 | 0 | 9 |
+| Matthew Waller | 3 | 1 | 9 |
+| George Chmiel | 2 | 0 | 8 |
 | Tawab Djankpata | 2 | 2 | 6 |
-| Callum Charlton | 1 | 0 | 6 |
 
 ### NDL FC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Dara Dada | 7 | 2 | 8 |
-| Sam Fitzgerald | 7 | 4 | 8 |
-| Isaac Modi | 5 | 0 | 8 |
-| Kevin Weggen | 5 | 0 | 0 |
-| Joshua Parker | 4 | 3 | 5 |
+| Sam Fitzgerald | 8 | 4 | 9 |
+| Dara Dada | 7 | 4 | 9 |
+| Isaac Modi | 6 | 0 | 9 |
+| Kevin Weggen | 6 | 0 | 0 |
+| Joshua Parker | 4 | 3 | 6 |
 
 **Key Attacking Threats**
 
-- **Alex Byrne** — Community FC's leading marksman with 8 goals in 7 appearances, plus 6 assists. One of the most consistent finishers in the league. 
-- **Dara Dada** — NDL FC's top scorer with 7 goals and 2 assists from 8 outings. A reliable source of goals for his side. 
+- **Alex Byrne** — Community FC's leading marksman with 8 goals in 8 appearances, plus 7 assists. One of the most consistent finishers in the league. 
+- **Sam Fitzgerald** — NDL FC's top scorer with 8 goals and 4 assists from 9 outings. A reliable source of goals for his side. 
 
 
 ---
@@ -158,7 +158,7 @@ This was the **first ever competitive meeting** between Community FC and NDL FC 
 - The Game Changers selected were 3Play and The Line
 - The 5-goal winning margin was among the biggest of Gameweek 1
 - Alex Byrne leads Community FC with 8 goals this season
-- Dara Dada tops NDL FC's scoring charts with 7 goals
+- Sam Fitzgerald tops NDL FC's scoring charts with 8 goals
 - 4 of the 9 goals (44%) came from Game Changer activations
 
 ---
@@ -166,10 +166,10 @@ This was the **first ever competitive meeting** between Community FC and NDL FC 
 ## What's Next
 
 ### Community FC
-Community FC await confirmation of their next fixture.
+Community FC face **Prime FC** in Gameweek 10. This will be another crucial fixture as the season enters its decisive phase.
 
 ### NDL FC
-NDL FC await confirmation of their next fixture.
+NDL FC take on **Gold Devils FC** in Gameweek 10. They will be looking to bounce back and keep their season on track.
 
 
 

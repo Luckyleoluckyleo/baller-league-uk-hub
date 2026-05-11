@@ -22,11 +22,11 @@ SDS FC and NDL FC could not be separated as they battled to a 3-3 stalemate at B
 
 ### First Half
 
-The Plus One Game Changer kicked in at the 12th minute, generating 2 goals that set the tempo for the half. The two sides were inseparable at the break, with the contest finely poised.
+At the 12-minute mark, the Plus One Game Changer came into effect, producing 2 goals in a frantic period of play. The two sides were inseparable at the break, with the contest finely poised.
 
 ### Second Half
 
-The Fairplay Game Changer kicked in at the 27th minute of the second half, but neither side could capitalise on the modified rules. Despite late pressure, neither team could find the decisive goal and the spoils were shared.
+The Fairplay Game Changer activated at the 27th minute, though the goals dried up as the match wore on. Despite late pressure, neither team could find the decisive goal and the spoils were shared.
 
 ---
 
@@ -92,25 +92,25 @@ The Game Changer period brought a modest 2 goals, with the modified rules creati
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
 | Connor Wood | 6 | 2 | 8 |
-| Kazaiah Sterling | 5 | 4 | 8 |
-| Camilo Restrepo | 4 | 1 | 7 |
-| Joshua Abbott | 4 | 2 | 8 |
+| Kazaiah Sterling | 5 | 4 | 9 |
+| Camilo Restrepo | 4 | 1 | 8 |
+| Joshua Abbott | 4 | 2 | 9 |
 | Danny Bassett | 3 | 1 | 8 |
 
 ### NDL FC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Dara Dada | 7 | 2 | 8 |
-| Sam Fitzgerald | 7 | 4 | 8 |
-| Isaac Modi | 5 | 0 | 8 |
-| Kevin Weggen | 5 | 0 | 0 |
-| Joshua Parker | 4 | 3 | 5 |
+| Sam Fitzgerald | 8 | 4 | 9 |
+| Dara Dada | 7 | 4 | 9 |
+| Isaac Modi | 6 | 0 | 9 |
+| Kevin Weggen | 6 | 0 | 0 |
+| Joshua Parker | 4 | 3 | 6 |
 
 **Key Attacking Threats**
 
 - **Connor Wood** — SDS FC's leading marksman with 6 goals in 8 appearances, plus 2 assists. One of the most consistent finishers in the league. 
-- **Dara Dada** — NDL FC's top scorer with 7 goals and 2 assists from 8 outings. A reliable source of goals for his side. 
+- **Sam Fitzgerald** — NDL FC's top scorer with 8 goals and 4 assists from 9 outings. A reliable source of goals for his side. 
 
 
 ---
@@ -170,7 +170,7 @@ SDS FC and NDL FC had faced each other **1 time** prior to this match. SDS FC he
 - This was a Gameweek 8 fixture at Baller Arena
 - The Game Changers selected were Plus One and Fairplay
 - Connor Wood leads SDS FC with 6 goals this season
-- Dara Dada tops NDL FC's scoring charts with 7 goals
+- Sam Fitzgerald tops NDL FC's scoring charts with 8 goals
 - 2 of the 6 goals (33%) came from Game Changer activations
 
 ---
@@ -178,10 +178,10 @@ SDS FC and NDL FC had faced each other **1 time** prior to this match. SDS FC he
 ## What's Next
 
 ### SDS FC
-SDS FC await confirmation of their next fixture.
+SDS FC face **Yanited** in Gameweek 10. This will be another crucial fixture as the season enters its decisive phase.
 
 ### NDL FC
-NDL FC await confirmation of their next fixture.
+NDL FC take on **Gold Devils FC** in Gameweek 10. They will be looking to bounce back and keep their season on track.
 
 
 

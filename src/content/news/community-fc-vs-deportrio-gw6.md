@@ -11,7 +11,7 @@ featured: true
 
 The Gameweek 6 schedule pitted Community FC against Deportrio, two sides looking to climb the table from 12th and 5th respectively.
 
-In a breathtaking display of attacking football, Deportrio ran riot against Community FC, putting 3 past them in a 3-9 demolition. The Game Changer period played a key role, with the Plus One and 1-on-1 activations contributing 8 goals to a match that saw 12 in total.
+Deportrio were simply unstoppable as they crushed Community FC 3-9, delivering one of the most emphatic results of Gameweek 6. The Game Changer period played a key role, with the Plus One and 1-on-1 activations contributing 8 goals to a match that saw 12 in total.
 
 **Community FC form (before GW6):** ❌ ✅ ❌ ❌ ❌ (L-W-L-L-L)  
 **Deportrio form (before GW6):** ✅ ✅ ✅ ❌ ❌ (W-W-W-L-L)
@@ -22,11 +22,11 @@ In a breathtaking display of attacking football, Deportrio ran riot against Comm
 
 ### First Half
 
-The first half saw the Plus One Game Changer activate at the 12th minute and the teams made it count with 3 goals being scored. Deportrio seized the initiative early and never looked back, building a commanding lead.
+The Plus One Game Changer kicked in at the 12th minute, producing 3 goals in a frantic period of play. Deportrio flew out of the blocks, overwhelming Community FC with wave after wave of attacks.
 
 ### Second Half
 
-The 1-on-1 Game Changer activated at the 27th minute, producing 5 goals at a crucial stage. Deportrio continued their onslaught, putting the game well beyond Community FC's reach in a relentless second-half showing. The 12-goal spectacle was one of the highest-scoring matches of Gameweek 6.
+At the 27-minute mark, the 1-on-1 Game Changer came into play, adding 5 goals and injecting fresh energy into the contest. Deportrio continued their onslaught, putting the game well beyond Community FC's reach in a relentless second-half showing. The 12-goal spectacle was one of the highest-scoring matches of Gameweek 6.
 
 ---
 
@@ -93,26 +93,26 @@ The Game Changer period exploded into life, with the 1-on-1 activation proving p
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Alex Byrne | 8 | 6 | 7 |
-| Keane Joyce | 3 | 0 | 8 |
-| Matthew Waller | 3 | 0 | 8 |
+| Alex Byrne | 8 | 7 | 8 |
+| Keane Joyce | 3 | 0 | 9 |
+| Matthew Waller | 3 | 1 | 9 |
+| George Chmiel | 2 | 0 | 8 |
 | Tawab Djankpata | 2 | 2 | 6 |
-| Callum Charlton | 1 | 0 | 6 |
 
 ### Deportrio — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Jay Emmanuel-Thomas | 15 | 6 | 8 |
-| Sahid Kamara | 7 | 2 | 5 |
-| J&#039;ardell Stirling | 2 | 3 | 8 |
-| Marvin Sordell | 2 | 1 | 6 |
-| Amine Sassi | 1 | 2 | 8 |
+| Jay Emmanuel-Thomas | 18 | 6 | 9 |
+| Sahid Kamara | 9 | 3 | 6 |
+| J&#039;ardell Stirling | 2 | 4 | 9 |
+| Marvin Sordell | 2 | 1 | 7 |
+| Amine Sassi | 1 | 3 | 9 |
 
 **Key Attacking Threats**
 
-- **Alex Byrne** — Community FC's leading marksman with 8 goals in 7 appearances, plus 6 assists. One of the most consistent finishers in the league. 
-- **Jay Emmanuel-Thomas** — Deportrio's top scorer with 15 goals and 6 assists from 8 outings. A reliable source of goals for his side. 
+- **Alex Byrne** — Community FC's leading marksman with 8 goals in 8 appearances, plus 7 assists. One of the most consistent finishers in the league. 
+- **Jay Emmanuel-Thomas** — Deportrio's top scorer with 18 goals and 6 assists from 9 outings. A reliable source of goals for his side. 
 
 
 ---
@@ -164,7 +164,7 @@ This was the **first ever competitive meeting** between Community FC and Deportr
 - The Game Changer period produced an extraordinary 8 goals
 - The 6-goal winning margin was among the biggest of Gameweek 6
 - Alex Byrne leads Community FC with 8 goals this season
-- Jay Emmanuel-Thomas tops Deportrio's scoring charts with 15 goals
+- Jay Emmanuel-Thomas tops Deportrio's scoring charts with 18 goals
 - 8 of the 12 goals (67%) came from Game Changer activations
 
 ---
@@ -172,10 +172,10 @@ This was the **first ever competitive meeting** between Community FC and Deportr
 ## What's Next
 
 ### Community FC
-Community FC await confirmation of their next fixture.
+Community FC face **Prime FC** in Gameweek 10. This will be another crucial fixture as the season enters its decisive phase.
 
 ### Deportrio
-Deportrio await confirmation of their next fixture.
+Deportrio take on **Rukkas FC** in Gameweek 10. They will be looking to bounce back and keep their season on track.
 
 
 

@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Gold Devils FC 2-0 SDS FC
 
-The Gameweek 9 schedule pitted Gold Devils FC against SDS FC, where 10th-placed Gold Devils FC looked to upset 2nd-placed SDS FC.
+All eyes were on Baller Arena as Gold Devils FC met SDS FC, where 10th-placed Gold Devils FC looked to upset 2nd-placed SDS FC.
 
 Gold Devils FC emerged 2-0 victors over SDS FC after a competitive clash that showcased the best of Baller League football. The Game Changer period played a key role, with the Onside and The Line activations contributing 0 goals to a match that saw 2 in total.
 
@@ -22,11 +22,11 @@ Gold Devils FC emerged 2-0 victors over SDS FC after a competitive clash that sh
 
 ### First Half
 
-At the 12-minute mark, the Onside Game Changer came into effect, though goals proved elusive as both defences held firm. Gold Devils FC shaded a competitive first period, taking their chances well.
+The first half saw the Onside Game Changer activate at the 12th minute, yet the deadlock remained unbroken. Gold Devils FC edged the opening exchanges with a more clinical edge in front of goal.
 
 ### Second Half
 
-The The Line Game Changer activated at the 27th minute, though the goals dried up as the match wore on. The closing stages were nervy as SDS FC threw everything forward, but Gold Devils FC stood strong to claim the points.
+At the 27-minute mark, the The Line Game Changer came into play, though the goals dried up as the match wore on. The closing stages were nervy as SDS FC threw everything forward, but Gold Devils FC stood strong to claim the points.
 
 ---
 
@@ -75,25 +75,25 @@ In a rarity for Baller League, neither Game Changer activation yielded a goal. B
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Bilal Sayoud | 7 | 7 | 8 |
-| Salim Nassor | 4 | 2 | 7 |
-| Luqman Kassim | 3 | 0 | 5 |
+| Bilal Sayoud | 7 | 7 | 9 |
+| Salim Nassor | 4 | 2 | 8 |
+| Luqman Kassim | 3 | 1 | 6 |
+| Ryan Gondoh | 3 | 0 | 6 |
 | Jahvarn Stewart | 2 | 0 | 0 |
-| Arezki Hamouchene | 1 | 0 | 3 |
 
 ### SDS FC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
 | Connor Wood | 6 | 2 | 8 |
-| Kazaiah Sterling | 5 | 4 | 8 |
-| Camilo Restrepo | 4 | 1 | 7 |
-| Joshua Abbott | 4 | 2 | 8 |
+| Kazaiah Sterling | 5 | 4 | 9 |
+| Camilo Restrepo | 4 | 1 | 8 |
+| Joshua Abbott | 4 | 2 | 9 |
 | Danny Bassett | 3 | 1 | 8 |
 
 **Key Attacking Threats**
 
-- **Bilal Sayoud** — Gold Devils FC's leading marksman with 7 goals in 8 appearances, plus 7 assists. One of the most consistent finishers in the league. 
+- **Bilal Sayoud** — Gold Devils FC's leading marksman with 7 goals in 9 appearances, plus 7 assists. One of the most consistent finishers in the league. 
 - **Connor Wood** — SDS FC's top scorer with 6 goals and 2 assists from 8 outings. A reliable source of goals for his side. 
 
 
@@ -152,10 +152,10 @@ This was the **first ever competitive meeting** between Gold Devils FC and SDS F
 ## What's Next
 
 ### Gold Devils FC
-Gold Devils FC await confirmation of their next fixture.
+Gold Devils FC face **NDL FC** in Gameweek 10. This will be another crucial fixture as the season enters its decisive phase.
 
 ### SDS FC
-SDS FC await confirmation of their next fixture.
+SDS FC take on **Yanited** in Gameweek 10. They will be looking to bounce back and keep their season on track.
 
 
 

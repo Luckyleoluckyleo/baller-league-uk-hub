@@ -2,16 +2,16 @@
 title: "Clutch FC Edge N5 FC 5-6 in GW5 Thriller"
 date: 2026-05-11
 category: "Match Report"
-excerpt: "N5 FC 5-6 Clutch FC — Gameweek 5 match report. Michael Hill (14 goals) leads N5 FC's attack. Game Changers: Onside (1) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "N5 FC 5-6 Clutch FC — Gameweek 5 match report. Michael Hill (16 goals) leads N5 FC's attack. Game Changers: Onside (1) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: true
 ---
 
 ## Match Summary — N5 FC 5-6 Clutch FC
 
-All eyes were on Baller Arena as N5 FC met Clutch FC, with N5 FC sitting 4th and looking to strengthen their playoff push against 7th-placed Clutch FC.
+Gameweek 5 brought N5 FC and Clutch FC together at Baller Arena, with N5 FC sitting 4th and looking to strengthen their playoff push against 7th-placed Clutch FC.
 
-In a tense, tightly-contested affair, Clutch FC held their nerve to beat N5 FC 5-6. The Game Changer period played a key role, with the Onside and Fairplay activations contributing 2 goals to a match that saw 11 in total.
+Clutch FC scraped a hard-fought 5-6 win over N5 FC in a match where fine margins proved decisive. The Game Changer period played a key role, with the Onside and Fairplay activations contributing 2 goals to a match that saw 11 in total.
 
 **N5 FC form (before GW5):** ✅ ❌ ✅ ✅ ❌ (W-L-W-W-L)  
 **Clutch FC form (before GW5):** ✅ ❌ ❌ ❌ 🤝 (W-L-L-L-D)
@@ -22,11 +22,11 @@ In a tense, tightly-contested affair, Clutch FC held their nerve to beat N5 FC 5
 
 ### First Half
 
-The Onside Game Changer kicked in at the 12th minute, producing 1 goal in a frantic period of play. Clutch FC edged the opening exchanges with a more clinical edge in front of goal.
+The Onside Game Changer kicked in at the 12th minute, producing 1 goal in a frantic period of play. Clutch FC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-At the 27-minute mark, the Fairplay Game Changer came into play, producing 1 goal at a crucial stage. N5 FC pushed hard for an equaliser, with Clutch FC defending resolutely to protect their lead. The 11-goal spectacle was one of the highest-scoring matches of Gameweek 5.
+The Fairplay Game Changer kicked in at the 27th minute of the second half, producing 1 goal at a crucial stage. The closing stages were nervy as N5 FC threw everything forward, but Clutch FC stood strong to claim the points. The 11-goal spectacle was one of the highest-scoring matches of Gameweek 5.
 
 ---
 
@@ -93,26 +93,26 @@ The Game Changer period brought a modest 2 goals, with the modified rules creati
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Michael Hill | 14 | 6 | 8 |
-| Joe Bennett | 11 | 2 | 8 |
-| Jezreel Davies | 3 | 4 | 8 |
+| Michael Hill | 16 | 6 | 9 |
+| Joe Bennett | 12 | 2 | 9 |
+| Jezreel Davies | 3 | 5 | 9 |
 | Nile Ranger | 2 | 0 | 6 |
-| Ibrahim Ugradar | 1 | 2 | 8 |
+| Ibrahim Ugradar | 1 | 2 | 9 |
 
 ### Clutch FC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Alfie Matthews | 12 | 4 | 8 |
-| Sandro Camara | 7 | 1 | 8 |
-| Richard Afrane-Kesey | 4 | 0 | 6 |
-| Tyler Winters | 4 | 2 | 8 |
-| David Marques Castanho | 3 | 2 | 7 |
+| Alfie Matthews | 12 | 4 | 9 |
+| Sandro Camara | 7 | 1 | 9 |
+| Richard Afrane-Kesey | 6 | 1 | 7 |
+| Tyler Winters | 6 | 2 | 9 |
+| David Marques Castanho | 3 | 2 | 8 |
 
 **Key Attacking Threats**
 
-- **Michael Hill** — N5 FC's leading marksman with 14 goals in 8 appearances, plus 6 assists. One of the most consistent finishers in the league. 
-- **Alfie Matthews** — Clutch FC's top scorer with 12 goals and 4 assists from 8 outings. A reliable source of goals for his side. 
+- **Michael Hill** — N5 FC's leading marksman with 16 goals in 9 appearances, plus 6 assists. One of the most consistent finishers in the league. 
+- **Alfie Matthews** — Clutch FC's top scorer with 12 goals and 4 assists from 9 outings. A reliable source of goals for his side. 
 
 
 ---
@@ -172,7 +172,7 @@ N5 FC and Clutch FC had faced each other **1 time** prior to this match. N5 FC h
 - This was a Gameweek 5 fixture at Baller Arena
 - The Game Changers selected were Onside and Fairplay
 - This 11-goal thriller was one of the highest-scoring matches of Gameweek 5
-- Michael Hill leads N5 FC with 14 goals this season
+- Michael Hill leads N5 FC with 16 goals this season
 - Alfie Matthews tops Clutch FC's scoring charts with 12 goals
 - 2 of the 11 goals (18%) came from Game Changer activations
 
@@ -181,10 +181,10 @@ N5 FC and Clutch FC had faced each other **1 time** prior to this match. N5 FC h
 ## What's Next
 
 ### N5 FC
-N5 FC await confirmation of their next fixture.
+N5 FC face **VZN FC** in Gameweek 10. This will be another crucial fixture as the season enters its decisive phase.
 
 ### Clutch FC
-Clutch FC await confirmation of their next fixture.
+Clutch FC take on **Wembley Rangers AFC** in Gameweek 10. They will be looking to bounce back and keep their season on track.
 
 
 

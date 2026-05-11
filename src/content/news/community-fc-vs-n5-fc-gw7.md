@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Community FC 1-5 N5 FC
 
-Community FC took on N5 FC in a Gameweek 7 clash, two sides looking to climb the table from 12th and 6th respectively.
+Community FC and N5 FC faced off at Baller Arena, two sides looking to climb the table from 12th and 6th respectively.
 
-N5 FC proved too strong for Community FC, taking a convincing 1-5 victory that never looked in doubt. The Game Changer period played a key role, with the Onside and Fairplay activations contributing 1 goals to a match that saw 6 in total.
+A composed, professional display from N5 FC saw them dispatch Community FC 1-5 to claim all three points. The Game Changer period played a key role, with the Onside and Fairplay activations contributing 1 goals to a match that saw 6 in total.
 
 **Community FC form (before GW7):** ❌ ❌ ✅ ❌ ❌ (L-L-W-L-L)  
 **N5 FC form (before GW7):** 🤝 ✅ ❌ ❌ ✅ (D-W-L-L-W)
@@ -22,11 +22,11 @@ N5 FC proved too strong for Community FC, taking a convincing 1-5 victory that n
 
 ### First Half
 
-The Onside Game Changer kicked in at the 12th minute, producing 1 goal in a frantic period of play. N5 FC seized the initiative early and never looked back, building a commanding lead.
+The Onside Game Changer kicked in at the 12th minute, generating 1 goal that set the tempo for the half. N5 FC flew out of the blocks, overwhelming Community FC with wave after wave of attacks.
 
 ### Second Half
 
-The Fairplay Game Changer kicked in at the 27th minute of the second half, though the goals dried up as the match wore on. N5 FC maintained their grip on the match throughout the second period to secure a comfortable win.
+The Fairplay Game Changer activated at the 27th minute, but neither side could capitalise on the modified rules. N5 FC managed the game superbly after the interval, seeing out a professional victory.
 
 ---
 
@@ -85,26 +85,26 @@ The Game Changer period brought a modest 1 goal, with the modified rules creatin
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Alex Byrne | 8 | 6 | 7 |
-| Keane Joyce | 3 | 0 | 8 |
-| Matthew Waller | 3 | 0 | 8 |
+| Alex Byrne | 8 | 7 | 8 |
+| Keane Joyce | 3 | 0 | 9 |
+| Matthew Waller | 3 | 1 | 9 |
+| George Chmiel | 2 | 0 | 8 |
 | Tawab Djankpata | 2 | 2 | 6 |
-| Callum Charlton | 1 | 0 | 6 |
 
 ### N5 FC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Michael Hill | 14 | 6 | 8 |
-| Joe Bennett | 11 | 2 | 8 |
-| Jezreel Davies | 3 | 4 | 8 |
+| Michael Hill | 16 | 6 | 9 |
+| Joe Bennett | 12 | 2 | 9 |
+| Jezreel Davies | 3 | 5 | 9 |
 | Nile Ranger | 2 | 0 | 6 |
-| Ibrahim Ugradar | 1 | 2 | 8 |
+| Ibrahim Ugradar | 1 | 2 | 9 |
 
 **Key Attacking Threats**
 
-- **Alex Byrne** — Community FC's leading marksman with 8 goals in 7 appearances, plus 6 assists. One of the most consistent finishers in the league. 
-- **Michael Hill** — N5 FC's top scorer with 14 goals and 6 assists from 8 outings. A reliable source of goals for his side. 
+- **Alex Byrne** — Community FC's leading marksman with 8 goals in 8 appearances, plus 7 assists. One of the most consistent finishers in the league. 
+- **Michael Hill** — N5 FC's top scorer with 16 goals and 6 assists from 9 outings. A reliable source of goals for his side. 
 
 
 ---
@@ -153,7 +153,7 @@ This was the **first ever competitive meeting** between Community FC and N5 FC �
 - This was a Gameweek 7 fixture at Baller Arena
 - The Game Changers selected were Onside and Fairplay
 - Alex Byrne leads Community FC with 8 goals this season
-- Michael Hill tops N5 FC's scoring charts with 14 goals
+- Michael Hill tops N5 FC's scoring charts with 16 goals
 - 1 of the 6 goals (17%) came from Game Changer activations
 
 ---
@@ -161,10 +161,10 @@ This was the **first ever competitive meeting** between Community FC and N5 FC �
 ## What's Next
 
 ### Community FC
-Community FC await confirmation of their next fixture.
+Community FC face **Prime FC** in Gameweek 10. This will be another crucial fixture as the season enters its decisive phase.
 
 ### N5 FC
-N5 FC await confirmation of their next fixture.
+N5 FC take on **VZN FC** in Gameweek 10. They will be looking to bounce back and keep their season on track.
 
 
 

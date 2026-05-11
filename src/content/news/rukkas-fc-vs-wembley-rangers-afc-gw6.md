@@ -1,17 +1,17 @@
 ---
-title: "Wembley Rangers AFC Scrape Past Rukkas FC 3-4 in Tight GW6 Contest"
+title: "Wembley Rangers AFC Edge Rukkas FC 3-4 in GW6 Thriller"
 date: 2026-05-11
 category: "Match Report"
-excerpt: "Rukkas FC 3-4 Wembley Rangers AFC — Gameweek 6 match report. David Oupoh (5 goals) leads Rukkas FC's attack. Game Changers: Plus One (2) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Rukkas FC 3-4 Wembley Rangers AFC — Gameweek 6 match report. Mussa Bham (7 goals) leads Rukkas FC's attack. Game Changers: Plus One (2) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: false
 ---
 
 ## Match Summary — Rukkas FC 3-4 Wembley Rangers AFC
 
-All eyes were on Baller Arena as Rukkas FC met Wembley Rangers AFC, where 11th-placed Rukkas FC looked to upset 4th-placed Wembley Rangers AFC.
+Rukkas FC took on Wembley Rangers AFC in a Gameweek 6 clash, where 11th-placed Rukkas FC looked to upset 4th-placed Wembley Rangers AFC.
 
-In a tense, tightly-contested affair, Wembley Rangers AFC held their nerve to beat Rukkas FC 3-4. The Game Changer period played a key role, with the Plus One and Fairplay activations contributing 3 goals to a match that saw 7 in total.
+Wembley Rangers AFC edged past Rukkas FC 3-4 in a nail-biting encounter that could have gone either way. The Game Changer period played a key role, with the Plus One and Fairplay activations contributing 3 goals to a match that saw 7 in total.
 
 **Rukkas FC form (before GW6):** ❌ ✅ ❌ ❌ ❌ (L-W-L-L-L)  
 **Wembley Rangers AFC form (before GW6):** ✅ ✅ ❌ ❌ 🤝 (W-W-L-L-D)
@@ -22,11 +22,11 @@ In a tense, tightly-contested affair, Wembley Rangers AFC held their nerve to be
 
 ### First Half
 
-The first half saw the Plus One Game Changer activate at the 12th minute, producing 2 goals in a frantic period of play. Wembley Rangers AFC shaded a competitive first period, taking their chances well.
+The Plus One Game Changer kicked in at the 12th minute, producing 2 goals in a frantic period of play. Wembley Rangers AFC edged the opening exchanges with a more clinical edge in front of goal.
 
 ### Second Half
 
-At the 27-minute mark, the Fairplay Game Changer came into play, adding 1 goal and injecting fresh energy into the contest. The closing stages were nervy as Rukkas FC threw everything forward, but Wembley Rangers AFC stood strong to claim the points.
+The Fairplay Game Changer activated at the 27th minute and delivered 1 goal that shifted the momentum. The closing stages were nervy as Rukkas FC threw everything forward, but Wembley Rangers AFC stood strong to claim the points.
 
 ---
 
@@ -84,26 +84,26 @@ The Game Changer period brought a modest 3 goals, with the modified rules creati
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| David Oupoh | 5 | 1 | 8 |
-| Mussa Bham | 5 | 0 | 8 |
-| Zaid Al Hussaini | 3 | 4 | 8 |
-| Emmanuel Robe | 2 | 3 | 8 |
-| Osman Ali | 2 | 2 | 8 |
+| Mussa Bham | 7 | 0 | 9 |
+| David Oupoh | 6 | 1 | 9 |
+| Zaid Al Hussaini | 4 | 5 | 9 |
+| Emmanuel Robe | 3 | 3 | 9 |
+| Osman Ali | 2 | 2 | 9 |
 
 ### Wembley Rangers AFC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Callam Gardner | 5 | 1 | 7 |
-| Domingos Pires | 3 | 1 | 8 |
+| Domingos Pires | 8 | 2 | 9 |
+| Callam Gardner | 6 | 1 | 8 |
 | Ben Long | 2 | 1 | 7 |
-| Kristian Campbell | 2 | 1 | 7 |
-| Abdulahi Abdulazeez | 1 | 0 | 6 |
+| Kristian Campbell | 2 | 1 | 8 |
+| Abdulahi Abdulazeez | 1 | 0 | 7 |
 
 **Key Attacking Threats**
 
-- **David Oupoh** — Rukkas FC's leading marksman with 5 goals in 8 appearances, plus 1 assists. One of the most consistent finishers in the league. 
-- **Callam Gardner** — Wembley Rangers AFC's top scorer with 5 goals and 1 assists from 7 outings. A reliable source of goals for his side. 
+- **Mussa Bham** — Rukkas FC's leading marksman with 7 goals in 9 appearances. One of the most consistent finishers in the league. 
+- **Domingos Pires** — Wembley Rangers AFC's top scorer with 8 goals and 2 assists from 9 outings. A reliable source of goals for his side. 
 
 
 ---
@@ -162,8 +162,8 @@ Rukkas FC and Wembley Rangers AFC had faced each other **1 time** prior to this 
 
 - This was a Gameweek 6 fixture at Baller Arena
 - The Game Changers selected were Plus One and Fairplay
-- David Oupoh leads Rukkas FC with 5 goals this season
-- Callam Gardner tops Wembley Rangers AFC's scoring charts with 5 goals
+- Mussa Bham leads Rukkas FC with 7 goals this season
+- Domingos Pires tops Wembley Rangers AFC's scoring charts with 8 goals
 - 3 of the 7 goals (43%) came from Game Changer activations
 
 ---
@@ -171,10 +171,10 @@ Rukkas FC and Wembley Rangers AFC had faced each other **1 time** prior to this 
 ## What's Next
 
 ### Rukkas FC
-Rukkas FC await confirmation of their next fixture.
+Rukkas FC face **Deportrio** in Gameweek 10. This will be another crucial fixture as the season enters its decisive phase.
 
 ### Wembley Rangers AFC
-Wembley Rangers AFC await confirmation of their next fixture.
+Wembley Rangers AFC take on **Clutch FC** in Gameweek 10. They will be looking to bounce back and keep their season on track.
 
 
 

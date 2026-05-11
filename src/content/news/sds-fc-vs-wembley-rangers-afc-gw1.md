@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — SDS FC 3-2 Wembley Rangers AFC
 
-SDS FC took on Wembley Rangers AFC in a Gameweek 1 clash
+All eyes were on Baller Arena as SDS FC met Wembley Rangers AFC
 
-SDS FC edged past Wembley Rangers AFC 3-2 in a nail-biting encounter that could have gone either way. The Game Changer period played a key role, with the Plus One and The Line activations contributing 2 goals to a match that saw 5 in total.
+SDS FC scraped a hard-fought 3-2 win over Wembley Rangers AFC in a match where fine margins proved decisive. The Game Changer period played a key role, with the Plus One and The Line activations contributing 2 goals to a match that saw 5 in total.
 
 
 
@@ -21,11 +21,11 @@ SDS FC edged past Wembley Rangers AFC 3-2 in a nail-biting encounter that could 
 
 ### First Half
 
-The first half saw the Plus One Game Changer activate at the 12th minute, producing 1 goal in a frantic period of play. SDS FC shaded a competitive first period, taking their chances well.
+The Plus One Game Changer kicked in at the 12th minute, generating 1 goal that set the tempo for the half. SDS FC edged the opening exchanges with a more clinical edge in front of goal.
 
 ### Second Half
 
-The The Line Game Changer activated at the 27th minute, producing 1 goal at a crucial stage. Wembley Rangers AFC pushed hard for an equaliser, with SDS FC defending resolutely to protect their lead.
+The The Line Game Changer activated at the 27th minute and delivered 1 goal that shifted the momentum. The closing stages were nervy as Wembley Rangers AFC threw everything forward, but SDS FC stood strong to claim the points.
 
 ---
 
@@ -85,25 +85,25 @@ The Game Changer period brought a modest 2 goals, with the modified rules creati
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
 | Connor Wood | 6 | 2 | 8 |
-| Kazaiah Sterling | 5 | 4 | 8 |
-| Camilo Restrepo | 4 | 1 | 7 |
-| Joshua Abbott | 4 | 2 | 8 |
+| Kazaiah Sterling | 5 | 4 | 9 |
+| Camilo Restrepo | 4 | 1 | 8 |
+| Joshua Abbott | 4 | 2 | 9 |
 | Danny Bassett | 3 | 1 | 8 |
 
 ### Wembley Rangers AFC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Callam Gardner | 5 | 1 | 7 |
-| Domingos Pires | 3 | 1 | 8 |
+| Domingos Pires | 8 | 2 | 9 |
+| Callam Gardner | 6 | 1 | 8 |
 | Ben Long | 2 | 1 | 7 |
-| Kristian Campbell | 2 | 1 | 7 |
-| Abdulahi Abdulazeez | 1 | 0 | 6 |
+| Kristian Campbell | 2 | 1 | 8 |
+| Abdulahi Abdulazeez | 1 | 0 | 7 |
 
 **Key Attacking Threats**
 
 - **Connor Wood** — SDS FC's leading marksman with 6 goals in 8 appearances, plus 2 assists. One of the most consistent finishers in the league. 
-- **Callam Gardner** — Wembley Rangers AFC's top scorer with 5 goals and 1 assists from 7 outings. A reliable source of goals for his side. 
+- **Domingos Pires** — Wembley Rangers AFC's top scorer with 8 goals and 2 assists from 9 outings. A reliable source of goals for his side. 
 
 
 ---
@@ -152,7 +152,7 @@ This was the **first ever competitive meeting** between SDS FC and Wembley Range
 - This was a Gameweek 1 fixture at Baller Arena
 - The Game Changers selected were Plus One and The Line
 - Connor Wood leads SDS FC with 6 goals this season
-- Callam Gardner tops Wembley Rangers AFC's scoring charts with 5 goals
+- Domingos Pires tops Wembley Rangers AFC's scoring charts with 8 goals
 - 2 of the 5 goals (40%) came from Game Changer activations
 
 ---

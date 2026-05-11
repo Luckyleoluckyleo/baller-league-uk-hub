@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Gold Devils FC 3-1 VZN FC
 
-The Gameweek 2 schedule pitted Gold Devils FC against VZN FC, two sides looking to climb the table from 10th and 8th respectively.
+All eyes were on Baller Arena as Gold Devils FC met VZN FC, two sides looking to climb the table from 10th and 8th respectively.
 
-Gold Devils FC emerged 3-1 victors over VZN FC after a competitive clash that showcased the best of Baller League football. The Game Changer period played a key role, with the Onside and The Line activations contributing 1 goals to a match that saw 4 in total.
+Gold Devils FC claimed a well-deserved 3-1 win against VZN FC in an entertaining Gameweek 2 encounter. The Game Changer period played a key role, with the Onside and The Line activations contributing 1 goals to a match that saw 4 in total.
 
 **Gold Devils FC form (before GW2):** ❌ (L)  
 **VZN FC form (before GW2):** 🤝 🤝 (D-D)
@@ -22,11 +22,11 @@ Gold Devils FC emerged 3-1 victors over VZN FC after a competitive clash that sh
 
 ### First Half
 
-At the 12-minute mark, the Onside Game Changer came into effect, generating 1 goal that set the tempo for the half. Gold Devils FC shaded a competitive first period, taking their chances well.
+The first half saw the Onside Game Changer activate at the 12th minute and the teams made it count with 1 goal being scored. Gold Devils FC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-The The Line Game Changer activated at the 27th minute, but neither side could capitalise on the modified rules. The closing stages were nervy as VZN FC threw everything forward, but Gold Devils FC stood strong to claim the points.
+At the 27-minute mark, the The Line Game Changer came into play, though the goals dried up as the match wore on. The closing stages were nervy as VZN FC threw everything forward, but Gold Devils FC stood strong to claim the points.
 
 ---
 
@@ -76,26 +76,26 @@ The Game Changer period brought a modest 1 goal, with the modified rules creatin
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Bilal Sayoud | 7 | 7 | 8 |
-| Salim Nassor | 4 | 2 | 7 |
-| Luqman Kassim | 3 | 0 | 5 |
+| Bilal Sayoud | 7 | 7 | 9 |
+| Salim Nassor | 4 | 2 | 8 |
+| Luqman Kassim | 3 | 1 | 6 |
+| Ryan Gondoh | 3 | 0 | 6 |
 | Jahvarn Stewart | 2 | 0 | 0 |
-| Arezki Hamouchene | 1 | 0 | 3 |
 
 ### VZN FC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| George Nikaj | 7 | 3 | 6 |
-| Florian Kastrati | 5 | 0 | 8 |
-| Daniel Bowry | 4 | 2 | 8 |
-| Frankie Leonard | 3 | 2 | 6 |
+| George Nikaj | 8 | 4 | 7 |
+| Florian Kastrati | 6 | 0 | 9 |
+| Daniel Bowry | 4 | 2 | 9 |
+| Frankie Leonard | 3 | 2 | 7 |
 | Adrian Tajik | 2 | 0 | 8 |
 
 **Key Attacking Threats**
 
-- **Bilal Sayoud** — Gold Devils FC's leading marksman with 7 goals in 8 appearances, plus 7 assists. One of the most consistent finishers in the league. 
-- **George Nikaj** — VZN FC's top scorer with 7 goals and 3 assists from 6 outings. A reliable source of goals for his side. 
+- **Bilal Sayoud** — Gold Devils FC's leading marksman with 7 goals in 9 appearances, plus 7 assists. One of the most consistent finishers in the league. 
+- **George Nikaj** — VZN FC's top scorer with 8 goals and 4 assists from 7 outings. A reliable source of goals for his side. 
 
 
 ---
@@ -144,7 +144,7 @@ This was the **first ever competitive meeting** between Gold Devils FC and VZN F
 - This was a Gameweek 2 fixture at Baller Arena
 - The Game Changers selected were Onside and The Line
 - Bilal Sayoud leads Gold Devils FC with 7 goals this season
-- George Nikaj tops VZN FC's scoring charts with 7 goals
+- George Nikaj tops VZN FC's scoring charts with 8 goals
 - 1 of the 4 goals (25%) came from Game Changer activations
 
 ---
@@ -152,10 +152,10 @@ This was the **first ever competitive meeting** between Gold Devils FC and VZN F
 ## What's Next
 
 ### Gold Devils FC
-Gold Devils FC await confirmation of their next fixture.
+Gold Devils FC face **NDL FC** in Gameweek 10. This will be another crucial fixture as the season enters its decisive phase.
 
 ### VZN FC
-VZN FC await confirmation of their next fixture.
+VZN FC take on **N5 FC** in Gameweek 10. They will be looking to bounce back and keep their season on track.
 
 
 

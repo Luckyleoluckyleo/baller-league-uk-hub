@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Gold Devils FC 3-5 N5 FC
 
-Gold Devils FC took on N5 FC in a Gameweek 3 clash, two sides looking to climb the table from 8th and 10th respectively.
+Gameweek 3 brought Gold Devils FC and N5 FC together at Baller Arena, two sides looking to climb the table from 8th and 10th respectively.
 
 N5 FC emerged 3-5 victors over Gold Devils FC after a competitive clash that showcased the best of Baller League football. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 2 goals to a match that saw 8 in total.
 
@@ -22,11 +22,11 @@ N5 FC emerged 3-5 victors over Gold Devils FC after a competitive clash that sho
 
 ### First Half
 
-The first half saw the 3Play Game Changer activate at the 12th minute, producing 2 goals in a frantic period of play. N5 FC shaded a competitive first period, taking their chances well.
+The 3Play Game Changer kicked in at the 12th minute, producing 2 goals in a frantic period of play. N5 FC edged the opening exchanges with a more clinical edge in front of goal.
 
 ### Second Half
 
-The 1-on-1 Game Changer kicked in at the 27th minute of the second half, though the goals dried up as the match wore on. Gold Devils FC pushed hard for an equaliser but N5 FC held firm, with N5 FC defending resolutely to protect their lead.
+The 1-on-1 Game Changer kicked in at the 27th minute of the second half, but neither side could capitalise on the modified rules. The closing stages were nervy as Gold Devils FC threw everything forward, but N5 FC stood strong to claim the points.
 
 ---
 
@@ -89,26 +89,26 @@ The Game Changer period brought a modest 2 goals, with the modified rules creati
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Bilal Sayoud | 7 | 7 | 8 |
-| Salim Nassor | 4 | 2 | 7 |
-| Luqman Kassim | 3 | 0 | 5 |
+| Bilal Sayoud | 7 | 7 | 9 |
+| Salim Nassor | 4 | 2 | 8 |
+| Luqman Kassim | 3 | 1 | 6 |
+| Ryan Gondoh | 3 | 0 | 6 |
 | Jahvarn Stewart | 2 | 0 | 0 |
-| Arezki Hamouchene | 1 | 0 | 3 |
 
 ### N5 FC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Michael Hill | 14 | 6 | 8 |
-| Joe Bennett | 11 | 2 | 8 |
-| Jezreel Davies | 3 | 4 | 8 |
+| Michael Hill | 16 | 6 | 9 |
+| Joe Bennett | 12 | 2 | 9 |
+| Jezreel Davies | 3 | 5 | 9 |
 | Nile Ranger | 2 | 0 | 6 |
-| Ibrahim Ugradar | 1 | 2 | 8 |
+| Ibrahim Ugradar | 1 | 2 | 9 |
 
 **Key Attacking Threats**
 
-- **Bilal Sayoud** — Gold Devils FC's leading marksman with 7 goals in 8 appearances, plus 7 assists. One of the most consistent finishers in the league. 
-- **Michael Hill** — N5 FC's top scorer with 14 goals and 6 assists from 8 outings. A reliable source of goals for his side. 
+- **Bilal Sayoud** — Gold Devils FC's leading marksman with 7 goals in 9 appearances, plus 7 assists. One of the most consistent finishers in the league. 
+- **Michael Hill** — N5 FC's top scorer with 16 goals and 6 assists from 9 outings. A reliable source of goals for his side. 
 
 
 ---
@@ -157,7 +157,7 @@ This was the **first ever competitive meeting** between Gold Devils FC and N5 FC
 - This was a Gameweek 3 fixture at Baller Arena
 - The Game Changers selected were 3Play and 1-on-1
 - Bilal Sayoud leads Gold Devils FC with 7 goals this season
-- Michael Hill tops N5 FC's scoring charts with 14 goals
+- Michael Hill tops N5 FC's scoring charts with 16 goals
 - 2 of the 8 goals (25%) came from Game Changer activations
 
 ---
@@ -165,10 +165,10 @@ This was the **first ever competitive meeting** between Gold Devils FC and N5 FC
 ## What's Next
 
 ### Gold Devils FC
-Gold Devils FC await confirmation of their next fixture.
+Gold Devils FC face **NDL FC** in Gameweek 10. This will be another crucial fixture as the season enters its decisive phase.
 
 ### N5 FC
-N5 FC await confirmation of their next fixture.
+N5 FC take on **VZN FC** in Gameweek 10. They will be looking to bounce back and keep their season on track.
 
 
 

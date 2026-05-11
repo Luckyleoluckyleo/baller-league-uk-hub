@@ -1,15 +1,15 @@
 ---
-title: "Prime FC Overpower Clutch FC 6-2 in Dominant Display — GW3"
+title: "Prime FC Cruise Past Clutch FC in 6-2 Rout — GW3"
 date: 2026-05-11
 category: "Match Report"
-excerpt: "Prime FC 6-2 Clutch FC — Gameweek 3 match report. Francis Gerard Mampolo (14 goals) leads Prime FC's attack. Game Changers: 3Play (2) & 1-on-1 (2). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Prime FC 6-2 Clutch FC — Gameweek 3 match report. Francis Gerard Mampolo (15 goals) leads Prime FC's attack. Game Changers: 3Play (2) & 1-on-1 (2). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: false
 ---
 
 ## Match Summary — Prime FC 6-2 Clutch FC
 
-The Gameweek 3 schedule pitted Prime FC against Clutch FC in a top-of-the-table showdown, with Prime FC sitting 3rd and Clutch FC 4th.
+Prime FC and Clutch FC faced off at Baller Arena in a top-of-the-table showdown, with Prime FC sitting 3rd and Clutch FC 4th.
 
 Prime FC controlled proceedings from start to finish, running out 6-2 winners in a performance that underlined their quality. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 4 goals to a match that saw 8 in total.
 
@@ -22,11 +22,11 @@ Prime FC controlled proceedings from start to finish, running out 6-2 winners in
 
 ### First Half
 
-The first half saw the 3Play Game Changer activate at the 12th minute, generating 2 goals that set the tempo for the half. Prime FC flew out of the blocks, overwhelming Clutch FC with wave after wave of attacks.
+The 3Play Game Changer kicked in at the 12th minute, generating 2 goals that set the tempo for the half. Prime FC flew out of the blocks, overwhelming Clutch FC with wave after wave of attacks.
 
 ### Second Half
 
-At the 27-minute mark, the 1-on-1 Game Changer came into play, adding 2 goals and injecting fresh energy into the contest. Prime FC maintained their grip on the match throughout the second period to secure a comfortable win.
+The 1-on-1 Game Changer activated at the 27th minute, adding 2 goals and injecting fresh energy into the contest. Prime FC maintained their grip on the match throughout the second period to secure a comfortable win.
 
 ---
 
@@ -90,26 +90,26 @@ The Game Changers provided a genuine spectacle, with both activations contributi
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Francis Gerard Mampolo | 14 | 3 | 8 |
-| Bráulio Valera Pinto Maieco | 8 | 0 | 8 |
-| Timmy Abraham | 7 | 2 | 8 |
-| Ergys Pepaj | 6 | 2 | 8 |
-| Sak Hassan | 5 | 4 | 7 |
+| Francis Gerard Mampolo | 15 | 4 | 9 |
+| Bráulio Valera Pinto Maieco | 9 | 0 | 9 |
+| Timmy Abraham | 7 | 2 | 9 |
+| Ergys Pepaj | 6 | 2 | 9 |
+| Sak Hassan | 5 | 4 | 8 |
 
 ### Clutch FC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Alfie Matthews | 12 | 4 | 8 |
-| Sandro Camara | 7 | 1 | 8 |
-| Richard Afrane-Kesey | 4 | 0 | 6 |
-| Tyler Winters | 4 | 2 | 8 |
-| David Marques Castanho | 3 | 2 | 7 |
+| Alfie Matthews | 12 | 4 | 9 |
+| Sandro Camara | 7 | 1 | 9 |
+| Richard Afrane-Kesey | 6 | 1 | 7 |
+| Tyler Winters | 6 | 2 | 9 |
+| David Marques Castanho | 3 | 2 | 8 |
 
 **Key Attacking Threats**
 
-- **Francis Gerard Mampolo** — Prime FC's leading marksman with 14 goals in 8 appearances, plus 3 assists. One of the most consistent finishers in the league. 
-- **Alfie Matthews** — Clutch FC's top scorer with 12 goals and 4 assists from 8 outings. A reliable source of goals for his side. 
+- **Francis Gerard Mampolo** — Prime FC's leading marksman with 15 goals in 9 appearances, plus 4 assists. One of the most consistent finishers in the league. 
+- **Alfie Matthews** — Clutch FC's top scorer with 12 goals and 4 assists from 9 outings. A reliable source of goals for his side. 
 
 
 ---
@@ -157,7 +157,7 @@ This was the **first ever competitive meeting** between Prime FC and Clutch FC �
 
 - This was a Gameweek 3 fixture at Baller Arena
 - The Game Changers selected were 3Play and 1-on-1
-- Francis Gerard Mampolo leads Prime FC with 14 goals this season
+- Francis Gerard Mampolo leads Prime FC with 15 goals this season
 - Alfie Matthews tops Clutch FC's scoring charts with 12 goals
 - 4 of the 8 goals (50%) came from Game Changer activations
 
@@ -166,10 +166,10 @@ This was the **first ever competitive meeting** between Prime FC and Clutch FC �
 ## What's Next
 
 ### Prime FC
-Prime FC await confirmation of their next fixture.
+Prime FC face **Community FC** in Gameweek 10. This will be another crucial fixture as the season enters its decisive phase.
 
 ### Clutch FC
-Clutch FC await confirmation of their next fixture.
+Clutch FC take on **Wembley Rangers AFC** in Gameweek 10. They will be looking to bounce back and keep their season on track.
 
 
 

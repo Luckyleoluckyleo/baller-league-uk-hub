@@ -1,17 +1,17 @@
 ---
-title: "Yanited Beat N5 FC 8-6 in Entertaining GW4 Clash"
+title: "Yanited See Off N5 FC 8-6 in Gameweek 4"
 date: 2026-05-11
 category: "Match Report"
-excerpt: "Yanited 8-6 N5 FC — Gameweek 4 match report. Kadell Daniel (7 goals) leads Yanited's attack. Game Changers: 3Play (4) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Yanited 8-6 N5 FC — Gameweek 4 match report. Kadell Daniel (11 goals) leads Yanited's attack. Game Changers: 3Play (4) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: true
 ---
 
 ## Match Summary — Yanited 8-6 N5 FC
 
-Yanited took on N5 FC in a Gameweek 4 clash, where 5th-placed Yanited looked to upset 4th-placed N5 FC.
+All eyes were on Baller Arena as Yanited met N5 FC, where 5th-placed Yanited looked to upset 4th-placed N5 FC.
 
-Yanited emerged 8-6 victors over N5 FC after a competitive clash that showcased the best of Baller League football. The Game Changer period played a key role, with the 3Play and The Line activations contributing 5 goals to a match that saw 14 in total.
+Yanited claimed a well-deserved 8-6 win against N5 FC in an entertaining Gameweek 4 encounter. The Game Changer period played a key role, with the 3Play and The Line activations contributing 5 goals to a match that saw 14 in total.
 
 **Yanited form (before GW4):** 🤝 ✅ 🤝 ✅ 🤝 (D-W-D-W-D)  
 **N5 FC form (before GW4):** ✅ ✅ ❌ ✅ ❌ (W-W-L-W-L)
@@ -22,11 +22,11 @@ Yanited emerged 8-6 victors over N5 FC after a competitive clash that showcased 
 
 ### First Half
 
-The first half saw the 3Play Game Changer activate at the 12th minute and the teams made it count with 4 goals being scored. Yanited shaded a competitive first period, taking their chances well.
+The 3Play Game Changer kicked in at the 12th minute and the teams made it count with 4 goals being scored. Yanited shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-The The Line Game Changer activated at the 27th minute, adding 1 goal and injecting fresh energy into the contest. The closing stages were nervy as N5 FC threw everything forward, but Yanited stood strong to claim the points. The 14-goal spectacle was one of the highest-scoring matches of Gameweek 4.
+The The Line Game Changer activated at the 27th minute, adding 1 goal and injecting fresh energy into the contest. N5 FC pushed hard for an equaliser but Yanited held firm, with Yanited defending resolutely to protect their lead. The 14-goal spectacle was one of the highest-scoring matches of Gameweek 4.
 
 ---
 
@@ -99,26 +99,26 @@ The Game Changers provided a genuine spectacle, with both activations contributi
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kadell Daniel | 7 | 3 | 5 |
-| Tyrell Miller-Rodney | 6 | 2 | 7 |
+| Kadell Daniel | 11 | 3 | 6 |
+| Tyrell Miller-Rodney | 6 | 3 | 8 |
 | John Bostock | 4 | 1 | 6 |
 | Paul-José M&#039;Poku | 2 | 2 | 7 |
-| Nathan Oduwa | 1 | 2 | 7 |
+| Nathan Oduwa | 1 | 2 | 8 |
 
 ### N5 FC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Michael Hill | 14 | 6 | 8 |
-| Joe Bennett | 11 | 2 | 8 |
-| Jezreel Davies | 3 | 4 | 8 |
+| Michael Hill | 16 | 6 | 9 |
+| Joe Bennett | 12 | 2 | 9 |
+| Jezreel Davies | 3 | 5 | 9 |
 | Nile Ranger | 2 | 0 | 6 |
-| Ibrahim Ugradar | 1 | 2 | 8 |
+| Ibrahim Ugradar | 1 | 2 | 9 |
 
 **Key Attacking Threats**
 
-- **Kadell Daniel** — Yanited's leading marksman with 7 goals in 5 appearances, plus 3 assists. One of the most consistent finishers in the league. 
-- **Michael Hill** — N5 FC's top scorer with 14 goals and 6 assists from 8 outings. A reliable source of goals for his side. 
+- **Kadell Daniel** — Yanited's leading marksman with 11 goals in 6 appearances, plus 3 assists. One of the most consistent finishers in the league. 
+- **Michael Hill** — N5 FC's top scorer with 16 goals and 6 assists from 9 outings. A reliable source of goals for his side. 
 
 
 ---
@@ -167,8 +167,8 @@ This was the **first ever competitive meeting** between Yanited and N5 FC — a 
 - This was a Gameweek 4 fixture at Baller Arena
 - The Game Changers selected were 3Play and The Line
 - This 14-goal thriller was one of the highest-scoring matches of Gameweek 4
-- Kadell Daniel leads Yanited with 7 goals this season
-- Michael Hill tops N5 FC's scoring charts with 14 goals
+- Kadell Daniel leads Yanited with 11 goals this season
+- Michael Hill tops N5 FC's scoring charts with 16 goals
 - 5 of the 14 goals (36%) came from Game Changer activations
 
 ---
@@ -176,10 +176,10 @@ This was the **first ever competitive meeting** between Yanited and N5 FC — a 
 ## What's Next
 
 ### Yanited
-Yanited await confirmation of their next fixture.
+Yanited face **SDS FC** in Gameweek 10. This will be another crucial fixture as the season enters its decisive phase.
 
 ### N5 FC
-N5 FC await confirmation of their next fixture.
+N5 FC take on **VZN FC** in Gameweek 10. They will be looking to bounce back and keep their season on track.
 
 
 

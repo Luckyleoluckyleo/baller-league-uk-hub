@@ -1,8 +1,8 @@
 ---
-title: "Yanited Scrape Past Rukkas FC 2-1 in Tight GW3 Contest"
+title: "Yanited Edge Rukkas FC 2-1 in GW3 Thriller"
 date: 2026-05-11
 category: "Match Report"
-excerpt: "Yanited 2-1 Rukkas FC — Gameweek 3 match report. Kadell Daniel (7 goals) leads Yanited's attack. Game Changers: Onside (1) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Yanited 2-1 Rukkas FC — Gameweek 3 match report. Kadell Daniel (11 goals) leads Yanited's attack. Game Changers: Onside (1) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: false
 ---
@@ -22,7 +22,7 @@ Yanited scraped a hard-fought 2-1 win over Rukkas FC in a match where fine margi
 
 ### First Half
 
-The Onside Game Changer kicked in at the 12th minute, generating 1 goal that set the tempo for the half. Yanited shaded a competitive first period, taking their chances well.
+The Onside Game Changer kicked in at the 12th minute, generating 1 goal that set the tempo for the half. Yanited edged the opening exchanges with a more clinical edge in front of goal.
 
 ### Second Half
 
@@ -81,26 +81,26 @@ The Game Changer period brought a modest 1 goal, with the modified rules creatin
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kadell Daniel | 7 | 3 | 5 |
-| Tyrell Miller-Rodney | 6 | 2 | 7 |
+| Kadell Daniel | 11 | 3 | 6 |
+| Tyrell Miller-Rodney | 6 | 3 | 8 |
 | John Bostock | 4 | 1 | 6 |
 | Paul-José M&#039;Poku | 2 | 2 | 7 |
-| Nathan Oduwa | 1 | 2 | 7 |
+| Nathan Oduwa | 1 | 2 | 8 |
 
 ### Rukkas FC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| David Oupoh | 5 | 1 | 8 |
-| Mussa Bham | 5 | 0 | 8 |
-| Zaid Al Hussaini | 3 | 4 | 8 |
-| Emmanuel Robe | 2 | 3 | 8 |
-| Osman Ali | 2 | 2 | 8 |
+| Mussa Bham | 7 | 0 | 9 |
+| David Oupoh | 6 | 1 | 9 |
+| Zaid Al Hussaini | 4 | 5 | 9 |
+| Emmanuel Robe | 3 | 3 | 9 |
+| Osman Ali | 2 | 2 | 9 |
 
 **Key Attacking Threats**
 
-- **Kadell Daniel** — Yanited's leading marksman with 7 goals in 5 appearances, plus 3 assists. One of the most consistent finishers in the league. 
-- **David Oupoh** — Rukkas FC's top scorer with 5 goals and 1 assists from 8 outings. A reliable source of goals for his side. 
+- **Kadell Daniel** — Yanited's leading marksman with 11 goals in 6 appearances, plus 3 assists. One of the most consistent finishers in the league. 
+- **Mussa Bham** — Rukkas FC's top scorer with 7 goals from 9 outings. A reliable source of goals for his side. 
 
 
 ---
@@ -148,8 +148,8 @@ This was the **first ever competitive meeting** between Yanited and Rukkas FC �
 
 - This was a Gameweek 3 fixture at Baller Arena
 - The Game Changers selected were Onside and Fairplay
-- Kadell Daniel leads Yanited with 7 goals this season
-- David Oupoh tops Rukkas FC's scoring charts with 5 goals
+- Kadell Daniel leads Yanited with 11 goals this season
+- Mussa Bham tops Rukkas FC's scoring charts with 7 goals
 - 1 of the 3 goals (33%) came from Game Changer activations
 
 ---
@@ -157,10 +157,10 @@ This was the **first ever competitive meeting** between Yanited and Rukkas FC �
 ## What's Next
 
 ### Yanited
-Yanited await confirmation of their next fixture.
+Yanited face **SDS FC** in Gameweek 10. This will be another crucial fixture as the season enters its decisive phase.
 
 ### Rukkas FC
-Rukkas FC await confirmation of their next fixture.
+Rukkas FC take on **Deportrio** in Gameweek 10. They will be looking to bounce back and keep their season on track.
 
 
 

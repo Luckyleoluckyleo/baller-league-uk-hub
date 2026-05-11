@@ -2,14 +2,14 @@
 title: "Yanited and Gold Devils FC Deadlocked at 2-2 in GW7"
 date: 2026-05-11
 category: "Match Report"
-excerpt: "Yanited 2-2 Gold Devils FC — Gameweek 7 match report. Kadell Daniel (7 goals) leads Yanited's attack. Game Changers: Onside (2) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Yanited 2-2 Gold Devils FC — Gameweek 7 match report. Kadell Daniel (11 goals) leads Yanited's attack. Game Changers: Onside (2) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: false
 ---
 
 ## Match Summary — Yanited 2-2 Gold Devils FC
 
-Yanited and Gold Devils FC faced off at Baller Arena, two sides looking to climb the table from 7th and 11th respectively.
+Yanited took on Gold Devils FC in a Gameweek 7 clash, two sides looking to climb the table from 7th and 11th respectively.
 
 Yanited and Gold Devils FC played out a thrilling 2-2 draw in a match where neither side deserved to lose. The 4 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through Onside and Fairplay.
 
@@ -22,7 +22,7 @@ Yanited and Gold Devils FC played out a thrilling 2-2 draw in a match where neit
 
 ### First Half
 
-The Onside Game Changer kicked in at the 12th minute and the teams made it count with 2 goals being scored. The two sides were inseparable at the break, with the contest finely poised.
+The Onside Game Changer kicked in at the 12th minute, producing 2 goals in a frantic period of play. The two sides were inseparable at the break, with the contest finely poised.
 
 ### Second Half
 
@@ -85,26 +85,26 @@ The Game Changer period brought a modest 2 goals, with the modified rules creati
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kadell Daniel | 7 | 3 | 5 |
-| Tyrell Miller-Rodney | 6 | 2 | 7 |
+| Kadell Daniel | 11 | 3 | 6 |
+| Tyrell Miller-Rodney | 6 | 3 | 8 |
 | John Bostock | 4 | 1 | 6 |
 | Paul-José M&#039;Poku | 2 | 2 | 7 |
-| Nathan Oduwa | 1 | 2 | 7 |
+| Nathan Oduwa | 1 | 2 | 8 |
 
 ### Gold Devils FC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Bilal Sayoud | 7 | 7 | 8 |
-| Salim Nassor | 4 | 2 | 7 |
-| Luqman Kassim | 3 | 0 | 5 |
+| Bilal Sayoud | 7 | 7 | 9 |
+| Salim Nassor | 4 | 2 | 8 |
+| Luqman Kassim | 3 | 1 | 6 |
+| Ryan Gondoh | 3 | 0 | 6 |
 | Jahvarn Stewart | 2 | 0 | 0 |
-| Arezki Hamouchene | 1 | 0 | 3 |
 
 **Key Attacking Threats**
 
-- **Kadell Daniel** — Yanited's leading marksman with 7 goals in 5 appearances, plus 3 assists. One of the most consistent finishers in the league. 
-- **Bilal Sayoud** — Gold Devils FC's top scorer with 7 goals and 7 assists from 8 outings. A reliable source of goals for his side. 
+- **Kadell Daniel** — Yanited's leading marksman with 11 goals in 6 appearances, plus 3 assists. One of the most consistent finishers in the league. 
+- **Bilal Sayoud** — Gold Devils FC's top scorer with 7 goals and 7 assists from 9 outings. A reliable source of goals for his side. 
 
 
 ---
@@ -152,7 +152,7 @@ This was the **first ever competitive meeting** between Yanited and Gold Devils 
 
 - This was a Gameweek 7 fixture at Baller Arena
 - The Game Changers selected were Onside and Fairplay
-- Kadell Daniel leads Yanited with 7 goals this season
+- Kadell Daniel leads Yanited with 11 goals this season
 - Bilal Sayoud tops Gold Devils FC's scoring charts with 7 goals
 - 2 of the 4 goals (50%) came from Game Changer activations
 
@@ -161,10 +161,10 @@ This was the **first ever competitive meeting** between Yanited and Gold Devils 
 ## What's Next
 
 ### Yanited
-Yanited await confirmation of their next fixture.
+Yanited face **SDS FC** in Gameweek 10. This will be another crucial fixture as the season enters its decisive phase.
 
 ### Gold Devils FC
-Gold Devils FC await confirmation of their next fixture.
+Gold Devils FC take on **NDL FC** in Gameweek 10. They will be looking to bounce back and keep their season on track.
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Community FC Scrape Past VZN FC 4-3 in Tight GW4 Contest"
+title: "Community FC Edge VZN FC 4-3 in GW4 Thriller"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "Community FC 4-3 VZN FC — Gameweek 4 match report. Alex Byrne (8 goals) leads Community FC's attack. Game Changers: 3Play (1) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -11,7 +11,7 @@ featured: false
 
 The Gameweek 4 schedule pitted Community FC against VZN FC, two sides looking to climb the table from 12th and 7th respectively.
 
-Community FC scraped a hard-fought 4-3 win over VZN FC in a match where fine margins proved decisive. The Game Changer period played a key role, with the 3Play and Fairplay activations contributing 2 goals to a match that saw 7 in total.
+In a tense, tightly-contested affair, Community FC held their nerve to beat VZN FC 4-3. The Game Changer period played a key role, with the 3Play and Fairplay activations contributing 2 goals to a match that saw 7 in total.
 
 **Community FC form (before GW4):** ❌ ❌ ❌ (L-L-L)  
 **VZN FC form (before GW4):** ❌ 🤝 ✅ ❌ 🤝 (L-D-W-L-D)
@@ -22,11 +22,11 @@ Community FC scraped a hard-fought 4-3 win over VZN FC in a match where fine mar
 
 ### First Half
 
-The 3Play Game Changer kicked in at the 12th minute, generating 1 goal that set the tempo for the half. Community FC shaded a competitive first period, taking their chances well.
+The first half saw the 3Play Game Changer activate at the 12th minute and the teams made it count with 1 goal being scored. Community FC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-The Fairplay Game Changer activated at the 27th minute and delivered 1 goal that shifted the momentum. VZN FC pushed hard for an equaliser, with Community FC defending resolutely to protect their lead.
+The Fairplay Game Changer kicked in at the 27th minute of the second half and delivered 1 goal that shifted the momentum. VZN FC pushed hard for an equaliser, with Community FC defending resolutely to protect their lead.
 
 ---
 
@@ -79,26 +79,26 @@ The Game Changer period brought a modest 2 goals, with the modified rules creati
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Alex Byrne | 8 | 6 | 7 |
-| Keane Joyce | 3 | 0 | 8 |
-| Matthew Waller | 3 | 0 | 8 |
+| Alex Byrne | 8 | 7 | 8 |
+| Keane Joyce | 3 | 0 | 9 |
+| Matthew Waller | 3 | 1 | 9 |
+| George Chmiel | 2 | 0 | 8 |
 | Tawab Djankpata | 2 | 2 | 6 |
-| Callum Charlton | 1 | 0 | 6 |
 
 ### VZN FC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| George Nikaj | 7 | 3 | 6 |
-| Florian Kastrati | 5 | 0 | 8 |
-| Daniel Bowry | 4 | 2 | 8 |
-| Frankie Leonard | 3 | 2 | 6 |
+| George Nikaj | 8 | 4 | 7 |
+| Florian Kastrati | 6 | 0 | 9 |
+| Daniel Bowry | 4 | 2 | 9 |
+| Frankie Leonard | 3 | 2 | 7 |
 | Adrian Tajik | 2 | 0 | 8 |
 
 **Key Attacking Threats**
 
-- **Alex Byrne** — Community FC's leading marksman with 8 goals in 7 appearances, plus 6 assists. One of the most consistent finishers in the league. 
-- **George Nikaj** — VZN FC's top scorer with 7 goals and 3 assists from 6 outings. A reliable source of goals for his side. 
+- **Alex Byrne** — Community FC's leading marksman with 8 goals in 8 appearances, plus 7 assists. One of the most consistent finishers in the league. 
+- **George Nikaj** — VZN FC's top scorer with 8 goals and 4 assists from 7 outings. A reliable source of goals for his side. 
 
 
 ---
@@ -147,7 +147,7 @@ This was the **first ever competitive meeting** between Community FC and VZN FC 
 - This was a Gameweek 4 fixture at Baller Arena
 - The Game Changers selected were 3Play and Fairplay
 - Alex Byrne leads Community FC with 8 goals this season
-- George Nikaj tops VZN FC's scoring charts with 7 goals
+- George Nikaj tops VZN FC's scoring charts with 8 goals
 - 2 of the 7 goals (29%) came from Game Changer activations
 
 ---
@@ -155,10 +155,10 @@ This was the **first ever competitive meeting** between Community FC and VZN FC 
 ## What's Next
 
 ### Community FC
-Community FC await confirmation of their next fixture.
+Community FC face **Prime FC** in Gameweek 10. This will be another crucial fixture as the season enters its decisive phase.
 
 ### VZN FC
-VZN FC await confirmation of their next fixture.
+VZN FC take on **N5 FC** in Gameweek 10. They will be looking to bounce back and keep their season on track.
 
 
 

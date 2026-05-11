@@ -2,7 +2,7 @@
 title: "Deportrio Beat VZN FC 6-4 in Entertaining GW9 Clash"
 date: 2026-05-11
 category: "Match Report"
-excerpt: "Deportrio 6-4 VZN FC — Gameweek 9 match report. Jay Emmanuel-Thomas (15 goals) leads Deportrio's attack. Game Changers: Plus One (1) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Deportrio 6-4 VZN FC — Gameweek 9 match report. Jay Emmanuel-Thomas (18 goals) leads Deportrio's attack. Game Changers: Plus One (1) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: true
 ---
@@ -11,7 +11,7 @@ featured: true
 
 Deportrio took on VZN FC in a Gameweek 9 clash, with Deportrio sitting 4th and looking to strengthen their playoff push against 9th-placed VZN FC.
 
-Deportrio emerged 6-4 victors over VZN FC after a competitive clash that showcased the best of Baller League football. The Game Changer period played a key role, with the Plus One and 1-on-1 activations contributing 4 goals to a match that saw 10 in total.
+Deportrio claimed a well-deserved 6-4 win against VZN FC in an entertaining Gameweek 9 encounter. The Game Changer period played a key role, with the Plus One and 1-on-1 activations contributing 4 goals to a match that saw 10 in total.
 
 **Deportrio form (before GW9):** 🤝 ✅ ✅ 🤝 🤝 (D-W-W-D-D)  
 **VZN FC form (before GW9):** ❌ ✅ ❌ ✅ ❌ (L-W-L-W-L)
@@ -22,11 +22,11 @@ Deportrio emerged 6-4 victors over VZN FC after a competitive clash that showcas
 
 ### First Half
 
-The first half saw the Plus One Game Changer activate at the 12th minute, generating 1 goal that set the tempo for the half. Deportrio shaded a competitive first period, taking their chances well.
+The first half saw the Plus One Game Changer activate at the 12th minute, generating 1 goal that set the tempo for the half. Deportrio edged the opening exchanges with a more clinical edge in front of goal.
 
 ### Second Half
 
-At the 27-minute mark, the 1-on-1 Game Changer came into play and delivered 3 goals that shifted the momentum. The closing stages were nervy as VZN FC threw everything forward, but Deportrio stood strong to claim the points. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 9.
+At the 27-minute mark, the 1-on-1 Game Changer came into play, producing 3 goals at a crucial stage. The closing stages were nervy as VZN FC threw everything forward, but Deportrio stood strong to claim the points. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 9.
 
 ---
 
@@ -94,26 +94,26 @@ The Game Changers provided a genuine spectacle, with both activations contributi
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Jay Emmanuel-Thomas | 15 | 6 | 8 |
-| Sahid Kamara | 7 | 2 | 5 |
-| J&#039;ardell Stirling | 2 | 3 | 8 |
-| Marvin Sordell | 2 | 1 | 6 |
-| Amine Sassi | 1 | 2 | 8 |
+| Jay Emmanuel-Thomas | 18 | 6 | 9 |
+| Sahid Kamara | 9 | 3 | 6 |
+| J&#039;ardell Stirling | 2 | 4 | 9 |
+| Marvin Sordell | 2 | 1 | 7 |
+| Amine Sassi | 1 | 3 | 9 |
 
 ### VZN FC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| George Nikaj | 7 | 3 | 6 |
-| Florian Kastrati | 5 | 0 | 8 |
-| Daniel Bowry | 4 | 2 | 8 |
-| Frankie Leonard | 3 | 2 | 6 |
+| George Nikaj | 8 | 4 | 7 |
+| Florian Kastrati | 6 | 0 | 9 |
+| Daniel Bowry | 4 | 2 | 9 |
+| Frankie Leonard | 3 | 2 | 7 |
 | Adrian Tajik | 2 | 0 | 8 |
 
 **Key Attacking Threats**
 
-- **Jay Emmanuel-Thomas** — Deportrio's leading marksman with 15 goals in 8 appearances, plus 6 assists. One of the most consistent finishers in the league. 
-- **George Nikaj** — VZN FC's top scorer with 7 goals and 3 assists from 6 outings. A reliable source of goals for his side. 
+- **Jay Emmanuel-Thomas** — Deportrio's leading marksman with 18 goals in 9 appearances, plus 6 assists. One of the most consistent finishers in the league. 
+- **George Nikaj** — VZN FC's top scorer with 8 goals and 4 assists from 7 outings. A reliable source of goals for his side. 
 
 
 ---
@@ -173,8 +173,8 @@ Deportrio and VZN FC had faced each other **1 time** prior to this match. Deport
 - This was a Gameweek 9 fixture at Baller Arena
 - The Game Changers selected were Plus One and 1-on-1
 - This 10-goal thriller was one of the highest-scoring matches of Gameweek 9
-- Jay Emmanuel-Thomas leads Deportrio with 15 goals this season
-- George Nikaj tops VZN FC's scoring charts with 7 goals
+- Jay Emmanuel-Thomas leads Deportrio with 18 goals this season
+- George Nikaj tops VZN FC's scoring charts with 8 goals
 - 4 of the 10 goals (40%) came from Game Changer activations
 
 ---
@@ -182,10 +182,10 @@ Deportrio and VZN FC had faced each other **1 time** prior to this match. Deport
 ## What's Next
 
 ### Deportrio
-Deportrio await confirmation of their next fixture.
+Deportrio face **Rukkas FC** in Gameweek 10. This will be another crucial fixture as the season enters its decisive phase.
 
 ### VZN FC
-VZN FC await confirmation of their next fixture.
+VZN FC take on **N5 FC** in Gameweek 10. They will be looking to bounce back and keep their season on track.
 
 
 

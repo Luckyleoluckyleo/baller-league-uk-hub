@@ -2,16 +2,16 @@
 title: "Prime FC Run Riot Against Wembley Rangers AFC in 7-1 Demolition — GW7"
 date: 2026-05-11
 category: "Match Report"
-excerpt: "Prime FC 7-1 Wembley Rangers AFC — Gameweek 7 match report. Francis Gerard Mampolo (14 goals) leads Prime FC's attack. Game Changers: Plus One (0) & The Line (4). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Prime FC 7-1 Wembley Rangers AFC — Gameweek 7 match report. Francis Gerard Mampolo (15 goals) leads Prime FC's attack. Game Changers: Plus One (0) & The Line (4). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: false
 ---
 
 ## Match Summary — Prime FC 7-1 Wembley Rangers AFC
 
-The Gameweek 7 schedule pitted Prime FC against Wembley Rangers AFC, where 8th-placed Prime FC looked to upset 4th-placed Wembley Rangers AFC.
+All eyes were on Baller Arena as Prime FC met Wembley Rangers AFC, where 8th-placed Prime FC looked to upset 4th-placed Wembley Rangers AFC.
 
-In a breathtaking display of attacking football, Prime FC ran riot against Wembley Rangers AFC, putting 7 past them in a 7-1 demolition. The Game Changer period played a key role, with the Plus One and The Line activations contributing 4 goals to a match that saw 8 in total.
+Prime FC were simply unstoppable as they crushed Wembley Rangers AFC 7-1, delivering one of the most emphatic results of Gameweek 7. The Game Changer period played a key role, with the Plus One and The Line activations contributing 4 goals to a match that saw 8 in total.
 
 **Prime FC form (before GW7):** ✅ 🤝 ❌ ✅ ✅ (W-D-L-W-W)  
 **Wembley Rangers AFC form (before GW7):** ✅ ✅ ✅ ❌ ❌ (W-W-W-L-L)
@@ -22,11 +22,11 @@ In a breathtaking display of attacking football, Prime FC ran riot against Wembl
 
 ### First Half
 
-The Plus One Game Changer kicked in at the 12th minute, but neither side could find the breakthrough during the activation. Prime FC seized the initiative early and never looked back, building a commanding lead.
+The first half saw the Plus One Game Changer activate at the 12th minute, yet the deadlock remained unbroken. Prime FC seized the initiative early and never looked back, building a commanding lead.
 
 ### Second Half
 
-At the 27-minute mark, the The Line Game Changer came into play, producing 4 goals at a crucial stage. Prime FC showed no mercy after the break, piling on the goals to complete a resounding victory.
+At the 27-minute mark, the The Line Game Changer came into play, producing 4 goals at a crucial stage. Prime FC continued their onslaught, putting the game well beyond Wembley Rangers AFC's reach in a relentless second-half showing.
 
 ---
 
@@ -90,26 +90,26 @@ The Game Changers provided a genuine spectacle, with both activations contributi
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Francis Gerard Mampolo | 14 | 3 | 8 |
-| Bráulio Valera Pinto Maieco | 8 | 0 | 8 |
-| Timmy Abraham | 7 | 2 | 8 |
-| Ergys Pepaj | 6 | 2 | 8 |
-| Sak Hassan | 5 | 4 | 7 |
+| Francis Gerard Mampolo | 15 | 4 | 9 |
+| Bráulio Valera Pinto Maieco | 9 | 0 | 9 |
+| Timmy Abraham | 7 | 2 | 9 |
+| Ergys Pepaj | 6 | 2 | 9 |
+| Sak Hassan | 5 | 4 | 8 |
 
 ### Wembley Rangers AFC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Callam Gardner | 5 | 1 | 7 |
-| Domingos Pires | 3 | 1 | 8 |
+| Domingos Pires | 8 | 2 | 9 |
+| Callam Gardner | 6 | 1 | 8 |
 | Ben Long | 2 | 1 | 7 |
-| Kristian Campbell | 2 | 1 | 7 |
-| Abdulahi Abdulazeez | 1 | 0 | 6 |
+| Kristian Campbell | 2 | 1 | 8 |
+| Abdulahi Abdulazeez | 1 | 0 | 7 |
 
 **Key Attacking Threats**
 
-- **Francis Gerard Mampolo** — Prime FC's leading marksman with 14 goals in 8 appearances, plus 3 assists. One of the most consistent finishers in the league. 
-- **Callam Gardner** — Wembley Rangers AFC's top scorer with 5 goals and 1 assists from 7 outings. A reliable source of goals for his side. 
+- **Francis Gerard Mampolo** — Prime FC's leading marksman with 15 goals in 9 appearances, plus 4 assists. One of the most consistent finishers in the league. 
+- **Domingos Pires** — Wembley Rangers AFC's top scorer with 8 goals and 2 assists from 9 outings. A reliable source of goals for his side. 
 
 
 ---
@@ -158,8 +158,8 @@ This was the **first ever competitive meeting** between Prime FC and Wembley Ran
 - This was a Gameweek 7 fixture at Baller Arena
 - The Game Changers selected were Plus One and The Line
 - The 6-goal winning margin was among the biggest of Gameweek 7
-- Francis Gerard Mampolo leads Prime FC with 14 goals this season
-- Callam Gardner tops Wembley Rangers AFC's scoring charts with 5 goals
+- Francis Gerard Mampolo leads Prime FC with 15 goals this season
+- Domingos Pires tops Wembley Rangers AFC's scoring charts with 8 goals
 - 4 of the 8 goals (50%) came from Game Changer activations
 
 ---
@@ -167,10 +167,10 @@ This was the **first ever competitive meeting** between Prime FC and Wembley Ran
 ## What's Next
 
 ### Prime FC
-Prime FC await confirmation of their next fixture.
+Prime FC face **Community FC** in Gameweek 10. This will be another crucial fixture as the season enters its decisive phase.
 
 ### Wembley Rangers AFC
-Wembley Rangers AFC await confirmation of their next fixture.
+Wembley Rangers AFC take on **Clutch FC** in Gameweek 10. They will be looking to bounce back and keep their season on track.
 
 
 

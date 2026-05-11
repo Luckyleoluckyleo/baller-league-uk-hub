@@ -2,16 +2,16 @@
 title: "VZN FC Overpower Rukkas FC 7-3 in Dominant Display — GW7"
 date: 2026-05-11
 category: "Match Report"
-excerpt: "VZN FC 7-3 Rukkas FC — Gameweek 7 match report. George Nikaj (7 goals) leads VZN FC's attack. Game Changers: Plus One (2) & The Line (2). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "VZN FC 7-3 Rukkas FC — Gameweek 7 match report. George Nikaj (8 goals) leads VZN FC's attack. Game Changers: Plus One (2) & The Line (2). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: true
 ---
 
 ## Match Summary — VZN FC 7-3 Rukkas FC
 
-Gameweek 7 brought VZN FC and Rukkas FC together at Baller Arena, two sides looking to climb the table from 9th and 10th respectively.
+VZN FC and Rukkas FC faced off at Baller Arena, two sides looking to climb the table from 9th and 10th respectively.
 
-VZN FC controlled proceedings from start to finish, running out 7-3 winners in a performance that underlined their quality. The Game Changer period played a key role, with the Plus One and The Line activations contributing 4 goals to a match that saw 10 in total.
+A composed, professional display from VZN FC saw them dispatch Rukkas FC 7-3 to claim all three points. The Game Changer period played a key role, with the Plus One and The Line activations contributing 4 goals to a match that saw 10 in total.
 
 **VZN FC form (before GW7):** ❌ ✅ ❌ ❌ ❌ (L-W-L-L-L)  
 **Rukkas FC form (before GW7):** ✅ ❌ ❌ ✅ ❌ (W-L-L-W-L)
@@ -22,11 +22,11 @@ VZN FC controlled proceedings from start to finish, running out 7-3 winners in a
 
 ### First Half
 
-At the 12-minute mark, the Plus One Game Changer came into effect, producing 2 goals in a frantic period of play. VZN FC seized the initiative early and never looked back, building a commanding lead.
+The Plus One Game Changer kicked in at the 12th minute and the teams made it count with 2 goals being scored. VZN FC flew out of the blocks, overwhelming Rukkas FC with wave after wave of attacks.
 
 ### Second Half
 
-At the 27-minute mark, the The Line Game Changer came into play and delivered 2 goals that shifted the momentum. VZN FC managed the game superbly after the interval, seeing out a professional victory. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 7.
+The The Line Game Changer kicked in at the 27th minute of the second half, producing 2 goals at a crucial stage. VZN FC managed the game superbly after the interval, seeing out a professional victory. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 7.
 
 ---
 
@@ -94,26 +94,26 @@ The Game Changers provided a genuine spectacle, with both activations contributi
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| George Nikaj | 7 | 3 | 6 |
-| Florian Kastrati | 5 | 0 | 8 |
-| Daniel Bowry | 4 | 2 | 8 |
-| Frankie Leonard | 3 | 2 | 6 |
+| George Nikaj | 8 | 4 | 7 |
+| Florian Kastrati | 6 | 0 | 9 |
+| Daniel Bowry | 4 | 2 | 9 |
+| Frankie Leonard | 3 | 2 | 7 |
 | Adrian Tajik | 2 | 0 | 8 |
 
 ### Rukkas FC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| David Oupoh | 5 | 1 | 8 |
-| Mussa Bham | 5 | 0 | 8 |
-| Zaid Al Hussaini | 3 | 4 | 8 |
-| Emmanuel Robe | 2 | 3 | 8 |
-| Osman Ali | 2 | 2 | 8 |
+| Mussa Bham | 7 | 0 | 9 |
+| David Oupoh | 6 | 1 | 9 |
+| Zaid Al Hussaini | 4 | 5 | 9 |
+| Emmanuel Robe | 3 | 3 | 9 |
+| Osman Ali | 2 | 2 | 9 |
 
 **Key Attacking Threats**
 
-- **George Nikaj** — VZN FC's leading marksman with 7 goals in 6 appearances, plus 3 assists. One of the most consistent finishers in the league. 
-- **David Oupoh** — Rukkas FC's top scorer with 5 goals and 1 assists from 8 outings. A reliable source of goals for his side. 
+- **George Nikaj** — VZN FC's leading marksman with 8 goals in 7 appearances, plus 4 assists. One of the most consistent finishers in the league. 
+- **Mussa Bham** — Rukkas FC's top scorer with 7 goals from 9 outings. A reliable source of goals for his side. 
 
 
 ---
@@ -173,8 +173,8 @@ VZN FC and Rukkas FC had faced each other **1 time** prior to this match. VZN FC
 - This was a Gameweek 7 fixture at Baller Arena
 - The Game Changers selected were Plus One and The Line
 - This 10-goal thriller was one of the highest-scoring matches of Gameweek 7
-- George Nikaj leads VZN FC with 7 goals this season
-- David Oupoh tops Rukkas FC's scoring charts with 5 goals
+- George Nikaj leads VZN FC with 8 goals this season
+- Mussa Bham tops Rukkas FC's scoring charts with 7 goals
 - 4 of the 10 goals (40%) came from Game Changer activations
 
 ---
@@ -182,10 +182,10 @@ VZN FC and Rukkas FC had faced each other **1 time** prior to this match. VZN FC
 ## What's Next
 
 ### VZN FC
-VZN FC await confirmation of their next fixture.
+VZN FC face **N5 FC** in Gameweek 10. This will be another crucial fixture as the season enters its decisive phase.
 
 ### Rukkas FC
-Rukkas FC await confirmation of their next fixture.
+Rukkas FC take on **Deportrio** in Gameweek 10. They will be looking to bounce back and keep their season on track.
 
 
 

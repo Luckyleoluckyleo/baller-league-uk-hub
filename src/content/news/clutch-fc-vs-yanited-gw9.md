@@ -1,5 +1,5 @@
 ---
-title: "Clutch FC Edge Yanited 5-4 in GW9 Thriller"
+title: "Clutch FC Scrape Past Yanited 5-4 in Tight GW9 Contest"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "Clutch FC 5-4 Yanited — Gameweek 9 match report. Alfie Matthews (12 goals) leads Clutch FC's attack. Game Changers: Plus One (3) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Clutch FC 5-4 Yanited
 
-Clutch FC took on Yanited in a Gameweek 9 clash, two sides looking to climb the table from 7th and 6th respectively.
+The Gameweek 9 schedule pitted Clutch FC against Yanited, two sides looking to climb the table from 7th and 6th respectively.
 
-In a tense, tightly-contested affair, Clutch FC held their nerve to beat Yanited 5-4. The Game Changer period played a key role, with the Plus One and Fairplay activations contributing 4 goals to a match that saw 9 in total.
+Clutch FC edged past Yanited 5-4 in a nail-biting encounter that could have gone either way. The Game Changer period played a key role, with the Plus One and Fairplay activations contributing 4 goals to a match that saw 9 in total.
 
 **Clutch FC form (before GW9):** ❌ ❌ ❌ ✅ ✅ (L-L-L-W-W)  
 **Yanited form (before GW9):** ❌ ❌ ✅ 🤝 ❌ (L-L-W-D-L)
@@ -22,11 +22,11 @@ In a tense, tightly-contested affair, Clutch FC held their nerve to beat Yanited
 
 ### First Half
 
-The Plus One Game Changer kicked in at the 12th minute, generating 3 goals that set the tempo for the half. Clutch FC shaded a competitive first period, taking their chances well.
+The Plus One Game Changer kicked in at the 12th minute and the teams made it count with 3 goals being scored. Clutch FC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-At the 27-minute mark, the Fairplay Game Changer came into play, adding 1 goal and injecting fresh energy into the contest. Yanited pushed hard for an equaliser, with Clutch FC defending resolutely to protect their lead.
+At the 27-minute mark, the Fairplay Game Changer came into play, producing 1 goal at a crucial stage. The closing stages were nervy as Yanited threw everything forward, but Clutch FC stood strong to claim the points.
 
 ---
 
@@ -89,26 +89,26 @@ The Game Changers provided a genuine spectacle, with both activations contributi
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Alfie Matthews | 12 | 4 | 8 |
-| Sandro Camara | 7 | 1 | 8 |
-| Richard Afrane-Kesey | 4 | 0 | 6 |
-| Tyler Winters | 4 | 2 | 8 |
-| David Marques Castanho | 3 | 2 | 7 |
+| Alfie Matthews | 12 | 4 | 9 |
+| Sandro Camara | 7 | 1 | 9 |
+| Richard Afrane-Kesey | 6 | 1 | 7 |
+| Tyler Winters | 6 | 2 | 9 |
+| David Marques Castanho | 3 | 2 | 8 |
 
 ### Yanited — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kadell Daniel | 7 | 3 | 5 |
-| Tyrell Miller-Rodney | 6 | 2 | 7 |
+| Kadell Daniel | 11 | 3 | 6 |
+| Tyrell Miller-Rodney | 6 | 3 | 8 |
 | John Bostock | 4 | 1 | 6 |
 | Paul-José M&#039;Poku | 2 | 2 | 7 |
-| Nathan Oduwa | 1 | 2 | 7 |
+| Nathan Oduwa | 1 | 2 | 8 |
 
 **Key Attacking Threats**
 
-- **Alfie Matthews** — Clutch FC's leading marksman with 12 goals in 8 appearances, plus 4 assists. One of the most consistent finishers in the league. 
-- **Kadell Daniel** — Yanited's top scorer with 7 goals and 3 assists from 5 outings. A reliable source of goals for his side. 
+- **Alfie Matthews** — Clutch FC's leading marksman with 12 goals in 9 appearances, plus 4 assists. One of the most consistent finishers in the league. 
+- **Kadell Daniel** — Yanited's top scorer with 11 goals and 3 assists from 6 outings. A reliable source of goals for his side. 
 
 
 ---
@@ -168,7 +168,7 @@ Clutch FC and Yanited had faced each other **1 time** prior to this match. The r
 - This was a Gameweek 9 fixture at Baller Arena
 - The Game Changers selected were Plus One and Fairplay
 - Alfie Matthews leads Clutch FC with 12 goals this season
-- Kadell Daniel tops Yanited's scoring charts with 7 goals
+- Kadell Daniel tops Yanited's scoring charts with 11 goals
 - 4 of the 9 goals (44%) came from Game Changer activations
 
 ---
@@ -176,10 +176,10 @@ Clutch FC and Yanited had faced each other **1 time** prior to this match. The r
 ## What's Next
 
 ### Clutch FC
-Clutch FC await confirmation of their next fixture.
+Clutch FC face **Wembley Rangers AFC** in Gameweek 10. This will be another crucial fixture as the season enters its decisive phase.
 
 ### Yanited
-Yanited await confirmation of their next fixture.
+Yanited take on **SDS FC** in Gameweek 10. They will be looking to bounce back and keep their season on track.
 
 
 

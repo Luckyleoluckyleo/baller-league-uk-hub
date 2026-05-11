@@ -1,15 +1,15 @@
 ---
-title: "Clutch FC See Off Deportrio 1-4 in Gameweek 2"
+title: "Clutch FC Beat Deportrio 1-4 in Entertaining GW2 Clash"
 date: 2026-05-11
 category: "Match Report"
-excerpt: "Deportrio 1-4 Clutch FC — Gameweek 2 match report. Jay Emmanuel-Thomas (15 goals) leads Deportrio's attack. Game Changers: 3Play (0) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Deportrio 1-4 Clutch FC — Gameweek 2 match report. Jay Emmanuel-Thomas (18 goals) leads Deportrio's attack. Game Changers: 3Play (0) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: false
 ---
 
 ## Match Summary — Deportrio 1-4 Clutch FC
 
-Gameweek 2 brought Deportrio and Clutch FC together at Baller Arena, two sides looking to climb the table from 5th and 9th respectively.
+Deportrio took on Clutch FC in a Gameweek 2 clash, two sides looking to climb the table from 5th and 9th respectively.
 
 Clutch FC controlled proceedings from start to finish, running out 1-4 winners in a performance that underlined their quality. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 3 goals to a match that saw 5 in total.
 
@@ -22,11 +22,11 @@ Clutch FC controlled proceedings from start to finish, running out 1-4 winners i
 
 ### First Half
 
-At the 12-minute mark, the 3Play Game Changer came into effect, though goals proved elusive as both defences held firm. Clutch FC seized the initiative early and never looked back, building a commanding lead.
+At the 12-minute mark, the 3Play Game Changer came into effect, but neither side could find the breakthrough during the activation. Clutch FC seized the initiative early and never looked back, building a commanding lead.
 
 ### Second Half
 
-At the 27-minute mark, the 1-on-1 Game Changer came into play, producing 3 goals at a crucial stage. Clutch FC managed the game superbly after the interval, seeing out a professional victory.
+The 1-on-1 Game Changer activated at the 27th minute, adding 3 goals and injecting fresh energy into the contest. Clutch FC managed the game superbly after the interval, seeing out a professional victory.
 
 ---
 
@@ -77,26 +77,26 @@ The Game Changer period brought a modest 3 goals, with the modified rules creati
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Jay Emmanuel-Thomas | 15 | 6 | 8 |
-| Sahid Kamara | 7 | 2 | 5 |
-| J&#039;ardell Stirling | 2 | 3 | 8 |
-| Marvin Sordell | 2 | 1 | 6 |
-| Amine Sassi | 1 | 2 | 8 |
+| Jay Emmanuel-Thomas | 18 | 6 | 9 |
+| Sahid Kamara | 9 | 3 | 6 |
+| J&#039;ardell Stirling | 2 | 4 | 9 |
+| Marvin Sordell | 2 | 1 | 7 |
+| Amine Sassi | 1 | 3 | 9 |
 
 ### Clutch FC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Alfie Matthews | 12 | 4 | 8 |
-| Sandro Camara | 7 | 1 | 8 |
-| Richard Afrane-Kesey | 4 | 0 | 6 |
-| Tyler Winters | 4 | 2 | 8 |
-| David Marques Castanho | 3 | 2 | 7 |
+| Alfie Matthews | 12 | 4 | 9 |
+| Sandro Camara | 7 | 1 | 9 |
+| Richard Afrane-Kesey | 6 | 1 | 7 |
+| Tyler Winters | 6 | 2 | 9 |
+| David Marques Castanho | 3 | 2 | 8 |
 
 **Key Attacking Threats**
 
-- **Jay Emmanuel-Thomas** — Deportrio's leading marksman with 15 goals in 8 appearances, plus 6 assists. One of the most consistent finishers in the league. 
-- **Alfie Matthews** — Clutch FC's top scorer with 12 goals and 4 assists from 8 outings. A reliable source of goals for his side. 
+- **Jay Emmanuel-Thomas** — Deportrio's leading marksman with 18 goals in 9 appearances, plus 6 assists. One of the most consistent finishers in the league. 
+- **Alfie Matthews** — Clutch FC's top scorer with 12 goals and 4 assists from 9 outings. A reliable source of goals for his side. 
 
 
 ---
@@ -144,7 +144,7 @@ This was the **first ever competitive meeting** between Deportrio and Clutch FC 
 
 - This was a Gameweek 2 fixture at Baller Arena
 - The Game Changers selected were 3Play and 1-on-1
-- Jay Emmanuel-Thomas leads Deportrio with 15 goals this season
+- Jay Emmanuel-Thomas leads Deportrio with 18 goals this season
 - Alfie Matthews tops Clutch FC's scoring charts with 12 goals
 - 3 of the 5 goals (60%) came from Game Changer activations
 
@@ -153,10 +153,10 @@ This was the **first ever competitive meeting** between Deportrio and Clutch FC 
 ## What's Next
 
 ### Deportrio
-Deportrio await confirmation of their next fixture.
+Deportrio face **Rukkas FC** in Gameweek 10. This will be another crucial fixture as the season enters its decisive phase.
 
 ### Clutch FC
-Clutch FC await confirmation of their next fixture.
+Clutch FC take on **Wembley Rangers AFC** in Gameweek 10. They will be looking to bounce back and keep their season on track.
 
 
 

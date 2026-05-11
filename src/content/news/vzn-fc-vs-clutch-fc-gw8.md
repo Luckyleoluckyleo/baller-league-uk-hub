@@ -1,15 +1,15 @@
 ---
-title: "VZN FC Edge Clutch FC 2-1 in GW8 Thriller"
+title: "VZN FC Scrape Past Clutch FC 2-1 in Tight GW8 Contest"
 date: 2026-05-11
 category: "Match Report"
-excerpt: "VZN FC 2-1 Clutch FC — Gameweek 8 match report. George Nikaj (7 goals) leads VZN FC's attack. Game Changers: Onside (1) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "VZN FC 2-1 Clutch FC — Gameweek 8 match report. George Nikaj (8 goals) leads VZN FC's attack. Game Changers: Onside (1) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: false
 ---
 
 ## Match Summary — VZN FC 2-1 Clutch FC
 
-All eyes were on Baller Arena as VZN FC met Clutch FC, two sides looking to climb the table from 9th and 6th respectively.
+Gameweek 8 brought VZN FC and Clutch FC together at Baller Arena, two sides looking to climb the table from 9th and 6th respectively.
 
 VZN FC scraped a hard-fought 2-1 win over Clutch FC in a match where fine margins proved decisive. The Game Changer period played a key role, with the Onside and Fairplay activations contributing 1 goals to a match that saw 3 in total.
 
@@ -22,7 +22,7 @@ VZN FC scraped a hard-fought 2-1 win over Clutch FC in a match where fine margin
 
 ### First Half
 
-The Onside Game Changer kicked in at the 12th minute, producing 1 goal in a frantic period of play. VZN FC shaded a competitive first period, taking their chances well.
+At the 12-minute mark, the Onside Game Changer came into effect, producing 1 goal in a frantic period of play. VZN FC edged the opening exchanges with a more clinical edge in front of goal.
 
 ### Second Half
 
@@ -84,26 +84,26 @@ The Game Changer period brought a modest 1 goal, with the modified rules creatin
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| George Nikaj | 7 | 3 | 6 |
-| Florian Kastrati | 5 | 0 | 8 |
-| Daniel Bowry | 4 | 2 | 8 |
-| Frankie Leonard | 3 | 2 | 6 |
+| George Nikaj | 8 | 4 | 7 |
+| Florian Kastrati | 6 | 0 | 9 |
+| Daniel Bowry | 4 | 2 | 9 |
+| Frankie Leonard | 3 | 2 | 7 |
 | Adrian Tajik | 2 | 0 | 8 |
 
 ### Clutch FC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Alfie Matthews | 12 | 4 | 8 |
-| Sandro Camara | 7 | 1 | 8 |
-| Richard Afrane-Kesey | 4 | 0 | 6 |
-| Tyler Winters | 4 | 2 | 8 |
-| David Marques Castanho | 3 | 2 | 7 |
+| Alfie Matthews | 12 | 4 | 9 |
+| Sandro Camara | 7 | 1 | 9 |
+| Richard Afrane-Kesey | 6 | 1 | 7 |
+| Tyler Winters | 6 | 2 | 9 |
+| David Marques Castanho | 3 | 2 | 8 |
 
 **Key Attacking Threats**
 
-- **George Nikaj** — VZN FC's leading marksman with 7 goals in 6 appearances, plus 3 assists. One of the most consistent finishers in the league. 
-- **Alfie Matthews** — Clutch FC's top scorer with 12 goals and 4 assists from 8 outings. A reliable source of goals for his side. 
+- **George Nikaj** — VZN FC's leading marksman with 8 goals in 7 appearances, plus 4 assists. One of the most consistent finishers in the league. 
+- **Alfie Matthews** — Clutch FC's top scorer with 12 goals and 4 assists from 9 outings. A reliable source of goals for his side. 
 
 
 ---
@@ -162,7 +162,7 @@ VZN FC and Clutch FC had faced each other **1 time** prior to this match. Clutch
 
 - This was a Gameweek 8 fixture at Baller Arena
 - The Game Changers selected were Onside and Fairplay
-- George Nikaj leads VZN FC with 7 goals this season
+- George Nikaj leads VZN FC with 8 goals this season
 - Alfie Matthews tops Clutch FC's scoring charts with 12 goals
 - 1 of the 3 goals (33%) came from Game Changer activations
 
@@ -171,10 +171,10 @@ VZN FC and Clutch FC had faced each other **1 time** prior to this match. Clutch
 ## What's Next
 
 ### VZN FC
-VZN FC await confirmation of their next fixture.
+VZN FC face **N5 FC** in Gameweek 10. This will be another crucial fixture as the season enters its decisive phase.
 
 ### Clutch FC
-Clutch FC await confirmation of their next fixture.
+Clutch FC take on **Wembley Rangers AFC** in Gameweek 10. They will be looking to bounce back and keep their season on track.
 
 
 

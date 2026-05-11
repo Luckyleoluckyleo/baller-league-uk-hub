@@ -9,9 +9,9 @@ featured: true
 
 ## Match Summary — Community FC 3-7 SDS FC
 
-Community FC and SDS FC faced off at Baller Arena, where 12th-placed Community FC looked to upset 2nd-placed SDS FC.
+Gameweek 3 brought Community FC and SDS FC together at Baller Arena, where 12th-placed Community FC looked to upset 2nd-placed SDS FC.
 
-SDS FC controlled proceedings from start to finish, running out 3-7 winners in a performance that underlined their quality. The Game Changer period played a key role, with the Onside and 1-on-1 activations contributing 5 goals to a match that saw 10 in total.
+A composed, professional display from SDS FC saw them dispatch Community FC 3-7 to claim all three points. The Game Changer period played a key role, with the Onside and 1-on-1 activations contributing 5 goals to a match that saw 10 in total.
 
 **Community FC form (before GW3):** ❌ ❌ (L-L)  
 **SDS FC form (before GW3):** 🤝 ✅ 🤝 ✅ (D-W-D-W)
@@ -22,11 +22,11 @@ SDS FC controlled proceedings from start to finish, running out 3-7 winners in a
 
 ### First Half
 
-At the 12-minute mark, the Onside Game Changer came into effect, yet the deadlock remained unbroken. SDS FC flew out of the blocks, overwhelming Community FC with wave after wave of attacks.
+The Onside Game Changer kicked in at the 12th minute, but neither side could find the breakthrough during the activation. SDS FC flew out of the blocks, overwhelming Community FC with wave after wave of attacks.
 
 ### Second Half
 
-The 1-on-1 Game Changer kicked in at the 27th minute of the second half, adding 5 goals and injecting fresh energy into the contest. SDS FC managed the game superbly after the interval, seeing out a professional victory. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 3.
+At the 27-minute mark, the 1-on-1 Game Changer came into play and delivered 5 goals that shifted the momentum. SDS FC managed the game superbly after the interval, seeing out a professional victory. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 3.
 
 ---
 
@@ -92,25 +92,25 @@ The Game Changers provided a genuine spectacle, with both activations contributi
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Alex Byrne | 8 | 6 | 7 |
-| Keane Joyce | 3 | 0 | 8 |
-| Matthew Waller | 3 | 0 | 8 |
+| Alex Byrne | 8 | 7 | 8 |
+| Keane Joyce | 3 | 0 | 9 |
+| Matthew Waller | 3 | 1 | 9 |
+| George Chmiel | 2 | 0 | 8 |
 | Tawab Djankpata | 2 | 2 | 6 |
-| Callum Charlton | 1 | 0 | 6 |
 
 ### SDS FC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
 | Connor Wood | 6 | 2 | 8 |
-| Kazaiah Sterling | 5 | 4 | 8 |
-| Camilo Restrepo | 4 | 1 | 7 |
-| Joshua Abbott | 4 | 2 | 8 |
+| Kazaiah Sterling | 5 | 4 | 9 |
+| Camilo Restrepo | 4 | 1 | 8 |
+| Joshua Abbott | 4 | 2 | 9 |
 | Danny Bassett | 3 | 1 | 8 |
 
 **Key Attacking Threats**
 
-- **Alex Byrne** — Community FC's leading marksman with 8 goals in 7 appearances, plus 6 assists. One of the most consistent finishers in the league. 
+- **Alex Byrne** — Community FC's leading marksman with 8 goals in 8 appearances, plus 7 assists. One of the most consistent finishers in the league. 
 - **Connor Wood** — SDS FC's top scorer with 6 goals and 2 assists from 8 outings. A reliable source of goals for his side. 
 
 
@@ -169,10 +169,10 @@ This was the **first ever competitive meeting** between Community FC and SDS FC 
 ## What's Next
 
 ### Community FC
-Community FC await confirmation of their next fixture.
+Community FC face **Prime FC** in Gameweek 10. This will be another crucial fixture as the season enters its decisive phase.
 
 ### SDS FC
-SDS FC await confirmation of their next fixture.
+SDS FC take on **Yanited** in Gameweek 10. They will be looking to bounce back and keep their season on track.
 
 
 
