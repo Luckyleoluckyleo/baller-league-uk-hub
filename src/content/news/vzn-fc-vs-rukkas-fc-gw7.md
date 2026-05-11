@@ -9,7 +9,7 @@ featured: true
 
 ## Match Summary — VZN FC 7-3 Rukkas FC
 
-All eyes were on Baller Arena as VZN FC met Rukkas FC, two sides looking to climb the table from 9th and 10th respectively.
+Gameweek 7 brought VZN FC and Rukkas FC together at Baller Arena, two sides looking to climb the table from 9th and 10th respectively.
 
 VZN FC controlled proceedings from start to finish, running out 7-3 winners in a performance that underlined their quality. The Game Changer period played a key role, with the Plus One and The Line activations contributing 4 goals to a match that saw 10 in total.
 
@@ -22,11 +22,11 @@ VZN FC controlled proceedings from start to finish, running out 7-3 winners in a
 
 ### First Half
 
-At the 12-minute mark, the Plus One Game Changer came into effect and the teams made it count with 2 goals being scored. VZN FC seized the initiative early and never looked back, building a commanding lead.
+At the 12-minute mark, the Plus One Game Changer came into effect, producing 2 goals in a frantic period of play. VZN FC seized the initiative early and never looked back, building a commanding lead.
 
 ### Second Half
 
-At the 27-minute mark, the The Line Game Changer came into play, producing 2 goals at a crucial stage. VZN FC maintained their grip on the match throughout the second period to secure a comfortable win. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 7.
+At the 27-minute mark, the The Line Game Changer came into play and delivered 2 goals that shifted the momentum. VZN FC managed the game superbly after the interval, seeing out a professional victory. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 7.
 
 ---
 

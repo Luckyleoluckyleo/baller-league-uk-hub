@@ -22,11 +22,11 @@ Yanited and Gold Devils FC played out a thrilling 2-2 draw in a match where neit
 
 ### First Half
 
-The Onside Game Changer kicked in at the 12th minute, generating 2 goals that set the tempo for the half. The two sides were inseparable at the break, with the contest finely poised.
+The Onside Game Changer kicked in at the 12th minute and the teams made it count with 2 goals being scored. The two sides were inseparable at the break, with the contest finely poised.
 
 ### Second Half
 
-The Fairplay Game Changer activated at the 27th minute, but neither side could capitalise on the modified rules. Despite late pressure, neither team could find the decisive goal and the spoils were shared.
+The Fairplay Game Changer activated at the 27th minute, though the goals dried up as the match wore on. Despite late pressure, neither team could find the decisive goal and the spoils were shared.
 
 ---
 

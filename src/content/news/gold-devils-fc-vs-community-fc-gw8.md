@@ -11,7 +11,7 @@ featured: false
 
 Gold Devils FC took on Community FC in a Gameweek 8 clash, two sides looking to climb the table from 10th and 12th respectively.
 
-Honours were even as Gold Devils FC and Community FC shared the spoils in an entertaining 4-4 draw. The 8 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through 3Play and The Line.
+Gold Devils FC and Community FC played out a thrilling 4-4 draw in a match where neither side deserved to lose. The 8 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through 3Play and The Line.
 
 **Gold Devils FC form (before GW8):** 🤝 ❌ ❌ ✅ ❌ (D-L-L-W-L)  
 **Community FC form (before GW8):** ❌ ❌ ❌ ✅ ❌ (L-L-L-W-L)
@@ -22,11 +22,11 @@ Honours were even as Gold Devils FC and Community FC shared the spoils in an ent
 
 ### First Half
 
-The first half saw the 3Play Game Changer activate at the 12th minute and the teams made it count with 3 goals being scored. The two sides were inseparable at the break, with the contest finely poised.
+The 3Play Game Changer kicked in at the 12th minute, generating 3 goals that set the tempo for the half. The two sides were inseparable at the break, with the contest finely poised.
 
 ### Second Half
 
-The The Line Game Changer activated at the 27th minute, though the goals dried up as the match wore on. Despite late pressure, neither team could find the decisive goal and the spoils were shared.
+The The Line Game Changer kicked in at the 27th minute of the second half, but neither side could capitalise on the modified rules. Both sides pushed for a winner but ultimately had to settle for a share of the points.
 
 ---
 

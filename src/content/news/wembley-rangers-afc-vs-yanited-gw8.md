@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Wembley Rangers AFC 2-1 Yanited
 
-All eyes were on Baller Arena as Wembley Rangers AFC met Yanited, two sides looking to climb the table from 8th and 5th respectively.
+Wembley Rangers AFC took on Yanited in a Gameweek 8 clash, two sides looking to climb the table from 8th and 5th respectively.
 
-Wembley Rangers AFC scraped a hard-fought 2-1 win over Yanited in a match where fine margins proved decisive. The Game Changer period played a key role, with the Onside and The Line activations contributing 1 goals to a match that saw 3 in total.
+In a tense, tightly-contested affair, Wembley Rangers AFC held their nerve to beat Yanited 2-1. The Game Changer period played a key role, with the Onside and The Line activations contributing 1 goals to a match that saw 3 in total.
 
 **Wembley Rangers AFC form (before GW8):** ❌ ✅ ✅ ✅ ❌ (L-W-W-W-L)  
 **Yanited form (before GW8):** ✅ 🤝 ❌ ✅ ❌ (W-D-L-W-L)
@@ -22,11 +22,11 @@ Wembley Rangers AFC scraped a hard-fought 2-1 win over Yanited in a match where 
 
 ### First Half
 
-The first half saw the Onside Game Changer activate at the 12th minute, generating 1 goal that set the tempo for the half. Wembley Rangers AFC shaded a competitive first period, taking their chances well.
+At the 12-minute mark, the Onside Game Changer came into effect and the teams made it count with 1 goal being scored. Wembley Rangers AFC edged the opening exchanges with a more clinical edge in front of goal.
 
 ### Second Half
 
-The The Line Game Changer activated at the 27th minute, though the goals dried up as the match wore on. Yanited pushed hard for an equaliser, with Wembley Rangers AFC defending resolutely to protect their lead.
+The The Line Game Changer activated at the 27th minute, but neither side could capitalise on the modified rules. Yanited pushed hard for an equaliser, with Wembley Rangers AFC defending resolutely to protect their lead.
 
 ---
 

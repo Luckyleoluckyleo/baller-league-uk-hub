@@ -1,5 +1,5 @@
 ---
-title: "Deportrio Beat Wembley Rangers AFC 5-2 in Entertaining GW4 Clash"
+title: "Deportrio See Off Wembley Rangers AFC 5-2 in Gameweek 4"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "Deportrio 5-2 Wembley Rangers AFC — Gameweek 4 match report. Jay Emmanuel-Thomas (15 goals) leads Deportrio's attack. Game Changers: Plus One (2) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Deportrio 5-2 Wembley Rangers AFC
 
-The Gameweek 4 schedule pitted Deportrio against Wembley Rangers AFC, two sides looking to climb the table from 10th and 6th respectively.
+Deportrio took on Wembley Rangers AFC in a Gameweek 4 clash, two sides looking to climb the table from 10th and 6th respectively.
 
-A composed, professional display from Deportrio saw them dispatch Wembley Rangers AFC 5-2 to claim all three points. The Game Changer period played a key role, with the Plus One and The Line activations contributing 3 goals to a match that saw 7 in total.
+Deportrio proved too strong for Wembley Rangers AFC, taking a convincing 5-2 victory that never looked in doubt. The Game Changer period played a key role, with the Plus One and The Line activations contributing 3 goals to a match that saw 7 in total.
 
 **Deportrio form (before GW4):** ❌ ❌ ❌ ❌ ✅ (L-L-L-L-W)  
 **Wembley Rangers AFC form (before GW4):** 🤝 🤝 🤝 🤝 ✅ (D-D-D-D-W)
@@ -22,7 +22,7 @@ A composed, professional display from Deportrio saw them dispatch Wembley Ranger
 
 ### First Half
 
-The Plus One Game Changer kicked in at the 12th minute, generating 2 goals that set the tempo for the half. Deportrio flew out of the blocks, overwhelming Wembley Rangers AFC with wave after wave of attacks.
+The first half saw the Plus One Game Changer activate at the 12th minute, producing 2 goals in a frantic period of play. Deportrio flew out of the blocks, overwhelming Wembley Rangers AFC with wave after wave of attacks.
 
 ### Second Half
 

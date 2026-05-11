@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — SDS FC 3-3 NDL FC
 
-SDS FC and NDL FC faced off at Baller Arena in a top-of-the-table showdown, with SDS FC sitting 2nd and NDL FC 1st.
+The Gameweek 8 schedule pitted SDS FC against NDL FC in a top-of-the-table showdown, with SDS FC sitting 2nd and NDL FC 1st.
 
 SDS FC and NDL FC could not be separated as they battled to a 3-3 stalemate at Baller Arena. The 6 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through Plus One and Fairplay.
 
@@ -22,11 +22,11 @@ SDS FC and NDL FC could not be separated as they battled to a 3-3 stalemate at B
 
 ### First Half
 
-The Plus One Game Changer kicked in at the 12th minute and the teams made it count with 2 goals being scored. The two sides were inseparable at the break, with the contest finely poised.
+The Plus One Game Changer kicked in at the 12th minute, generating 2 goals that set the tempo for the half. The two sides were inseparable at the break, with the contest finely poised.
 
 ### Second Half
 
-At the 27-minute mark, the Fairplay Game Changer came into play, though the goals dried up as the match wore on. Despite late pressure, neither team could find the decisive goal and the spoils were shared.
+The Fairplay Game Changer kicked in at the 27th minute of the second half, but neither side could capitalise on the modified rules. Despite late pressure, neither team could find the decisive goal and the spoils were shared.
 
 ---
 

@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Deportrio 1-4 Clutch FC
 
-Deportrio took on Clutch FC in a Gameweek 2 clash, two sides looking to climb the table from 5th and 9th respectively.
+Gameweek 2 brought Deportrio and Clutch FC together at Baller Arena, two sides looking to climb the table from 5th and 9th respectively.
 
 Clutch FC controlled proceedings from start to finish, running out 1-4 winners in a performance that underlined their quality. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 3 goals to a match that saw 5 in total.
 
@@ -22,7 +22,7 @@ Clutch FC controlled proceedings from start to finish, running out 1-4 winners i
 
 ### First Half
 
-The first half saw the 3Play Game Changer activate at the 12th minute, yet the deadlock remained unbroken. Clutch FC flew out of the blocks, overwhelming Deportrio with wave after wave of attacks.
+At the 12-minute mark, the 3Play Game Changer came into effect, though goals proved elusive as both defences held firm. Clutch FC seized the initiative early and never looked back, building a commanding lead.
 
 ### Second Half
 

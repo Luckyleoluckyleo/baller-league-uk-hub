@@ -1,5 +1,5 @@
 ---
-title: "Clutch FC Scrape Past Yanited 5-4 in Tight GW9 Contest"
+title: "Clutch FC Edge Yanited 5-4 in GW9 Thriller"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "Clutch FC 5-4 Yanited — Gameweek 9 match report. Alfie Matthews (12 goals) leads Clutch FC's attack. Game Changers: Plus One (3) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Clutch FC 5-4 Yanited
 
-The Gameweek 9 schedule pitted Clutch FC against Yanited, two sides looking to climb the table from 7th and 6th respectively.
+Clutch FC took on Yanited in a Gameweek 9 clash, two sides looking to climb the table from 7th and 6th respectively.
 
 In a tense, tightly-contested affair, Clutch FC held their nerve to beat Yanited 5-4. The Game Changer period played a key role, with the Plus One and Fairplay activations contributing 4 goals to a match that saw 9 in total.
 
@@ -22,11 +22,11 @@ In a tense, tightly-contested affair, Clutch FC held their nerve to beat Yanited
 
 ### First Half
 
-The first half saw the Plus One Game Changer activate at the 12th minute, generating 3 goals that set the tempo for the half. Clutch FC edged the opening exchanges with a more clinical edge in front of goal.
+The Plus One Game Changer kicked in at the 12th minute, generating 3 goals that set the tempo for the half. Clutch FC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-The Fairplay Game Changer kicked in at the 27th minute of the second half and delivered 1 goal that shifted the momentum. The closing stages were nervy as Yanited threw everything forward, but Clutch FC stood strong to claim the points.
+At the 27-minute mark, the Fairplay Game Changer came into play, adding 1 goal and injecting fresh energy into the contest. Yanited pushed hard for an equaliser, with Clutch FC defending resolutely to protect their lead.
 
 ---
 

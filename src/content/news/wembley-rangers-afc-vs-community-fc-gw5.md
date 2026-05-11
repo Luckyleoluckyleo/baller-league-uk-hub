@@ -1,5 +1,5 @@
 ---
-title: "Wembley Rangers AFC Cruise Past Community FC in 5-1 Rout — GW5"
+title: "Wembley Rangers AFC Overpower Community FC 5-1 in Dominant Display — GW5"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "Wembley Rangers AFC 5-1 Community FC — Gameweek 5 match report. Callam Gardner (5 goals) leads Wembley Rangers AFC's attack. Game Changers: 3Play (2) & 1-on-1 (2). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -22,11 +22,11 @@ Wembley Rangers AFC controlled proceedings from start to finish, running out 5-1
 
 ### First Half
 
-The 3Play Game Changer kicked in at the 12th minute, generating 2 goals that set the tempo for the half. Wembley Rangers AFC seized the initiative early and never looked back, building a commanding lead.
+At the 12-minute mark, the 3Play Game Changer came into effect, producing 2 goals in a frantic period of play. Wembley Rangers AFC seized the initiative early and never looked back, building a commanding lead.
 
 ### Second Half
 
-At the 27-minute mark, the 1-on-1 Game Changer came into play, producing 2 goals at a crucial stage. Wembley Rangers AFC managed the game superbly after the interval, seeing out a professional victory.
+At the 27-minute mark, the 1-on-1 Game Changer came into play, producing 2 goals at a crucial stage. Wembley Rangers AFC maintained their grip on the match throughout the second period to secure a comfortable win.
 
 ---
 

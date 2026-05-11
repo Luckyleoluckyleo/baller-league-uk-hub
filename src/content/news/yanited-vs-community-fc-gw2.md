@@ -1,5 +1,5 @@
 ---
-title: "Yanited See Off Community FC 5-3 in Gameweek 2"
+title: "Yanited Beat Community FC 5-3 in Entertaining GW2 Clash"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "Yanited 5-3 Community FC — Gameweek 2 match report. Kadell Daniel (7 goals) leads Yanited's attack. Game Changers: Plus One (1) & 1-on-1 (0). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -22,11 +22,11 @@ Yanited emerged 5-3 victors over Community FC after a competitive clash that sho
 
 ### First Half
 
-At the 12-minute mark, the Plus One Game Changer came into effect and the teams made it count with 1 goal being scored. Yanited edged the opening exchanges with a more clinical edge in front of goal.
+The Plus One Game Changer kicked in at the 12th minute, generating 1 goal that set the tempo for the half. Yanited edged the opening exchanges with a more clinical edge in front of goal.
 
 ### Second Half
 
-The 1-on-1 Game Changer kicked in at the 27th minute of the second half, though the goals dried up as the match wore on. Community FC pushed hard for an equaliser but Yanited held firm, with Yanited defending resolutely to protect their lead.
+The 1-on-1 Game Changer kicked in at the 27th minute of the second half, but neither side could capitalise on the modified rules. The closing stages were nervy as Community FC threw everything forward, but Yanited stood strong to claim the points.
 
 ---
 

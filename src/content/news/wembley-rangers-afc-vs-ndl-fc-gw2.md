@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Wembley Rangers AFC 2-2 NDL FC
 
-The Gameweek 2 schedule pitted Wembley Rangers AFC against NDL FC in a top-of-the-table showdown, with Wembley Rangers AFC sitting 4th and NDL FC 1st.
+Wembley Rangers AFC took on NDL FC in a Gameweek 2 clash in a top-of-the-table showdown, with Wembley Rangers AFC sitting 4th and NDL FC 1st.
 
 Wembley Rangers AFC and NDL FC played out a thrilling 2-2 draw in a match where neither side deserved to lose. The 4 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through Onside and The Line.
 
@@ -26,7 +26,7 @@ At the 12-minute mark, the Onside Game Changer came into effect, though goals pr
 
 ### Second Half
 
-The The Line Game Changer activated at the 27th minute, producing 1 goal at a crucial stage. Despite late pressure, neither team could find the decisive goal and the spoils were shared.
+At the 27-minute mark, the The Line Game Changer came into play and delivered 1 goal that shifted the momentum. Despite late pressure, neither team could find the decisive goal and the spoils were shared.
 
 ---
 

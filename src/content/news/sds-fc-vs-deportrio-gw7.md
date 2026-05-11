@@ -1,5 +1,5 @@
 ---
-title: "SDS FC and Deportrio Deadlocked at 2-2 in GW7"
+title: "SDS FC and Deportrio Play Out 2-2 Draw in Gameweek 7"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "SDS FC 2-2 Deportrio — Gameweek 7 match report. Connor Wood (6 goals) leads SDS FC's attack. Game Changers: 3Play (3) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -11,7 +11,7 @@ featured: false
 
 Gameweek 7 brought SDS FC and Deportrio together at Baller Arena, with SDS FC sitting 1st and looking to strengthen their playoff push against 5th-placed Deportrio.
 
-Honours were even as SDS FC and Deportrio shared the spoils in an entertaining 2-2 draw. The 4 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through 3Play and The Line.
+SDS FC and Deportrio played out a thrilling 2-2 draw in a match where neither side deserved to lose. The 4 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through 3Play and The Line.
 
 **SDS FC form (before GW7):** ❌ ✅ 🤝 ✅ ✅ (L-W-D-W-W)  
 **Deportrio form (before GW7):** 🤝 ✅ ✅ ✅ ✅ (D-W-W-W-W)
@@ -26,7 +26,7 @@ The first half saw the 3Play Game Changer activate at the 12th minute, producing
 
 ### Second Half
 
-The The Line Game Changer activated at the 27th minute, though the goals dried up as the match wore on. Despite late pressure, neither team could find the decisive goal and the spoils were shared.
+The The Line Game Changer kicked in at the 27th minute of the second half, but neither side could capitalise on the modified rules. Both sides pushed for a winner but ultimately had to settle for a share of the points.
 
 ---
 

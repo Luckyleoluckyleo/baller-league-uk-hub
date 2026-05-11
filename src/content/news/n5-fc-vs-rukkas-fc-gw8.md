@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — N5 FC 8-1 Rukkas FC
 
-The Gameweek 8 schedule pitted N5 FC against Rukkas FC, with N5 FC sitting 3rd and looking to strengthen their playoff push against 11th-placed Rukkas FC.
+Gameweek 8 brought N5 FC and Rukkas FC together at Baller Arena, with N5 FC sitting 3rd and looking to strengthen their playoff push against 11th-placed Rukkas FC.
 
 In a breathtaking display of attacking football, N5 FC ran riot against Rukkas FC, putting 8 past them in a 8-1 demolition. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 4 goals to a match that saw 9 in total.
 
@@ -22,11 +22,11 @@ In a breathtaking display of attacking football, N5 FC ran riot against Rukkas F
 
 ### First Half
 
-At the 12-minute mark, the 3Play Game Changer came into effect, producing 3 goals in a frantic period of play. N5 FC flew out of the blocks, overwhelming Rukkas FC with wave after wave of attacks.
+The 3Play Game Changer kicked in at the 12th minute, producing 3 goals in a frantic period of play. N5 FC flew out of the blocks, overwhelming Rukkas FC with wave after wave of attacks.
 
 ### Second Half
 
-At the 27-minute mark, the 1-on-1 Game Changer came into play and delivered 1 goal that shifted the momentum. N5 FC continued their onslaught, putting the game well beyond Rukkas FC's reach in a relentless second-half showing.
+At the 27-minute mark, the 1-on-1 Game Changer came into play and delivered 1 goal that shifted the momentum. N5 FC showed no mercy after the break, piling on the goals to complete a resounding victory.
 
 ---
 

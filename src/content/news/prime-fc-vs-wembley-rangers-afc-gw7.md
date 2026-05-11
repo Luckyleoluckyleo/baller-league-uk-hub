@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Prime FC 7-1 Wembley Rangers AFC
 
-Gameweek 7 brought Prime FC and Wembley Rangers AFC together at Baller Arena, where 8th-placed Prime FC looked to upset 4th-placed Wembley Rangers AFC.
+The Gameweek 7 schedule pitted Prime FC against Wembley Rangers AFC, where 8th-placed Prime FC looked to upset 4th-placed Wembley Rangers AFC.
 
-Prime FC were simply unstoppable as they crushed Wembley Rangers AFC 7-1, delivering one of the most emphatic results of Gameweek 7. The Game Changer period played a key role, with the Plus One and The Line activations contributing 4 goals to a match that saw 8 in total.
+In a breathtaking display of attacking football, Prime FC ran riot against Wembley Rangers AFC, putting 7 past them in a 7-1 demolition. The Game Changer period played a key role, with the Plus One and The Line activations contributing 4 goals to a match that saw 8 in total.
 
 **Prime FC form (before GW7):** ✅ 🤝 ❌ ✅ ✅ (W-D-L-W-W)  
 **Wembley Rangers AFC form (before GW7):** ✅ ✅ ✅ ❌ ❌ (W-W-W-L-L)
@@ -22,11 +22,11 @@ Prime FC were simply unstoppable as they crushed Wembley Rangers AFC 7-1, delive
 
 ### First Half
 
-At the 12-minute mark, the Plus One Game Changer came into effect, though goals proved elusive as both defences held firm. Prime FC seized the initiative early and never looked back, building a commanding lead.
+The Plus One Game Changer kicked in at the 12th minute, but neither side could find the breakthrough during the activation. Prime FC seized the initiative early and never looked back, building a commanding lead.
 
 ### Second Half
 
-The The Line Game Changer kicked in at the 27th minute of the second half, producing 4 goals at a crucial stage. Prime FC showed no mercy after the break, piling on the goals to complete a resounding victory.
+At the 27-minute mark, the The Line Game Changer came into play, producing 4 goals at a crucial stage. Prime FC showed no mercy after the break, piling on the goals to complete a resounding victory.
 
 ---
 

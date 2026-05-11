@@ -1,5 +1,5 @@
 ---
-title: "Yanited Edge Rukkas FC 2-1 in GW3 Thriller"
+title: "Yanited Scrape Past Rukkas FC 2-1 in Tight GW3 Contest"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "Yanited 2-1 Rukkas FC — Gameweek 3 match report. Kadell Daniel (7 goals) leads Yanited's attack. Game Changers: Onside (1) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -11,7 +11,7 @@ featured: false
 
 Yanited took on Rukkas FC in a Gameweek 3 clash, two sides looking to climb the table from 6th and 11th respectively.
 
-Yanited edged past Rukkas FC 2-1 in a nail-biting encounter that could have gone either way. The Game Changer period played a key role, with the Onside and Fairplay activations contributing 1 goals to a match that saw 3 in total.
+Yanited scraped a hard-fought 2-1 win over Rukkas FC in a match where fine margins proved decisive. The Game Changer period played a key role, with the Onside and Fairplay activations contributing 1 goals to a match that saw 3 in total.
 
 **Yanited form (before GW3):** 🤝 ✅ 🤝 (D-W-D)  
 **Rukkas FC form (before GW3):** ❌ ❌ ✅ (L-L-W)
@@ -22,11 +22,11 @@ Yanited edged past Rukkas FC 2-1 in a nail-biting encounter that could have gone
 
 ### First Half
 
-The Onside Game Changer kicked in at the 12th minute and the teams made it count with 1 goal being scored. Yanited shaded a competitive first period, taking their chances well.
+The Onside Game Changer kicked in at the 12th minute, generating 1 goal that set the tempo for the half. Yanited shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-The Fairplay Game Changer activated at the 27th minute, but neither side could capitalise on the modified rules. The closing stages were nervy as Rukkas FC threw everything forward, but Yanited stood strong to claim the points.
+The Fairplay Game Changer activated at the 27th minute, but neither side could capitalise on the modified rules. Rukkas FC pushed hard for an equaliser, with Yanited defending resolutely to protect their lead.
 
 ---
 

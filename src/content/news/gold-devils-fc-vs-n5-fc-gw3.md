@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Gold Devils FC 3-5 N5 FC
 
-All eyes were on Baller Arena as Gold Devils FC met N5 FC, two sides looking to climb the table from 8th and 10th respectively.
+Gold Devils FC took on N5 FC in a Gameweek 3 clash, two sides looking to climb the table from 8th and 10th respectively.
 
 N5 FC emerged 3-5 victors over Gold Devils FC after a competitive clash that showcased the best of Baller League football. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 2 goals to a match that saw 8 in total.
 
@@ -22,11 +22,11 @@ N5 FC emerged 3-5 victors over Gold Devils FC after a competitive clash that sho
 
 ### First Half
 
-At the 12-minute mark, the 3Play Game Changer came into effect, generating 2 goals that set the tempo for the half. N5 FC shaded a competitive first period, taking their chances well.
+The first half saw the 3Play Game Changer activate at the 12th minute, producing 2 goals in a frantic period of play. N5 FC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-The 1-on-1 Game Changer kicked in at the 27th minute of the second half, though the goals dried up as the match wore on. The closing stages were nervy as Gold Devils FC threw everything forward, but N5 FC stood strong to claim the points.
+The 1-on-1 Game Changer kicked in at the 27th minute of the second half, though the goals dried up as the match wore on. Gold Devils FC pushed hard for an equaliser but N5 FC held firm, with N5 FC defending resolutely to protect their lead.
 
 ---
 

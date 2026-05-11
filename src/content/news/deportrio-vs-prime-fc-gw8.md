@@ -1,5 +1,5 @@
 ---
-title: "Deportrio See Off Prime FC 8-6 in Gameweek 8"
+title: "Deportrio Beat Prime FC 8-6 in Entertaining GW8 Clash"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "Deportrio 8-6 Prime FC — Gameweek 8 match report. Jay Emmanuel-Thomas (15 goals) leads Deportrio's attack. Game Changers: 3Play (5) & The Line (2). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -11,7 +11,7 @@ featured: true
 
 All eyes were on Baller Arena as Deportrio met Prime FC, with Deportrio sitting 4th and looking to strengthen their playoff push against 7th-placed Prime FC.
 
-Deportrio emerged 8-6 victors over Prime FC after a competitive clash that showcased the best of Baller League football. The Game Changer period played a key role, with the 3Play and The Line activations contributing 7 goals to a match that saw 14 in total.
+Deportrio claimed a well-deserved 8-6 win against Prime FC in an entertaining Gameweek 8 encounter. The Game Changer period played a key role, with the 3Play and The Line activations contributing 7 goals to a match that saw 14 in total.
 
 **Deportrio form (before GW8):** ✅ 🤝 🤝 ✅ ✅ (W-D-D-W-W)  
 **Prime FC form (before GW8):** ✅ ✅ 🤝 ❌ ✅ (W-W-D-L-W)
@@ -22,11 +22,11 @@ Deportrio emerged 8-6 victors over Prime FC after a competitive clash that showc
 
 ### First Half
 
-At the 12-minute mark, the 3Play Game Changer came into effect and the teams made it count with 5 goals being scored. Deportrio shaded a competitive first period, taking their chances well.
+At the 12-minute mark, the 3Play Game Changer came into effect, generating 5 goals that set the tempo for the half. Deportrio shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-The The Line Game Changer activated at the 27th minute, producing 2 goals at a crucial stage. Prime FC pushed hard for an equaliser but Deportrio held firm, with Deportrio defending resolutely to protect their lead. The 14-goal spectacle was one of the highest-scoring matches of Gameweek 8.
+At the 27-minute mark, the The Line Game Changer came into play, adding 2 goals and injecting fresh energy into the contest. The closing stages were nervy as Prime FC threw everything forward, but Deportrio stood strong to claim the points. The 14-goal spectacle was one of the highest-scoring matches of Gameweek 8.
 
 ---
 

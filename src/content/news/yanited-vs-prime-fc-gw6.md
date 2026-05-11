@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Yanited 1-8 Prime FC
 
-All eyes were on Baller Arena as Yanited met Prime FC, with Yanited sitting 3rd and looking to strengthen their playoff push against 8th-placed Prime FC.
+Yanited took on Prime FC in a Gameweek 6 clash, with Yanited sitting 3rd and looking to strengthen their playoff push against 8th-placed Prime FC.
 
 Prime FC were simply unstoppable as they crushed Yanited 1-8, delivering one of the most emphatic results of Gameweek 6. The Game Changer period played a key role, with the 3Play and Fairplay activations contributing 3 goals to a match that saw 9 in total.
 
@@ -22,11 +22,11 @@ Prime FC were simply unstoppable as they crushed Yanited 1-8, delivering one of 
 
 ### First Half
 
-The 3Play Game Changer kicked in at the 12th minute, generating 3 goals that set the tempo for the half. Prime FC seized the initiative early and never looked back, building a commanding lead.
+At the 12-minute mark, the 3Play Game Changer came into effect, generating 3 goals that set the tempo for the half. Prime FC flew out of the blocks, overwhelming Yanited with wave after wave of attacks.
 
 ### Second Half
 
-The Fairplay Game Changer kicked in at the 27th minute of the second half, but neither side could capitalise on the modified rules. Prime FC showed no mercy after the break, piling on the goals to complete a resounding victory.
+At the 27-minute mark, the Fairplay Game Changer came into play, though the goals dried up as the match wore on. Prime FC continued their onslaught, putting the game well beyond Yanited's reach in a relentless second-half showing.
 
 ---
 

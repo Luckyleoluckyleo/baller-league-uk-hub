@@ -1,5 +1,5 @@
 ---
-title: "NDL FC Scrape Past VZN FC 4-5 in Tight GW5 Contest"
+title: "NDL FC Edge VZN FC 4-5 in GW5 Thriller"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "VZN FC 4-5 NDL FC — Gameweek 5 match report. George Nikaj (7 goals) leads VZN FC's attack. Game Changers: Onside (1) & 1-on-1 (5). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — VZN FC 4-5 NDL FC
 
-All eyes were on Baller Arena as VZN FC met NDL FC, where 10th-placed VZN FC looked to upset 1st-placed NDL FC.
+VZN FC and NDL FC faced off at Baller Arena, where 10th-placed VZN FC looked to upset 1st-placed NDL FC.
 
 In a tense, tightly-contested affair, NDL FC held their nerve to beat VZN FC 4-5. The Game Changer period played a key role, with the Onside and 1-on-1 activations contributing 6 goals to a match that saw 9 in total.
 
@@ -22,11 +22,11 @@ In a tense, tightly-contested affair, NDL FC held their nerve to beat VZN FC 4-5
 
 ### First Half
 
-The Onside Game Changer kicked in at the 12th minute and the teams made it count with 1 goal being scored. NDL FC edged the opening exchanges with a more clinical edge in front of goal.
+The Onside Game Changer kicked in at the 12th minute and the teams made it count with 1 goal being scored. NDL FC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-The 1-on-1 Game Changer activated at the 27th minute, producing 5 goals at a crucial stage. VZN FC pushed hard for an equaliser, with NDL FC defending resolutely to protect their lead.
+The 1-on-1 Game Changer kicked in at the 27th minute of the second half, producing 5 goals at a crucial stage. VZN FC pushed hard for an equaliser, with NDL FC defending resolutely to protect their lead.
 
 ---
 

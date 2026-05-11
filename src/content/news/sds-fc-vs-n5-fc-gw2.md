@@ -1,5 +1,5 @@
 ---
-title: "SDS FC Edge N5 FC 2-1 in GW2 Thriller"
+title: "SDS FC Scrape Past N5 FC 2-1 in Tight GW2 Contest"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "SDS FC 2-1 N5 FC — Gameweek 2 match report. Connor Wood (6 goals) leads SDS FC's attack. Game Changers: 3Play (2) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -11,7 +11,7 @@ featured: false
 
 The Gameweek 2 schedule pitted SDS FC against N5 FC, with SDS FC sitting 2nd and looking to strengthen their playoff push against 7th-placed N5 FC.
 
-SDS FC edged past N5 FC 2-1 in a nail-biting encounter that could have gone either way. The Game Changer period played a key role, with the 3Play and Fairplay activations contributing 2 goals to a match that saw 3 in total.
+In a tense, tightly-contested affair, SDS FC held their nerve to beat N5 FC 2-1. The Game Changer period played a key role, with the 3Play and Fairplay activations contributing 2 goals to a match that saw 3 in total.
 
 **SDS FC form (before GW2):** 🤝 ✅ (D-W)  
 **N5 FC form (before GW2):** ✅ ❌ (W-L)
@@ -22,11 +22,11 @@ SDS FC edged past N5 FC 2-1 in a nail-biting encounter that could have gone eith
 
 ### First Half
 
-The 3Play Game Changer kicked in at the 12th minute, producing 2 goals in a frantic period of play. SDS FC edged the opening exchanges with a more clinical edge in front of goal.
+The 3Play Game Changer kicked in at the 12th minute and the teams made it count with 2 goals being scored. SDS FC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-The Fairplay Game Changer kicked in at the 27th minute of the second half, though the goals dried up as the match wore on. The closing stages were nervy as N5 FC threw everything forward, but SDS FC stood strong to claim the points.
+The Fairplay Game Changer activated at the 27th minute, but neither side could capitalise on the modified rules. The closing stages were nervy as N5 FC threw everything forward, but SDS FC stood strong to claim the points.
 
 ---
 

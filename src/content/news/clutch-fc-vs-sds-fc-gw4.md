@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Clutch FC 3-5 SDS FC
 
-All eyes were on Baller Arena as Clutch FC met SDS FC, where 8th-placed Clutch FC looked to upset 2nd-placed SDS FC.
+Clutch FC and SDS FC faced off at Baller Arena, where 8th-placed Clutch FC looked to upset 2nd-placed SDS FC.
 
-SDS FC emerged 3-5 victors over Clutch FC after a competitive clash that showcased the best of Baller League football. The Game Changer period played a key role, with the Plus One and The Line activations contributing 5 goals to a match that saw 8 in total.
+SDS FC claimed a well-deserved 3-5 win against Clutch FC in an entertaining Gameweek 4 encounter. The Game Changer period played a key role, with the Plus One and The Line activations contributing 5 goals to a match that saw 8 in total.
 
 **Clutch FC form (before GW4):** ❌ ❌ 🤝 ✅ ❌ (L-L-D-W-L)  
 **SDS FC form (before GW4):** ✅ ✅ 🤝 ✅ 🤝 (W-W-D-W-D)
@@ -22,7 +22,7 @@ SDS FC emerged 3-5 victors over Clutch FC after a competitive clash that showcas
 
 ### First Half
 
-At the 12-minute mark, the Plus One Game Changer came into effect and the teams made it count with 3 goals being scored. SDS FC shaded a competitive first period, taking their chances well.
+At the 12-minute mark, the Plus One Game Changer came into effect and the teams made it count with 3 goals being scored. SDS FC edged the opening exchanges with a more clinical edge in front of goal.
 
 ### Second Half
 

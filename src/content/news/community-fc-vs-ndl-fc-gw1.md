@@ -1,5 +1,5 @@
 ---
-title: "NDL FC Cruise Past Community FC in 2-7 Rout — GW1"
+title: "NDL FC Overpower Community FC 2-7 in Dominant Display — GW1"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "Community FC 2-7 NDL FC — Gameweek 1 match report. Alex Byrne (8 goals) leads Community FC's attack. Game Changers: 3Play (3) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Community FC 2-7 NDL FC
 
-Community FC and NDL FC faced off at Baller Arena
+Gameweek 1 brought Community FC and NDL FC together at Baller Arena
 
 NDL FC produced a statement performance, dismantling Community FC 2-7 with a ruthless attacking display that will send a message to the rest of the league. The Game Changer period played a key role, with the 3Play and The Line activations contributing 4 goals to a match that saw 9 in total.
 
@@ -21,11 +21,11 @@ NDL FC produced a statement performance, dismantling Community FC 2-7 with a rut
 
 ### First Half
 
-The 3Play Game Changer kicked in at the 12th minute, generating 3 goals that set the tempo for the half. NDL FC flew out of the blocks, overwhelming Community FC with wave after wave of attacks.
+The 3Play Game Changer kicked in at the 12th minute, producing 3 goals in a frantic period of play. NDL FC flew out of the blocks, overwhelming Community FC with wave after wave of attacks.
 
 ### Second Half
 
-The The Line Game Changer activated at the 27th minute and delivered 1 goal that shifted the momentum. NDL FC continued their onslaught, putting the game well beyond Community FC's reach in a relentless second-half showing.
+The The Line Game Changer kicked in at the 27th minute of the second half, producing 1 goal at a crucial stage. NDL FC showed no mercy after the break, piling on the goals to complete a resounding victory.
 
 ---
 

@@ -22,11 +22,11 @@ Deportrio emerged 6-4 victors over VZN FC after a competitive clash that showcas
 
 ### First Half
 
-The first half saw the Plus One Game Changer activate at the 12th minute and the teams made it count with 1 goal being scored. Deportrio shaded a competitive first period, taking their chances well.
+The first half saw the Plus One Game Changer activate at the 12th minute, generating 1 goal that set the tempo for the half. Deportrio shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-The 1-on-1 Game Changer activated at the 27th minute, producing 3 goals at a crucial stage. VZN FC pushed hard for an equaliser but Deportrio held firm, with Deportrio defending resolutely to protect their lead. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 9.
+At the 27-minute mark, the 1-on-1 Game Changer came into play and delivered 3 goals that shifted the momentum. The closing stages were nervy as VZN FC threw everything forward, but Deportrio stood strong to claim the points. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 9.
 
 ---
 

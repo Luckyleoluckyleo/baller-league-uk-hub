@@ -1,5 +1,5 @@
 ---
-title: "Prime FC Overpower N5 FC 7-3 in Dominant Display — GW1"
+title: "Prime FC Cruise Past N5 FC in 7-3 Rout — GW1"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "Prime FC 7-3 N5 FC — Gameweek 1 match report. Francis Gerard Mampolo (14 goals) leads Prime FC's attack. Game Changers: 3Play (1) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -11,7 +11,7 @@ featured: true
 
 Gameweek 1 brought Prime FC and N5 FC together at Baller Arena
 
-Prime FC controlled proceedings from start to finish, running out 7-3 winners in a performance that underlined their quality. The Game Changer period played a key role, with the 3Play and The Line activations contributing 2 goals to a match that saw 10 in total.
+Prime FC proved too strong for N5 FC, taking a convincing 7-3 victory that never looked in doubt. The Game Changer period played a key role, with the 3Play and The Line activations contributing 2 goals to a match that saw 10 in total.
 
 
 
@@ -21,11 +21,11 @@ Prime FC controlled proceedings from start to finish, running out 7-3 winners in
 
 ### First Half
 
-The first half saw the 3Play Game Changer activate at the 12th minute, producing 1 goal in a frantic period of play. Prime FC seized the initiative early and never looked back, building a commanding lead.
+The 3Play Game Changer kicked in at the 12th minute, generating 1 goal that set the tempo for the half. Prime FC seized the initiative early and never looked back, building a commanding lead.
 
 ### Second Half
 
-The The Line Game Changer activated at the 27th minute, producing 1 goal at a crucial stage. Prime FC managed the game superbly after the interval, seeing out a professional victory. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 1.
+The The Line Game Changer activated at the 27th minute and delivered 1 goal that shifted the momentum. Prime FC managed the game superbly after the interval, seeing out a professional victory. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 1.
 
 ---
 

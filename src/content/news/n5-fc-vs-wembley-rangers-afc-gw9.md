@@ -9,7 +9,7 @@ featured: true
 
 ## Match Summary — N5 FC 3-8 Wembley Rangers AFC
 
-Gameweek 9 brought N5 FC and Wembley Rangers AFC together at Baller Arena, with N5 FC sitting 3rd and looking to strengthen their playoff push against 5th-placed Wembley Rangers AFC.
+N5 FC and Wembley Rangers AFC faced off at Baller Arena, with N5 FC sitting 3rd and looking to strengthen their playoff push against 5th-placed Wembley Rangers AFC.
 
 Wembley Rangers AFC were simply unstoppable as they crushed N5 FC 3-8, delivering one of the most emphatic results of Gameweek 9. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 7 goals to a match that saw 11 in total.
 
@@ -22,11 +22,11 @@ Wembley Rangers AFC were simply unstoppable as they crushed N5 FC 3-8, deliverin
 
 ### First Half
 
-The 3Play Game Changer kicked in at the 12th minute, producing 2 goals in a frantic period of play. Wembley Rangers AFC seized the initiative early and never looked back, building a commanding lead.
+At the 12-minute mark, the 3Play Game Changer came into effect, producing 2 goals in a frantic period of play. Wembley Rangers AFC flew out of the blocks, overwhelming N5 FC with wave after wave of attacks.
 
 ### Second Half
 
-At the 27-minute mark, the 1-on-1 Game Changer came into play and delivered 5 goals that shifted the momentum. Wembley Rangers AFC continued their onslaught, putting the game well beyond N5 FC's reach in a relentless second-half showing. The 11-goal spectacle was one of the highest-scoring matches of Gameweek 9.
+The 1-on-1 Game Changer activated at the 27th minute, adding 5 goals and injecting fresh energy into the contest. Wembley Rangers AFC continued their onslaught, putting the game well beyond N5 FC's reach in a relentless second-half showing. The 11-goal spectacle was one of the highest-scoring matches of Gameweek 9.
 
 ---
 

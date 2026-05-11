@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Deportrio 5-4 Yanited
 
-Deportrio and Yanited faced off at Baller Arena, where 6th-placed Deportrio looked to upset 3rd-placed Yanited.
+Deportrio took on Yanited in a Gameweek 5 clash, where 6th-placed Deportrio looked to upset 3rd-placed Yanited.
 
-In a tense, tightly-contested affair, Deportrio held their nerve to beat Yanited 5-4. The Game Changer period played a key role, with the 3Play and The Line activations contributing 3 goals to a match that saw 9 in total.
+Deportrio edged past Yanited 5-4 in a nail-biting encounter that could have gone either way. The Game Changer period played a key role, with the 3Play and The Line activations contributing 3 goals to a match that saw 9 in total.
 
 **Deportrio form (before GW5):** ✅ ✅ ❌ ❌ ❌ (W-W-L-L-L)  
 **Yanited form (before GW5):** ✅ 🤝 ✅ 🤝 ✅ (W-D-W-D-W)
@@ -26,7 +26,7 @@ The first half saw the 3Play Game Changer activate at the 12th minute and the te
 
 ### Second Half
 
-The The Line Game Changer activated at the 27th minute, adding 1 goal and injecting fresh energy into the contest. Yanited pushed hard for an equaliser, with Deportrio defending resolutely to protect their lead.
+At the 27-minute mark, the The Line Game Changer came into play, producing 1 goal at a crucial stage. Yanited pushed hard for an equaliser, with Deportrio defending resolutely to protect their lead.
 
 ---
 

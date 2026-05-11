@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Community FC 1-5 N5 FC
 
-All eyes were on Baller Arena as Community FC met N5 FC, two sides looking to climb the table from 12th and 6th respectively.
+Community FC took on N5 FC in a Gameweek 7 clash, two sides looking to climb the table from 12th and 6th respectively.
 
 N5 FC proved too strong for Community FC, taking a convincing 1-5 victory that never looked in doubt. The Game Changer period played a key role, with the Onside and Fairplay activations contributing 1 goals to a match that saw 6 in total.
 
@@ -22,11 +22,11 @@ N5 FC proved too strong for Community FC, taking a convincing 1-5 victory that n
 
 ### First Half
 
-At the 12-minute mark, the Onside Game Changer came into effect and the teams made it count with 1 goal being scored. N5 FC flew out of the blocks, overwhelming Community FC with wave after wave of attacks.
+The Onside Game Changer kicked in at the 12th minute, producing 1 goal in a frantic period of play. N5 FC seized the initiative early and never looked back, building a commanding lead.
 
 ### Second Half
 
-At the 27-minute mark, the Fairplay Game Changer came into play, though the goals dried up as the match wore on. N5 FC maintained their grip on the match throughout the second period to secure a comfortable win.
+The Fairplay Game Changer kicked in at the 27th minute of the second half, though the goals dried up as the match wore on. N5 FC maintained their grip on the match throughout the second period to secure a comfortable win.
 
 ---
 

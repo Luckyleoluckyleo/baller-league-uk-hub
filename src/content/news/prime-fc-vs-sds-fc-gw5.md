@@ -1,5 +1,5 @@
 ---
-title: "Prime FC and SDS FC Deadlocked at 2-2 in GW5"
+title: "Prime FC and SDS FC Play Out 2-2 Draw in Gameweek 5"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "Prime FC 2-2 SDS FC — Gameweek 5 match report. Francis Gerard Mampolo (14 goals) leads Prime FC's attack. Game Changers: 3Play (2) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Prime FC 2-2 SDS FC
 
-The Gameweek 5 schedule pitted Prime FC against SDS FC, where 5th-placed Prime FC looked to upset 2nd-placed SDS FC.
+Prime FC and SDS FC faced off at Baller Arena, where 5th-placed Prime FC looked to upset 2nd-placed SDS FC.
 
-Prime FC and SDS FC could not be separated as they battled to a 2-2 stalemate at Baller Arena. The 4 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through 3Play and The Line.
+Honours were even as Prime FC and SDS FC shared the spoils in an entertaining 2-2 draw. The 4 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through 3Play and The Line.
 
 **Prime FC form (before GW5):** ❌ ✅ ✅ ✅ (L-W-W-W)  
 **SDS FC form (before GW5):** ✅ ✅ ✅ 🤝 ✅ (W-W-W-D-W)
@@ -22,11 +22,11 @@ Prime FC and SDS FC could not be separated as they battled to a 2-2 stalemate at
 
 ### First Half
 
-The 3Play Game Changer kicked in at the 12th minute, generating 2 goals that set the tempo for the half. The two sides were inseparable at the break, with the contest finely poised.
+At the 12-minute mark, the 3Play Game Changer came into effect, producing 2 goals in a frantic period of play. The two sides were inseparable at the break, with the contest finely poised.
 
 ### Second Half
 
-At the 27-minute mark, the The Line Game Changer came into play, producing 1 goal at a crucial stage. Despite late pressure, neither team could find the decisive goal and the spoils were shared.
+The The Line Game Changer activated at the 27th minute, producing 1 goal at a crucial stage. Despite late pressure, neither team could find the decisive goal and the spoils were shared.
 
 ---
 

@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Rukkas FC 3-4 Wembley Rangers AFC
 
-Gameweek 6 brought Rukkas FC and Wembley Rangers AFC together at Baller Arena, where 11th-placed Rukkas FC looked to upset 4th-placed Wembley Rangers AFC.
+All eyes were on Baller Arena as Rukkas FC met Wembley Rangers AFC, where 11th-placed Rukkas FC looked to upset 4th-placed Wembley Rangers AFC.
 
-Wembley Rangers AFC scraped a hard-fought 3-4 win over Rukkas FC in a match where fine margins proved decisive. The Game Changer period played a key role, with the Plus One and Fairplay activations contributing 3 goals to a match that saw 7 in total.
+In a tense, tightly-contested affair, Wembley Rangers AFC held their nerve to beat Rukkas FC 3-4. The Game Changer period played a key role, with the Plus One and Fairplay activations contributing 3 goals to a match that saw 7 in total.
 
 **Rukkas FC form (before GW6):** ❌ ✅ ❌ ❌ ❌ (L-W-L-L-L)  
 **Wembley Rangers AFC form (before GW6):** ✅ ✅ ❌ ❌ 🤝 (W-W-L-L-D)
@@ -22,11 +22,11 @@ Wembley Rangers AFC scraped a hard-fought 3-4 win over Rukkas FC in a match wher
 
 ### First Half
 
-At the 12-minute mark, the Plus One Game Changer came into effect, producing 2 goals in a frantic period of play. Wembley Rangers AFC edged the opening exchanges with a more clinical edge in front of goal.
+The first half saw the Plus One Game Changer activate at the 12th minute, producing 2 goals in a frantic period of play. Wembley Rangers AFC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-At the 27-minute mark, the Fairplay Game Changer came into play and delivered 1 goal that shifted the momentum. Rukkas FC pushed hard for an equaliser, with Wembley Rangers AFC defending resolutely to protect their lead.
+At the 27-minute mark, the Fairplay Game Changer came into play, adding 1 goal and injecting fresh energy into the contest. The closing stages were nervy as Rukkas FC threw everything forward, but Wembley Rangers AFC stood strong to claim the points.
 
 ---
 

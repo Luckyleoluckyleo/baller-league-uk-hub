@@ -1,5 +1,5 @@
 ---
-title: "NDL FC Beat Prime FC 5-3 in Entertaining GW9 Clash"
+title: "NDL FC See Off Prime FC 5-3 in Gameweek 9"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "NDL FC 5-3 Prime FC — Gameweek 9 match report. Dara Dada (7 goals) leads NDL FC's attack. Game Changers: 3Play (3) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -11,7 +11,7 @@ featured: false
 
 All eyes were on Baller Arena as NDL FC met Prime FC, with NDL FC sitting 1st and looking to strengthen their playoff push against 8th-placed Prime FC.
 
-NDL FC emerged 5-3 victors over Prime FC after a competitive clash that showcased the best of Baller League football. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 6 goals to a match that saw 8 in total.
+NDL FC claimed a well-deserved 5-3 win against Prime FC in an entertaining Gameweek 9 encounter. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 6 goals to a match that saw 8 in total.
 
 **NDL FC form (before GW9):** 🤝 ✅ ✅ ❌ ❌ (D-W-W-L-L)  
 **Prime FC form (before GW9):** ❌ ✅ ✅ 🤝 ❌ (L-W-W-D-L)
@@ -22,11 +22,11 @@ NDL FC emerged 5-3 victors over Prime FC after a competitive clash that showcase
 
 ### First Half
 
-The 3Play Game Changer kicked in at the 12th minute, generating 3 goals that set the tempo for the half. NDL FC shaded a competitive first period, taking their chances well.
+At the 12-minute mark, the 3Play Game Changer came into effect and the teams made it count with 3 goals being scored. NDL FC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-The 1-on-1 Game Changer kicked in at the 27th minute of the second half, adding 3 goals and injecting fresh energy into the contest. Prime FC pushed hard for an equaliser but NDL FC held firm, with NDL FC defending resolutely to protect their lead.
+The 1-on-1 Game Changer activated at the 27th minute, adding 3 goals and injecting fresh energy into the contest. The closing stages were nervy as Prime FC threw everything forward, but NDL FC stood strong to claim the points.
 
 ---
 

@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Community FC 4-3 VZN FC
 
-Community FC and VZN FC faced off at Baller Arena, two sides looking to climb the table from 12th and 7th respectively.
+The Gameweek 4 schedule pitted Community FC against VZN FC, two sides looking to climb the table from 12th and 7th respectively.
 
-Community FC edged past VZN FC 4-3 in a nail-biting encounter that could have gone either way. The Game Changer period played a key role, with the 3Play and Fairplay activations contributing 2 goals to a match that saw 7 in total.
+Community FC scraped a hard-fought 4-3 win over VZN FC in a match where fine margins proved decisive. The Game Changer period played a key role, with the 3Play and Fairplay activations contributing 2 goals to a match that saw 7 in total.
 
 **Community FC form (before GW4):** ❌ ❌ ❌ (L-L-L)  
 **VZN FC form (before GW4):** ❌ 🤝 ✅ ❌ 🤝 (L-D-W-L-D)
@@ -22,11 +22,11 @@ Community FC edged past VZN FC 4-3 in a nail-biting encounter that could have go
 
 ### First Half
 
-The first half saw the 3Play Game Changer activate at the 12th minute, producing 1 goal in a frantic period of play. Community FC shaded a competitive first period, taking their chances well.
+The 3Play Game Changer kicked in at the 12th minute, generating 1 goal that set the tempo for the half. Community FC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-At the 27-minute mark, the Fairplay Game Changer came into play, producing 1 goal at a crucial stage. The closing stages were nervy as VZN FC threw everything forward, but Community FC stood strong to claim the points.
+The Fairplay Game Changer activated at the 27th minute and delivered 1 goal that shifted the momentum. VZN FC pushed hard for an equaliser, with Community FC defending resolutely to protect their lead.
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Clutch FC Scrape Past N5 FC 5-6 in Tight GW5 Contest"
+title: "Clutch FC Edge N5 FC 5-6 in GW5 Thriller"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "N5 FC 5-6 Clutch FC — Gameweek 5 match report. Michael Hill (14 goals) leads N5 FC's attack. Game Changers: Onside (1) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,7 +9,7 @@ featured: true
 
 ## Match Summary — N5 FC 5-6 Clutch FC
 
-The Gameweek 5 schedule pitted N5 FC against Clutch FC, with N5 FC sitting 4th and looking to strengthen their playoff push against 7th-placed Clutch FC.
+All eyes were on Baller Arena as N5 FC met Clutch FC, with N5 FC sitting 4th and looking to strengthen their playoff push against 7th-placed Clutch FC.
 
 In a tense, tightly-contested affair, Clutch FC held their nerve to beat N5 FC 5-6. The Game Changer period played a key role, with the Onside and Fairplay activations contributing 2 goals to a match that saw 11 in total.
 
@@ -22,11 +22,11 @@ In a tense, tightly-contested affair, Clutch FC held their nerve to beat N5 FC 5
 
 ### First Half
 
-The first half saw the Onside Game Changer activate at the 12th minute, generating 1 goal that set the tempo for the half. Clutch FC shaded a competitive first period, taking their chances well.
+The Onside Game Changer kicked in at the 12th minute, producing 1 goal in a frantic period of play. Clutch FC edged the opening exchanges with a more clinical edge in front of goal.
 
 ### Second Half
 
-At the 27-minute mark, the Fairplay Game Changer came into play, adding 1 goal and injecting fresh energy into the contest. The closing stages were nervy as N5 FC threw everything forward, but Clutch FC stood strong to claim the points. The 11-goal spectacle was one of the highest-scoring matches of Gameweek 5.
+At the 27-minute mark, the Fairplay Game Changer came into play, producing 1 goal at a crucial stage. N5 FC pushed hard for an equaliser, with Clutch FC defending resolutely to protect their lead. The 11-goal spectacle was one of the highest-scoring matches of Gameweek 5.
 
 ---
 

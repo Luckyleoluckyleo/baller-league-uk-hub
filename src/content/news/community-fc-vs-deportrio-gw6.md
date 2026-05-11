@@ -1,5 +1,5 @@
 ---
-title: "Deportrio Run Riot Against Community FC in 3-9 Demolition — GW6"
+title: "Deportrio Annihilate Community FC 3-9 in Statement Victory — GW6"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "Community FC 3-9 Deportrio — Gameweek 6 match report. Alex Byrne (8 goals) leads Community FC's attack. Game Changers: Plus One (3) & 1-on-1 (5). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,7 +9,7 @@ featured: true
 
 ## Match Summary — Community FC 3-9 Deportrio
 
-Community FC took on Deportrio in a Gameweek 6 clash, two sides looking to climb the table from 12th and 5th respectively.
+The Gameweek 6 schedule pitted Community FC against Deportrio, two sides looking to climb the table from 12th and 5th respectively.
 
 In a breathtaking display of attacking football, Deportrio ran riot against Community FC, putting 3 past them in a 3-9 demolition. The Game Changer period played a key role, with the Plus One and 1-on-1 activations contributing 8 goals to a match that saw 12 in total.
 
@@ -22,11 +22,11 @@ In a breathtaking display of attacking football, Deportrio ran riot against Comm
 
 ### First Half
 
-The first half saw the Plus One Game Changer activate at the 12th minute, generating 3 goals that set the tempo for the half. Deportrio seized the initiative early and never looked back, building a commanding lead.
+The first half saw the Plus One Game Changer activate at the 12th minute and the teams made it count with 3 goals being scored. Deportrio seized the initiative early and never looked back, building a commanding lead.
 
 ### Second Half
 
-The 1-on-1 Game Changer kicked in at the 27th minute of the second half, producing 5 goals at a crucial stage. Deportrio continued their onslaught, putting the game well beyond Community FC's reach in a relentless second-half showing. The 12-goal spectacle was one of the highest-scoring matches of Gameweek 6.
+The 1-on-1 Game Changer activated at the 27th minute, producing 5 goals at a crucial stage. Deportrio continued their onslaught, putting the game well beyond Community FC's reach in a relentless second-half showing. The 12-goal spectacle was one of the highest-scoring matches of Gameweek 6.
 
 ---
 

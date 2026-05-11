@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — VZN FC 3-2 SDS FC
 
-The Gameweek 6 schedule pitted VZN FC against SDS FC, where 10th-placed VZN FC looked to upset 1st-placed SDS FC.
+VZN FC took on SDS FC in a Gameweek 6 clash, where 10th-placed VZN FC looked to upset 1st-placed SDS FC.
 
-In a tense, tightly-contested affair, VZN FC held their nerve to beat SDS FC 3-2. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 0 goals to a match that saw 5 in total.
+VZN FC scraped a hard-fought 3-2 win over SDS FC in a match where fine margins proved decisive. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 0 goals to a match that saw 5 in total.
 
 **VZN FC form (before GW6):** ❌ ❌ ❌ ❌ 🤝 (L-L-L-L-D)  
 **SDS FC form (before GW6):** ✅ 🤝 ✅ ✅ ✅ (W-D-W-W-W)
@@ -22,11 +22,11 @@ In a tense, tightly-contested affair, VZN FC held their nerve to beat SDS FC 3-2
 
 ### First Half
 
-The first half saw the 3Play Game Changer activate at the 12th minute, yet the deadlock remained unbroken. VZN FC shaded a competitive first period, taking their chances well.
+The first half saw the 3Play Game Changer activate at the 12th minute, though goals proved elusive as both defences held firm. VZN FC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-The 1-on-1 Game Changer kicked in at the 27th minute of the second half, but neither side could capitalise on the modified rules. SDS FC pushed hard for an equaliser, with VZN FC defending resolutely to protect their lead.
+The 1-on-1 Game Changer kicked in at the 27th minute of the second half, though the goals dried up as the match wore on. The closing stages were nervy as SDS FC threw everything forward, but VZN FC stood strong to claim the points.
 
 ---
 

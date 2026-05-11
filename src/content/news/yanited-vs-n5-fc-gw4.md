@@ -9,7 +9,7 @@ featured: true
 
 ## Match Summary — Yanited 8-6 N5 FC
 
-Yanited and N5 FC faced off at Baller Arena, where 5th-placed Yanited looked to upset 4th-placed N5 FC.
+Yanited took on N5 FC in a Gameweek 4 clash, where 5th-placed Yanited looked to upset 4th-placed N5 FC.
 
 Yanited emerged 8-6 victors over N5 FC after a competitive clash that showcased the best of Baller League football. The Game Changer period played a key role, with the 3Play and The Line activations contributing 5 goals to a match that saw 14 in total.
 
@@ -22,11 +22,11 @@ Yanited emerged 8-6 victors over N5 FC after a competitive clash that showcased 
 
 ### First Half
 
-The 3Play Game Changer kicked in at the 12th minute, generating 4 goals that set the tempo for the half. Yanited shaded a competitive first period, taking their chances well.
+The first half saw the 3Play Game Changer activate at the 12th minute and the teams made it count with 4 goals being scored. Yanited shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-The The Line Game Changer activated at the 27th minute, adding 1 goal and injecting fresh energy into the contest. N5 FC pushed hard for an equaliser but Yanited held firm, with Yanited defending resolutely to protect their lead. The 14-goal spectacle was one of the highest-scoring matches of Gameweek 4.
+The The Line Game Changer activated at the 27th minute, adding 1 goal and injecting fresh energy into the contest. The closing stages were nervy as N5 FC threw everything forward, but Yanited stood strong to claim the points. The 14-goal spectacle was one of the highest-scoring matches of Gameweek 4.
 
 ---
 

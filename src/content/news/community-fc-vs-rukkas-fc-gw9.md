@@ -11,7 +11,7 @@ featured: false
 
 Community FC took on Rukkas FC in a Gameweek 9 clash, two sides looking to climb the table from 12th and 11th respectively.
 
-Rukkas FC controlled proceedings from start to finish, running out 2-6 winners in a performance that underlined their quality. The Game Changer period played a key role, with the Plus One and The Line activations contributing 2 goals to a match that saw 8 in total.
+A composed, professional display from Rukkas FC saw them dispatch Community FC 2-6 to claim all three points. The Game Changer period played a key role, with the Plus One and The Line activations contributing 2 goals to a match that saw 8 in total.
 
 **Community FC form (before GW9):** 🤝 ❌ ❌ ❌ ✅ (D-L-L-L-W)  
 **Rukkas FC form (before GW9):** 🤝 ❌ ❌ ❌ ✅ (D-L-L-L-W)
@@ -22,7 +22,7 @@ Rukkas FC controlled proceedings from start to finish, running out 2-6 winners i
 
 ### First Half
 
-The Plus One Game Changer kicked in at the 12th minute and the teams made it count with 2 goals being scored. Rukkas FC flew out of the blocks, overwhelming Community FC with wave after wave of attacks.
+At the 12-minute mark, the Plus One Game Changer came into effect, generating 2 goals that set the tempo for the half. Rukkas FC flew out of the blocks, overwhelming Community FC with wave after wave of attacks.
 
 ### Second Half
 

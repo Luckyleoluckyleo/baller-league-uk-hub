@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Deportrio 3-6 NDL FC
 
-All eyes were on Baller Arena as Deportrio met NDL FC, where 9th-placed Deportrio looked to upset 1st-placed NDL FC.
+Deportrio and NDL FC faced off at Baller Arena, where 9th-placed Deportrio looked to upset 1st-placed NDL FC.
 
-NDL FC proved too strong for Deportrio, taking a convincing 3-6 victory that never looked in doubt. The Game Changer period played a key role, with the Plus One and 1-on-1 activations contributing 6 goals to a match that saw 9 in total.
+NDL FC controlled proceedings from start to finish, running out 3-6 winners in a performance that underlined their quality. The Game Changer period played a key role, with the Plus One and 1-on-1 activations contributing 6 goals to a match that saw 9 in total.
 
 **Deportrio form (before GW3):** ❌ ❌ ❌ ✅ (L-L-L-W)  
 **NDL FC form (before GW3):** ✅ 🤝 ❌ ✅ (W-D-L-W)
@@ -22,11 +22,11 @@ NDL FC proved too strong for Deportrio, taking a convincing 3-6 victory that nev
 
 ### First Half
 
-The first half saw the Plus One Game Changer activate at the 12th minute and the teams made it count with 1 goal being scored. NDL FC flew out of the blocks, overwhelming Deportrio with wave after wave of attacks.
+At the 12-minute mark, the Plus One Game Changer came into effect, generating 1 goal that set the tempo for the half. NDL FC flew out of the blocks, overwhelming Deportrio with wave after wave of attacks.
 
 ### Second Half
 
-At the 27-minute mark, the 1-on-1 Game Changer came into play, adding 5 goals and injecting fresh energy into the contest. NDL FC maintained their grip on the match throughout the second period to secure a comfortable win.
+At the 27-minute mark, the 1-on-1 Game Changer came into play, producing 5 goals at a crucial stage. NDL FC managed the game superbly after the interval, seeing out a professional victory.
 
 ---
 

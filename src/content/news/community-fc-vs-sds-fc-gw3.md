@@ -9,7 +9,7 @@ featured: true
 
 ## Match Summary — Community FC 3-7 SDS FC
 
-All eyes were on Baller Arena as Community FC met SDS FC, where 12th-placed Community FC looked to upset 2nd-placed SDS FC.
+Community FC and SDS FC faced off at Baller Arena, where 12th-placed Community FC looked to upset 2nd-placed SDS FC.
 
 SDS FC controlled proceedings from start to finish, running out 3-7 winners in a performance that underlined their quality. The Game Changer period played a key role, with the Onside and 1-on-1 activations contributing 5 goals to a match that saw 10 in total.
 
@@ -22,11 +22,11 @@ SDS FC controlled proceedings from start to finish, running out 3-7 winners in a
 
 ### First Half
 
-The first half saw the Onside Game Changer activate at the 12th minute, but neither side could find the breakthrough during the activation. SDS FC flew out of the blocks, overwhelming Community FC with wave after wave of attacks.
+At the 12-minute mark, the Onside Game Changer came into effect, yet the deadlock remained unbroken. SDS FC flew out of the blocks, overwhelming Community FC with wave after wave of attacks.
 
 ### Second Half
 
-The 1-on-1 Game Changer kicked in at the 27th minute of the second half, producing 5 goals at a crucial stage. SDS FC maintained their grip on the match throughout the second period to secure a comfortable win. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 3.
+The 1-on-1 Game Changer kicked in at the 27th minute of the second half, adding 5 goals and injecting fresh energy into the contest. SDS FC managed the game superbly after the interval, seeing out a professional victory. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 3.
 
 ---
 

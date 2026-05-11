@@ -9,7 +9,7 @@ featured: true
 
 ## Match Summary — Rukkas FC 7-5 Clutch FC
 
-Rukkas FC took on Clutch FC in a Gameweek 1 clash
+Rukkas FC and Clutch FC faced off at Baller Arena
 
 Rukkas FC emerged 7-5 victors over Clutch FC after a competitive clash that showcased the best of Baller League football. The Game Changer period played a key role, with the Onside and 1-on-1 activations contributing 4 goals to a match that saw 12 in total.
 
@@ -21,11 +21,11 @@ Rukkas FC emerged 7-5 victors over Clutch FC after a competitive clash that show
 
 ### First Half
 
-The first half saw the Onside Game Changer activate at the 12th minute, generating 2 goals that set the tempo for the half. Rukkas FC shaded a competitive first period, taking their chances well.
+At the 12-minute mark, the Onside Game Changer came into effect, producing 2 goals in a frantic period of play. Rukkas FC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-The 1-on-1 Game Changer kicked in at the 27th minute of the second half and delivered 2 goals that shifted the momentum. The closing stages were nervy as Clutch FC threw everything forward, but Rukkas FC stood strong to claim the points. The 12-goal spectacle was one of the highest-scoring matches of Gameweek 1.
+The 1-on-1 Game Changer kicked in at the 27th minute of the second half, producing 2 goals at a crucial stage. Clutch FC pushed hard for an equaliser but Rukkas FC held firm, with Rukkas FC defending resolutely to protect their lead. The 12-goal spectacle was one of the highest-scoring matches of Gameweek 1.
 
 ---
 

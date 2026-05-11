@@ -1,5 +1,5 @@
 ---
-title: "Prime FC Cruise Past Clutch FC in 6-2 Rout — GW3"
+title: "Prime FC Overpower Clutch FC 6-2 in Dominant Display — GW3"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "Prime FC 6-2 Clutch FC — Gameweek 3 match report. Francis Gerard Mampolo (14 goals) leads Prime FC's attack. Game Changers: 3Play (2) & 1-on-1 (2). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -22,11 +22,11 @@ Prime FC controlled proceedings from start to finish, running out 6-2 winners in
 
 ### First Half
 
-The 3Play Game Changer kicked in at the 12th minute, generating 2 goals that set the tempo for the half. Prime FC flew out of the blocks, overwhelming Clutch FC with wave after wave of attacks.
+The first half saw the 3Play Game Changer activate at the 12th minute, generating 2 goals that set the tempo for the half. Prime FC flew out of the blocks, overwhelming Clutch FC with wave after wave of attacks.
 
 ### Second Half
 
-At the 27-minute mark, the 1-on-1 Game Changer came into play, producing 2 goals at a crucial stage. Prime FC managed the game superbly after the interval, seeing out a professional victory.
+At the 27-minute mark, the 1-on-1 Game Changer came into play, adding 2 goals and injecting fresh energy into the contest. Prime FC maintained their grip on the match throughout the second period to secure a comfortable win.
 
 ---
 

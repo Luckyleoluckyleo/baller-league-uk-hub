@@ -4,6 +4,7 @@ import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUT_PATH = resolve(__dirname, "..", "src", "data", "gamechangers.json");
+const FIXTURES_PATH = resolve(__dirname, "..", "src", "data", "fixtures.json");
 const PLAYERS_PATH = resolve(__dirname, "..", "src", "data", "players.json");
 const CACHE_DIR = resolve(__dirname, ".cache");
 if (!existsSync(CACHE_DIR)) mkdirSync(CACHE_DIR, { recursive: true });
@@ -193,6 +194,26 @@ function parseMatch(html, gameId) {
   if (!gwM) return null;
   const gameday = parseInt(gwM[1]);
 
+  // Parse match date/time
+  const dateM = html.match(/<p class="bl-gameday-date[^"]*">\s*(.+?)\s*<\/p>/);
+  const timeM = html.match(/<p class="bl-gameday-hour[^"]*">\s*(.+?)\s*<\/p>/);
+  const rawDate = dateM ? dateM[1].trim() : null;
+  const rawTime = timeM ? timeM[1].trim() : null;
+
+  // "MONDAY 16 MARCH" -> "16 Mar 2026"
+  let matchDate = null;
+  if (rawDate) {
+    const months = { JANUARY: "Jan", FEBRUARY: "Feb", MARCH: "Mar", APRIL: "Apr", MAY: "May", JUNE: "Jun", JULY: "Jul", AUGUST: "Aug", SEPTEMBER: "Sep", OCTOBER: "Oct", NOVEMBER: "Nov", DECEMBER: "Dec" };
+    const parts = rawDate.split(/\s+/);
+    if (parts.length >= 3) {
+      const day = parts[1];
+      const month = months[parts[2].toUpperCase()] || parts[2];
+      matchDate = `${day} ${month} 2026`;
+    } else {
+      matchDate = rawDate;
+    }
+  }
+
   const scoreIdx = html.search(/>\s*\d{1,2}\s*-\s*\d{1,2}\s*</);
   const near = html.slice(Math.max(0, scoreIdx - 5000), Math.min(html.length, scoreIdx + 2000));
 
@@ -290,6 +311,7 @@ function parseMatch(html, gameId) {
     gc1, gc2, gc1Goals, gc2Goals,
     playerStats,
     goalscorers,
+    matchDate, matchTime: rawTime,
   };
 }
 
@@ -332,6 +354,7 @@ async function main() {
   console.log(`\nFound ${allIds.length} UK game IDs. Parsing...\n`);
 
   const matches = [];
+  const upcomingFixtures = [];
   for (let i = 0; i < allIds.length; i++) {
     const id = allIds[i];
     const html = await fetchHtml(id);
@@ -339,7 +362,16 @@ async function main() {
     const match = parseMatch(html, id);
     if (match) {
       if (match.homeScore === 0 && match.awayScore === 0 && !match.gc1 && !match.gc2) {
-        console.log(`  [${i + 1}/${allIds.length}] S${match.season} GW${String(match.gameweek).padStart(2, " ")} ${match.homeTeam} vs ${match.awayTeam} - UPCOMING, SKIPPING`);
+        // Only collect S3 upcoming fixtures
+        if (match.season === 3) {
+          upcomingFixtures.push({
+          gameweek: match.gameweek,
+          homeTeam: match.homeTeam, homeSlug: match.homeSlug, homeEmoji: match.homeEmoji,
+          awayTeam: match.awayTeam, awaySlug: match.awaySlug, awayEmoji: match.awayEmoji,
+          date: match.matchDate || "TBC",
+          time: match.matchTime || "TBC",
+        });
+        console.log(`  [${i + 1}/${allIds.length}] S${match.season} GW${String(match.gameweek).padStart(2, " ")} ${match.homeTeam} vs ${match.awayTeam} - UPCOMING${match.matchDate ? ` (${match.matchDate})` : ""}`);
         continue;
       }
       matches.push(match);
@@ -388,6 +420,8 @@ async function main() {
             minute: g.minute,
             player: g.player,
           })),
+          matchDate: m.matchDate || null,
+          matchTime: m.matchTime || null,
         })),
       }]),
     ),
@@ -395,15 +429,27 @@ async function main() {
 
   writeFileSync(OUT_PATH, JSON.stringify(output, null, 2));
 
+  // Sort upcoming by gameweek and write fixtures.json
+  upcomingFixtures.sort((a, b) => a.gameweek - b.gameweek);
+  const fixturesOutput = {
+    upcoming: upcomingFixtures,
+    results: [],
+  };
+  writeFileSync(FIXTURES_PATH, JSON.stringify(fixturesOutput, null, 2));
+
   const total = matches.length;
   const withGC = matches.filter((m) => m.gc1 && m.gc2).length;
   const withStats = matches.filter((m) => m.playerStats?.length > 0).length;
   const withGoalscorers = matches.filter((m) => m.goalscorers?.length > 0).length;
+  const withDates = matches.filter((m) => m.matchDate).length;
   console.log(`\nDone! ${total} matches across ${Object.keys(seasons).length} seasons`);
   console.log(`${withGC}/${total} with Gamechanger data (${total * 2} GC events)`);
   console.log(`${withStats}/${total} with player stats (${matches.reduce((s, m) => s + (m.playerStats?.length || 0), 0)} player entries)`);
   console.log(`${withGoalscorers}/${total} with goal scorer data (${matches.reduce((s, m) => s + (m.goalscorers?.length || 0), 0)} goal events)`);
+  console.log(`${withDates}/${total} with match dates`);
+  console.log(`${upcomingFixtures.length} upcoming fixtures written to fixtures.json`);
   console.log(`Output: ${OUT_PATH}`);
+  console.log(`Fixtures: ${FIXTURES_PATH}`);
 }
 
 main().catch((e) => { console.error("Fatal:", e.message); process.exit(1); });

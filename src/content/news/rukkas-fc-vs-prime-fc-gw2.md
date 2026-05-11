@@ -1,5 +1,5 @@
 ---
-title: "Prime FC Cruise Past Rukkas FC in 3-8 Rout — GW2"
+title: "Prime FC Overpower Rukkas FC 3-8 in Dominant Display — GW2"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "Rukkas FC 3-8 Prime FC — Gameweek 2 match report. David Oupoh (5 goals) leads Rukkas FC's attack. Game Changers: Plus One (4) & 1-on-1 (2). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,7 +9,7 @@ featured: true
 
 ## Match Summary — Rukkas FC 3-8 Prime FC
 
-Gameweek 2 brought Rukkas FC and Prime FC together at Baller Arena, where 6th-placed Rukkas FC looked to upset 3rd-placed Prime FC.
+Rukkas FC and Prime FC faced off at Baller Arena, where 6th-placed Rukkas FC looked to upset 3rd-placed Prime FC.
 
 Prime FC produced a statement performance, dismantling Rukkas FC 3-8 with a ruthless attacking display that will send a message to the rest of the league. The Game Changer period played a key role, with the Plus One and 1-on-1 activations contributing 6 goals to a match that saw 11 in total.
 
@@ -22,11 +22,11 @@ Prime FC produced a statement performance, dismantling Rukkas FC 3-8 with a ruth
 
 ### First Half
 
-The first half saw the Plus One Game Changer activate at the 12th minute, generating 4 goals that set the tempo for the half. Prime FC flew out of the blocks, overwhelming Rukkas FC with wave after wave of attacks.
+At the 12-minute mark, the Plus One Game Changer came into effect, producing 4 goals in a frantic period of play. Prime FC seized the initiative early and never looked back, building a commanding lead.
 
 ### Second Half
 
-The 1-on-1 Game Changer kicked in at the 27th minute of the second half and delivered 2 goals that shifted the momentum. Prime FC continued their onslaught, putting the game well beyond Rukkas FC's reach in a relentless second-half showing. The 11-goal spectacle was one of the highest-scoring matches of Gameweek 2.
+The 1-on-1 Game Changer kicked in at the 27th minute of the second half, adding 2 goals and injecting fresh energy into the contest. Prime FC showed no mercy after the break, piling on the goals to complete a resounding victory. The 11-goal spectacle was one of the highest-scoring matches of Gameweek 2.
 
 ---
 

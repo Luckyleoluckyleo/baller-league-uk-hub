@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Clutch FC 3-6 NDL FC
 
-Clutch FC and NDL FC faced off at Baller Arena in a top-of-the-table showdown, with Clutch FC sitting 3rd and NDL FC 2nd.
+All eyes were on Baller Arena as Clutch FC met NDL FC in a top-of-the-table showdown, with Clutch FC sitting 3rd and NDL FC 2nd.
 
-NDL FC controlled proceedings from start to finish, running out 3-6 winners in a performance that underlined their quality. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 5 goals to a match that saw 9 in total.
+NDL FC proved too strong for Clutch FC, taking a convincing 3-6 victory that never looked in doubt. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 5 goals to a match that saw 9 in total.
 
 **Clutch FC form (before GW7):** ✅ ✅ ✅ ✅ ❌ (W-W-W-W-L)  
 **NDL FC form (before GW7):** ❌ ❌ ❌ ✅ ✅ (L-L-L-W-W)
@@ -22,11 +22,11 @@ NDL FC controlled proceedings from start to finish, running out 3-6 winners in a
 
 ### First Half
 
-The first half saw the 3Play Game Changer activate at the 12th minute, producing 2 goals in a frantic period of play. NDL FC flew out of the blocks, overwhelming Clutch FC with wave after wave of attacks.
+The first half saw the 3Play Game Changer activate at the 12th minute and the teams made it count with 2 goals being scored. NDL FC seized the initiative early and never looked back, building a commanding lead.
 
 ### Second Half
 
-At the 27-minute mark, the 1-on-1 Game Changer came into play, adding 3 goals and injecting fresh energy into the contest. NDL FC maintained their grip on the match throughout the second period to secure a comfortable win.
+The 1-on-1 Game Changer activated at the 27th minute, adding 3 goals and injecting fresh energy into the contest. NDL FC maintained their grip on the match throughout the second period to secure a comfortable win.
 
 ---
 

@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Wembley Rangers AFC 3-3 VZN FC
 
-All eyes were on Baller Arena as Wembley Rangers AFC met VZN FC, two sides looking to climb the table from 5th and 7th respectively.
+Wembley Rangers AFC took on VZN FC in a Gameweek 3 clash, two sides looking to climb the table from 5th and 7th respectively.
 
 Wembley Rangers AFC and VZN FC played out a thrilling 3-3 draw in a match where neither side deserved to lose. The 6 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through 3Play and The Line.
 
@@ -26,7 +26,7 @@ The first half saw the 3Play Game Changer activate at the 12th minute, producing
 
 ### Second Half
 
-At the 27-minute mark, the The Line Game Changer came into play, but neither side could capitalise on the modified rules. Despite late pressure, neither team could find the decisive goal and the spoils were shared.
+At the 27-minute mark, the The Line Game Changer came into play, though the goals dried up as the match wore on. Despite late pressure, neither team could find the decisive goal and the spoils were shared.
 
 ---
 

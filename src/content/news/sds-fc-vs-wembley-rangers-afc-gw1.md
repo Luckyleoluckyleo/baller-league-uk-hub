@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — SDS FC 3-2 Wembley Rangers AFC
 
-SDS FC and Wembley Rangers AFC faced off at Baller Arena
+SDS FC took on Wembley Rangers AFC in a Gameweek 1 clash
 
-SDS FC scraped a hard-fought 3-2 win over Wembley Rangers AFC in a match where fine margins proved decisive. The Game Changer period played a key role, with the Plus One and The Line activations contributing 2 goals to a match that saw 5 in total.
+SDS FC edged past Wembley Rangers AFC 3-2 in a nail-biting encounter that could have gone either way. The Game Changer period played a key role, with the Plus One and The Line activations contributing 2 goals to a match that saw 5 in total.
 
 
 
@@ -21,11 +21,11 @@ SDS FC scraped a hard-fought 3-2 win over Wembley Rangers AFC in a match where f
 
 ### First Half
 
-At the 12-minute mark, the Plus One Game Changer came into effect and the teams made it count with 1 goal being scored. SDS FC edged the opening exchanges with a more clinical edge in front of goal.
+The first half saw the Plus One Game Changer activate at the 12th minute, producing 1 goal in a frantic period of play. SDS FC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-At the 27-minute mark, the The Line Game Changer came into play, adding 1 goal and injecting fresh energy into the contest. The closing stages were nervy as Wembley Rangers AFC threw everything forward, but SDS FC stood strong to claim the points.
+The The Line Game Changer activated at the 27th minute, producing 1 goal at a crucial stage. Wembley Rangers AFC pushed hard for an equaliser, with SDS FC defending resolutely to protect their lead.
 
 ---
 
@@ -160,10 +160,10 @@ This was the **first ever competitive meeting** between SDS FC and Wembley Range
 ## What's Next
 
 ### SDS FC
-SDS FC await confirmation of their next fixture.
+SDS FC face **Yanited** in Gameweek 10. This will be another crucial fixture as the season enters its decisive phase.
 
 ### Wembley Rangers AFC
-Wembley Rangers AFC await confirmation of their next fixture.
+Wembley Rangers AFC take on **Clutch FC** in Gameweek 10. They will be looking to bounce back and keep their season on track.
 
 
 
