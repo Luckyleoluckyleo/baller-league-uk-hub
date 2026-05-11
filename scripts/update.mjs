@@ -34,9 +34,6 @@ run("node scripts/generate-reports.mjs", "4/7 Generating match reports");
 run("node scripts/generate-previews.mjs", "5/7 Generating fixture previews");
 run("node scripts/generate-og.mjs", "6/7 Generating OG image");
 
-console.log("\n⚠  Don't forget to manually update:");
-console.log("   src/data/fixtures.json — next gameweek fixtures");
-
 run("npm run build", "7/7 Building site + sitemap");
 
 console.log("\n✓ All done! Site ready in dist/");
