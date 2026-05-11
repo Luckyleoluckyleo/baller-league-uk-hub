@@ -1,30 +1,38 @@
 ---
-title: "Yanited and Gold Devils FC Battle to Draw with 2-2 in Gameweek 7"
-date: 2026-05-09
+title: "Yanited and Gold Devils FC Play Out 2-2 Draw in Gameweek 7"
+date: 2026-05-11
 category: "Match Report"
-excerpt: "Yanited 2-2 Gold Devils FC — Gameweek 7 match report. Kadell Daniel (7 goals) leads Yanited's attack. Game Changers: Onside (2) & Fairplay (0). Read the full match report, player stats and table impact."
+excerpt: "Yanited 2-2 Gold Devils FC — Gameweek 7 match report. Kadell Daniel (7 goals) leads Yanited's attack. Game Changers: Onside (2) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: false
 ---
 
 ## Match Summary — Yanited 2-2 Gold Devils FC
 
-Yanited and Gold Devils FC played out an entertaining 2-2 draw at Baller Arena. Yanited came into the match sitting 6th in the table, while Gold Devils FC were 8th.
+Gameweek 7 brought Yanited and Gold Devils FC together at Baller Arena, two sides looking to climb the table from 7th and 11th respectively.
 
-**Yanited form:** ❌ ❌ ✅ ✅ ✅ (L-L-W-W-W)  
-**Gold Devils FC form:** ❌ ❌ ✅ ❌ ✅ (L-L-W-L-W)
+Yanited and Gold Devils FC could not be separated as they battled to a 2-2 stalemate at Baller Arena. The 4 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through Onside and Fairplay.
 
-## First Half
+**Yanited form (before GW7):** ❌ ✅ ❌ ✅ 🤝 (L-W-L-W-D)  
+**Gold Devils FC form (before GW7):** ❌ ❌ ✅ ❌ ✅ (L-L-W-L-W)
 
-The first half saw the Onside Game Changer activate at the 12th minute, producing 2 goals. The sides went into the break level with an attacking display that set the tone for the match.
+---
 
-## Second Half
+## How the Match Unfolded
 
-The Fairplay Game Changer kicked in at the 27th minute, but goals proved hard to come by. Neither side could find a winner as the match ended all square.
+### First Half
 
-## The Game Changer ⚡
+At the 12-minute mark, the Onside Game Changer came into effect, producing 2 goals in a frantic period of play. The two sides were inseparable at the break, with the contest finely poised.
 
-The Game Changer brought 2 goals across both activations. The 1st half Onside produced 2 goals.
+### Second Half
+
+The Fairplay Game Changer activated at the 27th minute, but neither side could capitalise on the modified rules. Despite late pressure, neither team could find the decisive goal and the spoils were shared.
+
+---
+
+## Game Changer Impact — Onside & Fairplay
+
+The Game Changer period proved influential in this match, with the Onside and Fairplay activations combining for 2 goals — accounting for 50% of the match's total scoring.
 
 | GC Activation | Type | Goals |
 |---------------|------|-------|
@@ -32,67 +40,101 @@ The Game Changer brought 2 goals across both activations. The 1st half Onside pr
 | 2nd Half (27') | Fairplay | 0 |
 | **Total** | | **2** |
 
+The Game Changer period brought a modest 2 goals, with the modified rules creating chances but not overwhelming the flow of the match. This was more about tactical adjustments than the chaos that sometimes defines GC activations.
 
+---
 
-## Key Players
+## Key Players & Season Stats
 
 ### Yanited — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kadell Daniel | 7 | 3 | 0 |
-| Tyrell Miller-Rodney | 6 | 2 | 0 |
-| John Bostock | 4 | 1 | 0 |
-
+| Kadell Daniel | 7 | 3 | 5 |
+| Tyrell Miller-Rodney | 6 | 2 | 7 |
+| John Bostock | 4 | 1 | 6 |
+| Paul-José M&#039;Poku | 2 | 2 | 7 |
+| Nathan Oduwa | 1 | 2 | 7 |
 
 ### Gold Devils FC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Bilal Sayoud | 7 | 7 | 0 |
-| Salim Nassor | 4 | 2 | 0 |
-| Luqman Kassim | 3 | 0 | 0 |
+| Bilal Sayoud | 7 | 7 | 8 |
+| Salim Nassor | 4 | 2 | 7 |
+| Luqman Kassim | 3 | 0 | 5 |
+| Jahvarn Stewart | 2 | 0 | 0 |
+| Arezki Hamouchene | 1 | 0 | 3 |
+
+**Key Attacking Threats**
+
+- **Kadell Daniel** — Yanited's leading marksman with 7 goals in 5 appearances, plus 3 assists. One of the most consistent finishers in the league. 
+- **Bilal Sayoud** — Gold Devils FC's top scorer with 7 goals and 7 assists from 8 outings. A reliable source of goals for his side. 
 
 
-**Kadell Daniel** leads Yanited with 7 goals in 0 appearances this season.
-  
-**Bilal Sayoud** is Gold Devils FC's top marksman with 7 goals.
+---
 
-## Head-to-Head
+## Season Context
 
-This was the first ever meeting between Yanited and Gold Devils FC.
+**Yanited** came into this fixture averaging **3.2 goals per game** (55 total from 7 matches), with room for improvement in the final third. **Gold Devils FC** arrived averaging **2.3 goals per game** (21 total), looking to find a sharper edge in front of goal. 
+
+With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
+
+With just **4 gameweeks remaining** in the regular season, every point was vital. 
+
+---
+
+## Head-to-Head History
+
+This was the **first ever competitive meeting** between Yanited and Gold Devils FC — a historic occasion that adds a new chapter to the Baller League record books.
 
 
+
+---
 
 ## Table Impact
 
-Yanited climbed from 6th to 5th in the table.
-Gold Devils FC slipped from 8th to 9th.
+| Team | Before GW7 | After GW7 | Change |
+|------|-------------|-------------|--------|
+| Yanited | 7th | 5th | Yanited climbed from 7th to 5th. |
+| Gold Devils FC | 11th | 10th | Gold Devils FC climbed from 11th to 10th. |
 
-## Match Stats
 
-| | Yanited | Gold Devils FC |
-|---|-------|--------------|
+---
+
+## Match Stats at a Glance
+
+| Stat | Yanited | Gold Devils FC |
+|------|---------|----------------|
 | Goals | 2 | 2 |
 | GC Goals | 2 | 2 |
+| GC 1st Half (Onside) | 2 | 2 |
+| GC 2nd Half (Fairplay) | 0 | 0 |
 
-## Talking Points
+---
 
-- This was Gameweek 7 at Baller Arena, featuring Onside and Fairplay Game Changers
-- The points were shared after a closely-fought draw
-- **Kadell Daniel** is Yanited's standout performer with 7 goals
-- **Bilal Sayoud** continues to lead the line for Gold Devils FC with 7 goals
-- 2 goals came from Game Changer activations
+## Match Facts
 
+- This was a Gameweek 7 fixture at Baller Arena
+- The Game Changers selected were Onside and Fairplay
+- Kadell Daniel leads Yanited with 7 goals this season
+- Bilal Sayoud tops Gold Devils FC's scoring charts with 7 goals
+- 2 of the 4 goals (50%) came from Game Changer activations
 
-
+---
 
 ## What's Next
 
-Yanited await their next fixture.
-  
-Gold Devils FC await their next fixture.
+### Yanited
+Yanited await confirmation of their next fixture.
+
+### Gold Devils FC
+Gold Devils FC await confirmation of their next fixture.
+
+
 
 ---
 
 *All stats via [Baller League UK Hub](https://ballerleagueukhub.com). Match reports auto-generated from official data.*
+
+*Looking for more Gameweek 7 coverage? Check out the [full GW7 roundup](/roundup/7) for all 6 matches, stats, and analysis.*

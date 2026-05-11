@@ -1,30 +1,38 @@
 ---
-title: "Deportrio Beat Prime FC 8-6 in Gameweek 8"
-date: 2026-05-09
+title: "Deportrio See Off Prime FC 8-6 in Gameweek 8"
+date: 2026-05-11
 category: "Match Report"
-excerpt: "Deportrio 8-6 Prime FC — Gameweek 8 match report. Jay Emmanuel-Thomas (15 goals) leads Deportrio's attack. Game Changers: 3Play (5) & The Line (2). Read the full match report, player stats and table impact."
+excerpt: "Deportrio 8-6 Prime FC — Gameweek 8 match report. Jay Emmanuel-Thomas (15 goals) leads Deportrio's attack. Game Changers: 3Play (5) & The Line (2). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: true
 ---
 
 ## Match Summary — Deportrio 8-6 Prime FC
 
-Deportrio defeated Prime FC 8-6 at Baller Arena in Gameweek 8. Deportrio came into the match sitting 4th in the table, while Prime FC were 2nd.
+The Gameweek 8 schedule pitted Deportrio against Prime FC, with Deportrio sitting 4th and looking to strengthen their playoff push against 7th-placed Prime FC.
 
-**Deportrio form:** 🤝 ✅ ✅ ✅ ❌ (D-W-W-W-L)  
-**Prime FC form:** ✅ ✅ 🤝 ❌ ✅ (W-W-D-L-W)
+Deportrio emerged 8-6 victors over Prime FC after a competitive clash that showcased the best of Baller League football. The Game Changer period played a key role, with the 3Play and The Line activations contributing 7 goals to a match that saw 14 in total.
 
-## First Half
+**Deportrio form (before GW8):** ✅ 🤝 🤝 ✅ ✅ (W-D-D-W-W)  
+**Prime FC form (before GW8):** ✅ ✅ 🤝 ❌ ✅ (W-W-D-L-W)
 
-The first half saw the 3Play Game Changer activate at the 12th minute, producing 5 goals. Deportrio established control early with an attacking display that set the tone for the match.
+---
 
-## Second Half
+## How the Match Unfolded
 
-The Line Game Changer kicked in at the 27th minute, adding 2 goals to the game. Deportrio cruised to a 2-goal victory.
+### First Half
 
-## The Game Changer ⚡
+The 3Play Game Changer kicked in at the 12th minute, generating 5 goals that set the tempo for the half. Deportrio edged the opening exchanges with a more clinical edge in front of goal.
 
-The Game Changer period exploded with 7 goals across both activations. The 1st half 3Play produced 5 goals. The Line added 2 more in the 2nd half.
+### Second Half
+
+The The Line Game Changer activated at the 27th minute, producing 2 goals at a crucial stage. The closing stages were nervy as Prime FC threw everything forward, but Deportrio stood strong to claim the points. The 14-goal spectacle was one of the highest-scoring matches of Gameweek 8.
+
+---
+
+## Game Changer Impact — 3Play & The Line
+
+The Game Changer period proved decisive in this match, with the 3Play and The Line activations combining for 7 goals — accounting for 50% of the match's total scoring.
 
 | GC Activation | Type | Goals |
 |---------------|------|-------|
@@ -32,67 +40,103 @@ The Game Changer period exploded with 7 goals across both activations. The 1st h
 | 2nd Half (27') | The Line | 2 |
 | **Total** | | **7** |
 
-The Game Changers proved decisive with a high-scoring 7 goals contributing heavily to the outcome.
+The Game Changer period exploded into life, with the 3Play activation proving particularly devastating. Matches where the Game Changer produces this volume of goals often become instant classics, and this was no exception. The high-scoring nature of the GC period meant the usual tactical calculations went out the window, with both teams forced to adapt on the fly.
 
-## Key Players
+---
+
+## Key Players & Season Stats
 
 ### Deportrio — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Jay Emmanuel-Thomas | 15 | 6 | 0 |
-| Sahid Kamara | 7 | 2 | 0 |
-| J&#039;ardell Stirling | 2 | 3 | 0 |
-
+| Jay Emmanuel-Thomas | 15 | 6 | 8 |
+| Sahid Kamara | 7 | 2 | 5 |
+| J&#039;ardell Stirling | 2 | 3 | 8 |
+| Marvin Sordell | 2 | 1 | 6 |
+| Amine Sassi | 1 | 2 | 8 |
 
 ### Prime FC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Francis Gerard Mampolo | 14 | 3 | 0 |
-| Bráulio Valera Pinto Maieco | 8 | 0 | 0 |
-| Timmy Abraham | 7 | 2 | 0 |
+| Francis Gerard Mampolo | 14 | 3 | 8 |
+| Bráulio Valera Pinto Maieco | 8 | 0 | 8 |
+| Timmy Abraham | 7 | 2 | 8 |
+| Ergys Pepaj | 6 | 2 | 8 |
+| Sak Hassan | 5 | 4 | 7 |
+
+**Key Attacking Threats**
+
+- **Jay Emmanuel-Thomas** — Deportrio's leading marksman with 15 goals in 8 appearances, plus 6 assists. One of the most consistent finishers in the league. 
+- **Francis Gerard Mampolo** — Prime FC's top scorer with 14 goals and 3 assists from 8 outings. A reliable source of goals for his side. 
 
 
-**Jay Emmanuel-Thomas** leads Deportrio with 15 goals in 0 appearances this season.
-  
-**Francis Gerard Mampolo** is Prime FC's top marksman with 14 goals.
+---
 
-## Head-to-Head
+## Season Context
 
-This was the first ever meeting between Deportrio and Prime FC.
+**Deportrio** came into this fixture averaging **4.4 goals per game** (75 total from 8 matches), with room for improvement in the final third. **Prime FC** arrived averaging **5.2 goals per game** (47 total), looking to find a sharper edge in front of goal. 
+
+With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
+
+With just **3 gameweeks remaining** in the regular season, every point was vital. Deportrio — sitting 4th — are locked in a battle for the Final Four playoff spots. 
+
+---
+
+## Head-to-Head History
+
+This was the **first ever competitive meeting** between Deportrio and Prime FC — a historic occasion that adds a new chapter to the Baller League record books.
 
 
+
+---
 
 ## Table Impact
 
-Deportrio climbed from 4th to 3rd in the table.
-Prime FC stay 2nd in the standings.
+| Team | Before GW8 | After GW8 | Change |
+|------|-------------|-------------|--------|
+| Deportrio | 4th | 4th | Deportrio remained 4th in the table. |
+| Prime FC | 7th | 8th | Prime FC dropped from 7th to 8th. |
 
-## Match Stats
 
-| | Deportrio | Prime FC |
-|---|---------|--------|
+---
+
+## Match Stats at a Glance
+
+| Stat | Deportrio | Prime FC |
+|------|-----------|----------|
 | Goals | 8 | 6 |
 | GC Goals | 7 | 7 |
+| GC 1st Half (3Play) | 5 | 5 |
+| GC 2nd Half (The Line) | 2 | 2 |
 
-## Talking Points
+---
 
-- This was Gameweek 8 at Baller Arena, featuring 3Play and The Line Game Changers
-- Deportrio took all 3 points
-- **Jay Emmanuel-Thomas** is Deportrio's standout performer with 15 goals
-- **Francis Gerard Mampolo** continues to lead the line for Prime FC with 14 goals
-- 7 goals came from Game Changer activations
+## Match Facts
 
-- A high-scoring thriller with 14 total goals
+- This was a Gameweek 8 fixture at Baller Arena
+- The Game Changers selected were 3Play and The Line
+- This 14-goal thriller was one of the highest-scoring matches of Gameweek 8
+- The Game Changer period produced an extraordinary 7 goals
+- Jay Emmanuel-Thomas leads Deportrio with 15 goals this season
+- Francis Gerard Mampolo tops Prime FC's scoring charts with 14 goals
+- 7 of the 14 goals (50%) came from Game Changer activations
 
+---
 
 ## What's Next
 
-Deportrio await their next fixture.
-  
-Prime FC await their next fixture.
+### Deportrio
+Deportrio await confirmation of their next fixture.
+
+### Prime FC
+Prime FC await confirmation of their next fixture.
+
+
 
 ---
 
 *All stats via [Baller League UK Hub](https://ballerleagueukhub.com). Match reports auto-generated from official data.*
+
+*Looking for more Gameweek 8 coverage? Check out the [full GW8 roundup](/roundup/8) for all 6 matches, stats, and analysis.*

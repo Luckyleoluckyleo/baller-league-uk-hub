@@ -1,30 +1,38 @@
 ---
-title: "SDS FC Dominate Community FC 3-7 in Gameweek 3"
-date: 2026-05-09
+title: "SDS FC Overpower Community FC 3-7 in Dominant Display — GW3"
+date: 2026-05-11
 category: "Match Report"
-excerpt: "Community FC 3-7 SDS FC — Gameweek 3 match report. Alex Byrne (8 goals) leads Community FC's attack. Game Changers: Onside (0) & 1-on-1 (5). Read the full match report, player stats and table impact."
+excerpt: "Community FC 3-7 SDS FC — Gameweek 3 match report. Alex Byrne (8 goals) leads Community FC's attack. Game Changers: Onside (0) & 1-on-1 (5). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: true
 ---
 
 ## Match Summary — Community FC 3-7 SDS FC
 
-SDS FC dominated Community FC 3-7 at Baller Arena in Gameweek 3 in an emphatic display. Community FC came into the match sitting 12th in the table, while SDS FC were 2nd.
+Community FC and SDS FC faced off at Baller Arena, where 12th-placed Community FC looked to upset 2nd-placed SDS FC.
 
-**Community FC form:** ❌ ❌ (L-L)  
-**SDS FC form:** ✅ ✅ (W-W)
+SDS FC controlled proceedings from start to finish, running out 3-7 winners in a performance that underlined their quality. The Game Changer period played a key role, with the Onside and 1-on-1 activations contributing 5 goals to a match that saw 10 in total.
 
-## First Half
+**Community FC form (before GW3):** ❌ ❌ (L-L)  
+**SDS FC form (before GW3):** 🤝 ✅ 🤝 ✅ (D-W-D-W)
 
-The first half saw the Onside Game Changer activate at the 12th minute but neither side could capitalise. SDS FC established control early with an attacking display that set the tone for the match.
+---
 
-## Second Half
+## How the Match Unfolded
 
-1-on-1 Game Changer kicked in at the 27th minute, adding 5 goals to the game. SDS FC cruised to a 4-goal victory.
+### First Half
 
-## The Game Changer ⚡
+The first half saw the Onside Game Changer activate at the 12th minute, though goals proved elusive as both defences held firm. SDS FC seized the initiative early and never looked back, building a commanding lead.
 
-The Game Changer period erupted into life with 5 goals across both activations. 1-on-1 added 5 more in the 2nd half.
+### Second Half
+
+At the 27-minute mark, the 1-on-1 Game Changer came into play, producing 5 goals at a crucial stage. SDS FC managed the game superbly after the interval, seeing out a professional victory. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 3.
+
+---
+
+## Game Changer Impact — Onside & 1-on-1
+
+The Game Changer period proved decisive in this match, with the Onside and 1-on-1 activations combining for 5 goals — accounting for 50% of the match's total scoring.
 
 | GC Activation | Type | Goals |
 |---------------|------|-------|
@@ -32,67 +40,102 @@ The Game Changer period erupted into life with 5 goals across both activations. 
 | 2nd Half (27') | 1-on-1 | 5 |
 | **Total** | | **5** |
 
-The Game Changers proved decisive with a high-scoring 5 goals contributing heavily to the outcome.
+The Game Changers provided a genuine spectacle, with both activations contributing meaningfully to the scoreline. The second-half 1-on-1 was the more impactful of the two, and the teams' approaches to managing these periods proved crucial to the outcome.
 
-## Key Players
+---
+
+## Key Players & Season Stats
 
 ### Community FC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Alex Byrne | 8 | 6 | 0 |
-| Keane Joyce | 3 | 0 | 0 |
-| Matthew Waller | 3 | 0 | 0 |
-
+| Alex Byrne | 8 | 6 | 7 |
+| Keane Joyce | 3 | 0 | 8 |
+| Matthew Waller | 3 | 0 | 8 |
+| Tawab Djankpata | 2 | 2 | 6 |
+| Callum Charlton | 1 | 0 | 6 |
 
 ### SDS FC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Connor Wood | 6 | 2 | 0 |
-| Kazaiah Sterling | 5 | 4 | 0 |
-| Camilo Restrepo | 4 | 1 | 0 |
+| Connor Wood | 6 | 2 | 8 |
+| Kazaiah Sterling | 5 | 4 | 8 |
+| Camilo Restrepo | 4 | 1 | 7 |
+| Joshua Abbott | 4 | 2 | 8 |
+| Danny Bassett | 3 | 1 | 8 |
+
+**Key Attacking Threats**
+
+- **Alex Byrne** — Community FC's leading marksman with 8 goals in 7 appearances, plus 6 assists. One of the most consistent finishers in the league. 
+- **Connor Wood** — SDS FC's top scorer with 6 goals and 2 assists from 8 outings. A reliable source of goals for his side. 
 
 
-**Alex Byrne** leads Community FC with 8 goals in 0 appearances this season.
-  
-**Connor Wood** is SDS FC's top marksman with 6 goals.
+---
 
-## Head-to-Head
+## Season Context
 
-This was the first ever meeting between Community FC and SDS FC.
+**Community FC** came into this fixture averaging **2.6 goals per game** (23 total from 3 matches), with room for improvement in the final third. **SDS FC** arrived averaging **3.2 goals per game** (54 total), looking to find a sharper edge in front of goal. 
+
+With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
+
+With just **8 gameweeks remaining** in the regular season, every point was vital. SDS FC — 2nd before kick-off — look strong contenders for the Final Four. 
+
+---
+
+## Head-to-Head History
+
+This was the **first ever competitive meeting** between Community FC and SDS FC — a historic occasion that adds a new chapter to the Baller League record books.
 
 
+
+---
 
 ## Table Impact
 
-Community FC stay 12th in the standings.
-SDS FC stay 2nd in the standings.
+| Team | Before GW3 | After GW3 | Change |
+|------|-------------|-------------|--------|
+| Community FC | 12th | 12th | Community FC remained 12th in the table. |
+| SDS FC | 2nd | 2nd | SDS FC remained 2nd in the table. |
 
-## Match Stats
 
-| | Community FC | SDS FC |
-|---|------------|------|
+---
+
+## Match Stats at a Glance
+
+| Stat | Community FC | SDS FC |
+|------|--------------|--------|
 | Goals | 3 | 7 |
 | GC Goals | 5 | 5 |
+| GC 1st Half (Onside) | 0 | 0 |
+| GC 2nd Half (1-on-1) | 5 | 5 |
 
-## Talking Points
+---
 
-- This was Gameweek 3 at Baller Arena, featuring Onside and 1-on-1 Game Changers
-- SDS FC took all 3 points
-- **Alex Byrne** is Community FC's standout performer with 8 goals
-- **Connor Wood** continues to lead the line for SDS FC with 6 goals
-- 5 goals came from Game Changer activations
+## Match Facts
 
-- A high-scoring thriller with 10 total goals
+- This was a Gameweek 3 fixture at Baller Arena
+- The Game Changers selected were Onside and 1-on-1
+- This 10-goal thriller was one of the highest-scoring matches of Gameweek 3
+- Alex Byrne leads Community FC with 8 goals this season
+- Connor Wood tops SDS FC's scoring charts with 6 goals
+- 5 of the 10 goals (50%) came from Game Changer activations
 
+---
 
 ## What's Next
 
-Community FC await their next fixture.
-  
-SDS FC await their next fixture.
+### Community FC
+Community FC await confirmation of their next fixture.
+
+### SDS FC
+SDS FC await confirmation of their next fixture.
+
+
 
 ---
 
 *All stats via [Baller League UK Hub](https://ballerleagueukhub.com). Match reports auto-generated from official data.*
+
+*Looking for more Gameweek 3 coverage? Check out the [full GW3 roundup](/roundup/3) for all 6 matches, stats, and analysis.*

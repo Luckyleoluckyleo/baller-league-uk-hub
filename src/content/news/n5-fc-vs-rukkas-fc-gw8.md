@@ -1,30 +1,38 @@
 ---
-title: "N5 FC Crush Rukkas FC 8-1 in Gameweek 8"
-date: 2026-05-09
+title: "N5 FC Run Riot Against Rukkas FC in 8-1 Demolition — GW8"
+date: 2026-05-11
 category: "Match Report"
-excerpt: "N5 FC 8-1 Rukkas FC — Gameweek 8 match report. Michael Hill (14 goals) leads N5 FC's attack. Game Changers: 3Play (3) & 1-on-1 (1). Read the full match report, player stats and table impact."
+excerpt: "N5 FC 8-1 Rukkas FC — Gameweek 8 match report. Michael Hill (14 goals) leads N5 FC's attack. Game Changers: 3Play (3) & 1-on-1 (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: false
 ---
 
 ## Match Summary — N5 FC 8-1 Rukkas FC
 
-N5 FC demolished Rukkas FC 8-1 at Baller Arena in Gameweek 8 in an emphatic display. N5 FC came into the match sitting 7th in the table, while Rukkas FC were 11th.
+The Gameweek 8 schedule pitted N5 FC against Rukkas FC, with N5 FC sitting 3rd and looking to strengthen their playoff push against 11th-placed Rukkas FC.
 
-**N5 FC form:** ✅ ✅ ❌ ❌ ✅ (W-W-L-L-W)  
-**Rukkas FC form:** ❌ ❌ ✅ ❌ ❌ (L-L-W-L-L)
+N5 FC produced a statement performance, dismantling Rukkas FC 8-1 with a ruthless attacking display that will send a message to the rest of the league. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 4 goals to a match that saw 9 in total.
 
-## First Half
+**N5 FC form (before GW8):** ✅ ✅ 🤝 ✅ ❌ (W-W-D-W-L)  
+**Rukkas FC form (before GW8):** ❌ ❌ ✅ ❌ ❌ (L-L-W-L-L)
 
-The first half saw the 3Play Game Changer activate at the 12th minute, producing 3 goals. N5 FC established control early with an attacking display that set the tone for the match.
+---
 
-## Second Half
+## How the Match Unfolded
 
-1-on-1 Game Changer kicked in at the 27th minute, adding 1 goal to the game. N5 FC cruised to a 7-goal victory.
+### First Half
 
-## The Game Changer ⚡
+The first half saw the 3Play Game Changer activate at the 12th minute, producing 3 goals in a frantic period of play. N5 FC seized the initiative early and never looked back, building a commanding lead.
 
-The Game Changer brought 4 goals across both activations. The 1st half 3Play produced 3 goals. 1-on-1 added 1 more in the 2nd half.
+### Second Half
+
+The 1-on-1 Game Changer kicked in at the 27th minute of the second half and delivered 1 goal that shifted the momentum. N5 FC showed no mercy after the break, piling on the goals to complete a resounding victory.
+
+---
+
+## Game Changer Impact — 3Play & 1-on-1
+
+The Game Changer period proved influential in this match, with the 3Play and 1-on-1 activations combining for 4 goals — accounting for 44% of the match's total scoring.
 
 | GC Activation | Type | Goals |
 |---------------|------|-------|
@@ -32,67 +40,113 @@ The Game Changer brought 4 goals across both activations. The 1st half 3Play pro
 | 2nd Half (27') | 1-on-1 | 1 |
 | **Total** | | **4** |
 
+The Game Changers provided a genuine spectacle, with both activations contributing meaningfully to the scoreline. The first-half 3Play was the more impactful of the two, and the teams' approaches to managing these periods proved crucial to the outcome.
 
+---
 
-## Key Players
+## Key Players & Season Stats
 
 ### N5 FC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Michael Hill | 14 | 6 | 0 |
-| Joe Bennett | 11 | 2 | 0 |
-| Jezreel Davies | 3 | 4 | 0 |
-
+| Michael Hill | 14 | 6 | 8 |
+| Joe Bennett | 11 | 2 | 8 |
+| Jezreel Davies | 3 | 4 | 8 |
+| Nile Ranger | 2 | 0 | 6 |
+| Ibrahim Ugradar | 1 | 2 | 8 |
 
 ### Rukkas FC — Top Scorers
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| David Oupoh | 5 | 1 | 0 |
-| Mussa Bham | 5 | 0 | 0 |
-| Zaid Al Hussaini | 3 | 4 | 0 |
+| David Oupoh | 5 | 1 | 8 |
+| Mussa Bham | 5 | 0 | 8 |
+| Zaid Al Hussaini | 3 | 4 | 8 |
+| Emmanuel Robe | 2 | 3 | 8 |
+| Osman Ali | 2 | 2 | 8 |
+
+**Key Attacking Threats**
+
+- **Michael Hill** — N5 FC's leading marksman with 14 goals in 8 appearances, plus 6 assists. One of the most consistent finishers in the league. 
+- **David Oupoh** — Rukkas FC's top scorer with 5 goals and 1 assists from 8 outings. A reliable source of goals for his side. 
 
 
-**Michael Hill** leads N5 FC with 14 goals in 0 appearances this season.
-  
-**David Oupoh** is Rukkas FC's top marksman with 5 goals.
+---
 
-## Head-to-Head
+## Season Context
 
-This was the first ever meeting between N5 FC and Rukkas FC.
+**N5 FC** came into this fixture averaging **3.9 goals per game** (67 total from 8 matches), with room for improvement in the final third. **Rukkas FC** arrived averaging **3.5 goals per game** (59 total), looking to find a sharper edge in front of goal. 
+
+With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
+
+With just **3 gameweeks remaining** in the regular season, every point was vital. N5 FC — sitting 3rd — are locked in a battle for the Final Four playoff spots. 
+
+---
+
+## Head-to-Head History
+
+N5 FC and Rukkas FC had faced each other **1 time** prior to this match. N5 FC held the upper hand with **1 win** to Rukkas FC's 0, with 0 draws between them.
+
+| GW | Result |
+|-----|--------|
+| 7 | N5 FC 4-2 Rukkas FC |
 
 
+| Stat | N5 FC | Rukkas FC |
+|------|-------|-----------|
+| Wins in H2H | 1 | 0 |
+| Draws | 0 | 0 |
+| Goals Scored | 4 | 2 |
+
+
+
+---
 
 ## Table Impact
 
-N5 FC climbed from 7th to 5th in the table.
-Rukkas FC stay 11th in the standings.
+| Team | Before GW8 | After GW8 | Change |
+|------|-------------|-------------|--------|
+| N5 FC | 3rd | 3rd | N5 FC remained 3rd in the table. |
+| Rukkas FC | 11th | 11th | Rukkas FC remained 11th in the table. |
 
-## Match Stats
 
-| | N5 FC | Rukkas FC |
-|---|-----|---------|
+---
+
+## Match Stats at a Glance
+
+| Stat | N5 FC | Rukkas FC |
+|------|-------|-----------|
 | Goals | 8 | 1 |
 | GC Goals | 4 | 4 |
+| GC 1st Half (3Play) | 3 | 3 |
+| GC 2nd Half (1-on-1) | 1 | 1 |
 
-## Talking Points
+---
 
-- This was Gameweek 8 at Baller Arena, featuring 3Play and 1-on-1 Game Changers
-- N5 FC took all 3 points in dominant fashion
-- **Michael Hill** is N5 FC's standout performer with 14 goals
-- **David Oupoh** continues to lead the line for Rukkas FC with 5 goals
-- 4 goals came from Game Changer activations
-- This was N5 FC's biggest winning margin of the season
+## Match Facts
 
+- This was a Gameweek 8 fixture at Baller Arena
+- The Game Changers selected were 3Play and 1-on-1
+- The 7-goal winning margin was among the biggest of Gameweek 8
+- Michael Hill leads N5 FC with 14 goals this season
+- David Oupoh tops Rukkas FC's scoring charts with 5 goals
+- 4 of the 9 goals (44%) came from Game Changer activations
 
+---
 
 ## What's Next
 
-N5 FC await their next fixture.
-  
-Rukkas FC await their next fixture.
+### N5 FC
+N5 FC await confirmation of their next fixture.
+
+### Rukkas FC
+Rukkas FC await confirmation of their next fixture.
+
+
 
 ---
 
 *All stats via [Baller League UK Hub](https://ballerleagueukhub.com). Match reports auto-generated from official data.*
+
+*Looking for more Gameweek 8 coverage? Check out the [full GW8 roundup](/roundup/8) for all 6 matches, stats, and analysis.*
