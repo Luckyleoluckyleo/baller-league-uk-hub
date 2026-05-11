@@ -1,5 +1,5 @@
 ---
-title: "Wembley Rangers AFC and VZN FC Deadlocked at 3-3 in GW3"
+title: "Wembley Rangers AFC and VZN FC Play Out 3-3 Draw in Gameweek 3"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "Wembley Rangers AFC 3-3 VZN FC — Gameweek 3 match report. Callam Gardner (5 goals) leads Wembley Rangers AFC's attack. Game Changers: 3Play (2) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Wembley Rangers AFC 3-3 VZN FC
 
-Wembley Rangers AFC took on VZN FC in a Gameweek 3 clash, two sides looking to climb the table from 5th and 7th respectively.
+All eyes were on Baller Arena as Wembley Rangers AFC met VZN FC, two sides looking to climb the table from 5th and 7th respectively.
 
-Honours were even as Wembley Rangers AFC and VZN FC shared the spoils in an entertaining 3-3 draw. The 6 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through 3Play and The Line.
+Wembley Rangers AFC and VZN FC played out a thrilling 3-3 draw in a match where neither side deserved to lose. The 6 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through 3Play and The Line.
 
 **Wembley Rangers AFC form (before GW3):** 🤝 🤝 ✅ ❌ (D-D-W-L)  
 **VZN FC form (before GW3):** ✅ ❌ 🤝 🤝 (W-L-D-D)
@@ -22,11 +22,27 @@ Honours were even as Wembley Rangers AFC and VZN FC shared the spoils in an ente
 
 ### First Half
 
-At the 12-minute mark, the 3Play Game Changer came into effect and the teams made it count with 2 goals being scored. The two sides were inseparable at the break, with the contest finely poised.
+The first half saw the 3Play Game Changer activate at the 12th minute, producing 2 goals in a frantic period of play. The two sides were inseparable at the break, with the contest finely poised.
 
 ### Second Half
 
-The The Line Game Changer kicked in at the 27th minute of the second half, though the goals dried up as the match wore on. Both sides pushed for a winner but ultimately had to settle for a share of the points.
+At the 27-minute mark, the The Line Game Changer came into play, but neither side could capitalise on the modified rules. Despite late pressure, neither team could find the decisive goal and the spoils were shared.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Callam Gardner opened the scoring in the 10th minute. Further goals came from Callam Gardner (12'), Frankie Leonard (13'), Ben Long (16'), George Nikaj (23') and Daniel Bowry (24').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 10' | Callam Gardner | Wembley Rangers AFC |
+| 12' | Callam Gardner | Wembley Rangers AFC |
+| 13' | Frankie Leonard | VZN FC |
+| 16' | Ben Long | Wembley Rangers AFC |
+| 23' | George Nikaj | VZN FC |
+| 24' | Daniel Bowry | VZN FC |
+
 
 ---
 
@@ -41,6 +57,26 @@ The Game Changer period proved influential in this match, with the 3Play and The
 | **Total** | | **2** |
 
 The Game Changer period brought a modest 2 goals, with the modified rules creating chances but not overwhelming the flow of the match. This was more about tactical adjustments than the chaos that sometimes defines GC activations.
+
+---
+
+## Match Performers
+
+### Wembley Rangers AFC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Callam Gardner | 2 | 0 | 0 | 0 |
+| Ben Long | 1 | 0 | 0 | 0 |
+
+### VZN FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Daniel Bowry | 1 | 0 | 0 | 0 |
+| George Nikaj | 1 | 0 | 0 | 0 |
+
+
 
 ---
 

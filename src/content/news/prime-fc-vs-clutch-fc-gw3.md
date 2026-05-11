@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Prime FC 6-2 Clutch FC
 
-Gameweek 3 brought Prime FC and Clutch FC together at Baller Arena in a top-of-the-table showdown, with Prime FC sitting 3rd and Clutch FC 4th.
+The Gameweek 3 schedule pitted Prime FC against Clutch FC in a top-of-the-table showdown, with Prime FC sitting 3rd and Clutch FC 4th.
 
-Prime FC proved too strong for Clutch FC, taking a convincing 6-2 victory that never looked in doubt. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 4 goals to a match that saw 8 in total.
+Prime FC controlled proceedings from start to finish, running out 6-2 winners in a performance that underlined their quality. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 4 goals to a match that saw 8 in total.
 
 **Prime FC form (before GW3):** ✅ ✅ (W-W)  
 **Clutch FC form (before GW3):** 🤝 ✅ ❌ (D-W-L)
@@ -22,11 +22,28 @@ Prime FC proved too strong for Clutch FC, taking a convincing 6-2 victory that n
 
 ### First Half
 
-The 3Play Game Changer kicked in at the 12th minute, generating 2 goals that set the tempo for the half. Prime FC seized the initiative early and never looked back, building a commanding lead.
+The 3Play Game Changer kicked in at the 12th minute, generating 2 goals that set the tempo for the half. Prime FC flew out of the blocks, overwhelming Clutch FC with wave after wave of attacks.
 
 ### Second Half
 
 At the 27-minute mark, the 1-on-1 Game Changer came into play, producing 2 goals at a crucial stage. Prime FC managed the game superbly after the interval, seeing out a professional victory.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Francis Gerard Mampolo opened the scoring in the 10th minute. Further goals came from Bráulio Valera Pinto Maieco (13'), Richard Afrane-Kesey (14'), Timmy Abraham (18'), Taufee Skandari (24'), Alfie Matthews (27') and Stefan Ilic (27').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 10' | Francis Gerard Mampolo | Prime FC |
+| 13' | Bráulio Valera Pinto Maieco | Prime FC |
+| 14' | Richard Afrane-Kesey | Clutch FC |
+| 18' | Timmy Abraham | Prime FC |
+| 24' | Taufee Skandari | Prime FC |
+| 27' | Alfie Matthews | Clutch FC |
+| 27' | Stefan Ilic | Prime FC |
+
 
 ---
 
@@ -41,6 +58,29 @@ The Game Changer period proved influential in this match, with the 3Play and 1-o
 | **Total** | | **4** |
 
 The Game Changers provided a genuine spectacle, with both activations contributing meaningfully to the scoreline. The second-half 1-on-1 was the more impactful of the two, and the teams' approaches to managing these periods proved crucial to the outcome.
+
+---
+
+## Match Performers
+
+### Prime FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Stefan Ilic | 1 | 0 | 0 | 0 |
+| Bráulio Valera Pinto Maieco | 1 | 0 | 0 | 0 |
+| Timmy Abraham | 1 | 0 | 0 | 0 |
+| Taufee Skandari | 1 | 0 | 0 | 0 |
+| Francis Gerard Mampolo | 1 | 0 | 0 | 0 |
+
+### Clutch FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Richard Afrane-Kesey | 1 | 0 | 0 | 0 |
+| Alfie Matthews | 1 | 0 | 0 | 0 |
+
+
 
 ---
 

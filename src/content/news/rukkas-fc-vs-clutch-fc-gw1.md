@@ -21,11 +21,31 @@ Rukkas FC emerged 7-5 victors over Clutch FC after a competitive clash that show
 
 ### First Half
 
-The Onside Game Changer kicked in at the 12th minute, producing 2 goals in a frantic period of play. Rukkas FC shaded a competitive first period, taking their chances well.
+The first half saw the Onside Game Changer activate at the 12th minute, generating 2 goals that set the tempo for the half. Rukkas FC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-At the 27-minute mark, the 1-on-1 Game Changer came into play, producing 2 goals at a crucial stage. The closing stages were nervy as Clutch FC threw everything forward, but Rukkas FC stood strong to claim the points. The 12-goal spectacle was one of the highest-scoring matches of Gameweek 1.
+The 1-on-1 Game Changer kicked in at the 27th minute of the second half and delivered 2 goals that shifted the momentum. The closing stages were nervy as Clutch FC threw everything forward, but Rukkas FC stood strong to claim the points. The 12-goal spectacle was one of the highest-scoring matches of Gameweek 1.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Zaid Al Hussaini opened the scoring in the 0th minute. Further goals came from Ergys Pepaj (6'), Alfie Matthews (8'), Mussa Bham (8'), Zaid Al Hussaini (14'), Jesus Abreu (18'), Alfie Matthews (22'), David Oupoh (25'), Alfie Matthews (27') and Bryan Ly (29').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 0' | Zaid Al Hussaini | Rukkas FC |
+| 6' | Ergys Pepaj | Clutch FC |
+| 8' | Alfie Matthews | Clutch FC |
+| 8' | Mussa Bham | Rukkas FC |
+| 14' | Zaid Al Hussaini | Rukkas FC |
+| 18' | Jesus Abreu | Rukkas FC |
+| 22' | Alfie Matthews | Clutch FC |
+| 25' | David Oupoh | Rukkas FC |
+| 27' | Alfie Matthews | Clutch FC |
+| 29' | Bryan Ly | Clutch FC |
+
 
 ---
 
@@ -40,6 +60,28 @@ The Game Changer period proved influential in this match, with the Onside and 1-
 | **Total** | | **4** |
 
 The Game Changers provided a genuine spectacle, with both activations contributing meaningfully to the scoreline. The second-half 1-on-1 was the more impactful of the two, and the teams' approaches to managing these periods proved crucial to the outcome.
+
+---
+
+## Match Performers
+
+### Rukkas FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Zaid Al Hussaini | 2 | 0 | 0 | 0 |
+| Mussa Bham | 1 | 0 | 0 | 0 |
+| David Oupoh | 1 | 0 | 0 | 0 |
+| Jesus Abreu | 1 | 0 | 0 | 0 |
+
+### Clutch FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Alfie Matthews | 4 | 0 | 0 | 0 |
+| Bryan Ly | 1 | 0 | 0 | 0 |
+
+
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "SDS FC Edge Wembley Rangers AFC 3-2 in GW1 Thriller"
+title: "SDS FC Scrape Past Wembley Rangers AFC 3-2 in Tight GW1 Contest"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "SDS FC 3-2 Wembley Rangers AFC — Gameweek 1 match report. Connor Wood (6 goals) leads SDS FC's attack. Game Changers: Plus One (1) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — SDS FC 3-2 Wembley Rangers AFC
 
-All eyes were on Baller Arena as SDS FC met Wembley Rangers AFC
+SDS FC and Wembley Rangers AFC faced off at Baller Arena
 
 SDS FC scraped a hard-fought 3-2 win over Wembley Rangers AFC in a match where fine margins proved decisive. The Game Changer period played a key role, with the Plus One and The Line activations contributing 2 goals to a match that saw 5 in total.
 
@@ -21,11 +21,26 @@ SDS FC scraped a hard-fought 3-2 win over Wembley Rangers AFC in a match where f
 
 ### First Half
 
-The first half saw the Plus One Game Changer activate at the 12th minute, generating 1 goal that set the tempo for the half. SDS FC shaded a competitive first period, taking their chances well.
+At the 12-minute mark, the Plus One Game Changer came into effect and the teams made it count with 1 goal being scored. SDS FC edged the opening exchanges with a more clinical edge in front of goal.
 
 ### Second Half
 
-The The Line Game Changer activated at the 27th minute, producing 1 goal at a crucial stage. Wembley Rangers AFC pushed hard for an equaliser, with SDS FC defending resolutely to protect their lead.
+At the 27-minute mark, the The Line Game Changer came into play, adding 1 goal and injecting fresh energy into the contest. The closing stages were nervy as Wembley Rangers AFC threw everything forward, but SDS FC stood strong to claim the points.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Danny Bassett opened the scoring in the 5th minute. Further goals came from Dominic Morgan Griffiths (6'), Camilo Restrepo (14'), Camilo Restrepo (25') and Devonte Totesaut (29').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 5' | Danny Bassett | SDS FC |
+| 6' | Dominic Morgan Griffiths | Wembley Rangers AFC |
+| 14' | Camilo Restrepo | SDS FC |
+| 25' | Camilo Restrepo | SDS FC |
+| 29' | Devonte Totesaut | Wembley Rangers AFC |
+
 
 ---
 
@@ -40,6 +55,26 @@ The Game Changer period proved influential in this match, with the Plus One and 
 | **Total** | | **2** |
 
 The Game Changer period brought a modest 2 goals, with the modified rules creating chances but not overwhelming the flow of the match. This was more about tactical adjustments than the chaos that sometimes defines GC activations.
+
+---
+
+## Match Performers
+
+### SDS FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Camilo Restrepo | 2 | 0 | 0 | 0 |
+| Danny Bassett | 1 | 0 | 0 | 0 |
+
+### Wembley Rangers AFC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Dominic Morgan Griffiths | 1 | 0 | 0 | 0 |
+| Devonte Totesaut | 1 | 0 | 0 | 0 |
+
+
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Deportrio Annihilate Community FC 3-9 in Statement Victory — GW6"
+title: "Deportrio Run Riot Against Community FC in 3-9 Demolition — GW6"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "Community FC 3-9 Deportrio — Gameweek 6 match report. Alex Byrne (8 goals) leads Community FC's attack. Game Changers: Plus One (3) & 1-on-1 (5). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,7 +9,7 @@ featured: true
 
 ## Match Summary — Community FC 3-9 Deportrio
 
-The Gameweek 6 schedule pitted Community FC against Deportrio, two sides looking to climb the table from 12th and 5th respectively.
+Community FC took on Deportrio in a Gameweek 6 clash, two sides looking to climb the table from 12th and 5th respectively.
 
 In a breathtaking display of attacking football, Deportrio ran riot against Community FC, putting 3 past them in a 3-9 demolition. The Game Changer period played a key role, with the Plus One and 1-on-1 activations contributing 8 goals to a match that saw 12 in total.
 
@@ -22,11 +22,32 @@ In a breathtaking display of attacking football, Deportrio ran riot against Comm
 
 ### First Half
 
-The Plus One Game Changer kicked in at the 12th minute and the teams made it count with 3 goals being scored. Deportrio flew out of the blocks, overwhelming Community FC with wave after wave of attacks.
+The first half saw the Plus One Game Changer activate at the 12th minute, generating 3 goals that set the tempo for the half. Deportrio seized the initiative early and never looked back, building a commanding lead.
 
 ### Second Half
 
-The 1-on-1 Game Changer activated at the 27th minute, producing 5 goals at a crucial stage. Deportrio continued their onslaught, putting the game well beyond Community FC's reach in a relentless second-half showing. The 12-goal spectacle was one of the highest-scoring matches of Gameweek 6.
+The 1-on-1 Game Changer kicked in at the 27th minute of the second half, producing 5 goals at a crucial stage. Deportrio continued their onslaught, putting the game well beyond Community FC's reach in a relentless second-half showing. The 12-goal spectacle was one of the highest-scoring matches of Gameweek 6.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Sahid Kamara opened the scoring in the 5th minute. Further goals came from Rodney Ajayi (7'), Sahid Kamara (12'), Sahid Kamara (13'), Marvin Sordell (14'), George Chmiel (21'), Bakary Sako (27'), Alex Byrne (27'), Bakary Sako (27'), Alex Byrne (28') and Shaquille Whittingham (29').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 5' | Sahid Kamara | Deportrio |
+| 7' | Rodney Ajayi | Deportrio |
+| 12' | Sahid Kamara | Deportrio |
+| 13' | Sahid Kamara | Deportrio |
+| 14' | Marvin Sordell | Deportrio |
+| 21' | George Chmiel | Community FC |
+| 27' | Bakary Sako | — |
+| 27' | Alex Byrne | Community FC |
+| 27' | Bakary Sako | — |
+| 28' | Alex Byrne | Community FC |
+| 29' | Shaquille Whittingham | Deportrio |
+
 
 ---
 
@@ -41,6 +62,28 @@ The Game Changer period proved decisive in this match, with the Plus One and 1-o
 | **Total** | | **8** |
 
 The Game Changer period exploded into life, with the 1-on-1 activation proving particularly devastating. Matches where the Game Changer produces this volume of goals often become instant classics, and this was no exception. The high-scoring nature of the GC period meant the usual tactical calculations went out the window, with both teams forced to adapt on the fly.
+
+---
+
+## Match Performers
+
+### Community FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Alex Byrne | 2 | 1 | 1 | 17 |
+| George Chmiel | 1 | 0 | 0 | 3 |
+
+### Deportrio — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Jay Emmanuel-Thomas | 1 | 1 | 2 | 16 |
+| Marvin Sordell | 1 | 1 | 1 | 15 |
+| Rodney Ajayi | 1 | 0 | 0 | 16 |
+| J&#039;ardell Stirling | 0 | 1 | 2 | 25 |
+
+
 
 ---
 

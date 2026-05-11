@@ -1,5 +1,5 @@
 ---
-title: "N5 FC Beat NDL FC 4-6 in Entertaining GW6 Clash"
+title: "N5 FC See Off NDL FC 4-6 in Gameweek 6"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "NDL FC 4-6 N5 FC — Gameweek 6 match report. Dara Dada (7 goals) leads NDL FC's attack. Game Changers: 3Play (4) & 1-on-1 (1). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,9 +9,9 @@ featured: true
 
 ## Match Summary — NDL FC 4-6 N5 FC
 
-Gameweek 6 brought NDL FC and N5 FC together at Baller Arena, with NDL FC sitting 2nd and looking to strengthen their playoff push against 6th-placed N5 FC.
+NDL FC and N5 FC faced off at Baller Arena, with NDL FC sitting 2nd and looking to strengthen their playoff push against 6th-placed N5 FC.
 
-N5 FC emerged 4-6 victors over NDL FC after a competitive clash that showcased the best of Baller League football. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 5 goals to a match that saw 10 in total.
+N5 FC claimed a well-deserved 4-6 win against NDL FC in an entertaining Gameweek 6 encounter. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 5 goals to a match that saw 10 in total.
 
 **NDL FC form (before GW6):** ❌ ✅ ✅ ✅ ✅ (L-W-W-W-W)  
 **N5 FC form (before GW6):** ❌ ❌ ✅ ❌ ✅ (L-L-W-L-W)
@@ -22,11 +22,28 @@ N5 FC emerged 4-6 victors over NDL FC after a competitive clash that showcased t
 
 ### First Half
 
-The first half saw the 3Play Game Changer activate at the 12th minute, producing 4 goals in a frantic period of play. N5 FC edged the opening exchanges with a more clinical edge in front of goal.
+At the 12-minute mark, the 3Play Game Changer came into effect, generating 4 goals that set the tempo for the half. N5 FC edged the opening exchanges with a more clinical edge in front of goal.
 
 ### Second Half
 
-The 1-on-1 Game Changer kicked in at the 27th minute of the second half, producing 1 goal at a crucial stage. The closing stages were nervy as NDL FC threw everything forward, but N5 FC stood strong to claim the points. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 6.
+At the 27-minute mark, the 1-on-1 Game Changer came into play, adding 1 goal and injecting fresh energy into the contest. The closing stages were nervy as NDL FC threw everything forward, but N5 FC stood strong to claim the points. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 6.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Amin Belaid opened the scoring in the 10th minute. Further goals came from Joe Bennett (13'), Joe Bennett (13'), Michael Hill (14'), Joshua Parker (19'), Sam Fitzgerald (21') and Joe Bennett (23').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 10' | Amin Belaid | NDL FC |
+| 13' | Joe Bennett | N5 FC |
+| 13' | Joe Bennett | N5 FC |
+| 14' | Michael Hill | N5 FC |
+| 19' | Joshua Parker | NDL FC |
+| 21' | Sam Fitzgerald | NDL FC |
+| 23' | Joe Bennett | N5 FC |
+
 
 ---
 
@@ -41,6 +58,31 @@ The Game Changer period proved decisive in this match, with the 3Play and 1-on-1
 | **Total** | | **5** |
 
 The Game Changers provided a genuine spectacle, with both activations contributing meaningfully to the scoreline. The first-half 3Play was the more impactful of the two, and the teams' approaches to managing these periods proved crucial to the outcome.
+
+---
+
+## Match Performers
+
+### NDL FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Amin Belaid | 1 | 2 | 6 | 12 |
+| Sam Fitzgerald | 1 | 0 | 4 | 25 |
+| Joshua Parker | 1 | 0 | 0 | 2 |
+| Solomon Baugh | 1 | 0 | 1 | 7 |
+| Dara Dada | 0 | 1 | 1 | 9 |
+
+### N5 FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Joe Bennett | 3 | 0 | 1 | 28 |
+| Michael Hill | 2 | 1 | 3 | 20 |
+| Jezreel Davies | 0 | 2 | 2 | 17 |
+| Ryan Tunnicliffe | 0 | 1 | 1 | 6 |
+
+
 
 ---
 

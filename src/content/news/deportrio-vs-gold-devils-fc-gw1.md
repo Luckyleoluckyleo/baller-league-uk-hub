@@ -1,5 +1,5 @@
 ---
-title: "Deportrio Cruise Past Gold Devils FC in 6-2 Rout — GW1"
+title: "Deportrio Overpower Gold Devils FC 6-2 in Dominant Display — GW1"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "Deportrio 6-2 Gold Devils FC — Gameweek 1 match report. Jay Emmanuel-Thomas (15 goals) leads Deportrio's attack. Game Changers: 3Play (2) & 1-on-1 (2). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Deportrio 6-2 Gold Devils FC
 
-Deportrio took on Gold Devils FC in a Gameweek 1 clash
+Deportrio and Gold Devils FC faced off at Baller Arena
 
-A composed, professional display from Deportrio saw them dispatch Gold Devils FC 6-2 to claim all three points. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 4 goals to a match that saw 8 in total.
+Deportrio controlled proceedings from start to finish, running out 6-2 winners in a performance that underlined their quality. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 4 goals to a match that saw 8 in total.
 
 
 
@@ -21,11 +21,29 @@ A composed, professional display from Deportrio saw them dispatch Gold Devils FC
 
 ### First Half
 
-The 3Play Game Changer kicked in at the 12th minute, producing 2 goals in a frantic period of play. Deportrio seized the initiative early and never looked back, building a commanding lead.
+The 3Play Game Changer kicked in at the 12th minute and the teams made it count with 2 goals being scored. Deportrio seized the initiative early and never looked back, building a commanding lead.
 
 ### Second Half
 
-The 1-on-1 Game Changer kicked in at the 27th minute of the second half and delivered 2 goals that shifted the momentum. Deportrio managed the game superbly after the interval, seeing out a professional victory.
+The 1-on-1 Game Changer kicked in at the 27th minute of the second half, producing 2 goals at a crucial stage. Deportrio managed the game superbly after the interval, seeing out a professional victory.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Salim Nassor opened the scoring in the 3rd minute. Further goals came from Amine Sassi (7'), Marc Albrighton (14'), Jay Emmanuel-Thomas (14'), Martyn Waghorn (23'), Martyn Waghorn (24'), Jay Emmanuel-Thomas (27') and Luqman Kassim (29').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 3' | Salim Nassor | Gold Devils FC |
+| 7' | Amine Sassi | Deportrio |
+| 14' | Marc Albrighton | — |
+| 14' | Jay Emmanuel-Thomas | Deportrio |
+| 23' | Martyn Waghorn | — |
+| 24' | Martyn Waghorn | — |
+| 27' | Jay Emmanuel-Thomas | Deportrio |
+| 29' | Luqman Kassim | Gold Devils FC |
+
 
 ---
 
@@ -40,6 +58,26 @@ The Game Changer period proved influential in this match, with the 3Play and 1-o
 | **Total** | | **4** |
 
 The Game Changers provided a genuine spectacle, with both activations contributing meaningfully to the scoreline. The second-half 1-on-1 was the more impactful of the two, and the teams' approaches to managing these periods proved crucial to the outcome.
+
+---
+
+## Match Performers
+
+### Deportrio — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Jay Emmanuel-Thomas | 2 | 0 | 0 | 0 |
+| Amine Sassi | 1 | 0 | 0 | 0 |
+
+### Gold Devils FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Salim Nassor | 1 | 0 | 0 | 0 |
+| Luqman Kassim | 1 | 0 | 0 | 0 |
+
+
 
 ---
 

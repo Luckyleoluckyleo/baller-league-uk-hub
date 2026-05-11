@@ -1,5 +1,5 @@
 ---
-title: "Clutch FC Beat Deportrio 1-4 in Entertaining GW2 Clash"
+title: "Clutch FC See Off Deportrio 1-4 in Gameweek 2"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "Deportrio 1-4 Clutch FC — Gameweek 2 match report. Jay Emmanuel-Thomas (15 goals) leads Deportrio's attack. Game Changers: 3Play (0) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Deportrio 1-4 Clutch FC
 
-Gameweek 2 brought Deportrio and Clutch FC together at Baller Arena, two sides looking to climb the table from 5th and 9th respectively.
+Deportrio took on Clutch FC in a Gameweek 2 clash, two sides looking to climb the table from 5th and 9th respectively.
 
-A composed, professional display from Clutch FC saw them dispatch Deportrio 1-4 to claim all three points. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 3 goals to a match that saw 5 in total.
+Clutch FC controlled proceedings from start to finish, running out 1-4 winners in a performance that underlined their quality. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 3 goals to a match that saw 5 in total.
 
 **Deportrio form (before GW2):** ❌ ✅ (L-W)  
 **Clutch FC form (before GW2):** ❌ (L)
@@ -22,11 +22,25 @@ A composed, professional display from Clutch FC saw them dispatch Deportrio 1-4 
 
 ### First Half
 
-At the 12-minute mark, the 3Play Game Changer came into effect, but neither side could find the breakthrough during the activation. Clutch FC seized the initiative early and never looked back, building a commanding lead.
+The first half saw the 3Play Game Changer activate at the 12th minute, yet the deadlock remained unbroken. Clutch FC flew out of the blocks, overwhelming Deportrio with wave after wave of attacks.
 
 ### Second Half
 
-The 1-on-1 Game Changer kicked in at the 27th minute of the second half and delivered 3 goals that shifted the momentum. Clutch FC managed the game superbly after the interval, seeing out a professional victory.
+At the 27-minute mark, the 1-on-1 Game Changer came into play, producing 3 goals at a crucial stage. Clutch FC managed the game superbly after the interval, seeing out a professional victory.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Keir Dickson opened the scoring in the 7th minute, with goals following from Aaron Steavens (27'), Alfie Matthews (27'), Aaron Steavens (29').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 7' | Keir Dickson | Clutch FC |
+| 27' | Aaron Steavens | — |
+| 27' | Alfie Matthews | Clutch FC |
+| 29' | Aaron Steavens | — |
+
 
 ---
 
@@ -41,6 +55,19 @@ The Game Changer period proved influential in this match, with the 3Play and 1-o
 | **Total** | | **3** |
 
 The Game Changer period brought a modest 3 goals, with the modified rules creating chances but not overwhelming the flow of the match. This was more about tactical adjustments than the chaos that sometimes defines GC activations.
+
+---
+
+## Match Performers
+
+### Clutch FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Alfie Matthews | 1 | 0 | 0 | 0 |
+| Keir Dickson | 1 | 0 | 0 | 0 |
+
+
 
 ---
 

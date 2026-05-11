@@ -1,5 +1,5 @@
 ---
-title: "Clutch FC Edge Yanited 5-4 in GW9 Thriller"
+title: "Clutch FC Scrape Past Yanited 5-4 in Tight GW9 Contest"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "Clutch FC 5-4 Yanited — Gameweek 9 match report. Alfie Matthews (12 goals) leads Clutch FC's attack. Game Changers: Plus One (3) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Clutch FC 5-4 Yanited
 
-Clutch FC took on Yanited in a Gameweek 9 clash, two sides looking to climb the table from 7th and 6th respectively.
+The Gameweek 9 schedule pitted Clutch FC against Yanited, two sides looking to climb the table from 7th and 6th respectively.
 
-Clutch FC edged past Yanited 5-4 in a nail-biting encounter that could have gone either way. The Game Changer period played a key role, with the Plus One and Fairplay activations contributing 4 goals to a match that saw 9 in total.
+In a tense, tightly-contested affair, Clutch FC held their nerve to beat Yanited 5-4. The Game Changer period played a key role, with the Plus One and Fairplay activations contributing 4 goals to a match that saw 9 in total.
 
 **Clutch FC form (before GW9):** ❌ ❌ ❌ ✅ ✅ (L-L-L-W-W)  
 **Yanited form (before GW9):** ❌ ❌ ✅ 🤝 ❌ (L-L-W-D-L)
@@ -22,11 +22,28 @@ Clutch FC edged past Yanited 5-4 in a nail-biting encounter that could have gone
 
 ### First Half
 
-The first half saw the Plus One Game Changer activate at the 12th minute, producing 3 goals in a frantic period of play. Clutch FC edged the opening exchanges with a more clinical edge in front of goal.
+The first half saw the Plus One Game Changer activate at the 12th minute, generating 3 goals that set the tempo for the half. Clutch FC edged the opening exchanges with a more clinical edge in front of goal.
 
 ### Second Half
 
-At the 27-minute mark, the Fairplay Game Changer came into play, adding 1 goal and injecting fresh energy into the contest. Yanited pushed hard for an equaliser, with Clutch FC defending resolutely to protect their lead.
+The Fairplay Game Changer kicked in at the 27th minute of the second half and delivered 1 goal that shifted the momentum. The closing stages were nervy as Yanited threw everything forward, but Clutch FC stood strong to claim the points.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Kadell Daniel opened the scoring in the 0th minute. Further goals came from Remy Clerima (4'), Tyler Winters (5'), Kadell Daniel (13'), Tyler Winters (14'), Richard Afrane-Kesey (23') and Richard Afrane-Kesey (29').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 0' | Kadell Daniel | Yanited |
+| 4' | Remy Clerima | Clutch FC |
+| 5' | Tyler Winters | Clutch FC |
+| 13' | Kadell Daniel | Yanited |
+| 14' | Tyler Winters | Clutch FC |
+| 23' | Richard Afrane-Kesey | Clutch FC |
+| 29' | Richard Afrane-Kesey | Clutch FC |
+
 
 ---
 
@@ -41,6 +58,28 @@ The Game Changer period proved influential in this match, with the Plus One and 
 | **Total** | | **4** |
 
 The Game Changers provided a genuine spectacle, with both activations contributing meaningfully to the scoreline. The first-half Plus One was the more impactful of the two, and the teams' approaches to managing these periods proved crucial to the outcome.
+
+---
+
+## Match Performers
+
+### Clutch FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Richard Afrane-Kesey | 2 | 1 | 1 | 13 |
+| Tyler Winters | 2 | 0 | 2 | 16 |
+| Remy Clerima | 1 | 2 | 7 | 25 |
+| Keir Dickson | 0 | 1 | 2 | 12 |
+
+### Yanited — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Kadell Daniel | 4 | 0 | 3 | 16 |
+| Tyrell Miller-Rodney | 0 | 1 | 4 | 6 |
+
+
 
 ---
 

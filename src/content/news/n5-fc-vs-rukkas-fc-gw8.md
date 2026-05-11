@@ -1,5 +1,5 @@
 ---
-title: "N5 FC Run Riot Against Rukkas FC in 8-1 Demolition — GW8"
+title: "N5 FC Annihilate Rukkas FC 8-1 in Statement Victory — GW8"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "N5 FC 8-1 Rukkas FC — Gameweek 8 match report. Michael Hill (14 goals) leads N5 FC's attack. Game Changers: 3Play (3) & 1-on-1 (1). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -11,7 +11,7 @@ featured: false
 
 The Gameweek 8 schedule pitted N5 FC against Rukkas FC, with N5 FC sitting 3rd and looking to strengthen their playoff push against 11th-placed Rukkas FC.
 
-N5 FC produced a statement performance, dismantling Rukkas FC 8-1 with a ruthless attacking display that will send a message to the rest of the league. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 4 goals to a match that saw 9 in total.
+In a breathtaking display of attacking football, N5 FC ran riot against Rukkas FC, putting 8 past them in a 8-1 demolition. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 4 goals to a match that saw 9 in total.
 
 **N5 FC form (before GW8):** ✅ ✅ 🤝 ✅ ❌ (W-W-D-W-L)  
 **Rukkas FC form (before GW8):** ❌ ❌ ✅ ❌ ❌ (L-L-W-L-L)
@@ -22,11 +22,29 @@ N5 FC produced a statement performance, dismantling Rukkas FC 8-1 with a ruthles
 
 ### First Half
 
-The first half saw the 3Play Game Changer activate at the 12th minute, producing 3 goals in a frantic period of play. N5 FC seized the initiative early and never looked back, building a commanding lead.
+At the 12-minute mark, the 3Play Game Changer came into effect, producing 3 goals in a frantic period of play. N5 FC flew out of the blocks, overwhelming Rukkas FC with wave after wave of attacks.
 
 ### Second Half
 
-The 1-on-1 Game Changer kicked in at the 27th minute of the second half and delivered 1 goal that shifted the momentum. N5 FC showed no mercy after the break, piling on the goals to complete a resounding victory.
+At the 27-minute mark, the 1-on-1 Game Changer came into play and delivered 1 goal that shifted the momentum. N5 FC continued their onslaught, putting the game well beyond Rukkas FC's reach in a relentless second-half showing.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Nile Ranger opened the scoring in the 1st minute. Further goals came from Michael Hill (7'), Jezreel Davies (13'), Michael Hill (14'), Michael Hill (24'), Jean-Baptiste Fischer (25'), Michael Hill (26') and Mustapha Carayol (27').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 1' | Nile Ranger | N5 FC |
+| 7' | Michael Hill | N5 FC |
+| 13' | Jezreel Davies | N5 FC |
+| 14' | Michael Hill | N5 FC |
+| 24' | Michael Hill | N5 FC |
+| 25' | Jean-Baptiste Fischer | N5 FC |
+| 26' | Michael Hill | N5 FC |
+| 27' | Mustapha Carayol | N5 FC |
+
 
 ---
 
@@ -41,6 +59,30 @@ The Game Changer period proved influential in this match, with the 3Play and 1-o
 | **Total** | | **4** |
 
 The Game Changers provided a genuine spectacle, with both activations contributing meaningfully to the scoreline. The first-half 3Play was the more impactful of the two, and the teams' approaches to managing these periods proved crucial to the outcome.
+
+---
+
+## Match Performers
+
+### N5 FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Michael Hill | 4 | 1 | 2 | 16 |
+| Jezreel Davies | 1 | 1 | 2 | 8 |
+| Nile Ranger | 1 | 0 | 1 | 3 |
+| Mustapha Carayol | 1 | 0 | 1 | 8 |
+| Jean-Baptiste Fischer | 1 | 0 | 2 | 8 |
+| Joe Bennett | 0 | 2 | 4 | 19 |
+| Ryan Tunnicliffe | 0 | 1 | 2 | 17 |
+
+### Rukkas FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Mussa Bham | 1 | 0 | 5 | 27 |
+
+
 
 ---
 

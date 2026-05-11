@@ -22,11 +22,31 @@ Clutch FC claimed a well-deserved 6-4 win against Gold Devils FC in an entertain
 
 ### First Half
 
-The first half saw the 3Play Game Changer activate at the 12th minute, producing 7 goals in a frantic period of play. Clutch FC shaded a competitive first period, taking their chances well.
+The 3Play Game Changer kicked in at the 12th minute, generating 7 goals that set the tempo for the half. Clutch FC edged the opening exchanges with a more clinical edge in front of goal.
 
 ### Second Half
 
-The 1-on-1 Game Changer activated at the 27th minute, producing 2 goals at a crucial stage. Gold Devils FC pushed hard for an equaliser but Clutch FC held firm, with Clutch FC defending resolutely to protect their lead. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 6.
+The 1-on-1 Game Changer activated at the 27th minute and delivered 2 goals that shifted the momentum. The closing stages were nervy as Gold Devils FC threw everything forward, but Clutch FC stood strong to claim the points. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 6.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Salim Nassor opened the scoring in the 12th minute. Further goals came from Salim Nassor (12'), Tyler Winters (13'), Alfie Matthews (14'), Bilal Sayoud (14'), Sandro Camara (14'), Alfie Matthews (14'), Sandro Camara (23'), Alfie Matthews (27') and Bilal Sayoud (27').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 12' | Salim Nassor | Gold Devils FC |
+| 12' | Salim Nassor | Gold Devils FC |
+| 13' | Tyler Winters | Clutch FC |
+| 14' | Alfie Matthews | Clutch FC |
+| 14' | Bilal Sayoud | Gold Devils FC |
+| 14' | Sandro Camara | Clutch FC |
+| 14' | Alfie Matthews | Clutch FC |
+| 23' | Sandro Camara | Clutch FC |
+| 27' | Alfie Matthews | Clutch FC |
+| 27' | Bilal Sayoud | Gold Devils FC |
+
 
 ---
 
@@ -41,6 +61,27 @@ The Game Changer period proved decisive in this match, with the 3Play and 1-on-1
 | **Total** | | **9** |
 
 The Game Changer period exploded into life, with the 3Play activation proving particularly devastating. Matches where the Game Changer produces this volume of goals often become instant classics, and this was no exception. The high-scoring nature of the GC period meant the usual tactical calculations went out the window, with both teams forced to adapt on the fly.
+
+---
+
+## Match Performers
+
+### Clutch FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Alfie Matthews | 3 | 1 | 6 | 16 |
+| Sandro Camara | 2 | 1 | 1 | 4 |
+| Tyler Winters | 1 | 1 | 1 | 10 |
+
+### Gold Devils FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Salim Nassor | 2 | 1 | 4 | 20 |
+| Bilal Sayoud | 2 | 1 | 3 | 18 |
+
+
 
 ---
 

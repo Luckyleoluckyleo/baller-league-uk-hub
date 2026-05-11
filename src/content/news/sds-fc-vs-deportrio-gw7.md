@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — SDS FC 2-2 Deportrio
 
-All eyes were on Baller Arena as SDS FC met Deportrio, with SDS FC sitting 1st and looking to strengthen their playoff push against 5th-placed Deportrio.
+Gameweek 7 brought SDS FC and Deportrio together at Baller Arena, with SDS FC sitting 1st and looking to strengthen their playoff push against 5th-placed Deportrio.
 
 Honours were even as SDS FC and Deportrio shared the spoils in an entertaining 2-2 draw. The 4 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through 3Play and The Line.
 
@@ -22,11 +22,25 @@ Honours were even as SDS FC and Deportrio shared the spoils in an entertaining 2
 
 ### First Half
 
-The 3Play Game Changer kicked in at the 12th minute, generating 3 goals that set the tempo for the half. The two sides were inseparable at the break, with the contest finely poised.
+The first half saw the 3Play Game Changer activate at the 12th minute, producing 3 goals in a frantic period of play. The two sides were inseparable at the break, with the contest finely poised.
 
 ### Second Half
 
-At the 27-minute mark, the The Line Game Changer came into play, though the goals dried up as the match wore on. Both sides pushed for a winner but ultimately had to settle for a share of the points.
+The The Line Game Changer activated at the 27th minute, though the goals dried up as the match wore on. Despite late pressure, neither team could find the decisive goal and the spoils were shared.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Bakary Sako opened the scoring in the 1st minute, with goals following from Jay Emmanuel-Thomas (12'), Kazaiah Sterling (12'), Hafed Al Droubi (14').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 1' | Bakary Sako | — |
+| 12' | Jay Emmanuel-Thomas | Deportrio |
+| 12' | Kazaiah Sterling | SDS FC |
+| 14' | Hafed Al Droubi | SDS FC |
+
 
 ---
 
@@ -41,6 +55,27 @@ The Game Changer period proved influential in this match, with the 3Play and The
 | **Total** | | **3** |
 
 The Game Changer period brought a modest 3 goals, with the modified rules creating chances but not overwhelming the flow of the match. This was more about tactical adjustments than the chaos that sometimes defines GC activations.
+
+---
+
+## Match Performers
+
+### SDS FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Hafed Al Droubi | 1 | 0 | 1 | 34 |
+| Kazaiah Sterling | 1 | 0 | 2 | 10 |
+| Connor Wood | 0 | 1 | 5 | 18 |
+
+### Deportrio — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Jay Emmanuel-Thomas | 1 | 0 | 5 | 16 |
+| Sahid Kamara | 0 | 1 | 1 | 2 |
+
+
 
 ---
 

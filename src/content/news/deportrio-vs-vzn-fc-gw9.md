@@ -9,7 +9,7 @@ featured: true
 
 ## Match Summary — Deportrio 6-4 VZN FC
 
-All eyes were on Baller Arena as Deportrio met VZN FC, with Deportrio sitting 4th and looking to strengthen their playoff push against 9th-placed VZN FC.
+Deportrio took on VZN FC in a Gameweek 9 clash, with Deportrio sitting 4th and looking to strengthen their playoff push against 9th-placed VZN FC.
 
 Deportrio emerged 6-4 victors over VZN FC after a competitive clash that showcased the best of Baller League football. The Game Changer period played a key role, with the Plus One and 1-on-1 activations contributing 4 goals to a match that saw 10 in total.
 
@@ -22,11 +22,31 @@ Deportrio emerged 6-4 victors over VZN FC after a competitive clash that showcas
 
 ### First Half
 
-The first half saw the Plus One Game Changer activate at the 12th minute, generating 1 goal that set the tempo for the half. Deportrio shaded a competitive first period, taking their chances well.
+The first half saw the Plus One Game Changer activate at the 12th minute and the teams made it count with 1 goal being scored. Deportrio shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-The 1-on-1 Game Changer activated at the 27th minute, adding 3 goals and injecting fresh energy into the contest. VZN FC pushed hard for an equaliser but Deportrio held firm, with Deportrio defending resolutely to protect their lead. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 9.
+The 1-on-1 Game Changer activated at the 27th minute, producing 3 goals at a crucial stage. VZN FC pushed hard for an equaliser but Deportrio held firm, with Deportrio defending resolutely to protect their lead. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 9.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Florian Kastrati opened the scoring in the 0th minute. Further goals came from Jay Emmanuel-Thomas (13'), Sahid Kamara (18'), Kole Hall (20'), Che Krabbendam (21'), Sahid Kamara (25'), Isiah Noel-Williams (26'), George Nikaj (28'), Jay Emmanuel-Thomas (28') and Jay Emmanuel-Thomas (29').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 0' | Florian Kastrati | VZN FC |
+| 13' | Jay Emmanuel-Thomas | Deportrio |
+| 18' | Sahid Kamara | Deportrio |
+| 20' | Kole Hall | Deportrio |
+| 21' | Che Krabbendam | VZN FC |
+| 25' | Sahid Kamara | Deportrio |
+| 26' | Isiah Noel-Williams | VZN FC |
+| 28' | George Nikaj | VZN FC |
+| 28' | Jay Emmanuel-Thomas | Deportrio |
+| 29' | Jay Emmanuel-Thomas | Deportrio |
+
 
 ---
 
@@ -41,6 +61,30 @@ The Game Changer period proved influential in this match, with the Plus One and 
 | **Total** | | **4** |
 
 The Game Changers provided a genuine spectacle, with both activations contributing meaningfully to the scoreline. The second-half 1-on-1 was the more impactful of the two, and the teams' approaches to managing these periods proved crucial to the outcome.
+
+---
+
+## Match Performers
+
+### Deportrio — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Jay Emmanuel-Thomas | 3 | 0 | 2 | 7 |
+| Sahid Kamara | 2 | 1 | 1 | 5 |
+| Kole Hall | 1 | 0 | 1 | 4 |
+| J&#039;ardell Stirling | 0 | 1 | 2 | 38 |
+| Amine Sassi | 0 | 1 | 2 | 10 |
+
+### VZN FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| George Nikaj | 1 | 1 | 2 | 8 |
+| Florian Kastrati | 1 | 0 | 0 | 7 |
+| Che Krabbendam | 1 | 0 | 1 | 26 |
+
+
 
 ---
 

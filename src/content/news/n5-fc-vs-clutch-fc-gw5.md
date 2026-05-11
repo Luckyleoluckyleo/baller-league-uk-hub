@@ -11,7 +11,7 @@ featured: true
 
 The Gameweek 5 schedule pitted N5 FC against Clutch FC, with N5 FC sitting 4th and looking to strengthen their playoff push against 7th-placed Clutch FC.
 
-Clutch FC edged past N5 FC 5-6 in a nail-biting encounter that could have gone either way. The Game Changer period played a key role, with the Onside and Fairplay activations contributing 2 goals to a match that saw 11 in total.
+In a tense, tightly-contested affair, Clutch FC held their nerve to beat N5 FC 5-6. The Game Changer period played a key role, with the Onside and Fairplay activations contributing 2 goals to a match that saw 11 in total.
 
 **N5 FC form (before GW5):** ✅ ❌ ✅ ✅ ❌ (W-L-W-W-L)  
 **Clutch FC form (before GW5):** ✅ ❌ ❌ ❌ 🤝 (W-L-L-L-D)
@@ -22,11 +22,30 @@ Clutch FC edged past N5 FC 5-6 in a nail-biting encounter that could have gone e
 
 ### First Half
 
-At the 12-minute mark, the Onside Game Changer came into effect, generating 1 goal that set the tempo for the half. Clutch FC shaded a competitive first period, taking their chances well.
+The first half saw the Onside Game Changer activate at the 12th minute, generating 1 goal that set the tempo for the half. Clutch FC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-The Fairplay Game Changer kicked in at the 27th minute of the second half and delivered 1 goal that shifted the momentum. The closing stages were nervy as N5 FC threw everything forward, but Clutch FC stood strong to claim the points. The 11-goal spectacle was one of the highest-scoring matches of Gameweek 5.
+At the 27-minute mark, the Fairplay Game Changer came into play, adding 1 goal and injecting fresh energy into the contest. The closing stages were nervy as N5 FC threw everything forward, but Clutch FC stood strong to claim the points. The 11-goal spectacle was one of the highest-scoring matches of Gameweek 5.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Michael Hill opened the scoring in the 2nd minute. Further goals came from Richard Afrane-Kesey (3'), Evans Kouassi (13'), David Marques Castanho (20'), Joe Bennett (21'), Richard Afrane-Kesey (23'), Michael Hill (24'), Nile Ranger (26') and Richard Afrane-Kesey (28').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 2' | Michael Hill | N5 FC |
+| 3' | Richard Afrane-Kesey | Clutch FC |
+| 13' | Evans Kouassi | Clutch FC |
+| 20' | David Marques Castanho | Clutch FC |
+| 21' | Joe Bennett | N5 FC |
+| 23' | Richard Afrane-Kesey | Clutch FC |
+| 24' | Michael Hill | N5 FC |
+| 26' | Nile Ranger | N5 FC |
+| 28' | Richard Afrane-Kesey | Clutch FC |
+
 
 ---
 
@@ -41,6 +60,30 @@ The Game Changer period proved influential in this match, with the Onside and Fa
 | **Total** | | **2** |
 
 The Game Changer period brought a modest 2 goals, with the modified rules creating chances but not overwhelming the flow of the match. This was more about tactical adjustments than the chaos that sometimes defines GC activations.
+
+---
+
+## Match Performers
+
+### N5 FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Michael Hill | 3 | 0 | 0 | 16 |
+| Joe Bennett | 1 | 0 | 1 | 32 |
+| Nile Ranger | 1 | 0 | 6 | 9 |
+| Kieron Freeman | 0 | 2 | 5 | 46 |
+
+### Clutch FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Richard Afrane-Kesey | 3 | 0 | 0 | 4 |
+| Alfie Matthews | 1 | 1 | 4 | 15 |
+| David Marques Castanho | 1 | 1 | 1 | 12 |
+| Evans Kouassi | 1 | 0 | 0 | 4 |
+
+
 
 ---
 

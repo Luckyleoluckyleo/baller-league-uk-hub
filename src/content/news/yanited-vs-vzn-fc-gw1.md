@@ -1,5 +1,5 @@
 ---
-title: "Yanited and VZN FC Play Out 3-3 Draw in Gameweek 1"
+title: "Yanited and VZN FC Deadlocked at 3-3 in GW1"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "Yanited 3-3 VZN FC — Gameweek 1 match report. Kadell Daniel (7 goals) leads Yanited's attack. Game Changers: Onside (4) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Yanited 3-3 VZN FC
 
-The Gameweek 1 schedule pitted Yanited against VZN FC
+Yanited and VZN FC faced off at Baller Arena
 
 Yanited and VZN FC played out a thrilling 3-3 draw in a match where neither side deserved to lose. The 6 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through Onside and Fairplay.
 
@@ -21,11 +21,26 @@ Yanited and VZN FC played out a thrilling 3-3 draw in a match where neither side
 
 ### First Half
 
-At the 12-minute mark, the Onside Game Changer came into effect and the teams made it count with 4 goals being scored. The two sides were inseparable at the break, with the contest finely poised.
+At the 12-minute mark, the Onside Game Changer came into effect, generating 4 goals that set the tempo for the half. The two sides were inseparable at the break, with the contest finely poised.
 
 ### Second Half
 
-At the 27-minute mark, the Fairplay Game Changer came into play, though the goals dried up as the match wore on. Both sides pushed for a winner but ultimately had to settle for a share of the points.
+The Fairplay Game Changer activated at the 27th minute, though the goals dried up as the match wore on. Despite late pressure, neither team could find the decisive goal and the spoils were shared.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. George Nikaj opened the scoring in the 2nd minute. Further goals came from Daniel Bowry (12'), Joshua Parker (14'), Sandro Camara (14') and Sandro Camara (23').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 2' | George Nikaj | VZN FC |
+| 12' | Daniel Bowry | VZN FC |
+| 14' | Joshua Parker | VZN FC |
+| 14' | Sandro Camara | VZN FC |
+| 23' | Sandro Camara | VZN FC |
+
 
 ---
 
@@ -40,6 +55,25 @@ The Game Changer period proved influential in this match, with the Onside and Fa
 | **Total** | | **4** |
 
 The Game Changers provided a genuine spectacle, with both activations contributing meaningfully to the scoreline. The first-half Onside was the more impactful of the two, and the teams' approaches to managing these periods proved crucial to the outcome.
+
+---
+
+## Match Performers
+
+### Yanited — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Kadell Daniel | 1 | 0 | 0 | 0 |
+
+### VZN FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Daniel Bowry | 1 | 0 | 0 | 0 |
+| George Nikaj | 1 | 0 | 0 | 0 |
+
+
 
 ---
 

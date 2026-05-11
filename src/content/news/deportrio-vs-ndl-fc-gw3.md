@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Deportrio 3-6 NDL FC
 
-Deportrio took on NDL FC in a Gameweek 3 clash, where 9th-placed Deportrio looked to upset 1st-placed NDL FC.
+All eyes were on Baller Arena as Deportrio met NDL FC, where 9th-placed Deportrio looked to upset 1st-placed NDL FC.
 
-A composed, professional display from NDL FC saw them dispatch Deportrio 3-6 to claim all three points. The Game Changer period played a key role, with the Plus One and 1-on-1 activations contributing 6 goals to a match that saw 9 in total.
+NDL FC proved too strong for Deportrio, taking a convincing 3-6 victory that never looked in doubt. The Game Changer period played a key role, with the Plus One and 1-on-1 activations contributing 6 goals to a match that saw 9 in total.
 
 **Deportrio form (before GW3):** ❌ ❌ ❌ ✅ (L-L-L-W)  
 **NDL FC form (before GW3):** ✅ 🤝 ❌ ✅ (W-D-L-W)
@@ -22,11 +22,29 @@ A composed, professional display from NDL FC saw them dispatch Deportrio 3-6 to 
 
 ### First Half
 
-At the 12-minute mark, the Plus One Game Changer came into effect, generating 1 goal that set the tempo for the half. NDL FC seized the initiative early and never looked back, building a commanding lead.
+The first half saw the Plus One Game Changer activate at the 12th minute and the teams made it count with 1 goal being scored. NDL FC flew out of the blocks, overwhelming Deportrio with wave after wave of attacks.
 
 ### Second Half
 
-At the 27-minute mark, the 1-on-1 Game Changer came into play, adding 5 goals and injecting fresh energy into the contest. NDL FC managed the game superbly after the interval, seeing out a professional victory.
+At the 27-minute mark, the 1-on-1 Game Changer came into play, adding 5 goals and injecting fresh energy into the contest. NDL FC maintained their grip on the match throughout the second period to secure a comfortable win.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Isaac Modi opened the scoring in the 7th minute. Further goals came from Dara Dada (14'), Solomon Baugh (17'), Sam Fitzgerald (27'), Sam Fitzgerald (27'), Jay Emmanuel-Thomas (27'), Sam Fitzgerald (28') and Jay Emmanuel-Thomas (29').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 7' | Isaac Modi | NDL FC |
+| 14' | Dara Dada | NDL FC |
+| 17' | Solomon Baugh | NDL FC |
+| 27' | Sam Fitzgerald | NDL FC |
+| 27' | Sam Fitzgerald | NDL FC |
+| 27' | Jay Emmanuel-Thomas | Deportrio |
+| 28' | Sam Fitzgerald | NDL FC |
+| 29' | Jay Emmanuel-Thomas | Deportrio |
+
 
 ---
 
@@ -41,6 +59,27 @@ The Game Changer period proved decisive in this match, with the Plus One and 1-o
 | **Total** | | **6** |
 
 The Game Changers provided a genuine spectacle, with both activations contributing meaningfully to the scoreline. The second-half 1-on-1 was the more impactful of the two, and the teams' approaches to managing these periods proved crucial to the outcome.
+
+---
+
+## Match Performers
+
+### Deportrio — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Jay Emmanuel-Thomas | 3 | 0 | 0 | 0 |
+
+### NDL FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Sam Fitzgerald | 3 | 0 | 0 | 0 |
+| Isaac Modi | 1 | 0 | 0 | 0 |
+| Dara Dada | 1 | 0 | 0 | 0 |
+| Solomon Baugh | 1 | 0 | 0 | 0 |
+
+
 
 ---
 

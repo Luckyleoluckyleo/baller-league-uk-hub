@@ -1,5 +1,5 @@
 ---
-title: "Wembley Rangers AFC Edge Rukkas FC 3-4 in GW6 Thriller"
+title: "Wembley Rangers AFC Scrape Past Rukkas FC 3-4 in Tight GW6 Contest"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "Rukkas FC 3-4 Wembley Rangers AFC — Gameweek 6 match report. David Oupoh (5 goals) leads Rukkas FC's attack. Game Changers: Plus One (2) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Rukkas FC 3-4 Wembley Rangers AFC
 
-The Gameweek 6 schedule pitted Rukkas FC against Wembley Rangers AFC, where 11th-placed Rukkas FC looked to upset 4th-placed Wembley Rangers AFC.
+Gameweek 6 brought Rukkas FC and Wembley Rangers AFC together at Baller Arena, where 11th-placed Rukkas FC looked to upset 4th-placed Wembley Rangers AFC.
 
 Wembley Rangers AFC scraped a hard-fought 3-4 win over Rukkas FC in a match where fine margins proved decisive. The Game Changer period played a key role, with the Plus One and Fairplay activations contributing 3 goals to a match that saw 7 in total.
 
@@ -22,11 +22,24 @@ Wembley Rangers AFC scraped a hard-fought 3-4 win over Rukkas FC in a match wher
 
 ### First Half
 
-At the 12-minute mark, the Plus One Game Changer came into effect and the teams made it count with 2 goals being scored. Wembley Rangers AFC shaded a competitive first period, taking their chances well.
+At the 12-minute mark, the Plus One Game Changer came into effect, producing 2 goals in a frantic period of play. Wembley Rangers AFC edged the opening exchanges with a more clinical edge in front of goal.
 
 ### Second Half
 
 At the 27-minute mark, the Fairplay Game Changer came into play and delivered 1 goal that shifted the momentum. Rukkas FC pushed hard for an equaliser, with Wembley Rangers AFC defending resolutely to protect their lead.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Finlay Chadwick opened the scoring in the 0th minute, with goals following from Osman Ali (1'), Emmanuel Robe (12').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 0' | Finlay Chadwick | — |
+| 1' | Osman Ali | Rukkas FC |
+| 12' | Emmanuel Robe | Rukkas FC |
+
 
 ---
 
@@ -41,6 +54,27 @@ The Game Changer period proved influential in this match, with the Plus One and 
 | **Total** | | **3** |
 
 The Game Changer period brought a modest 3 goals, with the modified rules creating chances but not overwhelming the flow of the match. This was more about tactical adjustments than the chaos that sometimes defines GC activations.
+
+---
+
+## Match Performers
+
+### Rukkas FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Osman Ali | 1 | 0 | 2 | 26 |
+| Emmanuel Robe | 1 | 0 | 0 | 2 |
+| Zaid Al Hussaini | 0 | 1 | 2 | 15 |
+
+### Wembley Rangers AFC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Callam Gardner | 1 | 0 | 1 | 5 |
+| Kristian Campbell | 0 | 1 | 4 | 10 |
+
+
 
 ---
 

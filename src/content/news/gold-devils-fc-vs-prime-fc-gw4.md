@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Gold Devils FC 1-0 Prime FC
 
-All eyes were on Baller Arena as Gold Devils FC met Prime FC, where 9th-placed Gold Devils FC looked to upset 3rd-placed Prime FC.
+Gold Devils FC took on Prime FC in a Gameweek 4 clash, where 9th-placed Gold Devils FC looked to upset 3rd-placed Prime FC.
 
-Gold Devils FC scraped a hard-fought 1-0 win over Prime FC in a match where fine margins proved decisive. The Game Changer period played a key role, with the Onside and 1-on-1 activations contributing 1 goals to a match that saw 1 in total.
+In a tense, tightly-contested affair, Gold Devils FC held their nerve to beat Prime FC 1-0. The Game Changer period played a key role, with the Onside and 1-on-1 activations contributing 1 goals to a match that saw 1 in total.
 
 **Gold Devils FC form (before GW4):** ❌ ✅ ❌ (L-W-L)  
 **Prime FC form (before GW4):** ✅ ✅ ✅ (W-W-W)
@@ -22,11 +22,22 @@ Gold Devils FC scraped a hard-fought 1-0 win over Prime FC in a match where fine
 
 ### First Half
 
-At the 12-minute mark, the Onside Game Changer came into effect, but neither side could find the breakthrough during the activation. Gold Devils FC edged the opening exchanges with a more clinical edge in front of goal.
+The Onside Game Changer kicked in at the 12th minute, though goals proved elusive as both defences held firm. Gold Devils FC edged the opening exchanges with a more clinical edge in front of goal.
 
 ### Second Half
 
-The 1-on-1 Game Changer kicked in at the 27th minute of the second half, adding 1 goal and injecting fresh energy into the contest. The closing stages were nervy as Prime FC threw everything forward, but Gold Devils FC stood strong to claim the points.
+The 1-on-1 Game Changer activated at the 27th minute, producing 1 goal at a crucial stage. Prime FC pushed hard for an equaliser, with Gold Devils FC defending resolutely to protect their lead.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Bilal Sayoud opened the scoring in the 27th minute.
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 27' | Bilal Sayoud | Gold Devils FC |
+
 
 ---
 
@@ -41,6 +52,18 @@ The Game Changer period proved quiet in this match, with the Onside and 1-on-1 a
 | **Total** | | **1** |
 
 The Game Changer period brought a modest 1 goal, with the modified rules creating chances but not overwhelming the flow of the match. This was more about tactical adjustments than the chaos that sometimes defines GC activations.
+
+---
+
+## Match Performers
+
+### Gold Devils FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Bilal Sayoud | 1 | 0 | 2 | 8 |
+
+
 
 ---
 

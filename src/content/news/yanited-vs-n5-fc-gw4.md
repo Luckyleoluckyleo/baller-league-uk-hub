@@ -9,9 +9,9 @@ featured: true
 
 ## Match Summary — Yanited 8-6 N5 FC
 
-Gameweek 4 brought Yanited and N5 FC together at Baller Arena, where 5th-placed Yanited looked to upset 4th-placed N5 FC.
+Yanited and N5 FC faced off at Baller Arena, where 5th-placed Yanited looked to upset 4th-placed N5 FC.
 
-Yanited claimed a well-deserved 8-6 win against N5 FC in an entertaining Gameweek 4 encounter. The Game Changer period played a key role, with the 3Play and The Line activations contributing 5 goals to a match that saw 14 in total.
+Yanited emerged 8-6 victors over N5 FC after a competitive clash that showcased the best of Baller League football. The Game Changer period played a key role, with the 3Play and The Line activations contributing 5 goals to a match that saw 14 in total.
 
 **Yanited form (before GW4):** 🤝 ✅ 🤝 ✅ 🤝 (D-W-D-W-D)  
 **N5 FC form (before GW4):** ✅ ✅ ❌ ✅ ❌ (W-W-L-W-L)
@@ -22,11 +22,33 @@ Yanited claimed a well-deserved 8-6 win against N5 FC in an entertaining Gamewee
 
 ### First Half
 
-The first half saw the 3Play Game Changer activate at the 12th minute and the teams made it count with 4 goals being scored. Yanited shaded a competitive first period, taking their chances well.
+The 3Play Game Changer kicked in at the 12th minute, generating 4 goals that set the tempo for the half. Yanited shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-The The Line Game Changer kicked in at the 27th minute of the second half, adding 1 goal and injecting fresh energy into the contest. N5 FC pushed hard for an equaliser but Yanited held firm, with Yanited defending resolutely to protect their lead. The 14-goal spectacle was one of the highest-scoring matches of Gameweek 4.
+The The Line Game Changer activated at the 27th minute, adding 1 goal and injecting fresh energy into the contest. N5 FC pushed hard for an equaliser but Yanited held firm, with Yanited defending resolutely to protect their lead. The 14-goal spectacle was one of the highest-scoring matches of Gameweek 4.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Jezreel Davies opened the scoring in the 2nd minute. Further goals came from Tyrell Miller-Rodney (4'), Joe Bennett (8'), Joe Bennett (10'), Tyrell Miller-Rodney (12'), Ibrahim Akanbi (13'), Sandro Camara (14'), Kieron Freeman (17'), John Bostock (20'), John Bostock (22'), Tyrell Miller-Rodney (22') and Sandro Camara (27').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 2' | Jezreel Davies | N5 FC |
+| 4' | Tyrell Miller-Rodney | Yanited |
+| 8' | Joe Bennett | N5 FC |
+| 10' | Joe Bennett | N5 FC |
+| 12' | Tyrell Miller-Rodney | Yanited |
+| 13' | Ibrahim Akanbi | N5 FC |
+| 14' | Sandro Camara | N5 FC |
+| 17' | Kieron Freeman | N5 FC |
+| 20' | John Bostock | Yanited |
+| 22' | John Bostock | Yanited |
+| 22' | Tyrell Miller-Rodney | Yanited |
+| 27' | Sandro Camara | N5 FC |
+
 
 ---
 
@@ -41,6 +63,33 @@ The Game Changer period proved decisive in this match, with the 3Play and The Li
 | **Total** | | **5** |
 
 The Game Changers provided a genuine spectacle, with both activations contributing meaningfully to the scoreline. The first-half 3Play was the more impactful of the two, and the teams' approaches to managing these periods proved crucial to the outcome.
+
+---
+
+## Match Performers
+
+### Yanited — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Tyrell Miller-Rodney | 3 | 0 | 0 | 8 |
+| John Bostock | 2 | 0 | 2 | 14 |
+| Kadell Daniel | 1 | 1 | 3 | 17 |
+| Nathan Oduwa | 0 | 2 | 2 | 9 |
+| Hubert Graczyk | 0 | 1 | 1 | 29 |
+| Paul-José M&#039;Poku | 0 | 1 | 6 | 17 |
+
+### N5 FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Joe Bennett | 2 | 0 | 4 | 25 |
+| Michael Hill | 1 | 2 | 6 | 12 |
+| Kieron Freeman | 1 | 0 | 1 | 17 |
+| Jezreel Davies | 1 | 0 | 4 | 24 |
+| Ibrahim Ugradar | 0 | 1 | 5 | 28 |
+
+
 
 ---
 

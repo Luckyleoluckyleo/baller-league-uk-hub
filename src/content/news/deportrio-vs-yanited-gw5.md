@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Deportrio 5-4 Yanited
 
-All eyes were on Baller Arena as Deportrio met Yanited, where 6th-placed Deportrio looked to upset 3rd-placed Yanited.
+Deportrio and Yanited faced off at Baller Arena, where 6th-placed Deportrio looked to upset 3rd-placed Yanited.
 
-Deportrio scraped a hard-fought 5-4 win over Yanited in a match where fine margins proved decisive. The Game Changer period played a key role, with the 3Play and The Line activations contributing 3 goals to a match that saw 9 in total.
+In a tense, tightly-contested affair, Deportrio held their nerve to beat Yanited 5-4. The Game Changer period played a key role, with the 3Play and The Line activations contributing 3 goals to a match that saw 9 in total.
 
 **Deportrio form (before GW5):** ✅ ✅ ❌ ❌ ❌ (W-W-L-L-L)  
 **Yanited form (before GW5):** ✅ 🤝 ✅ 🤝 ✅ (W-D-W-D-W)
@@ -22,11 +22,29 @@ Deportrio scraped a hard-fought 5-4 win over Yanited in a match where fine margi
 
 ### First Half
 
-The 3Play Game Changer kicked in at the 12th minute, generating 2 goals that set the tempo for the half. Deportrio shaded a competitive first period, taking their chances well.
+The first half saw the 3Play Game Changer activate at the 12th minute and the teams made it count with 2 goals being scored. Deportrio shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-At the 27-minute mark, the The Line Game Changer came into play and delivered 1 goal that shifted the momentum. Yanited pushed hard for an equaliser, with Deportrio defending resolutely to protect their lead.
+The The Line Game Changer activated at the 27th minute, adding 1 goal and injecting fresh energy into the contest. Yanited pushed hard for an equaliser, with Deportrio defending resolutely to protect their lead.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Bakary Sako opened the scoring in the 1st minute. Further goals came from Paul-José M&#039;Poku (4'), Jay Emmanuel-Thomas (8'), Marvin Sordell (12'), Sahid Kamara (12'), John Bostock (16'), Jay Emmanuel-Thomas (17') and Tyrell Miller-Rodney (27').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 1' | Bakary Sako | — |
+| 4' | Paul-José M&#039;Poku | Yanited |
+| 8' | Jay Emmanuel-Thomas | Deportrio |
+| 12' | Marvin Sordell | Deportrio |
+| 12' | Sahid Kamara | Deportrio |
+| 16' | John Bostock | Yanited |
+| 17' | Jay Emmanuel-Thomas | Deportrio |
+| 27' | Tyrell Miller-Rodney | Yanited |
+
 
 ---
 
@@ -41,6 +59,30 @@ The Game Changer period proved influential in this match, with the 3Play and The
 | **Total** | | **3** |
 
 The Game Changer period brought a modest 3 goals, with the modified rules creating chances but not overwhelming the flow of the match. This was more about tactical adjustments than the chaos that sometimes defines GC activations.
+
+---
+
+## Match Performers
+
+### Deportrio — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Jay Emmanuel-Thomas | 2 | 1 | 7 | 30 |
+| Sahid Kamara | 1 | 1 | 2 | 11 |
+| Marvin Sordell | 1 | 0 | 1 | 17 |
+| Rodney Ajayi | 0 | 1 | 2 | 10 |
+
+### Yanited — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Tyrell Miller-Rodney | 1 | 0 | 1 | 10 |
+| Paul-José M&#039;Poku | 1 | 0 | 1 | 8 |
+| John Bostock | 1 | 0 | 2 | 17 |
+| Medy Elito | 0 | 1 | 1 | 3 |
+
+
 
 ---
 

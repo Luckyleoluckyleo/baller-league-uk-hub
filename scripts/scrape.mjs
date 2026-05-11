@@ -4,6 +4,7 @@ import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUT_PATH = resolve(__dirname, "..", "src", "data", "gamechangers.json");
+const PLAYERS_PATH = resolve(__dirname, "..", "src", "data", "players.json");
 const CACHE_DIR = resolve(__dirname, ".cache");
 if (!existsSync(CACHE_DIR)) mkdirSync(CACHE_DIR, { recursive: true });
 
@@ -53,7 +54,6 @@ async function fetchHtml(id) {
       if (raw.length > 5000) return raw;
     }
   } catch {}
-
   const url = `https://ballerleague.uk/en/game/${id}`;
   try {
     const resp = await fetch(url, { signal: AbortSignal.timeout(15000) });
@@ -79,7 +79,110 @@ function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
 }
 
+// ---- Player name -> team lookup ----
+let playerTeamMap = null;
+function getPlayerTeamMap() {
+  if (playerTeamMap) return playerTeamMap;
+  playerTeamMap = {};
+  try {
+    const data = JSON.parse(readFileSync(PLAYERS_PATH, "utf8"));
+    for (const p of data.players || []) {
+      playerTeamMap[p.name.toLowerCase()] = p.teamSlug;
+    }
+  } catch {}
+  return playerTeamMap;
+}
+
 // ---- Parse ----
+
+function parsePlayerStats(html, homeSlug, awaySlug) {
+  const players = [];
+
+  // Find the player stats container
+  const psIdx = html.indexOf('id="player-stats-container"');
+  if (psIdx === -1) return players;
+
+  const psEnd = html.indexOf('</tbody>', psIdx);
+  if (psEnd === -1) return players;
+
+  const section = html.slice(psIdx, psEnd + 8);
+
+  // Parse each player row - extract name and all stat cells
+  const rowRe = /<tr[^>]*>[\s\S]*?<span[^>]*>([^<]+)<\/span>[\s\S]*?<\/tr>/g;
+  let m;
+  while ((m = rowRe.exec(section)) !== null) {
+    const name = m[1].trim();
+    const rowHtml = m[0];
+
+    // Extract stat cells: G, A, S, T, PTY, R, C, P
+    const cells = [];
+    const cellRe = /<td class="uk-text-center">([^<]*)<\/td>/g;
+    let cm;
+    while ((cm = cellRe.exec(rowHtml)) !== null) {
+      cells.push(parseInt(cm[1]) || 0);
+    }
+
+    if (cells.length >= 8) {
+      const teamMap = getPlayerTeamMap();
+      const teamSlug = teamMap[name.toLowerCase()] || null;
+
+      players.push({
+        name,
+        team: teamSlug,
+        goals: cells[0],
+        assists: cells[1],
+        shots: cells[2],
+        tackles: cells[3],
+        penalties: cells[4],
+        redCards: cells[5],
+        corners: cells[6],
+        passes: cells[7],
+      });
+    }
+  }
+
+  return players;
+}
+
+function parseGoalscorersFromTimeline(html) {
+  const goalscorers = [];
+
+  const tlStart = html.indexOf("TIMELINE");
+  if (tlStart === -1) return goalscorers;
+
+  const tlEnd = Math.min(
+    html.indexOf("SQUADS", tlStart) !== -1 ? html.indexOf("SQUADS", tlStart) : html.length,
+    html.indexOf("STANDINGS", tlStart) !== -1 ? html.indexOf("STANDINGS", tlStart) : html.length,
+  );
+  const section = html.slice(tlStart, tlEnd);
+
+  // Match event blocks: minute + emoji + details
+  // Each event is in a div with class "uk-margin-small-bottom" containing minute, emoji, and details
+  const eventBlockRe = /<div class="uk-margin-small-bottom"[^>]*>[\s\S]*?(?=<div class="uk-margin-small-bottom"|<hr|$)/g;
+  let block;
+  while ((block = eventBlockRe.exec(section)) !== null) {
+    const blockHtml = block[0];
+
+    // Get the minute
+    const minuteM = blockHtml.match(/(\d+)'/);
+    if (!minuteM) continue;
+    const minute = parseInt(minuteM[1]);
+
+    // Check if this is a goal (has "Goal" subtext, not "GAME CHANGER" or player names in substitution)
+    if (blockHtml.includes(">Goal<")) {
+      // Extract player name - the div with color: white and font-weight: bold
+      const nameM = blockHtml.match(/<div style="color:\s*white[^"]*font-weight:\s*bold[^"]*">([^<]+)<\/div>/);
+      if (nameM) {
+        goalscorers.push({
+          minute,
+          player: nameM[1].trim(),
+        });
+      }
+    }
+  }
+
+  return goalscorers;
+}
 
 function parseMatch(html, gameId) {
   const scoreM = html.match(/>\s*(\d{1,2})\s*-\s*(\d{1,2})\s*</);
@@ -117,6 +220,10 @@ function parseMatch(html, gameId) {
   else if (gameId >= 73) season = 2;
   else season = 1;
 
+  const ht = TEAM_MAP[homeTeam] || { slug: homeTeam.toLowerCase().replace(/\s+/g, "-"), emoji: "⚽" };
+  const at = TEAM_MAP[awayTeam] || { slug: awayTeam.toLowerCase().replace(/\s+/g, "-"), emoji: "⚽" };
+
+  // Parse Game Changers and goal minutes from timeline
   const tlStart = html.indexOf("TIMELINE");
   const gcEntries = [];
   const goalMinutes = [];
@@ -134,7 +241,6 @@ function parseMatch(html, gameId) {
       gcEntries.push({ minute: parseInt(m[1]), typeName: m[2].trim() });
     }
 
-    // Fallback: broader ⭐ scan
     if (gcEntries.length === 0) {
       let pos = 0;
       while ((pos = section.indexOf("⭐", pos)) !== -1) {
@@ -147,7 +253,7 @@ function parseMatch(html, gameId) {
       }
     }
 
-    // Goals
+    // Goal minutes
     const goalRe = /(\d{1,2})'\s*<\/div>\s*<div[^>]*>\s*⚽\s*<\/div>/g;
     while ((m = goalRe.exec(section)) !== null) {
       goalMinutes.push(parseInt(m[1]));
@@ -172,10 +278,19 @@ function parseMatch(html, gameId) {
   const gc1Goals = goalMinutes.filter((m) => m >= 12 && m <= 15).length;
   const gc2Goals = goalMinutes.filter((m) => m >= 27 && m <= 29).length;
 
-  const ht = TEAM_MAP[homeTeam] || { slug: homeTeam.toLowerCase().replace(/\s+/g, "-"), emoji: "⚽" };
-  const at = TEAM_MAP[awayTeam] || { slug: awayTeam.toLowerCase().replace(/\s+/g, "-"), emoji: "⚽" };
+  // NEW: Parse player stats and goalscorers
+  const playerStats = parsePlayerStats(html, ht.slug, at.slug);
+  const goalscorers = parseGoalscorersFromTimeline(html);
 
-  return { season, gameweek: gameday, homeTeam, homeSlug: ht.slug, homeEmoji: ht.emoji, awayTeam, awaySlug: at.slug, awayEmoji: at.emoji, homeScore: score.home, awayScore: score.away, gc1, gc2, gc1Goals, gc2Goals };
+  return {
+    season, gameweek: gameday,
+    homeTeam, homeSlug: ht.slug, homeEmoji: ht.emoji,
+    awayTeam, awaySlug: at.slug, awayEmoji: at.emoji,
+    homeScore: score.home, awayScore: score.away,
+    gc1, gc2, gc1Goals, gc2Goals,
+    playerStats,
+    goalscorers,
+  };
 }
 
 // ---- Main ----
@@ -223,15 +338,14 @@ async function main() {
     if (!html) { console.log(`  [${i + 1}/${allIds.length}] ID ${id}: no HTML`); continue; }
     const match = parseMatch(html, id);
     if (match) {
-      // Skip upcoming fixtures (0-0 with no GC data)
       if (match.homeScore === 0 && match.awayScore === 0 && !match.gc1 && !match.gc2) {
         console.log(`  [${i + 1}/${allIds.length}] S${match.season} GW${String(match.gameweek).padStart(2, " ")} ${match.homeTeam} vs ${match.awayTeam} - UPCOMING, SKIPPING`);
         continue;
       }
       matches.push(match);
-      // Fix: Baller League site mis-labels Onside as "The Line" in 1st half
       if (match.gc1 === "theline") { match.gc1 = "onside"; match._fixed = true; }
-      console.log(`  [${i + 1}/${allIds.length}] S${match.season} GW${String(match.gameweek).padStart(2, " ")} ${match.homeTeam} ${match.homeScore}-${match.awayScore} ${match.awayTeam} | GC1:${match.gc1 || "?"} GC2:${match.gc2 || "?"} (${match.gc1Goals + match.gc2Goals} GC goals)${match._fixed ? " [FIXED: theline->onside]" : ""}`);
+      const gsCount = match.goalscorers?.length || 0;
+      console.log(`  [${i + 1}/${allIds.length}] S${match.season} GW${String(match.gameweek).padStart(2, " ")} ${match.homeTeam} ${match.homeScore}-${match.awayScore} ${match.awayTeam} | GC1:${match.gc1 || "?"} GC2:${match.gc2 || "?"} (${match.gc1Goals + match.gc2Goals} GC goals) | ${gsCount} goal scorers${match._fixed ? " [FIXED]" : ""}`);
     } else {
       console.log(`  [${i + 1}/${allIds.length}] ID ${id}: parse failed`);
     }
@@ -258,6 +372,22 @@ async function main() {
           homeScore: m.homeScore, awayScore: m.awayScore,
           gamechanger1: { type: m.gc1 || "unknown", goalsScored: m.gc1Goals },
           gamechanger2: { type: m.gc2 || "unknown", goalsScored: m.gc2Goals },
+          playerStats: (m.playerStats || []).map(p => ({
+            name: p.name,
+            team: p.team,
+            goals: p.goals,
+            assists: p.assists,
+            shots: p.shots,
+            tackles: p.tackles,
+            penalties: p.penalties,
+            redCards: p.redCards,
+            corners: p.corners,
+            passes: p.passes,
+          })),
+          goalscorers: (m.goalscorers || []).map(g => ({
+            minute: g.minute,
+            player: g.player,
+          })),
         })),
       }]),
     ),
@@ -267,8 +397,12 @@ async function main() {
 
   const total = matches.length;
   const withGC = matches.filter((m) => m.gc1 && m.gc2).length;
+  const withStats = matches.filter((m) => m.playerStats?.length > 0).length;
+  const withGoalscorers = matches.filter((m) => m.goalscorers?.length > 0).length;
   console.log(`\nDone! ${total} matches across ${Object.keys(seasons).length} seasons`);
-  console.log(`${withGC}/${total} matches have Gamechanger data (${total * 2} GC events)`);
+  console.log(`${withGC}/${total} with Gamechanger data (${total * 2} GC events)`);
+  console.log(`${withStats}/${total} with player stats (${matches.reduce((s, m) => s + (m.playerStats?.length || 0), 0)} player entries)`);
+  console.log(`${withGoalscorers}/${total} with goal scorer data (${matches.reduce((s, m) => s + (m.goalscorers?.length || 0), 0)} goal events)`);
   console.log(`Output: ${OUT_PATH}`);
 }
 

@@ -22,11 +22,27 @@ Community FC edged past VZN FC 4-3 in a nail-biting encounter that could have go
 
 ### First Half
 
-At the 12-minute mark, the 3Play Game Changer came into effect and the teams made it count with 1 goal being scored. Community FC shaded a competitive first period, taking their chances well.
+The first half saw the 3Play Game Changer activate at the 12th minute, producing 1 goal in a frantic period of play. Community FC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-At the 27-minute mark, the Fairplay Game Changer came into play and delivered 1 goal that shifted the momentum. The closing stages were nervy as VZN FC threw everything forward, but Community FC stood strong to claim the points.
+At the 27-minute mark, the Fairplay Game Changer came into play, producing 1 goal at a crucial stage. The closing stages were nervy as VZN FC threw everything forward, but Community FC stood strong to claim the points.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Dimitri Nicolaou opened the scoring in the 4th minute. Further goals came from Paul Semakula (8'), Matthew Waller (9'), Frankie Leonard (9'), Frankie Leonard (14') and Tawab Djankpata (29').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 4' | Dimitri Nicolaou | VZN FC |
+| 8' | Paul Semakula | Community FC |
+| 9' | Matthew Waller | Community FC |
+| 9' | Frankie Leonard | VZN FC |
+| 14' | Frankie Leonard | VZN FC |
+| 29' | Tawab Djankpata | Community FC |
+
 
 ---
 
@@ -41,6 +57,19 @@ The Game Changer period proved influential in this match, with the 3Play and Fai
 | **Total** | | **2** |
 
 The Game Changer period brought a modest 2 goals, with the modified rules creating chances but not overwhelming the flow of the match. This was more about tactical adjustments than the chaos that sometimes defines GC activations.
+
+---
+
+## Match Performers
+
+### Community FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Tawab Djankpata | 1 | 2 | 6 | 13 |
+| Matthew Waller | 1 | 0 | 4 | 12 |
+
+
 
 ---
 

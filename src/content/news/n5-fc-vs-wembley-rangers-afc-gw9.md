@@ -1,5 +1,5 @@
 ---
-title: "Wembley Rangers AFC Overpower N5 FC 3-8 in Dominant Display — GW9"
+title: "Wembley Rangers AFC Cruise Past N5 FC in 3-8 Rout — GW9"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "N5 FC 3-8 Wembley Rangers AFC — Gameweek 9 match report. Michael Hill (14 goals) leads N5 FC's attack. Game Changers: 3Play (2) & 1-on-1 (5). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -22,11 +22,31 @@ Wembley Rangers AFC were simply unstoppable as they crushed N5 FC 3-8, deliverin
 
 ### First Half
 
-At the 12-minute mark, the 3Play Game Changer came into effect and the teams made it count with 2 goals being scored. Wembley Rangers AFC flew out of the blocks, overwhelming N5 FC with wave after wave of attacks.
+The 3Play Game Changer kicked in at the 12th minute, producing 2 goals in a frantic period of play. Wembley Rangers AFC seized the initiative early and never looked back, building a commanding lead.
 
 ### Second Half
 
-The 1-on-1 Game Changer activated at the 27th minute, adding 5 goals and injecting fresh energy into the contest. Wembley Rangers AFC showed no mercy after the break, piling on the goals to complete a resounding victory. The 11-goal spectacle was one of the highest-scoring matches of Gameweek 9.
+At the 27-minute mark, the 1-on-1 Game Changer came into play and delivered 5 goals that shifted the momentum. Wembley Rangers AFC continued their onslaught, putting the game well beyond N5 FC's reach in a relentless second-half showing. The 11-goal spectacle was one of the highest-scoring matches of Gameweek 9.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Michael Hill opened the scoring in the 12th minute. Further goals came from Joe Bennett (20'), Domingos Pires (21'), Ethan Oke (22'), Finlay Chadwick (24'), Domingos Pires (27'), Domingos Pires (28'), Domingos Pires (28'), Michael Hill (28') and Domingos Pires (29').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 12' | Michael Hill | N5 FC |
+| 20' | Joe Bennett | N5 FC |
+| 21' | Domingos Pires | Wembley Rangers AFC |
+| 22' | Ethan Oke | — |
+| 24' | Finlay Chadwick | — |
+| 27' | Domingos Pires | Wembley Rangers AFC |
+| 28' | Domingos Pires | Wembley Rangers AFC |
+| 28' | Domingos Pires | Wembley Rangers AFC |
+| 28' | Michael Hill | N5 FC |
+| 29' | Domingos Pires | Wembley Rangers AFC |
+
 
 ---
 
@@ -41,6 +61,29 @@ The Game Changer period proved decisive in this match, with the 3Play and 1-on-1
 | **Total** | | **7** |
 
 The Game Changer period exploded into life, with the 1-on-1 activation proving particularly devastating. Matches where the Game Changer produces this volume of goals often become instant classics, and this was no exception. The high-scoring nature of the GC period meant the usual tactical calculations went out the window, with both teams forced to adapt on the fly.
+
+---
+
+## Match Performers
+
+### N5 FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Michael Hill | 2 | 0 | 5 | 24 |
+| Joe Bennett | 1 | 0 | 4 | 24 |
+| Jezreel Davies | 0 | 1 | 3 | 11 |
+| Jean-Baptiste Fischer | 0 | 1 | 1 | 7 |
+
+### Wembley Rangers AFC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Domingos Pires | 5 | 1 | 3 | 22 |
+| Callam Gardner | 1 | 0 | 0 | 3 |
+| Max Pitman | 0 | 1 | 2 | 22 |
+
+
 
 ---
 

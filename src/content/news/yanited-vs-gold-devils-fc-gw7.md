@@ -1,5 +1,5 @@
 ---
-title: "Yanited and Gold Devils FC Play Out 2-2 Draw in Gameweek 7"
+title: "Yanited and Gold Devils FC Deadlocked at 2-2 in GW7"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "Yanited 2-2 Gold Devils FC — Gameweek 7 match report. Kadell Daniel (7 goals) leads Yanited's attack. Game Changers: Onside (2) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Yanited 2-2 Gold Devils FC
 
-Gameweek 7 brought Yanited and Gold Devils FC together at Baller Arena, two sides looking to climb the table from 7th and 11th respectively.
+Yanited and Gold Devils FC faced off at Baller Arena, two sides looking to climb the table from 7th and 11th respectively.
 
-Yanited and Gold Devils FC could not be separated as they battled to a 2-2 stalemate at Baller Arena. The 4 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through Onside and Fairplay.
+Yanited and Gold Devils FC played out a thrilling 2-2 draw in a match where neither side deserved to lose. The 4 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through Onside and Fairplay.
 
 **Yanited form (before GW7):** ❌ ✅ ❌ ✅ 🤝 (L-W-L-W-D)  
 **Gold Devils FC form (before GW7):** ❌ ❌ ✅ ❌ ✅ (L-L-W-L-W)
@@ -22,11 +22,25 @@ Yanited and Gold Devils FC could not be separated as they battled to a 2-2 stale
 
 ### First Half
 
-At the 12-minute mark, the Onside Game Changer came into effect, producing 2 goals in a frantic period of play. The two sides were inseparable at the break, with the contest finely poised.
+The Onside Game Changer kicked in at the 12th minute, generating 2 goals that set the tempo for the half. The two sides were inseparable at the break, with the contest finely poised.
 
 ### Second Half
 
 The Fairplay Game Changer activated at the 27th minute, but neither side could capitalise on the modified rules. Despite late pressure, neither team could find the decisive goal and the spoils were shared.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Tommy Willard opened the scoring in the 2nd minute, with goals following from Bilal Sayoud (12'), Tyrell Miller-Rodney (15'), Ryan Gondoh (23').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 2' | Tommy Willard | Yanited |
+| 12' | Bilal Sayoud | Gold Devils FC |
+| 15' | Tyrell Miller-Rodney | Yanited |
+| 23' | Ryan Gondoh | Gold Devils FC |
+
 
 ---
 
@@ -41,6 +55,27 @@ The Game Changer period proved influential in this match, with the Onside and Fa
 | **Total** | | **2** |
 
 The Game Changer period brought a modest 2 goals, with the modified rules creating chances but not overwhelming the flow of the match. This was more about tactical adjustments than the chaos that sometimes defines GC activations.
+
+---
+
+## Match Performers
+
+### Yanited — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Tyrell Miller-Rodney | 1 | 1 | 4 | 8 |
+| Tommy Willard | 1 | 0 | 1 | 6 |
+| Medy Elito | 0 | 1 | 1 | 7 |
+
+### Gold Devils FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Bilal Sayoud | 1 | 0 | 3 | 23 |
+| Ryan Gondoh | 1 | 0 | 2 | 28 |
+
+
 
 ---
 

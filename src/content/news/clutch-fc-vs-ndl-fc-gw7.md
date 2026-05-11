@@ -1,5 +1,5 @@
 ---
-title: "NDL FC See Off Clutch FC 3-6 in Gameweek 7"
+title: "NDL FC Beat Clutch FC 3-6 in Entertaining GW7 Clash"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "Clutch FC 3-6 NDL FC — Gameweek 7 match report. Alfie Matthews (12 goals) leads Clutch FC's attack. Game Changers: 3Play (2) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Clutch FC 3-6 NDL FC
 
-Gameweek 7 brought Clutch FC and NDL FC together at Baller Arena in a top-of-the-table showdown, with Clutch FC sitting 3rd and NDL FC 2nd.
+Clutch FC and NDL FC faced off at Baller Arena in a top-of-the-table showdown, with Clutch FC sitting 3rd and NDL FC 2nd.
 
 NDL FC controlled proceedings from start to finish, running out 3-6 winners in a performance that underlined their quality. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 5 goals to a match that saw 9 in total.
 
@@ -26,7 +26,26 @@ The first half saw the 3Play Game Changer activate at the 12th minute, producing
 
 ### Second Half
 
-At the 27-minute mark, the 1-on-1 Game Changer came into play, producing 3 goals at a crucial stage. NDL FC maintained their grip on the match throughout the second period to secure a comfortable win.
+At the 27-minute mark, the 1-on-1 Game Changer came into play, adding 3 goals and injecting fresh energy into the contest. NDL FC maintained their grip on the match throughout the second period to secure a comfortable win.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Sam Fitzgerald opened the scoring in the 4th minute. Further goals came from Razzaq Coleman (9'), Isaac Modi (13'), David Marques Castanho (14'), Joshua Parker (17'), Isaac Modi (18'), Sam Fitzgerald (27'), Tyler Winters (28') and Alfie Matthews (29').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 4' | Sam Fitzgerald | NDL FC |
+| 9' | Razzaq Coleman | NDL FC |
+| 13' | Isaac Modi | NDL FC |
+| 14' | David Marques Castanho | Clutch FC |
+| 17' | Joshua Parker | NDL FC |
+| 18' | Isaac Modi | NDL FC |
+| 27' | Sam Fitzgerald | NDL FC |
+| 28' | Tyler Winters | Clutch FC |
+| 29' | Alfie Matthews | Clutch FC |
+
 
 ---
 
@@ -41,6 +60,32 @@ The Game Changer period proved decisive in this match, with the 3Play and 1-on-1
 | **Total** | | **5** |
 
 The Game Changers provided a genuine spectacle, with both activations contributing meaningfully to the scoreline. The second-half 1-on-1 was the more impactful of the two, and the teams' approaches to managing these periods proved crucial to the outcome.
+
+---
+
+## Match Performers
+
+### Clutch FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| David Marques Castanho | 1 | 0 | 2 | 9 |
+| Alfie Matthews | 1 | 0 | 3 | 35 |
+| Tyler Winters | 1 | 0 | 1 | 16 |
+| Bryan Ly | 0 | 1 | 1 | 5 |
+
+### NDL FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Sam Fitzgerald | 2 | 0 | 2 | 15 |
+| Isaac Modi | 2 | 0 | 0 | 6 |
+| Joshua Parker | 1 | 1 | 5 | 13 |
+| Razzaq Coleman | 1 | 0 | 2 | 14 |
+| Amin Belaid | 0 | 2 | 3 | 10 |
+| Dillon Barnes | 0 | 1 | 1 | 28 |
+
+
 
 ---
 

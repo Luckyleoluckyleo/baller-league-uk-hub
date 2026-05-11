@@ -1,5 +1,5 @@
 ---
-title: "Gold Devils FC See Off SDS FC 2-0 in Gameweek 9"
+title: "Gold Devils FC Beat SDS FC 2-0 in Entertaining GW9 Clash"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "Gold Devils FC 2-0 SDS FC — Gameweek 9 match report. Bilal Sayoud (7 goals) leads Gold Devils FC's attack. Game Changers: Onside (0) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -22,11 +22,23 @@ Gold Devils FC emerged 2-0 victors over SDS FC after a competitive clash that sh
 
 ### First Half
 
-At the 12-minute mark, the Onside Game Changer came into effect, yet the deadlock remained unbroken. Gold Devils FC shaded a competitive first period, taking their chances well.
+The Onside Game Changer kicked in at the 12th minute, but neither side could find the breakthrough during the activation. Gold Devils FC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
 The The Line Game Changer kicked in at the 27th minute of the second half, but neither side could capitalise on the modified rules. SDS FC pushed hard for an equaliser but Gold Devils FC held firm, with Gold Devils FC defending resolutely to protect their lead.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Ryan Gondoh opened the scoring in the 0th minute, with goals following from Ryan Gondoh (25').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 0' | Ryan Gondoh | Gold Devils FC |
+| 25' | Ryan Gondoh | Gold Devils FC |
+
 
 ---
 
@@ -41,6 +53,19 @@ The Game Changer period proved quiet in this match, with the Onside and The Line
 | **Total** | | **0** |
 
 In a rarity for Baller League, neither Game Changer activation yielded a goal. Both defences deserve immense credit for staying disciplined during the modified-rule periods — it takes serious concentration to navigate the GC without conceding.
+
+---
+
+## Match Performers
+
+### Gold Devils FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Ryan Gondoh | 2 | 0 | 4 | 16 |
+| Luqman Kassim | 0 | 1 | 1 | 2 |
+
+
 
 ---
 

@@ -411,6 +411,121 @@ function gcAnalysis(gc1, gc2, gc1g, gc2g, totalGoals, home, away, hs, as) {
   return analysis;
 }
 
+let playerTeamMapCache = null;
+function getPlayerTeamMap() {
+  if (playerTeamMapCache) return playerTeamMapCache;
+  playerTeamMapCache = {};
+  for (const p of players) {
+    playerTeamMapCache[p.name.toLowerCase()] = p.teamSlug;
+  }
+  return playerTeamMapCache;
+}
+
+function getScorerTeam(name, playerStats, homeSlug, awaySlug) {
+  const ps = playerStats.find(p => p.name.toLowerCase() === name.toLowerCase());
+  if (ps && ps.team) return ps.team === homeSlug ? 'home' : 'away';
+  const pm = getPlayerTeamMap();
+  if (pm && pm[name.toLowerCase()]) return pm[name.toLowerCase()] === homeSlug ? 'home' : 'away';
+  return null;
+}
+
+function goalTimelineSection(goalscorers, playerStats, home, away, homeSlug, awaySlug) {
+  if (!goalscorers || goalscorers.length === 0) return '';
+
+  const sorted = [...goalscorers].sort((a, b) => a.minute - b.minute);
+  const homeGoals = [];
+  const awayGoals = [];
+  for (const g of sorted) {
+    const side = getScorerTeam(g.player, playerStats, homeSlug, awaySlug);
+    if (side === 'home') homeGoals.push(g);
+    else if (side === 'away') awayGoals.push(g);
+    else {
+      // Guess based on existing counts vs scores
+      if (homeGoals.length < (hsGuess(goalscorers, playerStats, homeSlug, awaySlug).home || 0)) {
+        homeGoals.push(g);
+      } else {
+        awayGoals.push(g);
+      }
+    }
+  }
+
+  let s = '';
+
+  // Narrative paragraph
+  if (sorted.length > 0) {
+    const narrativeParts = sorted.map(g => {
+      const side = getScorerTeam(g.player, playerStats, homeSlug, awaySlug);
+      const teamName = side === 'home' ? home : side === 'away' ? away : '';
+      return `**${g.player}** ${teamName ? `(${teamName})` : ''} at ${g.minute}'`;
+    });
+    s += `Goals came thick and fast in this encounter. `;
+    const first = sorted[0];
+    const firstSide = getScorerTeam(first.player, playerStats, homeSlug, awaySlug);
+    s += `${first.player} opened the scoring in the ${first.minute}${ordinalSuffix(first.minute)} minute`;
+
+    if (sorted.length > 1) {
+      const restParts = sorted.slice(1).map(g => `${g.player} (${g.minute}')`);
+      if (restParts.length <= 3) {
+        s += `, with goals following from ${restParts.join(', ')}`;
+      } else {
+        s += `. Further goals came from ${restParts.slice(0, -1).join(', ')} and ${restParts[restParts.length - 1]}`;
+      }
+    }
+    s += `.\n\n`;
+  }
+
+  // Timeline table
+  s += `| Minute | Player | Team |\n|--------|--------|------|\n`;
+  for (const g of sorted) {
+    const side = getScorerTeam(g.player, playerStats, homeSlug, awaySlug);
+    const teamName = side === 'home' ? home : side === 'away' ? away : '—';
+    s += `| ${g.minute}' | ${g.player} | ${teamName} |\n`;
+  }
+
+  return s;
+}
+
+function hsGuess(goalscorers, playerStats, homeSlug, awaySlug) {
+  let h = 0, a = 0;
+  for (const g of goalscorers) {
+    const side = getScorerTeam(g.player, playerStats, homeSlug, awaySlug);
+    if (side === 'home') h++;
+    else if (side === 'away') a++;
+  }
+  return { home: h, away: a };
+}
+
+function matchPerformersSection(playerStats, homeSlug, awaySlug, home, away) {
+  if (!playerStats || playerStats.length === 0) return '';
+
+  const homePlayers = playerStats.filter(p => p.team === homeSlug && (p.goals > 0 || p.assists > 0));
+  const awayPlayers = playerStats.filter(p => p.team === awaySlug && (p.goals > 0 || p.assists > 0));
+
+  if (homePlayers.length === 0 && awayPlayers.length === 0) return '';
+
+  let s = '';
+
+  if (homePlayers.length > 0) {
+    s += `### ${home} — This Match\n\n`;
+    s += `| Player | Goals | Assists | Shots | Passes |\n|--------|-------|---------|-------|--------|\n`;
+    for (const p of homePlayers.sort((a, b) => b.goals - a.goals || b.assists - a.assists)) {
+      s += `| ${p.name} | ${p.goals} | ${p.assists} | ${p.shots || 0} | ${p.passes || 0} |\n`;
+    }
+    s += '\n';
+  }
+
+  if (awayPlayers.length > 0) {
+    s += `### ${away} — This Match\n\n`;
+    s += `| Player | Goals | Assists | Shots | Passes |\n|--------|-------|---------|-------|--------|\n`;
+    for (const p of awayPlayers.sort((a, b) => b.goals - a.goals || b.assists - a.assists)) {
+      s += `| ${p.name} | ${p.goals} | ${p.assists} | ${p.shots || 0} | ${p.passes || 0} |\n`;
+    }
+    s += '\n';
+  }
+
+  return s;
+}
+
 function keyPerformersSection(home, away, homeScorers, awayScorers) {
   let s = '';
 
@@ -681,6 +796,9 @@ function generateReport(match) {
   const homeNext = fixturesData.upcoming.find(f => f.homeSlug === match.homeSlug || f.awaySlug === match.homeSlug);
   const awayNext = fixturesData.upcoming.find(f => f.homeSlug === match.awaySlug || f.awaySlug === match.awaySlug);
 
+  const goalscorers = match.goalscorers || [];
+  const playerStats = match.playerStats || [];
+
   const title = titleVariations(home, away, hs, as, gw, winner, loser, Math.abs(margin));
 
   const slug = `${match.homeSlug}-vs-${match.awaySlug}-gw${gw}`.toLowerCase().replace(/[^a-z0-9-]/g, "-");
@@ -722,9 +840,21 @@ ${secondHalfNarrative(home, away, hs, as, gc2, gc2g, Math.abs(margin), gw)}
 
 ---
 
+## Goal Timeline
+
+${goalTimelineSection(goalscorers, playerStats, home, away, match.homeSlug, match.awaySlug)}
+
+---
+
 ## Game Changer Impact — ${gc1} & ${gc2}
 
 ${gcAnalysis(gc1, gc2, gc1g, gc2g, totalGoals, home, away, hs, as)}
+
+---
+
+## Match Performers
+
+${matchPerformersSection(playerStats, match.homeSlug, match.awaySlug, home, away)}
 
 ---
 

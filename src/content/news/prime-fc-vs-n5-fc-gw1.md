@@ -9,9 +9,9 @@ featured: true
 
 ## Match Summary — Prime FC 7-3 N5 FC
 
-The Gameweek 1 schedule pitted Prime FC against N5 FC
+Gameweek 1 brought Prime FC and N5 FC together at Baller Arena
 
-Prime FC proved too strong for N5 FC, taking a convincing 7-3 victory that never looked in doubt. The Game Changer period played a key role, with the 3Play and The Line activations contributing 2 goals to a match that saw 10 in total.
+Prime FC controlled proceedings from start to finish, running out 7-3 winners in a performance that underlined their quality. The Game Changer period played a key role, with the 3Play and The Line activations contributing 2 goals to a match that saw 10 in total.
 
 
 
@@ -21,11 +21,30 @@ Prime FC proved too strong for N5 FC, taking a convincing 7-3 victory that never
 
 ### First Half
 
-At the 12-minute mark, the 3Play Game Changer came into effect and the teams made it count with 1 goal being scored. Prime FC flew out of the blocks, overwhelming N5 FC with wave after wave of attacks.
+The first half saw the 3Play Game Changer activate at the 12th minute, producing 1 goal in a frantic period of play. Prime FC seized the initiative early and never looked back, building a commanding lead.
 
 ### Second Half
 
-At the 27-minute mark, the The Line Game Changer came into play and delivered 1 goal that shifted the momentum. Prime FC maintained their grip on the match throughout the second period to secure a comfortable win. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 1.
+The The Line Game Changer activated at the 27th minute, producing 1 goal at a crucial stage. Prime FC managed the game superbly after the interval, seeing out a professional victory. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 1.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Sak Hassan opened the scoring in the 11th minute. Further goals came from Ryan Tunnicliffe (13'), Finlay Chadwick (16'), Bráulio Valera Pinto Maieco (17'), Francis Gerard Mampolo (18'), Francis Gerard Mampolo (20'), Stefan Ilic (21'), Finlay Chadwick (23') and Francis Gerard Mampolo (28').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 11' | Sak Hassan | Prime FC |
+| 13' | Ryan Tunnicliffe | N5 FC |
+| 16' | Finlay Chadwick | — |
+| 17' | Bráulio Valera Pinto Maieco | Prime FC |
+| 18' | Francis Gerard Mampolo | Prime FC |
+| 20' | Francis Gerard Mampolo | Prime FC |
+| 21' | Stefan Ilic | Prime FC |
+| 23' | Finlay Chadwick | — |
+| 28' | Francis Gerard Mampolo | Prime FC |
+
 
 ---
 
@@ -40,6 +59,28 @@ The Game Changer period proved influential in this match, with the 3Play and The
 | **Total** | | **2** |
 
 The Game Changer period brought a modest 2 goals, with the modified rules creating chances but not overwhelming the flow of the match. This was more about tactical adjustments than the chaos that sometimes defines GC activations.
+
+---
+
+## Match Performers
+
+### Prime FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Francis Gerard Mampolo | 3 | 0 | 0 | 0 |
+| Bráulio Valera Pinto Maieco | 1 | 0 | 0 | 0 |
+| Timmy Abraham | 1 | 0 | 0 | 0 |
+| Sak Hassan | 1 | 0 | 0 | 0 |
+| Stefan Ilic | 1 | 0 | 0 | 0 |
+
+### N5 FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Ryan Tunnicliffe | 1 | 0 | 0 | 0 |
+
+
 
 ---
 

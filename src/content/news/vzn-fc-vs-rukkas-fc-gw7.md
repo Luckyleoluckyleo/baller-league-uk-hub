@@ -9,9 +9,9 @@ featured: true
 
 ## Match Summary — VZN FC 7-3 Rukkas FC
 
-The Gameweek 7 schedule pitted VZN FC against Rukkas FC, two sides looking to climb the table from 9th and 10th respectively.
+All eyes were on Baller Arena as VZN FC met Rukkas FC, two sides looking to climb the table from 9th and 10th respectively.
 
-A composed, professional display from VZN FC saw them dispatch Rukkas FC 7-3 to claim all three points. The Game Changer period played a key role, with the Plus One and The Line activations contributing 4 goals to a match that saw 10 in total.
+VZN FC controlled proceedings from start to finish, running out 7-3 winners in a performance that underlined their quality. The Game Changer period played a key role, with the Plus One and The Line activations contributing 4 goals to a match that saw 10 in total.
 
 **VZN FC form (before GW7):** ❌ ✅ ❌ ❌ ❌ (L-W-L-L-L)  
 **Rukkas FC form (before GW7):** ✅ ❌ ❌ ✅ ❌ (W-L-L-W-L)
@@ -22,11 +22,29 @@ A composed, professional display from VZN FC saw them dispatch Rukkas FC 7-3 to 
 
 ### First Half
 
-At the 12-minute mark, the Plus One Game Changer came into effect, generating 2 goals that set the tempo for the half. VZN FC seized the initiative early and never looked back, building a commanding lead.
+At the 12-minute mark, the Plus One Game Changer came into effect and the teams made it count with 2 goals being scored. VZN FC seized the initiative early and never looked back, building a commanding lead.
 
 ### Second Half
 
-The The Line Game Changer activated at the 27th minute and delivered 2 goals that shifted the momentum. VZN FC managed the game superbly after the interval, seeing out a professional victory. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 7.
+At the 27-minute mark, the The Line Game Changer came into play, producing 2 goals at a crucial stage. VZN FC maintained their grip on the match throughout the second period to secure a comfortable win. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 7.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Adrian Tajik opened the scoring in the 2nd minute. Further goals came from Daniel Bowry (3'), Emmanuel Robe (12'), George Nikaj (14'), George Nikaj (16'), George Nikaj (19'), Adrian Tajik (20') and Bradley Williams (29').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 2' | Adrian Tajik | VZN FC |
+| 3' | Daniel Bowry | VZN FC |
+| 12' | Emmanuel Robe | Rukkas FC |
+| 14' | George Nikaj | VZN FC |
+| 16' | George Nikaj | VZN FC |
+| 19' | George Nikaj | VZN FC |
+| 20' | Adrian Tajik | VZN FC |
+| 29' | Bradley Williams | Rukkas FC |
+
 
 ---
 
@@ -41,6 +59,32 @@ The Game Changer period proved influential in this match, with the Plus One and 
 | **Total** | | **4** |
 
 The Game Changers provided a genuine spectacle, with both activations contributing meaningfully to the scoreline. The second-half The Line was the more impactful of the two, and the teams' approaches to managing these periods proved crucial to the outcome.
+
+---
+
+## Match Performers
+
+### VZN FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| George Nikaj | 3 | 1 | 3 | 9 |
+| Adrian Tajik | 2 | 0 | 1 | 5 |
+| Daniel Bowry | 1 | 0 | 3 | 11 |
+| Florian Kastrati | 1 | 0 | 0 | 7 |
+| Frankie Leonard | 0 | 2 | 4 | 31 |
+| Che Krabbendam | 0 | 1 | 3 | 25 |
+
+### Rukkas FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Mussa Bham | 1 | 0 | 5 | 27 |
+| Emmanuel Robe | 1 | 0 | 0 | 6 |
+| Bradley Williams | 1 | 0 | 1 | 5 |
+| David Oupoh | 0 | 1 | 1 | 6 |
+
+
 
 ---
 

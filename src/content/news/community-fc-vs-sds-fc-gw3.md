@@ -1,5 +1,5 @@
 ---
-title: "SDS FC Overpower Community FC 3-7 in Dominant Display — GW3"
+title: "SDS FC Cruise Past Community FC in 3-7 Rout — GW3"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "Community FC 3-7 SDS FC — Gameweek 3 match report. Alex Byrne (8 goals) leads Community FC's attack. Game Changers: Onside (0) & 1-on-1 (5). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,7 +9,7 @@ featured: true
 
 ## Match Summary — Community FC 3-7 SDS FC
 
-Community FC and SDS FC faced off at Baller Arena, where 12th-placed Community FC looked to upset 2nd-placed SDS FC.
+All eyes were on Baller Arena as Community FC met SDS FC, where 12th-placed Community FC looked to upset 2nd-placed SDS FC.
 
 SDS FC controlled proceedings from start to finish, running out 3-7 winners in a performance that underlined their quality. The Game Changer period played a key role, with the Onside and 1-on-1 activations contributing 5 goals to a match that saw 10 in total.
 
@@ -22,11 +22,30 @@ SDS FC controlled proceedings from start to finish, running out 3-7 winners in a
 
 ### First Half
 
-The first half saw the Onside Game Changer activate at the 12th minute, though goals proved elusive as both defences held firm. SDS FC seized the initiative early and never looked back, building a commanding lead.
+The first half saw the Onside Game Changer activate at the 12th minute, but neither side could find the breakthrough during the activation. SDS FC flew out of the blocks, overwhelming Community FC with wave after wave of attacks.
 
 ### Second Half
 
-At the 27-minute mark, the 1-on-1 Game Changer came into play, producing 5 goals at a crucial stage. SDS FC managed the game superbly after the interval, seeing out a professional victory. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 3.
+The 1-on-1 Game Changer kicked in at the 27th minute of the second half, producing 5 goals at a crucial stage. SDS FC maintained their grip on the match throughout the second period to secure a comfortable win. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 3.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Camilo Restrepo opened the scoring in the 5th minute. Further goals came from Connor Wood (8'), Selim Saied (20'), Kazaiah Sterling (24'), Alex Byrne (27'), Joshua Abbott (28'), Alex Byrne (28'), Danny Bassett (29') and Alex Byrne (29').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 5' | Camilo Restrepo | SDS FC |
+| 8' | Connor Wood | SDS FC |
+| 20' | Selim Saied | SDS FC |
+| 24' | Kazaiah Sterling | SDS FC |
+| 27' | Alex Byrne | Community FC |
+| 28' | Joshua Abbott | SDS FC |
+| 28' | Alex Byrne | Community FC |
+| 29' | Danny Bassett | SDS FC |
+| 29' | Alex Byrne | Community FC |
+
 
 ---
 
@@ -41,6 +60,29 @@ The Game Changer period proved decisive in this match, with the Onside and 1-on-
 | **Total** | | **5** |
 
 The Game Changers provided a genuine spectacle, with both activations contributing meaningfully to the scoreline. The second-half 1-on-1 was the more impactful of the two, and the teams' approaches to managing these periods proved crucial to the outcome.
+
+---
+
+## Match Performers
+
+### Community FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Alex Byrne | 3 | 0 | 0 | 0 |
+
+### SDS FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Kazaiah Sterling | 2 | 0 | 0 | 0 |
+| Connor Wood | 1 | 0 | 0 | 0 |
+| Camilo Restrepo | 1 | 0 | 0 | 0 |
+| Danny Bassett | 1 | 0 | 0 | 0 |
+| Joshua Abbott | 1 | 0 | 0 | 0 |
+| Selim Saied | 1 | 0 | 0 | 0 |
+
+
 
 ---
 

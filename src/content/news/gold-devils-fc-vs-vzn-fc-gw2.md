@@ -1,5 +1,5 @@
 ---
-title: "Gold Devils FC Beat VZN FC 3-1 in Entertaining GW2 Clash"
+title: "Gold Devils FC See Off VZN FC 3-1 in Gameweek 2"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "Gold Devils FC 3-1 VZN FC — Gameweek 2 match report. Bilal Sayoud (7 goals) leads Gold Devils FC's attack. Game Changers: Onside (1) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Gold Devils FC 3-1 VZN FC
 
-The Gameweek 2 schedule pitted Gold Devils FC against VZN FC, two sides looking to climb the table from 10th and 8th respectively.
+Gold Devils FC took on VZN FC in a Gameweek 2 clash, two sides looking to climb the table from 10th and 8th respectively.
 
-Gold Devils FC claimed a well-deserved 3-1 win against VZN FC in an entertaining Gameweek 2 encounter. The Game Changer period played a key role, with the Onside and The Line activations contributing 1 goals to a match that saw 4 in total.
+Gold Devils FC emerged 3-1 victors over VZN FC after a competitive clash that showcased the best of Baller League football. The Game Changer period played a key role, with the Onside and The Line activations contributing 1 goals to a match that saw 4 in total.
 
 **Gold Devils FC form (before GW2):** ❌ (L)  
 **VZN FC form (before GW2):** 🤝 🤝 (D-D)
@@ -22,11 +22,24 @@ Gold Devils FC claimed a well-deserved 3-1 win against VZN FC in an entertaining
 
 ### First Half
 
-The first half saw the Onside Game Changer activate at the 12th minute, generating 1 goal that set the tempo for the half. Gold Devils FC edged the opening exchanges with a more clinical edge in front of goal.
+The first half saw the Onside Game Changer activate at the 12th minute, producing 1 goal in a frantic period of play. Gold Devils FC edged the opening exchanges with a more clinical edge in front of goal.
 
 ### Second Half
 
-At the 27-minute mark, the The Line Game Changer came into play, though the goals dried up as the match wore on. The closing stages were nervy as VZN FC threw everything forward, but Gold Devils FC stood strong to claim the points.
+At the 27-minute mark, the The Line Game Changer came into play, but neither side could capitalise on the modified rules. VZN FC pushed hard for an equaliser but Gold Devils FC held firm, with Gold Devils FC defending resolutely to protect their lead.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Bilal Sayoud opened the scoring in the 4th minute, with goals following from Marvel Ekpiteta (24'), Bilal Sayoud (26').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 4' | Bilal Sayoud | Gold Devils FC |
+| 24' | Marvel Ekpiteta | Gold Devils FC |
+| 26' | Bilal Sayoud | Gold Devils FC |
+
 
 ---
 
@@ -41,6 +54,19 @@ The Game Changer period proved quiet in this match, with the Onside and The Line
 | **Total** | | **1** |
 
 The Game Changer period brought a modest 1 goal, with the modified rules creating chances but not overwhelming the flow of the match. This was more about tactical adjustments than the chaos that sometimes defines GC activations.
+
+---
+
+## Match Performers
+
+### Gold Devils FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Bilal Sayoud | 2 | 0 | 0 | 0 |
+| Marvel Ekpiteta | 1 | 0 | 0 | 0 |
+
+
 
 ---
 

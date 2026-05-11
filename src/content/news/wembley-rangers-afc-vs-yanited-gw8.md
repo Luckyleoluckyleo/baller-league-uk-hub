@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Wembley Rangers AFC 2-1 Yanited
 
-The Gameweek 8 schedule pitted Wembley Rangers AFC against Yanited, two sides looking to climb the table from 8th and 5th respectively.
+All eyes were on Baller Arena as Wembley Rangers AFC met Yanited, two sides looking to climb the table from 8th and 5th respectively.
 
-In a tense, tightly-contested affair, Wembley Rangers AFC held their nerve to beat Yanited 2-1. The Game Changer period played a key role, with the Onside and The Line activations contributing 1 goals to a match that saw 3 in total.
+Wembley Rangers AFC scraped a hard-fought 2-1 win over Yanited in a match where fine margins proved decisive. The Game Changer period played a key role, with the Onside and The Line activations contributing 1 goals to a match that saw 3 in total.
 
 **Wembley Rangers AFC form (before GW8):** ❌ ✅ ✅ ✅ ❌ (L-W-W-W-L)  
 **Yanited form (before GW8):** ✅ 🤝 ❌ ✅ ❌ (W-D-L-W-L)
@@ -22,11 +22,23 @@ In a tense, tightly-contested affair, Wembley Rangers AFC held their nerve to be
 
 ### First Half
 
-The Onside Game Changer kicked in at the 12th minute and the teams made it count with 1 goal being scored. Wembley Rangers AFC shaded a competitive first period, taking their chances well.
+The first half saw the Onside Game Changer activate at the 12th minute, generating 1 goal that set the tempo for the half. Wembley Rangers AFC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-At the 27-minute mark, the The Line Game Changer came into play, but neither side could capitalise on the modified rules. The closing stages were nervy as Yanited threw everything forward, but Wembley Rangers AFC stood strong to claim the points.
+The The Line Game Changer activated at the 27th minute, though the goals dried up as the match wore on. Yanited pushed hard for an equaliser, with Wembley Rangers AFC defending resolutely to protect their lead.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Callam Gardner opened the scoring in the 13th minute, with goals following from Abdulahi Abdulazeez (21').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 13' | Callam Gardner | Wembley Rangers AFC |
+| 21' | Abdulahi Abdulazeez | Wembley Rangers AFC |
+
 
 ---
 
@@ -41,6 +53,26 @@ The Game Changer period proved quiet in this match, with the Onside and The Line
 | **Total** | | **1** |
 
 The Game Changer period brought a modest 1 goal, with the modified rules creating chances but not overwhelming the flow of the match. This was more about tactical adjustments than the chaos that sometimes defines GC activations.
+
+---
+
+## Match Performers
+
+### Wembley Rangers AFC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Abdulahi Abdulazeez | 1 | 0 | 0 | 3 |
+| Callam Gardner | 1 | 0 | 1 | 1 |
+| Arjun Jung | 0 | 1 | 3 | 16 |
+
+### Yanited — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Kadell Daniel | 1 | 0 | 2 | 23 |
+
+
 
 ---
 

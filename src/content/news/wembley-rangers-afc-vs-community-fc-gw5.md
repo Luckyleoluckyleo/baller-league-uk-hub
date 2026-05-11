@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Wembley Rangers AFC 5-1 Community FC
 
-The Gameweek 5 schedule pitted Wembley Rangers AFC against Community FC, two sides looking to climb the table from 9th and 11th respectively.
+Wembley Rangers AFC and Community FC faced off at Baller Arena, two sides looking to climb the table from 9th and 11th respectively.
 
-Wembley Rangers AFC proved too strong for Community FC, taking a convincing 5-1 victory that never looked in doubt. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 4 goals to a match that saw 6 in total.
+Wembley Rangers AFC controlled proceedings from start to finish, running out 5-1 winners in a performance that underlined their quality. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 4 goals to a match that saw 6 in total.
 
 **Wembley Rangers AFC form (before GW5):** ❌ ❌ 🤝 🤝 🤝 (L-L-D-D-D)  
 **Community FC form (before GW5):** ✅ ❌ ❌ ❌ (W-L-L-L)
@@ -22,11 +22,27 @@ Wembley Rangers AFC proved too strong for Community FC, taking a convincing 5-1 
 
 ### First Half
 
-The 3Play Game Changer kicked in at the 12th minute, generating 2 goals that set the tempo for the half. Wembley Rangers AFC flew out of the blocks, overwhelming Community FC with wave after wave of attacks.
+The 3Play Game Changer kicked in at the 12th minute, generating 2 goals that set the tempo for the half. Wembley Rangers AFC seized the initiative early and never looked back, building a commanding lead.
 
 ### Second Half
 
-The 1-on-1 Game Changer activated at the 27th minute and delivered 2 goals that shifted the momentum. Wembley Rangers AFC maintained their grip on the match throughout the second period to secure a comfortable win.
+At the 27-minute mark, the 1-on-1 Game Changer came into play, producing 2 goals at a crucial stage. Wembley Rangers AFC managed the game superbly after the interval, seeing out a professional victory.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Kristian Campbell opened the scoring in the 7th minute. Further goals came from Tawab Djankpata (14'), Hassan Jalloh (14'), Domingos Pires (16'), Domingos Pires (28') and Domingos Pires (29').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 7' | Kristian Campbell | Wembley Rangers AFC |
+| 14' | Tawab Djankpata | Community FC |
+| 14' | Hassan Jalloh | Wembley Rangers AFC |
+| 16' | Domingos Pires | Wembley Rangers AFC |
+| 28' | Domingos Pires | Wembley Rangers AFC |
+| 29' | Domingos Pires | Wembley Rangers AFC |
+
 
 ---
 
@@ -41,6 +57,29 @@ The Game Changer period proved influential in this match, with the 3Play and 1-o
 | **Total** | | **4** |
 
 The Game Changers provided a genuine spectacle, with both activations contributing meaningfully to the scoreline. The second-half 1-on-1 was the more impactful of the two, and the teams' approaches to managing these periods proved crucial to the outcome.
+
+---
+
+## Match Performers
+
+### Wembley Rangers AFC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Domingos Pires | 3 | 0 | 2 | 10 |
+| Hassan Jalloh | 1 | 0 | 0 | 10 |
+| Kristian Campbell | 1 | 0 | 2 | 5 |
+| Arjun Jung | 0 | 1 | 7 | 23 |
+| Callam Gardner | 0 | 1 | 2 | 3 |
+
+### Community FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Tawab Djankpata | 1 | 0 | 0 | 4 |
+| Alex Byrne | 0 | 1 | 3 | 15 |
+
+
 
 ---
 

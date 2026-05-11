@@ -1,5 +1,5 @@
 ---
-title: "Yanited Scrape Past Rukkas FC 2-1 in Tight GW3 Contest"
+title: "Yanited Edge Rukkas FC 2-1 in GW3 Thriller"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "Yanited 2-1 Rukkas FC — Gameweek 3 match report. Kadell Daniel (7 goals) leads Yanited's attack. Game Changers: Onside (1) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Yanited 2-1 Rukkas FC
 
-The Gameweek 3 schedule pitted Yanited against Rukkas FC, two sides looking to climb the table from 6th and 11th respectively.
+Yanited took on Rukkas FC in a Gameweek 3 clash, two sides looking to climb the table from 6th and 11th respectively.
 
-In a tense, tightly-contested affair, Yanited held their nerve to beat Rukkas FC 2-1. The Game Changer period played a key role, with the Onside and Fairplay activations contributing 1 goals to a match that saw 3 in total.
+Yanited edged past Rukkas FC 2-1 in a nail-biting encounter that could have gone either way. The Game Changer period played a key role, with the Onside and Fairplay activations contributing 1 goals to a match that saw 3 in total.
 
 **Yanited form (before GW3):** 🤝 ✅ 🤝 (D-W-D)  
 **Rukkas FC form (before GW3):** ❌ ❌ ✅ (L-L-W)
@@ -26,7 +26,19 @@ The Onside Game Changer kicked in at the 12th minute and the teams made it count
 
 ### Second Half
 
-The Fairplay Game Changer kicked in at the 27th minute of the second half, though the goals dried up as the match wore on. The closing stages were nervy as Rukkas FC threw everything forward, but Yanited stood strong to claim the points.
+The Fairplay Game Changer activated at the 27th minute, but neither side could capitalise on the modified rules. The closing stages were nervy as Rukkas FC threw everything forward, but Yanited stood strong to claim the points.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. John Bostock opened the scoring in the 21st minute, with goals following from David Oupoh (21').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 21' | John Bostock | Yanited |
+| 21' | David Oupoh | Rukkas FC |
+
 
 ---
 
@@ -41,6 +53,25 @@ The Game Changer period proved quiet in this match, with the Onside and Fairplay
 | **Total** | | **1** |
 
 The Game Changer period brought a modest 1 goal, with the modified rules creating chances but not overwhelming the flow of the match. This was more about tactical adjustments than the chaos that sometimes defines GC activations.
+
+---
+
+## Match Performers
+
+### Yanited — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Kadell Daniel | 1 | 0 | 0 | 0 |
+| John Bostock | 1 | 0 | 0 | 0 |
+
+### Rukkas FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| David Oupoh | 1 | 0 | 0 | 0 |
+
+
 
 ---
 

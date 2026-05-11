@@ -1,5 +1,5 @@
 ---
-title: "SDS FC and NDL FC Play Out 3-3 Draw in Gameweek 8"
+title: "SDS FC and NDL FC Deadlocked at 3-3 in GW8"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "SDS FC 3-3 NDL FC — Gameweek 8 match report. Connor Wood (6 goals) leads SDS FC's attack. Game Changers: Plus One (2) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — SDS FC 3-3 NDL FC
 
-The Gameweek 8 schedule pitted SDS FC against NDL FC in a top-of-the-table showdown, with SDS FC sitting 2nd and NDL FC 1st.
+SDS FC and NDL FC faced off at Baller Arena in a top-of-the-table showdown, with SDS FC sitting 2nd and NDL FC 1st.
 
-SDS FC and NDL FC played out a thrilling 3-3 draw in a match where neither side deserved to lose. The 6 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through Plus One and Fairplay.
+SDS FC and NDL FC could not be separated as they battled to a 3-3 stalemate at Baller Arena. The 6 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through Plus One and Fairplay.
 
 **SDS FC form (before GW8):** ❌ 🤝 ❌ ✅ 🤝 (L-D-L-W-D)  
 **NDL FC form (before GW8):** ✅ ✅ ❌ ❌ ❌ (W-W-L-L-L)
@@ -22,11 +22,27 @@ SDS FC and NDL FC played out a thrilling 3-3 draw in a match where neither side 
 
 ### First Half
 
-At the 12-minute mark, the Plus One Game Changer came into effect, generating 2 goals that set the tempo for the half. The two sides were inseparable at the break, with the contest finely poised.
+The Plus One Game Changer kicked in at the 12th minute and the teams made it count with 2 goals being scored. The two sides were inseparable at the break, with the contest finely poised.
 
 ### Second Half
 
 At the 27-minute mark, the Fairplay Game Changer came into play, though the goals dried up as the match wore on. Despite late pressure, neither team could find the decisive goal and the spoils were shared.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Razzaq Coleman opened the scoring in the 2nd minute. Further goals came from Connor Wood (2'), Kazaiah Sterling (12'), Dara Dada (13'), Amin Belaid (21') and Joshua Abbott (24').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 2' | Razzaq Coleman | NDL FC |
+| 2' | Connor Wood | SDS FC |
+| 12' | Kazaiah Sterling | SDS FC |
+| 13' | Dara Dada | NDL FC |
+| 21' | Amin Belaid | NDL FC |
+| 24' | Joshua Abbott | SDS FC |
+
 
 ---
 
@@ -41,6 +57,31 @@ The Game Changer period proved influential in this match, with the Plus One and 
 | **Total** | | **2** |
 
 The Game Changer period brought a modest 2 goals, with the modified rules creating chances but not overwhelming the flow of the match. This was more about tactical adjustments than the chaos that sometimes defines GC activations.
+
+---
+
+## Match Performers
+
+### SDS FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Kazaiah Sterling | 1 | 1 | 6 | 25 |
+| Connor Wood | 1 | 0 | 0 | 8 |
+| Joshua Abbott | 1 | 0 | 0 | 1 |
+| Hafed Al Droubi | 0 | 1 | 3 | 48 |
+| Bayley Brown | 0 | 1 | 1 | 5 |
+
+### NDL FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Amin Belaid | 1 | 1 | 5 | 9 |
+| Dara Dada | 1 | 0 | 4 | 19 |
+| Razzaq Coleman | 1 | 0 | 4 | 13 |
+| Sam Fitzgerald | 0 | 1 | 1 | 15 |
+
+
 
 ---
 

@@ -11,7 +11,7 @@ featured: false
 
 Gameweek 7 brought Prime FC and Wembley Rangers AFC together at Baller Arena, where 8th-placed Prime FC looked to upset 4th-placed Wembley Rangers AFC.
 
-Prime FC produced a statement performance, dismantling Wembley Rangers AFC 7-1 with a ruthless attacking display that will send a message to the rest of the league. The Game Changer period played a key role, with the Plus One and The Line activations contributing 4 goals to a match that saw 8 in total.
+Prime FC were simply unstoppable as they crushed Wembley Rangers AFC 7-1, delivering one of the most emphatic results of Gameweek 7. The Game Changer period played a key role, with the Plus One and The Line activations contributing 4 goals to a match that saw 8 in total.
 
 **Prime FC form (before GW7):** ✅ 🤝 ❌ ✅ ✅ (W-D-L-W-W)  
 **Wembley Rangers AFC form (before GW7):** ✅ ✅ ✅ ❌ ❌ (W-W-W-L-L)
@@ -22,11 +22,29 @@ Prime FC produced a statement performance, dismantling Wembley Rangers AFC 7-1 w
 
 ### First Half
 
-The Plus One Game Changer kicked in at the 12th minute, though goals proved elusive as both defences held firm. Prime FC seized the initiative early and never looked back, building a commanding lead.
+At the 12-minute mark, the Plus One Game Changer came into effect, though goals proved elusive as both defences held firm. Prime FC seized the initiative early and never looked back, building a commanding lead.
 
 ### Second Half
 
-The The Line Game Changer activated at the 27th minute, adding 4 goals and injecting fresh energy into the contest. Prime FC continued their onslaught, putting the game well beyond Wembley Rangers AFC's reach in a relentless second-half showing.
+The The Line Game Changer kicked in at the 27th minute of the second half, producing 4 goals at a crucial stage. Prime FC showed no mercy after the break, piling on the goals to complete a resounding victory.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Ben Long opened the scoring in the 7th minute. Further goals came from Bráulio Valera Pinto Maieco (10'), Bráulio Valera Pinto Maieco (21'), Timmy Abraham (26'), Ergys Pepaj (28'), Ergys Pepaj (28'), Francis Gerard Mampolo (28') and Francis Gerard Mampolo (28').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 7' | Ben Long | Wembley Rangers AFC |
+| 10' | Bráulio Valera Pinto Maieco | Prime FC |
+| 21' | Bráulio Valera Pinto Maieco | Prime FC |
+| 26' | Timmy Abraham | Prime FC |
+| 28' | Ergys Pepaj | Prime FC |
+| 28' | Ergys Pepaj | Prime FC |
+| 28' | Francis Gerard Mampolo | Prime FC |
+| 28' | Francis Gerard Mampolo | Prime FC |
+
 
 ---
 
@@ -41,6 +59,28 @@ The Game Changer period proved influential in this match, with the Plus One and 
 | **Total** | | **4** |
 
 The Game Changers provided a genuine spectacle, with both activations contributing meaningfully to the scoreline. The second-half The Line was the more impactful of the two, and the teams' approaches to managing these periods proved crucial to the outcome.
+
+---
+
+## Match Performers
+
+### Prime FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Ergys Pepaj | 2 | 1 | 1 | 13 |
+| Francis Gerard Mampolo | 2 | 0 | 1 | 6 |
+| Bráulio Valera Pinto Maieco | 2 | 0 | 1 | 11 |
+| Timmy Abraham | 1 | 0 | 0 | 0 |
+| Montel McKenzie | 0 | 2 | 3 | 50 |
+
+### Wembley Rangers AFC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Ben Long | 1 | 0 | 3 | 8 |
+
+
 
 ---
 

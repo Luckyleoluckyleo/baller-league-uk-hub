@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Clutch FC 3-5 SDS FC
 
-Clutch FC took on SDS FC in a Gameweek 4 clash, where 8th-placed Clutch FC looked to upset 2nd-placed SDS FC.
+All eyes were on Baller Arena as Clutch FC met SDS FC, where 8th-placed Clutch FC looked to upset 2nd-placed SDS FC.
 
 SDS FC emerged 3-5 victors over Clutch FC after a competitive clash that showcased the best of Baller League football. The Game Changer period played a key role, with the Plus One and The Line activations contributing 5 goals to a match that saw 8 in total.
 
@@ -22,11 +22,28 @@ SDS FC emerged 3-5 victors over Clutch FC after a competitive clash that showcas
 
 ### First Half
 
-At the 12-minute mark, the Plus One Game Changer came into effect and the teams made it count with 3 goals being scored. SDS FC edged the opening exchanges with a more clinical edge in front of goal.
+At the 12-minute mark, the Plus One Game Changer came into effect and the teams made it count with 3 goals being scored. SDS FC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-At the 27-minute mark, the The Line Game Changer came into play, adding 2 goals and injecting fresh energy into the contest. Clutch FC pushed hard for an equaliser but SDS FC held firm, with SDS FC defending resolutely to protect their lead.
+The The Line Game Changer kicked in at the 27th minute of the second half and delivered 2 goals that shifted the momentum. The closing stages were nervy as Clutch FC threw everything forward, but SDS FC stood strong to claim the points.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Evans Kouassi opened the scoring in the 15th minute. Further goals came from David Marques Castanho (15'), Connor Wood (18'), Nya Kirby (21'), Camilo Restrepo (26'), Joshua Abbott (27') and Connor Wood (29').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 15' | Evans Kouassi | Clutch FC |
+| 15' | David Marques Castanho | Clutch FC |
+| 18' | Connor Wood | SDS FC |
+| 21' | Nya Kirby | SDS FC |
+| 26' | Camilo Restrepo | SDS FC |
+| 27' | Joshua Abbott | SDS FC |
+| 29' | Connor Wood | SDS FC |
+
 
 ---
 
@@ -41,6 +58,31 @@ The Game Changer period proved decisive in this match, with the Plus One and The
 | **Total** | | **5** |
 
 The Game Changers provided a genuine spectacle, with both activations contributing meaningfully to the scoreline. The first-half Plus One was the more impactful of the two, and the teams' approaches to managing these periods proved crucial to the outcome.
+
+---
+
+## Match Performers
+
+### Clutch FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| David Marques Castanho | 1 | 1 | 4 | 12 |
+| Evans Kouassi | 1 | 1 | 1 | 1 |
+| Alfie Matthews | 1 | 0 | 0 | 19 |
+
+### SDS FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Connor Wood | 2 | 0 | 1 | 5 |
+| Camilo Restrepo | 1 | 1 | 5 | 23 |
+| Nya Kirby | 1 | 0 | 4 | 44 |
+| Joshua Abbott | 1 | 0 | 2 | 7 |
+| Youssef Chentouf | 0 | 1 | 3 | 5 |
+| Frank Keita | 0 | 1 | 2 | 4 |
+
+
 
 ---
 

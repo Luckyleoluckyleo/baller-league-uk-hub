@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — SDS FC 2-1 N5 FC
 
-Gameweek 2 brought SDS FC and N5 FC together at Baller Arena, with SDS FC sitting 2nd and looking to strengthen their playoff push against 7th-placed N5 FC.
+The Gameweek 2 schedule pitted SDS FC against N5 FC, with SDS FC sitting 2nd and looking to strengthen their playoff push against 7th-placed N5 FC.
 
 SDS FC edged past N5 FC 2-1 in a nail-biting encounter that could have gone either way. The Game Changer period played a key role, with the 3Play and Fairplay activations contributing 2 goals to a match that saw 3 in total.
 
@@ -22,11 +22,24 @@ SDS FC edged past N5 FC 2-1 in a nail-biting encounter that could have gone eith
 
 ### First Half
 
-At the 12-minute mark, the 3Play Game Changer came into effect, producing 2 goals in a frantic period of play. SDS FC shaded a competitive first period, taking their chances well.
+The 3Play Game Changer kicked in at the 12th minute, producing 2 goals in a frantic period of play. SDS FC edged the opening exchanges with a more clinical edge in front of goal.
 
 ### Second Half
 
-At the 27-minute mark, the Fairplay Game Changer came into play, but neither side could capitalise on the modified rules. The closing stages were nervy as N5 FC threw everything forward, but SDS FC stood strong to claim the points.
+The Fairplay Game Changer kicked in at the 27th minute of the second half, though the goals dried up as the match wore on. The closing stages were nervy as N5 FC threw everything forward, but SDS FC stood strong to claim the points.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Connor Wood opened the scoring in the 0th minute, with goals following from Michael Hill (12'), Selim Saied (13').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 0' | Connor Wood | SDS FC |
+| 12' | Michael Hill | N5 FC |
+| 13' | Selim Saied | SDS FC |
+
 
 ---
 
@@ -41,6 +54,25 @@ The Game Changer period proved influential in this match, with the 3Play and Fai
 | **Total** | | **2** |
 
 The Game Changer period brought a modest 2 goals, with the modified rules creating chances but not overwhelming the flow of the match. This was more about tactical adjustments than the chaos that sometimes defines GC activations.
+
+---
+
+## Match Performers
+
+### SDS FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Connor Wood | 1 | 0 | 0 | 0 |
+| Selim Saied | 1 | 0 | 0 | 0 |
+
+### N5 FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Michael Hill | 1 | 0 | 0 | 0 |
+
+
 
 ---
 

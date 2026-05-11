@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Community FC 2-7 NDL FC
 
-Community FC took on NDL FC in a Gameweek 1 clash
+Community FC and NDL FC faced off at Baller Arena
 
 NDL FC produced a statement performance, dismantling Community FC 2-7 with a ruthless attacking display that will send a message to the rest of the league. The Game Changer period played a key role, with the 3Play and The Line activations contributing 4 goals to a match that saw 9 in total.
 
@@ -21,11 +21,30 @@ NDL FC produced a statement performance, dismantling Community FC 2-7 with a rut
 
 ### First Half
 
-The first half saw the 3Play Game Changer activate at the 12th minute, producing 3 goals in a frantic period of play. NDL FC seized the initiative early and never looked back, building a commanding lead.
+The 3Play Game Changer kicked in at the 12th minute, generating 3 goals that set the tempo for the half. NDL FC flew out of the blocks, overwhelming Community FC with wave after wave of attacks.
 
 ### Second Half
 
-The The Line Game Changer kicked in at the 27th minute of the second half and delivered 1 goal that shifted the momentum. NDL FC showed no mercy after the break, piling on the goals to complete a resounding victory.
+The The Line Game Changer activated at the 27th minute and delivered 1 goal that shifted the momentum. NDL FC continued their onslaught, putting the game well beyond Community FC's reach in a relentless second-half showing.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Alex Byrne opened the scoring in the 10th minute. Further goals came from Dara Dada (12'), Jadan Raymond (13'), Amadou Kassaraté (14'), Amin Belaid (17'), Tyler Winters (19'), Dara Dada (21'), Dara Dada (23') and Matthew Waller (28').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 10' | Alex Byrne | Community FC |
+| 12' | Dara Dada | NDL FC |
+| 13' | Jadan Raymond | — |
+| 14' | Amadou Kassaraté | NDL FC |
+| 17' | Amin Belaid | NDL FC |
+| 19' | Tyler Winters | NDL FC |
+| 21' | Dara Dada | NDL FC |
+| 23' | Dara Dada | NDL FC |
+| 28' | Matthew Waller | Community FC |
+
 
 ---
 
@@ -40,6 +59,27 @@ The Game Changer period proved influential in this match, with the 3Play and The
 | **Total** | | **4** |
 
 The Game Changers provided a genuine spectacle, with both activations contributing meaningfully to the scoreline. The first-half 3Play was the more impactful of the two, and the teams' approaches to managing these periods proved crucial to the outcome.
+
+---
+
+## Match Performers
+
+### Community FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Alex Byrne | 1 | 0 | 0 | 0 |
+| Matthew Waller | 1 | 0 | 0 | 0 |
+
+### NDL FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Dara Dada | 3 | 0 | 0 | 0 |
+| Amin Belaid | 1 | 0 | 0 | 0 |
+| Amadou Kassaraté | 1 | 0 | 0 | 0 |
+
+
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Wembley Rangers AFC and NDL FC Deadlocked at 2-2 in GW2"
+title: "Wembley Rangers AFC and NDL FC Play Out 2-2 Draw in Gameweek 2"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "Wembley Rangers AFC 2-2 NDL FC — Gameweek 2 match report. Callam Gardner (5 goals) leads Wembley Rangers AFC's attack. Game Changers: Onside (0) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -11,7 +11,7 @@ featured: false
 
 The Gameweek 2 schedule pitted Wembley Rangers AFC against NDL FC in a top-of-the-table showdown, with Wembley Rangers AFC sitting 4th and NDL FC 1st.
 
-Honours were even as Wembley Rangers AFC and NDL FC shared the spoils in an entertaining 2-2 draw. The 4 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through Onside and The Line.
+Wembley Rangers AFC and NDL FC played out a thrilling 2-2 draw in a match where neither side deserved to lose. The 4 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through Onside and The Line.
 
 **Wembley Rangers AFC form (before GW2):** ✅ ❌ (W-L)  
 **NDL FC form (before GW2):** ❌ ✅ (L-W)
@@ -26,7 +26,20 @@ At the 12-minute mark, the Onside Game Changer came into effect, though goals pr
 
 ### Second Half
 
-The The Line Game Changer kicked in at the 27th minute of the second half, adding 1 goal and injecting fresh energy into the contest. Despite late pressure, neither team could find the decisive goal and the spoils were shared.
+The The Line Game Changer activated at the 27th minute, producing 1 goal at a crucial stage. Despite late pressure, neither team could find the decisive goal and the spoils were shared.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Isaac Modi opened the scoring in the 10th minute, with goals following from Kristian Campbell (23'), Sam Fitzgerald (29').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 10' | Isaac Modi | NDL FC |
+| 23' | Kristian Campbell | Wembley Rangers AFC |
+| 29' | Sam Fitzgerald | NDL FC |
+
 
 ---
 
@@ -41,6 +54,26 @@ The Game Changer period proved quiet in this match, with the Onside and The Line
 | **Total** | | **1** |
 
 The Game Changer period brought a modest 1 goal, with the modified rules creating chances but not overwhelming the flow of the match. This was more about tactical adjustments than the chaos that sometimes defines GC activations.
+
+---
+
+## Match Performers
+
+### Wembley Rangers AFC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Callam Gardner | 1 | 0 | 0 | 0 |
+| Kristian Campbell | 1 | 0 | 0 | 0 |
+
+### NDL FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Sam Fitzgerald | 1 | 0 | 0 | 0 |
+| Isaac Modi | 1 | 0 | 0 | 0 |
+
+
 
 ---
 

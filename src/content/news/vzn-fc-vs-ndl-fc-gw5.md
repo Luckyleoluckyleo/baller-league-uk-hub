@@ -1,5 +1,5 @@
 ---
-title: "NDL FC Edge VZN FC 4-5 in GW5 Thriller"
+title: "NDL FC Scrape Past VZN FC 4-5 in Tight GW5 Contest"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "VZN FC 4-5 NDL FC — Gameweek 5 match report. George Nikaj (7 goals) leads VZN FC's attack. Game Changers: Onside (1) & 1-on-1 (5). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — VZN FC 4-5 NDL FC
 
-VZN FC took on NDL FC in a Gameweek 5 clash, where 10th-placed VZN FC looked to upset 1st-placed NDL FC.
+All eyes were on Baller Arena as VZN FC met NDL FC, where 10th-placed VZN FC looked to upset 1st-placed NDL FC.
 
 In a tense, tightly-contested affair, NDL FC held their nerve to beat VZN FC 4-5. The Game Changer period played a key role, with the Onside and 1-on-1 activations contributing 6 goals to a match that saw 9 in total.
 
@@ -22,11 +22,28 @@ In a tense, tightly-contested affair, NDL FC held their nerve to beat VZN FC 4-5
 
 ### First Half
 
-At the 12-minute mark, the Onside Game Changer came into effect and the teams made it count with 1 goal being scored. NDL FC shaded a competitive first period, taking their chances well.
+The Onside Game Changer kicked in at the 12th minute and the teams made it count with 1 goal being scored. NDL FC edged the opening exchanges with a more clinical edge in front of goal.
 
 ### Second Half
 
-The 1-on-1 Game Changer kicked in at the 27th minute of the second half, producing 5 goals at a crucial stage. VZN FC pushed hard for an equaliser, with NDL FC defending resolutely to protect their lead.
+The 1-on-1 Game Changer activated at the 27th minute, producing 5 goals at a crucial stage. VZN FC pushed hard for an equaliser, with NDL FC defending resolutely to protect their lead.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Isaac Modi opened the scoring in the 12th minute. Further goals came from George Nikaj (23'), Kevin Weggen (27'), Florian Kastrati (27'), Kevin Weggen (27'), Kevin Weggen (28') and Florian Kastrati (28').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 12' | Isaac Modi | NDL FC |
+| 23' | George Nikaj | VZN FC |
+| 27' | Kevin Weggen | NDL FC |
+| 27' | Florian Kastrati | VZN FC |
+| 27' | Kevin Weggen | NDL FC |
+| 28' | Kevin Weggen | NDL FC |
+| 28' | Florian Kastrati | VZN FC |
+
 
 ---
 
@@ -41,6 +58,26 @@ The Game Changer period proved decisive in this match, with the Onside and 1-on-
 | **Total** | | **6** |
 
 The Game Changers provided a genuine spectacle, with both activations contributing meaningfully to the scoreline. The second-half 1-on-1 was the more impactful of the two, and the teams' approaches to managing these periods proved crucial to the outcome.
+
+---
+
+## Match Performers
+
+### VZN FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Florian Kastrati | 3 | 0 | 1 | 9 |
+| George Nikaj | 1 | 0 | 3 | 6 |
+| Rohdell Gordon | 0 | 1 | 5 | 24 |
+
+### NDL FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Isaac Modi | 1 | 0 | 0 | 7 |
+
+
 
 ---
 

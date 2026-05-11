@@ -1,5 +1,5 @@
 ---
-title: "Rukkas FC Overpower Community FC 2-6 in Dominant Display — GW9"
+title: "Rukkas FC Cruise Past Community FC in 2-6 Rout — GW9"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "Community FC 2-6 Rukkas FC — Gameweek 9 match report. Alex Byrne (8 goals) leads Community FC's attack. Game Changers: Plus One (2) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -22,11 +22,29 @@ Rukkas FC controlled proceedings from start to finish, running out 2-6 winners i
 
 ### First Half
 
-At the 12-minute mark, the Plus One Game Changer came into effect, producing 2 goals in a frantic period of play. Rukkas FC seized the initiative early and never looked back, building a commanding lead.
+The Plus One Game Changer kicked in at the 12th minute and the teams made it count with 2 goals being scored. Rukkas FC flew out of the blocks, overwhelming Community FC with wave after wave of attacks.
 
 ### Second Half
 
-The The Line Game Changer activated at the 27th minute, but neither side could capitalise on the modified rules. Rukkas FC managed the game superbly after the interval, seeing out a professional victory.
+The The Line Game Changer kicked in at the 27th minute of the second half, but neither side could capitalise on the modified rules. Rukkas FC maintained their grip on the match throughout the second period to secure a comfortable win.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. David Oupoh opened the scoring in the 9th minute. Further goals came from Mussa Bham (9'), Zaid Al Hussaini (13'), Mussa Bham (14'), Emmanuel Robe (18'), George Chmiel (22'), Blaise Riley-Snow (25') and Akeel Francis (26').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 9' | David Oupoh | Rukkas FC |
+| 9' | Mussa Bham | Rukkas FC |
+| 13' | Zaid Al Hussaini | Rukkas FC |
+| 14' | Mussa Bham | Rukkas FC |
+| 18' | Emmanuel Robe | Rukkas FC |
+| 22' | George Chmiel | Community FC |
+| 25' | Blaise Riley-Snow | Rukkas FC |
+| 26' | Akeel Francis | — |
+
 
 ---
 
@@ -41,6 +59,32 @@ The Game Changer period proved influential in this match, with the Plus One and 
 | **Total** | | **2** |
 
 The Game Changer period brought a modest 2 goals, with the modified rules creating chances but not overwhelming the flow of the match. This was more about tactical adjustments than the chaos that sometimes defines GC activations.
+
+---
+
+## Match Performers
+
+### Community FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| George Chmiel | 1 | 0 | 0 | 0 |
+| Matthew Waller | 0 | 1 | 1 | 19 |
+| Alex Byrne | 0 | 1 | 3 | 29 |
+
+### Rukkas FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Mussa Bham | 2 | 0 | 3 | 22 |
+| Zaid Al Hussaini | 1 | 1 | 1 | 13 |
+| Blaise Riley-Snow | 1 | 0 | 3 | 23 |
+| Emmanuel Robe | 1 | 0 | 0 | 6 |
+| David Oupoh | 1 | 0 | 2 | 6 |
+| Aiden Prall | 0 | 1 | 4 | 16 |
+| Mohammad Dabre | 0 | 1 | 2 | 6 |
+
+
 
 ---
 

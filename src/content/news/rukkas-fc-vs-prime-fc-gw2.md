@@ -22,11 +22,30 @@ Prime FC produced a statement performance, dismantling Rukkas FC 3-8 with a ruth
 
 ### First Half
 
-The first half saw the Plus One Game Changer activate at the 12th minute and the teams made it count with 4 goals being scored. Prime FC seized the initiative early and never looked back, building a commanding lead.
+The first half saw the Plus One Game Changer activate at the 12th minute, generating 4 goals that set the tempo for the half. Prime FC flew out of the blocks, overwhelming Rukkas FC with wave after wave of attacks.
 
 ### Second Half
 
-The 1-on-1 Game Changer kicked in at the 27th minute of the second half, adding 2 goals and injecting fresh energy into the contest. Prime FC continued their onslaught, putting the game well beyond Rukkas FC's reach in a relentless second-half showing. The 11-goal spectacle was one of the highest-scoring matches of Gameweek 2.
+The 1-on-1 Game Changer kicked in at the 27th minute of the second half and delivered 2 goals that shifted the momentum. Prime FC continued their onslaught, putting the game well beyond Rukkas FC's reach in a relentless second-half showing. The 11-goal spectacle was one of the highest-scoring matches of Gameweek 2.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Timmy Abraham opened the scoring in the 8th minute. Further goals came from Timmy Abraham (12'), Montel McKenzie (12'), Timmy Abraham (12'), Osman Ali (23'), Francis Gerard Mampolo (26'), David Oupoh (26'), Francis Gerard Mampolo (28') and Montel McKenzie (29').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 8' | Timmy Abraham | Prime FC |
+| 12' | Timmy Abraham | Prime FC |
+| 12' | Montel McKenzie | Prime FC |
+| 12' | Timmy Abraham | Prime FC |
+| 23' | Osman Ali | Rukkas FC |
+| 26' | Francis Gerard Mampolo | Prime FC |
+| 26' | David Oupoh | Rukkas FC |
+| 28' | Francis Gerard Mampolo | Prime FC |
+| 29' | Montel McKenzie | Prime FC |
+
 
 ---
 
@@ -41,6 +60,29 @@ The Game Changer period proved decisive in this match, with the Plus One and 1-o
 | **Total** | | **6** |
 
 The Game Changers provided a genuine spectacle, with both activations contributing meaningfully to the scoreline. The first-half Plus One was the more impactful of the two, and the teams' approaches to managing these periods proved crucial to the outcome.
+
+---
+
+## Match Performers
+
+### Rukkas FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Osman Ali | 1 | 0 | 0 | 0 |
+| David Oupoh | 1 | 0 | 0 | 0 |
+
+### Prime FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Timmy Abraham | 3 | 0 | 0 | 0 |
+| Montel McKenzie | 2 | 0 | 0 | 0 |
+| Francis Gerard Mampolo | 2 | 0 | 0 | 0 |
+| Ergys Pepaj | 1 | 0 | 0 | 0 |
+| Bráulio Valera Pinto Maieco | 1 | 0 | 0 | 0 |
+
+
 
 ---
 

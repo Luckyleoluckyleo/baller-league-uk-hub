@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Yanited 5-3 Community FC
 
-Gameweek 2 brought Yanited and Community FC together at Baller Arena, two sides looking to climb the table from 11th and 12th respectively.
+The Gameweek 2 schedule pitted Yanited against Community FC, two sides looking to climb the table from 11th and 12th respectively.
 
 Yanited emerged 5-3 victors over Community FC after a competitive clash that showcased the best of Baller League football. The Game Changer period played a key role, with the Plus One and 1-on-1 activations contributing 1 goals to a match that saw 8 in total.
 
@@ -22,11 +22,28 @@ Yanited emerged 5-3 victors over Community FC after a competitive clash that sho
 
 ### First Half
 
-At the 12-minute mark, the Plus One Game Changer came into effect and the teams made it count with 1 goal being scored. Yanited shaded a competitive first period, taking their chances well.
+At the 12-minute mark, the Plus One Game Changer came into effect and the teams made it count with 1 goal being scored. Yanited edged the opening exchanges with a more clinical edge in front of goal.
 
 ### Second Half
 
-The 1-on-1 Game Changer activated at the 27th minute, but neither side could capitalise on the modified rules. The closing stages were nervy as Community FC threw everything forward, but Yanited stood strong to claim the points.
+The 1-on-1 Game Changer kicked in at the 27th minute of the second half, though the goals dried up as the match wore on. Community FC pushed hard for an equaliser but Yanited held firm, with Yanited defending resolutely to protect their lead.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Mulugeta Kidu opened the scoring in the 7th minute. Further goals came from Kadell Daniel (9'), Keane Joyce (11'), Keane Joyce (18'), Tyrell Miller-Rodney (23'), Nathan Oduwa (25') and Kadell Daniel (26').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 7' | Mulugeta Kidu | Community FC |
+| 9' | Kadell Daniel | Yanited |
+| 11' | Keane Joyce | Community FC |
+| 18' | Keane Joyce | Community FC |
+| 23' | Tyrell Miller-Rodney | Yanited |
+| 25' | Nathan Oduwa | Yanited |
+| 26' | Kadell Daniel | Yanited |
+
 
 ---
 
@@ -41,6 +58,27 @@ The Game Changer period proved quiet in this match, with the Plus One and 1-on-1
 | **Total** | | **1** |
 
 The Game Changer period brought a modest 1 goal, with the modified rules creating chances but not overwhelming the flow of the match. This was more about tactical adjustments than the chaos that sometimes defines GC activations.
+
+---
+
+## Match Performers
+
+### Yanited — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Kadell Daniel | 3 | 0 | 0 | 0 |
+| Tyrell Miller-Rodney | 1 | 0 | 0 | 0 |
+| Nathan Oduwa | 1 | 0 | 0 | 0 |
+
+### Community FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Keane Joyce | 2 | 0 | 0 | 0 |
+| Mulugeta Kidu | 1 | 0 | 0 | 0 |
+
+
 
 ---
 

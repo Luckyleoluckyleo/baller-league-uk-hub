@@ -1,5 +1,5 @@
 ---
-title: "VZN FC Edge SDS FC 3-2 in GW6 Thriller"
+title: "VZN FC Scrape Past SDS FC 3-2 in Tight GW6 Contest"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "VZN FC 3-2 SDS FC — Gameweek 6 match report. George Nikaj (7 goals) leads VZN FC's attack. Game Changers: 3Play (0) & 1-on-1 (0). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — VZN FC 3-2 SDS FC
 
-VZN FC took on SDS FC in a Gameweek 6 clash, where 10th-placed VZN FC looked to upset 1st-placed SDS FC.
+The Gameweek 6 schedule pitted VZN FC against SDS FC, where 10th-placed VZN FC looked to upset 1st-placed SDS FC.
 
-VZN FC edged past SDS FC 3-2 in a nail-biting encounter that could have gone either way. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 0 goals to a match that saw 5 in total.
+In a tense, tightly-contested affair, VZN FC held their nerve to beat SDS FC 3-2. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 0 goals to a match that saw 5 in total.
 
 **VZN FC form (before GW6):** ❌ ❌ ❌ ❌ 🤝 (L-L-L-L-D)  
 **SDS FC form (before GW6):** ✅ 🤝 ✅ ✅ ✅ (W-D-W-W-W)
@@ -22,11 +22,26 @@ VZN FC edged past SDS FC 3-2 in a nail-biting encounter that could have gone eit
 
 ### First Half
 
-At the 12-minute mark, the 3Play Game Changer came into effect, yet the deadlock remained unbroken. VZN FC shaded a competitive first period, taking their chances well.
+The first half saw the 3Play Game Changer activate at the 12th minute, yet the deadlock remained unbroken. VZN FC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-At the 27-minute mark, the 1-on-1 Game Changer came into play, though the goals dried up as the match wore on. SDS FC pushed hard for an equaliser, with VZN FC defending resolutely to protect their lead.
+The 1-on-1 Game Changer kicked in at the 27th minute of the second half, but neither side could capitalise on the modified rules. SDS FC pushed hard for an equaliser, with VZN FC defending resolutely to protect their lead.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. George Nikaj opened the scoring in the 5th minute. Further goals came from Danny Bassett (16'), Daniel Bowry (20'), Eddie Allsopp (21') and Joshua Abbott (22').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 5' | George Nikaj | VZN FC |
+| 16' | Danny Bassett | SDS FC |
+| 20' | Daniel Bowry | VZN FC |
+| 21' | Eddie Allsopp | VZN FC |
+| 22' | Joshua Abbott | SDS FC |
+
 
 ---
 
@@ -41,6 +56,29 @@ The Game Changer period proved quiet in this match, with the 3Play and 1-on-1 ac
 | **Total** | | **0** |
 
 In a rarity for Baller League, neither Game Changer activation yielded a goal. Both defences deserve immense credit for staying disciplined during the modified-rule periods — it takes serious concentration to navigate the GC without conceding.
+
+---
+
+## Match Performers
+
+### VZN FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Daniel Bowry | 1 | 1 | 2 | 20 |
+| George Nikaj | 1 | 0 | 1 | 9 |
+| Eddie Allsopp | 1 | 0 | 0 | 6 |
+
+### SDS FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Danny Bassett | 1 | 0 | 2 | 4 |
+| Joshua Abbott | 1 | 0 | 1 | 8 |
+| Connor Wood | 0 | 1 | 1 | 7 |
+| Kazaiah Sterling | 0 | 1 | 2 | 21 |
+
+
 
 ---
 

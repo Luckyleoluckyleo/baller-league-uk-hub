@@ -1,5 +1,5 @@
 ---
-title: "Deportrio See Off Wembley Rangers AFC 5-2 in Gameweek 4"
+title: "Deportrio Beat Wembley Rangers AFC 5-2 in Entertaining GW4 Clash"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "Deportrio 5-2 Wembley Rangers AFC — Gameweek 4 match report. Jay Emmanuel-Thomas (15 goals) leads Deportrio's attack. Game Changers: Plus One (2) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -22,11 +22,28 @@ A composed, professional display from Deportrio saw them dispatch Wembley Ranger
 
 ### First Half
 
-The first half saw the Plus One Game Changer activate at the 12th minute and the teams made it count with 2 goals being scored. Deportrio seized the initiative early and never looked back, building a commanding lead.
+The Plus One Game Changer kicked in at the 12th minute, generating 2 goals that set the tempo for the half. Deportrio flew out of the blocks, overwhelming Wembley Rangers AFC with wave after wave of attacks.
 
 ### Second Half
 
-The The Line Game Changer activated at the 27th minute and delivered 1 goal that shifted the momentum. Deportrio managed the game superbly after the interval, seeing out a professional victory.
+The The Line Game Changer kicked in at the 27th minute of the second half and delivered 1 goal that shifted the momentum. Deportrio managed the game superbly after the interval, seeing out a professional victory.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Arjun Jung opened the scoring in the 5th minute. Further goals came from Josh Harrop (10'), Sahid Kamara (12'), Chiekh Thiam (12'), J&#039;ardell Stirling (20'), Bakary Sako (20') and Jay Emmanuel-Thomas (27').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 5' | Arjun Jung | Wembley Rangers AFC |
+| 10' | Josh Harrop | Deportrio |
+| 12' | Sahid Kamara | Deportrio |
+| 12' | Chiekh Thiam | Wembley Rangers AFC |
+| 20' | J&#039;ardell Stirling | Deportrio |
+| 20' | Bakary Sako | — |
+| 27' | Jay Emmanuel-Thomas | Deportrio |
+
 
 ---
 
@@ -41,6 +58,29 @@ The Game Changer period proved influential in this match, with the Plus One and 
 | **Total** | | **3** |
 
 The Game Changer period brought a modest 3 goals, with the modified rules creating chances but not overwhelming the flow of the match. This was more about tactical adjustments than the chaos that sometimes defines GC activations.
+
+---
+
+## Match Performers
+
+### Deportrio — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| J&#039;ardell Stirling | 1 | 1 | 3 | 29 |
+| Josh Harrop | 1 | 0 | 1 | 14 |
+| Jay Emmanuel-Thomas | 1 | 0 | 0 | 4 |
+| Amine Sassi | 0 | 1 | 1 | 3 |
+
+### Wembley Rangers AFC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Arjun Jung | 1 | 0 | 2 | 22 |
+| Chiekh Thiam | 1 | 0 | 1 | 23 |
+| Ben Long | 0 | 1 | 1 | 27 |
+
+
 
 ---
 

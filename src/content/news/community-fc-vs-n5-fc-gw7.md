@@ -1,5 +1,5 @@
 ---
-title: "N5 FC Cruise Past Community FC in 1-5 Rout — GW7"
+title: "N5 FC Overpower Community FC 1-5 in Dominant Display — GW7"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "Community FC 1-5 N5 FC — Gameweek 7 match report. Alex Byrne (8 goals) leads Community FC's attack. Game Changers: Onside (1) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Community FC 1-5 N5 FC
 
-Community FC and N5 FC faced off at Baller Arena, two sides looking to climb the table from 12th and 6th respectively.
+All eyes were on Baller Arena as Community FC met N5 FC, two sides looking to climb the table from 12th and 6th respectively.
 
-A composed, professional display from N5 FC saw them dispatch Community FC 1-5 to claim all three points. The Game Changer period played a key role, with the Onside and Fairplay activations contributing 1 goals to a match that saw 6 in total.
+N5 FC proved too strong for Community FC, taking a convincing 1-5 victory that never looked in doubt. The Game Changer period played a key role, with the Onside and Fairplay activations contributing 1 goals to a match that saw 6 in total.
 
 **Community FC form (before GW7):** ❌ ❌ ✅ ❌ ❌ (L-L-W-L-L)  
 **N5 FC form (before GW7):** 🤝 ✅ ❌ ❌ ✅ (D-W-L-L-W)
@@ -22,11 +22,26 @@ A composed, professional display from N5 FC saw them dispatch Community FC 1-5 t
 
 ### First Half
 
-The Onside Game Changer kicked in at the 12th minute and the teams made it count with 1 goal being scored. N5 FC seized the initiative early and never looked back, building a commanding lead.
+At the 12-minute mark, the Onside Game Changer came into effect and the teams made it count with 1 goal being scored. N5 FC flew out of the blocks, overwhelming Community FC with wave after wave of attacks.
 
 ### Second Half
 
-The Fairplay Game Changer kicked in at the 27th minute of the second half, though the goals dried up as the match wore on. N5 FC managed the game superbly after the interval, seeing out a professional victory.
+At the 27-minute mark, the Fairplay Game Changer came into play, though the goals dried up as the match wore on. N5 FC maintained their grip on the match throughout the second period to secure a comfortable win.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Joe Bennett opened the scoring in the 10th minute. Further goals came from Jezreel Davies (15'), Matthew Waller (17'), Joe Bennett (24') and Joe Bennett (25').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 10' | Joe Bennett | N5 FC |
+| 15' | Jezreel Davies | N5 FC |
+| 17' | Matthew Waller | Community FC |
+| 24' | Joe Bennett | N5 FC |
+| 25' | Joe Bennett | N5 FC |
+
 
 ---
 
@@ -41,6 +56,26 @@ The Game Changer period proved quiet in this match, with the Onside and Fairplay
 | **Total** | | **1** |
 
 The Game Changer period brought a modest 1 goal, with the modified rules creating chances but not overwhelming the flow of the match. This was more about tactical adjustments than the chaos that sometimes defines GC activations.
+
+---
+
+## Match Performers
+
+### Community FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Matthew Waller | 1 | 0 | 0 | 17 |
+
+### N5 FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Joe Bennett | 3 | 0 | 2 | 26 |
+| Michael Hill | 1 | 1 | 4 | 23 |
+| Jezreel Davies | 1 | 0 | 2 | 21 |
+
+
 
 ---
 

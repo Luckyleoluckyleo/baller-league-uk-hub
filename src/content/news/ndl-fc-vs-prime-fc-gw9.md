@@ -1,5 +1,5 @@
 ---
-title: "NDL FC See Off Prime FC 5-3 in Gameweek 9"
+title: "NDL FC Beat Prime FC 5-3 in Entertaining GW9 Clash"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "NDL FC 5-3 Prime FC — Gameweek 9 match report. Dara Dada (7 goals) leads NDL FC's attack. Game Changers: 3Play (3) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — NDL FC 5-3 Prime FC
 
-Gameweek 9 brought NDL FC and Prime FC together at Baller Arena, with NDL FC sitting 1st and looking to strengthen their playoff push against 8th-placed Prime FC.
+All eyes were on Baller Arena as NDL FC met Prime FC, with NDL FC sitting 1st and looking to strengthen their playoff push against 8th-placed Prime FC.
 
 NDL FC emerged 5-3 victors over Prime FC after a competitive clash that showcased the best of Baller League football. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 6 goals to a match that saw 8 in total.
 
@@ -22,11 +22,28 @@ NDL FC emerged 5-3 victors over Prime FC after a competitive clash that showcase
 
 ### First Half
 
-At the 12-minute mark, the 3Play Game Changer came into effect and the teams made it count with 3 goals being scored. NDL FC edged the opening exchanges with a more clinical edge in front of goal.
+The 3Play Game Changer kicked in at the 12th minute, generating 3 goals that set the tempo for the half. NDL FC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-The 1-on-1 Game Changer kicked in at the 27th minute of the second half, producing 3 goals at a crucial stage. The closing stages were nervy as Prime FC threw everything forward, but NDL FC stood strong to claim the points.
+The 1-on-1 Game Changer kicked in at the 27th minute of the second half, adding 3 goals and injecting fresh energy into the contest. Prime FC pushed hard for an equaliser but NDL FC held firm, with NDL FC defending resolutely to protect their lead.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Isaac Modi opened the scoring in the 10th minute. Further goals came from Joseph Adewunmi (13'), Sam Fitzgerald (14'), Montel McKenzie (14'), Bráulio Valera Pinto Maieco (21'), Kevin Weggen (27') and Francis Gerard Mampolo (29').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 10' | Isaac Modi | NDL FC |
+| 13' | Joseph Adewunmi | — |
+| 14' | Sam Fitzgerald | NDL FC |
+| 14' | Montel McKenzie | Prime FC |
+| 21' | Bráulio Valera Pinto Maieco | Prime FC |
+| 27' | Kevin Weggen | NDL FC |
+| 29' | Francis Gerard Mampolo | Prime FC |
+
 
 ---
 
@@ -41,6 +58,29 @@ The Game Changer period proved decisive in this match, with the 3Play and 1-on-1
 | **Total** | | **6** |
 
 The Game Changers provided a genuine spectacle, with both activations contributing meaningfully to the scoreline. The second-half 1-on-1 was the more impactful of the two, and the teams' approaches to managing these periods proved crucial to the outcome.
+
+---
+
+## Match Performers
+
+### NDL FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Isaac Modi | 1 | 0 | 2 | 7 |
+| Sam Fitzgerald | 1 | 0 | 0 | 4 |
+| Kevin Weggen | 1 | 0 | 2 | 3 |
+| Dara Dada | 0 | 2 | 4 | 16 |
+
+### Prime FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Francis Gerard Mampolo | 1 | 1 | 2 | 8 |
+| Montel McKenzie | 1 | 0 | 6 | 38 |
+| Bráulio Valera Pinto Maieco | 1 | 0 | 3 | 12 |
+
+
 
 ---
 

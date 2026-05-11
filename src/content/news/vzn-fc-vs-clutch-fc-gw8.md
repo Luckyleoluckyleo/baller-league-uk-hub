@@ -1,5 +1,5 @@
 ---
-title: "VZN FC Edge Clutch FC 2-1 in GW8 Thriller"
+title: "VZN FC Scrape Past Clutch FC 2-1 in Tight GW8 Contest"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "VZN FC 2-1 Clutch FC — Gameweek 8 match report. George Nikaj (7 goals) leads VZN FC's attack. Game Changers: Onside (1) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — VZN FC 2-1 Clutch FC
 
-The Gameweek 8 schedule pitted VZN FC against Clutch FC, two sides looking to climb the table from 9th and 6th respectively.
+VZN FC took on Clutch FC in a Gameweek 8 clash, two sides looking to climb the table from 9th and 6th respectively.
 
-VZN FC edged past Clutch FC 2-1 in a nail-biting encounter that could have gone either way. The Game Changer period played a key role, with the Onside and Fairplay activations contributing 1 goals to a match that saw 3 in total.
+In a tense, tightly-contested affair, VZN FC held their nerve to beat Clutch FC 2-1. The Game Changer period played a key role, with the Onside and Fairplay activations contributing 1 goals to a match that saw 3 in total.
 
 **VZN FC form (before GW8):** ❌ ✅ ❌ ✅ ❌ (L-W-L-W-L)  
 **Clutch FC form (before GW8):** ❌ ❌ ✅ ✅ ✅ (L-L-W-W-W)
@@ -22,11 +22,24 @@ VZN FC edged past Clutch FC 2-1 in a nail-biting encounter that could have gone 
 
 ### First Half
 
-The Onside Game Changer kicked in at the 12th minute, producing 1 goal in a frantic period of play. VZN FC edged the opening exchanges with a more clinical edge in front of goal.
+At the 12-minute mark, the Onside Game Changer came into effect and the teams made it count with 1 goal being scored. VZN FC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-At the 27-minute mark, the Fairplay Game Changer came into play, but neither side could capitalise on the modified rules. The closing stages were nervy as Clutch FC threw everything forward, but VZN FC stood strong to claim the points.
+The Fairplay Game Changer activated at the 27th minute, but neither side could capitalise on the modified rules. The closing stages were nervy as Clutch FC threw everything forward, but VZN FC stood strong to claim the points.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Jacob Mensah opened the scoring in the 12th minute, with goals following from Che Krabbendam (18'), Florian Kastrati (20').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 12' | Jacob Mensah | Clutch FC |
+| 18' | Che Krabbendam | VZN FC |
+| 20' | Florian Kastrati | VZN FC |
+
 
 ---
 
@@ -41,6 +54,27 @@ The Game Changer period proved quiet in this match, with the Onside and Fairplay
 | **Total** | | **1** |
 
 The Game Changer period brought a modest 1 goal, with the modified rules creating chances but not overwhelming the flow of the match. This was more about tactical adjustments than the chaos that sometimes defines GC activations.
+
+---
+
+## Match Performers
+
+### VZN FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Che Krabbendam | 1 | 1 | 3 | 26 |
+| Florian Kastrati | 1 | 0 | 0 | 2 |
+| George Nikaj | 0 | 1 | 2 | 10 |
+
+### Clutch FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Jacob Mensah | 1 | 0 | 0 | 7 |
+| Keir Dickson | 0 | 1 | 2 | 14 |
+
+
 
 ---
 

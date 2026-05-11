@@ -9,7 +9,7 @@ featured: true
 
 ## Match Summary — Deportrio 8-6 Prime FC
 
-The Gameweek 8 schedule pitted Deportrio against Prime FC, with Deportrio sitting 4th and looking to strengthen their playoff push against 7th-placed Prime FC.
+All eyes were on Baller Arena as Deportrio met Prime FC, with Deportrio sitting 4th and looking to strengthen their playoff push against 7th-placed Prime FC.
 
 Deportrio emerged 8-6 victors over Prime FC after a competitive clash that showcased the best of Baller League football. The Game Changer period played a key role, with the 3Play and The Line activations contributing 7 goals to a match that saw 14 in total.
 
@@ -22,11 +22,33 @@ Deportrio emerged 8-6 victors over Prime FC after a competitive clash that showc
 
 ### First Half
 
-The 3Play Game Changer kicked in at the 12th minute, generating 5 goals that set the tempo for the half. Deportrio edged the opening exchanges with a more clinical edge in front of goal.
+At the 12-minute mark, the 3Play Game Changer came into effect and the teams made it count with 5 goals being scored. Deportrio shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-The The Line Game Changer activated at the 27th minute, producing 2 goals at a crucial stage. The closing stages were nervy as Prime FC threw everything forward, but Deportrio stood strong to claim the points. The 14-goal spectacle was one of the highest-scoring matches of Gameweek 8.
+The The Line Game Changer activated at the 27th minute, producing 2 goals at a crucial stage. Prime FC pushed hard for an equaliser but Deportrio held firm, with Deportrio defending resolutely to protect their lead. The 14-goal spectacle was one of the highest-scoring matches of Gameweek 8.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Bráulio Valera Pinto Maieco opened the scoring in the 3rd minute. Further goals came from Timmy Abraham (7'), Jay Emmanuel-Thomas (12'), Sahid Kamara (12'), Sahid Kamara (13'), Jay Emmanuel-Thomas (14'), J&#039;ardell Stirling (14'), Jay Emmanuel-Thomas (19'), Francis Gerard Mampolo (22'), Mauro Vilhete (26'), Jay Emmanuel-Thomas (27') and Jay Emmanuel-Thomas (27').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 3' | Bráulio Valera Pinto Maieco | Prime FC |
+| 7' | Timmy Abraham | Prime FC |
+| 12' | Jay Emmanuel-Thomas | Deportrio |
+| 12' | Sahid Kamara | Deportrio |
+| 13' | Sahid Kamara | Deportrio |
+| 14' | Jay Emmanuel-Thomas | Deportrio |
+| 14' | J&#039;ardell Stirling | Deportrio |
+| 19' | Jay Emmanuel-Thomas | Deportrio |
+| 22' | Francis Gerard Mampolo | Prime FC |
+| 26' | Mauro Vilhete | Prime FC |
+| 27' | Jay Emmanuel-Thomas | Deportrio |
+| 27' | Jay Emmanuel-Thomas | Deportrio |
+
 
 ---
 
@@ -41,6 +63,34 @@ The Game Changer period proved decisive in this match, with the 3Play and The Li
 | **Total** | | **7** |
 
 The Game Changer period exploded into life, with the 3Play activation proving particularly devastating. Matches where the Game Changer produces this volume of goals often become instant classics, and this was no exception. The high-scoring nature of the GC period meant the usual tactical calculations went out the window, with both teams forced to adapt on the fly.
+
+---
+
+## Match Performers
+
+### Deportrio — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Jay Emmanuel-Thomas | 5 | 2 | 5 | 12 |
+| Sahid Kamara | 2 | 0 | 0 | 9 |
+| J&#039;ardell Stirling | 1 | 1 | 3 | 17 |
+| Daniel Atherton | 0 | 1 | 5 | 17 |
+| Amine Sassi | 0 | 1 | 2 | 8 |
+
+### Prime FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Bráulio Valera Pinto Maieco | 2 | 0 | 0 | 10 |
+| Francis Gerard Mampolo | 1 | 1 | 6 | 14 |
+| Mauro Vilhete | 1 | 0 | 3 | 11 |
+| Timmy Abraham | 1 | 0 | 0 | 3 |
+| Sak Hassan | 1 | 0 | 1 | 7 |
+| Montel McKenzie | 0 | 1 | 4 | 32 |
+| Stefan Ilic | 0 | 1 | 4 | 19 |
+
+
 
 ---
 

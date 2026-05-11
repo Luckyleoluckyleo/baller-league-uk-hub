@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Gold Devils FC 3-5 N5 FC
 
-The Gameweek 3 schedule pitted Gold Devils FC against N5 FC, two sides looking to climb the table from 8th and 10th respectively.
+All eyes were on Baller Arena as Gold Devils FC met N5 FC, two sides looking to climb the table from 8th and 10th respectively.
 
-N5 FC claimed a well-deserved 3-5 win against Gold Devils FC in an entertaining Gameweek 3 encounter. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 2 goals to a match that saw 8 in total.
+N5 FC emerged 3-5 victors over Gold Devils FC after a competitive clash that showcased the best of Baller League football. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 2 goals to a match that saw 8 in total.
 
 **Gold Devils FC form (before GW3):** ✅ ❌ (W-L)  
 **N5 FC form (before GW3):** ❌ ✅ ❌ (L-W-L)
@@ -22,11 +22,28 @@ N5 FC claimed a well-deserved 3-5 win against Gold Devils FC in an entertaining 
 
 ### First Half
 
-The first half saw the 3Play Game Changer activate at the 12th minute, producing 2 goals in a frantic period of play. N5 FC shaded a competitive first period, taking their chances well.
+At the 12-minute mark, the 3Play Game Changer came into effect, generating 2 goals that set the tempo for the half. N5 FC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-At the 27-minute mark, the 1-on-1 Game Changer came into play, but neither side could capitalise on the modified rules. The closing stages were nervy as Gold Devils FC threw everything forward, but N5 FC stood strong to claim the points.
+The 1-on-1 Game Changer kicked in at the 27th minute of the second half, though the goals dried up as the match wore on. The closing stages were nervy as Gold Devils FC threw everything forward, but N5 FC stood strong to claim the points.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Joe Bennett opened the scoring in the 0th minute. Further goals came from Bilal Sayoud (9'), Salim Nassor (10'), Michael Hill (11'), Ibrahim Ugradar (12'), Arezki Hamouchene (13') and Joe Bennett (18').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 0' | Joe Bennett | N5 FC |
+| 9' | Bilal Sayoud | Gold Devils FC |
+| 10' | Salim Nassor | Gold Devils FC |
+| 11' | Michael Hill | N5 FC |
+| 12' | Ibrahim Ugradar | N5 FC |
+| 13' | Arezki Hamouchene | Gold Devils FC |
+| 18' | Joe Bennett | N5 FC |
+
 
 ---
 
@@ -41,6 +58,28 @@ The Game Changer period proved influential in this match, with the 3Play and 1-o
 | **Total** | | **2** |
 
 The Game Changer period brought a modest 2 goals, with the modified rules creating chances but not overwhelming the flow of the match. This was more about tactical adjustments than the chaos that sometimes defines GC activations.
+
+---
+
+## Match Performers
+
+### Gold Devils FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Salim Nassor | 1 | 0 | 0 | 0 |
+| Bilal Sayoud | 1 | 0 | 0 | 0 |
+| Arezki Hamouchene | 1 | 0 | 0 | 0 |
+
+### N5 FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Joe Bennett | 2 | 0 | 0 | 0 |
+| Michael Hill | 2 | 0 | 0 | 0 |
+| Ibrahim Ugradar | 1 | 0 | 0 | 0 |
+
+
 
 ---
 

@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Yanited 1-8 Prime FC
 
-Yanited took on Prime FC in a Gameweek 6 clash, with Yanited sitting 3rd and looking to strengthen their playoff push against 8th-placed Prime FC.
+All eyes were on Baller Arena as Yanited met Prime FC, with Yanited sitting 3rd and looking to strengthen their playoff push against 8th-placed Prime FC.
 
 Prime FC were simply unstoppable as they crushed Yanited 1-8, delivering one of the most emphatic results of Gameweek 6. The Game Changer period played a key role, with the 3Play and Fairplay activations contributing 3 goals to a match that saw 9 in total.
 
@@ -22,11 +22,29 @@ Prime FC were simply unstoppable as they crushed Yanited 1-8, delivering one of 
 
 ### First Half
 
-The 3Play Game Changer kicked in at the 12th minute, generating 3 goals that set the tempo for the half. Prime FC flew out of the blocks, overwhelming Yanited with wave after wave of attacks.
+The 3Play Game Changer kicked in at the 12th minute, generating 3 goals that set the tempo for the half. Prime FC seized the initiative early and never looked back, building a commanding lead.
 
 ### Second Half
 
-The Fairplay Game Changer kicked in at the 27th minute of the second half, but neither side could capitalise on the modified rules. Prime FC continued their onslaught, putting the game well beyond Yanited's reach in a relentless second-half showing.
+The Fairplay Game Changer kicked in at the 27th minute of the second half, but neither side could capitalise on the modified rules. Prime FC showed no mercy after the break, piling on the goals to complete a resounding victory.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Sak Hassan opened the scoring in the 2nd minute. Further goals came from Francis Gerard Mampolo (2'), Stefan Ilic (4'), Bráulio Valera Pinto Maieco (6'), Paul-José M&#039;Poku (12'), Francis Gerard Mampolo (13'), Francis Gerard Mampolo (14') and Francis Gerard Mampolo (19').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 2' | Sak Hassan | Prime FC |
+| 2' | Francis Gerard Mampolo | Prime FC |
+| 4' | Stefan Ilic | Prime FC |
+| 6' | Bráulio Valera Pinto Maieco | Prime FC |
+| 12' | Paul-José M&#039;Poku | Yanited |
+| 13' | Francis Gerard Mampolo | Prime FC |
+| 14' | Francis Gerard Mampolo | Prime FC |
+| 19' | Francis Gerard Mampolo | Prime FC |
+
 
 ---
 
@@ -41,6 +59,30 @@ The Game Changer period proved influential in this match, with the 3Play and Fai
 | **Total** | | **3** |
 
 The Game Changer period brought a modest 3 goals, with the modified rules creating chances but not overwhelming the flow of the match. This was more about tactical adjustments than the chaos that sometimes defines GC activations.
+
+---
+
+## Match Performers
+
+### Yanited — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Paul-José M&#039;Poku | 1 | 0 | 1 | 8 |
+| John Bostock | 0 | 1 | 3 | 15 |
+
+### Prime FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Francis Gerard Mampolo | 4 | 2 | 4 | 19 |
+| Sak Hassan | 2 | 1 | 5 | 14 |
+| Stefan Ilic | 1 | 1 | 3 | 13 |
+| Bráulio Valera Pinto Maieco | 1 | 0 | 0 | 8 |
+| Montel McKenzie | 0 | 1 | 3 | 40 |
+| Mauro Vilhete | 0 | 1 | 4 | 11 |
+
+
 
 ---
 

@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Gold Devils FC 4-4 Community FC
 
-The Gameweek 8 schedule pitted Gold Devils FC against Community FC, two sides looking to climb the table from 10th and 12th respectively.
+Gold Devils FC took on Community FC in a Gameweek 8 clash, two sides looking to climb the table from 10th and 12th respectively.
 
 Honours were even as Gold Devils FC and Community FC shared the spoils in an entertaining 4-4 draw. The 8 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through 3Play and The Line.
 
@@ -22,11 +22,28 @@ Honours were even as Gold Devils FC and Community FC shared the spoils in an ent
 
 ### First Half
 
-The first half saw the 3Play Game Changer activate at the 12th minute, producing 3 goals in a frantic period of play. The two sides were inseparable at the break, with the contest finely poised.
+The first half saw the 3Play Game Changer activate at the 12th minute and the teams made it count with 3 goals being scored. The two sides were inseparable at the break, with the contest finely poised.
 
 ### Second Half
 
-The The Line Game Changer kicked in at the 27th minute of the second half, but neither side could capitalise on the modified rules. Despite late pressure, neither team could find the decisive goal and the spoils were shared.
+The The Line Game Changer activated at the 27th minute, though the goals dried up as the match wore on. Despite late pressure, neither team could find the decisive goal and the spoils were shared.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Keane Joyce opened the scoring in the 2nd minute. Further goals came from Luqman Kassim (7'), Luqman Kassim (10'), Jahvarn Stewart (12'), Callum Charlton (13'), Jahvarn Stewart (14') and Alex Byrne (18').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 2' | Keane Joyce | Community FC |
+| 7' | Luqman Kassim | Gold Devils FC |
+| 10' | Luqman Kassim | Gold Devils FC |
+| 12' | Jahvarn Stewart | Gold Devils FC |
+| 13' | Callum Charlton | Community FC |
+| 14' | Jahvarn Stewart | Gold Devils FC |
+| 18' | Alex Byrne | Community FC |
+
 
 ---
 
@@ -41,6 +58,29 @@ The Game Changer period proved influential in this match, with the 3Play and The
 | **Total** | | **3** |
 
 The Game Changer period brought a modest 3 goals, with the modified rules creating chances but not overwhelming the flow of the match. This was more about tactical adjustments than the chaos that sometimes defines GC activations.
+
+---
+
+## Match Performers
+
+### Gold Devils FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Luqman Kassim | 2 | 0 | 0 | 10 |
+| Jahvarn Stewart | 2 | 0 | 3 | 6 |
+| Bilal Sayoud | 0 | 4 | 10 | 33 |
+
+### Community FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Alex Byrne | 2 | 1 | 8 | 30 |
+| Keane Joyce | 1 | 0 | 0 | 2 |
+| Callum Charlton | 1 | 0 | 3 | 23 |
+| Mulugeta Kidu | 0 | 2 | 6 | 20 |
+
+
 
 ---
 

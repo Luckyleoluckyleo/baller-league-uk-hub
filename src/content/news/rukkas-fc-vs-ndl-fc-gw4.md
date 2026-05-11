@@ -9,9 +9,9 @@ featured: true
 
 ## Match Summary — Rukkas FC 4-6 NDL FC
 
-Gameweek 4 brought Rukkas FC and NDL FC together at Baller Arena, where 11th-placed Rukkas FC looked to upset 1st-placed NDL FC.
+All eyes were on Baller Arena as Rukkas FC met NDL FC, where 11th-placed Rukkas FC looked to upset 1st-placed NDL FC.
 
-NDL FC emerged 4-6 victors over Rukkas FC after a competitive clash that showcased the best of Baller League football. The Game Changer period played a key role, with the Plus One and Fairplay activations contributing 3 goals to a match that saw 10 in total.
+NDL FC claimed a well-deserved 4-6 win against Rukkas FC in an entertaining Gameweek 4 encounter. The Game Changer period played a key role, with the Plus One and Fairplay activations contributing 3 goals to a match that saw 10 in total.
 
 **Rukkas FC form (before GW4):** ❌ ❌ ❌ ❌ ✅ (L-L-L-L-W)  
 **NDL FC form (before GW4):** ✅ ✅ ✅ 🤝 ❌ (W-W-W-D-L)
@@ -22,11 +22,27 @@ NDL FC emerged 4-6 victors over Rukkas FC after a competitive clash that showcas
 
 ### First Half
 
-At the 12-minute mark, the Plus One Game Changer came into effect, generating 2 goals that set the tempo for the half. NDL FC edged the opening exchanges with a more clinical edge in front of goal.
+The first half saw the Plus One Game Changer activate at the 12th minute and the teams made it count with 2 goals being scored. NDL FC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-At the 27-minute mark, the Fairplay Game Changer came into play, adding 1 goal and injecting fresh energy into the contest. Rukkas FC pushed hard for an equaliser but NDL FC held firm, with NDL FC defending resolutely to protect their lead. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 4.
+At the 27-minute mark, the Fairplay Game Changer came into play and delivered 1 goal that shifted the momentum. The closing stages were nervy as Rukkas FC threw everything forward, but NDL FC stood strong to claim the points. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 4.
+
+---
+
+## Goal Timeline
+
+Goals came thick and fast in this encounter. Mussa Bham opened the scoring in the 3rd minute. Further goals came from David Oupoh (4'), Tyler Winters (9'), Dara Dada (12'), Dara Dada (14') and David Oupoh (22').
+
+| Minute | Player | Team |
+|--------|--------|------|
+| 3' | Mussa Bham | Rukkas FC |
+| 4' | David Oupoh | Rukkas FC |
+| 9' | Tyler Winters | NDL FC |
+| 12' | Dara Dada | NDL FC |
+| 14' | Dara Dada | NDL FC |
+| 22' | David Oupoh | Rukkas FC |
+
 
 ---
 
@@ -41,6 +57,27 @@ The Game Changer period proved influential in this match, with the Plus One and 
 | **Total** | | **3** |
 
 The Game Changer period brought a modest 3 goals, with the modified rules creating chances but not overwhelming the flow of the match. This was more about tactical adjustments than the chaos that sometimes defines GC activations.
+
+---
+
+## Match Performers
+
+### Rukkas FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| David Oupoh | 2 | 0 | 1 | 2 |
+| Mussa Bham | 2 | 0 | 7 | 22 |
+| Zaid Al Hussaini | 0 | 1 | 4 | 16 |
+
+### NDL FC — This Match
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Dara Dada | 2 | 0 | 2 | 8 |
+| Sam Fitzgerald | 0 | 1 | 6 | 13 |
+
+
 
 ---
 
