@@ -67,8 +67,17 @@ function getForm(slug: string): { label: string; cls: string }[] {
   });
 }
 
+// Global match index — must match match/[id].astro ordering
+const allMatchesGlobal: any[] = [];
+for (const [, season] of Object.entries(gcData.seasons)) {
+  for (const m of (season as any).matches as any[]) {
+    if (m.homeScore === 0 && m.awayScore === 0 && m.gamechanger1?.type === 'unknown') continue;
+    allMatchesGlobal.push(m);
+  }
+}
+
 function getMatchIndex(match: any): number {
-  const idx = s3Matches.findIndex((x: any) => x.homeTeam === match.homeTeam && x.awayTeam === match.awayTeam && x.gameweek === match.gameweek);
+  const idx = allMatchesGlobal.findIndex((x: any) => x.homeTeam === match.homeTeam && x.awayTeam === match.awayTeam && x.gameweek === match.gameweek);
   return idx >= 0 ? idx + 1 : 1;
 }
 

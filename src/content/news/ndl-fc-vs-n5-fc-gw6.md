@@ -1,6 +1,6 @@
 ---
-title: "N5 FC Beat NDL FC 4-6 in Entertaining GW6 Clash"
-date: 2026-05-11
+title: "N5 FC See Off NDL FC 4-6 in Gameweek 6"
+date: 2026-05-12
 category: "Match Report"
 excerpt: "NDL FC 4-6 N5 FC — Gameweek 6 match report. Sam Fitzgerald (8 goals) leads NDL FC's attack. Game Changers: 3Play (4) & 1-on-1 (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: true
 
 ## Match Summary — NDL FC 4-6 N5 FC
 
-Gameweek 6 brought NDL FC and N5 FC together at Baller Arena, with NDL FC sitting 2nd and looking to strengthen their playoff push against 6th-placed N5 FC.
+NDL FC took on N5 FC in a Gameweek 6 clash, with NDL FC sitting 2nd and looking to strengthen their playoff push against 6th-placed N5 FC.
 
 N5 FC emerged 4-6 victors over NDL FC after a competitive clash that showcased the best of Baller League football. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 5 goals to a match that saw 10 in total.
 
@@ -22,11 +22,11 @@ N5 FC emerged 4-6 victors over NDL FC after a competitive clash that showcased t
 
 ### First Half
 
-At the 12-minute mark, the 3Play Game Changer came into effect, generating 4 goals that set the tempo for the half. N5 FC shaded a competitive first period, taking their chances well.
+At the 12-minute mark, the 3Play Game Changer came into effect, producing 4 goals in a frantic period of play. N5 FC edged the opening exchanges with a more clinical edge in front of goal.
 
 ### Second Half
 
-The 1-on-1 Game Changer activated at the 27th minute, adding 1 goal and injecting fresh energy into the contest. NDL FC pushed hard for an equaliser but N5 FC held firm, with N5 FC defending resolutely to protect their lead. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 6.
+At the 27-minute mark, the 1-on-1 Game Changer came into play and delivered 1 goal that shifted the momentum. NDL FC pushed hard for an equaliser but N5 FC held firm, with N5 FC defending resolutely to protect their lead. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 6.
 
 ---
 
@@ -118,7 +118,7 @@ The Game Changers provided a genuine spectacle, with both activations contributi
 
 ## Season Context
 
-**NDL FC** came into this fixture averaging **4.7 goals per game** (80 total from 6 matches), with room for improvement in the final third. **N5 FC** arrived averaging **3.9 goals per game** (67 total), looking to find a sharper edge in front of goal. 
+**NDL FC** came into this fixture averaging **4.7 goals per game** (84 total from 6 matches), with room for improvement in the final third. **N5 FC** arrived averaging **4.0 goals per game** (72 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

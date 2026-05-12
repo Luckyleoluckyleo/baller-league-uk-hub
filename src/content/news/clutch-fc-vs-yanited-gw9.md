@@ -1,6 +1,6 @@
 ---
 title: "Clutch FC Scrape Past Yanited 5-4 in Tight GW9 Contest"
-date: 2026-05-11
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Clutch FC 5-4 Yanited — Gameweek 9 match report. Alfie Matthews (12 goals) leads Clutch FC's attack. Game Changers: Plus One (3) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -22,7 +22,7 @@ Clutch FC edged past Yanited 5-4 in a nail-biting encounter that could have gone
 
 ### First Half
 
-The Plus One Game Changer kicked in at the 12th minute and the teams made it count with 3 goals being scored. Clutch FC shaded a competitive first period, taking their chances well.
+The Plus One Game Changer kicked in at the 12th minute, producing 3 goals in a frantic period of play. Clutch FC edged the opening exchanges with a more clinical edge in front of goal.
 
 ### Second Half
 
@@ -115,7 +115,7 @@ The Game Changers provided a genuine spectacle, with both activations contributi
 
 ## Season Context
 
-**Clutch FC** came into this fixture averaging **3.5 goals per game** (60 total from 9 matches), with room for improvement in the final third. **Yanited** arrived averaging **3.2 goals per game** (55 total), looking to find a sharper edge in front of goal. 
+**Clutch FC** came into this fixture averaging **3.4 goals per game** (62 total from 9 matches), with room for improvement in the final third. **Yanited** arrived averaging **3.4 goals per game** (61 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

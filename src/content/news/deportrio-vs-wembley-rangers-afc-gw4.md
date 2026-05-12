@@ -1,6 +1,6 @@
 ---
 title: "Deportrio See Off Wembley Rangers AFC 5-2 in Gameweek 4"
-date: 2026-05-11
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Deportrio 5-2 Wembley Rangers AFC — Gameweek 4 match report. Jay Emmanuel-Thomas (18 goals) leads Deportrio's attack. Game Changers: Plus One (2) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Deportrio 5-2 Wembley Rangers AFC
 
-All eyes were on Baller Arena as Deportrio met Wembley Rangers AFC, two sides looking to climb the table from 10th and 6th respectively.
+Deportrio and Wembley Rangers AFC faced off at Baller Arena, two sides looking to climb the table from 10th and 6th respectively.
 
 A composed, professional display from Deportrio saw them dispatch Wembley Rangers AFC 5-2 to claim all three points. The Game Changer period played a key role, with the Plus One and The Line activations contributing 3 goals to a match that saw 7 in total.
 
@@ -22,11 +22,11 @@ A composed, professional display from Deportrio saw them dispatch Wembley Ranger
 
 ### First Half
 
-At the 12-minute mark, the Plus One Game Changer came into effect and the teams made it count with 2 goals being scored. Deportrio flew out of the blocks, overwhelming Wembley Rangers AFC with wave after wave of attacks.
+The Plus One Game Changer kicked in at the 12th minute, producing 2 goals in a frantic period of play. Deportrio seized the initiative early and never looked back, building a commanding lead.
 
 ### Second Half
 
-The The Line Game Changer activated at the 27th minute, adding 1 goal and injecting fresh energy into the contest. Deportrio managed the game superbly after the interval, seeing out a professional victory.
+The The Line Game Changer activated at the 27th minute, producing 1 goal at a crucial stage. Deportrio maintained their grip on the match throughout the second period to secure a comfortable win.
 
 ---
 
@@ -116,7 +116,7 @@ The Game Changer period brought a modest 3 goals, with the modified rules creati
 
 ## Season Context
 
-**Deportrio** came into this fixture averaging **4.4 goals per game** (75 total from 4 matches), with room for improvement in the final third. **Wembley Rangers AFC** arrived averaging **3.4 goals per game** (58 total), looking to find a sharper edge in front of goal. 
+**Deportrio** came into this fixture averaging **4.3 goals per game** (77 total from 4 matches), with room for improvement in the final third. **Wembley Rangers AFC** arrived averaging **3.4 goals per game** (61 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

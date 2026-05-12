@@ -1,6 +1,6 @@
 ---
 title: "Clutch FC See Off Gold Devils FC 6-4 in Gameweek 6"
-date: 2026-05-11
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Clutch FC 6-4 Gold Devils FC — Gameweek 6 match report. Alfie Matthews (12 goals) leads Clutch FC's attack. Game Changers: 3Play (7) & 1-on-1 (2). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: true
 
 ## Match Summary — Clutch FC 6-4 Gold Devils FC
 
-Gameweek 6 brought Clutch FC and Gold Devils FC together at Baller Arena, two sides looking to climb the table from 7th and 9th respectively.
+Clutch FC and Gold Devils FC faced off at Baller Arena, two sides looking to climb the table from 7th and 9th respectively.
 
 Clutch FC emerged 6-4 victors over Gold Devils FC after a competitive clash that showcased the best of Baller League football. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 9 goals to a match that saw 10 in total.
 
@@ -22,11 +22,11 @@ Clutch FC emerged 6-4 victors over Gold Devils FC after a competitive clash that
 
 ### First Half
 
-The 3Play Game Changer kicked in at the 12th minute and the teams made it count with 7 goals being scored. Clutch FC shaded a competitive first period, taking their chances well.
+The 3Play Game Changer kicked in at the 12th minute and the teams made it count with 7 goals being scored. Clutch FC edged the opening exchanges with a more clinical edge in front of goal.
 
 ### Second Half
 
-The 1-on-1 Game Changer activated at the 27th minute, producing 2 goals at a crucial stage. Gold Devils FC pushed hard for an equaliser but Clutch FC held firm, with Clutch FC defending resolutely to protect their lead. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 6.
+The 1-on-1 Game Changer kicked in at the 27th minute of the second half, producing 2 goals at a crucial stage. Gold Devils FC pushed hard for an equaliser but Clutch FC held firm, with Clutch FC defending resolutely to protect their lead. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 6.
 
 ---
 
@@ -117,7 +117,7 @@ The Game Changer period exploded into life, with the 3Play activation proving pa
 
 ## Season Context
 
-**Clutch FC** came into this fixture averaging **3.5 goals per game** (60 total from 6 matches), with room for improvement in the final third. **Gold Devils FC** arrived averaging **2.3 goals per game** (21 total), looking to find a sharper edge in front of goal. 
+**Clutch FC** came into this fixture averaging **3.4 goals per game** (62 total from 6 matches), with room for improvement in the final third. **Gold Devils FC** arrived averaging **2.3 goals per game** (23 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

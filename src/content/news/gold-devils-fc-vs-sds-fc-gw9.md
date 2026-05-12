@@ -1,6 +1,6 @@
 ---
-title: "Gold Devils FC See Off SDS FC 2-0 in Gameweek 9"
-date: 2026-05-11
+title: "Gold Devils FC Beat SDS FC 2-0 in Entertaining GW9 Clash"
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Gold Devils FC 2-0 SDS FC — Gameweek 9 match report. Bilal Sayoud (7 goals) leads Gold Devils FC's attack. Game Changers: Onside (0) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Gold Devils FC 2-0 SDS FC
 
-All eyes were on Baller Arena as Gold Devils FC met SDS FC, where 10th-placed Gold Devils FC looked to upset 2nd-placed SDS FC.
+The Gameweek 9 schedule pitted Gold Devils FC against SDS FC, where 10th-placed Gold Devils FC looked to upset 2nd-placed SDS FC.
 
-Gold Devils FC emerged 2-0 victors over SDS FC after a competitive clash that showcased the best of Baller League football. The Game Changer period played a key role, with the Onside and The Line activations contributing 0 goals to a match that saw 2 in total.
+Gold Devils FC claimed a well-deserved 2-0 win against SDS FC in an entertaining Gameweek 9 encounter. The Game Changer period played a key role, with the Onside and The Line activations contributing 0 goals to a match that saw 2 in total.
 
 **Gold Devils FC form (before GW9):** 🤝 🤝 ❌ ❌ ✅ (D-D-L-L-W)  
 **SDS FC form (before GW9):** ✅ 🤝 ❌ 🤝 ❌ (W-D-L-D-L)
@@ -22,11 +22,11 @@ Gold Devils FC emerged 2-0 victors over SDS FC after a competitive clash that sh
 
 ### First Half
 
-The first half saw the Onside Game Changer activate at the 12th minute, yet the deadlock remained unbroken. Gold Devils FC edged the opening exchanges with a more clinical edge in front of goal.
+The first half saw the Onside Game Changer activate at the 12th minute, yet the deadlock remained unbroken. Gold Devils FC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-At the 27-minute mark, the The Line Game Changer came into play, though the goals dried up as the match wore on. The closing stages were nervy as SDS FC threw everything forward, but Gold Devils FC stood strong to claim the points.
+The The Line Game Changer kicked in at the 27th minute of the second half, though the goals dried up as the match wore on. The closing stages were nervy as SDS FC threw everything forward, but Gold Devils FC stood strong to claim the points.
 
 ---
 
@@ -101,7 +101,7 @@ In a rarity for Baller League, neither Game Changer activation yielded a goal. B
 
 ## Season Context
 
-**Gold Devils FC** came into this fixture averaging **2.3 goals per game** (21 total from 9 matches), with room for improvement in the final third. **SDS FC** arrived averaging **3.2 goals per game** (54 total), looking to find a sharper edge in front of goal. 
+**Gold Devils FC** came into this fixture averaging **2.3 goals per game** (23 total from 9 matches), with room for improvement in the final third. **SDS FC** arrived averaging **3.3 goals per game** (60 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

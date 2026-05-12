@@ -1,6 +1,6 @@
 ---
 title: "NDL FC Edge VZN FC 4-5 in GW5 Thriller"
-date: 2026-05-11
+date: 2026-05-12
 category: "Match Report"
 excerpt: "VZN FC 4-5 NDL FC — Gameweek 5 match report. George Nikaj (8 goals) leads VZN FC's attack. Game Changers: Onside (1) & 1-on-1 (5). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -11,7 +11,7 @@ featured: false
 
 VZN FC took on NDL FC in a Gameweek 5 clash, where 10th-placed VZN FC looked to upset 1st-placed NDL FC.
 
-NDL FC scraped a hard-fought 4-5 win over VZN FC in a match where fine margins proved decisive. The Game Changer period played a key role, with the Onside and 1-on-1 activations contributing 6 goals to a match that saw 9 in total.
+NDL FC edged past VZN FC 4-5 in a nail-biting encounter that could have gone either way. The Game Changer period played a key role, with the Onside and 1-on-1 activations contributing 6 goals to a match that saw 9 in total.
 
 **VZN FC form (before GW5):** ❌ ❌ ❌ 🤝 ✅ (L-L-L-D-W)  
 **NDL FC form (before GW5):** ✅ ✅ ✅ ✅ 🤝 (W-W-W-W-D)
@@ -22,11 +22,11 @@ NDL FC scraped a hard-fought 4-5 win over VZN FC in a match where fine margins p
 
 ### First Half
 
-The first half saw the Onside Game Changer activate at the 12th minute, generating 1 goal that set the tempo for the half. NDL FC shaded a competitive first period, taking their chances well.
+The first half saw the Onside Game Changer activate at the 12th minute and the teams made it count with 1 goal being scored. NDL FC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-At the 27-minute mark, the 1-on-1 Game Changer came into play and delivered 5 goals that shifted the momentum. The closing stages were nervy as VZN FC threw everything forward, but NDL FC stood strong to claim the points.
+The 1-on-1 Game Changer activated at the 27th minute and delivered 5 goals that shifted the momentum. VZN FC pushed hard for an equaliser, with NDL FC defending resolutely to protect their lead.
 
 ---
 
@@ -113,7 +113,7 @@ The Game Changers provided a genuine spectacle, with both activations contributi
 
 ## Season Context
 
-**VZN FC** came into this fixture averaging **2.9 goals per game** (50 total from 5 matches), with room for improvement in the final third. **NDL FC** arrived averaging **4.7 goals per game** (80 total), looking to find a sharper edge in front of goal. 
+**VZN FC** came into this fixture averaging **2.9 goals per game** (53 total from 5 matches), with room for improvement in the final third. **NDL FC** arrived averaging **4.7 goals per game** (84 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

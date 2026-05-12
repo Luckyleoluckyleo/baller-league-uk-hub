@@ -1,6 +1,6 @@
 ---
 title: "NDL FC See Off Prime FC 5-3 in Gameweek 9"
-date: 2026-05-11
+date: 2026-05-12
 category: "Match Report"
 excerpt: "NDL FC 5-3 Prime FC — Gameweek 9 match report. Sam Fitzgerald (8 goals) leads NDL FC's attack. Game Changers: 3Play (3) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — NDL FC 5-3 Prime FC
 
-NDL FC and Prime FC faced off at Baller Arena, with NDL FC sitting 1st and looking to strengthen their playoff push against 8th-placed Prime FC.
+NDL FC took on Prime FC in a Gameweek 9 clash, with NDL FC sitting 1st and looking to strengthen their playoff push against 8th-placed Prime FC.
 
-NDL FC claimed a well-deserved 5-3 win against Prime FC in an entertaining Gameweek 9 encounter. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 6 goals to a match that saw 8 in total.
+NDL FC emerged 5-3 victors over Prime FC after a competitive clash that showcased the best of Baller League football. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 6 goals to a match that saw 8 in total.
 
 **NDL FC form (before GW9):** 🤝 ✅ ✅ ❌ ❌ (D-W-W-L-L)  
 **Prime FC form (before GW9):** ❌ ✅ ✅ 🤝 ❌ (L-W-W-D-L)
@@ -22,11 +22,11 @@ NDL FC claimed a well-deserved 5-3 win against Prime FC in an entertaining Gamew
 
 ### First Half
 
-At the 12-minute mark, the 3Play Game Changer came into effect, generating 3 goals that set the tempo for the half. NDL FC shaded a competitive first period, taking their chances well.
+The first half saw the 3Play Game Changer activate at the 12th minute, generating 3 goals that set the tempo for the half. NDL FC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-At the 27-minute mark, the 1-on-1 Game Changer came into play and delivered 3 goals that shifted the momentum. The closing stages were nervy as Prime FC threw everything forward, but NDL FC stood strong to claim the points.
+The 1-on-1 Game Changer kicked in at the 27th minute of the second half and delivered 3 goals that shifted the momentum. The closing stages were nervy as Prime FC threw everything forward, but NDL FC stood strong to claim the points.
 
 ---
 
@@ -116,7 +116,7 @@ The Game Changers provided a genuine spectacle, with both activations contributi
 
 ## Season Context
 
-**NDL FC** came into this fixture averaging **4.7 goals per game** (80 total from 9 matches), with room for improvement in the final third. **Prime FC** arrived averaging **5.2 goals per game** (47 total), looking to find a sharper edge in front of goal. 
+**NDL FC** came into this fixture averaging **4.7 goals per game** (84 total from 9 matches), with room for improvement in the final third. **Prime FC** arrived averaging **4.9 goals per game** (49 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

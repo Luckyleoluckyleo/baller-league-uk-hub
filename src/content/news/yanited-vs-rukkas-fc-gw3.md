@@ -1,6 +1,6 @@
 ---
-title: "Yanited Edge Rukkas FC 2-1 in GW3 Thriller"
-date: 2026-05-11
+title: "Yanited Scrape Past Rukkas FC 2-1 in Tight GW3 Contest"
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Yanited 2-1 Rukkas FC — Gameweek 3 match report. Kadell Daniel (11 goals) leads Yanited's attack. Game Changers: Onside (1) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Yanited 2-1 Rukkas FC
 
-Yanited took on Rukkas FC in a Gameweek 3 clash, two sides looking to climb the table from 6th and 11th respectively.
+All eyes were on Baller Arena as Yanited met Rukkas FC, two sides looking to climb the table from 6th and 11th respectively.
 
-Yanited scraped a hard-fought 2-1 win over Rukkas FC in a match where fine margins proved decisive. The Game Changer period played a key role, with the Onside and Fairplay activations contributing 1 goals to a match that saw 3 in total.
+Yanited edged past Rukkas FC 2-1 in a nail-biting encounter that could have gone either way. The Game Changer period played a key role, with the Onside and Fairplay activations contributing 1 goals to a match that saw 3 in total.
 
 **Yanited form (before GW3):** 🤝 ✅ 🤝 (D-W-D)  
 **Rukkas FC form (before GW3):** ❌ ❌ ✅ (L-L-W)
@@ -22,11 +22,11 @@ Yanited scraped a hard-fought 2-1 win over Rukkas FC in a match where fine margi
 
 ### First Half
 
-The Onside Game Changer kicked in at the 12th minute, generating 1 goal that set the tempo for the half. Yanited edged the opening exchanges with a more clinical edge in front of goal.
+The Onside Game Changer kicked in at the 12th minute, producing 1 goal in a frantic period of play. Yanited edged the opening exchanges with a more clinical edge in front of goal.
 
 ### Second Half
 
-The Fairplay Game Changer activated at the 27th minute, but neither side could capitalise on the modified rules. Rukkas FC pushed hard for an equaliser, with Yanited defending resolutely to protect their lead.
+The Fairplay Game Changer kicked in at the 27th minute of the second half, but neither side could capitalise on the modified rules. The closing stages were nervy as Rukkas FC threw everything forward, but Yanited stood strong to claim the points.
 
 ---
 
@@ -107,7 +107,7 @@ The Game Changer period brought a modest 1 goal, with the modified rules creatin
 
 ## Season Context
 
-**Yanited** came into this fixture averaging **3.2 goals per game** (55 total from 3 matches), with room for improvement in the final third. **Rukkas FC** arrived averaging **3.5 goals per game** (59 total), looking to find a sharper edge in front of goal. 
+**Yanited** came into this fixture averaging **3.4 goals per game** (61 total from 3 matches), with room for improvement in the final third. **Rukkas FC** arrived averaging **3.4 goals per game** (61 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

@@ -1,6 +1,6 @@
 ---
-title: "Prime FC Overpower Rukkas FC 3-8 in Dominant Display — GW2"
-date: 2026-05-11
+title: "Prime FC Cruise Past Rukkas FC in 3-8 Rout — GW2"
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Rukkas FC 3-8 Prime FC — Gameweek 2 match report. Mussa Bham (7 goals) leads Rukkas FC's attack. Game Changers: Plus One (4) & 1-on-1 (2). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: true
 
 ## Match Summary — Rukkas FC 3-8 Prime FC
 
-Gameweek 2 brought Rukkas FC and Prime FC together at Baller Arena, where 6th-placed Rukkas FC looked to upset 3rd-placed Prime FC.
+Rukkas FC took on Prime FC in a Gameweek 2 clash, where 6th-placed Rukkas FC looked to upset 3rd-placed Prime FC.
 
 Prime FC were simply unstoppable as they crushed Rukkas FC 3-8, delivering one of the most emphatic results of Gameweek 2. The Game Changer period played a key role, with the Plus One and 1-on-1 activations contributing 6 goals to a match that saw 11 in total.
 
@@ -22,11 +22,11 @@ Prime FC were simply unstoppable as they crushed Rukkas FC 3-8, delivering one o
 
 ### First Half
 
-The Plus One Game Changer kicked in at the 12th minute and the teams made it count with 4 goals being scored. Prime FC flew out of the blocks, overwhelming Rukkas FC with wave after wave of attacks.
+The Plus One Game Changer kicked in at the 12th minute and the teams made it count with 4 goals being scored. Prime FC seized the initiative early and never looked back, building a commanding lead.
 
 ### Second Half
 
-The 1-on-1 Game Changer activated at the 27th minute, producing 2 goals at a crucial stage. Prime FC showed no mercy after the break, piling on the goals to complete a resounding victory. The 11-goal spectacle was one of the highest-scoring matches of Gameweek 2.
+The 1-on-1 Game Changer kicked in at the 27th minute of the second half, producing 2 goals at a crucial stage. Prime FC continued their onslaught, putting the game well beyond Rukkas FC's reach in a relentless second-half showing. The 11-goal spectacle was one of the highest-scoring matches of Gameweek 2.
 
 ---
 
@@ -118,7 +118,7 @@ The Game Changers provided a genuine spectacle, with both activations contributi
 
 ## Season Context
 
-**Rukkas FC** came into this fixture averaging **3.5 goals per game** (59 total from 2 matches), with room for improvement in the final third. **Prime FC** arrived averaging **5.2 goals per game** (47 total), looking to find a sharper edge in front of goal. 
+**Rukkas FC** came into this fixture averaging **3.4 goals per game** (61 total from 2 matches), with room for improvement in the final third. **Prime FC** arrived averaging **4.9 goals per game** (49 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

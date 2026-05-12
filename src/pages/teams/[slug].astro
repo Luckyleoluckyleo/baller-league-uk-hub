@@ -50,8 +50,15 @@ const teamResults = allMatches
   .slice(0, 6);
 
 function getMatchIdx(match: any): number {
-  const s3 = (gcData.seasons['3']?.matches as any[] || []);
-  const idx = s3.findIndex((x: any) => x.homeTeam === match.homeTeam && x.awayTeam === match.awayTeam && x.gameweek === match.gameweek);
+  // Global match index — must match match/[id].astro ordering
+  const global: any[] = [];
+  for (const [, season] of Object.entries(gcData.seasons)) {
+    for (const m of (season as any).matches as any[]) {
+      if (m.homeScore === 0 && m.awayScore === 0 && m.gamechanger1?.type === 'unknown') continue;
+      global.push(m);
+    }
+  }
+  const idx = global.findIndex((x: any) => x.homeTeam === match.homeTeam && x.awayTeam === match.awayTeam && x.gameweek === match.gameweek);
   return idx >= 0 ? idx + 1 : 1;
 }
 

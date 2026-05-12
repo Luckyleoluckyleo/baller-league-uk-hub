@@ -1,6 +1,6 @@
 ---
-title: "Clutch FC Beat Deportrio 1-4 in Entertaining GW2 Clash"
-date: 2026-05-11
+title: "Clutch FC See Off Deportrio 1-4 in Gameweek 2"
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Deportrio 1-4 Clutch FC — Gameweek 2 match report. Jay Emmanuel-Thomas (18 goals) leads Deportrio's attack. Game Changers: 3Play (0) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -11,7 +11,7 @@ featured: false
 
 Deportrio took on Clutch FC in a Gameweek 2 clash, two sides looking to climb the table from 5th and 9th respectively.
 
-Clutch FC controlled proceedings from start to finish, running out 1-4 winners in a performance that underlined their quality. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 3 goals to a match that saw 5 in total.
+A composed, professional display from Clutch FC saw them dispatch Deportrio 1-4 to claim all three points. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 3 goals to a match that saw 5 in total.
 
 **Deportrio form (before GW2):** ❌ ✅ (L-W)  
 **Clutch FC form (before GW2):** ❌ (L)
@@ -22,11 +22,11 @@ Clutch FC controlled proceedings from start to finish, running out 1-4 winners i
 
 ### First Half
 
-At the 12-minute mark, the 3Play Game Changer came into effect, but neither side could find the breakthrough during the activation. Clutch FC seized the initiative early and never looked back, building a commanding lead.
+The first half saw the 3Play Game Changer activate at the 12th minute, but neither side could find the breakthrough during the activation. Clutch FC seized the initiative early and never looked back, building a commanding lead.
 
 ### Second Half
 
-The 1-on-1 Game Changer activated at the 27th minute, adding 3 goals and injecting fresh energy into the contest. Clutch FC managed the game superbly after the interval, seeing out a professional victory.
+The 1-on-1 Game Changer kicked in at the 27th minute of the second half, adding 3 goals and injecting fresh energy into the contest. Clutch FC maintained their grip on the match throughout the second period to secure a comfortable win.
 
 ---
 
@@ -103,7 +103,7 @@ The Game Changer period brought a modest 3 goals, with the modified rules creati
 
 ## Season Context
 
-**Deportrio** came into this fixture averaging **4.4 goals per game** (75 total from 2 matches), with room for improvement in the final third. **Clutch FC** arrived averaging **3.5 goals per game** (60 total), looking to find a sharper edge in front of goal. 
+**Deportrio** came into this fixture averaging **4.3 goals per game** (77 total from 2 matches), with room for improvement in the final third. **Clutch FC** arrived averaging **3.4 goals per game** (62 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

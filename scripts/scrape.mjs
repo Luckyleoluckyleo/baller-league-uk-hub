@@ -4,7 +4,6 @@ import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUT_PATH = resolve(__dirname, "..", "src", "data", "gamechangers.json");
-const FIXTURES_PATH = resolve(__dirname, "..", "src", "data", "fixtures.json");
 const PLAYERS_PATH = resolve(__dirname, "..", "src", "data", "players.json");
 const CACHE_DIR = resolve(__dirname, ".cache");
 if (!existsSync(CACHE_DIR)) mkdirSync(CACHE_DIR, { recursive: true });
@@ -237,7 +236,7 @@ function parseMatch(html, gameId) {
   const awayTeam = homeTeam === a ? b : a;
 
   let season;
-  if (gameId >= 145 && gameId <= 200) season = 3;
+  if (gameId >= 145) season = 3;
   else if (gameId >= 73) season = 2;
   else season = 1;
 
@@ -321,9 +320,9 @@ async function main() {
   console.log("Scanning game IDs 1-250 for UK matches...\n");
 
   const allIds = [];
-  for (let batchStart = 1; batchStart <= 250; batchStart += 10) {
+  for (let batchStart = 1; batchStart <= 350; batchStart += 10) {
     const batch = [];
-    for (let id = batchStart; id < batchStart + 10 && id <= 250; id++) batch.push(id);
+    for (let id = batchStart; id < batchStart + 10 && id <= 350; id++) batch.push(id);
 
     const results = await Promise.all(
       batch.map(async (id) => {
@@ -354,7 +353,6 @@ async function main() {
   console.log(`\nFound ${allIds.length} UK game IDs. Parsing...\n`);
 
   const matches = [];
-  const upcomingFixtures = [];
   for (let i = 0; i < allIds.length; i++) {
     const id = allIds[i];
     const html = await fetchHtml(id);
@@ -362,15 +360,6 @@ async function main() {
     const match = parseMatch(html, id);
     if (match) {
       if (match.homeScore === 0 && match.awayScore === 0 && !match.gc1 && !match.gc2) {
-        // Only collect S3 upcoming fixtures
-        if (match.season === 3) {
-          upcomingFixtures.push({
-          gameweek: match.gameweek,
-          homeTeam: match.homeTeam, homeSlug: match.homeSlug, homeEmoji: match.homeEmoji,
-          awayTeam: match.awayTeam, awaySlug: match.awaySlug, awayEmoji: match.awayEmoji,
-          date: match.matchDate || "TBC",
-          time: match.matchTime || "TBC",
-        });
         console.log(`  [${i + 1}/${allIds.length}] S${match.season} GW${String(match.gameweek).padStart(2, " ")} ${match.homeTeam} vs ${match.awayTeam} - UPCOMING${match.matchDate ? ` (${match.matchDate})` : ""}`);
         continue;
       }
@@ -429,14 +418,6 @@ async function main() {
 
   writeFileSync(OUT_PATH, JSON.stringify(output, null, 2));
 
-  // Sort upcoming by gameweek and write fixtures.json
-  upcomingFixtures.sort((a, b) => a.gameweek - b.gameweek);
-  const fixturesOutput = {
-    upcoming: upcomingFixtures,
-    results: [],
-  };
-  writeFileSync(FIXTURES_PATH, JSON.stringify(fixturesOutput, null, 2));
-
   const total = matches.length;
   const withGC = matches.filter((m) => m.gc1 && m.gc2).length;
   const withStats = matches.filter((m) => m.playerStats?.length > 0).length;
@@ -447,9 +428,7 @@ async function main() {
   console.log(`${withStats}/${total} with player stats (${matches.reduce((s, m) => s + (m.playerStats?.length || 0), 0)} player entries)`);
   console.log(`${withGoalscorers}/${total} with goal scorer data (${matches.reduce((s, m) => s + (m.goalscorers?.length || 0), 0)} goal events)`);
   console.log(`${withDates}/${total} with match dates`);
-  console.log(`${upcomingFixtures.length} upcoming fixtures written to fixtures.json`);
   console.log(`Output: ${OUT_PATH}`);
-  console.log(`Fixtures: ${FIXTURES_PATH}`);
 }
 
 main().catch((e) => { console.error("Fatal:", e.message); process.exit(1); });

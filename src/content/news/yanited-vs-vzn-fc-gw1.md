@@ -1,6 +1,6 @@
 ---
 title: "Yanited and VZN FC Deadlocked at 3-3 in GW1"
-date: 2026-05-11
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Yanited 3-3 VZN FC — Gameweek 1 match report. Kadell Daniel (11 goals) leads Yanited's attack. Game Changers: Onside (4) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Yanited 3-3 VZN FC
 
-Yanited took on VZN FC in a Gameweek 1 clash
+All eyes were on Baller Arena as Yanited met VZN FC
 
 Yanited and VZN FC played out a thrilling 3-3 draw in a match where neither side deserved to lose. The 6 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through Onside and Fairplay.
 
@@ -21,11 +21,11 @@ Yanited and VZN FC played out a thrilling 3-3 draw in a match where neither side
 
 ### First Half
 
-The Onside Game Changer kicked in at the 12th minute, generating 4 goals that set the tempo for the half. The two sides were inseparable at the break, with the contest finely poised.
+At the 12-minute mark, the Onside Game Changer came into effect and the teams made it count with 4 goals being scored. The two sides were inseparable at the break, with the contest finely poised.
 
 ### Second Half
 
-The Fairplay Game Changer activated at the 27th minute, though the goals dried up as the match wore on. Despite late pressure, neither team could find the decisive goal and the spoils were shared.
+At the 27-minute mark, the Fairplay Game Changer came into play, though the goals dried up as the match wore on. Both sides pushed for a winner but ultimately had to settle for a share of the points.
 
 ---
 
@@ -109,7 +109,7 @@ The Game Changers provided a genuine spectacle, with both activations contributi
 
 ## Season Context
 
-**Yanited** came into this fixture averaging **3.2 goals per game** (55 total from 1 matches), with room for improvement in the final third. **VZN FC** arrived averaging **2.9 goals per game** (50 total), looking to find a sharper edge in front of goal. 
+**Yanited** came into this fixture averaging **3.4 goals per game** (61 total from 1 matches), with room for improvement in the final third. **VZN FC** arrived averaging **2.9 goals per game** (53 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

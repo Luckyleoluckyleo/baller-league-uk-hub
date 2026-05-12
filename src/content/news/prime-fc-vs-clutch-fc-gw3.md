@@ -1,6 +1,6 @@
 ---
-title: "Prime FC Cruise Past Clutch FC in 6-2 Rout — GW3"
-date: 2026-05-11
+title: "Prime FC Overpower Clutch FC 6-2 in Dominant Display — GW3"
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Prime FC 6-2 Clutch FC — Gameweek 3 match report. Francis Gerard Mampolo (15 goals) leads Prime FC's attack. Game Changers: 3Play (2) & 1-on-1 (2). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Prime FC 6-2 Clutch FC
 
-Prime FC and Clutch FC faced off at Baller Arena in a top-of-the-table showdown, with Prime FC sitting 3rd and Clutch FC 4th.
+Prime FC took on Clutch FC in a Gameweek 3 clash in a top-of-the-table showdown, with Prime FC sitting 3rd and Clutch FC 4th.
 
-Prime FC controlled proceedings from start to finish, running out 6-2 winners in a performance that underlined their quality. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 4 goals to a match that saw 8 in total.
+Prime FC proved too strong for Clutch FC, taking a convincing 6-2 victory that never looked in doubt. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 4 goals to a match that saw 8 in total.
 
 **Prime FC form (before GW3):** ✅ ✅ (W-W)  
 **Clutch FC form (before GW3):** 🤝 ✅ ❌ (D-W-L)
@@ -22,7 +22,7 @@ Prime FC controlled proceedings from start to finish, running out 6-2 winners in
 
 ### First Half
 
-The 3Play Game Changer kicked in at the 12th minute, generating 2 goals that set the tempo for the half. Prime FC flew out of the blocks, overwhelming Clutch FC with wave after wave of attacks.
+The first half saw the 3Play Game Changer activate at the 12th minute, producing 2 goals in a frantic period of play. Prime FC flew out of the blocks, overwhelming Clutch FC with wave after wave of attacks.
 
 ### Second Half
 
@@ -116,7 +116,7 @@ The Game Changers provided a genuine spectacle, with both activations contributi
 
 ## Season Context
 
-**Prime FC** came into this fixture averaging **5.2 goals per game** (47 total from 3 matches), with room for improvement in the final third. **Clutch FC** arrived averaging **3.5 goals per game** (60 total), looking to find a sharper edge in front of goal. 
+**Prime FC** came into this fixture averaging **4.9 goals per game** (49 total from 3 matches), with room for improvement in the final third. **Clutch FC** arrived averaging **3.4 goals per game** (62 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

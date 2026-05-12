@@ -1,6 +1,6 @@
 ---
 title: "Deportrio Cruise Past Gold Devils FC in 6-2 Rout — GW1"
-date: 2026-05-11
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Deportrio 6-2 Gold Devils FC — Gameweek 1 match report. Jay Emmanuel-Thomas (18 goals) leads Deportrio's attack. Game Changers: 3Play (2) & 1-on-1 (2). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Deportrio 6-2 Gold Devils FC
 
-Deportrio took on Gold Devils FC in a Gameweek 1 clash
+Gameweek 1 brought Deportrio and Gold Devils FC together at Baller Arena
 
-Deportrio controlled proceedings from start to finish, running out 6-2 winners in a performance that underlined their quality. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 4 goals to a match that saw 8 in total.
+A composed, professional display from Deportrio saw them dispatch Gold Devils FC 6-2 to claim all three points. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 4 goals to a match that saw 8 in total.
 
 
 
@@ -21,11 +21,11 @@ Deportrio controlled proceedings from start to finish, running out 6-2 winners i
 
 ### First Half
 
-The first half saw the 3Play Game Changer activate at the 12th minute and the teams made it count with 2 goals being scored. Deportrio flew out of the blocks, overwhelming Gold Devils FC with wave after wave of attacks.
+The 3Play Game Changer kicked in at the 12th minute, producing 2 goals in a frantic period of play. Deportrio flew out of the blocks, overwhelming Gold Devils FC with wave after wave of attacks.
 
 ### Second Half
 
-The 1-on-1 Game Changer kicked in at the 27th minute of the second half, adding 2 goals and injecting fresh energy into the contest. Deportrio maintained their grip on the match throughout the second period to secure a comfortable win.
+At the 27-minute mark, the 1-on-1 Game Changer came into play, adding 2 goals and injecting fresh energy into the contest. Deportrio maintained their grip on the match throughout the second period to secure a comfortable win.
 
 ---
 
@@ -113,7 +113,7 @@ The Game Changers provided a genuine spectacle, with both activations contributi
 
 ## Season Context
 
-**Deportrio** came into this fixture averaging **4.4 goals per game** (75 total from 1 matches), with room for improvement in the final third. **Gold Devils FC** arrived averaging **2.3 goals per game** (21 total), looking to find a sharper edge in front of goal. 
+**Deportrio** came into this fixture averaging **4.3 goals per game** (77 total from 1 matches), with room for improvement in the final third. **Gold Devils FC** arrived averaging **2.3 goals per game** (23 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

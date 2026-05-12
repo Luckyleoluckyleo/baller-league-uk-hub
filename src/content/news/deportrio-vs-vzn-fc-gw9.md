@@ -1,6 +1,6 @@
 ---
 title: "Deportrio Beat VZN FC 6-4 in Entertaining GW9 Clash"
-date: 2026-05-11
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Deportrio 6-4 VZN FC — Gameweek 9 match report. Jay Emmanuel-Thomas (18 goals) leads Deportrio's attack. Game Changers: Plus One (1) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: true
 
 ## Match Summary — Deportrio 6-4 VZN FC
 
-Deportrio took on VZN FC in a Gameweek 9 clash, with Deportrio sitting 4th and looking to strengthen their playoff push against 9th-placed VZN FC.
+All eyes were on Baller Arena as Deportrio met VZN FC, with Deportrio sitting 4th and looking to strengthen their playoff push against 9th-placed VZN FC.
 
 Deportrio claimed a well-deserved 6-4 win against VZN FC in an entertaining Gameweek 9 encounter. The Game Changer period played a key role, with the Plus One and 1-on-1 activations contributing 4 goals to a match that saw 10 in total.
 
@@ -22,11 +22,11 @@ Deportrio claimed a well-deserved 6-4 win against VZN FC in an entertaining Game
 
 ### First Half
 
-The first half saw the Plus One Game Changer activate at the 12th minute, generating 1 goal that set the tempo for the half. Deportrio edged the opening exchanges with a more clinical edge in front of goal.
+At the 12-minute mark, the Plus One Game Changer came into effect, producing 1 goal in a frantic period of play. Deportrio edged the opening exchanges with a more clinical edge in front of goal.
 
 ### Second Half
 
-At the 27-minute mark, the 1-on-1 Game Changer came into play, producing 3 goals at a crucial stage. The closing stages were nervy as VZN FC threw everything forward, but Deportrio stood strong to claim the points. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 9.
+The 1-on-1 Game Changer kicked in at the 27th minute of the second half, producing 3 goals at a crucial stage. VZN FC pushed hard for an equaliser but Deportrio held firm, with Deportrio defending resolutely to protect their lead. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 9.
 
 ---
 
@@ -120,7 +120,7 @@ The Game Changers provided a genuine spectacle, with both activations contributi
 
 ## Season Context
 
-**Deportrio** came into this fixture averaging **4.4 goals per game** (75 total from 9 matches), with room for improvement in the final third. **VZN FC** arrived averaging **2.9 goals per game** (50 total), looking to find a sharper edge in front of goal. 
+**Deportrio** came into this fixture averaging **4.3 goals per game** (77 total from 9 matches), with room for improvement in the final third. **VZN FC** arrived averaging **2.9 goals per game** (53 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

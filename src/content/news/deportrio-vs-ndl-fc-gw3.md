@@ -1,6 +1,6 @@
 ---
 title: "NDL FC Beat Deportrio 3-6 in Entertaining GW3 Clash"
-date: 2026-05-11
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Deportrio 3-6 NDL FC — Gameweek 3 match report. Jay Emmanuel-Thomas (18 goals) leads Deportrio's attack. Game Changers: Plus One (1) & 1-on-1 (5). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Deportrio 3-6 NDL FC
 
-The Gameweek 3 schedule pitted Deportrio against NDL FC, where 9th-placed Deportrio looked to upset 1st-placed NDL FC.
+Deportrio took on NDL FC in a Gameweek 3 clash, where 9th-placed Deportrio looked to upset 1st-placed NDL FC.
 
-A composed, professional display from NDL FC saw them dispatch Deportrio 3-6 to claim all three points. The Game Changer period played a key role, with the Plus One and 1-on-1 activations contributing 6 goals to a match that saw 9 in total.
+NDL FC proved too strong for Deportrio, taking a convincing 3-6 victory that never looked in doubt. The Game Changer period played a key role, with the Plus One and 1-on-1 activations contributing 6 goals to a match that saw 9 in total.
 
 **Deportrio form (before GW3):** ❌ ❌ ❌ ✅ (L-L-L-W)  
 **NDL FC form (before GW3):** ✅ 🤝 ❌ ✅ (W-D-L-W)
@@ -22,11 +22,11 @@ A composed, professional display from NDL FC saw them dispatch Deportrio 3-6 to 
 
 ### First Half
 
-The first half saw the Plus One Game Changer activate at the 12th minute, producing 1 goal in a frantic period of play. NDL FC seized the initiative early and never looked back, building a commanding lead.
+At the 12-minute mark, the Plus One Game Changer came into effect, producing 1 goal in a frantic period of play. NDL FC flew out of the blocks, overwhelming Deportrio with wave after wave of attacks.
 
 ### Second Half
 
-The 1-on-1 Game Changer kicked in at the 27th minute of the second half, adding 5 goals and injecting fresh energy into the contest. NDL FC maintained their grip on the match throughout the second period to secure a comfortable win.
+The 1-on-1 Game Changer kicked in at the 27th minute of the second half, producing 5 goals at a crucial stage. NDL FC managed the game superbly after the interval, seeing out a professional victory.
 
 ---
 
@@ -115,7 +115,7 @@ The Game Changers provided a genuine spectacle, with both activations contributi
 
 ## Season Context
 
-**Deportrio** came into this fixture averaging **4.4 goals per game** (75 total from 3 matches), with room for improvement in the final third. **NDL FC** arrived averaging **4.7 goals per game** (80 total), looking to find a sharper edge in front of goal. 
+**Deportrio** came into this fixture averaging **4.3 goals per game** (77 total from 3 matches), with room for improvement in the final third. **NDL FC** arrived averaging **4.7 goals per game** (84 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

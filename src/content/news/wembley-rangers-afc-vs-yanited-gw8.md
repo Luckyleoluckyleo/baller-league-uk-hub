@@ -1,6 +1,6 @@
 ---
 title: "Wembley Rangers AFC Edge Yanited 2-1 in GW8 Thriller"
-date: 2026-05-11
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Wembley Rangers AFC 2-1 Yanited — Gameweek 8 match report. Domingos Pires (8 goals) leads Wembley Rangers AFC's attack. Game Changers: Onside (1) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Wembley Rangers AFC 2-1 Yanited
 
-The Gameweek 8 schedule pitted Wembley Rangers AFC against Yanited, two sides looking to climb the table from 8th and 5th respectively.
+Wembley Rangers AFC took on Yanited in a Gameweek 8 clash, two sides looking to climb the table from 8th and 5th respectively.
 
-In a tense, tightly-contested affair, Wembley Rangers AFC held their nerve to beat Yanited 2-1. The Game Changer period played a key role, with the Onside and The Line activations contributing 1 goals to a match that saw 3 in total.
+Wembley Rangers AFC edged past Yanited 2-1 in a nail-biting encounter that could have gone either way. The Game Changer period played a key role, with the Onside and The Line activations contributing 1 goals to a match that saw 3 in total.
 
 **Wembley Rangers AFC form (before GW8):** ❌ ✅ ✅ ✅ ❌ (L-W-W-W-L)  
 **Yanited form (before GW8):** ✅ 🤝 ❌ ✅ ❌ (W-D-L-W-L)
@@ -22,11 +22,11 @@ In a tense, tightly-contested affair, Wembley Rangers AFC held their nerve to be
 
 ### First Half
 
-At the 12-minute mark, the Onside Game Changer came into effect and the teams made it count with 1 goal being scored. Wembley Rangers AFC edged the opening exchanges with a more clinical edge in front of goal.
+At the 12-minute mark, the Onside Game Changer came into effect and the teams made it count with 1 goal being scored. Wembley Rangers AFC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-The The Line Game Changer activated at the 27th minute, though the goals dried up as the match wore on. Yanited pushed hard for an equaliser, with Wembley Rangers AFC defending resolutely to protect their lead.
+The The Line Game Changer kicked in at the 27th minute of the second half, but neither side could capitalise on the modified rules. The closing stages were nervy as Yanited threw everything forward, but Wembley Rangers AFC stood strong to claim the points.
 
 ---
 
@@ -108,7 +108,7 @@ The Game Changer period brought a modest 1 goal, with the modified rules creatin
 
 ## Season Context
 
-**Wembley Rangers AFC** came into this fixture averaging **3.4 goals per game** (58 total from 8 matches), with room for improvement in the final third. **Yanited** arrived averaging **3.2 goals per game** (55 total), looking to find a sharper edge in front of goal. 
+**Wembley Rangers AFC** came into this fixture averaging **3.4 goals per game** (61 total from 8 matches), with room for improvement in the final third. **Yanited** arrived averaging **3.4 goals per game** (61 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

@@ -1,6 +1,6 @@
 ---
-title: "Deportrio Annihilate Community FC 3-9 in Statement Victory — GW6"
-date: 2026-05-11
+title: "Deportrio Run Riot Against Community FC in 3-9 Demolition — GW6"
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Community FC 3-9 Deportrio — Gameweek 6 match report. Alex Byrne (8 goals) leads Community FC's attack. Game Changers: Plus One (3) & 1-on-1 (5). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -11,7 +11,7 @@ featured: true
 
 The Gameweek 6 schedule pitted Community FC against Deportrio, two sides looking to climb the table from 12th and 5th respectively.
 
-Deportrio were simply unstoppable as they crushed Community FC 3-9, delivering one of the most emphatic results of Gameweek 6. The Game Changer period played a key role, with the Plus One and 1-on-1 activations contributing 8 goals to a match that saw 12 in total.
+Deportrio produced a statement performance, dismantling Community FC 3-9 with a ruthless attacking display that will send a message to the rest of the league. The Game Changer period played a key role, with the Plus One and 1-on-1 activations contributing 8 goals to a match that saw 12 in total.
 
 **Community FC form (before GW6):** ❌ ✅ ❌ ❌ ❌ (L-W-L-L-L)  
 **Deportrio form (before GW6):** ✅ ✅ ✅ ❌ ❌ (W-W-W-L-L)
@@ -22,7 +22,7 @@ Deportrio were simply unstoppable as they crushed Community FC 3-9, delivering o
 
 ### First Half
 
-The Plus One Game Changer kicked in at the 12th minute, producing 3 goals in a frantic period of play. Deportrio flew out of the blocks, overwhelming Community FC with wave after wave of attacks.
+At the 12-minute mark, the Plus One Game Changer came into effect, producing 3 goals in a frantic period of play. Deportrio seized the initiative early and never looked back, building a commanding lead.
 
 ### Second Half
 
@@ -119,7 +119,7 @@ The Game Changer period exploded into life, with the 1-on-1 activation proving p
 
 ## Season Context
 
-**Community FC** came into this fixture averaging **2.6 goals per game** (23 total from 6 matches), with room for improvement in the final third. **Deportrio** arrived averaging **4.4 goals per game** (75 total), looking to find a sharper edge in front of goal. 
+**Community FC** came into this fixture averaging **2.5 goals per game** (25 total from 6 matches), with room for improvement in the final third. **Deportrio** arrived averaging **4.3 goals per game** (77 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

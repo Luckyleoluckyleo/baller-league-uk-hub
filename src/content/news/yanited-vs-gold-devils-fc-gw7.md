@@ -1,6 +1,6 @@
 ---
-title: "Yanited and Gold Devils FC Deadlocked at 2-2 in GW7"
-date: 2026-05-11
+title: "Yanited and Gold Devils FC Play Out 2-2 Draw in Gameweek 7"
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Yanited 2-2 Gold Devils FC — Gameweek 7 match report. Kadell Daniel (11 goals) leads Yanited's attack. Game Changers: Onside (2) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -11,7 +11,7 @@ featured: false
 
 Yanited took on Gold Devils FC in a Gameweek 7 clash, two sides looking to climb the table from 7th and 11th respectively.
 
-Yanited and Gold Devils FC played out a thrilling 2-2 draw in a match where neither side deserved to lose. The 4 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through Onside and Fairplay.
+Honours were even as Yanited and Gold Devils FC shared the spoils in an entertaining 2-2 draw. The 4 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through Onside and Fairplay.
 
 **Yanited form (before GW7):** ❌ ✅ ❌ ✅ 🤝 (L-W-L-W-D)  
 **Gold Devils FC form (before GW7):** ❌ ❌ ✅ ❌ ✅ (L-L-W-L-W)
@@ -22,11 +22,11 @@ Yanited and Gold Devils FC played out a thrilling 2-2 draw in a match where neit
 
 ### First Half
 
-The Onside Game Changer kicked in at the 12th minute, producing 2 goals in a frantic period of play. The two sides were inseparable at the break, with the contest finely poised.
+The first half saw the Onside Game Changer activate at the 12th minute, producing 2 goals in a frantic period of play. The two sides were inseparable at the break, with the contest finely poised.
 
 ### Second Half
 
-The Fairplay Game Changer activated at the 27th minute, though the goals dried up as the match wore on. Despite late pressure, neither team could find the decisive goal and the spoils were shared.
+The Fairplay Game Changer kicked in at the 27th minute of the second half, but neither side could capitalise on the modified rules. Both sides pushed for a winner but ultimately had to settle for a share of the points.
 
 ---
 
@@ -111,7 +111,7 @@ The Game Changer period brought a modest 2 goals, with the modified rules creati
 
 ## Season Context
 
-**Yanited** came into this fixture averaging **3.2 goals per game** (55 total from 7 matches), with room for improvement in the final third. **Gold Devils FC** arrived averaging **2.3 goals per game** (21 total), looking to find a sharper edge in front of goal. 
+**Yanited** came into this fixture averaging **3.4 goals per game** (61 total from 7 matches), with room for improvement in the final third. **Gold Devils FC** arrived averaging **2.3 goals per game** (23 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

@@ -1,6 +1,6 @@
 ---
 title: "Community FC Edge VZN FC 4-3 in GW4 Thriller"
-date: 2026-05-11
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Community FC 4-3 VZN FC — Gameweek 4 match report. Alex Byrne (8 goals) leads Community FC's attack. Game Changers: 3Play (1) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Community FC 4-3 VZN FC
 
-The Gameweek 4 schedule pitted Community FC against VZN FC, two sides looking to climb the table from 12th and 7th respectively.
+Community FC took on VZN FC in a Gameweek 4 clash, two sides looking to climb the table from 12th and 7th respectively.
 
-In a tense, tightly-contested affair, Community FC held their nerve to beat VZN FC 4-3. The Game Changer period played a key role, with the 3Play and Fairplay activations contributing 2 goals to a match that saw 7 in total.
+Community FC edged past VZN FC 4-3 in a nail-biting encounter that could have gone either way. The Game Changer period played a key role, with the 3Play and Fairplay activations contributing 2 goals to a match that saw 7 in total.
 
 **Community FC form (before GW4):** ❌ ❌ ❌ (L-L-L)  
 **VZN FC form (before GW4):** ❌ 🤝 ✅ ❌ 🤝 (L-D-W-L-D)
@@ -22,11 +22,11 @@ In a tense, tightly-contested affair, Community FC held their nerve to beat VZN 
 
 ### First Half
 
-The first half saw the 3Play Game Changer activate at the 12th minute and the teams made it count with 1 goal being scored. Community FC shaded a competitive first period, taking their chances well.
+At the 12-minute mark, the 3Play Game Changer came into effect, generating 1 goal that set the tempo for the half. Community FC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-The Fairplay Game Changer kicked in at the 27th minute of the second half and delivered 1 goal that shifted the momentum. VZN FC pushed hard for an equaliser, with Community FC defending resolutely to protect their lead.
+The Fairplay Game Changer kicked in at the 27th minute of the second half, adding 1 goal and injecting fresh energy into the contest. The closing stages were nervy as VZN FC threw everything forward, but Community FC stood strong to claim the points.
 
 ---
 
@@ -105,7 +105,7 @@ The Game Changer period brought a modest 2 goals, with the modified rules creati
 
 ## Season Context
 
-**Community FC** came into this fixture averaging **2.6 goals per game** (23 total from 4 matches), with room for improvement in the final third. **VZN FC** arrived averaging **2.9 goals per game** (50 total), looking to find a sharper edge in front of goal. 
+**Community FC** came into this fixture averaging **2.5 goals per game** (25 total from 4 matches), with room for improvement in the final third. **VZN FC** arrived averaging **2.9 goals per game** (53 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

@@ -1,6 +1,6 @@
 ---
 title: "Wembley Rangers AFC and NDL FC Play Out 2-2 Draw in Gameweek 2"
-date: 2026-05-11
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Wembley Rangers AFC 2-2 NDL FC — Gameweek 2 match report. Domingos Pires (8 goals) leads Wembley Rangers AFC's attack. Game Changers: Onside (0) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Wembley Rangers AFC 2-2 NDL FC
 
-All eyes were on Baller Arena as Wembley Rangers AFC met NDL FC in a top-of-the-table showdown, with Wembley Rangers AFC sitting 4th and NDL FC 1st.
+The Gameweek 2 schedule pitted Wembley Rangers AFC against NDL FC in a top-of-the-table showdown, with Wembley Rangers AFC sitting 4th and NDL FC 1st.
 
-Wembley Rangers AFC and NDL FC played out a thrilling 2-2 draw in a match where neither side deserved to lose. The 4 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through Onside and The Line.
+Wembley Rangers AFC and NDL FC could not be separated as they battled to a 2-2 stalemate at Baller Arena. The 4 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through Onside and The Line.
 
 **Wembley Rangers AFC form (before GW2):** ✅ ❌ (W-L)  
 **NDL FC form (before GW2):** ❌ ✅ (L-W)
@@ -22,11 +22,11 @@ Wembley Rangers AFC and NDL FC played out a thrilling 2-2 draw in a match where 
 
 ### First Half
 
-At the 12-minute mark, the Onside Game Changer came into effect, but neither side could find the breakthrough during the activation. The two sides were inseparable at the break, with the contest finely poised.
+The Onside Game Changer kicked in at the 12th minute, though goals proved elusive as both defences held firm. The two sides were inseparable at the break, with the contest finely poised.
 
 ### Second Half
 
-The The Line Game Changer activated at the 27th minute and delivered 1 goal that shifted the momentum. Both sides pushed for a winner but ultimately had to settle for a share of the points.
+At the 27-minute mark, the The Line Game Changer came into play and delivered 1 goal that shifted the momentum. Both sides pushed for a winner but ultimately had to settle for a share of the points.
 
 ---
 
@@ -109,7 +109,7 @@ The Game Changer period brought a modest 1 goal, with the modified rules creatin
 
 ## Season Context
 
-**Wembley Rangers AFC** came into this fixture averaging **3.4 goals per game** (58 total from 2 matches), with room for improvement in the final third. **NDL FC** arrived averaging **4.7 goals per game** (80 total), looking to find a sharper edge in front of goal. 
+**Wembley Rangers AFC** came into this fixture averaging **3.4 goals per game** (61 total from 2 matches), with room for improvement in the final third. **NDL FC** arrived averaging **4.7 goals per game** (84 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

@@ -1,8 +1,8 @@
 ---
 title: "Gameweek 10 Preview: NDL FC vs Gold Devils FC"
-date: 2026-05-11
+date: 2026-05-12
 category: "Preview"
-excerpt: "NDL FC (1st) host Gold Devils FC (10th) in Gameweek 10. Dara Dada (7 goals) leads NDL FC."
+excerpt: "NDL FC (1st) host Gold Devils FC (10th) in Gameweek 10. Sam Fitzgerald (8 goals) leads NDL FC."
 author: "Baller League UK Fan Site"
 featured: false
 ---
@@ -14,23 +14,23 @@ NDL FC come into this fixture above Gold Devils FC in the standings and will loo
 
 ## Form Guide
 
-**NDL FC**: W - W - W - D - W (last 5 matches)
-**Gold Devils FC**: W - D - D - L - L (last 5 matches)
+**NDL FC**: W - W - W - W - D (last 5 matches)
+**Gold Devils FC**: L - W - D - D - L (last 5 matches)
 
 ## Head-to-Head
 
-These sides have yet to meet in Baller League competition — this will be their first encounter!
-
+These sides have met 1 time before. NDL FC have won 0, Gold Devils FC have won 1, with 0 draws.
+The last meeting saw NDL FC defeat Gold Devils FC 4-2.
 
 ## Key Players
 
-**Dara Dada** — NDL FC's top scorer with 7 goals and 2 assists this season (Midfielder).
-**Bilal Sayoud** — leads Gold Devils FC's attack with 7 goals in 8 appearances.
+**Sam Fitzgerald** — NDL FC's top scorer with 8 goals and 4 assists this season (Midfielder).
+**Bilal Sayoud** — leads Gold Devils FC's attack with 7 goals in 9 appearances.
 
 ## Game Changer X-Factor
 
-NDL FC average **4.0** goals per match during Game Changer periods (68 total).
-Gold Devils FC average **2.7** GC goals per match (24 total).
+NDL FC average **4.1** goals per match during Game Changer periods (74 total).
+Gold Devils FC average **3.0** GC goals per match (30 total).
 
 ## Prediction
 

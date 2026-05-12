@@ -1,6 +1,6 @@
 ---
-title: "N5 FC Beat Gold Devils FC 3-5 in Entertaining GW3 Clash"
-date: 2026-05-11
+title: "N5 FC See Off Gold Devils FC 3-5 in Gameweek 3"
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Gold Devils FC 3-5 N5 FC — Gameweek 3 match report. Bilal Sayoud (7 goals) leads Gold Devils FC's attack. Game Changers: 3Play (2) & 1-on-1 (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -11,7 +11,7 @@ featured: false
 
 Gameweek 3 brought Gold Devils FC and N5 FC together at Baller Arena, two sides looking to climb the table from 8th and 10th respectively.
 
-N5 FC emerged 3-5 victors over Gold Devils FC after a competitive clash that showcased the best of Baller League football. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 2 goals to a match that saw 8 in total.
+N5 FC claimed a well-deserved 3-5 win against Gold Devils FC in an entertaining Gameweek 3 encounter. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 2 goals to a match that saw 8 in total.
 
 **Gold Devils FC form (before GW3):** ✅ ❌ (W-L)  
 **N5 FC form (before GW3):** ❌ ✅ ❌ (L-W-L)
@@ -22,7 +22,7 @@ N5 FC emerged 3-5 victors over Gold Devils FC after a competitive clash that sho
 
 ### First Half
 
-The 3Play Game Changer kicked in at the 12th minute, producing 2 goals in a frantic period of play. N5 FC edged the opening exchanges with a more clinical edge in front of goal.
+At the 12-minute mark, the 3Play Game Changer came into effect and the teams made it count with 2 goals being scored. N5 FC edged the opening exchanges with a more clinical edge in front of goal.
 
 ### Second Half
 
@@ -115,7 +115,7 @@ The Game Changer period brought a modest 2 goals, with the modified rules creati
 
 ## Season Context
 
-**Gold Devils FC** came into this fixture averaging **2.3 goals per game** (21 total from 3 matches), with room for improvement in the final third. **N5 FC** arrived averaging **3.9 goals per game** (67 total), looking to find a sharper edge in front of goal. 
+**Gold Devils FC** came into this fixture averaging **2.3 goals per game** (23 total from 3 matches), with room for improvement in the final third. **N5 FC** arrived averaging **4.0 goals per game** (72 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

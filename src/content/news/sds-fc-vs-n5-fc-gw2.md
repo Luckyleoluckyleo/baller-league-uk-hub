@@ -1,6 +1,6 @@
 ---
-title: "SDS FC Scrape Past N5 FC 2-1 in Tight GW2 Contest"
-date: 2026-05-11
+title: "SDS FC Edge N5 FC 2-1 in GW2 Thriller"
+date: 2026-05-12
 category: "Match Report"
 excerpt: "SDS FC 2-1 N5 FC — Gameweek 2 match report. Connor Wood (6 goals) leads SDS FC's attack. Game Changers: 3Play (2) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — SDS FC 2-1 N5 FC
 
-Gameweek 2 brought SDS FC and N5 FC together at Baller Arena, with SDS FC sitting 2nd and looking to strengthen their playoff push against 7th-placed N5 FC.
+The Gameweek 2 schedule pitted SDS FC against N5 FC, with SDS FC sitting 2nd and looking to strengthen their playoff push against 7th-placed N5 FC.
 
 SDS FC edged past N5 FC 2-1 in a nail-biting encounter that could have gone either way. The Game Changer period played a key role, with the 3Play and Fairplay activations contributing 2 goals to a match that saw 3 in total.
 
@@ -22,11 +22,11 @@ SDS FC edged past N5 FC 2-1 in a nail-biting encounter that could have gone eith
 
 ### First Half
 
-The 3Play Game Changer kicked in at the 12th minute and the teams made it count with 2 goals being scored. SDS FC edged the opening exchanges with a more clinical edge in front of goal.
+The first half saw the 3Play Game Changer activate at the 12th minute and the teams made it count with 2 goals being scored. SDS FC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-The Fairplay Game Changer activated at the 27th minute, but neither side could capitalise on the modified rules. N5 FC pushed hard for an equaliser, with SDS FC defending resolutely to protect their lead.
+The Fairplay Game Changer activated at the 27th minute, though the goals dried up as the match wore on. N5 FC pushed hard for an equaliser, with SDS FC defending resolutely to protect their lead.
 
 ---
 
@@ -108,7 +108,7 @@ The Game Changer period brought a modest 2 goals, with the modified rules creati
 
 ## Season Context
 
-**SDS FC** came into this fixture averaging **3.2 goals per game** (54 total from 2 matches), with room for improvement in the final third. **N5 FC** arrived averaging **3.9 goals per game** (67 total), looking to find a sharper edge in front of goal. 
+**SDS FC** came into this fixture averaging **3.3 goals per game** (60 total from 2 matches), with room for improvement in the final third. **N5 FC** arrived averaging **4.0 goals per game** (72 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

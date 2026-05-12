@@ -1,6 +1,6 @@
 ---
-title: "SDS FC and NDL FC Deadlocked at 3-3 in GW8"
-date: 2026-05-11
+title: "SDS FC and NDL FC Play Out 3-3 Draw in Gameweek 8"
+date: 2026-05-12
 category: "Match Report"
 excerpt: "SDS FC 3-3 NDL FC — Gameweek 8 match report. Connor Wood (6 goals) leads SDS FC's attack. Game Changers: Plus One (2) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — SDS FC 3-3 NDL FC
 
-The Gameweek 8 schedule pitted SDS FC against NDL FC in a top-of-the-table showdown, with SDS FC sitting 2nd and NDL FC 1st.
+SDS FC and NDL FC faced off at Baller Arena in a top-of-the-table showdown, with SDS FC sitting 2nd and NDL FC 1st.
 
 SDS FC and NDL FC could not be separated as they battled to a 3-3 stalemate at Baller Arena. The 6 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through Plus One and Fairplay.
 
@@ -22,11 +22,11 @@ SDS FC and NDL FC could not be separated as they battled to a 3-3 stalemate at B
 
 ### First Half
 
-At the 12-minute mark, the Plus One Game Changer came into effect, producing 2 goals in a frantic period of play. The two sides were inseparable at the break, with the contest finely poised.
+At the 12-minute mark, the Plus One Game Changer came into effect, generating 2 goals that set the tempo for the half. The two sides were inseparable at the break, with the contest finely poised.
 
 ### Second Half
 
-The Fairplay Game Changer activated at the 27th minute, though the goals dried up as the match wore on. Despite late pressure, neither team could find the decisive goal and the spoils were shared.
+The Fairplay Game Changer activated at the 27th minute, but neither side could capitalise on the modified rules. Both sides pushed for a winner but ultimately had to settle for a share of the points.
 
 ---
 
@@ -117,7 +117,7 @@ The Game Changer period brought a modest 2 goals, with the modified rules creati
 
 ## Season Context
 
-**SDS FC** came into this fixture averaging **3.2 goals per game** (54 total from 8 matches), with room for improvement in the final third. **NDL FC** arrived averaging **4.7 goals per game** (80 total), looking to find a sharper edge in front of goal. 
+**SDS FC** came into this fixture averaging **3.3 goals per game** (60 total from 8 matches), with room for improvement in the final third. **NDL FC** arrived averaging **4.7 goals per game** (84 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

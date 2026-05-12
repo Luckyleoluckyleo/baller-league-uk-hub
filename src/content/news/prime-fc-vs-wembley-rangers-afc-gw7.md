@@ -1,6 +1,6 @@
 ---
 title: "Prime FC Run Riot Against Wembley Rangers AFC in 7-1 Demolition — GW7"
-date: 2026-05-11
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Prime FC 7-1 Wembley Rangers AFC — Gameweek 7 match report. Francis Gerard Mampolo (15 goals) leads Prime FC's attack. Game Changers: Plus One (0) & The Line (4). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Prime FC 7-1 Wembley Rangers AFC
 
-All eyes were on Baller Arena as Prime FC met Wembley Rangers AFC, where 8th-placed Prime FC looked to upset 4th-placed Wembley Rangers AFC.
+The Gameweek 7 schedule pitted Prime FC against Wembley Rangers AFC, where 8th-placed Prime FC looked to upset 4th-placed Wembley Rangers AFC.
 
 Prime FC were simply unstoppable as they crushed Wembley Rangers AFC 7-1, delivering one of the most emphatic results of Gameweek 7. The Game Changer period played a key role, with the Plus One and The Line activations contributing 4 goals to a match that saw 8 in total.
 
@@ -22,11 +22,11 @@ Prime FC were simply unstoppable as they crushed Wembley Rangers AFC 7-1, delive
 
 ### First Half
 
-The first half saw the Plus One Game Changer activate at the 12th minute, yet the deadlock remained unbroken. Prime FC seized the initiative early and never looked back, building a commanding lead.
+The Plus One Game Changer kicked in at the 12th minute, though goals proved elusive as both defences held firm. Prime FC seized the initiative early and never looked back, building a commanding lead.
 
 ### Second Half
 
-At the 27-minute mark, the The Line Game Changer came into play, producing 4 goals at a crucial stage. Prime FC continued their onslaught, putting the game well beyond Wembley Rangers AFC's reach in a relentless second-half showing.
+The The Line Game Changer activated at the 27th minute and delivered 4 goals that shifted the momentum. Prime FC continued their onslaught, putting the game well beyond Wembley Rangers AFC's reach in a relentless second-half showing.
 
 ---
 
@@ -116,7 +116,7 @@ The Game Changers provided a genuine spectacle, with both activations contributi
 
 ## Season Context
 
-**Prime FC** came into this fixture averaging **5.2 goals per game** (47 total from 7 matches), with room for improvement in the final third. **Wembley Rangers AFC** arrived averaging **3.4 goals per game** (58 total), looking to find a sharper edge in front of goal. 
+**Prime FC** came into this fixture averaging **4.9 goals per game** (49 total from 7 matches), with room for improvement in the final third. **Wembley Rangers AFC** arrived averaging **3.4 goals per game** (61 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

@@ -1,8 +1,8 @@
 ---
 title: "Gameweek 10 Preview: Prime FC vs Community FC"
-date: 2026-05-11
+date: 2026-05-12
 category: "Preview"
-excerpt: "Prime FC (4th) host Community FC (11th) in Gameweek 10. Francis Gerard Mampolo (14 goals) leads Prime FC."
+excerpt: "Prime FC (4th) host Community FC (11th) in Gameweek 10. Francis Gerard Mampolo (15 goals) leads Prime FC."
 author: "Baller League UK Fan Site"
 featured: false
 ---
@@ -14,23 +14,23 @@ Prime FC come into this fixture above Community FC in the standings and will loo
 
 ## Form Guide
 
-**Prime FC**: L - L - W - W - D (last 5 matches)
-**Community FC**: L - D - L - L - L (last 5 matches)
+**Prime FC**: D - L - L - W - W (last 5 matches)
+**Community FC**: D - L - D - L - L (last 5 matches)
 
 ## Head-to-Head
 
-These sides have yet to meet in Baller League competition — this will be their first encounter!
-
+These sides have met 1 time before. Prime FC have won 0, Community FC have won 0, with 1 draw.
+The last meeting saw Community FC defeat Prime FC 2-2.
 
 ## Key Players
 
-**Francis Gerard Mampolo** — Prime FC's top scorer with 14 goals and 3 assists this season (Striker).
-**Alex Byrne** — leads Community FC's attack with 8 goals in 7 appearances.
+**Francis Gerard Mampolo** — Prime FC's top scorer with 15 goals and 4 assists this season (Striker).
+**Alex Byrne** — leads Community FC's attack with 8 goals in 8 appearances.
 
 ## Game Changer X-Factor
 
-Prime FC average **4.0** goals per match during Game Changer periods (36 total).
-Community FC average **3.3** GC goals per match (30 total).
+Prime FC average **3.9** goals per match during Game Changer periods (39 total).
+Community FC average **3.3** GC goals per match (33 total).
 
 ## Prediction
 

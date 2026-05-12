@@ -3,7 +3,7 @@
 import Base from '../layouts/Base.astro';
 import gcData from '../data/gamechangers.json';
 
-const allMatches = Object.values(gcData.seasons).flatMap((s: any) => s.matches as any[]).filter((m: any) => m.homeScore !== undefined);
+const allMatches = Object.values(gcData.seasons).flatMap((s: any) => s.matches as any[]).filter((m: any) => !(m.homeScore === 0 && m.awayScore === 0 && m.gamechanger1?.type === 'unknown'));
 
 const teams = [...new Set(allMatches.flatMap((m: any) => [m.homeTeam, m.awayTeam]))].sort();
 

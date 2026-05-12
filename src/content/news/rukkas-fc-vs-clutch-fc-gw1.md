@@ -1,6 +1,6 @@
 ---
 title: "Rukkas FC Beat Clutch FC 7-5 in Entertaining GW1 Clash"
-date: 2026-05-11
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Rukkas FC 7-5 Clutch FC — Gameweek 1 match report. Mussa Bham (7 goals) leads Rukkas FC's attack. Game Changers: Onside (2) & 1-on-1 (2). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: true
 
 ## Match Summary — Rukkas FC 7-5 Clutch FC
 
-Gameweek 1 brought Rukkas FC and Clutch FC together at Baller Arena
+All eyes were on Baller Arena as Rukkas FC met Clutch FC
 
 Rukkas FC claimed a well-deserved 7-5 win against Clutch FC in an entertaining Gameweek 1 encounter. The Game Changer period played a key role, with the Onside and 1-on-1 activations contributing 4 goals to a match that saw 12 in total.
 
@@ -25,7 +25,7 @@ The Onside Game Changer kicked in at the 12th minute, producing 2 goals in a fra
 
 ### Second Half
 
-At the 27-minute mark, the 1-on-1 Game Changer came into play and delivered 2 goals that shifted the momentum. Clutch FC pushed hard for an equaliser but Rukkas FC held firm, with Rukkas FC defending resolutely to protect their lead. The 12-goal spectacle was one of the highest-scoring matches of Gameweek 1.
+At the 27-minute mark, the 1-on-1 Game Changer came into play, producing 2 goals at a crucial stage. Clutch FC pushed hard for an equaliser but Rukkas FC held firm, with Rukkas FC defending resolutely to protect their lead. The 12-goal spectacle was one of the highest-scoring matches of Gameweek 1.
 
 ---
 
@@ -117,7 +117,7 @@ The Game Changers provided a genuine spectacle, with both activations contributi
 
 ## Season Context
 
-**Rukkas FC** came into this fixture averaging **3.5 goals per game** (59 total from 1 matches), with room for improvement in the final third. **Clutch FC** arrived averaging **3.5 goals per game** (60 total), looking to find a sharper edge in front of goal. 
+**Rukkas FC** came into this fixture averaging **3.4 goals per game** (61 total from 1 matches), with room for improvement in the final third. **Clutch FC** arrived averaging **3.4 goals per game** (62 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

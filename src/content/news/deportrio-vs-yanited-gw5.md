@@ -1,6 +1,6 @@
 ---
 title: "Deportrio Edge Yanited 5-4 in GW5 Thriller"
-date: 2026-05-11
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Deportrio 5-4 Yanited — Gameweek 5 match report. Jay Emmanuel-Thomas (18 goals) leads Deportrio's attack. Game Changers: 3Play (2) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Deportrio 5-4 Yanited
 
-The Gameweek 5 schedule pitted Deportrio against Yanited, where 6th-placed Deportrio looked to upset 3rd-placed Yanited.
+All eyes were on Baller Arena as Deportrio met Yanited, where 6th-placed Deportrio looked to upset 3rd-placed Yanited.
 
-Deportrio edged past Yanited 5-4 in a nail-biting encounter that could have gone either way. The Game Changer period played a key role, with the 3Play and The Line activations contributing 3 goals to a match that saw 9 in total.
+In a tense, tightly-contested affair, Deportrio held their nerve to beat Yanited 5-4. The Game Changer period played a key role, with the 3Play and The Line activations contributing 3 goals to a match that saw 9 in total.
 
 **Deportrio form (before GW5):** ✅ ✅ ❌ ❌ ❌ (W-W-L-L-L)  
 **Yanited form (before GW5):** ✅ 🤝 ✅ 🤝 ✅ (W-D-W-D-W)
@@ -22,11 +22,11 @@ Deportrio edged past Yanited 5-4 in a nail-biting encounter that could have gone
 
 ### First Half
 
-At the 12-minute mark, the 3Play Game Changer came into effect, generating 2 goals that set the tempo for the half. Deportrio edged the opening exchanges with a more clinical edge in front of goal.
+The first half saw the 3Play Game Changer activate at the 12th minute and the teams made it count with 2 goals being scored. Deportrio shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-The The Line Game Changer kicked in at the 27th minute of the second half and delivered 1 goal that shifted the momentum. The closing stages were nervy as Yanited threw everything forward, but Deportrio stood strong to claim the points.
+The The Line Game Changer kicked in at the 27th minute of the second half, producing 1 goal at a crucial stage. The closing stages were nervy as Yanited threw everything forward, but Deportrio stood strong to claim the points.
 
 ---
 
@@ -118,7 +118,7 @@ The Game Changer period brought a modest 3 goals, with the modified rules creati
 
 ## Season Context
 
-**Deportrio** came into this fixture averaging **4.4 goals per game** (75 total from 5 matches), with room for improvement in the final third. **Yanited** arrived averaging **3.2 goals per game** (55 total), looking to find a sharper edge in front of goal. 
+**Deportrio** came into this fixture averaging **4.3 goals per game** (77 total from 5 matches), with room for improvement in the final third. **Yanited** arrived averaging **3.4 goals per game** (61 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

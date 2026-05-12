@@ -1,6 +1,6 @@
 ---
-title: "Wembley Rangers AFC Cruise Past Community FC in 5-1 Rout — GW5"
-date: 2026-05-11
+title: "Wembley Rangers AFC Overpower Community FC 5-1 in Dominant Display — GW5"
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Wembley Rangers AFC 5-1 Community FC — Gameweek 5 match report. Domingos Pires (8 goals) leads Wembley Rangers AFC's attack. Game Changers: 3Play (2) & 1-on-1 (2). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Wembley Rangers AFC 5-1 Community FC
 
-Wembley Rangers AFC and Community FC faced off at Baller Arena, two sides looking to climb the table from 9th and 11th respectively.
+The Gameweek 5 schedule pitted Wembley Rangers AFC against Community FC, two sides looking to climb the table from 9th and 11th respectively.
 
-A composed, professional display from Wembley Rangers AFC saw them dispatch Community FC 5-1 to claim all three points. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 4 goals to a match that saw 6 in total.
+Wembley Rangers AFC controlled proceedings from start to finish, running out 5-1 winners in a performance that underlined their quality. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 4 goals to a match that saw 6 in total.
 
 **Wembley Rangers AFC form (before GW5):** ❌ ❌ 🤝 🤝 🤝 (L-L-D-D-D)  
 **Community FC form (before GW5):** ✅ ❌ ❌ ❌ (W-L-L-L)
@@ -22,11 +22,11 @@ A composed, professional display from Wembley Rangers AFC saw them dispatch Comm
 
 ### First Half
 
-At the 12-minute mark, the 3Play Game Changer came into effect, generating 2 goals that set the tempo for the half. Wembley Rangers AFC flew out of the blocks, overwhelming Community FC with wave after wave of attacks.
+The first half saw the 3Play Game Changer activate at the 12th minute and the teams made it count with 2 goals being scored. Wembley Rangers AFC seized the initiative early and never looked back, building a commanding lead.
 
 ### Second Half
 
-The 1-on-1 Game Changer kicked in at the 27th minute of the second half, adding 2 goals and injecting fresh energy into the contest. Wembley Rangers AFC maintained their grip on the match throughout the second period to secure a comfortable win.
+The 1-on-1 Game Changer activated at the 27th minute, producing 2 goals at a crucial stage. Wembley Rangers AFC managed the game superbly after the interval, seeing out a professional victory.
 
 ---
 
@@ -115,7 +115,7 @@ The Game Changers provided a genuine spectacle, with both activations contributi
 
 ## Season Context
 
-**Wembley Rangers AFC** came into this fixture averaging **3.4 goals per game** (58 total from 5 matches), with room for improvement in the final third. **Community FC** arrived averaging **2.6 goals per game** (23 total), looking to find a sharper edge in front of goal. 
+**Wembley Rangers AFC** came into this fixture averaging **3.4 goals per game** (61 total from 5 matches), with room for improvement in the final third. **Community FC** arrived averaging **2.5 goals per game** (25 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

@@ -1,6 +1,6 @@
 ---
 title: "NDL FC See Off Rukkas FC 4-6 in Gameweek 4"
-date: 2026-05-11
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Rukkas FC 4-6 NDL FC — Gameweek 4 match report. Mussa Bham (7 goals) leads Rukkas FC's attack. Game Changers: Plus One (2) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: true
 
 ## Match Summary — Rukkas FC 4-6 NDL FC
 
-The Gameweek 4 schedule pitted Rukkas FC against NDL FC, where 11th-placed Rukkas FC looked to upset 1st-placed NDL FC.
+Rukkas FC took on NDL FC in a Gameweek 4 clash, where 11th-placed Rukkas FC looked to upset 1st-placed NDL FC.
 
-NDL FC claimed a well-deserved 4-6 win against Rukkas FC in an entertaining Gameweek 4 encounter. The Game Changer period played a key role, with the Plus One and Fairplay activations contributing 3 goals to a match that saw 10 in total.
+NDL FC emerged 4-6 victors over Rukkas FC after a competitive clash that showcased the best of Baller League football. The Game Changer period played a key role, with the Plus One and Fairplay activations contributing 3 goals to a match that saw 10 in total.
 
 **Rukkas FC form (before GW4):** ❌ ❌ ❌ ❌ ✅ (L-L-L-L-W)  
 **NDL FC form (before GW4):** ✅ ✅ ✅ 🤝 ❌ (W-W-W-D-L)
@@ -22,11 +22,11 @@ NDL FC claimed a well-deserved 4-6 win against Rukkas FC in an entertaining Game
 
 ### First Half
 
-The first half saw the Plus One Game Changer activate at the 12th minute and the teams made it count with 2 goals being scored. NDL FC shaded a competitive first period, taking their chances well.
+The first half saw the Plus One Game Changer activate at the 12th minute, producing 2 goals in a frantic period of play. NDL FC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-The Fairplay Game Changer kicked in at the 27th minute of the second half, adding 1 goal and injecting fresh energy into the contest. Rukkas FC pushed hard for an equaliser but NDL FC held firm, with NDL FC defending resolutely to protect their lead. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 4.
+The Fairplay Game Changer kicked in at the 27th minute of the second half, producing 1 goal at a crucial stage. The closing stages were nervy as Rukkas FC threw everything forward, but NDL FC stood strong to claim the points. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 4.
 
 ---
 
@@ -113,7 +113,7 @@ The Game Changer period brought a modest 3 goals, with the modified rules creati
 
 ## Season Context
 
-**Rukkas FC** came into this fixture averaging **3.5 goals per game** (59 total from 4 matches), with room for improvement in the final third. **NDL FC** arrived averaging **4.7 goals per game** (80 total), looking to find a sharper edge in front of goal. 
+**Rukkas FC** came into this fixture averaging **3.4 goals per game** (61 total from 4 matches), with room for improvement in the final third. **NDL FC** arrived averaging **4.7 goals per game** (84 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

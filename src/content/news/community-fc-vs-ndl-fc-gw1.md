@@ -1,6 +1,6 @@
 ---
-title: "NDL FC Cruise Past Community FC in 2-7 Rout — GW1"
-date: 2026-05-11
+title: "NDL FC Overpower Community FC 2-7 in Dominant Display — GW1"
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Community FC 2-7 NDL FC — Gameweek 1 match report. Alex Byrne (8 goals) leads Community FC's attack. Game Changers: 3Play (3) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Community FC 2-7 NDL FC
 
-Gameweek 1 brought Community FC and NDL FC together at Baller Arena
+All eyes were on Baller Arena as Community FC met NDL FC
 
-NDL FC were simply unstoppable as they crushed Community FC 2-7, delivering one of the most emphatic results of Gameweek 1. The Game Changer period played a key role, with the 3Play and The Line activations contributing 4 goals to a match that saw 9 in total.
+NDL FC produced a statement performance, dismantling Community FC 2-7 with a ruthless attacking display that will send a message to the rest of the league. The Game Changer period played a key role, with the 3Play and The Line activations contributing 4 goals to a match that saw 9 in total.
 
 
 
@@ -21,7 +21,7 @@ NDL FC were simply unstoppable as they crushed Community FC 2-7, delivering one 
 
 ### First Half
 
-The 3Play Game Changer kicked in at the 12th minute, producing 3 goals in a frantic period of play. NDL FC seized the initiative early and never looked back, building a commanding lead.
+At the 12-minute mark, the 3Play Game Changer came into effect, producing 3 goals in a frantic period of play. NDL FC seized the initiative early and never looked back, building a commanding lead.
 
 ### Second Half
 
@@ -115,7 +115,7 @@ The Game Changers provided a genuine spectacle, with both activations contributi
 
 ## Season Context
 
-**Community FC** came into this fixture averaging **2.6 goals per game** (23 total from 1 matches), with room for improvement in the final third. **NDL FC** arrived averaging **4.7 goals per game** (80 total), looking to find a sharper edge in front of goal. 
+**Community FC** came into this fixture averaging **2.5 goals per game** (25 total from 1 matches), with room for improvement in the final third. **NDL FC** arrived averaging **4.7 goals per game** (84 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

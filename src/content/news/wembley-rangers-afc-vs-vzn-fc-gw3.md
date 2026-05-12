@@ -1,6 +1,6 @@
 ---
 title: "Wembley Rangers AFC and VZN FC Deadlocked at 3-3 in GW3"
-date: 2026-05-11
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Wembley Rangers AFC 3-3 VZN FC — Gameweek 3 match report. Domingos Pires (8 goals) leads Wembley Rangers AFC's attack. Game Changers: 3Play (2) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Wembley Rangers AFC 3-3 VZN FC
 
-Gameweek 3 brought Wembley Rangers AFC and VZN FC together at Baller Arena, two sides looking to climb the table from 5th and 7th respectively.
+The Gameweek 3 schedule pitted Wembley Rangers AFC against VZN FC, two sides looking to climb the table from 5th and 7th respectively.
 
-Wembley Rangers AFC and VZN FC could not be separated as they battled to a 3-3 stalemate at Baller Arena. The 6 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through 3Play and The Line.
+Wembley Rangers AFC and VZN FC played out a thrilling 3-3 draw in a match where neither side deserved to lose. The 6 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through 3Play and The Line.
 
 **Wembley Rangers AFC form (before GW3):** 🤝 🤝 ✅ ❌ (D-D-W-L)  
 **VZN FC form (before GW3):** ✅ ❌ 🤝 🤝 (W-L-D-D)
@@ -26,7 +26,7 @@ The first half saw the 3Play Game Changer activate at the 12th minute, producing
 
 ### Second Half
 
-The The Line Game Changer activated at the 27th minute, but neither side could capitalise on the modified rules. Despite late pressure, neither team could find the decisive goal and the spoils were shared.
+The The Line Game Changer kicked in at the 27th minute of the second half, but neither side could capitalise on the modified rules. Despite late pressure, neither team could find the decisive goal and the spoils were shared.
 
 ---
 
@@ -112,7 +112,7 @@ The Game Changer period brought a modest 2 goals, with the modified rules creati
 
 ## Season Context
 
-**Wembley Rangers AFC** came into this fixture averaging **3.4 goals per game** (58 total from 3 matches), with room for improvement in the final third. **VZN FC** arrived averaging **2.9 goals per game** (50 total), looking to find a sharper edge in front of goal. 
+**Wembley Rangers AFC** came into this fixture averaging **3.4 goals per game** (61 total from 3 matches), with room for improvement in the final third. **VZN FC** arrived averaging **2.9 goals per game** (53 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

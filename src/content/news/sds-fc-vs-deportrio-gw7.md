@@ -1,6 +1,6 @@
 ---
-title: "SDS FC and Deportrio Play Out 2-2 Draw in Gameweek 7"
-date: 2026-05-11
+title: "SDS FC and Deportrio Deadlocked at 2-2 in GW7"
+date: 2026-05-12
 category: "Match Report"
 excerpt: "SDS FC 2-2 Deportrio — Gameweek 7 match report. Connor Wood (6 goals) leads SDS FC's attack. Game Changers: 3Play (3) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — SDS FC 2-2 Deportrio
 
-SDS FC took on Deportrio in a Gameweek 7 clash, with SDS FC sitting 1st and looking to strengthen their playoff push against 5th-placed Deportrio.
+All eyes were on Baller Arena as SDS FC met Deportrio, with SDS FC sitting 1st and looking to strengthen their playoff push against 5th-placed Deportrio.
 
-SDS FC and Deportrio could not be separated as they battled to a 2-2 stalemate at Baller Arena. The 4 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through 3Play and The Line.
+Honours were even as SDS FC and Deportrio shared the spoils in an entertaining 2-2 draw. The 4 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through 3Play and The Line.
 
 **SDS FC form (before GW7):** ❌ ✅ 🤝 ✅ ✅ (L-W-D-W-W)  
 **Deportrio form (before GW7):** 🤝 ✅ ✅ ✅ ✅ (D-W-W-W-W)
@@ -22,11 +22,11 @@ SDS FC and Deportrio could not be separated as they battled to a 2-2 stalemate a
 
 ### First Half
 
-The first half saw the 3Play Game Changer activate at the 12th minute, generating 3 goals that set the tempo for the half. The two sides were inseparable at the break, with the contest finely poised.
+At the 12-minute mark, the 3Play Game Changer came into effect, generating 3 goals that set the tempo for the half. The two sides were inseparable at the break, with the contest finely poised.
 
 ### Second Half
 
-The The Line Game Changer kicked in at the 27th minute of the second half, but neither side could capitalise on the modified rules. Both sides pushed for a winner but ultimately had to settle for a share of the points.
+At the 27-minute mark, the The Line Game Changer came into play, but neither side could capitalise on the modified rules. Both sides pushed for a winner but ultimately had to settle for a share of the points.
 
 ---
 
@@ -111,7 +111,7 @@ The Game Changer period brought a modest 3 goals, with the modified rules creati
 
 ## Season Context
 
-**SDS FC** came into this fixture averaging **3.2 goals per game** (54 total from 7 matches), with room for improvement in the final third. **Deportrio** arrived averaging **4.4 goals per game** (75 total), looking to find a sharper edge in front of goal. 
+**SDS FC** came into this fixture averaging **3.3 goals per game** (60 total from 7 matches), with room for improvement in the final third. **Deportrio** arrived averaging **4.3 goals per game** (77 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

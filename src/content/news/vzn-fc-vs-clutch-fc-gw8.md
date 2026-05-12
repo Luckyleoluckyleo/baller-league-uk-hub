@@ -1,6 +1,6 @@
 ---
-title: "VZN FC Scrape Past Clutch FC 2-1 in Tight GW8 Contest"
-date: 2026-05-11
+title: "VZN FC Edge Clutch FC 2-1 in GW8 Thriller"
+date: 2026-05-12
 category: "Match Report"
 excerpt: "VZN FC 2-1 Clutch FC — Gameweek 8 match report. George Nikaj (8 goals) leads VZN FC's attack. Game Changers: Onside (1) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — VZN FC 2-1 Clutch FC
 
-Gameweek 8 brought VZN FC and Clutch FC together at Baller Arena, two sides looking to climb the table from 9th and 6th respectively.
+VZN FC took on Clutch FC in a Gameweek 8 clash, two sides looking to climb the table from 9th and 6th respectively.
 
-VZN FC scraped a hard-fought 2-1 win over Clutch FC in a match where fine margins proved decisive. The Game Changer period played a key role, with the Onside and Fairplay activations contributing 1 goals to a match that saw 3 in total.
+In a tense, tightly-contested affair, VZN FC held their nerve to beat Clutch FC 2-1. The Game Changer period played a key role, with the Onside and Fairplay activations contributing 1 goals to a match that saw 3 in total.
 
 **VZN FC form (before GW8):** ❌ ✅ ❌ ✅ ❌ (L-W-L-W-L)  
 **Clutch FC form (before GW8):** ❌ ❌ ✅ ✅ ✅ (L-L-W-W-W)
@@ -22,7 +22,7 @@ VZN FC scraped a hard-fought 2-1 win over Clutch FC in a match where fine margin
 
 ### First Half
 
-At the 12-minute mark, the Onside Game Changer came into effect, producing 1 goal in a frantic period of play. VZN FC edged the opening exchanges with a more clinical edge in front of goal.
+The Onside Game Changer kicked in at the 12th minute, producing 1 goal in a frantic period of play. VZN FC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
@@ -110,7 +110,7 @@ The Game Changer period brought a modest 1 goal, with the modified rules creatin
 
 ## Season Context
 
-**VZN FC** came into this fixture averaging **2.9 goals per game** (50 total from 8 matches), with room for improvement in the final third. **Clutch FC** arrived averaging **3.5 goals per game** (60 total), looking to find a sharper edge in front of goal. 
+**VZN FC** came into this fixture averaging **2.9 goals per game** (53 total from 8 matches), with room for improvement in the final third. **Clutch FC** arrived averaging **3.4 goals per game** (62 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

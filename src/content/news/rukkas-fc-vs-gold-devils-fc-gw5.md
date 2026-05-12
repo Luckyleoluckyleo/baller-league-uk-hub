@@ -1,6 +1,6 @@
 ---
-title: "Rukkas FC Beat Gold Devils FC 2-0 in Entertaining GW5 Clash"
-date: 2026-05-11
+title: "Rukkas FC See Off Gold Devils FC 2-0 in Gameweek 5"
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Rukkas FC 2-0 Gold Devils FC — Gameweek 5 match report. Mussa Bham (7 goals) leads Rukkas FC's attack. Game Changers: Plus One (1) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Rukkas FC 2-0 Gold Devils FC
 
-Rukkas FC took on Gold Devils FC in a Gameweek 5 clash, two sides looking to climb the table from 12th and 8th respectively.
+Gameweek 5 brought Rukkas FC and Gold Devils FC together at Baller Arena, two sides looking to climb the table from 12th and 8th respectively.
 
 Rukkas FC claimed a well-deserved 2-0 win against Gold Devils FC in an entertaining Gameweek 5 encounter. The Game Changer period played a key role, with the Plus One and Fairplay activations contributing 2 goals to a match that saw 2 in total.
 
@@ -22,11 +22,11 @@ Rukkas FC claimed a well-deserved 2-0 win against Gold Devils FC in an entertain
 
 ### First Half
 
-At the 12-minute mark, the Plus One Game Changer came into effect, generating 1 goal that set the tempo for the half. Rukkas FC edged the opening exchanges with a more clinical edge in front of goal.
+At the 12-minute mark, the Plus One Game Changer came into effect, generating 1 goal that set the tempo for the half. Rukkas FC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-At the 27-minute mark, the Fairplay Game Changer came into play, adding 1 goal and injecting fresh energy into the contest. The closing stages were nervy as Gold Devils FC threw everything forward, but Rukkas FC stood strong to claim the points.
+At the 27-minute mark, the Fairplay Game Changer came into play, adding 1 goal and injecting fresh energy into the contest. Gold Devils FC pushed hard for an equaliser but Rukkas FC held firm, with Rukkas FC defending resolutely to protect their lead.
 
 ---
 
@@ -100,7 +100,7 @@ The Game Changer period brought a modest 2 goals, with the modified rules creati
 
 ## Season Context
 
-**Rukkas FC** came into this fixture averaging **3.5 goals per game** (59 total from 5 matches), with room for improvement in the final third. **Gold Devils FC** arrived averaging **2.3 goals per game** (21 total), looking to find a sharper edge in front of goal. 
+**Rukkas FC** came into this fixture averaging **3.4 goals per game** (61 total from 5 matches), with room for improvement in the final third. **Gold Devils FC** arrived averaging **2.3 goals per game** (23 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

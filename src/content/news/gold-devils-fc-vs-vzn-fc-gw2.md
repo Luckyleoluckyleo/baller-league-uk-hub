@@ -1,6 +1,6 @@
 ---
 title: "Gold Devils FC Beat VZN FC 3-1 in Entertaining GW2 Clash"
-date: 2026-05-11
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Gold Devils FC 3-1 VZN FC — Gameweek 2 match report. Bilal Sayoud (7 goals) leads Gold Devils FC's attack. Game Changers: Onside (1) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -22,11 +22,11 @@ Gold Devils FC claimed a well-deserved 3-1 win against VZN FC in an entertaining
 
 ### First Half
 
-The first half saw the Onside Game Changer activate at the 12th minute and the teams made it count with 1 goal being scored. Gold Devils FC shaded a competitive first period, taking their chances well.
+At the 12-minute mark, the Onside Game Changer came into effect, producing 1 goal in a frantic period of play. Gold Devils FC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-At the 27-minute mark, the The Line Game Changer came into play, though the goals dried up as the match wore on. The closing stages were nervy as VZN FC threw everything forward, but Gold Devils FC stood strong to claim the points.
+At the 27-minute mark, the The Line Game Changer came into play, but neither side could capitalise on the modified rules. The closing stages were nervy as VZN FC threw everything forward, but Gold Devils FC stood strong to claim the points.
 
 ---
 
@@ -102,7 +102,7 @@ The Game Changer period brought a modest 1 goal, with the modified rules creatin
 
 ## Season Context
 
-**Gold Devils FC** came into this fixture averaging **2.3 goals per game** (21 total from 2 matches), with room for improvement in the final third. **VZN FC** arrived averaging **2.9 goals per game** (50 total), looking to find a sharper edge in front of goal. 
+**Gold Devils FC** came into this fixture averaging **2.3 goals per game** (23 total from 2 matches), with room for improvement in the final third. **VZN FC** arrived averaging **2.9 goals per game** (53 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

@@ -1,6 +1,6 @@
 ---
 title: "NDL FC Beat Clutch FC 3-6 in Entertaining GW7 Clash"
-date: 2026-05-11
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Clutch FC 3-6 NDL FC — Gameweek 7 match report. Alfie Matthews (12 goals) leads Clutch FC's attack. Game Changers: 3Play (2) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Clutch FC 3-6 NDL FC
 
-Clutch FC and NDL FC faced off at Baller Arena in a top-of-the-table showdown, with Clutch FC sitting 3rd and NDL FC 2nd.
+Gameweek 7 brought Clutch FC and NDL FC together at Baller Arena in a top-of-the-table showdown, with Clutch FC sitting 3rd and NDL FC 2nd.
 
-A composed, professional display from NDL FC saw them dispatch Clutch FC 3-6 to claim all three points. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 5 goals to a match that saw 9 in total.
+NDL FC proved too strong for Clutch FC, taking a convincing 3-6 victory that never looked in doubt. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 5 goals to a match that saw 9 in total.
 
 **Clutch FC form (before GW7):** ✅ ✅ ✅ ✅ ❌ (W-W-W-W-L)  
 **NDL FC form (before GW7):** ❌ ❌ ❌ ✅ ✅ (L-L-L-W-W)
@@ -22,11 +22,11 @@ A composed, professional display from NDL FC saw them dispatch Clutch FC 3-6 to 
 
 ### First Half
 
-At the 12-minute mark, the 3Play Game Changer came into effect, generating 2 goals that set the tempo for the half. NDL FC seized the initiative early and never looked back, building a commanding lead.
+The first half saw the 3Play Game Changer activate at the 12th minute, producing 2 goals in a frantic period of play. NDL FC flew out of the blocks, overwhelming Clutch FC with wave after wave of attacks.
 
 ### Second Half
 
-At the 27-minute mark, the 1-on-1 Game Changer came into play, adding 3 goals and injecting fresh energy into the contest. NDL FC maintained their grip on the match throughout the second period to secure a comfortable win.
+The 1-on-1 Game Changer kicked in at the 27th minute of the second half, producing 3 goals at a crucial stage. NDL FC managed the game superbly after the interval, seeing out a professional victory.
 
 ---
 
@@ -121,7 +121,7 @@ The Game Changers provided a genuine spectacle, with both activations contributi
 
 ## Season Context
 
-**Clutch FC** came into this fixture averaging **3.5 goals per game** (60 total from 7 matches), with room for improvement in the final third. **NDL FC** arrived averaging **4.7 goals per game** (80 total), looking to find a sharper edge in front of goal. 
+**Clutch FC** came into this fixture averaging **3.4 goals per game** (62 total from 7 matches), with room for improvement in the final third. **NDL FC** arrived averaging **4.7 goals per game** (84 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

@@ -68,7 +68,41 @@ async function discoverPlayerSlugs() {
   return [...allSlugs];
 }
 
-function parsePlayerPage(html, slug) {
+function parseStatsFromAjaxHtml(ajaxHtml) {
+  // The AJAX response is JSON: {"html":"<div ...>"}
+  let html;
+  try {
+    const parsed = JSON.parse(ajaxHtml);
+    html = typeof parsed.html === 'string' ? parsed.html : ajaxHtml;
+  } catch {
+    html = ajaxHtml;
+  }
+
+  // Unescape JSON-escaped slashes: \/ -> /
+  html = html.replace(/\\\//g, "/");
+
+  // Main stats: <div class="team-color">10</div><span>Apps</span>
+  const appsM = html.match(/<div[^>]*class="[^"]*team-color[^"]*"[^>]*>(\d+)<\/div>\s*<span>Apps<\/span>/);
+  const goalsM = html.match(/<div[^>]*class="[^"]*team-color[^"]*"[^>]*>(\d+)<\/div>\s*<span>Goals<\/span>/);
+  const assistsM = html.match(/<div[^>]*class="[^"]*team-color[^"]*"[^>]*>(\d+)<\/div>\s*<span>Assists<\/span>/);
+
+  // Detailed stats: <div><p class="team-color">195</p></div>
+  const detailed = {};
+  const detRe = /<p title="([^"]+)"[^>]*>[^<]+<\/p>\s*<\/div>\s*<div>\s*<p class="team-color">(\d+)<\/p>/g;
+  let m;
+  while ((m = detRe.exec(html)) !== null) {
+    detailed[m[1].trim()] = parseInt(m[2]);
+  }
+
+  return {
+    apps: appsM ? parseInt(appsM[1]) : null,
+    goals: goalsM ? parseInt(goalsM[1]) : null,
+    assists: assistsM ? parseInt(assistsM[1]) : null,
+    detailed,
+  };
+}
+
+function parsePlayerMeta(html, slug) {
   const result = {
     slug,
     name: null,
@@ -77,26 +111,20 @@ function parsePlayerPage(html, slug) {
     position: null,
     age: null,
     number: null,
-    seasons: {},
   };
 
-  // Name
   const nameM = html.match(/<h1[^>]*>([^<]+)<\/h1>/);
   if (nameM) result.name = nameM[1].trim();
 
-  // Position — format: "Position:</b> Striker"
   const posM = html.match(/Position:[^>]*>\s*([^<&\n]+)/);
   if (posM) result.position = posM[1].trim();
 
-  // Age
   const ageM = html.match(/Age:\s*(\d+)/);
   if (ageM) result.age = parseInt(ageM[1]);
 
-  // Number — format: "#50</div>" or similar
   const numM = html.match(/>(?:#|No\.?\s*)(\d{1,2})\s*</);
   if (numM) result.number = parseInt(numM[1]);
 
-  // Team — find from the logo URL embedded in the page JSON
   const logoM = html.match(/logo_(\d{3})\.svg/);
   if (logoM) {
     const team = TEAM_LOGO_MAP[logoM[1]];
@@ -106,46 +134,25 @@ function parsePlayerPage(html, slug) {
     }
   }
 
-  // Check for season tabs to know which seasons have data
-  const hasS2 = html.includes("Season 2");
-  const hasS3 = html.includes("Season 3");
-
-  // Parse stats for each available season
-  // The stats section has key-value pairs like: "Apps 8", "Goals 15", etc.
-  // We extract these by looking for labels followed by numbers
-
-  // Stats — format: <div>8</div><span>Apps</span>
-  const appsM = html.match(/<div[^>]*>(\d+)<\/div>\s*<span>Apps<\/span>/);
-  const goalsM = html.match(/<div[^>]*>(\d+)<\/div>\s*<span>Goals<\/span>/);
-  const assistsM = html.match(/<div[^>]*>(\d+)<\/div>\s*<span>Assists<\/span>/);
-
-  // Detailed stats section
-  const statsSection = html.slice(
-    html.indexOf("Total Passes") !== -1 ? html.indexOf("Total Passes") - 200 : html.length / 2,
-    html.indexOf("Match Log") !== -1 ? html.indexOf("Match Log") : html.length
-  );
-
-  const statPairs = {};
-  const statRe = /([A-Za-z][A-Za-z\s]+(?:inc\s?goals)?(?:Excl\s?[A-Za-z\s&]+)?)\s*(\d+)/g;
-  let m;
-  while ((m = statRe.exec(statsSection)) !== null) {
-    const key = m[1].trim();
-    const val = parseInt(m[2]);
-    if (key.length > 3 && key.length < 60) statPairs[key] = val;
-  }
-
-  // For simplicity, use the prominently displayed numbers for S3
-  const s3Stats = { apps: null, goals: null, assists: null, detailed: {} };
-  if (appsM) s3Stats.apps = parseInt(appsM[1]);
-  if (goalsM) s3Stats.goals = parseInt(goalsM[1]);
-  if (assistsM) s3Stats.assists = parseInt(assistsM[1]);
-  s3Stats.detailed = statPairs;
-
-  if (appsM || goalsM || assistsM) {
-    result.seasons["3"] = s3Stats;
-  }
-
   return result;
+}
+
+function extractS3SeasonId(html) {
+  // Find <option value="X">Season 3</option> or similar
+  const optM = html.match(/<option\s+value="(\d+)"[^>]*>\s*Season 3\s*<\/option>/);
+  if (optM) return optM[1];
+
+  // Alternative: find by selected
+  const selM = html.match(/<option\s+value="(\d+)"\s+selected[^>]*>\s*Season 3\s*<\/option>/);
+  if (selM) return selM[1];
+
+  return null;
+}
+
+function extractAjaxEndpoint(html) {
+  const epM = html.match(/data-endpoint="([^"]+ajax[^"]+stats\/SEASON_ID)"/);
+  if (epM) return epM[1];
+  return null;
 }
 
 async function main() {
@@ -163,13 +170,37 @@ async function main() {
       console.log(`  [${i + 1}/${slugs.length}] ${slug}: FAILED`);
       continue;
     }
-    const player = parsePlayerPage(html, slug);
-    if (player.name) {
-      players.push(player);
-      console.log(`  [${i + 1}/${slugs.length}] ${player.name} (${player.team || "?"}) — ${player.position || "?"}`);
-    } else {
+
+    const player = parsePlayerMeta(html, slug);
+    if (!player.name) {
       console.log(`  [${i + 1}/${slugs.length}] ${slug}: parse incomplete`);
+      continue;
     }
+
+    // Fetch Season 3 stats via AJAX
+    const s3SeasonId = extractS3SeasonId(html);
+    const ajaxEndpoint = extractAjaxEndpoint(html);
+
+    if (s3SeasonId && ajaxEndpoint) {
+      const ajaxUrl = ajaxEndpoint.replace("SEASON_ID", s3SeasonId);
+      const ajaxCacheName = `player-${slug}-s3.html`;
+      const ajaxHtml = await fetchCached(ajaxUrl, ajaxCacheName);
+      if (ajaxHtml) {
+        const s3Stats = parseStatsFromAjaxHtml(ajaxHtml);
+        player.seasons = {
+          "3": {
+            apps: s3Stats.apps,
+            goals: s3Stats.goals,
+            assists: s3Stats.assists,
+            detailed: s3Stats.detailed,
+          },
+        };
+      }
+    }
+
+    players.push(player);
+    const s3 = player.seasons?.["3"];
+    console.log(`  [${i + 1}/${slugs.length}] ${player.name} (${player.team || "?"}) — ${player.position || "?"}${s3 ? ` [${s3.goals}G/${s3.apps}A]` : ""}`);
 
     if (i % 3 === 2) await new Promise(r => setTimeout(r, 150));
   }

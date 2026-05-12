@@ -1,6 +1,6 @@
 ---
 title: "Wembley Rangers AFC Overpower N5 FC 3-8 in Dominant Display — GW9"
-date: 2026-05-11
+date: 2026-05-12
 category: "Match Report"
 excerpt: "N5 FC 3-8 Wembley Rangers AFC — Gameweek 9 match report. Michael Hill (16 goals) leads N5 FC's attack. Game Changers: 3Play (2) & 1-on-1 (5). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -22,11 +22,11 @@ In a breathtaking display of attacking football, Wembley Rangers AFC ran riot ag
 
 ### First Half
 
-The 3Play Game Changer kicked in at the 12th minute and the teams made it count with 2 goals being scored. Wembley Rangers AFC seized the initiative early and never looked back, building a commanding lead.
+At the 12-minute mark, the 3Play Game Changer came into effect and the teams made it count with 2 goals being scored. Wembley Rangers AFC flew out of the blocks, overwhelming N5 FC with wave after wave of attacks.
 
 ### Second Half
 
-At the 27-minute mark, the 1-on-1 Game Changer came into play and delivered 5 goals that shifted the momentum. Wembley Rangers AFC continued their onslaught, putting the game well beyond N5 FC's reach in a relentless second-half showing. The 11-goal spectacle was one of the highest-scoring matches of Gameweek 9.
+The 1-on-1 Game Changer kicked in at the 27th minute of the second half, adding 5 goals and injecting fresh energy into the contest. Wembley Rangers AFC continued their onslaught, putting the game well beyond N5 FC's reach in a relentless second-half showing. The 11-goal spectacle was one of the highest-scoring matches of Gameweek 9.
 
 ---
 
@@ -119,7 +119,7 @@ The Game Changer period exploded into life, with the 1-on-1 activation proving p
 
 ## Season Context
 
-**N5 FC** came into this fixture averaging **3.9 goals per game** (67 total from 9 matches), with room for improvement in the final third. **Wembley Rangers AFC** arrived averaging **3.4 goals per game** (58 total), looking to find a sharper edge in front of goal. 
+**N5 FC** came into this fixture averaging **4.0 goals per game** (72 total from 9 matches), with room for improvement in the final third. **Wembley Rangers AFC** arrived averaging **3.4 goals per game** (61 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

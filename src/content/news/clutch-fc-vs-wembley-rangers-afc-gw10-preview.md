@@ -1,6 +1,6 @@
 ---
 title: "Gameweek 10 Preview: Clutch FC vs Wembley Rangers AFC"
-date: 2026-05-11
+date: 2026-05-12
 category: "Preview"
 excerpt: "Clutch FC (9th) host Wembley Rangers AFC (5th) in Gameweek 10. Alfie Matthews (12 goals) leads Clutch FC."
 author: "Baller League UK Fan Site"
@@ -14,23 +14,23 @@ Wembley Rangers AFC sit above Clutch FC in the table and will aim to maintain th
 
 ## Form Guide
 
-**Clutch FC**: L - L - W - W - L (last 5 matches)
-**Wembley Rangers AFC**: W - W - L - L - W (last 5 matches)
+**Clutch FC**: L - L - L - W - W (last 5 matches)
+**Wembley Rangers AFC**: W - W - L - W - L (last 5 matches)
 
 ## Head-to-Head
 
-These sides have met 1 time before. Clutch FC have won 1, Wembley Rangers AFC have won 0, with 0 draws.
+These sides have met 2 times before. Clutch FC have won 1, Wembley Rangers AFC have won 1, with 0 draws.
 The last meeting saw Clutch FC defeat Wembley Rangers AFC 3-6.
 
 ## Key Players
 
 **Alfie Matthews** — Clutch FC's top scorer with 12 goals and 4 assists this season (Striker).
-**Callam Gardner** — leads Wembley Rangers AFC's attack with 5 goals in 7 appearances.
+**Domingos Pires** — leads Wembley Rangers AFC's attack with 8 goals in 9 appearances.
 
 ## Game Changer X-Factor
 
-Clutch FC average **3.6** goals per match during Game Changer periods (62 total).
-Wembley Rangers AFC average **3.6** GC goals per match (79 total).
+Clutch FC average **3.5** goals per match during Game Changer periods (63 total).
+Wembley Rangers AFC average **3.5** GC goals per match (80 total).
 
 ## Prediction
 

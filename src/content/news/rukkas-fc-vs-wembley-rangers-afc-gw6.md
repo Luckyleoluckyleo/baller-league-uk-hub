@@ -1,6 +1,6 @@
 ---
-title: "Wembley Rangers AFC Edge Rukkas FC 3-4 in GW6 Thriller"
-date: 2026-05-11
+title: "Wembley Rangers AFC Scrape Past Rukkas FC 3-4 in Tight GW6 Contest"
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Rukkas FC 3-4 Wembley Rangers AFC — Gameweek 6 match report. Mussa Bham (7 goals) leads Rukkas FC's attack. Game Changers: Plus One (2) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Rukkas FC 3-4 Wembley Rangers AFC
 
-Rukkas FC took on Wembley Rangers AFC in a Gameweek 6 clash, where 11th-placed Rukkas FC looked to upset 4th-placed Wembley Rangers AFC.
+The Gameweek 6 schedule pitted Rukkas FC against Wembley Rangers AFC, where 11th-placed Rukkas FC looked to upset 4th-placed Wembley Rangers AFC.
 
-Wembley Rangers AFC edged past Rukkas FC 3-4 in a nail-biting encounter that could have gone either way. The Game Changer period played a key role, with the Plus One and Fairplay activations contributing 3 goals to a match that saw 7 in total.
+In a tense, tightly-contested affair, Wembley Rangers AFC held their nerve to beat Rukkas FC 3-4. The Game Changer period played a key role, with the Plus One and Fairplay activations contributing 3 goals to a match that saw 7 in total.
 
 **Rukkas FC form (before GW6):** ❌ ✅ ❌ ❌ ❌ (L-W-L-L-L)  
 **Wembley Rangers AFC form (before GW6):** ✅ ✅ ❌ ❌ 🤝 (W-W-L-L-D)
@@ -22,11 +22,11 @@ Wembley Rangers AFC edged past Rukkas FC 3-4 in a nail-biting encounter that cou
 
 ### First Half
 
-The Plus One Game Changer kicked in at the 12th minute, producing 2 goals in a frantic period of play. Wembley Rangers AFC edged the opening exchanges with a more clinical edge in front of goal.
+At the 12-minute mark, the Plus One Game Changer came into effect, generating 2 goals that set the tempo for the half. Wembley Rangers AFC edged the opening exchanges with a more clinical edge in front of goal.
 
 ### Second Half
 
-The Fairplay Game Changer activated at the 27th minute and delivered 1 goal that shifted the momentum. The closing stages were nervy as Rukkas FC threw everything forward, but Wembley Rangers AFC stood strong to claim the points.
+The Fairplay Game Changer activated at the 27th minute and delivered 1 goal that shifted the momentum. Rukkas FC pushed hard for an equaliser, with Wembley Rangers AFC defending resolutely to protect their lead.
 
 ---
 
@@ -110,7 +110,7 @@ The Game Changer period brought a modest 3 goals, with the modified rules creati
 
 ## Season Context
 
-**Rukkas FC** came into this fixture averaging **3.5 goals per game** (59 total from 6 matches), with room for improvement in the final third. **Wembley Rangers AFC** arrived averaging **3.4 goals per game** (58 total), looking to find a sharper edge in front of goal. 
+**Rukkas FC** came into this fixture averaging **3.4 goals per game** (61 total from 6 matches), with room for improvement in the final third. **Wembley Rangers AFC** arrived averaging **3.4 goals per game** (61 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

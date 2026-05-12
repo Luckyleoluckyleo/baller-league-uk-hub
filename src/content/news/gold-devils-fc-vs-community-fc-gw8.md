@@ -1,6 +1,6 @@
 ---
-title: "Gold Devils FC and Community FC Share 4-4 Goal Fest in GW8"
-date: 2026-05-11
+title: "Gold Devils FC and Community FC Play Out 4-4 Classic in Gameweek 8"
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Gold Devils FC 4-4 Community FC — Gameweek 8 match report. Bilal Sayoud (7 goals) leads Gold Devils FC's attack. Game Changers: 3Play (3) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -11,7 +11,7 @@ featured: false
 
 Gold Devils FC and Community FC faced off at Baller Arena, two sides looking to climb the table from 10th and 12th respectively.
 
-Honours were even as Gold Devils FC and Community FC shared the spoils in an entertaining 4-4 draw. The 8 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through 3Play and The Line.
+Gold Devils FC and Community FC could not be separated as they battled to a 4-4 stalemate at Baller Arena. The 8 goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through 3Play and The Line.
 
 **Gold Devils FC form (before GW8):** 🤝 ❌ ❌ ✅ ❌ (D-L-L-W-L)  
 **Community FC form (before GW8):** ❌ ❌ ❌ ✅ ❌ (L-L-L-W-L)
@@ -22,7 +22,7 @@ Honours were even as Gold Devils FC and Community FC shared the spoils in an ent
 
 ### First Half
 
-The first half saw the 3Play Game Changer activate at the 12th minute, generating 3 goals that set the tempo for the half. The two sides were inseparable at the break, with the contest finely poised.
+The first half saw the 3Play Game Changer activate at the 12th minute and the teams made it count with 3 goals being scored. The two sides were inseparable at the break, with the contest finely poised.
 
 ### Second Half
 
@@ -116,7 +116,7 @@ The Game Changer period brought a modest 3 goals, with the modified rules creati
 
 ## Season Context
 
-**Gold Devils FC** came into this fixture averaging **2.3 goals per game** (21 total from 8 matches), with room for improvement in the final third. **Community FC** arrived averaging **2.6 goals per game** (23 total), looking to find a sharper edge in front of goal. 
+**Gold Devils FC** came into this fixture averaging **2.3 goals per game** (23 total from 8 matches), with room for improvement in the final third. **Community FC** arrived averaging **2.5 goals per game** (25 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

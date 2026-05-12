@@ -1,6 +1,6 @@
 ---
 title: "Prime FC and SDS FC Deadlocked at 2-2 in GW5"
-date: 2026-05-11
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Prime FC 2-2 SDS FC — Gameweek 5 match report. Francis Gerard Mampolo (15 goals) leads Prime FC's attack. Game Changers: 3Play (2) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -22,11 +22,11 @@ Honours were even as Prime FC and SDS FC shared the spoils in an entertaining 2-
 
 ### First Half
 
-The first half saw the 3Play Game Changer activate at the 12th minute, generating 2 goals that set the tempo for the half. The two sides were inseparable at the break, with the contest finely poised.
+The 3Play Game Changer kicked in at the 12th minute, generating 2 goals that set the tempo for the half. The two sides were inseparable at the break, with the contest finely poised.
 
 ### Second Half
 
-The The Line Game Changer activated at the 27th minute and delivered 1 goal that shifted the momentum. Despite late pressure, neither team could find the decisive goal and the spoils were shared.
+The The Line Game Changer kicked in at the 27th minute of the second half, adding 1 goal and injecting fresh energy into the contest. Despite late pressure, neither team could find the decisive goal and the spoils were shared.
 
 ---
 
@@ -111,7 +111,7 @@ The Game Changer period brought a modest 3 goals, with the modified rules creati
 
 ## Season Context
 
-**Prime FC** came into this fixture averaging **5.2 goals per game** (47 total from 5 matches), with room for improvement in the final third. **SDS FC** arrived averaging **3.2 goals per game** (54 total), looking to find a sharper edge in front of goal. 
+**Prime FC** came into this fixture averaging **4.9 goals per game** (49 total from 5 matches), with room for improvement in the final third. **SDS FC** arrived averaging **3.3 goals per game** (60 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

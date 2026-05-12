@@ -1,6 +1,6 @@
 ---
 title: "SDS FC Scrape Past Wembley Rangers AFC 3-2 in Tight GW1 Contest"
-date: 2026-05-11
+date: 2026-05-12
 category: "Match Report"
 excerpt: "SDS FC 3-2 Wembley Rangers AFC — Gameweek 1 match report. Connor Wood (6 goals) leads SDS FC's attack. Game Changers: Plus One (1) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — SDS FC 3-2 Wembley Rangers AFC
 
-All eyes were on Baller Arena as SDS FC met Wembley Rangers AFC
+SDS FC took on Wembley Rangers AFC in a Gameweek 1 clash
 
-SDS FC scraped a hard-fought 3-2 win over Wembley Rangers AFC in a match where fine margins proved decisive. The Game Changer period played a key role, with the Plus One and The Line activations contributing 2 goals to a match that saw 5 in total.
+SDS FC edged past Wembley Rangers AFC 3-2 in a nail-biting encounter that could have gone either way. The Game Changer period played a key role, with the Plus One and The Line activations contributing 2 goals to a match that saw 5 in total.
 
 
 
@@ -21,11 +21,11 @@ SDS FC scraped a hard-fought 3-2 win over Wembley Rangers AFC in a match where f
 
 ### First Half
 
-The Plus One Game Changer kicked in at the 12th minute, generating 1 goal that set the tempo for the half. SDS FC edged the opening exchanges with a more clinical edge in front of goal.
+The first half saw the Plus One Game Changer activate at the 12th minute, generating 1 goal that set the tempo for the half. SDS FC shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-The The Line Game Changer activated at the 27th minute and delivered 1 goal that shifted the momentum. The closing stages were nervy as Wembley Rangers AFC threw everything forward, but SDS FC stood strong to claim the points.
+The The Line Game Changer kicked in at the 27th minute of the second half, producing 1 goal at a crucial stage. The closing stages were nervy as Wembley Rangers AFC threw everything forward, but SDS FC stood strong to claim the points.
 
 ---
 
@@ -110,7 +110,7 @@ The Game Changer period brought a modest 2 goals, with the modified rules creati
 
 ## Season Context
 
-**SDS FC** came into this fixture averaging **3.2 goals per game** (54 total from 1 matches), with room for improvement in the final third. **Wembley Rangers AFC** arrived averaging **3.4 goals per game** (58 total), looking to find a sharper edge in front of goal. 
+**SDS FC** came into this fixture averaging **3.3 goals per game** (60 total from 1 matches), with room for improvement in the final third. **Wembley Rangers AFC** arrived averaging **3.4 goals per game** (61 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

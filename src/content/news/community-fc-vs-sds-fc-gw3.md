@@ -1,6 +1,6 @@
 ---
-title: "SDS FC Cruise Past Community FC in 3-7 Rout — GW3"
-date: 2026-05-11
+title: "SDS FC Overpower Community FC 3-7 in Dominant Display — GW3"
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Community FC 3-7 SDS FC — Gameweek 3 match report. Alex Byrne (8 goals) leads Community FC's attack. Game Changers: Onside (0) & 1-on-1 (5). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: true
 
 ## Match Summary — Community FC 3-7 SDS FC
 
-Gameweek 3 brought Community FC and SDS FC together at Baller Arena, where 12th-placed Community FC looked to upset 2nd-placed SDS FC.
+All eyes were on Baller Arena as Community FC met SDS FC, where 12th-placed Community FC looked to upset 2nd-placed SDS FC.
 
 A composed, professional display from SDS FC saw them dispatch Community FC 3-7 to claim all three points. The Game Changer period played a key role, with the Onside and 1-on-1 activations contributing 5 goals to a match that saw 10 in total.
 
@@ -22,11 +22,11 @@ A composed, professional display from SDS FC saw them dispatch Community FC 3-7 
 
 ### First Half
 
-The Onside Game Changer kicked in at the 12th minute, but neither side could find the breakthrough during the activation. SDS FC flew out of the blocks, overwhelming Community FC with wave after wave of attacks.
+The Onside Game Changer kicked in at the 12th minute, but neither side could find the breakthrough during the activation. SDS FC seized the initiative early and never looked back, building a commanding lead.
 
 ### Second Half
 
-At the 27-minute mark, the 1-on-1 Game Changer came into play and delivered 5 goals that shifted the momentum. SDS FC managed the game superbly after the interval, seeing out a professional victory. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 3.
+At the 27-minute mark, the 1-on-1 Game Changer came into play, adding 5 goals and injecting fresh energy into the contest. SDS FC maintained their grip on the match throughout the second period to secure a comfortable win. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 3.
 
 ---
 
@@ -118,7 +118,7 @@ The Game Changers provided a genuine spectacle, with both activations contributi
 
 ## Season Context
 
-**Community FC** came into this fixture averaging **2.6 goals per game** (23 total from 3 matches), with room for improvement in the final third. **SDS FC** arrived averaging **3.2 goals per game** (54 total), looking to find a sharper edge in front of goal. 
+**Community FC** came into this fixture averaging **2.5 goals per game** (25 total from 3 matches), with room for improvement in the final third. **SDS FC** arrived averaging **3.3 goals per game** (60 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

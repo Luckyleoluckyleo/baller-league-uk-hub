@@ -1,6 +1,6 @@
 ---
-title: "Prime FC Cruise Past N5 FC in 7-3 Rout — GW1"
-date: 2026-05-11
+title: "Prime FC Overpower N5 FC 7-3 in Dominant Display — GW1"
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Prime FC 7-3 N5 FC — Gameweek 1 match report. Francis Gerard Mampolo (15 goals) leads Prime FC's attack. Game Changers: 3Play (1) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: true
 
 ## Match Summary — Prime FC 7-3 N5 FC
 
-All eyes were on Baller Arena as Prime FC met N5 FC
+Prime FC and N5 FC faced off at Baller Arena
 
-Prime FC controlled proceedings from start to finish, running out 7-3 winners in a performance that underlined their quality. The Game Changer period played a key role, with the 3Play and The Line activations contributing 2 goals to a match that saw 10 in total.
+A composed, professional display from Prime FC saw them dispatch N5 FC 7-3 to claim all three points. The Game Changer period played a key role, with the 3Play and The Line activations contributing 2 goals to a match that saw 10 in total.
 
 
 
@@ -21,11 +21,11 @@ Prime FC controlled proceedings from start to finish, running out 7-3 winners in
 
 ### First Half
 
-At the 12-minute mark, the 3Play Game Changer came into effect and the teams made it count with 1 goal being scored. Prime FC seized the initiative early and never looked back, building a commanding lead.
+The first half saw the 3Play Game Changer activate at the 12th minute, producing 1 goal in a frantic period of play. Prime FC flew out of the blocks, overwhelming N5 FC with wave after wave of attacks.
 
 ### Second Half
 
-The The Line Game Changer activated at the 27th minute and delivered 1 goal that shifted the momentum. Prime FC maintained their grip on the match throughout the second period to secure a comfortable win. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 1.
+The The Line Game Changer kicked in at the 27th minute of the second half, producing 1 goal at a crucial stage. Prime FC maintained their grip on the match throughout the second period to secure a comfortable win. The 10-goal spectacle was one of the highest-scoring matches of Gameweek 1.
 
 ---
 
@@ -116,7 +116,7 @@ The Game Changer period brought a modest 2 goals, with the modified rules creati
 
 ## Season Context
 
-**Prime FC** came into this fixture averaging **5.2 goals per game** (47 total from 1 matches), with room for improvement in the final third. **N5 FC** arrived averaging **3.9 goals per game** (67 total), looking to find a sharper edge in front of goal. 
+**Prime FC** came into this fixture averaging **4.9 goals per game** (49 total from 1 matches), with room for improvement in the final third. **N5 FC** arrived averaging **4.0 goals per game** (72 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

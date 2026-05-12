@@ -1,6 +1,6 @@
 ---
 title: "Prime FC Annihilate Yanited 1-8 in Statement Victory — GW6"
-date: 2026-05-11
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Yanited 1-8 Prime FC — Gameweek 6 match report. Kadell Daniel (11 goals) leads Yanited's attack. Game Changers: 3Play (3) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Yanited 1-8 Prime FC
 
-Gameweek 6 brought Yanited and Prime FC together at Baller Arena, with Yanited sitting 3rd and looking to strengthen their playoff push against 8th-placed Prime FC.
+Yanited took on Prime FC in a Gameweek 6 clash, with Yanited sitting 3rd and looking to strengthen their playoff push against 8th-placed Prime FC.
 
-In a breathtaking display of attacking football, Prime FC ran riot against Yanited, putting 1 past them in a 1-8 demolition. The Game Changer period played a key role, with the 3Play and Fairplay activations contributing 3 goals to a match that saw 9 in total.
+Prime FC produced a statement performance, dismantling Yanited 1-8 with a ruthless attacking display that will send a message to the rest of the league. The Game Changer period played a key role, with the 3Play and Fairplay activations contributing 3 goals to a match that saw 9 in total.
 
 **Yanited form (before GW6):** ✅ ❌ ✅ 🤝 ✅ (W-L-W-D-W)  
 **Prime FC form (before GW6):** 🤝 ❌ ✅ ✅ ✅ (D-L-W-W-W)
@@ -22,11 +22,11 @@ In a breathtaking display of attacking football, Prime FC ran riot against Yanit
 
 ### First Half
 
-The 3Play Game Changer kicked in at the 12th minute, producing 3 goals in a frantic period of play. Prime FC seized the initiative early and never looked back, building a commanding lead.
+The 3Play Game Changer kicked in at the 12th minute, generating 3 goals that set the tempo for the half. Prime FC flew out of the blocks, overwhelming Yanited with wave after wave of attacks.
 
 ### Second Half
 
-The Fairplay Game Changer activated at the 27th minute, but neither side could capitalise on the modified rules. Prime FC showed no mercy after the break, piling on the goals to complete a resounding victory.
+At the 27-minute mark, the Fairplay Game Changer came into play, but neither side could capitalise on the modified rules. Prime FC continued their onslaught, putting the game well beyond Yanited's reach in a relentless second-half showing.
 
 ---
 
@@ -118,7 +118,7 @@ The Game Changer period brought a modest 3 goals, with the modified rules creati
 
 ## Season Context
 
-**Yanited** came into this fixture averaging **3.2 goals per game** (55 total from 6 matches), with room for improvement in the final third. **Prime FC** arrived averaging **5.2 goals per game** (47 total), looking to find a sharper edge in front of goal. 
+**Yanited** came into this fixture averaging **3.4 goals per game** (61 total from 6 matches), with room for improvement in the final third. **Prime FC** arrived averaging **4.9 goals per game** (49 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

@@ -1,6 +1,6 @@
 ---
-title: "Clutch FC Edge N5 FC 5-6 in GW5 Thriller"
-date: 2026-05-11
+title: "Clutch FC Scrape Past N5 FC 5-6 in Tight GW5 Contest"
+date: 2026-05-12
 category: "Match Report"
 excerpt: "N5 FC 5-6 Clutch FC — Gameweek 5 match report. Michael Hill (16 goals) leads N5 FC's attack. Game Changers: Onside (1) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: true
 
 ## Match Summary — N5 FC 5-6 Clutch FC
 
-Gameweek 5 brought N5 FC and Clutch FC together at Baller Arena, with N5 FC sitting 4th and looking to strengthen their playoff push against 7th-placed Clutch FC.
+N5 FC took on Clutch FC in a Gameweek 5 clash, with N5 FC sitting 4th and looking to strengthen their playoff push against 7th-placed Clutch FC.
 
 Clutch FC scraped a hard-fought 5-6 win over N5 FC in a match where fine margins proved decisive. The Game Changer period played a key role, with the Onside and Fairplay activations contributing 2 goals to a match that saw 11 in total.
 
@@ -22,11 +22,11 @@ Clutch FC scraped a hard-fought 5-6 win over N5 FC in a match where fine margins
 
 ### First Half
 
-The Onside Game Changer kicked in at the 12th minute, producing 1 goal in a frantic period of play. Clutch FC shaded a competitive first period, taking their chances well.
+The Onside Game Changer kicked in at the 12th minute, generating 1 goal that set the tempo for the half. Clutch FC edged the opening exchanges with a more clinical edge in front of goal.
 
 ### Second Half
 
-The Fairplay Game Changer kicked in at the 27th minute of the second half, producing 1 goal at a crucial stage. The closing stages were nervy as N5 FC threw everything forward, but Clutch FC stood strong to claim the points. The 11-goal spectacle was one of the highest-scoring matches of Gameweek 5.
+The Fairplay Game Changer kicked in at the 27th minute of the second half and delivered 1 goal that shifted the momentum. The closing stages were nervy as N5 FC threw everything forward, but Clutch FC stood strong to claim the points. The 11-goal spectacle was one of the highest-scoring matches of Gameweek 5.
 
 ---
 
@@ -119,7 +119,7 @@ The Game Changer period brought a modest 2 goals, with the modified rules creati
 
 ## Season Context
 
-**N5 FC** came into this fixture averaging **3.9 goals per game** (67 total from 5 matches), with room for improvement in the final third. **Clutch FC** arrived averaging **3.5 goals per game** (60 total), looking to find a sharper edge in front of goal. 
+**N5 FC** came into this fixture averaging **4.0 goals per game** (72 total from 5 matches), with room for improvement in the final third. **Clutch FC** arrived averaging **3.4 goals per game** (62 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

@@ -22,10 +22,11 @@ console.log("╔═════════════════════�
 console.log("║  Baller League UK Hub — Update  ║");
 console.log("╚══════════════════════════════════╝");
 
-if (existsSync(CACHE_DIR)) {
-  console.log("\nClearing stale match cache...");
-  rmSync(CACHE_DIR, { recursive: true, force: true });
-}
+// Cache clearing disabled — old GWs are final, new GWs cache-bust automatically
+// if (existsSync(CACHE_DIR)) {
+//   console.log("\nClearing stale match cache...");
+//   rmSync(CACHE_DIR, { recursive: true, force: true });
+// }
 
 run("node scripts/scrape.mjs", "1/7 Scraping match results");
 run("node scripts/scrape-ep.mjs", "2/7 Scraping EP values");

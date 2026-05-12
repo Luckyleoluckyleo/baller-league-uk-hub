@@ -1,6 +1,6 @@
 ---
-title: "Yanited See Off N5 FC 8-6 in Gameweek 4"
-date: 2026-05-11
+title: "Yanited Beat N5 FC 8-6 in Entertaining GW4 Clash"
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Yanited 8-6 N5 FC — Gameweek 4 match report. Kadell Daniel (11 goals) leads Yanited's attack. Game Changers: 3Play (4) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: true
 
 ## Match Summary — Yanited 8-6 N5 FC
 
-All eyes were on Baller Arena as Yanited met N5 FC, where 5th-placed Yanited looked to upset 4th-placed N5 FC.
+Gameweek 4 brought Yanited and N5 FC together at Baller Arena, where 5th-placed Yanited looked to upset 4th-placed N5 FC.
 
 Yanited claimed a well-deserved 8-6 win against N5 FC in an entertaining Gameweek 4 encounter. The Game Changer period played a key role, with the 3Play and The Line activations contributing 5 goals to a match that saw 14 in total.
 
@@ -22,11 +22,11 @@ Yanited claimed a well-deserved 8-6 win against N5 FC in an entertaining Gamewee
 
 ### First Half
 
-The 3Play Game Changer kicked in at the 12th minute and the teams made it count with 4 goals being scored. Yanited shaded a competitive first period, taking their chances well.
+The 3Play Game Changer kicked in at the 12th minute, producing 4 goals in a frantic period of play. Yanited shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-The The Line Game Changer activated at the 27th minute, adding 1 goal and injecting fresh energy into the contest. N5 FC pushed hard for an equaliser but Yanited held firm, with Yanited defending resolutely to protect their lead. The 14-goal spectacle was one of the highest-scoring matches of Gameweek 4.
+The The Line Game Changer kicked in at the 27th minute of the second half, adding 1 goal and injecting fresh energy into the contest. The closing stages were nervy as N5 FC threw everything forward, but Yanited stood strong to claim the points. The 14-goal spectacle was one of the highest-scoring matches of Gameweek 4.
 
 ---
 
@@ -125,7 +125,7 @@ The Game Changers provided a genuine spectacle, with both activations contributi
 
 ## Season Context
 
-**Yanited** came into this fixture averaging **3.2 goals per game** (55 total from 4 matches), with room for improvement in the final third. **N5 FC** arrived averaging **3.9 goals per game** (67 total), looking to find a sharper edge in front of goal. 
+**Yanited** came into this fixture averaging **3.4 goals per game** (61 total from 4 matches), with room for improvement in the final third. **N5 FC** arrived averaging **4.0 goals per game** (72 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

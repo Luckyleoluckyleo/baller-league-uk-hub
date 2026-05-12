@@ -1,6 +1,6 @@
 ---
 title: "Deportrio Beat Prime FC 8-6 in Entertaining GW8 Clash"
-date: 2026-05-11
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Deportrio 8-6 Prime FC — Gameweek 8 match report. Jay Emmanuel-Thomas (18 goals) leads Deportrio's attack. Game Changers: 3Play (5) & The Line (2). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: true
 
 ## Match Summary — Deportrio 8-6 Prime FC
 
-The Gameweek 8 schedule pitted Deportrio against Prime FC, with Deportrio sitting 4th and looking to strengthen their playoff push against 7th-placed Prime FC.
+Deportrio and Prime FC faced off at Baller Arena, with Deportrio sitting 4th and looking to strengthen their playoff push against 7th-placed Prime FC.
 
 Deportrio claimed a well-deserved 8-6 win against Prime FC in an entertaining Gameweek 8 encounter. The Game Changer period played a key role, with the 3Play and The Line activations contributing 7 goals to a match that saw 14 in total.
 
@@ -22,11 +22,11 @@ Deportrio claimed a well-deserved 8-6 win against Prime FC in an entertaining Ga
 
 ### First Half
 
-The first half saw the 3Play Game Changer activate at the 12th minute, generating 5 goals that set the tempo for the half. Deportrio edged the opening exchanges with a more clinical edge in front of goal.
+The 3Play Game Changer kicked in at the 12th minute, producing 5 goals in a frantic period of play. Deportrio shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-The The Line Game Changer kicked in at the 27th minute of the second half, producing 2 goals at a crucial stage. The closing stages were nervy as Prime FC threw everything forward, but Deportrio stood strong to claim the points. The 14-goal spectacle was one of the highest-scoring matches of Gameweek 8.
+The The Line Game Changer kicked in at the 27th minute of the second half, adding 2 goals and injecting fresh energy into the contest. Prime FC pushed hard for an equaliser but Deportrio held firm, with Deportrio defending resolutely to protect their lead. The 14-goal spectacle was one of the highest-scoring matches of Gameweek 8.
 
 ---
 
@@ -126,7 +126,7 @@ The Game Changer period exploded into life, with the 3Play activation proving pa
 
 ## Season Context
 
-**Deportrio** came into this fixture averaging **4.4 goals per game** (75 total from 8 matches), with room for improvement in the final third. **Prime FC** arrived averaging **5.2 goals per game** (47 total), looking to find a sharper edge in front of goal. 
+**Deportrio** came into this fixture averaging **4.3 goals per game** (77 total from 8 matches), with room for improvement in the final third. **Prime FC** arrived averaging **4.9 goals per game** (49 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

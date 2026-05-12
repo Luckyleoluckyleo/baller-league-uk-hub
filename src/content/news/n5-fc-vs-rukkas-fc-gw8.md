@@ -1,6 +1,6 @@
 ---
 title: "N5 FC Annihilate Rukkas FC 8-1 in Statement Victory — GW8"
-date: 2026-05-11
+date: 2026-05-12
 category: "Match Report"
 excerpt: "N5 FC 8-1 Rukkas FC — Gameweek 8 match report. Michael Hill (16 goals) leads N5 FC's attack. Game Changers: 3Play (3) & 1-on-1 (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — N5 FC 8-1 Rukkas FC
 
-N5 FC took on Rukkas FC in a Gameweek 8 clash, with N5 FC sitting 3rd and looking to strengthen their playoff push against 11th-placed Rukkas FC.
+The Gameweek 8 schedule pitted N5 FC against Rukkas FC, with N5 FC sitting 3rd and looking to strengthen their playoff push against 11th-placed Rukkas FC.
 
 In a breathtaking display of attacking football, N5 FC ran riot against Rukkas FC, putting 8 past them in a 8-1 demolition. The Game Changer period played a key role, with the 3Play and 1-on-1 activations contributing 4 goals to a match that saw 9 in total.
 
@@ -22,11 +22,11 @@ In a breathtaking display of attacking football, N5 FC ran riot against Rukkas F
 
 ### First Half
 
-The 3Play Game Changer kicked in at the 12th minute, generating 3 goals that set the tempo for the half. N5 FC flew out of the blocks, overwhelming Rukkas FC with wave after wave of attacks.
+The first half saw the 3Play Game Changer activate at the 12th minute and the teams made it count with 3 goals being scored. N5 FC flew out of the blocks, overwhelming Rukkas FC with wave after wave of attacks.
 
 ### Second Half
 
-The 1-on-1 Game Changer activated at the 27th minute, producing 1 goal at a crucial stage. N5 FC continued their onslaught, putting the game well beyond Rukkas FC's reach in a relentless second-half showing.
+The 1-on-1 Game Changer kicked in at the 27th minute of the second half, adding 1 goal and injecting fresh energy into the contest. N5 FC showed no mercy after the break, piling on the goals to complete a resounding victory.
 
 ---
 
@@ -118,7 +118,7 @@ The Game Changers provided a genuine spectacle, with both activations contributi
 
 ## Season Context
 
-**N5 FC** came into this fixture averaging **3.9 goals per game** (67 total from 8 matches), with room for improvement in the final third. **Rukkas FC** arrived averaging **3.5 goals per game** (59 total), looking to find a sharper edge in front of goal. 
+**N5 FC** came into this fixture averaging **4.0 goals per game** (72 total from 8 matches), with room for improvement in the final third. **Rukkas FC** arrived averaging **3.4 goals per game** (61 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

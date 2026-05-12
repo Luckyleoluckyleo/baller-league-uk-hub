@@ -1,6 +1,6 @@
 ---
-title: "Yanited See Off Community FC 5-3 in Gameweek 2"
-date: 2026-05-11
+title: "Yanited Beat Community FC 5-3 in Entertaining GW2 Clash"
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Yanited 5-3 Community FC — Gameweek 2 match report. Kadell Daniel (11 goals) leads Yanited's attack. Game Changers: Plus One (1) & 1-on-1 (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Yanited 5-3 Community FC
 
-The Gameweek 2 schedule pitted Yanited against Community FC, two sides looking to climb the table from 11th and 12th respectively.
+Yanited and Community FC faced off at Baller Arena, two sides looking to climb the table from 11th and 12th respectively.
 
 Yanited claimed a well-deserved 5-3 win against Community FC in an entertaining Gameweek 2 encounter. The Game Changer period played a key role, with the Plus One and 1-on-1 activations contributing 1 goals to a match that saw 8 in total.
 
@@ -22,11 +22,11 @@ Yanited claimed a well-deserved 5-3 win against Community FC in an entertaining 
 
 ### First Half
 
-The first half saw the Plus One Game Changer activate at the 12th minute, generating 1 goal that set the tempo for the half. Yanited shaded a competitive first period, taking their chances well.
+The first half saw the Plus One Game Changer activate at the 12th minute and the teams made it count with 1 goal being scored. Yanited shaded a competitive first period, taking their chances well.
 
 ### Second Half
 
-At the 27-minute mark, the 1-on-1 Game Changer came into play, though the goals dried up as the match wore on. The closing stages were nervy as Community FC threw everything forward, but Yanited stood strong to claim the points.
+The 1-on-1 Game Changer activated at the 27th minute, though the goals dried up as the match wore on. The closing stages were nervy as Community FC threw everything forward, but Yanited stood strong to claim the points.
 
 ---
 
@@ -114,7 +114,7 @@ The Game Changer period brought a modest 1 goal, with the modified rules creatin
 
 ## Season Context
 
-**Yanited** came into this fixture averaging **3.2 goals per game** (55 total from 2 matches), with room for improvement in the final third. **Community FC** arrived averaging **2.6 goals per game** (23 total), looking to find a sharper edge in front of goal. 
+**Yanited** came into this fixture averaging **3.4 goals per game** (61 total from 2 matches), with room for improvement in the final third. **Community FC** arrived averaging **2.5 goals per game** (25 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

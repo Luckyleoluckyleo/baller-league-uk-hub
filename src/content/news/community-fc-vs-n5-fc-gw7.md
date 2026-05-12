@@ -1,6 +1,6 @@
 ---
-title: "N5 FC Overpower Community FC 1-5 in Dominant Display — GW7"
-date: 2026-05-11
+title: "N5 FC Cruise Past Community FC in 1-5 Rout — GW7"
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Community FC 1-5 N5 FC — Gameweek 7 match report. Alex Byrne (8 goals) leads Community FC's attack. Game Changers: Onside (1) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Community FC 1-5 N5 FC
 
-Community FC and N5 FC faced off at Baller Arena, two sides looking to climb the table from 12th and 6th respectively.
+Gameweek 7 brought Community FC and N5 FC together at Baller Arena, two sides looking to climb the table from 12th and 6th respectively.
 
 A composed, professional display from N5 FC saw them dispatch Community FC 1-5 to claim all three points. The Game Changer period played a key role, with the Onside and Fairplay activations contributing 1 goals to a match that saw 6 in total.
 
@@ -22,11 +22,11 @@ A composed, professional display from N5 FC saw them dispatch Community FC 1-5 t
 
 ### First Half
 
-The Onside Game Changer kicked in at the 12th minute, generating 1 goal that set the tempo for the half. N5 FC flew out of the blocks, overwhelming Community FC with wave after wave of attacks.
+The Onside Game Changer kicked in at the 12th minute and the teams made it count with 1 goal being scored. N5 FC flew out of the blocks, overwhelming Community FC with wave after wave of attacks.
 
 ### Second Half
 
-The Fairplay Game Changer activated at the 27th minute, but neither side could capitalise on the modified rules. N5 FC managed the game superbly after the interval, seeing out a professional victory.
+At the 27-minute mark, the Fairplay Game Changer came into play, though the goals dried up as the match wore on. N5 FC maintained their grip on the match throughout the second period to secure a comfortable win.
 
 ---
 
@@ -111,7 +111,7 @@ The Game Changer period brought a modest 1 goal, with the modified rules creatin
 
 ## Season Context
 
-**Community FC** came into this fixture averaging **2.6 goals per game** (23 total from 7 matches), with room for improvement in the final third. **N5 FC** arrived averaging **3.9 goals per game** (67 total), looking to find a sharper edge in front of goal. 
+**Community FC** came into this fixture averaging **2.5 goals per game** (25 total from 7 matches), with room for improvement in the final third. **N5 FC** arrived averaging **4.0 goals per game** (72 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

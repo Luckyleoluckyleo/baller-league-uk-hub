@@ -1,6 +1,6 @@
 ---
 title: "Rukkas FC Overpower Community FC 2-6 in Dominant Display — GW9"
-date: 2026-05-11
+date: 2026-05-12
 category: "Match Report"
 excerpt: "Community FC 2-6 Rukkas FC — Gameweek 9 match report. Alex Byrne (8 goals) leads Community FC's attack. Game Changers: Plus One (2) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Community FC 2-6 Rukkas FC
 
-The Gameweek 9 schedule pitted Community FC against Rukkas FC, two sides looking to climb the table from 12th and 11th respectively.
+Gameweek 9 brought Community FC and Rukkas FC together at Baller Arena, two sides looking to climb the table from 12th and 11th respectively.
 
-A composed, professional display from Rukkas FC saw them dispatch Community FC 2-6 to claim all three points. The Game Changer period played a key role, with the Plus One and The Line activations contributing 2 goals to a match that saw 8 in total.
+Rukkas FC proved too strong for Community FC, taking a convincing 2-6 victory that never looked in doubt. The Game Changer period played a key role, with the Plus One and The Line activations contributing 2 goals to a match that saw 8 in total.
 
 **Community FC form (before GW9):** 🤝 ❌ ❌ ❌ ✅ (D-L-L-L-W)  
 **Rukkas FC form (before GW9):** 🤝 ❌ ❌ ❌ ✅ (D-L-L-L-W)
@@ -22,11 +22,11 @@ A composed, professional display from Rukkas FC saw them dispatch Community FC 2
 
 ### First Half
 
-The Plus One Game Changer kicked in at the 12th minute, producing 2 goals in a frantic period of play. Rukkas FC seized the initiative early and never looked back, building a commanding lead.
+The Plus One Game Changer kicked in at the 12th minute and the teams made it count with 2 goals being scored. Rukkas FC flew out of the blocks, overwhelming Community FC with wave after wave of attacks.
 
 ### Second Half
 
-At the 27-minute mark, the The Line Game Changer came into play, but neither side could capitalise on the modified rules. Rukkas FC maintained their grip on the match throughout the second period to secure a comfortable win.
+The The Line Game Changer activated at the 27th minute, though the goals dried up as the match wore on. Rukkas FC managed the game superbly after the interval, seeing out a professional victory.
 
 ---
 
@@ -120,7 +120,7 @@ The Game Changer period brought a modest 2 goals, with the modified rules creati
 
 ## Season Context
 
-**Community FC** came into this fixture averaging **2.6 goals per game** (23 total from 9 matches), with room for improvement in the final third. **Rukkas FC** arrived averaging **3.5 goals per game** (59 total), looking to find a sharper edge in front of goal. 
+**Community FC** came into this fixture averaging **2.5 goals per game** (25 total from 9 matches), with room for improvement in the final third. **Rukkas FC** arrived averaging **3.4 goals per game** (61 total), looking to find a sharper edge in front of goal. 
 
 With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
 

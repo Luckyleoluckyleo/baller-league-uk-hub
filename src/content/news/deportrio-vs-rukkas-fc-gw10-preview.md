@@ -1,8 +1,8 @@
 ---
 title: "Gameweek 10 Preview: Deportrio vs Rukkas FC"
-date: 2026-05-11
+date: 2026-05-12
 category: "Preview"
-excerpt: "Deportrio (2nd) host Rukkas FC (12th) in Gameweek 10. Jay Emmanuel-Thomas (15 goals) leads Deportrio."
+excerpt: "Deportrio (2nd) host Rukkas FC (12th) in Gameweek 10. Jay Emmanuel-Thomas (18 goals) leads Deportrio."
 author: "Baller League UK Fan Site"
 featured: false
 ---
@@ -14,23 +14,23 @@ Deportrio come into this fixture above Rukkas FC in the standings and will look 
 
 ## Form Guide
 
-**Deportrio**: L - W - W - W - D (last 5 matches)
-**Rukkas FC**: W - W - D - L - L (last 5 matches)
+**Deportrio**: L - W - W - D - W (last 5 matches)
+**Rukkas FC**: W - D - W - D - L (last 5 matches)
 
 ## Head-to-Head
 
-These sides have met 1 time before. Deportrio have won 0, Rukkas FC have won 0, with 1 draw.
+These sides have met 2 times before. Deportrio have won 0, Rukkas FC have won 0, with 2 draws.
 The last meeting saw Rukkas FC defeat Deportrio 4-4.
 
 ## Key Players
 
-**Jay Emmanuel-Thomas** — Deportrio's top scorer with 15 goals and 6 assists this season (Striker).
-**David Oupoh** — leads Rukkas FC's attack with 5 goals in 8 appearances.
+**Jay Emmanuel-Thomas** — Deportrio's top scorer with 18 goals and 6 assists this season (Striker).
+**Mussa Bham** — leads Rukkas FC's attack with 7 goals in 9 appearances.
 
 ## Game Changer X-Factor
 
-Deportrio average **4.0** goals per match during Game Changer periods (89 total).
-Rukkas FC average **3.2** GC goals per match (55 total).
+Deportrio average **3.9** goals per match during Game Changer periods (89 total).
+Rukkas FC average **3.1** GC goals per match (55 total).
 
 ## Prediction
 
