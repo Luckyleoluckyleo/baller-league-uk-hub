@@ -202,215 +202,6 @@ function playoffContention(pos, beforeGW) {
   return "are looking to climb the table";
 }
 
-// ─── Narrative Generators ──────────────────────────────────────
-
-function matchSummaryNarrative(home, away, hs, as, gw, homePosBefore, awayPosBefore, homeForm, awayForm, gc1, gc2, gc1g, gc2g) {
-  const totalGoals = hs + as;
-  const margin = Math.abs(hs - as);
-  const winner = hs > as ? home : as > hs ? away : null;
-  const loser = winner === home ? away : home;
-  const gcTotal = gc1g + gc2g;
-
-  const kickoffs = [
-    `${home} and ${away} faced off at Baller Arena`,
-    `${home} took on ${away} in a Gameweek ${gw} clash`,
-    `Gameweek ${gw} brought ${home} and ${away} together at Baller Arena`,
-    `The Gameweek ${gw} schedule pitted ${home} against ${away}`,
-    `All eyes were on Baller Arena as ${home} met ${away}`,
-  ];
-
-  let narrative = pick(kickoffs);
-
-  if (homePosBefore && awayPosBefore) {
-    if (homePosBefore <= 4 && awayPosBefore <= 4) {
-      narrative += ` in a top-of-the-table showdown, with ${home} sitting ${homePosBefore}${ordinalSuffix(homePosBefore)} and ${away} ${awayPosBefore}${ordinalSuffix(awayPosBefore)}.`;
-    } else if (homePosBefore <= 4) {
-      narrative += `, with ${home} sitting ${homePosBefore}${ordinalSuffix(homePosBefore)} and looking to strengthen their playoff push against ${awayPosBefore}${ordinalSuffix(awayPosBefore)}-placed ${away}.`;
-    } else if (awayPosBefore <= 4) {
-      narrative += `, where ${homePosBefore}${ordinalSuffix(homePosBefore)}-placed ${home} looked to upset ${awayPosBefore}${ordinalSuffix(awayPosBefore)}-placed ${away}.`;
-    } else {
-      narrative += `, two sides looking to climb the table from ${homePosBefore}${ordinalSuffix(homePosBefore)} and ${awayPosBefore}${ordinalSuffix(awayPosBefore)} respectively.`;
-    }
-  }
-
-  narrative += "\n\n";
-
-  if (winner) {
-    const blowout = margin >= 5;
-    const dominant = margin >= 3 && margin < 5;
-    const closeGame = margin <= 1;
-
-    if (blowout) {
-      narrative += pick([
-        `${winner} produced a statement performance, dismantling ${loser} ${hs}-${as} with a ruthless attacking display that will send a message to the rest of the league.`,
-        `In a breathtaking display of attacking football, ${winner} ran riot against ${loser}, putting ${hs} past them in a ${hs}-${as} demolition.`,
-        `${winner} were simply unstoppable as they crushed ${loser} ${hs}-${as}, delivering one of the most emphatic results of Gameweek ${gw}.`,
-      ]);
-    } else if (dominant) {
-      narrative += pick([
-        `${winner} controlled proceedings from start to finish, running out ${hs}-${as} winners in a performance that underlined their quality.`,
-        `${winner} proved too strong for ${loser}, taking a convincing ${hs}-${as} victory that never looked in doubt.`,
-        `A composed, professional display from ${winner} saw them dispatch ${loser} ${hs}-${as} to claim all three points.`,
-      ]);
-    } else if (closeGame) {
-      narrative += pick([
-        `${winner} edged past ${loser} ${hs}-${as} in a nail-biting encounter that could have gone either way.`,
-        `In a tense, tightly-contested affair, ${winner} held their nerve to beat ${loser} ${hs}-${as}.`,
-        `${winner} scraped a hard-fought ${hs}-${as} win over ${loser} in a match where fine margins proved decisive.`,
-      ]);
-    } else {
-      narrative += pick([
-        `${winner} emerged ${hs}-${as} victors over ${loser} after a competitive clash that showcased the best of Baller League football.`,
-        `${winner} claimed a well-deserved ${hs}-${as} win against ${loser} in an entertaining Gameweek ${gw} encounter.`,
-      ]);
-    }
-
-    narrative += ` The Game Changer period played a key role, with the ${gc1} and ${gc2} activations contributing ${gcTotal} goals to a match that saw ${totalGoals} in total.`;
-  } else {
-    narrative += pick([
-      `${home} and ${away} played out a thrilling ${hs}-${as} draw in a match where neither side deserved to lose.`,
-      `${home} and ${away} could not be separated as they battled to a ${hs}-${as} stalemate at Baller Arena.`,
-      `Honours were even as ${home} and ${away} shared the spoils in an entertaining ${hs}-${as} draw.`,
-    ]);
-    narrative += ` The ${totalGoals} goals kept the crowd on the edge of their seats, with the Game Changer period adding extra drama through ${gc1} and ${gc2}.`;
-  }
-
-  return narrative;
-}
-
-function firstHalfNarrative(home, away, hs, as, gc1, gc1g, gc2g, margin) {
-  const winner = hs > as ? home : as > hs ? away : null;
-  const gcTotal = gc1g + gc2g;
-
-  const gcLines = [
-    `The first half saw the ${gc1} Game Changer activate at the 12th minute`,
-    `At the 12-minute mark, the ${gc1} Game Changer came into effect`,
-    `The ${gc1} Game Changer kicked in at the 12th minute`,
-  ];
-
-  let n = pick(gcLines);
-
-  if (gc1g > 0) {
-    n += pick([
-      `, generating ${gc1g} goal${gc1g > 1 ? 's' : ''} that set the tempo for the half`,
-      `, producing ${gc1g} goal${gc1g > 1 ? 's' : ''} in a frantic period of play`,
-      ` and the teams made it count with ${gc1g} goal${gc1g > 1 ? 's' : ''} being scored`,
-    ]);
-  } else {
-    n += pick([
-      `, but neither side could find the breakthrough during the activation`,
-      `, though goals proved elusive as both defences held firm`,
-      `, yet the deadlock remained unbroken`,
-    ]);
-  }
-
-  n += ". ";
-
-  if (winner) {
-    const halfMargin = Math.abs(hs - as);
-    if (halfMargin >= 3) {
-      n += pick([
-        `${winner} seized the initiative early and never looked back, building a commanding lead.`,
-        `${winner} flew out of the blocks, overwhelming ${winner === home ? away : home} with wave after wave of attacks.`,
-      ]);
-    } else if (halfMargin >= 1) {
-      n += pick([
-        `${winner} edged the opening exchanges with a more clinical edge in front of goal.`,
-        `${winner} shaded a competitive first period, taking their chances well.`,
-      ]);
-    } else {
-      n += `The sides went into the break level after an evenly-matched first period.`;
-    }
-  } else {
-    n += `The two sides were inseparable at the break, with the contest finely poised.`;
-  }
-
-  return n;
-}
-
-function secondHalfNarrative(home, away, hs, as, gc2, gc2g, margin, gw) {
-  const winner = hs > as ? home : as > hs ? away : null;
-  const loser = winner === home ? away : home;
-  const totalGoals = hs + as;
-
-  let n = pick([
-    `The ${gc2} Game Changer activated at the 27th minute`,
-    `At the 27-minute mark, the ${gc2} Game Changer came into play`,
-    `The ${gc2} Game Changer kicked in at the 27th minute of the second half`,
-  ]);
-
-  if (gc2g > 0) {
-    n += pick([
-      `, adding ${gc2g} goal${gc2g > 1 ? 's' : ''} and injecting fresh energy into the contest`,
-      ` and delivered ${gc2g} goal${gc2g > 1 ? 's' : ''} that shifted the momentum`,
-      `, producing ${gc2g} goal${gc2g > 1 ? 's' : ''} at a crucial stage`,
-    ]);
-  } else {
-    n += pick([
-      `, but neither side could capitalise on the modified rules`,
-      `, though the goals dried up as the match wore on`,
-    ]);
-  }
-
-  n += ". ";
-
-  if (winner) {
-    if (margin >= 5) {
-      n += pick([
-        `${winner} continued their onslaught, putting the game well beyond ${loser}'s reach in a relentless second-half showing.`,
-        `${winner} showed no mercy after the break, piling on the goals to complete a resounding victory.`,
-      ]);
-    } else if (margin >= 3) {
-      n += pick([
-        `${winner} managed the game superbly after the interval, seeing out a professional victory.`,
-        `${winner} maintained their grip on the match throughout the second period to secure a comfortable win.`,
-      ]);
-    } else if (margin === 1 || margin === 2) {
-      n += pick([
-        `${loser} pushed hard for an equaliser${margin === 2 ? ' but ' + winner + ' held firm' : ''}, with ${winner} defending resolutely to protect their lead.`,
-        `The closing stages were nervy as ${loser} threw everything forward, but ${winner} stood strong to claim the points.`,
-      ]);
-    }
-  } else {
-    n += pick([
-      `Both sides pushed for a winner but ultimately had to settle for a share of the points.`,
-      `Despite late pressure, neither team could find the decisive goal and the spoils were shared.`,
-    ]);
-  }
-
-  if (totalGoals >= 10) {
-    n += ` The ${totalGoals}-goal spectacle was one of the highest-scoring matches of Gameweek ${gw}.`;
-  }
-
-  return n;
-}
-
-function gcAnalysis(gc1, gc2, gc1g, gc2g, totalGoals, home, away, hs, as) {
-  const gcTotal = gc1g + gc2g;
-  const gcPct = totalGoals > 0 ? Math.round((gcTotal / totalGoals) * 100) : 0;
-
-  let analysis = `The Game Changer period proved ${gcTotal >= 5 ? 'decisive' : gcTotal >= 2 ? 'influential' : 'quiet'} in this match, with the ${gc1} and ${gc2} activations combining for ${gcTotal} goals — accounting for ${gcPct}% of the match's total scoring.\n\n`;
-
-  analysis += `| GC Activation | Type | Goals |\n`;
-  analysis += `|---------------|------|-------|\n`;
-  analysis += `| 1st Half (12') | ${gc1} | ${gc1g} |\n`;
-  analysis += `| 2nd Half (27') | ${gc2} | ${gc2g} |\n`;
-  analysis += `| **Total** | | **${gcTotal}** |\n\n`;
-
-  if (gcTotal >= 7) {
-    analysis += `The Game Changer period exploded into life, with the ${gc1g > gc2g ? gc1 : gc2} activation proving particularly devastating. `;
-    analysis += `Matches where the Game Changer produces this volume of goals often become instant classics, and this was no exception. The high-scoring nature of the GC period meant the usual tactical calculations went out the window, with both teams forced to adapt on the fly.`;
-  } else if (gcTotal >= 4) {
-    analysis += `The Game Changers provided a genuine spectacle, with both activations contributing meaningfully to the scoreline. The ${gc1g > gc2g ? 'first-half ' + gc1 : 'second-half ' + gc2} was the more impactful of the two, and the teams' approaches to managing these periods proved crucial to the outcome.`;
-  } else if (gcTotal >= 1) {
-    analysis += `The Game Changer period brought a modest ${gcTotal} goal${gcTotal > 1 ? 's' : ''}, with the modified rules creating chances but not overwhelming the flow of the match. This was more about tactical adjustments than the chaos that sometimes defines GC activations.`;
-  } else {
-    analysis += `In a rarity for Baller League, neither Game Changer activation yielded a goal. Both defences deserve immense credit for staying disciplined during the modified-rule periods — it takes serious concentration to navigate the GC without conceding.`;
-  }
-
-  return analysis;
-}
-
 let playerTeamMapCache = null;
 function getPlayerTeamMap() {
   if (playerTeamMapCache) return playerTeamMapCache;
@@ -429,6 +220,268 @@ function getScorerTeam(name, playerStats, homeSlug, awaySlug) {
   return null;
 }
 
+function hsGuess(goalscorers, playerStats, homeSlug, awaySlug) {
+  let h = 0, a = 0;
+  for (const g of goalscorers) {
+    const side = getScorerTeam(g.player, playerStats, homeSlug, awaySlug);
+    if (side === 'home') h++;
+    else if (side === 'away') a++;
+  }
+  return { home: h, away: a };
+}
+
+// ─── Narrative Generators ──────────────────────────────────────
+
+function matchSummaryNarrative(home, away, hs, as, gw, homePosBefore, awayPosBefore, homeForm, awayForm, gc1, gc2, gc1g, gc2g, goalscorers, playerStats, homeSlug, awaySlug) {
+  const totalGoals = hs + as;
+  const margin = Math.abs(hs - as);
+  const winner = hs > as ? home : as > hs ? away : null;
+  const loser = winner === home ? away : home;
+  const gcTotal = gc1g + gc2g;
+  const isBlowout = margin >= 5;
+  const isThriller = totalGoals >= 8;
+  const isTight = margin <= 1 && winner;
+
+  const loserFormStr = awayForm.join(''); // track which team is in-form badly
+  const homeFormStr = homeForm.join('');
+
+  const leadIns = [
+    `Baller Arena played host to an absorbing Gameweek ${gw} clash as **${home}** locked horns with **${away}** in what would prove to be`,
+    `The lights were bright at Baller Arena on Gameweek ${gw}, where **${home}** and **${away}** served up`,
+    `Gameweek ${gw} delivered fireworks at Baller Arena with **${home}** taking on **${away}** in`,
+    `Tensions were high at Baller Arena as **${home}** squared off against **${away}** in`,
+    `Football took center stage at Baller Arena when **${home}** met **${away}** in`,
+    `The Gameweek ${gw} spotlight fell on Baller Arena for **${home}** versus **${away}** —`,
+    `A pivotal Gameweek ${gw} encounter saw **${home}** go head-to-head with **${away}** in`,
+    `Baller Arena buzzed with anticipation as **${home}** and **${away}** delivered`,
+    `All roads led to Baller Arena for Gameweek ${gw}, where **${home}** and **${away}** produced`,
+    `The crowd at Baller Arena were treated to a spectacle as **${home}** faced **${away}** in`,
+  ];
+
+  let narrative = pick(leadIns);
+
+  if (isThriller && winner) {
+    narrative += pick([
+      ` a breathtaking goal-fest.`,
+      ` an unforgettable thriller packed with drama and goals.`,
+      ` a rollercoaster of emotions that had everything you could want from a Baller League match.`,
+      ` a pulsating encounter that had fans on the edge of their seats from the first whistle to the last.`,
+    ]);
+  } else if (isThriller && !winner) {
+    narrative += pick([
+      ` a breathtaking stalemate that somehow had no winner but absolutely no shortage of entertainment.`,
+      ` an end-to-end classic where neither side deserved to walk away empty-handed.`,
+      ` a scoring bonanza that had the crowd on their feet — and somehow still ended level.`,
+    ]);
+  } else if (isBlowout) {
+    narrative += pick([
+      ` a ruthless demolition job that will echo around the league.`,
+      ` a merciless display of attacking firepower that left no doubt about the gulf between the sides.`,
+      ` a statement victory — emphatic, relentless, and utterly dominant.`,
+    ]);
+  } else if (isTight) {
+    narrative += pick([
+      ` a tense, knife-edge contest where the smallest of margins made all the difference.`,
+      ` a nail-biter that could have swung either way, decided by the finest of details.`,
+      ` a battle of attrition where every tackle, every pass, and every decision carried enormous weight.`,
+    ]);
+  } else {
+    narrative += pick([
+      ` a thoroughly entertaining contest with plenty of talking points.`,
+      ` a match that ebbed and flowed, keeping everyone guessing until the final whistle.`,
+      ` a compelling advert for Baller League football — competitive, dramatic, and hard-fought.`,
+    ]);
+  }
+
+  narrative += "\n\n";
+
+  // Position context woven into narrative
+  if (homePosBefore && awayPosBefore) {
+    if (homePosBefore <= 2 && awayPosBefore <= 2) {
+      narrative += pick([
+        `This was a genuine top-of-the-table blockbuster, with ${homePosBefore}${ordinalSuffix(homePosBefore)} facing ${awayPosBefore}${ordinalSuffix(awayPosBefore)}. `,
+        `A clash of titans — the league's ${homePosBefore}${ordinalSuffix(homePosBefore)} and ${awayPosBefore}${ordinalSuffix(awayPosBefore)}-ranked sides colliding at the business end of the season. `,
+      ]);
+    } else if (homePosBefore <= 4 || awayPosBefore <= 4) {
+      const playoffTeam = homePosBefore <= 4 ? home : away;
+      const playoffPos = homePosBefore <= 4 ? homePosBefore : awayPosBefore;
+      const otherTeam = playoffTeam === home ? away : home;
+      narrative += pick([
+        `${playoffTeam}, sitting pretty in the Final Four places at ${playoffPos}${ordinalSuffix(playoffPos)}, knew a win here would tighten their grip. `,
+        `${playoffTeam} came in occupying a coveted playoff spot at ${playoffPos}${ordinalSuffix(playoffPos)}, while ${otherTeam} were desperate to crash the party. `,
+      ]);
+    }
+  }
+
+  // The result
+  if (winner) {
+    narrative += `When the dust settled, it was **${winner}** who emerged **${hs}-${as}** victors`;
+
+    if (homeFormStr.includes('WWW')) {
+      narrative += pick([
+        `, extending their red-hot run of form in spectacular fashion.`,
+        `, making it a hat-trick of wins as their momentum continues to build.`,
+        `, adding another triumph to what is becoming a formidable winning streak.`,
+      ]);
+    } else if (loserFormStr.includes('WWW')) {
+      narrative += `, ending ${loser}'s impressive winning run in the process.`;
+    } else if (isBlowout) {
+      narrative += ` in a performance that will send shockwaves through the division.`;
+    } else {
+      narrative += `.`;
+    }
+  } else {
+    narrative += `The final whistle confirmed a **${hs}-${as} draw**`;
+    if (totalGoals >= 8) {
+      narrative += ` in a contest that had absolutely everything — goals, drama, and relentless entertainment.`;
+    } else {
+      narrative += `, a result that felt about right in a match where both sides gave everything.`;
+    }
+  }
+
+  if (gcTotal > 0) {
+    narrative += ` The Game Changer window — **${gc1}** and **${gc2}** — proved pivotal, contributing **${gcTotal}** of the match's **${totalGoals}** goals.`;
+  } else {
+    narrative += ` In a rarity for Baller League, neither Game Changer activation managed to breach either defence.`;
+  }
+
+  return narrative;
+}
+
+function firstHalfNarrative(home, away, hs, as, gc1, gc1g, gc2g, margin, goalscorers, playerStats, homeSlug, awaySlug) {
+  const winner = hs > as ? home : as > hs ? away : null;
+  const gcTotal = gc1g + gc2g;
+
+  const openings = [
+    `The first half sprang into life at the 12-minute mark with the **${gc1}** Game Changer flicking the switch`,
+    `At the 12th minute, the **${gc1}** Game Changer roared into action`,
+    `The game's complexion changed at the 12th minute when the **${gc1}** Game Changer activated`,
+    `Twelve minutes in and the **${gc1}** Game Changer came alive, reshaping the contest entirely`,
+    `The tactical landscape shifted dramatically at 12 minutes as the **${gc1}** Game Changer took hold`,
+    `Barely a dozen minutes had passed when **${gc1}** transformed the match into something altogether different`,
+  ];
+
+  let n = pick(openings);
+
+  if (gc1g >= 3) {
+    n += pick([
+      ` — and the goals flowed. **${gc1g}** times the net bulged during the activation period, a frantic, breathless spell of attacking football.`,
+      ` — and the floodgates opened with **${gc1g}** goals flying in, the crowd barely able to keep up with the relentless action.`,
+      ` — the result was chaos, in the best possible way. **${gc1g}** goals poured in as both sides abandoned any defensive caution.`,
+    ]);
+  } else if (gc1g >= 1) {
+    n += pick([
+      ` — a **${gc1g}-goal** window that gave the half an electric pulse.`,
+      ` — the period yielded **${gc1g}** goal${gc1g > 1 ? 's' : ''}, just enough to set the contest alight.`,
+    ]);
+  } else {
+    n += pick([
+      ` — but remarkably, neither side could find the net. A tactical stalemate that owed as much to disciplined defending as to the specific rule change.`,
+      ` — yet for all the altered rules, the defences stood tall and the deadlock remained stubbornly intact.`,
+      ` — but the goalkeepers and back-lines rose to the occasion, keeping the scoreboard operator idle throughout the activation.`,
+    ]);
+  }
+
+  n += " ";
+
+  if (winner) {
+    const halfMargin = Math.abs(hs - as);
+    if (halfMargin >= 4) {
+      n += pick([
+        `${winner} were absolutely rampant, carving ${winner === home ? away : home} open at will. By the break, they had built an intimidating lead that felt insurmountable.`,
+        `${winner} simply blew ${winner === home ? away : home} away in a devastating opening period, sending a powerful message to everyone watching.`,
+      ]);
+    } else if (halfMargin >= 2) {
+      n += pick([
+        `${winner} controlled the tempo and carried a deserved lead into the interval, their composure and cutting edge proving the difference.`,
+        `${winner} held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.`,
+      ]);
+    } else {
+      n += pick([
+        `${winner} took a slender lead into half-time — nothing decisive, but enough to shift the psychological battle in their favour.`,
+        `The sides went in with ${winner} just in front, a narrow advantage that kept everything delicately poised.`,
+      ]);
+    }
+  } else {
+    n += pick([
+      `The two sides trudged off level at the break — nothing separating them in what was shaping up to be a classic arm-wrestle.`,
+      `By the interval it was impossible to call a winner. The contest was beautifully balanced, with everything still to play for.`,
+      `Half-time arrived with honours even, both managers undoubtedly pleased with elements of their side's performance.`,
+    ]);
+  }
+
+  return n;
+}
+
+function secondHalfNarrative(home, away, hs, as, gc2, gc2g, margin, gw, goalscorers, playerStats, homeSlug, awaySlug) {
+  const winner = hs > as ? home : as > hs ? away : null;
+  const loser = winner === home ? away : home;
+  const totalGoals = hs + as;
+
+  const reopeners = [
+    `The second half resumed with all to play for, and at the 27-minute mark the **${gc2}** Game Changer cranked up the intensity once more`,
+    `After the restart, the **${gc2}** Game Changer detonated at the 27th minute, turning the dial up to eleven`,
+    `The 27th minute brought the **${gc2}** Game Changer thundering into the match — a moment that would prove pivotal`,
+    `If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **${gc2}** entered the fray`,
+    `The tension was palpable at the restart, and the **${gc2}** Game Changer at 27 minutes only dialled it up`,
+  ];
+
+  let n = pick(reopeners);
+
+  if (gc2g >= 3) {
+    n += pick([
+      ` — and the mayhem resumed. **${gc2g}** more goals erupted during the window, transforming the contest into a full-blown classic.`,
+      ` — once again the goals rained down, **${gc2g}** of them, raw and relentless.`,
+      ` — the defensive discipline of the first half evaporated as **${gc2g}** goals thundered in during the activation.`,
+    ]);
+  } else if (gc2g >= 1) {
+    n += pick([
+      ` — and it delivered **${gc2g}** goal${gc2g > 1 ? 's' : ''} at just the right moment to breathe fresh life into the match.`,
+      ` — the **${gc2g}** goal${gc2g > 1 ? 's' : ''} it produced came at a crucial juncture, swinging momentum decisively.`,
+    ]);
+  } else {
+    n += pick([
+      ` — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework.`,
+      ` — yet both sides held their nerve superbly through the rule change, refusing to blink.`,
+    ]);
+  }
+
+  n += " ";
+
+  if (winner) {
+    if (margin >= 6) {
+      n += pick([
+        `${winner} showed absolutely no mercy, turning a commanding position into a full-blown annihilation. Every attack carried menace; every forward run spelled danger. ${loser} simply had no answer.`,
+        `What followed was a masterclass in clinical finishing. ${winner} ran ${loser} ragged, the scoreline a fair reflection of their total dominance.`,
+      ]);
+    } else if (margin >= 3) {
+      n += pick([
+        `${winner} managed the occasion expertly, balancing attacking ambition with game-control to see out a thoroughly deserved victory.`,
+        `The scoreboard didn't flatter ${winner} — they were simply better in every department, and ${loser} had no complaints.`,
+      ]);
+    } else if (margin >= 1) {
+      n += pick([
+        `The final exchanges were fraught with tension. ${loser} threw everything forward in search of a route back, but ${winner} held their nerve, defending with grit and intelligence to protect what they had.`,
+        `It was edge-of-your-seat stuff in the closing minutes. ${loser} pressed and probed, but ${winner}'s back-line stood firm — resilient, organised, and ultimately heroic.`,
+      ]);
+    }
+  } else {
+    n += pick([
+      `Both sides strained every sinew for a winner but the decisive blow never landed. A draw was the fairest outcome in a match where no team deserved to lose.`,
+      `Late drama threatened but never materialised, both teams having to accept a point apiece in what felt like a war of attrition.`,
+    ]);
+  }
+
+  if (totalGoals >= 10) {
+    n += pick([
+      ` The **${totalGoals}-goal** spectacle was the kind of match that Baller League was built for — pure, unfiltered entertainment.`,
+      ` This was Baller League at its most chaotic and brilliant — **${totalGoals}** goals, endless drama, and a match nobody in attendance will forget in a hurry.`,
+    ]);
+  }
+
+  return n;
+}
+
 function goalTimelineSection(goalscorers, playerStats, home, away, homeSlug, awaySlug) {
   if (!goalscorers || goalscorers.length === 0) return '';
 
@@ -440,7 +493,6 @@ function goalTimelineSection(goalscorers, playerStats, home, away, homeSlug, awa
     if (side === 'home') homeGoals.push(g);
     else if (side === 'away') awayGoals.push(g);
     else {
-      // Guess based on existing counts vs scores
       if (homeGoals.length < (hsGuess(goalscorers, playerStats, homeSlug, awaySlug).home || 0)) {
         homeGoals.push(g);
       } else {
@@ -451,27 +503,29 @@ function goalTimelineSection(goalscorers, playerStats, home, away, homeSlug, awa
 
   let s = '';
 
-  // Narrative paragraph
+  // Rich narrative timeline
   if (sorted.length > 0) {
-    const narrativeParts = sorted.map(g => {
-      const side = getScorerTeam(g.player, playerStats, homeSlug, awaySlug);
-      const teamName = side === 'home' ? home : side === 'away' ? away : '';
-      return `**${g.player}** ${teamName ? `(${teamName})` : ''} at ${g.minute}'`;
-    });
-    s += `Goals came thick and fast in this encounter. `;
-    const first = sorted[0];
-    const firstSide = getScorerTeam(first.player, playerStats, homeSlug, awaySlug);
-    s += `${first.player} opened the scoring in the ${first.minute}${ordinalSuffix(first.minute)} minute`;
+    const describer = (g, idx) => {
+      const prefix = idx === 0 ? pick([`Opened the scoring`, `Drew first blood`, `Broke the deadlock`]) : '';
+      if (prefix) return `${prefix} —`;
+      return '';
+    };
 
-    if (sorted.length > 1) {
-      const restParts = sorted.slice(1).map(g => `${g.player} (${g.minute}')`);
-      if (restParts.length <= 3) {
-        s += `, with goals following from ${restParts.join(', ')}`;
+    s += `The goals arrived in a dramatic sequence that told the story of the match:\n\n`;
+
+    for (let i = 0; i < sorted.length; i++) {
+      const g = sorted[i];
+      const side = getScorerTeam(g.player, playerStats, homeSlug, awaySlug);
+      const teamLabel = side === 'home' ? ` (${home})` : side === 'away' ? ` (${away})` : '';
+      if (i === 0) {
+        s += `- **${g.minute}′** — **${g.player}**${teamLabel} ${pick(['opened the scoring', 'drew first blood', 'broke the deadlock', 'fired the opener'])}\n`;
       } else {
-        s += `. Further goals came from ${restParts.slice(0, -1).join(', ')} and ${restParts[restParts.length - 1]}`;
+        const verbs = ['struck', 'scored', 'netted', 'found the target', 'converted', 'fired home', 'slotted'];
+        s += `- **${g.minute}′** — **${g.player}**${teamLabel} ${pick(verbs)}\n`;
       }
     }
-    s += `.\n\n`;
+
+    s += '\n';
   }
 
   // Timeline table
@@ -479,23 +533,48 @@ function goalTimelineSection(goalscorers, playerStats, home, away, homeSlug, awa
   for (const g of sorted) {
     const side = getScorerTeam(g.player, playerStats, homeSlug, awaySlug);
     const teamName = side === 'home' ? home : side === 'away' ? away : '—';
-    s += `| ${g.minute}' | ${g.player} | ${teamName} |\n`;
+    s += `| ${g.minute}′ | ${g.player} | ${teamName} |\n`;
   }
 
   return s;
 }
 
-function hsGuess(goalscorers, playerStats, homeSlug, awaySlug) {
-  let h = 0, a = 0;
-  for (const g of goalscorers) {
-    const side = getScorerTeam(g.player, playerStats, homeSlug, awaySlug);
-    if (side === 'home') h++;
-    else if (side === 'away') a++;
+function gcAnalysis(gc1, gc2, gc1g, gc2g, totalGoals, home, away, hs, as) {
+  const gcTotal = gc1g + gc2g;
+  const gcPct = totalGoals > 0 ? Math.round((gcTotal / totalGoals) * 100) : 0;
+  const dominantGC = gc1g > gc2g ? gc1 : gc1g < gc2g ? gc2 : null;
+  const dominantGCGoals = gc1g > gc2g ? gc1g : gc1g < gc2g ? gc2g : gc1g;
+
+  let analysis = '';
+
+  if (gcTotal >= 6) {
+    analysis += `The Game Changer period **took over this match**. With **${gcTotal}** of the **${totalGoals}** total goals coming during GC activations (${gcPct}%), the modified rules were not a sideshow — they *were* the show.\n\n`;
+    analysis += `The **${dominantGC || gc1}** activation was particularly devastating, producing **${dominantGCGoals}** goals that fundamentally altered the trajectory of the contest. `;
+    analysis += `When the GC window is this productive, traditional game plans go out the window — it becomes a test of who can adapt fastest to controlled chaos. On this evidence, the answer was both sides, and the paying fans were the real winners.`;
+  } else if (gcTotal >= 3) {
+    analysis += `The Game Changer period left a genuine imprint on this fixture, with the **${gc1}** and **${gc2}** activations generating **${gcTotal}** goals — **${gcPct}%** of the match's total output.\n\n`;
+    if (dominantGC) {
+      analysis += `The **${dominantGC}** window was the more impactful, its **${dominantGCGoals}** goal${dominantGCGoals > 1 ? 's' : ''} shifting the balance of the contest at a critical moment. `;
+    }
+    analysis += `Matches where the GC contributes this significantly tend to be remembered — the rule modifications force teams out of their comfort zones and into pure reactive mode, which is where the best (and worst) of Baller League football is often found.`;
+  } else if (gcTotal >= 1) {
+    analysis += `The Game Changer activations were relatively subdued by Baller League standards, yielding just **${gcTotal}** goal${gcTotal > 1 ? 's' : ''} from the two windows. That's **${gcPct}%** of the match's scoring — enough to matter, but far from dominant.\n\n`;
+    analysis += `This was more a match decided by the regular 6v6 phases than by the GC interventions. Credit to both sets of players for adapting quickly to the shifting rules without losing their shape — a sign of well-drilled, tactically aware squads.`;
+  } else {
+    analysis += `This was a statistical anomaly in the Baller League ecosystem: **zero goals** across two Game Changer activations.\n\n`;
+    analysis += `The **${gc1}** and **${gc2}** windows came and went with neither side able to capitalise on the modified rules. Defensive organisation won the day, with both teams demonstrating that even when the laws of the game shift beneath your feet, discipline and concentration can keep the door firmly shut. Matches like this serve as a reminder that Baller League isn't *all* about the GC — fundamentals still matter.`;
   }
-  return { home: h, away: a };
+
+  analysis += `\n\n| GC Activation | Type | Goals |\n`;
+  analysis += `|---------------|------|-------|\n`;
+  analysis += `| 1st Half (12′) | ${gc1} | ${gc1g} |\n`;
+  analysis += `| 2nd Half (27′) | ${gc2} | ${gc2g} |\n`;
+  analysis += `| **Total** | | **${gcTotal}** |\n`;
+
+  return analysis;
 }
 
-function matchPerformersSection(playerStats, homeSlug, awaySlug, home, away) {
+function matchPerformersSection(playerStats, homeSlug, awaySlug, home, away, goalscorers) {
   if (!playerStats || playerStats.length === 0) return '';
 
   const homePlayers = playerStats.filter(p => p.team === homeSlug && (p.goals > 0 || p.assists > 0));
@@ -505,8 +584,27 @@ function matchPerformersSection(playerStats, homeSlug, awaySlug, home, away) {
 
   let s = '';
 
+  // Find players who scored in this match
+  const scoredNames = new Set((goalscorers || []).map(g => g.player.toLowerCase()));
+
   if (homePlayers.length > 0) {
-    s += `### ${home} — This Match\n\n`;
+    const homeScorersInMatch = homePlayers.filter(p => scoredNames.has(p.name.toLowerCase()));
+    s += `### ${home}\n\n`;
+
+    if (homeScorersInMatch.length > 0) {
+      const topHome = homeScorersInMatch.sort((a, b) => b.goals - a.goals)[0];
+      if (topHome.goals >= 2) {
+        s += pick([
+          `**${topHome.name}** was ${home}'s standout performer, bagging **${topHome.goals} goals** in a display of clinical finishing that powered his side's effort.`,
+          `The standout for ${home} was undoubtedly **${topHome.name}**, whose **${topHome.goals}-goal** haul was the foundation of everything good about their display.`,
+        ]);
+        if (topHome.assists > 0) {
+          s += ` As if scoring wasn't enough, he also turned provider with **${topHome.assists} assist${topHome.assists > 1 ? 's' : ''}**.`;
+        }
+        s += '\n\n';
+      }
+    }
+
     s += `| Player | Goals | Assists | Shots | Passes |\n|--------|-------|---------|-------|--------|\n`;
     for (const p of homePlayers.sort((a, b) => b.goals - a.goals || b.assists - a.assists)) {
       s += `| ${p.name} | ${p.goals} | ${p.assists} | ${p.shots || 0} | ${p.passes || 0} |\n`;
@@ -515,7 +613,23 @@ function matchPerformersSection(playerStats, homeSlug, awaySlug, home, away) {
   }
 
   if (awayPlayers.length > 0) {
-    s += `### ${away} — This Match\n\n`;
+    const awayScorersInMatch = awayPlayers.filter(p => scoredNames.has(p.name.toLowerCase()));
+    s += `### ${away}\n\n`;
+
+    if (awayScorersInMatch.length > 0) {
+      const topAway = awayScorersInMatch.sort((a, b) => b.goals - a.goals)[0];
+      if (topAway.goals >= 2) {
+        s += pick([
+          `**${topAway.name}** led the charge for ${away}, his **${topAway.goals} goal${topAway.goals > 1 ? 's' : ''}** a testament to the kind of ruthless finishing that makes him a nightmare for opposing defences.`,
+          `${away} had **${topAway.name}** to thank, the forward delivering a **${topAway.goals}-goal** performance of the highest calibre.`,
+        ]);
+        if (topAway.assists > 0) {
+          s += ` He also chipped in with **${topAway.assists} assist${topAway.assists > 1 ? 's' : ''}** for good measure.`;
+        }
+        s += '\n\n';
+      }
+    }
+
     s += `| Player | Goals | Assists | Shots | Passes |\n|--------|-------|---------|-------|--------|\n`;
     for (const p of awayPlayers.sort((a, b) => b.goals - a.goals || b.assists - a.assists)) {
       s += `| ${p.name} | ${p.goals} | ${p.assists} | ${p.shots || 0} | ${p.passes || 0} |\n`;
@@ -529,7 +643,7 @@ function matchPerformersSection(playerStats, homeSlug, awaySlug, home, away) {
 function keyPerformersSection(home, away, homeScorers, awayScorers) {
   let s = '';
 
-  s += `### ${home} — Top Scorers\n\n`;
+  s += `### ${home} — Top Scorers (Season)\n\n`;
   if (homeScorers.length === 0) {
     s += `No goalscorers recorded for ${home} this season.\n\n`;
   } else {
@@ -541,7 +655,7 @@ function keyPerformersSection(home, away, homeScorers, awayScorers) {
     s += '\n';
   }
 
-  s += `### ${away} — Top Scorers\n\n`;
+  s += `### ${away} — Top Scorers (Season)\n\n`;
   if (awayScorers.length === 0) {
     s += `No goalscorers recorded for ${away} this season.\n\n`;
   } else {
@@ -560,14 +674,22 @@ function keyPerformersSection(home, away, homeScorers, awayScorers) {
     s += `**Key Attacking Threats**\n\n`;
     if (homeScorer) {
       const hs = homeScorer.seasons?.["3"] || {};
-      s += `- **${homeScorer.name}** — ${home}'s leading marksman with ${hs.goals || 0} goals in ${hs.apps || 0} appearances${hs.assists > 0 ? `, plus ${hs.assists} assists` : ''}. `;
-      if ((hs.goals || 0) >= 5) s += `One of the most consistent finishers in the league. `;
+      s += `- **${homeScorer.name}** — ${home}'s talisman with **${hs.goals || 0} goals** from **${hs.apps || 0} appearances**`;
+      if (hs.assists > 0) s += ` and **${hs.assists} assists**`;
+      s += `. `;
+      if ((hs.goals || 0) >= 12) s += `One of the league's elite finishers and the focal point of virtually every ${home} attack.`;
+      else if ((hs.goals || 0) >= 6) s += `A reliable and consistent outlet who defences have learned to fear.`;
+      else s += `A developing attacking presence with room to grow.`;
       s += `\n`;
     }
     if (awayScorer) {
       const as = awayScorer.seasons?.["3"] || {};
-      s += `- **${awayScorer.name}** — ${away}'s top scorer with ${as.goals || 0} goals${as.assists > 0 ? ` and ${as.assists} assists` : ''} from ${as.apps || 0} outings. `;
-      if ((as.goals || 0) >= 5) s += `A reliable source of goals for his side. `;
+      s += `- **${awayScorer.name}** — ${away}'s leading marksman with **${as.goals || 0} goals** from **${as.apps || 0} outings**`;
+      if (as.assists > 0) s += `, plus **${as.assists} assists**`;
+      s += `. `;
+      if ((as.goals || 0) >= 12) s += `A proven match-winner who carries ${away}'s main goal threat game after game.`;
+      else if ((as.goals || 0) >= 6) s += `${away} look to him whenever they need a moment of magic in the final third.`;
+      else s += `Still finding his rhythm but showing promising signs.`;
       s += `\n`;
     }
   }
@@ -578,89 +700,88 @@ function keyPerformersSection(home, away, homeScorers, awayScorers) {
 function seasonContextNarrative(home, away, homeSlug, awaySlug, homePosBefore, awayPosBefore, gw) {
   const totalGWs = 11;
   const remaining = totalGWs - gw;
-  let n = '';
-
   const homeTeamGoals = teamGoals(homeSlug);
   const awayTeamGoals = teamGoals(awaySlug);
   const homeAvg = teamAvgGoals(homeSlug);
   const awayAvg = teamAvgGoals(awaySlug);
   const leagueAvg = leagueAvgGoals();
 
-  n += `**${home}** came into this fixture averaging **${homeAvg} goals per game** (${homeTeamGoals} total from ${gw} matches), `;
-  n += homeAvg > leagueAvg ? `making them one of the more prolific attacking sides in the competition. ` : `with room for improvement in the final third. `;
+  let n = '';
 
-  n += `**${away}** arrived averaging **${awayAvg} goals per game** (${awayTeamGoals} total), `;
-  n += awayAvg > leagueAvg ? `showcasing their own attacking credentials. ` : `looking to find a sharper edge in front of goal. `;
+  n += `With **${remaining} gameweek${remaining > 1 ? 's' : ''}** left in the regular season, the stakes couldn't have been higher. `;
 
-  n += `\n\nWith the league average sitting at **${leagueAvg} goals per match**, `;
-  if (parseFloat(homeAvg) > parseFloat(leagueAvg) && parseFloat(awayAvg) > parseFloat(leagueAvg)) {
-    n += `this fixture promised goals — and both sides have consistently delivered above-par attacking output this season.`;
-  } else if (parseFloat(homeAvg) > parseFloat(leagueAvg)) {
-    n += `${home} have been among the league's entertainers while ${away} have been more conservative in their approach.`;
-  } else {
-    n += `the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.`;
+  n += `**${home}** entered this match averaging **${homeAvg} goals per game** — `;
+  n += parseFloat(homeAvg) > parseFloat(leagueAvg)
+    ? `a healthy attacking output that made them one of the division's more entertaining sides to watch. `
+    : `a number that reflected their struggles in front of goal this campaign. `;
+
+  n += `**${away}**, by contrast, arrived with an average of **${awayAvg} per outing** — `;
+  n += parseFloat(awayAvg) > parseFloat(leagueAvg)
+    ? `their forward line among the most feared in the league. `
+    : `a figure that highlighted the work still to be done in the final third. `;
+
+  n += `\n\nThe league-wide average stood at **${leagueAvg} goals per game**, a benchmark that underlined the high-octane nature of Baller League football. `;
+
+  if (remaining <= 3 && homePosBefore && homePosBefore <= 4) {
+    n += `For ${home}, sitting **${homePosBefore}${ordinalSuffix(homePosBefore)}** before kick-off, every remaining match carried the weight of a cup final. They ${homePosBefore <= 2 ? 'had one foot in the Final Four' : 'were right in the thick of the playoff scramble'}. `;
   }
-
-  if (remaining > 0) {
-    n += `\n\nWith just **${remaining} gameweek${remaining > 1 ? 's' : ''} remaining** in the regular season, every point was vital. `;
-    if (homePosBefore && homePosBefore <= 4) {
-      n += `${home} — sitting ${homePosBefore}${ordinalSuffix(homePosBefore)} — ${playoffContention(homePosBefore, gw) || 'are firmly in the playoff picture'}. `;
-    }
-    if (awayPosBefore && awayPosBefore <= 4) {
-      n += `${away} — ${awayPosBefore}${ordinalSuffix(awayPosBefore)} before kick-off — ${playoffContention(awayPosBefore, gw) || 'are well in the mix'}. `;
-    }
+  if (remaining <= 3 && awayPosBefore && awayPosBefore <= 4) {
+    n += `${away}, **${awayPosBefore}${ordinalSuffix(awayPosBefore)}** in the standings, knew that dropping points at this stage could prove catastrophic to their Final Four ambitions. `;
   }
 
   return n;
 }
 
-function tableImpactSection(home, away, homeSlug, awaySlug, homePosBefore, awayPosBefore, homePosAfter, awayPosAfter, gw) {
+function headToHeadSection(home, away, h2h) {
   let s = '';
+  if (h2h.played === 0) {
+    s += `This was the **maiden competitive meeting** between ${home} and ${away} — a historic first that will be recorded in the Baller League annals. Fresh rivalries are forged on nights like these.\n\n`;
+  } else {
+    s += `${home} and ${away} had locked horns **${h2h.played} time${h2h.played > 1 ? 's' : ''}** before this encounter, and the history books painted an intriguing picture. `;
+    if (h2h.won > h2h.lost) {
+      s += `${home} had the historical edge with **${h2h.won} win${h2h.won > 1 ? 's' : ''}** to ${away}'s **${h2h.lost}**, with **${h2h.drawn} draw${h2h.drawn !== 1 ? 's' : ''}** completing the record.`;
+    } else if (h2h.lost > h2h.won) {
+      s += `${away} held bragging rights with **${h2h.lost} win${h2h.lost > 1 ? 's' : ''}** to ${home}'s **${h2h.won}**, and **${h2h.drawn}** stalemate${h2h.drawn !== 1 ? 's' : ''} between them.`;
+    } else {
+      s += `The rivalry was dead even — **${h2h.won} win${h2h.won > 1 ? 's' : ''} each** with **${h2h.drawn} draw${h2h.drawn !== 1 ? 's' : ''}** — making every fresh meeting feel like a tie-breaker.`;
+    }
 
-  function posChange(team, slug, before, after) {
-    if (before === null || after === null) return `${team} held steady in the standings.`;
-    if (after < before) return `${team} climbed from ${before}${ordinalSuffix(before)} to ${after}${ordinalSuffix(after)}.`;
-    if (after > before) return `${team} dropped from ${before}${ordinalSuffix(before)} to ${after}${ordinalSuffix(after)}.`;
-    return `${team} remained ${after}${ordinalSuffix(after)} in the table.`;
+    if (h2h.results.length > 0) {
+      s += `\n\n| GW | Result |\n|-----|--------|\n`;
+      for (const r of h2h.results) {
+        s += `| ${r.gw} | ${home} ${r.homeScore}-${r.awayScore} ${away} |\n`;
+      }
+    }
+
+    s += `\n`;
+    s += `\n| H2H Stat | ${home} | ${away} |\n`;
+    s += `|----------|${'-'.repeat(Math.max(home.length + 2, 4))}|${'-'.repeat(Math.max(away.length + 2, 4))}|\n`;
+    s += `| Wins | ${h2h.won} | ${h2h.lost} |\n`;
+    s += `| Draws | ${h2h.drawn} | ${h2h.drawn} |\n`;
+    s += `| Goals Scored | ${h2h.gf} | ${h2h.ga} |\n\n`;
+    s += `Total head-to-head goals: **${h2h.gf + h2h.ga}** across all meetings.\n\n`;
   }
-
-  s += `| Team | Before GW${gw} | After GW${gw} | Change |\n`;
-  s += `|------|-------------|-------------|--------|\n`;
-  s += `| ${home} | ${homePosBefore !== null ? homePosBefore + ordinalSuffix(homePosBefore) : '—'} | ${homePosAfter !== null ? homePosAfter + ordinalSuffix(homePosAfter) : '—'} | ${posChange(home, homeSlug, homePosBefore, homePosAfter)} |\n`;
-  s += `| ${away} | ${awayPosBefore !== null ? awayPosBefore + ordinalSuffix(awayPosBefore) : '—'} | ${awayPosAfter !== null ? awayPosAfter + ordinalSuffix(awayPosAfter) : '—'} | ${posChange(away, awaySlug, awayPosBefore, awayPosAfter)} |\n`;
 
   return s;
 }
 
-function headToHeadSection(home, away, h2h) {
+function tableImpactSection(home, away, homeSlug, awaySlug, homePosBefore, awayPosBefore, homePosAfter, awayPosAfter, gw) {
   let s = '';
-  if (h2h.played === 0) {
-    s += `This was the **first ever competitive meeting** between ${home} and ${away} — a historic occasion that adds a new chapter to the Baller League record books.\n\n`;
-  } else {
-    s += `${home} and ${away} had faced each other **${h2h.played} time${h2h.played > 1 ? 's' : ''}** prior to this match. `;
-    if (h2h.won > h2h.lost) {
-      s += `${home} held the upper hand with **${h2h.won} win${h2h.won > 1 ? 's' : ''}** to ${away}'s ${h2h.lost}, with ${h2h.drawn} draw${h2h.drawn !== 1 ? 's' : ''} between them.`;
-    } else if (h2h.lost > h2h.won) {
-      s += `${away} had the historical edge with **${h2h.lost} win${h2h.lost > 1 ? 's' : ''}** to ${home}'s ${h2h.won}, alongside ${h2h.drawn} draw${h2h.drawn !== 1 ? 's' : ''}.`;
-    } else {
-      s += `The rivalry was finely balanced with **${h2h.won} win${h2h.won > 1 ? 's' : ''} each** and ${h2h.drawn} draw${h2h.drawn !== 1 ? 's' : ''}.`;
-    }
 
-    if (h2h.results.length > 0) {
-      s += `\n\n`;
-      s += `| GW | Result |\n|-----|--------|\n`;
-      for (const r of h2h.results) {
-        s += `| ${r.gw} | ${home} ${r.homeScore}-${r.awayScore} ${away} |\n`;
-      }
-      s += '\n';
-    }
-
-    s += `\n| Stat | ${home} | ${away} |\n`;
-    s += `|------|${'-'.repeat(Math.max(home.length + 2, 4))}|${'-'.repeat(Math.max(away.length + 2, 4))}|\n`;
-    s += `| Wins in H2H | ${h2h.won} | ${h2h.lost} |\n`;
-    s += `| Draws | ${h2h.drawn} | ${h2h.drawn} |\n`;
-    s += `| Goals Scored | ${h2h.gf} | ${h2h.ga} |\n\n`;
+  function posChange(team, before, after) {
+    if (before === null || after === null) return `${team} held steady`;
+    if (after < before) return `${team} climbed to **${after}${ordinalSuffix(after)}**`;
+    if (after > before) return `${team} dropped to **${after}${ordinalSuffix(after)}**`;
+    return `${team} stayed at **${after}${ordinalSuffix(after)}**`;
   }
+
+  s += `${posChange(home, homePosBefore, homePosAfter)}, `;
+  s += `${posChange(away, awayPosBefore, awayPosAfter).toLowerCase()}.\n\n`;
+
+  s += `| Team | Before GW${gw} | After GW${gw} |\n`;
+  s += `|------|-------------|-------------|\n`;
+  s += `| ${home} | ${homePosBefore !== null ? homePosBefore + ordinalSuffix(homePosBefore) : '—'} | ${homePosAfter !== null ? homePosAfter + ordinalSuffix(homePosAfter) : '—'} |\n`;
+  s += `| ${away} | ${awayPosBefore !== null ? awayPosBefore + ordinalSuffix(awayPosBefore) : '—'} | ${awayPosAfter !== null ? awayPosAfter + ordinalSuffix(awayPosAfter) : '—'} |\n`;
 
   return s;
 }
@@ -670,26 +791,24 @@ function matchFacts(home, away, hs, as, gc1, gc2, gc1g, gc2g, gw, margin, homeTo
   const gcTotal = gc1g + gc2g;
   const facts = [];
 
-  facts.push(`This was a Gameweek ${gw} fixture at Baller Arena`);
-  facts.push(`The Game Changers selected were ${gc1} and ${gc2}`);
+  if (totalGoals >= 12) facts.push(`A staggering **${totalGoals}-goal spectacle** — one of the highest-scoring matches in Baller League history`);
+  else if (totalGoals >= 8) facts.push(`A **${totalGoals}-goal thriller** that lived up to every pre-match expectation`);
+  else if (totalGoals <= 2) facts.push(`A tight defensive contest with just **${totalGoals} goal${totalGoals > 1 ? 's' : ''}** — proof that low-scoring doesn't mean low-drama`);
 
-  if (totalGoals >= 10) facts.push(`This ${totalGoals}-goal thriller was one of the highest-scoring matches of Gameweek ${gw}`);
-  if (totalGoals <= 2) facts.push(`A tight defensive battle with just ${totalGoals} goal${totalGoals > 1 ? 's' : ''} scored`);
-  if (gcTotal >= 7) facts.push(`The Game Changer period produced an extraordinary ${gcTotal} goals`);
-  if (gcTotal === 0) facts.push(`This was a rare match where neither Game Changer produced a goal`);
-  if (margin >= 5) facts.push(`The ${margin}-goal winning margin was among the biggest of Gameweek ${gw}`);
+  if (gcTotal >= 7) facts.push(`The GC period exploded with **${gcTotal} goals** — an extraordinary return from just two rule-change windows`);
+  else if (gcTotal === 0) facts.push(`A rare clean sheet for both defences during the GC periods — neither the **${gc1}** nor the **${gc2}** forced a breakthrough`);
+  else if (gcTotal > 0) facts.push(`**${gcTotal} of ${totalGoals} goals (${Math.round(gcTotal / totalGoals * 100)}%)** came during Game Changer activations`);
+
+  if (margin >= 5) facts.push(`The **${margin}-goal margin** represented a statement victory, one of the most one-sided results of Gameweek ${gw}`);
+  if (margin <= 1 && hs !== as) facts.push(`A **one-goal game** decided by the narrowest of margins — the small details made all the difference`);
 
   if (homeTopScorer) {
     const hg = homeTopScorer.seasons?.["3"]?.goals || 0;
-    facts.push(`${homeTopScorer.name} leads ${home} with ${hg} goals this season`);
+    if (hg >= 10) facts.push(`${homeTopScorer.name} continues to lead ${home} with **${hg} goals** — firmly among the league's elite marksmen`);
   }
   if (awayTopScorer) {
     const ag = awayTopScorer.seasons?.["3"]?.goals || 0;
-    facts.push(`${awayTopScorer.name} tops ${away}'s scoring charts with ${ag} goals`);
-  }
-
-  if (gc1g + gc2g > 0) {
-    facts.push(`${gcTotal} of the ${totalGoals} goals (${Math.round(gcTotal / totalGoals * 100)}%) came from Game Changer activations`);
+    if (ag >= 10) facts.push(`${awayTopScorer.name} heads ${away}'s scoring charts with **${ag} goals**, a tally any forward would be proud of`);
   }
 
   return facts.map(f => `- ${f}`).join('\n');
@@ -701,20 +820,20 @@ function whatNextSection(home, away, homeNext, awayNext) {
   s += `### ${home}\n`;
   if (homeNext) {
     const opp = homeNext.homeTeam === home ? homeNext.awayTeam : homeNext.homeTeam;
-    s += `${home} face **${opp}** in Gameweek ${homeNext.gameweek}. `;
-    s += `This will be another crucial fixture as the season enters its decisive phase.\n\n`;
+    s += `Next up: **${opp}** in Gameweek ${homeNext.gameweek}. `;
   } else {
-    s += `${home} await confirmation of their next fixture.\n\n`;
+    s += `Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. `;
   }
+  s += `\n\n`;
 
   s += `### ${away}\n`;
   if (awayNext) {
     const opp = awayNext.homeTeam === away ? awayNext.awayTeam : awayNext.homeTeam;
-    s += `${away} take on **${opp}** in Gameweek ${awayNext.gameweek}. `;
-    s += `They will be looking to bounce back and keep their season on track.\n\n`;
+    s += `Next up: **${opp}** in Gameweek ${awayNext.gameweek}. `;
   } else {
-    s += `${away} await confirmation of their next fixture.\n\n`;
+    s += `Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. `;
   }
+  s += `\n\n`;
 
   return s;
 }
@@ -725,23 +844,31 @@ function titleVariations(home, away, hs, as, gw, winner, loser, margin) {
       return pick([
         `${winner} Run Riot Against ${loser} in ${hs}-${as} Demolition — GW${gw}`,
         `${winner} Annihilate ${loser} ${hs}-${as} in Statement Victory — GW${gw}`,
+        `${winner} Obliterate ${loser} ${hs}-${as} in Crushing GW${gw} Display`,
+        `${winner} Destroy ${loser} ${hs}-${as} in Total Domination — GW${gw}`,
       ]);
     }
     if (margin >= 4) {
       return pick([
         `${winner} Overpower ${loser} ${hs}-${as} in Dominant Display — GW${gw}`,
         `${winner} Cruise Past ${loser} in ${hs}-${as} Rout — GW${gw}`,
+        `${winner} Brush ${loser} Aside ${hs}-${as} in Confident Showing — GW${gw}`,
+        `${winner} Too Strong for ${loser} in ${hs}-${as} Victory — GW${gw}`,
       ]);
     }
     if (margin >= 2) {
       return pick([
         `${winner} Beat ${loser} ${hs}-${as} in Entertaining GW${gw} Clash`,
         `${winner} See Off ${loser} ${hs}-${as} in Gameweek ${gw}`,
+        `${winner} Claim ${hs}-${as} Win Over ${loser} in GW${gw}`,
+        `${winner} Down ${loser} ${hs}-${as} in Hard-Fought GW${gw} Battle`,
       ]);
     }
     return pick([
       `${winner} Edge ${loser} ${hs}-${as} in GW${gw} Thriller`,
       `${winner} Scrape Past ${loser} ${hs}-${as} in Tight GW${gw} Contest`,
+      `${winner} Narrowly Beat ${loser} ${hs}-${as} in GW${gw} Nail-biter`,
+      `${winner} Pip ${loser} ${hs}-${as} in Tense GW${gw} Encounter`,
     ]);
   }
   // draw
@@ -749,11 +876,14 @@ function titleVariations(home, away, hs, as, gw, winner, loser, margin) {
     return pick([
       `${home} and ${away} Share ${hs}-${as} Goal Fest in GW${gw}`,
       `${home} and ${away} Play Out ${hs}-${as} Classic in Gameweek ${gw}`,
+      `${home} and ${away} Serve Up ${hs}-${as} Epic in GW${gw}`,
     ]);
   }
   return pick([
     `${home} and ${away} Deadlocked at ${hs}-${as} in GW${gw}`,
     `${home} and ${away} Play Out ${hs}-${as} Draw in Gameweek ${gw}`,
+    `${home} and ${away} Finish ${hs}-${as} in Hard-Fought GW${gw} Draw`,
+    `${home} and ${away} Split the Points in ${hs}-${as} GW${gw} Stalemate`,
   ]);
 }
 
@@ -793,8 +923,8 @@ function generateReport(match) {
   const gc2g = match.gamechanger2.goalsScored;
   const gcTotal = gc1g + gc2g;
 
-  const homeNext = fixturesData.upcoming.find(f => f.homeSlug === match.homeSlug || f.awaySlug === match.homeSlug);
-  const awayNext = fixturesData.upcoming.find(f => f.homeSlug === match.awaySlug || f.awaySlug === match.awaySlug);
+  const homeNext = fixturesData.upcoming.find(f => f.gameweek > gw && (f.homeSlug === match.homeSlug || f.awaySlug === match.homeSlug));
+  const awayNext = fixturesData.upcoming.find(f => f.gameweek > gw && (f.homeSlug === match.awaySlug || f.awaySlug === match.awaySlug));
 
   const goalscorers = match.goalscorers || [];
   const playerStats = match.playerStats || [];
@@ -822,7 +952,7 @@ featured: ${totalGoals >= 10}
 
 ## Match Summary — ${home} ${hs}-${as} ${away}
 
-${matchSummaryNarrative(home, away, hs, as, gw, homePosBefore, awayPosBefore, homeForm, awayForm, gc1, gc2, gc1g, gc2g)}
+${matchSummaryNarrative(home, away, hs, as, gw, homePosBefore, awayPosBefore, homeForm, awayForm, gc1, gc2, gc1g, gc2g, goalscorers, playerStats, match.homeSlug, match.awaySlug)}
 
 ${homeForm.length > 0 ? `**${home} form (before GW${gw}):** ${formString(homeForm)} (${formStringText(homeForm)})  \n` : ""}${awayForm.length > 0 ? `**${away} form (before GW${gw}):** ${formString(awayForm)} (${formStringText(awayForm)})` : ""}
 
@@ -832,11 +962,11 @@ ${homeForm.length > 0 ? `**${home} form (before GW${gw}):** ${formString(homeFor
 
 ### First Half
 
-${firstHalfNarrative(home, away, hs, as, gc1, gc1g, gc2g, margin)}
+${firstHalfNarrative(home, away, hs, as, gc1, gc1g, gc2g, margin, goalscorers, playerStats, match.homeSlug, match.awaySlug)}
 
 ### Second Half
 
-${secondHalfNarrative(home, away, hs, as, gc2, gc2g, Math.abs(margin), gw)}
+${secondHalfNarrative(home, away, hs, as, gc2, gc2g, Math.abs(margin), gw, goalscorers, playerStats, match.homeSlug, match.awaySlug)}
 
 ---
 
@@ -854,7 +984,7 @@ ${gcAnalysis(gc1, gc2, gc1g, gc2g, totalGoals, home, away, hs, as)}
 
 ## Match Performers
 
-${matchPerformersSection(playerStats, match.homeSlug, match.awaySlug, home, away)}
+${matchPerformersSection(playerStats, match.homeSlug, match.awaySlug, home, away, goalscorers)}
 
 ---
 

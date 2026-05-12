@@ -59,18 +59,8 @@ for (const arr of Object.values(resultsByGW)) {
   arr.sort((a: any, b: any) => (a._gameId || 0) - (b._gameId || 0));
 }
 
-// Global match index — must match match/[id].astro ordering
-const _allMatchesGlobal: any[] = [];
-for (const [, season] of Object.entries(gcData.seasons)) {
-  for (const m of (season as any).matches as any[]) {
-    if (m.homeScore === 0 && m.awayScore === 0 && m.gamechanger1?.type === 'unknown') continue;
-    _allMatchesGlobal.push(m);
-  }
-}
-
-function getMatchIndex(match: any): number {
-  const idx = _allMatchesGlobal.findIndex((x: any) => x.homeTeam === match.homeTeam && x.awayTeam === match.awayTeam && x.gameweek === match.gameweek);
-  return idx >= 0 ? idx + 1 : 1;
+function matchSlug(match: any): string {
+  return `s3-${match.homeSlug}-vs-${match.awaySlug}-gw${match.gameweek}`;
 }
 
 function getForm(slug: string): { label: string; cls: string }[] {
@@ -179,7 +169,7 @@ function getForm(slug: string): { label: string; cls: string }[] {
           {gws.map(gw => (
             <div data-gw={gw} style={`display:${gw === maxGW ? 'contents' : 'none'}`}>
               {(resultsByGW[gw] || []).map((m: any) => (
-                <a href={`/match/${getMatchIndex(m)}`} class="fixture-card fixture-result-card">
+                <a href={`/match/${matchSlug(m)}`} class="fixture-card fixture-result-card">
                   <div class="fixture-team home">
                     <img src={`/logos/${m.homeSlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt={m.homeTeam} />
                     <span class="fixture-team-name">{m.homeTeam}</span>

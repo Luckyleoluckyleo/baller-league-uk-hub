@@ -25,7 +25,7 @@ The last meeting saw Rukkas FC defeat Deportrio 4-4.
 ## Key Players
 
 **Jay Emmanuel-Thomas** — Deportrio's top scorer with 18 goals and 6 assists this season (Striker).
-**Mussa Bham** — leads Rukkas FC's attack with 7 goals in 9 appearances.
+**Mussa Bham** — leads Rukkas FC's attack with 8 goals in 10 appearances.
 
 ## Game Changer X-Factor
 

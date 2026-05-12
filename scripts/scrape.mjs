@@ -168,8 +168,8 @@ function parseGoalscorersFromTimeline(html) {
     if (!minuteM) continue;
     const minute = parseInt(minuteM[1]);
 
-    // Check if this is a goal (has "Goal" subtext, not "GAME CHANGER" or player names in substitution)
-    if (blockHtml.includes(">Goal<")) {
+    // Check if this is a goal (has "Goal", "Penalty", or "Own Goal" subtext)
+    if (/>(Goal|Pen.+?y|Own\s*Goal)</i.test(blockHtml)) {
       // Extract player name - the div with color: white and font-weight: bold
       const nameM = blockHtml.match(/<div style="color:\s*white[^"]*font-weight:\s*bold[^"]*">([^<]+)<\/div>/);
       if (nameM) {

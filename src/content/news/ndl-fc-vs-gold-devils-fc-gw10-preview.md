@@ -2,7 +2,7 @@
 title: "Gameweek 10 Preview: NDL FC vs Gold Devils FC"
 date: 2026-05-12
 category: "Preview"
-excerpt: "NDL FC (1st) host Gold Devils FC (10th) in Gameweek 10. Sam Fitzgerald (8 goals) leads NDL FC."
+excerpt: "NDL FC (1st) host Gold Devils FC (10th) in Gameweek 10. Dara Dada (8 goals) leads NDL FC."
 author: "Baller League UK Fan Site"
 featured: false
 ---
@@ -24,8 +24,8 @@ The last meeting saw NDL FC defeat Gold Devils FC 4-2.
 
 ## Key Players
 
-**Sam Fitzgerald** — NDL FC's top scorer with 8 goals and 4 assists this season (Midfielder).
-**Bilal Sayoud** — leads Gold Devils FC's attack with 7 goals in 9 appearances.
+**Dara Dada** — NDL FC's top scorer with 8 goals and 5 assists this season (Midfielder).
+**Bilal Sayoud** — leads Gold Devils FC's attack with 8 goals in 10 appearances.
 
 ## Game Changer X-Factor
 

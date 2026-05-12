@@ -2,7 +2,7 @@
 title: "Gameweek 10 Preview: N5 FC vs VZN FC"
 date: 2026-05-12
 category: "Preview"
-excerpt: "N5 FC (7th) host VZN FC (8th) in Gameweek 10. Michael Hill (16 goals) leads N5 FC."
+excerpt: "N5 FC (7th) host VZN FC (8th) in Gameweek 10. Michael Hill (18 goals) leads N5 FC."
 author: "Baller League UK Fan Site"
 featured: false
 ---
@@ -24,8 +24,8 @@ The last meeting saw VZN FC defeat N5 FC 7-6.
 
 ## Key Players
 
-**Michael Hill** — N5 FC's top scorer with 16 goals and 6 assists this season (Midfielder).
-**George Nikaj** — leads VZN FC's attack with 8 goals in 7 appearances.
+**Michael Hill** — N5 FC's top scorer with 18 goals and 6 assists this season (Midfielder).
+**George Nikaj** — leads VZN FC's attack with 9 goals in 8 appearances.
 
 ## Game Changer X-Factor
 

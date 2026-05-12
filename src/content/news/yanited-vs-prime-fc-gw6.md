@@ -2,16 +2,16 @@
 title: "Prime FC Annihilate Yanited 1-8 in Statement Victory — GW6"
 date: 2026-05-12
 category: "Match Report"
-excerpt: "Yanited 1-8 Prime FC — Gameweek 6 match report. Kadell Daniel (11 goals) leads Yanited's attack. Game Changers: 3Play (3) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Yanited 1-8 Prime FC — Gameweek 6 match report. Kadell Daniel (14 goals) leads Yanited's attack. Game Changers: 3Play (3) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: false
 ---
 
 ## Match Summary — Yanited 1-8 Prime FC
 
-Yanited took on Prime FC in a Gameweek 6 clash, with Yanited sitting 3rd and looking to strengthen their playoff push against 8th-placed Prime FC.
+Baller Arena buzzed with anticipation as **Yanited** and **Prime FC** delivered an unforgettable thriller packed with drama and goals.
 
-Prime FC produced a statement performance, dismantling Yanited 1-8 with a ruthless attacking display that will send a message to the rest of the league. The Game Changer period played a key role, with the 3Play and Fairplay activations contributing 3 goals to a match that saw 9 in total.
+Yanited came in occupying a coveted playoff spot at 3rd, while Prime FC were desperate to crash the party. When the dust settled, it was **Prime FC** who emerged **1-8** victors, ending Yanited's impressive winning run in the process. The Game Changer window — **3Play** and **Fairplay** — proved pivotal, contributing **3** of the match's **9** goals.
 
 **Yanited form (before GW6):** ✅ ❌ ✅ 🤝 ✅ (W-L-W-D-W)  
 **Prime FC form (before GW6):** 🤝 ❌ ✅ ✅ ✅ (D-L-W-W-W)
@@ -22,56 +22,70 @@ Prime FC produced a statement performance, dismantling Yanited 1-8 with a ruthle
 
 ### First Half
 
-The 3Play Game Changer kicked in at the 12th minute, generating 3 goals that set the tempo for the half. Prime FC flew out of the blocks, overwhelming Yanited with wave after wave of attacks.
+The first half sprang into life at the 12-minute mark with the **3Play** Game Changer flicking the switch — and the floodgates opened with **3** goals flying in, the crowd barely able to keep up with the relentless action. Prime FC simply blew Yanited away in a devastating opening period, sending a powerful message to everyone watching.
 
 ### Second Half
 
-At the 27-minute mark, the Fairplay Game Changer came into play, but neither side could capitalise on the modified rules. Prime FC continued their onslaught, putting the game well beyond Yanited's reach in a relentless second-half showing.
+The 27th minute brought the **Fairplay** Game Changer thundering into the match — a moment that would prove pivotal — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. Prime FC showed absolutely no mercy, turning a commanding position into a full-blown annihilation. Every attack carried menace; every forward run spelled danger. Yanited simply had no answer.
 
 ---
 
 ## Goal Timeline
 
-Goals came thick and fast in this encounter. Sak Hassan opened the scoring in the 2nd minute. Further goals came from Francis Gerard Mampolo (2'), Stefan Ilic (4'), Bráulio Valera Pinto Maieco (6'), Paul-José M&#039;Poku (12'), Francis Gerard Mampolo (13'), Francis Gerard Mampolo (14') and Francis Gerard Mampolo (19').
+The goals arrived in a dramatic sequence that told the story of the match:
+
+- **2′** — **Sak Hassan** (Prime FC) opened the scoring
+- **2′** — **Francis Gerard Mampolo** (Prime FC) netted
+- **4′** — **Stefan Ilic** (Prime FC) found the target
+- **6′** — **Bráulio Valera Pinto Maieco** (Prime FC) netted
+- **12′** — **Paul-José M&#039;Poku** (Yanited) struck
+- **13′** — **Francis Gerard Mampolo** (Prime FC) found the target
+- **14′** — **Francis Gerard Mampolo** (Prime FC) found the target
+- **16′** — **Sak Hassan** (Prime FC) slotted
+- **19′** — **Francis Gerard Mampolo** (Prime FC) converted
 
 | Minute | Player | Team |
 |--------|--------|------|
-| 2' | Sak Hassan | Prime FC |
-| 2' | Francis Gerard Mampolo | Prime FC |
-| 4' | Stefan Ilic | Prime FC |
-| 6' | Bráulio Valera Pinto Maieco | Prime FC |
-| 12' | Paul-José M&#039;Poku | Yanited |
-| 13' | Francis Gerard Mampolo | Prime FC |
-| 14' | Francis Gerard Mampolo | Prime FC |
-| 19' | Francis Gerard Mampolo | Prime FC |
+| 2′ | Sak Hassan | Prime FC |
+| 2′ | Francis Gerard Mampolo | Prime FC |
+| 4′ | Stefan Ilic | Prime FC |
+| 6′ | Bráulio Valera Pinto Maieco | Prime FC |
+| 12′ | Paul-José M&#039;Poku | Yanited |
+| 13′ | Francis Gerard Mampolo | Prime FC |
+| 14′ | Francis Gerard Mampolo | Prime FC |
+| 16′ | Sak Hassan | Prime FC |
+| 19′ | Francis Gerard Mampolo | Prime FC |
 
 
 ---
 
 ## Game Changer Impact — 3Play & Fairplay
 
-The Game Changer period proved influential in this match, with the 3Play and Fairplay activations combining for 3 goals — accounting for 33% of the match's total scoring.
+The Game Changer period left a genuine imprint on this fixture, with the **3Play** and **Fairplay** activations generating **3** goals — **33%** of the match's total output.
+
+The **3Play** window was the more impactful, its **3** goals shifting the balance of the contest at a critical moment. Matches where the GC contributes this significantly tend to be remembered — the rule modifications force teams out of their comfort zones and into pure reactive mode, which is where the best (and worst) of Baller League football is often found.
 
 | GC Activation | Type | Goals |
 |---------------|------|-------|
-| 1st Half (12') | 3Play | 3 |
-| 2nd Half (27') | Fairplay | 0 |
+| 1st Half (12′) | 3Play | 3 |
+| 2nd Half (27′) | Fairplay | 0 |
 | **Total** | | **3** |
 
-The Game Changer period brought a modest 3 goals, with the modified rules creating chances but not overwhelming the flow of the match. This was more about tactical adjustments than the chaos that sometimes defines GC activations.
 
 ---
 
 ## Match Performers
 
-### Yanited — This Match
+### Yanited
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
 | Paul-José M&#039;Poku | 1 | 0 | 1 | 8 |
 | John Bostock | 0 | 1 | 3 | 15 |
 
-### Prime FC — This Match
+### Prime FC
+
+**Francis Gerard Mampolo** led the charge for Prime FC, his **4 goals** a testament to the kind of ruthless finishing that makes him a nightmare for opposing defences. He also chipped in with **2 assists** for good measure.
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
@@ -88,47 +102,45 @@ The Game Changer period brought a modest 3 goals, with the modified rules creati
 
 ## Key Players & Season Stats
 
-### Yanited — Top Scorers
+### Yanited — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kadell Daniel | 11 | 3 | 6 |
-| Tyrell Miller-Rodney | 6 | 3 | 8 |
-| John Bostock | 4 | 1 | 6 |
+| Kadell Daniel | 14 | 3 | 7 |
+| Tyrell Miller-Rodney | 6 | 3 | 9 |
+| John Bostock | 4 | 1 | 7 |
+| Michael Folivi | 2 | 1 | 8 |
 | Paul-José M&#039;Poku | 2 | 2 | 7 |
-| Nathan Oduwa | 1 | 2 | 8 |
 
-### Prime FC — Top Scorers
+### Prime FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Francis Gerard Mampolo | 15 | 4 | 9 |
-| Bráulio Valera Pinto Maieco | 9 | 0 | 9 |
-| Timmy Abraham | 7 | 2 | 9 |
-| Ergys Pepaj | 6 | 2 | 9 |
-| Sak Hassan | 5 | 4 | 8 |
+| Francis Gerard Mampolo | 17 | 4 | 10 |
+| Bráulio Valera Pinto Maieco | 9 | 0 | 10 |
+| Timmy Abraham | 7 | 2 | 10 |
+| Ergys Pepaj | 6 | 2 | 10 |
+| Sak Hassan | 5 | 5 | 9 |
 
 **Key Attacking Threats**
 
-- **Kadell Daniel** — Yanited's leading marksman with 11 goals in 6 appearances, plus 3 assists. One of the most consistent finishers in the league. 
-- **Francis Gerard Mampolo** — Prime FC's top scorer with 15 goals and 4 assists from 9 outings. A reliable source of goals for his side. 
+- **Kadell Daniel** — Yanited's talisman with **14 goals** from **7 appearances** and **3 assists**. One of the league's elite finishers and the focal point of virtually every Yanited attack.
+- **Francis Gerard Mampolo** — Prime FC's leading marksman with **17 goals** from **10 outings**, plus **4 assists**. A proven match-winner who carries Prime FC's main goal threat game after game.
 
 
 ---
 
 ## Season Context
 
-**Yanited** came into this fixture averaging **3.4 goals per game** (61 total from 6 matches), with room for improvement in the final third. **Prime FC** arrived averaging **4.9 goals per game** (49 total), looking to find a sharper edge in front of goal. 
+With **5 gameweeks** left in the regular season, the stakes couldn't have been higher. **Yanited** entered this match averaging **3.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **Prime FC**, by contrast, arrived with an average of **4.9 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-With the league average sitting at **7.2 goals per match**, the tactical contrast between these two sides added an intriguing layer to the pre-match narrative.
-
-With just **5 gameweeks remaining** in the regular season, every point was vital. Yanited — sitting 3rd — are well placed in the Final Four race. 
+The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
 ## Head-to-Head History
 
-This was the **first ever competitive meeting** between Yanited and Prime FC — a historic occasion that adds a new chapter to the Baller League record books.
+This was the **maiden competitive meeting** between Yanited and Prime FC — a historic first that will be recorded in the Baller League annals. Fresh rivalries are forged on nights like these.
 
 
 
@@ -136,10 +148,12 @@ This was the **first ever competitive meeting** between Yanited and Prime FC —
 
 ## Table Impact
 
-| Team | Before GW6 | After GW6 | Change |
-|------|-------------|-------------|--------|
-| Yanited | 3rd | 7th | Yanited dropped from 3rd to 7th. |
-| Prime FC | 8th | 8th | Prime FC remained 8th in the table. |
+Yanited dropped to **7th**, prime fc stayed at **8th**.
+
+| Team | Before GW6 | After GW6 |
+|------|-------------|-------------|
+| Yanited | 3rd | 7th |
+| Prime FC | 8th | 8th |
 
 
 ---
@@ -157,22 +171,21 @@ This was the **first ever competitive meeting** between Yanited and Prime FC —
 
 ## Match Facts
 
-- This was a Gameweek 6 fixture at Baller Arena
-- The Game Changers selected were 3Play and Fairplay
-- The 7-goal winning margin was among the biggest of Gameweek 6
-- Kadell Daniel leads Yanited with 11 goals this season
-- Francis Gerard Mampolo tops Prime FC's scoring charts with 15 goals
-- 3 of the 9 goals (33%) came from Game Changer activations
+- A **9-goal thriller** that lived up to every pre-match expectation
+- **3 of 9 goals (33%)** came during Game Changer activations
+- The **7-goal margin** represented a statement victory, one of the most one-sided results of Gameweek 6
+- Kadell Daniel continues to lead Yanited with **14 goals** — firmly among the league's elite marksmen
+- Francis Gerard Mampolo heads Prime FC's scoring charts with **17 goals**, a tally any forward would be proud of
 
 ---
 
 ## What's Next
 
 ### Yanited
-Yanited face **SDS FC** in Gameweek 10. This will be another crucial fixture as the season enters its decisive phase.
+Next up: **SDS FC** in Gameweek 10. 
 
 ### Prime FC
-Prime FC take on **Community FC** in Gameweek 10. They will be looking to bounce back and keep their season on track.
+Next up: **Community FC** in Gameweek 10. 
 
 
 

@@ -25,7 +25,7 @@ The last meeting saw SDS FC defeat Yanited 2-2.
 ## Key Players
 
 **Connor Wood** — SDS FC's top scorer with 6 goals and 2 assists this season (Defender).
-**Kadell Daniel** — leads Yanited's attack with 11 goals in 6 appearances.
+**Kadell Daniel** — leads Yanited's attack with 14 goals in 7 appearances.
 
 ## Game Changer X-Factor
 

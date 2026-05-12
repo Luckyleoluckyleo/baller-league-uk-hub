@@ -2,7 +2,7 @@
 title: "Gameweek 10 Preview: Prime FC vs Community FC"
 date: 2026-05-12
 category: "Preview"
-excerpt: "Prime FC (4th) host Community FC (11th) in Gameweek 10. Francis Gerard Mampolo (15 goals) leads Prime FC."
+excerpt: "Prime FC (4th) host Community FC (11th) in Gameweek 10. Francis Gerard Mampolo (17 goals) leads Prime FC."
 author: "Baller League UK Fan Site"
 featured: false
 ---
@@ -24,8 +24,8 @@ The last meeting saw Community FC defeat Prime FC 2-2.
 
 ## Key Players
 
-**Francis Gerard Mampolo** — Prime FC's top scorer with 15 goals and 4 assists this season (Striker).
-**Alex Byrne** — leads Community FC's attack with 8 goals in 8 appearances.
+**Francis Gerard Mampolo** — Prime FC's top scorer with 17 goals and 4 assists this season (Striker).
+**Alex Byrne** — leads Community FC's attack with 9 goals in 9 appearances.
 
 ## Game Changer X-Factor
 

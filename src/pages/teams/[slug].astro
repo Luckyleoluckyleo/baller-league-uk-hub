@@ -24,12 +24,17 @@ const squadPlayers = allPlayers.filter(p => p.data.team === data.urlSlug);
 
 const standing = tableData.find(t => t.slug === data.urlSlug);
 
-// Form guide — last 5 matches
+// ALL matches across seasons for form/lookup
 const allMatches = Object.values(gcData.seasons).flatMap((s: any) => s.matches as any[]);
-const teamMatches = allMatches
-  .filter((m: any) => (m.homeSlug === data.urlSlug || m.awaySlug === data.urlSlug) && m.homeScore !== undefined && m.awayScore !== undefined)
-  .sort((a: any, b: any) => (b._gameId || 0) - (a._gameId || 0))
-  .slice(0, 5);
+
+// S3 matches only
+const s3Matches = (gcData.seasons['3']?.matches as any[] || []).filter((m: any) => m.homeScore > 0 || m.awayScore > 0);
+
+// Form guide — last 6 S3 matches for this team (for display)
+const teamFormMatches = s3Matches
+  .filter((m: any) => m.homeSlug === data.urlSlug || m.awaySlug === data.urlSlug)
+  .sort((a: any, b: any) => b.gameweek - a.gameweek)
+  .slice(0, 6);
 
 function resultBadge(m: any) {
   const isHome = m.homeSlug === data.urlSlug;
@@ -42,24 +47,41 @@ function resultBadge(m: any) {
 // Squad from scraped player data
 const scrapedSquad = playerData.players.filter((p: any) => p.teamSlug === data.urlSlug && (p.seasons?.['3']?.apps || 0) > 0);
 
-// Fixtures for this team
+// Fixtures for this team — upcoming only
 const teamUpcoming = fixturesData.upcoming.filter((f: any) => f.homeSlug === data.urlSlug || f.awaySlug === data.urlSlug);
-const teamResults = allMatches
-  .filter((m: any) => (m.homeSlug === data.urlSlug || m.awaySlug === data.urlSlug) && (m.homeScore > 0 || m.awayScore > 0))
-  .sort((a: any, b: any) => b.gameweek - a.gameweek)
-  .slice(0, 6);
 
-function getMatchIdx(match: any): number {
-  // Global match index — must match match/[id].astro ordering
-  const global: any[] = [];
-  for (const [, season] of Object.entries(gcData.seasons)) {
-    for (const m of (season as any).matches as any[]) {
-      if (m.homeScore === 0 && m.awayScore === 0 && m.gamechanger1?.type === 'unknown') continue;
-      global.push(m);
-    }
-  }
-  const idx = global.findIndex((x: any) => x.homeTeam === match.homeTeam && x.awayTeam === match.awayTeam && x.gameweek === match.gameweek);
-  return idx >= 0 ? idx + 1 : 1;
+// ALL S3 results for this team, sorted GW ascending
+const teamResults = s3Matches
+  .filter((m: any) => m.homeSlug === data.urlSlug || m.awaySlug === data.urlSlug)
+  .sort((a: any, b: any) => a.gameweek - b.gameweek);
+
+// Compute full table from match data (same logic as table.astro)
+const records: Record<string, { played: number; won: number; drawn: number; lost: number; gf: number; ga: number }> = {};
+for (const m of s3Matches) {
+  if (!records[m.homeTeam]) records[m.homeTeam] = { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0 };
+  if (!records[m.awayTeam]) records[m.awayTeam] = { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0 };
+  records[m.homeTeam].played++; records[m.awayTeam].played++;
+  records[m.homeTeam].gf += m.homeScore; records[m.homeTeam].ga += m.awayScore;
+  records[m.awayTeam].gf += m.awayScore; records[m.awayTeam].ga += m.homeScore;
+  if (m.homeScore > m.awayScore) { records[m.homeTeam].won++; records[m.awayTeam].lost++; }
+  else if (m.awayScore > m.homeScore) { records[m.awayTeam].won++; records[m.homeTeam].lost++; }
+  else { records[m.homeTeam].drawn++; records[m.awayTeam].drawn++; }
+}
+const computedTable = tableData.map(row => {
+  const r = records[row.team] || { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0 };
+  return { ...row, played: r.played, won: r.won, drawn: r.drawn, lost: r.lost, gf: r.gf, ga: r.ga, gd: r.gf - r.ga, pts: r.won * 3 + r.drawn * 1 + (row.ep || 0) };
+});
+computedTable.sort((a, b) => b.pts - a.pts || b.gd - a.gd || b.gf - a.gf);
+computedTable.forEach((row, i) => { row.pos = i + 1; });
+
+// Team stats summary
+const teamGoalsFor = s3Matches.reduce((s: number, m: any) => s + (m.homeSlug === data.urlSlug ? m.homeScore : m.awaySlug === data.urlSlug ? m.awayScore : 0), 0);
+const teamGoalsAgainst = s3Matches.reduce((s: number, m: any) => s + (m.homeSlug === data.urlSlug ? m.awayScore : m.awaySlug === data.urlSlug ? m.homeScore : 0), 0);
+const topScorers = scrapedSquad.filter((p: any) => (p.seasons?.['3']?.goals || 0) > 0).sort((a: any, b: any) => (b.seasons?.['3']?.goals || 0) - (a.seasons?.['3']?.goals || 0)).slice(0, 1);
+const topScorer = topScorers[0] || null;
+
+function matchSlug(m: any): string {
+  return `s3-${m.homeSlug}-vs-${m.awaySlug}-gw${m.gameweek}`;
 }
 
 const schema = {
@@ -122,16 +144,17 @@ const schema = {
               </div>
             )}
             
-            {teamMatches.length > 0 && (
+            {teamFormMatches.length > 0 && (
               <div class="form-guide">
-                <span class="form-label">Recent Form</span>
-                <div class="form-badges">
-                  {teamMatches.map(m => {
+                <span class="form-label">Form</span>
+                <div class="form-bar">
+                  {teamFormMatches.map(m => {
                     const r = resultBadge(m);
                     return (
-                      <span class={`form-badge ${r.cls}`} title={`${m.homeTeam} ${m.homeScore}-${m.awayScore} ${m.awayTeam}`}>
-                        {r.label}
-                      </span>
+                      <a href={`/match/${matchSlug(m)}`} class={`form-block ${r.cls}`} title={`GW${m.gameweek}: ${m.homeTeam} ${m.homeScore}-${m.awayScore} ${m.awayTeam}`}>
+                        <span class="form-block-label">{r.label}</span>
+                        <span class="form-block-gw">GW{m.gameweek}</span>
+                      </a>
                     );
                   })}
                 </div>
@@ -206,7 +229,7 @@ const schema = {
           {teamUpcoming.map((f: any) => (
             <div class="fixture-card">
               <div class="fixture-team home">
-                <img src={`/logos/${f.homeSlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt={f.homeTeam} />
+                <img src={`/logos/${f.homeSlug}.svg`} class="td-logo" onerror="this.hidden=true" alt={f.homeTeam} />
                 <a href={`/teams/${f.homeSlug}`} class="fixture-team-name">{f.homeTeam}</a>
               </div>
               <div class="fixture-vs-box">
@@ -214,7 +237,7 @@ const schema = {
                 <div class="fixture-date">GW{f.gameweek} &middot; {f.date}</div>
               </div>
               <div class="fixture-team away">
-                <img src={`/logos/${f.awaySlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt={f.awayTeam} />
+                <img src={`/logos/${f.awaySlug}.svg`} class="td-logo" onerror="this.hidden=true" alt={f.awayTeam} />
                 <a href={`/teams/${f.awaySlug}`} class="fixture-team-name">{f.awayTeam}</a>
               </div>
             </div>
@@ -224,32 +247,127 @@ const schema = {
 
       {teamResults.length > 0 && (
         <div>
-          <div class="section-label" style="margin-bottom: var(--space-sm);">Recent Results</div>
-          {teamResults.map((m: any) => (
-            <a href={`/match/${getMatchIdx(m)}`} class="fixture-card fixture-result-card" style="text-decoration:none;">
-              <div class="fixture-team home">
-                <img src={`/logos/${m.homeSlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt={m.homeTeam} />
-                <span class="fixture-team-name">{m.homeTeam}</span>
-              </div>
-              <div class="fixture-vs-box">
-                <div class="fixture-score">{m.homeScore}–{m.awayScore}</div>
-                <div class="fixture-date">GW{m.gameweek}</div>
-              </div>
-              <div class="fixture-team away">
-                <img src={`/logos/${m.awaySlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt={m.awayTeam} />
-                <span class="fixture-team-name">{m.awayTeam}</span>
-              </div>
-            </a>
-          ))}
+          <div class="section-label" style="margin-bottom: var(--space-sm);">Season 3 Results</div>
+          <div class="team-results-grid">
+            {teamResults.map((m: any) => {
+              const isHome = m.homeSlug === data.urlSlug;
+              const scored = isHome ? m.homeScore : m.awayScore;
+              const conceded = isHome ? m.awayScore : m.homeScore;
+              const opponent = isHome ? m.awayTeam : m.homeTeam;
+              const opponentSlug = isHome ? m.awaySlug : m.homeSlug;
+              const won = scored > conceded;
+              const lost = scored < conceded;
+              const draw = scored === conceded;
+              return (
+                <a href={`/match/${matchSlug(m)}`} class={`result-card ${won ? 'result-win' : lost ? 'result-loss' : 'result-draw'}`}>
+                  <div class="result-card-header">
+                    <span class="result-gw-badge">GW{m.gameweek}</span>
+                    <span class="result-outcome">{won ? 'W' : lost ? 'L' : 'D'}</span>
+                  </div>
+                  <div class="result-card-body">
+                    <div class="result-team">
+                      <img src={`/logos/${data.urlSlug}.svg`} class="td-logo" style="width:20px;height:20px;" onerror="this.hidden=true" alt={data.name} />
+                      <span>{scored}</span>
+                    </div>
+                    <span class="result-sep">–</span>
+                    <div class="result-team">
+                      <img src={`/logos/${opponentSlug}.svg`} class="td-logo" style="width:20px;height:20px;" onerror="this.hidden=true" alt={opponent} />
+                      <span>{conceded}</span>
+                    </div>
+                  </div>
+                  <div class="result-card-footer">
+                    <span class="result-opponent">vs {opponent}</span>
+                  </div>
+                </a>
+              );
+            })}
+          </div>
         </div>
       )}
     </section>
 
-    <!-- NAV TO TABLE -->
+    <!-- SEASON STATS CARDS -->
+    <section style="margin-top: var(--space-2xl);">
+      <div class="section-header">
+        <h2 class="section-title">Season 3 in Numbers</h2>
+      </div>
+      <div class="team-stats-grid">
+        <div class="stat-card">
+          <div class="stat-card-num">{teamGoalsFor}</div>
+          <div class="stat-card-label">Goals Scored</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-card-num">{teamGoalsAgainst}</div>
+          <div class="stat-card-label">Goals Conceded</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-card-num">{teamGoalsFor + teamGoalsAgainst}</div>
+          <div class="stat-card-label">Total Goals</div>
+        </div>
+        {topScorer && (
+          <div class="stat-card">
+            <div class="stat-card-num">{topScorer.seasons?.['3']?.goals || 0} <span style="font-size:0.7rem;font-weight:500;color:var(--text-muted);">G</span></div>
+            <div class="stat-card-label">Top Scorer — {topScorer.name.split(' ').pop()}</div>
+          </div>
+        )}
+      </div>
+    </section>
+
+    <!-- MINI LEAGUE TABLE -->
+    <section style="margin-top: var(--space-2xl);">
+      <div class="section-header flex-between">
+        <div>
+          <div class="section-label">League Table</div>
+          <h2 class="section-title">Standings</h2>
+        </div>
+        <a href="/table" class="view-all">Full Table</a>
+      </div>
+      <div class="table-wrap mini-table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Team</th>
+              <th class="num-col">GP</th>
+              <th class="num-col">W</th>
+              <th class="num-col">D</th>
+              <th class="num-col">L</th>
+              <th class="num-col">GF</th>
+              <th class="num-col">GA</th>
+              <th class="num-col">GD</th>
+              <th class="num-col">PTS</th>
+            </tr>
+          </thead>
+          <tbody>
+            {computedTable.map(row => (
+              <tr class={row.slug === data.urlSlug ? 'highlight-row' : ''}>
+                <td><span class={`pos-num ${row.pos <= 4 ? 'top-4' : ''}`}>{row.pos}</span></td>
+                <td>
+                  <a href={`/teams/${row.slug}`} class="td-team-name">
+                    <img src={`/logos/${row.slug}.svg`} class="td-logo" onerror="this.hidden=true" alt={row.team} />
+                    {row.team}
+                  </a>
+                </td>
+                <td class="num-col">{row.played}</td>
+                <td class="num-col">{row.won}</td>
+                <td class="num-col">{row.drawn}</td>
+                <td class="num-col">{row.lost}</td>
+                <td class="num-col">{row.gf}</td>
+                <td class="num-col">{row.ga}</td>
+                <td class={`num-col ${row.gd > 0 ? 'text-green' : row.gd < 0 ? 'text-orange' : ''}`}>{row.gd > 0 ? `+${row.gd}` : row.gd}</td>
+                <td class="num-col pts-cell">{row.pts}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- NAV -->
     <div class="team-cta">
-      <a href="/table" class="btn btn-ghost">View Full Table</a>
       <a href="/teams" class="btn btn-ghost">All Teams</a>
       <a href="/players" class="btn btn-ghost">All Players</a>
+      <a href="/h2h" class="btn btn-ghost">Head-to-Head</a>
     </div>
 
   </div>
@@ -388,4 +506,158 @@ const schema = {
 .player-thumb-xs { width: 36px; height: 36px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
 .player-thumb-fallback-xs { display: none; width: 36px; height: 36px; border-radius: 50%; background: var(--green-glow); color: var(--green); font-size: 0.65rem; font-weight: 800; align-items: center; justify-content: center; flex-shrink: 0; }
 .player-thumb-xs[hidden] + .player-thumb-fallback-xs { display: flex; }
-</style>
+
+/* ── Form Bar ── */
+.form-bar {
+  display: flex;
+  gap: 3px;
+}
+.form-block {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  cursor: pointer;
+}
+.form-block:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+.form-block-label {
+  font-size: 0.75rem;
+  font-weight: 800;
+  line-height: 1;
+}
+.form-block-gw {
+  font-size: 0.5rem;
+  opacity: 0.7;
+  margin-top: 2px;
+  letter-spacing: 0.04em;
+}
+.form-block.form-win { background: rgba(0,230,118,0.2); color: var(--green); border: 1px solid rgba(0,230,118,0.3); }
+.form-block.form-loss { background: rgba(255,107,53,0.15); color: var(--orange); border: 1px solid rgba(255,107,53,0.25); }
+.form-block.form-draw { background: rgba(255,214,0,0.12); color: var(--gold); border: 1px solid rgba(255,214,0,0.2); }
+
+/* ── Results Grid ── */
+.team-results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: var(--space-sm);
+}
+.result-card {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--space-md);
+  text-decoration: none;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+.result-card:hover {
+  transform: translateY(-2px);
+}
+.result-card.result-win { border-left: 3px solid var(--green); }
+.result-card.result-loss { border-left: 3px solid var(--orange); }
+.result-card.result-draw { border-left: 3px solid var(--gold); }
+.result-card.result-win:hover { border-color: var(--green); }
+.result-card.result-loss:hover { border-color: var(--orange); }
+.result-card.result-draw:hover { border-color: var(--gold); }
+
+.result-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.result-gw-badge {
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.result-outcome {
+  font-size: 0.65rem;
+  font-weight: 800;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+.result-win .result-outcome { background: rgba(0,230,118,0.15); color: var(--green); }
+.result-loss .result-outcome { background: rgba(255,107,53,0.12); color: var(--orange); }
+.result-draw .result-outcome { background: rgba(255,214,0,0.12); color: var(--gold); }
+
+.result-card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+.result-team {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.result-sep { color: var(--text-muted); font-weight: 400; }
+.result-card-footer {
+  text-align: center;
+}
+.result-opponent {
+  font-size: 0.68rem;
+  color: var(--text-muted);
+}
+
+/* ── Stats Cards ── */
+.team-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: var(--space-md);
+}
+.stat-card {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--space-lg);
+  text-align: center;
+}
+.stat-card-num {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  color: var(--text-primary);
+  line-height: 1;
+}
+.stat-card-label {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-top: var(--space-sm);
+}
+
+/* ── Mini League Table ── */
+.mini-table-wrap {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow-x: auto;
+}
+.highlight-row {
+  background: var(--green-glow) !important;
+}
+.highlight-row td {
+  font-weight: 600;
+}
+.highlight-row .pos-num {
+  background: rgba(0,230,118,0.2);
+  color: var(--green);
+  border: 1px solid rgba(0,230,118,0.3);
+}

@@ -2,34 +2,42 @@
 import Base from '../../layouts/Base.astro';
 import gcData from '../../data/gamechangers.json';
 
+function buildSlug(m: any, season: string) {
+  return `s${season}-${m.homeSlug}-vs-${m.awaySlug}-gw${m.gameweek}`;
+}
+
 export async function getStaticPaths() {
-  const paths: { params: { id: string } }[] = [];
-  let idx = 1;
-  for (const [, season] of Object.entries(gcData.seasons)) {
+  function buildSlug(m: any, season: string) {
+    return `s${season}-${m.homeSlug}-vs-${m.awaySlug}-gw${m.gameweek}`;
+  }
+  const paths: { params: { slug: string } }[] = [];
+  for (const [sKey, season] of Object.entries(gcData.seasons)) {
     for (const m of (season as any).matches as any[]) {
       if (m.homeScore === 0 && m.awayScore === 0 && m.gamechanger1?.type === 'unknown') continue;
-      paths.push({ params: { id: String(idx) } });
-      idx++;
+      paths.push({ params: { slug: buildSlug(m, sKey) } });
     }
   }
   return paths;
 }
 
-const { id } = Astro.params;
+const { slug } = Astro.params;
 
-// Build a simple in-memory map of match index -> match
-const allMatches: any[] = [];
-const matchMeta: any[] = [];
+// Build full match list with slugs — same ordering as getStaticPaths
+const allMatches: { match: any; season: string; slug: string }[] = [];
+const slugMap: Record<string, any> = {};
+let currentIdx = -1;
+
 for (const [sKey, season] of Object.entries(gcData.seasons)) {
   for (const m of (season as any).matches as any[]) {
     if (m.homeScore === 0 && m.awayScore === 0 && m.gamechanger1?.type === 'unknown') continue;
-    allMatches.push({ ...m, season: sKey });
-    matchMeta.push({ ...m, season: sKey });
+    const s = buildSlug(m, sKey);
+    allMatches.push({ match: m, season: sKey, slug: s });
+    slugMap[s] = { ...m, season: sKey };
+    if (s === slug) currentIdx = allMatches.length - 1;
   }
 }
 
-const idx = parseInt(id) - 1;
-const match = allMatches[idx];
+const match = slugMap[slug] || null;
 
 if (!match) {
   Astro.response.status = 404;
@@ -38,6 +46,9 @@ if (!match) {
 const gc1def = gcData.definitions.firstHalf.find(g => g.id === match?.gamechanger1?.type) || gcData.definitions.secondHalf.find(g => g.id === match?.gamechanger1?.type);
 const gc2def = gcData.definitions.secondHalf.find(g => g.id === match?.gamechanger2?.type);
 const totalGCGoals = (match?.gamechanger1?.goalsScored || 0) + (match?.gamechanger2?.goalsScored || 0);
+
+const prevMatch = currentIdx > 0 ? allMatches[currentIdx - 1] : null;
+const nextMatch = currentIdx >= 0 && currentIdx + 1 < allMatches.length ? allMatches[currentIdx + 1] : null;
 
 const schema = match ? {
   "@context": "https://schema.org",
@@ -153,12 +164,12 @@ const schema = match ? {
 
         <!-- NAVIGATION -->
         <div class="match-navigation">
-          {idx > 0 && (
-            <a href={`/match/${idx}`} class="btn btn-ghost">&larr; Previous Match</a>
+          {prevMatch && (
+            <a href={`/match/${prevMatch.slug}`} class="btn btn-ghost">&larr; Previous Match</a>
           )}
           <a href="/gamechangers" class="btn btn-ghost">All Matches</a>
-          {idx + 1 < allMatches.length && (
-            <a href={`/match/${idx + 2}`} class="btn btn-ghost">Next Match &rarr;</a>
+          {nextMatch && (
+            <a href={`/match/${nextMatch.slug}`} class="btn btn-ghost">Next Match &rarr;</a>
           )}
         </div>
       </div>

@@ -67,18 +67,8 @@ function getForm(slug: string): { label: string; cls: string }[] {
   });
 }
 
-// Global match index — must match match/[id].astro ordering
-const allMatchesGlobal: any[] = [];
-for (const [, season] of Object.entries(gcData.seasons)) {
-  for (const m of (season as any).matches as any[]) {
-    if (m.homeScore === 0 && m.awayScore === 0 && m.gamechanger1?.type === 'unknown') continue;
-    allMatchesGlobal.push(m);
-  }
-}
-
-function getMatchIndex(match: any): number {
-  const idx = allMatchesGlobal.findIndex((x: any) => x.homeTeam === match.homeTeam && x.awayTeam === match.awayTeam && x.gameweek === match.gameweek);
-  return idx >= 0 ? idx + 1 : 1;
+function matchSlug(match: any): string {
+  return `s3-${match.homeSlug}-vs-${match.awaySlug}-gw${match.gameweek}`;
 }
 
 const schema = {
@@ -248,7 +238,7 @@ const schema = {
           </div>
           <div class="fixtures-list">
             {recentResults.map(r => (
-              <a href={`/match/${getMatchIndex(r)}`} class="fixture-card fixture-result-card">
+              <a href={`/match/${matchSlug(r)}`} class="fixture-card fixture-result-card">
                 <div class="fixture-team home">
                   <img src={`/logos/${r.homeSlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt={r.homeTeam} />
                   <span class="fixture-team-name">{r.homeTeam}</span>

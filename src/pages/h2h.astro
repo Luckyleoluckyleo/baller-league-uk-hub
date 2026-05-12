@@ -3,7 +3,10 @@
 import Base from '../layouts/Base.astro';
 import gcData from '../data/gamechangers.json';
 
-const allMatches = Object.values(gcData.seasons).flatMap((s: any) => s.matches as any[]).filter((m: any) => !(m.homeScore === 0 && m.awayScore === 0 && m.gamechanger1?.type === 'unknown'));
+const allMatches = Object.values(gcData.seasons).flatMap((s: any, i: number) => {
+  const sKey = Object.keys(gcData.seasons)[i];
+  return (s.matches as any[]).filter((m: any) => !(m.homeScore === 0 && m.awayScore === 0 && m.gamechanger1?.type === 'unknown')).map((m: any) => ({ ...m, _season: sKey }));
+});
 
 const teams = [...new Set(allMatches.flatMap((m: any) => [m.homeTeam, m.awayTeam]))].sort();
 
@@ -113,9 +116,9 @@ for (let i = 0; i < teams.length; i++) {
             <h4 style="margin-bottom: var(--space-md);">Recent Meetings</h4>
             <div class="h2h-matches">
               {topRivalry.matches.slice(0, 5).map((m: any) => {
-                const matchIdx = allMatches.findIndex((x: any) => x.homeTeam === m.homeTeam && x.awayTeam === m.awayTeam && x.gameweek === m.gameweek) + 1;
+                const matchSlug = `s${m._season || '3'}-${m.homeSlug}-vs-${m.awaySlug}-gw${m.gameweek}`;
                 return (
-                  <a href={`/match/${matchIdx}`} class="h2h-match-row">
+                  <a href={`/match/${matchSlug}`} class="h2h-match-row">
                     <span class="text-muted" style="font-size: 0.8rem;">GW{m.gameweek}</span>
                     <span><a href={`/teams/${teamSlugs[m.homeTeam]}`}>{m.homeTeam}</a></span>
                     <span class="h2h-match-score">{m.homeScore}–{m.awayScore}</span>

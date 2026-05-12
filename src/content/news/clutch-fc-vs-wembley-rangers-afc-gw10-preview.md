@@ -24,8 +24,8 @@ The last meeting saw Clutch FC defeat Wembley Rangers AFC 3-6.
 
 ## Key Players
 
-**Alfie Matthews** — Clutch FC's top scorer with 12 goals and 4 assists this season (Striker).
-**Domingos Pires** — leads Wembley Rangers AFC's attack with 8 goals in 9 appearances.
+**Alfie Matthews** — Clutch FC's top scorer with 12 goals and 5 assists this season (Striker).
+**Domingos Pires** — leads Wembley Rangers AFC's attack with 9 goals in 10 appearances.
 
 ## Game Changer X-Factor
 
