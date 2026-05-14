@@ -28,8 +28,43 @@ function gcName(type: string): string {
   const map: Record<string, string> = { onside: 'Onside', plusone: 'Plus One', '3play': '3Play', '1on1': '1-on-1', theline: 'The Line', fairplay: 'Fairplay' };
   return map[type] || type || '?';
 }
-function matchSlug(match: any): string {
-  return `s3-${match.homeSlug}-vs-${match.awaySlug}-gw${match.gameweek}`;
+
+const goalscorers = gwMatches.flatMap((m: any) => (m.goalscorers || []).map((g: any) => g.player));
+const tally: Record<string, number> = {};
+goalscorers.forEach((p: string) => { tally[p] = (tally[p] || 0) + 1; });
+const ranked = Object.entries(tally).sort((a, b) => b[1] - a[1]);
+const topScorers = ranked.slice(0, 3).map(([name, goals]) => ({ name, goals }));
+const topScorerStr = topScorers.map(ts => `${ts.name} (${ts.goals})`).join(', ');
+
+const margins = gwMatches.map((m: any) => ({
+  teams: `${m.homeTeam} vs ${m.awayTeam}`,
+  margin: Math.abs(m.homeScore - m.awayScore),
+  score: `${m.homeScore}-${m.awayScore}`
+}));
+margins.sort((a, b) => b.margin - a.margin);
+const biggest = margins[0];
+const tight = margins.filter(m => m.margin <= 1).length;
+const hattrickPlayers = ranked.filter(([, goals]) => goals >= 3).map(([name, goals]) => ({ name, goals }));
+const gcMatches = gwMatches.filter((m: any) =>
+  (m.gamechanger1?.goalsScored || 0) + (m.gamechanger2?.goalsScored || 0) > 0
+).length;
+
+let reviewText = `Gameweek ${requestedGW} delivered ${totalGoals} goals across ${gwMatches.length} fixtures.`;
+if (biggest && biggest.margin > 0) {
+  reviewText += ` The biggest win saw ${biggest.teams} finish ${biggest.score}`;
+  reviewText += biggest.margin >= 5 ? ' in a dominant display.' : ` with a ${biggest.margin}-goal margin.`;
+}
+if (topScorers.length > 0) {
+  reviewText += ` Top scorers: ${topScorerStr}.`;
+}
+if (hattrickPlayers.length > 0) {
+  reviewText += ` ${hattrickPlayers[0].name} bagged a hat-trick${hattrickPlayers.length > 1 ? ` alongside ${hattrickPlayers[1].name}` : ''}.`;
+}
+if (gcMatches > 0) {
+  reviewText += ` Game Changer goals were activated in ${gcMatches} match${gcMatches !== 1 ? 'es' : ''}, contributing ${totalGCGoals} goals.`;
+}
+if (tight > 0) {
+  reviewText += ` ${tight} match${tight !== 1 ? 'es were' : ' was'} decided by a single goal.`;
 }
 ---
 
@@ -68,6 +103,16 @@ function matchSlug(match: any): string {
       <div class="stat-box"><div class="stat-box-number">{(totalGoals / gwMatches.length).toFixed(1)}</div><div class="stat-box-label">Avg Goals/Match</div></div>
     </div>
 
+    <!-- WEEK IN REVIEW -->
+    {reviewText && (
+      <section class="week-in-review card">
+        <div class="card-body">
+          <h2 class="section-title">Week in Review</h2>
+          <p class="review-text">{reviewText}</p>
+        </div>
+      </section>
+    )}
+
     <!-- MATCH RESULTS -->
     <section>
       <div class="section-header">
@@ -75,7 +120,7 @@ function matchSlug(match: any): string {
       </div>
       <div class="roundup-matches">
         {gwMatches.map((m: any) => (
-          <a href={`/match/${matchSlug(m)}`} class="roundup-match-card card">
+          <a href={`/news/${m.homeSlug}-vs-${m.awaySlug}-gw${m.gameweek}`} class="roundup-match-card card">
             <div class="card-body">
               <div class="rm-teams">
                 <div class="rm-team">
@@ -122,6 +167,10 @@ function matchSlug(match: any): string {
 .gw-nav-link.active { background: var(--green-glow); border-color: var(--green); color: var(--green); }
 
 .roundup-stats { margin-bottom: var(--space-2xl); }
+
+.week-in-review { margin-bottom: var(--space-2xl); background: linear-gradient(135deg, var(--bg-elevated), var(--bg-card)); border: 1px solid var(--green-glow); }
+.review-text { color: var(--text-secondary); line-height: 1.7; font-size: 0.95rem; }
+.review-text strong { color: var(--text-primary); }
 
 .roundup-matches { display: flex; flex-direction: column; gap: var(--space-md); margin-bottom: var(--space-xl); }
 .roundup-match-card { text-decoration: none; }

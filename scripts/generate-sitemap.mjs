@@ -22,7 +22,7 @@ function walk(dir, base = "") {
         .replace(/index\.html$/, "")
         .replace(/\.html$/, "");
       const fullUrl = `${SITE}/${url}`;
-      if (!EXCLUDE.has(rel) && !rel.includes("roundup/index")) {
+      if (!EXCLUDE.has(rel) && !rel.includes("roundup/index") && !url.startsWith("match/s3-")) {
         const { mtime } = statSync(full);
         results.push({ url: fullUrl, path: rel, mtime });
       }

@@ -6,6 +6,11 @@
   NODE_VERSION = "20"
 
 [[redirects]]
+  from = "/match/s3-*"
+  to = "/news/:splat"
+  status = 301
+
+[[redirects]]
   from = "/admin"
   to = "/admin/index.html"
   status = 200

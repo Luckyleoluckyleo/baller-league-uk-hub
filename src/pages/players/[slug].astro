@@ -14,6 +14,33 @@ const player = playerData.players.find((p: any) => p.slug === playerSlug);
 const stats = player?.seasons?.['3'];
 const avatarFallback = player ? player.name.split(' ').map((n: string) => n[0]).join('').slice(0,2).toUpperCase() : '??';
 
+function generateBlurb(player: any, stats: any): string {
+  const name = player.name;
+  const team = player.team || 'their team';
+  const pos = player.position || 'player';
+  if (!stats || stats.apps === undefined || stats.apps === null) {
+    return `${name} is a footballer for ${team} in Baller League UK.`;
+  }
+  const apps = stats.apps;
+  const goals = stats.goals ?? 0;
+  const assists = stats.assists ?? 0;
+  const gpg = apps > 0 ? (goals / apps).toFixed(2) : '0';
+  if (apps === 0) {
+    return `${name} is a ${pos} for ${team} in Baller League UK Season 3. They are yet to make their debut this season.`;
+  }
+  let blurb = `${name} is a ${pos} for ${team} in Baller League UK Season 3, making ${apps} appearance${apps !== 1 ? 's' : ''}`;
+  if (goals > 0) blurb += `, scoring ${goals} goal${goals !== 1 ? 's' : ''}`;
+  if (assists > 0) {
+    if (goals > 0) blurb += ` and providing ${assists} assist${assists !== 1 ? 's' : ''}`;
+    else blurb += `, providing ${assists} assist${assists !== 1 ? 's' : ''}`;
+  }
+  blurb += `.`;
+  if (goals > 0 && apps > 0) {
+    blurb += ` They average ${gpg} goals per game.`;
+  }
+  return blurb;
+}
+
 const schema = player ? {
   "@context": "https://schema.org",
   "@type": "Person",
@@ -70,6 +97,12 @@ const schema = player ? {
           <div class="stat-box"><div class="stat-box-number">{stats?.apps ? ((stats.goals || 0) / stats.apps).toFixed(2) : '—'}</div><div class="stat-box-label">Goals / Game</div></div>
         </div>
 
+        <div class="player-blurb card">
+          <div class="card-body">
+            <p class="blurb-text">{generateBlurb(player, stats)}</p>
+          </div>
+        </div>
+
         {stats?.detailed && Object.keys(stats.detailed).length > 0 && (
           <div class="player-detailed card">
             <div class="card-body">
@@ -117,6 +150,8 @@ const schema = player ? {
 
 .player-page { padding-bottom: var(--space-3xl); }
 .player-stats-row { margin-bottom: var(--space-xl); }
+.player-blurb { margin-bottom: var(--space-xl); background: linear-gradient(135deg, var(--bg-elevated), var(--bg-card)); border: 1px solid var(--green-glow); }
+.blurb-text { color: var(--text-secondary); line-height: 1.7; font-size: 0.95rem; }
 .player-detailed { margin-bottom: var(--space-xl); }
 .detail-heading { font-size: 0.85rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-muted); margin-bottom: var(--space-lg); font-family: var(--font-body); }
 .detail-grid { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: var(--space-md); }
