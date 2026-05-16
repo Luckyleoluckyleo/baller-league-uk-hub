@@ -81,7 +81,7 @@ const topScorers = scrapedSquad.filter((p: any) => (p.seasons?.['3']?.goals || 0
 const topScorer = topScorers[0] || null;
 
 function matchSlug(m: any): string {
-  return `s3-${m.homeSlug}-vs-${m.awaySlug}-gw${m.gameweek}`;
+  return `${m.homeSlug}-vs-${m.awaySlug}-gw${m.gameweek}`;
 }
 
 const schema = {
@@ -151,7 +151,7 @@ const schema = {
                   {teamFormMatches.map(m => {
                     const r = resultBadge(m);
                     return (
-                      <a href={`/match/${matchSlug(m)}`} class={`form-block ${r.cls}`} title={`GW${m.gameweek}: ${m.homeTeam} ${m.homeScore}-${m.awayScore} ${m.awayTeam}`}>
+                      <a href={`/news/${matchSlug(m)}`} class={`form-block ${r.cls}`} title={`GW${m.gameweek}: ${m.homeTeam} ${m.homeScore}-${m.awayScore} ${m.awayTeam}`}>
                         <span class="form-block-label">{r.label}</span>
                         <span class="form-block-gw">GW{m.gameweek}</span>
                       </a>
@@ -259,7 +259,7 @@ const schema = {
               const lost = scored < conceded;
               const draw = scored === conceded;
               return (
-                <a href={`/match/${matchSlug(m)}`} class={`result-card ${won ? 'result-win' : lost ? 'result-loss' : 'result-draw'}`}>
+                <a href={`/news/${matchSlug(m)}`} class={`result-card ${won ? 'result-win' : lost ? 'result-loss' : 'result-draw'}`}>
                   <div class="result-card-header">
                     <span class="result-gw-badge">GW{m.gameweek}</span>
                     <span class="result-outcome">{won ? 'W' : lost ? 'L' : 'D'}</span>

@@ -60,7 +60,7 @@ for (const arr of Object.values(resultsByGW)) {
 }
 
 function matchSlug(match: any): string {
-  return `s3-${match.homeSlug}-vs-${match.awaySlug}-gw${match.gameweek}`;
+  return `${match.homeSlug}-vs-${match.awaySlug}-gw${match.gameweek}`;
 }
 
 function getForm(slug: string): { label: string; cls: string }[] {
@@ -169,7 +169,7 @@ function getForm(slug: string): { label: string; cls: string }[] {
           {gws.map(gw => (
             <div data-gw={gw} style={`display:${gw === maxGW ? 'contents' : 'none'}`}>
               {(resultsByGW[gw] || []).map((m: any) => (
-                <a href={`/match/${matchSlug(m)}`} class="fixture-card fixture-result-card">
+                <a href={`/news/${matchSlug(m)}`} class="fixture-card fixture-result-card">
                   <div class="fixture-team home">
                     <img src={`/logos/${m.homeSlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt={m.homeTeam} />
                     <span class="fixture-team-name">{m.homeTeam}</span>
