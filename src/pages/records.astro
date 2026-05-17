@@ -1,0 +1,263 @@
+---
+import Base from '../layouts/Base.astro';
+import gcData from '../data/gamechangers.json';
+
+const allMatches: any[] = [];
+[1, 2, 3].forEach(s => {
+  const ms = (gcData.seasons[String(s)]?.matches || []).filter((m: any) => m.homeScore > 0 || m.awayScore > 0);
+  ms.forEach(m => allMatches.push({ ...m, season: s }));
+});
+
+const totalGoals = allMatches.reduce((s: number, m: any) => s + m.homeScore + m.awayScore, 0);
+
+// All-time goalscorer tally
+const tally: Record<string, number> = {};
+allMatches.forEach(m => {
+  (m.goalscorers || []).forEach((g: any) => { tally[g.player] = (tally[g.player] || 0) + 1; });
+});
+const topScorersAllTime = Object.entries(tally).sort((a, b) => b[1] - a[1]).slice(0, 10);
+
+// Biggest wins
+const byMargin = [...allMatches].sort((a, b) => Math.abs(b.homeScore - b.awayScore) - Math.abs(a.homeScore - a.awayScore));
+const biggestWin = byMargin[0];
+const biggestWins = byMargin.slice(0, 5);
+
+// Highest scoring matches
+const byGoals = [...allMatches].sort((a, b) => (b.homeScore + b.awayScore) - (a.homeScore + a.awayScore));
+const highestScoring = byGoals[0];
+const highScoring = byGoals.slice(0, 5);
+
+// Most GC goals in a single match
+let mostGCMatch: any = null;
+let mostGCGoals = 0;
+allMatches.forEach(m => {
+  const gc = (m.gamechanger1?.goalsScored || 0) + (m.gamechanger2?.goalsScored || 0);
+  if (gc > mostGCGoals) { mostGCMatch = m; mostGCGoals = gc; }
+});
+
+// Season champions
+const champions: { season: string; team: string; record: string }[] = [];
+[1, 2, 3].forEach(s => {
+  const sid = String(s);
+  const ms = (gcData.seasons[sid]?.matches || []).filter((m: any) => m.homeScore > 0 || m.awayScore > 0);
+  const teams = [...new Set(ms.flatMap((m: any) => [m.homeTeam, m.awayTeam]))];
+  const records: Record<string, any> = {};
+  ms.forEach(m => {
+    if (!records[m.homeTeam]) records[m.homeTeam] = { w: 0, d: 0, l: 0 };
+    if (!records[m.awayTeam]) records[m.awayTeam] = { w: 0, d: 0, l: 0 };
+    if (m.homeScore > m.awayScore) { records[m.homeTeam].w++; records[m.awayTeam].l++; }
+    else if (m.awayScore > m.homeScore) { records[m.awayTeam].w++; records[m.homeTeam].l++; }
+    else { records[m.homeTeam].d++; records[m.awayTeam].d++; }
+  });
+  const table = teams.map(t => ({ team: t, pts: records[t].w * 3 + records[t].d, w: records[t].w, d: records[t].d, l: records[t].l }));
+  table.sort((a, b) => b.pts - a.pts);
+  if (table.length > 0) {
+    champions.push({ season: `Season ${sid}`, team: table[0].team, record: `${table[0].w}W–${table[0].d}D–${table[0].l}L · ${table[0].pts}pts` });
+  }
+});
+
+// Goals per season
+const seasonGoals = [1, 2, 3].map(s => {
+  const ms = (gcData.seasons[String(s)]?.matches || []).filter((m: any) => m.homeScore > 0 || m.awayScore > 0);
+  const goals = ms.reduce((t: number, m: any) => t + m.homeScore + m.awayScore, 0);
+  return { season: `Season ${s}`, matches: ms.length, goals, avg: (goals / ms.length).toFixed(1) };
+});
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "name": "Baller League UK — All-Time Records & Statistics",
+  "description": `All-time Baller League UK records: top goalscorers, biggest wins, highest scoring matches, season champions and stats across ${allMatches.length} matches and ${totalGoals} goals.`,
+  "author": { "@type": "Organization", "name": "Baller League UK Hub" },
+  "datePublished": "2026-05-01",
+  "dateModified": new Date().toISOString().split('T')[0],
+};
+---
+
+<Base
+  title="Baller League UK Records — All-Time Stats & History"
+  description={`All-time Baller League UK records and statistics: top goalscorers, biggest wins, highest scoring matches, season champions across ${allMatches.length} matches and all 3 seasons.`}
+  schema={schema}
+  keywords="Baller League UK records, all-time stats, top scorers, biggest wins, highest scoring, season champions, records"
+  type="article"
+>
+  <div class="page-header">
+    <div class="container">
+      <nav class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">›</span><span>Records</span></nav>
+      <div class="section-label">History</div>
+      <h1>All-Time Records</h1>
+      <p class="section-subtitle">{allMatches.length} matches · {totalGoals} goals · 3 seasons — complete Baller League UK statistical history.</p>
+    </div>
+  </div>
+
+  <div class="container records-page">
+
+    <!-- TOP SCORERS -->
+    <section class="records-section">
+      <h2 class="records-h2">All-Time Top Scorers</h2>
+      <div class="card">
+        <table class="records-table">
+          <thead>
+            <tr><th class="col-pos">#</th><th>Player</th><th class="col-num">Goals</th></tr>
+          </thead>
+          <tbody>
+            {topScorersAllTime.map(([player, goals], i) => (
+              <tr class={i < 3 ? 'row-podium' : ''}>
+                <td class="col-pos">
+                  {i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : `#${i + 1}`}
+                </td>
+                <td><strong>{player}</strong></td>
+                <td class="col-num record-num">{goals}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- BIGGEST WINS -->
+    <section class="records-section">
+      <h2 class="records-h2">Biggest Wins</h2>
+      <div class="card">
+        <table class="records-table">
+          <thead>
+            <tr><th class="col-pos">#</th><th>Match</th><th class="col-num">Score</th><th class="col-num">Margin</th></tr>
+          </thead>
+          <tbody>
+            {biggestWins.map((m: any, i: number) => {
+              const margin = Math.abs(m.homeScore - m.awayScore);
+              const winner = m.homeScore > m.awayScore ? m.homeTeam : m.awayTeam;
+              return (
+                <tr>
+                  <td class="col-pos">#{i + 1}</td>
+                  <td><strong>{winner}</strong> vs {m.homeTeam === winner ? m.awayTeam : m.homeTeam} <span class="text-muted" style="font-size:0.75rem;">S{m.season} GW{m.gameweek}</span></td>
+                  <td class="col-num">{m.homeScore}–{m.awayScore}</td>
+                  <td class="col-num record-num">+{margin}</td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- HIGHEST SCORING -->
+    <section class="records-section">
+      <h2 class="records-h2">Highest Scoring Matches</h2>
+      <div class="card">
+        <table class="records-table">
+          <thead>
+            <tr><th class="col-pos">#</th><th>Match</th><th class="col-num">Score</th><th class="col-num">Total</th></tr>
+          </thead>
+          <tbody>
+            {highScoring.map((m: any, i: number) => {
+              const tg = m.homeScore + m.awayScore;
+              return (
+                <tr>
+                  <td class="col-pos">#{i + 1}</td>
+                  <td><strong>{m.homeTeam}</strong> vs <strong>{m.awayTeam}</strong> <span class="text-muted" style="font-size:0.75rem;">S{m.season} GW{m.gameweek}</span></td>
+                  <td class="col-num">{m.homeScore}–{m.awayScore}</td>
+                  <td class="col-num record-num">{tg}</td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- SEASON CHAMPIONS -->
+    <section class="records-section">
+      <h2 class="records-h2">Season Champions</h2>
+      <div class="card">
+        <table class="records-table">
+          <thead>
+            <tr><th>Season</th><th>Champion</th><th class="col-num">Record</th></tr>
+          </thead>
+          <tbody>
+            {champions.map(c => (
+              <tr>
+                <td><strong>{c.season}</strong></td>
+                <td><span class="champion-name">🏆 {c.team}</span></td>
+                <td class="col-num text-muted" style="font-size:0.85rem;">{c.record}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- SEASON STATS COMPARISON -->
+    <section class="records-section">
+      <h2 class="records-h2">Season-by-Season Stats</h2>
+      <div class="card">
+        <table class="records-table">
+          <thead>
+            <tr><th>Season</th><th class="col-num">Matches</th><th class="col-num">Goals</th><th class="col-num">Avg/Match</th></tr>
+          </thead>
+          <tbody>
+            {seasonGoals.map(s => (
+              <tr>
+                <td><strong>{s.season}</strong></td>
+                <td class="col-num">{s.matches}</td>
+                <td class="col-num record-num">{s.goals}</td>
+                <td class="col-num">{s.avg}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- GAME CHANGER RECORD -->
+    {mostGCMatch && (
+      <section class="records-section">
+        <h2 class="records-h2">Game Changer Records</h2>
+        <div class="card">
+          <table class="records-table">
+            <thead>
+              <tr><th>Record</th><th>Details</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Most GC Goals in a Match</strong></td>
+                <td>{mostGCGoals} goals — {mostGCMatch.homeTeam} vs {mostGCMatch.awayTeam} <span class="text-muted" style="font-size:0.75rem;">S{mostGCMatch.season} GW{mostGCMatch.gameweek}</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    )}
+
+    <div class="records-cta">
+      <a href="/season" class="btn btn-secondary">Season Archive</a>
+      <a href="/gamechangers" class="btn btn-ghost">Gamechanger Analysis</a>
+      <a href="/table" class="btn btn-ghost">Current Table</a>
+    </div>
+
+  </div>
+</Base>
+
+<style>
+.records-page { padding-bottom: var(--space-3xl); max-width: 800px; margin: 0 auto; }
+.records-section { margin-bottom: var(--space-2xl); }
+.records-h2 { font-size: 1.3rem; font-family: var(--font-display); color: var(--text-primary); margin-bottom: var(--space-md); letter-spacing: 0.02em; }
+
+.records-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+.records-table thead { border-bottom: 2px solid var(--border); }
+.records-table th { padding: 10px 12px; text-align: left; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); font-weight: 700; }
+.records-table td { padding: 12px 12px; border-bottom: 1px solid var(--border); color: var(--text-secondary); }
+.records-table strong { color: var(--text-primary); }
+.col-pos { width: 50px; text-align: center; }
+.col-num { text-align: center; width: 80px; }
+.record-num { font-family: var(--font-display); font-size: 1.2rem; color: var(--green) !important; }
+.row-podium td { background: rgba(0,230,118,0.03); }
+.champion-name { color: var(--green); font-weight: 700; }
+
+.records-cta { display: flex; gap: var(--space-sm); justify-content: center; flex-wrap: wrap; margin-top: var(--space-xl); }
+
+@media (max-width: 640px) {
+  .records-table { font-size: 0.8rem; }
+  .records-table th, .records-table td { padding: 8px 6px; }
+}
+</style>

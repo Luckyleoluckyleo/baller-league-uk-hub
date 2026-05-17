@@ -1,0 +1,278 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import tableData from '../data/table.json';
+import fixturesData from '../data/fixtures.json';
+import gcData from '../data/gamechangers.json';
+
+const teams = await getCollection('teams');
+const s3Matches = (gcData.seasons['3']?.matches as any[] || []).filter((m: any) => m.homeScore > 0 || m.awayScore > 0);
+const gws = [...new Set(s3Matches.map((m: any) => m.gameweek))].sort((a: any, b: any) => a - b);
+const maxGW = gws[gws.length - 1] ?? 10;
+const upcoming = fixturesData.upcoming;
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "name": "Baller League UK Season 3 — Ultimate Guide",
+  "description": "The complete reference guide to Baller League UK Season 3. All 12 teams, celebrity managers, rules, Game Changers, schedule, how to watch, and league table.",
+  "author": { "@type": "Organization", "name": "Baller League UK Hub" },
+  "datePublished": "2026-02-01",
+  "dateModified": new Date().toISOString().split('T')[0],
+};
+---
+
+<Base
+  title="Baller League UK Season 3 — Ultimate Guide"
+  description="The complete Baller League UK Season 3 reference. All 12 teams, celebrity managers, rules & format, Game Changers explained, fixture schedule, how to watch, and league standings."
+  schema={schema}
+  keywords="Baller League UK guide, Season 3 guide, teams, managers, rules, Game Changers, fixtures, watch, schedule, standings"
+  type="article"
+>
+  <div class="page-header">
+    <div class="container">
+      <nav class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">›</span><span>Guide</span></nav>
+      <div class="section-label">The Complete Reference</div>
+      <h1>Baller League UK Season 3 — Ultimate Guide</h1>
+      <p class="section-subtitle">Everything you need to know about Baller League UK Season 3 — teams, managers, rules, Game Changers, fixtures, and how to watch.</p>
+    </div>
+  </div>
+
+  <div class="container guide-page">
+
+    <!-- QUICK FACTS -->
+    <section class="guide-section card" id="quick-facts">
+      <div class="card-body">
+        <h2>Quick Facts</h2>
+        <div class="grid-4">
+          <div class="stat-box"><div class="stat-box-number">12</div><div class="stat-box-label">Teams</div></div>
+          <div class="stat-box"><div class="stat-box-number">11</div><div class="stat-box-label">Gameweeks</div></div>
+          <div class="stat-box"><div class="stat-box-number">6v6</div><div class="stat-box-label">Format</div></div>
+          <div class="stat-box"><div class="stat-box-number">30</div><div class="stat-box-label">Minute Matches</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAMS -->
+    <section class="guide-section" id="teams">
+      <h2 class="guide-h2">The 12 Teams</h2>
+      <div class="guide-teams-grid">
+        {teams.map(team => {
+          const standing = tableData.find(t => t.slug === team.data.urlSlug);
+          return (
+            <a href={`/teams/${team.data.urlSlug}`} class="guide-team-card card">
+              <div class="card-body">
+                <div class="guide-team-header">
+                  <span class="guide-team-emoji">{team.data.emoji}</span>
+                  <div>
+                    <h3 class="guide-team-name">{team.data.name}</h3>
+                    <span class="guide-team-manager">{team.data.manager}</span>
+                  </div>
+                </div>
+                <p class="guide-team-desc">{team.data.description}</p>
+                {standing && (
+                  <span class="badge badge-green">#{standing.pos} · {standing.won}W–{standing.drawn}D–{standing.lost}L</span>
+                )}
+              </div>
+            </a>
+          );
+        })}
+      </div>
+    </section>
+
+    <!-- FORMAT & RULES -->
+    <section class="guide-section" id="format">
+      <h2 class="guide-h2">Format & Rules</h2>
+      <div class="guide-rules-grid">
+        <div class="guide-rule card">
+          <div class="card-body">
+            <h3>Match Format</h3>
+            <p>6-a-side football. 30-minute matches (two 15-minute halves). Unlimited rolling substitutions. Matches played at the Baller Arena in London.</p>
+          </div>
+        </div>
+        <div class="guide-rule card">
+          <div class="card-body">
+            <h3>No Corner Kicks</h3>
+            <p>Traditional corners are replaced by direct penalty kicks — more goals, more action, no dead-ball situations in the corners.</p>
+          </div>
+        </div>
+        <div class="guide-rule card">
+          <div class="card-body">
+            <h3>Season Structure</h3>
+            <p>11-game regular season. Top 4 teams qualify for the Final Four playoffs: semi-finals (1st vs 4th, 2nd vs 3rd) and the Grand Final.</p>
+          </div>
+        </div>
+        <div class="guide-rule card">
+          <div class="card-body">
+            <h3>Scoring System</h3>
+            <p>Win = 3pts, Draw = 1pt, Penalty Shootout Winner = +1 bonus pt. Loss = 0pts. League table sorted by points, then goal difference.</p>
+          </div>
+        </div>
+      </div>
+      <a href="/rules" class="btn btn-ghost" style="margin-top:var(--space-md);">Full Rules & FAQ →</a>
+    </section>
+
+    <!-- GAME CHANGERS -->
+    <section class="guide-section" id="gamechangers">
+      <h2 class="guide-h2">Game Changers</h2>
+      <p class="guide-subtitle">Twice per match — at the <strong>12th minute</strong> and <strong>27th minute</strong> — a random Game Changer is activated, temporarily rewriting the rules of the game.</p>
+      <div class="guide-gc-grid">
+        <div class="guide-gc card">
+          <div class="card-body">
+            <h3>🏃 Onside</h3>
+            <span class="badge badge-green">1st Half · 12'</span>
+            <p>All offside rules suspended. Attacking players can position freely — chaos and goals guaranteed.</p>
+          </div>
+        </div>
+        <div class="guide-gc card">
+          <div class="card-body">
+            <h3>➕ Plus One</h3>
+            <span class="badge badge-green">1st Half · 12'</span>
+            <p>Restarts as 1v1, adding one outfield player per goal until full 5v5. Every goal changes the match state.</p>
+          </div>
+        </div>
+        <div class="guide-gc card">
+          <div class="card-body">
+            <h3>⏱️ 3Play</h3>
+            <span class="badge badge-green">1st Half · 12'</span>
+            <p>3v3 with a 30-second shot clock. Lose the ball or let the clock expire and it's a turnover.</p>
+          </div>
+        </div>
+        <div class="guide-gc card">
+          <div class="card-body">
+            <h3>⚔️ 1-on-1</h3>
+            <span class="badge badge-purple">2nd Half · 27'</span>
+            <p>One-on-one duels. Each player stays in their half with a 15-second shot clock. Pure skill, no hiding.</p>
+          </div>
+        </div>
+        <div class="guide-gc card">
+          <div class="card-body">
+            <h3>📏 The Line</h3>
+            <span class="badge badge-purple">2nd Half · 27'</span>
+            <p>Goals scored from beyond the offside line count double. Rewards precision and long-range brilliance.</p>
+          </div>
+        </div>
+        <div class="guide-gc card">
+          <div class="card-body">
+            <h3>🟥 Fairplay</h3>
+            <span class="badge badge-purple">2nd Half · 27'</span>
+            <p>Any foul, handball, or dissent = immediate red card with no replacement. Discipline or disaster.</p>
+          </div>
+        </div>
+      </div>
+      <a href="/gamechangers" class="btn btn-ghost" style="margin-top:var(--space-md);">Full Gamechanger Analysis →</a>
+    </section>
+
+    <!-- SCHEDULE & FIXTURES -->
+    <section class="guide-section" id="schedule">
+      <h2 class="guide-h2">Schedule & Upcoming Fixtures</h2>
+      {upcoming.length > 0 ? (
+        <div class="guide-fixtures">
+          {upcoming.map((f: any) => (
+            <div class="guide-fixture-row">
+              <span class="guide-fixture-date">{f.date} · {f.time}</span>
+              <span class="guide-fixture-teams">
+                <a href={`/teams/${f.homeSlug}`}>{f.homeTeam}</a>
+                <span class="guide-fixture-vs">vs</span>
+                <a href={`/teams/${f.awaySlug}`}>{f.awayTeam}</a>
+              </span>
+              <span class="badge badge-gw">GW{f.gameweek}</span>
+            </div>
+          ))}
+        </div>
+      ) : (
+        <p>No upcoming fixtures currently scheduled. Check back soon for the next gameweek schedule.</p>
+      )}
+      <a href="/table" class="btn btn-ghost" style="margin-top:var(--space-md);">Full Table & Fixtures →</a>
+    </section>
+
+    <!-- HOW TO WATCH -->
+    <section class="guide-section" id="watch">
+      <h2 class="guide-h2">How to Watch</h2>
+      <div class="guide-watch-grid">
+        <div class="card">
+          <div class="card-body">
+            <h3>📺 Sky Sports</h3>
+            <p>Live coverage on Sky Sports. Check your local listings for exact channel details and match times.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h3>🟣 Twitch</h3>
+            <p>Free live streams available on the official Baller League UK Twitch channel during matchdays.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h3>▶️ YouTube</h3>
+            <p>Catch highlights, full match replays, and behind-the-scenes content on the Baller League UK YouTube channel.</p>
+          </div>
+        </div>
+      </div>
+      <a href="/watch" class="btn btn-ghost" style="margin-top:var(--space-md);">Full Watch Guide →</a>
+    </section>
+
+    <!-- RELATED LINKS -->
+    <section class="guide-section" id="more">
+      <h2 class="guide-h2">Explore More</h2>
+      <div class="guide-links">
+        <a href="/managers" class="btn btn-secondary">Celebrity Managers</a>
+        <a href="/players" class="btn btn-secondary">Player Stats</a>
+        <a href="/h2h" class="btn btn-secondary">Head-to-Head</a>
+        <a href="/season" class="btn btn-secondary">Season Archive</a>
+        <a href="/news" class="btn btn-secondary">Match Reports</a>
+        <a href="/roundup" class="btn btn-secondary">GW Roundups</a>
+      </div>
+    </section>
+
+  </div>
+</Base>
+
+<style>
+.guide-page { padding-bottom: var(--space-3xl); max-width: 900px; margin: 0 auto; }
+.guide-section { margin-bottom: var(--space-2xl); }
+.guide-h2 { font-size: 1.4rem; font-family: var(--font-display); color: var(--text-primary); margin-bottom: var(--space-lg); letter-spacing: 0.02em; }
+.guide-subtitle { color: var(--text-secondary); margin-bottom: var(--space-lg); line-height: 1.6; }
+
+/* Teams grid */
+.guide-teams-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: var(--space-md); }
+.guide-team-card { text-decoration: none; transition: transform var(--transition); }
+.guide-team-card:hover { transform: translateY(-2px); }
+.guide-team-header { display: flex; align-items: center; gap: var(--space-sm); margin-bottom: var(--space-sm); }
+.guide-team-emoji { font-size: 1.5rem; }
+.guide-team-name { font-size: 1rem; font-family: var(--font-display); color: var(--text-primary); margin: 0; letter-spacing: 0.02em; }
+.guide-team-manager { font-size: 0.75rem; color: var(--text-muted); }
+.guide-team-desc { font-size: 0.82rem; color: var(--text-secondary); margin-bottom: var(--space-sm); line-height: 1.5; }
+
+/* Rules */
+.guide-rules-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-md); }
+.guide-rule h3 { font-size: 0.95rem; font-weight: 700; color: var(--text-primary); margin-bottom: var(--space-xs); }
+.guide-rule p { font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6; margin: 0; }
+
+/* GC grid */
+.guide-gc-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: var(--space-md); }
+.guide-gc h3 { font-size: 0.95rem; font-weight: 700; color: var(--text-primary); margin-bottom: var(--space-sm); }
+.guide-gc p { font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6; margin-top: var(--space-sm); }
+.badge-purple { background: var(--purple-glow); color: var(--purple); font-size: 0.65rem; font-weight: 700; letter-spacing: 0.06em; }
+
+/* Fixtures */
+.guide-fixture-row { display: flex; align-items: center; gap: var(--space-md); padding: var(--space-sm) 0; border-bottom: 1px solid var(--border); flex-wrap: wrap; }
+.guide-fixture-row:last-child { border-bottom: none; }
+.guide-fixture-date { font-size: 0.8rem; color: var(--text-muted); min-width: 140px; }
+.guide-fixture-teams { font-size: 0.9rem; color: var(--text-secondary); }
+.guide-fixture-teams a { color: var(--text-primary); font-weight: 600; }
+.guide-fixture-vs { color: var(--text-muted); margin: 0 6px; }
+
+/* Watch */
+.guide-watch-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: var(--space-md); }
+.guide-watch-grid h3 { font-size: 0.95rem; font-weight: 700; color: var(--text-primary); margin-bottom: var(--space-xs); }
+.guide-watch-grid p { font-size: 0.85rem; color: var(--text-secondary); margin: 0; line-height: 1.6; }
+
+/* Links */
+.guide-links { display: flex; gap: var(--space-sm); flex-wrap: wrap; }
+
+@media (max-width: 640px) {
+  .guide-rules-grid { grid-template-columns: 1fr; }
+  .guide-fixture-date { min-width: 100px; }
+}
+</style>
