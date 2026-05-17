@@ -66,6 +66,8 @@ if (gcMatches > 0) {
 if (tight > 0) {
   reviewText += ` ${tight} match${tight !== 1 ? 'es were' : ' was'} decided by a single goal.`;
 }
+
+const playerOfTheWeek = topScorers.length > 0 ? topScorers[0] : null;
 ---
 
 <Base
@@ -109,6 +111,18 @@ if (tight > 0) {
         <div class="card-body">
           <h2 class="section-title">Week in Review</h2>
           <p class="review-text">{reviewText}</p>
+        </div>
+      </section>
+    )}
+
+    {playerOfTheWeek && (
+      <section class="potw card">
+        <div class="card-body" style="display:flex;align-items:center;gap:var(--space-md);">
+          <div class="potw-icon">⭐</div>
+          <div>
+            <h3 class="potw-heading">Player of the Week</h3>
+            <p class="potw-text"><strong>{playerOfTheWeek.name}</strong> leads GW{requestedGW} with {playerOfTheWeek.goals} goal{playerOfTheWeek.goals !== 1 ? 's' : ''}{playerOfTheWeek.goals >= 3 ? ' — including a hat-trick' : ''}.</p>
+          </div>
         </div>
       </section>
     )}
@@ -171,6 +185,12 @@ if (tight > 0) {
 .week-in-review { margin-bottom: var(--space-2xl); background: linear-gradient(135deg, var(--bg-elevated), var(--bg-card)); border: 1px solid var(--green-glow); }
 .review-text { color: var(--text-secondary); line-height: 1.7; font-size: 0.95rem; }
 .review-text strong { color: var(--text-primary); }
+
+.potw { margin-bottom: var(--space-xl); background: linear-gradient(135deg, rgba(255,193,7,0.08), var(--bg-card)); border: 1px solid rgba(255,193,7,0.3); }
+.potw-icon { font-size: 2rem; flex-shrink: 0; }
+.potw-heading { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #ffc107; margin-bottom: 4px; font-family: var(--font-body); }
+.potw-text { font-size: 0.9rem; color: var(--text-secondary); margin: 0; line-height: 1.5; }
+.potw-text strong { color: var(--text-primary); }
 
 .roundup-matches { display: flex; flex-direction: column; gap: var(--space-md); margin-bottom: var(--space-xl); }
 .roundup-match-card { text-decoration: none; }

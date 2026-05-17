@@ -205,6 +205,36 @@ const schema = {
         </div>
       </div>
 
+      <!-- SECTION 6 - FAQ -->
+      <div class="rule-block card" id="faq">
+        <div class="card-body">
+          <div class="rule-icon">❓</div>
+          <h2>Frequently Asked Questions</h2>
+          <div class="faq-list">
+            <details class="faq-item">
+              <summary>What is the format of Baller League UK?</summary>
+              <p>Baller League UK is 6-a-side football with 30-minute matches (two 15-minute halves), unlimited rolling substitutions, and celebrity managers. Each team fields six players at a time — five outfield players and one goalkeeper — in a purpose-built indoor arena.</p>
+            </details>
+            <details class="faq-item">
+              <summary>What are Game Changers in Baller League UK?</summary>
+              <p>Game Changers are random rule changes activated at the 12th and 27th minute of each match. First-half options are Onside (no offsides), Plus One (progressive 1v1 build-up), and 3Play (3v3 with a 30-second shot clock). Second-half options are 1-on-1 (individual duels), The Line (double goals from distance), and Fairplay (instant red cards for fouls).</p>
+            </details>
+            <details class="faq-item">
+              <summary>Are there corner kicks in Baller League UK?</summary>
+              <p>No. Traditional corner kicks are replaced by direct penalty kicks. Whenever the ball would normally go out for a corner, the attacking team is awarded a direct penalty instead — increasing goal opportunities and keeping the action flowing.</p>
+            </details>
+            <details class="faq-item">
+              <summary>How many teams are in Baller League UK?</summary>
+              <p>12 teams compete in Baller League UK Season 3 over 11 gameweeks. At the end of the regular season, the top 4 teams qualify for the Final Four playoffs — a knockout tournament to decide the champion.</p>
+            </details>
+            <details class="faq-item">
+              <summary>How does the Baller League UK scoring system work?</summary>
+              <p>A win earns 3 points, a draw earns 1 point, and the penalty shootout winner earns 1 additional bonus point. Losses earn 0 points. Teams are ranked by total points, then goal difference, then goals scored.</p>
+            </details>
+          </div>
+        </div>
+      </div>
+
     </div>
 
     <!-- SIDEBAR CTA -->
@@ -309,6 +339,15 @@ const schema = {
 .aside-links { list-style: none; display: flex; flex-direction: column; gap: var(--space-sm); }
 .aside-links li a { font-size: 0.88rem; color: var(--text-secondary); transition: color var(--transition); }
 .aside-links li a:hover { color: var(--green); }
+
+/* FAQ */
+.faq-list { display: flex; flex-direction: column; gap: var(--space-sm); }
+.faq-item { background: var(--bg-elevated); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+.faq-item summary { padding: var(--space-md); font-weight: 600; font-size: 0.95rem; color: var(--text-primary); cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; }
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary::after { content: '+'; font-size: 1.2rem; color: var(--green); font-weight: 700; margin-left: var(--space-sm); transition: transform var(--transition); }
+.faq-item[open] summary::after { content: '−'; }
+.faq-item p { padding: 0 var(--space-md) var(--space-md); font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6; margin: 0; }
 
 @media (max-width: 900px) {
   .rules-layout { grid-template-columns: 1fr; }

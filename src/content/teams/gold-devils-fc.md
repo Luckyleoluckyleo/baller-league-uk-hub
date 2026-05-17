@@ -16,4 +16,6 @@ goalsAgainst: 0
 points: 0
 ---
 
-**Mark Goldbridge** — the voice behind The United Stand — brings his passion and football knowledge to Gold Devils FC.
+Gold Devils FC are managed by **Mark Goldbridge** — the voice behind The United Stand, one of the largest football fan channels on YouTube. Goldbridge brings a lifetime of football obsession and unfiltered passion to the Baller League, and his Gold Devils side are a direct reflection of their manager: hard-working, opinionated, and never short of fight.
+
+Gold Devils FC play with intensity and heart, often thriving in the chaotic, high-pressure moments that define the 6v6 format. Goldbridge's deep tactical knowledge — honed through years of analysing the professional game — gives his team a competitive edge, particularly when it comes to reading the opposition and adapting to Game Changer scenarios. With a devoted online following behind them and a manager who wears his heart on his sleeve, Gold Devils FC are one of the most watchable teams in the league.

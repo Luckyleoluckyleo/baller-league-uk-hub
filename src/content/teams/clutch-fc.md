@@ -16,4 +16,6 @@ goalsAgainst: 0
 points: 0
 ---
 
-England Lioness **Chloe Kelly** brings elite-level football experience to Clutch FC. Her side play with intensity and tactical discipline.
+Clutch FC are managed by England hero **Chloe Kelly** — the Manchester City winger whose extra-time winner secured the Euro 2022 title for the Lionesses at Wembley. Kelly's journey from scoring one of the most iconic goals in English football history to managing in the Baller League makes her one of the most compelling figures on the touchline. Her team plays with the same big-game mentality that defined her playing career: intense, focused, and never beaten until the final whistle.
+
+Clutch FC are tactically one of the most disciplined sides in the league. Kelly's experience at the elite level of the women's game translates into a team that understands positioning, transitions, and game management. They are particularly effective during the structured phases of matches, before Game Changers disrupt the rhythm. As Kelly continues to grow into her managerial role, Clutch FC are a team on an upward trajectory with the potential to trouble anyone on their day.
