@@ -39,12 +39,21 @@ for (let i = 0; i < teams.length; i++) {
     }
   }
 }
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Head-to-Head Team Comparison — Baller League UK",
+  "description": "Compare any two Baller League UK teams head-to-head: all-time record, recent meetings, Game Changer performance and key stats.",
+  "about": { "@type": "SportsOrganization", "name": "Baller League UK", "sport": "Football" },
+};
 ---
 
 <Base
   title="Head-to-Head Comparison — Baller League UK Teams"
   description="Compare any two Baller League UK teams head-to-head: all-time record, recent meetings, Game Changer performance, form guide and key stats across all seasons."
   keywords="head to head, team comparison, H2H, match history, record, form guide"
+  schema={schema}
 >
 
   <div class="page-header">

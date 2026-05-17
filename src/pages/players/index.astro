@@ -32,12 +32,21 @@ const positions = [...new Set(enriched.filter(p => p.position).map(p => p.positi
 function initials(name: string): string {
   return name.split(' ').map(n => n[0]).join('').slice(0, 2).toUpperCase();
 }
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Baller League UK Players",
+  "description": "All Baller League UK players for Season 3 with goals, assists, appearances and detailed stats. Leaderboards and filtering.",
+  "about": { "@type": "SportsOrganization", "name": "Baller League UK", "sport": "Football" },
+};
 ---
 
 <Base
   title="Baller League UK Players — Stats, Goals & Player Profiles"
   description="Browse all Baller League UK players for Season 3. Leaderboards by goals and GC goals, search by name, filter by team or position."
   keywords="players, goals, assists, stats, top scorers, squad, Season 3"
+  schema={schema}
 >
 
   <div class="page-header">

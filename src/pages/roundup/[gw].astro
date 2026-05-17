@@ -68,12 +68,21 @@ if (tight > 0) {
 }
 
 const playerOfTheWeek = topScorers.length > 0 ? topScorers[0] : null;
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": `Gameweek ${requestedGW} Roundup — Baller League UK`,
+  "description": `Full Gameweek ${requestedGW} roundup: ${gwMatches.length} matches, ${totalGoals} goals, GC stats and top performers from Baller League UK Season 3.`,
+  "about": { "@type": "SportsOrganization", "name": "Baller League UK", "sport": "Football" },
+};
 ---
 
 <Base
   title={`Gameweek ${requestedGW} Roundup — Baller League UK Hub`}
   description={`Full Gameweek ${requestedGW} roundup: all ${gwMatches.length} match results, total goals, GC stats, and top performers from Baller League UK Season 3.`}
   keywords={`gameweek ${requestedGW}, roundup, results, goals, match report, Season 3`}
+  schema={schema}
 >
 
   <div class="page-header">

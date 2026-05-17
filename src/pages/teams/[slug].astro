@@ -118,7 +118,7 @@ const schema = {
           
           <div class="team-meta">
             <div class="manager-avatar-wrap">
-              <img src={`/managers/${data.urlSlug}.webp`} alt={data.manager} class="manager-avatar" onerror="this.hidden=true" />
+              <img src={`/managers/${data.urlSlug}.webp`} alt={data.manager} class="manager-avatar" loading="lazy" onerror="this.hidden=true" />
             </div>
             <div class="manager-info">
               <span class="team-manager-role badge badge-green">{data.managerRole}</span>

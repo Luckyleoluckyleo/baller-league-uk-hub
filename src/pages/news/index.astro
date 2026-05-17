@@ -22,12 +22,21 @@ const sorted = enriched.sort((a, b) => {
 
 const categories = [...new Set(allNews.map(a => a.data.category))].sort();
 const gameweeks = [...new Set(enriched.filter(a => a.gameweek).map(a => a.gameweek))].sort((a: any, b: any) => b - a);
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Baller League UK News",
+  "description": "Latest Baller League UK news: match reports, gameweek previews, transfer updates and analysis.",
+  "about": { "@type": "SportsOrganization", "name": "Baller League UK", "sport": "Football" },
+};
 ---
 
 <Base
   title="Baller League UK News — Match Reports, Previews & Transfers"
   description="Latest Baller League UK news: match reports, gameweek previews, transfer updates and analysis. Every gameweek covered in detail."
   keywords="news, match reports, previews, transfers, gameweek, updates"
+  schema={schema}
 >
   <div class="page-header">
     <div class="container">
