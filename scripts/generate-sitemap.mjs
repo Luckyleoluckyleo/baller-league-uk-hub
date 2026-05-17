@@ -6,7 +6,12 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const DIST_DIR = resolve(__dirname, "..", "dist");
 const SITE = "https://ballerleagueukhub.com";
 
-const EXCLUDE = new Set(["404.html", "compare/", "roundup/index.html"]);
+function isExcluded(url) {
+  if (url === "404" || url === "compare/" || url === "roundup/") return true;
+  if (url.startsWith("admin") || url.startsWith("google")) return true;
+  if (url.startsWith("match/s3-")) return true;
+  return false;
+}
 
 function walk(dir, base = "") {
   const results = [];
@@ -21,8 +26,8 @@ function walk(dir, base = "") {
         .replace(/\\/g, "/")
         .replace(/index\.html$/, "")
         .replace(/\.html$/, "");
-      const fullUrl = `${SITE}/${url}`;
-      if (!EXCLUDE.has(rel) && !rel.includes("roundup/index") && !url.startsWith("match/s3-")) {
+      if (!isExcluded(url)) {
+        const fullUrl = `${SITE}/${url}`;
         const { mtime } = statSync(full);
         results.push({ url: fullUrl, path: rel, mtime });
       }
@@ -34,19 +39,23 @@ function walk(dir, base = "") {
 const pages = walk(DIST_DIR);
 pages.sort((a, b) => a.url.localeCompare(b.url));
 
+const normalizeUrl = (u) => u.replace(/\/$/, "");
+
 function getPriority(url) {
-  if (url === `${SITE}/`) return "1.0";
-  if (url === `${SITE}/table` || url === `${SITE}/teams` || url === `${SITE}/players`) return "0.9";
-  if (url.startsWith(`${SITE}/teams/`) || url.startsWith(`${SITE}/players/`)) return "0.7";
-  if (url.startsWith(`${SITE}/news/`) || url.startsWith(`${SITE}/roundup/`)) return "0.7";
-  if (url.startsWith(`${SITE}/match/`)) return "0.6";
-  if (url === `${SITE}/gamechangers` || url === `${SITE}/h2h` || url === `${SITE}/rules` || url === `${SITE}/watch`) return "0.6";
+  const u = normalizeUrl(url);
+  if (u === `${SITE}`) return "1.0";
+  if (u === `${SITE}/table` || u === `${SITE}/teams` || u === `${SITE}/players`) return "0.9";
+  if (u.startsWith(`${SITE}/teams/`) || u.startsWith(`${SITE}/players/`)) return "0.7";
+  if (u.startsWith(`${SITE}/news/`) || u.startsWith(`${SITE}/roundup/`)) return "0.7";
+  if (u.startsWith(`${SITE}/match/`)) return "0.6";
+  if (u === `${SITE}/gamechangers` || u === `${SITE}/h2h` || u === `${SITE}/rules` || u === `${SITE}/watch`) return "0.6";
   return "0.5";
 }
 
 function getChangefreq(url) {
-  if (url === `${SITE}/` || url === `${SITE}/table`) return "daily";
-  if (url.startsWith(`${SITE}/news/`) || url.startsWith(`${SITE}/roundup/`)) return "weekly";
+  const u = normalizeUrl(url);
+  if (u === `${SITE}` || u === `${SITE}/table`) return "daily";
+  if (u.startsWith(`${SITE}/news/`) || u.startsWith(`${SITE}/roundup/`)) return "weekly";
   return "monthly";
 }
 
