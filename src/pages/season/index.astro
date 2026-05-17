@@ -1,0 +1,128 @@
+---
+import Base from '../../layouts/Base.astro';
+import gcData from '../../data/gamechangers.json';
+
+const seasonIds = ['1', '2', '3'];
+
+function computeSeason(sid: string) {
+  const matches = (gcData.seasons[sid]?.matches as any[] || []).filter((m: any) => m.homeScore > 0 || m.awayScore > 0);
+  if (matches.length === 0) return null;
+
+  const gws = [...new Set(matches.map((m: any) => m.gameweek))];
+  const totalGoals = matches.reduce((s: number, m: any) => s + m.homeScore + m.awayScore, 0);
+  const avgGoals = (totalGoals / matches.length).toFixed(1);
+  const teams = [...new Set(matches.flatMap((m: any) => [m.homeTeam, m.awayTeam]))];
+
+  const records: Record<string, { played: number; won: number; drawn: number; lost: number; gf: number; ga: number }> = {};
+  for (const m of matches) {
+    if (!records[m.homeTeam]) records[m.homeTeam] = { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0 };
+    if (!records[m.awayTeam]) records[m.awayTeam] = { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0 };
+    records[m.homeTeam].played++; records[m.awayTeam].played++;
+    records[m.homeTeam].gf += m.homeScore; records[m.homeTeam].ga += m.awayScore;
+    records[m.awayTeam].gf += m.awayScore; records[m.awayTeam].ga += m.homeScore;
+    if (m.homeScore > m.awayScore) { records[m.homeTeam].won++; records[m.awayTeam].lost++; }
+    else if (m.awayScore > m.homeScore) { records[m.homeTeam].lost++; records[m.awayTeam].won++; }
+    else { records[m.homeTeam].drawn++; records[m.awayTeam].drawn++; }
+  }
+  const table = teams.map(team => {
+    const r = records[team] || { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0 };
+    return { team, played: r.played, won: r.won, drawn: r.drawn, lost: r.lost, gf: r.gf, ga: r.ga, gd: r.gf - r.ga, pts: r.won * 3 + r.drawn };
+  });
+  table.sort((a, b) => b.pts - a.pts || b.gd - a.gd || b.gf - a.gf);
+  const champion = table[0]?.team;
+
+  return {
+    id: sid,
+    teams,
+    matches: matches.length,
+    totalGoals,
+    avgGoals,
+    gws,
+    champion,
+    table,
+    detail: gws.length > 0 ? `${gws.length} gameweeks · ${matches.length} matches · ${totalGoals} goals` : 'No data',
+  };
+}
+
+  const seasons = seasonIds.map(sid => computeSeason(sid)).filter(Boolean);
+
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Baller League UK Seasons",
+    "description": "Complete standings and statistics for all Baller League UK seasons — Season 1, Season 2, and Season 3.",
+    "numberOfItems": seasons.length,
+  };
+---
+
+<Base
+  title="Baller League UK Seasons — Standings Archive"
+  description="Full standings archive for all Baller League UK seasons. View final tables, champions, match counts, and goal stats for Season 1, Season 2 and Season 3."
+  schema={schema}
+>
+  <div class="page-header">
+    <div class="container">
+      <nav class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">›</span><span>Seasons</span></nav>
+      <div class="section-label">History</div>
+      <h1>Baller League UK Seasons</h1>
+      <p class="section-subtitle">Standings, champions, and stats from every Baller League UK season.</p>
+    </div>
+  </div>
+
+  <div class="container season-page">
+    <div class="seasons-grid">
+      {seasons.map(s => (
+        <a href={`/season/${s.id}`} class="season-card card">
+          <div class="card-body">
+            <div class="season-card-header">
+              <span class="season-badge">Season {s.id}</span>
+              <span class="season-arrow">&rarr;</span>
+            </div>
+            <div class="season-stats-row">
+              <div class="season-stat">
+                <div class="season-stat-num">{s.teams.length}</div>
+                <div class="season-stat-label">Teams</div>
+              </div>
+              <div class="season-stat">
+                <div class="season-stat-num">{s.matches}</div>
+                <div class="season-stat-label">Matches</div>
+              </div>
+              <div class="season-stat">
+                <div class="season-stat-num">{s.totalGoals}</div>
+                <div class="season-stat-label">Goals</div>
+              </div>
+              <div class="season-stat">
+                <div class="season-stat-num">{s.avgGoals}</div>
+                <div class="season-stat-label">Avg/Match</div>
+              </div>
+            </div>
+            {s.champion && (
+              <div class="season-champion">
+                <span class="champion-icon">&#x1F3C6;</span> Champion: <strong>{s.champion}</strong>
+              </div>
+            )}
+            <div class="season-detail">{s.detail}</div>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</Base>
+
+<style>
+.season-page { padding-bottom: var(--space-3xl); }
+.seasons-grid { display: flex; flex-direction: column; gap: var(--space-lg); max-width: 700px; margin: 0 auto; }
+.season-card { text-decoration: none; transition: transform var(--transition), box-shadow var(--transition); }
+.season-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-green); }
+.season-card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--space-md); }
+.season-badge { background: var(--green-glow); color: var(--green); padding: 4px 12px; border-radius: var(--radius-sm); font-size: 0.85rem; font-weight: 700; font-family: var(--font-display); letter-spacing: 0.04em; }
+.season-arrow { color: var(--green); font-size: 1.3rem; }
+.season-stats-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--space-sm); margin-bottom: var(--space-md); }
+.season-stat { text-align: center; }
+.season-stat-num { font-family: var(--font-display); font-size: 1.5rem; color: var(--text-primary); line-height: 1; margin-bottom: 2px; }
+.season-stat-label { font-size: 0.68rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; }
+.season-champion { font-size: 0.95rem; color: var(--text-secondary); margin-bottom: var(--space-xs); }
+.season-champion strong { color: var(--text-primary); }
+.champion-icon { margin-right: 2px; }
+.season-detail { font-size: 0.8rem; color: var(--text-muted); }
+</style>
