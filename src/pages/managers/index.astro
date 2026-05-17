@@ -49,25 +49,21 @@ const schema = {
         const first = group.managers[0];
         const coManagers = group.managers;
         return (
-          <div class="manager-card card">
-            <div class="manager-card-img-wrap">
+           <div class="manager-card card">
+            <a href={`/teams/${group.team}`} class="manager-card-img-wrap">
               <img
                 src={`/managers/${first.data.image || group.team}.webp`}
                 alt={first.data.name}
                 class="manager-card-img"
                 loading="lazy"
-                onerror="this.hidden=true;this.nextElementSibling.hidden=false"
               />
-              <div class="manager-avatar-fallback" hidden>
-                {first.data.name.split(' ').map((n: string) => n[0]).join('').slice(0, 2).toUpperCase()}
-              </div>
               <img
                 src={`/logos/${group.team}.svg`}
                 alt={group.teamName}
                 class="manager-card-badge"
                 onerror="this.hidden=true"
               />
-            </div>
+            </a>
             <div class="card-body">
               {coManagers.map((m, i) => (
                 <a href={`/managers/${m.slug}`} class="manager-card-name-link">{m.data.name}</a>
@@ -95,7 +91,7 @@ const schema = {
 .managers-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: var(--space-lg); }
 .manager-card { text-decoration: none; transition: transform var(--transition), box-shadow var(--transition); }
 .manager-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-green); }
-.manager-card-img-wrap { position: relative; aspect-ratio: 1; overflow: hidden; }
+.manager-card-img-wrap { position: relative; aspect-ratio: 1; overflow: hidden; display: block; }
 .manager-card-img { width: 100%; height: 100%; object-fit: cover; }
 .manager-avatar-fallback {
   width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
