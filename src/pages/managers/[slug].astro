@@ -1,0 +1,249 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import tableData from '../../data/table.json';
+import gcData from '../../data/gamechangers.json';
+
+export async function getStaticPaths() {
+  const managers = await getCollection('managers');
+  return managers.map(m => ({ params: { slug: m.slug }, props: { slug: m.slug } }));
+}
+
+const { slug } = Astro.props;
+const managers = await getCollection('managers');
+const manager = managers.find(m => m.slug === slug);
+const data = manager?.data;
+
+const standing = tableData.find(t => t.slug === data?.team);
+
+const s3Matches = (gcData.seasons['3']?.matches as any[] || []).filter((m: any) => m.homeScore > 0 || m.awayScore > 0);
+
+function getForm(teamSlug: string): { label: string; cls: string }[] {
+  return s3Matches
+    .filter((x: any) => x.homeSlug === teamSlug || x.awaySlug === teamSlug)
+    .sort((a: any, b: any) => b.gameweek - a.gameweek)
+    .slice(0, 5)
+    .map((x: any) => {
+      const isHome = x.homeSlug === teamSlug;
+      const gd = isHome ? x.homeScore - x.awayScore : x.awayScore - x.homeScore;
+      if (gd > 0) return { label: 'W', cls: 'form-win' };
+      if (gd < 0) return { label: 'L', cls: 'form-loss' };
+      return { label: 'D', cls: 'form-draw' };
+    });
+}
+
+const form = data ? getForm(data.team) : [];
+
+const topPlayers = s3Matches
+  .flatMap((m: any) => {
+    if (m.homeSlug !== data?.team && m.awaySlug !== data?.team) return [];
+    return (m.goalscorers || []).map((g: any) => ({ ...g, gameweek: m.gameweek }));
+  });
+
+const playerTally: Record<string, { player: string; goals: number; lastGW: number }> = {};
+for (const g of topPlayers) {
+  if (!playerTally[g.player]) playerTally[g.player] = { player: g.player, goals: 0, lastGW: 0 };
+  playerTally[g.player].goals++;
+  if (g.gameweek > playerTally[g.player].lastGW) playerTally[g.player].lastGW = g.gameweek;
+}
+const rankedPlayers = Object.values(playerTally).sort((a, b) => b.goals - a.goals).slice(0, 3);
+
+const schema = data ? {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": data.name,
+  "description": data.bio?.replace(/\n/g, ' ').trim() || `${data.name} manages ${data.teamName} in Baller League UK.`,
+  "affiliation": { "@type": "SportsTeam", "name": data.teamName, "sport": "Football" },
+  "jobTitle": data.role,
+  "image": `/managers/${data.image || data.team}.webp`
+} : undefined;
+---
+
+{!data ? (
+  <Base title="Manager Not Found" description="Manager not found.">
+    <div class="page-header"><div class="container"><h1>Manager Not Found</h1><a href="/managers">Back to Managers</a></div></div>
+  </Base>
+) : (
+  <Base
+    title={`${data.name} — ${data.teamName} ${data.role} | Baller League UK`}
+    description={`${data.name} is the ${data.role.toLowerCase()} of ${data.teamName} in Baller League UK Season 3. ${data.bio?.replace(/\n/g, ' ').trim().substring(0, 120)}...`}
+    schema={schema}
+    keywords={`${data.name}, ${data.teamName}, Baller League UK manager, celebrity manager, ${data.role.toLowerCase()}`}
+  >
+    <div class="page-header">
+      <div class="container">
+        <nav class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">›</span><a href="/managers">Managers</a><span class="breadcrumb-sep">›</span><span>{data.name}</span></nav>
+        <div class="manager-hero">
+          <div class="manager-photo-wrap">
+            <img
+              src={`/managers/${data.image || data.team}.webp`}
+              alt={data.name}
+              class="manager-photo-hero"
+              loading="lazy"
+              onerror="this.hidden=true;this.nextElementSibling.hidden=false"
+            />
+            <div class="manager-avatar-fallback-hero" hidden>
+              {data.name.split(' ').map((n: string) => n[0]).join('').slice(0, 2).toUpperCase()}
+            </div>
+          </div>
+          <div class="manager-hero-info">
+            <div class="manager-hero-meta">
+              <span class="badge badge-green">{data.role}</span>
+              {standing && <span class="badge badge-gw">#{standing.pos} in League</span>}
+            </div>
+            <h1 class="manager-name">{data.name}</h1>
+            <a href={`/teams/${data.team}`} class="manager-team-link">
+              <img
+                src={`/logos/${data.team}.svg`}
+                alt={data.teamName}
+                style="width:24px;height:24px;object-fit:contain;vertical-align:middle;margin-right:8px;"
+                onerror="this.hidden=true"
+              />
+              {data.teamName}
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container manager-page">
+      <div class="manager-layout">
+        <div class="manager-main">
+          <div class="manager-bio card">
+            <div class="card-body">
+              <h2 class="detail-heading">About {data.name}</h2>
+              <div class="bio-text">
+                {data.bio?.split('\n').filter(Boolean).map((p: string) => (
+                  <p>{p.trim()}</p>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="manager-sidebar">
+          {standing && (
+            <div class="card">
+              <div class="card-body">
+                <h3 class="detail-heading">{data.teamName} Record</h3>
+                <div class="stat-grid-2col">
+                  <div class="stat-box-side">
+                    <div class="stat-box-number">{standing.won}</div>
+                    <div class="stat-box-label">Wins</div>
+                  </div>
+                  <div class="stat-box-side">
+                    <div class="stat-box-number">{standing.drawn}</div>
+                    <div class="stat-box-label">Draws</div>
+                  </div>
+                  <div class="stat-box-side">
+                    <div class="stat-box-number">{standing.lost}</div>
+                    <div class="stat-box-label">Losses</div>
+                  </div>
+                  <div class="stat-box-side">
+                    <div class="stat-box-number">{standing.pts}</div>
+                    <div class="stat-box-label">Points</div>
+                  </div>
+                </div>
+                <div style="margin-top:var(--space-md)">
+                  <span class="text-muted" style="font-size:0.85rem">
+                    GF {standing.gf} · GA {standing.ga} · GD {standing.gd >= 0 ? '+' : ''}{standing.gd}
+                  </span>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {form.length > 0 && (
+            <div class="card">
+              <div class="card-body">
+                <h3 class="detail-heading">Recent Form</h3>
+                <div class="form-bar">
+                  {form.map((f, i) => (
+                    <span class={`form-block ${f.cls}`} title={`Match ${i + 1}: ${f.label}`}>{f.label}</span>
+                  ))}
+                </div>
+              </div>
+            </div>
+          )}
+
+          {rankedPlayers.length > 0 && (
+            <div class="card">
+              <div class="card-body">
+                <h3 class="detail-heading">Top Scorers</h3>
+                <div class="scorer-list">
+                  {rankedPlayers.map(p => (
+                    <div class="scorer-row">
+                      <span class="scorer-name">{p.player}</span>
+                      <span class="scorer-goals">{p.goals} goal{p.goals !== 1 ? 's' : ''}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          )}
+
+          <a href={`/teams/${data.team}`} class="btn btn-secondary" style="display:block;text-align:center;">View {data.teamName} Squad</a>
+          <a href="/managers" class="btn btn-ghost" style="display:block;text-align:center;">All Managers</a>
+        </div>
+      </div>
+    </div>
+  </Base>
+)}
+
+<style>
+.manager-hero { display: flex; align-items: center; gap: var(--space-xl); }
+.manager-photo-wrap { position: relative; flex-shrink: 0; }
+.manager-photo-hero { width: 140px; height: 140px; border-radius: 50%; object-fit: cover; border: 3px solid var(--green); box-shadow: var(--shadow-green); }
+.manager-avatar-fallback-hero {
+  width: 140px; height: 140px; border-radius: 50%;
+  background: linear-gradient(135deg, var(--bg-elevated), var(--bg-card));
+  border: 3px solid var(--green); display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-display); font-size: 3rem; color: var(--green); box-shadow: var(--shadow-green);
+}
+.manager-hero-info { flex: 1; }
+.manager-hero-meta { display: flex; align-items: center; gap: var(--space-sm); margin-bottom: var(--space-sm); flex-wrap: wrap; }
+.manager-name { margin-bottom: var(--space-sm); font-size: 2.2rem; }
+.manager-team-link { color: var(--green); font-weight: 600; font-size: 1.1rem; display: inline-flex; align-items: center; text-decoration: none; transition: color var(--transition); }
+.manager-team-link:hover { color: var(--green-mid); }
+.badge-gw { background: var(--bg-elevated); color: var(--text-secondary); font-size: 0.7rem; font-weight: 700; letter-spacing: 0.04em; }
+
+.manager-page { padding-bottom: var(--space-3xl); }
+.manager-layout { display: flex; gap: var(--space-xl); align-items: flex-start; }
+.manager-main { flex: 1; min-width: 0; }
+.manager-sidebar { width: 300px; flex-shrink: 0; display: flex; flex-direction: column; gap: var(--space-lg); }
+
+.manager-bio { background: linear-gradient(135deg, var(--bg-elevated), var(--bg-card)); border: 1px solid var(--green-glow); }
+.bio-text { color: var(--text-secondary); line-height: 1.8; font-size: 0.95rem; }
+.bio-text p { margin-bottom: var(--space-md); }
+.bio-text p:last-child { margin-bottom: 0; }
+
+.detail-heading { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-muted); margin-bottom: var(--space-md); font-family: var(--font-body); }
+
+.stat-grid-2col { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-sm); }
+.stat-box-side { background: var(--bg-elevated); border: 1px solid var(--border); border-radius: var(--radius); padding: var(--space-sm); text-align: center; }
+.stat-box-side .stat-box-number { font-family: var(--font-display); font-size: 1.5rem; color: var(--text-primary); line-height: 1; }
+.stat-box-side .stat-box-label { font-size: 0.68rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; }
+
+.form-bar { display: flex; gap: 4px; flex-wrap: wrap; }
+.form-block { width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; border-radius: var(--radius-sm); font-size: 0.75rem; font-weight: 700; }
+.form-win { background: var(--green-glow); color: var(--green); }
+.form-draw { background: rgba(255,193,7,0.15); color: #ffc107; }
+.form-loss { background: rgba(255,71,87,0.15); color: #ff4757; }
+
+.scorer-list { display: flex; flex-direction: column; gap: var(--space-sm); }
+.scorer-row { display: flex; justify-content: space-between; align-items: center; padding: var(--space-xs) 0; border-bottom: 1px solid var(--border); }
+.scorer-row:last-child { border-bottom: none; }
+.scorer-name { font-size: 0.9rem; color: var(--text-primary); font-weight: 500; }
+.scorer-goals { font-size: 0.85rem; color: var(--green); font-weight: 600; }
+
+@media (max-width: 768px) {
+  .manager-layout { flex-direction: column; }
+  .manager-sidebar { width: 100%; }
+  .manager-hero { flex-direction: column; text-align: center; }
+  .manager-hero-meta { justify-content: center; }
+  .stat-grid-2col { grid-template-columns: repeat(4, 1fr); }
+}
+@media (max-width: 480px) {
+  .stat-grid-2col { grid-template-columns: 1fr 1fr; }
+}
+</style>

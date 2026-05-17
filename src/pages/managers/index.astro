@@ -1,0 +1,101 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import tableData from '../../data/table.json';
+
+const managers = await getCollection('managers');
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Baller League UK Managers — Celebrity Profiles",
+  "description": "Meet all 13 managers of Baller League UK Season 3. From KSI and Angry Ginge to Ian Wright and Alan Shearer — get the full celebrity manager lineup.",
+  "about": { "@type": "SportsOrganization", "name": "Baller League UK", "sport": "Football" }
+};
+---
+
+<Base
+  title="Baller League UK Managers — Celebrity Profiles"
+  description="Meet all the celebrity managers of Baller League UK Season 3 — KSI, Angry Ginge, Niko Omilana, Mark Goldbridge, Ian Wright, Alan Shearer and more. Manager profiles with photos and team records."
+  schema={schema}
+  keywords="Baller League UK managers, celebrity managers, KSI Baller League, Angry Ginge, Niko Omilana, Ian Wright, Alan Shearer, Mark Goldbridge"
+>
+  <div class="page-header">
+    <div class="container">
+      <nav class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">›</span><span>Managers</span></nav>
+      <div class="section-label">Season 3</div>
+      <h1>Baller League UK Managers</h1>
+      <p class="section-subtitle">
+        13 celebrity managers across 12 teams. From Premier League legends to YouTube superstars.
+      </p>
+    </div>
+  </div>
+
+  <div class="container managers-page">
+    <div class="managers-grid">
+      {managers.map(m => {
+        const standing = tableData.find(t => t.slug === m.data.team);
+        return (
+          <a href={`/managers/${m.slug}`} class="manager-card card">
+            <div class="manager-card-img-wrap">
+              <img
+                src={`/managers/${m.data.image || m.data.team}.webp`}
+                alt={m.data.name}
+                class="manager-card-img"
+                loading="lazy"
+                onerror="this.hidden=true;this.nextElementSibling.hidden=false"
+              />
+              <div class="manager-avatar-fallback" hidden>
+                {m.data.name.split(' ').map((n: string) => n[0]).join('').slice(0, 2).toUpperCase()}
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="manager-card-name">{m.data.name}</div>
+              <div class="manager-card-role">{m.data.role}</div>
+              <div class="manager-card-team">
+                <img
+                  src={`/logos/${m.data.team}.svg`}
+                  alt={m.data.teamName}
+                  style="width:18px;height:18px;object-fit:contain;vertical-align:middle;margin-right:4px;"
+                  onerror="this.hidden=true"
+                />
+                {m.data.teamName} {standing ? `(${standing.won}W–${standing.drawn}D–${standing.lost}L)` : ''}
+              </div>
+              {standing && (
+                <div class="manager-card-pos">
+                  <span class="badge badge-green">#{standing.pos}</span>
+                  {standing.pts} pts · GD {standing.gd >= 0 ? '+' : ''}{standing.gd}
+                </div>
+              )}
+            </div>
+          </a>
+        );
+      })}
+    </div>
+  </div>
+</Base>
+
+<style>
+.managers-page { padding-bottom: var(--space-3xl); }
+.managers-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: var(--space-lg); }
+.manager-card { text-decoration: none; transition: transform var(--transition), box-shadow var(--transition); }
+.manager-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-green); }
+.manager-card-img-wrap { position: relative; aspect-ratio: 1; overflow: hidden; }
+.manager-card-img { width: 100%; height: 100%; object-fit: cover; }
+.manager-avatar-fallback {
+  width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
+  background: linear-gradient(135deg, var(--bg-elevated), var(--bg-card));
+  font-family: var(--font-display); font-size: 3rem; color: var(--green);
+}
+.manager-card-name { font-family: var(--font-display); font-size: 1.3rem; color: var(--text-primary); margin-bottom: 2px; }
+.manager-card-role { font-size: 0.75rem; color: var(--green); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: var(--space-sm); font-weight: 700; }
+.manager-card-team { font-size: 0.9rem; color: var(--text-secondary); font-weight: 600; margin-bottom: var(--space-xs); }
+.manager-card-pos { font-size: 0.85rem; color: var(--text-muted); }
+.manager-card-pos .badge { margin-right: 4px; }
+
+@media (max-width: 640px) {
+  .managers-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 400px) {
+  .managers-grid { grid-template-columns: 1fr; }
+}
+</style>

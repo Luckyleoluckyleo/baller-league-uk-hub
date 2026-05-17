@@ -37,6 +37,19 @@ const playersCollection = defineCollection({
   }),
 });
 
+const managersCollection = defineCollection({
+  type: 'content',
+  schema: z.object({
+    name:        z.string(),
+    team:        z.string(),
+    teamName:    z.string(),
+    role:        z.string().default('Manager'),
+    emoji:       z.string().default('⚽'),
+    image:       z.string().optional(),
+    bio:         z.string(),
+  }),
+});
+
 const newsCollection = defineCollection({
   type: 'content',
   schema: z.object({
@@ -50,7 +63,8 @@ const newsCollection = defineCollection({
 });
 
 export const collections = {
-  teams:   teamsCollection,
-  players: playersCollection,
-  news:    newsCollection,
+  teams:    teamsCollection,
+  players:  playersCollection,
+  news:     newsCollection,
+  managers: managersCollection,
 };
