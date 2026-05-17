@@ -119,10 +119,20 @@ const schema = {
           <div class="team-meta">
             <div class="manager-avatar-wrap">
               <img src={`/managers/${data.urlSlug}.webp`} alt={data.manager} class="manager-avatar" loading="lazy" onerror="this.hidden=true" />
+              <div class="manager-avatar-fallback" hidden>
+                {data.manager.split(',')[0].trim().split(' ').map((n: string) => n[0]).join('').slice(0, 2).toUpperCase()}
+              </div>
             </div>
             <div class="manager-info">
               <span class="team-manager-role badge badge-green">{data.managerRole}</span>
-              <span class="team-manager-name">{data.manager}</span>
+              <div class="team-manager-names">
+                {data.manager.split(',').map((name: string) => {
+                  const slug = name.trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+                  return (
+                    <a href={`/managers/${slug}`} class="team-manager-link">{name.trim()}</a>
+                  );
+                })}
+              </div>
               {data.homeCity && <span class="team-city text-muted">📍 {data.homeCity}</span>}
             </div>
           </div>
@@ -416,12 +426,21 @@ const schema = {
   box-shadow: var(--shadow-lg);
 }
 
-.team-manager-name { 
-  font-size: 1.5rem; 
-  font-weight: 700; 
-  color: var(--text-primary); 
-  display: block; 
-  margin-top: 4px; 
+.manager-avatar-fallback {
+  width: 120px; height: 120px; border-radius: var(--radius-lg);
+  background: linear-gradient(135deg, var(--bg-elevated), var(--bg-card));
+  border: 3px solid var(--border); box-shadow: var(--shadow-lg);
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-display); font-size: 2.5rem; color: var(--green);
+}
+
+.team-manager-names { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 4px; }
+.team-manager-link {
+  font-size: 1.2rem; font-weight: 700; color: var(--text-primary); text-decoration: none;
+  transition: color var(--transition); display: inline-block;
+}
+.team-manager-link:hover { color: var(--green); }
+.team-manager-link + .team-manager-link::before { content: '&'; color: var(--text-muted); margin: 0 4px; }
 }
 
 .team-description { 
