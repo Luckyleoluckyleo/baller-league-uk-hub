@@ -28,13 +28,14 @@ console.log("╚═════════════════════�
 //   rmSync(CACHE_DIR, { recursive: true, force: true });
 // }
 
-run("node scripts/scrape.mjs", "1/7 Scraping match results");
-run("node scripts/scrape-ep.mjs", "2/7 Scraping EP values");
-run("node scripts/scrape-players.mjs", "3/7 Scraping player stats");
-run("node scripts/generate-reports.mjs", "4/7 Generating match reports");
-run("node scripts/generate-previews.mjs", "5/7 Generating fixture previews");
-run("node scripts/generate-og.mjs", "6/7 Generating OG image");
+run("node scripts/scrape.mjs", "1/8 Scraping match results");
+run("node scripts/scrape-ep.mjs", "2/8 Scraping EP values");
+run("node scripts/scrape-players.mjs", "3/8 Scraping player stats");
+run("node scripts/generate-reports.mjs", "4/8 Generating match reports");
+run("node scripts/generate-previews.mjs", "5/8 Generating fixture previews");
+run("node scripts/generate-og.mjs", "6/8 Generating default OG image");
+run("node scripts/generate-og-images.mjs", "7/8 Generating per-match OG images");
 
-run("npm run build", "7/7 Building site + sitemap");
+run("npm run build", "8/8 Building site + sitemap");
 
 console.log("\n✓ All done! Site ready in dist/");

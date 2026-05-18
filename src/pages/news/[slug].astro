@@ -24,6 +24,15 @@ function extractGW(slug: string): number {
 }
 
 const currentGW = extractGW(article.slug);
+
+function extractTeams(slug: string): { home: string; away: string } | null {
+  const m = slug.match(/^(.+?)-vs-(.+?)-gw\d+/i);
+  if (!m) return null;
+  return { home: m[1], away: m[2] };
+}
+
+const matchTeams = extractTeams(article.slug);
+
 const related = allNews
   .filter(a => a.slug !== article.slug && extractGW(a.slug) === currentGW && currentGW > 0)
   .sort((a, b) => a.data.title.localeCompare(b.data.title))
@@ -59,6 +68,7 @@ const catClass =
 <Base
   title={`${data.title} – Baller League UK`}
   description={data.excerpt}
+  image={`/og/${article.slug}.png`}
   type="article"
   schema={schema}
       noindex={false}
@@ -108,6 +118,19 @@ const catClass =
             </ul>
           </div>
         </div>
+        {matchTeams && (
+          <div class="card">
+            <div class="card-body">
+              <h4>Match Links</h4>
+              <ul class="aside-links">
+                <li><a href={`/teams/${matchTeams.home}`}>{matchTeams.home.split('-').map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}</a></li>
+                <li><a href={`/teams/${matchTeams.away}`}>{matchTeams.away.split('-').map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}</a></li>
+                <li><a href={`/h2h?t1=${matchTeams.home}&t2=${matchTeams.away}`}>H2H Comparison</a></li>
+                {currentGW > 0 && <li><a href={`/roundup/${currentGW}`}>GW{currentGW} Roundup</a></li>}
+              </ul>
+            </div>
+          </div>
+        )}
         <div class="card">
           <div class="card-body">
             <h4>Quick Links</h4>
@@ -118,6 +141,7 @@ const catClass =
               <li><a href="/players">Players</a></li>
               <li><a href="/gamechangers">Gamechangers</a></li>
               <li><a href="/watch">Where to Watch</a></li>
+              <li><a href="/faq">FAQ</a></li>
             </ul>
           </div>
         </div>
