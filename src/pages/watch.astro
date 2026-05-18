@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
 import fixturesData from '../data/fixtures.json';
 
 const upcoming = fixturesData.upcoming;
@@ -23,7 +24,7 @@ const schema = {
 
   <div class="page-header">
     <div class="container">
-      <nav class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">›</span><span>Watch</span></nav>
+      <Breadcrumb items={[{name:'Home',url:'/'},{name:'Watch'}]} />
       <div class="section-label">Live & On Demand</div>
       <h1>Where to Watch</h1>
       <p class="section-subtitle">Catch every match live or on demand across Sky Sports, Twitch and YouTube.</p>

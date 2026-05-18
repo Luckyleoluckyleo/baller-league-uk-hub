@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
 import PlayerCard from '../../components/PlayerCard.astro';
 import { getCollection } from 'astro:content';
 import tableData from '../../data/table.json';
@@ -103,7 +104,7 @@ const schema = {
 
   <div class="page-header team-header">
     <div class="container">
-      <nav class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">›</span><a href="/teams">Teams</a><span class="breadcrumb-sep">›</span><span>{data.name}</span></nav>
+      <Breadcrumb items={[{name:'Home',url:'/'},{name:'Teams',url:'/teams'},{name:data.name}]} />
       
       <div class="team-hero">
         <div class="team-hero-visuals">
@@ -383,6 +384,8 @@ const schema = {
       <a href="/teams" class="btn btn-ghost">All Teams</a>
       <a href="/players" class="btn btn-ghost">All Players</a>
       <a href="/h2h" class="btn btn-ghost">Head-to-Head</a>
+      <a href="/records" class="btn btn-ghost">All-Time Records</a>
+      <a href="/faq" class="btn btn-ghost">FAQ</a>
     </div>
 
   </div>

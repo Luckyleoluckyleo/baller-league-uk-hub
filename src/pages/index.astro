@@ -7,6 +7,8 @@ import tableData from '../data/table.json';
 import fixturesData from '../data/fixtures.json';
 import gcData from '../data/gamechangers.json';
 
+const updateDate = new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+
 const allNews = await getCollection('news');
 
 function extractGW(slug: string): number {
@@ -196,7 +198,7 @@ const schema = {
           </tbody>
         </table>
       </div>
-      <p class="table-note text-muted">🟢 Top 4 qualify for the Final Four playoffs</p>
+      <p class="table-note text-muted">🟢 Top 4 qualify for the Final Four playoffs &middot; Stats updated {updateDate}</p>
     </div>
   </section>
 

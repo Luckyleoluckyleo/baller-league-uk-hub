@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
 import playerData from '../../data/players.json';
 
 export async function getStaticPaths() {
@@ -63,7 +64,7 @@ const schema = player ? {
     <>
       <div class="page-header">
         <div class="container">
-          <nav class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">›</span><a href="/players">Players</a><span class="breadcrumb-sep">›</span><span>{player.name}</span></nav>
+          <Breadcrumb items={[{name:'Home',url:'/'},{name:'Players',url:'/players'},{name:player.name}]} />
           <div class="player-hero">
             <div class="player-photo-wrap">
               <img src={`/players/${player.slug}.webp`} alt={player.name} class="player-photo-hero" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />

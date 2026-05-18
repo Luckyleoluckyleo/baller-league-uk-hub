@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
 import NewsCard from '../../components/NewsCard.astro';
 import { getCollection } from 'astro:content';
 
@@ -40,7 +41,7 @@ const schema = {
 >
   <div class="page-header">
     <div class="container">
-      <nav class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">›</span><span>News</span></nav>
+      <Breadcrumb items={[{name:'Home',url:'/'},{name:'News'}]} />
       <div class="section-label">Season 3</div>
       <h1>News & Reports</h1>
       <p class="section-subtitle">Match reports, previews, transfer updates and social media from Baller League UK.</p>

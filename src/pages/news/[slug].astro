@@ -1,6 +1,7 @@
 ---
 
 import Base from '../../layouts/Base.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -64,11 +65,7 @@ const catClass =
 >
   <div class="page-header">
     <div class="container article-header">
-      <nav class="breadcrumb">
-        <a href="/">Home</a><span class="breadcrumb-sep">›</span>
-        <a href="/news">News</a><span class="breadcrumb-sep">›</span>
-        <span>{data.category}</span>
-      </nav>
+      <Breadcrumb items={[{name:'Home',url:'/'},{name:'News',url:'/news'},{name:data.category}]} />
       <span class={`badge ${catClass}`}>{data.category}</span>
       <h1 class="article-title">{data.title}</h1>
       <div class="article-meta">

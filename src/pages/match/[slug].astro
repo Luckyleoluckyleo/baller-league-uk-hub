@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
 import gcData from '../../data/gamechangers.json';
 
 function buildSlug(m: any, season: string) {
@@ -80,7 +81,7 @@ const schema = match ? {
     <>
       <div class="page-header">
         <div class="container">
-          <nav class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&#x203A;</span><a href="/gamechangers">Gamechangers</a><span class="breadcrumb-sep">&#x203A;</span><span>Match Detail</span></nav>
+          <Breadcrumb items={[{name:'Home',url:'/'},{name:'Gamechangers',url:'/gamechangers'},{name:'Match Detail'}]} />
         </div>
       </div>
 

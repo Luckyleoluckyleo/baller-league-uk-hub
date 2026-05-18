@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
 import gcData from '../../data/gamechangers.json';
 
 const seasonIds = ['1', '2', '3'];
@@ -62,7 +63,7 @@ function computeSeason(sid: string) {
 >
   <div class="page-header">
     <div class="container">
-      <nav class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">›</span><span>Seasons</span></nav>
+      <Breadcrumb items={[{name:'Home',url:'/'},{name:'Seasons'}]} />
       <div class="section-label">History</div>
       <h1>Baller League UK Seasons</h1>
       <p class="section-subtitle">Standings, champions, and stats from every Baller League UK season.</p>

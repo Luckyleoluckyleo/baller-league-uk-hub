@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
 import gcData from '../data/gamechangers.json';
 
 const allMatches: any[] = [];
@@ -83,7 +84,7 @@ const schema = {
 >
   <div class="page-header">
     <div class="container">
-      <nav class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">›</span><span>Records</span></nav>
+      <Breadcrumb items={[{name:'Home',url:'/'},{name:'Records'}]} />
       <div class="section-label">History</div>
       <h1>All-Time Records</h1>
       <p class="section-subtitle">{allMatches.length} matches · {totalGoals} goals · 3 seasons — complete Baller League UK statistical history.</p>

@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
 import { getCollection } from 'astro:content';
 import tableData from '../../data/table.json';
 
@@ -33,7 +34,7 @@ const schema = {
 >
   <div class="page-header">
     <div class="container">
-      <nav class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">›</span><span>Managers</span></nav>
+      <Breadcrumb items={[{name:'Home',url:'/'},{name:'Managers'}]} />
       <div class="section-label">Season 3</div>
       <h1>Baller League UK Managers</h1>
       <p class="section-subtitle">

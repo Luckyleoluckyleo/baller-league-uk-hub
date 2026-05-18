@@ -1,9 +1,11 @@
 ---
 import Base from '../layouts/Base.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
 import tableData from '../data/table.json';
 import fixturesData from '../data/fixtures.json';
 import gcData from '../data/gamechangers.json';
 
+const updateDate = new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
 const upcomingGW = fixturesData.upcoming[0]?.gameweek ?? 10;
 
 // Build results by gameweek from scraped data
@@ -90,7 +92,7 @@ function getForm(slug: string): { label: string; cls: string }[] {
 
   <div class="page-header">
     <div class="container">
-      <nav class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">›</span><span>Table</span></nav>
+      <Breadcrumb items={[{name:'Home',url:'/'},{name:'Table'}]} />
       <div class="section-label">Season 3 · Gameweek {maxGW} of 11</div>
       <h1>League Table & Fixtures</h1>
       <p class="section-subtitle">Current standings. Top 4 qualify for the Final Four playoffs. EP = Extra Points from the Pressure Point challenge.</p>
@@ -234,7 +236,7 @@ function getForm(slug: string): { label: string; cls: string }[] {
     <div class="update-note card">
       <div class="card-body update-inner">
         <span>🔄</span>
-        <p>Table and results updated after each gameweek. Upcoming fixtures for Gameweek {upcomingGW}.</p>
+        <p>Table and results updated after each gameweek. Stats refreshed {updateDate}. Upcoming fixtures for Gameweek {upcomingGW}.</p>
       </div>
     </div>
 

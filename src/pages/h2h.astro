@@ -1,6 +1,7 @@
 ---
 
 import Base from '../layouts/Base.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
 import gcData from '../data/gamechangers.json';
 
 const allMatches = Object.values(gcData.seasons).flatMap((s: any, i: number) => {
@@ -58,7 +59,7 @@ const schema = {
 
   <div class="page-header">
     <div class="container">
-      <nav class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&#x203A;</span><span>H2H</span></nav>
+      <Breadcrumb items={[{name:'Home',url:'/'},{name:'H2H'}]} />
       <div class="section-label">Comparison Tool</div>
       <h1>Head-to-Head</h1>
       <p class="section-subtitle">Pick two teams to compare their matchup history, including Gamechanger performance.</p>

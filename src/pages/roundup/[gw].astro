@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
 import gcData from '../../data/gamechangers.json';
 import playerData from '../../data/players.json';
 import tableData from '../../data/table.json';
@@ -87,7 +88,7 @@ const schema = {
 
   <div class="page-header">
     <div class="container">
-      <nav class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">›</span><a href="/roundup">Roundup</a><span class="breadcrumb-sep">›</span><span>GW{requestedGW}</span></nav>
+      <Breadcrumb items={[{name:'Home',url:'/'},{name:'Roundup',url:'/roundup'},{name:`GW${requestedGW}`}]} />
       <div class="section-label">Season 3</div>
       <h1>Gameweek {requestedGW} Roundup</h1>
       <p class="section-subtitle">

@@ -1,0 +1,188 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import gcData from '../data/gamechangers.json';
+
+const s3Matches = (gcData.seasons['3']?.matches as any[] || []).filter((m: any) => m.homeScore > 0 || m.awayScore > 0);
+const totalS3Goals = s3Matches.reduce((s: number, m: any) => s + m.homeScore + m.awayScore, 0);
+const totalGCGoals = s3Matches.reduce((s: number, m: any) => s + (m.gcGoals || 0), 0);
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "What is Baller League UK?", "acceptedAnswer": { "@type": "Answer", "text": "Baller League UK is a 6v6 celebrity football league featuring 12 teams managed by famous personalities including KSI, Ian Wright, and Micah Richards. Matches are played on a smaller indoor pitch with 30-minute games broadcast on Sky Sports and streamed on YouTube and Twitch." }},
+    { "@type": "Question", "name": "How does Baller League work?", "acceptedAnswer": { "@type": "Answer", "text": "Baller League UK features 12 teams playing a league season. Each match is 30 minutes long in a 6v6 format. The league introduces unique 'Game Changer' rules like 3v3 power plays, 1-on-1 penalties, and extra points for clean sheets. The top 4 teams progress to a Final Four playoff to decide the champion." }},
+    { "@type": "Question", "name": "How many teams are in Baller League UK?", "acceptedAnswer": { "@type": "Answer", "text": "There are 12 teams in Baller League UK: NDL FC, Deportrio, Prime FC, Wembley Rangers AFC, SDS FC, N5 FC, Clutch FC, Gold Devils FC, Yanited, VZN FC, Rukkas FC, and Community FC. Each team is managed by a celebrity football personality or content creator." }},
+    { "@type": "Question", "name": "What are Game Changers in Baller League?", "acceptedAnswer": { "@type": "Answer", "text": "Game Changers are special rule cards that can be activated during matches to change the dynamics: '3Play' makes the game 3v3 for 3 minutes, '1-on-1' replaces penalties with attacker-vs-goalkeeper duels, 'The Line' prevents goals from inside the box for 3 minutes, 'Plus One' adds an extra player for 3 minutes, 'Onside' removes offside, and 'Fairplay' cancels the opponent's active Game Changer." }},
+    { "@type": "Question", "name": "How do Extra Points (EP) work in Baller League?", "acceptedAnswer": { "@type": "Answer", "text": "Extra Points (EP) are bonus league points awarded for winning Game Changer goal periods. Each match has designated Game Changer windows where goals scored count as 'GC goals'. Teams earn +1 Extra Point for each GC goal win, added directly to their league points total. This means a win is worth 3 points plus any EP earned." }},
+    { "@type": "Question", "name": "Where can I watch Baller League UK?", "acceptedAnswer": { "@type": "Answer", "text": "Baller League UK is broadcast live on Sky Sports in the UK. Free streams are available on the official Baller League YouTube channel and Twitch channel. Matches are typically played on Monday evenings during the season." }},
+    { "@type": "Question", "name": "How many gameweeks in Baller League Season 3?", "acceptedAnswer": { "@type": "Answer", "text": "Baller League UK Season 3 consists of 11 gameweeks where each of the 12 teams plays once per gameweek (6 matches per round). After the regular season, the top 4 teams advance to the Final Four playoffs to determine the champion." }},
+    { "@type": "Question", "name": "What is the Baller League format and rules?", "acceptedAnswer": { "@type": "Answer", "text": "Baller League uses a 6v6 format on a smaller indoor pitch. Matches last 30 minutes with no half-time break. Key rules include: rolling substitutions, no offsides by default, kick-ins instead of throw-ins, sin bins for yellow cards, and Game Changer cards that temporarily modify the rules. The top 4 teams after 11 gameweeks qualify for the Final Four playoffs." }},
+    { "@type": "Question", "name": "Who are the Baller League UK managers?", "acceptedAnswer": { "@type": "Answer", "text": "The 12 Baller League UK managers are: KSI (Prime FC), Ian Wright (VZN FC), Micah Richards (Deportrio), Niko Omilana (NDL FC), Angry Ginge (Community FC), Chloe Kelly (Wembley Rangers AFC), Mark Goldbridge (Gold Devils FC), Sharky (Clutch FC), Jens Lehmann (N5 FC), Idris Elba (Rukkas FC), Alan Shearer (Yanited), and Tobi Brown (SDS FC)." }}
+  ]
+};
+
+const faqs = [
+  {
+    q: "What is Baller League UK?",
+    a: "Baller League UK is a 6v6 celebrity football league launched in 2024, featuring 12 teams managed by well-known personalities from football, YouTube, and entertainment. Matches are played on a compact indoor pitch with 30-minute games broadcast live on Sky Sports, YouTube, and Twitch. The league combines traditional football with innovative 'Game Changer' rules that make every match unpredictable and entertaining."
+  },
+  {
+    q: "How does Baller League work?",
+    a: "Each season consists of 11 gameweeks where all 12 teams play once per round. Teams earn 3 points for a win, 1 for a draw, plus Extra Points from Game Changer performances. After the regular season, the <a href='/rules'>top 4 teams</a> advance to the Final Four playoffs — two semi-finals and a final to crown the champion."
+  },
+  {
+    q: "How many teams are in Baller League UK?",
+    a: "There are 12 teams in Season 3: <a href='/teams/ndl-fc'>NDL FC</a>, <a href='/teams/deportrio'>Deportrio</a>, <a href='/teams/prime-fc'>Prime FC</a>, <a href='/teams/wembley-rangers-afc'>Wembley Rangers AFC</a>, <a href='/teams/sds-fc'>SDS FC</a>, <a href='/teams/n5-fc'>N5 FC</a>, <a href='/teams/clutch-fc'>Clutch FC</a>, <a href='/teams/gold-devils-fc'>Gold Devils FC</a>, <a href='/teams/yanited'>Yanited</a>, <a href='/teams/vzn-fc'>VZN FC</a>, <a href='/teams/rukkas-fc'>Rukkas FC</a>, and <a href='/teams/community-fc'>Community FC</a>. See the <a href='/table'>full league table</a> for current standings."
+  },
+  {
+    q: "What are Game Changers in Baller League?",
+    a: "Game Changers are special rule cards that managers can play during matches to gain a tactical advantage. The six Game Changers (each playable once per match) are: <strong>3Play</strong> (3v3 for 3 minutes), <strong>1-on-1</strong> (attacker vs goalkeeper penalty duels), <strong>The Line</strong> (goals from inside the box don't count for 3 minutes), <strong>Plus One</strong> (add an extra outfield player for 3 minutes), <strong>Onside</strong> (no offsides for 3 minutes), and <strong>Fairplay</strong> (cancel opponent's active Game Changer). View full <a href='/gamechangers'>Gamechanger analysis</a>."
+  },
+  {
+    q: "How do Extra Points (EP) work?",
+    a: "Extra Points are bonus league table points awarded for Game Changer performances. During designated GC goal windows, goals scored count as 'GC goals'. The team with more GC goals in a match earns +1 EP added directly to their league total. This means the maximum points from a match is 4 (3 for the win + 1 EP), and it's possible to earn an EP even in a loss. EP is shown as a separate column on the <a href='/table'>league table</a>."
+  },
+  {
+    q: "Where can I watch Baller League UK?",
+    a: "Baller League UK is broadcast live on <strong>Sky Sports</strong> in the UK. Free live streams are available on the official <a href='https://www.youtube.com/@BallerLeagueUK' target='_blank' rel='noopener'>Baller League YouTube</a> and <a href='https://www.twitch.tv/ballerleagueuk' target='_blank' rel='noopener'>Twitch</a> channels. Check the <a href='/watch'>Where to Watch</a> page for the latest broadcast schedule."
+  },
+  {
+    q: "How many gameweeks in a Baller League season?",
+    a: "Baller League UK Season 3 has <strong>11 gameweeks</strong>, with each team playing once per gameweek. All 6 matches per gameweek are played on the same evening. After the 11-gameweek regular season, the top 4 teams progress to the <strong>Final Four</strong> playoffs. View <a href='/roundup'>weekly roundups</a> for all results."
+  },
+  {
+    q: "What is the Baller League format and rules?",
+    a: "The Baller League format is 6v6 on a smaller indoor pitch with boards instead of touchlines. Key rules: 30-minute matches with no half-time, rolling substitutions, no offside by default, kick-ins instead of throw-ins, sin bins (2-minute temporary dismissals) for yellow cards, and Game Changer cards that temporarily modify the rules. Read the full <a href='/rules'>rules &amp; format guide</a>."
+  },
+  {
+    q: "Who are the managers of Baller League UK teams?",
+    a: "The 12 celebrity managers for Season 3 are: <a href='/managers/ksi'>KSI</a> (Prime FC), <a href='/managers/ian-wright'>Ian Wright</a> (VZN FC), <a href='/managers/micah-richards'>Micah Richards</a> (Deportrio), <a href='/managers/niko-omilana'>Niko Omilana</a> (NDL FC), <a href='/managers/angry-ginge'>Angry Ginge</a> (Community FC), <a href='/managers/chloe-kelly'>Chloe Kelly</a> (Wembley Rangers AFC), <a href='/managers/mark-goldbridge'>Mark Goldbridge</a> (Gold Devils FC), <a href='/managers/sharky'>Sharky</a> (Clutch FC), <a href='/managers/jens-lehmann'>Jens Lehmann</a> (N5 FC), <a href='/managers/idris-elba'>Idris Elba</a> (Rukkas FC), <a href='/managers/alan-shearer'>Alan Shearer</a> (Yanited), and <a href='/managers/tobi-brown'>Tobi Brown</a> (SDS FC). See <a href='/managers'>all manager profiles</a>."
+  },
+  {
+    q: "Who won previous Baller League seasons?",
+    a: "Season 1 and Season 2 featured different team lineups. Check the <a href='/season'>Season Archive</a> for full standings, results, and champions from every Baller League UK season."
+  },
+  {
+    q: "How do the Baller League playoffs work?",
+    a: "After 11 gameweeks, the top 4 teams in the <a href='/table'>league table</a> qualify for the Final Four playoffs. This is a knockout format: the 1st-place team faces 4th, and 2nd faces 3rd in the semi-finals. The winners meet in the final to determine the Baller League UK champion. The Final Four is played as a single-elimination event."
+  },
+  {
+    q: "Who is the top scorer in Baller League UK Season 3?",
+    a: `<a href='/players/jay-emmanuel-thomas'>Jay Emmanuel-Thomas</a> (Deportrio) and <a href='/players/michael-hill'>Michael Hill</a> (N5 FC) lead the scoring charts with 18 goals each, followed by Francis Gerard Mampolo (Prime FC) with 17 goals. View the <a href='/players'>full player leaderboard</a> for goals, assists, and appearances.`
+  },
+  {
+    q: "Is Baller League connected to Kings League?",
+    a: "Baller League was founded in Germany by Mats Hummels and Lukas Podolski, inspired by Gerard Pique's Kings League in Spain. While they share similarities (6v6 format, celebrity involvement, special rules), Baller League is a separate competition with its own unique Game Changer system and teams. Baller League UK launched in 2024 as an expansion of the German league."
+  },
+  {
+    q: "How can I follow Baller League UK stats and results?",
+    a: "Baller League UK Hub provides <a href='/table'>live league tables</a>, <a href='/teams'>team profiles</a>, <a href='/players'>player stats and leaderboards</a>, <a href='/news'>match reports</a>, <a href='/roundup'>weekly roundups</a>, and <a href='/gamechangers'>Game Changer analysis</a>. Bookmark the <a href='/'>homepage</a> for the latest results and upcoming fixtures."
+  }
+];
+
+const currentSeason = {
+  s3Goals: totalS3Goals,
+  s3GCGoals: totalGCGoals,
+  s3Matches: s3Matches.length,
+  s3Teams: 12
+};
+---
+
+<Base
+  title="Baller League UK FAQ — Rules, Format, Game Changers & More"
+  description="Everything you need to know about Baller League UK. How the 6v6 format works, Game Changer rules explained, Extra Points system, where to watch, who the managers are, and more."
+  schema={schema}
+  keywords="Baller League FAQ, how does Baller League work, Baller League rules explained, Game Changers explained, Extra Points, where to watch Baller League, Baller League format"
+>
+  <div class="page-header">
+    <div class="container">
+      <Breadcrumb items={[{name:'Home',url:'/'},{name:'FAQ'}]} />
+      <div class="section-label">Questions &amp; Answers</div>
+      <h1>Baller League UK — Frequently Asked Questions</h1>
+      <p class="section-subtitle">
+        Everything you need to know about the 6v6 celebrity football league &middot; {currentSeason.s3Matches} matches &middot; {currentSeason.s3Goals} goals scored in Season 3
+      </p>
+    </div>
+  </div>
+
+  <div class="container faq-page">
+    <div class="faq-intro card">
+      <div class="card-body">
+        <p><strong>New to Baller League?</strong> This FAQ covers everything from the basic format and rules to Game Changers, Extra Points, where to watch, and how the league table works. Click any question to jump straight to the answer, or browse the full guide below.</p>
+      </div>
+    </div>
+
+    <div class="faq-list">
+      {faqs.map((faq, i) => (
+        <div class="faq-item card" id={`q${i + 1}`}>
+          <div class="card-body">
+            <h2>{faq.q}</h2>
+            <p set:html={faq.a} />
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <div class="faq-cta card" style="margin-top: var(--space-2xl);">
+      <div class="card-body text-center">
+        <h3 style="margin-bottom: var(--space-md);">Still have questions?</h3>
+        <p class="text-muted" style="margin-bottom: var(--space-lg);">Explore the full site for detailed stats, tables, and analysis.</p>
+        <div style="display: flex; gap: var(--space-md); justify-content: center; flex-wrap: wrap;">
+          <a href="/rules" class="btn btn-primary">Rules &amp; Format</a>
+          <a href="/guide" class="btn btn-ghost">Ultimate Guide</a>
+          <a href="/table" class="btn btn-ghost">League Table</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</Base>
+
+<style>
+.faq-page {
+  padding: var(--space-2xl) 0 var(--space-3xl);
+  max-width: 800px;
+}
+
+.faq-intro {
+  margin-bottom: var(--space-xl);
+  border-left: 3px solid var(--green);
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.faq-item h2 {
+  font-size: 1.4rem;
+  color: var(--green);
+  margin-bottom: var(--space-md);
+  font-family: var(--font-body);
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.faq-item p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+
+.faq-item :global(a) {
+  color: var(--green);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.faq-item :global(a:hover) {
+  color: var(--green-mid);
+}
+
+.faq-item :global(strong) {
+  color: var(--text-primary);
+  font-weight: 700;
+}
+</style>

@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
 
 const schema = {
   "@context": "https://schema.org",
@@ -26,11 +27,7 @@ const schema = {
 
   <div class="page-header">
     <div class="container">
-      <nav class="breadcrumb" aria-label="Breadcrumb">
-        <a href="/">Home</a>
-        <span class="breadcrumb-sep">›</span>
-        <span>Rules</span>
-      </nav>
+      <Breadcrumb items={[{name:'Home',url:'/'},{name:'Rules'}]} />
       <div class="section-label">Official Guide</div>
       <h1>Baller League UK — Rules & Format</h1>
       <p class="section-subtitle">Everything you need to know about how Baller League UK works — from kick-off to the Final Four.</p>

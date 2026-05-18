@@ -1,0 +1,177 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import { getCollection } from 'astro:content';
+
+const teams = await getCollection('teams');
+const allNews = await getCollection('news');
+const allPlayers = await getCollection('players');
+
+const newsByCategory: Record<string, any[]> = {};
+for (const a of allNews) {
+  const cat = a.data.category || 'Uncategorised';
+  if (!newsByCategory[cat]) newsByCategory[cat] = [];
+  newsByCategory[cat].push(a);
+}
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Sitemap — Baller League UK Hub",
+  "description": "Complete sitemap of Baller League UK Hub — browse all pages including teams, players, news, stats, and guides.",
+  "url": "https://ballerleagueukhub.com/sitemap/"
+};
+---
+
+<Base
+  title="Sitemap"
+  description="Full sitemap for Baller League UK Hub — browse all pages including teams, players, match reports, previews, stats, and guides."
+  schema={schema}
+  keywords="sitemap, all pages, site index"
+>
+  <div class="page-header">
+    <div class="container">
+      <Breadcrumb items={[{name:'Home',url:'/'},{name:'Sitemap'}]} />
+      <h1>Sitemap</h1>
+      <p class="section-subtitle">Every page on Baller League UK Hub — a complete directory</p>
+    </div>
+  </div>
+
+  <div class="container sitemap-page">
+    <div class="sitemap-grid">
+
+      <section class="sitemap-section">
+        <h2>Main Pages</h2>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/table">Table &amp; Fixtures</a></li>
+          <li><a href="/teams">All Teams</a></li>
+          <li><a href="/players">All Players</a></li>
+          <li><a href="/managers">Managers</a></li>
+          <li><a href="/news">News &amp; Reports</a></li>
+          <li><a href="/gamechangers">Gamechanger Analysis</a></li>
+          <li><a href="/h2h">Head-to-Head</a></li>
+          <li><a href="/roundup">Weekly Roundups</a></li>
+          <li><a href="/season">Season Archive</a></li>
+          <li><a href="/rules">Rules &amp; Format</a></li>
+          <li><a href="/guide">Ultimate Guide</a></li>
+          <li><a href="/records">All-Time Records</a></li>
+          <li><a href="/watch">Where to Watch</a></li>
+        </ul>
+      </section>
+
+      <section class="sitemap-section">
+        <h2>Teams ({teams.length})</h2>
+        <ul>
+          {teams.map(t => (
+            <li><a href={`/teams/${t.data.urlSlug}`}>{t.data.name}</a></li>
+          ))}
+        </ul>
+      </section>
+
+      <section class="sitemap-section">
+        <h2>Seasons</h2>
+        <ul>
+          <li><a href="/season/1">Season 1</a></li>
+          <li><a href="/season/2">Season 2</a></li>
+          <li><a href="/season/3">Season 3</a></li>
+        </ul>
+      </section>
+
+      <section class="sitemap-section">
+        <h2>Managers ({teams.length})</h2>
+        <ul>
+          {teams.map(t => {
+            const name = t.data.manager.split(',')[0].trim();
+            const slug = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+            return <li><a href={`/managers/${slug}`}>{name}</a></li>;
+          })}
+        </ul>
+      </section>
+
+      <section class="sitemap-section">
+        <h2>Roundups</h2>
+        <ul>
+          {[1,2,3,4,5,6,7,8,9,10].map(gw => (
+            <li><a href={`/roundup/${gw}`}>Gameweek {gw} Roundup</a></li>
+          ))}
+        </ul>
+      </section>
+
+      {allPlayers.length > 0 && (
+        <section class="sitemap-section">
+          <h2>Players ({allPlayers.length})</h2>
+          <ul>
+            {allPlayers.sort((a, b) => a.data.name.localeCompare(b.data.name)).map(p => (
+              <li><a href={`/players/${p.data.urlSlug || p.slug}`}>{p.data.name}</a></li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {Object.entries(newsByCategory).sort(([a], [b]) => a.localeCompare(b)).map(([cat, articles]) => (
+        <section class="sitemap-section">
+          <h2>{cat} ({articles.length})</h2>
+          <ul>
+            {articles.sort((a: any, b: any) => b.data.date.getTime() - a.data.date.getTime()).map((a: any) => (
+              <li><a href={`/news/${a.slug}`}>{a.data.title}</a></li>
+            ))}
+          </ul>
+        </section>
+      ))}
+
+    </div>
+  </div>
+</Base>
+
+<style>
+.sitemap-page {
+  padding: var(--space-2xl) 0 var(--space-3xl);
+}
+
+.sitemap-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--space-xl);
+}
+
+.sitemap-section {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+}
+
+.sitemap-section h2 {
+  font-size: 1.2rem;
+  color: var(--green);
+  margin-bottom: var(--space-md);
+  padding-bottom: var(--space-sm);
+  border-bottom: 1px solid var(--border);
+}
+
+.sitemap-section ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.sitemap-section ul li a {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  transition: color var(--transition);
+  display: block;
+  padding: 2px 0;
+}
+
+.sitemap-section ul li a:hover {
+  color: var(--green);
+}
+
+@media (max-width: 768px) {
+  .sitemap-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>

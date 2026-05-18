@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
 import TeamCard from '../../components/TeamCard.astro';
 import { getCollection } from 'astro:content';
 import tableData from '../../data/table.json';
@@ -27,7 +28,7 @@ const schema = {
 >
   <div class="page-header">
     <div class="container">
-      <nav class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">›</span><span>Teams</span></nav>
+      <Breadcrumb items={[{name:'Home',url:'/'},{name:'Teams'}]} />
       <div class="section-label">Season 3</div>
       <h1>All 12 Teams</h1>
       <p class="section-subtitle">Every team competing in Baller League UK Season 3, ranked by current league position.</p>

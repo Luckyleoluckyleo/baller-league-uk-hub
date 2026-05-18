@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
 import { getCollection } from 'astro:content';
 import tableData from '../../data/table.json';
 import gcData from '../../data/gamechangers.json';
@@ -72,7 +73,7 @@ const schema = data ? {
   >
     <div class="page-header">
       <div class="container">
-        <nav class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">›</span><a href="/managers">Managers</a><span class="breadcrumb-sep">›</span><span>{data.name}</span></nav>
+        <Breadcrumb items={[{name:'Home',url:'/'},{name:'Managers',url:'/managers'},{name:data.name}]} />
         <div class="manager-hero">
           <div class="manager-photo-wrap">
             <img

@@ -1,4 +1,10 @@
 ---
+import gcData from '../data/gamechangers.json';
+
+const s3Matches = (gcData.seasons['3']?.matches as any[] || []).filter((m: any) => m.homeScore > 0 || m.awayScore > 0);
+const s3GWs = [...new Set(s3Matches.map((m: any) => m.gameweek))].sort((a: number, b: number) => a - b);
+const currentGW = s3GWs.length > 0 ? s3GWs[s3GWs.length - 1] : 0;
+const updateDate = new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
 ---
 <footer class="footer">
   <div class="container">
@@ -33,19 +39,22 @@
         <h4>Info</h4>
         <ul>
           <li><a href="/rules">Rules & Format</a></li>
+          <li><a href="/faq">FAQ</a></li>
           <li><a href="/gamechangers">Gamechanger Analysis</a></li>
           <li><a href="/roundup">Weekly Roundup</a></li>
           <li><a href="/watch">Where to Watch</a></li>
+          <li><a href="/sitemap">Sitemap</a></li>
         </ul>
       </div>
 
       <div class="footer-col">
         <h4>Season 3</h4>
         <ul>
-          <li><span class="text-muted">Gameweek 9 of 11</span></li>
+          <li><span class="text-muted">Gameweek {currentGW} of 11</span></li>
           <li><span class="text-muted">Playoffs: Final Four</span></li>
           <li><a href="/table">League Table</a></li>
           <li><a href="/h2h">Head-to-Head</a></li>
+          <li><a href="/sitemap">Sitemap</a></li>
         </ul>
       </div>
 
@@ -55,7 +64,7 @@
       <p class="footer-disclaimer">
         Baller League UK Hub — An unofficial fan site. Not affiliated with or endorsed by Baller League or its partners.
       </p>
-      <p class="footer-copy">© {new Date().getFullYear()} Baller League UK Hub</p>
+      <p class="footer-copy">© {new Date().getFullYear()} Baller League UK Hub &middot; Stats updated {updateDate}</p>
     </div>
   </div>
 </footer>

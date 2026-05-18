@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
 import gcData from '../data/gamechangers.json';
 
 const { definitions, seasons } = gcData;
@@ -29,11 +30,7 @@ const schema = {
 
   <div class="page-header">
     <div class="container">
-      <nav class="breadcrumb" aria-label="Breadcrumb">
-        <a href="/">Home</a>
-        <span class="breadcrumb-sep">›</span>
-        <span>Gamechangers</span>
-      </nav>
+      <Breadcrumb items={[{name:'Home',url:'/'},{name:'Gamechangers'}]} />
       <div class="section-label">Data Analysis</div>
       <h1>Gamechanger Analysis</h1>
       <p class="section-subtitle">
