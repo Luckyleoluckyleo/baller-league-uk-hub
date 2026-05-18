@@ -63,6 +63,10 @@ function matchSlug(match: any): string {
   return `${match.homeSlug}-vs-${match.awaySlug}-gw${match.gameweek}`;
 }
 
+function previewSlug(match: any): string {
+  return `${match.homeSlug}-vs-${match.awaySlug}-gw${match.gameweek}-preview`;
+}
+
 function getForm(slug: string): { label: string; cls: string }[] {
   const m = s3Matches
     .filter((x: any) => (x.homeSlug === slug || x.awaySlug === slug))
@@ -202,7 +206,7 @@ function getForm(slug: string): { label: string; cls: string }[] {
         </div>
         <div class="fixtures-list">
           {fixturesData.upcoming.map(f => (
-            <div class="fixture-card">
+            <a href={`/news/${previewSlug(f)}`} class="fixture-card">
               <div class="fixture-team home">
                 <img src={`/logos/${f.homeSlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt={f.homeTeam} />
                 <div>
@@ -220,7 +224,7 @@ function getForm(slug: string): { label: string; cls: string }[] {
                   <div class="fixture-team-name">{f.awayTeam}</div>
                 </div>
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>

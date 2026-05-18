@@ -106,71 +106,76 @@ const schema = {
       <nav class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">›</span><a href="/teams">Teams</a><span class="breadcrumb-sep">›</span><span>{data.name}</span></nav>
       
       <div class="team-hero">
-        <div class="team-hero-visual">
+        <div class="team-hero-visuals">
           <div class="team-hero-logo-wrap">
             <img src={`/logos/${data.urlSlug}.svg`} alt={data.name} class="team-hero-logo" onerror="this.style.display='none';this.nextElementSibling.style.display=''" />
             <span class="team-hero-emoji-fallback">{data.emoji}</span>
           </div>
+
+          <div class="team-hero-manager-wrap">
+            <img src={`/managers/${data.urlSlug}.webp`} alt={data.manager} class="manager-avatar-lg" loading="lazy" onerror="this.hidden=true" />
+          </div>
         </div>
 
         <div class="team-hero-info">
-          <h1 class="team-title">{data.name}</h1>
-          
-          <div class="team-meta">
-            <div class="manager-avatar-wrap">
-              <img src={`/managers/${data.urlSlug}.webp`} alt={data.manager} class="manager-avatar" loading="lazy" onerror="this.hidden=true" />
-              <div class="manager-avatar-fallback" hidden>
-                {data.manager.split(',')[0].trim().split(' ').map((n: string) => n[0]).join('').slice(0, 2).toUpperCase()}
+          <div class="team-hero-top">
+            <h1 class="team-title">{data.name}</h1>
+            {standing && (
+              <div class="team-rank-badge">
+                <span class={`rank-badge-num ${standing.pos <= 4 ? 'top-4' : ''}`}>#{standing.pos}</span>
               </div>
+            )}
+          </div>
+
+          {standing && (
+            <div class="team-standings-strip">
+              <div class="ss-item"><span class="ss-val">{standing.won}</span><span class="ss-lbl">Won</span></div>
+              <div class="ss-item"><span class="ss-val">{standing.drawn}</span><span class="ss-lbl">Drawn</span></div>
+              <div class="ss-item"><span class="ss-val">{standing.lost}</span><span class="ss-lbl">Lost</span></div>
+              <div class="ss-divider"></div>
+              <div class="ss-item"><span class="ss-val">{standing.played}</span><span class="ss-lbl">Played</span></div>
+              <div class="ss-item"><span class="ss-val">{standing.pts}</span><span class="ss-lbl">Points</span></div>
+              <div class="ss-item"><span class="ss-val">{standing.gd > 0 ? `+${standing.gd}` : standing.gd}</span><span class="ss-lbl">GD</span></div>
+              {(standing.ep || 0) > 0 && (
+                <>
+                  <div class="ss-divider"></div>
+                  <div class="ss-item ss-ep"><span class="ss-val">+{standing.ep}</span><span class="ss-lbl">EP</span></div>
+                </>
+              )}
             </div>
-            <div class="manager-info">
-              <span class="team-manager-role badge badge-green">{data.managerRole}</span>
-              <div class="team-manager-names">
-                {data.manager.split(',').map((name: string) => {
-                  const slug = name.trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-                  return (
-                    <a href={`/managers/${slug}`} class="team-manager-link">{name.trim()}</a>
-                  );
-                })}
-              </div>
-              {data.homeCity && <span class="team-city text-muted">📍 {data.homeCity}</span>}
+          )}
+
+          <div class="team-manager-row">
+            <span class="manager-badge badge badge-green">{data.managerRole}</span>
+            <div class="team-manager-names">
+              {data.manager.split(',').map((name: string) => {
+                const slug = name.trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+                return (
+                  <a href={`/managers/${slug}`} class="team-manager-link">{name.trim()}</a>
+                );
+              })}
             </div>
+            {data.homeCity && <span class="team-city">📍 {data.homeCity}</span>}
           </div>
 
           <p class="team-description">{data.description}</p>
 
-          <div class="team-hero-stats">
-            {standing && (
-              <div class="team-standing-box">
-                <div class="tsb-pos">
-                  <span class={`tsb-num ${standing.pos <= 4 ? 'top-4' : ''}`}>#{standing.pos}</span>
-                  <span class="tsb-label">Rank</span>
-                </div>
-                <div class="tsb-stats">
-                  <div class="tsb-stat"><span class="tsb-val">{standing.pts}</span><span class="tsb-lbl">Pts</span></div>
-                  <div class="tsb-stat"><span class="tsb-val">{standing.won}</span><span class="tsb-lbl">W</span></div>
-                  <div class="tsb-stat"><span class="tsb-val">{standing.gd > 0 ? `+${standing.gd}` : standing.gd}</span><span class="tsb-lbl">GD</span></div>
-                </div>
+          {teamFormMatches.length > 0 && (
+            <div class="form-guide">
+              <span class="form-label">Recent Form</span>
+              <div class="form-bar">
+                {teamFormMatches.map(m => {
+                  const r = resultBadge(m);
+                  return (
+                    <a href={`/news/${matchSlug(m)}`} class={`form-block ${r.cls}`} title={`GW${m.gameweek}: ${m.homeTeam} ${m.homeScore}-${m.awayScore} ${m.awayTeam}`}>
+                      <span class="form-block-label">{r.label}</span>
+                      <span class="form-block-gw">GW{m.gameweek}</span>
+                    </a>
+                  );
+                })}
               </div>
-            )}
-            
-            {teamFormMatches.length > 0 && (
-              <div class="form-guide">
-                <span class="form-label">Form</span>
-                <div class="form-bar">
-                  {teamFormMatches.map(m => {
-                    const r = resultBadge(m);
-                    return (
-                      <a href={`/news/${matchSlug(m)}`} class={`form-block ${r.cls}`} title={`GW${m.gameweek}: ${m.homeTeam} ${m.homeScore}-${m.awayScore} ${m.awayTeam}`}>
-                        <span class="form-block-label">{r.label}</span>
-                        <span class="form-block-gw">GW{m.gameweek}</span>
-                      </a>
-                    );
-                  })}
-                </div>
-              </div>
-            )}
-          </div>
+            </div>
+          )}
         </div>
       </div>
     </div>
@@ -386,140 +391,190 @@ const schema = {
 <style>
 .team-header { 
   padding-bottom: var(--space-2xl); 
-  background: linear-gradient(to bottom, var(--bg-card), var(--bg-primary));
+  background: linear-gradient(180deg, var(--bg-card) 0%, var(--bg-primary) 100%);
   border-bottom: 1px solid var(--border);
   margin-bottom: var(--space-2xl);
 }
 
 .team-hero { 
   display: flex; 
-  align-items: center; 
   gap: var(--space-2xl); 
-  padding: var(--space-xl) 0;
+  padding: var(--space-2xl);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-lg);
 }
+
+.team-hero-visuals {
+  display: flex;
+  gap: var(--space-lg);
+  flex-shrink: 0;
+  align-items: center;
+}
+
+.team-hero-logo-wrap,
+.team-hero-manager-wrap {
+  width: 160px;
+  height: 160px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.team-hero-manager-wrap {
+  width: 150px;
+}
+
+.team-hero-logo { 
+  width: 80%; 
+  height: 80%; 
+  object-fit: contain; 
+  filter: drop-shadow(0 8px 24px rgba(0,0,0,0.5));
+}
+
+.manager-avatar-lg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.team-hero-emoji-fallback { display: none; font-size: 5rem; }
 
 .team-hero-info { 
   flex: 1; 
+  min-width: 0;
+}
+
+.team-hero-top {
+  display: flex;
+  align-items: center;
+  gap: var(--space-lg);
+  margin-bottom: var(--space-md);
+  flex-wrap: wrap;
 }
 
 .team-title {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 900;
-  margin: var(--space-md) 0;
+  margin: 0;
   line-height: 1;
   letter-spacing: -0.02em;
 }
 
-.team-meta { 
-  display: flex; 
-  align-items: center; 
-  gap: var(--space-lg); 
-  margin-bottom: var(--space-xl); 
+.team-rank-badge {
+  flex-shrink: 0;
 }
-
-.manager-avatar { 
-  width: 120px; 
-  height: 120px; 
-  border-radius: var(--radius-lg); 
-  object-fit: cover; 
-  border: 3px solid var(--border);
-  box-shadow: var(--shadow-lg);
-}
-
-.manager-avatar-fallback {
-  width: 120px; height: 120px; border-radius: var(--radius-lg);
-  background: linear-gradient(135deg, var(--bg-elevated), var(--bg-card));
-  border: 3px solid var(--border); box-shadow: var(--shadow-lg);
-  display: flex; align-items: center; justify-content: center;
-  font-family: var(--font-display); font-size: 2.5rem; color: var(--green);
-}
-
-.team-manager-names { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 4px; }
-.team-manager-link {
-  font-size: 1.2rem; font-weight: 700; color: var(--text-primary); text-decoration: none;
-  transition: color var(--transition); display: inline-block;
-}
-.team-manager-link:hover { color: var(--green); }
-.team-manager-link + .team-manager-link::before { content: '&'; color: var(--text-muted); margin: 0 4px; }
-}
-
-.team-description { 
-  font-size: 1.1rem;
-  max-width: 600px;
+.rank-badge-num {
+  font-family: var(--font-display);
+  font-size: 2rem;
   color: var(--text-muted);
-  margin-bottom: var(--space-xl);
-}
-
-.team-hero-stats {
-  display: flex;
-  align-items: center;
-  gap: var(--space-2xl);
-  flex-wrap: wrap;
-}
-
-.team-standing-box {
   background: var(--bg-elevated);
   border: 1px solid var(--border);
-  border-radius: var(--radius-xl);
-  padding: var(--space-md) var(--space-xl);
+  border-radius: var(--radius);
+  padding: var(--space-xs) var(--space-md);
+  line-height: 1;
+}
+.rank-badge-num.top-4 {
+  color: var(--green);
+  background: var(--green-glow);
+  border-color: rgba(0,230,118,0.25);
+}
+
+.team-standings-strip {
   display: flex;
   align-items: center;
   gap: var(--space-lg);
+  margin-bottom: var(--space-lg);
+  flex-wrap: wrap;
+  padding: var(--space-md) var(--space-xl);
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
 }
 
-.tsb-pos { 
-  display: flex; 
-  flex-direction: column; 
-  align-items: center; 
-  border-right: 1px solid var(--border); 
-  padding-right: var(--space-lg); 
+.ss-item { text-align: center; min-width: 36px; }
+.ss-val { display: block; font-family: var(--font-display); font-size: 1.3rem; font-weight: 700; color: var(--text-primary); line-height: 1; }
+.ss-lbl { display: block; font-size: 0.55rem; text-transform: uppercase; color: var(--text-muted); letter-spacing: 0.08em; margin-top: 2px; }
+.ss-divider { width: 1px; height: 32px; background: var(--border); flex-shrink: 0; }
+.ss-ep .ss-val { color: var(--gold); }
+
+.team-manager-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-md);
+  flex-wrap: wrap;
 }
 
-.tsb-num { 
-  font-family: var(--font-display); 
-  font-size: 2.5rem; 
-  color: var(--text-muted); 
-  line-height: 1; 
-}
-.tsb-num.top-4 { color: var(--green); }
-.tsb-label { font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted); }
-
-.tsb-stats { display: flex; gap: var(--space-md); }
-.tsb-stat { text-align: center; }
-.tsb-val { display: block; font-family: var(--font-display); font-size: 1.5rem; color: var(--text-primary); line-height: 1; }
-.tsb-lbl { display: block; font-size: 0.6rem; text-transform: uppercase; color: var(--text-muted); }
-
-.team-hero-visual {
+.manager-badge {
+  font-size: 0.7rem;
   flex-shrink: 0;
 }
 
-.team-hero-logo-wrap {
-  width: 220px;
-  height: 220px;
+.team-manager-names { display: flex; flex-wrap: wrap; gap: 4px; }
+.team-manager-link {
+  font-size: 1.05rem; font-weight: 700; color: var(--text-primary); text-decoration: none;
+  transition: color var(--transition);
+}
+.team-manager-link:hover { color: var(--green); }
+.team-manager-link + .team-manager-link::before { content: ' & '; color: var(--text-muted); }
+
+.team-city {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.team-description { 
+  font-size: 1rem;
+  max-width: 640px;
+  color: var(--text-secondary);
+  margin-bottom: var(--space-lg);
+  line-height: 1.6;
+}
+
+.form-guide {
   display: flex;
   align-items: center;
-  justify-content: center;
+  gap: var(--space-md);
 }
-
-.team-hero-logo { 
-  width: 100%; 
-  height: 100%; 
-  object-fit: contain; 
-  filter: drop-shadow(0 20px 30px rgba(0,0,0,0.4));
+.form-label {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  flex-shrink: 0;
 }
-
-.team-hero-emoji-fallback { display: none; font-size: 8rem; }
 
 @media (max-width: 1024px) {
-  .team-title { font-size: 3rem; }
-  .team-hero-logo-wrap { width: 160px; height: 160px; }
+  .team-title { font-size: 2.2rem; }
+  .team-hero-logo-wrap { width: 130px; height: 130px; }
+  .team-hero-manager-wrap { width: 120px; height: 130px; }
+  .team-standings-strip { gap: var(--space-md); padding: var(--space-sm) var(--space-md); }
 }
 
 @media (max-width: 768px) {
-  .team-hero { flex-direction: column; text-align: center; gap: var(--space-xl); }
-  .team-meta { justify-content: center; flex-direction: column; }
-  .team-hero-stats { justify-content: center; }
+  .team-hero { flex-direction: column; text-align: center; padding: var(--space-xl); }
+  .team-hero-visuals { justify-content: center; }
+  .team-hero-logo-wrap { width: 100px; height: 100px; }
+  .team-hero-manager-wrap { width: 90px; height: 100px; }
+  .team-hero-top { justify-content: center; }
+  .team-standings-strip { justify-content: center; }
+  .team-manager-row { justify-content: center; }
   .team-description { margin-left: auto; margin-right: auto; }
+  .form-guide { justify-content: center; }
+}
+
+@media (max-width: 480px) {
+  .team-hero { padding: var(--space-lg); }
+  .team-title { font-size: 1.8rem; }
+  .team-standings-strip { gap: var(--space-sm); padding: var(--space-sm); }
+  .ss-val { font-size: 1rem; }
 }
 
 .player-thumb-xs { width: 36px; height: 36px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }

@@ -71,6 +71,10 @@ function matchSlug(match: any): string {
   return `${match.homeSlug}-vs-${match.awaySlug}-gw${match.gameweek}`;
 }
 
+function previewSlug(match: any): string {
+  return `${match.homeSlug}-vs-${match.awaySlug}-gw${match.gameweek}-preview`;
+}
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "SportsOrganization",
@@ -211,7 +215,7 @@ const schema = {
           </div>
           <div class="fixtures-list">
             {upcomingFixtures.map(f => (
-              <div class="fixture-card">
+              <a href={`/news/${previewSlug(f)}`} class="fixture-card">
                 <div class="fixture-team home">
                   <img src={`/logos/${f.homeSlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt={f.homeTeam} />
                   <span class="fixture-team-name">{f.homeTeam}</span>
@@ -224,7 +228,7 @@ const schema = {
                   <img src={`/logos/${f.awaySlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt={f.awayTeam} />
                   <span class="fixture-team-name">{f.awayTeam}</span>
                 </div>
-              </div>
+              </a>
             ))}
           </div>
         </div>
