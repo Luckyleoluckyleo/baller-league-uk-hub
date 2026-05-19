@@ -1,23 +1,35 @@
 ---
-const navLinks = [
+const navItems = [
   { href: '/',              label: 'Home'             },
   { href: '/table',         label: 'Table & Fixtures' },
-  { href: '/season',        label: 'Seasons'          },
-  { href: '/managers',      label: 'Managers/Teams'   },
-  { href: '/players',       label: 'Players'          },
-  { href: '/roundup',       label: 'Roundup'          },
-  { href: '/h2h',           label: 'H2H'              },
-  { href: '/gamechangers',  label: 'Gamechangers'     },
-  { href: '/news',          label: 'News'             },
-  { href: '/rules',         label: 'Rules'            },
-  { href: '/guide',         label: 'Guide'           },
-  { href: '/records',       label: 'Records'         },
-  { href: '/final-four',   label: 'Final Four'      },
+  { href: '/final-four',   label: 'Final Four'       },
+  { href: null,             label: 'Teams & Players',  children: [
+    { href: '/teams',       label: 'All Teams'       },
+    { href: '/managers',    label: 'Managers'         },
+    { href: '/players',     label: 'Players'          },
+  ]},
+  { href: null,             label: 'News & Stats',     children: [
+    { href: '/news',        label: 'News'             },
+    { href: '/roundup',     label: 'Roundup'          },
+    { href: '/gamechangers',label: 'Gamechangers'     },
+    { href: '/h2h',         label: 'H2H'              },
+    { href: '/season',      label: 'Seasons'          },
+    { href: '/records',     label: 'Records'          },
+  ]},
+  { href: null,             label: 'More',             children: [
+    { href: '/rules',       label: 'Rules'            },
+    { href: '/guide',       label: 'Guide'            },
+    { href: '/faq',         label: 'FAQ'              },
+  ]},
 ];
 
 const path = Astro.url.pathname;
 const isActive = (href: string) =>
   href === '/' ? path === '/' : path.startsWith(href);
+
+function hasActiveChild(children: { href: string }[]) {
+  return children.some(c => isActive(c.href));
+}
 ---
 
 <header class="nav-header">
@@ -27,15 +39,29 @@ const isActive = (href: string) =>
     </a>
 
     <ul class="nav-links" id="nav-links" role="list">
-      {navLinks.map(link => (
-        <li>
-          <a
-            href={link.href}
-            class={`nav-link ${isActive(link.href) ? 'active' : ''}`}
-          >
-            {link.label}
-          </a>
-        </li>
+      {navItems.map(item => (
+        item.href ? (
+          <li>
+            <a href={item.href} class={`nav-link ${isActive(item.href) ? 'active' : ''}`}>
+              {item.label}
+            </a>
+          </li>
+        ) : item.children ? (
+          <li class="nav-dropdown">
+            <button class={`nav-link nav-dropdown-trigger ${hasActiveChild(item.children) ? 'active' : ''}`} aria-haspopup="true" aria-expanded="false">
+              {item.label}<span class="nav-arrow">▼</span>
+            </button>
+            <ul class="nav-dropdown-menu" role="menu">
+              {item.children.map(c => (
+                <li role="none">
+                  <a href={c.href} class={`nav-dropdown-link ${isActive(c.href) ? 'active' : ''}`} role="menuitem">
+                    {c.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </li>
+        ) : null
       ))}
     </ul>
 
@@ -65,12 +91,28 @@ const isActive = (href: string) =>
     ham.setAttribute('aria-expanded', String(open));
   });
   // Close on link click (mobile)
-  links.querySelectorAll('.nav-link').forEach(link => {
+  links.querySelectorAll('.nav-link, .nav-dropdown-link').forEach(link => {
     link.addEventListener('click', () => {
       links.classList.remove('open');
       ham.classList.remove('open');
       ham.setAttribute('aria-expanded', 'false');
     });
+  });
+  // Dropdown toggle (mobile)
+  links.querySelectorAll('.nav-dropdown-trigger').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      if (window.innerWidth <= 900) {
+        e.preventDefault();
+        const dd = btn.closest('.nav-dropdown')!;
+        const open = dd.classList.toggle('open');
+        btn.setAttribute('aria-expanded', String(open));
+      }
+    });
+  });
+  window.addEventListener('resize', () => {
+    if (window.innerWidth > 900) {
+      links.querySelectorAll('.nav-dropdown').forEach(dd => dd.classList.remove('open'));
+    }
   });
 </script>
 
@@ -110,9 +152,12 @@ const isActive = (href: string) =>
   gap: 2px;
   margin: 0;
   padding: 0;
+  flex-wrap: nowrap;
 }
 .nav-link {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 4px;
   padding: 7px 12px;
   font-size: 0.85rem;
   font-weight: 500;
@@ -120,9 +165,62 @@ const isActive = (href: string) =>
   border-radius: var(--radius-sm);
   transition: color var(--transition), background var(--transition);
   white-space: nowrap;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  line-height: 1.4;
 }
 .nav-link:hover { color: var(--text-primary); background: rgba(255,255,255,0.05); }
 .nav-link.active { color: var(--green); background: var(--green-glow); }
+
+/* Arrow */
+.nav-arrow { font-size: 0.55rem; margin-left: 2px; opacity: 0.6; transition: transform var(--transition); }
+
+/* Dropdowns */
+.nav-dropdown {
+  position: relative;
+}
+.nav-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 160px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--space-xs);
+  list-style: none;
+  margin-top: 4px;
+  box-shadow: var(--shadow-lg);
+  z-index: 1001;
+}
+.nav-dropdown:hover .nav-dropdown-menu,
+.nav-dropdown:focus-within .nav-dropdown-menu {
+  display: block;
+}
+.nav-dropdown:hover .nav-arrow,
+.nav-dropdown:focus-within .nav-arrow {
+  transform: rotate(180deg);
+}
+.nav-dropdown-link {
+  display: block;
+  padding: 8px 14px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  border-radius: var(--radius-sm);
+  transition: color var(--transition), background var(--transition);
+  white-space: nowrap;
+}
+.nav-dropdown-link:hover {
+  color: var(--text-primary);
+  background: rgba(255,255,255,0.06);
+}
+.nav-dropdown-link.active {
+  color: var(--green);
+}
 
 /* Right section */
 .nav-right { display: flex; align-items: center; gap: var(--space-sm); flex-shrink: 0; }
@@ -165,12 +263,29 @@ const isActive = (href: string) =>
     border-bottom: 1px solid var(--border);
     padding: var(--space-md);
     gap: 4px;
+    max-height: calc(100vh - var(--nav-height));
+    overflow-y: auto;
   }
   .nav-links.open { display: flex; }
   .nav-link { font-size: 1rem; padding: 10px 14px; }
+
+  /* Dropdowns on mobile */
+  .nav-dropdown-menu {
+    display: none;
+    position: static;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0 0 0 var(--space-md);
+    margin-top: 0;
+  }
+  .nav-dropdown.open .nav-dropdown-menu { display: block; }
+  .nav-dropdown.open .nav-arrow { transform: rotate(180deg); }
+  .nav-dropdown-link { font-size: 0.95rem; padding: 8px 14px; }
 }
 
 @media (max-width: 1100px) {
-  .nav-link { padding: 7px 9px; font-size: 0.8rem; }
+  .nav-link { padding: 7px 8px; font-size: 0.8rem; }
+  .nav-dropdown-link { padding: 7px 12px; font-size: 0.8rem; }
 }
 </style>

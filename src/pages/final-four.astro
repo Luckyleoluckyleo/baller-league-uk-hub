@@ -132,8 +132,10 @@ const schema = {
           <a href={`/teams/${t.slug}`} class="ff-team-card card">
             <div class="card-body ff-team-body">
               <div class="ff-team-header">
-                <img src={`/logos/${t.slug}.svg`} alt={t.name} class="ff-team-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
-                <span class="ff-team-emoji" style="display:none;">{t.emoji}</span>
+                <div class="ff-team-img-wrap">
+                  <img src={`/managers/${t.slug}.webp`} alt={t.manager} class="ff-team-img" loading="lazy" onerror="this.style.display='none'" />
+                  <img src={`/logos/${t.slug}.svg`} alt={t.name} class="ff-team-badge-logo" onerror="this.style.display='none'" />
+                </div>
                 <div>
                   <div class="ff-pos-badge">#{t.pos}</div>
                   <h3 class="ff-team-name">{t.name}</h3>
@@ -273,12 +275,13 @@ const schema = {
   background: linear-gradient(180deg, #1a0a2e 0%, var(--bg-primary) 100%);
   padding-bottom: var(--space-2xl);
   border-bottom: 2px solid rgba(124,77,255,0.3);
+}
+.ff-header .container {
   text-align: center;
 }
-.ff-header h1,
-.ff-header p,
-.ff-header .section-label {
-  text-align: center;
+.ff-header .section-subtitle {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .ff-page {
@@ -361,22 +364,32 @@ const schema = {
   gap: var(--space-md);
 }
 
-.ff-team-logo {
-  width: 64px;
-  height: 64px;
-  object-fit: contain;
+.ff-team-img-wrap {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  flex-shrink: 0;
 }
 
-.ff-team-emoji {
-  width: 64px;
-  height: 64px;
-  font-size: 2.5rem;
-  align-items: center;
-  justify-content: center;
-  background: var(--bg-elevated);
-  border: 1px solid var(--border);
+.ff-team-img {
+  width: 90px;
+  height: 90px;
   border-radius: var(--radius);
-  flex-shrink: 0;
+  object-fit: cover;
+  border: 2px solid var(--border);
+}
+
+.ff-team-badge-logo {
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
+  width: 32px;
+  height: 32px;
+  background: var(--bg-card);
+  border: 2px solid var(--purple-light);
+  border-radius: var(--radius-sm);
+  padding: 3px;
+  object-fit: contain;
 }
 
 .ff-pos-badge {
