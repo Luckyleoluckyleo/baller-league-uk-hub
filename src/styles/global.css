@@ -90,6 +90,13 @@ p  { font-size: 1rem; color: var(--text-secondary); line-height: 1.75; }
 .section    { padding: var(--space-3xl) 0; }
 .section--sm { padding: var(--space-2xl) 0; }
 
+/* Performance: defer rendering of off-screen sections */
+.section:nth-child(n+3),
+.team-fixtures-section,
+.squad-section,
+.team-stats-grid,
+.team-cta { content-visibility: auto; contain-intrinsic-size: 400px; }
+
 /* === GRIDS === */
 .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-lg); }
 .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-lg); }

@@ -82,6 +82,9 @@ const catClass =
         <span>By {data.author}</span>
         <span class="breadcrumb-sep">·</span>
         <time datetime={data.date.toISOString()}>{formattedDate}</time>
+        <span class="breadcrumb-sep">·</span>
+        <a href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(data.title)}&url=${encodeURIComponent(new URL(Astro.url.pathname, Astro.site ?? 'https://ballerleagueukhub.com').toString())}`} target="_blank" rel="noopener noreferrer" class="share-link" aria-label="Share on X" title="Share on X">𝕏 Share</a>
+        <a href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(new URL(Astro.url.pathname, Astro.site ?? 'https://ballerleagueukhub.com').toString())}`} target="_blank" rel="noopener noreferrer" class="share-link" aria-label="Share on Facebook" title="Share on Facebook">📘 Share</a>
       </div>
     </div>
   </div>
@@ -155,6 +158,8 @@ const catClass =
 .article-header .badge { margin-bottom: var(--space-md); }
 .article-title { margin-bottom: var(--space-md); max-width: 800px; }
 .article-meta { font-size: 0.85rem; color: var(--text-muted); display: flex; align-items: center; gap: var(--space-sm); flex-wrap: wrap; }
+.share-link { font-size: 0.78rem; color: var(--text-muted); padding: 2px 8px; border: 1px solid var(--border); border-radius: var(--radius-sm); transition: all var(--transition); }
+.share-link:hover { border-color: var(--green); color: var(--green); background: var(--green-glow); }
 
 .article-page { padding-bottom: var(--space-3xl); }
 .article-layout { display: grid; grid-template-columns: 1fr 260px; gap: var(--space-xl); }
