@@ -171,7 +171,8 @@ const schema = {
               <div class="ff-semi-label">Semi-Final {i + 1}</div>
               <div class="ff-semi-matchup">
                 <a href={`/teams/${sf.home.slug}`} class="ff-semi-team">
-                  <img src={`/logos/${sf.home.slug}.svg`} alt={sf.home.name} class="ff-semi-logo" onerror="this.style.display='none'" />
+                  <img src={`/managers/${sf.home.slug}.webp`} alt={sf.home.manager} class="ff-semi-logo" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+                  <span class="ff-semi-fallback">{sf.home.emoji}</span>
                   <div>
                     <strong class="ff-semi-team-name">{sf.home.name}</strong>
                     <span class="text-muted" style="font-size:0.8rem;">#{sf.home.pos} seed — {sf.home.pts} pts — {sf.home.manager}</span>
@@ -179,7 +180,8 @@ const schema = {
                 </a>
                 <div class="ff-semi-vs">VS</div>
                 <a href={`/teams/${sf.away.slug}`} class="ff-semi-team">
-                  <img src={`/logos/${sf.away.slug}.svg`} alt={sf.away.name} class="ff-semi-logo" onerror="this.style.display='none'" />
+                  <img src={`/managers/${sf.away.slug}.webp`} alt={sf.away.manager} class="ff-semi-logo" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+                  <span class="ff-semi-fallback">{sf.away.emoji}</span>
                   <div>
                     <strong class="ff-semi-team-name">{sf.away.name}</strong>
                     <span class="text-muted" style="font-size:0.8rem;">#{sf.away.pos} seed — {sf.away.pts} pts — {sf.away.manager}</span>
@@ -502,8 +504,22 @@ const schema = {
 .ff-semi-logo {
   width: 48px;
   height: 48px;
-  object-fit: contain;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
   flex-shrink: 0;
+}
+
+.ff-semi-fallback {
+  display: none;
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
 }
 
 .ff-semi-team-name {
