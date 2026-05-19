@@ -7,54 +7,50 @@ import playerData from '../data/players.json';
 const s3Matches = (gcData.seasons['3']?.matches as any[] || []).filter((m: any) => m.homeScore > 0 || m.awayScore > 0);
 
 const teams = [
-  { name: 'NDL FC', slug: 'ndl-fc', pos: 1, pts: 26, manager: 'Niko Omilana', emoji: '🏆', color: '#00e676' },
-  { name: 'Deportrio', slug: 'deportrio', pos: 2, pts: 23, manager: 'Micah Richards', emoji: '🔵', color: '#2196f3' },
-  { name: 'Prime FC', slug: 'prime-fc', pos: 3, pts: 21, manager: 'KSI', emoji: '🔴', color: '#f44336' },
-  { name: 'SDS FC', slug: 'sds-fc', pos: 4, pts: 20, manager: 'Tobi Brown', emoji: '🟢', color: '#4caf50' },
+  { name: 'NDL FC', slug: 'ndl-fc', pos: 1, pts: 26, manager: 'Niko Omilana', emoji: '🏆' },
+  { name: 'Deportrio', slug: 'deportrio', pos: 2, pts: 23, manager: 'Micah Richards', emoji: '🔵' },
+  { name: 'Prime FC', slug: 'prime-fc', pos: 3, pts: 21, manager: 'KSI', emoji: '🔴' },
+  { name: 'SDS FC', slug: 'sds-fc', pos: 4, pts: 20, manager: 'Tobi Brown', emoji: '🟢' },
 ];
 
-function getTopScorers(slug: string) {
-  return playerData.players
-    .filter((p: any) => p.teamSlug === slug && (p.seasons?.['3']?.goals || 0) > 0)
-    .sort((a: any, b: any) => (b.seasons?.['3']?.goals || 0) - (a.seasons?.['3']?.goals || 0))
-    .slice(0, 3)
-    .map((p: any) => ({ name: p.name, goals: p.seasons['3'].goals, slug: p.slug }));
-}
-
-function getTeamStats(slug: string) {
-  const ms = s3Matches.filter((m: any) => m.homeSlug === slug || m.awaySlug === slug);
+teams.forEach(t => {
+  const ms = s3Matches.filter((m: any) => m.homeSlug === t.slug || m.awaySlug === t.slug);
   let w = 0, d = 0, l = 0, gf = 0, ga = 0;
   ms.forEach((m: any) => {
-    const isHome = m.homeSlug === slug;
-    gf += isHome ? m.homeScore : m.awayScore;
-    ga += isHome ? m.awayScore : m.homeScore;
-    if (isHome ? m.homeScore > m.awayScore : m.awayScore > m.homeScore) w++;
+    const isH = m.homeSlug === t.slug;
+    gf += isH ? m.homeScore : m.awayScore;
+    ga += isH ? m.awayScore : m.homeScore;
+    if (isH ? m.homeScore > m.awayScore : m.awayScore > m.homeScore) w++;
     else if (m.homeScore === m.awayScore) d++;
     else l++;
   });
-  return { played: ms.length, w, d, l, gf, ga, gd: gf - ga };
-}
+  (t as any).stats = { p: ms.length, w, d, l, gf, ga, gd: gf - ga };
+  (t as any).topScorers = playerData.players
+    .filter((p: any) => p.teamSlug === t.slug && (p.seasons?.['3']?.goals || 0) > 0)
+    .sort((a: any, b: any) => (b.seasons?.['3']?.goals || 0) - (a.seasons?.['3']?.goals || 0))
+    .slice(0, 3)
+    .map((p: any) => ({ name: p.name, goals: p.seasons['3'].goals, slug: p.slug }));
+  const form = ms.sort((a: any, b: any) => b.gameweek - a.gameweek).slice(0, 6);
+  (t as any).form = form.map((m: any) => {
+    const isH = m.homeSlug === t.slug;
+    const gd = isH ? m.homeScore - m.awayScore : m.awayScore - m.homeScore;
+    return gd > 0 ? 'W' : gd < 0 ? 'L' : 'D';
+  }).join('');
+});
 
 function getH2H(s1: string, s2: string) {
   return s3Matches
     .filter((m: any) => (m.homeSlug === s1 && m.awaySlug === s2) || (m.homeSlug === s2 && m.awaySlug === s1))
+    .sort((a: any, b: any) => a.gameweek - b.gameweek)
     .map((m: any) => ({
-      gw: m.gameweek,
-      home: m.homeTeam,
-      away: m.awayTeam,
-      hs: m.homeScore,
-      as: m.awayScore,
-    }))
-    .sort((a: any, b: any) => a.gw - b.gw);
+      gw: m.gameweek, home: m.homeTeam, away: m.awayTeam, hs: m.homeScore, as: m.awayScore,
+      gc1: m.gamechanger1?.type || '?', gc2: m.gamechanger2?.type || '?',
+      gc1g: m.gamechanger1?.goalsScored || 0, gc2g: m.gamechanger2?.goalsScored || 0,
+    }));
 }
 
 const semi1 = { home: teams[0], away: teams[3], h2h: getH2H(teams[0].slug, teams[3].slug) };
 const semi2 = { home: teams[1], away: teams[2], h2h: getH2H(teams[1].slug, teams[2].slug) };
-
-teams.forEach(t => {
-  (t as any).stats = getTeamStats(t.slug);
-  (t as any).topScorers = getTopScorers(t.slug);
-});
 
 const schema = {
   "@context": "https://schema.org",
@@ -64,214 +60,143 @@ const schema = {
   "startDate": "2026-05-25T18:00:00+01:00",
   "location": { "@type": "Place", "name": "The O2 Arena", "address": { "@type": "PostalAddress", "addressLocality": "London", "addressCountry": "GB" } },
   "organizer": { "@type": "Organization", "name": "Baller League UK", "url": "https://ballerleague.uk" },
-  "performer": [
-    { "@type": "SportsTeam", "name": "NDL FC", "url": "https://ballerleagueukhub.com/teams/ndl-fc" },
-    { "@type": "SportsTeam", "name": "Deportrio", "url": "https://ballerleagueukhub.com/teams/deportrio" },
-    { "@type": "SportsTeam", "name": "Prime FC", "url": "https://ballerleagueukhub.com/teams/prime-fc" },
-    { "@type": "SportsTeam", "name": "SDS FC", "url": "https://ballerleagueukhub.com/teams/sds-fc" }
-  ]
+  "performer": teams.map(t => ({ "@type": "SportsTeam", "name": t.name, "url": `https://ballerleagueukhub.com/teams/${t.slug}` }))
 };
+
+function formBadge(label: string) {
+  if (label === 'W') return '<span class="form-badge form-win">W</span>';
+  if (label === 'D') return '<span class="form-badge form-draw">D</span>';
+  return '<span class="form-badge form-loss">L</span>';
+}
 ---
 
 <Base
-  title="Baller League UK Final Four 2026 — Teams, Matchups, H2H & Preview"
-  description="The Baller League UK Season 3 Final Four at The O2 London on Monday 25 May 2026. NDL FC vs SDS FC and Deportrio vs Prime FC in the semi-finals. Full team profiles, H2H history, key players, and format guide."
+  title="Baller League UK Final Four 2026 — Teams, Matchups & H2H Preview"
+  description="Baller League UK Season 3 Final Four at The O2 London, Monday 25 May 2026. NDL FC vs SDS FC and Deportrio vs Prime FC semi-finals. Full team profiles, head-to-head history, form guides, and key player stats."
   schema={schema}
-  keywords="Baller League Final Four, The O2, NDL FC, Deportrio, Prime FC, SDS FC, semi-final, playoffs, champion, 25 May 2026"
+  keywords="Baller League Final Four, The O2 London, NDL FC, Deportrio, Prime FC, SDS FC, semi-final playoffs, 25 May 2026, Baller League champion, season 3 final"
 >
-  <div class="page-header ff-header">
+  <div class="ff-hero">
     <div class="container">
       <Breadcrumb items={[{name:'Home',url:'/'},{name:'Final Four'}]} />
-      <div class="section-label">Season 3 Playoffs</div>
-      <h1>The Final Four</h1>
-      <p class="section-subtitle">
-        Monday 25 May 2026 — The O2, London — Live on Sky Sports, YouTube &amp; Twitch
-      </p>
-      <a href="https://www.theo2.co.uk/events/detail/baller-league-uk-2026-final-four" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg" style="margin-top: var(--space-lg);">Get Tickets</a>
+      <div class="ff-hero-badge">Season 3 Playoffs</div>
+      <h1 class="ff-hero-title">The Final Four</h1>
+      <p class="ff-hero-subtitle">Monday 25 May 2026 &middot; The O2 Arena, London &middot; Live on Sky Sports, YouTube &amp; Twitch</p>
+      <a href="https://www.theo2.co.uk/events/detail/baller-league-uk-2026-final-four" target="_blank" rel="noopener" class="btn btn-primary btn-lg">Get Tickets</a>
     </div>
   </div>
 
-  <div class="container ff-page">
+  <div class="container ff-body">
 
-    <!-- WHAT IS THE FINAL FOUR -->
-    <section class="ff-section card">
+    <section class="ff-block card">
       <div class="card-body">
         <h2>What is the Final Four?</h2>
-        <p>The Final Four is the season-ending playoff tournament of Baller League UK. After 11 gameweeks of regular-season action, the <strong>top 4 teams</strong> in the league table qualify for a single-elimination knockout at a major venue. Two semi-finals determine who advances to the final — and the winner is <strong>crowned Baller League UK champion</strong>.</p>
-        <div class="ff-format-grid">
-          <div class="ff-format-card">
-            <div class="ff-format-badge">Semi-Final 1</div>
-            <div class="ff-format-teams">
-              <span><strong>1st</strong> vs <strong>4th</strong></span>
-            </div>
-            <span class="text-muted" style="font-size:0.8rem;">Winner advances to Final</span>
-          </div>
-          <div class="ff-format-card">
-            <div class="ff-format-badge">Semi-Final 2</div>
-            <div class="ff-format-teams">
-              <span><strong>2nd</strong> vs <strong>3rd</strong></span>
-            </div>
-            <span class="text-muted" style="font-size:0.8rem;">Winner advances to Final</span>
-          </div>
-          <div class="ff-format-card ff-format-final">
-            <div class="ff-format-badge">Final</div>
-            <div class="ff-format-teams">
-              <span><strong>Winner SF1</strong> vs <strong>Winner SF2</strong></span>
-            </div>
-            <span class="text-muted" style="font-size:0.8rem;">Champion crowned at The O2</span>
-          </div>
+        <p>The Final Four is Baller League UK's season-ending playoff tournament. After 11 gameweeks, the <strong>top 4 teams</strong> qualify for a single-elimination knockout at a major venue — this season it's <strong>The O2 Arena in London</strong>. The 1st-place team faces 4th, and 2nd faces 3rd in the semi-finals. The two winners meet in the final to be crowned <strong>Baller League UK Season 3 champion</strong>. Every match is 30 minutes of 6v6 action with full Game Changer rules in play.</p>
+        <div class="ff-format-row">
+          <div class="ff-format-step"><span class="ff-step-num">1</span><strong>Semi-Final 1</strong><span class="text-muted">1st vs 4th</span></div>
+          <span class="ff-format-arrow">→</span>
+          <div class="ff-format-step"><span class="ff-step-num">2</span><strong>Semi-Final 2</strong><span class="text-muted">2nd vs 3rd</span></div>
+          <span class="ff-format-arrow">→</span>
+          <div class="ff-format-step ff-format-final"><span class="ff-step-num">🏆</span><strong>The Final</strong><span class="text-muted">Champion crowned</span></div>
         </div>
+        <p class="text-muted" style="font-size: 0.85rem; margin-top: var(--space-md);">Past champions: <strong>SDS FC</strong> (Season 1) &middot; <strong>Wembley Rangers AFC</strong> (Season 2). <a href="/season">View all past seasons →</a></p>
       </div>
     </section>
 
-    <!-- QUALIFIED TEAMS -->
-    <section class="ff-section">
-      <h2 style="margin-bottom: var(--space-xl);">The Qualified Teams</h2>
-      <div class="ff-teams-grid">
-        {teams.map(t => (
-          <a href={`/teams/${t.slug}`} class="ff-team-card card">
-            <div class="card-body ff-team-body">
-              <div class="ff-team-header">
-                <img src={`/managers/${t.slug}.webp`} alt={t.manager} class="ff-team-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
-                <span class="ff-team-img-fallback">{t.emoji}</span>
-                <div>
-                  <div class="ff-pos-badge">#{t.pos}</div>
-                  <h3 class="ff-team-name">
-                    <img src={`/logos/${t.slug}.svg`} alt="" class="ff-badge-logo" aria-hidden="true" onerror="this.style.display='none'" />
-                    {t.name}
-                  </h3>
-                  <span class="text-muted" style="font-size:0.85rem;">{t.manager}</span>
+    <section class="ff-block">
+      <h2 style="margin-bottom: var(--space-lg);">The Qualified Teams</h2>
+      <div class="ff-cards">
+        {teams.map(t => (<a href={`/teams/${t.slug}`} class="ff-card ff-team-card">
+          <div class="ff-card-top">
+            <div class="ff-card-img-wrap">
+              <img src={`/managers/${t.slug}.webp`} alt={t.manager} class="ff-card-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+              <span class="ff-card-fallback">{t.emoji}</span>
+            </div>
+            <div class="ff-card-meta">
+              <span class="ff-pos">{t.pos}</span>
+              <div>
+                <h3 class="ff-card-name">
+                  <img src={`/logos/${t.slug}.svg`} alt="" class="ff-card-badge" aria-hidden="true" onerror="this.style.display='none'" />
+                  {t.name}
+                </h3>
+                <span class="text-muted">{t.manager}</span>
+              </div>
+            </div>
+          </div>
+          <div class="ff-card-stats">
+            <div class="ff-stat"><span class="ff-stat-num">{t.stats.p}</span><span class="ff-stat-lbl">Played</span></div>
+            <div class="ff-stat"><span class="ff-stat-num">{t.stats.w}</span><span class="ff-stat-lbl">Won</span></div>
+            <div class="ff-stat"><span class="ff-stat-num">{t.stats.d}</span><span class="ff-stat-lbl">Drawn</span></div>
+            <div class="ff-stat"><span class="ff-stat-num">{t.stats.l}</span><span class="ff-stat-lbl">Lost</span></div>
+            <div class="ff-stat"><span class="ff-stat-num">{t.stats.gf}</span><span class="ff-stat-lbl">GF</span></div>
+            <div class="ff-stat"><span class="ff-stat-num">{t.stats.gd > 0 ? '+' + t.stats.gd : t.stats.gd}</span><span class="ff-stat-lbl">GD</span></div>
+            <div class="ff-stat ff-stat-pts"><span class="ff-stat-num">{t.pts}</span><span class="ff-stat-lbl">Pts</span></div>
+            <div class="ff-stat"><span class="ff-stat-num" set:html={t.form.split('').map(l => formBadge(l)).join('')}></span><span class="ff-stat-lbl">Form</span></div>
+          </div>
+          <div class="ff-card-scorers">
+            <span class="ff-scorers-label">Top Scorers:</span>
+            {t.topScorers.map(ts => (<a href={`/players/${ts.slug}`} class="ff-scorer">{ts.name} <strong>{ts.goals}g</strong></a>))}
+          </div>
+        </a>))}
+      </div>
+    </section>
+
+    <section class="ff-block">
+      <h2 style="margin-bottom: var(--space-lg);">Semi-Final Matchups</h2>
+      <div class="ff-semifinals">
+        {[semi1, semi2].map((sf, i) => (<div class="ff-semi card">
+          <div class="card-body">
+            <div class="ff-semi-header">Semi-Final {i + 1}</div>
+            <div class="ff-semi-row">
+              <a href={`/teams/${sf.home.slug}`} class="ff-semi-team">
+                <img src={`/managers/${sf.home.slug}.webp`} alt={sf.home.manager} class="ff-semi-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+                <span class="ff-semi-fb">{sf.home.emoji}</span>
+                <div class="ff-semi-info">
+                  <strong class="ff-semi-name">
+                    <img src={`/logos/${sf.home.slug}.svg`} alt="" class="ff-semi-badge" aria-hidden="true" onerror="this.style.display='none'" />
+                    {sf.home.name}
+                  </strong>
+                  <span class="text-muted">#{sf.home.pos} seed &middot; {sf.home.pts} pts &middot; {sf.home.manager}</span>
                 </div>
-              </div>
-              <div class="ff-team-stats">
-                <div class="ff-stat"><span class="ff-stat-val">{t.stats.played}</span><span class="ff-stat-lbl">GP</span></div>
-                <div class="ff-stat"><span class="ff-stat-val">{t.stats.w}</span><span class="ff-stat-lbl">W</span></div>
-                <div class="ff-stat"><span class="ff-stat-val">{t.stats.d}</span><span class="ff-stat-lbl">D</span></div>
-                <div class="ff-stat"><span class="ff-stat-val">{t.stats.l}</span><span class="ff-stat-lbl">L</span></div>
-                <div class="ff-stat"><span class="ff-stat-val">{t.stats.gf}</span><span class="ff-stat-lbl">GF</span></div>
-                <div class="ff-stat"><span class="ff-stat-val">{t.stats.gd > 0 ? '+' + t.stats.gd : t.stats.gd}</span><span class="ff-stat-lbl">GD</span></div>
-                <div class="ff-stat ff-stat-highlight"><span class="ff-stat-val">{t.pts}</span><span class="ff-stat-lbl">PTS</span></div>
-              </div>
-              <div class="ff-top-scorers">
-                <span class="ff-scorers-label">Top Scorers</span>
-                {t.topScorers.map(ts => (
-                  <a href={`/players/${ts.slug}`} class="ff-scorer-link">{ts.name} <span class="ff-scorer-goals">{ts.goals}g</span></a>
-                ))}
-              </div>
+              </a>
+              <div class="ff-semi-vs">VS</div>
+              <a href={`/teams/${sf.away.slug}`} class="ff-semi-team">
+                <img src={`/managers/${sf.away.slug}.webp`} alt={sf.away.manager} class="ff-semi-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+                <span class="ff-semi-fb">{sf.away.emoji}</span>
+                <div class="ff-semi-info">
+                  <strong class="ff-semi-name">
+                    <img src={`/logos/${sf.away.slug}.svg`} alt="" class="ff-semi-badge" aria-hidden="true" onerror="this.style.display='none'" />
+                    {sf.away.name}
+                  </strong>
+                  <span class="text-muted">#{sf.away.pos} seed &middot; {sf.away.pts} pts &middot; {sf.away.manager}</span>
+                </div>
+              </a>
             </div>
-          </a>
-        ))}
-      </div>
-    </section>
-
-    <!-- SEMI-FINALS -->
-    <section class="ff-section">
-      <h2 style="margin-bottom: var(--space-xl);">Semi-Final Matchups</h2>
-      <div class="ff-semifinals-grid">
-        {[semi1, semi2].map((sf, i) => (
-          <div class="ff-semi card">
-            <div class="card-body">
-              <div class="ff-semi-label">Semi-Final {i + 1}</div>
-              <div class="ff-semi-matchup">
-                <a href={`/teams/${sf.home.slug}`} class="ff-semi-team">
-                  <img src={`/managers/${sf.home.slug}.webp`} alt={sf.home.manager} class="ff-semi-logo" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
-                  <span class="ff-semi-fallback">{sf.home.emoji}</span>
-                  <div>
-                    <strong class="ff-semi-team-name">
-                      <img src={`/logos/${sf.home.slug}.svg`} alt="" class="ff-badge-logo" aria-hidden="true" onerror="this.style.display='none'" />
-                      {sf.home.name}
-                    </strong>
-                    <span class="text-muted" style="font-size:0.8rem;">#{sf.home.pos} seed — {sf.home.pts} pts — {sf.home.manager}</span>
-                  </div>
-                </a>
-                <div class="ff-semi-vs">VS</div>
-                <a href={`/teams/${sf.away.slug}`} class="ff-semi-team">
-                  <img src={`/managers/${sf.away.slug}.webp`} alt={sf.away.manager} class="ff-semi-logo" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
-                  <span class="ff-semi-fallback">{sf.away.emoji}</span>
-                  <div>
-                    <strong class="ff-semi-team-name">
-                      <img src={`/logos/${sf.away.slug}.svg`} alt="" class="ff-badge-logo" aria-hidden="true" onerror="this.style.display='none'" />
-                      {sf.away.name}
-                    </strong>
-                    <span class="text-muted" style="font-size:0.8rem;">#{sf.away.pos} seed — {sf.away.pts} pts — {sf.away.manager}</span>
-                  </div>
-                </a>
-              </div>
-
-              <div style="margin-top: var(--space-lg);">
-                <h4 style="margin-bottom: var(--space-sm); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted);">Season 3 Head-to-Head</h4>
-                {sf.h2h.length > 0 ? (
-                  <div class="ff-h2h-list">
-                    {sf.h2h.map(m => (
-                      <a href={`/news/${sf.home.slug}-vs-${sf.away.slug}-gw${m.gw}`} class="ff-h2h-row">
-                        <span class="ff-h2h-gw">GW{m.gw}</span>
-                        <span class="ff-h2h-match">{m.home} {m.hs}–{m.as} {m.away}</span>
-                        <span class="ff-h2h-result">{m.hs > m.as ? `${m.home} won` : m.as > m.hs ? `${m.away} won` : 'Draw'}</span>
-                      </a>
-                    ))}
-                  </div>
-                ) : (
-                  <p class="text-muted" style="font-size:0.9rem;">No previous meetings this season.</p>
-                )}
-              </div>
-
-              <div style="margin-top: var(--space-lg);">
-                <a href={`/h2h?t1=${sf.home.slug}&t2=${sf.away.slug}`} class="btn btn-ghost btn-sm">Full H2H Comparison</a>
-              </div>
+            <div class="ff-h2h-block">
+              <h4>Season 3 Head-to-Head</h4>
+              {sf.h2h.length > 0 ? (<div class="ff-h2h-list">
+                {sf.h2h.map(m => (<a href={`/news/${sf.home.slug}-vs-${sf.away.slug}-gw${m.gw}`} class="ff-h2h-row">
+                  <span class="ff-h2h-gw">GW{m.gw}</span>
+                  <span class="ff-h2h-score">{m.home} {m.hs}–{m.as} {m.away}</span>
+                  <span class="ff-h2h-gc">{m.gc1} ({m.gc1g}) / {m.gc2} ({m.gc2g})</span>
+                  <span class="ff-h2h-outcome">{m.hs > m.as ? m.home + ' won' : m.as > m.hs ? m.away + ' won' : 'Draw'}</span>
+                </a>))}
+              </div>) : (<p class="text-muted">No previous meetings this season.</p>)}
+              <a href={`/h2h?t1=${sf.home.slug}&t2=${sf.away.slug}`} class="btn btn-ghost btn-sm" style="margin-top: 12px;">Full H2H Comparison</a>
             </div>
           </div>
-        ))}
+        </div>))}
       </div>
     </section>
 
-    <!-- PAST WINNERS -->
-    <section class="ff-section card">
-      <div class="card-body">
-        <h2>Past Final Four Champions</h2>
-        <div class="ff-past-grid">
-          <div class="ff-past-card">
-            <div class="ff-past-season">Season 1</div>
-            <div class="ff-past-winner">🏆 SDS FC</div>
-            <span class="text-muted" style="font-size:0.85rem;">Manager: Tobi Brown</span>
-            <span class="text-muted" style="font-size:0.8rem;">Beat MVPs United in Final at The O2</span>
-          </div>
-          <div class="ff-past-card">
-            <div class="ff-past-season">Season 2</div>
-            <div class="ff-past-winner">🏆 Wembley Rangers AFC</div>
-            <span class="text-muted" style="font-size:0.85rem;">Manager: Ian Wright</span>
-            <span class="text-muted" style="font-size:0.8rem;">Beat SDS FC in Final</span>
-          </div>
-          <div class="ff-past-card ff-past-current">
-            <div class="ff-past-season">Season 3</div>
-            <div class="ff-past-winner">❓ TBD</div>
-            <span class="text-muted" style="font-size:0.85rem;">25 May 2026 — The O2</span>
-            <span class="text-muted" style="font-size:0.8rem;">Who will be crowned champion?</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- WHERE TO WATCH -->
-    <section class="ff-section card">
-      <div class="card-body">
+    <section class="ff-block card">
+      <div class="card-body ff-watch-section">
         <h2>How to Watch</h2>
         <div class="ff-watch-grid">
-          <div class="ff-watch-card">
-            <strong>Sky Sports</strong>
-            <span class="text-muted">Live broadcast in the UK</span>
-          </div>
-          <div class="ff-watch-card">
-            <strong>YouTube</strong>
-            <a href="https://www.youtube.com/@BallerLeagueUK" target="_blank" rel="noopener noreferrer" class="text-muted">@BallerLeagueUK</a>
-          </div>
-          <div class="ff-watch-card">
-            <strong>Twitch</strong>
-            <a href="https://www.twitch.tv/ballerleagueuk" target="_blank" rel="noopener noreferrer" class="text-muted">ballerleagueuk</a>
-          </div>
-          <div class="ff-watch-card">
-            <strong>In Person</strong>
-            <a href="https://www.theo2.co.uk/events/detail/baller-league-uk-2026-final-four" target="_blank" rel="noopener noreferrer" class="text-muted">Get tickets →</a>
-          </div>
+          <div class="ff-watch-item"><strong>Sky Sports</strong><span>Live broadcast UK</span></div>
+          <div class="ff-watch-item"><strong>YouTube</strong><a href="https://youtube.com/@BallerLeagueUK" target="_blank" rel="noopener">@BallerLeagueUK</a></div>
+          <div class="ff-watch-item"><strong>Twitch</strong><a href="https://twitch.tv/ballerleagueuk" target="_blank" rel="noopener">ballerleagueuk</a></div>
+          <div class="ff-watch-item"><strong>In Person</strong><a href="https://www.theo2.co.uk/events/detail/baller-league-uk-2026-final-four" target="_blank" rel="noopener">Get tickets →</a></div>
         </div>
       </div>
     </section>
@@ -280,388 +205,186 @@ const schema = {
 </Base>
 
 <style>
-.ff-header {
+/* ── HERO ── */
+.ff-hero {
   background: linear-gradient(180deg, #1a0a2e 0%, var(--bg-primary) 100%);
-  padding-bottom: var(--space-2xl);
-  border-bottom: 2px solid rgba(124,77,255,0.3);
-}
-.ff-header .container {
+  padding: var(--space-2xl) 0;
+  border-bottom: 2px solid rgba(124,77,255,0.25);
   text-align: center;
 }
-.ff-header .section-subtitle {
-  margin-left: auto;
-  margin-right: auto;
+.ff-hero-badge {
+  display: inline-block;
+  font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em;
+  color: var(--purple-light); background: rgba(124,77,255,0.15);
+  padding: 4px 16px; border-radius: 999px; margin-bottom: var(--space-md);
+}
+.ff-hero-title {
+  font-size: 4rem; margin: 0 0 var(--space-sm); line-height: 1;
+}
+.ff-hero-subtitle {
+  font-size: 1.1rem; color: var(--text-secondary); max-width: 640px;
+  margin: 0 auto var(--space-xl);
 }
 
-.ff-page {
+/* ── BODY ── */
+.ff-body {
   padding: var(--space-2xl) 0 var(--space-3xl);
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-2xl);
+  display: flex; flex-direction: column; gap: var(--space-2xl);
   max-width: 1000px;
 }
+.ff-block h2 { margin-bottom: var(--space-md); }
 
-.ff-section h2 {
-  margin-bottom: var(--space-md);
+/* ── FORMAT ── */
+.ff-format-row {
+  display: flex; align-items: center; gap: var(--space-md); margin-top: var(--space-xl);
+  flex-wrap: wrap; justify-content: center;
 }
-
-/* Format cards */
-.ff-format-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: var(--space-md);
-  margin-top: var(--space-xl);
+.ff-format-step {
+  display: flex; flex-direction: column; align-items: center; gap: var(--space-xs);
+  padding: var(--space-md) var(--space-xl); background: var(--bg-elevated);
+  border: 1px solid var(--border); border-radius: var(--radius);
+  text-align: center; min-width: 140px;
 }
-
-.ff-format-card {
-  text-align: center;
-  padding: var(--space-lg);
-  background: var(--bg-elevated);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-sm);
-  align-items: center;
+.ff-step-num {
+  font-family: var(--font-display); font-size: 1.5rem; color: var(--purple-light);
 }
+.ff-format-final { border-color: rgba(124,77,255,0.3); }
+.ff-format-arrow { font-size: 1.5rem; color: var(--purple-light); font-weight: 700; }
 
-.ff-format-badge {
-  font-size: 0.7rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--purple-light);
-  background: var(--purple-glow);
-  padding: 4px 12px;
-  border-radius: var(--radius-sm);
+/* ── TEAM CARDS: flexbox wrap ── */
+.ff-cards {
+  display: flex; flex-wrap: wrap; gap: var(--space-lg);
 }
-
-.ff-format-teams {
-  font-size: 1.1rem;
-  color: var(--text-primary);
-}
-
-.ff-format-final {
-  border-color: rgba(124,77,255,0.3);
-  background: rgba(124,77,255,0.08);
-}
-
-/* Team cards */
-.ff-teams-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: var(--space-lg);
-  font-size: 0;
-}
-
 .ff-team-card {
-  font-size: 1rem;
+  flex: 1 1 calc(50% - var(--space-lg)); min-width: 340px;
+  border: 1px solid var(--border); border-radius: var(--radius-lg);
+  background: var(--bg-card); padding: var(--space-lg);
   transition: transform var(--transition), border-color var(--transition);
 }
-.ff-team-card:hover {
-  transform: translateY(-4px);
-  border-color: var(--purple-light);
-}
+.ff-team-card:hover { transform: translateY(-3px); border-color: var(--purple-light); }
 
-.ff-team-body {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-md);
+.ff-card-top {
+  display: flex; gap: var(--space-md); align-items: center; margin-bottom: var(--space-md);
 }
-
-.ff-team-header {
-  display: flex;
-  align-items: center;
-  gap: var(--space-md);
+.ff-card-img-wrap { width: 80px; height: 80px; flex-shrink: 0; position: relative; }
+.ff-card-img {
+  width: 80px; height: 80px; border-radius: var(--radius); object-fit: cover; border: 2px solid var(--border);
 }
-
-.ff-team-img {
-  width: 90px;
-  height: 90px;
-  border-radius: var(--radius);
-  object-fit: cover;
-  border: 2px solid var(--border);
-  flex-shrink: 0;
-}
-
-.ff-team-img-fallback {
-  display: none;
-  width: 90px;
-  height: 90px;
-  border-radius: var(--radius);
+.ff-card-fallback {
+  display: none; width: 80px; height: 80px; border-radius: var(--radius);
   background: linear-gradient(135deg, var(--bg-elevated), var(--bg-card));
-  border: 2px solid var(--border);
-  flex-shrink: 0;
-  align-items: center;
-  justify-content: center;
-  font-size: 2.5rem;
+  border: 2px solid var(--border); align-items: center; justify-content: center; font-size: 2rem;
 }
-
-.ff-pos-badge {
-  font-family: var(--font-display);
-  font-size: 1.1rem;
-  color: var(--purple-light);
-  margin-bottom: 2px;
+.ff-card-meta { flex: 1; min-width: 0; }
+.ff-pos {
+  font-family: var(--font-display); font-size: 2rem; color: var(--purple-light); line-height: 1;
 }
-
-.ff-team-name {
-  font-size: 1.5rem;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  gap: 6px;
+.ff-card-name {
+  font-size: 1.4rem; margin: 0; display: flex; align-items: center; gap: 6px;
 }
+.ff-card-badge { width: 22px; height: 22px; object-fit: contain; flex-shrink: 0; }
 
-.ff-badge-logo {
-  width: 22px;
-  height: 22px;
-  object-fit: contain;
-  flex-shrink: 0;
+.ff-card-stats {
+  display: flex; gap: var(--space-xs); flex-wrap: wrap; margin-bottom: var(--space-md);
 }
-
-.ff-team-stats {
-  display: flex;
-  gap: var(--space-sm);
-  flex-wrap: wrap;
-}
-
 .ff-stat {
-  text-align: center;
-  padding: 4px 10px;
-  background: var(--bg-elevated);
-  border-radius: var(--radius-sm);
-  min-width: 42px;
+  text-align: center; padding: 4px 10px; background: var(--bg-elevated);
+  border-radius: var(--radius-sm); min-width: 40px;
 }
-
-.ff-stat-val {
-  display: block;
-  font-family: var(--font-display);
-  font-size: 1rem;
-  color: var(--text-primary);
-  line-height: 1;
+.ff-stat-num {
+  display: block; font-family: var(--font-display); font-size: 0.95rem; color: var(--text-primary); line-height: 1.2;
 }
-
 .ff-stat-lbl {
-  display: block;
-  font-size: 0.5rem;
-  text-transform: uppercase;
-  color: var(--text-muted);
-  letter-spacing: 0.06em;
+  display: block; font-size: 0.45rem; text-transform: uppercase; color: var(--text-muted); letter-spacing: 0.06em;
 }
+.ff-stat-pts { background: rgba(124,77,255,0.12); }
+.ff-stat-pts .ff-stat-num { color: var(--purple-light); }
 
-.ff-stat-highlight {
-  background: var(--purple-glow);
-  border: 1px solid rgba(124,77,255,0.3);
+.ff-card-scorers {
+  display: flex; flex-wrap: wrap; gap: var(--space-sm); align-items: center;
+  padding-top: var(--space-sm); border-top: 1px solid var(--border-subtle);
 }
-.ff-stat-highlight .ff-stat-val {
-  color: var(--purple-light);
-}
+.ff-scorers-label { font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); }
+.ff-scorer { font-size: 0.8rem; color: var(--text-secondary); }
+.ff-scorer:hover { color: var(--green); }
+.ff-scorer strong { color: var(--green); font-family: var(--font-display); font-size: 0.85rem; }
 
-.ff-top-scorers {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-sm);
-  align-items: center;
-  padding-top: var(--space-sm);
-  border-top: 1px solid var(--border-subtle);
+/* ── FORM BADGES ── */
+:global(.form-badge) {
+  display: inline-block; width: 18px; height: 18px; font-size: 0.55rem; font-weight: 800;
+  line-height: 18px; text-align: center; border-radius: 3px;
 }
+:global(.form-badge.form-win) { background: rgba(0,230,118,0.15); color: var(--green); }
+:global(.form-badge.form-draw) { background: rgba(245,158,11,0.12); color: var(--gold); }
+:global(.form-badge.form-loss) { background: rgba(255,107,53,0.12); color: var(--orange); }
 
-.ff-scorers-label {
-  font-size: 0.65rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--text-muted);
-  margin-right: var(--space-xs);
+/* ── SEMI-FINALS ── */
+.ff-semifinals { display: flex; flex-direction: column; gap: var(--space-lg); }
+.ff-semi-header {
+  font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em;
+  color: var(--purple-light); margin-bottom: var(--space-md);
 }
-
-.ff-scorer-link {
-  font-size: 0.8rem;
-  color: var(--text-secondary);
-  transition: color var(--transition);
+.ff-semi-row {
+  display: flex; align-items: center; gap: var(--space-md);
 }
-.ff-scorer-link:hover { color: var(--green); }
-.ff-scorer-goals {
-  color: var(--green);
-  font-weight: 700;
-  font-family: var(--font-display);
-  font-size: 0.85rem;
-}
-
-/* Semi-finals */
-.ff-semifinals-grid {
-  display: grid;
-  gap: var(--space-xl);
-}
-
-.ff-semi-label {
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--purple-light);
-  margin-bottom: var(--space-md);
-}
-
-.ff-semi-matchup {
-  display: flex;
-  align-items: center;
-  gap: var(--space-lg);
-}
-
 .ff-semi-team {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  gap: var(--space-sm);
-  padding: var(--space-md);
-  background: var(--bg-elevated);
-  border-radius: var(--radius);
+  flex: 1; display: flex; align-items: center; gap: var(--space-sm);
+  padding: var(--space-md); background: var(--bg-elevated); border-radius: var(--radius); min-width: 0;
   transition: background var(--transition);
 }
-.ff-semi-team:hover {
-  background: var(--bg-card-hover);
+.ff-semi-team:hover { background: var(--bg-card-hover); }
+.ff-semi-img {
+  width: 52px; height: 52px; border-radius: var(--radius-sm); object-fit: cover; flex-shrink: 0;
+  border: 2px solid var(--border);
 }
-
-.ff-semi-logo {
-  width: 48px;
-  height: 48px;
-  object-fit: cover;
-  border-radius: var(--radius-sm);
-  flex-shrink: 0;
+.ff-semi-fb {
+  display: none; width: 52px; height: 52px; border-radius: var(--radius-sm);
+  background: var(--bg-elevated); border: 2px solid var(--border); flex-shrink: 0;
+  align-items: center; justify-content: center; font-size: 1.4rem;
 }
-
-.ff-semi-fallback {
-  display: none;
-  width: 48px;
-  height: 48px;
-  border-radius: var(--radius-sm);
-  background: var(--bg-elevated);
-  border: 1px solid var(--border);
-  flex-shrink: 0;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.5rem;
+.ff-semi-info { min-width: 0; }
+.ff-semi-name {
+  display: flex; align-items: center; gap: 6px; font-size: 1.05rem;
 }
-
-.ff-semi-team-name {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 1.1rem;
-}
-
+.ff-semi-badge { width: 20px; height: 20px; object-fit: contain; flex-shrink: 0; }
 .ff-semi-vs {
-  font-family: var(--font-display);
-  font-size: 1.5rem;
-  color: var(--purple-light);
-  flex-shrink: 0;
+  font-family: var(--font-display); font-size: 1.4rem; color: var(--purple-light); flex-shrink: 0;
 }
 
-.ff-h2h-list {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-xs);
+.ff-h2h-block { margin-top: var(--space-lg); }
+.ff-h2h-block h4 {
+  font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em;
+  color: var(--text-muted); margin-bottom: var(--space-sm);
 }
-
+.ff-h2h-list { display: flex; flex-direction: column; gap: var(--space-xs); }
 .ff-h2h-row {
-  display: flex;
-  align-items: center;
-  gap: var(--space-md);
-  padding: var(--space-sm) var(--space-md);
-  background: var(--bg-elevated);
-  border-radius: var(--radius-sm);
+  display: flex; align-items: center; gap: var(--space-md); padding: var(--space-sm) var(--space-md);
+  background: var(--bg-elevated); border-radius: var(--radius-sm); flex-wrap: wrap;
   transition: background var(--transition);
 }
-.ff-h2h-row:hover {
-  background: var(--bg-card-hover);
-}
+.ff-h2h-row:hover { background: var(--bg-card-hover); }
+.ff-h2h-gw { font-size: 0.65rem; font-weight: 700; color: var(--text-muted); min-width: 30px; }
+.ff-h2h-score { flex: 1; font-size: 0.88rem; font-weight: 600; color: var(--text-primary); min-width: 160px; }
+.ff-h2h-gc { font-size: 0.7rem; color: var(--text-muted); }
+.ff-h2h-outcome { font-size: 0.75rem; color: var(--text-muted); }
 
-.ff-h2h-gw {
-  font-size: 0.7rem;
-  font-weight: 700;
-  color: var(--text-muted);
-  min-width: 36px;
+/* ── WATCH ── */
+.ff-watch-section { }
+.ff-watch-grid { display: flex; flex-wrap: wrap; gap: var(--space-md); margin-top: var(--space-lg); }
+.ff-watch-item {
+  flex: 1 1 150px; display: flex; flex-direction: column; gap: 4px;
+  padding: var(--space-md); background: var(--bg-elevated); border: 1px solid var(--border);
+  border-radius: var(--radius); text-align: center;
 }
-
-.ff-h2h-match {
-  flex: 1;
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: var(--text-primary);
-}
-
-.ff-h2h-result {
-  font-size: 0.78rem;
-  color: var(--text-muted);
-}
-
-/* Past winners */
-.ff-past-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: var(--space-md);
-  margin-top: var(--space-lg);
-}
-
-.ff-past-card {
-  padding: var(--space-lg);
-  background: var(--bg-elevated);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-xs);
-  align-items: center;
-  text-align: center;
-}
-
-.ff-past-season {
-  font-size: 0.7rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--text-muted);
-}
-
-.ff-past-winner {
-  font-family: var(--font-display);
-  font-size: 1.5rem;
-  color: var(--gold);
-}
-
-.ff-past-current {
-  border-color: rgba(124,77,255,0.3);
-  background: rgba(124,77,255,0.08);
-}
-
-/* Watch */
-.ff-watch-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: var(--space-md);
-  margin-top: var(--space-lg);
-}
-
-.ff-watch-card {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  padding: var(--space-md);
-  background: var(--bg-elevated);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  text-align: center;
-}
-
-.ff-watch-card a { color: var(--purple-light); transition: color var(--transition); }
-.ff-watch-card a:hover { color: var(--green); }
+.ff-watch-item a { font-size: 0.85rem; color: var(--purple-light); }
+.ff-watch-item a:hover { color: var(--green); }
+.ff-watch-item strong { font-size: 0.95rem; }
+.ff-watch-item span { font-size: 0.8rem; color: var(--text-muted); }
 
 @media (max-width: 768px) {
-  .ff-format-grid { grid-template-columns: 1fr; }
-  .ff-teams-grid { grid-template-columns: 1fr; }
-  .ff-semi-matchup { flex-direction: column; }
-  .ff-semi-vs { padding: var(--space-sm); }
-  .ff-past-grid { grid-template-columns: 1fr; }
-  .ff-watch-grid { grid-template-columns: repeat(2, 1fr); }
+  .ff-hero-title { font-size: 2.5rem; }
+  .ff-team-card { flex: 1 1 100%; min-width: 0; }
+  .ff-semi-row { flex-direction: column; }
+  .ff-semi-vs { padding: var(--space-xs); }
 }
 </style>
