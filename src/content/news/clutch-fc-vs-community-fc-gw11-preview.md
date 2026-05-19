@@ -1,6 +1,6 @@
 ---
 title: "Gameweek 11 Preview: Clutch FC vs Community FC"
-date: 2026-05-17
+date: 2026-05-19
 category: "Preview"
 excerpt: "Clutch FC (9th) host Community FC (11th) in Gameweek 11. Alfie Matthews (12 goals) leads Clutch FC."
 author: "Baller League UK Fan Site"
@@ -14,13 +14,13 @@ Clutch FC come into this fixture above Community FC in the standings and will lo
 
 ## Form Guide
 
-**Clutch FC**: L - L - L - W - W (last 5 matches)
-**Community FC**: D - L - D - L - L (last 5 matches)
+**Clutch FC**: L - W - L - L - W (last 5 matches)
+**Community FC**: L - D - L - D - L (last 5 matches)
 
 ## Head-to-Head
 
-These sides have yet to meet in Baller League competition — this will be their first encounter!
-
+These sides have met 1 time before. Clutch FC have won 0, Community FC have won 1, with 0 draws.
+The last meeting saw Clutch FC defeat Community FC 8-6.
 
 ## Key Players
 
@@ -29,8 +29,8 @@ These sides have yet to meet in Baller League competition — this will be their
 
 ## Game Changer X-Factor
 
-Clutch FC average **3.5** goals per match during Game Changer periods (63 total).
-Community FC average **3.3** GC goals per match (33 total).
+Clutch FC average **3.8** goals per match during Game Changer periods (72 total).
+Community FC average **3.8** GC goals per match (42 total).
 
 ## Prediction
 

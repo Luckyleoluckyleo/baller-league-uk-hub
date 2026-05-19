@@ -1,6 +1,6 @@
 ---
-title: "SDS FC Narrowly Beat N5 FC 2-1 in GW2 Nail-biter"
-date: 2026-05-12
+title: "SDS FC Edge N5 FC 2-1 in GW2 Thriller"
+date: 2026-05-19
 category: "Match Report"
 excerpt: "SDS FC 2-1 N5 FC — Gameweek 2 match report. Connor Wood (6 goals) leads SDS FC's attack. Game Changers: 3Play (2) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -22,11 +22,11 @@ SDS FC came in occupying a coveted playoff spot at 2nd, while N5 FC were despera
 
 ### First Half
 
-The tactical landscape shifted dramatically at 12 minutes as the **3Play** Game Changer took hold — a **2-goal** window that gave the half an electric pulse. The sides went in with SDS FC just in front, a narrow advantage that kept everything delicately poised.
+The first half sprang into life at the 12-minute mark with the **3Play** Game Changer flicking the switch — a **2-goal** window that gave the half an electric pulse. The sides went in with SDS FC just in front, a narrow advantage that kept everything delicately poised.
 
 ### Second Half
 
-After the restart, the **Fairplay** Game Changer detonated at the 27th minute, turning the dial up to eleven — yet both sides held their nerve superbly through the rule change, refusing to blink. It was edge-of-your-seat stuff in the closing minutes. N5 FC pressed and probed, but SDS FC's back-line stood firm — resilient, organised, and ultimately heroic.
+The 27th minute brought the **Fairplay** Game Changer thundering into the match — a moment that would prove pivotal — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. It was edge-of-your-seat stuff in the closing minutes. N5 FC pressed and probed, but SDS FC's back-line stood firm — resilient, organised, and ultimately heroic.
 
 ---
 
@@ -34,9 +34,9 @@ After the restart, the **Fairplay** Game Changer detonated at the 27th minute, t
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **0′** — **Connor Wood** (SDS FC) drew first blood
-- **12′** — **Michael Hill** (N5 FC) slotted
-- **13′** — **Selim Saied** (SDS FC) fired home
+- **0′** — **Connor Wood** (SDS FC) opened the scoring
+- **12′** — **Michael Hill** (N5 FC) fired home
+- **13′** — **Selim Saied** (SDS FC) netted
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -161,10 +161,10 @@ SDS FC stayed at **2nd**, n5 fc dropped to **10th**.
 ## What's Next
 
 ### SDS FC
-Next up: **Yanited** in Gameweek 10. 
+Next up: **Rukkas FC** in Gameweek 11. 
 
 ### N5 FC
-Next up: **VZN FC** in Gameweek 10. 
+Next up: **Deportrio** in Gameweek 11. 
 
 
 

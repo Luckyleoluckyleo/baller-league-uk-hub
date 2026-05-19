@@ -1,6 +1,6 @@
 ---
-title: "Deportrio Claim 5-2 Win Over Wembley Rangers AFC in GW4"
-date: 2026-05-12
+title: "Deportrio Down Wembley Rangers AFC 5-2 in Hard-Fought GW4 Battle"
+date: 2026-05-19
 category: "Match Report"
 excerpt: "Deportrio 5-2 Wembley Rangers AFC — Gameweek 4 match report. Jay Emmanuel-Thomas (18 goals) leads Deportrio's attack. Game Changers: Plus One (2) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Deportrio 5-2 Wembley Rangers AFC
 
-Baller Arena buzzed with anticipation as **Deportrio** and **Wembley Rangers AFC** delivered a compelling advert for Baller League football — competitive, dramatic, and hard-fought.
+The crowd at Baller Arena were treated to a spectacle as **Deportrio** faced **Wembley Rangers AFC** in a compelling advert for Baller League football — competitive, dramatic, and hard-fought.
 
 When the dust settled, it was **Deportrio** who emerged **5-2** victors. The Game Changer window — **Plus One** and **The Line** — proved pivotal, contributing **3** of the match's **7** goals.
 
@@ -22,11 +22,11 @@ When the dust settled, it was **Deportrio** who emerged **5-2** victors. The Gam
 
 ### First Half
 
-The tactical landscape shifted dramatically at 12 minutes as the **Plus One** Game Changer took hold — a **2-goal** window that gave the half an electric pulse. Deportrio held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
+The first half sprang into life at the 12-minute mark with the **Plus One** Game Changer flicking the switch — a **2-goal** window that gave the half an electric pulse. Deportrio controlled the tempo and carried a deserved lead into the interval, their composure and cutting edge proving the difference.
 
 ### Second Half
 
-The tension was palpable at the restart, and the **The Line** Game Changer at 27 minutes only dialled it up — and it delivered **1** goal at just the right moment to breathe fresh life into the match. The scoreboard didn't flatter Deportrio — they were simply better in every department, and Wembley Rangers AFC had no complaints.
+After the restart, the **The Line** Game Changer detonated at the 27th minute, turning the dial up to eleven — and it delivered **1** goal at just the right moment to breathe fresh life into the match. The scoreboard didn't flatter Deportrio — they were simply better in every department, and Wembley Rangers AFC had no complaints.
 
 ---
 
@@ -35,12 +35,12 @@ The tension was palpable at the restart, and the **The Line** Game Changer at 27
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **5′** — **Arjun Jung** (Wembley Rangers AFC) opened the scoring
-- **10′** — **Josh Harrop** (Deportrio) converted
+- **10′** — **Josh Harrop** (Deportrio) found the target
 - **12′** — **Sahid Kamara** (Deportrio) struck
-- **12′** — **Chiekh Thiam** (Wembley Rangers AFC) struck
-- **20′** — **J&#039;ardell Stirling** (Deportrio) struck
-- **20′** — **Bakary Sako** fired home
-- **27′** — **Jay Emmanuel-Thomas** (Deportrio) found the target
+- **12′** — **Chiekh Thiam** (Wembley Rangers AFC) netted
+- **20′** — **J&#039;ardell Stirling** (Deportrio) converted
+- **20′** — **Bakary Sako** struck
+- **27′** — **Jay Emmanuel-Thomas** (Deportrio) converted
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -185,10 +185,10 @@ Deportrio climbed to **6th**, wembley rangers afc dropped to **9th**.
 ## What's Next
 
 ### Deportrio
-Next up: **Rukkas FC** in Gameweek 10. 
+Next up: **N5 FC** in Gameweek 11. 
 
 ### Wembley Rangers AFC
-Next up: **Clutch FC** in Gameweek 10. 
+Next up: **Gold Devils FC** in Gameweek 11. 
 
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Gold Devils FC Claim 3-1 Win Over VZN FC in GW2"
-date: 2026-05-12
+title: "Gold Devils FC See Off VZN FC 3-1 in Gameweek 2"
+date: 2026-05-19
 category: "Match Report"
 excerpt: "Gold Devils FC 3-1 VZN FC — Gameweek 2 match report. Bilal Sayoud (8 goals) leads Gold Devils FC's attack. Game Changers: Onside (1) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Gold Devils FC 3-1 VZN FC
 
-All roads led to Baller Arena for Gameweek 2, where **Gold Devils FC** and **VZN FC** produced a compelling advert for Baller League football — competitive, dramatic, and hard-fought.
+The lights were bright at Baller Arena on Gameweek 2, where **Gold Devils FC** and **VZN FC** served up a match that ebbed and flowed, keeping everyone guessing until the final whistle.
 
 When the dust settled, it was **Gold Devils FC** who emerged **3-1** victors. The Game Changer window — **Onside** and **The Line** — proved pivotal, contributing **1** of the match's **4** goals.
 
@@ -22,11 +22,11 @@ When the dust settled, it was **Gold Devils FC** who emerged **3-1** victors. Th
 
 ### First Half
 
-The tactical landscape shifted dramatically at 12 minutes as the **Onside** Game Changer took hold — the period yielded **1** goal, just enough to set the contest alight. Gold Devils FC held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
+The game's complexion changed at the 12th minute when the **Onside** Game Changer activated — the period yielded **1** goal, just enough to set the contest alight. Gold Devils FC held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
 
 ### Second Half
 
-After the restart, the **The Line** Game Changer detonated at the 27th minute, turning the dial up to eleven — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. It was edge-of-your-seat stuff in the closing minutes. VZN FC pressed and probed, but Gold Devils FC's back-line stood firm — resilient, organised, and ultimately heroic.
+After the restart, the **The Line** Game Changer detonated at the 27th minute, turning the dial up to eleven — yet both sides held their nerve superbly through the rule change, refusing to blink. The final exchanges were fraught with tension. VZN FC threw everything forward in search of a route back, but Gold Devils FC held their nerve, defending with grit and intelligence to protect what they had.
 
 ---
 
@@ -34,9 +34,9 @@ After the restart, the **The Line** Game Changer detonated at the 27th minute, t
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **4′** — **Bilal Sayoud** (Gold Devils FC) broke the deadlock
-- **12′** — **Joshua Parker** (VZN FC) struck
-- **24′** — **Marvel Ekpiteta** (Gold Devils FC) netted
+- **4′** — **Bilal Sayoud** (Gold Devils FC) opened the scoring
+- **12′** — **Joshua Parker** (VZN FC) found the target
+- **24′** — **Marvel Ekpiteta** (Gold Devils FC) fired home
 - **26′** — **Bilal Sayoud** (Gold Devils FC) slotted
 
 | Minute | Player | Team |
@@ -127,12 +127,12 @@ This was the **maiden competitive meeting** between Gold Devils FC and VZN FC �
 
 ## Table Impact
 
-Gold Devils FC climbed to **8th**, vzn fc climbed to **7th**.
+Gold Devils FC climbed to **6th**, vzn fc climbed to **8th**.
 
 | Team | Before GW2 | After GW2 |
 |------|-------------|-------------|
-| Gold Devils FC | 10th | 8th |
-| VZN FC | 8th | 7th |
+| Gold Devils FC | 8th | 6th |
+| VZN FC | 9th | 8th |
 
 
 ---
@@ -157,10 +157,10 @@ Gold Devils FC climbed to **8th**, vzn fc climbed to **7th**.
 ## What's Next
 
 ### Gold Devils FC
-Next up: **NDL FC** in Gameweek 10. 
+Next up: **Wembley Rangers AFC** in Gameweek 11. 
 
 ### VZN FC
-Next up: **N5 FC** in Gameweek 10. 
+Next up: **Prime FC** in Gameweek 11. 
 
 
 

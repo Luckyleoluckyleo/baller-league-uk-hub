@@ -1,6 +1,6 @@
 ---
 title: "Clutch FC Beat Deportrio 1-4 in Entertaining GW2 Clash"
-date: 2026-05-12
+date: 2026-05-19
 category: "Match Report"
 excerpt: "Deportrio 1-4 Clutch FC — Gameweek 2 match report. Jay Emmanuel-Thomas (18 goals) leads Deportrio's attack. Game Changers: 3Play (0) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Deportrio 1-4 Clutch FC
 
-The lights were bright at Baller Arena on Gameweek 2, where **Deportrio** and **Clutch FC** served up a match that ebbed and flowed, keeping everyone guessing until the final whistle.
+A pivotal Gameweek 2 encounter saw **Deportrio** go head-to-head with **Clutch FC** in a match that ebbed and flowed, keeping everyone guessing until the final whistle.
 
 When the dust settled, it was **Clutch FC** who emerged **1-4** victors. The Game Changer window — **3Play** and **1-on-1** — proved pivotal, contributing **3** of the match's **5** goals.
 
@@ -22,11 +22,11 @@ When the dust settled, it was **Clutch FC** who emerged **1-4** victors. The Gam
 
 ### First Half
 
-Barely a dozen minutes had passed when **3Play** transformed the match into something altogether different — but the goalkeepers and back-lines rose to the occasion, keeping the scoreboard operator idle throughout the activation. Clutch FC controlled the tempo and carried a deserved lead into the interval, their composure and cutting edge proving the difference.
+At the 12th minute, the **3Play** Game Changer roared into action — but the goalkeepers and back-lines rose to the occasion, keeping the scoreboard operator idle throughout the activation. Clutch FC controlled the tempo and carried a deserved lead into the interval, their composure and cutting edge proving the difference.
 
 ### Second Half
 
-After the restart, the **1-on-1** Game Changer detonated at the 27th minute, turning the dial up to eleven — once again the goals rained down, **3** of them, raw and relentless. Clutch FC managed the occasion expertly, balancing attacking ambition with game-control to see out a thoroughly deserved victory.
+The second half resumed with all to play for, and at the 27-minute mark the **1-on-1** Game Changer cranked up the intensity once more — and the mayhem resumed. **3** more goals erupted during the window, transforming the contest into a full-blown classic. The scoreboard didn't flatter Clutch FC — they were simply better in every department, and Deportrio had no complaints.
 
 ---
 
@@ -34,11 +34,11 @@ After the restart, the **1-on-1** Game Changer detonated at the 27th minute, tur
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **7′** — **Keir Dickson** (Clutch FC) broke the deadlock
-- **7′** — **Martyn Waghorn** fired home
-- **27′** — **Aaron Steavens** slotted
-- **27′** — **Alfie Matthews** (Clutch FC) slotted
-- **29′** — **Aaron Steavens** fired home
+- **7′** — **Keir Dickson** (Clutch FC) drew first blood
+- **7′** — **Martyn Waghorn** scored
+- **27′** — **Aaron Steavens** struck
+- **27′** — **Alfie Matthews** (Clutch FC) found the target
+- **29′** — **Aaron Steavens** scored
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -132,7 +132,7 @@ Deportrio dropped to **9th**, clutch fc climbed to **4th**.
 | Team | Before GW2 | After GW2 |
 |------|-------------|-------------|
 | Deportrio | 5th | 9th |
-| Clutch FC | 9th | 4th |
+| Clutch FC | 10th | 4th |
 
 
 ---
@@ -159,10 +159,10 @@ Deportrio dropped to **9th**, clutch fc climbed to **4th**.
 ## What's Next
 
 ### Deportrio
-Next up: **Rukkas FC** in Gameweek 10. 
+Next up: **N5 FC** in Gameweek 11. 
 
 ### Clutch FC
-Next up: **Wembley Rangers AFC** in Gameweek 10. 
+Next up: **Community FC** in Gameweek 11. 
 
 
 

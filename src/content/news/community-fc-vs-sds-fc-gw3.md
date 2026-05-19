@@ -1,6 +1,6 @@
 ---
-title: "SDS FC Brush Community FC Aside 3-7 in Confident Showing — GW3"
-date: 2026-05-12
+title: "SDS FC Too Strong for Community FC in 3-7 Victory — GW3"
+date: 2026-05-19
 category: "Match Report"
 excerpt: "Community FC 3-7 SDS FC — Gameweek 3 match report. Alex Byrne (9 goals) leads Community FC's attack. Game Changers: Onside (0) & 1-on-1 (5). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: true
 
 ## Match Summary — Community FC 3-7 SDS FC
 
-Baller Arena played host to an absorbing Gameweek 3 clash as **Community FC** locked horns with **SDS FC** in what would prove to be a pulsating encounter that had fans on the edge of their seats from the first whistle to the last.
+Baller Arena buzzed with anticipation as **Community FC** and **SDS FC** delivered a rollercoaster of emotions that had everything you could want from a Baller League match.
 
-SDS FC came in occupying a coveted playoff spot at 2nd, while Community FC were desperate to crash the party. When the dust settled, it was **SDS FC** who emerged **3-7** victors. The Game Changer window — **Onside** and **1-on-1** — proved pivotal, contributing **5** of the match's **10** goals.
+SDS FC, sitting pretty in the Final Four places at 2nd, knew a win here would tighten their grip. When the dust settled, it was **SDS FC** who emerged **3-7** victors. The Game Changer window — **Onside** and **1-on-1** — proved pivotal, contributing **5** of the match's **10** goals.
 
 **Community FC form (before GW3):** ❌ ❌ (L-L)  
 **SDS FC form (before GW3):** 🤝 ✅ 🤝 ✅ (D-W-D-W)
@@ -22,11 +22,11 @@ SDS FC came in occupying a coveted playoff spot at 2nd, while Community FC were 
 
 ### First Half
 
-The tactical landscape shifted dramatically at 12 minutes as the **Onside** Game Changer took hold — but remarkably, neither side could find the net. A tactical stalemate that owed as much to disciplined defending as to the specific rule change. SDS FC were absolutely rampant, carving Community FC open at will. By the break, they had built an intimidating lead that felt insurmountable.
+The tactical landscape shifted dramatically at 12 minutes as the **Onside** Game Changer took hold — but remarkably, neither side could find the net. A tactical stalemate that owed as much to disciplined defending as to the specific rule change. SDS FC simply blew Community FC away in a devastating opening period, sending a powerful message to everyone watching.
 
 ### Second Half
 
-If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **1-on-1** entered the fray — once again the goals rained down, **5** of them, raw and relentless. SDS FC managed the occasion expertly, balancing attacking ambition with game-control to see out a thoroughly deserved victory. The **10-goal** spectacle was the kind of match that Baller League was built for — pure, unfiltered entertainment.
+After the restart, the **1-on-1** Game Changer detonated at the 27th minute, turning the dial up to eleven — and the mayhem resumed. **5** more goals erupted during the window, transforming the contest into a full-blown classic. The scoreboard didn't flatter SDS FC — they were simply better in every department, and Community FC had no complaints. The **10-goal** spectacle was the kind of match that Baller League was built for — pure, unfiltered entertainment.
 
 ---
 
@@ -35,14 +35,14 @@ If the first half was intriguing, the second was about to become unmissable. At 
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **5′** — **Camilo Restrepo** (SDS FC) drew first blood
-- **8′** — **Connor Wood** (SDS FC) netted
-- **20′** — **Selim Saied** (SDS FC) struck
-- **20′** — **Kazaiah Sterling** (SDS FC) fired home
+- **8′** — **Connor Wood** (SDS FC) slotted
+- **20′** — **Selim Saied** (SDS FC) found the target
+- **20′** — **Kazaiah Sterling** (SDS FC) found the target
 - **24′** — **Kazaiah Sterling** (SDS FC) converted
-- **27′** — **Alex Byrne** (Community FC) scored
+- **27′** — **Alex Byrne** (Community FC) netted
 - **28′** — **Joshua Abbott** (SDS FC) converted
-- **28′** — **Alex Byrne** (Community FC) scored
-- **29′** — **Danny Bassett** (SDS FC) netted
+- **28′** — **Alex Byrne** (Community FC) found the target
+- **29′** — **Danny Bassett** (SDS FC) found the target
 - **29′** — **Alex Byrne** (Community FC) slotted
 
 | Minute | Player | Team |
@@ -182,10 +182,10 @@ Community FC stayed at **12th**, sds fc stayed at **2nd**.
 ## What's Next
 
 ### Community FC
-Next up: **Prime FC** in Gameweek 10. 
+Next up: **Clutch FC** in Gameweek 11. 
 
 ### SDS FC
-Next up: **Yanited** in Gameweek 10. 
+Next up: **Rukkas FC** in Gameweek 11. 
 
 
 

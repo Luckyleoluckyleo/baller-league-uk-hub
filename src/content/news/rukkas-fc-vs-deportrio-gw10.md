@@ -1,6 +1,6 @@
 ---
-title: "Rukkas FC and Deportrio Play Out 2-2 Draw in Gameweek 10"
-date: 2026-05-12
+title: "Rukkas FC and Deportrio Finish 2-2 in Hard-Fought GW10 Draw"
+date: 2026-05-19
 category: "Match Report"
 excerpt: "Rukkas FC 2-2 Deportrio — Gameweek 10 match report. Mussa Bham (8 goals) leads Rukkas FC's attack. Game Changers: Onside (0) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Rukkas FC 2-2 Deportrio
 
-Baller Arena played host to an absorbing Gameweek 10 clash as **Rukkas FC** locked horns with **Deportrio** in what would prove to be a match that ebbed and flowed, keeping everyone guessing until the final whistle.
+Tensions were high at Baller Arena as **Rukkas FC** squared off against **Deportrio** in a match that ebbed and flowed, keeping everyone guessing until the final whistle.
 
 Deportrio, sitting pretty in the Final Four places at 2nd, knew a win here would tighten their grip. The final whistle confirmed a **2-2 draw**, a result that felt about right in a match where both sides gave everything. In a rarity for Baller League, neither Game Changer activation managed to breach either defence.
 
@@ -22,11 +22,11 @@ Deportrio, sitting pretty in the Final Four places at 2nd, knew a win here would
 
 ### First Half
 
-The first half sprang into life at the 12-minute mark with the **Onside** Game Changer flicking the switch — yet for all the altered rules, the defences stood tall and the deadlock remained stubbornly intact. Half-time arrived with honours even, both managers undoubtedly pleased with elements of their side's performance.
+Twelve minutes in and the **Onside** Game Changer came alive, reshaping the contest entirely — yet for all the altered rules, the defences stood tall and the deadlock remained stubbornly intact. By the interval it was impossible to call a winner. The contest was beautifully balanced, with everything still to play for.
 
 ### Second Half
 
-If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **The Line** entered the fray — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. Late drama threatened but never materialised, both teams having to accept a point apiece in what felt like a war of attrition.
+After the restart, the **The Line** Game Changer detonated at the 27th minute, turning the dial up to eleven — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. Late drama threatened but never materialised, both teams having to accept a point apiece in what felt like a war of attrition.
 
 ---
 
@@ -37,7 +37,7 @@ The goals arrived in a dramatic sequence that told the story of the match:
 - **0′** — **Amine Sassi** (Deportrio) broke the deadlock
 - **5′** — **Mussa Bham** (Rukkas FC) found the target
 - **22′** — **Toby Aromolaran** struck
-- **26′** — **J&#039;ardell Stirling** (Deportrio) struck
+- **26′** — **J&#039;ardell Stirling** (Deportrio) converted
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -177,10 +177,10 @@ Rukkas FC climbed to **10th**, deportrio stayed at **2nd**.
 ## What's Next
 
 ### Rukkas FC
-Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
+Next up: **SDS FC** in Gameweek 11. 
 
 ### Deportrio
-Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
+Next up: **N5 FC** in Gameweek 11. 
 
 
 

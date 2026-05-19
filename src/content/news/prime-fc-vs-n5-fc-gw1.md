@@ -1,6 +1,6 @@
 ---
 title: "Prime FC Overpower N5 FC 7-3 in Dominant Display — GW1"
-date: 2026-05-12
+date: 2026-05-19
 category: "Match Report"
 excerpt: "Prime FC 7-3 N5 FC — Gameweek 1 match report. Francis Gerard Mampolo (17 goals) leads Prime FC's attack. Game Changers: 3Play (1) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: true
 
 ## Match Summary — Prime FC 7-3 N5 FC
 
-Tensions were high at Baller Arena as **Prime FC** squared off against **N5 FC** in a rollercoaster of emotions that had everything you could want from a Baller League match.
+Baller Arena buzzed with anticipation as **Prime FC** and **N5 FC** delivered an unforgettable thriller packed with drama and goals.
 
 When the dust settled, it was **Prime FC** who emerged **7-3** victors. The Game Changer window — **3Play** and **The Line** — proved pivotal, contributing **2** of the match's **10** goals.
 
@@ -21,7 +21,7 @@ When the dust settled, it was **Prime FC** who emerged **7-3** victors. The Game
 
 ### First Half
 
-Barely a dozen minutes had passed when **3Play** transformed the match into something altogether different — the period yielded **1** goal, just enough to set the contest alight. Prime FC were absolutely rampant, carving N5 FC open at will. By the break, they had built an intimidating lead that felt insurmountable.
+Twelve minutes in and the **3Play** Game Changer came alive, reshaping the contest entirely — a **1-goal** window that gave the half an electric pulse. Prime FC were absolutely rampant, carving N5 FC open at will. By the break, they had built an intimidating lead that felt insurmountable.
 
 ### Second Half
 
@@ -34,15 +34,15 @@ The 27th minute brought the **The Line** Game Changer thundering into the match 
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **11′** — **Sak Hassan** (Prime FC) broke the deadlock
-- **13′** — **Ryan Tunnicliffe** (N5 FC) found the target
+- **13′** — **Ryan Tunnicliffe** (N5 FC) struck
 - **16′** — **Finlay Chadwick** struck
-- **17′** — **Bráulio Valera Pinto Maieco** (Prime FC) scored
-- **18′** — **Francis Gerard Mampolo** (Prime FC) found the target
-- **20′** — **Francis Gerard Mampolo** (Prime FC) struck
-- **21′** — **Stefan Ilic** (Prime FC) netted
-- **23′** — **Timmy Abraham** (Prime FC) fired home
-- **23′** — **Finlay Chadwick** scored
-- **28′** — **Francis Gerard Mampolo** (Prime FC) found the target
+- **17′** — **Bráulio Valera Pinto Maieco** (Prime FC) converted
+- **18′** — **Francis Gerard Mampolo** (Prime FC) converted
+- **20′** — **Francis Gerard Mampolo** (Prime FC) slotted
+- **21′** — **Stefan Ilic** (Prime FC) scored
+- **23′** — **Timmy Abraham** (Prime FC) struck
+- **23′** — **Finlay Chadwick** found the target
+- **28′** — **Francis Gerard Mampolo** (Prime FC) scored
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -79,7 +79,7 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 ### Prime FC
 
-The standout for Prime FC was undoubtedly **Francis Gerard Mampolo**, whose **3-goal** haul was the foundation of everything good about their display.
+**Francis Gerard Mampolo** was Prime FC's standout performer, bagging **3 goals** in a display of clinical finishing that powered his side's effort.
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
@@ -180,10 +180,10 @@ Prime FC held steady, n5 fc held steady.
 ## What's Next
 
 ### Prime FC
-Next up: **Community FC** in Gameweek 10. 
+Next up: **VZN FC** in Gameweek 11. 
 
 ### N5 FC
-Next up: **VZN FC** in Gameweek 10. 
+Next up: **Deportrio** in Gameweek 11. 
 
 
 

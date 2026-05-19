@@ -1,6 +1,6 @@
 ---
-title: "Prime FC and SDS FC Play Out 2-2 Draw in Gameweek 5"
-date: 2026-05-12
+title: "Prime FC and SDS FC Deadlocked at 2-2 in GW5"
+date: 2026-05-19
 category: "Match Report"
 excerpt: "Prime FC 2-2 SDS FC — Gameweek 5 match report. Francis Gerard Mampolo (17 goals) leads Prime FC's attack. Game Changers: 3Play (2) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Prime FC 2-2 SDS FC
 
-Baller Arena buzzed with anticipation as **Prime FC** and **SDS FC** delivered a thoroughly entertaining contest with plenty of talking points.
+Baller Arena played host to an absorbing Gameweek 5 clash as **Prime FC** locked horns with **SDS FC** in what would prove to be a match that ebbed and flowed, keeping everyone guessing until the final whistle.
 
-SDS FC, sitting pretty in the Final Four places at 2nd, knew a win here would tighten their grip. The final whistle confirmed a **2-2 draw**, a result that felt about right in a match where both sides gave everything. The Game Changer window — **3Play** and **The Line** — proved pivotal, contributing **3** of the match's **4** goals.
+SDS FC came in occupying a coveted playoff spot at 2nd, while Prime FC were desperate to crash the party. The final whistle confirmed a **2-2 draw**, a result that felt about right in a match where both sides gave everything. The Game Changer window — **3Play** and **The Line** — proved pivotal, contributing **3** of the match's **4** goals.
 
 **Prime FC form (before GW5):** ❌ ✅ ✅ ✅ (L-W-W-W)  
 **SDS FC form (before GW5):** ✅ ✅ ✅ 🤝 ✅ (W-W-W-D-W)
@@ -22,11 +22,11 @@ SDS FC, sitting pretty in the Final Four places at 2nd, knew a win here would ti
 
 ### First Half
 
-At the 12th minute, the **3Play** Game Changer roared into action — the period yielded **2** goals, just enough to set the contest alight. By the interval it was impossible to call a winner. The contest was beautifully balanced, with everything still to play for.
+The game's complexion changed at the 12th minute when the **3Play** Game Changer activated — a **2-goal** window that gave the half an electric pulse. Half-time arrived with honours even, both managers undoubtedly pleased with elements of their side's performance.
 
 ### Second Half
 
-The second half resumed with all to play for, and at the 27-minute mark the **The Line** Game Changer cranked up the intensity once more — and it delivered **1** goal at just the right moment to breathe fresh life into the match. Late drama threatened but never materialised, both teams having to accept a point apiece in what felt like a war of attrition.
+If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **The Line** entered the fray — and it delivered **1** goal at just the right moment to breathe fresh life into the match. Both sides strained every sinew for a winner but the decisive blow never landed. A draw was the fairest outcome in a match where no team deserved to lose.
 
 ---
 
@@ -35,9 +35,9 @@ The second half resumed with all to play for, and at the 27-minute mark the **Th
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **2′** — **Connor Wood** (SDS FC) opened the scoring
-- **12′** — **Sak Hassan** (Prime FC) struck
-- **14′** — **Kazaiah Sterling** (SDS FC) scored
-- **29′** — **Francis Gerard Mampolo** (Prime FC) converted
+- **12′** — **Sak Hassan** (Prime FC) slotted
+- **14′** — **Kazaiah Sterling** (SDS FC) fired home
+- **29′** — **Francis Gerard Mampolo** (Prime FC) slotted
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -165,10 +165,10 @@ Prime FC dropped to **8th**, sds fc climbed to **1st**.
 ## What's Next
 
 ### Prime FC
-Next up: **Community FC** in Gameweek 10. 
+Next up: **VZN FC** in Gameweek 11. 
 
 ### SDS FC
-Next up: **Yanited** in Gameweek 10. 
+Next up: **Rukkas FC** in Gameweek 11. 
 
 
 

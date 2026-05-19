@@ -1,6 +1,6 @@
 ---
-title: "Yanited and VZN FC Play Out 3-3 Draw in Gameweek 1"
-date: 2026-05-12
+title: "Yanited and VZN FC Finish 3-3 in Hard-Fought GW1 Draw"
+date: 2026-05-19
 category: "Match Report"
 excerpt: "Yanited 3-3 VZN FC — Gameweek 1 match report. Kadell Daniel (14 goals) leads Yanited's attack. Game Changers: Onside (4) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Yanited 3-3 VZN FC
 
-Football took center stage at Baller Arena when **Yanited** met **VZN FC** in a compelling advert for Baller League football — competitive, dramatic, and hard-fought.
+Baller Arena played host to an absorbing Gameweek 1 clash as **Yanited** locked horns with **VZN FC** in what would prove to be a compelling advert for Baller League football — competitive, dramatic, and hard-fought.
 
 The final whistle confirmed a **3-3 draw**, a result that felt about right in a match where both sides gave everything. The Game Changer window — **Onside** and **Fairplay** — proved pivotal, contributing **4** of the match's **6** goals.
 
@@ -21,11 +21,11 @@ The final whistle confirmed a **3-3 draw**, a result that felt about right in a 
 
 ### First Half
 
-Twelve minutes in and the **Onside** Game Changer came alive, reshaping the contest entirely — and the goals flowed. **4** times the net bulged during the activation period, a frantic, breathless spell of attacking football. By the interval it was impossible to call a winner. The contest was beautifully balanced, with everything still to play for.
+The game's complexion changed at the 12th minute when the **Onside** Game Changer activated — and the floodgates opened with **4** goals flying in, the crowd barely able to keep up with the relentless action. The two sides trudged off level at the break — nothing separating them in what was shaping up to be a classic arm-wrestle.
 
 ### Second Half
 
-The 27th minute brought the **Fairplay** Game Changer thundering into the match — a moment that would prove pivotal — yet both sides held their nerve superbly through the rule change, refusing to blink. Both sides strained every sinew for a winner but the decisive blow never landed. A draw was the fairest outcome in a match where no team deserved to lose.
+The 27th minute brought the **Fairplay** Game Changer thundering into the match — a moment that would prove pivotal — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. Both sides strained every sinew for a winner but the decisive blow never landed. A draw was the fairest outcome in a match where no team deserved to lose.
 
 ---
 
@@ -34,10 +34,10 @@ The 27th minute brought the **Fairplay** Game Changer thundering into the match 
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **2′** — **George Nikaj** (VZN FC) drew first blood
-- **12′** — **Daniel Bowry** (VZN FC) converted
-- **14′** — **Joshua Parker** (VZN FC) struck
-- **14′** — **Kadell Daniel** (Yanited) scored
-- **14′** — **Sandro Camara** (VZN FC) converted
+- **12′** — **Daniel Bowry** (VZN FC) fired home
+- **14′** — **Joshua Parker** (VZN FC) scored
+- **14′** — **Kadell Daniel** (Yanited) struck
+- **14′** — **Sandro Camara** (VZN FC) slotted
 - **23′** — **Sandro Camara** (VZN FC) found the target
 
 | Minute | Player | Team |
@@ -139,7 +139,7 @@ Yanited held steady, vzn fc held steady.
 | Team | Before GW1 | After GW1 |
 |------|-------------|-------------|
 | Yanited | — | 11th |
-| VZN FC | — | 8th |
+| VZN FC | — | 9th |
 
 
 ---
@@ -165,10 +165,10 @@ Yanited held steady, vzn fc held steady.
 ## What's Next
 
 ### Yanited
-Next up: **SDS FC** in Gameweek 10. 
+Next up: **NDL FC** in Gameweek 11. 
 
 ### VZN FC
-Next up: **N5 FC** in Gameweek 10. 
+Next up: **Prime FC** in Gameweek 11. 
 
 
 

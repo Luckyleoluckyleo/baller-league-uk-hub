@@ -1,6 +1,6 @@
 ---
 title: "Gameweek 11 Preview: VZN FC vs Prime FC"
-date: 2026-05-17
+date: 2026-05-19
 category: "Preview"
 excerpt: "VZN FC (8th) host Prime FC (4th) in Gameweek 11. George Nikaj (9 goals) leads VZN FC."
 author: "Baller League UK Fan Site"
@@ -14,13 +14,13 @@ Prime FC sit above VZN FC in the table and will aim to maintain their position.
 
 ## Form Guide
 
-**VZN FC**: L - L - W - L - L (last 5 matches)
-**Prime FC**: D - L - L - W - W (last 5 matches)
+**VZN FC**: L - L - L - W - L (last 5 matches)
+**Prime FC**: W - D - L - L - W (last 5 matches)
 
 ## Head-to-Head
 
-These sides have yet to meet in Baller League competition — this will be their first encounter!
-
+These sides have met 1 time before. VZN FC have won 1, Prime FC have won 0, with 0 draws.
+The last meeting saw VZN FC defeat Prime FC 2-6.
 
 ## Key Players
 
@@ -29,8 +29,8 @@ These sides have yet to meet in Baller League competition — this will be their
 
 ## Game Changer X-Factor
 
-VZN FC average **2.5** goals per match during Game Changer periods (57 total).
-Prime FC average **3.9** GC goals per match (39 total).
+VZN FC average **2.4** goals per match during Game Changer periods (58 total).
+Prime FC average **3.6** GC goals per match (40 total).
 
 ## Prediction
 

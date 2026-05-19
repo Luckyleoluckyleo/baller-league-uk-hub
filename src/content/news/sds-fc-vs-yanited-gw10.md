@@ -1,6 +1,6 @@
 ---
 title: "SDS FC and Yanited Play Out 6-6 Classic in Gameweek 10"
-date: 2026-05-12
+date: 2026-05-19
 category: "Match Report"
 excerpt: "SDS FC 6-6 Yanited — Gameweek 10 match report. Connor Wood (6 goals) leads SDS FC's attack. Game Changers: 3Play (4) & 1-on-1 (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: true
 
 ## Match Summary — SDS FC 6-6 Yanited
 
-Gameweek 10 delivered fireworks at Baller Arena with **SDS FC** taking on **Yanited** in an end-to-end classic where neither side deserved to walk away empty-handed.
+Baller Arena played host to an absorbing Gameweek 10 clash as **SDS FC** locked horns with **Yanited** in what would prove to be a scoring bonanza that had the crowd on their feet — and somehow still ended level.
 
 SDS FC, sitting pretty in the Final Four places at 3rd, knew a win here would tighten their grip. The final whistle confirmed a **6-6 draw** in a contest that had absolutely everything — goals, drama, and relentless entertainment. The Game Changer window — **3Play** and **1-on-1** — proved pivotal, contributing **5** of the match's **12** goals.
 
@@ -22,11 +22,11 @@ SDS FC, sitting pretty in the Final Four places at 3rd, knew a win here would ti
 
 ### First Half
 
-Barely a dozen minutes had passed when **3Play** transformed the match into something altogether different — the result was chaos, in the best possible way. **4** goals poured in as both sides abandoned any defensive caution. The two sides trudged off level at the break — nothing separating them in what was shaping up to be a classic arm-wrestle.
+The first half sprang into life at the 12-minute mark with the **3Play** Game Changer flicking the switch — and the goals flowed. **4** times the net bulged during the activation period, a frantic, breathless spell of attacking football. The two sides trudged off level at the break — nothing separating them in what was shaping up to be a classic arm-wrestle.
 
 ### Second Half
 
-The 27th minute brought the **1-on-1** Game Changer thundering into the match — a moment that would prove pivotal — and it delivered **1** goal at just the right moment to breathe fresh life into the match. Late drama threatened but never materialised, both teams having to accept a point apiece in what felt like a war of attrition. The **12-goal** spectacle was the kind of match that Baller League was built for — pure, unfiltered entertainment.
+The second half resumed with all to play for, and at the 27-minute mark the **1-on-1** Game Changer cranked up the intensity once more — and it delivered **1** goal at just the right moment to breathe fresh life into the match. Both sides strained every sinew for a winner but the decisive blow never landed. A draw was the fairest outcome in a match where no team deserved to lose. This was Baller League at its most chaotic and brilliant — **12** goals, endless drama, and a match nobody in attendance will forget in a hurry.
 
 ---
 
@@ -34,18 +34,18 @@ The 27th minute brought the **1-on-1** Game Changer thundering into the match �
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **3′** — **Michael Folivi** (Yanited) drew first blood
-- **3′** — **Camilo Restrepo** (SDS FC) slotted
-- **10′** — **Kadell Daniel** (Yanited) slotted
-- **12′** — **Nya Kirby** (SDS FC) converted
-- **12′** — **Michael Folivi** (Yanited) fired home
-- **13′** — **Nya Kirby** (SDS FC) netted
-- **14′** — **Danny Bassett** (SDS FC) slotted
-- **24′** — **Bayley Brown** (SDS FC) netted
-- **28′** — **Medy Elito** (Yanited) struck
-- **30′** — **Kadell Daniel** (Yanited) scored
-- **30′** — **Joshua Abbott** (SDS FC) fired home
-- **31′** — **Kadell Daniel** (Yanited) fired home
+- **3′** — **Michael Folivi** (Yanited) broke the deadlock
+- **3′** — **Camilo Restrepo** (SDS FC) fired home
+- **10′** — **Kadell Daniel** (Yanited) found the target
+- **12′** — **Nya Kirby** (SDS FC) struck
+- **12′** — **Michael Folivi** (Yanited) found the target
+- **13′** — **Nya Kirby** (SDS FC) slotted
+- **14′** — **Danny Bassett** (SDS FC) struck
+- **24′** — **Bayley Brown** (SDS FC) slotted
+- **28′** — **Medy Elito** (Yanited) netted
+- **30′** — **Kadell Daniel** (Yanited) converted
+- **30′** — **Joshua Abbott** (SDS FC) found the target
+- **31′** — **Kadell Daniel** (Yanited) scored
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -205,10 +205,10 @@ SDS FC dropped to **5th**, yanited stayed at **7th**.
 ## What's Next
 
 ### SDS FC
-Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
+Next up: **Rukkas FC** in Gameweek 11. 
 
 ### Yanited
-Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
+Next up: **NDL FC** in Gameweek 11. 
 
 
 

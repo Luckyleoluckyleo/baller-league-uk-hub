@@ -1,6 +1,6 @@
 ---
 title: "N5 FC Down Gold Devils FC 3-5 in Hard-Fought GW3 Battle"
-date: 2026-05-12
+date: 2026-05-19
 category: "Match Report"
 excerpt: "Gold Devils FC 3-5 N5 FC — Gameweek 3 match report. Bilal Sayoud (8 goals) leads Gold Devils FC's attack. Game Changers: 3Play (2) & 1-on-1 (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Gold Devils FC 3-5 N5 FC
 
-Baller Arena played host to an absorbing Gameweek 3 clash as **Gold Devils FC** locked horns with **N5 FC** in what would prove to be an unforgettable thriller packed with drama and goals.
+Gameweek 3 delivered fireworks at Baller Arena with **Gold Devils FC** taking on **N5 FC** in a pulsating encounter that had fans on the edge of their seats from the first whistle to the last.
 
 When the dust settled, it was **N5 FC** who emerged **3-5** victors. The Game Changer window — **3Play** and **1-on-1** — proved pivotal, contributing **2** of the match's **8** goals.
 
@@ -22,11 +22,11 @@ When the dust settled, it was **N5 FC** who emerged **3-5** victors. The Game Ch
 
 ### First Half
 
-The first half sprang into life at the 12-minute mark with the **3Play** Game Changer flicking the switch — a **2-goal** window that gave the half an electric pulse. N5 FC held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
+At the 12th minute, the **3Play** Game Changer roared into action — the period yielded **2** goals, just enough to set the contest alight. N5 FC held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
 
 ### Second Half
 
-After the restart, the **1-on-1** Game Changer detonated at the 27th minute, turning the dial up to eleven — yet both sides held their nerve superbly through the rule change, refusing to blink. The final exchanges were fraught with tension. Gold Devils FC threw everything forward in search of a route back, but N5 FC held their nerve, defending with grit and intelligence to protect what they had.
+The tension was palpable at the restart, and the **1-on-1** Game Changer at 27 minutes only dialled it up — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. It was edge-of-your-seat stuff in the closing minutes. Gold Devils FC pressed and probed, but N5 FC's back-line stood firm — resilient, organised, and ultimately heroic.
 
 ---
 
@@ -35,13 +35,13 @@ After the restart, the **1-on-1** Game Changer detonated at the 27th minute, tur
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **0′** — **Joe Bennett** (N5 FC) fired the opener
-- **9′** — **Bilal Sayoud** (Gold Devils FC) netted
-- **10′** — **Salim Nassor** (Gold Devils FC) converted
-- **11′** — **Michael Hill** (N5 FC) netted
-- **12′** — **Ibrahim Ugradar** (N5 FC) converted
-- **13′** — **Arezki Hamouchene** (Gold Devils FC) converted
-- **18′** — **Joe Bennett** (N5 FC) slotted
-- **26′** — **Michael Hill** (N5 FC) fired home
+- **9′** — **Bilal Sayoud** (Gold Devils FC) fired home
+- **10′** — **Salim Nassor** (Gold Devils FC) fired home
+- **11′** — **Michael Hill** (N5 FC) slotted
+- **12′** — **Ibrahim Ugradar** (N5 FC) found the target
+- **13′** — **Arezki Hamouchene** (Gold Devils FC) scored
+- **18′** — **Joe Bennett** (N5 FC) scored
+- **26′** — **Michael Hill** (N5 FC) slotted
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -144,11 +144,11 @@ This was the **maiden competitive meeting** between Gold Devils FC and N5 FC —
 
 ## Table Impact
 
-Gold Devils FC dropped to **9th**, n5 fc climbed to **4th**.
+Gold Devils FC dropped to **8th**, n5 fc climbed to **4th**.
 
 | Team | Before GW3 | After GW3 |
 |------|-------------|-------------|
-| Gold Devils FC | 8th | 9th |
+| Gold Devils FC | 6th | 8th |
 | N5 FC | 10th | 4th |
 
 
@@ -176,10 +176,10 @@ Gold Devils FC dropped to **9th**, n5 fc climbed to **4th**.
 ## What's Next
 
 ### Gold Devils FC
-Next up: **NDL FC** in Gameweek 10. 
+Next up: **Wembley Rangers AFC** in Gameweek 11. 
 
 ### N5 FC
-Next up: **VZN FC** in Gameweek 10. 
+Next up: **Deportrio** in Gameweek 11. 
 
 
 

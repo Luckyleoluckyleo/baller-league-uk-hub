@@ -1,6 +1,6 @@
 ---
-title: "NDL FC Beat Prime FC 5-3 in Entertaining GW9 Clash"
-date: 2026-05-12
+title: "NDL FC Down Prime FC 5-3 in Hard-Fought GW9 Battle"
+date: 2026-05-19
 category: "Match Report"
 excerpt: "NDL FC 5-3 Prime FC — Gameweek 9 match report. Dara Dada (8 goals) leads NDL FC's attack. Game Changers: 3Play (3) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — NDL FC 5-3 Prime FC
 
-Tensions were high at Baller Arena as **NDL FC** squared off against **Prime FC** in a rollercoaster of emotions that had everything you could want from a Baller League match.
+All roads led to Baller Arena for Gameweek 9, where **NDL FC** and **Prime FC** produced an unforgettable thriller packed with drama and goals.
 
-NDL FC, sitting pretty in the Final Four places at 1st, knew a win here would tighten their grip. When the dust settled, it was **NDL FC** who emerged **5-3** victors. The Game Changer window — **3Play** and **1-on-1** — proved pivotal, contributing **6** of the match's **8** goals.
+NDL FC came in occupying a coveted playoff spot at 1st, while Prime FC were desperate to crash the party. When the dust settled, it was **NDL FC** who emerged **5-3** victors. The Game Changer window — **3Play** and **1-on-1** — proved pivotal, contributing **6** of the match's **8** goals.
 
 **NDL FC form (before GW9):** 🤝 ✅ ✅ ❌ ❌ (D-W-W-L-L)  
 **Prime FC form (before GW9):** ❌ ✅ ✅ 🤝 ❌ (L-W-W-D-L)
@@ -22,11 +22,11 @@ NDL FC, sitting pretty in the Final Four places at 1st, knew a win here would ti
 
 ### First Half
 
-Barely a dozen minutes had passed when **3Play** transformed the match into something altogether different — and the goals flowed. **3** times the net bulged during the activation period, a frantic, breathless spell of attacking football. NDL FC held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
+The tactical landscape shifted dramatically at 12 minutes as the **3Play** Game Changer took hold — and the goals flowed. **3** times the net bulged during the activation period, a frantic, breathless spell of attacking football. NDL FC held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
 
 ### Second Half
 
-The tension was palpable at the restart, and the **1-on-1** Game Changer at 27 minutes only dialled it up — the defensive discipline of the first half evaporated as **3** goals thundered in during the activation. It was edge-of-your-seat stuff in the closing minutes. Prime FC pressed and probed, but NDL FC's back-line stood firm — resilient, organised, and ultimately heroic.
+After the restart, the **1-on-1** Game Changer detonated at the 27th minute, turning the dial up to eleven — and the mayhem resumed. **3** more goals erupted during the window, transforming the contest into a full-blown classic. The final exchanges were fraught with tension. Prime FC threw everything forward in search of a route back, but NDL FC held their nerve, defending with grit and intelligence to protect what they had.
 
 ---
 
@@ -35,12 +35,12 @@ The tension was palpable at the restart, and the **1-on-1** Game Changer at 27 m
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **10′** — **Isaac Modi** (NDL FC) broke the deadlock
-- **13′** — **Joseph Adewunmi** fired home
+- **13′** — **Joseph Adewunmi** converted
 - **14′** — **Sam Fitzgerald** (NDL FC) found the target
-- **14′** — **Montel McKenzie** (Prime FC) struck
-- **21′** — **Bráulio Valera Pinto Maieco** (Prime FC) converted
-- **27′** — **Kevin Weggen** (NDL FC) found the target
-- **29′** — **Francis Gerard Mampolo** (Prime FC) netted
+- **14′** — **Montel McKenzie** (Prime FC) found the target
+- **21′** — **Bráulio Valera Pinto Maieco** (Prime FC) fired home
+- **27′** — **Kevin Weggen** (NDL FC) slotted
+- **29′** — **Francis Gerard Mampolo** (Prime FC) fired home
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -173,10 +173,10 @@ NDL FC stayed at **1st**, prime fc dropped to **9th**.
 ## What's Next
 
 ### NDL FC
-Next up: **Gold Devils FC** in Gameweek 10. 
+Next up: **Yanited** in Gameweek 11. 
 
 ### Prime FC
-Next up: **Community FC** in Gameweek 10. 
+Next up: **VZN FC** in Gameweek 11. 
 
 
 

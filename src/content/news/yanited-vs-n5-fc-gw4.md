@@ -1,6 +1,6 @@
 ---
-title: "Yanited See Off N5 FC 8-6 in Gameweek 4"
-date: 2026-05-12
+title: "Yanited Beat N5 FC 8-6 in Entertaining GW4 Clash"
+date: 2026-05-19
 category: "Match Report"
 excerpt: "Yanited 8-6 N5 FC — Gameweek 4 match report. Kadell Daniel (14 goals) leads Yanited's attack. Game Changers: 3Play (4) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: true
 
 ## Match Summary — Yanited 8-6 N5 FC
 
-Football took center stage at Baller Arena when **Yanited** met **N5 FC** in a rollercoaster of emotions that had everything you could want from a Baller League match.
+Baller Arena played host to an absorbing Gameweek 4 clash as **Yanited** locked horns with **N5 FC** in what would prove to be an unforgettable thriller packed with drama and goals.
 
 N5 FC came in occupying a coveted playoff spot at 4th, while Yanited were desperate to crash the party. When the dust settled, it was **Yanited** who emerged **8-6** victors. The Game Changer window — **3Play** and **The Line** — proved pivotal, contributing **5** of the match's **14** goals.
 
@@ -22,11 +22,11 @@ N5 FC came in occupying a coveted playoff spot at 4th, while Yanited were desper
 
 ### First Half
 
-Barely a dozen minutes had passed when **3Play** transformed the match into something altogether different — and the floodgates opened with **4** goals flying in, the crowd barely able to keep up with the relentless action. Yanited controlled the tempo and carried a deserved lead into the interval, their composure and cutting edge proving the difference.
+Barely a dozen minutes had passed when **3Play** transformed the match into something altogether different — and the goals flowed. **4** times the net bulged during the activation period, a frantic, breathless spell of attacking football. Yanited held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
 
 ### Second Half
 
-If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **The Line** entered the fray — and it delivered **1** goal at just the right moment to breathe fresh life into the match. It was edge-of-your-seat stuff in the closing minutes. N5 FC pressed and probed, but Yanited's back-line stood firm — resilient, organised, and ultimately heroic. The **14-goal** spectacle was the kind of match that Baller League was built for — pure, unfiltered entertainment.
+After the restart, the **The Line** Game Changer detonated at the 27th minute, turning the dial up to eleven — the **1** goal it produced came at a crucial juncture, swinging momentum decisively. It was edge-of-your-seat stuff in the closing minutes. N5 FC pressed and probed, but Yanited's back-line stood firm — resilient, organised, and ultimately heroic. This was Baller League at its most chaotic and brilliant — **14** goals, endless drama, and a match nobody in attendance will forget in a hurry.
 
 ---
 
@@ -35,19 +35,19 @@ If the first half was intriguing, the second was about to become unmissable. At 
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **2′** — **Jezreel Davies** (N5 FC) opened the scoring
-- **4′** — **Tyrell Miller-Rodney** (Yanited) found the target
-- **6′** — **Michael Hill** (N5 FC) found the target
-- **8′** — **Joe Bennett** (N5 FC) fired home
-- **10′** — **Joe Bennett** (N5 FC) struck
-- **12′** — **Tyrell Miller-Rodney** (Yanited) netted
-- **13′** — **Ibrahim Akanbi** (N5 FC) converted
-- **14′** — **Sandro Camara** (N5 FC) scored
-- **14′** — **Kadell Daniel** (Yanited) struck
-- **17′** — **Kieron Freeman** (N5 FC) converted
-- **20′** — **John Bostock** (Yanited) fired home
-- **22′** — **John Bostock** (Yanited) netted
-- **22′** — **Tyrell Miller-Rodney** (Yanited) scored
-- **27′** — **Sandro Camara** (N5 FC) slotted
+- **4′** — **Tyrell Miller-Rodney** (Yanited) netted
+- **6′** — **Michael Hill** (N5 FC) scored
+- **8′** — **Joe Bennett** (N5 FC) struck
+- **10′** — **Joe Bennett** (N5 FC) netted
+- **12′** — **Tyrell Miller-Rodney** (Yanited) found the target
+- **13′** — **Ibrahim Akanbi** (N5 FC) netted
+- **14′** — **Sandro Camara** (N5 FC) slotted
+- **14′** — **Kadell Daniel** (Yanited) scored
+- **17′** — **Kieron Freeman** (N5 FC) netted
+- **20′** — **John Bostock** (Yanited) found the target
+- **22′** — **John Bostock** (Yanited) found the target
+- **22′** — **Tyrell Miller-Rodney** (Yanited) fired home
+- **27′** — **Sandro Camara** (N5 FC) found the target
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -88,7 +88,7 @@ The **3Play** window was the more impactful, its **4** goals shifting the balanc
 
 ### Yanited
 
-The standout for Yanited was undoubtedly **Tyrell Miller-Rodney**, whose **3-goal** haul was the foundation of everything good about their display.
+**Tyrell Miller-Rodney** was Yanited's standout performer, bagging **3 goals** in a display of clinical finishing that powered his side's effort.
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
@@ -196,10 +196,10 @@ Yanited climbed to **3rd**, n5 fc stayed at **4th**.
 ## What's Next
 
 ### Yanited
-Next up: **SDS FC** in Gameweek 10. 
+Next up: **NDL FC** in Gameweek 11. 
 
 ### N5 FC
-Next up: **VZN FC** in Gameweek 10. 
+Next up: **Deportrio** in Gameweek 11. 
 
 
 

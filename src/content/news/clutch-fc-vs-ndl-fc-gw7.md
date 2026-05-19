@@ -1,6 +1,6 @@
 ---
-title: "NDL FC Beat Clutch FC 3-6 in Entertaining GW7 Clash"
-date: 2026-05-12
+title: "NDL FC Down Clutch FC 3-6 in Hard-Fought GW7 Battle"
+date: 2026-05-19
 category: "Match Report"
 excerpt: "Clutch FC 3-6 NDL FC — Gameweek 7 match report. Alfie Matthews (12 goals) leads Clutch FC's attack. Game Changers: 3Play (2) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Clutch FC 3-6 NDL FC
 
-Football took center stage at Baller Arena when **Clutch FC** met **NDL FC** in an unforgettable thriller packed with drama and goals.
+Gameweek 7 delivered fireworks at Baller Arena with **Clutch FC** taking on **NDL FC** in a rollercoaster of emotions that had everything you could want from a Baller League match.
 
-Clutch FC, sitting pretty in the Final Four places at 3rd, knew a win here would tighten their grip. When the dust settled, it was **NDL FC** who emerged **3-6** victors, extending their red-hot run of form in spectacular fashion. The Game Changer window — **3Play** and **1-on-1** — proved pivotal, contributing **5** of the match's **9** goals.
+Clutch FC came in occupying a coveted playoff spot at 3rd, while NDL FC were desperate to crash the party. When the dust settled, it was **NDL FC** who emerged **3-6** victors, extending their red-hot run of form in spectacular fashion. The Game Changer window — **3Play** and **1-on-1** — proved pivotal, contributing **5** of the match's **9** goals.
 
 **Clutch FC form (before GW7):** ✅ ✅ ✅ ✅ ❌ (W-W-W-W-L)  
 **NDL FC form (before GW7):** ❌ ❌ ❌ ✅ ✅ (L-L-L-W-W)
@@ -22,11 +22,11 @@ Clutch FC, sitting pretty in the Final Four places at 3rd, knew a win here would
 
 ### First Half
 
-Twelve minutes in and the **3Play** Game Changer came alive, reshaping the contest entirely — the period yielded **2** goals, just enough to set the contest alight. NDL FC controlled the tempo and carried a deserved lead into the interval, their composure and cutting edge proving the difference.
+Barely a dozen minutes had passed when **3Play** transformed the match into something altogether different — a **2-goal** window that gave the half an electric pulse. NDL FC controlled the tempo and carried a deserved lead into the interval, their composure and cutting edge proving the difference.
 
 ### Second Half
 
-The tension was palpable at the restart, and the **1-on-1** Game Changer at 27 minutes only dialled it up — and the mayhem resumed. **3** more goals erupted during the window, transforming the contest into a full-blown classic. The scoreboard didn't flatter NDL FC — they were simply better in every department, and Clutch FC had no complaints.
+If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **1-on-1** entered the fray — the defensive discipline of the first half evaporated as **3** goals thundered in during the activation. NDL FC managed the occasion expertly, balancing attacking ambition with game-control to see out a thoroughly deserved victory.
 
 ---
 
@@ -34,15 +34,15 @@ The tension was palpable at the restart, and the **1-on-1** Game Changer at 27 m
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **4′** — **Sam Fitzgerald** (NDL FC) broke the deadlock
-- **9′** — **Razzaq Coleman** (NDL FC) struck
-- **13′** — **Isaac Modi** (NDL FC) converted
-- **14′** — **David Marques Castanho** (Clutch FC) converted
+- **4′** — **Sam Fitzgerald** (NDL FC) fired the opener
+- **9′** — **Razzaq Coleman** (NDL FC) found the target
+- **13′** — **Isaac Modi** (NDL FC) netted
+- **14′** — **David Marques Castanho** (Clutch FC) slotted
 - **17′** — **Joshua Parker** (NDL FC) found the target
-- **18′** — **Isaac Modi** (NDL FC) converted
-- **27′** — **Sam Fitzgerald** (NDL FC) struck
+- **18′** — **Isaac Modi** (NDL FC) struck
+- **27′** — **Sam Fitzgerald** (NDL FC) scored
 - **28′** — **Tyler Winters** (Clutch FC) fired home
-- **29′** — **Alfie Matthews** (Clutch FC) found the target
+- **29′** — **Alfie Matthews** (Clutch FC) slotted
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -182,10 +182,10 @@ Clutch FC dropped to **6th**, ndl fc climbed to **1st**.
 ## What's Next
 
 ### Clutch FC
-Next up: **Wembley Rangers AFC** in Gameweek 10. 
+Next up: **Community FC** in Gameweek 11. 
 
 ### NDL FC
-Next up: **Gold Devils FC** in Gameweek 10. 
+Next up: **Yanited** in Gameweek 11. 
 
 
 

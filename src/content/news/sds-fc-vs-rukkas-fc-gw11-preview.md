@@ -1,6 +1,6 @@
 ---
 title: "Gameweek 11 Preview: SDS FC vs Rukkas FC"
-date: 2026-05-17
+date: 2026-05-19
 category: "Preview"
 excerpt: "SDS FC (3rd) host Rukkas FC (12th) in Gameweek 11. Connor Wood (6 goals) leads SDS FC."
 author: "Baller League UK Fan Site"
@@ -14,12 +14,12 @@ SDS FC come into this fixture above Rukkas FC in the standings and will look to 
 
 ## Form Guide
 
-**SDS FC**: W - W - D - W - L (last 5 matches)
-**Rukkas FC**: W - D - W - D - L (last 5 matches)
+**SDS FC**: W - W - W - D - W (last 5 matches)
+**Rukkas FC**: L - W - D - W - D (last 5 matches)
 
 ## Head-to-Head
 
-These sides have met 1 time before. SDS FC have won 0, Rukkas FC have won 1, with 0 draws.
+These sides have met 2 times before. SDS FC have won 0, Rukkas FC have won 2, with 0 draws.
 The last meeting saw SDS FC defeat Rukkas FC 3-2.
 
 ## Key Players
@@ -29,8 +29,8 @@ The last meeting saw SDS FC defeat Rukkas FC 3-2.
 
 ## Game Changer X-Factor
 
-SDS FC average **3.1** goals per match during Game Changer periods (71 total).
-Rukkas FC average **3.1** GC goals per match (55 total).
+SDS FC average **3.4** goals per match during Game Changer periods (81 total).
+Rukkas FC average **3.4** GC goals per match (65 total).
 
 ## Prediction
 

@@ -1,6 +1,6 @@
 ---
 title: "Yanited and Gold Devils FC Finish 2-2 in Hard-Fought GW7 Draw"
-date: 2026-05-12
+date: 2026-05-19
 category: "Match Report"
 excerpt: "Yanited 2-2 Gold Devils FC — Gameweek 7 match report. Kadell Daniel (14 goals) leads Yanited's attack. Game Changers: Onside (2) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Yanited 2-2 Gold Devils FC
 
-Gameweek 7 delivered fireworks at Baller Arena with **Yanited** taking on **Gold Devils FC** in a thoroughly entertaining contest with plenty of talking points.
+Baller Arena buzzed with anticipation as **Yanited** and **Gold Devils FC** delivered a match that ebbed and flowed, keeping everyone guessing until the final whistle.
 
 The final whistle confirmed a **2-2 draw**, a result that felt about right in a match where both sides gave everything. The Game Changer window — **Onside** and **Fairplay** — proved pivotal, contributing **2** of the match's **4** goals.
 
@@ -22,7 +22,7 @@ The final whistle confirmed a **2-2 draw**, a result that felt about right in a 
 
 ### First Half
 
-The tactical landscape shifted dramatically at 12 minutes as the **Onside** Game Changer took hold — a **2-goal** window that gave the half an electric pulse. The two sides trudged off level at the break — nothing separating them in what was shaping up to be a classic arm-wrestle.
+At the 12th minute, the **Onside** Game Changer roared into action — a **2-goal** window that gave the half an electric pulse. The two sides trudged off level at the break — nothing separating them in what was shaping up to be a classic arm-wrestle.
 
 ### Second Half
 
@@ -35,9 +35,9 @@ The tension was palpable at the restart, and the **Fairplay** Game Changer at 27
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **2′** — **Tommy Willard** (Yanited) opened the scoring
-- **12′** — **Bilal Sayoud** (Gold Devils FC) slotted
-- **15′** — **Tyrell Miller-Rodney** (Yanited) slotted
-- **23′** — **Ryan Gondoh** (Gold Devils FC) fired home
+- **12′** — **Bilal Sayoud** (Gold Devils FC) netted
+- **15′** — **Tyrell Miller-Rodney** (Yanited) struck
+- **23′** — **Ryan Gondoh** (Gold Devils FC) struck
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -133,12 +133,12 @@ This was the **maiden competitive meeting** between Yanited and Gold Devils FC �
 
 ## Table Impact
 
-Yanited climbed to **5th**, gold devils fc climbed to **10th**.
+Yanited climbed to **5th**, gold devils fc stayed at **10th**.
 
 | Team | Before GW7 | After GW7 |
 |------|-------------|-------------|
 | Yanited | 7th | 5th |
-| Gold Devils FC | 11th | 10th |
+| Gold Devils FC | 10th | 10th |
 
 
 ---
@@ -164,10 +164,10 @@ Yanited climbed to **5th**, gold devils fc climbed to **10th**.
 ## What's Next
 
 ### Yanited
-Next up: **SDS FC** in Gameweek 10. 
+Next up: **NDL FC** in Gameweek 11. 
 
 ### Gold Devils FC
-Next up: **NDL FC** in Gameweek 10. 
+Next up: **Wembley Rangers AFC** in Gameweek 11. 
 
 
 

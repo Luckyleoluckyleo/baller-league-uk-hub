@@ -1,6 +1,6 @@
 ---
-title: "SDS FC and Deportrio Finish 2-2 in Hard-Fought GW7 Draw"
-date: 2026-05-12
+title: "SDS FC and Deportrio Split the Points in 2-2 GW7 Stalemate"
+date: 2026-05-19
 category: "Match Report"
 excerpt: "SDS FC 2-2 Deportrio — Gameweek 7 match report. Connor Wood (6 goals) leads SDS FC's attack. Game Changers: 3Play (3) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — SDS FC 2-2 Deportrio
 
-A pivotal Gameweek 7 encounter saw **SDS FC** go head-to-head with **Deportrio** in a compelling advert for Baller League football — competitive, dramatic, and hard-fought.
+Tensions were high at Baller Arena as **SDS FC** squared off against **Deportrio** in a compelling advert for Baller League football — competitive, dramatic, and hard-fought.
 
 SDS FC came in occupying a coveted playoff spot at 1st, while Deportrio were desperate to crash the party. The final whistle confirmed a **2-2 draw**, a result that felt about right in a match where both sides gave everything. The Game Changer window — **3Play** and **The Line** — proved pivotal, contributing **3** of the match's **4** goals.
 
@@ -22,11 +22,11 @@ SDS FC came in occupying a coveted playoff spot at 1st, while Deportrio were des
 
 ### First Half
 
-The first half sprang into life at the 12-minute mark with the **3Play** Game Changer flicking the switch — and the goals flowed. **3** times the net bulged during the activation period, a frantic, breathless spell of attacking football. By the interval it was impossible to call a winner. The contest was beautifully balanced, with everything still to play for.
+The tactical landscape shifted dramatically at 12 minutes as the **3Play** Game Changer took hold — the result was chaos, in the best possible way. **3** goals poured in as both sides abandoned any defensive caution. Half-time arrived with honours even, both managers undoubtedly pleased with elements of their side's performance.
 
 ### Second Half
 
-The 27th minute brought the **The Line** Game Changer thundering into the match — a moment that would prove pivotal — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. Late drama threatened but never materialised, both teams having to accept a point apiece in what felt like a war of attrition.
+If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **The Line** entered the fray — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. Late drama threatened but never materialised, both teams having to accept a point apiece in what felt like a war of attrition.
 
 ---
 
@@ -34,10 +34,10 @@ The 27th minute brought the **The Line** Game Changer thundering into the match 
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **1′** — **Bakary Sako** drew first blood
-- **12′** — **Jay Emmanuel-Thomas** (Deportrio) found the target
-- **12′** — **Kazaiah Sterling** (SDS FC) converted
-- **14′** — **Hafed Al Droubi** (SDS FC) netted
+- **1′** — **Bakary Sako** opened the scoring
+- **12′** — **Jay Emmanuel-Thomas** (Deportrio) slotted
+- **12′** — **Kazaiah Sterling** (SDS FC) scored
+- **14′** — **Hafed Al Droubi** (SDS FC) converted
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -164,10 +164,10 @@ SDS FC dropped to **2nd**, deportrio climbed to **4th**.
 ## What's Next
 
 ### SDS FC
-Next up: **Yanited** in Gameweek 10. 
+Next up: **Rukkas FC** in Gameweek 11. 
 
 ### Deportrio
-Next up: **Rukkas FC** in Gameweek 10. 
+Next up: **N5 FC** in Gameweek 11. 
 
 
 

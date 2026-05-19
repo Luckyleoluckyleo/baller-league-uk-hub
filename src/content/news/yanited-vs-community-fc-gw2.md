@@ -1,6 +1,6 @@
 ---
 title: "Yanited See Off Community FC 5-3 in Gameweek 2"
-date: 2026-05-12
+date: 2026-05-19
 category: "Match Report"
 excerpt: "Yanited 5-3 Community FC — Gameweek 2 match report. Kadell Daniel (14 goals) leads Yanited's attack. Game Changers: Plus One (1) & 1-on-1 (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Yanited 5-3 Community FC
 
-All roads led to Baller Arena for Gameweek 2, where **Yanited** and **Community FC** produced a pulsating encounter that had fans on the edge of their seats from the first whistle to the last.
+Football took center stage at Baller Arena when **Yanited** met **Community FC** in a pulsating encounter that had fans on the edge of their seats from the first whistle to the last.
 
 When the dust settled, it was **Yanited** who emerged **5-3** victors. The Game Changer window — **Plus One** and **1-on-1** — proved pivotal, contributing **1** of the match's **8** goals.
 
@@ -22,11 +22,11 @@ When the dust settled, it was **Yanited** who emerged **5-3** victors. The Game 
 
 ### First Half
 
-The first half sprang into life at the 12-minute mark with the **Plus One** Game Changer flicking the switch — a **1-goal** window that gave the half an electric pulse. Yanited controlled the tempo and carried a deserved lead into the interval, their composure and cutting edge proving the difference.
+The first half sprang into life at the 12-minute mark with the **Plus One** Game Changer flicking the switch — the period yielded **1** goal, just enough to set the contest alight. Yanited controlled the tempo and carried a deserved lead into the interval, their composure and cutting edge proving the difference.
 
 ### Second Half
 
-After the restart, the **1-on-1** Game Changer detonated at the 27th minute, turning the dial up to eleven — yet both sides held their nerve superbly through the rule change, refusing to blink. It was edge-of-your-seat stuff in the closing minutes. Community FC pressed and probed, but Yanited's back-line stood firm — resilient, organised, and ultimately heroic.
+If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **1-on-1** entered the fray — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. The final exchanges were fraught with tension. Community FC threw everything forward in search of a route back, but Yanited held their nerve, defending with grit and intelligence to protect what they had.
 
 ---
 
@@ -34,14 +34,14 @@ After the restart, the **1-on-1** Game Changer detonated at the 27th minute, tur
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **7′** — **Mulugeta Kidu** (Community FC) opened the scoring
-- **9′** — **Kadell Daniel** (Yanited) converted
-- **11′** — **Keane Joyce** (Community FC) struck
-- **13′** — **Kadell Daniel** (Yanited) slotted
-- **18′** — **Keane Joyce** (Community FC) slotted
+- **7′** — **Mulugeta Kidu** (Community FC) drew first blood
+- **9′** — **Kadell Daniel** (Yanited) found the target
+- **11′** — **Keane Joyce** (Community FC) fired home
+- **13′** — **Kadell Daniel** (Yanited) fired home
+- **18′** — **Keane Joyce** (Community FC) fired home
 - **23′** — **Tyrell Miller-Rodney** (Yanited) struck
-- **25′** — **Nathan Oduwa** (Yanited) struck
-- **26′** — **Kadell Daniel** (Yanited) struck
+- **25′** — **Nathan Oduwa** (Yanited) converted
+- **26′** — **Kadell Daniel** (Yanited) scored
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -145,11 +145,11 @@ This was the **maiden competitive meeting** between Yanited and Community FC —
 
 ## Table Impact
 
-Yanited climbed to **6th**, community fc stayed at **12th**.
+Yanited climbed to **7th**, community fc stayed at **12th**.
 
 | Team | Before GW2 | After GW2 |
 |------|-------------|-------------|
-| Yanited | 11th | 6th |
+| Yanited | 11th | 7th |
 | Community FC | 12th | 12th |
 
 
@@ -177,10 +177,10 @@ Yanited climbed to **6th**, community fc stayed at **12th**.
 ## What's Next
 
 ### Yanited
-Next up: **SDS FC** in Gameweek 10. 
+Next up: **NDL FC** in Gameweek 11. 
 
 ### Community FC
-Next up: **Prime FC** in Gameweek 10. 
+Next up: **Clutch FC** in Gameweek 11. 
 
 
 

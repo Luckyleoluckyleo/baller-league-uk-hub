@@ -1,6 +1,6 @@
 ---
 title: "Prime FC Obliterate Wembley Rangers AFC 7-1 in Crushing GW7 Display"
-date: 2026-05-12
+date: 2026-05-19
 category: "Match Report"
 excerpt: "Prime FC 7-1 Wembley Rangers AFC — Gameweek 7 match report. Francis Gerard Mampolo (17 goals) leads Prime FC's attack. Game Changers: Plus One (0) & The Line (4). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Prime FC 7-1 Wembley Rangers AFC
 
-The crowd at Baller Arena were treated to a spectacle as **Prime FC** faced **Wembley Rangers AFC** in a breathtaking goal-fest.
+Baller Arena buzzed with anticipation as **Prime FC** and **Wembley Rangers AFC** delivered an unforgettable thriller packed with drama and goals.
 
 Wembley Rangers AFC, sitting pretty in the Final Four places at 4th, knew a win here would tighten their grip. When the dust settled, it was **Prime FC** who emerged **7-1** victors, ending Wembley Rangers AFC's impressive winning run in the process. The Game Changer window — **Plus One** and **The Line** — proved pivotal, contributing **4** of the match's **8** goals.
 
@@ -22,11 +22,11 @@ Wembley Rangers AFC, sitting pretty in the Final Four places at 4th, knew a win 
 
 ### First Half
 
-At the 12th minute, the **Plus One** Game Changer roared into action — yet for all the altered rules, the defences stood tall and the deadlock remained stubbornly intact. Prime FC simply blew Wembley Rangers AFC away in a devastating opening period, sending a powerful message to everyone watching.
+Barely a dozen minutes had passed when **Plus One** transformed the match into something altogether different — but remarkably, neither side could find the net. A tactical stalemate that owed as much to disciplined defending as to the specific rule change. Prime FC simply blew Wembley Rangers AFC away in a devastating opening period, sending a powerful message to everyone watching.
 
 ### Second Half
 
-The tension was palpable at the restart, and the **The Line** Game Changer at 27 minutes only dialled it up — once again the goals rained down, **4** of them, raw and relentless. What followed was a masterclass in clinical finishing. Prime FC ran Wembley Rangers AFC ragged, the scoreline a fair reflection of their total dominance.
+If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **The Line** entered the fray — and the mayhem resumed. **4** more goals erupted during the window, transforming the contest into a full-blown classic. What followed was a masterclass in clinical finishing. Prime FC ran Wembley Rangers AFC ragged, the scoreline a fair reflection of their total dominance.
 
 ---
 
@@ -34,14 +34,14 @@ The tension was palpable at the restart, and the **The Line** Game Changer at 27
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **7′** — **Ben Long** (Wembley Rangers AFC) fired the opener
-- **10′** — **Bráulio Valera Pinto Maieco** (Prime FC) slotted
-- **21′** — **Bráulio Valera Pinto Maieco** (Prime FC) netted
+- **7′** — **Ben Long** (Wembley Rangers AFC) broke the deadlock
+- **10′** — **Bráulio Valera Pinto Maieco** (Prime FC) fired home
+- **21′** — **Bráulio Valera Pinto Maieco** (Prime FC) slotted
 - **26′** — **Timmy Abraham** (Prime FC) found the target
+- **28′** — **Ergys Pepaj** (Prime FC) struck
 - **28′** — **Ergys Pepaj** (Prime FC) scored
-- **28′** — **Ergys Pepaj** (Prime FC) netted
-- **28′** — **Francis Gerard Mampolo** (Prime FC) netted
-- **28′** — **Francis Gerard Mampolo** (Prime FC) netted
+- **28′** — **Francis Gerard Mampolo** (Prime FC) fired home
+- **28′** — **Francis Gerard Mampolo** (Prime FC) slotted
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -76,7 +76,7 @@ The **The Line** window was the more impactful, its **4** goals shifting the bal
 
 ### Prime FC
 
-**Ergys Pepaj** was Prime FC's standout performer, bagging **2 goals** in a display of clinical finishing that powered his side's effort. As if scoring wasn't enough, he also turned provider with **1 assist**.
+The standout for Prime FC was undoubtedly **Ergys Pepaj**, whose **2-goal** haul was the foundation of everything good about their display. As if scoring wasn't enough, he also turned provider with **1 assist**.
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
@@ -177,10 +177,10 @@ Prime FC climbed to **7th**, wembley rangers afc dropped to **8th**.
 ## What's Next
 
 ### Prime FC
-Next up: **Community FC** in Gameweek 10. 
+Next up: **VZN FC** in Gameweek 11. 
 
 ### Wembley Rangers AFC
-Next up: **Clutch FC** in Gameweek 10. 
+Next up: **Gold Devils FC** in Gameweek 11. 
 
 
 

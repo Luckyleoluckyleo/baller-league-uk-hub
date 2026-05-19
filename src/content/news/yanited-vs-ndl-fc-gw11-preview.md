@@ -1,6 +1,6 @@
 ---
 title: "Gameweek 11 Preview: Yanited vs NDL FC"
-date: 2026-05-17
+date: 2026-05-19
 category: "Preview"
 excerpt: "Yanited (6th) host NDL FC (1st) in Gameweek 11. Kadell Daniel (14 goals) leads Yanited."
 author: "Baller League UK Fan Site"
@@ -14,12 +14,12 @@ NDL FC sit above Yanited in the table and will aim to maintain their position.
 
 ## Form Guide
 
-**Yanited**: L - L - W - L - D (last 5 matches)
-**NDL FC**: W - W - W - W - D (last 5 matches)
+**Yanited**: L - L - W - W - L (last 5 matches)
+**NDL FC**: L - W - W - W - W (last 5 matches)
 
 ## Head-to-Head
 
-These sides have met 1 time before. Yanited have won 1, NDL FC have won 0, with 0 draws.
+These sides have met 2 times before. Yanited have won 1, NDL FC have won 1, with 0 draws.
 The last meeting saw Yanited defeat NDL FC 2-5.
 
 ## Key Players
@@ -29,8 +29,8 @@ The last meeting saw Yanited defeat NDL FC 2-5.
 
 ## Game Changer X-Factor
 
-Yanited average **3.3** goals per match during Game Changer periods (77 total).
-NDL FC average **4.1** GC goals per match (74 total).
+Yanited average **3.3** goals per match during Game Changer periods (80 total).
+NDL FC average **4.1** GC goals per match (77 total).
 
 ## Prediction
 

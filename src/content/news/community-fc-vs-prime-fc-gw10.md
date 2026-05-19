@@ -1,6 +1,6 @@
 ---
-title: "Community FC and Prime FC Split the Points in 2-2 GW10 Stalemate"
-date: 2026-05-12
+title: "Community FC and Prime FC Finish 2-2 in Hard-Fought GW10 Draw"
+date: 2026-05-19
 category: "Match Report"
 excerpt: "Community FC 2-2 Prime FC — Gameweek 10 match report. Alex Byrne (9 goals) leads Community FC's attack. Game Changers: Plus One (2) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -22,11 +22,11 @@ The final whistle confirmed a **2-2 draw**, a result that felt about right in a 
 
 ### First Half
 
-At the 12th minute, the **Plus One** Game Changer roared into action — a **2-goal** window that gave the half an electric pulse. Half-time arrived with honours even, both managers undoubtedly pleased with elements of their side's performance.
+The first half sprang into life at the 12-minute mark with the **Plus One** Game Changer flicking the switch — a **2-goal** window that gave the half an electric pulse. By the interval it was impossible to call a winner. The contest was beautifully balanced, with everything still to play for.
 
 ### Second Half
 
-After the restart, the **The Line** Game Changer detonated at the 27th minute, turning the dial up to eleven — the **1** goal it produced came at a crucial juncture, swinging momentum decisively. Both sides strained every sinew for a winner but the decisive blow never landed. A draw was the fairest outcome in a match where no team deserved to lose.
+If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **The Line** entered the fray — and it delivered **1** goal at just the right moment to breathe fresh life into the match. Late drama threatened but never materialised, both teams having to accept a point apiece in what felt like a war of attrition.
 
 ---
 
@@ -35,9 +35,9 @@ After the restart, the **The Line** Game Changer detonated at the 27th minute, t
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **8′** — **Keane Joyce** (Community FC) broke the deadlock
-- **13′** — **Francis Gerard Mampolo** (Prime FC) struck
-- **13′** — **Alex Byrne** (Community FC) netted
-- **28′** — **Francis Gerard Mampolo** (Prime FC) fired home
+- **13′** — **Francis Gerard Mampolo** (Prime FC) netted
+- **13′** — **Alex Byrne** (Community FC) scored
+- **28′** — **Francis Gerard Mampolo** (Prime FC) struck
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -165,10 +165,10 @@ Community FC stayed at **12th**, prime fc climbed to **8th**.
 ## What's Next
 
 ### Community FC
-Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
+Next up: **Clutch FC** in Gameweek 11. 
 
 ### Prime FC
-Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
+Next up: **VZN FC** in Gameweek 11. 
 
 
 

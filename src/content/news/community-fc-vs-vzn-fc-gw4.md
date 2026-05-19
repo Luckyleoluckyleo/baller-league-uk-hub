@@ -1,6 +1,6 @@
 ---
-title: "Community FC Pip VZN FC 4-3 in Tense GW4 Encounter"
-date: 2026-05-12
+title: "Community FC Scrape Past VZN FC 4-3 in Tight GW4 Contest"
+date: 2026-05-19
 category: "Match Report"
 excerpt: "Community FC 4-3 VZN FC — Gameweek 4 match report. Alex Byrne (9 goals) leads Community FC's attack. Game Changers: 3Play (1) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Community FC 4-3 VZN FC
 
-Football took center stage at Baller Arena when **Community FC** met **VZN FC** in a tense, knife-edge contest where the smallest of margins made all the difference.
+The lights were bright at Baller Arena on Gameweek 4, where **Community FC** and **VZN FC** served up a tense, knife-edge contest where the smallest of margins made all the difference.
 
 When the dust settled, it was **Community FC** who emerged **4-3** victors. The Game Changer window — **3Play** and **Fairplay** — proved pivotal, contributing **2** of the match's **7** goals.
 
@@ -22,7 +22,7 @@ When the dust settled, it was **Community FC** who emerged **4-3** victors. The 
 
 ### First Half
 
-The tactical landscape shifted dramatically at 12 minutes as the **3Play** Game Changer took hold — a **1-goal** window that gave the half an electric pulse. Community FC took a slender lead into half-time — nothing decisive, but enough to shift the psychological battle in their favour.
+Barely a dozen minutes had passed when **3Play** transformed the match into something altogether different — a **1-goal** window that gave the half an electric pulse. The sides went in with Community FC just in front, a narrow advantage that kept everything delicately poised.
 
 ### Second Half
 
@@ -34,12 +34,12 @@ The 27th minute brought the **Fairplay** Game Changer thundering into the match 
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **4′** — **Dimitri Nicolaou** (VZN FC) drew first blood
-- **8′** — **Paul Semakula** (Community FC) found the target
-- **9′** — **Matthew Waller** (Community FC) netted
+- **4′** — **Dimitri Nicolaou** (VZN FC) broke the deadlock
+- **8′** — **Paul Semakula** (Community FC) scored
+- **9′** — **Matthew Waller** (Community FC) slotted
 - **9′** — **Frankie Leonard** (VZN FC) netted
 - **14′** — **Frankie Leonard** (VZN FC) struck
-- **29′** — **Tawab Djankpata** (Community FC) found the target
+- **29′** — **Tawab Djankpata** (Community FC) fired home
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -160,10 +160,10 @@ Community FC climbed to **11th**, vzn fc dropped to **10th**.
 ## What's Next
 
 ### Community FC
-Next up: **Prime FC** in Gameweek 10. 
+Next up: **Clutch FC** in Gameweek 11. 
 
 ### VZN FC
-Next up: **N5 FC** in Gameweek 10. 
+Next up: **Prime FC** in Gameweek 11. 
 
 
 

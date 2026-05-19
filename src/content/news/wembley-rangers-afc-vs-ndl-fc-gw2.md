@@ -1,6 +1,6 @@
 ---
-title: "Wembley Rangers AFC and NDL FC Finish 2-2 in Hard-Fought GW2 Draw"
-date: 2026-05-12
+title: "Wembley Rangers AFC and NDL FC Split the Points in 2-2 GW2 Stalemate"
+date: 2026-05-19
 category: "Match Report"
 excerpt: "Wembley Rangers AFC 2-2 NDL FC — Gameweek 2 match report. Domingos Pires (9 goals) leads Wembley Rangers AFC's attack. Game Changers: Onside (0) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -22,11 +22,11 @@ Wembley Rangers AFC came in occupying a coveted playoff spot at 4th, while NDL F
 
 ### First Half
 
-Twelve minutes in and the **Onside** Game Changer came alive, reshaping the contest entirely — yet for all the altered rules, the defences stood tall and the deadlock remained stubbornly intact. Half-time arrived with honours even, both managers undoubtedly pleased with elements of their side's performance.
+Twelve minutes in and the **Onside** Game Changer came alive, reshaping the contest entirely — but the goalkeepers and back-lines rose to the occasion, keeping the scoreboard operator idle throughout the activation. By the interval it was impossible to call a winner. The contest was beautifully balanced, with everything still to play for.
 
 ### Second Half
 
-If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **The Line** entered the fray — and it delivered **1** goal at just the right moment to breathe fresh life into the match. Late drama threatened but never materialised, both teams having to accept a point apiece in what felt like a war of attrition.
+After the restart, the **The Line** Game Changer detonated at the 27th minute, turning the dial up to eleven — and it delivered **1** goal at just the right moment to breathe fresh life into the match. Late drama threatened but never materialised, both teams having to accept a point apiece in what felt like a war of attrition.
 
 ---
 
@@ -34,10 +34,10 @@ If the first half was intriguing, the second was about to become unmissable. At 
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **10′** — **Isaac Modi** (NDL FC) fired the opener
-- **20′** — **Callam Gardner** (Wembley Rangers AFC) struck
-- **23′** — **Kristian Campbell** (Wembley Rangers AFC) netted
-- **29′** — **Sam Fitzgerald** (NDL FC) struck
+- **10′** — **Isaac Modi** (NDL FC) opened the scoring
+- **20′** — **Callam Gardner** (Wembley Rangers AFC) fired home
+- **23′** — **Kristian Campbell** (Wembley Rangers AFC) slotted
+- **29′** — **Sam Fitzgerald** (NDL FC) converted
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -162,10 +162,10 @@ Wembley Rangers AFC dropped to **5th**, ndl fc stayed at **1st**.
 ## What's Next
 
 ### Wembley Rangers AFC
-Next up: **Clutch FC** in Gameweek 10. 
+Next up: **Gold Devils FC** in Gameweek 11. 
 
 ### NDL FC
-Next up: **Gold Devils FC** in Gameweek 10. 
+Next up: **Yanited** in Gameweek 11. 
 
 
 

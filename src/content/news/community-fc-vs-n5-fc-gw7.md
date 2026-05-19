@@ -1,6 +1,6 @@
 ---
-title: "N5 FC Too Strong for Community FC in 1-5 Victory — GW7"
-date: 2026-05-12
+title: "N5 FC Cruise Past Community FC in 1-5 Rout — GW7"
+date: 2026-05-19
 category: "Match Report"
 excerpt: "Community FC 1-5 N5 FC — Gameweek 7 match report. Alex Byrne (9 goals) leads Community FC's attack. Game Changers: Onside (1) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Community FC 1-5 N5 FC
 
-A pivotal Gameweek 7 encounter saw **Community FC** go head-to-head with **N5 FC** in a thoroughly entertaining contest with plenty of talking points.
+Baller Arena buzzed with anticipation as **Community FC** and **N5 FC** delivered a compelling advert for Baller League football — competitive, dramatic, and hard-fought.
 
 When the dust settled, it was **N5 FC** who emerged **1-5** victors. The Game Changer window — **Onside** and **Fairplay** — proved pivotal, contributing **1** of the match's **6** goals.
 
@@ -22,11 +22,11 @@ When the dust settled, it was **N5 FC** who emerged **1-5** victors. The Game Ch
 
 ### First Half
 
-Twelve minutes in and the **Onside** Game Changer came alive, reshaping the contest entirely — the period yielded **1** goal, just enough to set the contest alight. N5 FC were absolutely rampant, carving Community FC open at will. By the break, they had built an intimidating lead that felt insurmountable.
+The first half sprang into life at the 12-minute mark with the **Onside** Game Changer flicking the switch — the period yielded **1** goal, just enough to set the contest alight. N5 FC simply blew Community FC away in a devastating opening period, sending a powerful message to everyone watching.
 
 ### Second Half
 
-The tension was palpable at the restart, and the **Fairplay** Game Changer at 27 minutes only dialled it up — yet both sides held their nerve superbly through the rule change, refusing to blink. N5 FC managed the occasion expertly, balancing attacking ambition with game-control to see out a thoroughly deserved victory.
+If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **Fairplay** entered the fray — yet both sides held their nerve superbly through the rule change, refusing to blink. N5 FC managed the occasion expertly, balancing attacking ambition with game-control to see out a thoroughly deserved victory.
 
 ---
 
@@ -34,12 +34,12 @@ The tension was palpable at the restart, and the **Fairplay** Game Changer at 27
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **5′** — **Michael Hill** (N5 FC) fired the opener
+- **5′** — **Michael Hill** (N5 FC) drew first blood
 - **10′** — **Joe Bennett** (N5 FC) converted
 - **15′** — **Jezreel Davies** (N5 FC) converted
-- **17′** — **Matthew Waller** (Community FC) found the target
-- **24′** — **Joe Bennett** (N5 FC) fired home
-- **25′** — **Joe Bennett** (N5 FC) struck
+- **17′** — **Matthew Waller** (Community FC) netted
+- **24′** — **Joe Bennett** (N5 FC) converted
+- **25′** — **Joe Bennett** (N5 FC) fired home
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -78,7 +78,7 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 ### N5 FC
 
-N5 FC had **Joe Bennett** to thank, the forward delivering a **3-goal** performance of the highest calibre.
+**Joe Bennett** led the charge for N5 FC, his **3 goals** a testament to the kind of ruthless finishing that makes him a nightmare for opposing defences.
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
@@ -169,10 +169,10 @@ Community FC stayed at **12th**, n5 fc climbed to **3rd**.
 ## What's Next
 
 ### Community FC
-Next up: **Prime FC** in Gameweek 10. 
+Next up: **Clutch FC** in Gameweek 11. 
 
 ### N5 FC
-Next up: **VZN FC** in Gameweek 10. 
+Next up: **Deportrio** in Gameweek 11. 
 
 
 

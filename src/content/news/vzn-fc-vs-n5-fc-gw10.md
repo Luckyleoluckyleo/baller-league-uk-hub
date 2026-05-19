@@ -1,6 +1,6 @@
 ---
-title: "N5 FC Down VZN FC 3-5 in Hard-Fought GW10 Battle"
-date: 2026-05-12
+title: "N5 FC Claim 3-5 Win Over VZN FC in GW10"
+date: 2026-05-19
 category: "Match Report"
 excerpt: "VZN FC 3-5 N5 FC — Gameweek 10 match report. George Nikaj (9 goals) leads VZN FC's attack. Game Changers: Plus One (2) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — VZN FC 3-5 N5 FC
 
-All roads led to Baller Arena for Gameweek 10, where **VZN FC** and **N5 FC** produced a breathtaking goal-fest.
+Tensions were high at Baller Arena as **VZN FC** squared off against **N5 FC** in a breathtaking goal-fest.
 
 When the dust settled, it was **N5 FC** who emerged **3-5** victors, ending VZN FC's impressive winning run in the process. The Game Changer window — **Plus One** and **The Line** — proved pivotal, contributing **2** of the match's **8** goals.
 
@@ -22,11 +22,11 @@ When the dust settled, it was **N5 FC** who emerged **3-5** victors, ending VZN 
 
 ### First Half
 
-The first half sprang into life at the 12-minute mark with the **Plus One** Game Changer flicking the switch — the period yielded **2** goals, just enough to set the contest alight. N5 FC controlled the tempo and carried a deserved lead into the interval, their composure and cutting edge proving the difference.
+The tactical landscape shifted dramatically at 12 minutes as the **Plus One** Game Changer took hold — the period yielded **2** goals, just enough to set the contest alight. N5 FC held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
 
 ### Second Half
 
-If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **The Line** entered the fray — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. The final exchanges were fraught with tension. VZN FC threw everything forward in search of a route back, but N5 FC held their nerve, defending with grit and intelligence to protect what they had.
+The second half resumed with all to play for, and at the 27-minute mark the **The Line** Game Changer cranked up the intensity once more — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. It was edge-of-your-seat stuff in the closing minutes. VZN FC pressed and probed, but N5 FC's back-line stood firm — resilient, organised, and ultimately heroic.
 
 ---
 
@@ -34,14 +34,14 @@ If the first half was intriguing, the second was about to become unmissable. At 
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **1′** — **Joe Bennett** (N5 FC) opened the scoring
-- **5′** — **Joe Bennett** (N5 FC) slotted
+- **1′** — **Joe Bennett** (N5 FC) fired the opener
+- **5′** — **Joe Bennett** (N5 FC) struck
 - **12′** — **Dimitri Nicolaou** (VZN FC) converted
 - **13′** — **Michael Hill** (N5 FC) scored
-- **22′** — **George Nikaj** (VZN FC) struck
-- **23′** — **Eddie Allsopp** (VZN FC) slotted
-- **24′** — **Michael Hill** (N5 FC) netted
-- **25′** — **Mustapha Carayol** (N5 FC) fired home
+- **22′** — **George Nikaj** (VZN FC) fired home
+- **23′** — **Eddie Allsopp** (VZN FC) found the target
+- **24′** — **Michael Hill** (N5 FC) scored
+- **25′** — **Mustapha Carayol** (N5 FC) scored
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -85,7 +85,7 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 ### N5 FC
 
-**Joe Bennett** led the charge for N5 FC, his **2 goals** a testament to the kind of ruthless finishing that makes him a nightmare for opposing defences. He also chipped in with **1 assist** for good measure.
+N5 FC had **Joe Bennett** to thank, the forward delivering a **2-goal** performance of the highest calibre. He also chipped in with **1 assist** for good measure.
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
@@ -190,10 +190,10 @@ VZN FC dropped to **9th**, n5 fc climbed to **4th**.
 ## What's Next
 
 ### VZN FC
-Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
+Next up: **Prime FC** in Gameweek 11. 
 
 ### N5 FC
-Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
+Next up: **Deportrio** in Gameweek 11. 
 
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Yanited Edge Rukkas FC 2-1 in GW3 Thriller"
-date: 2026-05-12
+title: "Yanited Narrowly Beat Rukkas FC 2-1 in GW3 Nail-biter"
+date: 2026-05-19
 category: "Match Report"
 excerpt: "Yanited 2-1 Rukkas FC — Gameweek 3 match report. Kadell Daniel (14 goals) leads Yanited's attack. Game Changers: Onside (1) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Yanited 2-1 Rukkas FC
 
-The crowd at Baller Arena were treated to a spectacle as **Yanited** faced **Rukkas FC** in a battle of attrition where every tackle, every pass, and every decision carried enormous weight.
+Tensions were high at Baller Arena as **Yanited** squared off against **Rukkas FC** in a nail-biter that could have swung either way, decided by the finest of details.
 
 When the dust settled, it was **Yanited** who emerged **2-1** victors. The Game Changer window — **Onside** and **Fairplay** — proved pivotal, contributing **1** of the match's **3** goals.
 
@@ -22,11 +22,11 @@ When the dust settled, it was **Yanited** who emerged **2-1** victors. The Game 
 
 ### First Half
 
-Twelve minutes in and the **Onside** Game Changer came alive, reshaping the contest entirely — a **1-goal** window that gave the half an electric pulse. Yanited took a slender lead into half-time — nothing decisive, but enough to shift the psychological battle in their favour.
+Barely a dozen minutes had passed when **Onside** transformed the match into something altogether different — the period yielded **1** goal, just enough to set the contest alight. Yanited took a slender lead into half-time — nothing decisive, but enough to shift the psychological battle in their favour.
 
 ### Second Half
 
-The 27th minute brought the **Fairplay** Game Changer thundering into the match — a moment that would prove pivotal — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. The final exchanges were fraught with tension. Rukkas FC threw everything forward in search of a route back, but Yanited held their nerve, defending with grit and intelligence to protect what they had.
+The second half resumed with all to play for, and at the 27-minute mark the **Fairplay** Game Changer cranked up the intensity once more — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. The final exchanges were fraught with tension. Rukkas FC threw everything forward in search of a route back, but Yanited held their nerve, defending with grit and intelligence to protect what they had.
 
 ---
 
@@ -34,9 +34,9 @@ The 27th minute brought the **Fairplay** Game Changer thundering into the match 
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **15′** — **Kadell Daniel** (Yanited) drew first blood
+- **15′** — **Kadell Daniel** (Yanited) fired the opener
 - **21′** — **John Bostock** (Yanited) scored
-- **21′** — **David Oupoh** (Rukkas FC) struck
+- **21′** — **David Oupoh** (Rukkas FC) netted
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -133,7 +133,7 @@ Yanited climbed to **5th**, rukkas fc stayed at **11th**.
 
 | Team | Before GW3 | After GW3 |
 |------|-------------|-------------|
-| Yanited | 6th | 5th |
+| Yanited | 7th | 5th |
 | Rukkas FC | 11th | 11th |
 
 
@@ -161,10 +161,10 @@ Yanited climbed to **5th**, rukkas fc stayed at **11th**.
 ## What's Next
 
 ### Yanited
-Next up: **SDS FC** in Gameweek 10. 
+Next up: **NDL FC** in Gameweek 11. 
 
 ### Rukkas FC
-Next up: **Deportrio** in Gameweek 10. 
+Next up: **SDS FC** in Gameweek 11. 
 
 
 
