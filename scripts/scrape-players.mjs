@@ -114,7 +114,12 @@ function parsePlayerMeta(html, slug) {
   };
 
   const nameM = html.match(/<h1[^>]*>([^<]+)<\/h1>/);
-  if (nameM) result.name = nameM[1].trim();
+  if (nameM) {
+    result.name = nameM[1].trim()
+      .replace(/&#(\d+);/g, (m, dec) => String.fromCharCode(dec))
+      .replace(/&amp;/g, '&')
+      .replace(/&quot;/g, '"');
+  }
 
   const posM = html.match(/Position:[^>]*>\s*([^<&\n]+)/);
   if (posM) result.position = posM[1].trim();

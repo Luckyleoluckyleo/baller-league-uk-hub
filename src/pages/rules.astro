@@ -8,20 +8,25 @@ const schema = {
   "name": "Baller League UK Rules & Format",
   "description": "Complete rules and format guide for Baller League UK: 6v6, 30-minute matches, Game Changers at 12' and 27', no corner kicks, 11-game season with Final Four playoffs.",
   "mainEntity": [
-    { "@type": "Question", "name": "What is the format of Baller League UK?", "acceptedAnswer": { "@type": "Answer", "text": "Baller League UK is 6-a-side football with 30-minute matches (two 15-minute halves), unlimited rolling substitutions, and celebrity managers." } },
-    { "@type": "Question", "name": "What are Game Changers in Baller League UK?", "acceptedAnswer": { "@type": "Answer", "text": "Game Changers are random rule changes activated at the 12th and 27th minute of each match. First-half options are Onside, Plus One, and 3Play. Second-half options are 1-on-1, The Line, and Fairplay." } },
+    { "@type": "Question", "name": "How does Baller League work?", "acceptedAnswer": { "@type": "Answer", "text": "Baller League UK is 6-a-side football with 30-minute matches (two 15-minute halves), unlimited rolling substitutions, and celebrity managers." } },
+    { "@type": "Question", "name": "What are the Baller League Gamechanger rules?", "acceptedAnswer": { "@type": "Answer", "text": "Game Changers are random rule changes activated at the 12th and 27th minute of each match. First-half options are Onside, Plus One, and 3Play. Second-half options are 1-on-1, The Line, and Fairplay." } },
     { "@type": "Question", "name": "Are there corner kicks in Baller League UK?", "acceptedAnswer": { "@type": "Answer", "text": "No. Traditional corner kicks are replaced by direct penalty kicks." } },
     { "@type": "Question", "name": "How many teams are in Baller League UK?", "acceptedAnswer": { "@type": "Answer", "text": "12 teams compete in Baller League UK Season 3 over 11 gameweeks, with the top 4 qualifying for the Final Four playoffs." } },
-    { "@type": "Question", "name": "How does the Baller League UK scoring system work?", "acceptedAnswer": { "@type": "Answer", "text": "A win earns 3 points, a draw earns 1 point, and the penalty shootout winner earns 1 additional bonus point. Losses earn 0 points." } }
+    { "@type": "Question", "name": "How does the Baller League UK scoring system work?", "acceptedAnswer": { "@type": "Answer", "text": "A win earns 3 points, a draw earns 1 point, and the penalty shootout winner earns 1 additional bonus point. Losses earn 0 points." } },
+    { "@type": "Question", "name": "How do players join Baller League UK?", "acceptedAnswer": { "@type": "Answer", "text": "Players join Baller League UK through a Combine and Draft system. Grassroots and semi-pro players attend trial days (the Combine), and team managers select their squads during an official Draft event before the season begins." } },
+    { "@type": "Question", "name": "What is the Wildcard Rule in Baller League?", "acceptedAnswer": { "@type": "Answer", "text": "The Wildcard rule allows teams to bring in special guest players—often former professional footballers or celebrities—for a single gameweek. These players are not part of the permanent drafted squad but can significantly impact a match." } },
+    { "@type": "Question", "name": "Who owns Baller League?", "acceptedAnswer": { "@type": "Answer", "text": "The original Baller League was founded in Germany by Mats Hummels and Lukas Podolski. The UK expansion features prominent founders and presidents including Felix Starr, with team owners like KSI, Micah Richards, and Tobi Brown." } },
+    { "@type": "Question", "name": "Where is Baller League UK filmed?", "acceptedAnswer": { "@type": "Answer", "text": "Regular season matches are filmed at a purpose-built indoor arena in London, specifically designed for fast-paced 6-a-side football with a live studio audience. The Final Four playoffs take place at major venues like The O2 Arena." } },
+    { "@type": "Question", "name": "How much do Baller League players get paid?", "acceptedAnswer": { "@type": "Answer", "text": "While exact salaries are officially undisclosed, players are compensated for their participation. The primary draws for players are the exposure, the high-quality facilities, and the chance to compete alongside ex-pros and influencers for the championship trophy." } }
   ]
 };
 ---
 
 <Base
-  title="Baller League UK Rules & Format — How It Works"
-  description="Complete guide to Baller League UK rules: 6v6 format, Game Changers at 12' and 27', no corner kicks, 30-minute matches, season structure and Final Four playoffs."
+  title="Baller League UK Rules, Format & FAQs (Ultimate 2026 Guide)"
+  description="Complete guide to Baller League UK rules: 6v6 format, Game Changers, the Draft system, Wildcards, and full FAQs. Everything you need to know."
   schema={schema}
-  keywords="rules, format, Game Changer, 6v6, offside, corner kicks, season structure, playoffs, Final Four"
+  keywords="rules, format, Game Changer, 6v6, offside, corner kicks, season structure, playoffs, Final Four, how to join baller league, baller league draft, wildcard rule"
   type="article"
 >
 
@@ -63,7 +68,34 @@ const schema = {
         </div>
       </div>
 
-      <!-- SECTION 2 -->
+      <!-- SECTION 2 - DRAFT & RECRUITMENT -->
+      <div class="rule-block card" id="draft">
+        <div class="card-body">
+          <div class="rule-icon">📝</div>
+          <h2>Player Recruitment & The Draft</h2>
+          <p>Unlike traditional football leagues where teams sign players on long contracts, Baller League UK uses an American sports-style Draft system to ensure competitive balance.</p>
+
+          <div class="key-rules-grid">
+            <div class="key-rule yes-rule">
+              <span class="key-rule-badge yes">STEP 1</span>
+              <h4>The Combine (Trials)</h4>
+              <p>Before the season begins, grassroots, semi-pro, and amateur players apply to join. Selected players are invited to <strong>The Combine</strong>, a grueling trial day where they showcase their skills in front of all 12 team managers.</p>
+            </div>
+            <div class="key-rule yes-rule">
+              <span class="key-rule-badge yes">STEP 2</span>
+              <h4>The Draft</h4>
+              <p>Following the Combine, a live Draft event takes place. Managers take turns selecting players to build their 11-man squads. This ensures that the talent is spread evenly across the league.</p>
+            </div>
+            <div class="key-rule no-rule">
+              <span class="key-rule-badge">SPECIAL EXCEPTION</span>
+              <h4>The Wildcard Rule (Gamechangers)</h4>
+              <p>Managers are allowed to bring in "Wildcard" players for a single gameweek. These are usually <strong>former professional footballers or high-profile celebrities</strong> (e.g., Bakary Sako) who aren't part of the drafted squad but act as secret weapons to secure a crucial win.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECTION 3 -->
       <div class="rule-block card" id="rules">
         <div class="card-body">
           <div class="rule-icon">🚫</div>
@@ -79,7 +111,7 @@ const schema = {
             <div class="key-rule yes-rule">
               <span class="key-rule-badge yes">INCLUDED</span>
               <h4>✅ Offside Rule (except during Onside GC)</h4>
-              <p>Offside rules apply throughout normal play. The only exception is when the <strong>Onside Game Changer</strong> is activated at the 12th minute — during that period, all offside rules are suspended and players can position anywhere.</p>
+              <p>Offside rules apply throughout normal play. The only exception is when the <strong>Onside Game Changer</strong> is activated at the 12th minute — during that period, all offside rules are suspended.</p>
             </div>
             <div class="key-rule yes-rule">
               <span class="key-rule-badge yes">INCLUDED</span>
@@ -95,7 +127,7 @@ const schema = {
         </div>
       </div>
 
-      <!-- SECTION 3 - GAME CHANGERS -->
+      <!-- SECTION 4 - GAME CHANGERS -->
       <div class="rule-block card gamechanger-card" id="gamechanger">
         <div class="card-body">
           <div class="rule-icon">⚡</div>
@@ -159,7 +191,7 @@ const schema = {
         </div>
       </div>
 
-      <!-- SECTION 4 - SEASON FORMAT -->
+      <!-- SECTION 5 - SEASON FORMAT -->
       <div class="rule-block card" id="season">
         <div class="card-body">
           <div class="rule-icon">🏆</div>
@@ -185,7 +217,7 @@ const schema = {
         </div>
       </div>
 
-      <!-- SECTION 5 - MANAGERS -->
+      <!-- SECTION 6 - MANAGERS -->
       <div class="rule-block card" id="managers">
         <div class="card-body">
           <div class="rule-icon">🎽</div>
@@ -197,36 +229,48 @@ const schema = {
             <li>Signing and releasing players during transfer windows</li>
             <li>Representing the team in pre and post-match interviews</li>
           </ul>
-          <p>Some teams also have an <strong>owner or president</strong> (such as KSI at Yanited) who sits above the manager and makes high-level decisions including player recruitment.</p>
+          <p>Some teams also have an <strong>owner or president</strong> (such as KSI at Prime FC) who sits above the manager and makes high-level decisions including player recruitment.</p>
           <a href="/teams" class="btn btn-secondary" style="margin-top: var(--space-md);">Meet All 12 Managers</a>
         </div>
       </div>
 
-      <!-- SECTION 6 - FAQ -->
+      <!-- SECTION 7 - FAQ -->
       <div class="rule-block card" id="faq">
         <div class="card-body">
           <div class="rule-icon">❓</div>
           <h2>Frequently Asked Questions</h2>
           <div class="faq-list">
             <details class="faq-item">
-              <summary>What is the format of Baller League UK?</summary>
+              <summary>How do players join Baller League UK?</summary>
+              <p>Players join Baller League UK through a Combine and Draft system. Grassroots and semi-pro players attend trial days (the Combine), and team managers select their squads during an official Draft event before the season begins.</p>
+            </details>
+            <details class="faq-item">
+              <summary>What is the Wildcard Rule in Baller League?</summary>
+              <p>The Wildcard rule allows teams to bring in special guest players—often former professional footballers or celebrities—for a single gameweek. These players are not part of the permanent drafted squad but can significantly impact a match.</p>
+            </details>
+            <details class="faq-item">
+              <summary>Who owns Baller League?</summary>
+              <p>The original Baller League was founded in Germany by Mats Hummels and Lukas Podolski. The UK expansion features prominent founders and presidents including Felix Starr, with team owners like KSI, Micah Richards, and Tobi Brown.</p>
+            </details>
+            <details class="faq-item">
+              <summary>Where is Baller League UK filmed?</summary>
+              <p>Regular season matches are filmed at a purpose-built indoor arena in London, specifically designed for fast-paced 6-a-side football with a live studio audience. The Final Four playoffs take place at major venues like The O2 Arena.</p>
+            </details>
+            <details class="faq-item">
+              <summary>How much do Baller League players get paid?</summary>
+              <p>While exact salaries are officially undisclosed, players are compensated for their participation. The primary draws for players are the exposure, the high-quality facilities, and the chance to compete alongside ex-pros and influencers for the championship trophy.</p>
+            </details>
+            <details class="faq-item">
+              <summary>How does Baller League work?</summary>
               <p>Baller League UK is 6-a-side football with 30-minute matches (two 15-minute halves), unlimited rolling substitutions, and celebrity managers. Each team fields six players at a time — five outfield players and one goalkeeper — in a purpose-built indoor arena.</p>
             </details>
             <details class="faq-item">
-              <summary>What are Game Changers in Baller League UK?</summary>
+              <summary>What are the Baller League Gamechanger rules?</summary>
               <p>Game Changers are random rule changes activated at the 12th and 27th minute of each match. First-half options are Onside (no offsides), Plus One (progressive 1v1 build-up), and 3Play (3v3 with a 30-second shot clock). Second-half options are 1-on-1 (individual duels), The Line (double goals from distance), and Fairplay (instant red cards for fouls).</p>
             </details>
             <details class="faq-item">
               <summary>Are there corner kicks in Baller League UK?</summary>
               <p>No. Traditional corner kicks are replaced by direct penalty kicks. Whenever the ball would normally go out for a corner, the attacking team is awarded a direct penalty instead — increasing goal opportunities and keeping the action flowing.</p>
-            </details>
-            <details class="faq-item">
-              <summary>How many teams are in Baller League UK?</summary>
-              <p>12 teams compete in Baller League UK Season 3 over 11 gameweeks. At the end of the regular season, the top 4 teams qualify for the Final Four playoffs — a knockout tournament to decide the champion.</p>
-            </details>
-            <details class="faq-item">
-              <summary>How does the Baller League UK scoring system work?</summary>
-              <p>A win earns 3 points, a draw earns 1 point, and the penalty shootout winner earns 1 additional bonus point. Losses earn 0 points. Teams are ranked by total points, then goal difference, then goals scored.</p>
             </details>
           </div>
         </div>
@@ -241,10 +285,12 @@ const schema = {
           <h4>Quick Navigation</h4>
           <ul class="aside-links">
             <li><a href="#format">Basic Format</a></li>
+            <li><a href="#draft">The Draft & Wildcards</a></li>
             <li><a href="#rules">Key Rule Differences</a></li>
             <li><a href="#gamechanger">Game Changers</a></li>
             <li><a href="#season">Season Format</a></li>
             <li><a href="#managers">Managers</a></li>
+            <li><a href="#faq">FAQs</a></li>
           </ul>
         </div>
       </div>
