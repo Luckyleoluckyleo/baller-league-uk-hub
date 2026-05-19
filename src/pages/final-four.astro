@@ -132,7 +132,8 @@ const schema = {
           <a href={`/teams/${t.slug}`} class="ff-team-card card">
             <div class="card-body ff-team-body">
               <div class="ff-team-header">
-                <img src={`/logos/${t.slug}.svg`} alt={t.name} class="ff-team-logo" onerror="this.style.display='none'" />
+                <img src={`/logos/${t.slug}.svg`} alt={t.name} class="ff-team-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+                <span class="ff-team-emoji" style="display:none;">{t.emoji}</span>
                 <div>
                   <div class="ff-pos-badge">#{t.pos}</div>
                   <h3 class="ff-team-name">{t.name}</h3>
@@ -274,6 +275,11 @@ const schema = {
   border-bottom: 2px solid rgba(124,77,255,0.3);
   text-align: center;
 }
+.ff-header h1,
+.ff-header p,
+.ff-header .section-label {
+  text-align: center;
+}
 
 .ff-page {
   padding: var(--space-2xl) 0 var(--space-3xl);
@@ -359,6 +365,18 @@ const schema = {
   width: 64px;
   height: 64px;
   object-fit: contain;
+}
+
+.ff-team-emoji {
+  width: 64px;
+  height: 64px;
+  font-size: 2.5rem;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  flex-shrink: 0;
 }
 
 .ff-pos-badge {
