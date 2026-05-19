@@ -1,70 +1,28 @@
 {
   "upcoming": [
     {
-      "gameweek": 11,
-      "homeTeam": "VZN FC",
-      "homeSlug": "vzn-fc",
-      "homeEmoji": "👁️",
+      "gameweek": 12,
+      "homeTeam": "NDL FC",
+      "homeSlug": "ndl-fc",
+      "homeEmoji": "🏆",
+      "awayTeam": "SDS FC",
+      "awaySlug": "sds-fc",
+      "awayEmoji": "🟢",
+      "date": "25 May 2026",
+      "time": "18:00",
+      "round": "Semi-Final 1"
+    },
+    {
+      "gameweek": 12,
+      "homeTeam": "Deportrio",
+      "homeSlug": "deportrio",
+      "homeEmoji": "🔵",
       "awayTeam": "Prime FC",
       "awaySlug": "prime-fc",
-      "awayEmoji": "⚡",
-      "date": "18 May 2026",
-      "time": "17:05"
-    },
-    {
-      "gameweek": 11,
-      "homeTeam": "N5 FC",
-      "homeSlug": "n5-fc",
-      "homeEmoji": "5️⃣",
-      "awayTeam": "Deportrio",
-      "awaySlug": "deportrio",
       "awayEmoji": "🔴",
-      "date": "18 May 2026",
-      "time": "18:05"
-    },
-    {
-      "gameweek": 11,
-      "homeTeam": "SDS FC",
-      "homeSlug": "sds-fc",
-      "homeEmoji": "🟢",
-      "awayTeam": "Rukkas FC",
-      "awaySlug": "rukkas-fc",
-      "awayEmoji": "💀",
-      "date": "18 May 2026",
-      "time": "19:00"
-    },
-    {
-      "gameweek": 11,
-      "homeTeam": "Gold Devils FC",
-      "homeSlug": "gold-devils-fc",
-      "homeEmoji": "👿",
-      "awayTeam": "Wembley Rangers AFC",
-      "awaySlug": "wembley-rangers-afc",
-      "awayEmoji": "🏟️",
-      "date": "18 May 2026",
-      "time": "20:05"
-    },
-    {
-      "gameweek": 11,
-      "homeTeam": "Yanited",
-      "homeSlug": "yanited",
-      "homeEmoji": "👑",
-      "awayTeam": "NDL FC",
-      "awaySlug": "ndl-fc",
-      "awayEmoji": "🏆",
-      "date": "18 May 2026",
-      "time": "21:00"
-    },
-    {
-      "gameweek": 11,
-      "homeTeam": "Clutch FC",
-      "homeSlug": "clutch-fc",
-      "homeEmoji": "✊",
-      "awayTeam": "Community FC",
-      "awaySlug": "community-fc",
-      "awayEmoji": "🤝",
-      "date": "18 May 2026",
-      "time": "21:50"
+      "date": "25 May 2026",
+      "time": "19:00",
+      "round": "Semi-Final 2"
     }
   ],
   "results": []

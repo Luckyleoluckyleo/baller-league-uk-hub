@@ -6,6 +6,7 @@ import fixturesData from '../data/fixtures.json';
 import gcData from '../data/gamechangers.json';
 
 const updateDate = new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+const isFinalFour = fixturesData.upcoming[0]?.round != null;
 const upcomingGW = fixturesData.upcoming[0]?.gameweek ?? 10;
 
 // Build results by gameweek from scraped data
@@ -66,6 +67,7 @@ function matchSlug(match: any): string {
 }
 
 function previewSlug(match: any): string {
+  if (match.round) return `${match.homeSlug}-vs-${match.awaySlug}-final-four-preview`;
   return `${match.homeSlug}-vs-${match.awaySlug}-gw${match.gameweek}-preview`;
 }
 
@@ -204,7 +206,7 @@ function getForm(slug: string): { label: string; cls: string }[] {
       <div>
         <div class="section-header">
           <div class="section-label">Upcoming</div>
-          <h2 class="section-title">Gameweek {upcomingGW} Fixtures</h2>
+          <h2 class="section-title">{isFinalFour ? 'Final Four' : `Gameweek ${upcomingGW} Fixtures`}</h2>
         </div>
         <div class="fixtures-list">
           {fixturesData.upcoming.map(f => (
@@ -219,6 +221,7 @@ function getForm(slug: string): { label: string; cls: string }[] {
                 <div class="fixture-score">vs</div>
                 <div class="fixture-date">{f.date}</div>
                 <div class="fixture-date">{f.time}</div>
+                {f.round && <div class="fixture-date" style="color: var(--purple-light); font-weight: 600;">{f.round}</div>}
               </div>
               <div class="fixture-team away">
                 <img src={`/logos/${f.awaySlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt={f.awayTeam} />
@@ -236,7 +239,7 @@ function getForm(slug: string): { label: string; cls: string }[] {
     <div class="update-note card">
       <div class="card-body update-inner">
         <span>🔄</span>
-        <p>Table and results updated after each gameweek. Stats refreshed {updateDate}. Upcoming fixtures for Gameweek {upcomingGW}.</p>
+        <p>Table and results updated after each gameweek. Stats refreshed {updateDate}. {isFinalFour ? 'Next up: Final Four at The O2, 25 May 2026.' : `Upcoming fixtures for Gameweek ${upcomingGW}.`}</p>
       </div>
     </div>
 

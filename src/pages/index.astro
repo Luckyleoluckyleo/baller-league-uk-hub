@@ -23,6 +23,7 @@ const latestNews = allNews
 
 const top3 = tableData.slice(0, 3);
 const upcomingFixtures = fixturesData.upcoming;
+const isFinalFour = upcomingFixtures[0]?.round != null;
 const upcomingGW = upcomingFixtures[0]?.gameweek ?? 10;
 
 // Latest gameweek results from scraped data
@@ -74,6 +75,7 @@ function matchSlug(match: any): string {
 }
 
 function previewSlug(match: any): string {
+  if (match.round) return `${match.homeSlug}-vs-${match.awaySlug}-final-four-preview`;
   return `${match.homeSlug}-vs-${match.awaySlug}-gw${match.gameweek}-preview`;
 }
 
@@ -107,7 +109,7 @@ const schema = {
   <section class="hero">
     <div class="hero-grid-bg"></div>
     <div class="container hero-content">
-      <div class="hero-eyebrow">⚽ Season 3 — Gameweek {upcomingGW} of 11</div>
+      <div class="hero-eyebrow">{isFinalFour ? '🏆 The O2, London — 25 May 2026' : `⚽ Season 3 — Gameweek ${upcomingGW} of 11`}</div>
       <h1 class="hero-title">
         Your Hub for
         <span class="accent">Baller League UK</span>
@@ -212,10 +214,10 @@ const schema = {
         <div>
           <div class="section-header flex-between">
             <div>
-              <div class="section-label">Gameweek {upcomingGW}</div>
+              <div class="section-label">{isFinalFour ? 'Final Four' : `Gameweek ${upcomingGW}`}</div>
               <h2 class="section-title">Upcoming Fixtures</h2>
             </div>
-            <a href="/table" class="view-all">All Fixtures</a>
+            <a href="/final-four" class="view-all">Full Preview</a>
           </div>
           <div class="fixtures-list">
             {upcomingFixtures.map(f => (
@@ -227,6 +229,7 @@ const schema = {
                 <div class="fixture-vs-box">
                   <div class="fixture-score">vs</div>
                   <div class="fixture-date">{f.time}</div>
+                  {f.round && <div class="fixture-date" style="color: var(--purple-light); font-weight: 600; font-size: 0.65rem;">{f.round}</div>}
                 </div>
                 <div class="fixture-team away">
                   <img src={`/logos/${f.awaySlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt={f.awayTeam} />

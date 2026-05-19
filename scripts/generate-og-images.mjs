@@ -26,9 +26,15 @@ function slugToTeamName(slug) {
 }
 
 function parseMatchSlug(slug) {
-  const m = slug.match(/^(.+?)-vs-(.+?)-gw(\d+)/i);
-  if (!m) return null;
-  return { homeSlug: m[1], awaySlug: m[2], gw: parseInt(m[3]), isPreview: slug.includes('-preview') };
+  const gwMatch = slug.match(/^(.+?)-vs-(.+?)-gw(\d+)/i);
+  if (gwMatch) {
+    return { homeSlug: gwMatch[1], awaySlug: gwMatch[2], gw: parseInt(gwMatch[3]), isPreview: slug.includes('-preview') };
+  }
+  const ffMatch = slug.match(/^(.+?)-vs-(.+?)-final-four/i);
+  if (ffMatch) {
+    return { homeSlug: ffMatch[1], awaySlug: ffMatch[2], gw: 0, isPreview: true, isFinalFour: true };
+  }
+  return null;
 }
 
 const files = fs.readdirSync(newsDir).filter(f => f.endsWith('.md'));
@@ -46,8 +52,8 @@ for (const file of files) {
   const homeName = slugToTeamName(match.homeSlug);
   const awayName = slugToTeamName(match.awaySlug);
   const scoreText = match.isPreview ? 'VS' : '';
-  const catLabel = match.isPreview ? 'PREVIEW' : 'MATCH REPORT';
-  const gwNum = match.gw;
+  const catLabel = match.isFinalFour ? 'FINAL FOUR' : (match.isPreview ? 'PREVIEW' : 'MATCH REPORT');
+  const gwLabel = match.isFinalFour ? 'THE O2 · 25 MAY 2026' : `GAMEWEEK ${match.gw}`;
 
   const svg = `<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
   <defs>
@@ -87,7 +93,7 @@ for (const file of files) {
 
   <!-- Gameweek -->
   <rect x="510" y="430" width="180" height="44" rx="8" fill="rgba(0,230,118,0.15)" stroke="rgba(0,230,118,0.3)" stroke-width="1"/>
-  <text x="600" y="460" text-anchor="middle" font-family="Bebas Neue, Impact, sans-serif" font-size="28" font-weight="700" fill="#00e676">GAMEWEEK ${gwNum}</text>
+  <text x="600" y="460" text-anchor="middle" font-family="Bebas Neue, Impact, sans-serif" font-size="28" font-weight="700" fill="#00e676">${gwLabel}</text>
 
   <!-- Footer -->
   <text x="600" y="570" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="500" fill="#475569">ballerleagueukhub.com</text>

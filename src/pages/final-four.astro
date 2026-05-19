@@ -134,14 +134,17 @@ function formBadge(label: string) {
             <div class="ff-stat"><span class="ff-stat-num" set:html={t.form.split('').map(l => formBadge(l)).join('')}></span><span class="ff-stat-lbl">Form</span></div>
           </div>
           <div class="ff-card-scorers">
-            {t.topScorers.map(ts => (
-            <a href={`/players/${ts.slug}`} class="ff-scorer-chip">
-              <img src={`/players/${ts.slug}.webp`} alt={ts.name} class="ff-scorer-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
-              <span class="ff-scorer-initials">{ts.name.split(' ').map((n: string) => n[0]).join('').slice(0, 2).toUpperCase()}</span>
-              <span class="ff-scorer-name">{ts.name.split(' ').pop()}</span>
-              <span class="ff-scorer-goals">{ts.goals} <span class="ff-scorer-g-label">goals</span></span>
-            </a>
-            ))}
+            <span class="ff-scorers-heading">Top Scorers</span>
+            <div class="ff-scorer-chips">
+              {t.topScorers.map(ts => (
+              <a href={`/players/${ts.slug}`} class="ff-scorer-chip">
+                <img src={`/players/${ts.slug}.webp`} alt={ts.name} class="ff-scorer-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+                <span class="ff-scorer-initials">{ts.name.split(' ').map((n: string) => n[0]).join('').slice(0, 2).toUpperCase()}</span>
+                <span class="ff-scorer-name">{ts.name.split(' ').pop()}</span>
+                <span class="ff-scorer-goals">{ts.goals} <span class="ff-scorer-g-label">goals</span></span>
+              </a>
+              ))}
+            </div>
           </div>
         </a>))}
       </div>
@@ -307,8 +310,14 @@ function formBadge(label: string) {
 .ff-stat-pts .ff-stat-num { color: var(--purple-light); }
 
 .ff-card-scorers {
-  display: flex; flex-wrap: wrap; gap: var(--space-sm);
   padding-top: var(--space-md); border-top: 1px solid var(--border-subtle);
+}
+.ff-scorers-heading {
+  display: block; font-size: 0.65rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.1em; color: var(--green); margin-bottom: var(--space-sm);
+}
+.ff-scorer-chips {
+  display: flex; flex-wrap: wrap; gap: var(--space-sm);
 }
 .ff-scorer-chip {
   display: flex; align-items: center; gap: 8px;
