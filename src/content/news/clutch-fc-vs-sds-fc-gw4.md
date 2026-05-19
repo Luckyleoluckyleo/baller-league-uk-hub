@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Clutch FC 3-5 SDS FC
 
-Baller Arena played host to an absorbing Gameweek 4 clash as **Clutch FC** locked horns with **SDS FC** in what would prove to be a breathtaking goal-fest.
+All roads led to Baller Arena for Gameweek 4, where **Clutch FC** and **SDS FC** produced a breathtaking goal-fest.
 
 SDS FC, sitting pretty in the Final Four places at 2nd, knew a win here would tighten their grip. When the dust settled, it was **SDS FC** who emerged **3-5** victors. The Game Changer window — **Plus One** and **The Line** — proved pivotal, contributing **5** of the match's **8** goals.
 
@@ -22,11 +22,11 @@ SDS FC, sitting pretty in the Final Four places at 2nd, knew a win here would ti
 
 ### First Half
 
-The tactical landscape shifted dramatically at 12 minutes as the **Plus One** Game Changer took hold — and the goals flowed. **3** times the net bulged during the activation period, a frantic, breathless spell of attacking football. SDS FC held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
+The game's complexion changed at the 12th minute when the **Plus One** Game Changer activated — and the floodgates opened with **3** goals flying in, the crowd barely able to keep up with the relentless action. SDS FC controlled the tempo and carried a deserved lead into the interval, their composure and cutting edge proving the difference.
 
 ### Second Half
 
-The 27th minute brought the **The Line** Game Changer thundering into the match — a moment that would prove pivotal — the **2** goals it produced came at a crucial juncture, swinging momentum decisively. It was edge-of-your-seat stuff in the closing minutes. Clutch FC pressed and probed, but SDS FC's back-line stood firm — resilient, organised, and ultimately heroic.
+The second half resumed with all to play for, and at the 27-minute mark the **The Line** Game Changer cranked up the intensity once more — and it delivered **2** goals at just the right moment to breathe fresh life into the match. The final exchanges were fraught with tension. Clutch FC threw everything forward in search of a route back, but SDS FC held their nerve, defending with grit and intelligence to protect what they had.
 
 ---
 
@@ -34,14 +34,14 @@ The 27th minute brought the **The Line** Game Changer thundering into the match 
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **13′** — **Alfie Matthews** (Clutch FC) drew first blood
+- **13′** — **Alfie Matthews** (Clutch FC) broke the deadlock
 - **15′** — **Evans Kouassi** (Clutch FC) slotted
 - **15′** — **David Marques Castanho** (Clutch FC) netted
-- **18′** — **Connor Wood** (SDS FC) fired home
+- **18′** — **Connor Wood** (SDS FC) found the target
 - **21′** — **Nya Kirby** (SDS FC) struck
-- **26′** — **Camilo Restrepo** (SDS FC) slotted
-- **27′** — **Joshua Abbott** (SDS FC) converted
-- **29′** — **Connor Wood** (SDS FC) fired home
+- **26′** — **Camilo Restrepo** (SDS FC) fired home
+- **27′** — **Joshua Abbott** (SDS FC) slotted
+- **29′** — **Connor Wood** (SDS FC) scored
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -84,7 +84,7 @@ The **Plus One** window was the more impactful, its **3** goals shifting the bal
 
 ### SDS FC
 
-**Connor Wood** led the charge for SDS FC, his **2 goals** a testament to the kind of ruthless finishing that makes him a nightmare for opposing defences.
+SDS FC had **Connor Wood** to thank, the forward delivering a **2-goal** performance of the highest calibre.
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
@@ -131,7 +131,7 @@ The **Plus One** window was the more impactful, its **3** goals shifting the bal
 
 ## Season Context
 
-With **7 gameweeks** left in the regular season, the stakes couldn't have been higher. **Clutch FC** entered this match averaging **3.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **SDS FC**, by contrast, arrived with an average of **3.3 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **7 gameweeks** left in the regular season, the stakes couldn't have been higher. **Clutch FC** entered this match averaging **3.7 goals per game** — a number that reflected their struggles in front of goal this campaign. **SDS FC**, by contrast, arrived with an average of **3.6 per outing** — a figure that highlighted the work still to be done in the final third. 
 
 The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 

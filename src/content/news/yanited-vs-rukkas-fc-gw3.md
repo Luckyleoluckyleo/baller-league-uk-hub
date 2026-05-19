@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Yanited 2-1 Rukkas FC
 
-Tensions were high at Baller Arena as **Yanited** squared off against **Rukkas FC** in a nail-biter that could have swung either way, decided by the finest of details.
+Baller Arena played host to an absorbing Gameweek 3 clash as **Yanited** locked horns with **Rukkas FC** in what would prove to be a battle of attrition where every tackle, every pass, and every decision carried enormous weight.
 
 When the dust settled, it was **Yanited** who emerged **2-1** victors. The Game Changer window — **Onside** and **Fairplay** — proved pivotal, contributing **1** of the match's **3** goals.
 
@@ -22,11 +22,11 @@ When the dust settled, it was **Yanited** who emerged **2-1** victors. The Game 
 
 ### First Half
 
-Barely a dozen minutes had passed when **Onside** transformed the match into something altogether different — the period yielded **1** goal, just enough to set the contest alight. Yanited took a slender lead into half-time — nothing decisive, but enough to shift the psychological battle in their favour.
+Twelve minutes in and the **Onside** Game Changer came alive, reshaping the contest entirely — a **1-goal** window that gave the half an electric pulse. The sides went in with Yanited just in front, a narrow advantage that kept everything delicately poised.
 
 ### Second Half
 
-The second half resumed with all to play for, and at the 27-minute mark the **Fairplay** Game Changer cranked up the intensity once more — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. The final exchanges were fraught with tension. Rukkas FC threw everything forward in search of a route back, but Yanited held their nerve, defending with grit and intelligence to protect what they had.
+After the restart, the **Fairplay** Game Changer detonated at the 27th minute, turning the dial up to eleven — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. It was edge-of-your-seat stuff in the closing minutes. Rukkas FC pressed and probed, but Yanited's back-line stood firm — resilient, organised, and ultimately heroic.
 
 ---
 
@@ -34,9 +34,9 @@ The second half resumed with all to play for, and at the 27-minute mark the **Fa
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **15′** — **Kadell Daniel** (Yanited) fired the opener
-- **21′** — **John Bostock** (Yanited) scored
-- **21′** — **David Oupoh** (Rukkas FC) netted
+- **15′** — **Kadell Daniel** (Yanited) drew first blood
+- **21′** — **John Bostock** (Yanited) fired home
+- **21′** — **David Oupoh** (Rukkas FC) fired home
 
 | Minute | Player | Team |
 |--------|--------|------|

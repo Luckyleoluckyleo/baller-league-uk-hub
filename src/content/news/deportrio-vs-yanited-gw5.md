@@ -1,5 +1,5 @@
 ---
-title: "Deportrio Narrowly Beat Yanited 5-4 in GW5 Nail-biter"
+title: "Deportrio Pip Yanited 5-4 in Tense GW5 Encounter"
 date: 2026-05-19
 category: "Match Report"
 excerpt: "Deportrio 5-4 Yanited — Gameweek 5 match report. Jay Emmanuel-Thomas (18 goals) leads Deportrio's attack. Game Changers: 3Play (2) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -11,7 +11,7 @@ featured: false
 
 The crowd at Baller Arena were treated to a spectacle as **Deportrio** faced **Yanited** in an unforgettable thriller packed with drama and goals.
 
-Yanited, sitting pretty in the Final Four places at 3rd, knew a win here would tighten their grip. When the dust settled, it was **Deportrio** who emerged **5-4** victors. The Game Changer window — **3Play** and **The Line** — proved pivotal, contributing **3** of the match's **9** goals.
+Yanited came in occupying a coveted playoff spot at 3rd, while Deportrio were desperate to crash the party. When the dust settled, it was **Deportrio** who emerged **5-4** victors. The Game Changer window — **3Play** and **The Line** — proved pivotal, contributing **3** of the match's **9** goals.
 
 **Deportrio form (before GW5):** ✅ ✅ ❌ ❌ ❌ (W-W-L-L-L)  
 **Yanited form (before GW5):** ✅ 🤝 ✅ 🤝 ✅ (W-D-W-D-W)
@@ -22,11 +22,11 @@ Yanited, sitting pretty in the Final Four places at 3rd, knew a win here would t
 
 ### First Half
 
-The game's complexion changed at the 12th minute when the **3Play** Game Changer activated — a **2-goal** window that gave the half an electric pulse. The sides went in with Deportrio just in front, a narrow advantage that kept everything delicately poised.
+Barely a dozen minutes had passed when **3Play** transformed the match into something altogether different — the period yielded **2** goals, just enough to set the contest alight. The sides went in with Deportrio just in front, a narrow advantage that kept everything delicately poised.
 
 ### Second Half
 
-The 27th minute brought the **The Line** Game Changer thundering into the match — a moment that would prove pivotal — and it delivered **1** goal at just the right moment to breathe fresh life into the match. The final exchanges were fraught with tension. Yanited threw everything forward in search of a route back, but Deportrio held their nerve, defending with grit and intelligence to protect what they had.
+The tension was palpable at the restart, and the **The Line** Game Changer at 27 minutes only dialled it up — the **1** goal it produced came at a crucial juncture, swinging momentum decisively. The final exchanges were fraught with tension. Yanited threw everything forward in search of a route back, but Deportrio held their nerve, defending with grit and intelligence to protect what they had.
 
 ---
 
@@ -34,15 +34,15 @@ The 27th minute brought the **The Line** Game Changer thundering into the match 
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **1′** — **Bakary Sako** broke the deadlock
+- **1′** — **Bakary Sako** fired the opener
 - **4′** — **Paul-José M&#039;Poku** (Yanited) found the target
-- **5′** — **Sandro Camara** (Yanited) fired home
-- **8′** — **Jay Emmanuel-Thomas** (Deportrio) struck
-- **12′** — **Marvin Sordell** (Deportrio) slotted
-- **12′** — **Sahid Kamara** (Deportrio) struck
+- **5′** — **Sandro Camara** (Yanited) slotted
+- **8′** — **Jay Emmanuel-Thomas** (Deportrio) fired home
+- **12′** — **Marvin Sordell** (Deportrio) scored
+- **12′** — **Sahid Kamara** (Deportrio) netted
 - **16′** — **John Bostock** (Yanited) converted
-- **17′** — **Jay Emmanuel-Thomas** (Deportrio) converted
-- **27′** — **Tyrell Miller-Rodney** (Yanited) found the target
+- **17′** — **Jay Emmanuel-Thomas** (Deportrio) struck
+- **27′** — **Tyrell Miller-Rodney** (Yanited) netted
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -132,7 +132,7 @@ The standout for Deportrio was undoubtedly **Jay Emmanuel-Thomas**, whose **2-go
 
 ## Season Context
 
-With **6 gameweeks** left in the regular season, the stakes couldn't have been higher. **Deportrio** entered this match averaging **4.3 goals per game** — a number that reflected their struggles in front of goal this campaign. **Yanited**, by contrast, arrived with an average of **3.4 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **6 gameweeks** left in the regular season, the stakes couldn't have been higher. **Deportrio** entered this match averaging **4.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **Yanited**, by contrast, arrived with an average of **3.4 per outing** — a figure that highlighted the work still to be done in the final third. 
 
 The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 

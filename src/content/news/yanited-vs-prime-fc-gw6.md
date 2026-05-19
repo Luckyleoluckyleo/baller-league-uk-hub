@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Yanited 1-8 Prime FC
 
-Gameweek 6 delivered fireworks at Baller Arena with **Yanited** taking on **Prime FC** in a breathtaking goal-fest.
+The lights were bright at Baller Arena on Gameweek 6, where **Yanited** and **Prime FC** served up a rollercoaster of emotions that had everything you could want from a Baller League match.
 
-Yanited came in occupying a coveted playoff spot at 3rd, while Prime FC were desperate to crash the party. When the dust settled, it was **Prime FC** who emerged **1-8** victors, ending Yanited's impressive winning run in the process. The Game Changer window — **3Play** and **Fairplay** — proved pivotal, contributing **3** of the match's **9** goals.
+Yanited, sitting pretty in the Final Four places at 3rd, knew a win here would tighten their grip. When the dust settled, it was **Prime FC** who emerged **1-8** victors, ending Yanited's impressive winning run in the process. The Game Changer window — **3Play** and **Fairplay** — proved pivotal, contributing **3** of the match's **9** goals.
 
 **Yanited form (before GW6):** ✅ ❌ ✅ 🤝 ✅ (W-L-W-D-W)  
 **Prime FC form (before GW6):** 🤝 ❌ ✅ ✅ ✅ (D-L-W-W-W)
@@ -22,11 +22,11 @@ Yanited came in occupying a coveted playoff spot at 3rd, while Prime FC were des
 
 ### First Half
 
-The game's complexion changed at the 12th minute when the **3Play** Game Changer activated — and the goals flowed. **3** times the net bulged during the activation period, a frantic, breathless spell of attacking football. Prime FC were absolutely rampant, carving Yanited open at will. By the break, they had built an intimidating lead that felt insurmountable.
+The game's complexion changed at the 12th minute when the **3Play** Game Changer activated — the result was chaos, in the best possible way. **3** goals poured in as both sides abandoned any defensive caution. Prime FC were absolutely rampant, carving Yanited open at will. By the break, they had built an intimidating lead that felt insurmountable.
 
 ### Second Half
 
-After the restart, the **Fairplay** Game Changer detonated at the 27th minute, turning the dial up to eleven — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. What followed was a masterclass in clinical finishing. Prime FC ran Yanited ragged, the scoreline a fair reflection of their total dominance.
+The 27th minute brought the **Fairplay** Game Changer thundering into the match — a moment that would prove pivotal — yet both sides held their nerve superbly through the rule change, refusing to blink. Prime FC showed absolutely no mercy, turning a commanding position into a full-blown annihilation. Every attack carried menace; every forward run spelled danger. Yanited simply had no answer.
 
 ---
 
@@ -34,14 +34,14 @@ After the restart, the **Fairplay** Game Changer detonated at the 27th minute, t
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **2′** — **Sak Hassan** (Prime FC) opened the scoring
-- **2′** — **Francis Gerard Mampolo** (Prime FC) found the target
-- **4′** — **Stefan Ilic** (Prime FC) struck
-- **6′** — **Bráulio Valera Pinto Maieco** (Prime FC) slotted
-- **12′** — **Paul-José M&#039;Poku** (Yanited) struck
+- **2′** — **Sak Hassan** (Prime FC) drew first blood
+- **2′** — **Francis Gerard Mampolo** (Prime FC) scored
+- **4′** — **Stefan Ilic** (Prime FC) netted
+- **6′** — **Bráulio Valera Pinto Maieco** (Prime FC) netted
+- **12′** — **Paul-José M&#039;Poku** (Yanited) found the target
 - **13′** — **Francis Gerard Mampolo** (Prime FC) scored
 - **14′** — **Francis Gerard Mampolo** (Prime FC) struck
-- **16′** — **Sak Hassan** (Prime FC) slotted
+- **16′** — **Sak Hassan** (Prime FC) converted
 - **19′** — **Francis Gerard Mampolo** (Prime FC) netted
 
 | Minute | Player | Team |
@@ -132,7 +132,7 @@ Prime FC had **Francis Gerard Mampolo** to thank, the forward delivering a **4-g
 
 ## Season Context
 
-With **5 gameweeks** left in the regular season, the stakes couldn't have been higher. **Yanited** entered this match averaging **3.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **Prime FC**, by contrast, arrived with an average of **4.9 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **5 gameweeks** left in the regular season, the stakes couldn't have been higher. **Yanited** entered this match averaging **3.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **Prime FC**, by contrast, arrived with an average of **5.0 per outing** — a figure that highlighted the work still to be done in the final third. 
 
 The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 

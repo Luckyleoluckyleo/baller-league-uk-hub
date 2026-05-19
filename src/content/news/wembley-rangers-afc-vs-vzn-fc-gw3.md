@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Wembley Rangers AFC 3-3 VZN FC
 
-Gameweek 3 delivered fireworks at Baller Arena with **Wembley Rangers AFC** taking on **VZN FC** in a match that ebbed and flowed, keeping everyone guessing until the final whistle.
+Tensions were high at Baller Arena as **Wembley Rangers AFC** squared off against **VZN FC** in a thoroughly entertaining contest with plenty of talking points.
 
 The final whistle confirmed a **3-3 draw**, a result that felt about right in a match where both sides gave everything. The Game Changer window — **3Play** and **The Line** — proved pivotal, contributing **2** of the match's **6** goals.
 
@@ -22,11 +22,11 @@ The final whistle confirmed a **3-3 draw**, a result that felt about right in a 
 
 ### First Half
 
-The game's complexion changed at the 12th minute when the **3Play** Game Changer activated — the period yielded **2** goals, just enough to set the contest alight. The two sides trudged off level at the break — nothing separating them in what was shaping up to be a classic arm-wrestle.
+The first half sprang into life at the 12-minute mark with the **3Play** Game Changer flicking the switch — a **2-goal** window that gave the half an electric pulse. Half-time arrived with honours even, both managers undoubtedly pleased with elements of their side's performance.
 
 ### Second Half
 
-After the restart, the **The Line** Game Changer detonated at the 27th minute, turning the dial up to eleven — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. Both sides strained every sinew for a winner but the decisive blow never landed. A draw was the fairest outcome in a match where no team deserved to lose.
+The tension was palpable at the restart, and the **The Line** Game Changer at 27 minutes only dialled it up — yet both sides held their nerve superbly through the rule change, refusing to blink. Both sides strained every sinew for a winner but the decisive blow never landed. A draw was the fairest outcome in a match where no team deserved to lose.
 
 ---
 
@@ -35,11 +35,11 @@ After the restart, the **The Line** Game Changer detonated at the 27th minute, t
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **10′** — **Callam Gardner** (Wembley Rangers AFC) opened the scoring
-- **12′** — **Callam Gardner** (Wembley Rangers AFC) scored
+- **12′** — **Callam Gardner** (Wembley Rangers AFC) fired home
 - **13′** — **Frankie Leonard** (VZN FC) fired home
-- **16′** — **Ben Long** (Wembley Rangers AFC) netted
-- **23′** — **George Nikaj** (VZN FC) fired home
-- **24′** — **Daniel Bowry** (VZN FC) fired home
+- **16′** — **Ben Long** (Wembley Rangers AFC) converted
+- **23′** — **George Nikaj** (VZN FC) slotted
+- **24′** — **Daniel Bowry** (VZN FC) slotted
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -122,7 +122,7 @@ The standout for Wembley Rangers AFC was undoubtedly **Callam Gardner**, whose *
 
 ## Season Context
 
-With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **Wembley Rangers AFC** entered this match averaging **3.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **VZN FC**, by contrast, arrived with an average of **2.9 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **Wembley Rangers AFC** entered this match averaging **3.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **VZN FC**, by contrast, arrived with an average of **2.9 per outing** — a figure that highlighted the work still to be done in the final third. 
 
 The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 

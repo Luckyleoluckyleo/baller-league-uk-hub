@@ -1,5 +1,5 @@
 ---
-title: "SDS FC Edge N5 FC 2-1 in GW2 Thriller"
+title: "SDS FC Narrowly Beat N5 FC 2-1 in GW2 Nail-biter"
 date: 2026-05-19
 category: "Match Report"
 excerpt: "SDS FC 2-1 N5 FC — Gameweek 2 match report. Connor Wood (6 goals) leads SDS FC's attack. Game Changers: 3Play (2) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — SDS FC 2-1 N5 FC
 
-Gameweek 2 delivered fireworks at Baller Arena with **SDS FC** taking on **N5 FC** in a nail-biter that could have swung either way, decided by the finest of details.
+The crowd at Baller Arena were treated to a spectacle as **SDS FC** faced **N5 FC** in a tense, knife-edge contest where the smallest of margins made all the difference.
 
 SDS FC came in occupying a coveted playoff spot at 2nd, while N5 FC were desperate to crash the party. When the dust settled, it was **SDS FC** who emerged **2-1** victors. The Game Changer window — **3Play** and **Fairplay** — proved pivotal, contributing **2** of the match's **3** goals.
 
@@ -22,11 +22,11 @@ SDS FC came in occupying a coveted playoff spot at 2nd, while N5 FC were despera
 
 ### First Half
 
-The first half sprang into life at the 12-minute mark with the **3Play** Game Changer flicking the switch — a **2-goal** window that gave the half an electric pulse. The sides went in with SDS FC just in front, a narrow advantage that kept everything delicately poised.
+Twelve minutes in and the **3Play** Game Changer came alive, reshaping the contest entirely — a **2-goal** window that gave the half an electric pulse. SDS FC took a slender lead into half-time — nothing decisive, but enough to shift the psychological battle in their favour.
 
 ### Second Half
 
-The 27th minute brought the **Fairplay** Game Changer thundering into the match — a moment that would prove pivotal — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. It was edge-of-your-seat stuff in the closing minutes. N5 FC pressed and probed, but SDS FC's back-line stood firm — resilient, organised, and ultimately heroic.
+The second half resumed with all to play for, and at the 27-minute mark the **Fairplay** Game Changer cranked up the intensity once more — yet both sides held their nerve superbly through the rule change, refusing to blink. The final exchanges were fraught with tension. N5 FC threw everything forward in search of a route back, but SDS FC held their nerve, defending with grit and intelligence to protect what they had.
 
 ---
 
@@ -35,8 +35,8 @@ The 27th minute brought the **Fairplay** Game Changer thundering into the match 
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **0′** — **Connor Wood** (SDS FC) opened the scoring
-- **12′** — **Michael Hill** (N5 FC) fired home
-- **13′** — **Selim Saied** (SDS FC) netted
+- **12′** — **Michael Hill** (N5 FC) struck
+- **13′** — **Selim Saied** (SDS FC) struck
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -113,7 +113,7 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 ## Season Context
 
-With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **SDS FC** entered this match averaging **3.3 goals per game** — a number that reflected their struggles in front of goal this campaign. **N5 FC**, by contrast, arrived with an average of **4.0 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **SDS FC** entered this match averaging **3.6 goals per game** — a number that reflected their struggles in front of goal this campaign. **N5 FC**, by contrast, arrived with an average of **3.9 per outing** — a figure that highlighted the work still to be done in the final third. 
 
 The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 

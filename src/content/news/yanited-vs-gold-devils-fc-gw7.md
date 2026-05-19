@@ -1,5 +1,5 @@
 ---
-title: "Yanited and Gold Devils FC Finish 2-2 in Hard-Fought GW7 Draw"
+title: "Yanited and Gold Devils FC Play Out 2-2 Draw in Gameweek 7"
 date: 2026-05-19
 category: "Match Report"
 excerpt: "Yanited 2-2 Gold Devils FC — Gameweek 7 match report. Kadell Daniel (14 goals) leads Yanited's attack. Game Changers: Onside (2) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Yanited 2-2 Gold Devils FC
 
-Baller Arena buzzed with anticipation as **Yanited** and **Gold Devils FC** delivered a match that ebbed and flowed, keeping everyone guessing until the final whistle.
+Gameweek 7 delivered fireworks at Baller Arena with **Yanited** taking on **Gold Devils FC** in a thoroughly entertaining contest with plenty of talking points.
 
 The final whistle confirmed a **2-2 draw**, a result that felt about right in a match where both sides gave everything. The Game Changer window — **Onside** and **Fairplay** — proved pivotal, contributing **2** of the match's **4** goals.
 
@@ -22,11 +22,11 @@ The final whistle confirmed a **2-2 draw**, a result that felt about right in a 
 
 ### First Half
 
-At the 12th minute, the **Onside** Game Changer roared into action — a **2-goal** window that gave the half an electric pulse. The two sides trudged off level at the break — nothing separating them in what was shaping up to be a classic arm-wrestle.
+Twelve minutes in and the **Onside** Game Changer came alive, reshaping the contest entirely — a **2-goal** window that gave the half an electric pulse. Half-time arrived with honours even, both managers undoubtedly pleased with elements of their side's performance.
 
 ### Second Half
 
-The tension was palpable at the restart, and the **Fairplay** Game Changer at 27 minutes only dialled it up — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. Both sides strained every sinew for a winner but the decisive blow never landed. A draw was the fairest outcome in a match where no team deserved to lose.
+The 27th minute brought the **Fairplay** Game Changer thundering into the match — a moment that would prove pivotal — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. Late drama threatened but never materialised, both teams having to accept a point apiece in what felt like a war of attrition.
 
 ---
 
@@ -34,10 +34,10 @@ The tension was palpable at the restart, and the **Fairplay** Game Changer at 27
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **2′** — **Tommy Willard** (Yanited) opened the scoring
-- **12′** — **Bilal Sayoud** (Gold Devils FC) netted
-- **15′** — **Tyrell Miller-Rodney** (Yanited) struck
-- **23′** — **Ryan Gondoh** (Gold Devils FC) struck
+- **2′** — **Tommy Willard** (Yanited) drew first blood
+- **12′** — **Bilal Sayoud** (Gold Devils FC) found the target
+- **15′** — **Tyrell Miller-Rodney** (Yanited) found the target
+- **23′** — **Ryan Gondoh** (Gold Devils FC) found the target
 
 | Minute | Player | Team |
 |--------|--------|------|

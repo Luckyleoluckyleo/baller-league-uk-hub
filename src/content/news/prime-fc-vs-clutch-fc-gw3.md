@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Prime FC 6-2 Clutch FC
 
-Baller Arena played host to an absorbing Gameweek 3 clash as **Prime FC** locked horns with **Clutch FC** in what would prove to be a pulsating encounter that had fans on the edge of their seats from the first whistle to the last.
+All roads led to Baller Arena for Gameweek 3, where **Prime FC** and **Clutch FC** produced a pulsating encounter that had fans on the edge of their seats from the first whistle to the last.
 
 Prime FC, sitting pretty in the Final Four places at 3rd, knew a win here would tighten their grip. When the dust settled, it was **Prime FC** who emerged **6-2** victors. The Game Changer window — **3Play** and **1-on-1** — proved pivotal, contributing **4** of the match's **8** goals.
 
@@ -22,11 +22,11 @@ Prime FC, sitting pretty in the Final Four places at 3rd, knew a win here would 
 
 ### First Half
 
-Barely a dozen minutes had passed when **3Play** transformed the match into something altogether different — the period yielded **2** goals, just enough to set the contest alight. Prime FC were absolutely rampant, carving Clutch FC open at will. By the break, they had built an intimidating lead that felt insurmountable.
+The game's complexion changed at the 12th minute when the **3Play** Game Changer activated — the period yielded **2** goals, just enough to set the contest alight. Prime FC were absolutely rampant, carving Clutch FC open at will. By the break, they had built an intimidating lead that felt insurmountable.
 
 ### Second Half
 
-The second half resumed with all to play for, and at the 27-minute mark the **1-on-1** Game Changer cranked up the intensity once more — and it delivered **2** goals at just the right moment to breathe fresh life into the match. Prime FC managed the occasion expertly, balancing attacking ambition with game-control to see out a thoroughly deserved victory.
+If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **1-on-1** entered the fray — the **2** goals it produced came at a crucial juncture, swinging momentum decisively. Prime FC managed the occasion expertly, balancing attacking ambition with game-control to see out a thoroughly deserved victory.
 
 ---
 
@@ -34,13 +34,13 @@ The second half resumed with all to play for, and at the 27-minute mark the **1-
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **10′** — **Francis Gerard Mampolo** (Prime FC) drew first blood
-- **13′** — **Bráulio Valera Pinto Maieco** (Prime FC) slotted
-- **14′** — **Richard Afrane-Kesey** (Clutch FC) slotted
-- **18′** — **Timmy Abraham** (Prime FC) slotted
-- **24′** — **Taufee Skandari** (Prime FC) fired home
-- **27′** — **Alfie Matthews** (Clutch FC) scored
-- **27′** — **Stefan Ilic** (Prime FC) converted
+- **10′** — **Francis Gerard Mampolo** (Prime FC) opened the scoring
+- **13′** — **Bráulio Valera Pinto Maieco** (Prime FC) fired home
+- **14′** — **Richard Afrane-Kesey** (Clutch FC) scored
+- **18′** — **Timmy Abraham** (Prime FC) found the target
+- **24′** — **Taufee Skandari** (Prime FC) found the target
+- **27′** — **Alfie Matthews** (Clutch FC) converted
+- **27′** — **Stefan Ilic** (Prime FC) struck
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -125,7 +125,7 @@ Matches where the GC contributes this significantly tend to be remembered — th
 
 ## Season Context
 
-With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **Prime FC** entered this match averaging **4.9 goals per game** — a number that reflected their struggles in front of goal this campaign. **Clutch FC**, by contrast, arrived with an average of **3.4 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **Prime FC** entered this match averaging **5.0 goals per game** — a number that reflected their struggles in front of goal this campaign. **Clutch FC**, by contrast, arrived with an average of **3.7 per outing** — a figure that highlighted the work still to be done in the final third. 
 
 The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 

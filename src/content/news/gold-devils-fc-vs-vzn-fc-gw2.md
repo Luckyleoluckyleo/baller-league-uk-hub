@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Gold Devils FC 3-1 VZN FC
 
-The lights were bright at Baller Arena on Gameweek 2, where **Gold Devils FC** and **VZN FC** served up a match that ebbed and flowed, keeping everyone guessing until the final whistle.
+Baller Arena buzzed with anticipation as **Gold Devils FC** and **VZN FC** delivered a thoroughly entertaining contest with plenty of talking points.
 
 When the dust settled, it was **Gold Devils FC** who emerged **3-1** victors. The Game Changer window — **Onside** and **The Line** — proved pivotal, contributing **1** of the match's **4** goals.
 
@@ -22,11 +22,11 @@ When the dust settled, it was **Gold Devils FC** who emerged **3-1** victors. Th
 
 ### First Half
 
-The game's complexion changed at the 12th minute when the **Onside** Game Changer activated — the period yielded **1** goal, just enough to set the contest alight. Gold Devils FC held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
+At the 12th minute, the **Onside** Game Changer roared into action — a **1-goal** window that gave the half an electric pulse. Gold Devils FC controlled the tempo and carried a deserved lead into the interval, their composure and cutting edge proving the difference.
 
 ### Second Half
 
-After the restart, the **The Line** Game Changer detonated at the 27th minute, turning the dial up to eleven — yet both sides held their nerve superbly through the rule change, refusing to blink. The final exchanges were fraught with tension. VZN FC threw everything forward in search of a route back, but Gold Devils FC held their nerve, defending with grit and intelligence to protect what they had.
+The tension was palpable at the restart, and the **The Line** Game Changer at 27 minutes only dialled it up — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. It was edge-of-your-seat stuff in the closing minutes. VZN FC pressed and probed, but Gold Devils FC's back-line stood firm — resilient, organised, and ultimately heroic.
 
 ---
 
@@ -34,10 +34,10 @@ After the restart, the **The Line** Game Changer detonated at the 27th minute, t
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **4′** — **Bilal Sayoud** (Gold Devils FC) opened the scoring
+- **4′** — **Bilal Sayoud** (Gold Devils FC) broke the deadlock
 - **12′** — **Joshua Parker** (VZN FC) found the target
-- **24′** — **Marvel Ekpiteta** (Gold Devils FC) fired home
-- **26′** — **Bilal Sayoud** (Gold Devils FC) slotted
+- **24′** — **Marvel Ekpiteta** (Gold Devils FC) struck
+- **26′** — **Bilal Sayoud** (Gold Devils FC) scored
 
 | Minute | Player | Team |
 |--------|--------|------|

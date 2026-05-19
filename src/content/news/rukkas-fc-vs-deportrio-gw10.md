@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Rukkas FC 2-2 Deportrio
 
-Tensions were high at Baller Arena as **Rukkas FC** squared off against **Deportrio** in a match that ebbed and flowed, keeping everyone guessing until the final whistle.
+The lights were bright at Baller Arena on Gameweek 10, where **Rukkas FC** and **Deportrio** served up a match that ebbed and flowed, keeping everyone guessing until the final whistle.
 
 Deportrio, sitting pretty in the Final Four places at 2nd, knew a win here would tighten their grip. The final whistle confirmed a **2-2 draw**, a result that felt about right in a match where both sides gave everything. In a rarity for Baller League, neither Game Changer activation managed to breach either defence.
 
@@ -22,11 +22,11 @@ Deportrio, sitting pretty in the Final Four places at 2nd, knew a win here would
 
 ### First Half
 
-Twelve minutes in and the **Onside** Game Changer came alive, reshaping the contest entirely — yet for all the altered rules, the defences stood tall and the deadlock remained stubbornly intact. By the interval it was impossible to call a winner. The contest was beautifully balanced, with everything still to play for.
+The game's complexion changed at the 12th minute when the **Onside** Game Changer activated — yet for all the altered rules, the defences stood tall and the deadlock remained stubbornly intact. By the interval it was impossible to call a winner. The contest was beautifully balanced, with everything still to play for.
 
 ### Second Half
 
-After the restart, the **The Line** Game Changer detonated at the 27th minute, turning the dial up to eleven — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. Late drama threatened but never materialised, both teams having to accept a point apiece in what felt like a war of attrition.
+The 27th minute brought the **The Line** Game Changer thundering into the match — a moment that would prove pivotal — yet both sides held their nerve superbly through the rule change, refusing to blink. Late drama threatened but never materialised, both teams having to accept a point apiece in what felt like a war of attrition.
 
 ---
 
@@ -34,10 +34,10 @@ After the restart, the **The Line** Game Changer detonated at the 27th minute, t
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **0′** — **Amine Sassi** (Deportrio) broke the deadlock
-- **5′** — **Mussa Bham** (Rukkas FC) found the target
-- **22′** — **Toby Aromolaran** struck
-- **26′** — **J&#039;ardell Stirling** (Deportrio) converted
+- **0′** — **Amine Sassi** (Deportrio) fired the opener
+- **5′** — **Mussa Bham** (Rukkas FC) converted
+- **22′** — **Toby Aromolaran** converted
+- **26′** — **J&#039;ardell Stirling** (Deportrio) netted
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -117,7 +117,7 @@ The **Onside** and **The Line** windows came and went with neither side able to 
 
 ## Season Context
 
-With **1 gameweek** left in the regular season, the stakes couldn't have been higher. **Rukkas FC** entered this match averaging **3.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **Deportrio**, by contrast, arrived with an average of **4.3 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **1 gameweek** left in the regular season, the stakes couldn't have been higher. **Rukkas FC** entered this match averaging **3.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **Deportrio**, by contrast, arrived with an average of **4.2 per outing** — a figure that highlighted the work still to be done in the final third. 
 
 The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. Deportrio, **2nd** in the standings, knew that dropping points at this stage could prove catastrophic to their Final Four ambitions. 
 

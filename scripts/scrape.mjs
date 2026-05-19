@@ -254,22 +254,24 @@ function parseMatch(html, gameId) {
     );
     const section = html.slice(tlStart, tlEnd);
 
-    // GC entries
-    const gcRe = /(\d{1,2})'\s*<\/div>\s*<div[^>]*>\s*⭐\s*<\/div>\s*<div[^>]*>\s*<div[^>]*>\s*([^<]+?)\s*<\/div>\s*<div[^>]*>\s*GAME CHANGER/g;
+    // GC entries — match both ⭐ (old icon) and ⚡ (GW11+ icon), with optional wrapper div
+    const gcRe = /(\d{1,2})'\s*<\/div>\s*<div[^>]*>\s*[⭐⚡]\s*<\/div>\s*<div[^>]*>\s*(?:<div[^>]*>\s*)?([^<]+?)\s*<\/div>\s*<div[^>]*>\s*GAME CHANGER/g;
     let m;
     while ((m = gcRe.exec(section)) !== null) {
       gcEntries.push({ minute: parseInt(m[1]), typeName: m[2].trim() });
     }
 
     if (gcEntries.length === 0) {
-      let pos = 0;
-      while ((pos = section.indexOf("⭐", pos)) !== -1) {
-        const before = section.slice(Math.max(0, pos - 120), pos);
-        const bm = before.match(/(\d{1,2})'\s*<\/div>/);
-        const after = section.slice(pos, pos + 250);
-        const am = after.match(/<div[^>]*>\s*([^<]+?)\s*<\/div>\s*<div[^>]*>\s*GAME CHANGER/);
-        if (bm && am) gcEntries.push({ minute: parseInt(bm[1]), typeName: am[1].trim() });
-        pos++;
+      for (const icon of ["⭐", "⚡"]) {
+        let pos = 0;
+        while ((pos = section.indexOf(icon, pos)) !== -1) {
+          const before = section.slice(Math.max(0, pos - 250), pos);
+          const bm = before.match(/(\d{1,2})'\s*<\/div>/);
+          const after = section.slice(pos, pos + 400);
+          const am = after.match(/[\s\S]*?<div[^>]*>\s*(?:<div[^>]*>\s*)?([^<]+?)\s*<\/div>\s*<div[^>]*>\s*GAME CHANGER/);
+          if (bm && am) gcEntries.push({ minute: parseInt(bm[1]), typeName: am[1].trim() });
+          pos++;
+        }
       }
     }
 

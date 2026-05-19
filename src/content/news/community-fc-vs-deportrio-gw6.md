@@ -1,5 +1,5 @@
 ---
-title: "Deportrio Obliterate Community FC 3-9 in Crushing GW6 Display"
+title: "Deportrio Destroy Community FC 3-9 in Total Domination — GW6"
 date: 2026-05-19
 category: "Match Report"
 excerpt: "Community FC 3-9 Deportrio — Gameweek 6 match report. Alex Byrne (9 goals) leads Community FC's attack. Game Changers: Plus One (3) & 1-on-1 (5). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,7 +9,7 @@ featured: true
 
 ## Match Summary — Community FC 3-9 Deportrio
 
-All roads led to Baller Arena for Gameweek 6, where **Community FC** and **Deportrio** produced a pulsating encounter that had fans on the edge of their seats from the first whistle to the last.
+A pivotal Gameweek 6 encounter saw **Community FC** go head-to-head with **Deportrio** in a breathtaking goal-fest.
 
 When the dust settled, it was **Deportrio** who emerged **3-9** victors, ending Community FC's impressive winning run in the process. The Game Changer window — **Plus One** and **1-on-1** — proved pivotal, contributing **8** of the match's **12** goals.
 
@@ -22,11 +22,11 @@ When the dust settled, it was **Deportrio** who emerged **3-9** victors, ending 
 
 ### First Half
 
-Barely a dozen minutes had passed when **Plus One** transformed the match into something altogether different — and the floodgates opened with **3** goals flying in, the crowd barely able to keep up with the relentless action. Deportrio were absolutely rampant, carving Community FC open at will. By the break, they had built an intimidating lead that felt insurmountable.
+The first half sprang into life at the 12-minute mark with the **Plus One** Game Changer flicking the switch — and the floodgates opened with **3** goals flying in, the crowd barely able to keep up with the relentless action. Deportrio were absolutely rampant, carving Community FC open at will. By the break, they had built an intimidating lead that felt insurmountable.
 
 ### Second Half
 
-The 27th minute brought the **1-on-1** Game Changer thundering into the match — a moment that would prove pivotal — and the mayhem resumed. **5** more goals erupted during the window, transforming the contest into a full-blown classic. Deportrio showed absolutely no mercy, turning a commanding position into a full-blown annihilation. Every attack carried menace; every forward run spelled danger. Community FC simply had no answer. This was Baller League at its most chaotic and brilliant — **12** goals, endless drama, and a match nobody in attendance will forget in a hurry.
+The tension was palpable at the restart, and the **1-on-1** Game Changer at 27 minutes only dialled it up — the defensive discipline of the first half evaporated as **5** goals thundered in during the activation. What followed was a masterclass in clinical finishing. Deportrio ran Community FC ragged, the scoreline a fair reflection of their total dominance. The **12-goal** spectacle was the kind of match that Baller League was built for — pure, unfiltered entertainment.
 
 ---
 
@@ -35,17 +35,17 @@ The 27th minute brought the **1-on-1** Game Changer thundering into the match �
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **5′** — **Sahid Kamara** (Deportrio) fired the opener
-- **6′** — **Jay Emmanuel-Thomas** (Deportrio) found the target
-- **7′** — **Rodney Ajayi** (Deportrio) slotted
-- **12′** — **Sahid Kamara** (Deportrio) struck
-- **13′** — **Sahid Kamara** (Deportrio) found the target
-- **14′** — **Marvin Sordell** (Deportrio) fired home
+- **6′** — **Jay Emmanuel-Thomas** (Deportrio) slotted
+- **7′** — **Rodney Ajayi** (Deportrio) fired home
+- **12′** — **Sahid Kamara** (Deportrio) found the target
+- **13′** — **Sahid Kamara** (Deportrio) slotted
+- **14′** — **Marvin Sordell** (Deportrio) found the target
 - **21′** — **George Chmiel** (Community FC) scored
 - **27′** — **Bakary Sako** struck
-- **27′** — **Alex Byrne** (Community FC) found the target
-- **27′** — **Bakary Sako** found the target
-- **28′** — **Alex Byrne** (Community FC) converted
-- **29′** — **Shaquille Whittingham** (Deportrio) fired home
+- **27′** — **Alex Byrne** (Community FC) struck
+- **27′** — **Bakary Sako** netted
+- **28′** — **Alex Byrne** (Community FC) fired home
+- **29′** — **Shaquille Whittingham** (Deportrio) scored
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -136,7 +136,7 @@ The **1-on-1** activation was particularly devastating, producing **5** goals th
 
 ## Season Context
 
-With **5 gameweeks** left in the regular season, the stakes couldn't have been higher. **Community FC** entered this match averaging **2.5 goals per game** — a number that reflected their struggles in front of goal this campaign. **Deportrio**, by contrast, arrived with an average of **4.3 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **5 gameweeks** left in the regular season, the stakes couldn't have been higher. **Community FC** entered this match averaging **2.8 goals per game** — a number that reflected their struggles in front of goal this campaign. **Deportrio**, by contrast, arrived with an average of **4.2 per outing** — a figure that highlighted the work still to be done in the final third. 
 
 The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 

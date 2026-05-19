@@ -1,5 +1,5 @@
 ---
-title: "VZN FC Narrowly Beat SDS FC 3-2 in GW6 Nail-biter"
+title: "VZN FC Edge SDS FC 3-2 in GW6 Thriller"
 date: 2026-05-19
 category: "Match Report"
 excerpt: "VZN FC 3-2 SDS FC — Gameweek 6 match report. George Nikaj (9 goals) leads VZN FC's attack. Game Changers: 3Play (0) & 1-on-1 (0). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — VZN FC 3-2 SDS FC
 
-The crowd at Baller Arena were treated to a spectacle as **VZN FC** faced **SDS FC** in a tense, knife-edge contest where the smallest of margins made all the difference.
+Gameweek 6 delivered fireworks at Baller Arena with **VZN FC** taking on **SDS FC** in a battle of attrition where every tackle, every pass, and every decision carried enormous weight.
 
 SDS FC, sitting pretty in the Final Four places at 1st, knew a win here would tighten their grip. When the dust settled, it was **VZN FC** who emerged **3-2** victors, ending SDS FC's impressive winning run in the process. In a rarity for Baller League, neither Game Changer activation managed to breach either defence.
 
@@ -22,11 +22,11 @@ SDS FC, sitting pretty in the Final Four places at 1st, knew a win here would ti
 
 ### First Half
 
-The game's complexion changed at the 12th minute when the **3Play** Game Changer activated — but remarkably, neither side could find the net. A tactical stalemate that owed as much to disciplined defending as to the specific rule change. VZN FC took a slender lead into half-time — nothing decisive, but enough to shift the psychological battle in their favour.
+At the 12th minute, the **3Play** Game Changer roared into action — but remarkably, neither side could find the net. A tactical stalemate that owed as much to disciplined defending as to the specific rule change. VZN FC took a slender lead into half-time — nothing decisive, but enough to shift the psychological battle in their favour.
 
 ### Second Half
 
-The tension was palpable at the restart, and the **1-on-1** Game Changer at 27 minutes only dialled it up — yet both sides held their nerve superbly through the rule change, refusing to blink. The final exchanges were fraught with tension. SDS FC threw everything forward in search of a route back, but VZN FC held their nerve, defending with grit and intelligence to protect what they had.
+The 27th minute brought the **1-on-1** Game Changer thundering into the match — a moment that would prove pivotal — yet both sides held their nerve superbly through the rule change, refusing to blink. The final exchanges were fraught with tension. SDS FC threw everything forward in search of a route back, but VZN FC held their nerve, defending with grit and intelligence to protect what they had.
 
 ---
 
@@ -34,11 +34,11 @@ The tension was palpable at the restart, and the **1-on-1** Game Changer at 27 m
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **5′** — **George Nikaj** (VZN FC) broke the deadlock
-- **16′** — **Danny Bassett** (SDS FC) struck
-- **20′** — **Daniel Bowry** (VZN FC) slotted
-- **21′** — **Eddie Allsopp** (VZN FC) found the target
-- **22′** — **Joshua Abbott** (SDS FC) scored
+- **5′** — **George Nikaj** (VZN FC) opened the scoring
+- **16′** — **Danny Bassett** (SDS FC) converted
+- **20′** — **Daniel Bowry** (VZN FC) struck
+- **21′** — **Eddie Allsopp** (VZN FC) struck
+- **22′** — **Joshua Abbott** (SDS FC) found the target
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -121,7 +121,7 @@ The **3Play** and **1-on-1** windows came and went with neither side able to cap
 
 ## Season Context
 
-With **5 gameweeks** left in the regular season, the stakes couldn't have been higher. **VZN FC** entered this match averaging **2.9 goals per game** — a number that reflected their struggles in front of goal this campaign. **SDS FC**, by contrast, arrived with an average of **3.3 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **5 gameweeks** left in the regular season, the stakes couldn't have been higher. **VZN FC** entered this match averaging **2.9 goals per game** — a number that reflected their struggles in front of goal this campaign. **SDS FC**, by contrast, arrived with an average of **3.6 per outing** — a figure that highlighted the work still to be done in the final third. 
 
 The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 

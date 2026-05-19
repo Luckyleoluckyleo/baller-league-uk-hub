@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — N5 FC 8-1 Rukkas FC
 
-The crowd at Baller Arena were treated to a spectacle as **N5 FC** faced **Rukkas FC** in a breathtaking goal-fest.
+Football took center stage at Baller Arena when **N5 FC** met **Rukkas FC** in a breathtaking goal-fest.
 
-N5 FC, sitting pretty in the Final Four places at 3rd, knew a win here would tighten their grip. When the dust settled, it was **N5 FC** who emerged **8-1** victors in a performance that will send shockwaves through the division. The Game Changer window — **3Play** and **1-on-1** — proved pivotal, contributing **4** of the match's **9** goals.
+N5 FC came in occupying a coveted playoff spot at 3rd, while Rukkas FC were desperate to crash the party. When the dust settled, it was **N5 FC** who emerged **8-1** victors in a performance that will send shockwaves through the division. The Game Changer window — **3Play** and **1-on-1** — proved pivotal, contributing **4** of the match's **9** goals.
 
 **N5 FC form (before GW8):** ✅ ✅ 🤝 ✅ ❌ (W-W-D-W-L)  
 **Rukkas FC form (before GW8):** ❌ ❌ ✅ ❌ ❌ (L-L-W-L-L)
@@ -22,11 +22,11 @@ N5 FC, sitting pretty in the Final Four places at 3rd, knew a win here would tig
 
 ### First Half
 
-Twelve minutes in and the **3Play** Game Changer came alive, reshaping the contest entirely — the result was chaos, in the best possible way. **3** goals poured in as both sides abandoned any defensive caution. N5 FC were absolutely rampant, carving Rukkas FC open at will. By the break, they had built an intimidating lead that felt insurmountable.
+The tactical landscape shifted dramatically at 12 minutes as the **3Play** Game Changer took hold — and the floodgates opened with **3** goals flying in, the crowd barely able to keep up with the relentless action. N5 FC simply blew Rukkas FC away in a devastating opening period, sending a powerful message to everyone watching.
 
 ### Second Half
 
-After the restart, the **1-on-1** Game Changer detonated at the 27th minute, turning the dial up to eleven — and it delivered **1** goal at just the right moment to breathe fresh life into the match. What followed was a masterclass in clinical finishing. N5 FC ran Rukkas FC ragged, the scoreline a fair reflection of their total dominance.
+The 27th minute brought the **1-on-1** Game Changer thundering into the match — a moment that would prove pivotal — the **1** goal it produced came at a crucial juncture, swinging momentum decisively. What followed was a masterclass in clinical finishing. N5 FC ran Rukkas FC ragged, the scoreline a fair reflection of their total dominance.
 
 ---
 
@@ -35,14 +35,14 @@ After the restart, the **1-on-1** Game Changer detonated at the 27th minute, tur
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **1′** — **Nile Ranger** (N5 FC) fired the opener
-- **7′** — **Michael Hill** (N5 FC) found the target
-- **13′** — **Jezreel Davies** (N5 FC) converted
-- **14′** — **Michael Hill** (N5 FC) netted
-- **15′** — **Mussa Bham** (Rukkas FC) scored
-- **24′** — **Michael Hill** (N5 FC) struck
+- **7′** — **Michael Hill** (N5 FC) netted
+- **13′** — **Jezreel Davies** (N5 FC) netted
+- **14′** — **Michael Hill** (N5 FC) struck
+- **15′** — **Mussa Bham** (Rukkas FC) found the target
+- **24′** — **Michael Hill** (N5 FC) slotted
 - **25′** — **Jean-Baptiste Fischer** (N5 FC) scored
-- **26′** — **Michael Hill** (N5 FC) netted
-- **27′** — **Mustapha Carayol** (N5 FC) slotted
+- **26′** — **Michael Hill** (N5 FC) struck
+- **27′** — **Mustapha Carayol** (N5 FC) fired home
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -132,7 +132,7 @@ The standout for N5 FC was undoubtedly **Michael Hill**, whose **4-goal** haul w
 
 ## Season Context
 
-With **3 gameweeks** left in the regular season, the stakes couldn't have been higher. **N5 FC** entered this match averaging **4.0 goals per game** — a number that reflected their struggles in front of goal this campaign. **Rukkas FC**, by contrast, arrived with an average of **3.4 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **3 gameweeks** left in the regular season, the stakes couldn't have been higher. **N5 FC** entered this match averaging **3.9 goals per game** — a number that reflected their struggles in front of goal this campaign. **Rukkas FC**, by contrast, arrived with an average of **3.4 per outing** — a figure that highlighted the work still to be done in the final third. 
 
 The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. For N5 FC, sitting **3rd** before kick-off, every remaining match carried the weight of a cup final. They were right in the thick of the playoff scramble. 
 

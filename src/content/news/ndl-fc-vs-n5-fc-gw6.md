@@ -9,9 +9,9 @@ featured: true
 
 ## Match Summary — NDL FC 4-6 N5 FC
 
-A pivotal Gameweek 6 encounter saw **NDL FC** go head-to-head with **N5 FC** in a breathtaking goal-fest.
+Baller Arena played host to an absorbing Gameweek 6 clash as **NDL FC** locked horns with **N5 FC** in what would prove to be an unforgettable thriller packed with drama and goals.
 
-NDL FC, sitting pretty in the Final Four places at 2nd, knew a win here would tighten their grip. When the dust settled, it was **N5 FC** who emerged **4-6** victors, extending their red-hot run of form in spectacular fashion. The Game Changer window — **3Play** and **1-on-1** — proved pivotal, contributing **5** of the match's **10** goals.
+NDL FC, sitting pretty in the Final Four places at 2nd, knew a win here would tighten their grip. When the dust settled, it was **N5 FC** who emerged **4-6** victors, making it a hat-trick of wins as their momentum continues to build. The Game Changer window — **3Play** and **1-on-1** — proved pivotal, contributing **5** of the match's **10** goals.
 
 **NDL FC form (before GW6):** ❌ ✅ ✅ ✅ ✅ (L-W-W-W-W)  
 **N5 FC form (before GW6):** ❌ ❌ ✅ ❌ ✅ (L-L-W-L-W)
@@ -22,11 +22,11 @@ NDL FC, sitting pretty in the Final Four places at 2nd, knew a win here would ti
 
 ### First Half
 
-Barely a dozen minutes had passed when **3Play** transformed the match into something altogether different — the result was chaos, in the best possible way. **4** goals poured in as both sides abandoned any defensive caution. N5 FC held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
+Twelve minutes in and the **3Play** Game Changer came alive, reshaping the contest entirely — and the floodgates opened with **4** goals flying in, the crowd barely able to keep up with the relentless action. N5 FC controlled the tempo and carried a deserved lead into the interval, their composure and cutting edge proving the difference.
 
 ### Second Half
 
-If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **1-on-1** entered the fray — and it delivered **1** goal at just the right moment to breathe fresh life into the match. It was edge-of-your-seat stuff in the closing minutes. NDL FC pressed and probed, but N5 FC's back-line stood firm — resilient, organised, and ultimately heroic. The **10-goal** spectacle was the kind of match that Baller League was built for — pure, unfiltered entertainment.
+The tension was palpable at the restart, and the **1-on-1** Game Changer at 27 minutes only dialled it up — and it delivered **1** goal at just the right moment to breathe fresh life into the match. The final exchanges were fraught with tension. NDL FC threw everything forward in search of a route back, but N5 FC held their nerve, defending with grit and intelligence to protect what they had. This was Baller League at its most chaotic and brilliant — **10** goals, endless drama, and a match nobody in attendance will forget in a hurry.
 
 ---
 
@@ -34,15 +34,15 @@ If the first half was intriguing, the second was about to become unmissable. At 
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **10′** — **Amin Belaid** (NDL FC) fired the opener
-- **13′** — **Joe Bennett** (N5 FC) struck
-- **13′** — **Joe Bennett** (N5 FC) netted
-- **14′** — **Michael Hill** (N5 FC) struck
-- **15′** — **Solomon Baugh** (NDL FC) found the target
-- **19′** — **Joshua Parker** (NDL FC) scored
-- **21′** — **Sam Fitzgerald** (NDL FC) found the target
+- **10′** — **Amin Belaid** (NDL FC) broke the deadlock
+- **13′** — **Joe Bennett** (N5 FC) fired home
+- **13′** — **Joe Bennett** (N5 FC) converted
+- **14′** — **Michael Hill** (N5 FC) netted
+- **15′** — **Solomon Baugh** (NDL FC) netted
+- **19′** — **Joshua Parker** (NDL FC) slotted
+- **21′** — **Sam Fitzgerald** (NDL FC) fired home
 - **23′** — **Joe Bennett** (N5 FC) slotted
-- **28′** — **Michael Hill** (N5 FC) fired home
+- **28′** — **Michael Hill** (N5 FC) netted
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -88,7 +88,7 @@ The **3Play** window was the more impactful, its **4** goals shifting the balanc
 
 ### N5 FC
 
-**Joe Bennett** led the charge for N5 FC, his **3 goals** a testament to the kind of ruthless finishing that makes him a nightmare for opposing defences.
+N5 FC had **Joe Bennett** to thank, the forward delivering a **3-goal** performance of the highest calibre.
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
@@ -133,7 +133,7 @@ The **3Play** window was the more impactful, its **4** goals shifting the balanc
 
 ## Season Context
 
-With **5 gameweeks** left in the regular season, the stakes couldn't have been higher. **NDL FC** entered this match averaging **4.7 goals per game** — a number that reflected their struggles in front of goal this campaign. **N5 FC**, by contrast, arrived with an average of **4.0 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **5 gameweeks** left in the regular season, the stakes couldn't have been higher. **NDL FC** entered this match averaging **4.6 goals per game** — a number that reflected their struggles in front of goal this campaign. **N5 FC**, by contrast, arrived with an average of **3.9 per outing** — a figure that highlighted the work still to be done in the final third. 
 
 The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 

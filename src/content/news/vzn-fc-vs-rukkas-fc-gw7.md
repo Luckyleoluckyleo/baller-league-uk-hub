@@ -9,7 +9,7 @@ featured: true
 
 ## Match Summary — VZN FC 7-3 Rukkas FC
 
-Tensions were high at Baller Arena as **VZN FC** squared off against **Rukkas FC** in a rollercoaster of emotions that had everything you could want from a Baller League match.
+Gameweek 7 delivered fireworks at Baller Arena with **VZN FC** taking on **Rukkas FC** in a rollercoaster of emotions that had everything you could want from a Baller League match.
 
 When the dust settled, it was **VZN FC** who emerged **7-3** victors. The Game Changer window — **Plus One** and **The Line** — proved pivotal, contributing **4** of the match's **10** goals.
 
@@ -22,11 +22,11 @@ When the dust settled, it was **VZN FC** who emerged **7-3** victors. The Game C
 
 ### First Half
 
-The tactical landscape shifted dramatically at 12 minutes as the **Plus One** Game Changer took hold — a **2-goal** window that gave the half an electric pulse. VZN FC simply blew Rukkas FC away in a devastating opening period, sending a powerful message to everyone watching.
+Barely a dozen minutes had passed when **Plus One** transformed the match into something altogether different — the period yielded **2** goals, just enough to set the contest alight. VZN FC were absolutely rampant, carving Rukkas FC open at will. By the break, they had built an intimidating lead that felt insurmountable.
 
 ### Second Half
 
-If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **The Line** entered the fray — the **2** goals it produced came at a crucial juncture, swinging momentum decisively. VZN FC managed the occasion expertly, balancing attacking ambition with game-control to see out a thoroughly deserved victory. This was Baller League at its most chaotic and brilliant — **10** goals, endless drama, and a match nobody in attendance will forget in a hurry.
+The 27th minute brought the **The Line** Game Changer thundering into the match — a moment that would prove pivotal — and it delivered **2** goals at just the right moment to breathe fresh life into the match. VZN FC managed the occasion expertly, balancing attacking ambition with game-control to see out a thoroughly deserved victory. This was Baller League at its most chaotic and brilliant — **10** goals, endless drama, and a match nobody in attendance will forget in a hurry.
 
 ---
 
@@ -35,15 +35,15 @@ If the first half was intriguing, the second was about to become unmissable. At 
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **2′** — **Adrian Tajik** (VZN FC) opened the scoring
-- **3′** — **Daniel Bowry** (VZN FC) struck
+- **3′** — **Daniel Bowry** (VZN FC) scored
 - **12′** — **Emmanuel Robe** (Rukkas FC) converted
-- **14′** — **George Nikaj** (VZN FC) struck
-- **16′** — **George Nikaj** (VZN FC) netted
-- **19′** — **George Nikaj** (VZN FC) netted
-- **20′** — **Adrian Tajik** (VZN FC) struck
+- **14′** — **George Nikaj** (VZN FC) scored
+- **16′** — **George Nikaj** (VZN FC) found the target
+- **19′** — **George Nikaj** (VZN FC) scored
+- **20′** — **Adrian Tajik** (VZN FC) netted
 - **22′** — **Florian Kastrati** (VZN FC) slotted
-- **28′** — **Mussa Bham** (Rukkas FC) converted
-- **29′** — **Bradley Williams** (Rukkas FC) scored
+- **28′** — **Mussa Bham** (Rukkas FC) struck
+- **29′** — **Bradley Williams** (Rukkas FC) slotted
 
 | Minute | Player | Team |
 |--------|--------|------|

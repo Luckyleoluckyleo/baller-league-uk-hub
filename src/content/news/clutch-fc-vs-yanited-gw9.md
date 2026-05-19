@@ -1,5 +1,5 @@
 ---
-title: "Clutch FC Narrowly Beat Yanited 5-4 in GW9 Nail-biter"
+title: "Clutch FC Edge Yanited 5-4 in GW9 Thriller"
 date: 2026-05-19
 category: "Match Report"
 excerpt: "Clutch FC 5-4 Yanited — Gameweek 9 match report. Alfie Matthews (12 goals) leads Clutch FC's attack. Game Changers: Plus One (3) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Clutch FC 5-4 Yanited
 
-Gameweek 9 delivered fireworks at Baller Arena with **Clutch FC** taking on **Yanited** in a rollercoaster of emotions that had everything you could want from a Baller League match.
+The crowd at Baller Arena were treated to a spectacle as **Clutch FC** faced **Yanited** in a pulsating encounter that had fans on the edge of their seats from the first whistle to the last.
 
 When the dust settled, it was **Clutch FC** who emerged **5-4** victors. The Game Changer window — **Plus One** and **Fairplay** — proved pivotal, contributing **4** of the match's **9** goals.
 
@@ -22,11 +22,11 @@ When the dust settled, it was **Clutch FC** who emerged **5-4** victors. The Gam
 
 ### First Half
 
-Barely a dozen minutes had passed when **Plus One** transformed the match into something altogether different — and the goals flowed. **3** times the net bulged during the activation period, a frantic, breathless spell of attacking football. The sides went in with Clutch FC just in front, a narrow advantage that kept everything delicately poised.
+At the 12th minute, the **Plus One** Game Changer roared into action — and the goals flowed. **3** times the net bulged during the activation period, a frantic, breathless spell of attacking football. The sides went in with Clutch FC just in front, a narrow advantage that kept everything delicately poised.
 
 ### Second Half
 
-The second half resumed with all to play for, and at the 27-minute mark the **Fairplay** Game Changer cranked up the intensity once more — the **1** goal it produced came at a crucial juncture, swinging momentum decisively. It was edge-of-your-seat stuff in the closing minutes. Yanited pressed and probed, but Clutch FC's back-line stood firm — resilient, organised, and ultimately heroic.
+If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **Fairplay** entered the fray — and it delivered **1** goal at just the right moment to breathe fresh life into the match. The final exchanges were fraught with tension. Yanited threw everything forward in search of a route back, but Clutch FC held their nerve, defending with grit and intelligence to protect what they had.
 
 ---
 
@@ -36,13 +36,13 @@ The goals arrived in a dramatic sequence that told the story of the match:
 
 - **0′** — **Kadell Daniel** (Yanited) drew first blood
 - **4′** — **Remy Clerima** (Clutch FC) slotted
-- **5′** — **Tyler Winters** (Clutch FC) converted
-- **13′** — **Kadell Daniel** (Yanited) scored
-- **14′** — **Kadell Daniel** (Yanited) converted
-- **14′** — **Tyler Winters** (Clutch FC) struck
-- **23′** — **Richard Afrane-Kesey** (Clutch FC) slotted
-- **26′** — **Kadell Daniel** (Yanited) scored
-- **29′** — **Richard Afrane-Kesey** (Clutch FC) scored
+- **5′** — **Tyler Winters** (Clutch FC) struck
+- **13′** — **Kadell Daniel** (Yanited) fired home
+- **14′** — **Kadell Daniel** (Yanited) found the target
+- **14′** — **Tyler Winters** (Clutch FC) fired home
+- **23′** — **Richard Afrane-Kesey** (Clutch FC) scored
+- **26′** — **Kadell Daniel** (Yanited) netted
+- **29′** — **Richard Afrane-Kesey** (Clutch FC) found the target
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -132,7 +132,7 @@ Yanited had **Kadell Daniel** to thank, the forward delivering a **4-goal** perf
 
 ## Season Context
 
-With **2 gameweeks** left in the regular season, the stakes couldn't have been higher. **Clutch FC** entered this match averaging **3.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **Yanited**, by contrast, arrived with an average of **3.4 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **2 gameweeks** left in the regular season, the stakes couldn't have been higher. **Clutch FC** entered this match averaging **3.7 goals per game** — a number that reflected their struggles in front of goal this campaign. **Yanited**, by contrast, arrived with an average of **3.4 per outing** — a figure that highlighted the work still to be done in the final third. 
 
 The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 

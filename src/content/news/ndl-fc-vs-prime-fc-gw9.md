@@ -1,5 +1,5 @@
 ---
-title: "NDL FC Down Prime FC 5-3 in Hard-Fought GW9 Battle"
+title: "NDL FC Beat Prime FC 5-3 in Entertaining GW9 Clash"
 date: 2026-05-19
 category: "Match Report"
 excerpt: "NDL FC 5-3 Prime FC — Gameweek 9 match report. Dara Dada (8 goals) leads NDL FC's attack. Game Changers: 3Play (3) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — NDL FC 5-3 Prime FC
 
-All roads led to Baller Arena for Gameweek 9, where **NDL FC** and **Prime FC** produced an unforgettable thriller packed with drama and goals.
+The Gameweek 9 spotlight fell on Baller Arena for **NDL FC** versus **Prime FC** — an unforgettable thriller packed with drama and goals.
 
 NDL FC came in occupying a coveted playoff spot at 1st, while Prime FC were desperate to crash the party. When the dust settled, it was **NDL FC** who emerged **5-3** victors. The Game Changer window — **3Play** and **1-on-1** — proved pivotal, contributing **6** of the match's **8** goals.
 
@@ -22,11 +22,11 @@ NDL FC came in occupying a coveted playoff spot at 1st, while Prime FC were desp
 
 ### First Half
 
-The tactical landscape shifted dramatically at 12 minutes as the **3Play** Game Changer took hold — and the goals flowed. **3** times the net bulged during the activation period, a frantic, breathless spell of attacking football. NDL FC held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
+The tactical landscape shifted dramatically at 12 minutes as the **3Play** Game Changer took hold — and the floodgates opened with **3** goals flying in, the crowd barely able to keep up with the relentless action. NDL FC controlled the tempo and carried a deserved lead into the interval, their composure and cutting edge proving the difference.
 
 ### Second Half
 
-After the restart, the **1-on-1** Game Changer detonated at the 27th minute, turning the dial up to eleven — and the mayhem resumed. **3** more goals erupted during the window, transforming the contest into a full-blown classic. The final exchanges were fraught with tension. Prime FC threw everything forward in search of a route back, but NDL FC held their nerve, defending with grit and intelligence to protect what they had.
+If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **1-on-1** entered the fray — the defensive discipline of the first half evaporated as **3** goals thundered in during the activation. It was edge-of-your-seat stuff in the closing minutes. Prime FC pressed and probed, but NDL FC's back-line stood firm — resilient, organised, and ultimately heroic.
 
 ---
 
@@ -34,12 +34,12 @@ After the restart, the **1-on-1** Game Changer detonated at the 27th minute, tur
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **10′** — **Isaac Modi** (NDL FC) broke the deadlock
-- **13′** — **Joseph Adewunmi** converted
+- **10′** — **Isaac Modi** (NDL FC) drew first blood
+- **13′** — **Joseph Adewunmi** found the target
 - **14′** — **Sam Fitzgerald** (NDL FC) found the target
-- **14′** — **Montel McKenzie** (Prime FC) found the target
-- **21′** — **Bráulio Valera Pinto Maieco** (Prime FC) fired home
-- **27′** — **Kevin Weggen** (NDL FC) slotted
+- **14′** — **Montel McKenzie** (Prime FC) slotted
+- **21′** — **Bráulio Valera Pinto Maieco** (Prime FC) struck
+- **27′** — **Kevin Weggen** (NDL FC) netted
 - **29′** — **Francis Gerard Mampolo** (Prime FC) fired home
 
 | Minute | Player | Team |
@@ -125,7 +125,7 @@ The **3Play** activation was particularly devastating, producing **3** goals tha
 
 ## Season Context
 
-With **2 gameweeks** left in the regular season, the stakes couldn't have been higher. **NDL FC** entered this match averaging **4.7 goals per game** — a number that reflected their struggles in front of goal this campaign. **Prime FC**, by contrast, arrived with an average of **4.9 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **2 gameweeks** left in the regular season, the stakes couldn't have been higher. **NDL FC** entered this match averaging **4.6 goals per game** — a number that reflected their struggles in front of goal this campaign. **Prime FC**, by contrast, arrived with an average of **5.0 per outing** — a figure that highlighted the work still to be done in the final third. 
 
 The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. For NDL FC, sitting **1st** before kick-off, every remaining match carried the weight of a cup final. They had one foot in the Final Four. 
 

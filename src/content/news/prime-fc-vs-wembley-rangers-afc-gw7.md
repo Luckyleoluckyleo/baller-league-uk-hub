@@ -1,5 +1,5 @@
 ---
-title: "Prime FC Obliterate Wembley Rangers AFC 7-1 in Crushing GW7 Display"
+title: "Prime FC Annihilate Wembley Rangers AFC 7-1 in Statement Victory — GW7"
 date: 2026-05-19
 category: "Match Report"
 excerpt: "Prime FC 7-1 Wembley Rangers AFC — Gameweek 7 match report. Francis Gerard Mampolo (17 goals) leads Prime FC's attack. Game Changers: Plus One (0) & The Line (4). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Prime FC 7-1 Wembley Rangers AFC
 
-Baller Arena buzzed with anticipation as **Prime FC** and **Wembley Rangers AFC** delivered an unforgettable thriller packed with drama and goals.
+Gameweek 7 delivered fireworks at Baller Arena with **Prime FC** taking on **Wembley Rangers AFC** in a rollercoaster of emotions that had everything you could want from a Baller League match.
 
 Wembley Rangers AFC, sitting pretty in the Final Four places at 4th, knew a win here would tighten their grip. When the dust settled, it was **Prime FC** who emerged **7-1** victors, ending Wembley Rangers AFC's impressive winning run in the process. The Game Changer window — **Plus One** and **The Line** — proved pivotal, contributing **4** of the match's **8** goals.
 
@@ -22,11 +22,11 @@ Wembley Rangers AFC, sitting pretty in the Final Four places at 4th, knew a win 
 
 ### First Half
 
-Barely a dozen minutes had passed when **Plus One** transformed the match into something altogether different — but remarkably, neither side could find the net. A tactical stalemate that owed as much to disciplined defending as to the specific rule change. Prime FC simply blew Wembley Rangers AFC away in a devastating opening period, sending a powerful message to everyone watching.
+The tactical landscape shifted dramatically at 12 minutes as the **Plus One** Game Changer took hold — but the goalkeepers and back-lines rose to the occasion, keeping the scoreboard operator idle throughout the activation. Prime FC were absolutely rampant, carving Wembley Rangers AFC open at will. By the break, they had built an intimidating lead that felt insurmountable.
 
 ### Second Half
 
-If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **The Line** entered the fray — and the mayhem resumed. **4** more goals erupted during the window, transforming the contest into a full-blown classic. What followed was a masterclass in clinical finishing. Prime FC ran Wembley Rangers AFC ragged, the scoreline a fair reflection of their total dominance.
+The tension was palpable at the restart, and the **The Line** Game Changer at 27 minutes only dialled it up — and the mayhem resumed. **4** more goals erupted during the window, transforming the contest into a full-blown classic. What followed was a masterclass in clinical finishing. Prime FC ran Wembley Rangers AFC ragged, the scoreline a fair reflection of their total dominance.
 
 ---
 
@@ -34,14 +34,14 @@ If the first half was intriguing, the second was about to become unmissable. At 
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **7′** — **Ben Long** (Wembley Rangers AFC) broke the deadlock
-- **10′** — **Bráulio Valera Pinto Maieco** (Prime FC) fired home
-- **21′** — **Bráulio Valera Pinto Maieco** (Prime FC) slotted
-- **26′** — **Timmy Abraham** (Prime FC) found the target
-- **28′** — **Ergys Pepaj** (Prime FC) struck
-- **28′** — **Ergys Pepaj** (Prime FC) scored
-- **28′** — **Francis Gerard Mampolo** (Prime FC) fired home
+- **7′** — **Ben Long** (Wembley Rangers AFC) drew first blood
+- **10′** — **Bráulio Valera Pinto Maieco** (Prime FC) scored
+- **21′** — **Bráulio Valera Pinto Maieco** (Prime FC) fired home
+- **26′** — **Timmy Abraham** (Prime FC) netted
+- **28′** — **Ergys Pepaj** (Prime FC) converted
+- **28′** — **Ergys Pepaj** (Prime FC) netted
 - **28′** — **Francis Gerard Mampolo** (Prime FC) slotted
+- **28′** — **Francis Gerard Mampolo** (Prime FC) fired home
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -76,7 +76,7 @@ The **The Line** window was the more impactful, its **4** goals shifting the bal
 
 ### Prime FC
 
-The standout for Prime FC was undoubtedly **Ergys Pepaj**, whose **2-goal** haul was the foundation of everything good about their display. As if scoring wasn't enough, he also turned provider with **1 assist**.
+**Ergys Pepaj** was Prime FC's standout performer, bagging **2 goals** in a display of clinical finishing that powered his side's effort. As if scoring wasn't enough, he also turned provider with **1 assist**.
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
@@ -128,7 +128,7 @@ The standout for Prime FC was undoubtedly **Ergys Pepaj**, whose **2-goal** haul
 
 ## Season Context
 
-With **4 gameweeks** left in the regular season, the stakes couldn't have been higher. **Prime FC** entered this match averaging **4.9 goals per game** — a number that reflected their struggles in front of goal this campaign. **Wembley Rangers AFC**, by contrast, arrived with an average of **3.4 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **4 gameweeks** left in the regular season, the stakes couldn't have been higher. **Prime FC** entered this match averaging **5.0 goals per game** — a number that reflected their struggles in front of goal this campaign. **Wembley Rangers AFC**, by contrast, arrived with an average of **3.2 per outing** — a figure that highlighted the work still to be done in the final third. 
 
 The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 

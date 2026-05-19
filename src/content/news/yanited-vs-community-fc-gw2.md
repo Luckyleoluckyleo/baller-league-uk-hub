@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Yanited 5-3 Community FC
 
-Football took center stage at Baller Arena when **Yanited** met **Community FC** in a pulsating encounter that had fans on the edge of their seats from the first whistle to the last.
+The crowd at Baller Arena were treated to a spectacle as **Yanited** faced **Community FC** in a pulsating encounter that had fans on the edge of their seats from the first whistle to the last.
 
 When the dust settled, it was **Yanited** who emerged **5-3** victors. The Game Changer window — **Plus One** and **1-on-1** — proved pivotal, contributing **1** of the match's **8** goals.
 
@@ -22,11 +22,11 @@ When the dust settled, it was **Yanited** who emerged **5-3** victors. The Game 
 
 ### First Half
 
-The first half sprang into life at the 12-minute mark with the **Plus One** Game Changer flicking the switch — the period yielded **1** goal, just enough to set the contest alight. Yanited controlled the tempo and carried a deserved lead into the interval, their composure and cutting edge proving the difference.
+The tactical landscape shifted dramatically at 12 minutes as the **Plus One** Game Changer took hold — a **1-goal** window that gave the half an electric pulse. Yanited controlled the tempo and carried a deserved lead into the interval, their composure and cutting edge proving the difference.
 
 ### Second Half
 
-If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **1-on-1** entered the fray — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. The final exchanges were fraught with tension. Community FC threw everything forward in search of a route back, but Yanited held their nerve, defending with grit and intelligence to protect what they had.
+If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **1-on-1** entered the fray — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. It was edge-of-your-seat stuff in the closing minutes. Community FC pressed and probed, but Yanited's back-line stood firm — resilient, organised, and ultimately heroic.
 
 ---
 
@@ -34,14 +34,14 @@ If the first half was intriguing, the second was about to become unmissable. At 
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **7′** — **Mulugeta Kidu** (Community FC) drew first blood
-- **9′** — **Kadell Daniel** (Yanited) found the target
-- **11′** — **Keane Joyce** (Community FC) fired home
-- **13′** — **Kadell Daniel** (Yanited) fired home
-- **18′** — **Keane Joyce** (Community FC) fired home
-- **23′** — **Tyrell Miller-Rodney** (Yanited) struck
-- **25′** — **Nathan Oduwa** (Yanited) converted
-- **26′** — **Kadell Daniel** (Yanited) scored
+- **7′** — **Mulugeta Kidu** (Community FC) broke the deadlock
+- **9′** — **Kadell Daniel** (Yanited) converted
+- **11′** — **Keane Joyce** (Community FC) found the target
+- **13′** — **Kadell Daniel** (Yanited) found the target
+- **18′** — **Keane Joyce** (Community FC) netted
+- **23′** — **Tyrell Miller-Rodney** (Yanited) converted
+- **25′** — **Nathan Oduwa** (Yanited) scored
+- **26′** — **Kadell Daniel** (Yanited) slotted
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -86,7 +86,7 @@ The standout for Yanited was undoubtedly **Kadell Daniel**, whose **3-goal** hau
 
 ### Community FC
 
-Community FC had **Keane Joyce** to thank, the forward delivering a **2-goal** performance of the highest calibre.
+**Keane Joyce** led the charge for Community FC, his **2 goals** a testament to the kind of ruthless finishing that makes him a nightmare for opposing defences.
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
@@ -129,7 +129,7 @@ Community FC had **Keane Joyce** to thank, the forward delivering a **2-goal** p
 
 ## Season Context
 
-With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **Yanited** entered this match averaging **3.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **Community FC**, by contrast, arrived with an average of **2.5 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **Yanited** entered this match averaging **3.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **Community FC**, by contrast, arrived with an average of **2.8 per outing** — a figure that highlighted the work still to be done in the final third. 
 
 The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 

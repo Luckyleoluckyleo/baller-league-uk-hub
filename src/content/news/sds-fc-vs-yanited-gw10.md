@@ -9,9 +9,9 @@ featured: true
 
 ## Match Summary — SDS FC 6-6 Yanited
 
-Baller Arena played host to an absorbing Gameweek 10 clash as **SDS FC** locked horns with **Yanited** in what would prove to be a scoring bonanza that had the crowd on their feet — and somehow still ended level.
+All roads led to Baller Arena for Gameweek 10, where **SDS FC** and **Yanited** produced a breathtaking stalemate that somehow had no winner but absolutely no shortage of entertainment.
 
-SDS FC, sitting pretty in the Final Four places at 3rd, knew a win here would tighten their grip. The final whistle confirmed a **6-6 draw** in a contest that had absolutely everything — goals, drama, and relentless entertainment. The Game Changer window — **3Play** and **1-on-1** — proved pivotal, contributing **5** of the match's **12** goals.
+SDS FC came in occupying a coveted playoff spot at 3rd, while Yanited were desperate to crash the party. The final whistle confirmed a **6-6 draw** in a contest that had absolutely everything — goals, drama, and relentless entertainment. The Game Changer window — **3Play** and **1-on-1** — proved pivotal, contributing **5** of the match's **12** goals.
 
 **SDS FC form (before GW10):** ❌ ❌ ✅ 🤝 ❌ (L-L-W-D-L)  
 **Yanited form (before GW10):** ❌ ❌ ❌ ❌ ✅ (L-L-L-L-W)
@@ -22,11 +22,11 @@ SDS FC, sitting pretty in the Final Four places at 3rd, knew a win here would ti
 
 ### First Half
 
-The first half sprang into life at the 12-minute mark with the **3Play** Game Changer flicking the switch — and the goals flowed. **4** times the net bulged during the activation period, a frantic, breathless spell of attacking football. The two sides trudged off level at the break — nothing separating them in what was shaping up to be a classic arm-wrestle.
+The tactical landscape shifted dramatically at 12 minutes as the **3Play** Game Changer took hold — the result was chaos, in the best possible way. **4** goals poured in as both sides abandoned any defensive caution. Half-time arrived with honours even, both managers undoubtedly pleased with elements of their side's performance.
 
 ### Second Half
 
-The second half resumed with all to play for, and at the 27-minute mark the **1-on-1** Game Changer cranked up the intensity once more — and it delivered **1** goal at just the right moment to breathe fresh life into the match. Both sides strained every sinew for a winner but the decisive blow never landed. A draw was the fairest outcome in a match where no team deserved to lose. This was Baller League at its most chaotic and brilliant — **12** goals, endless drama, and a match nobody in attendance will forget in a hurry.
+The second half resumed with all to play for, and at the 27-minute mark the **1-on-1** Game Changer cranked up the intensity once more — and it delivered **1** goal at just the right moment to breathe fresh life into the match. Late drama threatened but never materialised, both teams having to accept a point apiece in what felt like a war of attrition. This was Baller League at its most chaotic and brilliant — **12** goals, endless drama, and a match nobody in attendance will forget in a hurry.
 
 ---
 
@@ -34,18 +34,18 @@ The second half resumed with all to play for, and at the 27-minute mark the **1-
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **3′** — **Michael Folivi** (Yanited) broke the deadlock
-- **3′** — **Camilo Restrepo** (SDS FC) fired home
-- **10′** — **Kadell Daniel** (Yanited) found the target
-- **12′** — **Nya Kirby** (SDS FC) struck
-- **12′** — **Michael Folivi** (Yanited) found the target
+- **3′** — **Michael Folivi** (Yanited) opened the scoring
+- **3′** — **Camilo Restrepo** (SDS FC) slotted
+- **10′** — **Kadell Daniel** (Yanited) netted
+- **12′** — **Nya Kirby** (SDS FC) fired home
+- **12′** — **Michael Folivi** (Yanited) scored
 - **13′** — **Nya Kirby** (SDS FC) slotted
-- **14′** — **Danny Bassett** (SDS FC) struck
-- **24′** — **Bayley Brown** (SDS FC) slotted
+- **14′** — **Danny Bassett** (SDS FC) scored
+- **24′** — **Bayley Brown** (SDS FC) netted
 - **28′** — **Medy Elito** (Yanited) netted
 - **30′** — **Kadell Daniel** (Yanited) converted
-- **30′** — **Joshua Abbott** (SDS FC) found the target
-- **31′** — **Kadell Daniel** (Yanited) scored
+- **30′** — **Joshua Abbott** (SDS FC) scored
+- **31′** — **Kadell Daniel** (Yanited) slotted
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -84,7 +84,7 @@ The **3Play** window was the more impactful, its **4** goals shifting the balanc
 
 ### SDS FC
 
-**Nya Kirby** was SDS FC's standout performer, bagging **2 goals** in a display of clinical finishing that powered his side's effort.
+The standout for SDS FC was undoubtedly **Nya Kirby**, whose **2-goal** haul was the foundation of everything good about their display.
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
@@ -144,7 +144,7 @@ The **3Play** window was the more impactful, its **4** goals shifting the balanc
 
 ## Season Context
 
-With **1 gameweek** left in the regular season, the stakes couldn't have been higher. **SDS FC** entered this match averaging **3.3 goals per game** — a number that reflected their struggles in front of goal this campaign. **Yanited**, by contrast, arrived with an average of **3.4 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **1 gameweek** left in the regular season, the stakes couldn't have been higher. **SDS FC** entered this match averaging **3.6 goals per game** — a number that reflected their struggles in front of goal this campaign. **Yanited**, by contrast, arrived with an average of **3.4 per outing** — a figure that highlighted the work still to be done in the final third. 
 
 The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. For SDS FC, sitting **3rd** before kick-off, every remaining match carried the weight of a cup final. They were right in the thick of the playoff scramble. 
 

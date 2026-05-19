@@ -1,5 +1,5 @@
 ---
-title: "Deportrio See Off Prime FC 8-6 in Gameweek 8"
+title: "Deportrio Beat Prime FC 8-6 in Entertaining GW8 Clash"
 date: 2026-05-19
 category: "Match Report"
 excerpt: "Deportrio 8-6 Prime FC — Gameweek 8 match report. Jay Emmanuel-Thomas (18 goals) leads Deportrio's attack. Game Changers: 3Play (5) & The Line (2). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,9 +9,9 @@ featured: true
 
 ## Match Summary — Deportrio 8-6 Prime FC
 
-The crowd at Baller Arena were treated to a spectacle as **Deportrio** faced **Prime FC** in an unforgettable thriller packed with drama and goals.
+The lights were bright at Baller Arena on Gameweek 8, where **Deportrio** and **Prime FC** served up an unforgettable thriller packed with drama and goals.
 
-Deportrio, sitting pretty in the Final Four places at 4th, knew a win here would tighten their grip. When the dust settled, it was **Deportrio** who emerged **8-6** victors. The Game Changer window — **3Play** and **The Line** — proved pivotal, contributing **7** of the match's **14** goals.
+Deportrio came in occupying a coveted playoff spot at 4th, while Prime FC were desperate to crash the party. When the dust settled, it was **Deportrio** who emerged **8-6** victors. The Game Changer window — **3Play** and **The Line** — proved pivotal, contributing **7** of the match's **14** goals.
 
 **Deportrio form (before GW8):** ✅ 🤝 🤝 ✅ ✅ (W-D-D-W-W)  
 **Prime FC form (before GW8):** ✅ ✅ 🤝 ❌ ✅ (W-W-D-L-W)
@@ -26,7 +26,7 @@ The tactical landscape shifted dramatically at 12 minutes as the **3Play** Game 
 
 ### Second Half
 
-The 27th minute brought the **The Line** Game Changer thundering into the match — a moment that would prove pivotal — the **2** goals it produced came at a crucial juncture, swinging momentum decisively. It was edge-of-your-seat stuff in the closing minutes. Prime FC pressed and probed, but Deportrio's back-line stood firm — resilient, organised, and ultimately heroic. This was Baller League at its most chaotic and brilliant — **14** goals, endless drama, and a match nobody in attendance will forget in a hurry.
+The 27th minute brought the **The Line** Game Changer thundering into the match — a moment that would prove pivotal — and it delivered **2** goals at just the right moment to breathe fresh life into the match. The final exchanges were fraught with tension. Prime FC threw everything forward in search of a route back, but Deportrio held their nerve, defending with grit and intelligence to protect what they had. This was Baller League at its most chaotic and brilliant — **14** goals, endless drama, and a match nobody in attendance will forget in a hurry.
 
 ---
 
@@ -34,19 +34,19 @@ The 27th minute brought the **The Line** Game Changer thundering into the match 
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **3′** — **Bráulio Valera Pinto Maieco** (Prime FC) opened the scoring
-- **7′** — **Timmy Abraham** (Prime FC) fired home
+- **3′** — **Bráulio Valera Pinto Maieco** (Prime FC) drew first blood
+- **7′** — **Timmy Abraham** (Prime FC) scored
 - **8′** — **Sak Hassan** (Prime FC) found the target
-- **12′** — **Jay Emmanuel-Thomas** (Deportrio) scored
-- **12′** — **Sahid Kamara** (Deportrio) struck
+- **12′** — **Jay Emmanuel-Thomas** (Deportrio) slotted
+- **12′** — **Sahid Kamara** (Deportrio) scored
 - **13′** — **Sahid Kamara** (Deportrio) fired home
 - **14′** — **Jay Emmanuel-Thomas** (Deportrio) netted
-- **14′** — **J&#039;ardell Stirling** (Deportrio) converted
-- **17′** — **Bráulio Valera Pinto Maieco** (Prime FC) fired home
-- **19′** — **Jay Emmanuel-Thomas** (Deportrio) found the target
-- **22′** — **Francis Gerard Mampolo** (Prime FC) scored
-- **26′** — **Mauro Vilhete** (Prime FC) slotted
-- **27′** — **Jay Emmanuel-Thomas** (Deportrio) fired home
+- **14′** — **J&#039;ardell Stirling** (Deportrio) scored
+- **17′** — **Bráulio Valera Pinto Maieco** (Prime FC) scored
+- **19′** — **Jay Emmanuel-Thomas** (Deportrio) slotted
+- **22′** — **Francis Gerard Mampolo** (Prime FC) struck
+- **26′** — **Mauro Vilhete** (Prime FC) scored
+- **27′** — **Jay Emmanuel-Thomas** (Deportrio) converted
 - **27′** — **Jay Emmanuel-Thomas** (Deportrio) converted
 
 | Minute | Player | Team |
@@ -100,7 +100,7 @@ The **3Play** activation was particularly devastating, producing **5** goals tha
 
 ### Prime FC
 
-**Bráulio Valera Pinto Maieco** led the charge for Prime FC, his **2 goals** a testament to the kind of ruthless finishing that makes him a nightmare for opposing defences.
+Prime FC had **Bráulio Valera Pinto Maieco** to thank, the forward delivering a **2-goal** performance of the highest calibre.
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
@@ -148,7 +148,7 @@ The **3Play** activation was particularly devastating, producing **5** goals tha
 
 ## Season Context
 
-With **3 gameweeks** left in the regular season, the stakes couldn't have been higher. **Deportrio** entered this match averaging **4.3 goals per game** — a number that reflected their struggles in front of goal this campaign. **Prime FC**, by contrast, arrived with an average of **4.9 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **3 gameweeks** left in the regular season, the stakes couldn't have been higher. **Deportrio** entered this match averaging **4.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **Prime FC**, by contrast, arrived with an average of **5.0 per outing** — a figure that highlighted the work still to be done in the final third. 
 
 The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. For Deportrio, sitting **4th** before kick-off, every remaining match carried the weight of a cup final. They were right in the thick of the playoff scramble. 
 

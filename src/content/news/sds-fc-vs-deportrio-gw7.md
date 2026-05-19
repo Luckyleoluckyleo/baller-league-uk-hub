@@ -1,5 +1,5 @@
 ---
-title: "SDS FC and Deportrio Split the Points in 2-2 GW7 Stalemate"
+title: "SDS FC and Deportrio Deadlocked at 2-2 in GW7"
 date: 2026-05-19
 category: "Match Report"
 excerpt: "SDS FC 2-2 Deportrio — Gameweek 7 match report. Connor Wood (6 goals) leads SDS FC's attack. Game Changers: 3Play (3) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — SDS FC 2-2 Deportrio
 
-Tensions were high at Baller Arena as **SDS FC** squared off against **Deportrio** in a compelling advert for Baller League football — competitive, dramatic, and hard-fought.
+All roads led to Baller Arena for Gameweek 7, where **SDS FC** and **Deportrio** produced a compelling advert for Baller League football — competitive, dramatic, and hard-fought.
 
 SDS FC came in occupying a coveted playoff spot at 1st, while Deportrio were desperate to crash the party. The final whistle confirmed a **2-2 draw**, a result that felt about right in a match where both sides gave everything. The Game Changer window — **3Play** and **The Line** — proved pivotal, contributing **3** of the match's **4** goals.
 
@@ -22,11 +22,11 @@ SDS FC came in occupying a coveted playoff spot at 1st, while Deportrio were des
 
 ### First Half
 
-The tactical landscape shifted dramatically at 12 minutes as the **3Play** Game Changer took hold — the result was chaos, in the best possible way. **3** goals poured in as both sides abandoned any defensive caution. Half-time arrived with honours even, both managers undoubtedly pleased with elements of their side's performance.
+Twelve minutes in and the **3Play** Game Changer came alive, reshaping the contest entirely — and the goals flowed. **3** times the net bulged during the activation period, a frantic, breathless spell of attacking football. By the interval it was impossible to call a winner. The contest was beautifully balanced, with everything still to play for.
 
 ### Second Half
 
-If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **The Line** entered the fray — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. Late drama threatened but never materialised, both teams having to accept a point apiece in what felt like a war of attrition.
+The second half resumed with all to play for, and at the 27-minute mark the **The Line** Game Changer cranked up the intensity once more — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. Late drama threatened but never materialised, both teams having to accept a point apiece in what felt like a war of attrition.
 
 ---
 
@@ -34,10 +34,10 @@ If the first half was intriguing, the second was about to become unmissable. At 
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **1′** — **Bakary Sako** opened the scoring
-- **12′** — **Jay Emmanuel-Thomas** (Deportrio) slotted
+- **1′** — **Bakary Sako** broke the deadlock
+- **12′** — **Jay Emmanuel-Thomas** (Deportrio) converted
 - **12′** — **Kazaiah Sterling** (SDS FC) scored
-- **14′** — **Hafed Al Droubi** (SDS FC) converted
+- **14′** — **Hafed Al Droubi** (SDS FC) scored
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -117,7 +117,7 @@ The **3Play** window was the more impactful, its **3** goals shifting the balanc
 
 ## Season Context
 
-With **4 gameweeks** left in the regular season, the stakes couldn't have been higher. **SDS FC** entered this match averaging **3.3 goals per game** — a number that reflected their struggles in front of goal this campaign. **Deportrio**, by contrast, arrived with an average of **4.3 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **4 gameweeks** left in the regular season, the stakes couldn't have been higher. **SDS FC** entered this match averaging **3.6 goals per game** — a number that reflected their struggles in front of goal this campaign. **Deportrio**, by contrast, arrived with an average of **4.2 per outing** — a figure that highlighted the work still to be done in the final third. 
 
 The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 

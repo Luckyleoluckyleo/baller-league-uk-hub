@@ -1,5 +1,5 @@
 ---
-title: "Deportrio Down VZN FC 6-4 in Hard-Fought GW9 Battle"
+title: "Deportrio Claim 6-4 Win Over VZN FC in GW9"
 date: 2026-05-19
 category: "Match Report"
 excerpt: "Deportrio 6-4 VZN FC — Gameweek 9 match report. Jay Emmanuel-Thomas (18 goals) leads Deportrio's attack. Game Changers: Plus One (1) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,9 +9,9 @@ featured: true
 
 ## Match Summary — Deportrio 6-4 VZN FC
 
-Gameweek 9 delivered fireworks at Baller Arena with **Deportrio** taking on **VZN FC** in a pulsating encounter that had fans on the edge of their seats from the first whistle to the last.
+All roads led to Baller Arena for Gameweek 9, where **Deportrio** and **VZN FC** produced a pulsating encounter that had fans on the edge of their seats from the first whistle to the last.
 
-Deportrio came in occupying a coveted playoff spot at 4th, while VZN FC were desperate to crash the party. When the dust settled, it was **Deportrio** who emerged **6-4** victors. The Game Changer window — **Plus One** and **1-on-1** — proved pivotal, contributing **4** of the match's **10** goals.
+Deportrio, sitting pretty in the Final Four places at 4th, knew a win here would tighten their grip. When the dust settled, it was **Deportrio** who emerged **6-4** victors. The Game Changer window — **Plus One** and **1-on-1** — proved pivotal, contributing **4** of the match's **10** goals.
 
 **Deportrio form (before GW9):** 🤝 ✅ ✅ 🤝 🤝 (D-W-W-D-D)  
 **VZN FC form (before GW9):** ❌ ✅ ❌ ✅ ❌ (L-W-L-W-L)
@@ -22,11 +22,11 @@ Deportrio came in occupying a coveted playoff spot at 4th, while VZN FC were des
 
 ### First Half
 
-Barely a dozen minutes had passed when **Plus One** transformed the match into something altogether different — the period yielded **1** goal, just enough to set the contest alight. Deportrio held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
+Twelve minutes in and the **Plus One** Game Changer came alive, reshaping the contest entirely — a **1-goal** window that gave the half an electric pulse. Deportrio held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
 
 ### Second Half
 
-The 27th minute brought the **1-on-1** Game Changer thundering into the match — a moment that would prove pivotal — the defensive discipline of the first half evaporated as **3** goals thundered in during the activation. The final exchanges were fraught with tension. VZN FC threw everything forward in search of a route back, but Deportrio held their nerve, defending with grit and intelligence to protect what they had. The **10-goal** spectacle was the kind of match that Baller League was built for — pure, unfiltered entertainment.
+The second half resumed with all to play for, and at the 27-minute mark the **1-on-1** Game Changer cranked up the intensity once more — once again the goals rained down, **3** of them, raw and relentless. The final exchanges were fraught with tension. VZN FC threw everything forward in search of a route back, but Deportrio held their nerve, defending with grit and intelligence to protect what they had. This was Baller League at its most chaotic and brilliant — **10** goals, endless drama, and a match nobody in attendance will forget in a hurry.
 
 ---
 
@@ -34,16 +34,16 @@ The 27th minute brought the **1-on-1** Game Changer thundering into the match �
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **0′** — **Florian Kastrati** (VZN FC) fired the opener
-- **13′** — **Jay Emmanuel-Thomas** (Deportrio) slotted
-- **18′** — **Sahid Kamara** (Deportrio) struck
-- **20′** — **Kole Hall** (Deportrio) slotted
-- **21′** — **Che Krabbendam** (VZN FC) struck
-- **25′** — **Sahid Kamara** (Deportrio) netted
-- **26′** — **Isiah Noel-Williams** (VZN FC) netted
-- **28′** — **George Nikaj** (VZN FC) struck
-- **28′** — **Jay Emmanuel-Thomas** (Deportrio) converted
-- **29′** — **Jay Emmanuel-Thomas** (Deportrio) found the target
+- **0′** — **Florian Kastrati** (VZN FC) broke the deadlock
+- **13′** — **Jay Emmanuel-Thomas** (Deportrio) struck
+- **18′** — **Sahid Kamara** (Deportrio) converted
+- **20′** — **Kole Hall** (Deportrio) netted
+- **21′** — **Che Krabbendam** (VZN FC) found the target
+- **25′** — **Sahid Kamara** (Deportrio) slotted
+- **26′** — **Isiah Noel-Williams** (VZN FC) converted
+- **28′** — **George Nikaj** (VZN FC) fired home
+- **28′** — **Jay Emmanuel-Thomas** (Deportrio) slotted
+- **29′** — **Jay Emmanuel-Thomas** (Deportrio) scored
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -134,7 +134,7 @@ The **1-on-1** window was the more impactful, its **3** goals shifting the balan
 
 ## Season Context
 
-With **2 gameweeks** left in the regular season, the stakes couldn't have been higher. **Deportrio** entered this match averaging **4.3 goals per game** — a number that reflected their struggles in front of goal this campaign. **VZN FC**, by contrast, arrived with an average of **2.9 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **2 gameweeks** left in the regular season, the stakes couldn't have been higher. **Deportrio** entered this match averaging **4.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **VZN FC**, by contrast, arrived with an average of **2.9 per outing** — a figure that highlighted the work still to be done in the final third. 
 
 The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. For Deportrio, sitting **4th** before kick-off, every remaining match carried the weight of a cup final. They were right in the thick of the playoff scramble. 
 

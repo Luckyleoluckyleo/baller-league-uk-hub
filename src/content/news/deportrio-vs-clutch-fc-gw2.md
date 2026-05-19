@@ -1,5 +1,5 @@
 ---
-title: "Clutch FC Beat Deportrio 1-4 in Entertaining GW2 Clash"
+title: "Clutch FC See Off Deportrio 1-4 in Gameweek 2"
 date: 2026-05-19
 category: "Match Report"
 excerpt: "Deportrio 1-4 Clutch FC — Gameweek 2 match report. Jay Emmanuel-Thomas (18 goals) leads Deportrio's attack. Game Changers: 3Play (0) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Deportrio 1-4 Clutch FC
 
-A pivotal Gameweek 2 encounter saw **Deportrio** go head-to-head with **Clutch FC** in a match that ebbed and flowed, keeping everyone guessing until the final whistle.
+The crowd at Baller Arena were treated to a spectacle as **Deportrio** faced **Clutch FC** in a thoroughly entertaining contest with plenty of talking points.
 
 When the dust settled, it was **Clutch FC** who emerged **1-4** victors. The Game Changer window — **3Play** and **1-on-1** — proved pivotal, contributing **3** of the match's **5** goals.
 
@@ -22,11 +22,11 @@ When the dust settled, it was **Clutch FC** who emerged **1-4** victors. The Gam
 
 ### First Half
 
-At the 12th minute, the **3Play** Game Changer roared into action — but the goalkeepers and back-lines rose to the occasion, keeping the scoreboard operator idle throughout the activation. Clutch FC controlled the tempo and carried a deserved lead into the interval, their composure and cutting edge proving the difference.
+The first half sprang into life at the 12-minute mark with the **3Play** Game Changer flicking the switch — yet for all the altered rules, the defences stood tall and the deadlock remained stubbornly intact. Clutch FC held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
 
 ### Second Half
 
-The second half resumed with all to play for, and at the 27-minute mark the **1-on-1** Game Changer cranked up the intensity once more — and the mayhem resumed. **3** more goals erupted during the window, transforming the contest into a full-blown classic. The scoreboard didn't flatter Clutch FC — they were simply better in every department, and Deportrio had no complaints.
+The second half resumed with all to play for, and at the 27-minute mark the **1-on-1** Game Changer cranked up the intensity once more — once again the goals rained down, **3** of them, raw and relentless. The scoreboard didn't flatter Clutch FC — they were simply better in every department, and Deportrio had no complaints.
 
 ---
 
@@ -34,11 +34,11 @@ The second half resumed with all to play for, and at the 27-minute mark the **1-
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **7′** — **Keir Dickson** (Clutch FC) drew first blood
-- **7′** — **Martyn Waghorn** scored
-- **27′** — **Aaron Steavens** struck
-- **27′** — **Alfie Matthews** (Clutch FC) found the target
-- **29′** — **Aaron Steavens** scored
+- **7′** — **Keir Dickson** (Clutch FC) opened the scoring
+- **7′** — **Martyn Waghorn** converted
+- **27′** — **Aaron Steavens** fired home
+- **27′** — **Alfie Matthews** (Clutch FC) slotted
+- **29′** — **Aaron Steavens** fired home
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -111,7 +111,7 @@ The **1-on-1** window was the more impactful, its **3** goals shifting the balan
 
 ## Season Context
 
-With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **Deportrio** entered this match averaging **4.3 goals per game** — a number that reflected their struggles in front of goal this campaign. **Clutch FC**, by contrast, arrived with an average of **3.4 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **Deportrio** entered this match averaging **4.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **Clutch FC**, by contrast, arrived with an average of **3.7 per outing** — a figure that highlighted the work still to be done in the final third. 
 
 The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 

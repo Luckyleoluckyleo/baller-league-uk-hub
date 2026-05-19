@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — VZN FC 4-5 NDL FC
 
-The crowd at Baller Arena were treated to a spectacle as **VZN FC** faced **NDL FC** in a breathtaking goal-fest.
+The lights were bright at Baller Arena on Gameweek 5, where **VZN FC** and **NDL FC** served up a breathtaking goal-fest.
 
 NDL FC, sitting pretty in the Final Four places at 1st, knew a win here would tighten their grip. When the dust settled, it was **NDL FC** who emerged **4-5** victors, ending VZN FC's impressive winning run in the process. The Game Changer window — **Onside** and **1-on-1** — proved pivotal, contributing **6** of the match's **9** goals.
 
@@ -22,11 +22,11 @@ NDL FC, sitting pretty in the Final Four places at 1st, knew a win here would ti
 
 ### First Half
 
-The tactical landscape shifted dramatically at 12 minutes as the **Onside** Game Changer took hold — the period yielded **1** goal, just enough to set the contest alight. The sides went in with NDL FC just in front, a narrow advantage that kept everything delicately poised.
+The tactical landscape shifted dramatically at 12 minutes as the **Onside** Game Changer took hold — the period yielded **1** goal, just enough to set the contest alight. NDL FC took a slender lead into half-time — nothing decisive, but enough to shift the psychological battle in their favour.
 
 ### Second Half
 
-The 27th minute brought the **1-on-1** Game Changer thundering into the match — a moment that would prove pivotal — and the mayhem resumed. **5** more goals erupted during the window, transforming the contest into a full-blown classic. It was edge-of-your-seat stuff in the closing minutes. VZN FC pressed and probed, but NDL FC's back-line stood firm — resilient, organised, and ultimately heroic.
+If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **1-on-1** entered the fray — the defensive discipline of the first half evaporated as **5** goals thundered in during the activation. It was edge-of-your-seat stuff in the closing minutes. VZN FC pressed and probed, but NDL FC's back-line stood firm — resilient, organised, and ultimately heroic.
 
 ---
 
@@ -35,13 +35,13 @@ The 27th minute brought the **1-on-1** Game Changer thundering into the match �
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **12′** — **Isaac Modi** (NDL FC) broke the deadlock
-- **23′** — **George Nikaj** (VZN FC) fired home
-- **25′** — **Florian Kastrati** (VZN FC) found the target
-- **27′** — **Kevin Weggen** (NDL FC) scored
-- **27′** — **Florian Kastrati** (VZN FC) struck
+- **23′** — **George Nikaj** (VZN FC) netted
+- **25′** — **Florian Kastrati** (VZN FC) converted
 - **27′** — **Kevin Weggen** (NDL FC) struck
-- **28′** — **Kevin Weggen** (NDL FC) netted
-- **28′** — **Florian Kastrati** (VZN FC) slotted
+- **27′** — **Florian Kastrati** (VZN FC) scored
+- **27′** — **Kevin Weggen** (NDL FC) scored
+- **28′** — **Kevin Weggen** (NDL FC) scored
+- **28′** — **Florian Kastrati** (VZN FC) netted
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -76,7 +76,7 @@ The **1-on-1** activation was particularly devastating, producing **5** goals th
 
 ### VZN FC
 
-The standout for VZN FC was undoubtedly **Florian Kastrati**, whose **3-goal** haul was the foundation of everything good about their display.
+**Florian Kastrati** was VZN FC's standout performer, bagging **3 goals** in a display of clinical finishing that powered his side's effort.
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
@@ -126,7 +126,7 @@ The standout for VZN FC was undoubtedly **Florian Kastrati**, whose **3-goal** h
 
 ## Season Context
 
-With **6 gameweeks** left in the regular season, the stakes couldn't have been higher. **VZN FC** entered this match averaging **2.9 goals per game** — a number that reflected their struggles in front of goal this campaign. **NDL FC**, by contrast, arrived with an average of **4.7 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **6 gameweeks** left in the regular season, the stakes couldn't have been higher. **VZN FC** entered this match averaging **2.9 goals per game** — a number that reflected their struggles in front of goal this campaign. **NDL FC**, by contrast, arrived with an average of **4.6 per outing** — a figure that highlighted the work still to be done in the final third. 
 
 The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
