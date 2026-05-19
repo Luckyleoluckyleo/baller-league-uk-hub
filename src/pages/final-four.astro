@@ -132,10 +132,8 @@ const schema = {
           <a href={`/teams/${t.slug}`} class="ff-team-card card">
             <div class="card-body ff-team-body">
               <div class="ff-team-header">
-                <div class="ff-team-img-wrap">
-                  <img src={`/managers/${t.slug}.webp`} alt={t.manager} class="ff-team-img" loading="lazy" onerror="this.style.display='none'" />
-                  <img src={`/logos/${t.slug}.svg`} alt={t.name} class="ff-team-badge-logo" onerror="this.style.display='none'" />
-                </div>
+                <img src={`/managers/${t.slug}.webp`} alt={t.manager} class="ff-team-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+                <span class="ff-team-img-fallback">{t.emoji}</span>
                 <div>
                   <div class="ff-pos-badge">#{t.pos}</div>
                   <h3 class="ff-team-name">{t.name}</h3>
@@ -364,32 +362,26 @@ const schema = {
   gap: var(--space-md);
 }
 
-.ff-team-img-wrap {
-  position: relative;
-  width: 90px;
-  height: 90px;
-  flex-shrink: 0;
-}
-
 .ff-team-img {
   width: 90px;
   height: 90px;
   border-radius: var(--radius);
   object-fit: cover;
   border: 2px solid var(--border);
+  flex-shrink: 0;
 }
 
-.ff-team-badge-logo {
-  position: absolute;
-  bottom: -4px;
-  right: -4px;
-  width: 32px;
-  height: 32px;
-  background: var(--bg-card);
-  border: 2px solid var(--purple-light);
-  border-radius: var(--radius-sm);
-  padding: 3px;
-  object-fit: contain;
+.ff-team-img-fallback {
+  display: none;
+  width: 90px;
+  height: 90px;
+  border-radius: var(--radius);
+  background: linear-gradient(135deg, var(--bg-elevated), var(--bg-card));
+  border: 2px solid var(--border);
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
 }
 
 .ff-pos-badge {
