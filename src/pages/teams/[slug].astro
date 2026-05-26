@@ -30,6 +30,7 @@ const allMatches = Object.values(gcData.seasons).flatMap((s: any) => s.matches a
 
 // S3 matches only
 const s3Matches = (gcData.seasons['3']?.matches as any[] || []).filter((m: any) => m.homeScore > 0 || m.awayScore > 0);
+const s3League = s3Matches.filter((m: any) => m.gameweek <= 11);
 
 // Form guide — last 6 S3 matches for this team (for display)
 const teamFormMatches = s3Matches
@@ -56,9 +57,9 @@ const teamResults = s3Matches
   .filter((m: any) => m.homeSlug === data.urlSlug || m.awaySlug === data.urlSlug)
   .sort((a: any, b: any) => a.gameweek - b.gameweek);
 
-// Compute full table from match data (same logic as table.astro)
+// Compute full table from league match data (same logic as table.astro)
 const records: Record<string, { played: number; won: number; drawn: number; lost: number; gf: number; ga: number }> = {};
-for (const m of s3Matches) {
+for (const m of s3League) {
   if (!records[m.homeTeam]) records[m.homeTeam] = { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0 };
   if (!records[m.awayTeam]) records[m.awayTeam] = { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0 };
   records[m.homeTeam].played++; records[m.awayTeam].played++;
@@ -75,9 +76,9 @@ const computedTable = tableData.map(row => {
 computedTable.sort((a, b) => b.pts - a.pts || b.gd - a.gd || b.gf - a.gf);
 computedTable.forEach((row, i) => { row.pos = i + 1; });
 
-// Team stats summary
-const teamGoalsFor = s3Matches.reduce((s: number, m: any) => s + (m.homeSlug === data.urlSlug ? m.homeScore : m.awaySlug === data.urlSlug ? m.awayScore : 0), 0);
-const teamGoalsAgainst = s3Matches.reduce((s: number, m: any) => s + (m.homeSlug === data.urlSlug ? m.awayScore : m.awaySlug === data.urlSlug ? m.homeScore : 0), 0);
+// Team stats summary (league only)
+const teamGoalsFor = s3League.reduce((s: number, m: any) => s + (m.homeSlug === data.urlSlug ? m.homeScore : m.awaySlug === data.urlSlug ? m.awayScore : 0), 0);
+const teamGoalsAgainst = s3League.reduce((s: number, m: any) => s + (m.homeSlug === data.urlSlug ? m.awayScore : m.awaySlug === data.urlSlug ? m.homeScore : 0), 0);
 const topScorers = scrapedSquad.filter((p: any) => (p.seasons?.['3']?.goals || 0) > 0).sort((a: any, b: any) => (b.seasons?.['3']?.goals || 0) - (a.seasons?.['3']?.goals || 0)).slice(0, 1);
 const topScorer = topScorers[0] || null;
 

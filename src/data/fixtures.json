@@ -1,29 +1,44 @@
 {
-  "upcoming": [
+  "upcoming": [],
+  "results": [
     {
       "gameweek": 12,
+      "stage": "Semi-Final",
       "homeTeam": "NDL FC",
       "homeSlug": "ndl-fc",
       "homeEmoji": "🏆",
+      "homeScore": 3,
       "awayTeam": "SDS FC",
       "awaySlug": "sds-fc",
       "awayEmoji": "🟢",
-      "date": "25 May 2026",
-      "time": "18:00",
-      "round": "Semi-Final 1"
+      "awayScore": 1,
+      "date": "25 May 2026"
     },
     {
       "gameweek": 12,
+      "stage": "Semi-Final",
       "homeTeam": "Deportrio",
       "homeSlug": "deportrio",
-      "homeEmoji": "🔵",
+      "homeEmoji": "🔴",
+      "homeScore": 3,
       "awayTeam": "Prime FC",
       "awaySlug": "prime-fc",
-      "awayEmoji": "🔴",
-      "date": "25 May 2026",
-      "time": "19:00",
-      "round": "Semi-Final 2"
+      "awayEmoji": "⚡",
+      "awayScore": 5,
+      "date": "25 May 2026"
+    },
+    {
+      "gameweek": 12,
+      "stage": "Final",
+      "homeTeam": "NDL FC",
+      "homeSlug": "ndl-fc",
+      "homeEmoji": "🏆",
+      "homeScore": 2,
+      "awayTeam": "Prime FC",
+      "awaySlug": "prime-fc",
+      "awayEmoji": "⚡",
+      "awayScore": 5,
+      "date": "25 May 2026"
     }
-  ],
-  "results": []
+  ]
 }

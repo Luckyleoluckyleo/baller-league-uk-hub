@@ -1,6 +1,6 @@
 ---
 title: "Prime FC and SDS FC Split the Points in 2-2 GW5 Stalemate"
-date: 2026-05-19
+date: 2026-05-26
 category: "Match Report"
 excerpt: "Prime FC 2-2 SDS FC — Gameweek 5 match report. Francis Gerard Mampolo (17 goals) leads Prime FC's attack. Game Changers: 3Play (2) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Prime FC 2-2 SDS FC
 
-The Gameweek 5 spotlight fell on Baller Arena for **Prime FC** versus **SDS FC** — a compelling advert for Baller League football — competitive, dramatic, and hard-fought.
+Baller Arena played host to an absorbing Gameweek 5 clash as **Prime FC** locked horns with **SDS FC** in what would prove to be a thoroughly entertaining contest with plenty of talking points.
 
-SDS FC, sitting pretty in the Final Four places at 2nd, knew a win here would tighten their grip. The final whistle confirmed a **2-2 draw**, a result that felt about right in a match where both sides gave everything. The Game Changer window — **3Play** and **The Line** — proved pivotal, contributing **3** of the match's **4** goals.
+SDS FC came in occupying a coveted playoff spot at 1st, while Prime FC were desperate to crash the party. The final whistle confirmed a **2-2 draw**, a result that felt about right in a match where both sides gave everything. The Game Changer window — **3Play** and **The Line** — proved pivotal, contributing **3** of the match's **4** goals.
 
 **Prime FC form (before GW5):** ❌ ✅ ✅ ✅ (L-W-W-W)  
 **SDS FC form (before GW5):** ✅ ✅ ✅ 🤝 ✅ (W-W-W-D-W)
@@ -22,11 +22,11 @@ SDS FC, sitting pretty in the Final Four places at 2nd, knew a win here would ti
 
 ### First Half
 
-The first half sprang into life at the 12-minute mark with the **3Play** Game Changer flicking the switch — a **2-goal** window that gave the half an electric pulse. The two sides trudged off level at the break — nothing separating them in what was shaping up to be a classic arm-wrestle.
+The first half sprang into life at the 12-minute mark with the **3Play** Game Changer flicking the switch — a **2-goal** window that gave the half an electric pulse. Half-time arrived with honours even, both managers undoubtedly pleased with elements of their side's performance.
 
 ### Second Half
 
-The 27th minute brought the **The Line** Game Changer thundering into the match — a moment that would prove pivotal — and it delivered **1** goal at just the right moment to breathe fresh life into the match. Both sides strained every sinew for a winner but the decisive blow never landed. A draw was the fairest outcome in a match where no team deserved to lose.
+The tension was palpable at the restart, and the **The Line** Game Changer at 27 minutes only dialled it up — and it delivered **1** goal at just the right moment to breathe fresh life into the match. Late drama threatened but never materialised, both teams having to accept a point apiece in what felt like a war of attrition.
 
 ---
 
@@ -34,10 +34,10 @@ The 27th minute brought the **The Line** Game Changer thundering into the match 
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **2′** — **Connor Wood** (SDS FC) fired the opener
-- **12′** — **Sak Hassan** (Prime FC) struck
-- **14′** — **Kazaiah Sterling** (SDS FC) found the target
-- **29′** — **Francis Gerard Mampolo** (Prime FC) found the target
+- **2′** — **Connor Wood** (SDS FC) drew first blood
+- **12′** — **Sak Hassan** (Prime FC) slotted
+- **14′** — **Kazaiah Sterling** (SDS FC) struck
+- **29′** — **Francis Gerard Mampolo** (Prime FC) struck
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -118,9 +118,9 @@ The **3Play** window was the more impactful, its **2** goals shifting the balanc
 
 ## Season Context
 
-With **6 gameweeks** left in the regular season, the stakes couldn't have been higher. **Prime FC** entered this match averaging **5.0 goals per game** — a number that reflected their struggles in front of goal this campaign. **SDS FC**, by contrast, arrived with an average of **3.6 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **6 gameweeks** left in the regular season, the stakes couldn't have been higher. **Prime FC** entered this match averaging **4.9 goals per game** — a number that reflected their struggles in front of goal this campaign. **SDS FC**, by contrast, arrived with an average of **3.3 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -134,12 +134,12 @@ This was the **maiden competitive meeting** between Prime FC and SDS FC — a hi
 
 ## Table Impact
 
-Prime FC dropped to **8th**, sds fc climbed to **1st**.
+Prime FC dropped to **7th**, sds fc stayed at **1st**.
 
 | Team | Before GW5 | After GW5 |
 |------|-------------|-------------|
-| Prime FC | 5th | 8th |
-| SDS FC | 2nd | 1st |
+| Prime FC | 5th | 7th |
+| SDS FC | 1st | 1st |
 
 
 ---
@@ -165,10 +165,10 @@ Prime FC dropped to **8th**, sds fc climbed to **1st**.
 ## What's Next
 
 ### Prime FC
-Next up: **VZN FC** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 ### SDS FC
-Next up: **Rukkas FC** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 
 

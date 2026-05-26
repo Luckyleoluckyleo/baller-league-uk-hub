@@ -1,6 +1,6 @@
 ---
 title: "N5 FC Claim 3-5 Win Over VZN FC in GW10"
-date: 2026-05-19
+date: 2026-05-26
 category: "Match Report"
 excerpt: "VZN FC 3-5 N5 FC — Gameweek 10 match report. George Nikaj (9 goals) leads VZN FC's attack. Game Changers: Plus One (2) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — VZN FC 3-5 N5 FC
 
-The crowd at Baller Arena were treated to a spectacle as **VZN FC** faced **N5 FC** in a rollercoaster of emotions that had everything you could want from a Baller League match.
+Baller Arena buzzed with anticipation as **VZN FC** and **N5 FC** delivered a breathtaking goal-fest.
 
-When the dust settled, it was **N5 FC** who emerged **3-5** victors, ending VZN FC's impressive winning run in the process. The Game Changer window — **Plus One** and **The Line** — proved pivotal, contributing **2** of the match's **8** goals.
+N5 FC, sitting pretty in the Final Four places at 4th, knew a win here would tighten their grip. When the dust settled, it was **N5 FC** who emerged **3-5** victors, ending VZN FC's impressive winning run in the process. The Game Changer window — **Plus One** and **The Line** — proved pivotal, contributing **2** of the match's **8** goals.
 
 **VZN FC form (before GW10):** ✅ ❌ ❌ ✅ ❌ (W-L-L-W-L)  
 **N5 FC form (before GW10):** ❌ ❌ ✅ ✅ ✅ (L-L-W-W-W)
@@ -22,11 +22,11 @@ When the dust settled, it was **N5 FC** who emerged **3-5** victors, ending VZN 
 
 ### First Half
 
-The game's complexion changed at the 12th minute when the **Plus One** Game Changer activated — the period yielded **2** goals, just enough to set the contest alight. N5 FC held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
+At the 12th minute, the **Plus One** Game Changer roared into action — a **2-goal** window that gave the half an electric pulse. N5 FC controlled the tempo and carried a deserved lead into the interval, their composure and cutting edge proving the difference.
 
 ### Second Half
 
-If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **The Line** entered the fray — yet both sides held their nerve superbly through the rule change, refusing to blink. It was edge-of-your-seat stuff in the closing minutes. VZN FC pressed and probed, but N5 FC's back-line stood firm — resilient, organised, and ultimately heroic.
+The tension was palpable at the restart, and the **The Line** Game Changer at 27 minutes only dialled it up — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. It was edge-of-your-seat stuff in the closing minutes. VZN FC pressed and probed, but N5 FC's back-line stood firm — resilient, organised, and ultimately heroic.
 
 ---
 
@@ -34,11 +34,11 @@ If the first half was intriguing, the second was about to become unmissable. At 
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **1′** — **Joe Bennett** (N5 FC) drew first blood
-- **5′** — **Joe Bennett** (N5 FC) scored
-- **12′** — **Dimitri Nicolaou** (VZN FC) slotted
+- **1′** — **Joe Bennett** (N5 FC) fired the opener
+- **5′** — **Joe Bennett** (N5 FC) slotted
+- **12′** — **Dimitri Nicolaou** (VZN FC) netted
 - **13′** — **Michael Hill** (N5 FC) fired home
-- **22′** — **George Nikaj** (VZN FC) slotted
+- **22′** — **George Nikaj** (VZN FC) netted
 - **23′** — **Eddie Allsopp** (VZN FC) struck
 - **24′** — **Michael Hill** (N5 FC) found the target
 - **25′** — **Mustapha Carayol** (N5 FC) converted
@@ -129,9 +129,9 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 ## Season Context
 
-With **1 gameweek** left in the regular season, the stakes couldn't have been higher. **VZN FC** entered this match averaging **2.9 goals per game** — a number that reflected their struggles in front of goal this campaign. **N5 FC**, by contrast, arrived with an average of **3.9 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **1 gameweek** left in the regular season, the stakes couldn't have been higher. **VZN FC** entered this match averaging **2.9 goals per game** — a number that reflected their struggles in front of goal this campaign. **N5 FC**, by contrast, arrived with an average of **4.0 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. N5 FC, **4th** in the standings, knew that dropping points at this stage could prove catastrophic to their Final Four ambitions. 
 
 ---
 
@@ -158,12 +158,12 @@ Total head-to-head goals: **3** across all meetings.
 
 ## Table Impact
 
-VZN FC dropped to **9th**, n5 fc climbed to **4th**.
+VZN FC stayed at **8th**, n5 fc climbed to **3rd**.
 
 | Team | Before GW10 | After GW10 |
 |------|-------------|-------------|
-| VZN FC | 8th | 9th |
-| N5 FC | 5th | 4th |
+| VZN FC | 8th | 8th |
+| N5 FC | 4th | 3rd |
 
 
 ---
@@ -190,10 +190,10 @@ VZN FC dropped to **9th**, n5 fc climbed to **4th**.
 ## What's Next
 
 ### VZN FC
-Next up: **Prime FC** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 ### N5 FC
-Next up: **Deportrio** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Clutch FC Scrape Past N5 FC 5-6 in Tight GW5 Contest"
-date: 2026-05-19
+title: "Clutch FC Narrowly Beat N5 FC 5-6 in GW5 Nail-biter"
+date: 2026-05-26
 category: "Match Report"
 excerpt: "N5 FC 5-6 Clutch FC — Gameweek 5 match report. Michael Hill (18 goals) leads N5 FC's attack. Game Changers: Onside (1) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: true
 
 ## Match Summary — N5 FC 5-6 Clutch FC
 
-The lights were bright at Baller Arena on Gameweek 5, where **N5 FC** and **Clutch FC** served up a breathtaking goal-fest.
+A pivotal Gameweek 5 encounter saw **N5 FC** go head-to-head with **Clutch FC** in a pulsating encounter that had fans on the edge of their seats from the first whistle to the last.
 
 N5 FC, sitting pretty in the Final Four places at 4th, knew a win here would tighten their grip. When the dust settled, it was **Clutch FC** who emerged **5-6** victors. The Game Changer window — **Onside** and **Fairplay** — proved pivotal, contributing **2** of the match's **11** goals.
 
@@ -22,11 +22,11 @@ N5 FC, sitting pretty in the Final Four places at 4th, knew a win here would tig
 
 ### First Half
 
-The first half sprang into life at the 12-minute mark with the **Onside** Game Changer flicking the switch — a **1-goal** window that gave the half an electric pulse. The sides went in with Clutch FC just in front, a narrow advantage that kept everything delicately poised.
+The game's complexion changed at the 12th minute when the **Onside** Game Changer activated — the period yielded **1** goal, just enough to set the contest alight. The sides went in with Clutch FC just in front, a narrow advantage that kept everything delicately poised.
 
 ### Second Half
 
-The tension was palpable at the restart, and the **Fairplay** Game Changer at 27 minutes only dialled it up — the **1** goal it produced came at a crucial juncture, swinging momentum decisively. It was edge-of-your-seat stuff in the closing minutes. N5 FC pressed and probed, but Clutch FC's back-line stood firm — resilient, organised, and ultimately heroic. The **11-goal** spectacle was the kind of match that Baller League was built for — pure, unfiltered entertainment.
+The 27th minute brought the **Fairplay** Game Changer thundering into the match — a moment that would prove pivotal — the **1** goal it produced came at a crucial juncture, swinging momentum decisively. It was edge-of-your-seat stuff in the closing minutes. N5 FC pressed and probed, but Clutch FC's back-line stood firm — resilient, organised, and ultimately heroic. The **11-goal** spectacle was the kind of match that Baller League was built for — pure, unfiltered entertainment.
 
 ---
 
@@ -35,16 +35,16 @@ The tension was palpable at the restart, and the **Fairplay** Game Changer at 27
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **2′** — **Michael Hill** (N5 FC) opened the scoring
-- **3′** — **Richard Afrane-Kesey** (Clutch FC) struck
-- **13′** — **Evans Kouassi** (Clutch FC) fired home
-- **20′** — **David Marques Castanho** (Clutch FC) scored
-- **21′** — **Joe Bennett** (N5 FC) found the target
-- **23′** — **Richard Afrane-Kesey** (Clutch FC) found the target
-- **23′** — **Alfie Matthews** (Clutch FC) netted
-- **24′** — **Michael Hill** (N5 FC) found the target
-- **25′** — **Michael Hill** (N5 FC) struck
-- **26′** — **Nile Ranger** (N5 FC) struck
-- **28′** — **Richard Afrane-Kesey** (Clutch FC) fired home
+- **3′** — **Richard Afrane-Kesey** (Clutch FC) fired home
+- **13′** — **Evans Kouassi** (Clutch FC) converted
+- **20′** — **David Marques Castanho** (Clutch FC) found the target
+- **21′** — **Joe Bennett** (N5 FC) fired home
+- **23′** — **Richard Afrane-Kesey** (Clutch FC) fired home
+- **23′** — **Alfie Matthews** (Clutch FC) struck
+- **24′** — **Michael Hill** (N5 FC) slotted
+- **25′** — **Michael Hill** (N5 FC) netted
+- **26′** — **Nile Ranger** (N5 FC) netted
+- **28′** — **Richard Afrane-Kesey** (Clutch FC) struck
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -82,7 +82,7 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 ### N5 FC
 
-**Michael Hill** was N5 FC's standout performer, bagging **3 goals** in a display of clinical finishing that powered his side's effort.
+The standout for N5 FC was undoubtedly **Michael Hill**, whose **3-goal** haul was the foundation of everything good about their display.
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
@@ -138,9 +138,9 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 ## Season Context
 
-With **6 gameweeks** left in the regular season, the stakes couldn't have been higher. **N5 FC** entered this match averaging **3.9 goals per game** — a number that reflected their struggles in front of goal this campaign. **Clutch FC**, by contrast, arrived with an average of **3.7 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **6 gameweeks** left in the regular season, the stakes couldn't have been higher. **N5 FC** entered this match averaging **4.0 goals per game** — a number that reflected their struggles in front of goal this campaign. **Clutch FC**, by contrast, arrived with an average of **3.4 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -167,12 +167,12 @@ Total head-to-head goals: **10** across all meetings.
 
 ## Table Impact
 
-N5 FC dropped to **6th**, clutch fc climbed to **7th**.
+N5 FC dropped to **6th**, clutch fc stayed at **8th**.
 
 | Team | Before GW5 | After GW5 |
 |------|-------------|-------------|
 | N5 FC | 4th | 6th |
-| Clutch FC | 8th | 7th |
+| Clutch FC | 8th | 8th |
 
 
 ---
@@ -201,10 +201,10 @@ N5 FC dropped to **6th**, clutch fc climbed to **7th**.
 ## What's Next
 
 ### N5 FC
-Next up: **Deportrio** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 ### Clutch FC
-Next up: **Community FC** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 
 

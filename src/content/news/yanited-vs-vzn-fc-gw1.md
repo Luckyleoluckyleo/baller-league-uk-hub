@@ -1,6 +1,6 @@
 ---
-title: "Yanited and VZN FC Deadlocked at 3-3 in GW1"
-date: 2026-05-19
+title: "Yanited and VZN FC Finish 3-3 in Hard-Fought GW1 Draw"
+date: 2026-05-26
 category: "Match Report"
 excerpt: "Yanited 3-3 VZN FC — Gameweek 1 match report. Kadell Daniel (14 goals) leads Yanited's attack. Game Changers: Onside (4) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Yanited 3-3 VZN FC
 
-All roads led to Baller Arena for Gameweek 1, where **Yanited** and **VZN FC** produced a match that ebbed and flowed, keeping everyone guessing until the final whistle.
+The lights were bright at Baller Arena on Gameweek 1, where **Yanited** and **VZN FC** served up a thoroughly entertaining contest with plenty of talking points.
 
 The final whistle confirmed a **3-3 draw**, a result that felt about right in a match where both sides gave everything. The Game Changer window — **Onside** and **Fairplay** — proved pivotal, contributing **4** of the match's **6** goals.
 
@@ -21,11 +21,11 @@ The final whistle confirmed a **3-3 draw**, a result that felt about right in a 
 
 ### First Half
 
-The tactical landscape shifted dramatically at 12 minutes as the **Onside** Game Changer took hold — and the floodgates opened with **4** goals flying in, the crowd barely able to keep up with the relentless action. The two sides trudged off level at the break — nothing separating them in what was shaping up to be a classic arm-wrestle.
+Barely a dozen minutes had passed when **Onside** transformed the match into something altogether different — and the goals flowed. **4** times the net bulged during the activation period, a frantic, breathless spell of attacking football. The two sides trudged off level at the break — nothing separating them in what was shaping up to be a classic arm-wrestle.
 
 ### Second Half
 
-If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **Fairplay** entered the fray — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. Late drama threatened but never materialised, both teams having to accept a point apiece in what felt like a war of attrition.
+The tension was palpable at the restart, and the **Fairplay** Game Changer at 27 minutes only dialled it up — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. Late drama threatened but never materialised, both teams having to accept a point apiece in what felt like a war of attrition.
 
 ---
 
@@ -34,10 +34,10 @@ If the first half was intriguing, the second was about to become unmissable. At 
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **2′** — **George Nikaj** (VZN FC) broke the deadlock
-- **12′** — **Daniel Bowry** (VZN FC) converted
-- **14′** — **Joshua Parker** (VZN FC) converted
-- **14′** — **Kadell Daniel** (Yanited) slotted
-- **14′** — **Sandro Camara** (VZN FC) found the target
+- **12′** — **Daniel Bowry** (VZN FC) fired home
+- **14′** — **Joshua Parker** (VZN FC) struck
+- **14′** — **Kadell Daniel** (Yanited) fired home
+- **14′** — **Sandro Camara** (VZN FC) fired home
 - **23′** — **Sandro Camara** (VZN FC) netted
 
 | Minute | Player | Team |
@@ -96,7 +96,7 @@ The **Onside** window was the more impactful, its **4** goals shifting the balan
 | Tyrell Miller-Rodney | 6 | 3 | 9 |
 | John Bostock | 4 | 1 | 7 |
 | Michael Folivi | 2 | 1 | 8 |
-| Paul-José M&#039;Poku | 2 | 2 | 7 |
+| Paul-José M'Poku | 2 | 2 | 7 |
 
 ### VZN FC — Top Scorers (Season)
 
@@ -120,7 +120,7 @@ The **Onside** window was the more impactful, its **4** goals shifting the balan
 
 With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **Yanited** entered this match averaging **3.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **VZN FC**, by contrast, arrived with an average of **2.9 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -138,8 +138,8 @@ Yanited held steady, vzn fc held steady.
 
 | Team | Before GW1 | After GW1 |
 |------|-------------|-------------|
-| Yanited | — | 11th |
-| VZN FC | — | 9th |
+| Yanited | — | 9th |
+| VZN FC | — | 8th |
 
 
 ---
@@ -165,10 +165,10 @@ Yanited held steady, vzn fc held steady.
 ## What's Next
 
 ### Yanited
-Next up: **NDL FC** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 ### VZN FC
-Next up: **Prime FC** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 
 

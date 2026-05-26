@@ -1,6 +1,6 @@
 ---
-title: "NDL FC Down Rukkas FC 4-6 in Hard-Fought GW4 Battle"
-date: 2026-05-19
+title: "NDL FC Claim 4-6 Win Over Rukkas FC in GW4"
+date: 2026-05-26
 category: "Match Report"
 excerpt: "Rukkas FC 4-6 NDL FC — Gameweek 4 match report. Mussa Bham (8 goals) leads Rukkas FC's attack. Game Changers: Plus One (2) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: true
 
 ## Match Summary — Rukkas FC 4-6 NDL FC
 
-A pivotal Gameweek 4 encounter saw **Rukkas FC** go head-to-head with **NDL FC** in a breathtaking goal-fest.
+All roads led to Baller Arena for Gameweek 4, where **Rukkas FC** and **NDL FC** produced a pulsating encounter that had fans on the edge of their seats from the first whistle to the last.
 
-NDL FC, sitting pretty in the Final Four places at 1st, knew a win here would tighten their grip. When the dust settled, it was **NDL FC** who emerged **4-6** victors, ending Rukkas FC's impressive winning run in the process. The Game Changer window — **Plus One** and **Fairplay** — proved pivotal, contributing **3** of the match's **10** goals.
+NDL FC, sitting pretty in the Final Four places at 2nd, knew a win here would tighten their grip. When the dust settled, it was **NDL FC** who emerged **4-6** victors, ending Rukkas FC's impressive winning run in the process. The Game Changer window — **Plus One** and **Fairplay** — proved pivotal, contributing **3** of the match's **10** goals.
 
 **Rukkas FC form (before GW4):** ❌ ❌ ❌ ❌ ✅ (L-L-L-L-W)  
 **NDL FC form (before GW4):** ✅ ✅ ✅ 🤝 ❌ (W-W-W-D-L)
@@ -22,11 +22,11 @@ NDL FC, sitting pretty in the Final Four places at 1st, knew a win here would ti
 
 ### First Half
 
-Twelve minutes in and the **Plus One** Game Changer came alive, reshaping the contest entirely — the period yielded **2** goals, just enough to set the contest alight. NDL FC held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
+The tactical landscape shifted dramatically at 12 minutes as the **Plus One** Game Changer took hold — the period yielded **2** goals, just enough to set the contest alight. NDL FC controlled the tempo and carried a deserved lead into the interval, their composure and cutting edge proving the difference.
 
 ### Second Half
 
-After the restart, the **Fairplay** Game Changer detonated at the 27th minute, turning the dial up to eleven — the **1** goal it produced came at a crucial juncture, swinging momentum decisively. The final exchanges were fraught with tension. Rukkas FC threw everything forward in search of a route back, but NDL FC held their nerve, defending with grit and intelligence to protect what they had. The **10-goal** spectacle was the kind of match that Baller League was built for — pure, unfiltered entertainment.
+The second half resumed with all to play for, and at the 27-minute mark the **Fairplay** Game Changer cranked up the intensity once more — the **1** goal it produced came at a crucial juncture, swinging momentum decisively. The final exchanges were fraught with tension. Rukkas FC threw everything forward in search of a route back, but NDL FC held their nerve, defending with grit and intelligence to protect what they had. The **10-goal** spectacle was the kind of match that Baller League was built for — pure, unfiltered entertainment.
 
 ---
 
@@ -34,15 +34,15 @@ After the restart, the **Fairplay** Game Changer detonated at the 27th minute, t
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **3′** — **Mussa Bham** (Rukkas FC) broke the deadlock
-- **4′** — **David Oupoh** (Rukkas FC) netted
-- **9′** — **Kevin Weggen** (NDL FC) converted
-- **9′** — **Tyler Winters** (NDL FC) struck
-- **10′** — **Mussa Bham** (Rukkas FC) netted
-- **12′** — **Dara Dada** (NDL FC) fired home
+- **3′** — **Mussa Bham** (Rukkas FC) drew first blood
+- **4′** — **David Oupoh** (Rukkas FC) converted
+- **9′** — **Kevin Weggen** (NDL FC) netted
+- **9′** — **Tyler Winters** (NDL FC) fired home
+- **10′** — **Mussa Bham** (Rukkas FC) found the target
+- **12′** — **Dara Dada** (NDL FC) slotted
 - **14′** — **Dara Dada** (NDL FC) slotted
-- **16′** — **Kevin Weggen** (NDL FC) slotted
-- **22′** — **David Oupoh** (Rukkas FC) scored
+- **16′** — **Kevin Weggen** (NDL FC) netted
+- **22′** — **David Oupoh** (Rukkas FC) fired home
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -88,7 +88,7 @@ The **Plus One** window was the more impactful, its **2** goals shifting the bal
 
 ### NDL FC
 
-**Dara Dada** led the charge for NDL FC, his **2 goals** a testament to the kind of ruthless finishing that makes him a nightmare for opposing defences.
+NDL FC had **Dara Dada** to thank, the forward delivering a **2-goal** performance of the highest calibre.
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
@@ -131,9 +131,9 @@ The **Plus One** window was the more impactful, its **2** goals shifting the bal
 
 ## Season Context
 
-With **7 gameweeks** left in the regular season, the stakes couldn't have been higher. **Rukkas FC** entered this match averaging **3.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **NDL FC**, by contrast, arrived with an average of **4.6 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **7 gameweeks** left in the regular season, the stakes couldn't have been higher. **Rukkas FC** entered this match averaging **3.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **NDL FC**, by contrast, arrived with an average of **4.4 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -147,12 +147,12 @@ This was the **maiden competitive meeting** between Rukkas FC and NDL FC — a h
 
 ## Table Impact
 
-Rukkas FC dropped to **12th**, ndl fc stayed at **1st**.
+Rukkas FC dropped to **12th**, ndl fc stayed at **2nd**.
 
 | Team | Before GW4 | After GW4 |
 |------|-------------|-------------|
 | Rukkas FC | 11th | 12th |
-| NDL FC | 1st | 1st |
+| NDL FC | 2nd | 2nd |
 
 
 ---
@@ -178,10 +178,10 @@ Rukkas FC dropped to **12th**, ndl fc stayed at **1st**.
 ## What's Next
 
 ### Rukkas FC
-Next up: **SDS FC** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 ### NDL FC
-Next up: **Yanited** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 
 

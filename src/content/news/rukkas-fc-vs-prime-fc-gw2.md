@@ -1,6 +1,6 @@
 ---
-title: "Prime FC Brush Rukkas FC Aside 3-8 in Confident Showing — GW2"
-date: 2026-05-19
+title: "Prime FC Too Strong for Rukkas FC in 3-8 Victory — GW2"
+date: 2026-05-26
 category: "Match Report"
 excerpt: "Rukkas FC 3-8 Prime FC — Gameweek 2 match report. Mussa Bham (8 goals) leads Rukkas FC's attack. Game Changers: Plus One (4) & 1-on-1 (2). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: true
 
 ## Match Summary — Rukkas FC 3-8 Prime FC
 
-Baller Arena buzzed with anticipation as **Rukkas FC** and **Prime FC** delivered a rollercoaster of emotions that had everything you could want from a Baller League match.
+All roads led to Baller Arena for Gameweek 2, where **Rukkas FC** and **Prime FC** produced a pulsating encounter that had fans on the edge of their seats from the first whistle to the last.
 
-Prime FC came in occupying a coveted playoff spot at 3rd, while Rukkas FC were desperate to crash the party. When the dust settled, it was **Prime FC** who emerged **3-8** victors in a performance that will send shockwaves through the division. The Game Changer window — **Plus One** and **1-on-1** — proved pivotal, contributing **6** of the match's **11** goals.
+Prime FC came in occupying a coveted playoff spot at 2nd, while Rukkas FC were desperate to crash the party. When the dust settled, it was **Prime FC** who emerged **3-8** victors in a performance that will send shockwaves through the division. The Game Changer window — **Plus One** and **1-on-1** — proved pivotal, contributing **6** of the match's **11** goals.
 
 **Rukkas FC form (before GW2):** ✅ (W)  
 **Prime FC form (before GW2):** ✅ (W)
@@ -22,11 +22,11 @@ Prime FC came in occupying a coveted playoff spot at 3rd, while Rukkas FC were d
 
 ### First Half
 
-At the 12th minute, the **Plus One** Game Changer roared into action — and the floodgates opened with **4** goals flying in, the crowd barely able to keep up with the relentless action. Prime FC simply blew Rukkas FC away in a devastating opening period, sending a powerful message to everyone watching.
+Twelve minutes in and the **Plus One** Game Changer came alive, reshaping the contest entirely — and the goals flowed. **4** times the net bulged during the activation period, a frantic, breathless spell of attacking football. Prime FC simply blew Rukkas FC away in a devastating opening period, sending a powerful message to everyone watching.
 
 ### Second Half
 
-The tension was palpable at the restart, and the **1-on-1** Game Changer at 27 minutes only dialled it up — the **2** goals it produced came at a crucial juncture, swinging momentum decisively. The scoreboard didn't flatter Prime FC — they were simply better in every department, and Rukkas FC had no complaints. This was Baller League at its most chaotic and brilliant — **11** goals, endless drama, and a match nobody in attendance will forget in a hurry.
+After the restart, the **1-on-1** Game Changer detonated at the 27th minute, turning the dial up to eleven — and it delivered **2** goals at just the right moment to breathe fresh life into the match. Prime FC managed the occasion expertly, balancing attacking ambition with game-control to see out a thoroughly deserved victory. The **11-goal** spectacle was the kind of match that Baller League was built for — pure, unfiltered entertainment.
 
 ---
 
@@ -35,16 +35,16 @@ The tension was palpable at the restart, and the **1-on-1** Game Changer at 27 m
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **8′** — **Timmy Abraham** (Prime FC) broke the deadlock
-- **10′** — **Bráulio Valera Pinto Maieco** (Prime FC) converted
-- **12′** — **Timmy Abraham** (Prime FC) found the target
+- **10′** — **Bráulio Valera Pinto Maieco** (Prime FC) scored
+- **12′** — **Timmy Abraham** (Prime FC) scored
 - **12′** — **Montel McKenzie** (Prime FC) struck
 - **12′** — **Timmy Abraham** (Prime FC) scored
 - **13′** — **Ergys Pepaj** (Prime FC) netted
-- **23′** — **Osman Ali** (Rukkas FC) scored
-- **26′** — **Francis Gerard Mampolo** (Prime FC) fired home
+- **23′** — **Osman Ali** (Rukkas FC) netted
+- **26′** — **Francis Gerard Mampolo** (Prime FC) struck
 - **26′** — **David Oupoh** (Rukkas FC) fired home
-- **28′** — **Francis Gerard Mampolo** (Prime FC) slotted
-- **29′** — **Montel McKenzie** (Prime FC) slotted
+- **28′** — **Francis Gerard Mampolo** (Prime FC) found the target
+- **29′** — **Montel McKenzie** (Prime FC) netted
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -135,9 +135,9 @@ The **Plus One** activation was particularly devastating, producing **4** goals 
 
 ## Season Context
 
-With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **Rukkas FC** entered this match averaging **3.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **Prime FC**, by contrast, arrived with an average of **5.0 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **Rukkas FC** entered this match averaging **3.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **Prime FC**, by contrast, arrived with an average of **4.9 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -151,12 +151,12 @@ This was the **maiden competitive meeting** between Rukkas FC and Prime FC — a
 
 ## Table Impact
 
-Rukkas FC dropped to **11th**, prime fc stayed at **3rd**.
+Rukkas FC dropped to **11th**, prime fc dropped to **3rd**.
 
 | Team | Before GW2 | After GW2 |
 |------|-------------|-------------|
-| Rukkas FC | 6th | 11th |
-| Prime FC | 3rd | 3rd |
+| Rukkas FC | 5th | 11th |
+| Prime FC | 2nd | 3rd |
 
 
 ---
@@ -184,10 +184,10 @@ Rukkas FC dropped to **11th**, prime fc stayed at **3rd**.
 ## What's Next
 
 ### Rukkas FC
-Next up: **SDS FC** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 ### Prime FC
-Next up: **VZN FC** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 
 

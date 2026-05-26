@@ -1,6 +1,6 @@
 ---
 title: "SDS FC and Deportrio Deadlocked at 2-2 in GW7"
-date: 2026-05-19
+date: 2026-05-26
 category: "Match Report"
 excerpt: "SDS FC 2-2 Deportrio — Gameweek 7 match report. Connor Wood (6 goals) leads SDS FC's attack. Game Changers: 3Play (3) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — SDS FC 2-2 Deportrio
 
-All roads led to Baller Arena for Gameweek 7, where **SDS FC** and **Deportrio** produced a compelling advert for Baller League football — competitive, dramatic, and hard-fought.
+Gameweek 7 delivered fireworks at Baller Arena with **SDS FC** taking on **Deportrio** in a match that ebbed and flowed, keeping everyone guessing until the final whistle.
 
-SDS FC came in occupying a coveted playoff spot at 1st, while Deportrio were desperate to crash the party. The final whistle confirmed a **2-2 draw**, a result that felt about right in a match where both sides gave everything. The Game Changer window — **3Play** and **The Line** — proved pivotal, contributing **3** of the match's **4** goals.
+SDS FC, sitting pretty in the Final Four places at 1st, knew a win here would tighten their grip. The final whistle confirmed a **2-2 draw**, a result that felt about right in a match where both sides gave everything. The Game Changer window — **3Play** and **The Line** — proved pivotal, contributing **3** of the match's **4** goals.
 
 **SDS FC form (before GW7):** ❌ ✅ 🤝 ✅ ✅ (L-W-D-W-W)  
 **Deportrio form (before GW7):** 🤝 ✅ ✅ ✅ ✅ (D-W-W-W-W)
@@ -22,11 +22,11 @@ SDS FC came in occupying a coveted playoff spot at 1st, while Deportrio were des
 
 ### First Half
 
-Twelve minutes in and the **3Play** Game Changer came alive, reshaping the contest entirely — and the goals flowed. **3** times the net bulged during the activation period, a frantic, breathless spell of attacking football. By the interval it was impossible to call a winner. The contest was beautifully balanced, with everything still to play for.
+Twelve minutes in and the **3Play** Game Changer came alive, reshaping the contest entirely — and the floodgates opened with **3** goals flying in, the crowd barely able to keep up with the relentless action. The two sides trudged off level at the break — nothing separating them in what was shaping up to be a classic arm-wrestle.
 
 ### Second Half
 
-The second half resumed with all to play for, and at the 27-minute mark the **The Line** Game Changer cranked up the intensity once more — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. Late drama threatened but never materialised, both teams having to accept a point apiece in what felt like a war of attrition.
+The tension was palpable at the restart, and the **The Line** Game Changer at 27 minutes only dialled it up — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. Both sides strained every sinew for a winner but the decisive blow never landed. A draw was the fairest outcome in a match where no team deserved to lose.
 
 ---
 
@@ -34,10 +34,10 @@ The second half resumed with all to play for, and at the 27-minute mark the **Th
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **1′** — **Bakary Sako** broke the deadlock
-- **12′** — **Jay Emmanuel-Thomas** (Deportrio) converted
-- **12′** — **Kazaiah Sterling** (SDS FC) scored
-- **14′** — **Hafed Al Droubi** (SDS FC) scored
+- **1′** — **Bakary Sako** fired the opener
+- **12′** — **Jay Emmanuel-Thomas** (Deportrio) slotted
+- **12′** — **Kazaiah Sterling** (SDS FC) found the target
+- **14′** — **Hafed Al Droubi** (SDS FC) slotted
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -103,7 +103,7 @@ The **3Play** window was the more impactful, its **3** goals shifting the balanc
 |--------|-------|---------|------|
 | Jay Emmanuel-Thomas | 18 | 6 | 10 |
 | Sahid Kamara | 9 | 3 | 7 |
-| J&#039;ardell Stirling | 3 | 4 | 10 |
+| J'ardell Stirling | 3 | 4 | 10 |
 | Amine Sassi | 2 | 3 | 10 |
 | Marvin Sordell | 2 | 1 | 7 |
 
@@ -117,9 +117,9 @@ The **3Play** window was the more impactful, its **3** goals shifting the balanc
 
 ## Season Context
 
-With **4 gameweeks** left in the regular season, the stakes couldn't have been higher. **SDS FC** entered this match averaging **3.6 goals per game** — a number that reflected their struggles in front of goal this campaign. **Deportrio**, by contrast, arrived with an average of **4.2 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **4 gameweeks** left in the regular season, the stakes couldn't have been higher. **SDS FC** entered this match averaging **3.3 goals per game** — a number that reflected their struggles in front of goal this campaign. **Deportrio**, by contrast, arrived with an average of **4.1 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -133,12 +133,12 @@ This was the **maiden competitive meeting** between SDS FC and Deportrio — a h
 
 ## Table Impact
 
-SDS FC dropped to **2nd**, deportrio climbed to **4th**.
+SDS FC dropped to **2nd**, deportrio dropped to **4th**.
 
 | Team | Before GW7 | After GW7 |
 |------|-------------|-------------|
 | SDS FC | 1st | 2nd |
-| Deportrio | 5th | 4th |
+| Deportrio | 3rd | 4th |
 
 
 ---
@@ -164,10 +164,10 @@ SDS FC dropped to **2nd**, deportrio climbed to **4th**.
 ## What's Next
 
 ### SDS FC
-Next up: **Rukkas FC** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 ### Deportrio
-Next up: **N5 FC** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 
 

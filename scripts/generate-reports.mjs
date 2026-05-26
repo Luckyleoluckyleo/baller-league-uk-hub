@@ -17,11 +17,11 @@ const tableData = JSON.parse(readFileSync(TABLE_PATH, "utf8"));
 const fixturesData = JSON.parse(readFileSync(FIXTURES_PATH, "utf8"));
 
 const allMatches = Object.values(gcData.seasons).flatMap(s => s.matches)
-  .filter(m => (m.homeScore > 0 || m.awayScore > 0) && m.gamechanger1.type !== "unknown");
+  .filter(m => (m.homeScore > 0 || m.awayScore > 0) && (m.gamechanger1.type !== "unknown" || m.gameweek === 12));
 
 const targetSeason = process.argv.includes("--season=all") ? null : "3";
 const matches = targetSeason
-  ? gcData.seasons[targetSeason]?.matches.filter(m => (m.homeScore > 0 || m.awayScore > 0) && m.gamechanger1.type !== "unknown") || []
+  ? gcData.seasons[targetSeason]?.matches.filter(m => (m.homeScore > 0 || m.awayScore > 0) && (m.gamechanger1.type !== "unknown" || m.gameweek === 12)) || []
   : allMatches;
 
 const players = playerData.players;
@@ -161,6 +161,7 @@ function gcName(type) {
   const map = {
     onside: "Onside", plusone: "Plus One", "3play": "3Play",
     "1on1": "1-on-1", theline: "The Line", fairplay: "Fairplay",
+    unknown: "Game Changer",
   };
   return map[type] || type;
 }
@@ -708,7 +709,11 @@ function seasonContextNarrative(home, away, homeSlug, awaySlug, homePosBefore, a
 
   let n = '';
 
-  n += `With **${remaining} gameweek${remaining > 1 ? 's' : ''}** left in the regular season, the stakes couldn't have been higher. `;
+  if (gw === 12) {
+    n += `This was the absolute pinnacle of the season: the **Final Four Playoffs** at The O2. The regular season stood behind them, and only one team could leave as the Season 3 Champions. `;
+  } else {
+    n += `With **${remaining} gameweek${remaining > 1 ? 's' : ''}** left in the regular season, the stakes couldn't have been higher. `;
+  }
 
   n += `**${home}** entered this match averaging **${homeAvg} goals per game** — `;
   n += parseFloat(homeAvg) > parseFloat(leagueAvg)
@@ -722,11 +727,13 @@ function seasonContextNarrative(home, away, homeSlug, awaySlug, homePosBefore, a
 
   n += `\n\nThe league-wide average stood at **${leagueAvg} goals per game**, a benchmark that underlined the high-octane nature of Baller League football. `;
 
-  if (remaining <= 3 && homePosBefore && homePosBefore <= 4) {
-    n += `For ${home}, sitting **${homePosBefore}${ordinalSuffix(homePosBefore)}** before kick-off, every remaining match carried the weight of a cup final. They ${homePosBefore <= 2 ? 'had one foot in the Final Four' : 'were right in the thick of the playoff scramble'}. `;
-  }
-  if (remaining <= 3 && awayPosBefore && awayPosBefore <= 4) {
-    n += `${away}, **${awayPosBefore}${ordinalSuffix(awayPosBefore)}** in the standings, knew that dropping points at this stage could prove catastrophic to their Final Four ambitions. `;
+  if (gw !== 12) {
+    if (remaining <= 3 && homePosBefore && homePosBefore <= 4) {
+      n += `For ${home}, sitting **${homePosBefore}${ordinalSuffix(homePosBefore)}** before kick-off, every remaining match carried the weight of a cup final. They ${homePosBefore <= 2 ? 'had one foot in the Final Four' : 'were right in the thick of the playoff scramble'}. `;
+    }
+    if (remaining <= 3 && awayPosBefore && awayPosBefore <= 4) {
+      n += `${away}, **${awayPosBefore}${ordinalSuffix(awayPosBefore)}** in the standings, knew that dropping points at this stage could prove catastrophic to their Final Four ambitions. `;
+    }
   }
 
   return n;
@@ -814,13 +821,15 @@ function matchFacts(home, away, hs, as, gc1, gc2, gc1g, gc2g, gw, margin, homeTo
   return facts.map(f => `- ${f}`).join('\n');
 }
 
-function whatNextSection(home, away, homeNext, awayNext) {
+function whatNextSection(home, away, homeNext, awayNext, gw) {
   let s = '';
 
   s += `### ${home}\n`;
   if (homeNext) {
     const opp = homeNext.homeTeam === home ? homeNext.awayTeam : homeNext.homeTeam;
     s += `Next up: **${opp}** in Gameweek ${homeNext.gameweek}. `;
+  } else if (gw === 12) {
+    s += `With the Season 3 playoffs complete and the champions crowned, ${home}'s campaign has officially concluded. Stay tuned for off-season updates and Season 4 announcements! `;
   } else {
     s += `Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. `;
   }
@@ -830,6 +839,8 @@ function whatNextSection(home, away, homeNext, awayNext) {
   if (awayNext) {
     const opp = awayNext.homeTeam === away ? awayNext.awayTeam : awayNext.homeTeam;
     s += `Next up: **${opp}** in Gameweek ${awayNext.gameweek}. `;
+  } else if (gw === 12) {
+    s += `With the Season 3 playoffs complete and the champions crowned, ${away}'s campaign has officially concluded. Stay tuned for off-season updates and Season 4 announcements! `;
   } else {
     s += `Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. `;
   }
@@ -1031,7 +1042,7 @@ ${matchFacts(home, away, hs, as, gc1, gc2, gc1g, gc2g, gw, Math.abs(margin), hom
 
 ## What's Next
 
-${whatNextSection(home, away, homeNext, awayNext)}
+${whatNextSection(home, away, homeNext, awayNext, gw)}
 
 ---
 

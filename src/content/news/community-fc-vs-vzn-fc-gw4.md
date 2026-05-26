@@ -1,6 +1,6 @@
 ---
-title: "Community FC Narrowly Beat VZN FC 4-3 in GW4 Nail-biter"
-date: 2026-05-19
+title: "Community FC Scrape Past VZN FC 4-3 in Tight GW4 Contest"
+date: 2026-05-26
 category: "Match Report"
 excerpt: "Community FC 4-3 VZN FC — Gameweek 4 match report. Alex Byrne (9 goals) leads Community FC's attack. Game Changers: 3Play (1) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Community FC 4-3 VZN FC
 
-The lights were bright at Baller Arena on Gameweek 4, where **Community FC** and **VZN FC** served up a nail-biter that could have swung either way, decided by the finest of details.
+Tensions were high at Baller Arena as **Community FC** squared off against **VZN FC** in a tense, knife-edge contest where the smallest of margins made all the difference.
 
 When the dust settled, it was **Community FC** who emerged **4-3** victors. The Game Changer window — **3Play** and **Fairplay** — proved pivotal, contributing **2** of the match's **7** goals.
 
@@ -22,11 +22,11 @@ When the dust settled, it was **Community FC** who emerged **4-3** victors. The 
 
 ### First Half
 
-Barely a dozen minutes had passed when **3Play** transformed the match into something altogether different — the period yielded **1** goal, just enough to set the contest alight. The sides went in with Community FC just in front, a narrow advantage that kept everything delicately poised.
+Twelve minutes in and the **3Play** Game Changer came alive, reshaping the contest entirely — a **1-goal** window that gave the half an electric pulse. Community FC took a slender lead into half-time — nothing decisive, but enough to shift the psychological battle in their favour.
 
 ### Second Half
 
-The second half resumed with all to play for, and at the 27-minute mark the **Fairplay** Game Changer cranked up the intensity once more — and it delivered **1** goal at just the right moment to breathe fresh life into the match. It was edge-of-your-seat stuff in the closing minutes. VZN FC pressed and probed, but Community FC's back-line stood firm — resilient, organised, and ultimately heroic.
+If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **Fairplay** entered the fray — and it delivered **1** goal at just the right moment to breathe fresh life into the match. The final exchanges were fraught with tension. VZN FC threw everything forward in search of a route back, but Community FC held their nerve, defending with grit and intelligence to protect what they had.
 
 ---
 
@@ -35,11 +35,11 @@ The second half resumed with all to play for, and at the 27-minute mark the **Fa
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **4′** — **Dimitri Nicolaou** (VZN FC) fired the opener
-- **8′** — **Paul Semakula** (Community FC) scored
-- **9′** — **Matthew Waller** (Community FC) found the target
-- **9′** — **Frankie Leonard** (VZN FC) found the target
-- **14′** — **Frankie Leonard** (VZN FC) converted
-- **29′** — **Tawab Djankpata** (Community FC) scored
+- **8′** — **Paul Semakula** (Community FC) converted
+- **9′** — **Matthew Waller** (Community FC) struck
+- **9′** — **Frankie Leonard** (VZN FC) netted
+- **14′** — **Frankie Leonard** (VZN FC) fired home
+- **29′** — **Tawab Djankpata** (Community FC) slotted
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -113,9 +113,9 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 ## Season Context
 
-With **7 gameweeks** left in the regular season, the stakes couldn't have been higher. **Community FC** entered this match averaging **2.8 goals per game** — a number that reflected their struggles in front of goal this campaign. **VZN FC**, by contrast, arrived with an average of **2.9 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **7 gameweeks** left in the regular season, the stakes couldn't have been higher. **Community FC** entered this match averaging **2.5 goals per game** — a number that reflected their struggles in front of goal this campaign. **VZN FC**, by contrast, arrived with an average of **2.9 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -160,10 +160,10 @@ Community FC climbed to **11th**, vzn fc dropped to **10th**.
 ## What's Next
 
 ### Community FC
-Next up: **Clutch FC** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 ### VZN FC
-Next up: **Prime FC** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Gold Devils FC Edge Prime FC 1-0 in GW4 Thriller"
-date: 2026-05-19
+date: 2026-05-26
 category: "Match Report"
 excerpt: "Gold Devils FC 1-0 Prime FC — Gameweek 4 match report. Bilal Sayoud (8 goals) leads Gold Devils FC's attack. Game Changers: Onside (0) & 1-on-1 (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Gold Devils FC 1-0 Prime FC
 
-Gameweek 4 delivered fireworks at Baller Arena with **Gold Devils FC** taking on **Prime FC** in a nail-biter that could have swung either way, decided by the finest of details.
+Football took center stage at Baller Arena when **Gold Devils FC** met **Prime FC** in a battle of attrition where every tackle, every pass, and every decision carried enormous weight.
 
-Prime FC, sitting pretty in the Final Four places at 3rd, knew a win here would tighten their grip. When the dust settled, it was **Gold Devils FC** who emerged **1-0** victors, ending Prime FC's impressive winning run in the process. The Game Changer window — **Onside** and **1-on-1** — proved pivotal, contributing **1** of the match's **1** goals.
+Prime FC came in occupying a coveted playoff spot at 3rd, while Gold Devils FC were desperate to crash the party. When the dust settled, it was **Gold Devils FC** who emerged **1-0** victors, ending Prime FC's impressive winning run in the process. The Game Changer window — **Onside** and **1-on-1** — proved pivotal, contributing **1** of the match's **1** goals.
 
 **Gold Devils FC form (before GW4):** ❌ ✅ ❌ (L-W-L)  
 **Prime FC form (before GW4):** ✅ ✅ ✅ (W-W-W)
@@ -22,11 +22,11 @@ Prime FC, sitting pretty in the Final Four places at 3rd, knew a win here would 
 
 ### First Half
 
-Twelve minutes in and the **Onside** Game Changer came alive, reshaping the contest entirely — yet for all the altered rules, the defences stood tall and the deadlock remained stubbornly intact. Gold Devils FC took a slender lead into half-time — nothing decisive, but enough to shift the psychological battle in their favour.
+The first half sprang into life at the 12-minute mark with the **Onside** Game Changer flicking the switch — yet for all the altered rules, the defences stood tall and the deadlock remained stubbornly intact. Gold Devils FC took a slender lead into half-time — nothing decisive, but enough to shift the psychological battle in their favour.
 
 ### Second Half
 
-After the restart, the **1-on-1** Game Changer detonated at the 27th minute, turning the dial up to eleven — the **1** goal it produced came at a crucial juncture, swinging momentum decisively. The final exchanges were fraught with tension. Prime FC threw everything forward in search of a route back, but Gold Devils FC held their nerve, defending with grit and intelligence to protect what they had.
+The second half resumed with all to play for, and at the 27-minute mark the **1-on-1** Game Changer cranked up the intensity once more — and it delivered **1** goal at just the right moment to breathe fresh life into the match. It was edge-of-your-seat stuff in the closing minutes. Prime FC pressed and probed, but Gold Devils FC's back-line stood firm — resilient, organised, and ultimately heroic.
 
 ---
 
@@ -34,7 +34,7 @@ After the restart, the **1-on-1** Game Changer detonated at the 27th minute, tur
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **27′** — **Bilal Sayoud** (Gold Devils FC) broke the deadlock
+- **27′** — **Bilal Sayoud** (Gold Devils FC) fired the opener
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -102,9 +102,9 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 ## Season Context
 
-With **7 gameweeks** left in the regular season, the stakes couldn't have been higher. **Gold Devils FC** entered this match averaging **2.3 goals per game** — a number that reflected their struggles in front of goal this campaign. **Prime FC**, by contrast, arrived with an average of **5.0 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **7 gameweeks** left in the regular season, the stakes couldn't have been higher. **Gold Devils FC** entered this match averaging **2.3 goals per game** — a number that reflected their struggles in front of goal this campaign. **Prime FC**, by contrast, arrived with an average of **4.9 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -118,11 +118,11 @@ This was the **maiden competitive meeting** between Gold Devils FC and Prime FC 
 
 ## Table Impact
 
-Gold Devils FC climbed to **7th**, prime fc dropped to **5th**.
+Gold Devils FC stayed at **9th**, prime fc dropped to **5th**.
 
 | Team | Before GW4 | After GW4 |
 |------|-------------|-------------|
-| Gold Devils FC | 8th | 7th |
+| Gold Devils FC | 9th | 9th |
 | Prime FC | 3rd | 5th |
 
 
@@ -151,10 +151,10 @@ Gold Devils FC climbed to **7th**, prime fc dropped to **5th**.
 ## What's Next
 
 ### Gold Devils FC
-Next up: **Wembley Rangers AFC** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 ### Prime FC
-Next up: **VZN FC** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 
 

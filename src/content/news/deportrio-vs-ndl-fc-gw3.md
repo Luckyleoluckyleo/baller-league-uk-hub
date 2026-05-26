@@ -1,6 +1,6 @@
 ---
-title: "NDL FC Beat Deportrio 3-6 in Entertaining GW3 Clash"
-date: 2026-05-19
+title: "NDL FC See Off Deportrio 3-6 in Gameweek 3"
+date: 2026-05-26
 category: "Match Report"
 excerpt: "Deportrio 3-6 NDL FC — Gameweek 3 match report. Jay Emmanuel-Thomas (18 goals) leads Deportrio's attack. Game Changers: Plus One (1) & 1-on-1 (5). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Deportrio 3-6 NDL FC
 
-The crowd at Baller Arena were treated to a spectacle as **Deportrio** faced **NDL FC** in an unforgettable thriller packed with drama and goals.
+Baller Arena buzzed with anticipation as **Deportrio** and **NDL FC** delivered a pulsating encounter that had fans on the edge of their seats from the first whistle to the last.
 
-NDL FC, sitting pretty in the Final Four places at 1st, knew a win here would tighten their grip. When the dust settled, it was **NDL FC** who emerged **3-6** victors. The Game Changer window — **Plus One** and **1-on-1** — proved pivotal, contributing **6** of the match's **9** goals.
+NDL FC, sitting pretty in the Final Four places at 2nd, knew a win here would tighten their grip. When the dust settled, it was **NDL FC** who emerged **3-6** victors. The Game Changer window — **Plus One** and **1-on-1** — proved pivotal, contributing **6** of the match's **9** goals.
 
 **Deportrio form (before GW3):** ❌ ❌ ❌ ✅ (L-L-L-W)  
 **NDL FC form (before GW3):** ✅ 🤝 ❌ ✅ (W-D-L-W)
@@ -22,11 +22,11 @@ NDL FC, sitting pretty in the Final Four places at 1st, knew a win here would ti
 
 ### First Half
 
-The game's complexion changed at the 12th minute when the **Plus One** Game Changer activated — a **1-goal** window that gave the half an electric pulse. NDL FC controlled the tempo and carried a deserved lead into the interval, their composure and cutting edge proving the difference.
+Twelve minutes in and the **Plus One** Game Changer came alive, reshaping the contest entirely — the period yielded **1** goal, just enough to set the contest alight. NDL FC held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
 
 ### Second Half
 
-The 27th minute brought the **1-on-1** Game Changer thundering into the match — a moment that would prove pivotal — and the mayhem resumed. **5** more goals erupted during the window, transforming the contest into a full-blown classic. NDL FC managed the occasion expertly, balancing attacking ambition with game-control to see out a thoroughly deserved victory.
+The 27th minute brought the **1-on-1** Game Changer thundering into the match — a moment that would prove pivotal — the defensive discipline of the first half evaporated as **5** goals thundered in during the activation. NDL FC managed the occasion expertly, balancing attacking ambition with game-control to see out a thoroughly deserved victory.
 
 ---
 
@@ -35,13 +35,13 @@ The 27th minute brought the **1-on-1** Game Changer thundering into the match �
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **7′** — **Isaac Modi** (NDL FC) broke the deadlock
-- **14′** — **Dara Dada** (NDL FC) converted
-- **17′** — **Solomon Baugh** (NDL FC) found the target
-- **23′** — **Jay Emmanuel-Thomas** (Deportrio) fired home
+- **14′** — **Dara Dada** (NDL FC) netted
+- **17′** — **Solomon Baugh** (NDL FC) scored
+- **23′** — **Jay Emmanuel-Thomas** (Deportrio) slotted
 - **27′** — **Sam Fitzgerald** (NDL FC) fired home
-- **27′** — **Sam Fitzgerald** (NDL FC) found the target
-- **27′** — **Jay Emmanuel-Thomas** (Deportrio) found the target
-- **28′** — **Sam Fitzgerald** (NDL FC) fired home
+- **27′** — **Sam Fitzgerald** (NDL FC) fired home
+- **27′** — **Jay Emmanuel-Thomas** (Deportrio) fired home
+- **28′** — **Sam Fitzgerald** (NDL FC) converted
 - **29′** — **Jay Emmanuel-Thomas** (Deportrio) found the target
 
 | Minute | Player | Team |
@@ -78,7 +78,7 @@ The **1-on-1** activation was particularly devastating, producing **5** goals th
 
 ### Deportrio
 
-The standout for Deportrio was undoubtedly **Jay Emmanuel-Thomas**, whose **3-goal** haul was the foundation of everything good about their display.
+**Jay Emmanuel-Thomas** was Deportrio's standout performer, bagging **3 goals** in a display of clinical finishing that powered his side's effort.
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
@@ -86,7 +86,7 @@ The standout for Deportrio was undoubtedly **Jay Emmanuel-Thomas**, whose **3-go
 
 ### NDL FC
 
-**Sam Fitzgerald** led the charge for NDL FC, his **3 goals** a testament to the kind of ruthless finishing that makes him a nightmare for opposing defences.
+NDL FC had **Sam Fitzgerald** to thank, the forward delivering a **3-goal** performance of the highest calibre.
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
@@ -107,7 +107,7 @@ The standout for Deportrio was undoubtedly **Jay Emmanuel-Thomas**, whose **3-go
 |--------|-------|---------|------|
 | Jay Emmanuel-Thomas | 18 | 6 | 10 |
 | Sahid Kamara | 9 | 3 | 7 |
-| J&#039;ardell Stirling | 3 | 4 | 10 |
+| J'ardell Stirling | 3 | 4 | 10 |
 | Amine Sassi | 2 | 3 | 10 |
 | Marvin Sordell | 2 | 1 | 7 |
 
@@ -131,9 +131,9 @@ The standout for Deportrio was undoubtedly **Jay Emmanuel-Thomas**, whose **3-go
 
 ## Season Context
 
-With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **Deportrio** entered this match averaging **4.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **NDL FC**, by contrast, arrived with an average of **4.6 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **Deportrio** entered this match averaging **4.1 goals per game** — a number that reflected their struggles in front of goal this campaign. **NDL FC**, by contrast, arrived with an average of **4.4 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -160,12 +160,12 @@ Total head-to-head goals: **12** across all meetings.
 
 ## Table Impact
 
-Deportrio dropped to **10th**, ndl fc stayed at **1st**.
+Deportrio dropped to **10th**, ndl fc stayed at **2nd**.
 
 | Team | Before GW3 | After GW3 |
 |------|-------------|-------------|
-| Deportrio | 9th | 10th |
-| NDL FC | 1st | 1st |
+| Deportrio | 8th | 10th |
+| NDL FC | 2nd | 2nd |
 
 
 ---
@@ -192,10 +192,10 @@ Deportrio dropped to **10th**, ndl fc stayed at **1st**.
 ## What's Next
 
 ### Deportrio
-Next up: **N5 FC** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 ### NDL FC
-Next up: **Yanited** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 
 

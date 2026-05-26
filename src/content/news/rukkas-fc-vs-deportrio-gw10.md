@@ -1,6 +1,6 @@
 ---
 title: "Rukkas FC and Deportrio Finish 2-2 in Hard-Fought GW10 Draw"
-date: 2026-05-19
+date: 2026-05-26
 category: "Match Report"
 excerpt: "Rukkas FC 2-2 Deportrio — Gameweek 10 match report. Mussa Bham (8 goals) leads Rukkas FC's attack. Game Changers: Onside (0) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Rukkas FC 2-2 Deportrio
 
-The lights were bright at Baller Arena on Gameweek 10, where **Rukkas FC** and **Deportrio** served up a match that ebbed and flowed, keeping everyone guessing until the final whistle.
+Football took center stage at Baller Arena when **Rukkas FC** met **Deportrio** in a compelling advert for Baller League football — competitive, dramatic, and hard-fought.
 
-Deportrio, sitting pretty in the Final Four places at 2nd, knew a win here would tighten their grip. The final whistle confirmed a **2-2 draw**, a result that felt about right in a match where both sides gave everything. In a rarity for Baller League, neither Game Changer activation managed to breach either defence.
+Deportrio came in occupying a coveted playoff spot at 2nd, while Rukkas FC were desperate to crash the party. The final whistle confirmed a **2-2 draw**, a result that felt about right in a match where both sides gave everything. In a rarity for Baller League, neither Game Changer activation managed to breach either defence.
 
 **Rukkas FC form (before GW10):** ✅ 🤝 ❌ ❌ ❌ (W-D-L-L-L)  
 **Deportrio form (before GW10):** ✅ 🤝 ✅ ✅ 🤝 (W-D-W-W-D)
@@ -22,11 +22,11 @@ Deportrio, sitting pretty in the Final Four places at 2nd, knew a win here would
 
 ### First Half
 
-The game's complexion changed at the 12th minute when the **Onside** Game Changer activated — yet for all the altered rules, the defences stood tall and the deadlock remained stubbornly intact. By the interval it was impossible to call a winner. The contest was beautifully balanced, with everything still to play for.
+At the 12th minute, the **Onside** Game Changer roared into action — yet for all the altered rules, the defences stood tall and the deadlock remained stubbornly intact. Half-time arrived with honours even, both managers undoubtedly pleased with elements of their side's performance.
 
 ### Second Half
 
-The 27th minute brought the **The Line** Game Changer thundering into the match — a moment that would prove pivotal — yet both sides held their nerve superbly through the rule change, refusing to blink. Late drama threatened but never materialised, both teams having to accept a point apiece in what felt like a war of attrition.
+If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **The Line** entered the fray — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. Both sides strained every sinew for a winner but the decisive blow never landed. A draw was the fairest outcome in a match where no team deserved to lose.
 
 ---
 
@@ -34,17 +34,17 @@ The 27th minute brought the **The Line** Game Changer thundering into the match 
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **0′** — **Amine Sassi** (Deportrio) fired the opener
-- **5′** — **Mussa Bham** (Rukkas FC) converted
-- **22′** — **Toby Aromolaran** converted
-- **26′** — **J&#039;ardell Stirling** (Deportrio) netted
+- **0′** — **Amine Sassi** (Deportrio) broke the deadlock
+- **5′** — **Mussa Bham** (Rukkas FC) found the target
+- **22′** — **Toby Aromolaran** found the target
+- **26′** — **J&#039;ardell Stirling** netted
 
 | Minute | Player | Team |
 |--------|--------|------|
 | 0′ | Amine Sassi | Deportrio |
 | 5′ | Mussa Bham | Rukkas FC |
 | 22′ | Toby Aromolaran | — |
-| 26′ | J&#039;ardell Stirling | Deportrio |
+| 26′ | J&#039;ardell Stirling | — |
 
 
 ---
@@ -78,7 +78,6 @@ The **Onside** and **The Line** windows came and went with neither side able to 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
 | Amine Sassi | 1 | 0 | 0 | 11 |
-| J&#039;ardell Stirling | 1 | 0 | 0 | 23 |
 | Daniel Atherton | 0 | 1 | 4 | 61 |
 
 
@@ -103,7 +102,7 @@ The **Onside** and **The Line** windows came and went with neither side able to 
 |--------|-------|---------|------|
 | Jay Emmanuel-Thomas | 18 | 6 | 10 |
 | Sahid Kamara | 9 | 3 | 7 |
-| J&#039;ardell Stirling | 3 | 4 | 10 |
+| J'ardell Stirling | 3 | 4 | 10 |
 | Amine Sassi | 2 | 3 | 10 |
 | Marvin Sordell | 2 | 1 | 7 |
 
@@ -117,9 +116,9 @@ The **Onside** and **The Line** windows came and went with neither side able to 
 
 ## Season Context
 
-With **1 gameweek** left in the regular season, the stakes couldn't have been higher. **Rukkas FC** entered this match averaging **3.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **Deportrio**, by contrast, arrived with an average of **4.2 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **1 gameweek** left in the regular season, the stakes couldn't have been higher. **Rukkas FC** entered this match averaging **3.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **Deportrio**, by contrast, arrived with an average of **4.1 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. Deportrio, **2nd** in the standings, knew that dropping points at this stage could prove catastrophic to their Final Four ambitions. 
+The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. Deportrio, **2nd** in the standings, knew that dropping points at this stage could prove catastrophic to their Final Four ambitions. 
 
 ---
 
@@ -146,11 +145,11 @@ Total head-to-head goals: **8** across all meetings.
 
 ## Table Impact
 
-Rukkas FC climbed to **10th**, deportrio stayed at **2nd**.
+Rukkas FC stayed at **10th**, deportrio stayed at **2nd**.
 
 | Team | Before GW10 | After GW10 |
 |------|-------------|-------------|
-| Rukkas FC | 11th | 10th |
+| Rukkas FC | 10th | 10th |
 | Deportrio | 2nd | 2nd |
 
 
@@ -177,10 +176,10 @@ Rukkas FC climbed to **10th**, deportrio stayed at **2nd**.
 ## What's Next
 
 ### Rukkas FC
-Next up: **SDS FC** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 ### Deportrio
-Next up: **N5 FC** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 
 

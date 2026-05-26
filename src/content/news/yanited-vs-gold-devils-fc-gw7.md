@@ -1,6 +1,6 @@
 ---
-title: "Yanited and Gold Devils FC Play Out 2-2 Draw in Gameweek 7"
-date: 2026-05-19
+title: "Yanited and Gold Devils FC Finish 2-2 in Hard-Fought GW7 Draw"
+date: 2026-05-26
 category: "Match Report"
 excerpt: "Yanited 2-2 Gold Devils FC — Gameweek 7 match report. Kadell Daniel (14 goals) leads Yanited's attack. Game Changers: Onside (2) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Yanited 2-2 Gold Devils FC
 
-Gameweek 7 delivered fireworks at Baller Arena with **Yanited** taking on **Gold Devils FC** in a thoroughly entertaining contest with plenty of talking points.
+Baller Arena buzzed with anticipation as **Yanited** and **Gold Devils FC** delivered a compelling advert for Baller League football — competitive, dramatic, and hard-fought.
 
 The final whistle confirmed a **2-2 draw**, a result that felt about right in a match where both sides gave everything. The Game Changer window — **Onside** and **Fairplay** — proved pivotal, contributing **2** of the match's **4** goals.
 
@@ -22,11 +22,11 @@ The final whistle confirmed a **2-2 draw**, a result that felt about right in a 
 
 ### First Half
 
-Twelve minutes in and the **Onside** Game Changer came alive, reshaping the contest entirely — a **2-goal** window that gave the half an electric pulse. Half-time arrived with honours even, both managers undoubtedly pleased with elements of their side's performance.
+The tactical landscape shifted dramatically at 12 minutes as the **Onside** Game Changer took hold — the period yielded **2** goals, just enough to set the contest alight. By the interval it was impossible to call a winner. The contest was beautifully balanced, with everything still to play for.
 
 ### Second Half
 
-The 27th minute brought the **Fairplay** Game Changer thundering into the match — a moment that would prove pivotal — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. Late drama threatened but never materialised, both teams having to accept a point apiece in what felt like a war of attrition.
+The tension was palpable at the restart, and the **Fairplay** Game Changer at 27 minutes only dialled it up — yet both sides held their nerve superbly through the rule change, refusing to blink. Both sides strained every sinew for a winner but the decisive blow never landed. A draw was the fairest outcome in a match where no team deserved to lose.
 
 ---
 
@@ -34,10 +34,10 @@ The 27th minute brought the **Fairplay** Game Changer thundering into the match 
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **2′** — **Tommy Willard** (Yanited) drew first blood
+- **2′** — **Tommy Willard** (Yanited) fired the opener
 - **12′** — **Bilal Sayoud** (Gold Devils FC) found the target
-- **15′** — **Tyrell Miller-Rodney** (Yanited) found the target
-- **23′** — **Ryan Gondoh** (Gold Devils FC) found the target
+- **15′** — **Tyrell Miller-Rodney** (Yanited) converted
+- **23′** — **Ryan Gondoh** (Gold Devils FC) netted
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -95,7 +95,7 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 | Tyrell Miller-Rodney | 6 | 3 | 9 |
 | John Bostock | 4 | 1 | 7 |
 | Michael Folivi | 2 | 1 | 8 |
-| Paul-José M&#039;Poku | 2 | 2 | 7 |
+| Paul-José M'Poku | 2 | 2 | 7 |
 
 ### Gold Devils FC — Top Scorers (Season)
 
@@ -119,7 +119,7 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 With **4 gameweeks** left in the regular season, the stakes couldn't have been higher. **Yanited** entered this match averaging **3.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **Gold Devils FC**, by contrast, arrived with an average of **2.3 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -133,12 +133,12 @@ This was the **maiden competitive meeting** between Yanited and Gold Devils FC �
 
 ## Table Impact
 
-Yanited climbed to **5th**, gold devils fc stayed at **10th**.
+Yanited climbed to **5th**, gold devils fc stayed at **11th**.
 
 | Team | Before GW7 | After GW7 |
 |------|-------------|-------------|
 | Yanited | 7th | 5th |
-| Gold Devils FC | 10th | 10th |
+| Gold Devils FC | 11th | 11th |
 
 
 ---
@@ -164,10 +164,10 @@ Yanited climbed to **5th**, gold devils fc stayed at **10th**.
 ## What's Next
 
 ### Yanited
-Next up: **NDL FC** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 ### Gold Devils FC
-Next up: **Wembley Rangers AFC** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 
 

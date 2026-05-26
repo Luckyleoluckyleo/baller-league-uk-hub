@@ -1,6 +1,6 @@
 ---
-title: "Community FC and Prime FC Deadlocked at 2-2 in GW10"
-date: 2026-05-19
+title: "Community FC and Prime FC Finish 2-2 in Hard-Fought GW10 Draw"
+date: 2026-05-26
 category: "Match Report"
 excerpt: "Community FC 2-2 Prime FC — Gameweek 10 match report. Alex Byrne (9 goals) leads Community FC's attack. Game Changers: Plus One (2) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Community FC 2-2 Prime FC
 
-The lights were bright at Baller Arena on Gameweek 10, where **Community FC** and **Prime FC** served up a match that ebbed and flowed, keeping everyone guessing until the final whistle.
+All roads led to Baller Arena for Gameweek 10, where **Community FC** and **Prime FC** produced a match that ebbed and flowed, keeping everyone guessing until the final whistle.
 
 The final whistle confirmed a **2-2 draw**, a result that felt about right in a match where both sides gave everything. The Game Changer window — **Plus One** and **The Line** — proved pivotal, contributing **3** of the match's **4** goals.
 
@@ -22,11 +22,11 @@ The final whistle confirmed a **2-2 draw**, a result that felt about right in a 
 
 ### First Half
 
-Barely a dozen minutes had passed when **Plus One** transformed the match into something altogether different — a **2-goal** window that gave the half an electric pulse. By the interval it was impossible to call a winner. The contest was beautifully balanced, with everything still to play for.
+Barely a dozen minutes had passed when **Plus One** transformed the match into something altogether different — the period yielded **2** goals, just enough to set the contest alight. Half-time arrived with honours even, both managers undoubtedly pleased with elements of their side's performance.
 
 ### Second Half
 
-The second half resumed with all to play for, and at the 27-minute mark the **The Line** Game Changer cranked up the intensity once more — and it delivered **1** goal at just the right moment to breathe fresh life into the match. Late drama threatened but never materialised, both teams having to accept a point apiece in what felt like a war of attrition.
+After the restart, the **The Line** Game Changer detonated at the 27th minute, turning the dial up to eleven — the **1** goal it produced came at a crucial juncture, swinging momentum decisively. Late drama threatened but never materialised, both teams having to accept a point apiece in what felt like a war of attrition.
 
 ---
 
@@ -34,10 +34,10 @@ The second half resumed with all to play for, and at the 27-minute mark the **Th
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **8′** — **Keane Joyce** (Community FC) drew first blood
-- **13′** — **Francis Gerard Mampolo** (Prime FC) converted
+- **8′** — **Keane Joyce** (Community FC) fired the opener
+- **13′** — **Francis Gerard Mampolo** (Prime FC) scored
 - **13′** — **Alex Byrne** (Community FC) slotted
-- **28′** — **Francis Gerard Mampolo** (Prime FC) netted
+- **28′** — **Francis Gerard Mampolo** (Prime FC) converted
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -118,9 +118,9 @@ Prime FC had **Francis Gerard Mampolo** to thank, the forward delivering a **2-g
 
 ## Season Context
 
-With **1 gameweek** left in the regular season, the stakes couldn't have been higher. **Community FC** entered this match averaging **2.8 goals per game** — a number that reflected their struggles in front of goal this campaign. **Prime FC**, by contrast, arrived with an average of **5.0 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **1 gameweek** left in the regular season, the stakes couldn't have been higher. **Community FC** entered this match averaging **2.5 goals per game** — a number that reflected their struggles in front of goal this campaign. **Prime FC**, by contrast, arrived with an average of **4.9 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -134,12 +134,12 @@ This was the **maiden competitive meeting** between Community FC and Prime FC �
 
 ## Table Impact
 
-Community FC stayed at **12th**, prime fc climbed to **8th**.
+Community FC stayed at **12th**, prime fc stayed at **9th**.
 
 | Team | Before GW10 | After GW10 |
 |------|-------------|-------------|
 | Community FC | 12th | 12th |
-| Prime FC | 9th | 8th |
+| Prime FC | 9th | 9th |
 
 
 ---
@@ -165,10 +165,10 @@ Community FC stayed at **12th**, prime fc climbed to **8th**.
 ## What's Next
 
 ### Community FC
-Next up: **Clutch FC** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 ### Prime FC
-Next up: **VZN FC** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 
 

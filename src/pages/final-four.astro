@@ -5,6 +5,11 @@ import gcData from '../data/gamechangers.json';
 import playerData from '../data/players.json';
 
 const s3Matches = (gcData.seasons['3']?.matches as any[] || []).filter((m: any) => m.homeScore > 0 || m.awayScore > 0);
+const s3Regular = s3Matches.filter((m: any) => m.gameweek <= 11);
+
+const sf1Match = s3Matches.find((m: any) => m.homeSlug === 'ndl-fc' && m.awaySlug === 'sds-fc' && m.gameweek === 12);
+const sf2Match = s3Matches.find((m: any) => m.homeSlug === 'deportrio' && m.awaySlug === 'prime-fc' && m.gameweek === 12);
+const finalMatch = s3Matches.find((m: any) => m.homeSlug === 'ndl-fc' && m.awaySlug === 'prime-fc' && m.gameweek === 12);
 
 const teams = [
   { name: 'NDL FC', slug: 'ndl-fc', pos: 1, pts: 26, manager: 'Niko Omilana', emoji: '🏆', color: '#00e676' },
@@ -21,8 +26,8 @@ function getTopScorers(slug: string) {
     .map((p: any) => ({ name: p.name, goals: p.seasons['3'].goals, slug: p.slug }));
 }
 
-function getTeamStats(slug: string) {
-  const ms = s3Matches.filter((m: any) => m.homeSlug === slug || m.awaySlug === slug);
+function getTeamStats(slug: string, matches: any[]) {
+  const ms = matches.filter((m: any) => m.homeSlug === slug || m.awaySlug === slug);
   let w = 0, d = 0, l = 0, gf = 0, ga = 0;
   ms.forEach((m: any) => {
     const isHome = m.homeSlug === slug;
@@ -52,7 +57,7 @@ const semi1 = { home: teams[0], away: teams[3], h2h: getH2H(teams[0].slug, teams
 const semi2 = { home: teams[1], away: teams[2], h2h: getH2H(teams[1].slug, teams[2].slug) };
 
 teams.forEach(t => {
-  (t as any).stats = getTeamStats(t.slug);
+  (t as any).stats = getTeamStats(t.slug, s3Regular);
   (t as any).topScorers = getTopScorers(t.slug);
 });
 
@@ -162,67 +167,168 @@ const schema = {
       </div>
 
       <div class="ff-matchups-container">
-        {[semi1, semi2].map((sf, i) => (
-          <div class="ff-matchup-card card">
-            <div class="ff-matchup-badge">Semi-Final {i + 1}</div>
-            
+
+        <!-- Semi-Final 1 -->
+        <div class="ff-matchup-card card result-card">
+          <div class="ff-matchup-badge">Semi-Final 1</div>
+          <a href="/match/s3-ndl-fc-vs-sds-fc-gw12" class="ff-matchup-result-link">
             <div class="ff-matchup-battle">
-              <!-- Home Team -->
-              <a href={`/teams/${sf.home.slug}`} class="ff-battle-team home">
+              <div class="ff-battle-team home">
                 <div class="ff-battle-info">
-                  <span class="ff-seed">#{sf.home.pos} Seed</span>
-                  <h3 class="ff-battle-name">{sf.home.name}</h3>
-                  <span class="ff-battle-manager">{sf.home.manager}</span>
+                  <span class="ff-seed">#1 Seed</span>
+                  <h3 class="ff-battle-name">NDL FC</h3>
+                  <span class="ff-battle-manager">Niko Omilana</span>
                 </div>
                 <div class="ff-battle-logo-wrap">
-                  <img src={`/logos/${sf.home.slug}.svg`} alt={sf.home.name} class="ff-battle-logo" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
-                  <span class="ff-battle-fallback">{sf.home.emoji}</span>
+                  <img src="/logos/ndl-fc.svg" alt="NDL FC" class="ff-battle-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+                  <span class="ff-battle-fallback">🏆</span>
                 </div>
-              </a>
-
-              <!-- VS Badge -->
-              <div class="ff-battle-vs">
-                <span>VS</span>
               </div>
-
-              <!-- Away Team -->
-              <a href={`/teams/${sf.away.slug}`} class="ff-battle-team away">
+              <div class="ff-battle-score">
+                <span class="score-home win">{sf1Match.homeScore}</span>
+                <span class="score-sep">–</span>
+                <span class="score-away">{sf1Match.awayScore}</span>
+              </div>
+              <div class="ff-battle-team away">
                 <div class="ff-battle-logo-wrap">
-                  <img src={`/logos/${sf.away.slug}.svg`} alt={sf.away.name} class="ff-battle-logo" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
-                  <span class="ff-battle-fallback">{sf.away.emoji}</span>
+                  <img src="/logos/sds-fc.svg" alt="SDS FC" class="ff-battle-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+                  <span class="ff-battle-fallback">🟢</span>
                 </div>
                 <div class="ff-battle-info">
-                  <span class="ff-seed">#{sf.away.pos} Seed</span>
-                  <h3 class="ff-battle-name">{sf.away.name}</h3>
-                  <span class="ff-battle-manager">{sf.away.manager}</span>
+                  <span class="ff-seed">#4 Seed</span>
+                  <h3 class="ff-battle-name">SDS FC</h3>
+                  <span class="ff-battle-manager">Tobi Brown</span>
                 </div>
-              </a>
-            </div>
-
-            <!-- H2H Section -->
-            <div class="ff-h2h-section">
-              <div class="ff-h2h-header">
-                <h4>Season 3 Head-to-Head</h4>
-                <a href={`/h2h?t1=${sf.home.slug}&t2=${sf.away.slug}`} class="ff-h2h-link">Full Comparison →</a>
               </div>
-              
-              {sf.h2h.length > 0 ? (
-                <div class="ff-h2h-table">
-                  {sf.h2h.map(m => (
-                    <a href={`/news/${sf.home.slug}-vs-${sf.away.slug}-gw${m.gw}`} class="ff-h2h-row">
-                      <span class="gw">GW{m.gw}</span>
-                      <span class="match">{m.home} <strong>{m.hs}–{m.as}</strong> {m.away}</span>
-                      <span class="result">{m.hs > m.as ? `${m.home} won` : m.as > m.hs ? `${m.away} won` : 'Draw'}</span>
-                    </a>
-                  ))}
-                </div>
-              ) : (
-                <div class="ff-h2h-empty">No previous meetings this season.</div>
-              )}
             </div>
-
+          </a>
+          <div class="ff-h2h-section">
+            <div class="ff-h2h-header">
+              <h4>Season 3 Head-to-Head</h4>
+              <a href="/h2h?t1=ndl-fc&t2=sds-fc" class="ff-h2h-link">Full Comparison →</a>
+            </div>
+            {semi1.h2h.length > 0 ? (
+              <div class="ff-h2h-table">
+                {semi1.h2h.map(m => (
+                  <a href={`/news/ndl-fc-vs-sds-fc-gw${m.gw}`} class="ff-h2h-row">
+                    <span class="gw">GW{m.gw}</span>
+                    <span class="match">{m.home} <strong>{m.hs}–{m.as}</strong> {m.away}</span>
+                    <span class="result">{m.hs > m.as ? `${m.home} won` : m.as > m.hs ? `${m.away} won` : 'Draw'}</span>
+                  </a>
+                ))}
+              </div>
+            ) : (
+              <div class="ff-h2h-empty">No previous meetings this season.</div>
+            )}
           </div>
-        ))}
+          <a href="/news/ndl-fc-vs-sds-fc-gw12" class="ff-report-link">Read Match Report →</a>
+        </div>
+
+        <!-- Semi-Final 2 -->
+        <div class="ff-matchup-card card result-card">
+          <div class="ff-matchup-badge">Semi-Final 2</div>
+          <a href="/match/s3-deportrio-vs-prime-fc-gw12" class="ff-matchup-result-link">
+            <div class="ff-matchup-battle">
+              <div class="ff-battle-team home">
+                <div class="ff-battle-info">
+                  <span class="ff-seed">#2 Seed</span>
+                  <h3 class="ff-battle-name">Deportrio</h3>
+                  <span class="ff-battle-manager">Micah Richards</span>
+                </div>
+                <div class="ff-battle-logo-wrap">
+                  <img src="/logos/deportrio.svg" alt="Deportrio" class="ff-battle-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+                  <span class="ff-battle-fallback">🔴</span>
+                </div>
+              </div>
+              <div class="ff-battle-score">
+                <span class="score-home">{sf2Match.homeScore}</span>
+                <span class="score-sep">–</span>
+                <span class="score-away win">{sf2Match.awayScore}</span>
+              </div>
+              <div class="ff-battle-team away">
+                <div class="ff-battle-logo-wrap">
+                  <img src="/logos/prime-fc.svg" alt="Prime FC" class="ff-battle-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+                  <span class="ff-battle-fallback">⚡</span>
+                </div>
+                <div class="ff-battle-info">
+                  <span class="ff-seed">#3 Seed</span>
+                  <h3 class="ff-battle-name">Prime FC</h3>
+                  <span class="ff-battle-manager">KSI</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <div class="ff-h2h-section">
+            <div class="ff-h2h-header">
+              <h4>Season 3 Head-to-Head</h4>
+              <a href="/h2h?t1=deportrio&t2=prime-fc" class="ff-h2h-link">Full Comparison →</a>
+            </div>
+            {semi2.h2h.length > 0 ? (
+              <div class="ff-h2h-table">
+                {semi2.h2h.map(m => (
+                  <a href={`/news/deportrio-vs-prime-fc-gw${m.gw}`} class="ff-h2h-row">
+                    <span class="gw">GW{m.gw}</span>
+                    <span class="match">{m.home} <strong>{m.hs}–{m.as}</strong> {m.away}</span>
+                    <span class="result">{m.hs > m.as ? `${m.home} won` : m.as > m.hs ? `${m.away} won` : 'Draw'}</span>
+                  </a>
+                ))}
+              </div>
+            ) : (
+              <div class="ff-h2h-empty">No previous meetings this season.</div>
+            )}
+          </div>
+          <a href="/news/deportrio-vs-prime-fc-gw12" class="ff-report-link">Read Match Report →</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- THE FINAL -->
+    <section class="ff-section">
+      <div class="ff-section-header">
+        <h2 class="ff-section-title gold-text ff-gold-glow">The Grand Final</h2>
+        <p class="text-muted">Prime FC defeat NDL FC 5–2 to become Season 3 Champions.</p>
+      </div>
+      <div class="ff-final-container">
+        <div class="ff-final-card card">
+          <div class="ff-final-badge">Championship Final</div>
+          <div class="ff-final-battle">
+            <div class="ff-final-team">
+              <div class="ff-final-logo-wrap">
+                <img src="/logos/ndl-fc.svg" alt="NDL FC" class="ff-final-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+                <span class="ff-final-fallback">🏆</span>
+              </div>
+              <h3 class="ff-final-name">NDL FC</h3>
+              <span class="ff-final-manager">Niko Omilana</span>
+              <span class="ff-final-seed">#1 Seed</span>
+            </div>
+            <div class="ff-final-score">
+              <span class="ff-final-score-val">{finalMatch.homeScore}</span>
+              <span class="ff-final-score-sep">–</span>
+              <span class="ff-final-score-val win">{finalMatch.awayScore}</span>
+            </div>
+            <div class="ff-final-team win">
+              <div class="ff-final-logo-wrap">
+                <img src="/logos/prime-fc.svg" alt="Prime FC" class="ff-final-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+                <span class="ff-final-fallback">⚡</span>
+              </div>
+              <h3 class="ff-final-name">Prime FC</h3>
+              <span class="ff-final-manager">KSI</span>
+              <span class="ff-final-seed">#3 Seed</span>
+            </div>
+          </div>
+          <div class="ff-final-champion">
+            <div class="ff-trophy-wrap">🏆</div>
+            <div class="ff-champion-text">
+              <span class="ff-champion-label">Season 3 Champions</span>
+              <span class="ff-champion-team">Prime FC</span>
+            </div>
+          </div>
+          <div class="ff-final-links">
+            <a href="/match/s3-ndl-fc-vs-prime-fc-gw12" class="btn btn-ghost">Match Details</a>
+            <a href="/news/ndl-fc-vs-prime-fc-gw12" class="btn btn-gold">Read Full Match Report</a>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -271,9 +377,9 @@ const schema = {
         </div>
         <div class="ff-past-card current">
           <div class="season-badge gold-text">Season 3</div>
-          <div class="trophy-icon glow">⏳</div>
-          <h3 class="champion gold-text">To Be Decided</h3>
-          <p class="details">25 May 2026<br/>The O2, London</p>
+          <div class="trophy-icon glow">🏆</div>
+          <h3 class="champion gold-text">Prime FC</h3>
+          <p class="details">Manager: KSI<br/>Beat NDL FC 5–2 in the Final</p>
         </div>
       </div>
     </section>
@@ -980,6 +1086,206 @@ const schema = {
 .ff-watch-item.twitch:hover { border-color: #9146ff; }
 .ff-watch-item.sky:hover { border-color: #0072c9; }
 .ff-watch-item.live:hover { border-color: var(--gold); }
+
+/* -------------------------------------
+   MATCH REPORT LINK (Semi-Finals)
+------------------------------------- */
+.ff-report-link {
+  display: block;
+  text-align: center;
+  padding: 14px var(--space-xl);
+  background: linear-gradient(135deg, var(--purple), rgba(139, 92, 246, 0.1));
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  transition: all var(--transition);
+  border-top: 1px solid var(--border);
+}
+.ff-report-link:hover {
+  background: var(--purple);
+}
+
+/* -------------------------------------
+   THE GRAND FINAL (Improved)
+------------------------------------- */
+.ff-gold-glow {
+  text-shadow: 0 0 30px rgba(245, 158, 11, 0.5), 0 0 60px rgba(245, 158, 11, 0.2);
+  animation: goldPulse 3s ease-in-out infinite;
+}
+@keyframes goldPulse {
+  0%, 100% { text-shadow: 0 0 30px rgba(245, 158, 11, 0.5), 0 0 60px rgba(245, 158, 11, 0.2); }
+  50% { text-shadow: 0 0 40px rgba(245, 158, 11, 0.8), 0 0 80px rgba(245, 158, 11, 0.4); }
+}
+
+.ff-final-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.ff-final-card {
+  background: linear-gradient(180deg, rgba(245, 158, 11, 0.12) 0%, var(--bg-card) 40%);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  box-shadow: 0 0 40px rgba(245, 158, 11, 0.08);
+  text-align: center;
+  overflow: hidden;
+}
+
+.ff-final-badge {
+  position: absolute;
+  top: 0; left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(135deg, var(--gold), #d97706);
+  color: #000;
+  padding: 4px 20px;
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  border-bottom-left-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+  z-index: 10;
+}
+
+.ff-final-battle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xl);
+  padding: var(--space-3xl) var(--space-xl) var(--space-xl);
+}
+
+.ff-final-team {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  position: relative;
+}
+.ff-final-team.win {
+  filter: drop-shadow(0 0 20px rgba(245, 158, 11, 0.3));
+}
+
+.ff-final-logo-wrap {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.ff-final-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 8px 20px rgba(0,0,0,0.5));
+}
+.ff-final-fallback { display: none; font-size: 4rem; }
+
+.ff-final-team.win .ff-final-logo {
+  filter: drop-shadow(0 0 20px rgba(245, 158, 11, 0.4));
+}
+
+.ff-final-name {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  color: var(--text-primary);
+  margin: 0;
+  line-height: 1.1;
+}
+.ff-final-team.win .ff-final-name {
+  color: var(--gold);
+}
+
+.ff-final-manager {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+.ff-final-seed {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.ff-final-score {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 var(--space-lg);
+}
+.ff-final-score-val {
+  font-family: var(--font-display);
+  font-size: 5rem;
+  color: var(--text-primary);
+  line-height: 1;
+}
+.ff-final-score-val.win {
+  color: var(--gold);
+  text-shadow: 0 0 30px rgba(245, 158, 11, 0.4);
+}
+.ff-final-score-sep {
+  font-size: 3rem;
+  color: var(--text-muted);
+  font-weight: 300;
+}
+
+.ff-final-champion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-lg);
+  padding: var(--space-lg) var(--space-xl) var(--space-xl);
+  background: linear-gradient(180deg, transparent 0%, rgba(245, 158, 11, 0.08) 100%);
+  border-top: 1px solid rgba(245, 158, 11, 0.15);
+}
+.ff-trophy-wrap {
+  font-size: 4rem;
+  line-height: 1;
+  animation: trophyBounce 2s ease-in-out infinite;
+}
+@keyframes trophyBounce {
+  0%, 100% { transform: translateY(0) rotate(-3deg); }
+  50% { transform: translateY(-8px) rotate(3deg); }
+}
+.ff-champion-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.ff-champion-label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+  font-weight: 700;
+}
+.ff-champion-team {
+  font-family: var(--font-display);
+  font-size: 2.5rem;
+  color: var(--gold);
+  line-height: 1.1;
+  text-shadow: 0 0 20px rgba(245, 158, 11, 0.3);
+}
+
+.ff-final-links {
+  display: flex;
+  gap: var(--space-md);
+  padding: 0 var(--space-xl) var(--space-xl);
+  justify-content: center;
+}
+.ff-final-links .btn-ghost {
+  color: var(--text-secondary);
+  border-color: var(--border);
+}
+.ff-final-links .btn-ghost:hover {
+  color: var(--text-primary);
+  border-color: var(--text-muted);
+}
 
 /* -------------------------------------
    RESPONSIVE

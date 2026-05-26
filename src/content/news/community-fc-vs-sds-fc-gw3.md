@@ -1,6 +1,6 @@
 ---
-title: "SDS FC Cruise Past Community FC in 3-7 Rout — GW3"
-date: 2026-05-19
+title: "SDS FC Brush Community FC Aside 3-7 in Confident Showing — GW3"
+date: 2026-05-26
 category: "Match Report"
 excerpt: "Community FC 3-7 SDS FC — Gameweek 3 match report. Alex Byrne (9 goals) leads Community FC's attack. Game Changers: Onside (0) & 1-on-1 (5). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: true
 
 ## Match Summary — Community FC 3-7 SDS FC
 
-Football took center stage at Baller Arena when **Community FC** met **SDS FC** in an unforgettable thriller packed with drama and goals.
+The Gameweek 3 spotlight fell on Baller Arena for **Community FC** versus **SDS FC** — a pulsating encounter that had fans on the edge of their seats from the first whistle to the last.
 
-SDS FC came in occupying a coveted playoff spot at 2nd, while Community FC were desperate to crash the party. When the dust settled, it was **SDS FC** who emerged **3-7** victors. The Game Changer window — **Onside** and **1-on-1** — proved pivotal, contributing **5** of the match's **10** goals.
+SDS FC came in occupying a coveted playoff spot at 1st, while Community FC were desperate to crash the party. When the dust settled, it was **SDS FC** who emerged **3-7** victors. The Game Changer window — **Onside** and **1-on-1** — proved pivotal, contributing **5** of the match's **10** goals.
 
 **Community FC form (before GW3):** ❌ ❌ (L-L)  
 **SDS FC form (before GW3):** 🤝 ✅ 🤝 ✅ (D-W-D-W)
@@ -22,11 +22,11 @@ SDS FC came in occupying a coveted playoff spot at 2nd, while Community FC were 
 
 ### First Half
 
-The tactical landscape shifted dramatically at 12 minutes as the **Onside** Game Changer took hold — but the goalkeepers and back-lines rose to the occasion, keeping the scoreboard operator idle throughout the activation. SDS FC were absolutely rampant, carving Community FC open at will. By the break, they had built an intimidating lead that felt insurmountable.
+Twelve minutes in and the **Onside** Game Changer came alive, reshaping the contest entirely — but the goalkeepers and back-lines rose to the occasion, keeping the scoreboard operator idle throughout the activation. SDS FC were absolutely rampant, carving Community FC open at will. By the break, they had built an intimidating lead that felt insurmountable.
 
 ### Second Half
 
-The second half resumed with all to play for, and at the 27-minute mark the **1-on-1** Game Changer cranked up the intensity once more — once again the goals rained down, **5** of them, raw and relentless. The scoreboard didn't flatter SDS FC — they were simply better in every department, and Community FC had no complaints. This was Baller League at its most chaotic and brilliant — **10** goals, endless drama, and a match nobody in attendance will forget in a hurry.
+The 27th minute brought the **1-on-1** Game Changer thundering into the match — a moment that would prove pivotal — the defensive discipline of the first half evaporated as **5** goals thundered in during the activation. The scoreboard didn't flatter SDS FC — they were simply better in every department, and Community FC had no complaints. This was Baller League at its most chaotic and brilliant — **10** goals, endless drama, and a match nobody in attendance will forget in a hurry.
 
 ---
 
@@ -34,16 +34,16 @@ The second half resumed with all to play for, and at the 27-minute mark the **1-
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **5′** — **Camilo Restrepo** (SDS FC) fired the opener
-- **8′** — **Connor Wood** (SDS FC) found the target
-- **20′** — **Selim Saied** (SDS FC) found the target
-- **20′** — **Kazaiah Sterling** (SDS FC) netted
-- **24′** — **Kazaiah Sterling** (SDS FC) fired home
-- **27′** — **Alex Byrne** (Community FC) found the target
-- **28′** — **Joshua Abbott** (SDS FC) converted
-- **28′** — **Alex Byrne** (Community FC) scored
+- **5′** — **Camilo Restrepo** (SDS FC) broke the deadlock
+- **8′** — **Connor Wood** (SDS FC) converted
+- **20′** — **Selim Saied** (SDS FC) struck
+- **20′** — **Kazaiah Sterling** (SDS FC) fired home
+- **24′** — **Kazaiah Sterling** (SDS FC) found the target
+- **27′** — **Alex Byrne** (Community FC) converted
+- **28′** — **Joshua Abbott** (SDS FC) netted
+- **28′** — **Alex Byrne** (Community FC) found the target
 - **29′** — **Danny Bassett** (SDS FC) fired home
-- **29′** — **Alex Byrne** (Community FC) fired home
+- **29′** — **Alex Byrne** (Community FC) converted
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -88,7 +88,7 @@ The **1-on-1** window was the more impactful, its **5** goals shifting the balan
 
 ### SDS FC
 
-SDS FC had **Kazaiah Sterling** to thank, the forward delivering a **2-goal** performance of the highest calibre.
+**Kazaiah Sterling** led the charge for SDS FC, his **2 goals** a testament to the kind of ruthless finishing that makes him a nightmare for opposing defences.
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
@@ -135,9 +135,9 @@ SDS FC had **Kazaiah Sterling** to thank, the forward delivering a **2-goal** pe
 
 ## Season Context
 
-With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **Community FC** entered this match averaging **2.8 goals per game** — a number that reflected their struggles in front of goal this campaign. **SDS FC**, by contrast, arrived with an average of **3.6 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **Community FC** entered this match averaging **2.5 goals per game** — a number that reflected their struggles in front of goal this campaign. **SDS FC**, by contrast, arrived with an average of **3.3 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -151,12 +151,12 @@ This was the **maiden competitive meeting** between Community FC and SDS FC — 
 
 ## Table Impact
 
-Community FC stayed at **12th**, sds fc stayed at **2nd**.
+Community FC stayed at **12th**, sds fc stayed at **1st**.
 
 | Team | Before GW3 | After GW3 |
 |------|-------------|-------------|
 | Community FC | 12th | 12th |
-| SDS FC | 2nd | 2nd |
+| SDS FC | 1st | 1st |
 
 
 ---
@@ -182,10 +182,10 @@ Community FC stayed at **12th**, sds fc stayed at **2nd**.
 ## What's Next
 
 ### Community FC
-Next up: **Clutch FC** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 ### SDS FC
-Next up: **Rukkas FC** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 
 

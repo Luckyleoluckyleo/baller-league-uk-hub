@@ -1,6 +1,6 @@
 ---
-title: "N5 FC See Off Gold Devils FC 3-5 in Gameweek 3"
-date: 2026-05-19
+title: "N5 FC Claim 3-5 Win Over Gold Devils FC in GW3"
+date: 2026-05-26
 category: "Match Report"
 excerpt: "Gold Devils FC 3-5 N5 FC — Gameweek 3 match report. Bilal Sayoud (8 goals) leads Gold Devils FC's attack. Game Changers: 3Play (2) & 1-on-1 (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Gold Devils FC 3-5 N5 FC
 
-A pivotal Gameweek 3 encounter saw **Gold Devils FC** go head-to-head with **N5 FC** in a rollercoaster of emotions that had everything you could want from a Baller League match.
+Baller Arena played host to an absorbing Gameweek 3 clash as **Gold Devils FC** locked horns with **N5 FC** in what would prove to be a pulsating encounter that had fans on the edge of their seats from the first whistle to the last.
 
 When the dust settled, it was **N5 FC** who emerged **3-5** victors. The Game Changer window — **3Play** and **1-on-1** — proved pivotal, contributing **2** of the match's **8** goals.
 
@@ -22,11 +22,11 @@ When the dust settled, it was **N5 FC** who emerged **3-5** victors. The Game Ch
 
 ### First Half
 
-The first half sprang into life at the 12-minute mark with the **3Play** Game Changer flicking the switch — the period yielded **2** goals, just enough to set the contest alight. N5 FC held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
+The game's complexion changed at the 12th minute when the **3Play** Game Changer activated — the period yielded **2** goals, just enough to set the contest alight. N5 FC held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
 
 ### Second Half
 
-The tension was palpable at the restart, and the **1-on-1** Game Changer at 27 minutes only dialled it up — yet both sides held their nerve superbly through the rule change, refusing to blink. The final exchanges were fraught with tension. Gold Devils FC threw everything forward in search of a route back, but N5 FC held their nerve, defending with grit and intelligence to protect what they had.
+The second half resumed with all to play for, and at the 27-minute mark the **1-on-1** Game Changer cranked up the intensity once more — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. It was edge-of-your-seat stuff in the closing minutes. Gold Devils FC pressed and probed, but N5 FC's back-line stood firm — resilient, organised, and ultimately heroic.
 
 ---
 
@@ -35,13 +35,13 @@ The tension was palpable at the restart, and the **1-on-1** Game Changer at 27 m
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **0′** — **Joe Bennett** (N5 FC) opened the scoring
-- **9′** — **Bilal Sayoud** (Gold Devils FC) slotted
-- **10′** — **Salim Nassor** (Gold Devils FC) converted
-- **11′** — **Michael Hill** (N5 FC) scored
-- **12′** — **Ibrahim Ugradar** (N5 FC) netted
+- **9′** — **Bilal Sayoud** (Gold Devils FC) struck
+- **10′** — **Salim Nassor** (Gold Devils FC) netted
+- **11′** — **Michael Hill** (N5 FC) netted
+- **12′** — **Ibrahim Ugradar** (N5 FC) struck
 - **13′** — **Arezki Hamouchene** (Gold Devils FC) converted
-- **18′** — **Joe Bennett** (N5 FC) netted
-- **26′** — **Michael Hill** (N5 FC) found the target
+- **18′** — **Joe Bennett** (N5 FC) converted
+- **26′** — **Michael Hill** (N5 FC) converted
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -84,7 +84,7 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 ### N5 FC
 
-**Joe Bennett** led the charge for N5 FC, his **2 goals** a testament to the kind of ruthless finishing that makes him a nightmare for opposing defences.
+N5 FC had **Joe Bennett** to thank, the forward delivering a **2-goal** performance of the highest calibre.
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
@@ -128,9 +128,9 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 ## Season Context
 
-With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **Gold Devils FC** entered this match averaging **2.3 goals per game** — a number that reflected their struggles in front of goal this campaign. **N5 FC**, by contrast, arrived with an average of **3.9 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **Gold Devils FC** entered this match averaging **2.3 goals per game** — a number that reflected their struggles in front of goal this campaign. **N5 FC**, by contrast, arrived with an average of **4.0 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -144,11 +144,11 @@ This was the **maiden competitive meeting** between Gold Devils FC and N5 FC —
 
 ## Table Impact
 
-Gold Devils FC dropped to **8th**, n5 fc climbed to **4th**.
+Gold Devils FC stayed at **9th**, n5 fc climbed to **4th**.
 
 | Team | Before GW3 | After GW3 |
 |------|-------------|-------------|
-| Gold Devils FC | 6th | 8th |
+| Gold Devils FC | 9th | 9th |
 | N5 FC | 10th | 4th |
 
 
@@ -176,10 +176,10 @@ Gold Devils FC dropped to **8th**, n5 fc climbed to **4th**.
 ## What's Next
 
 ### Gold Devils FC
-Next up: **Wembley Rangers AFC** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 ### N5 FC
-Next up: **Deportrio** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 
 

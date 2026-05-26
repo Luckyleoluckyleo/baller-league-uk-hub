@@ -1,6 +1,6 @@
 ---
-title: "NDL FC Claim 3-6 Win Over Clutch FC in GW7"
-date: 2026-05-19
+title: "NDL FC Beat Clutch FC 3-6 in Entertaining GW7 Clash"
+date: 2026-05-26
 category: "Match Report"
 excerpt: "Clutch FC 3-6 NDL FC — Gameweek 7 match report. Alfie Matthews (12 goals) leads Clutch FC's attack. Game Changers: 3Play (2) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Clutch FC 3-6 NDL FC
 
-The crowd at Baller Arena were treated to a spectacle as **Clutch FC** faced **NDL FC** in a rollercoaster of emotions that had everything you could want from a Baller League match.
+The Gameweek 7 spotlight fell on Baller Arena for **Clutch FC** versus **NDL FC** — a breathtaking goal-fest.
 
-Clutch FC came in occupying a coveted playoff spot at 3rd, while NDL FC were desperate to crash the party. When the dust settled, it was **NDL FC** who emerged **3-6** victors, extending their red-hot run of form in spectacular fashion. The Game Changer window — **3Play** and **1-on-1** — proved pivotal, contributing **5** of the match's **9** goals.
+NDL FC came in occupying a coveted playoff spot at 2nd, while Clutch FC were desperate to crash the party. When the dust settled, it was **NDL FC** who emerged **3-6** victors, extending their red-hot run of form in spectacular fashion. The Game Changer window — **3Play** and **1-on-1** — proved pivotal, contributing **5** of the match's **9** goals.
 
 **Clutch FC form (before GW7):** ✅ ✅ ✅ ✅ ❌ (W-W-W-W-L)  
 **NDL FC form (before GW7):** ❌ ❌ ❌ ✅ ✅ (L-L-L-W-W)
@@ -22,11 +22,11 @@ Clutch FC came in occupying a coveted playoff spot at 3rd, while NDL FC were des
 
 ### First Half
 
-The first half sprang into life at the 12-minute mark with the **3Play** Game Changer flicking the switch — a **2-goal** window that gave the half an electric pulse. NDL FC controlled the tempo and carried a deserved lead into the interval, their composure and cutting edge proving the difference.
+At the 12th minute, the **3Play** Game Changer roared into action — the period yielded **2** goals, just enough to set the contest alight. NDL FC held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
 
 ### Second Half
 
-The tension was palpable at the restart, and the **1-on-1** Game Changer at 27 minutes only dialled it up — and the mayhem resumed. **3** more goals erupted during the window, transforming the contest into a full-blown classic. The scoreboard didn't flatter NDL FC — they were simply better in every department, and Clutch FC had no complaints.
+The tension was palpable at the restart, and the **1-on-1** Game Changer at 27 minutes only dialled it up — the defensive discipline of the first half evaporated as **3** goals thundered in during the activation. NDL FC managed the occasion expertly, balancing attacking ambition with game-control to see out a thoroughly deserved victory.
 
 ---
 
@@ -34,14 +34,14 @@ The tension was palpable at the restart, and the **1-on-1** Game Changer at 27 m
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **4′** — **Sam Fitzgerald** (NDL FC) fired the opener
-- **9′** — **Razzaq Coleman** (NDL FC) netted
-- **13′** — **Isaac Modi** (NDL FC) converted
-- **14′** — **David Marques Castanho** (Clutch FC) fired home
-- **17′** — **Joshua Parker** (NDL FC) slotted
+- **4′** — **Sam Fitzgerald** (NDL FC) opened the scoring
+- **9′** — **Razzaq Coleman** (NDL FC) found the target
+- **13′** — **Isaac Modi** (NDL FC) scored
+- **14′** — **David Marques Castanho** (Clutch FC) struck
+- **17′** — **Joshua Parker** (NDL FC) converted
 - **18′** — **Isaac Modi** (NDL FC) scored
-- **27′** — **Sam Fitzgerald** (NDL FC) fired home
-- **28′** — **Tyler Winters** (Clutch FC) netted
+- **27′** — **Sam Fitzgerald** (NDL FC) found the target
+- **28′** — **Tyler Winters** (Clutch FC) converted
 - **29′** — **Alfie Matthews** (Clutch FC) fired home
 
 | Minute | Player | Team |
@@ -134,9 +134,9 @@ The **1-on-1** window was the more impactful, its **3** goals shifting the balan
 
 ## Season Context
 
-With **4 gameweeks** left in the regular season, the stakes couldn't have been higher. **Clutch FC** entered this match averaging **3.7 goals per game** — a number that reflected their struggles in front of goal this campaign. **NDL FC**, by contrast, arrived with an average of **4.6 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **4 gameweeks** left in the regular season, the stakes couldn't have been higher. **Clutch FC** entered this match averaging **3.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **NDL FC**, by contrast, arrived with an average of **4.4 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -150,11 +150,11 @@ This was the **maiden competitive meeting** between Clutch FC and NDL FC — a h
 
 ## Table Impact
 
-Clutch FC dropped to **6th**, ndl fc climbed to **1st**.
+Clutch FC dropped to **8th**, ndl fc climbed to **1st**.
 
 | Team | Before GW7 | After GW7 |
 |------|-------------|-------------|
-| Clutch FC | 3rd | 6th |
+| Clutch FC | 6th | 8th |
 | NDL FC | 2nd | 1st |
 
 
@@ -182,10 +182,10 @@ Clutch FC dropped to **6th**, ndl fc climbed to **1st**.
 ## What's Next
 
 ### Clutch FC
-Next up: **Community FC** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 ### NDL FC
-Next up: **Yanited** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 
 

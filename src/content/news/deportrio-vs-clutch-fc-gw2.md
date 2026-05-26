@@ -1,6 +1,6 @@
 ---
-title: "Clutch FC See Off Deportrio 1-4 in Gameweek 2"
-date: 2026-05-19
+title: "Clutch FC Beat Deportrio 1-4 in Entertaining GW2 Clash"
+date: 2026-05-26
 category: "Match Report"
 excerpt: "Deportrio 1-4 Clutch FC — Gameweek 2 match report. Jay Emmanuel-Thomas (18 goals) leads Deportrio's attack. Game Changers: 3Play (0) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Deportrio 1-4 Clutch FC
 
-The crowd at Baller Arena were treated to a spectacle as **Deportrio** faced **Clutch FC** in a thoroughly entertaining contest with plenty of talking points.
+The lights were bright at Baller Arena on Gameweek 2, where **Deportrio** and **Clutch FC** served up a thoroughly entertaining contest with plenty of talking points.
 
-When the dust settled, it was **Clutch FC** who emerged **1-4** victors. The Game Changer window — **3Play** and **1-on-1** — proved pivotal, contributing **3** of the match's **5** goals.
+Deportrio, sitting pretty in the Final Four places at 4th, knew a win here would tighten their grip. When the dust settled, it was **Clutch FC** who emerged **1-4** victors. The Game Changer window — **3Play** and **1-on-1** — proved pivotal, contributing **3** of the match's **5** goals.
 
 **Deportrio form (before GW2):** ❌ ✅ (L-W)  
 **Clutch FC form (before GW2):** ❌ (L)
@@ -22,11 +22,11 @@ When the dust settled, it was **Clutch FC** who emerged **1-4** victors. The Gam
 
 ### First Half
 
-The first half sprang into life at the 12-minute mark with the **3Play** Game Changer flicking the switch — yet for all the altered rules, the defences stood tall and the deadlock remained stubbornly intact. Clutch FC held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
+Barely a dozen minutes had passed when **3Play** transformed the match into something altogether different — but remarkably, neither side could find the net. A tactical stalemate that owed as much to disciplined defending as to the specific rule change. Clutch FC held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
 
 ### Second Half
 
-The second half resumed with all to play for, and at the 27-minute mark the **1-on-1** Game Changer cranked up the intensity once more — once again the goals rained down, **3** of them, raw and relentless. The scoreboard didn't flatter Clutch FC — they were simply better in every department, and Deportrio had no complaints.
+If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **1-on-1** entered the fray — the defensive discipline of the first half evaporated as **3** goals thundered in during the activation. Clutch FC managed the occasion expertly, balancing attacking ambition with game-control to see out a thoroughly deserved victory.
 
 ---
 
@@ -34,9 +34,9 @@ The second half resumed with all to play for, and at the 27-minute mark the **1-
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **7′** — **Keir Dickson** (Clutch FC) opened the scoring
-- **7′** — **Martyn Waghorn** converted
-- **27′** — **Aaron Steavens** fired home
+- **7′** — **Keir Dickson** (Clutch FC) broke the deadlock
+- **7′** — **Martyn Waghorn** fired home
+- **27′** — **Aaron Steavens** netted
 - **27′** — **Alfie Matthews** (Clutch FC) slotted
 - **29′** — **Aaron Steavens** fired home
 
@@ -87,7 +87,7 @@ The **1-on-1** window was the more impactful, its **3** goals shifting the balan
 |--------|-------|---------|------|
 | Jay Emmanuel-Thomas | 18 | 6 | 10 |
 | Sahid Kamara | 9 | 3 | 7 |
-| J&#039;ardell Stirling | 3 | 4 | 10 |
+| J'ardell Stirling | 3 | 4 | 10 |
 | Amine Sassi | 2 | 3 | 10 |
 | Marvin Sordell | 2 | 1 | 7 |
 
@@ -111,9 +111,9 @@ The **1-on-1** window was the more impactful, its **3** goals shifting the balan
 
 ## Season Context
 
-With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **Deportrio** entered this match averaging **4.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **Clutch FC**, by contrast, arrived with an average of **3.7 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **Deportrio** entered this match averaging **4.1 goals per game** — a number that reflected their struggles in front of goal this campaign. **Clutch FC**, by contrast, arrived with an average of **3.4 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -127,12 +127,12 @@ This was the **maiden competitive meeting** between Deportrio and Clutch FC — 
 
 ## Table Impact
 
-Deportrio dropped to **9th**, clutch fc climbed to **4th**.
+Deportrio dropped to **8th**, clutch fc climbed to **7th**.
 
 | Team | Before GW2 | After GW2 |
 |------|-------------|-------------|
-| Deportrio | 5th | 9th |
-| Clutch FC | 10th | 4th |
+| Deportrio | 4th | 8th |
+| Clutch FC | 10th | 7th |
 
 
 ---
@@ -159,10 +159,10 @@ Deportrio dropped to **9th**, clutch fc climbed to **4th**.
 ## What's Next
 
 ### Deportrio
-Next up: **N5 FC** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 ### Clutch FC
-Next up: **Community FC** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 
 

@@ -28,13 +28,14 @@ const upcomingGW = upcomingFixtures[0]?.gameweek ?? 10;
 
 // Latest gameweek results from scraped data
 const s3Matches = (gcData.seasons['3']?.matches as any[] || []).filter((m: any) => m.homeScore > 0 || m.awayScore > 0);
+const s3League = s3Matches.filter((m: any) => m.gameweek <= 11);
 const gws = [...new Set(s3Matches.map((m: any) => m.gameweek))].sort((a: any, b: any) => b - a);
 const lastGW = gws[0] ?? 8;
 const recentResults = s3Matches.filter((m: any) => m.gameweek === lastGW);
 
-// Compute GP, W/D/L, GF/GA for table
+// Compute GP, W/D/L, GF/GA for table (league only, excl Final Four)
 const records: Record<string, { played: number; won: number; drawn: number; lost: number; gf: number; ga: number }> = {};
-for (const m of s3Matches) {
+for (const m of s3League) {
   if (!records[m.homeTeam]) records[m.homeTeam] = { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0 };
   if (!records[m.awayTeam]) records[m.awayTeam] = { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0 };
   records[m.homeTeam].played++;

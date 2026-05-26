@@ -189,9 +189,18 @@ function parseMatch(html, gameId) {
   if (!scoreM) return null;
   const score = { home: parseInt(scoreM[1]), away: parseInt(scoreM[2]) };
 
+  let gameday;
   const gwM = html.match(/GAMEDAY\s*(\d{1,2})/i);
-  if (!gwM) return null;
-  const gameday = parseInt(gwM[1]);
+  if (gwM) {
+    gameday = parseInt(gwM[1]);
+  } else {
+    const f4M = html.match(/GAMEDAY\s*(F4)/i);
+    if (f4M) {
+      gameday = 12;
+    } else {
+      return null;
+    }
+  }
 
   // Parse match date/time
   const dateM = html.match(/<p class="bl-gameday-date[^"]*">\s*(.+?)\s*<\/p>/);

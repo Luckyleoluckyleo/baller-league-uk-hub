@@ -1,6 +1,6 @@
 ---
-title: "NDL FC Cruise Past Community FC in 2-7 Rout — GW1"
-date: 2026-05-19
+title: "NDL FC Brush Community FC Aside 2-7 in Confident Showing — GW1"
+date: 2026-05-26
 category: "Match Report"
 excerpt: "Community FC 2-7 NDL FC — Gameweek 1 match report. Alex Byrne (9 goals) leads Community FC's attack. Game Changers: 3Play (3) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Community FC 2-7 NDL FC
 
-Baller Arena buzzed with anticipation as **Community FC** and **NDL FC** delivered an unforgettable thriller packed with drama and goals.
+The crowd at Baller Arena were treated to a spectacle as **Community FC** faced **NDL FC** in a pulsating encounter that had fans on the edge of their seats from the first whistle to the last.
 
 When the dust settled, it was **NDL FC** who emerged **2-7** victors in a performance that will send shockwaves through the division. The Game Changer window — **3Play** and **The Line** — proved pivotal, contributing **4** of the match's **9** goals.
 
@@ -21,11 +21,11 @@ When the dust settled, it was **NDL FC** who emerged **2-7** victors in a perfor
 
 ### First Half
 
-The game's complexion changed at the 12th minute when the **3Play** Game Changer activated — and the goals flowed. **3** times the net bulged during the activation period, a frantic, breathless spell of attacking football. NDL FC simply blew Community FC away in a devastating opening period, sending a powerful message to everyone watching.
+Twelve minutes in and the **3Play** Game Changer came alive, reshaping the contest entirely — and the goals flowed. **3** times the net bulged during the activation period, a frantic, breathless spell of attacking football. NDL FC were absolutely rampant, carving Community FC open at will. By the break, they had built an intimidating lead that felt insurmountable.
 
 ### Second Half
 
-The 27th minute brought the **The Line** Game Changer thundering into the match — a moment that would prove pivotal — the **1** goal it produced came at a crucial juncture, swinging momentum decisively. NDL FC managed the occasion expertly, balancing attacking ambition with game-control to see out a thoroughly deserved victory.
+The tension was palpable at the restart, and the **The Line** Game Changer at 27 minutes only dialled it up — and it delivered **1** goal at just the right moment to breathe fresh life into the match. NDL FC managed the occasion expertly, balancing attacking ambition with game-control to see out a thoroughly deserved victory.
 
 ---
 
@@ -34,14 +34,14 @@ The 27th minute brought the **The Line** Game Changer thundering into the match 
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **10′** — **Alex Byrne** (Community FC) fired the opener
-- **12′** — **Dara Dada** (NDL FC) fired home
-- **13′** — **Jadan Raymond** netted
-- **14′** — **Amadou Kassaraté** (NDL FC) fired home
+- **12′** — **Dara Dada** (NDL FC) slotted
+- **13′** — **Jadan Raymond** scored
+- **14′** — **Amadou Kassaraté** (NDL FC) struck
 - **17′** — **Amin Belaid** (NDL FC) converted
-- **19′** — **Tyler Winters** (NDL FC) slotted
-- **21′** — **Dara Dada** (NDL FC) found the target
-- **23′** — **Dara Dada** (NDL FC) fired home
-- **28′** — **Matthew Waller** (Community FC) found the target
+- **19′** — **Tyler Winters** (NDL FC) netted
+- **21′** — **Dara Dada** (NDL FC) netted
+- **23′** — **Dara Dada** (NDL FC) slotted
+- **28′** — **Matthew Waller** (Community FC) scored
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -84,7 +84,7 @@ The **3Play** window was the more impactful, its **3** goals shifting the balanc
 
 ### NDL FC
 
-NDL FC had **Dara Dada** to thank, the forward delivering a **3-goal** performance of the highest calibre.
+**Dara Dada** led the charge for NDL FC, his **3 goals** a testament to the kind of ruthless finishing that makes him a nightmare for opposing defences.
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
@@ -128,9 +128,9 @@ NDL FC had **Dara Dada** to thank, the forward delivering a **3-goal** performan
 
 ## Season Context
 
-With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **Community FC** entered this match averaging **2.8 goals per game** — a number that reflected their struggles in front of goal this campaign. **NDL FC**, by contrast, arrived with an average of **4.6 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **Community FC** entered this match averaging **2.5 goals per game** — a number that reflected their struggles in front of goal this campaign. **NDL FC**, by contrast, arrived with an average of **4.4 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -149,7 +149,7 @@ Community FC held steady, ndl fc held steady.
 | Team | Before GW1 | After GW1 |
 |------|-------------|-------------|
 | Community FC | — | 12th |
-| NDL FC | — | 1st |
+| NDL FC | — | 3rd |
 
 
 ---
@@ -176,10 +176,10 @@ Community FC held steady, ndl fc held steady.
 ## What's Next
 
 ### Community FC
-Next up: **Clutch FC** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 ### NDL FC
-Next up: **Yanited** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 
 

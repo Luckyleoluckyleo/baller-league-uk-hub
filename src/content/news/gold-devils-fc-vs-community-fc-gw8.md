@@ -1,6 +1,6 @@
 ---
-title: "Gold Devils FC and Community FC Serve Up 4-4 Epic in GW8"
-date: 2026-05-19
+title: "Gold Devils FC and Community FC Play Out 4-4 Classic in Gameweek 8"
+date: 2026-05-26
 category: "Match Report"
 excerpt: "Gold Devils FC 4-4 Community FC — Gameweek 8 match report. Bilal Sayoud (8 goals) leads Gold Devils FC's attack. Game Changers: 3Play (3) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Gold Devils FC 4-4 Community FC
 
-The lights were bright at Baller Arena on Gameweek 8, where **Gold Devils FC** and **Community FC** served up an end-to-end classic where neither side deserved to walk away empty-handed.
+Tensions were high at Baller Arena as **Gold Devils FC** squared off against **Community FC** in an end-to-end classic where neither side deserved to walk away empty-handed.
 
 The final whistle confirmed a **4-4 draw** in a contest that had absolutely everything — goals, drama, and relentless entertainment. The Game Changer window — **3Play** and **The Line** — proved pivotal, contributing **3** of the match's **8** goals.
 
@@ -26,7 +26,7 @@ At the 12th minute, the **3Play** Game Changer roared into action — and the go
 
 ### Second Half
 
-The second half resumed with all to play for, and at the 27-minute mark the **The Line** Game Changer cranked up the intensity once more — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. Both sides strained every sinew for a winner but the decisive blow never landed. A draw was the fairest outcome in a match where no team deserved to lose.
+If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **The Line** entered the fray — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. Late drama threatened but never materialised, both teams having to accept a point apiece in what felt like a war of attrition.
 
 ---
 
@@ -34,14 +34,14 @@ The second half resumed with all to play for, and at the 27-minute mark the **Th
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **2′** — **Keane Joyce** (Community FC) drew first blood
-- **7′** — **Luqman Kassim** (Gold Devils FC) converted
+- **2′** — **Keane Joyce** (Community FC) opened the scoring
+- **7′** — **Luqman Kassim** (Gold Devils FC) slotted
 - **8′** — **Alex Byrne** (Community FC) netted
-- **10′** — **Luqman Kassim** (Gold Devils FC) found the target
-- **12′** — **Jahvarn Stewart** (Gold Devils FC) netted
-- **13′** — **Callum Charlton** (Community FC) scored
-- **14′** — **Jahvarn Stewart** (Gold Devils FC) netted
-- **18′** — **Alex Byrne** (Community FC) scored
+- **10′** — **Luqman Kassim** (Gold Devils FC) scored
+- **12′** — **Jahvarn Stewart** (Gold Devils FC) found the target
+- **13′** — **Callum Charlton** (Community FC) fired home
+- **14′** — **Jahvarn Stewart** (Gold Devils FC) struck
+- **18′** — **Alex Byrne** (Community FC) slotted
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -131,9 +131,9 @@ The **3Play** window was the more impactful, its **3** goals shifting the balanc
 
 ## Season Context
 
-With **3 gameweeks** left in the regular season, the stakes couldn't have been higher. **Gold Devils FC** entered this match averaging **2.3 goals per game** — a number that reflected their struggles in front of goal this campaign. **Community FC**, by contrast, arrived with an average of **2.8 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **3 gameweeks** left in the regular season, the stakes couldn't have been higher. **Gold Devils FC** entered this match averaging **2.3 goals per game** — a number that reflected their struggles in front of goal this campaign. **Community FC**, by contrast, arrived with an average of **2.5 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -147,11 +147,11 @@ This was the **maiden competitive meeting** between Gold Devils FC and Community
 
 ## Table Impact
 
-Gold Devils FC stayed at **10th**, community fc stayed at **12th**.
+Gold Devils FC stayed at **11th**, community fc stayed at **12th**.
 
 | Team | Before GW8 | After GW8 |
 |------|-------------|-------------|
-| Gold Devils FC | 10th | 10th |
+| Gold Devils FC | 11th | 11th |
 | Community FC | 12th | 12th |
 
 
@@ -178,10 +178,10 @@ Gold Devils FC stayed at **10th**, community fc stayed at **12th**.
 ## What's Next
 
 ### Gold Devils FC
-Next up: **Wembley Rangers AFC** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 ### Community FC
-Next up: **Clutch FC** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 
 

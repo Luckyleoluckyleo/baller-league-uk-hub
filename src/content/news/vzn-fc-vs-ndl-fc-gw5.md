@@ -1,6 +1,6 @@
 ---
-title: "NDL FC Scrape Past VZN FC 4-5 in Tight GW5 Contest"
-date: 2026-05-19
+title: "NDL FC Narrowly Beat VZN FC 4-5 in GW5 Nail-biter"
+date: 2026-05-26
 category: "Match Report"
 excerpt: "VZN FC 4-5 NDL FC — Gameweek 5 match report. George Nikaj (9 goals) leads VZN FC's attack. Game Changers: Onside (1) & 1-on-1 (5). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — VZN FC 4-5 NDL FC
 
-The lights were bright at Baller Arena on Gameweek 5, where **VZN FC** and **NDL FC** served up a breathtaking goal-fest.
+The crowd at Baller Arena were treated to a spectacle as **VZN FC** faced **NDL FC** in a breathtaking goal-fest.
 
-NDL FC, sitting pretty in the Final Four places at 1st, knew a win here would tighten their grip. When the dust settled, it was **NDL FC** who emerged **4-5** victors, ending VZN FC's impressive winning run in the process. The Game Changer window — **Onside** and **1-on-1** — proved pivotal, contributing **6** of the match's **9** goals.
+NDL FC came in occupying a coveted playoff spot at 2nd, while VZN FC were desperate to crash the party. When the dust settled, it was **NDL FC** who emerged **4-5** victors, ending VZN FC's impressive winning run in the process. The Game Changer window — **Onside** and **1-on-1** — proved pivotal, contributing **6** of the match's **9** goals.
 
 **VZN FC form (before GW5):** ❌ ❌ ❌ 🤝 ✅ (L-L-L-D-W)  
 **NDL FC form (before GW5):** ✅ ✅ ✅ ✅ 🤝 (W-W-W-W-D)
@@ -22,11 +22,11 @@ NDL FC, sitting pretty in the Final Four places at 1st, knew a win here would ti
 
 ### First Half
 
-The tactical landscape shifted dramatically at 12 minutes as the **Onside** Game Changer took hold — the period yielded **1** goal, just enough to set the contest alight. NDL FC took a slender lead into half-time — nothing decisive, but enough to shift the psychological battle in their favour.
+The game's complexion changed at the 12th minute when the **Onside** Game Changer activated — the period yielded **1** goal, just enough to set the contest alight. The sides went in with NDL FC just in front, a narrow advantage that kept everything delicately poised.
 
 ### Second Half
 
-If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **1-on-1** entered the fray — the defensive discipline of the first half evaporated as **5** goals thundered in during the activation. It was edge-of-your-seat stuff in the closing minutes. VZN FC pressed and probed, but NDL FC's back-line stood firm — resilient, organised, and ultimately heroic.
+The second half resumed with all to play for, and at the 27-minute mark the **1-on-1** Game Changer cranked up the intensity once more — the defensive discipline of the first half evaporated as **5** goals thundered in during the activation. The final exchanges were fraught with tension. VZN FC threw everything forward in search of a route back, but NDL FC held their nerve, defending with grit and intelligence to protect what they had.
 
 ---
 
@@ -34,14 +34,14 @@ If the first half was intriguing, the second was about to become unmissable. At 
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **12′** — **Isaac Modi** (NDL FC) broke the deadlock
-- **23′** — **George Nikaj** (VZN FC) netted
-- **25′** — **Florian Kastrati** (VZN FC) converted
-- **27′** — **Kevin Weggen** (NDL FC) struck
-- **27′** — **Florian Kastrati** (VZN FC) scored
-- **27′** — **Kevin Weggen** (NDL FC) scored
-- **28′** — **Kevin Weggen** (NDL FC) scored
-- **28′** — **Florian Kastrati** (VZN FC) netted
+- **12′** — **Isaac Modi** (NDL FC) opened the scoring
+- **23′** — **George Nikaj** (VZN FC) converted
+- **25′** — **Florian Kastrati** (VZN FC) scored
+- **27′** — **Kevin Weggen** (NDL FC) converted
+- **27′** — **Florian Kastrati** (VZN FC) slotted
+- **27′** — **Kevin Weggen** (NDL FC) netted
+- **28′** — **Kevin Weggen** (NDL FC) fired home
+- **28′** — **Florian Kastrati** (VZN FC) found the target
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -126,9 +126,9 @@ The **1-on-1** activation was particularly devastating, producing **5** goals th
 
 ## Season Context
 
-With **6 gameweeks** left in the regular season, the stakes couldn't have been higher. **VZN FC** entered this match averaging **2.9 goals per game** — a number that reflected their struggles in front of goal this campaign. **NDL FC**, by contrast, arrived with an average of **4.6 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **6 gameweeks** left in the regular season, the stakes couldn't have been higher. **VZN FC** entered this match averaging **2.9 goals per game** — a number that reflected their struggles in front of goal this campaign. **NDL FC**, by contrast, arrived with an average of **4.4 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -155,12 +155,12 @@ Total head-to-head goals: **5** across all meetings.
 
 ## Table Impact
 
-VZN FC stayed at **10th**, ndl fc dropped to **2nd**.
+VZN FC climbed to **9th**, ndl fc stayed at **2nd**.
 
 | Team | Before GW5 | After GW5 |
 |------|-------------|-------------|
-| VZN FC | 10th | 10th |
-| NDL FC | 1st | 2nd |
+| VZN FC | 10th | 9th |
+| NDL FC | 2nd | 2nd |
 
 
 ---
@@ -187,10 +187,10 @@ VZN FC stayed at **10th**, ndl fc dropped to **2nd**.
 ## What's Next
 
 ### VZN FC
-Next up: **Prime FC** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 ### NDL FC
-Next up: **Yanited** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 
 

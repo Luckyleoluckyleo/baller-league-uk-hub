@@ -1,6 +1,6 @@
 ---
-title: "Deportrio Beat Wembley Rangers AFC 5-2 in Entertaining GW4 Clash"
-date: 2026-05-19
+title: "Deportrio Down Wembley Rangers AFC 5-2 in Hard-Fought GW4 Battle"
+date: 2026-05-26
 category: "Match Report"
 excerpt: "Deportrio 5-2 Wembley Rangers AFC — Gameweek 4 match report. Jay Emmanuel-Thomas (18 goals) leads Deportrio's attack. Game Changers: Plus One (2) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Deportrio 5-2 Wembley Rangers AFC
 
-All roads led to Baller Arena for Gameweek 4, where **Deportrio** and **Wembley Rangers AFC** produced a thoroughly entertaining contest with plenty of talking points.
+Gameweek 4 delivered fireworks at Baller Arena with **Deportrio** taking on **Wembley Rangers AFC** in a match that ebbed and flowed, keeping everyone guessing until the final whistle.
 
 When the dust settled, it was **Deportrio** who emerged **5-2** victors. The Game Changer window — **Plus One** and **The Line** — proved pivotal, contributing **3** of the match's **7** goals.
 
@@ -22,11 +22,11 @@ When the dust settled, it was **Deportrio** who emerged **5-2** victors. The Gam
 
 ### First Half
 
-At the 12th minute, the **Plus One** Game Changer roared into action — the period yielded **2** goals, just enough to set the contest alight. Deportrio held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
+At the 12th minute, the **Plus One** Game Changer roared into action — a **2-goal** window that gave the half an electric pulse. Deportrio held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
 
 ### Second Half
 
-After the restart, the **The Line** Game Changer detonated at the 27th minute, turning the dial up to eleven — and it delivered **1** goal at just the right moment to breathe fresh life into the match. Deportrio managed the occasion expertly, balancing attacking ambition with game-control to see out a thoroughly deserved victory.
+The 27th minute brought the **The Line** Game Changer thundering into the match — a moment that would prove pivotal — and it delivered **1** goal at just the right moment to breathe fresh life into the match. Deportrio managed the occasion expertly, balancing attacking ambition with game-control to see out a thoroughly deserved victory.
 
 ---
 
@@ -36,11 +36,11 @@ The goals arrived in a dramatic sequence that told the story of the match:
 
 - **5′** — **Arjun Jung** (Wembley Rangers AFC) drew first blood
 - **10′** — **Josh Harrop** (Deportrio) scored
-- **12′** — **Sahid Kamara** (Deportrio) netted
-- **12′** — **Chiekh Thiam** (Wembley Rangers AFC) netted
-- **20′** — **J&#039;ardell Stirling** (Deportrio) found the target
-- **20′** — **Bakary Sako** struck
-- **27′** — **Jay Emmanuel-Thomas** (Deportrio) converted
+- **12′** — **Sahid Kamara** (Deportrio) struck
+- **12′** — **Chiekh Thiam** (Wembley Rangers AFC) struck
+- **20′** — **J&#039;ardell Stirling** slotted
+- **20′** — **Bakary Sako** slotted
+- **27′** — **Jay Emmanuel-Thomas** (Deportrio) found the target
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -48,7 +48,7 @@ The goals arrived in a dramatic sequence that told the story of the match:
 | 10′ | Josh Harrop | Deportrio |
 | 12′ | Sahid Kamara | Deportrio |
 | 12′ | Chiekh Thiam | Wembley Rangers AFC |
-| 20′ | J&#039;ardell Stirling | Deportrio |
+| 20′ | J&#039;ardell Stirling | — |
 | 20′ | Bakary Sako | — |
 | 27′ | Jay Emmanuel-Thomas | Deportrio |
 
@@ -76,7 +76,6 @@ The **Plus One** window was the more impactful, its **2** goals shifting the bal
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| J&#039;ardell Stirling | 1 | 1 | 3 | 29 |
 | Josh Harrop | 1 | 0 | 1 | 14 |
 | Jay Emmanuel-Thomas | 1 | 0 | 0 | 4 |
 | Amine Sassi | 0 | 1 | 1 | 3 |
@@ -101,7 +100,7 @@ The **Plus One** window was the more impactful, its **2** goals shifting the bal
 |--------|-------|---------|------|
 | Jay Emmanuel-Thomas | 18 | 6 | 10 |
 | Sahid Kamara | 9 | 3 | 7 |
-| J&#039;ardell Stirling | 3 | 4 | 10 |
+| J'ardell Stirling | 3 | 4 | 10 |
 | Amine Sassi | 2 | 3 | 10 |
 | Marvin Sordell | 2 | 1 | 7 |
 
@@ -125,9 +124,9 @@ The **Plus One** window was the more impactful, its **2** goals shifting the bal
 
 ## Season Context
 
-With **7 gameweeks** left in the regular season, the stakes couldn't have been higher. **Deportrio** entered this match averaging **4.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **Wembley Rangers AFC**, by contrast, arrived with an average of **3.2 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **7 gameweeks** left in the regular season, the stakes couldn't have been higher. **Deportrio** entered this match averaging **4.1 goals per game** — a number that reflected their struggles in front of goal this campaign. **Wembley Rangers AFC**, by contrast, arrived with an average of **3.4 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -154,12 +153,12 @@ Total head-to-head goals: **5** across all meetings.
 
 ## Table Impact
 
-Deportrio climbed to **6th**, wembley rangers afc dropped to **9th**.
+Deportrio climbed to **6th**, wembley rangers afc dropped to **7th**.
 
 | Team | Before GW4 | After GW4 |
 |------|-------------|-------------|
 | Deportrio | 10th | 6th |
-| Wembley Rangers AFC | 6th | 9th |
+| Wembley Rangers AFC | 6th | 7th |
 
 
 ---
@@ -185,10 +184,10 @@ Deportrio climbed to **6th**, wembley rangers afc dropped to **9th**.
 ## What's Next
 
 ### Deportrio
-Next up: **N5 FC** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 ### Wembley Rangers AFC
-Next up: **Gold Devils FC** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 
 

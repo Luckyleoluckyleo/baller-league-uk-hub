@@ -1,6 +1,6 @@
 ---
 title: "Prime FC Overpower Clutch FC 6-2 in Dominant Display — GW3"
-date: 2026-05-19
+date: 2026-05-26
 category: "Match Report"
 excerpt: "Prime FC 6-2 Clutch FC — Gameweek 3 match report. Francis Gerard Mampolo (17 goals) leads Prime FC's attack. Game Changers: 3Play (2) & 1-on-1 (2). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -22,11 +22,11 @@ Prime FC, sitting pretty in the Final Four places at 3rd, knew a win here would 
 
 ### First Half
 
-The game's complexion changed at the 12th minute when the **3Play** Game Changer activated — the period yielded **2** goals, just enough to set the contest alight. Prime FC were absolutely rampant, carving Clutch FC open at will. By the break, they had built an intimidating lead that felt insurmountable.
+The first half sprang into life at the 12-minute mark with the **3Play** Game Changer flicking the switch — the period yielded **2** goals, just enough to set the contest alight. Prime FC were absolutely rampant, carving Clutch FC open at will. By the break, they had built an intimidating lead that felt insurmountable.
 
 ### Second Half
 
-If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **1-on-1** entered the fray — the **2** goals it produced came at a crucial juncture, swinging momentum decisively. Prime FC managed the occasion expertly, balancing attacking ambition with game-control to see out a thoroughly deserved victory.
+The second half resumed with all to play for, and at the 27-minute mark the **1-on-1** Game Changer cranked up the intensity once more — the **2** goals it produced came at a crucial juncture, swinging momentum decisively. Prime FC managed the occasion expertly, balancing attacking ambition with game-control to see out a thoroughly deserved victory.
 
 ---
 
@@ -34,13 +34,13 @@ If the first half was intriguing, the second was about to become unmissable. At 
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **10′** — **Francis Gerard Mampolo** (Prime FC) opened the scoring
+- **10′** — **Francis Gerard Mampolo** (Prime FC) drew first blood
 - **13′** — **Bráulio Valera Pinto Maieco** (Prime FC) fired home
-- **14′** — **Richard Afrane-Kesey** (Clutch FC) scored
-- **18′** — **Timmy Abraham** (Prime FC) found the target
-- **24′** — **Taufee Skandari** (Prime FC) found the target
-- **27′** — **Alfie Matthews** (Clutch FC) converted
-- **27′** — **Stefan Ilic** (Prime FC) struck
+- **14′** — **Richard Afrane-Kesey** (Clutch FC) netted
+- **18′** — **Timmy Abraham** (Prime FC) converted
+- **24′** — **Taufee Skandari** (Prime FC) netted
+- **27′** — **Alfie Matthews** (Clutch FC) struck
+- **27′** — **Stefan Ilic** (Prime FC) found the target
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -125,9 +125,9 @@ Matches where the GC contributes this significantly tend to be remembered — th
 
 ## Season Context
 
-With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **Prime FC** entered this match averaging **5.0 goals per game** — a number that reflected their struggles in front of goal this campaign. **Clutch FC**, by contrast, arrived with an average of **3.7 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **Prime FC** entered this match averaging **4.9 goals per game** — a number that reflected their struggles in front of goal this campaign. **Clutch FC**, by contrast, arrived with an average of **3.4 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -141,12 +141,12 @@ This was the **maiden competitive meeting** between Prime FC and Clutch FC — a
 
 ## Table Impact
 
-Prime FC stayed at **3rd**, clutch fc dropped to **9th**.
+Prime FC stayed at **3rd**, clutch fc dropped to **8th**.
 
 | Team | Before GW3 | After GW3 |
 |------|-------------|-------------|
 | Prime FC | 3rd | 3rd |
-| Clutch FC | 4th | 9th |
+| Clutch FC | 7th | 8th |
 
 
 ---
@@ -174,10 +174,10 @@ Prime FC stayed at **3rd**, clutch fc dropped to **9th**.
 ## What's Next
 
 ### Prime FC
-Next up: **VZN FC** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 ### Clutch FC
-Next up: **Community FC** in Gameweek 11. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 
 
