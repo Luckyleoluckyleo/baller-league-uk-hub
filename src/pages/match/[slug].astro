@@ -51,12 +51,23 @@ const totalGCGoals = (match?.gamechanger1?.goalsScored || 0) + (match?.gamechang
 const prevMatch = currentIdx > 0 ? allMatches[currentIdx - 1] : null;
 const nextMatch = currentIdx >= 0 && currentIdx + 1 < allMatches.length ? allMatches[currentIdx + 1] : null;
 
+const startDate = (() => {
+  if (!match?.matchDate) return undefined;
+  const d = new Date(`${match.matchDate}${match.matchTime ? ' ' + match.matchTime : ''}`);
+  return isNaN(d.getTime()) ? undefined : d.toISOString();
+})();
+
 const schema = match ? {
   "@context": "https://schema.org",
   "@type": "SportsEvent",
   "name": `${match.homeTeam} vs ${match.awayTeam}`,
   "description": `${match.homeTeam} ${match.homeScore}-${match.awayScore} ${match.awayTeam} — Gameweek ${match.gameweek}, Baller League UK Season ${match.season}`,
   "sport": "Football",
+  "eventStatus": "https://schema.org/EventCompleted",
+  "startDate": startDate,
+  "endDate": startDate,
+  "image": `https://ballerleagueukhub.com/logos/${match.homeSlug}.svg`,
+  "offers": { "@type": "Offer", "url": "https://ballerleague.uk", "availability": "https://schema.org/SoldOut", "price": "0", "priceCurrency": "GBP" },
   "homeTeam": { "@type": "SportsTeam", "name": match.homeTeam, "url": `https://ballerleagueukhub.com/teams/${match.homeSlug}` },
   "awayTeam": { "@type": "SportsTeam", "name": match.awayTeam, "url": `https://ballerleagueukhub.com/teams/${match.awaySlug}` },
   "location": { "@type": "Place", "name": "Baller Arena" },

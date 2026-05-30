@@ -67,6 +67,11 @@ const schema = {
   "name": `Baller League UK Season ${seasonId}`,
   "description": `Full standings and results for Baller League UK Season ${seasonId}. ${teams.length} teams, ${sMatches.length} matches, ${totalGoals} goals.`,
   "sport": "Football",
+  "eventStatus": "https://schema.org/EventCompleted",
+  "image": "https://ballerleagueukhub.com/og-default.png",
+  "startDate": new Date(sMatches[0]?.matchDate || '2024-01-01').toISOString(),
+  "endDate": new Date(sMatches[sMatches.length - 1]?.matchDate || '2024-01-01').toISOString(),
+  "offers": { "@type": "Offer", "url": "https://ballerleague.uk", "availability": "https://schema.org/SoldOut", "price": "0", "priceCurrency": "GBP" },
   "organizer": { "@type": "SportsOrganization", "name": "Baller League UK" },
 };
 ---

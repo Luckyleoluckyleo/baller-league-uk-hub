@@ -6,8 +6,8 @@
   NODE_VERSION = "20"
 
 [[redirects]]
-  from = "/match/s3-*"
-  to = "/news/:splat"
+  from = "/compare"
+  to = "/rules"
   status = 301
 
 [[redirects]]
