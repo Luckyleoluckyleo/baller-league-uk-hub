@@ -2,18 +2,55 @@
 import Base from '../../layouts/Base.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import playerData from '../../data/players.json';
+import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
-  return playerData.players.map((p: any) => ({
-    params: { slug: p.slug },
-    props: { playerSlug: p.slug },
-  }));
+  const contentPlayers = await getCollection('players');
+  const scraped = (playerData.players as any[]).map((p) => p.slug);
+  const extra = contentPlayers.map((p) => p.slug);
+  const slugs = [...new Set([...scraped, ...extra])];
+  return slugs.map((slug) => ({ params: { slug }, props: { playerSlug: slug } }));
 }
 
+const contentPlayers = await getCollection('players');
+const contentBySlug = Object.fromEntries(contentPlayers.map((p) => [p.slug, p]));
+
 const { playerSlug } = Astro.props;
-const player = playerData.players.find((p: any) => p.slug === playerSlug);
+const scraped = (playerData.players as any[]).find((p) => p.slug === playerSlug);
+const entry = contentBySlug[playerSlug];
+
+// Normalise a player from either the scraped data or a hand-written profile.
+const player = scraped
+  ? scraped
+  : entry
+    ? {
+        slug: playerSlug,
+        name: entry.data.name,
+        team: entry.data.teamName,
+        teamSlug: entry.data.team,
+        position: entry.data.position,
+        number: entry.data.number ?? null,
+        age: null,
+        seasons: {},
+      }
+    : null;
+
 const stats = player?.seasons?.['3'];
-const avatarFallback = player ? player.name.split(' ').map((n: string) => n[0]).join('').slice(0,2).toUpperCase() : '??';
+const avatarFallback = player ? player.name.split(' ').map((n: string) => n[0]).join('').slice(0, 2).toUpperCase() : '??';
+
+// Hand-written biography (markdown) if one exists.
+const bio = entry ? await entry.render() : null;
+const BioContent = bio?.Content;
+
+// Related players for internal linking.
+const scrapedPlayers = playerData.players as any[];
+const byScorers = (list: any[]) => [...list].sort((a, b) => (b.seasons?.['3']?.goals || 0) - (a.seasons?.['3']?.goals || 0));
+const teammates = player && player.teamSlug
+  ? byScorers(scrapedPlayers.filter((p) => p.teamSlug === player.teamSlug && p.slug !== player.slug)).slice(0, 6)
+  : [];
+const samePosition = player && player.position
+  ? byScorers(scrapedPlayers.filter((p) => p.position === player.position && p.slug !== player.slug)).slice(0, 6)
+  : [];
 
 function generateBlurb(player: any, stats: any): string {
   const name = player.name;
@@ -42,19 +79,50 @@ function generateBlurb(player: any, stats: any): string {
   return blurb;
 }
 
-const schema = player ? {
+const personSchema = player ? {
   "@context": "https://schema.org",
   "@type": "Person",
   "name": player.name,
-  "description": stats ? `${player.name} – ${stats.goals ?? 0} goals, ${stats.assists ?? 0} assists in ${stats.apps ?? 0} appearances for ${player.team} in Baller League UK Season 3.` : `${player.name} plays for ${player.team} in Baller League UK.`,
+  "jobTitle": player.position || 'Footballer',
+  "description": stats
+    ? `${player.name} – ${stats.goals ?? 0} goals, ${stats.assists ?? 0} assists in ${stats.apps ?? 0} appearances for ${player.team} in Baller League UK Season 3.`
+    : `${player.name} plays for ${player.team} in Baller League UK.`,
+  "memberOf": player.teamSlug ? { "@type": "SportsTeam", "name": player.team, "url": `https://ballerleagueukhub.com/teams/${player.teamSlug}` } : undefined,
   "affiliation": { "@type": "SportsTeam", "name": player.team, "sport": "Football" },
-  "image": player.image ? `/players/${player.image}` : undefined
-} : undefined;---
+  "nationality": entry?.data.nationality ? { "@type": "Country", "name": entry.data.nationality } : undefined,
+  "image": `https://ballerleagueukhub.com/players/${player.slug}.webp`,
+} : undefined;
+
+const faqSchema = player ? {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": `Which team does ${player.name} play for?`,
+      "acceptedAnswer": { "@type": "Answer", "text": `${player.name} plays for ${player.team} in Baller League UK.` },
+    },
+    ...(player.position ? [{
+      "@type": "Question",
+      "name": `What position does ${player.name} play?`,
+      "acceptedAnswer": { "@type": "Answer", "text": `${player.name} plays as a ${player.position} for ${player.team} in Baller League UK.` },
+    }] : []),
+    ...(stats && stats.apps > 0 ? [{
+      "@type": "Question",
+      "name": `How many goals has ${player.name} scored in Baller League UK?`,
+      "acceptedAnswer": { "@type": "Answer", "text": `${player.name} has scored ${stats.goals ?? 0} goals and provided ${stats.assists ?? 0} assists in ${stats.apps} appearances for ${player.team} in Baller League UK Season 3.` },
+    }] : []),
+  ],
+} : undefined;
+
+const schema = [personSchema, faqSchema].filter(Boolean);
+---
 
 <Base
   title={player ? `${player.name} — Baller League UK Player Profile` : 'Player Not Found'}
   description={player ? `${player.name}${stats ? ` — ${stats.goals ?? 0} goals, ${stats.assists ?? 0} assists in ${stats.apps ?? 0} apps for ${player.team} in Baller League UK Season 3.` : ''}` : 'Player not found.'}
   schema={schema}
+  image={player ? `/og/players/${player.slug}.png` : undefined}
   keywords={player ? `${player.name}, ${player.team}, Baller League UK player, ${player.position ?? ''}, Season 3` : ''}
 >
 
@@ -79,7 +147,7 @@ const schema = player ? {
               <h1 class="player-name">{player.name}</h1>
               {player.teamSlug ? (
                 <a href={`/teams/${player.teamSlug}`} class="player-team-link">
-                  <img src={`/logos/${player.teamSlug}.svg`} alt={player.teamName} style="width:20px;height:20px;object-fit:contain;vertical-align:middle;margin-right:6px;" onerror="this.hidden=true" />
+                  <img src={`/logos/${player.teamSlug}.svg`} alt={player.team} style="width:20px;height:20px;object-fit:contain;vertical-align:middle;margin-right:6px;" onerror="this.hidden=true" />
                   {player.team}
                 </a>
               ) : (
@@ -91,23 +159,27 @@ const schema = player ? {
       </div>
 
       <div class="container player-page">
-        <div class="player-stats-row grid-4">
-          <div class="stat-box"><div class="stat-box-number">{stats?.goals ?? 0}</div><div class="stat-box-label">Goals</div></div>
-          <div class="stat-box"><div class="stat-box-number">{stats?.assists ?? 0}</div><div class="stat-box-label">Assists</div></div>
-          <div class="stat-box"><div class="stat-box-number">{stats?.apps ?? 0}</div><div class="stat-box-label">Appearances</div></div>
-          <div class="stat-box"><div class="stat-box-number">{stats?.apps ? ((stats.goals || 0) / stats.apps).toFixed(2) : '—'}</div><div class="stat-box-label">Goals / Game</div></div>
-        </div>
+        {stats && (
+          <div class="player-stats-row grid-4">
+            <div class="stat-box"><div class="stat-box-number">{stats?.goals ?? 0}</div><div class="stat-box-label">Goals</div></div>
+            <div class="stat-box"><div class="stat-box-number">{stats?.assists ?? 0}</div><div class="stat-box-label">Assists</div></div>
+            <div class="stat-box"><div class="stat-box-number">{stats?.apps ?? 0}</div><div class="stat-box-label">Appearances</div></div>
+            <div class="stat-box"><div class="stat-box-number">{stats?.apps ? ((stats.goals || 0) / stats.apps).toFixed(2) : '—'}</div><div class="stat-box-label">Goals / Game</div></div>
+          </div>
+        )}
 
         <div class="player-blurb card">
           <div class="card-body">
-            <p class="blurb-text">{generateBlurb(player, stats)}</p>
+            {BioContent
+              ? <div class="blurb-text bio-content"><BioContent /></div>
+              : <p class="blurb-text">{generateBlurb(player, stats)}</p>}
           </div>
         </div>
 
         {stats?.detailed && Object.keys(stats.detailed).length > 0 && (
           <div class="player-detailed card">
             <div class="card-body">
-              <h3 class="detail-heading">Detailed Stats — Season 3</h3>
+              <h2 class="detail-heading">Detailed Stats — Season 3</h2>
               <div class="detail-grid">
                 {Object.entries(stats.detailed).map(([key, val]: any) => (
                   <div class="detail-item">
@@ -117,6 +189,39 @@ const schema = player ? {
                 ))}
               </div>
             </div>
+          </div>
+        )}
+
+        {(teammates.length > 0 || samePosition.length > 0) && (
+          <div class="player-related">
+            {teammates.length > 0 && (
+              <section>
+                <h2 class="detail-heading">More {player.team} Players</h2>
+                <div class="related-grid">
+                  {teammates.map((t: any) => (
+                    <a href={`/players/${t.slug}`} class="related-card">
+                      <img src={`/players/thumb/${t.slug}.webp`} alt="" width="40" height="40" loading="lazy" onerror="this.style.visibility='hidden'" />
+                      <span class="related-name">{t.name}</span>
+                      <span class="related-meta">{t.seasons?.['3']?.goals ?? 0} G</span>
+                    </a>
+                  ))}
+                </div>
+              </section>
+            )}
+            {samePosition.length > 0 && (
+              <section>
+                <h2 class="detail-heading">Top {player.position}s — Season 3</h2>
+                <div class="related-grid">
+                  {samePosition.map((t: any) => (
+                    <a href={`/players/${t.slug}`} class="related-card">
+                      <img src={`/players/thumb/${t.slug}.webp`} alt="" width="40" height="40" loading="lazy" onerror="this.style.visibility='hidden'" />
+                      <span class="related-name">{t.name}</span>
+                      <span class="related-meta">{t.seasons?.['3']?.goals ?? 0} G</span>
+                    </a>
+                  ))}
+                </div>
+              </section>
+            )}
           </div>
         )}
 
@@ -153,6 +258,8 @@ const schema = player ? {
 .player-stats-row { margin-bottom: var(--space-xl); }
 .player-blurb { margin-bottom: var(--space-xl); background: linear-gradient(135deg, var(--bg-elevated), var(--bg-card)); border: 1px solid var(--green-glow); }
 .blurb-text { color: var(--text-secondary); line-height: 1.7; font-size: 0.95rem; }
+.bio-content p { margin-bottom: var(--space-md); }
+.bio-content p:last-child { margin-bottom: 0; }
 .player-detailed { margin-bottom: var(--space-xl); }
 .detail-heading { font-size: 0.85rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-muted); margin-bottom: var(--space-lg); font-family: var(--font-body); }
 .detail-grid { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: var(--space-md); }
@@ -160,6 +267,14 @@ const schema = player ? {
 .detail-val { display: block; font-family: var(--font-display); font-size: 1.8rem; color: var(--text-primary); line-height: 1; }
 .detail-key { display: block; font-size: 0.68rem; color: var(--text-muted); margin-top: 4px; text-transform: uppercase; letter-spacing: 0.04em; }
 .player-cta { display: flex; gap: var(--space-sm); flex-wrap: wrap; }
+
+.player-related { display: flex; flex-direction: column; gap: var(--space-xl); margin-bottom: var(--space-xl); }
+.related-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: var(--space-sm); }
+.related-card { display: flex; align-items: center; gap: var(--space-sm); background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: var(--space-sm); transition: border-color var(--transition), transform var(--transition); }
+.related-card:hover { border-color: var(--green); transform: translateY(-2px); }
+.related-card img { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; flex-shrink: 0; background: var(--bg-elevated); }
+.related-name { flex: 1; min-width: 0; font-size: 0.85rem; font-weight: 600; color: var(--text-primary); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.related-meta { font-size: 0.75rem; font-weight: 700; color: var(--green); }
 
 @media (max-width: 768px) {
   .detail-grid { grid-template-columns: 1fr 1fr; }

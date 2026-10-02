@@ -5,6 +5,9 @@ import gcData from '../../data/gamechangers.json';
 import playerData from '../../data/players.json';
 import tableData from '../../data/table.json';
 
+const nameBySlug: Record<string, string> = {};
+for (const p of (playerData.players as any[])) nameBySlug[p.name.toLowerCase()] = p.slug;
+
 export function getStaticPaths() {
   const s3Matches = (gcData.seasons['3']?.matches as any[] || []).filter((m: any) => m.homeScore > 0 || m.awayScore > 0);
   const gws = [...new Set(s3Matches.map((m: any) => m.gameweek))].sort((a: any, b: any) => a - b);
@@ -131,7 +134,9 @@ const schema = {
           <div class="potw-icon">⭐</div>
           <div>
             <h3 class="potw-heading">Player of the Week</h3>
-            <p class="potw-text"><strong>{playerOfTheWeek.name}</strong> leads GW{requestedGW} with {playerOfTheWeek.goals} goal{playerOfTheWeek.goals !== 1 ? 's' : ''}{playerOfTheWeek.goals >= 3 ? ' — including a hat-trick' : ''}.</p>
+            <p class="potw-text">{nameBySlug[playerOfTheWeek.name.toLowerCase()]
+              ? <a href={`/players/${nameBySlug[playerOfTheWeek.name.toLowerCase()]}`}><strong>{playerOfTheWeek.name}</strong></a>
+              : <strong>{playerOfTheWeek.name}</strong>} leads GW{requestedGW} with {playerOfTheWeek.goals} goal{playerOfTheWeek.goals !== 1 ? 's' : ''}{playerOfTheWeek.goals >= 3 ? ' — including a hat-trick' : ''}.</p>
           </div>
         </div>
       </section>
@@ -213,7 +218,7 @@ const schema = {
 .rm-score { font-family: var(--font-display); font-size: 1.8rem; color: var(--text-primary); }
 .rm-gc-info { display: flex; gap: var(--space-md); justify-content: center; flex-wrap: wrap; }
 .gc-tag-first { background: var(--green-glow) !important; color: var(--green) !important; }
-.gc-tag-second { background: var(--purple-glow) !important; color: var(--purple) !important; }
+.gc-tag-second { background: var(--purple-glow) !important; color: var(--purple-light) !important; }
 
 .roundup-nav { display: flex; justify-content: center; gap: var(--space-md); }
 

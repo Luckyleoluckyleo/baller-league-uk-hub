@@ -4,6 +4,10 @@ import Breadcrumb from '../../components/Breadcrumb.astro';
 import { getCollection } from 'astro:content';
 import tableData from '../../data/table.json';
 import gcData from '../../data/gamechangers.json';
+import playerData from '../../data/players.json';
+
+const nameBySlug: Record<string, string> = {};
+for (const p of (playerData.players as any[])) nameBySlug[p.name.toLowerCase()] = p.slug;
 
 export async function getStaticPaths() {
   const managers = await getCollection('managers');
@@ -49,15 +53,29 @@ for (const g of topPlayers) {
 }
 const rankedPlayers = Object.values(playerTally).sort((a, b) => b.goals - a.goals).slice(0, 3);
 
-const schema = data ? {
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": data.name,
-  "description": data.bio?.replace(/\n/g, ' ').trim() || `${data.name} manages ${data.teamName} in Baller League UK.`,
-  "affiliation": { "@type": "SportsTeam", "name": data.teamName, "sport": "Football" },
-  "jobTitle": data.role,
-  "image": `/managers/${data.image || data.team}.webp`
-} : undefined;
+const schema = data ? [
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": data.name,
+    "description": data.bio?.replace(/\n/g, ' ').trim() || `${data.name} manages ${data.teamName} in Baller League UK.`,
+    "jobTitle": data.role,
+    "memberOf": { "@type": "SportsTeam", "name": data.teamName, "url": `https://ballerleagueukhub.com/teams/${data.team}`, "sport": "Football" },
+    "affiliation": { "@type": "SportsTeam", "name": data.teamName, "sport": "Football" },
+    "image": `https://ballerleagueukhub.com/og/managers/${slug}.png`,
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": `Which team does ${data.name} manage in Baller League UK?`,
+        "acceptedAnswer": { "@type": "Answer", "text": `${data.name} is the ${data.role} of ${data.teamName} in Baller League UK Season 3.` },
+      },
+    ],
+  },
+] : undefined;
 ---
 
 {!data ? (
@@ -69,6 +87,7 @@ const schema = data ? {
     title={`${data.name} — ${data.teamName} ${data.role} | Baller League UK`}
     description={`${data.name} is the ${data.role.toLowerCase()} of ${data.teamName} in Baller League UK Season 3. ${data.bio?.replace(/\n/g, ' ').trim().substring(0, 120)}...`}
     schema={schema}
+    image={`/og/managers/${slug}.png`}
     keywords={`${data.name}, ${data.teamName}, Baller League UK manager, celebrity manager, ${data.role.toLowerCase()}`}
   >
     <div class="page-header">
@@ -170,7 +189,9 @@ const schema = data ? {
                 <div class="scorer-list">
                   {rankedPlayers.map(p => (
                     <div class="scorer-row">
-                      <span class="scorer-name">{p.player}</span>
+                      {nameBySlug[p.player.toLowerCase()]
+                        ? <a class="scorer-name" href={`/players/${nameBySlug[p.player.toLowerCase()]}`}>{p.player}</a>
+                        : <span class="scorer-name">{p.player}</span>}
                       <span class="scorer-goals">{p.goals} goal{p.goals !== 1 ? 's' : ''}</span>
                     </div>
                   ))}
@@ -225,6 +246,7 @@ const schema = data ? {
 .scorer-row { display: flex; justify-content: space-between; align-items: center; padding: var(--space-xs) 0; border-bottom: 1px solid var(--border); }
 .scorer-row:last-child { border-bottom: none; }
 .scorer-name { font-size: 0.9rem; color: var(--text-primary); font-weight: 500; }
+a.scorer-name:hover { color: var(--green); }
 .scorer-goals { font-size: 0.85rem; color: var(--green); font-weight: 600; }
 
 @media (max-width: 768px) {
