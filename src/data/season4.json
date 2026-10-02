@@ -61,6 +61,25 @@
       ]
     }
   ],
+  "signings": [
+    {
+      "player": "Ben Mee",
+      "position": "Defender",
+      "teamSlug": "deportrio",
+      "teamName": "Deportrio",
+      "status": "confirmed",
+      "date": "29 September 2026",
+      "note": "Ex-Burnley captain, 37, retired May 2026; announced via Baller League Instagram (The Sun)."
+    },
+    {
+      "player": "Joleon Lescott",
+      "position": "Defender",
+      "teamSlug": "deportrio",
+      "teamName": "Deportrio",
+      "status": "confirmed",
+      "note": "Ex-Manchester City & England; already signed to Deportrio."
+    }
+  ],
   "news": [
     {
       "title": "Baller League: Sky Sports deal ends, matches go online-only",

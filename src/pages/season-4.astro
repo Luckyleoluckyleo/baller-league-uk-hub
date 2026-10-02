@@ -1,0 +1,197 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import StatStrip from '../components/StatStrip.astro';
+import NewsCard from '../components/NewsCard.astro';
+import { getCollection } from 'astro:content';
+import season4 from '../data/season4.json';
+
+const allNews = await getCollection('news');
+const s4Slugs = [
+  'baller-league-season-4-guide',
+  'ben-mee-deportrio-baller-league',
+  'baller-league-sky-sports-online-only',
+  'who-is-gymskin-baller-league',
+];
+const s4News = s4Slugs
+  .map((s) => allNews.find((a) => a.slug === s))
+  .filter(Boolean) as any[];
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "SportsSeason",
+  "name": "Baller League UK Season 4",
+  "sport": "Football",
+  "startDate": "2026-10-12",
+  "endDate": "2026-12-21",
+  "location": { "@type": "Place", "name": season4.venue.name },
+  "organizer": { "@type": "Organization", "name": "Baller League UK", "url": "https://ballerleague.uk" },
+};
+---
+
+<Base
+  title="Baller League UK Season 4 — Dates, Teams, Managers & Schedule"
+  description="Everything about Baller League UK Season 4: it starts Monday 12 October 2026 at the new Baller League Arena in Dagenham. Full schedule, format, managers, signings and how to watch."
+  keywords="Baller League UK Season 4, Baller League 2026, season 4 fixtures, Baller League Arena, managers, tickets"
+  schema={schema}
+>
+
+  <div class="page-header">
+    <div class="container">
+      <Breadcrumb items={[{name:'Home',url:'/'},{name:'Season 4'}]} />
+      <div class="section-label">Season 4 · 2026</div>
+      <h1>Baller League UK Season 4</h1>
+      <p class="section-subtitle">
+        Season 4 kicks off <strong>Monday 12 October 2026</strong> at the new Baller League Arena in Dagenham — 11 Monday-night matchdays and a Final Four to crown the champion.
+      </p>
+    </div>
+  </div>
+
+  <div class="container s4-page">
+
+    <StatStrip
+      stats={[
+        { icon: '📅', label: 'Starts', value: '12 Oct 2026', sub: 'Ends 21 December' },
+        { icon: '🏟️', label: 'Venue', value: season4.venue.name, sub: 'Dagenham, London' },
+        { icon: '🔁', label: 'Matchdays', value: season4.format.regularSeasonMatchdays, sub: 'every Monday' },
+        { icon: '⚽', label: 'Format', value: `${season4.format.teams} teams`, sub: '6 matches a night' },
+      ]}
+    />
+
+    <!-- FORMAT -->
+    <section>
+      <div class="section-label">How it works</div>
+      <h2 class="section-title">Season 4 Format</h2>
+      <div class="s4-grid">
+        <div class="card s4-card"><div class="card-body"><div class="s4-icon">⚽</div><h3>{season4.format.teams} teams</h3><p>Six matches every matchday, every Monday night.</p></div></div>
+        <div class="card s4-card"><div class="card-body"><div class="s4-icon">⏱️</div><h3>{season4.format.halfLength} halves</h3><p>Fast-paced 6v6 built for entertainment.</p></div></div>
+        <div class="card s4-card"><div class="card-body"><div class="s4-icon">🎯</div><h3>Gamechangers</h3><p>Rule changes in the final three minutes of each half.</p></div></div>
+        <div class="card s4-card"><div class="card-body"><div class="s4-icon">🃏</div><h3>{season4.format.wildcardsPerTeamPerMatchday} wildcards</h3><p>Per team, per matchday — new for Season 4.</p></div></div>
+        <div class="card s4-card"><div class="card-body"><div class="s4-icon">🏆</div><h3>{season4.format.playoffs}</h3><p>Top four after {season4.format.regularSeasonMatchdays} matchdays reach the playoffs.</p></div></div>
+        <div class="card s4-card"><div class="card-body"><div class="s4-icon">📍</div><h3>New home</h3><p>{season4.venue.name}, {season4.venue.address}.</p></div></div>
+      </div>
+    </section>
+
+    <!-- SCHEDULE -->
+    <section>
+      <div class="section-label">Schedule</div>
+      <h2 class="section-title">Season 4 Matchdays</h2>
+      <div class="s4-matchdays">
+        {season4.matchdays.map((m) => (
+          <div class="s4-matchday">
+            <span class="s4-md-num">MD{m.n}</span>
+            <span class="s4-md-date">{m.date}</span>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- SIGNINGS -->
+    {season4.signings?.length > 0 && (
+      <section>
+        <div class="section-label">Transfers</div>
+        <h2 class="section-title">Season 4 Signings</h2>
+        <div class="s4-signings">
+          {season4.signings.map((s) => (
+            <div class="s4-signing card">
+              <div class="card-body">
+                <div class="s4-signing-player">{s.player}</div>
+                <div class="s4-signing-meta">{s.position} · <a href={`/teams/${s.teamSlug}`}>{s.teamName}</a></div>
+                {s.status === 'confirmed' ? <span class="badge badge-green">Confirmed</span> : <span class="badge badge-gold">Rumour</span>}
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- MANAGERS -->
+    <section>
+      <div class="section-label">Managers</div>
+      <h2 class="section-title">Who's in charge?</h2>
+      <div class="s4-managers">
+        {season4.managers.map((m) => (
+          <a href={`/teams/${m.teamSlug}`} class="s4-manager">
+            <span class="s4-manager-name">{m.name}</span>
+            <span class="s4-manager-team">{m.teamName}</span>
+          </a>
+        ))}
+      </div>
+      {season4.prospectiveManagers?.length > 0 && (
+        <p class="s4-rumour">
+          <strong>Rumoured:</strong> {season4.prospectiveManagers.map((p) => p.name).join(', ')} — linked with Season 4 but not yet confirmed by the league.
+        </p>
+      )}
+    </section>
+
+    <!-- TICKETS / WATCH -->
+    <section>
+      <div class="section-label">Tickets &amp; viewing</div>
+      <h2 class="section-title">Get to a Matchday</h2>
+      <div class="s4-grid s4-grid--2">
+        <div class="card s4-card"><div class="card-body"><h3>🎟️ Single Matchday</h3><p>{season4.tickets.singleMatchday}</p></div></div>
+        <div class="card s4-card"><div class="card-body"><h3>📦 Baller Bundle</h3><p>{season4.tickets.ballerBundle}</p></div></div>
+        <div class="card s4-card"><div class="card-body"><h3>🎫 Baller Pass</h3><p>{season4.tickets.ballerPass}</p></div></div>
+        <div class="card s4-card"><div class="card-body"><h3>📺 Watch</h3><p>Matches move online-only for Season 4. See our <a href="/watch">where to watch</a> page.</p></div></div>
+      </div>
+    </section>
+
+    <!-- S4 NEWS -->
+    {s4News.length > 0 && (
+      <section>
+        <div class="section-header flex-between">
+          <div>
+            <div class="section-label">Latest</div>
+            <h2 class="section-title">Season 4 News</h2>
+          </div>
+          <a href="/news" class="view-all">All News</a>
+        </div>
+        <div class="grid-3">
+          {s4News.map((a: any) => (
+            <NewsCard title={a.data.title} slug={a.slug} date={a.data.date} category={a.data.category} excerpt={a.data.excerpt} featured={a.data.featured} />
+          ))}
+        </div>
+      </section>
+    )}
+
+    <div class="s4-cta">
+      <a href="/season" class="btn btn-secondary">Season Archive</a>
+      <a href="/rules" class="btn btn-ghost">Rules &amp; Format</a>
+    </div>
+
+  </div>
+</Base>
+
+<style>
+.s4-page { padding-bottom: var(--space-3xl); display: flex; flex-direction: column; gap: var(--space-2xl); }
+.s4-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-lg); }
+.s4-grid--2 { grid-template-columns: repeat(2, 1fr); }
+.s4-card h3 { font-family: var(--font-display); font-size: 1.4rem; color: var(--text-primary); margin-bottom: var(--space-xs); }
+.s4-card p { font-size: 0.9rem; }
+.s4-card a { color: var(--green); }
+.s4-icon { font-size: 1.8rem; margin-bottom: var(--space-sm); }
+
+.s4-matchdays { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: var(--space-sm); }
+.s4-matchday { display: flex; align-items: center; justify-content: space-between; gap: var(--space-sm); background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: var(--space-sm) var(--space-md); }
+.s4-md-num { font-family: var(--font-display); font-size: 1.2rem; color: var(--green); }
+.s4-md-date { font-size: 0.85rem; color: var(--text-secondary); }
+
+.s4-signings { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: var(--space-md); }
+.s4-signing-player { font-family: var(--font-display); font-size: 1.5rem; color: var(--text-primary); }
+.s4-signing-meta { font-size: 0.85rem; color: var(--text-secondary); margin: 4px 0 var(--space-sm); }
+.s4-signing-meta a { color: var(--green); }
+.badge-gold { background: var(--gold-glow); color: var(--gold); border: 1px solid rgba(245,158,11,0.25); }
+
+.s4-managers { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: var(--space-sm); }
+.s4-manager { display: flex; flex-direction: column; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: var(--space-md); transition: border-color var(--transition), transform var(--transition); }
+.s4-manager:hover { border-color: var(--green); transform: translateY(-2px); }
+.s4-manager-name { font-weight: 700; color: var(--text-primary); }
+.s4-manager-team { font-size: 0.8rem; color: var(--text-muted); }
+.s4-rumour { margin-top: var(--space-md); font-size: 0.9rem; color: var(--text-secondary); }
+.s4-rumour strong { color: var(--gold); }
+
+.s4-cta { display: flex; gap: var(--space-sm); flex-wrap: wrap; }
+
+@media (max-width: 1024px) { .s4-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 640px) { .s4-grid, .s4-grid--2 { grid-template-columns: 1fr; } }
+</style>
