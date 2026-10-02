@@ -22,6 +22,8 @@ const QUERIES = [
   "Baller League UK manager",
   'Baller League UK new team',
   "Baller League UK squad",
+  "gymskin Baller League",
+  '"Baller League" signing',
 ];
 
 const args = process.argv.slice(2);
