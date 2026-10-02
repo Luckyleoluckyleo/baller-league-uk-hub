@@ -12,20 +12,20 @@ const updateDate = new Date().toLocaleDateString('en-GB', { day: 'numeric', mont
 
       <div class="footer-brand">
         <a href="/" class="footer-logo">
-          <img src="/logo.svg" alt="Baller League UK Hub" class="footer-logo-img" />
+          <img src="/logo.svg" alt="Baller League UK Hub" class="footer-logo-img" width="180" height="44" />
         </a>
         <p class="footer-tagline">
           The unofficial home of Baller League UK. Stats, tables, teams, and news — all in one place. Not affiliated with Baller League or its partners.
         </p>
         <div class="footer-social">
-          <a href="https://www.youtube.com/@BallerLeagueUK" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="YouTube">▶</a>
-          <a href="https://www.twitch.tv/ballerleagueuk" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Twitch">📺</a>
-          <a href="https://twitter.com/BallerLeagueUK" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Twitter / X">𝕏</a>
+          <a href="https://www.youtube.com/@BallerLeagueUK" target="_blank" rel="noopener noreferrer" class="social-link"><span aria-hidden="true">▶</span><span class="visually-hidden">YouTube</span></a>
+          <a href="https://www.twitch.tv/ballerleagueuk" target="_blank" rel="noopener noreferrer" class="social-link"><span aria-hidden="true">📺</span><span class="visually-hidden">Twitch</span></a>
+          <a href="https://twitter.com/BallerLeagueUK" target="_blank" rel="noopener noreferrer" class="social-link"><span aria-hidden="true">𝕏</span><span class="visually-hidden">Twitter / X</span></a>
         </div>
       </div>
 
       <div class="footer-col">
-        <h4>Quick Links</h4>
+        <h3>Quick Links</h3>
         <ul>
           <li><a href="/table">League Table</a></li>
           <li><a href="/final-four">Final Four</a></li>
@@ -37,7 +37,7 @@ const updateDate = new Date().toLocaleDateString('en-GB', { day: 'numeric', mont
       </div>
 
       <div class="footer-col">
-        <h4>Info</h4>
+        <h3>Info</h3>
         <ul>
           <li><a href="/rules">Rules & Format</a></li>
           <li><a href="/faq">FAQ</a></li>
@@ -49,7 +49,7 @@ const updateDate = new Date().toLocaleDateString('en-GB', { day: 'numeric', mont
       </div>
 
       <div class="footer-col">
-        <h4>Season 3</h4>
+        <h3>Season 3</h3>
         <ul>
           <li><span class="text-muted">Gameweek {currentGW} of 11</span></li>
           <li><span class="text-muted">Playoffs: Final Four</span></li>
@@ -106,7 +106,7 @@ const updateDate = new Date().toLocaleDateString('en-GB', { day: 'numeric', mont
 }
 .social-link:hover { border-color: var(--green); color: var(--green); background: var(--green-glow); }
 
-.footer-col h4 {
+.footer-col h3 {
   font-family: var(--font-body);
   font-size: 0.8rem;
   font-weight: 700;
