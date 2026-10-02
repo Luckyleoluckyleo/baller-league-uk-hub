@@ -486,6 +486,8 @@ hr { border: none; border-top: 1px solid var(--border); margin: var(--space-xl) 
 .cat-transfer { background: rgba(255,107,53,0.10); color: var(--orange); border-color: rgba(255,107,53,0.22); }
 .cat-preview  { background: rgba(124,77,255,0.10); color: var(--purple-light); border-color: rgba(124,77,255,0.22); }
 .cat-social   { background: rgba(255,214,0,0.10); color: var(--gold); border-color: rgba(255,214,0,0.22); }
+.cat-announce { background: rgba(56,189,248,0.10); color: #38bdf8; border-color: rgba(56,189,248,0.22); }
+.cat-community { background: rgba(124,77,255,0.10); color: var(--purple-light); border-color: rgba(124,77,255,0.22); }
 
 /* === SCROLLBAR === */
 ::-webkit-scrollbar { width: 7px; height: 7px; }

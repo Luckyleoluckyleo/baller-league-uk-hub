@@ -18,6 +18,8 @@ const catClass =
   category === 'Match Report'   ? 'cat-match'    :
   category === 'Transfer News'  ? 'cat-transfer'  :
   category === 'Preview'        ? 'cat-preview'   :
+  category === 'Announcement'   ? 'cat-announce'  :
+  category === 'Community'      ? 'cat-community' :
   'cat-social';
 ---
 <a href={`/news/${slug}`} class={`news-card card card-glow ${featured ? 'news-featured' : ''}`}>

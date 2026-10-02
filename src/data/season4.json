@@ -1,0 +1,91 @@
+{
+  "season": 4,
+  "label": "Season 4",
+  "labelShort": "S4",
+  "status": "pre-season",
+  "startDate": "12 October 2026",
+  "endDate": "21 December 2026",
+  "matchday": "Monday",
+  "venue": {
+    "name": "Baller League Arena",
+    "address": "Eastbrook Studios, Yew Tree Avenue, Dagenham, London, RM10 7FN"
+  },
+  "format": {
+    "teams": 12,
+    "matchesPerMatchday": 6,
+    "halfLength": "15 minutes",
+    "wildcardsPerTeamPerMatchday": 2,
+    "regularSeasonMatchdays": 11,
+    "playoffs": "Final Four"
+  },
+  "matchdays": [
+    { "n": 1, "date": "12 October 2026" },
+    { "n": 2, "date": "19 October 2026" },
+    { "n": 3, "date": "26 October 2026" },
+    { "n": 4, "date": "2 November 2026" },
+    { "n": 5, "date": "9 November 2026" },
+    { "n": 6, "date": "16 November 2026" },
+    { "n": 7, "date": "23 November 2026" },
+    { "n": 8, "date": "30 November 2026" },
+    { "n": 9, "date": "7 December 2026" },
+    { "n": 10, "date": "14 December 2026" },
+    { "n": 11, "date": "21 December 2026" }
+  ],
+  "tickets": {
+    "singleMatchday": "Access to all six matches on one Monday",
+    "ballerBundle": "Multiple consecutive matchdays (3–4 nights)",
+    "ballerPass": "All 11 regular-season matchdays"
+  },
+  "managers": [
+    { "name": "KSI", "teamSlug": "prime-fc", "teamName": "Prime", "status": "returning" },
+    { "name": "Niko Omilana", "teamSlug": "ndl-fc", "teamName": "NDL", "status": "returning" },
+    { "name": "Micah Richards", "teamSlug": "deportrio", "teamName": "Deportrio", "status": "returning" },
+    { "name": "Daniel Sturridge", "teamSlug": "deportrio", "teamName": "Deportrio", "status": "returning" },
+    { "name": "Chloe Kelly", "teamSlug": "clutch-fc", "teamName": "Clutch", "status": "returning" },
+    { "name": "Angry Ginge", "teamSlug": "yanited", "teamName": "Yanited", "status": "returning" },
+    { "name": "Mark Goldbridge", "teamSlug": "gold-devils-fc", "teamName": "Gold Devils", "status": "returning" },
+    { "name": "Jens Lehmann", "teamSlug": "n5-fc", "teamName": "N5", "status": "returning" },
+    { "name": "Idris Elba", "teamSlug": "rukkas-fc", "teamName": "Rukkas", "status": "returning" },
+    { "name": "Sharky", "teamSlug": "sds-fc", "teamName": "SDS", "status": "returning" },
+    { "name": "Tobi Brown", "teamSlug": "vzn-fc", "teamName": "VZN", "status": "returning" },
+    { "name": "Ian Wright", "teamSlug": "wembley-rangers-afc", "teamName": "Wembley Rangers", "status": "returning" }
+  ],
+  "prospectiveManagers": [
+    {
+      "name": "Gymskin",
+      "status": "rumoured",
+      "note": "Viral TikTok/Kick streamer who appeared and was interviewed at Baller League UK in Season 3 (2026). Widely linked with a manager role for Season 4, but not confirmed by the league.",
+      "sources": [
+        "https://www.youtube.com/watch?v=5cuGxoOoaxI",
+        "https://www.instagram.com/reel/DXXgjGKDCZm/"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "Baller League: Sky Sports deal ends, matches go online-only",
+      "source": "BBC",
+      "date": "18 August 2026"
+    },
+    {
+      "title": "Baller League UK: CEO Felix Starck says Premier League teams will soon have teams playing in six-a-side competition",
+      "source": "Sky Sports",
+      "date": "2026"
+    },
+    {
+      "title": "Ex-Premier League captain, 37, signs up for Baller League months after retiring",
+      "source": "The Sun",
+      "date": "29 September 2026"
+    }
+  ],
+  "sources": [
+    { "name": "Baller League UK — official site", "url": "https://ballerleague.uk/en" },
+    { "name": "Baller League Season 4 tickets (Fever)", "url": "https://feverup.com/m/778886" },
+    { "name": "Baller League UK Instagram (SEASON 4: 12TH OCTOBER)", "url": "https://www.instagram.com/ballerleagueuk/" }
+  ],
+  "notes": [
+    "Season 4 begins 12 October 2026 — fixtures and squads should appear on ballerleague.uk/en soon.",
+    "The scraper's date-based season detection will collect S4 match data automatically once games are played.",
+    "Confirm the S4 team line-up and managers from the official Teams page once updated."
+  ]
+}

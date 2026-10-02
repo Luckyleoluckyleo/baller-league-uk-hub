@@ -62,7 +62,9 @@ const schema = {
 const catClass =
   data.category === 'Match Report'  ? 'cat-match'    :
   data.category === 'Transfer News' ? 'cat-transfer'  :
-  data.category === 'Preview'       ? 'cat-preview'   : 'cat-social';
+  data.category === 'Preview'       ? 'cat-preview'   :
+  data.category === 'Announcement'  ? 'cat-announce'  :
+  data.category === 'Community'     ? 'cat-community' : 'cat-social';
 ---
 
 <Base
