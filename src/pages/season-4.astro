@@ -9,6 +9,7 @@ import season4 from '../data/season4.json';
 const allNews = await getCollection('news');
 const s4Slugs = [
   'baller-league-season-4-guide',
+  'baller-league-season-4-teams-managers-transfers',
   'ben-mee-deportrio-baller-league',
   'baller-league-sky-sports-online-only',
   'who-is-gymskin-baller-league',
@@ -111,12 +112,26 @@ const schema = {
       <h2 class="section-title">Who's in charge?</h2>
       <div class="s4-managers">
         {season4.managers.map((m) => (
-          <a href={`/teams/${m.teamSlug}`} class="s4-manager">
-            <span class="s4-manager-name">{m.name}</span>
-            <span class="s4-manager-team">{m.teamName}</span>
-          </a>
+          m.teamSlug ? (
+            <a href={`/teams/${m.teamSlug}`} class="s4-manager">
+              <span class="s4-manager-name">{m.name}</span>
+              <span class="s4-manager-team">{m.teamName}</span>
+            </a>
+          ) : (
+            <div class="s4-manager">
+              <span class="s4-manager-name">{m.name}</span>
+              <span class="s4-manager-team">{m.teamName}</span>
+            </div>
+          )
         ))}
       </div>
+      {season4.teamChanges?.length > 0 && (
+        <div class="s4-changes">
+          {season4.teamChanges.map((c) => (
+            <p class="s4-rumour"><strong>{c.team}:</strong> {c.note} <span class="s4-tag">unconfirmed</span></p>
+          ))}
+        </div>
+      )}
       {season4.prospectiveManagers?.length > 0 && (
         <p class="s4-rumour">
           <strong>Rumoured:</strong> {season4.prospectiveManagers.map((p) => p.name).join(', ')} — linked with Season 4 but not yet confirmed by the league.
@@ -189,6 +204,8 @@ const schema = {
 .s4-manager-team { font-size: 0.8rem; color: var(--text-muted); }
 .s4-rumour { margin-top: var(--space-md); font-size: 0.9rem; color: var(--text-secondary); }
 .s4-rumour strong { color: var(--gold); }
+.s4-changes { display: flex; flex-direction: column; gap: var(--space-sm); }
+.s4-tag { font-size: 0.62rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.06em; color: var(--gold); background: var(--gold-glow); border: 1px solid rgba(245,158,11,0.25); padding: 2px 8px; border-radius: var(--radius-full); }
 
 .s4-cta { display: flex; gap: var(--space-sm); flex-wrap: wrap; }
 

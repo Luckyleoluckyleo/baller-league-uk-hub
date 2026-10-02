@@ -42,13 +42,25 @@
     { "name": "Micah Richards", "teamSlug": "deportrio", "teamName": "Deportrio", "status": "returning" },
     { "name": "Daniel Sturridge", "teamSlug": "deportrio", "teamName": "Deportrio", "status": "returning" },
     { "name": "Chloe Kelly", "teamSlug": "clutch-fc", "teamName": "Clutch", "status": "returning" },
-    { "name": "Angry Ginge", "teamSlug": "yanited", "teamName": "Yanited", "status": "returning" },
     { "name": "Mark Goldbridge", "teamSlug": "gold-devils-fc", "teamName": "Gold Devils", "status": "returning" },
     { "name": "Jens Lehmann", "teamSlug": "n5-fc", "teamName": "N5", "status": "returning" },
     { "name": "Idris Elba", "teamSlug": "rukkas-fc", "teamName": "Rukkas", "status": "returning" },
     { "name": "Sharky", "teamSlug": "sds-fc", "teamName": "SDS", "status": "returning" },
-    { "name": "Tobi Brown", "teamSlug": "vzn-fc", "teamName": "VZN", "status": "returning" },
-    { "name": "Ian Wright", "teamSlug": "wembley-rangers-afc", "teamName": "Wembley Rangers", "status": "returning" }
+    { "name": "Tobi Brown (TBJZL)", "teamSlug": "vzn-fc", "teamName": "VZN", "status": "returning" },
+    { "name": "Ian Wright & Alan Shearer", "teamSlug": "wembley-rangers-afc", "teamName": "Wembley Rangers", "status": "returning" },
+    { "name": "TBC", "teamSlug": null, "teamName": "TBD", "status": "unconfirmed" }
+  ],
+  "teamChanges": [
+    {
+      "team": "Yanited",
+      "note": "Listed as a former team (managed by Angry Ginge, Seasons 1–3) after Season 3. Not in the Season 4 line-up per Wikipedia (25 September 2026).",
+      "status": "unconfirmed"
+    },
+    {
+      "team": "TBD",
+      "note": "A 12th team is listed as TBD for Season 4 — could be a new franchise or a rebrand.",
+      "status": "unconfirmed"
+    }
   ],
   "prospectiveManagers": [
     {
