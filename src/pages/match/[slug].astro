@@ -48,6 +48,19 @@ const gc1def = gcData.definitions.firstHalf.find(g => g.id === match?.gamechange
 const gc2def = gcData.definitions.secondHalf.find(g => g.id === match?.gamechanger2?.type);
 const totalGCGoals = (match?.gamechanger1?.goalsScored || 0) + (match?.gamechanger2?.goalsScored || 0);
 
+// Per-team match stats, aggregated from the per-player columns.
+const matchPlayerStats = match?.playerStats || [];
+const sumFor = (slug: string, key: string) =>
+  matchPlayerStats.filter((p: any) => p.team === slug).reduce((s: number, p: any) => s + (p[key] || 0), 0);
+const teamStatRows = match ? [
+  { label: 'Shots', home: sumFor(match.homeSlug, 'shots'), away: sumFor(match.awaySlug, 'shots') },
+  { label: 'Tackles', home: sumFor(match.homeSlug, 'tackles'), away: sumFor(match.awaySlug, 'tackles') },
+  { label: 'Corners', home: sumFor(match.homeSlug, 'corners'), away: sumFor(match.awaySlug, 'corners') },
+  { label: 'Passes', home: sumFor(match.homeSlug, 'passes'), away: sumFor(match.awaySlug, 'passes') },
+  { label: 'Penalties', home: sumFor(match.homeSlug, 'penalties'), away: sumFor(match.awaySlug, 'penalties') },
+  { label: 'Red Cards', home: sumFor(match.homeSlug, 'redCards'), away: sumFor(match.awaySlug, 'redCards') },
+].filter((r) => r.home > 0 || r.away > 0) : [];
+
 const prevMatch = currentIdx > 0 ? allMatches[currentIdx - 1] : null;
 const nextMatch = currentIdx >= 0 && currentIdx + 1 < allMatches.length ? allMatches[currentIdx + 1] : null;
 
@@ -167,6 +180,34 @@ const schema = match ? {
           </div>
         </div>
 
+        {teamStatRows.length > 0 && (
+          <div class="card match-stats-card">
+            <div class="card-body">
+              <div class="section-label">Match Stats</div>
+              <div class="ms-header">
+                <span>{match.homeTeam}</span><span class="ms-vs">vs</span><span>{match.awayTeam}</span>
+              </div>
+              {teamStatRows.map((r) => {
+                const total = (r.home + r.away) || 1;
+                const hp = Math.round((r.home / total) * 100);
+                return (
+                  <div class="ms-row">
+                    <div class="ms-val">{r.home}</div>
+                    <div class="ms-mid">
+                      <div class="ms-label">{r.label}</div>
+                      <div class="ms-bar">
+                        <div class="ms-bar-home" style={`width:${hp}%`}></div>
+                        <div class="ms-bar-away" style={`width:${100 - hp}%`}></div>
+                      </div>
+                    </div>
+                    <div class="ms-val">{r.away}</div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        )}
+
         <!-- MATCH REPORT LINK -->
         <div class="card gc-summary-card">
           <div class="card-body text-center">
@@ -219,6 +260,16 @@ const schema = match ? {
 .gc-summary-card { border: 1px solid var(--border); }
 .gc-total-label { display: block; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin-bottom: 4px; }
 .gc-total-num { font-family: var(--font-display); font-size: 3rem; color: var(--green); }
+
+.match-stats-card { border: 1px solid var(--border); }
+.ms-header { display: flex; justify-content: space-between; align-items: center; font-weight: 700; font-size: 0.85rem; margin-bottom: var(--space-md); color: var(--text-secondary); }
+.ms-vs { color: var(--text-muted); font-weight: 500; }
+.ms-row { display: grid; grid-template-columns: 40px 1fr 40px; align-items: center; gap: var(--space-sm); margin-bottom: var(--space-sm); }
+.ms-val { text-align: center; font-variant-numeric: tabular-nums; font-weight: 700; }
+.ms-label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-muted); text-align: center; margin-bottom: 3px; }
+.ms-bar { display: flex; height: 6px; border-radius: 3px; overflow: hidden; background: var(--bg-elevated); }
+.ms-bar-home { background: var(--green); }
+.ms-bar-away { background: var(--purple); }
 
 .match-navigation { display: flex; justify-content: center; gap: var(--space-md); flex-wrap: wrap; }
 

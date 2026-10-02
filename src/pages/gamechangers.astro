@@ -5,6 +5,10 @@ import gcData from '../data/gamechangers.json';
 
 const { definitions, seasons } = gcData;
 const allMatches = Object.values(seasons).flatMap(s => s.matches);
+// Only count real Game Changer activations (Final Four / unparsed = "unknown").
+const totalGCEvents = allMatches.reduce((n, m) => n
+  + (m.gamechanger1 && m.gamechanger1.type !== 'unknown' ? 1 : 0)
+  + (m.gamechanger2 && m.gamechanger2.type !== 'unknown' ? 1 : 0), 0);
 
 const currentSeason = '3';
 const currentSeasonData = seasons[currentSeason as keyof typeof seasons];
@@ -34,7 +38,7 @@ const schema = {
       <div class="section-label">Data Analysis</div>
       <h1>Gamechanger Analysis</h1>
       <p class="section-subtitle">
-        Every Gamechanger activation tracked — {allMatches.length} matches and {allMatches.length * 2} Gamechanger events across all seasons.
+        Every Gamechanger activation tracked — {allMatches.length} matches and {totalGCEvents} Gamechanger activations across all seasons.
       </p>
     </div>
   </div>
@@ -42,10 +46,10 @@ const schema = {
   <div class="container gc-page">
 
     <div class="season-tabs" id="season-tabs">
-      <button class="season-tab active" data-season="all">All Seasons ({allMatches.length})</button>
-      {Object.entries(seasons).map(([key, s]) => (
-        <button class="season-tab" data-season={key}>{s.label} ({s.matches.length})</button>
+      {Object.entries(seasons).reverse().map(([key, s]) => (
+        <button class={`season-tab ${key === currentSeason ? 'active' : ''}`} data-season={key}>{s.label} ({s.matches.length})</button>
       ))}
+      <button class="season-tab" data-season="all">All Seasons ({allMatches.length})</button>
     </div>
 
     <section class="gc-section" id="frequency">
@@ -78,8 +82,8 @@ const schema = {
 
     <section class="gc-section" id="teams">
       <div class="section-header">
-        <h2>Team GC Effectiveness</h2>
-        <p>Average GC goals per match for each team. GC goals are total goals scored during Gamechanger periods across that team's matches (both sides).</p>
+        <h2>Team GC Goals</h2>
+        <p>Game Changer goals scored and conceded by each team, attributed from the goal timeline. Season 3 is fully attributed; earlier seasons are partial.</p>
       </div>
       <div class="card">
         <div class="card-body" id="team-gc-effectiveness"></div>
@@ -88,7 +92,7 @@ const schema = {
 
     <section class="gc-section" id="raw">
       <div class="section-header">
-        <h2>Match-by-Match Data — {currentSeasonData.label}</h2>
+        <h2 id="raw-table-title">Match-by-Match Data — {currentSeasonData.label}</h2>
       </div>
       <div class="table-wrap">
         <table>
@@ -104,13 +108,13 @@ const schema = {
               <th class="gc-col gc-col-2h">G</th>
             </tr>
           </thead>
-          <tbody>
+          <tbody id="match-data-body">
             {(currentSeasonData.matches as any[]).map((m: any) => {
               const gc1def = definitions.firstHalf.find(g => g.id === m.gamechanger1.type) || definitions.secondHalf.find(g => g.id === m.gamechanger1.type);
               const gc2def = definitions.secondHalf.find(g => g.id === m.gamechanger2.type);
               return (
                 <tr>
-                  <td class="text-muted">GW{m.gameweek}</td>
+                  <td class="text-muted">S{currentSeason} GW{m.gameweek}</td>
                   <td>
                     <a href={`/teams/${m.homeSlug}`} class="td-team-name">
                       <img src={`/logos/${m.homeSlug}.svg`} class="td-logo" onerror="this.hidden=true" alt={m.homeTeam} />
@@ -124,9 +128,9 @@ const schema = {
                       <span class="team-badge td-emoji-fallback">{m.awayEmoji}</span> {m.awayTeam}
                     </a>
                   </td>
-                  <td class="gc-cell gc-cell-1h"><span class="gc-tag gc-tag-first">{gc1def?.icon} {gc1def?.name}</span></td>
+                  <td class="gc-cell gc-cell-1h"><span class="gc-tag gc-tag-first">{gc1def ? `${gc1def.icon} ${gc1def.name}` : '—'}</span></td>
                   <td class="gc-cell">{m.gamechanger1.goalsScored}</td>
-                  <td class="gc-cell gc-cell-2h"><span class="gc-tag gc-tag-second">{gc2def?.icon} {gc2def?.name}</span></td>
+                  <td class="gc-cell gc-cell-2h"><span class="gc-tag gc-tag-second">{gc2def ? `${gc2def.icon} ${gc2def.name}` : '—'}</span></td>
                   <td class="gc-cell">{m.gamechanger2.goalsScored}</td>
                 </tr>
               );
@@ -147,19 +151,21 @@ const schema = {
   const seasons = data.seasons;
 
   function getMatches(filter) {
-    if (filter === 'all') return Object.values(seasons).flatMap(s => s.matches);
-    return seasons[filter]?.matches || [];
+    if (filter === 'all') return Object.entries(seasons).flatMap(([k, s]) => s.matches.map(m => ({ ...m, _season: k })));
+    return (seasons[filter]?.matches || []).map(m => ({ ...m, _season: filter }));
   }
 
   function computeFreq(matches, half) {
     const gcs = half === 'first' ? defs.firstHalf : defs.secondHalf;
     const counts = {};
     for (const gc of gcs) counts[gc.id] = 0;
+    // Percentage base is matches that actually have a Game Changer in this half
+    // (Final Four / unparsed matches are "unknown" and excluded).
+    let total = 0;
     for (const m of matches) {
       const type = half === 'first' ? m.gamechanger1.type : m.gamechanger2.type;
-      counts[type] = (counts[type] || 0) + 1;
+      if (counts[type] !== undefined) { counts[type]++; total++; }
     }
-    const total = matches.length;
     return gcs.map(gc => ({
       ...gc,
       count: counts[gc.id],
@@ -269,51 +275,89 @@ const schema = {
 
   function renderTeamGC(matches) {
     const teams = {};
+    const ensure = (team, slug) => (teams[slug] = teams[slug] || { team, slug, gf: 0, ga: 0, matches: 0 });
     for (const m of matches) {
-      for (const side of ['home', 'away']) {
-        const team = side === 'home' ? m.homeTeam : m.awayTeam;
-        const slug = side === 'home' ? m.homeSlug : m.awaySlug;
-        if (!teams[team]) teams[team] = { team, slug, gcScored: 0, gcConceded: 0, matches: 0 };
-        // Goals during GC periods count for the scoring team
-        const isHome = side === 'home';
-        teams[team].gcScored += (m.gamechanger1?.goalsScored || 0) + (m.gamechanger2?.goalsScored || 0);
-        // GC goals conceded = opponent's GC goals (simplified: total GC goals in match minus own)
-        const opp = isHome ? m.awayTeam : m.homeTeam;
-        if (!teams[opp]) teams[opp] = { team: opp, slug: isHome ? m.awaySlug : m.homeSlug, gcScored: 0, gcConceded: 0, matches: 0 };
-        teams[team].matches++;
+      // Attribute GC-window goals to a side via the scorer's team (from player stats).
+      const local = {};
+      for (const p of (m.playerStats || [])) if (p.team) local[p.name] = p.team;
+      const h = ensure(m.homeTeam, m.homeSlug);
+      const a = ensure(m.awayTeam, m.awaySlug);
+      h.matches++;
+      a.matches++;
+      let homeGC = 0, awayGC = 0;
+      for (const g of (m.goalscorers || [])) {
+        const inGC = (g.minute >= 12 && g.minute <= 15) || (g.minute >= 27 && g.minute <= 29);
+        if (!inGC) continue;
+        const t = local[g.player];
+        if (t === m.homeSlug) homeGC++;
+        else if (t === m.awaySlug) awayGC++;
       }
+      h.gf += homeGC; h.ga += awayGC;
+      a.gf += awayGC; a.ga += homeGC;
     }
-    const sorted = Object.values(teams).sort((a: any, b: any) => b.gcScored - a.gcScored);
-    const maxGC = Math.max(...sorted.map((t: any) => t.gcScored / Math.max(t.matches, 1)), 0.01);
-    const rows = sorted.map((t: any, i) => {
-      const avg = (t.gcScored / Math.max(t.matches, 1)).toFixed(1);
+    const sorted = Object.values(teams).sort((x, y) => y.gf - x.gf || y.ga - x.ga);
+    const maxAvg = Math.max(...sorted.map((t) => t.gf / Math.max(t.matches, 1)), 0.01);
+    const rows = sorted.map((t, i) => {
+      const avg = (t.gf / Math.max(t.matches, 1)).toFixed(1);
       return `
       <tr>
         <td class="lb-rank">${i + 1}</td>
-        <td><a href="/teams/${t.slug}" class="td-team-name"><span class="freq-icon" style="display:inline">⚡</span>${t.team}</a></td>
-        <td><div class="gc-team-bar-wrap"><div class="gc-team-bar" style="width:${(parseFloat(avg) / maxGC) * 100}%">${avg}</div></div></td>
-        <td class="num-col pts-cell">${avg}</td>
+        <td><a href="/teams/${t.slug}" class="td-team-name">${t.team}</a></td>
+        <td><div class="gc-team-bar-wrap"><div class="gc-team-bar" style="width:${(parseFloat(avg) / maxAvg) * 100}%">${avg}</div></div></td>
+        <td class="num-col pts-cell">${t.gf}</td>
+        <td class="num-col">${t.ga}</td>
       </tr>`;
     }).join('');
 
     document.getElementById('team-gc-effectiveness')!.innerHTML = `
       <div class="table-wrap">
         <table>
-          <thead><tr><th>#</th><th>Team</th><th>Avg GC Goals/Match</th><th class="num-col">Avg</th></tr></thead>
+          <thead><tr><th>#</th><th>Team</th><th>Avg GC Goals For / Match</th><th class="num-col">GC For</th><th class="num-col">GC Against</th></tr></thead>
           <tbody>${rows}</tbody>
         </table>
       </div>`;
   }
 
+  function gcDef(type, half) {
+    if (!type || type === 'unknown') return null;
+    const list = half === 'first' ? [...defs.firstHalf, ...defs.secondHalf] : defs.secondHalf;
+    return list.find(g => g.id === type) || null;
+  }
+
+  const esc = (s) => String(s == null ? '' : s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+  function renderMatchTable(matches, label) {
+    const titleEl = document.getElementById('raw-table-title');
+    if (titleEl) titleEl.textContent = `Match-by-Match Data — ${label}`;
+    const rows = matches.map(m => {
+      const gc1 = gcDef(m.gamechanger1 && m.gamechanger1.type, 'first');
+      const gc2 = gcDef(m.gamechanger2 && m.gamechanger2.type, 'second');
+      return `<tr>
+        <td class="text-muted">S${m._season} GW${m.gameweek}</td>
+        <td><a href="/teams/${m.homeSlug}" class="td-team-name"><img src="/logos/${m.homeSlug}.svg" class="td-logo" onerror="this.hidden=true" alt="${esc(m.homeTeam)}" /><span class="team-badge td-emoji-fallback">${esc(m.homeEmoji)}</span> ${esc(m.homeTeam)}</a></td>
+        <td class="td-score">${m.homeScore}–${m.awayScore}</td>
+        <td><a href="/teams/${m.awaySlug}" class="td-team-name"><img src="/logos/${m.awaySlug}.svg" class="td-logo" onerror="this.hidden=true" alt="${esc(m.awayTeam)}" /><span class="team-badge td-emoji-fallback">${esc(m.awayEmoji)}</span> ${esc(m.awayTeam)}</a></td>
+        <td class="gc-cell gc-cell-1h"><span class="gc-tag gc-tag-first">${gc1 ? gc1.icon + ' ' + gc1.name : '—'}</span></td>
+        <td class="gc-cell">${m.gamechanger1 ? m.gamechanger1.goalsScored : 0}</td>
+        <td class="gc-cell gc-cell-2h"><span class="gc-tag gc-tag-second">${gc2 ? gc2.icon + ' ' + gc2.name : '—'}</span></td>
+        <td class="gc-cell">${m.gamechanger2 ? m.gamechanger2.goalsScored : 0}</td>
+      </tr>`;
+    }).join('');
+    const body = document.getElementById('match-data-body');
+    if (body) body.innerHTML = rows;
+  }
+
   function renderAll(filter) {
     const matches = getMatches(filter);
+    const label = filter === 'all' ? 'All Seasons' : (seasons[filter] ? seasons[filter].label : '');
     renderFreq(matches);
     renderSequence(matches);
     renderGoalRatio(matches);
     renderTeamGC(matches);
+    renderMatchTable(matches, label);
   }
 
-  renderAll('all');
+  renderAll('3');
 
   document.querySelectorAll('.season-tab').forEach(tab => {
     tab.addEventListener('click', () => {

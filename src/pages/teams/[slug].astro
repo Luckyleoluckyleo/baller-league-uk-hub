@@ -81,6 +81,10 @@ const teamGoalsFor = s3League.reduce((s: number, m: any) => s + (m.homeSlug === 
 const teamGoalsAgainst = s3League.reduce((s: number, m: any) => s + (m.homeSlug === data.urlSlug ? m.awayScore : m.awaySlug === data.urlSlug ? m.homeScore : 0), 0);
 const topScorers = scrapedSquad.filter((p: any) => (p.seasons?.['3']?.goals || 0) > 0).sort((a: any, b: any) => (b.seasons?.['3']?.goals || 0) - (a.seasons?.['3']?.goals || 0)).slice(0, 1);
 const topScorer = topScorers[0] || null;
+const teamGames = s3League.filter((m: any) => m.homeSlug === data.urlSlug || m.awaySlug === data.urlSlug).length;
+const teamGoalDiff = teamGoalsFor - teamGoalsAgainst;
+const teamAvgGoals = teamGames ? (teamGoalsFor / teamGames).toFixed(1) : '0.0';
+const teamCleanSheets = s3League.filter((m: any) => (m.homeSlug === data.urlSlug && m.awayScore === 0) || (m.awaySlug === data.urlSlug && m.homeScore === 0)).length;
 
 function matchSlug(m: any): string {
   return `${m.homeSlug}-vs-${m.awaySlug}-gw${m.gameweek}`;
@@ -320,6 +324,18 @@ const schema = {
         <div class="stat-card">
           <div class="stat-card-num">{teamGoalsFor + teamGoalsAgainst}</div>
           <div class="stat-card-label">Total Goals</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-card-num">{teamGoalDiff >= 0 ? '+' : ''}{teamGoalDiff}</div>
+          <div class="stat-card-label">Goal Difference</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-card-num">{teamAvgGoals}</div>
+          <div class="stat-card-label">Avg Goals / Game</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-card-num">{teamCleanSheets}</div>
+          <div class="stat-card-label">Clean Sheets</div>
         </div>
         {topScorer && (
           <div class="stat-card">

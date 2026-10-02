@@ -2,7 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import gcData from '../../data/gamechangers.json';
-import tableData from '../../data/table.json';
+import standings from '../../data/standings.json';
 
 export function getStaticPaths() {
   return [1, 2, 3].map(id => ({ params: { seasonId: String(id) } }));
@@ -10,47 +10,55 @@ export function getStaticPaths() {
 
 const seasonId = Astro.params.seasonId;
 const sMatches = (gcData.seasons[seasonId]?.matches as any[] || []).filter((m: any) => m.homeScore > 0 || m.awayScore > 0);
+// Official tables are regular season only (GW1-11); the Final Four is GW12.
+const leagueMatches = sMatches.filter((m: any) => m.gameweek <= 11);
 
 const gws = [...new Set(sMatches.map((m: any) => m.gameweek))].sort((a: any, b: any) => a - b);
 const totalGoals = sMatches.reduce((s: number, m: any) => s + m.homeScore + m.awayScore, 0);
-const teams = [...new Set(sMatches.flatMap((m: any) => [m.homeTeam, m.awayTeam]))].sort();
-
 const records: Record<string, { played: number; won: number; drawn: number; lost: number; gf: number; ga: number }> = {};
-for (const m of sMatches) {
-  if (!records[m.homeTeam]) records[m.homeTeam] = { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0 };
-  if (!records[m.awayTeam]) records[m.awayTeam] = { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0 };
-  records[m.homeTeam].played++; records[m.awayTeam].played++;
-  records[m.homeTeam].gf += m.homeScore; records[m.homeTeam].ga += m.awayScore;
-  records[m.awayTeam].gf += m.awayScore; records[m.awayTeam].ga += m.homeScore;
-  if (m.homeScore > m.awayScore) { records[m.homeTeam].won++; records[m.awayTeam].lost++; }
-  else if (m.awayScore > m.homeScore) { records[m.awayTeam].won++; records[m.homeTeam].lost++; }
-  else { records[m.homeTeam].drawn++; records[m.awayTeam].drawn++; }
-}
-
-const epLookup: Record<string, number> = {};
-if (seasonId === '3') {
-  for (const row of tableData) {
-    epLookup[row.team] = row.ep || 0;
+const nameBySlug: Record<string, string> = {};
+for (const m of leagueMatches) {
+  const sides: [string, string, number, number][] = [
+    [m.homeSlug, m.homeName || m.homeTeam, m.homeScore, m.awayScore],
+    [m.awaySlug, m.awayName || m.awayTeam, m.awayScore, m.homeScore],
+  ];
+  for (const [slug, name, gf, ga] of sides) {
+    if (!records[slug]) records[slug] = { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0 };
+    nameBySlug[slug] = name;
+    const r = records[slug];
+    r.played++; r.gf += gf; r.ga += ga;
+    if (gf > ga) r.won++;
+    else if (gf < ga) r.lost++;
+    else r.drawn++;
   }
 }
 
-const table = teams.map(team => {
-  const r = records[team] || { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0 };
-  const ep = epLookup[team] || 0;
+// Extra Points come from the official final table for this season (keyed by slug).
+const epBySlug: Record<string, number> = {};
+for (const row of (((standings as Record<string, any[]>)[seasonId]) || [])) {
+  epBySlug[row.slug] = row.ep || 0;
+}
+
+const table = Object.keys(records).map(slug => {
+  const r = records[slug];
+  const ep = epBySlug[slug] || 0;
   return {
-    team,
+    team: nameBySlug[slug],
+    slug,
     played: r.played,
     won: r.won,
     drawn: r.drawn,
     lost: r.lost,
     gf: r.gf,
     ga: r.ga,
-    gd: r.gf - r. ga,
+    gd: r.gf - r.ga,
     ep,
     pts: r.won * 3 + r.drawn + ep,
   };
 });
 table.sort((a, b) => b.pts - a.pts || b.gd - a.gd || b.gf - a.gf);
+
+const teams = Object.keys(records);
 
 const resultsByGW: Record<number, any[]> = {};
 for (const m of sMatches) {
@@ -115,7 +123,7 @@ const schema = {
             <th class="col-num">GF</th>
             <th class="col-num">GA</th>
             <th class="col-num">GD</th>
-            {seasonId === '3' && <th class="col-num">EP</th>}
+            <th class="col-num">EP</th>
             <th class="col-num pts-col">PTS</th>
           </tr>
         </thead>
@@ -135,7 +143,7 @@ const schema = {
               <td class="col-num">{row.gf}</td>
               <td class="col-num">{row.ga}</td>
               <td class="col-num">{row.gd >= 0 ? '+' : ''}{row.gd}</td>
-              {seasonId === '3' && <td class="col-num ep-col">{row.ep}</td>}
+              <td class="col-num ep-col">{row.ep}</td>
               <td class="col-num pts-col"><strong>{row.pts}</strong></td>
             </tr>
           ))}
@@ -163,9 +171,9 @@ const schema = {
               {(resultsByGW[gw] || []).map((m: any) => (
                 <a href={`/match/s${seasonId}-${m.homeSlug}-vs-${m.awaySlug}-gw${m.gameweek}`} class="season-match-card">
                   <div class="sm-teams">
-                    <span class="sm-team"><strong>{m.homeTeam}</strong></span>
+                    <span class="sm-team"><strong>{m.homeName || m.homeTeam}</strong></span>
                     <span class="sm-score">{m.homeScore} – {m.awayScore}</span>
-                    <span class="sm-team"><strong>{m.awayTeam}</strong></span>
+                    <span class="sm-team"><strong>{m.awayName || m.awayTeam}</strong></span>
                   </div>
                 </a>
               ))}

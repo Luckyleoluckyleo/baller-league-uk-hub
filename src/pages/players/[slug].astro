@@ -107,12 +107,12 @@ const schema = player ? {
         {stats?.detailed && Object.keys(stats.detailed).length > 0 && (
           <div class="player-detailed card">
             <div class="card-body">
-              <h3 class="detail-heading">Detailed Stats</h3>
+              <h3 class="detail-heading">Detailed Stats — Season 3</h3>
               <div class="detail-grid">
-                {Object.entries(stats.detailed).slice(0, 12).map(([key, val]: any) => (
+                {Object.entries(stats.detailed).map(([key, val]: any) => (
                   <div class="detail-item">
                     <span class="detail-val">{val}</span>
-                    <span class="detail-key">{key}</span>
+                    <span class="detail-key">{String(key).replace(/&amp;/g, '&')}</span>
                   </div>
                 ))}
               </div>

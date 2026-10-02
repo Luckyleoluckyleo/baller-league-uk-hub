@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
+import StatLeaderboard from '../../components/StatLeaderboard.astro';
 import playerData from '../../data/players.json';
 import gcData from '../../data/gamechangers.json';
 
@@ -25,6 +26,19 @@ const enriched: Player[] = players.map(enrich);
 // Sort by goals for display
 const byGoals = [...enriched].sort((a, b) => (b.seasons?.['3']?.goals || 0) - (a.seasons?.['3']?.goals || 0));
 const byGCGoals = [...enriched].sort((a, b) => (b._gcGoals || 0) - (a._gcGoals || 0));
+
+// Detailed per-player metrics scraped from the official player pages.
+const metric = (p: any, key: string): number => {
+  const s = p.seasons?.['3'] || {};
+  if (key === 'goals' || key === 'assists' || key === 'apps') return s[key] || 0;
+  return (s.detailed && s.detailed[key]) || 0;
+};
+const rank = (key: string, n = 10) =>
+  enriched
+    .map((p) => ({ name: p.name, slug: p.slug, team: p.team, teamSlug: p.teamSlug, value: metric(p, key) }))
+    .filter((r) => r.value > 0)
+    .sort((a, b) => b.value - a.value)
+    .slice(0, n);
 
 const teams = [...new Set(enriched.filter(p => p.team).map(p => p.team))].sort() as string[];
 const positions = [...new Set(enriched.filter(p => p.position).map(p => p.position))].sort() as string[];
@@ -160,6 +174,20 @@ const schema = {
       </div>
     </section>
 
+    <!-- DETAILED STAT LEADERBOARDS -->
+    <section>
+      <div class="section-label">Detailed Stats</div>
+      <h2 class="section-title">More Leaderboards</h2>
+      <div class="leaderboard-grid">
+        <StatLeaderboard title="Most Shots" icon="&#x1F3AF;" valueLabel="SH" rows={rank('Total Shots')} />
+        <StatLeaderboard title="Most Saves" icon="&#x1F9E4;" valueLabel="SV" rows={rank('Saves Made')} />
+        <StatLeaderboard title="Most Passes" icon="&#x1F517;" valueLabel="P" rows={rank('Total Passes')} />
+        <StatLeaderboard title="Most Tackles" icon="&#x1F6E1;&#xFE0F;" valueLabel="T" rows={rank('Total Tackles')} />
+        <StatLeaderboard title="Most Duels Won" icon="&#x1F4AA;" valueLabel="D" rows={rank('Duels won')} />
+        <StatLeaderboard title="Most Minutes" icon="&#x23F1;&#xFE0F;" valueLabel="MIN" rows={rank('Time Played')} />
+      </div>
+    </section>
+
     <!-- FILTER BAR -->
     <div class="filter-bar">
       <input type="search" id="player-search" placeholder="Search players..." aria-label="Search players" />
@@ -187,11 +215,15 @@ const schema = {
                 <th class="num-col sortable" data-sort="goals">G</th>
                 <th class="num-col sortable" data-sort="assists">A</th>
                 <th class="num-col sortable" data-sort="apps">Apps</th>
+                <th class="num-col sortable" data-sort="shots">SH</th>
+                <th class="num-col sortable" data-sort="passes">P</th>
+                <th class="num-col sortable" data-sort="tackles">T</th>
+                <th class="num-col sortable" data-sort="saves">SV</th>
               </tr>
             </thead>
             <tbody>
               {byGoals.map((p, i) => (
-                <tr class="player-row" data-name={p.name.toLowerCase()} data-team={p.team || ''} data-position={p.position || ''} data-goals={p.seasons?.['3']?.goals || 0} data-assists={p.seasons?.['3']?.assists || 0} data-apps={p.seasons?.['3']?.apps || 0}>
+                <tr class="player-row" data-name={p.name.toLowerCase()} data-team={p.team || ''} data-position={p.position || ''} data-goals={p.seasons?.['3']?.goals || 0} data-assists={p.seasons?.['3']?.assists || 0} data-apps={p.seasons?.['3']?.apps || 0} data-shots={metric(p, 'Total Shots')} data-passes={metric(p, 'Total Passes')} data-tackles={metric(p, 'Total Tackles')} data-saves={metric(p, 'Saves Made')}>
                   <td class="text-muted" style="width: 40px;">{i + 1}</td>
                   <td>
                     <div class="lb-player">
@@ -207,6 +239,10 @@ const schema = {
                   <td class="num-col pts-cell">{p.seasons?.['3']?.goals ?? 0}</td>
                   <td class="num-col">{p.seasons?.['3']?.assists ?? 0}</td>
                   <td class="num-col">{p.seasons?.['3']?.apps ?? 0}</td>
+                  <td class="num-col">{metric(p, 'Total Shots')}</td>
+                  <td class="num-col">{metric(p, 'Total Passes')}</td>
+                  <td class="num-col">{metric(p, 'Total Tackles')}</td>
+                  <td class="num-col">{metric(p, 'Saves Made')}</td>
                 </tr>
               ))}
             </tbody>
