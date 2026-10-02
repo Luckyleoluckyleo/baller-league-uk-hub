@@ -17,13 +17,15 @@ The momentum carried him all the way to the top of pop culture: in 2026 he appea
 
 Gymskin is no stranger to Baller League UK. He **appeared and was interviewed live at Baller League** during the 2026 season, and the league's official channels teased his arrival with a **"GYMSKIN'S IN THE HOUSE"** post across TikTok and Instagram.
 
-That appearance — combined with his skyrocketing popularity — has fuelled widespread speculation that he could step into a **managerial role for Season 4**.
+He then went one better: on **18 May 2026**, Baller League announced that **Gymskin would manage the "Creators team" at the Final Four** — his first taste of management in the league.
+
+That experience — combined with his skyrocketing popularity — has fuelled widespread speculation that he could step into a full **managerial role for a team in Season 4**.
 
 ## What we know (and what we don't)
 
-**Confirmed:** Gymskin has been part of the Baller League UK universe, attending and being featured by the league in 2026.
+**Confirmed:** Gymskin has been part of the Baller League UK universe — attending and being featured by the league in 2026, and **managing the Creators team at the Final Four** (announced by the league on 18 May 2026).
 
-**Rumoured:** a Season 4 manager role. At the time of writing, Baller League UK has **not** confirmed Gymskin as a manager, and no official team has been named.
+**Rumoured:** a full **Season 4 team manager role**. At the time of writing, Baller League UK has **not** confirmed Gymskin as a Season 4 manager, and no official team has been named.
 
 We'll update this page the moment the league makes it official.
 
