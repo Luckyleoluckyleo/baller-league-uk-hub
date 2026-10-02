@@ -1,0 +1,60 @@
+---
+interface Row {
+  name: string;
+  url: string;
+  /** Optional headshot rendered as the leading avatar (players). */
+  photo?: string;
+  /** Optional team logo rendered next to the team name. */
+  teamLogo?: string;
+  team?: string;
+  value: number | string;
+}
+interface Props {
+  title: string;
+  icon?: string;
+  valueLabel?: string;
+  rows: Row[];
+}
+const { title, icon = "", valueLabel = "", rows } = Astro.props;
+---
+
+<div class="card lb-card">
+  <div class="card-body">
+    <h3 class="lb-title">{icon} {title}</h3>
+    <ol class="lb-list">
+      {rows.map((r, i) => (
+        <li class="lb-item">
+          <span class="lb-rank" aria-hidden="true">{i + 1}</span>
+          {r.photo ? (
+            <img src={r.photo} alt="" class="lb-photo" width="34" height="34" loading="lazy" onerror="this.style.visibility='hidden'" />
+          ) : null}
+          <a href={r.url} class="lb-name">{r.name}</a>
+          {r.team && (
+            <span class="lb-team">
+              {r.teamLogo && <img src={r.teamLogo} alt="" width="18" height="18" loading="lazy" onerror="this.remove()" />}
+              {r.team}
+            </span>
+          )}
+          <span class="lb-value">{r.value}{valueLabel}</span>
+        </li>
+      ))}
+    </ol>
+  </div>
+</div>
+
+<style>
+.lb-title { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-muted); margin-bottom: var(--space-md); }
+.lb-list { list-style: none; display: flex; flex-direction: column; margin: 0; padding: 0; }
+.lb-item { display: flex; align-items: center; gap: var(--space-sm); padding: 8px 0; border-bottom: 1px solid var(--border-subtle); }
+.lb-item:last-child { border-bottom: none; }
+.lb-rank { width: 16px; flex-shrink: 0; color: var(--text-muted); font-variant-numeric: tabular-nums; font-weight: 700; font-size: 0.85rem; }
+.lb-photo { width: 34px; height: 34px; border-radius: 50%; object-fit: cover; flex-shrink: 0; background: var(--bg-elevated); border: 1px solid var(--border); }
+.lb-name { flex: 1 1 auto; min-width: 0; color: var(--text-primary); font-weight: 600; font-size: 0.9rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.lb-name:hover { color: var(--green); }
+.lb-team { display: inline-flex; align-items: center; gap: 5px; flex-shrink: 0; color: var(--text-muted); font-size: 0.75rem; }
+.lb-team img { border-radius: 50%; object-fit: contain; }
+.lb-value { flex-shrink: 0; min-width: 30px; text-align: right; font-weight: 700; color: var(--green); font-variant-numeric: tabular-nums; }
+@media (max-width: 560px) {
+  .lb-team { display: none; }
+}
+</style>

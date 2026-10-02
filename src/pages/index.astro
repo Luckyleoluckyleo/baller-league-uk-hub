@@ -2,10 +2,12 @@
 import Base from '../layouts/Base.astro';
 import NewsCard from '../components/NewsCard.astro';
 import TeamCard from '../components/TeamCard.astro';
+import MiniLeaderboard from '../components/MiniLeaderboard.astro';
 import { getCollection } from 'astro:content';
 import tableData from '../data/table.json';
 import fixturesData from '../data/fixtures.json';
 import gcData from '../data/gamechangers.json';
+import playersData from '../data/players.json';
 
 const updateDate = new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
 
@@ -57,6 +59,20 @@ const computedTable = tableData.map(row => {
 computedTable.sort((a, b) => b.pts - a.pts || b.gd - a.gd || b.gf - a.gf);
 computedTable.forEach((row, i) => { row.pos = i + 1; });
 
+// ---- Season 3 leaderboards (for the hero + at-a-glance section) ----
+const players = playersData.players as any[];
+const s3 = (p: any) => p.seasons?.['3'] || {};
+const detail = (p: any, key: string) => (s3(p).detailed ? s3(p).detailed[key] : 0) || 0;
+const topScorers = [...players].sort((a, b) => (s3(b).goals || 0) - (s3(a).goals || 0)).slice(0, 5);
+const topAssists = [...players].sort((a, b) => (s3(b).assists || 0) - (s3(a).assists || 0)).slice(0, 5);
+const topShots = [...players].sort((a, b) => detail(b, 'Total Shots') - detail(a, 'Total Shots')).slice(0, 5);
+const bestDefence = [...computedTable].sort((a, b) => a.ga - b.ga).slice(0, 5);
+const leader = computedTable[0];
+const topScorer = topScorers[0];
+const topAssist = topAssists[0];
+const totalGoals = s3Matches.reduce((n: number, m: any) => n + m.homeScore + m.awayScore, 0);
+const avgGoals = s3Matches.length ? (totalGoals / s3Matches.length).toFixed(1) : '0';
+
 function getForm(slug: string): { label: string; cls: string }[] {
   const m = s3Matches
     .filter((x: any) => (x.homeSlug === slug || x.awaySlug === slug))
@@ -104,42 +120,90 @@ const schema = {
   schema={schema}
   keywords="fixtures, results, standings, teams, players, gameweek, roundup"
 >
->
 
   <!-- HERO -->
   <section class="hero">
     <div class="hero-grid-bg"></div>
-    <div class="container hero-content">
-      <div class="hero-eyebrow">{isFinalFour ? '🏆 The O2, London — 25 May 2026' : `⚽ Season 3 — Gameweek ${upcomingGW} of 11`}</div>
-      <h1 class="hero-title">
-        Your Hub for
-        <span class="accent">Baller League UK</span>
-      </h1>
-      <p class="hero-subtitle">
-        6v6 football. Celebrity managers. The UK's most exciting football format — featuring KSI, Angry Ginge, Niko Omilana, Sharky, Mark Goldbridge and more.
-      </p>
-      <div class="hero-actions">
-        <a href="/table" class="btn btn-primary btn-lg">View League Table</a>
-        <a href="/rules" class="btn btn-secondary btn-lg">How It Works</a>
-        <a href="/watch" class="btn btn-ghost btn-lg">Watch Live</a>
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <div class="hero-eyebrow">{isFinalFour ? '🏆 Season 3 complete — Prime FC are champions' : `⚽ Season 3 — Gameweek ${upcomingGW} of 11`}</div>
+        <h1 class="hero-title">
+          Your Hub for
+          <span class="accent">Baller League UK</span>
+        </h1>
+        <p class="hero-subtitle">
+          6v6 football. Celebrity managers. Every result, table, goal and Gamechanger — all in one place.
+        </p>
+        <div class="hero-actions">
+          <a href="/table" class="btn btn-primary btn-lg">View League Table</a>
+          <a href="/gamechangers" class="btn btn-secondary btn-lg">Gamechanger Stats</a>
+          <a href="/watch" class="btn btn-ghost btn-lg">Watch Live</a>
+        </div>
       </div>
-      <div class="hero-stats">
-        <div class="hero-stat">
-          <div class="hero-stat-number">12</div>
-          <div class="hero-stat-label">Teams</div>
+
+      <aside class="hero-panel" aria-label="Season 3 at a glance">
+        <div class="hero-panel-head">
+          <span class="hero-panel-title">Season 3 at a glance</span>
+          <span class="hero-panel-sub">{totalGoals} goals &middot; {avgGoals} per game</span>
         </div>
-        <div class="hero-stat">
-          <div class="hero-stat-number">6v6</div>
-          <div class="hero-stat-label">Format</div>
+        <div class="hero-panel-grid">
+          <a href={`/teams/${leader.slug}`} class="hero-metric">
+            <img src={`/logos/${leader.slug}.svg`} alt="" class="hero-metric-img" width="40" height="40" loading="lazy" onerror="this.remove()" />
+            <span class="hero-metric-label">Leaders</span>
+            <span class="hero-metric-value">{leader.team}</span>
+            <span class="hero-metric-sub">{leader.pts} pts</span>
+          </a>
+          <a href={`/players/${topScorer.slug}`} class="hero-metric">
+            <img src={`/players/${topScorer.slug}.webp`} alt="" class="hero-metric-img hero-metric-img--round" width="40" height="40" loading="lazy" onerror="this.style.visibility='hidden'" />
+            <span class="hero-metric-label">Top scorer</span>
+            <span class="hero-metric-value">{topScorer.name}</span>
+            <span class="hero-metric-sub">{s3(topScorer).goals} goals</span>
+          </a>
+          <a href={`/players/${topAssist.slug}`} class="hero-metric">
+            <img src={`/players/${topAssist.slug}.webp`} alt="" class="hero-metric-img hero-metric-img--round" width="40" height="40" loading="lazy" onerror="this.style.visibility='hidden'" />
+            <span class="hero-metric-label">Most assists</span>
+            <span class="hero-metric-value">{topAssist.name}</span>
+            <span class="hero-metric-sub">{s3(topAssist).assists} assists</span>
+          </a>
+          <a href={`/teams/${bestDefence[0].slug}`} class="hero-metric">
+            <img src={`/logos/${bestDefence[0].slug}.svg`} alt="" class="hero-metric-img" width="40" height="40" loading="lazy" onerror="this.remove()" />
+            <span class="hero-metric-label">Best defence</span>
+            <span class="hero-metric-value">{bestDefence[0].team}</span>
+            <span class="hero-metric-sub">{bestDefence[0].ga} conceded</span>
+          </a>
         </div>
-        <div class="hero-stat">
-          <div class="hero-stat-number">30</div>
-          <div class="hero-stat-label">Min Matches</div>
+        <a href="/gamechangers" class="hero-panel-link">Full Gamechanger analysis <span aria-hidden="true">→</span></a>
+      </aside>
+    </div>
+  </section>
+
+  <!-- LEADERBOARDS AT A GLANCE -->
+  <section class="section section--sm">
+    <div class="container">
+      <div class="section-header flex-between">
+        <div>
+          <div class="section-label">Season 3</div>
+          <h2 class="section-title">Leaderboards</h2>
         </div>
-        <div class="hero-stat">
-          <div class="hero-stat-number">2</div>
-          <div class="hero-stat-label">Game Changers</div>
-        </div>
+        <a href="/players" class="view-all">All Players</a>
+      </div>
+      <div class="leaderboard-grid">
+        <MiniLeaderboard
+          title="Top Scorers"
+          icon="⚽"
+          rows={topScorers.map((p: any) => ({ name: p.name, url: `/players/${p.slug}`, photo: `/players/${p.slug}.webp`, team: p.team, teamLogo: `/logos/${p.teamSlug}.svg`, value: s3(p).goals }))}
+        />
+        <MiniLeaderboard
+          title="Top Assists"
+          icon="🅰️"
+          rows={topAssists.map((p: any) => ({ name: p.name, url: `/players/${p.slug}`, photo: `/players/${p.slug}.webp`, team: p.team, teamLogo: `/logos/${p.teamSlug}.svg`, value: s3(p).assists }))}
+        />
+        <MiniLeaderboard
+          title="Best Defence"
+          icon="🛡️"
+          valueLabel=" GA"
+          rows={bestDefence.map((t: any) => ({ name: t.team, url: `/teams/${t.slug}`, photo: `/logos/${t.slug}.svg`, value: t.ga }))}
+        />
       </div>
     </div>
   </section>
@@ -216,29 +280,40 @@ const schema = {
           <div class="section-header flex-between">
             <div>
               <div class="section-label">{isFinalFour ? 'Final Four' : `Gameweek ${upcomingGW}`}</div>
-              <h2 class="section-title">Upcoming Fixtures</h2>
+              <h2 class="section-title">{upcomingFixtures.length > 0 ? 'Upcoming Fixtures' : 'Season Complete'}</h2>
             </div>
-            <a href="/final-four" class="view-all">Full Preview</a>
+            <a href="/final-four" class="view-all">Final Four recap</a>
           </div>
-          <div class="fixtures-list">
-            {upcomingFixtures.map(f => (
-              <a href={`/news/${previewSlug(f)}`} class="fixture-card">
-                <div class="fixture-team home">
-                  <img src={`/logos/${f.homeSlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt={f.homeTeam} />
-                  <span class="fixture-team-name">{f.homeTeam}</span>
-                </div>
-                <div class="fixture-vs-box">
-                  <div class="fixture-score">vs</div>
-                  <div class="fixture-date">{f.time}</div>
-                  {f.round && <div class="fixture-date" style="color: var(--purple-light); font-weight: 600; font-size: 0.65rem;">{f.round}</div>}
-                </div>
-                <div class="fixture-team away">
-                  <img src={`/logos/${f.awaySlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt={f.awayTeam} />
-                  <span class="fixture-team-name">{f.awayTeam}</span>
-                </div>
-              </a>
-            ))}
-          </div>
+          {upcomingFixtures.length > 0 ? (
+            <div class="fixtures-list">
+              {upcomingFixtures.map(f => (
+                <a href={`/news/${previewSlug(f)}`} class="fixture-card">
+                  <div class="fixture-team home">
+                    <img src={`/logos/${f.homeSlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt={f.homeTeam} />
+                    <span class="fixture-team-name">{f.homeTeam}</span>
+                  </div>
+                  <div class="fixture-vs-box">
+                    <div class="fixture-score">vs</div>
+                    <div class="fixture-date">{f.time}</div>
+                    {f.round && <div class="fixture-date" style="color: var(--purple-light); font-weight: 600; font-size: 0.65rem;">{f.round}</div>}
+                  </div>
+                  <div class="fixture-team away">
+                    <img src={`/logos/${f.awaySlug}.svg`} class="td-logo"  onerror="this.hidden=true" alt={f.awayTeam} />
+                    <span class="fixture-team-name">{f.awayTeam}</span>
+                  </div>
+                </a>
+              ))}
+            </div>
+          ) : (
+            <div class="card empty-state">
+              <div class="card-body">
+                <div class="empty-icon" aria-hidden="true">🏆</div>
+                <p class="empty-title">Season 3 is in the books</p>
+                <p class="empty-desc">Prime FC beat NDL FC 5-2 in the Final at The O2 to be crowned Baller League UK champions.</p>
+                <a href="/final-four" class="btn btn-secondary">See the Final Four</a>
+              </div>
+            </div>
+          )}
         </div>
 
         <div>
@@ -331,6 +406,55 @@ const schema = {
 </Base>
 
 <style>
+/* Hero: copy + live "at a glance" panel */
+.hero-inner { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: var(--space-2xl); align-items: center; }
+.hero-copy { max-width: 620px; }
+
+.hero-panel {
+  background: linear-gradient(160deg, var(--bg-card), var(--bg-secondary));
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  box-shadow: var(--shadow-lg);
+}
+.hero-panel-head { display: flex; align-items: baseline; justify-content: space-between; gap: var(--space-sm); margin-bottom: var(--space-md); flex-wrap: wrap; }
+.hero-panel-title { font-family: var(--font-body); font-weight: 800; font-size: 0.85rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-primary); }
+.hero-panel-sub { font-size: 0.75rem; color: var(--text-muted); }
+.hero-panel-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-sm); }
+.hero-metric {
+  display: flex; flex-direction: column; gap: 2px;
+  background: var(--bg-primary); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: var(--space-md); min-width: 0;
+  transition: border-color var(--transition), transform var(--transition), background var(--transition);
+}
+.hero-metric:hover { border-color: rgba(0,230,118,0.35); background: var(--bg-card-hover); transform: translateY(-2px); }
+.hero-metric-img { width: 40px; height: 40px; object-fit: contain; margin-bottom: 4px; }
+.hero-metric-img--round { border-radius: 50%; object-fit: cover; border: 1px solid var(--border); background: var(--bg-elevated); }
+.hero-metric-label { font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); }
+.hero-metric-value { font-weight: 700; color: var(--text-primary); font-size: 0.98rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.hero-metric-sub { font-size: 0.78rem; color: var(--green); font-weight: 600; }
+.hero-panel-link { display: inline-block; margin-top: var(--space-md); color: var(--green); font-size: 0.85rem; font-weight: 600; }
+.hero-panel-link:hover { color: var(--green-mid); }
+
+.leaderboard-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-lg); }
+
+.empty-state { text-align: center; }
+.empty-state .card-body { padding: var(--space-2xl) var(--space-lg); }
+.empty-icon { font-size: 2.6rem; margin-bottom: var(--space-sm); }
+.empty-title { font-family: var(--font-display); font-size: 1.5rem; color: var(--text-primary); margin-bottom: var(--space-sm); }
+.empty-desc { color: var(--text-secondary); max-width: 420px; margin: 0 auto var(--space-lg); }
+
+@media (max-width: 1024px) {
+  .hero-inner { grid-template-columns: 1fr; gap: var(--space-xl); }
+  .hero-copy { max-width: none; }
+}
+@media (max-width: 900px) {
+  .leaderboard-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 520px) {
+  .hero-panel-grid { grid-template-columns: 1fr; }
+}
+
 .home-table-wrap { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-lg); margin-bottom: var(--space-md); }
 .table-note { font-size: 0.78rem; }
 
