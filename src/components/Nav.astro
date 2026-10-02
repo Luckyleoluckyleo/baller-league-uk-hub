@@ -233,7 +233,7 @@ function hasActiveChild(children: { href: string }[]) {
   background: none;
   border: none;
   cursor: pointer;
-  padding: 6px;
+  padding: 10px;
   border-radius: var(--radius-sm);
 }
 .hamburger span {
@@ -267,7 +267,8 @@ function hasActiveChild(children: { href: string }[]) {
     overflow-y: auto;
   }
   .nav-links.open { display: flex; }
-  .nav-link { font-size: 1rem; padding: 10px 14px; }
+  .nav-link { font-size: 1rem; padding: 12px 14px; min-height: 44px; }
+  .nav-dropdown-link { min-height: 44px; display: flex; align-items: center; }
 
   /* Dropdowns on mobile */
   .nav-dropdown-menu {

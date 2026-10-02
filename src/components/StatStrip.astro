@@ -1,0 +1,53 @@
+---
+interface Stat {
+  label: string;
+  value: string | number;
+  sub?: string;
+  icon?: string;
+  href?: string;
+}
+interface Props {
+  stats: Stat[];
+}
+const { stats } = Astro.props;
+---
+
+<div class="stat-strip">
+  {stats.map((s) =>
+    s.href ? (
+      <a href={s.href} class="stat-strip-item">
+        {s.icon && <span class="ss-icon" aria-hidden="true">{s.icon}</span>}
+        <span class="ss-body">
+          <span class="ss-label">{s.label}</span>
+          <span class="ss-value">{s.value}</span>
+          {s.sub && <span class="ss-sub">{s.sub}</span>}
+        </span>
+      </a>
+    ) : (
+      <div class="stat-strip-item">
+        {s.icon && <span class="ss-icon" aria-hidden="true">{s.icon}</span>}
+        <span class="ss-body">
+          <span class="ss-label">{s.label}</span>
+          <span class="ss-value">{s.value}</span>
+          {s.sub && <span class="ss-sub">{s.sub}</span>}
+        </span>
+      </div>
+    )
+  )}
+</div>
+
+<style>
+.stat-strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: var(--space-md); margin-bottom: var(--space-xl); }
+.stat-strip-item {
+  display: flex; align-items: center; gap: var(--space-md);
+  background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: var(--space-md); min-width: 0;
+  transition: border-color var(--transition), transform var(--transition), background var(--transition);
+}
+a.stat-strip-item:hover { border-color: rgba(0,230,118,0.35); background: var(--bg-card-hover); transform: translateY(-2px); }
+.ss-icon { font-size: 1.5rem; flex-shrink: 0; }
+.ss-body { display: flex; flex-direction: column; min-width: 0; }
+.ss-label { font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); }
+.ss-value { font-family: var(--font-display); font-size: 1.5rem; color: var(--text-primary); line-height: 1.1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ss-sub { font-size: 0.8rem; color: var(--green); font-weight: 600; }
+</style>

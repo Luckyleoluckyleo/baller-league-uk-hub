@@ -1,9 +1,11 @@
 ---
 import Base from '../layouts/Base.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
+import StatStrip from '../components/StatStrip.astro';
 import tableData from '../data/table.json';
 import fixturesData from '../data/fixtures.json';
 import gcData from '../data/gamechangers.json';
+import playersData from '../data/players.json';
 
 const updateDate = new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
 const isFinalFour = fixturesData.upcoming[0]?.round != null;
@@ -52,6 +54,15 @@ let computedTable = tableData.map(row => {
 // Sort by pts desc, gd desc, gf desc
 computedTable.sort((a, b) => b.pts - a.pts || b.gd - a.gd || b.gf - a.gf);
 computedTable = computedTable.map((row, i) => ({ ...row, pos: i + 1 }));
+
+// ---- Snapshot stats for the header strip ----
+const players = playersData.players as any[];
+const s3of = (p: any) => p.seasons?.['3'] || {};
+const leader = computedTable[0];
+const topScorer = [...players].sort((a, b) => (s3of(b).goals || 0) - (s3of(a).goals || 0))[0];
+const bestDefence = [...computedTable].sort((a, b) => a.ga - b.ga)[0];
+const totalGoals = s3Matches.reduce((n: number, m: any) => n + m.homeScore + m.awayScore, 0);
+const avgGoals = s3Matches.length ? (totalGoals / s3Matches.length).toFixed(1) : '0';
 
 // Build results by gameweek
 const resultsByGW: Record<number, any[]> = {};
@@ -103,6 +114,15 @@ function getForm(slug: string): { label: string; cls: string }[] {
   </div>
 
   <div class="container table-page">
+
+    <StatStrip
+      stats={[
+        { icon: '🏆', label: 'Leaders', value: leader.team, sub: `${leader.pts} pts`, href: `/teams/${leader.slug}` },
+        { icon: '⚽', label: 'Top scorer', value: topScorer.name, sub: `${s3of(topScorer).goals} goals`, href: `/players/${topScorer.slug}` },
+        { icon: '🛡️', label: 'Best defence', value: bestDefence.team, sub: `${bestDefence.ga} conceded`, href: `/teams/${bestDefence.slug}` },
+        { icon: '🥅', label: 'Goals / game', value: avgGoals, sub: `${totalGoals} total` },
+      ]}
+    />
 
     <div class="table-legend">
       <span class="legend-item"><span class="legend-dot green"></span>Final Four places (1–4)</span>
@@ -166,9 +186,18 @@ function getForm(slug: string): { label: string; cls: string }[] {
           <h2 class="section-title" id="results-gw-title">Gameweek {maxGW}</h2>
         </div>
 
-        <div class="gw-nav" id="table-gw-nav">
+        <div class="gw-nav" id="table-gw-nav" role="tablist" aria-label="Gameweek results">
           {gws.map(gw => (
-            <button type="button" data-gw={gw} class={`gw-nav-link ${gw === maxGW ? 'active' : ''}`}>
+            <button
+              type="button"
+              role="tab"
+              id={`gw-tab-${gw}`}
+              aria-controls={`gw-panel-${gw}`}
+              aria-selected={gw === maxGW ? 'true' : 'false'}
+              tabindex={gw === maxGW ? 0 : -1}
+              data-gw={gw}
+              class={`gw-nav-link ${gw === maxGW ? 'active' : ''}`}
+            >
               GW{gw}
             </button>
           ))}
@@ -176,7 +205,7 @@ function getForm(slug: string): { label: string; cls: string }[] {
 
         <div class="fixtures-list" id="table-results">
           {gws.map(gw => (
-            <div data-gw={gw} style={`display:${gw === maxGW ? 'contents' : 'none'}`}>
+            <div role="tabpanel" id={`gw-panel-${gw}`} aria-labelledby={`gw-tab-${gw}`} data-gw={gw} style={`display:${gw === maxGW ? 'contents' : 'none'}`}>
               {(resultsByGW[gw] || []).map((m: any) => (
                 <a href={`/news/${matchSlug(m)}`} class="fixture-card fixture-result-card">
                   <div class="fixture-team home">
@@ -252,16 +281,39 @@ function getForm(slug: string): { label: string; cls: string }[] {
   const results = document.getElementById('table-results');
   const title = document.getElementById('results-gw-title');
   if (nav && results && title) {
-    nav.addEventListener('click', (e) => {
-      const btn = e.target.closest('button[data-gw]');
-      if (!btn) return;
-      const gw = btn.dataset.gw;
-      nav.querySelectorAll('button').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
+    const tabs = Array.from(nav.querySelectorAll<HTMLButtonElement>('button[data-gw]'));
+
+    function select(gw: string) {
+      tabs.forEach((t) => {
+        const on = t.dataset.gw === gw;
+        t.classList.toggle('active', on);
+        t.setAttribute('aria-selected', on ? 'true' : 'false');
+        t.tabIndex = on ? 0 : -1;
+      });
       title.textContent = 'Gameweek ' + gw;
-      results.querySelectorAll('[data-gw]').forEach(el => {
+      results.querySelectorAll<HTMLElement>('[data-gw]').forEach((el) => {
         el.style.display = el.dataset.gw === gw ? 'contents' : 'none';
       });
+    }
+
+    nav.addEventListener('click', (e) => {
+      const btn = (e.target as HTMLElement).closest('button[data-gw]');
+      if (btn) select(btn.dataset.gw!);
+    });
+
+    nav.addEventListener('keydown', (e) => {
+      const idx = tabs.indexOf(document.activeElement as HTMLButtonElement);
+      if (idx === -1) return;
+      let next = -1;
+      if (e.key === 'ArrowRight' || e.key === 'ArrowDown') next = (idx + 1) % tabs.length;
+      else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') next = (idx - 1 + tabs.length) % tabs.length;
+      else if (e.key === 'Home') next = 0;
+      else if (e.key === 'End') next = tabs.length - 1;
+      if (next !== -1) {
+        e.preventDefault();
+        tabs[next].focus();
+        select(tabs[next].dataset.gw!);
+      }
     });
   }
 </script>

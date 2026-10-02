@@ -160,13 +160,24 @@ const schema = {
     {sortedGWs.length > 0 && (
       <div class="season-results">
         <h2 class="season-section-title">Results by Gameweek</h2>
-        <div class="gw-tabs" id="season-gw-tabs">
-          {sortedGWs.map(gw => (
-            <button class="gw-tab" data-gw={gw}>GW{gw}</button>
+        <div class="gw-tabs" id="season-gw-tabs" role="tablist" aria-label={`Season ${seasonId} results by gameweek`}>
+          {sortedGWs.map((gw, i) => (
+            <button
+              type="button"
+              role="tab"
+              id={`sgw-tab-${gw}`}
+              aria-controls={`sgw-panel-${gw}`}
+              aria-selected={i === 0 ? 'true' : 'false'}
+              tabindex={i === 0 ? 0 : -1}
+              class={`gw-tab ${i === 0 ? 'active' : ''}`}
+              data-gw={gw}
+            >
+              GW{gw}
+            </button>
           ))}
         </div>
-        {sortedGWs.map(gw => (
-          <div class="gw-results-panel" data-gw={gw} style="display:none;">
+        {sortedGWs.map((gw, i) => (
+          <div class="gw-results-panel" role="tabpanel" id={`sgw-panel-${gw}`} aria-labelledby={`sgw-tab-${gw}`} data-gw={gw} style={i === 0 ? '' : 'display:none;'}>
             <div class="season-matches-grid">
               {(resultsByGW[gw] || []).map((m: any) => (
                 <a href={`/match/s${seasonId}-${m.homeSlug}-vs-${m.awaySlug}-gw${m.gameweek}`} class="season-match-card">
@@ -249,20 +260,41 @@ const schema = {
 </style>
 
 <script>
-  (function() {
-    const tabs = document.querySelectorAll('#season-gw-tabs .gw-tab');
+  (function () {
+    const tablist = document.getElementById('season-gw-tabs');
     const panels = document.querySelectorAll('.gw-results-panel');
+    if (!tablist) return;
+    const tabs = Array.from(tablist.querySelectorAll<HTMLButtonElement>('.gw-tab'));
     if (tabs.length === 0) return;
-    tabs[0].classList.add('active');
-    const firstPanel = panels[0] as HTMLElement;
-    if (firstPanel) firstPanel.style.display = 'block';
-    tabs.forEach(tab => {
-      tab.addEventListener('click', () => {
-        const gw = tab.getAttribute('data-gw');
-        tabs.forEach(t => t.classList.remove('active'));
-        tab.classList.add('active');
-        panels.forEach((p: any) => { p.style.display = p.getAttribute('data-gw') === gw ? 'block' : 'none'; });
+
+    function select(gw: string) {
+      tabs.forEach((t) => {
+        const on = t.getAttribute('data-gw') === gw;
+        t.classList.toggle('active', on);
+        t.setAttribute('aria-selected', on ? 'true' : 'false');
+        t.tabIndex = on ? 0 : -1;
       });
+      panels.forEach((p: any) => { p.style.display = p.getAttribute('data-gw') === gw ? 'block' : 'none'; });
+    }
+
+    tablist.addEventListener('click', (e) => {
+      const btn = (e.target as HTMLElement).closest('.gw-tab');
+      if (btn) select(btn.getAttribute('data-gw')!);
+    });
+
+    tablist.addEventListener('keydown', (e) => {
+      const idx = tabs.indexOf(document.activeElement as HTMLButtonElement);
+      if (idx === -1) return;
+      let next = -1;
+      if (e.key === 'ArrowRight' || e.key === 'ArrowDown') next = (idx + 1) % tabs.length;
+      else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') next = (idx - 1 + tabs.length) % tabs.length;
+      else if (e.key === 'Home') next = 0;
+      else if (e.key === 'End') next = tabs.length - 1;
+      if (next !== -1) {
+        e.preventDefault();
+        tabs[next].focus();
+        select(tabs[next].getAttribute('data-gw')!);
+      }
     });
   })();
 </script>

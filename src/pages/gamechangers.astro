@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
+import StatStrip from '../components/StatStrip.astro';
 import gcData from '../data/gamechangers.json';
 
 const { definitions, seasons } = gcData;
@@ -12,6 +13,35 @@ const totalGCEvents = allMatches.reduce((n, m) => n
 
 const currentSeason = '3';
 const currentSeasonData = seasons[currentSeason as keyof typeof seasons];
+
+// Headline insights for the current season.
+const gcName = (id?: string) => {
+  const d = [...definitions.firstHalf, ...definitions.secondHalf].find((g) => g.id === id);
+  return d ? d.name : (id || '—');
+};
+const gcStats = (matches: any[]) => {
+  const first: Record<string, number> = {};
+  const second: Record<string, number> = {};
+  let goals = 0;
+  for (const m of matches) {
+    const a = m.gamechanger1?.type;
+    const b = m.gamechanger2?.type;
+    if (a && a !== 'unknown') { first[a] = (first[a] || 0) + 1; goals += m.gamechanger1?.goalsScored || 0; }
+    if (b && b !== 'unknown') { second[b] = (second[b] || 0) + 1; goals += m.gamechanger2?.goalsScored || 0; }
+  }
+  const rank = (o: Record<string, number>) => Object.entries(o).sort((x, y) => y[1] - x[1])[0] || ['', 0];
+  const firstTotal = Object.values(first).reduce((n, v) => n + v, 0);
+  const secondTotal = Object.values(second).reduce((n, v) => n + v, 0);
+  const [topFirstId, topFirstCount] = rank(first);
+  const [topSecondId, topSecondCount] = rank(second);
+  return {
+    topFirstId, topFirstPct: firstTotal ? Math.round((topFirstCount / firstTotal) * 100) : 0,
+    topSecondId, topSecondPct: secondTotal ? Math.round((topSecondCount / secondTotal) * 100) : 0,
+    goals, activations: firstTotal + secondTotal,
+    perMatch: matches.length ? (goals / matches.length).toFixed(1) : '0',
+  };
+};
+const s3gc = gcStats(seasons['3'].matches as any[]);
 
 const schema = {
   "@context": "https://schema.org",
@@ -45,11 +75,20 @@ const schema = {
 
   <div class="container gc-page">
 
-    <div class="season-tabs" id="season-tabs">
+    <StatStrip
+      stats={[
+        { icon: '🥇', label: 'Most-used 1st half', value: gcName(s3gc.topFirstId), sub: `${s3gc.topFirstPct}% of activations` },
+        { icon: '🥈', label: 'Most-used 2nd half', value: gcName(s3gc.topSecondId), sub: `${s3gc.topSecondPct}% of activations` },
+        { icon: '⚽', label: 'Goals in GCs', value: s3gc.goals, sub: `${s3gc.perMatch} per match` },
+        { icon: '🔁', label: 'Activations', value: s3gc.activations, sub: 'Season 3' },
+      ]}
+    />
+
+    <div class="season-tabs" id="season-tabs" role="group" aria-label="Filter analysis by season">
       {Object.entries(seasons).reverse().map(([key, s]) => (
-        <button class={`season-tab ${key === currentSeason ? 'active' : ''}`} data-season={key}>{s.label} ({s.matches.length})</button>
+        <button type="button" class={`season-tab ${key === currentSeason ? 'active' : ''}`} data-season={key} aria-pressed={key === currentSeason ? 'true' : 'false'}>{s.label} ({s.matches.length})</button>
       ))}
-      <button class="season-tab" data-season="all">All Seasons ({allMatches.length})</button>
+      <button type="button" class="season-tab" data-season="all" aria-pressed="false">All Seasons ({allMatches.length})</button>
     </div>
 
     <section class="gc-section" id="frequency">
@@ -361,8 +400,12 @@ const schema = {
 
   document.querySelectorAll('.season-tab').forEach(tab => {
     tab.addEventListener('click', () => {
-      document.querySelectorAll('.season-tab').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.season-tab').forEach(t => {
+        t.classList.remove('active');
+        t.setAttribute('aria-pressed', 'false');
+      });
       tab.classList.add('active');
+      tab.setAttribute('aria-pressed', 'true');
       renderAll(tab.getAttribute('data-season'));
     });
   });
