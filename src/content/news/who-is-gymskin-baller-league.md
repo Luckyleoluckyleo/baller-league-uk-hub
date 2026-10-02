@@ -11,7 +11,7 @@ featured: false
 
 **Gymskin** is one of the fastest-rising names on UK social media. The Essex-based TikTok and Kick streamer exploded in early 2026 with his "follow that tune" trend, which sent Madonna's 1985 classic **"Into the Groove"** surging back up the UK charts.
 
-The momentum carried him all the way to the top of pop culture: in 2026 he appeared alongside **Madonna** herself, with the two dancing in what turned out to be an **unreleased Chelsea shirt**, in a clip that got picked up everywhere from The Athletic to the BBC. He now streams to a huge live audience on **Kick** and gets mobbed in public wherever he goes.
+The momentum carried him all the way to the top of pop culture: in 2026 he appeared alongside **Madonna** herself, with the two dancing in what turned out to be an **unreleased Chelsea shirt**, in a clip that got picked up everywhere from The Athletic to the BBC. He now streams to a huge live audience on [**Kick**](https://kick.com/gymskin) and gets mobbed in public wherever he goes.
 
 ## The Baller League connection
 
