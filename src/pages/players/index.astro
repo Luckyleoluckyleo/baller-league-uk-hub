@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import StatLeaderboard from '../../components/StatLeaderboard.astro';
+import StatStrip from '../../components/StatStrip.astro';
 import playerData from '../../data/players.json';
 import gcData from '../../data/gamechangers.json';
 
@@ -40,6 +41,14 @@ const rank = (key: string, n = 10) =>
     .sort((a, b) => b.value - a.value)
     .slice(0, n);
 
+const snapshot = {
+  scorer: rank('goals', 1)[0],
+  assists: rank('assists', 1)[0],
+  shots: rank('Total Shots', 1)[0],
+  saves: rank('Saves Made', 1)[0],
+};
+const totalGoals = enriched.reduce((n, p) => n + (p.seasons?.['3']?.goals || 0), 0);
+
 const teams = [...new Set(enriched.filter(p => p.team).map(p => p.team))].sort() as string[];
 const positions = [...new Set(enriched.filter(p => p.position).map(p => p.position))].sort() as string[];
 
@@ -76,6 +85,15 @@ const schema = {
   </div>
 
   <div class="container players-page">
+
+    <StatStrip
+      stats={[
+        { icon: '👥', label: 'Players', value: enriched.length, sub: `${totalGoals} goals scored` },
+        { icon: '⚽', label: 'Top scorer', value: snapshot.scorer?.name, sub: `${snapshot.scorer?.value} goals`, href: `/players/${snapshot.scorer?.slug}` },
+        { icon: '🅰️', label: 'Most assists', value: snapshot.assists?.name, sub: `${snapshot.assists?.value} assists`, href: `/players/${snapshot.assists?.slug}` },
+        { icon: '🎯', label: 'Most shots', value: snapshot.shots?.name, sub: `${snapshot.shots?.value} shots`, href: `/players/${snapshot.shots?.slug}` },
+      ]}
+    />
 
     <!-- LEADERBOARD -->
     <section>
@@ -206,19 +224,20 @@ const schema = {
       <div class="card-body" style="padding: 0;">
         <div class="table-wrap" style="border-radius: var(--radius-lg);">
           <table id="players-table">
+            <caption class="visually-hidden">All Baller League UK Season 3 players — goals, assists, appearances, shots, passes, tackles and saves. Columns are sortable.</caption>
             <thead>
               <tr>
-                <th>#</th>
-                <th>Player</th>
-                <th>Team</th>
-                <th>Pos</th>
-                <th class="num-col sortable" data-sort="goals">G</th>
-                <th class="num-col sortable" data-sort="assists">A</th>
-                <th class="num-col sortable" data-sort="apps">Apps</th>
-                <th class="num-col sortable" data-sort="shots">SH</th>
-                <th class="num-col sortable" data-sort="passes">P</th>
-                <th class="num-col sortable" data-sort="tackles">T</th>
-                <th class="num-col sortable" data-sort="saves">SV</th>
+                <th scope="col">#</th>
+                <th scope="col">Player</th>
+                <th scope="col">Team</th>
+                <th scope="col">Pos</th>
+                <th scope="col" class="num-col sortable" data-sort="goals">G</th>
+                <th scope="col" class="num-col sortable" data-sort="assists">A</th>
+                <th scope="col" class="num-col sortable" data-sort="apps">Apps</th>
+                <th scope="col" class="num-col sortable" data-sort="shots">SH</th>
+                <th scope="col" class="num-col sortable" data-sort="passes">P</th>
+                <th scope="col" class="num-col sortable" data-sort="tackles">T</th>
+                <th scope="col" class="num-col sortable" data-sort="saves">SV</th>
               </tr>
             </thead>
             <tbody>

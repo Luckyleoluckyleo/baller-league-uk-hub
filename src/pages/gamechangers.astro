@@ -135,16 +135,17 @@ const schema = {
       </div>
       <div class="table-wrap">
         <table>
+          <caption class="visually-hidden">Game Changer active in each half for every match, with goals scored during each Game Changer window.</caption>
           <thead>
             <tr>
-              <th>GW</th>
-              <th>Home</th>
-              <th></th>
-              <th>Away</th>
-              <th class="gc-col gc-col-1h">1H GC (12')</th>
-              <th class="gc-col gc-col-1h">G</th>
-              <th class="gc-col gc-col-2h">2H GC (27')</th>
-              <th class="gc-col gc-col-2h">G</th>
+              <th scope="col">GW</th>
+              <th scope="col">Home</th>
+              <th scope="col"><span class="visually-hidden">Score</span></th>
+              <th scope="col">Away</th>
+              <th scope="col" class="gc-col gc-col-1h">1H GC (12')</th>
+              <th scope="col" class="gc-col gc-col-1h">G</th>
+              <th scope="col" class="gc-col gc-col-2h">2H GC (27')</th>
+              <th scope="col" class="gc-col gc-col-2h">G</th>
             </tr>
           </thead>
           <tbody id="match-data-body">

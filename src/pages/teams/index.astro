@@ -2,14 +2,21 @@
 import Base from '../../layouts/Base.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import TeamCard from '../../components/TeamCard.astro';
+import StatStrip from '../../components/StatStrip.astro';
 import { getCollection } from 'astro:content';
 import tableData from '../../data/table.json';
+import playersData from '../../data/players.json';
 
 const teams = await getCollection('teams');
 const teamsWithStandings = teams.map(team => {
   const standing = tableData.find(t => t.slug === team.data.urlSlug);
   return { ...team, standing };
 }).sort((a, b) => (a.standing?.pos ?? 99) - (b.standing?.pos ?? 99));
+
+const leader = tableData[0];
+const bestDefence = [...tableData].sort((a, b) => a.ga - b.ga)[0];
+const s3of = (p: any) => p.seasons?.['3'] || {};
+const topScorer = [...(playersData.players as any[])].sort((a, b) => (s3of(b).goals || 0) - (s3of(a).goals || 0))[0];
 
 const schema = {
   "@context": "https://schema.org",
@@ -36,6 +43,14 @@ const schema = {
   </div>
 
   <div class="container teams-page">
+    <StatStrip
+      stats={[
+        { icon: '🏆', label: 'Champions', value: 'Prime FC', sub: 'Final winners', href: '/teams/prime-fc' },
+        { icon: '🥇', label: 'League leaders', value: leader.team, sub: `${leader.pts} pts`, href: `/teams/${leader.slug}` },
+        { icon: '⚽', label: 'Top scorer', value: topScorer.name, sub: `${s3of(topScorer).goals} goals`, href: `/players/${topScorer.slug}` },
+        { icon: '🛡️', label: 'Best defence', value: bestDefence.team, sub: `${bestDefence.ga} conceded`, href: `/teams/${bestDefence.slug}` },
+      ]}
+    />
     <div class="teams-grid">
       {teamsWithStandings.map(team => (
         <TeamCard
