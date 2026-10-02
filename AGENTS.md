@@ -10,6 +10,16 @@ A static Astro website providing stats, tables, teams, players, gamechanger anal
 
 ---
 
+## Current state / handover
+
+- **Phase: between Season 3 and Season 4.** `ballerleague.uk` still serves **Season 3** only — there are **no official S4 fixtures or squads yet**, so `fixtures.json.upcoming` is empty and `generate-previews.mjs` writes nothing. S4 is expected to start **12 Oct 2026**; season detection is date-based, so S4 data auto-detects once games are played.
+- **S4 intel is hand-maintained** in `src/data/season4.json` and surfaced on `/season-4` + the S4 editorial articles. Treat Wikipedia-derived line-ups as **unconfirmed** and label rumour vs confirmed explicitly (see the Gymskin article for the pattern).
+- **Data correctness is enforced by `node scripts/verify-data.mjs`** — it must print `✅ PASS`. Run it after any data/scrape change.
+- **Environment quirks (Windows):** `npm.ps1` is blocked by execution policy → use **`npm.cmd`**; likewise `npx.cmd`. A preview server may be running on `:4322` (something else holds `:4321`). `git push` writes progress to stderr, which PowerShell renders as red text — it still succeeds; confirm with `git status -sb`.
+- **Recent uncommitted-work habit:** generated content under `src/content/news/` matching `*-gw{n}.md` / `*-preview.md` is regenerated — never hand-edit those.
+
+---
+
 ## Weekly Update Guide (user-facing)
 
 ### Every gameweek:
@@ -138,38 +148,47 @@ baller-league-uk-hub/
 │   ├── players/              # player headshots (.webp)
 │   ├── admin/                # Decap CMS (index.html + config.yml)
 │   └── google*.html          # Search Console verification
-├── scripts/                  # 11 scripts — see Scripts reference
-│   ├── update.mjs            # orchestrator (8 stages)
+├── scripts/                  # 17 scripts — see Scripts reference
+│   ├── update.mjs            # orchestrator (11 stages)
 │   ├── scrape.mjs            # match results
-│   ├── scrape-ep.mjs         # EP values
+│   ├── scrape-standings.mjs  # official standings + EP
 │   ├── scrape-players.mjs    # player stats
+│   ├── scrape-ep.mjs         # EP values  ⚠ superseded
 │   ├── scrape-assets.mjs     # team logos  ⚠ NOT in pipeline
 │   ├── generate-reports.mjs  # match reports
 │   ├── generate-previews.mjs # fixture previews
 │   ├── generate-og.mjs       # default OG PNG
 │   ├── generate-og-images.mjs# per-article OG PNGs
+│   ├── generate-og-people.mjs# player + manager OG PNGs
+│   ├── generate-placeholders.mjs # placeholder player images
+│   ├── optimize-images.mjs   # resize player/manager images  ⚠ manual
+│   ├── verify-data.mjs       # data verifier vs official
 │   ├── generate-redirects.mjs# dist/_redirects  (post-build)
 │   ├── generate-sitemap.mjs  # dist/sitemap.xml (post-build)
-│   ├── .cache/               # gitignored — match page HTML
+│   ├── season4-news.mjs      # S4 news monitor  ⚠ manual, not in pipeline
+│   ├── .cache/               # gitignored — match page HTML + s4-seen.json
 │   └── .cache-players/       # gitignored — player page HTML + AJAX
 └── src/
-    ├── components/           # Nav, Footer, Breadcrumb, TeamCard, PlayerCard, NewsCard
+    ├── components/           # Nav, Footer, Breadcrumb, TeamCard, PlayerCard,
+    │                         #   NewsCard, StatStrip, StatLeaderboard, MiniLeaderboard
     ├── layouts/
-    │   └── Base.astro        # <head>, SEO meta, JSON-LD, AdSense, breadcrumb
-    ├── pages/                # 26 files — see Routes
-    ├── data/                 # the 4 JSON files that drive everything
+    │   └── Base.astro        # <head>, SEO meta, JSON-LD, AdSense, skip-link
+    ├── pages/                # 27 files — see Routes
+    ├── data/                 # the 6 JSON files that drive everything
     │   ├── gamechangers.json # AUTO — all matches, all seasons
-    │   ├── players.json      # AUTO — player stats (S3 only)
+    │   ├── players.json      # AUTO — player stats (S3 only, 182 players)
     │   ├── table.json        # AUTO (ep only) — team metadata carrier
-    │   └── fixtures.json     # MANUAL — upcoming + results
+    │   ├── standings.json    # AUTO — official final tables per season
+    │   ├── fixtures.json     # MANUAL — upcoming + results
+    │   └── season4.json      # MANUAL — Season 4 intake (dates/venue/managers/signings)
     ├── content/              # 4 collections
     │   ├── teams/    (12)    # hand-written profiles
-    │   ├── players/  (44)    # hand-written profiles
+    │   ├── players/  (44)    # hand-written profiles (bios shown on player pages)
     │   ├── managers/ (13)    # hand-written profiles
-    │   ├── news/     (88)    # 72 generated reports + 14 generated previews + 2 hand-written
+    │   ├── news/     (90)    # generated reports/previews + S4 articles + hand-written
     │   └── config.ts         # collection schemas
     └── styles/
-        └── global.css        # design tokens + shared classes
+        └── global.css        # design tokens, shared classes, a11y, responsive tables
 ```
 
 ### There is no `src/lib/` or `src/utils/`
@@ -183,20 +202,24 @@ Standings computation, match-slug construction, team/emoji lookup, and player-na
 | Script | Reads | Writes | In `npm run update`? | Flags |
 |---|---|---|---|---|
 | `update.mjs` | — | — | entrypoint | — |
-| `scrape.mjs` | `scripts/.cache/{id}.html` (read-through) | `src/data/gamechangers.json` | 1/9 | — |
-| `scrape-standings.mjs` | `gamechangers.json` + `/en/game/{id}` | `src/data/standings.json`, `table.json` (`ep`) | 2/9 | — |
-| `scrape-players.mjs` | `scripts/.cache-players/` | `src/data/players.json` | 3/9 | — |
-| `generate-reports.mjs` | all data JSON | `src/content/news/{h}-vs-{a}-gw{n}.md` | 4/9 | `--season=all` |
-| `generate-previews.mjs` | all data JSON | `src/content/news/{h}-vs-{a}-gw{n}-preview.md` | 5/9 | — |
-| `generate-og.mjs` | `public/og-default.svg` | `public/og-default.png` | 6/9 | — |
-| `generate-og-images.mjs` | `src/content/news/*.md` | `public/og/{slug}.png` | 7/9 | — |
-| `verify-data.mjs` | `gamechangers.json`, `players.json`, `standings.json` | stdout (exits 1 on mismatch) | 8/9 | `1 2 3` (season filter) |
+| `scrape.mjs` | `scripts/.cache/{id}.html` (read-through) | `src/data/gamechangers.json` | 1/11 | — |
+| `scrape-standings.mjs` | `gamechangers.json` + `/en/game/{id}` | `src/data/standings.json`, `table.json` (`ep`) | 2/11 | — |
+| `scrape-players.mjs` | `scripts/.cache-players/` | `src/data/players.json` | 3/11 | — |
+| `generate-placeholders.mjs` | `players.json`, `content/players/` | `public/players/*.webp` (missing only) | 4/11 | — |
+| `generate-reports.mjs` | all data JSON | `src/content/news/{h}-vs-{a}-gw{n}.md` | 5/11 | `--season=all` |
+| `generate-previews.mjs` | all data JSON | `src/content/news/{h}-vs-{a}-gw{n}-preview.md` | 6/11 | — |
+| `generate-og.mjs` | `public/og-default.svg` | `public/og-default.png` | 7/11 | — |
+| `generate-og-images.mjs` | `src/content/news/*.md` | `public/og/{slug}.png` | 8/11 | — |
+| `generate-og-people.mjs` | `players.json`, managers | `public/og/players/*.png`, `public/og/managers/*.png` | 9/11 | — |
+| `verify-data.mjs` | `gamechangers.json`, `players.json`, `standings.json` | stdout (exits 1 on mismatch) | 10/11 | `1 2 3` (season filter) |
 | `generate-redirects.mjs` | `gamechangers.json` | `dist/_redirects` | via build | — |
 | `generate-sitemap.mjs` | `dist/**` | `dist/sitemap.xml` | via build | — |
+| `optimize-images.mjs` | `public/players`, `public/managers` | resized `.webp` | **⚠ NO — manual only** | — |
 | `scrape-ep.mjs` | `scripts/.cache/*.html`, `table.json` | `src/data/table.json` (`ep` only) | **⚠ superseded by `scrape-standings.mjs`** | — |
 | `scrape-assets.mjs` | — | `public/logos/{slug}.svg` | **⚠ NO — manual only** | — |
+| `season4-news.mjs` | Google News RSS | stdout + `scripts/.cache/s4-seen.json` | **⚠ NO — manual monitor** | `--all`, `--days=N` |
 
-**`generate-reports.mjs --season=all` is the only CLI flag in the generation scripts.** `verify-data.mjs` accepts optional season numbers. No script reads `process.env`.
+**`generate-reports.mjs --season=all` is the only CLI flag in the generation scripts.** `verify-data.mjs` accepts optional season numbers; `season4-news.mjs` accepts `--all` / `--days=N`. No script reads `process.env`.
 
 ### Cache policy
 - `scripts/.cache/{id}.html` — match pages. Cache clearing is **deliberately commented out** in `update.mjs`. Old gameweeks are final and load instantly; new gameweeks aren't in cache so they fetch live. No invalidation, ever.
@@ -269,11 +292,14 @@ Official final table per season (one entry per team: `teamId, pos, team, slug, p
 ### `src/data/fixtures.json` — `{ upcoming, results }`
 Currently `upcoming: []` and `results` holds the 3 GW12 knockout games with a `stage` field.
 
+### `src/data/season4.json` — MANUAL Season 4 intake
+Hand-maintained notes for the upcoming season: `dates`, `venue`, `format`, `matchdays`, `managers`, `teamChanges`, `signings`, `prospectiveManagers`, `news`. Drives `/season-4` and the S4 editorial articles. Not read by any generation script — a human edits it as S4 information lands. **Hedge line-up claims:** Wikipedia is fan-edited, and `ballerleague.uk` still serves Season 3 until S4 starts.
+
 ---
 
 ## Routes
 
-26 files in `src/pages/`.
+26 files in `src/pages/` (28 routes counting dynamic patterns).
 
 **Static**
 | Route | Purpose |
@@ -288,6 +314,7 @@ Currently `upcoming: []` and `results` holds the 3 GW12 knockout games with a `s
 | `/records` | All-time records |
 | `/final-four` | **Playoff bracket page (40 KB — the largest file in the repo)** |
 | `/watch` | Where to watch |
+| `/season-4` | **Season 4 hub** — dates, venue, format, matchdays, signings, manager watch, tickets, S4 news |
 | `/sitemap` | Human-facing HTML sitemap page |
 | `/404` | Not found |
 
@@ -389,17 +416,23 @@ Publisher ID `ca-pub-7873503560434517` in `Base.astro`; `ads.txt` in `public/`.
 
 | Command | Purpose |
 |---|---|
-| `npm run update` | Full pipeline: scrape → generate → build (8 stages) |
+| `npm run update` | Full pipeline: scrape → generate → build (11 stages) |
 | `npm run dev` | Dev server at `http://localhost:4321` |
 | `npm run build` | `astro build` + `generate-redirects.mjs` + `generate-sitemap.mjs` |
 | `npm run preview` | Preview built site |
 | `node scripts/scrape.mjs` | Scrape match results only |
-| `node scripts/scrape-ep.mjs` | Scrape EP values only *(requires `scrape.mjs` cache first)* |
+| `node scripts/scrape-standings.mjs` | Scrape official standings + EP only |
+| `node scripts/scrape-ep.mjs` | Scrape EP values only *(superseded; requires `scrape.mjs` cache first)* |
 | `node scripts/scrape-players.mjs` | Scrape player stats only |
 | `node scripts/generate-reports.mjs` | Match reports, **Season 3 only** |
 | `node scripts/generate-reports.mjs --season=all` | Match reports, all seasons ⚠ drops 3 colliding slugs |
 | `node scripts/generate-previews.mjs` | Fixture previews (needs non-empty `upcoming`) |
 | `node scripts/generate-og-images.mjs` | Per-article OG images |
+| `node scripts/generate-og-people.mjs` | Per-player + per-manager OG images |
+| `node scripts/generate-placeholders.mjs` | Placeholder player images (missing only) |
+| `node scripts/optimize-images.mjs` | Resize player/manager headshots — **manual, not in pipeline** |
+| `node scripts/verify-data.mjs` | Verify `gamechangers.json`/`players.json`/`standings.json` vs official |
+| `node scripts/season4-news.mjs` | Season 4 Google News monitor — **manual, read-only** (`--all`, `--days=N`) |
 | `node scripts/generate-redirects.mjs` | `dist/_redirects` *(post-build only)* |
 | `node scripts/generate-sitemap.mjs` | `dist/sitemap.xml` *(post-build only)* |
 | `node scripts/scrape-assets.mjs` | Download team logos — **manual, not in pipeline** |
