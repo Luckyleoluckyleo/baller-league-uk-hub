@@ -1,20 +1,20 @@
 ---
-title: "Deportrio Narrowly Beat Yanited 5-4 in GW5 Nail-biter"
-date: 2026-05-26
+title: "Deportrio Edge Yanited 5-4 in GW5 Thriller"
+date: 2026-04-13
 category: "Match Report"
-excerpt: "Deportrio 5-4 Yanited — Gameweek 5 match report. Jay Emmanuel-Thomas (18 goals) leads Deportrio's attack. Game Changers: 3Play (2) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Deportrio 5-4 Yanited — Gameweek 5 match report. Jay Emmanuel-Thomas (21 goals) leads Deportrio's attack. Game Changers: 3Play (2) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: false
 ---
 
 ## Match Summary — Deportrio 5-4 Yanited
 
-A pivotal Gameweek 5 encounter saw **Deportrio** go head-to-head with **Yanited** in a breathtaking goal-fest.
+The lights were bright at Baller Arena on Gameweek 5, where **Deportrio** and **Yanited** served up an unforgettable thriller packed with drama and goals.
 
-Yanited came in occupying a coveted playoff spot at 3rd, while Deportrio were desperate to crash the party. When the dust settled, it was **Deportrio** who emerged **5-4** victors. The Game Changer window — **3Play** and **The Line** — proved pivotal, contributing **3** of the match's **9** goals.
+Yanited, sitting pretty in the Final Four places at 2nd, knew a win here would tighten their grip. When the dust settled, it was **Deportrio** who emerged **5-4** victors, extending their red-hot run of form in spectacular fashion. The Game Changer window — **3Play** and **The Line** — proved pivotal, contributing **3** of the match's **9** goals.
 
-**Deportrio form (before GW5):** ✅ ✅ ❌ ❌ ❌ (W-W-L-L-L)  
-**Yanited form (before GW5):** ✅ 🤝 ✅ 🤝 ✅ (W-D-W-D-W)
+**Deportrio form (before GW5):** ✅ ✅ ✅ ✅ ❌ (W-W-W-W-L)  
+**Yanited form (before GW5):** ✅ 🤝 ✅ ✅ 🤝 (W-D-W-W-D)
 
 ---
 
@@ -22,11 +22,11 @@ Yanited came in occupying a coveted playoff spot at 3rd, while Deportrio were de
 
 ### First Half
 
-The first half sprang into life at the 12-minute mark with the **3Play** Game Changer flicking the switch — the period yielded **2** goals, just enough to set the contest alight. Deportrio took a slender lead into half-time — nothing decisive, but enough to shift the psychological battle in their favour.
+The game's complexion changed at the 12th minute when the **3Play** Game Changer activated — the period yielded **2** goals, just enough to set the contest alight. Deportrio took a slender lead into half-time — nothing decisive, but enough to shift the psychological battle in their favour.
 
 ### Second Half
 
-The 27th minute brought the **The Line** Game Changer thundering into the match — a moment that would prove pivotal — the **1** goal it produced came at a crucial juncture, swinging momentum decisively. It was edge-of-your-seat stuff in the closing minutes. Yanited pressed and probed, but Deportrio's back-line stood firm — resilient, organised, and ultimately heroic.
+The second half resumed with all to play for, and at the 27-minute mark the **The Line** Game Changer cranked up the intensity once more — and it delivered **1** goal at just the right moment to breathe fresh life into the match. The final exchanges were fraught with tension. Yanited threw everything forward in search of a route back, but Deportrio held their nerve, defending with grit and intelligence to protect what they had.
 
 ---
 
@@ -34,20 +34,20 @@ The 27th minute brought the **The Line** Game Changer thundering into the match 
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **1′** — **Bakary Sako** drew first blood
-- **4′** — **Paul-José M&#039;Poku** slotted
-- **5′** — **Sandro Camara** (Yanited) struck
-- **8′** — **Jay Emmanuel-Thomas** (Deportrio) fired home
-- **12′** — **Marvin Sordell** (Deportrio) slotted
-- **12′** — **Sahid Kamara** (Deportrio) netted
+- **1′** — **Bakary Sako** (Deportrio) drew first blood
+- **4′** — **Paul-José M&#039;Poku** (Yanited) slotted
+- **5′** — **Sandro Camara** (Yanited) netted
+- **8′** — **Jay Emmanuel-Thomas** (Deportrio) struck
+- **12′** — **Marvin Sordell** (Deportrio) found the target
+- **12′** — **Sahid Kamara** (Deportrio) scored
 - **16′** — **John Bostock** (Yanited) scored
-- **17′** — **Jay Emmanuel-Thomas** (Deportrio) struck
-- **27′** — **Tyrell Miller-Rodney** (Yanited) slotted
+- **17′** — **Jay Emmanuel-Thomas** (Deportrio) fired home
+- **27′** — **Tyrell Miller-Rodney** (Yanited) found the target
 
 | Minute | Player | Team |
 |--------|--------|------|
-| 1′ | Bakary Sako | — |
-| 4′ | Paul-José M&#039;Poku | — |
+| 1′ | Bakary Sako | Deportrio |
+| 4′ | Paul-José M&#039;Poku | Yanited |
 | 5′ | Sandro Camara | Yanited |
 | 8′ | Jay Emmanuel-Thomas | Deportrio |
 | 12′ | Marvin Sordell | Deportrio |
@@ -78,21 +78,24 @@ The **3Play** window was the more impactful, its **2** goals shifting the balanc
 
 ### Deportrio
 
-**Jay Emmanuel-Thomas** was Deportrio's standout performer, bagging **2 goals** in a display of clinical finishing that powered his side's effort. As if scoring wasn't enough, he also turned provider with **1 assist**.
+The standout for Deportrio was undoubtedly **Jay Emmanuel-Thomas**, whose **2-goal** haul was the foundation of everything good about their display. As if scoring wasn't enough, he also turned provider with **1 assist**.
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Jay Emmanuel-Thomas | 2 | 1 | 7 | 30 |
-| Sahid Kamara | 1 | 1 | 2 | 11 |
-| Marvin Sordell | 1 | 0 | 1 | 17 |
+| Jay Emmanuel-Thomas | 2 | 1 | 6 | 30 |
+| Bakary Sako | 1 | 1 | 6 | 16 |
+| Sahid Kamara | 1 | 1 | 1 | 11 |
+| Marvin Sordell | 1 | 0 | 2 | 17 |
 | Rodney Ajayi | 0 | 1 | 2 | 10 |
 
 ### Yanited
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Tyrell Miller-Rodney | 1 | 0 | 1 | 10 |
-| John Bostock | 1 | 0 | 2 | 17 |
+| Tyrell Miller-Rodney | 1 | 0 | 3 | 10 |
+| Paul-José M&#039;Poku | 1 | 0 | 4 | 8 |
+| Sandro Camara | 1 | 0 | 5 | 3 |
+| John Bostock | 1 | 0 | 3 | 17 |
 | Medy Elito | 0 | 1 | 1 | 3 |
 
 
@@ -105,35 +108,35 @@ The **3Play** window was the more impactful, its **2** goals shifting the balanc
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Jay Emmanuel-Thomas | 18 | 6 | 10 |
-| Sahid Kamara | 9 | 3 | 7 |
-| J'ardell Stirling | 3 | 4 | 10 |
-| Amine Sassi | 2 | 3 | 10 |
-| Marvin Sordell | 2 | 1 | 7 |
+| Jay Emmanuel-Thomas | 21 | 9 | 12 |
+| Sahid Kamara | 11 | 3 | 9 |
+| Bakary Sako | 5 | 1 | 6 |
+| Amine Sassi | 3 | 3 | 12 |
+| J'Ardell Stirling | 3 | 4 | 12 |
 
 ### Yanited — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kadell Daniel | 14 | 3 | 7 |
-| Tyrell Miller-Rodney | 6 | 3 | 9 |
-| John Bostock | 4 | 1 | 7 |
-| Michael Folivi | 2 | 1 | 8 |
+| Kadell Daniel | 16 | 3 | 8 |
+| Tyrell Miller-Rodney | 6 | 5 | 10 |
+| John Bostock | 4 | 1 | 8 |
+| Michael Folivi | 4 | 1 | 9 |
 | Paul-José M'Poku | 2 | 2 | 7 |
 
 **Key Attacking Threats**
 
-- **Jay Emmanuel-Thomas** — Deportrio's talisman with **18 goals** from **10 appearances** and **6 assists**. One of the league's elite finishers and the focal point of virtually every Deportrio attack.
-- **Kadell Daniel** — Yanited's leading marksman with **14 goals** from **7 outings**, plus **3 assists**. A proven match-winner who carries Yanited's main goal threat game after game.
+- **Jay Emmanuel-Thomas** — Deportrio's talisman with **21 goals** from **12 appearances** and **9 assists**. One of the league's elite finishers and the focal point of virtually every Deportrio attack.
+- **Kadell Daniel** — Yanited's leading marksman with **16 goals** from **8 outings**, plus **3 assists**. A proven match-winner who carries Yanited's main goal threat game after game.
 
 
 ---
 
 ## Season Context
 
-With **6 gameweeks** left in the regular season, the stakes couldn't have been higher. **Deportrio** entered this match averaging **4.1 goals per game** — a number that reflected their struggles in front of goal this campaign. **Yanited**, by contrast, arrived with an average of **3.4 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **6 gameweeks** left in the regular season, the stakes couldn't have been higher. **Deportrio** entered this match averaging **3.9 goals per game** — a number that reflected their struggles in front of goal this campaign. **Yanited**, by contrast, arrived with an average of **3.8 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.3 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -147,12 +150,12 @@ This was the **maiden competitive meeting** between Deportrio and Yanited — a 
 
 ## Table Impact
 
-Deportrio climbed to **5th**, yanited stayed at **3rd**.
+Deportrio climbed to **4th**, yanited stayed at **2nd**.
 
 | Team | Before GW5 | After GW5 |
 |------|-------------|-------------|
-| Deportrio | 6th | 5th |
-| Yanited | 3rd | 3rd |
+| Deportrio | 5th | 4th |
+| Yanited | 2nd | 2nd |
 
 
 ---
@@ -173,8 +176,8 @@ Deportrio climbed to **5th**, yanited stayed at **3rd**.
 - A **9-goal thriller** that lived up to every pre-match expectation
 - **3 of 9 goals (33%)** came during Game Changer activations
 - A **one-goal game** decided by the narrowest of margins — the small details made all the difference
-- Jay Emmanuel-Thomas continues to lead Deportrio with **18 goals** — firmly among the league's elite marksmen
-- Kadell Daniel heads Yanited's scoring charts with **14 goals**, a tally any forward would be proud of
+- Jay Emmanuel-Thomas continues to lead Deportrio with **21 goals** — firmly among the league's elite marksmen
+- Kadell Daniel heads Yanited's scoring charts with **16 goals**, a tally any forward would be proud of
 
 ---
 

@@ -1,20 +1,20 @@
 ---
-title: "Clutch FC Narrowly Beat Yanited 5-4 in GW9 Nail-biter"
-date: 2026-05-26
+title: "Clutch FC Scrape Past Yanited 5-4 in Tight GW9 Contest"
+date: 2026-05-08
 category: "Match Report"
-excerpt: "Clutch FC 5-4 Yanited — Gameweek 9 match report. Alfie Matthews (12 goals) leads Clutch FC's attack. Game Changers: Plus One (3) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Clutch FC 5-4 Yanited — Gameweek 9 match report. Tyler Winters (14 goals) leads Clutch FC's attack. Game Changers: Plus One (3) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: false
 ---
 
 ## Match Summary — Clutch FC 5-4 Yanited
 
-The lights were bright at Baller Arena on Gameweek 9, where **Clutch FC** and **Yanited** served up a pulsating encounter that had fans on the edge of their seats from the first whistle to the last.
+All roads led to Baller Arena for Gameweek 9, where **Clutch FC** and **Yanited** produced a rollercoaster of emotions that had everything you could want from a Baller League match.
 
-When the dust settled, it was **Clutch FC** who emerged **5-4** victors. The Game Changer window — **Plus One** and **Fairplay** — proved pivotal, contributing **4** of the match's **9** goals.
+Yanited came in occupying a coveted playoff spot at 3rd, while Clutch FC were desperate to crash the party. When the dust settled, it was **Clutch FC** who emerged **5-4** victors. The Game Changer window — **Plus One** and **Fairplay** — proved pivotal, contributing **4** of the match's **9** goals.
 
-**Clutch FC form (before GW9):** ❌ ❌ ❌ ✅ ✅ (L-L-L-W-W)  
-**Yanited form (before GW9):** ❌ ❌ ✅ 🤝 ❌ (L-L-W-D-L)
+**Clutch FC form (before GW9):** ❌ ❌ ❌ ✅ ❌ (L-L-L-W-L)  
+**Yanited form (before GW9):** ✅ ❌ ❌ 🤝 ✅ (W-L-L-D-W)
 
 ---
 
@@ -22,11 +22,11 @@ When the dust settled, it was **Clutch FC** who emerged **5-4** victors. The Gam
 
 ### First Half
 
-The first half sprang into life at the 12-minute mark with the **Plus One** Game Changer flicking the switch — and the floodgates opened with **3** goals flying in, the crowd barely able to keep up with the relentless action. The sides went in with Clutch FC just in front, a narrow advantage that kept everything delicately poised.
+The game's complexion changed at the 12th minute when the **Plus One** Game Changer activated — and the goals flowed. **3** times the net bulged during the activation period, a frantic, breathless spell of attacking football. The sides went in with Clutch FC just in front, a narrow advantage that kept everything delicately poised.
 
 ### Second Half
 
-After the restart, the **Fairplay** Game Changer detonated at the 27th minute, turning the dial up to eleven — and it delivered **1** goal at just the right moment to breathe fresh life into the match. It was edge-of-your-seat stuff in the closing minutes. Yanited pressed and probed, but Clutch FC's back-line stood firm — resilient, organised, and ultimately heroic.
+The tension was palpable at the restart, and the **Fairplay** Game Changer at 27 minutes only dialled it up — and it delivered **1** goal at just the right moment to breathe fresh life into the match. The final exchanges were fraught with tension. Yanited threw everything forward in search of a route back, but Clutch FC held their nerve, defending with grit and intelligence to protect what they had.
 
 ---
 
@@ -34,15 +34,15 @@ After the restart, the **Fairplay** Game Changer detonated at the 27th minute, t
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **0′** — **Kadell Daniel** (Yanited) fired the opener
-- **4′** — **Remy Clerima** (Clutch FC) converted
-- **5′** — **Tyler Winters** (Clutch FC) struck
-- **13′** — **Kadell Daniel** (Yanited) found the target
-- **14′** — **Kadell Daniel** (Yanited) netted
-- **14′** — **Tyler Winters** (Clutch FC) scored
-- **23′** — **Richard Afrane-Kesey** (Clutch FC) converted
+- **0′** — **Kadell Daniel** (Yanited) drew first blood
+- **4′** — **Remy Clerima** (Clutch FC) scored
+- **5′** — **Tyler Winters** (Clutch FC) found the target
+- **13′** — **Kadell Daniel** (Yanited) converted
+- **14′** — **Kadell Daniel** (Yanited) found the target
+- **14′** — **Tyler Winters** (Clutch FC) converted
+- **23′** — **Richard Afrane-Kesey** (Clutch FC) struck
 - **26′** — **Kadell Daniel** (Yanited) found the target
-- **29′** — **Richard Afrane-Kesey** (Clutch FC) slotted
+- **29′** — **Richard Afrane-Kesey** (Clutch FC) struck
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -82,19 +82,19 @@ The **Plus One** window was the more impactful, its **3** goals shifting the bal
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Richard Afrane-Kesey | 2 | 1 | 1 | 13 |
-| Tyler Winters | 2 | 0 | 2 | 16 |
-| Remy Clerima | 1 | 2 | 7 | 25 |
-| Keir Dickson | 0 | 1 | 2 | 12 |
+| Richard Afrane-Kesey | 2 | 1 | 3 | 13 |
+| Tyler Winters | 2 | 0 | 8 | 16 |
+| Remy Clerima | 1 | 2 | 1 | 25 |
+| Keir Dickson | 0 | 1 | 0 | 12 |
 
 ### Yanited
 
-**Kadell Daniel** led the charge for Yanited, his **4 goals** a testament to the kind of ruthless finishing that makes him a nightmare for opposing defences.
+Yanited had **Kadell Daniel** to thank, the forward delivering a **4-goal** performance of the highest calibre.
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Kadell Daniel | 4 | 0 | 3 | 16 |
-| Tyrell Miller-Rodney | 0 | 1 | 4 | 6 |
+| Kadell Daniel | 4 | 0 | 10 | 16 |
+| Tyrell Miller-Rodney | 0 | 1 | 6 | 6 |
 
 
 
@@ -106,54 +106,55 @@ The **Plus One** window was the more impactful, its **3** goals shifting the bal
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Alfie Matthews | 12 | 5 | 10 |
-| Tyler Winters | 8 | 2 | 10 |
+| Tyler Winters | 14 | 2 | 11 |
+| Alfie Matthews | 13 | 6 | 11 |
 | Sandro Camara | 7 | 1 | 10 |
-| Richard Afrane-Kesey | 6 | 1 | 8 |
-| David Marques Castanho | 3 | 2 | 9 |
+| Richard Afrane-Kesey | 6 | 1 | 9 |
+| David Marques Castanho | 4 | 2 | 10 |
 
 ### Yanited — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kadell Daniel | 14 | 3 | 7 |
-| Tyrell Miller-Rodney | 6 | 3 | 9 |
-| John Bostock | 4 | 1 | 7 |
-| Michael Folivi | 2 | 1 | 8 |
+| Kadell Daniel | 16 | 3 | 8 |
+| Tyrell Miller-Rodney | 6 | 5 | 10 |
+| John Bostock | 4 | 1 | 8 |
+| Michael Folivi | 4 | 1 | 9 |
 | Paul-José M'Poku | 2 | 2 | 7 |
 
 **Key Attacking Threats**
 
-- **Alfie Matthews** — Clutch FC's talisman with **12 goals** from **10 appearances** and **5 assists**. One of the league's elite finishers and the focal point of virtually every Clutch FC attack.
-- **Kadell Daniel** — Yanited's leading marksman with **14 goals** from **7 outings**, plus **3 assists**. A proven match-winner who carries Yanited's main goal threat game after game.
+- **Tyler Winters** — Clutch FC's talisman with **14 goals** from **11 appearances** and **2 assists**. One of the league's elite finishers and the focal point of virtually every Clutch FC attack.
+- **Kadell Daniel** — Yanited's leading marksman with **16 goals** from **8 outings**, plus **3 assists**. A proven match-winner who carries Yanited's main goal threat game after game.
 
 
 ---
 
 ## Season Context
 
-With **2 gameweeks** left in the regular season, the stakes couldn't have been higher. **Clutch FC** entered this match averaging **3.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **Yanited**, by contrast, arrived with an average of **3.4 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **2 gameweeks** left in the regular season, the stakes couldn't have been higher. **Clutch FC** entered this match averaging **3.7 goals per game** — a number that reflected their struggles in front of goal this campaign. **Yanited**, by contrast, arrived with an average of **3.8 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.3 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. Yanited, **3rd** in the standings, knew that dropping points at this stage could prove catastrophic to their Final Four ambitions. 
 
 ---
 
 ## Head-to-Head History
 
-Clutch FC and Yanited had locked horns **1 time** before this encounter, and the history books painted an intriguing picture. The rivalry was dead even — **0 win each** with **1 draw** — making every fresh meeting feel like a tie-breaker.
+Clutch FC and Yanited had locked horns **2 times** before this encounter, and the history books painted an intriguing picture. Yanited held bragging rights with **1 win** to Clutch FC's **0**, and **1** stalemate between them.
 
 | GW | Result |
 |-----|--------|
+| 3 | Clutch FC 4-6 Yanited |
 | 2 | Clutch FC 3-3 Yanited |
 
 
 | H2H Stat | Clutch FC | Yanited |
 |----------|-----------|---------|
-| Wins | 0 | 0 |
+| Wins | 0 | 1 |
 | Draws | 1 | 1 |
-| Goals Scored | 3 | 3 |
+| Goals Scored | 7 | 9 |
 
-Total head-to-head goals: **6** across all meetings.
+Total head-to-head goals: **16** across all meetings.
 
 
 
@@ -161,12 +162,12 @@ Total head-to-head goals: **6** across all meetings.
 
 ## Table Impact
 
-Clutch FC climbed to **6th**, yanited dropped to **7th**.
+Clutch FC climbed to **5th**, yanited dropped to **6th**.
 
 | Team | Before GW9 | After GW9 |
 |------|-------------|-------------|
-| Clutch FC | 8th | 6th |
-| Yanited | 6th | 7th |
+| Clutch FC | 7th | 5th |
+| Yanited | 3rd | 6th |
 
 
 ---
@@ -187,8 +188,8 @@ Clutch FC climbed to **6th**, yanited dropped to **7th**.
 - A **9-goal thriller** that lived up to every pre-match expectation
 - **4 of 9 goals (44%)** came during Game Changer activations
 - A **one-goal game** decided by the narrowest of margins — the small details made all the difference
-- Alfie Matthews continues to lead Clutch FC with **12 goals** — firmly among the league's elite marksmen
-- Kadell Daniel heads Yanited's scoring charts with **14 goals**, a tally any forward would be proud of
+- Tyler Winters continues to lead Clutch FC with **14 goals** — firmly among the league's elite marksmen
+- Kadell Daniel heads Yanited's scoring charts with **16 goals**, a tally any forward would be proud of
 
 ---
 

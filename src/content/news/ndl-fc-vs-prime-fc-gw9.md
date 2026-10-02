@@ -1,20 +1,20 @@
 ---
-title: "NDL FC Claim 5-3 Win Over Prime FC in GW9"
-date: 2026-05-26
+title: "NDL FC See Off Prime FC 5-3 in Gameweek 9"
+date: 2026-05-08
 category: "Match Report"
-excerpt: "NDL FC 5-3 Prime FC — Gameweek 9 match report. Dara Dada (8 goals) leads NDL FC's attack. Game Changers: 3Play (3) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "NDL FC 5-3 Prime FC — Gameweek 9 match report. Sam Fitzgerald (10 goals) leads NDL FC's attack. Game Changers: 3Play (3) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: false
 ---
 
 ## Match Summary — NDL FC 5-3 Prime FC
 
-All roads led to Baller Arena for Gameweek 9, where **NDL FC** and **Prime FC** produced a rollercoaster of emotions that had everything you could want from a Baller League match.
+A pivotal Gameweek 9 encounter saw **NDL FC** go head-to-head with **Prime FC** in a pulsating encounter that had fans on the edge of their seats from the first whistle to the last.
 
-NDL FC came in occupying a coveted playoff spot at 2nd, while Prime FC were desperate to crash the party. When the dust settled, it was **NDL FC** who emerged **5-3** victors. The Game Changer window — **3Play** and **1-on-1** — proved pivotal, contributing **6** of the match's **8** goals.
+NDL FC, sitting pretty in the Final Four places at 1st, knew a win here would tighten their grip. When the dust settled, it was **NDL FC** who emerged **5-3** victors. The Game Changer window — **3Play** and **1-on-1** — proved pivotal, contributing **6** of the match's **8** goals.
 
-**NDL FC form (before GW9):** 🤝 ✅ ✅ ❌ ❌ (D-W-W-L-L)  
-**Prime FC form (before GW9):** ❌ ✅ ✅ 🤝 ❌ (L-W-W-D-L)
+**NDL FC form (before GW9):** ✅ 🤝 🤝 ✅ ✅ (W-D-D-W-W)  
+**Prime FC form (before GW9):** ✅ 🤝 ❌ ✅ ❌ (W-D-L-W-L)
 
 ---
 
@@ -22,11 +22,11 @@ NDL FC came in occupying a coveted playoff spot at 2nd, while Prime FC were desp
 
 ### First Half
 
-The first half sprang into life at the 12-minute mark with the **3Play** Game Changer flicking the switch — and the goals flowed. **3** times the net bulged during the activation period, a frantic, breathless spell of attacking football. NDL FC controlled the tempo and carried a deserved lead into the interval, their composure and cutting edge proving the difference.
+Barely a dozen minutes had passed when **3Play** transformed the match into something altogether different — and the goals flowed. **3** times the net bulged during the activation period, a frantic, breathless spell of attacking football. NDL FC controlled the tempo and carried a deserved lead into the interval, their composure and cutting edge proving the difference.
 
 ### Second Half
 
-The tension was palpable at the restart, and the **1-on-1** Game Changer at 27 minutes only dialled it up — the defensive discipline of the first half evaporated as **3** goals thundered in during the activation. The final exchanges were fraught with tension. Prime FC threw everything forward in search of a route back, but NDL FC held their nerve, defending with grit and intelligence to protect what they had.
+The tension was palpable at the restart, and the **1-on-1** Game Changer at 27 minutes only dialled it up — and the mayhem resumed. **3** more goals erupted during the window, transforming the contest into a full-blown classic. It was edge-of-your-seat stuff in the closing minutes. Prime FC pressed and probed, but NDL FC's back-line stood firm — resilient, organised, and ultimately heroic.
 
 ---
 
@@ -34,23 +34,25 @@ The tension was palpable at the restart, and the **1-on-1** Game Changer at 27 m
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **10′** — **Isaac Modi** (NDL FC) drew first blood
-- **13′** — **Joseph Adewunmi** struck
-- **14′** — **Sam Fitzgerald** (NDL FC) scored
-- **14′** — **Montel McKenzie** (Prime FC) fired home
-- **21′** — **Bráulio Valera Pinto Maieco** (Prime FC) slotted
-- **27′** — **Kevin Weggen** (NDL FC) fired home
-- **29′** — **Francis Gerard Mampolo** (Prime FC) slotted
+- **10′** — **Isaac Modi** (NDL FC) opened the scoring
+- **13′** — **Joseph Adewunmi** (NDL FC) converted
+- **14′** — **Sam Fitzgerald** (NDL FC) slotted
+- **14′** — **Montel McKenzie** (Prime FC) struck
+- **21′** — **Edy Maieco** (Prime FC) netted
+- **27′** — **Kevin Weggen** (NDL FC) netted
+- **29′** — **Montel McKenzie** (Prime FC) converted
+- **29′** — **Francis Mampolo** (Prime FC) found the target
 
 | Minute | Player | Team |
 |--------|--------|------|
 | 10′ | Isaac Modi | NDL FC |
-| 13′ | Joseph Adewunmi | — |
+| 13′ | Joseph Adewunmi | NDL FC |
 | 14′ | Sam Fitzgerald | NDL FC |
 | 14′ | Montel McKenzie | Prime FC |
-| 21′ | Bráulio Valera Pinto Maieco | Prime FC |
+| 21′ | Edy Maieco | Prime FC |
 | 27′ | Kevin Weggen | NDL FC |
-| 29′ | Francis Gerard Mampolo | Prime FC |
+| 29′ | Montel McKenzie | Prime FC |
+| 29′ | Francis Mampolo | Prime FC |
 
 
 ---
@@ -76,18 +78,19 @@ The **3Play** activation was particularly devastating, producing **3** goals tha
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Isaac Modi | 1 | 0 | 2 | 7 |
-| Sam Fitzgerald | 1 | 0 | 0 | 4 |
-| Kevin Weggen | 1 | 0 | 2 | 3 |
-| Dara Dada | 0 | 2 | 4 | 16 |
+| Isaac Modi | 1 | 0 | 3 | 7 |
+| Sam Fitzgerald | 1 | 0 | 11 | 4 |
+| Joseph Adewunmi | 1 | 0 | 1 | 2 |
+| Kevin Weggen | 1 | 0 | 5 | 3 |
+| Dara Dada | 0 | 2 | 1 | 16 |
 
 ### Prime FC
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Francis Gerard Mampolo | 1 | 1 | 2 | 8 |
-| Montel McKenzie | 1 | 0 | 6 | 38 |
-| Bráulio Valera Pinto Maieco | 1 | 0 | 3 | 12 |
+| Francis Mampolo | 1 | 1 | 7 | 8 |
+| Montel McKenzie | 1 | 0 | 3 | 38 |
+| Edy Maieco | 1 | 0 | 5 | 12 |
 
 
 
@@ -99,41 +102,54 @@ The **3Play** activation was particularly devastating, producing **3** goals tha
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Dara Dada | 8 | 5 | 10 |
-| Sam Fitzgerald | 8 | 4 | 10 |
-| Isaac Modi | 6 | 1 | 10 |
-| Joshua Parker | 6 | 3 | 7 |
-| Kevin Weggen | 6 | 0 | 0 |
+| Sam Fitzgerald | 10 | 4 | 13 |
+| Dara Dada | 9 | 5 | 13 |
+| Isaac Modi | 7 | 2 | 13 |
+| Josh Parker | 7 | 3 | 9 |
+| Kevin Weggen | 7 | 0 | 8 |
 
 ### Prime FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Francis Gerard Mampolo | 17 | 4 | 10 |
-| Bráulio Valera Pinto Maieco | 9 | 0 | 10 |
-| Timmy Abraham | 7 | 2 | 10 |
-| Ergys Pepaj | 6 | 2 | 10 |
-| Sak Hassan | 5 | 5 | 9 |
+| Francis Mampolo | 22 | 5 | 13 |
+| Edy Maieco | 12 | 1 | 13 |
+| Sakariya Hassan | 9 | 7 | 12 |
+| Ergys Pepaj | 8 | 2 | 13 |
+| Timmy Abraham | 7 | 3 | 12 |
 
 **Key Attacking Threats**
 
-- **Dara Dada** — NDL FC's talisman with **8 goals** from **10 appearances** and **5 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Francis Gerard Mampolo** — Prime FC's leading marksman with **17 goals** from **10 outings**, plus **4 assists**. A proven match-winner who carries Prime FC's main goal threat game after game.
+- **Sam Fitzgerald** — NDL FC's talisman with **10 goals** from **13 appearances** and **4 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Francis Mampolo** — Prime FC's leading marksman with **22 goals** from **13 outings**, plus **5 assists**. A proven match-winner who carries Prime FC's main goal threat game after game.
 
 
 ---
 
 ## Season Context
 
-With **2 gameweeks** left in the regular season, the stakes couldn't have been higher. **NDL FC** entered this match averaging **4.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **Prime FC**, by contrast, arrived with an average of **4.9 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **2 gameweeks** left in the regular season, the stakes couldn't have been higher. **NDL FC** entered this match averaging **4.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **Prime FC**, by contrast, arrived with an average of **3.8 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. For NDL FC, sitting **2nd** before kick-off, every remaining match carried the weight of a cup final. They had one foot in the Final Four. 
+The league-wide average stood at **7.3 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. For NDL FC, sitting **1st** before kick-off, every remaining match carried the weight of a cup final. They had one foot in the Final Four. 
 
 ---
 
 ## Head-to-Head History
 
-This was the **maiden competitive meeting** between NDL FC and Prime FC — a historic first that will be recorded in the Baller League annals. Fresh rivalries are forged on nights like these.
+NDL FC and Prime FC had locked horns **1 time** before this encounter, and the history books painted an intriguing picture. The rivalry was dead even — **0 win each** with **1 draw** — making every fresh meeting feel like a tie-breaker.
+
+| GW | Result |
+|-----|--------|
+| 8 | NDL FC 3-3 Prime FC |
+
+
+| H2H Stat | NDL FC | Prime FC |
+|----------|--------|----------|
+| Wins | 0 | 0 |
+| Draws | 1 | 1 |
+| Goals Scored | 3 | 3 |
+
+Total head-to-head goals: **6** across all meetings.
 
 
 
@@ -141,12 +157,12 @@ This was the **maiden competitive meeting** between NDL FC and Prime FC — a hi
 
 ## Table Impact
 
-NDL FC climbed to **1st**, prime fc dropped to **9th**.
+NDL FC stayed at **1st**, prime fc climbed to **3rd**.
 
 | Team | Before GW9 | After GW9 |
 |------|-------------|-------------|
-| NDL FC | 2nd | 1st |
-| Prime FC | 7th | 9th |
+| NDL FC | 1st | 1st |
+| Prime FC | 5th | 3rd |
 
 
 ---
@@ -166,7 +182,8 @@ NDL FC climbed to **1st**, prime fc dropped to **9th**.
 
 - A **8-goal thriller** that lived up to every pre-match expectation
 - **6 of 8 goals (75%)** came during Game Changer activations
-- Francis Gerard Mampolo heads Prime FC's scoring charts with **17 goals**, a tally any forward would be proud of
+- Sam Fitzgerald continues to lead NDL FC with **10 goals** — firmly among the league's elite marksmen
+- Francis Mampolo heads Prime FC's scoring charts with **22 goals**, a tally any forward would be proud of
 
 ---
 

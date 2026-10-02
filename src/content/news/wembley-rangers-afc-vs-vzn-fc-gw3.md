@@ -1,6 +1,6 @@
 ---
 title: "Wembley Rangers AFC and VZN FC Play Out 3-3 Draw in Gameweek 3"
-date: 2026-05-26
+date: 2026-03-30
 category: "Match Report"
 excerpt: "Wembley Rangers AFC 3-3 VZN FC — Gameweek 3 match report. Domingos Pires (9 goals) leads Wembley Rangers AFC's attack. Game Changers: 3Play (2) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,12 +9,12 @@ featured: false
 
 ## Match Summary — Wembley Rangers AFC 3-3 VZN FC
 
-The Gameweek 3 spotlight fell on Baller Arena for **Wembley Rangers AFC** versus **VZN FC** — a match that ebbed and flowed, keeping everyone guessing until the final whistle.
+The Gameweek 3 spotlight fell on Baller Arena for **Wembley Rangers AFC** versus **VZN FC** — a compelling advert for Baller League football — competitive, dramatic, and hard-fought.
 
 The final whistle confirmed a **3-3 draw**, a result that felt about right in a match where both sides gave everything. The Game Changer window — **3Play** and **The Line** — proved pivotal, contributing **2** of the match's **6** goals.
 
-**Wembley Rangers AFC form (before GW3):** 🤝 🤝 ✅ ❌ (D-D-W-L)  
-**VZN FC form (before GW3):** ✅ ❌ 🤝 🤝 (W-L-D-D)
+**Wembley Rangers AFC form (before GW3):** ❌ 🤝 🤝 ❌ ✅ (L-D-D-L-W)  
+**VZN FC form (before GW3):** ✅ ✅ ❌ ❌ 🤝 (W-W-L-L-D)
 
 ---
 
@@ -22,11 +22,11 @@ The final whistle confirmed a **3-3 draw**, a result that felt about right in a 
 
 ### First Half
 
-The first half sprang into life at the 12-minute mark with the **3Play** Game Changer flicking the switch — the period yielded **2** goals, just enough to set the contest alight. Half-time arrived with honours even, both managers undoubtedly pleased with elements of their side's performance.
+Barely a dozen minutes had passed when **3Play** transformed the match into something altogether different — the period yielded **2** goals, just enough to set the contest alight. Half-time arrived with honours even, both managers undoubtedly pleased with elements of their side's performance.
 
 ### Second Half
 
-If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **The Line** entered the fray — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. Both sides strained every sinew for a winner but the decisive blow never landed. A draw was the fairest outcome in a match where no team deserved to lose.
+If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **The Line** entered the fray — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. Late drama threatened but never materialised, both teams having to accept a point apiece in what felt like a war of attrition.
 
 ---
 
@@ -34,12 +34,12 @@ If the first half was intriguing, the second was about to become unmissable. At 
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **10′** — **Callam Gardner** (Wembley Rangers AFC) fired the opener
-- **12′** — **Callam Gardner** (Wembley Rangers AFC) fired home
-- **13′** — **Frankie Leonard** (VZN FC) found the target
-- **16′** — **Ben Long** (Wembley Rangers AFC) fired home
-- **23′** — **George Nikaj** (VZN FC) slotted
-- **24′** — **Daniel Bowry** (VZN FC) struck
+- **10′** — **Callam Gardner** (Wembley Rangers AFC) drew first blood
+- **12′** — **Callam Gardner** (Wembley Rangers AFC) scored
+- **13′** — **Frankie Leonard** (VZN FC) slotted
+- **16′** — **Ben Long** (Wembley Rangers AFC) converted
+- **23′** — **George Nikaj** (VZN FC) converted
+- **24′** — **Dan Bowry** (VZN FC) scored
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -48,7 +48,7 @@ The goals arrived in a dramatic sequence that told the story of the match:
 | 13′ | Frankie Leonard | VZN FC |
 | 16′ | Ben Long | Wembley Rangers AFC |
 | 23′ | George Nikaj | VZN FC |
-| 24′ | Daniel Bowry | VZN FC |
+| 24′ | Dan Bowry | VZN FC |
 
 
 ---
@@ -72,19 +72,22 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 ### Wembley Rangers AFC
 
-**Callam Gardner** was Wembley Rangers AFC's standout performer, bagging **2 goals** in a display of clinical finishing that powered his side's effort.
+The standout for Wembley Rangers AFC was undoubtedly **Callam Gardner**, whose **2-goal** haul was the foundation of everything good about their display.
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Callam Gardner | 2 | 0 | 0 | 0 |
-| Ben Long | 1 | 0 | 0 | 0 |
+| Callam Gardner | 2 | 0 | 5 | 0 |
+| Ben Long | 1 | 0 | 1 | 19 |
+| Arjun Jung | 0 | 2 | 1 | 17 |
+| Domingos Pires | 0 | 1 | 4 | 7 |
 
 ### VZN FC
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Daniel Bowry | 1 | 0 | 0 | 0 |
-| George Nikaj | 1 | 0 | 0 | 0 |
+| Dan Bowry | 1 | 1 | 2 | 17 |
+| George Nikaj | 1 | 1 | 5 | 5 |
+| Frankie Leonard | 1 | 0 | 1 | 35 |
 
 
 
@@ -96,41 +99,54 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Domingos Pires | 9 | 2 | 10 |
-| Callam Gardner | 7 | 1 | 9 |
-| Kristian Campbell | 3 | 1 | 9 |
-| Ben Long | 2 | 1 | 8 |
-| Abdulahi Abdulazeez | 1 | 0 | 7 |
+| Domingos Pires | 9 | 2 | 11 |
+| Callam Gardner | 7 | 1 | 10 |
+| Finlay Chadwick | 4 | 0 | 10 |
+| Kristian Campbell | 3 | 1 | 10 |
+| Ben Long | 2 | 1 | 9 |
 
 ### VZN FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| George Nikaj | 9 | 5 | 8 |
-| Florian Kastrati | 6 | 1 | 10 |
-| Daniel Bowry | 4 | 2 | 10 |
-| Frankie Leonard | 3 | 2 | 8 |
-| Adrian Tajik | 2 | 0 | 9 |
+| George Nikaj | 10 | 5 | 9 |
+| Florian Kastrati | 6 | 1 | 11 |
+| Dan Bowry | 4 | 2 | 11 |
+| Adrian Tajik | 3 | 0 | 10 |
+| Frankie Leonard | 3 | 3 | 9 |
 
 **Key Attacking Threats**
 
-- **Domingos Pires** — Wembley Rangers AFC's talisman with **9 goals** from **10 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **George Nikaj** — VZN FC's leading marksman with **9 goals** from **8 outings**, plus **5 assists**. VZN FC look to him whenever they need a moment of magic in the final third.
+- **Domingos Pires** — Wembley Rangers AFC's talisman with **9 goals** from **11 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **George Nikaj** — VZN FC's leading marksman with **10 goals** from **9 outings**, plus **5 assists**. VZN FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **Wembley Rangers AFC** entered this match averaging **3.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **VZN FC**, by contrast, arrived with an average of **2.9 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **Wembley Rangers AFC** entered this match averaging **3.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **VZN FC**, by contrast, arrived with an average of **3.1 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.3 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
 ## Head-to-Head History
 
-This was the **maiden competitive meeting** between Wembley Rangers AFC and VZN FC — a historic first that will be recorded in the Baller League annals. Fresh rivalries are forged on nights like these.
+Wembley Rangers AFC and VZN FC had locked horns **1 time** before this encounter, and the history books painted an intriguing picture. VZN FC held bragging rights with **1 win** to Wembley Rangers AFC's **0**, and **0** stalemates between them.
+
+| GW | Result |
+|-----|--------|
+| 2 | Wembley Rangers AFC 2-4 VZN FC |
+
+
+| H2H Stat | Wembley Rangers AFC | VZN FC |
+|----------|---------------------|--------|
+| Wins | 0 | 1 |
+| Draws | 0 | 0 |
+| Goals Scored | 2 | 4 |
+
+Total head-to-head goals: **6** across all meetings.
 
 
 
@@ -138,12 +154,12 @@ This was the **maiden competitive meeting** between Wembley Rangers AFC and VZN 
 
 ## Table Impact
 
-Wembley Rangers AFC stayed at **6th**, vzn fc dropped to **7th**.
+Wembley Rangers AFC dropped to **11th**, vzn fc climbed to **7th**.
 
 | Team | Before GW3 | After GW3 |
 |------|-------------|-------------|
-| Wembley Rangers AFC | 6th | 6th |
-| VZN FC | 5th | 7th |
+| Wembley Rangers AFC | 10th | 11th |
+| VZN FC | 8th | 7th |
 
 
 ---
@@ -162,6 +178,7 @@ Wembley Rangers AFC stayed at **6th**, vzn fc dropped to **7th**.
 ## Match Facts
 
 - **2 of 6 goals (33%)** came during Game Changer activations
+- George Nikaj heads VZN FC's scoring charts with **10 goals**, a tally any forward would be proud of
 
 ---
 

@@ -10,6 +10,22 @@ const ogDir = path.join(rootDir, 'public/og');
 
 if (!fs.existsSync(ogDir)) fs.mkdirSync(ogDir, { recursive: true });
 
+const gcData = JSON.parse(fs.readFileSync(path.join(rootDir, 'src/data/gamechangers.json'), 'utf-8'));
+const tableData = JSON.parse(fs.readFileSync(path.join(rootDir, 'src/data/table.json'), 'utf-8'));
+
+// Canonical team display names by slug (e.g. "wembley-rangers-afc" -> "Wembley Rangers AFC").
+const nameBySlug = {};
+for (const t of tableData) nameBySlug[t.slug] = t.team;
+
+// "home-vs-away-gwN" -> "H-A" score, preferring Season 3 when slugs repeat.
+const scoreBySlug = {};
+for (const [season, s] of Object.entries(gcData.seasons)) {
+  for (const m of s.matches) {
+    const key = `${m.homeSlug}-vs-${m.awaySlug}-gw${m.gameweek}`;
+    if (season === '3' || !(key in scoreBySlug)) scoreBySlug[key] = `${m.homeScore}-${m.awayScore}`;
+  }
+}
+
 function parseFrontmatter(content) {
   const m = content.match(/^---\n([\s\S]*?)\n---/);
   if (!m) return null;
@@ -49,9 +65,9 @@ for (const file of files) {
   const match = parseMatchSlug(slug);
   if (!match) continue;
 
-  const homeName = slugToTeamName(match.homeSlug);
-  const awayName = slugToTeamName(match.awaySlug);
-  const scoreText = match.isPreview ? 'VS' : '';
+  const homeName = nameBySlug[match.homeSlug] || slugToTeamName(match.homeSlug);
+  const awayName = nameBySlug[match.awaySlug] || slugToTeamName(match.awaySlug);
+  const scoreText = match.isPreview ? 'VS' : (scoreBySlug[slug] || '');
   const catLabel = match.isFinalFour ? 'FINAL FOUR' : (match.isPreview ? 'PREVIEW' : 'MATCH REPORT');
   const gwLabel = match.isFinalFour ? 'THE O2 · 25 MAY 2026' : `GAMEWEEK ${match.gw}`;
 

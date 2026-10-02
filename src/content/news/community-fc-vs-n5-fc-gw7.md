@@ -1,20 +1,20 @@
 ---
 title: "N5 FC Overpower Community FC 1-5 in Dominant Display — GW7"
-date: 2026-05-26
+date: 2026-04-27
 category: "Match Report"
-excerpt: "Community FC 1-5 N5 FC — Gameweek 7 match report. Alex Byrne (9 goals) leads Community FC's attack. Game Changers: Onside (1) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Community FC 1-5 N5 FC — Gameweek 7 match report. Alex Byrne (12 goals) leads Community FC's attack. Game Changers: Onside (1) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: false
 ---
 
 ## Match Summary — Community FC 1-5 N5 FC
 
-The crowd at Baller Arena were treated to a spectacle as **Community FC** faced **N5 FC** in a match that ebbed and flowed, keeping everyone guessing until the final whistle.
+Gameweek 7 delivered fireworks at Baller Arena with **Community FC** taking on **N5 FC** in a thoroughly entertaining contest with plenty of talking points.
 
-N5 FC, sitting pretty in the Final Four places at 4th, knew a win here would tighten their grip. When the dust settled, it was **N5 FC** who emerged **1-5** victors. The Game Changer window — **Onside** and **Fairplay** — proved pivotal, contributing **1** of the match's **6** goals.
+When the dust settled, it was **N5 FC** who emerged **1-5** victors. The Game Changer window — **Onside** and **Fairplay** — proved pivotal, contributing **1** of the match's **6** goals.
 
 **Community FC form (before GW7):** ❌ ❌ ✅ ❌ ❌ (L-L-W-L-L)  
-**N5 FC form (before GW7):** 🤝 ✅ ❌ ❌ ✅ (D-W-L-L-W)
+**N5 FC form (before GW7):** ✅ 🤝 ✅ ❌ ❌ (W-D-W-L-L)
 
 ---
 
@@ -22,7 +22,7 @@ N5 FC, sitting pretty in the Final Four places at 4th, knew a win here would tig
 
 ### First Half
 
-The game's complexion changed at the 12th minute when the **Onside** Game Changer activated — a **1-goal** window that gave the half an electric pulse. N5 FC simply blew Community FC away in a devastating opening period, sending a powerful message to everyone watching.
+The game's complexion changed at the 12th minute when the **Onside** Game Changer activated — the period yielded **1** goal, just enough to set the contest alight. N5 FC simply blew Community FC away in a devastating opening period, sending a powerful message to everyone watching.
 
 ### Second Half
 
@@ -36,10 +36,10 @@ The goals arrived in a dramatic sequence that told the story of the match:
 
 - **5′** — **Michael Hill** (N5 FC) fired the opener
 - **10′** — **Joe Bennett** (N5 FC) netted
-- **15′** — **Jezreel Davies** (N5 FC) scored
-- **17′** — **Matthew Waller** (Community FC) fired home
-- **24′** — **Joe Bennett** (N5 FC) netted
-- **25′** — **Joe Bennett** (N5 FC) scored
+- **15′** — **Jezreel Davies** (N5 FC) fired home
+- **17′** — **Matthew Waller** (Community FC) found the target
+- **24′** — **Joe Bennett** (N5 FC) struck
+- **25′** — **Joe Bennett** (N5 FC) fired home
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -74,17 +74,17 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Matthew Waller | 1 | 0 | 0 | 17 |
+| Matthew Waller | 1 | 0 | 2 | 17 |
 
 ### N5 FC
 
-**Joe Bennett** led the charge for N5 FC, his **3 goals** a testament to the kind of ruthless finishing that makes him a nightmare for opposing defences.
+N5 FC had **Joe Bennett** to thank, the forward delivering a **3-goal** performance of the highest calibre.
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Joe Bennett | 3 | 0 | 2 | 26 |
+| Joe Bennett | 3 | 0 | 6 | 26 |
 | Michael Hill | 1 | 1 | 4 | 23 |
-| Jezreel Davies | 1 | 0 | 2 | 21 |
+| Jezreel Davies | 1 | 0 | 4 | 21 |
 
 
 
@@ -96,35 +96,35 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Alex Byrne | 9 | 7 | 9 |
-| Keane Joyce | 4 | 0 | 10 |
-| Matthew Waller | 3 | 1 | 10 |
-| George Chmiel | 2 | 0 | 9 |
+| Alex Byrne | 12 | 9 | 10 |
+| Keane Joyce | 5 | 0 | 11 |
+| George Chmiel | 3 | 2 | 10 |
+| Matthew Waller | 3 | 1 | 11 |
 | Tawab Djankpata | 2 | 2 | 6 |
 
 ### N5 FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Michael Hill | 18 | 6 | 10 |
-| Joe Bennett | 14 | 3 | 10 |
+| Michael Hill | 19 | 6 | 11 |
+| Joe Bennett | 15 | 3 | 11 |
 | Jezreel Davies | 3 | 5 | 10 |
-| Mustapha Carayol | 2 | 2 | 6 |
+| Mustapha Carayol | 2 | 2 | 7 |
 | Nile Ranger | 2 | 0 | 6 |
 
 **Key Attacking Threats**
 
-- **Alex Byrne** — Community FC's talisman with **9 goals** from **9 appearances** and **7 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Michael Hill** — N5 FC's leading marksman with **18 goals** from **10 outings**, plus **6 assists**. A proven match-winner who carries N5 FC's main goal threat game after game.
+- **Alex Byrne** — Community FC's talisman with **12 goals** from **10 appearances** and **9 assists**. One of the league's elite finishers and the focal point of virtually every Community FC attack.
+- **Michael Hill** — N5 FC's leading marksman with **19 goals** from **11 outings**, plus **6 assists**. A proven match-winner who carries N5 FC's main goal threat game after game.
 
 
 ---
 
 ## Season Context
 
-With **4 gameweeks** left in the regular season, the stakes couldn't have been higher. **Community FC** entered this match averaging **2.5 goals per game** — a number that reflected their struggles in front of goal this campaign. **N5 FC**, by contrast, arrived with an average of **4.0 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **4 gameweeks** left in the regular season, the stakes couldn't have been higher. **Community FC** entered this match averaging **2.8 goals per game** — a number that reflected their struggles in front of goal this campaign. **N5 FC**, by contrast, arrived with an average of **3.7 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.3 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -138,12 +138,12 @@ This was the **maiden competitive meeting** between Community FC and N5 FC — a
 
 ## Table Impact
 
-Community FC stayed at **12th**, n5 fc climbed to **3rd**.
+Community FC stayed at **13th**, n5 fc climbed to **8th**.
 
 | Team | Before GW7 | After GW7 |
 |------|-------------|-------------|
-| Community FC | 12th | 12th |
-| N5 FC | 4th | 3rd |
+| Community FC | 13th | 13th |
+| N5 FC | 9th | 8th |
 
 
 ---
@@ -162,7 +162,8 @@ Community FC stayed at **12th**, n5 fc climbed to **3rd**.
 ## Match Facts
 
 - **1 of 6 goals (17%)** came during Game Changer activations
-- Michael Hill heads N5 FC's scoring charts with **18 goals**, a tally any forward would be proud of
+- Alex Byrne continues to lead Community FC with **12 goals** — firmly among the league's elite marksmen
+- Michael Hill heads N5 FC's scoring charts with **19 goals**, a tally any forward would be proud of
 
 ---
 

@@ -1,20 +1,20 @@
 ---
-title: "Clutch FC Beat Deportrio 1-4 in Entertaining GW2 Clash"
-date: 2026-05-26
+title: "Clutch FC See Off Deportrio 1-4 in Gameweek 2"
+date: 2026-03-23
 category: "Match Report"
-excerpt: "Deportrio 1-4 Clutch FC — Gameweek 2 match report. Jay Emmanuel-Thomas (18 goals) leads Deportrio's attack. Game Changers: 3Play (0) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Deportrio 1-4 Clutch FC — Gameweek 2 match report. Jay Emmanuel-Thomas (21 goals) leads Deportrio's attack. Game Changers: 3Play (0) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: false
 ---
 
 ## Match Summary — Deportrio 1-4 Clutch FC
 
-The lights were bright at Baller Arena on Gameweek 2, where **Deportrio** and **Clutch FC** served up a thoroughly entertaining contest with plenty of talking points.
+Gameweek 2 delivered fireworks at Baller Arena with **Deportrio** taking on **Clutch FC** in a match that ebbed and flowed, keeping everyone guessing until the final whistle.
 
-Deportrio, sitting pretty in the Final Four places at 4th, knew a win here would tighten their grip. When the dust settled, it was **Clutch FC** who emerged **1-4** victors. The Game Changer window — **3Play** and **1-on-1** — proved pivotal, contributing **3** of the match's **5** goals.
+Deportrio, sitting pretty in the Final Four places at 3rd, knew a win here would tighten their grip. When the dust settled, it was **Clutch FC** who emerged **1-4** victors. The Game Changer window — **3Play** and **1-on-1** — proved pivotal, contributing **3** of the match's **5** goals.
 
-**Deportrio form (before GW2):** ❌ ✅ (L-W)  
-**Clutch FC form (before GW2):** ❌ (L)
+**Deportrio form (before GW2):** ✅ ❌ ✅ (W-L-W)  
+**Clutch FC form (before GW2):** ✅ ❌ ❌ (W-L-L)
 
 ---
 
@@ -22,11 +22,11 @@ Deportrio, sitting pretty in the Final Four places at 4th, knew a win here would
 
 ### First Half
 
-Barely a dozen minutes had passed when **3Play** transformed the match into something altogether different — but remarkably, neither side could find the net. A tactical stalemate that owed as much to disciplined defending as to the specific rule change. Clutch FC held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
+The first half sprang into life at the 12-minute mark with the **3Play** Game Changer flicking the switch — yet for all the altered rules, the defences stood tall and the deadlock remained stubbornly intact. Clutch FC held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
 
 ### Second Half
 
-If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **1-on-1** entered the fray — the defensive discipline of the first half evaporated as **3** goals thundered in during the activation. Clutch FC managed the occasion expertly, balancing attacking ambition with game-control to see out a thoroughly deserved victory.
+After the restart, the **1-on-1** Game Changer detonated at the 27th minute, turning the dial up to eleven — and the mayhem resumed. **3** more goals erupted during the window, transforming the contest into a full-blown classic. Clutch FC managed the occasion expertly, balancing attacking ambition with game-control to see out a thoroughly deserved victory.
 
 ---
 
@@ -35,18 +35,18 @@ If the first half was intriguing, the second was about to become unmissable. At 
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **7′** — **Keir Dickson** (Clutch FC) broke the deadlock
-- **7′** — **Martyn Waghorn** fired home
-- **27′** — **Aaron Steavens** netted
-- **27′** — **Alfie Matthews** (Clutch FC) slotted
-- **29′** — **Aaron Steavens** fired home
+- **7′** — **Martyn Waghorn** (Deportrio) fired home
+- **27′** — **Aaron Steavens** (Clutch FC) found the target
+- **27′** — **Alfie Matthews** (Clutch FC) converted
+- **29′** — **Aaron Steavens** (Clutch FC) scored
 
 | Minute | Player | Team |
 |--------|--------|------|
 | 7′ | Keir Dickson | Clutch FC |
-| 7′ | Martyn Waghorn | — |
-| 27′ | Aaron Steavens | — |
+| 7′ | Martyn Waghorn | Deportrio |
+| 27′ | Aaron Steavens | Clutch FC |
 | 27′ | Alfie Matthews | Clutch FC |
-| 29′ | Aaron Steavens | — |
+| 29′ | Aaron Steavens | Clutch FC |
 
 
 ---
@@ -68,12 +68,21 @@ The **1-on-1** window was the more impactful, its **3** goals shifting the balan
 
 ## Match Performers
 
-### Clutch FC
+### Deportrio
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Alfie Matthews | 1 | 0 | 0 | 0 |
-| Keir Dickson | 1 | 0 | 0 | 0 |
+| Martyn Waghorn | 1 | 0 | 12 | 25 |
+
+### Clutch FC
+
+**Aaron Steavens** led the charge for Clutch FC, his **2 goals** a testament to the kind of ruthless finishing that makes him a nightmare for opposing defences.
+
+| Player | Goals | Assists | Shots | Passes |
+|--------|-------|---------|-------|--------|
+| Aaron Steavens | 2 | 0 | 3 | 24 |
+| Alfie Matthews | 1 | 1 | 7 | 21 |
+| Keir Dickson | 1 | 0 | 1 | 22 |
 
 
 
@@ -85,35 +94,35 @@ The **1-on-1** window was the more impactful, its **3** goals shifting the balan
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Jay Emmanuel-Thomas | 18 | 6 | 10 |
-| Sahid Kamara | 9 | 3 | 7 |
-| J'ardell Stirling | 3 | 4 | 10 |
-| Amine Sassi | 2 | 3 | 10 |
-| Marvin Sordell | 2 | 1 | 7 |
+| Jay Emmanuel-Thomas | 21 | 9 | 12 |
+| Sahid Kamara | 11 | 3 | 9 |
+| Bakary Sako | 5 | 1 | 6 |
+| Amine Sassi | 3 | 3 | 12 |
+| J'Ardell Stirling | 3 | 4 | 12 |
 
 ### Clutch FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Alfie Matthews | 12 | 5 | 10 |
-| Tyler Winters | 8 | 2 | 10 |
+| Tyler Winters | 14 | 2 | 11 |
+| Alfie Matthews | 13 | 6 | 11 |
 | Sandro Camara | 7 | 1 | 10 |
-| Richard Afrane-Kesey | 6 | 1 | 8 |
-| David Marques Castanho | 3 | 2 | 9 |
+| Richard Afrane-Kesey | 6 | 1 | 9 |
+| David Marques Castanho | 4 | 2 | 10 |
 
 **Key Attacking Threats**
 
-- **Jay Emmanuel-Thomas** — Deportrio's talisman with **18 goals** from **10 appearances** and **6 assists**. One of the league's elite finishers and the focal point of virtually every Deportrio attack.
-- **Alfie Matthews** — Clutch FC's leading marksman with **12 goals** from **10 outings**, plus **5 assists**. A proven match-winner who carries Clutch FC's main goal threat game after game.
+- **Jay Emmanuel-Thomas** — Deportrio's talisman with **21 goals** from **12 appearances** and **9 assists**. One of the league's elite finishers and the focal point of virtually every Deportrio attack.
+- **Tyler Winters** — Clutch FC's leading marksman with **14 goals** from **11 outings**, plus **2 assists**. A proven match-winner who carries Clutch FC's main goal threat game after game.
 
 
 ---
 
 ## Season Context
 
-With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **Deportrio** entered this match averaging **4.1 goals per game** — a number that reflected their struggles in front of goal this campaign. **Clutch FC**, by contrast, arrived with an average of **3.4 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **Deportrio** entered this match averaging **3.9 goals per game** — a number that reflected their struggles in front of goal this campaign. **Clutch FC**, by contrast, arrived with an average of **3.7 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.3 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -127,12 +136,12 @@ This was the **maiden competitive meeting** between Deportrio and Clutch FC — 
 
 ## Table Impact
 
-Deportrio dropped to **8th**, clutch fc climbed to **7th**.
+Deportrio dropped to **6th**, clutch fc climbed to **4th**.
 
 | Team | Before GW2 | After GW2 |
 |------|-------------|-------------|
-| Deportrio | 4th | 8th |
-| Clutch FC | 10th | 7th |
+| Deportrio | 3rd | 6th |
+| Clutch FC | 7th | 4th |
 
 
 ---
@@ -151,8 +160,8 @@ Deportrio dropped to **8th**, clutch fc climbed to **7th**.
 ## Match Facts
 
 - **3 of 5 goals (60%)** came during Game Changer activations
-- Jay Emmanuel-Thomas continues to lead Deportrio with **18 goals** — firmly among the league's elite marksmen
-- Alfie Matthews heads Clutch FC's scoring charts with **12 goals**, a tally any forward would be proud of
+- Jay Emmanuel-Thomas continues to lead Deportrio with **21 goals** — firmly among the league's elite marksmen
+- Tyler Winters heads Clutch FC's scoring charts with **14 goals**, a tally any forward would be proud of
 
 ---
 

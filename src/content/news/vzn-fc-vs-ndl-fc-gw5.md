@@ -1,20 +1,20 @@
 ---
-title: "NDL FC Narrowly Beat VZN FC 4-5 in GW5 Nail-biter"
-date: 2026-05-26
+title: "NDL FC Edge VZN FC 4-5 in GW5 Thriller"
+date: 2026-04-13
 category: "Match Report"
-excerpt: "VZN FC 4-5 NDL FC — Gameweek 5 match report. George Nikaj (9 goals) leads VZN FC's attack. Game Changers: Onside (1) & 1-on-1 (5). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "VZN FC 4-5 NDL FC — Gameweek 5 match report. George Nikaj (10 goals) leads VZN FC's attack. Game Changers: Onside (1) & 1-on-1 (5). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: false
 ---
 
 ## Match Summary — VZN FC 4-5 NDL FC
 
-The crowd at Baller Arena were treated to a spectacle as **VZN FC** faced **NDL FC** in a breathtaking goal-fest.
+Baller Arena played host to an absorbing Gameweek 5 clash as **VZN FC** locked horns with **NDL FC** in what would prove to be an unforgettable thriller packed with drama and goals.
 
-NDL FC came in occupying a coveted playoff spot at 2nd, while VZN FC were desperate to crash the party. When the dust settled, it was **NDL FC** who emerged **4-5** victors, ending VZN FC's impressive winning run in the process. The Game Changer window — **Onside** and **1-on-1** — proved pivotal, contributing **6** of the match's **9** goals.
+NDL FC came in occupying a coveted playoff spot at 1st, while VZN FC were desperate to crash the party. When the dust settled, it was **NDL FC** who emerged **4-5** victors. The Game Changer window — **Onside** and **1-on-1** — proved pivotal, contributing **6** of the match's **9** goals.
 
-**VZN FC form (before GW5):** ❌ ❌ ❌ 🤝 ✅ (L-L-L-D-W)  
-**NDL FC form (before GW5):** ✅ ✅ ✅ ✅ 🤝 (W-W-W-W-D)
+**VZN FC form (before GW5):** ✅ ❌ ❌ ✅ ❌ (W-L-L-W-L)  
+**NDL FC form (before GW5):** ❌ ✅ ✅ 🤝 ✅ (L-W-W-D-W)
 
 ---
 
@@ -22,11 +22,11 @@ NDL FC came in occupying a coveted playoff spot at 2nd, while VZN FC were desper
 
 ### First Half
 
-The game's complexion changed at the 12th minute when the **Onside** Game Changer activated — the period yielded **1** goal, just enough to set the contest alight. The sides went in with NDL FC just in front, a narrow advantage that kept everything delicately poised.
+Barely a dozen minutes had passed when **Onside** transformed the match into something altogether different — a **1-goal** window that gave the half an electric pulse. NDL FC took a slender lead into half-time — nothing decisive, but enough to shift the psychological battle in their favour.
 
 ### Second Half
 
-The second half resumed with all to play for, and at the 27-minute mark the **1-on-1** Game Changer cranked up the intensity once more — the defensive discipline of the first half evaporated as **5** goals thundered in during the activation. The final exchanges were fraught with tension. VZN FC threw everything forward in search of a route back, but NDL FC held their nerve, defending with grit and intelligence to protect what they had.
+If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **1-on-1** entered the fray — and the mayhem resumed. **5** more goals erupted during the window, transforming the contest into a full-blown classic. It was edge-of-your-seat stuff in the closing minutes. VZN FC pressed and probed, but NDL FC's back-line stood firm — resilient, organised, and ultimately heroic.
 
 ---
 
@@ -34,17 +34,19 @@ The second half resumed with all to play for, and at the 27-minute mark the **1-
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **12′** — **Isaac Modi** (NDL FC) opened the scoring
-- **23′** — **George Nikaj** (VZN FC) converted
-- **25′** — **Florian Kastrati** (VZN FC) scored
-- **27′** — **Kevin Weggen** (NDL FC) converted
-- **27′** — **Florian Kastrati** (VZN FC) slotted
+- **1′** — **Frankie Leonard** (VZN FC) drew first blood
+- **12′** — **Isaac Modi** (NDL FC) scored
+- **23′** — **George Nikaj** (VZN FC) netted
+- **25′** — **Florian Kastrati** (VZN FC) slotted
 - **27′** — **Kevin Weggen** (NDL FC) netted
-- **28′** — **Kevin Weggen** (NDL FC) fired home
-- **28′** — **Florian Kastrati** (VZN FC) found the target
+- **27′** — **Florian Kastrati** (VZN FC) fired home
+- **27′** — **Kevin Weggen** (NDL FC) scored
+- **28′** — **Kevin Weggen** (NDL FC) slotted
+- **28′** — **Florian Kastrati** (VZN FC) struck
 
 | Minute | Player | Team |
 |--------|--------|------|
+| 1′ | Frankie Leonard | VZN FC |
 | 12′ | Isaac Modi | NDL FC |
 | 23′ | George Nikaj | VZN FC |
 | 25′ | Florian Kastrati | VZN FC |
@@ -76,19 +78,22 @@ The **1-on-1** activation was particularly devastating, producing **5** goals th
 
 ### VZN FC
 
-**Florian Kastrati** was VZN FC's standout performer, bagging **3 goals** in a display of clinical finishing that powered his side's effort.
+The standout for VZN FC was undoubtedly **Florian Kastrati**, whose **3-goal** haul was the foundation of everything good about their display.
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Florian Kastrati | 3 | 0 | 1 | 9 |
-| George Nikaj | 1 | 0 | 3 | 6 |
-| Rohdell Gordon | 0 | 1 | 5 | 24 |
+| Florian Kastrati | 3 | 0 | 12 | 9 |
+| George Nikaj | 1 | 0 | 5 | 6 |
+| Rohdell Gordon | 0 | 1 | 3 | 24 |
 
 ### NDL FC
 
+NDL FC had **Kevin Weggen** to thank, the forward delivering a **3-goal** performance of the highest calibre.
+
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Isaac Modi | 1 | 0 | 0 | 7 |
+| Kevin Weggen | 3 | 0 | 8 | 2 |
+| Isaac Modi | 1 | 0 | 2 | 7 |
 
 
 
@@ -100,35 +105,35 @@ The **1-on-1** activation was particularly devastating, producing **5** goals th
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| George Nikaj | 9 | 5 | 8 |
-| Florian Kastrati | 6 | 1 | 10 |
-| Daniel Bowry | 4 | 2 | 10 |
-| Frankie Leonard | 3 | 2 | 8 |
-| Adrian Tajik | 2 | 0 | 9 |
+| George Nikaj | 10 | 5 | 9 |
+| Florian Kastrati | 6 | 1 | 11 |
+| Dan Bowry | 4 | 2 | 11 |
+| Adrian Tajik | 3 | 0 | 10 |
+| Frankie Leonard | 3 | 3 | 9 |
 
 ### NDL FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Dara Dada | 8 | 5 | 10 |
-| Sam Fitzgerald | 8 | 4 | 10 |
-| Isaac Modi | 6 | 1 | 10 |
-| Joshua Parker | 6 | 3 | 7 |
-| Kevin Weggen | 6 | 0 | 0 |
+| Sam Fitzgerald | 10 | 4 | 13 |
+| Dara Dada | 9 | 5 | 13 |
+| Isaac Modi | 7 | 2 | 13 |
+| Josh Parker | 7 | 3 | 9 |
+| Kevin Weggen | 7 | 0 | 8 |
 
 **Key Attacking Threats**
 
-- **George Nikaj** — VZN FC's talisman with **9 goals** from **8 appearances** and **5 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Dara Dada** — NDL FC's leading marksman with **8 goals** from **10 outings**, plus **5 assists**. NDL FC look to him whenever they need a moment of magic in the final third.
+- **George Nikaj** — VZN FC's talisman with **10 goals** from **9 appearances** and **5 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Sam Fitzgerald** — NDL FC's leading marksman with **10 goals** from **13 outings**, plus **4 assists**. NDL FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **6 gameweeks** left in the regular season, the stakes couldn't have been higher. **VZN FC** entered this match averaging **2.9 goals per game** — a number that reflected their struggles in front of goal this campaign. **NDL FC**, by contrast, arrived with an average of **4.4 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **6 gameweeks** left in the regular season, the stakes couldn't have been higher. **VZN FC** entered this match averaging **3.1 goals per game** — a number that reflected their struggles in front of goal this campaign. **NDL FC**, by contrast, arrived with an average of **4.4 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.3 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -155,12 +160,12 @@ Total head-to-head goals: **5** across all meetings.
 
 ## Table Impact
 
-VZN FC climbed to **9th**, ndl fc stayed at **2nd**.
+VZN FC stayed at **8th**, ndl fc stayed at **1st**.
 
 | Team | Before GW5 | After GW5 |
 |------|-------------|-------------|
-| VZN FC | 10th | 9th |
-| NDL FC | 2nd | 2nd |
+| VZN FC | 8th | 8th |
+| NDL FC | 1st | 1st |
 
 
 ---
@@ -181,6 +186,8 @@ VZN FC climbed to **9th**, ndl fc stayed at **2nd**.
 - A **9-goal thriller** that lived up to every pre-match expectation
 - **6 of 9 goals (67%)** came during Game Changer activations
 - A **one-goal game** decided by the narrowest of margins — the small details made all the difference
+- George Nikaj continues to lead VZN FC with **10 goals** — firmly among the league's elite marksmen
+- Sam Fitzgerald heads NDL FC's scoring charts with **10 goals**, a tally any forward would be proud of
 
 ---
 

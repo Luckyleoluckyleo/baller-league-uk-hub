@@ -1,20 +1,20 @@
 ---
-title: "Prime FC and SDS FC Split the Points in 2-2 GW5 Stalemate"
-date: 2026-05-26
+title: "Prime FC and SDS FC Finish 2-2 in Hard-Fought GW5 Draw"
+date: 2026-04-13
 category: "Match Report"
-excerpt: "Prime FC 2-2 SDS FC — Gameweek 5 match report. Francis Gerard Mampolo (17 goals) leads Prime FC's attack. Game Changers: 3Play (2) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Prime FC 2-2 SDS FC — Gameweek 5 match report. Francis Mampolo (22 goals) leads Prime FC's attack. Game Changers: 3Play (2) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: false
 ---
 
 ## Match Summary — Prime FC 2-2 SDS FC
 
-Baller Arena played host to an absorbing Gameweek 5 clash as **Prime FC** locked horns with **SDS FC** in what would prove to be a thoroughly entertaining contest with plenty of talking points.
+All roads led to Baller Arena for Gameweek 5, where **Prime FC** and **SDS FC** produced a match that ebbed and flowed, keeping everyone guessing until the final whistle.
 
-SDS FC came in occupying a coveted playoff spot at 1st, while Prime FC were desperate to crash the party. The final whistle confirmed a **2-2 draw**, a result that felt about right in a match where both sides gave everything. The Game Changer window — **3Play** and **The Line** — proved pivotal, contributing **3** of the match's **4** goals.
+Prime FC came in occupying a coveted playoff spot at 4th, while SDS FC were desperate to crash the party. The final whistle confirmed a **2-2 draw**, a result that felt about right in a match where both sides gave everything. The Game Changer window — **3Play** and **The Line** — proved pivotal, contributing **3** of the match's **4** goals.
 
-**Prime FC form (before GW5):** ❌ ✅ ✅ ✅ (L-W-W-W)  
-**SDS FC form (before GW5):** ✅ ✅ ✅ 🤝 ✅ (W-W-W-D-W)
+**Prime FC form (before GW5):** ❌ ❌ ❌ ✅ ❌ (L-L-L-W-L)  
+**SDS FC form (before GW5):** ❌ ✅ ✅ ❌ ✅ (L-W-W-L-W)
 
 ---
 
@@ -22,11 +22,11 @@ SDS FC came in occupying a coveted playoff spot at 1st, while Prime FC were desp
 
 ### First Half
 
-The first half sprang into life at the 12-minute mark with the **3Play** Game Changer flicking the switch — a **2-goal** window that gave the half an electric pulse. Half-time arrived with honours even, both managers undoubtedly pleased with elements of their side's performance.
+The tactical landscape shifted dramatically at 12 minutes as the **3Play** Game Changer took hold — a **2-goal** window that gave the half an electric pulse. The two sides trudged off level at the break — nothing separating them in what was shaping up to be a classic arm-wrestle.
 
 ### Second Half
 
-The tension was palpable at the restart, and the **The Line** Game Changer at 27 minutes only dialled it up — and it delivered **1** goal at just the right moment to breathe fresh life into the match. Late drama threatened but never materialised, both teams having to accept a point apiece in what felt like a war of attrition.
+The second half resumed with all to play for, and at the 27-minute mark the **The Line** Game Changer cranked up the intensity once more — and it delivered **1** goal at just the right moment to breathe fresh life into the match. Both sides strained every sinew for a winner but the decisive blow never landed. A draw was the fairest outcome in a match where no team deserved to lose.
 
 ---
 
@@ -34,17 +34,17 @@ The tension was palpable at the restart, and the **The Line** Game Changer at 27
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **2′** — **Connor Wood** (SDS FC) drew first blood
-- **12′** — **Sak Hassan** (Prime FC) slotted
-- **14′** — **Kazaiah Sterling** (SDS FC) struck
-- **29′** — **Francis Gerard Mampolo** (Prime FC) struck
+- **2′** — **Connor Wood** (SDS FC) opened the scoring
+- **12′** — **Sakariya Hassan** (Prime FC) found the target
+- **14′** — **Kazaiah Sterling** (SDS FC) scored
+- **29′** — **Francis Mampolo** (Prime FC) scored
 
 | Minute | Player | Team |
 |--------|--------|------|
 | 2′ | Connor Wood | SDS FC |
-| 12′ | Sak Hassan | Prime FC |
+| 12′ | Sakariya Hassan | Prime FC |
 | 14′ | Kazaiah Sterling | SDS FC |
-| 29′ | Francis Gerard Mampolo | Prime FC |
+| 29′ | Francis Mampolo | Prime FC |
 
 
 ---
@@ -70,17 +70,17 @@ The **3Play** window was the more impactful, its **2** goals shifting the balanc
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Francis Gerard Mampolo | 1 | 0 | 2 | 10 |
-| Sak Hassan | 1 | 0 | 4 | 8 |
+| Sakariya Hassan | 1 | 0 | 5 | 8 |
+| Francis Mampolo | 1 | 0 | 5 | 10 |
 | Stefan Ilic | 0 | 1 | 4 | 21 |
-| Taufee Skandari | 0 | 1 | 3 | 24 |
+| Taufee Skandari | 0 | 1 | 1 | 24 |
 
 ### SDS FC
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Connor Wood | 1 | 0 | 0 | 5 |
-| Kazaiah Sterling | 1 | 0 | 4 | 28 |
+| Connor Wood | 1 | 0 | 3 | 5 |
+| Kazaiah Sterling | 1 | 0 | 5 | 28 |
 
 
 
@@ -92,41 +92,55 @@ The **3Play** window was the more impactful, its **2** goals shifting the balanc
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Francis Gerard Mampolo | 17 | 4 | 10 |
-| Bráulio Valera Pinto Maieco | 9 | 0 | 10 |
-| Timmy Abraham | 7 | 2 | 10 |
-| Ergys Pepaj | 6 | 2 | 10 |
-| Sak Hassan | 5 | 5 | 9 |
+| Francis Mampolo | 22 | 5 | 13 |
+| Edy Maieco | 12 | 1 | 13 |
+| Sakariya Hassan | 9 | 7 | 12 |
+| Ergys Pepaj | 8 | 2 | 13 |
+| Timmy Abraham | 7 | 3 | 12 |
 
 ### SDS FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Connor Wood | 6 | 2 | 9 |
-| Camilo Restrepo | 5 | 1 | 9 |
-| Joshua Abbott | 5 | 2 | 10 |
-| Kazaiah Sterling | 5 | 7 | 10 |
-| Danny Bassett | 4 | 1 | 9 |
+| Kazaiah Sterling | 9 | 7 | 12 |
+| Joshua Abbott | 7 | 2 | 12 |
+| Connor Wood | 6 | 3 | 11 |
+| Camilo Restrepo | 5 | 3 | 11 |
+| Danny Bassett | 5 | 2 | 11 |
 
 **Key Attacking Threats**
 
-- **Francis Gerard Mampolo** — Prime FC's talisman with **17 goals** from **10 appearances** and **4 assists**. One of the league's elite finishers and the focal point of virtually every Prime FC attack.
-- **Connor Wood** — SDS FC's leading marksman with **6 goals** from **9 outings**, plus **2 assists**. SDS FC look to him whenever they need a moment of magic in the final third.
+- **Francis Mampolo** — Prime FC's talisman with **22 goals** from **13 appearances** and **5 assists**. One of the league's elite finishers and the focal point of virtually every Prime FC attack.
+- **Kazaiah Sterling** — SDS FC's leading marksman with **9 goals** from **12 outings**, plus **7 assists**. SDS FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **6 gameweeks** left in the regular season, the stakes couldn't have been higher. **Prime FC** entered this match averaging **4.9 goals per game** — a number that reflected their struggles in front of goal this campaign. **SDS FC**, by contrast, arrived with an average of **3.3 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **6 gameweeks** left in the regular season, the stakes couldn't have been higher. **Prime FC** entered this match averaging **3.8 goals per game** — a number that reflected their struggles in front of goal this campaign. **SDS FC**, by contrast, arrived with an average of **3.9 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.3 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
 ## Head-to-Head History
 
-This was the **maiden competitive meeting** between Prime FC and SDS FC — a historic first that will be recorded in the Baller League annals. Fresh rivalries are forged on nights like these.
+Prime FC and SDS FC had locked horns **2 times** before this encounter, and the history books painted an intriguing picture. The rivalry was dead even — **1 win each** with **0 draws** — making every fresh meeting feel like a tie-breaker.
+
+| GW | Result |
+|-----|--------|
+| 3 | Prime FC 6-4 SDS FC |
+| 4 | Prime FC 2-4 SDS FC |
+
+
+| H2H Stat | Prime FC | SDS FC |
+|----------|----------|--------|
+| Wins | 1 | 1 |
+| Draws | 0 | 0 |
+| Goals Scored | 8 | 8 |
+
+Total head-to-head goals: **16** across all meetings.
 
 
 
@@ -134,12 +148,12 @@ This was the **maiden competitive meeting** between Prime FC and SDS FC — a hi
 
 ## Table Impact
 
-Prime FC dropped to **7th**, sds fc stayed at **1st**.
+Prime FC dropped to **5th**, sds fc stayed at **3rd**.
 
 | Team | Before GW5 | After GW5 |
 |------|-------------|-------------|
-| Prime FC | 5th | 7th |
-| SDS FC | 1st | 1st |
+| Prime FC | 4th | 5th |
+| SDS FC | 3rd | 3rd |
 
 
 ---
@@ -158,7 +172,7 @@ Prime FC dropped to **7th**, sds fc stayed at **1st**.
 ## Match Facts
 
 - **3 of 4 goals (75%)** came during Game Changer activations
-- Francis Gerard Mampolo continues to lead Prime FC with **17 goals** — firmly among the league's elite marksmen
+- Francis Mampolo continues to lead Prime FC with **22 goals** — firmly among the league's elite marksmen
 
 ---
 

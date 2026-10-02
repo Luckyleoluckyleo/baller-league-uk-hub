@@ -1,19 +1,19 @@
 ---
 title: "Yanited Beat Community FC 5-3 in Entertaining GW2 Clash"
-date: 2026-05-26
+date: 2026-03-23
 category: "Match Report"
-excerpt: "Yanited 5-3 Community FC — Gameweek 2 match report. Kadell Daniel (14 goals) leads Yanited's attack. Game Changers: Plus One (1) & 1-on-1 (0). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Yanited 5-3 Community FC — Gameweek 2 match report. Kadell Daniel (16 goals) leads Yanited's attack. Game Changers: Plus One (1) & 1-on-1 (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: false
 ---
 
 ## Match Summary — Yanited 5-3 Community FC
 
-Baller Arena played host to an absorbing Gameweek 2 clash as **Yanited** locked horns with **Community FC** in what would prove to be a breathtaking goal-fest.
+The crowd at Baller Arena were treated to a spectacle as **Yanited** faced **Community FC** in a breathtaking goal-fest.
 
 When the dust settled, it was **Yanited** who emerged **5-3** victors. The Game Changer window — **Plus One** and **1-on-1** — proved pivotal, contributing **1** of the match's **8** goals.
 
-**Yanited form (before GW2):** 🤝 (D)  
+**Yanited form (before GW2):** ✅ ❌ 🤝 (W-L-D)  
 **Community FC form (before GW2):** ❌ (L)
 
 ---
@@ -22,11 +22,11 @@ When the dust settled, it was **Yanited** who emerged **5-3** victors. The Game 
 
 ### First Half
 
-The tactical landscape shifted dramatically at 12 minutes as the **Plus One** Game Changer took hold — the period yielded **1** goal, just enough to set the contest alight. Yanited controlled the tempo and carried a deserved lead into the interval, their composure and cutting edge proving the difference.
+The first half sprang into life at the 12-minute mark with the **Plus One** Game Changer flicking the switch — a **1-goal** window that gave the half an electric pulse. Yanited held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
 
 ### Second Half
 
-The second half resumed with all to play for, and at the 27-minute mark the **1-on-1** Game Changer cranked up the intensity once more — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. The final exchanges were fraught with tension. Community FC threw everything forward in search of a route back, but Yanited held their nerve, defending with grit and intelligence to protect what they had.
+If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **1-on-1** entered the fray — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. The final exchanges were fraught with tension. Community FC threw everything forward in search of a route back, but Yanited held their nerve, defending with grit and intelligence to protect what they had.
 
 ---
 
@@ -34,14 +34,14 @@ The second half resumed with all to play for, and at the 27-minute mark the **1-
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **7′** — **Mulugeta Kidu** (Community FC) drew first blood
-- **9′** — **Kadell Daniel** (Yanited) slotted
-- **11′** — **Keane Joyce** (Community FC) fired home
-- **13′** — **Kadell Daniel** (Yanited) slotted
+- **7′** — **Mulugeta Kidu** (Community FC) broke the deadlock
+- **9′** — **Kadell Daniel** (Yanited) found the target
+- **11′** — **Keane Joyce** (Community FC) struck
+- **13′** — **Kadell Daniel** (Yanited) scored
 - **18′** — **Keane Joyce** (Community FC) slotted
-- **23′** — **Tyrell Miller-Rodney** (Yanited) scored
-- **25′** — **Nathan Oduwa** (Yanited) found the target
-- **26′** — **Kadell Daniel** (Yanited) scored
+- **23′** — **Tyrell Miller-Rodney** (Yanited) converted
+- **25′** — **Nathan Oduwa** (Yanited) scored
+- **26′** — **Kadell Daniel** (Yanited) struck
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -76,13 +76,14 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 ### Yanited
 
-**Kadell Daniel** was Yanited's standout performer, bagging **3 goals** in a display of clinical finishing that powered his side's effort.
+**Kadell Daniel** was Yanited's standout performer, bagging **3 goals** in a display of clinical finishing that powered his side's effort. As if scoring wasn't enough, he also turned provider with **1 assist**.
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Kadell Daniel | 3 | 0 | 0 | 0 |
-| Tyrell Miller-Rodney | 1 | 0 | 0 | 0 |
-| Nathan Oduwa | 1 | 0 | 0 | 0 |
+| Kadell Daniel | 3 | 1 | 8 | 21 |
+| Tyrell Miller-Rodney | 1 | 1 | 3 | 16 |
+| Nathan Oduwa | 1 | 0 | 2 | 11 |
+| Paul-José M&#039;Poku | 0 | 1 | 2 | 19 |
 
 ### Community FC
 
@@ -90,8 +91,9 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Keane Joyce | 2 | 0 | 0 | 0 |
-| Mulugeta Kidu | 1 | 0 | 0 | 0 |
+| Keane Joyce | 2 | 0 | 5 | 6 |
+| Mulugeta Kidu | 1 | 1 | 1 | 18 |
+| Alex Byrne | 0 | 2 | 4 | 15 |
 
 
 
@@ -103,35 +105,35 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kadell Daniel | 14 | 3 | 7 |
-| Tyrell Miller-Rodney | 6 | 3 | 9 |
-| John Bostock | 4 | 1 | 7 |
-| Michael Folivi | 2 | 1 | 8 |
+| Kadell Daniel | 16 | 3 | 8 |
+| Tyrell Miller-Rodney | 6 | 5 | 10 |
+| John Bostock | 4 | 1 | 8 |
+| Michael Folivi | 4 | 1 | 9 |
 | Paul-José M'Poku | 2 | 2 | 7 |
 
 ### Community FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Alex Byrne | 9 | 7 | 9 |
-| Keane Joyce | 4 | 0 | 10 |
-| Matthew Waller | 3 | 1 | 10 |
-| George Chmiel | 2 | 0 | 9 |
+| Alex Byrne | 12 | 9 | 10 |
+| Keane Joyce | 5 | 0 | 11 |
+| George Chmiel | 3 | 2 | 10 |
+| Matthew Waller | 3 | 1 | 11 |
 | Tawab Djankpata | 2 | 2 | 6 |
 
 **Key Attacking Threats**
 
-- **Kadell Daniel** — Yanited's talisman with **14 goals** from **7 appearances** and **3 assists**. One of the league's elite finishers and the focal point of virtually every Yanited attack.
-- **Alex Byrne** — Community FC's leading marksman with **9 goals** from **9 outings**, plus **7 assists**. Community FC look to him whenever they need a moment of magic in the final third.
+- **Kadell Daniel** — Yanited's talisman with **16 goals** from **8 appearances** and **3 assists**. One of the league's elite finishers and the focal point of virtually every Yanited attack.
+- **Alex Byrne** — Community FC's leading marksman with **12 goals** from **10 outings**, plus **9 assists**. A proven match-winner who carries Community FC's main goal threat game after game.
 
 
 ---
 
 ## Season Context
 
-With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **Yanited** entered this match averaging **3.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **Community FC**, by contrast, arrived with an average of **2.5 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **Yanited** entered this match averaging **3.8 goals per game** — a number that reflected their struggles in front of goal this campaign. **Community FC**, by contrast, arrived with an average of **2.8 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.3 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -145,12 +147,12 @@ This was the **maiden competitive meeting** between Yanited and Community FC —
 
 ## Table Impact
 
-Yanited climbed to **4th**, community fc stayed at **12th**.
+Yanited climbed to **5th**, community fc stayed at **13th**.
 
 | Team | Before GW2 | After GW2 |
 |------|-------------|-------------|
-| Yanited | 9th | 4th |
-| Community FC | 12th | 12th |
+| Yanited | 8th | 5th |
+| Community FC | 13th | 13th |
 
 
 ---
@@ -170,7 +172,8 @@ Yanited climbed to **4th**, community fc stayed at **12th**.
 
 - A **8-goal thriller** that lived up to every pre-match expectation
 - **1 of 8 goals (13%)** came during Game Changer activations
-- Kadell Daniel continues to lead Yanited with **14 goals** — firmly among the league's elite marksmen
+- Kadell Daniel continues to lead Yanited with **16 goals** — firmly among the league's elite marksmen
+- Alex Byrne heads Community FC's scoring charts with **12 goals**, a tally any forward would be proud of
 
 ---
 

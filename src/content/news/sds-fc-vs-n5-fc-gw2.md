@@ -1,20 +1,20 @@
 ---
-title: "SDS FC Narrowly Beat N5 FC 2-1 in GW2 Nail-biter"
-date: 2026-05-26
+title: "SDS FC Scrape Past N5 FC 2-1 in Tight GW2 Contest"
+date: 2026-03-23
 category: "Match Report"
-excerpt: "SDS FC 2-1 N5 FC — Gameweek 2 match report. Connor Wood (6 goals) leads SDS FC's attack. Game Changers: 3Play (2) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "SDS FC 2-1 N5 FC — Gameweek 2 match report. Kazaiah Sterling (9 goals) leads SDS FC's attack. Game Changers: 3Play (2) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: false
 ---
 
 ## Match Summary — SDS FC 2-1 N5 FC
 
-The crowd at Baller Arena were treated to a spectacle as **SDS FC** faced **N5 FC** in a battle of attrition where every tackle, every pass, and every decision carried enormous weight.
+All roads led to Baller Arena for Gameweek 2, where **SDS FC** and **N5 FC** produced a nail-biter that could have swung either way, decided by the finest of details.
 
-SDS FC, sitting pretty in the Final Four places at 1st, knew a win here would tighten their grip. When the dust settled, it was **SDS FC** who emerged **2-1** victors. The Game Changer window — **3Play** and **Fairplay** — proved pivotal, contributing **2** of the match's **3** goals.
+SDS FC, sitting pretty in the Final Four places at 2nd, knew a win here would tighten their grip. When the dust settled, it was **SDS FC** who emerged **2-1** victors. The Game Changer window — **3Play** and **Fairplay** — proved pivotal, contributing **2** of the match's **3** goals.
 
-**SDS FC form (before GW2):** 🤝 ✅ (D-W)  
-**N5 FC form (before GW2):** ✅ ❌ (W-L)
+**SDS FC form (before GW2):** ✅ 🤝 ✅ (W-D-W)  
+**N5 FC form (before GW2):** ❌ ✅ ❌ (L-W-L)
 
 ---
 
@@ -22,11 +22,11 @@ SDS FC, sitting pretty in the Final Four places at 1st, knew a win here would ti
 
 ### First Half
 
-Barely a dozen minutes had passed when **3Play** transformed the match into something altogether different — a **2-goal** window that gave the half an electric pulse. The sides went in with SDS FC just in front, a narrow advantage that kept everything delicately poised.
+The first half sprang into life at the 12-minute mark with the **3Play** Game Changer flicking the switch — a **2-goal** window that gave the half an electric pulse. The sides went in with SDS FC just in front, a narrow advantage that kept everything delicately poised.
 
 ### Second Half
 
-The 27th minute brought the **Fairplay** Game Changer thundering into the match — a moment that would prove pivotal — yet both sides held their nerve superbly through the rule change, refusing to blink. The final exchanges were fraught with tension. N5 FC threw everything forward in search of a route back, but SDS FC held their nerve, defending with grit and intelligence to protect what they had.
+The 27th minute brought the **Fairplay** Game Changer thundering into the match — a moment that would prove pivotal — yet both sides held their nerve superbly through the rule change, refusing to blink. It was edge-of-your-seat stuff in the closing minutes. N5 FC pressed and probed, but SDS FC's back-line stood firm — resilient, organised, and ultimately heroic.
 
 ---
 
@@ -35,8 +35,8 @@ The 27th minute brought the **Fairplay** Game Changer thundering into the match 
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **0′** — **Connor Wood** (SDS FC) drew first blood
-- **12′** — **Michael Hill** (N5 FC) struck
-- **13′** — **Selim Saied** (SDS FC) converted
+- **12′** — **Michael Hill** (N5 FC) converted
+- **13′** — **Selim Saied** (SDS FC) found the target
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -68,14 +68,16 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Connor Wood | 1 | 0 | 0 | 0 |
-| Selim Saied | 1 | 0 | 0 | 0 |
+| Connor Wood | 1 | 0 | 2 | 7 |
+| Selim Saied | 1 | 0 | 2 | 6 |
+| Kazaiah Sterling | 0 | 1 | 1 | 41 |
 
 ### N5 FC
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Michael Hill | 1 | 0 | 0 | 0 |
+| Michael Hill | 1 | 0 | 3 | 17 |
+| Mustapha Carayol | 0 | 1 | 3 | 15 |
 
 
 
@@ -87,35 +89,35 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Connor Wood | 6 | 2 | 9 |
-| Camilo Restrepo | 5 | 1 | 9 |
-| Joshua Abbott | 5 | 2 | 10 |
-| Kazaiah Sterling | 5 | 7 | 10 |
-| Danny Bassett | 4 | 1 | 9 |
+| Kazaiah Sterling | 9 | 7 | 12 |
+| Joshua Abbott | 7 | 2 | 12 |
+| Connor Wood | 6 | 3 | 11 |
+| Camilo Restrepo | 5 | 3 | 11 |
+| Danny Bassett | 5 | 2 | 11 |
 
 ### N5 FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Michael Hill | 18 | 6 | 10 |
-| Joe Bennett | 14 | 3 | 10 |
+| Michael Hill | 19 | 6 | 11 |
+| Joe Bennett | 15 | 3 | 11 |
 | Jezreel Davies | 3 | 5 | 10 |
-| Mustapha Carayol | 2 | 2 | 6 |
+| Mustapha Carayol | 2 | 2 | 7 |
 | Nile Ranger | 2 | 0 | 6 |
 
 **Key Attacking Threats**
 
-- **Connor Wood** — SDS FC's talisman with **6 goals** from **9 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Michael Hill** — N5 FC's leading marksman with **18 goals** from **10 outings**, plus **6 assists**. A proven match-winner who carries N5 FC's main goal threat game after game.
+- **Kazaiah Sterling** — SDS FC's talisman with **9 goals** from **12 appearances** and **7 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Michael Hill** — N5 FC's leading marksman with **19 goals** from **11 outings**, plus **6 assists**. A proven match-winner who carries N5 FC's main goal threat game after game.
 
 
 ---
 
 ## Season Context
 
-With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **SDS FC** entered this match averaging **3.3 goals per game** — a number that reflected their struggles in front of goal this campaign. **N5 FC**, by contrast, arrived with an average of **4.0 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **SDS FC** entered this match averaging **3.9 goals per game** — a number that reflected their struggles in front of goal this campaign. **N5 FC**, by contrast, arrived with an average of **3.7 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.3 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -129,12 +131,12 @@ This was the **maiden competitive meeting** between SDS FC and N5 FC — a histo
 
 ## Table Impact
 
-SDS FC stayed at **1st**, n5 fc dropped to **10th**.
+SDS FC dropped to **3rd**, n5 fc stayed at **11th**.
 
 | Team | Before GW2 | After GW2 |
 |------|-------------|-------------|
-| SDS FC | 1st | 1st |
-| N5 FC | 7th | 10th |
+| SDS FC | 2nd | 3rd |
+| N5 FC | 11th | 11th |
 
 
 ---
@@ -154,7 +156,7 @@ SDS FC stayed at **1st**, n5 fc dropped to **10th**.
 
 - **2 of 3 goals (67%)** came during Game Changer activations
 - A **one-goal game** decided by the narrowest of margins — the small details made all the difference
-- Michael Hill heads N5 FC's scoring charts with **18 goals**, a tally any forward would be proud of
+- Michael Hill heads N5 FC's scoring charts with **19 goals**, a tally any forward would be proud of
 
 ---
 

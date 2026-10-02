@@ -1,20 +1,20 @@
 ---
-title: "VZN FC Cruise Past Rukkas FC in 7-3 Rout — GW7"
-date: 2026-05-26
+title: "VZN FC Too Strong for Rukkas FC in 7-3 Victory — GW7"
+date: 2026-04-27
 category: "Match Report"
-excerpt: "VZN FC 7-3 Rukkas FC — Gameweek 7 match report. George Nikaj (9 goals) leads VZN FC's attack. Game Changers: Plus One (2) & The Line (2). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "VZN FC 7-3 Rukkas FC — Gameweek 7 match report. George Nikaj (10 goals) leads VZN FC's attack. Game Changers: Plus One (2) & The Line (2). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: true
 ---
 
 ## Match Summary — VZN FC 7-3 Rukkas FC
 
-A pivotal Gameweek 7 encounter saw **VZN FC** go head-to-head with **Rukkas FC** in a breathtaking goal-fest.
+The Gameweek 7 spotlight fell on Baller Arena for **VZN FC** versus **Rukkas FC** — a breathtaking goal-fest.
 
 When the dust settled, it was **VZN FC** who emerged **7-3** victors. The Game Changer window — **Plus One** and **The Line** — proved pivotal, contributing **4** of the match's **10** goals.
 
-**VZN FC form (before GW7):** ❌ ✅ ❌ ❌ ❌ (L-W-L-L-L)  
-**Rukkas FC form (before GW7):** ✅ ❌ ❌ ✅ ❌ (W-L-L-W-L)
+**VZN FC form (before GW7):** 🤝 ❌ ✅ ✅ ❌ (D-L-W-W-L)  
+**Rukkas FC form (before GW7):** ❌ ✅ ❌ ✅ ❌ (L-W-L-W-L)
 
 ---
 
@@ -22,11 +22,11 @@ When the dust settled, it was **VZN FC** who emerged **7-3** victors. The Game C
 
 ### First Half
 
-Twelve minutes in and the **Plus One** Game Changer came alive, reshaping the contest entirely — the period yielded **2** goals, just enough to set the contest alight. VZN FC simply blew Rukkas FC away in a devastating opening period, sending a powerful message to everyone watching.
+The first half sprang into life at the 12-minute mark with the **Plus One** Game Changer flicking the switch — a **2-goal** window that gave the half an electric pulse. VZN FC were absolutely rampant, carving Rukkas FC open at will. By the break, they had built an intimidating lead that felt insurmountable.
 
 ### Second Half
 
-The second half resumed with all to play for, and at the 27-minute mark the **The Line** Game Changer cranked up the intensity once more — and it delivered **2** goals at just the right moment to breathe fresh life into the match. VZN FC managed the occasion expertly, balancing attacking ambition with game-control to see out a thoroughly deserved victory. The **10-goal** spectacle was the kind of match that Baller League was built for — pure, unfiltered entertainment.
+The 27th minute brought the **The Line** Game Changer thundering into the match — a moment that would prove pivotal — and it delivered **2** goals at just the right moment to breathe fresh life into the match. The scoreboard didn't flatter VZN FC — they were simply better in every department, and Rukkas FC had no complaints. The **10-goal** spectacle was the kind of match that Baller League was built for — pure, unfiltered entertainment.
 
 ---
 
@@ -35,20 +35,20 @@ The second half resumed with all to play for, and at the 27-minute mark the **Th
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **2′** — **Adrian Tajik** (VZN FC) opened the scoring
-- **3′** — **Daniel Bowry** (VZN FC) struck
-- **12′** — **Emmanuel Robe** (Rukkas FC) struck
-- **14′** — **George Nikaj** (VZN FC) slotted
-- **16′** — **George Nikaj** (VZN FC) struck
-- **19′** — **George Nikaj** (VZN FC) slotted
+- **3′** — **Dan Bowry** (VZN FC) converted
+- **12′** — **Emmanuel Robe** (Rukkas FC) converted
+- **14′** — **George Nikaj** (VZN FC) netted
+- **16′** — **George Nikaj** (VZN FC) converted
+- **19′** — **George Nikaj** (VZN FC) found the target
 - **20′** — **Adrian Tajik** (VZN FC) scored
-- **22′** — **Florian Kastrati** (VZN FC) found the target
-- **28′** — **Mussa Bham** (Rukkas FC) struck
-- **29′** — **Bradley Williams** (Rukkas FC) slotted
+- **22′** — **Florian Kastrati** (VZN FC) converted
+- **28′** — **Mussa Bham** (Rukkas FC) found the target
+- **29′** — **Bradley Williams** (Rukkas FC) fired home
 
 | Minute | Player | Team |
 |--------|--------|------|
 | 2′ | Adrian Tajik | VZN FC |
-| 3′ | Daniel Bowry | VZN FC |
+| 3′ | Dan Bowry | VZN FC |
 | 12′ | Emmanuel Robe | Rukkas FC |
 | 14′ | George Nikaj | VZN FC |
 | 16′ | George Nikaj | VZN FC |
@@ -84,21 +84,23 @@ The standout for VZN FC was undoubtedly **George Nikaj**, whose **3-goal** haul 
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| George Nikaj | 3 | 1 | 3 | 9 |
-| Adrian Tajik | 2 | 0 | 1 | 5 |
-| Daniel Bowry | 1 | 0 | 3 | 11 |
-| Florian Kastrati | 1 | 0 | 0 | 7 |
-| Frankie Leonard | 0 | 2 | 4 | 31 |
-| Che Krabbendam | 0 | 1 | 3 | 25 |
+| George Nikaj | 3 | 1 | 8 | 9 |
+| Adrian Tajik | 2 | 0 | 4 | 5 |
+| Florian Kastrati | 1 | 0 | 2 | 7 |
+| Dan Bowry | 1 | 0 | 1 | 11 |
+| Frankie Leonard | 0 | 2 | 1 | 31 |
+| Che Krabbendam | 0 | 1 | 1 | 25 |
+| Yannis Drais | 0 | 1 | 2 | 5 |
 
 ### Rukkas FC
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
 | Mussa Bham | 1 | 0 | 5 | 27 |
-| Emmanuel Robe | 1 | 0 | 0 | 6 |
+| Emmanuel Robe | 1 | 0 | 5 | 6 |
 | Bradley Williams | 1 | 0 | 1 | 5 |
-| David Oupoh | 0 | 1 | 1 | 6 |
+| Aaron Steavens | 0 | 1 | 0 | 28 |
+| David Oupoh | 0 | 1 | 4 | 6 |
 
 
 
@@ -110,35 +112,35 @@ The standout for VZN FC was undoubtedly **George Nikaj**, whose **3-goal** haul 
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| George Nikaj | 9 | 5 | 8 |
-| Florian Kastrati | 6 | 1 | 10 |
-| Daniel Bowry | 4 | 2 | 10 |
-| Frankie Leonard | 3 | 2 | 8 |
-| Adrian Tajik | 2 | 0 | 9 |
+| George Nikaj | 10 | 5 | 9 |
+| Florian Kastrati | 6 | 1 | 11 |
+| Dan Bowry | 4 | 2 | 11 |
+| Adrian Tajik | 3 | 0 | 10 |
+| Frankie Leonard | 3 | 3 | 9 |
 
 ### Rukkas FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Mussa Bham | 8 | 1 | 10 |
-| David Oupoh | 6 | 1 | 10 |
-| Zaid Al Hussaini | 4 | 6 | 10 |
-| Emmanuel Robe | 3 | 3 | 10 |
-| Osman Ali | 2 | 2 | 10 |
+| Mussa Bham | 9 | 1 | 11 |
+| David Oupoh | 6 | 1 | 11 |
+| Emmanuel Robe | 5 | 3 | 11 |
+| Zaid Al Hussaini | 4 | 6 | 11 |
+| Osman Ali | 2 | 2 | 11 |
 
 **Key Attacking Threats**
 
-- **George Nikaj** — VZN FC's talisman with **9 goals** from **8 appearances** and **5 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Mussa Bham** — Rukkas FC's leading marksman with **8 goals** from **10 outings**, plus **1 assists**. Rukkas FC look to him whenever they need a moment of magic in the final third.
+- **George Nikaj** — VZN FC's talisman with **10 goals** from **9 appearances** and **5 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Mussa Bham** — Rukkas FC's leading marksman with **9 goals** from **11 outings**, plus **1 assists**. Rukkas FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **4 gameweeks** left in the regular season, the stakes couldn't have been higher. **VZN FC** entered this match averaging **2.9 goals per game** — a number that reflected their struggles in front of goal this campaign. **Rukkas FC**, by contrast, arrived with an average of **3.4 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **4 gameweeks** left in the regular season, the stakes couldn't have been higher. **VZN FC** entered this match averaging **3.1 goals per game** — a number that reflected their struggles in front of goal this campaign. **Rukkas FC**, by contrast, arrived with an average of **3.2 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.3 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -165,12 +167,12 @@ Total head-to-head goals: **9** across all meetings.
 
 ## Table Impact
 
-VZN FC stayed at **9th**, rukkas fc stayed at **10th**.
+VZN FC dropped to **9th**, rukkas fc stayed at **12th**.
 
 | Team | Before GW7 | After GW7 |
 |------|-------------|-------------|
-| VZN FC | 9th | 9th |
-| Rukkas FC | 10th | 10th |
+| VZN FC | 8th | 9th |
+| Rukkas FC | 12th | 12th |
 
 
 ---
@@ -190,6 +192,7 @@ VZN FC stayed at **9th**, rukkas fc stayed at **10th**.
 
 - A **10-goal thriller** that lived up to every pre-match expectation
 - **4 of 10 goals (40%)** came during Game Changer activations
+- George Nikaj continues to lead VZN FC with **10 goals** — firmly among the league's elite marksmen
 
 ---
 

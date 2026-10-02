@@ -949,8 +949,11 @@ function generateReport(match) {
     `Game Changers: ${gc1} (${gc1g}) & ${gc2} (${gc2g}). ` +
     `Read the full match report, player stats, table impact and head-to-head analysis.`;
 
-  const date = new Date();
-  const dateStr = date.toISOString().split("T")[0];
+  // Use the real match date (frontmatter date drives news ordering), not the run date.
+  const MONTHS = { Jan: "01", Feb: "02", Mar: "03", Apr: "04", May: "05", Jun: "06", Jul: "07", Aug: "08", Sep: "09", Oct: "10", Nov: "11", Dec: "12" };
+  let dateStr = new Date().toISOString().split("T")[0];
+  const md = (match.matchDate || "").match(/^(\d{1,2})\s+([A-Za-z]{3})\s+(\d{4})$/);
+  if (md) dateStr = `${md[3]}-${MONTHS[md[2]] || "01"}-${String(md[1]).padStart(2, "0")}`;
 
   const content = `---
 title: "${title}"

@@ -1,15 +1,15 @@
 ---
-title: "Yanited and VZN FC Finish 3-3 in Hard-Fought GW1 Draw"
-date: 2026-05-26
+title: "Yanited and VZN FC Split the Points in 3-3 GW1 Stalemate"
+date: 2026-03-16
 category: "Match Report"
-excerpt: "Yanited 3-3 VZN FC — Gameweek 1 match report. Kadell Daniel (14 goals) leads Yanited's attack. Game Changers: Onside (4) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Yanited 3-3 VZN FC — Gameweek 1 match report. Kadell Daniel (16 goals) leads Yanited's attack. Game Changers: Onside (4) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: false
 ---
 
 ## Match Summary — Yanited 3-3 VZN FC
 
-The lights were bright at Baller Arena on Gameweek 1, where **Yanited** and **VZN FC** served up a thoroughly entertaining contest with plenty of talking points.
+Football took center stage at Baller Arena when **Yanited** met **VZN FC** in a compelling advert for Baller League football — competitive, dramatic, and hard-fought.
 
 The final whistle confirmed a **3-3 draw**, a result that felt about right in a match where both sides gave everything. The Game Changer window — **Onside** and **Fairplay** — proved pivotal, contributing **4** of the match's **6** goals.
 
@@ -21,11 +21,11 @@ The final whistle confirmed a **3-3 draw**, a result that felt about right in a 
 
 ### First Half
 
-Barely a dozen minutes had passed when **Onside** transformed the match into something altogether different — and the goals flowed. **4** times the net bulged during the activation period, a frantic, breathless spell of attacking football. The two sides trudged off level at the break — nothing separating them in what was shaping up to be a classic arm-wrestle.
+The tactical landscape shifted dramatically at 12 minutes as the **Onside** Game Changer took hold — the result was chaos, in the best possible way. **4** goals poured in as both sides abandoned any defensive caution. Half-time arrived with honours even, both managers undoubtedly pleased with elements of their side's performance.
 
 ### Second Half
 
-The tension was palpable at the restart, and the **Fairplay** Game Changer at 27 minutes only dialled it up — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. Late drama threatened but never materialised, both teams having to accept a point apiece in what felt like a war of attrition.
+The second half resumed with all to play for, and at the 27-minute mark the **Fairplay** Game Changer cranked up the intensity once more — yet both sides held their nerve superbly through the rule change, refusing to blink. Both sides strained every sinew for a winner but the decisive blow never landed. A draw was the fairest outcome in a match where no team deserved to lose.
 
 ---
 
@@ -33,21 +33,21 @@ The tension was palpable at the restart, and the **Fairplay** Game Changer at 27
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **2′** — **George Nikaj** (VZN FC) broke the deadlock
-- **12′** — **Daniel Bowry** (VZN FC) fired home
-- **14′** — **Joshua Parker** (VZN FC) struck
-- **14′** — **Kadell Daniel** (Yanited) fired home
-- **14′** — **Sandro Camara** (VZN FC) fired home
-- **23′** — **Sandro Camara** (VZN FC) netted
+- **2′** — **George Nikaj** (VZN FC) drew first blood
+- **12′** — **Dan Bowry** (VZN FC) netted
+- **14′** — **Josh Parker** (VZN FC) slotted
+- **14′** — **Kadell Daniel** (Yanited) scored
+- **14′** — **Sandro Camara** (Yanited) found the target
+- **23′** — **Sandro Camara** (Yanited) fired home
 
 | Minute | Player | Team |
 |--------|--------|------|
 | 2′ | George Nikaj | VZN FC |
-| 12′ | Daniel Bowry | VZN FC |
-| 14′ | Joshua Parker | VZN FC |
+| 12′ | Dan Bowry | VZN FC |
+| 14′ | Josh Parker | VZN FC |
 | 14′ | Kadell Daniel | Yanited |
-| 14′ | Sandro Camara | VZN FC |
-| 23′ | Sandro Camara | VZN FC |
+| 14′ | Sandro Camara | Yanited |
+| 23′ | Sandro Camara | Yanited |
 
 
 ---
@@ -71,16 +71,22 @@ The **Onside** window was the more impactful, its **4** goals shifting the balan
 
 ### Yanited
 
+**Sandro Camara** was Yanited's standout performer, bagging **2 goals** in a display of clinical finishing that powered his side's effort.
+
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Kadell Daniel | 1 | 0 | 0 | 0 |
+| Sandro Camara | 2 | 0 | 9 | 11 |
+| Kadell Daniel | 1 | 1 | 9 | 31 |
+| Michael Folivi | 0 | 1 | 5 | 15 |
 
 ### VZN FC
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Daniel Bowry | 1 | 0 | 0 | 0 |
-| George Nikaj | 1 | 0 | 0 | 0 |
+| Josh Parker | 1 | 2 | 5 | 9 |
+| Dan Bowry | 1 | 0 | 2 | 14 |
+| George Nikaj | 1 | 0 | 2 | 4 |
+| Che Krabbendam | 0 | 1 | 1 | 14 |
 
 
 
@@ -92,35 +98,35 @@ The **Onside** window was the more impactful, its **4** goals shifting the balan
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kadell Daniel | 14 | 3 | 7 |
-| Tyrell Miller-Rodney | 6 | 3 | 9 |
-| John Bostock | 4 | 1 | 7 |
-| Michael Folivi | 2 | 1 | 8 |
+| Kadell Daniel | 16 | 3 | 8 |
+| Tyrell Miller-Rodney | 6 | 5 | 10 |
+| John Bostock | 4 | 1 | 8 |
+| Michael Folivi | 4 | 1 | 9 |
 | Paul-José M'Poku | 2 | 2 | 7 |
 
 ### VZN FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| George Nikaj | 9 | 5 | 8 |
-| Florian Kastrati | 6 | 1 | 10 |
-| Daniel Bowry | 4 | 2 | 10 |
-| Frankie Leonard | 3 | 2 | 8 |
-| Adrian Tajik | 2 | 0 | 9 |
+| George Nikaj | 10 | 5 | 9 |
+| Florian Kastrati | 6 | 1 | 11 |
+| Dan Bowry | 4 | 2 | 11 |
+| Adrian Tajik | 3 | 0 | 10 |
+| Frankie Leonard | 3 | 3 | 9 |
 
 **Key Attacking Threats**
 
-- **Kadell Daniel** — Yanited's talisman with **14 goals** from **7 appearances** and **3 assists**. One of the league's elite finishers and the focal point of virtually every Yanited attack.
-- **George Nikaj** — VZN FC's leading marksman with **9 goals** from **8 outings**, plus **5 assists**. VZN FC look to him whenever they need a moment of magic in the final third.
+- **Kadell Daniel** — Yanited's talisman with **16 goals** from **8 appearances** and **3 assists**. One of the league's elite finishers and the focal point of virtually every Yanited attack.
+- **George Nikaj** — VZN FC's leading marksman with **10 goals** from **9 outings**, plus **5 assists**. VZN FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **Yanited** entered this match averaging **3.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **VZN FC**, by contrast, arrived with an average of **2.9 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **Yanited** entered this match averaging **3.8 goals per game** — a number that reflected their struggles in front of goal this campaign. **VZN FC**, by contrast, arrived with an average of **3.1 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.3 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -138,8 +144,8 @@ Yanited held steady, vzn fc held steady.
 
 | Team | Before GW1 | After GW1 |
 |------|-------------|-------------|
-| Yanited | — | 9th |
-| VZN FC | — | 8th |
+| Yanited | — | 8th |
+| VZN FC | — | 12th |
 
 
 ---
@@ -158,7 +164,8 @@ Yanited held steady, vzn fc held steady.
 ## Match Facts
 
 - **4 of 6 goals (67%)** came during Game Changer activations
-- Kadell Daniel continues to lead Yanited with **14 goals** — firmly among the league's elite marksmen
+- Kadell Daniel continues to lead Yanited with **16 goals** — firmly among the league's elite marksmen
+- George Nikaj heads VZN FC's scoring charts with **10 goals**, a tally any forward would be proud of
 
 ---
 

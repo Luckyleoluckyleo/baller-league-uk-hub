@@ -1,15 +1,15 @@
 ---
-title: "NDL FC Brush Community FC Aside 2-7 in Confident Showing — GW1"
-date: 2026-05-26
+title: "NDL FC Too Strong for Community FC in 2-7 Victory — GW1"
+date: 2026-03-16
 category: "Match Report"
-excerpt: "Community FC 2-7 NDL FC — Gameweek 1 match report. Alex Byrne (9 goals) leads Community FC's attack. Game Changers: 3Play (3) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Community FC 2-7 NDL FC — Gameweek 1 match report. Alex Byrne (12 goals) leads Community FC's attack. Game Changers: 3Play (3) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: false
 ---
 
 ## Match Summary — Community FC 2-7 NDL FC
 
-The crowd at Baller Arena were treated to a spectacle as **Community FC** faced **NDL FC** in a pulsating encounter that had fans on the edge of their seats from the first whistle to the last.
+Tensions were high at Baller Arena as **Community FC** squared off against **NDL FC** in a breathtaking goal-fest.
 
 When the dust settled, it was **NDL FC** who emerged **2-7** victors in a performance that will send shockwaves through the division. The Game Changer window — **3Play** and **The Line** — proved pivotal, contributing **4** of the match's **9** goals.
 
@@ -21,11 +21,11 @@ When the dust settled, it was **NDL FC** who emerged **2-7** victors in a perfor
 
 ### First Half
 
-Twelve minutes in and the **3Play** Game Changer came alive, reshaping the contest entirely — and the goals flowed. **3** times the net bulged during the activation period, a frantic, breathless spell of attacking football. NDL FC were absolutely rampant, carving Community FC open at will. By the break, they had built an intimidating lead that felt insurmountable.
+At the 12th minute, the **3Play** Game Changer roared into action — and the floodgates opened with **3** goals flying in, the crowd barely able to keep up with the relentless action. NDL FC were absolutely rampant, carving Community FC open at will. By the break, they had built an intimidating lead that felt insurmountable.
 
 ### Second Half
 
-The tension was palpable at the restart, and the **The Line** Game Changer at 27 minutes only dialled it up — and it delivered **1** goal at just the right moment to breathe fresh life into the match. NDL FC managed the occasion expertly, balancing attacking ambition with game-control to see out a thoroughly deserved victory.
+The 27th minute brought the **The Line** Game Changer thundering into the match — a moment that would prove pivotal — and it delivered **1** goal at just the right moment to breathe fresh life into the match. NDL FC managed the occasion expertly, balancing attacking ambition with game-control to see out a thoroughly deserved victory.
 
 ---
 
@@ -34,20 +34,20 @@ The tension was palpable at the restart, and the **The Line** Game Changer at 27
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **10′** — **Alex Byrne** (Community FC) fired the opener
-- **12′** — **Dara Dada** (NDL FC) slotted
-- **13′** — **Jadan Raymond** scored
-- **14′** — **Amadou Kassaraté** (NDL FC) struck
-- **17′** — **Amin Belaid** (NDL FC) converted
-- **19′** — **Tyler Winters** (NDL FC) netted
-- **21′** — **Dara Dada** (NDL FC) netted
-- **23′** — **Dara Dada** (NDL FC) slotted
-- **28′** — **Matthew Waller** (Community FC) scored
+- **12′** — **Dara Dada** (NDL FC) struck
+- **13′** — **Jadan Raymond** (NDL FC) scored
+- **14′** — **Amadou Kassaraté** (NDL FC) converted
+- **17′** — **Amin Belaid** (NDL FC) netted
+- **19′** — **Tyler Winters** (NDL FC) struck
+- **21′** — **Dara Dada** (NDL FC) fired home
+- **23′** — **Dara Dada** (NDL FC) found the target
+- **28′** — **Matthew Waller** (Community FC) netted
 
 | Minute | Player | Team |
 |--------|--------|------|
 | 10′ | Alex Byrne | Community FC |
 | 12′ | Dara Dada | NDL FC |
-| 13′ | Jadan Raymond | — |
+| 13′ | Jadan Raymond | NDL FC |
 | 14′ | Amadou Kassaraté | NDL FC |
 | 17′ | Amin Belaid | NDL FC |
 | 19′ | Tyler Winters | NDL FC |
@@ -79,8 +79,8 @@ The **3Play** window was the more impactful, its **3** goals shifting the balanc
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Alex Byrne | 1 | 0 | 0 | 0 |
-| Matthew Waller | 1 | 0 | 0 | 0 |
+| Alex Byrne | 1 | 1 | 9 | 24 |
+| Matthew Waller | 1 | 0 | 2 | 10 |
 
 ### NDL FC
 
@@ -88,9 +88,13 @@ The **3Play** window was the more impactful, its **3** goals shifting the balanc
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Dara Dada | 3 | 0 | 0 | 0 |
-| Amin Belaid | 1 | 0 | 0 | 0 |
-| Amadou Kassaraté | 1 | 0 | 0 | 0 |
+| Dara Dada | 3 | 0 | 7 | 7 |
+| Amin Belaid | 1 | 1 | 5 | 22 |
+| Tyler Winters | 1 | 1 | 3 | 11 |
+| Amadou Kassaraté | 1 | 0 | 2 | 17 |
+| Jadan Raymond | 1 | 0 | 1 | 8 |
+| Sam Fitzgerald | 0 | 2 | 6 | 48 |
+| Dillon Barnes | 0 | 1 | 0 | 65 |
 
 
 
@@ -102,35 +106,35 @@ The **3Play** window was the more impactful, its **3** goals shifting the balanc
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Alex Byrne | 9 | 7 | 9 |
-| Keane Joyce | 4 | 0 | 10 |
-| Matthew Waller | 3 | 1 | 10 |
-| George Chmiel | 2 | 0 | 9 |
+| Alex Byrne | 12 | 9 | 10 |
+| Keane Joyce | 5 | 0 | 11 |
+| George Chmiel | 3 | 2 | 10 |
+| Matthew Waller | 3 | 1 | 11 |
 | Tawab Djankpata | 2 | 2 | 6 |
 
 ### NDL FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Dara Dada | 8 | 5 | 10 |
-| Sam Fitzgerald | 8 | 4 | 10 |
-| Isaac Modi | 6 | 1 | 10 |
-| Joshua Parker | 6 | 3 | 7 |
-| Kevin Weggen | 6 | 0 | 0 |
+| Sam Fitzgerald | 10 | 4 | 13 |
+| Dara Dada | 9 | 5 | 13 |
+| Isaac Modi | 7 | 2 | 13 |
+| Josh Parker | 7 | 3 | 9 |
+| Kevin Weggen | 7 | 0 | 8 |
 
 **Key Attacking Threats**
 
-- **Alex Byrne** — Community FC's talisman with **9 goals** from **9 appearances** and **7 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Dara Dada** — NDL FC's leading marksman with **8 goals** from **10 outings**, plus **5 assists**. NDL FC look to him whenever they need a moment of magic in the final third.
+- **Alex Byrne** — Community FC's talisman with **12 goals** from **10 appearances** and **9 assists**. One of the league's elite finishers and the focal point of virtually every Community FC attack.
+- **Sam Fitzgerald** — NDL FC's leading marksman with **10 goals** from **13 outings**, plus **4 assists**. NDL FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **Community FC** entered this match averaging **2.5 goals per game** — a number that reflected their struggles in front of goal this campaign. **NDL FC**, by contrast, arrived with an average of **4.4 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **Community FC** entered this match averaging **2.8 goals per game** — a number that reflected their struggles in front of goal this campaign. **NDL FC**, by contrast, arrived with an average of **4.4 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.3 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -148,8 +152,8 @@ Community FC held steady, ndl fc held steady.
 
 | Team | Before GW1 | After GW1 |
 |------|-------------|-------------|
-| Community FC | — | 12th |
-| NDL FC | — | 3rd |
+| Community FC | — | 13th |
+| NDL FC | — | 5th |
 
 
 ---
@@ -170,6 +174,8 @@ Community FC held steady, ndl fc held steady.
 - A **9-goal thriller** that lived up to every pre-match expectation
 - **4 of 9 goals (44%)** came during Game Changer activations
 - The **5-goal margin** represented a statement victory, one of the most one-sided results of Gameweek 1
+- Alex Byrne continues to lead Community FC with **12 goals** — firmly among the league's elite marksmen
+- Sam Fitzgerald heads NDL FC's scoring charts with **10 goals**, a tally any forward would be proud of
 
 ---
 

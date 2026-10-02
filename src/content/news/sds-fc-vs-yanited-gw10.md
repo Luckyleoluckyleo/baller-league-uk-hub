@@ -1,20 +1,20 @@
 ---
-title: "SDS FC and Yanited Serve Up 6-6 Epic in GW10"
-date: 2026-05-26
+title: "SDS FC and Yanited Play Out 6-6 Classic in Gameweek 10"
+date: 2026-05-11
 category: "Match Report"
-excerpt: "SDS FC 6-6 Yanited — Gameweek 10 match report. Connor Wood (6 goals) leads SDS FC's attack. Game Changers: 3Play (4) & 1-on-1 (1). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "SDS FC 6-6 Yanited — Gameweek 10 match report. Kazaiah Sterling (9 goals) leads SDS FC's attack. Game Changers: 3Play (4) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: true
 ---
 
 ## Match Summary — SDS FC 6-6 Yanited
 
-Tensions were high at Baller Arena as **SDS FC** squared off against **Yanited** in an end-to-end classic where neither side deserved to walk away empty-handed.
+Baller Arena buzzed with anticipation as **SDS FC** and **Yanited** delivered an end-to-end classic where neither side deserved to walk away empty-handed.
 
-SDS FC, sitting pretty in the Final Four places at 3rd, knew a win here would tighten their grip. The final whistle confirmed a **6-6 draw** in a contest that had absolutely everything — goals, drama, and relentless entertainment. The Game Changer window — **3Play** and **1-on-1** — proved pivotal, contributing **5** of the match's **12** goals.
+SDS FC came in occupying a coveted playoff spot at 4th, while Yanited were desperate to crash the party. The final whistle confirmed a **6-6 draw** in a contest that had absolutely everything — goals, drama, and relentless entertainment. The Game Changer window — **3Play** and **1-on-1** — proved pivotal, contributing **7** of the match's **12** goals.
 
-**SDS FC form (before GW10):** ❌ ❌ ✅ 🤝 ❌ (L-L-W-D-L)  
-**Yanited form (before GW10):** ❌ ❌ ❌ ❌ ✅ (L-L-L-L-W)
+**SDS FC form (before GW10):** ✅ ❌ ❌ ✅ ✅ (W-L-L-W-W)  
+**Yanited form (before GW10):** ❌ ❌ ❌ ✅ ❌ (L-L-L-W-L)
 
 ---
 
@@ -22,11 +22,11 @@ SDS FC, sitting pretty in the Final Four places at 3rd, knew a win here would ti
 
 ### First Half
 
-Barely a dozen minutes had passed when **3Play** transformed the match into something altogether different — and the goals flowed. **4** times the net bulged during the activation period, a frantic, breathless spell of attacking football. The two sides trudged off level at the break — nothing separating them in what was shaping up to be a classic arm-wrestle.
+The first half sprang into life at the 12-minute mark with the **3Play** Game Changer flicking the switch — and the goals flowed. **4** times the net bulged during the activation period, a frantic, breathless spell of attacking football. By the interval it was impossible to call a winner. The contest was beautifully balanced, with everything still to play for.
 
 ### Second Half
 
-The 27th minute brought the **1-on-1** Game Changer thundering into the match — a moment that would prove pivotal — the **1** goal it produced came at a crucial juncture, swinging momentum decisively. Both sides strained every sinew for a winner but the decisive blow never landed. A draw was the fairest outcome in a match where no team deserved to lose. The **12-goal** spectacle was the kind of match that Baller League was built for — pure, unfiltered entertainment.
+The second half resumed with all to play for, and at the 27-minute mark the **1-on-1** Game Changer cranked up the intensity once more — the defensive discipline of the first half evaporated as **3** goals thundered in during the activation. Both sides strained every sinew for a winner but the decisive blow never landed. A draw was the fairest outcome in a match where no team deserved to lose. The **12-goal** spectacle was the kind of match that Baller League was built for — pure, unfiltered entertainment.
 
 ---
 
@@ -34,18 +34,18 @@ The 27th minute brought the **1-on-1** Game Changer thundering into the match �
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **3′** — **Michael Folivi** (Yanited) broke the deadlock
+- **3′** — **Michael Folivi** (Yanited) drew first blood
 - **3′** — **Camilo Restrepo** (SDS FC) scored
 - **10′** — **Kadell Daniel** (Yanited) slotted
-- **12′** — **Nya Kirby** (SDS FC) struck
-- **12′** — **Michael Folivi** (Yanited) scored
-- **13′** — **Nya Kirby** (SDS FC) converted
+- **12′** — **Nya Kirby** (SDS FC) found the target
+- **12′** — **Michael Folivi** (Yanited) netted
+- **13′** — **Nya Kirby** (SDS FC) found the target
 - **14′** — **Danny Bassett** (SDS FC) converted
 - **24′** — **Bayley Brown** (SDS FC) scored
-- **28′** — **Medy Elito** (Yanited) fired home
-- **30′** — **Kadell Daniel** (Yanited) converted
-- **30′** — **Joshua Abbott** (SDS FC) fired home
-- **31′** — **Kadell Daniel** (Yanited) scored
+- **26′** — **Medy Elito** (Yanited) fired home
+- **27′** — **Kadell Daniel** (Yanited) scored
+- **27′** — **Kadell Daniel** (Yanited) converted
+- **27′** — **Joshua Abbott** (SDS FC) fired home
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -57,25 +57,25 @@ The goals arrived in a dramatic sequence that told the story of the match:
 | 13′ | Nya Kirby | SDS FC |
 | 14′ | Danny Bassett | SDS FC |
 | 24′ | Bayley Brown | SDS FC |
-| 28′ | Medy Elito | Yanited |
-| 30′ | Kadell Daniel | Yanited |
-| 30′ | Joshua Abbott | SDS FC |
-| 31′ | Kadell Daniel | Yanited |
+| 26′ | Medy Elito | Yanited |
+| 27′ | Kadell Daniel | Yanited |
+| 27′ | Kadell Daniel | Yanited |
+| 27′ | Joshua Abbott | SDS FC |
 
 
 ---
 
 ## Game Changer Impact — 3Play & 1-on-1
 
-The Game Changer period left a genuine imprint on this fixture, with the **3Play** and **1-on-1** activations generating **5** goals — **42%** of the match's total output.
+The Game Changer period **took over this match**. With **7** of the **12** total goals coming during GC activations (58%), the modified rules were not a sideshow — they *were* the show.
 
-The **3Play** window was the more impactful, its **4** goals shifting the balance of the contest at a critical moment. Matches where the GC contributes this significantly tend to be remembered — the rule modifications force teams out of their comfort zones and into pure reactive mode, which is where the best (and worst) of Baller League football is often found.
+The **3Play** activation was particularly devastating, producing **4** goals that fundamentally altered the trajectory of the contest. When the GC window is this productive, traditional game plans go out the window — it becomes a test of who can adapt fastest to controlled chaos. On this evidence, the answer was both sides, and the paying fans were the real winners.
 
 | GC Activation | Type | Goals |
 |---------------|------|-------|
 | 1st Half (12′) | 3Play | 4 |
-| 2nd Half (27′) | 1-on-1 | 1 |
-| **Total** | | **5** |
+| 2nd Half (27′) | 1-on-1 | 3 |
+| **Total** | | **7** |
 
 
 ---
@@ -84,18 +84,18 @@ The **3Play** window was the more impactful, its **4** goals shifting the balanc
 
 ### SDS FC
 
-The standout for SDS FC was undoubtedly **Nya Kirby**, whose **2-goal** haul was the foundation of everything good about their display.
+**Nya Kirby** was SDS FC's standout performer, bagging **2 goals** in a display of clinical finishing that powered his side's effort.
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Nya Kirby | 2 | 0 | 1 | 15 |
-| Camilo Restrepo | 1 | 0 | 2 | 13 |
-| Joshua Abbott | 1 | 0 | 2 | 4 |
-| Danny Bassett | 1 | 0 | 1 | 8 |
+| Nya Kirby | 2 | 0 | 10 | 15 |
+| Camilo Restrepo | 1 | 0 | 7 | 13 |
+| Danny Bassett | 1 | 0 | 2 | 8 |
+| Joshua Abbott | 1 | 0 | 7 | 4 |
 | Bayley Brown | 1 | 0 | 2 | 5 |
-| Kazaiah Sterling | 0 | 3 | 7 | 45 |
-| Hafed Al Droubi | 0 | 1 | 7 | 36 |
-| Youssef Chentouf | 0 | 1 | 1 | 2 |
+| Kazaiah Sterling | 0 | 3 | 3 | 45 |
+| Hafed Al Droubi | 0 | 1 | 0 | 37 |
+| Youssef Chentouf | 0 | 1 | 3 | 2 |
 
 ### Yanited
 
@@ -103,10 +103,10 @@ Yanited had **Kadell Daniel** to thank, the forward delivering a **3-goal** perf
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Kadell Daniel | 3 | 0 | 1 | 14 |
-| Michael Folivi | 2 | 0 | 1 | 7 |
-| Medy Elito | 1 | 1 | 1 | 7 |
-| Joshua Emmanuel | 0 | 1 | 3 | 37 |
+| Kadell Daniel | 3 | 0 | 11 | 16 |
+| Michael Folivi | 2 | 0 | 3 | 7 |
+| Medy Elito | 1 | 1 | 3 | 7 |
+| Joshua Emmanuel | 0 | 1 | 0 | 38 |
 
 
 
@@ -118,54 +118,55 @@ Yanited had **Kadell Daniel** to thank, the forward delivering a **3-goal** perf
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Connor Wood | 6 | 2 | 9 |
-| Camilo Restrepo | 5 | 1 | 9 |
-| Joshua Abbott | 5 | 2 | 10 |
-| Kazaiah Sterling | 5 | 7 | 10 |
-| Danny Bassett | 4 | 1 | 9 |
+| Kazaiah Sterling | 9 | 7 | 12 |
+| Joshua Abbott | 7 | 2 | 12 |
+| Connor Wood | 6 | 3 | 11 |
+| Camilo Restrepo | 5 | 3 | 11 |
+| Danny Bassett | 5 | 2 | 11 |
 
 ### Yanited — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kadell Daniel | 14 | 3 | 7 |
-| Tyrell Miller-Rodney | 6 | 3 | 9 |
-| John Bostock | 4 | 1 | 7 |
-| Michael Folivi | 2 | 1 | 8 |
+| Kadell Daniel | 16 | 3 | 8 |
+| Tyrell Miller-Rodney | 6 | 5 | 10 |
+| John Bostock | 4 | 1 | 8 |
+| Michael Folivi | 4 | 1 | 9 |
 | Paul-José M'Poku | 2 | 2 | 7 |
 
 **Key Attacking Threats**
 
-- **Connor Wood** — SDS FC's talisman with **6 goals** from **9 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Kadell Daniel** — Yanited's leading marksman with **14 goals** from **7 outings**, plus **3 assists**. A proven match-winner who carries Yanited's main goal threat game after game.
+- **Kazaiah Sterling** — SDS FC's talisman with **9 goals** from **12 appearances** and **7 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Kadell Daniel** — Yanited's leading marksman with **16 goals** from **8 outings**, plus **3 assists**. A proven match-winner who carries Yanited's main goal threat game after game.
 
 
 ---
 
 ## Season Context
 
-With **1 gameweek** left in the regular season, the stakes couldn't have been higher. **SDS FC** entered this match averaging **3.3 goals per game** — a number that reflected their struggles in front of goal this campaign. **Yanited**, by contrast, arrived with an average of **3.4 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **1 gameweek** left in the regular season, the stakes couldn't have been higher. **SDS FC** entered this match averaging **3.9 goals per game** — a number that reflected their struggles in front of goal this campaign. **Yanited**, by contrast, arrived with an average of **3.8 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. For SDS FC, sitting **3rd** before kick-off, every remaining match carried the weight of a cup final. They were right in the thick of the playoff scramble. 
+The league-wide average stood at **7.3 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. For SDS FC, sitting **4th** before kick-off, every remaining match carried the weight of a cup final. They were right in the thick of the playoff scramble. 
 
 ---
 
 ## Head-to-Head History
 
-SDS FC and Yanited had locked horns **1 time** before this encounter, and the history books painted an intriguing picture. SDS FC had the historical edge with **1 win** to Yanited's **0**, with **0 draws** completing the record.
+SDS FC and Yanited had locked horns **2 times** before this encounter, and the history books painted an intriguing picture. SDS FC had the historical edge with **1 win** to Yanited's **0**, with **1 draw** completing the record.
 
 | GW | Result |
 |-----|--------|
+| 7 | SDS FC 2-2 Yanited |
 | 8 | SDS FC 3-2 Yanited |
 
 
 | H2H Stat | SDS FC | Yanited |
 |----------|--------|---------|
 | Wins | 1 | 0 |
-| Draws | 0 | 0 |
-| Goals Scored | 3 | 2 |
+| Draws | 1 | 1 |
+| Goals Scored | 5 | 4 |
 
-Total head-to-head goals: **5** across all meetings.
+Total head-to-head goals: **9** across all meetings.
 
 
 
@@ -173,12 +174,12 @@ Total head-to-head goals: **5** across all meetings.
 
 ## Table Impact
 
-SDS FC dropped to **5th**, yanited stayed at **7th**.
+SDS FC climbed to **3rd**, yanited climbed to **5th**.
 
 | Team | Before GW10 | After GW10 |
 |------|-------------|-------------|
-| SDS FC | 3rd | 5th |
-| Yanited | 7th | 7th |
+| SDS FC | 4th | 3rd |
+| Yanited | 6th | 5th |
 
 
 ---
@@ -188,17 +189,17 @@ SDS FC dropped to **5th**, yanited stayed at **7th**.
 | Stat | SDS FC | Yanited |
 |------|--------|---------|
 | Goals | 6 | 6 |
-| GC Goals | 5 | 5 |
+| GC Goals | 7 | 7 |
 | GC 1st Half (3Play) | 4 | 4 |
-| GC 2nd Half (1-on-1) | 1 | 1 |
+| GC 2nd Half (1-on-1) | 3 | 3 |
 
 ---
 
 ## Match Facts
 
 - A staggering **12-goal spectacle** — one of the highest-scoring matches in Baller League history
-- **5 of 12 goals (42%)** came during Game Changer activations
-- Kadell Daniel heads Yanited's scoring charts with **14 goals**, a tally any forward would be proud of
+- The GC period exploded with **7 goals** — an extraordinary return from just two rule-change windows
+- Kadell Daniel heads Yanited's scoring charts with **16 goals**, a tally any forward would be proud of
 
 ---
 

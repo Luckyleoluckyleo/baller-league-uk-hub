@@ -1,15 +1,15 @@
 ---
-title: "SDS FC Scrape Past Wembley Rangers AFC 3-2 in Tight GW1 Contest"
-date: 2026-05-26
+title: "SDS FC Edge Wembley Rangers AFC 3-2 in GW1 Thriller"
+date: 2026-03-16
 category: "Match Report"
-excerpt: "SDS FC 3-2 Wembley Rangers AFC — Gameweek 1 match report. Connor Wood (6 goals) leads SDS FC's attack. Game Changers: Plus One (1) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "SDS FC 3-2 Wembley Rangers AFC — Gameweek 1 match report. Kazaiah Sterling (9 goals) leads SDS FC's attack. Game Changers: Plus One (1) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
 featured: false
 ---
 
 ## Match Summary — SDS FC 3-2 Wembley Rangers AFC
 
-The lights were bright at Baller Arena on Gameweek 1, where **SDS FC** and **Wembley Rangers AFC** served up a nail-biter that could have swung either way, decided by the finest of details.
+The Gameweek 1 spotlight fell on Baller Arena for **SDS FC** versus **Wembley Rangers AFC** — a nail-biter that could have swung either way, decided by the finest of details.
 
 When the dust settled, it was **SDS FC** who emerged **3-2** victors. The Game Changer window — **Plus One** and **The Line** — proved pivotal, contributing **2** of the match's **5** goals.
 
@@ -21,11 +21,11 @@ When the dust settled, it was **SDS FC** who emerged **3-2** victors. The Game C
 
 ### First Half
 
-The tactical landscape shifted dramatically at 12 minutes as the **Plus One** Game Changer took hold — the period yielded **1** goal, just enough to set the contest alight. The sides went in with SDS FC just in front, a narrow advantage that kept everything delicately poised.
+The game's complexion changed at the 12th minute when the **Plus One** Game Changer activated — a **1-goal** window that gave the half an electric pulse. SDS FC took a slender lead into half-time — nothing decisive, but enough to shift the psychological battle in their favour.
 
 ### Second Half
 
-The second half resumed with all to play for, and at the 27-minute mark the **The Line** Game Changer cranked up the intensity once more — the **1** goal it produced came at a crucial juncture, swinging momentum decisively. It was edge-of-your-seat stuff in the closing minutes. Wembley Rangers AFC pressed and probed, but SDS FC's back-line stood firm — resilient, organised, and ultimately heroic.
+The 27th minute brought the **The Line** Game Changer thundering into the match — a moment that would prove pivotal — the **1** goal it produced came at a crucial juncture, swinging momentum decisively. It was edge-of-your-seat stuff in the closing minutes. Wembley Rangers AFC pressed and probed, but SDS FC's back-line stood firm — resilient, organised, and ultimately heroic.
 
 ---
 
@@ -34,15 +34,15 @@ The second half resumed with all to play for, and at the 27-minute mark the **Th
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **5′** — **Danny Bassett** (SDS FC) broke the deadlock
-- **6′** — **Dominic Morgan Griffiths** (Wembley Rangers AFC) found the target
-- **14′** — **Camilo Restrepo** (SDS FC) struck
-- **25′** — **Camilo Restrepo** (SDS FC) scored
-- **29′** — **Devonte Totesaut** (Wembley Rangers AFC) struck
+- **6′** — **Dominic Morgan-Griffiths** (Wembley Rangers AFC) struck
+- **14′** — **Camilo Restrepo** (SDS FC) converted
+- **25′** — **Camilo Restrepo** (SDS FC) slotted
+- **29′** — **Devonte Totesaut** (Wembley Rangers AFC) slotted
 
 | Minute | Player | Team |
 |--------|--------|------|
 | 5′ | Danny Bassett | SDS FC |
-| 6′ | Dominic Morgan Griffiths | Wembley Rangers AFC |
+| 6′ | Dominic Morgan-Griffiths | Wembley Rangers AFC |
 | 14′ | Camilo Restrepo | SDS FC |
 | 25′ | Camilo Restrepo | SDS FC |
 | 29′ | Devonte Totesaut | Wembley Rangers AFC |
@@ -73,15 +73,16 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Camilo Restrepo | 2 | 0 | 0 | 0 |
-| Danny Bassett | 1 | 0 | 0 | 0 |
+| Camilo Restrepo | 2 | 0 | 3 | 14 |
+| Danny Bassett | 1 | 0 | 3 | 3 |
+| Joshua Abbott | 0 | 1 | 3 | 8 |
 
 ### Wembley Rangers AFC
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Dominic Morgan Griffiths | 1 | 0 | 0 | 0 |
-| Devonte Totesaut | 1 | 0 | 0 | 0 |
+| Dominic Morgan-Griffiths | 1 | 0 | 4 | 21 |
+| Devonte Totesaut | 1 | 0 | 3 | 2 |
 
 
 
@@ -93,35 +94,35 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Connor Wood | 6 | 2 | 9 |
-| Camilo Restrepo | 5 | 1 | 9 |
-| Joshua Abbott | 5 | 2 | 10 |
-| Kazaiah Sterling | 5 | 7 | 10 |
-| Danny Bassett | 4 | 1 | 9 |
+| Kazaiah Sterling | 9 | 7 | 12 |
+| Joshua Abbott | 7 | 2 | 12 |
+| Connor Wood | 6 | 3 | 11 |
+| Camilo Restrepo | 5 | 3 | 11 |
+| Danny Bassett | 5 | 2 | 11 |
 
 ### Wembley Rangers AFC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Domingos Pires | 9 | 2 | 10 |
-| Callam Gardner | 7 | 1 | 9 |
-| Kristian Campbell | 3 | 1 | 9 |
-| Ben Long | 2 | 1 | 8 |
-| Abdulahi Abdulazeez | 1 | 0 | 7 |
+| Domingos Pires | 9 | 2 | 11 |
+| Callam Gardner | 7 | 1 | 10 |
+| Finlay Chadwick | 4 | 0 | 10 |
+| Kristian Campbell | 3 | 1 | 10 |
+| Ben Long | 2 | 1 | 9 |
 
 **Key Attacking Threats**
 
-- **Connor Wood** — SDS FC's talisman with **6 goals** from **9 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Domingos Pires** — Wembley Rangers AFC's leading marksman with **9 goals** from **10 outings**, plus **2 assists**. Wembley Rangers AFC look to him whenever they need a moment of magic in the final third.
+- **Kazaiah Sterling** — SDS FC's talisman with **9 goals** from **12 appearances** and **7 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Domingos Pires** — Wembley Rangers AFC's leading marksman with **9 goals** from **11 outings**, plus **2 assists**. Wembley Rangers AFC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **SDS FC** entered this match averaging **3.3 goals per game** — a number that reflected their struggles in front of goal this campaign. **Wembley Rangers AFC**, by contrast, arrived with an average of **3.4 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **SDS FC** entered this match averaging **3.9 goals per game** — a number that reflected their struggles in front of goal this campaign. **Wembley Rangers AFC**, by contrast, arrived with an average of **3.2 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.3 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -139,8 +140,8 @@ SDS FC held steady, wembley rangers afc held steady.
 
 | Team | Before GW1 | After GW1 |
 |------|-------------|-------------|
-| SDS FC | — | 1st |
-| Wembley Rangers AFC | — | 6th |
+| SDS FC | — | 2nd |
+| Wembley Rangers AFC | — | 9th |
 
 
 ---

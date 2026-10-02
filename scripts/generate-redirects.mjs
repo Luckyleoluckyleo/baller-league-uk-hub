@@ -26,11 +26,6 @@ for (const [idx, { season, match }] of matches.entries()) {
   lines.push(`/match/${idx + 1}/  /match/${slug}/  301`);
 }
 
-lines.push("");
-lines.push("# Redirect old /match/s3-* format to /news/ (previous routing scheme)");
-lines.push("/match/s3-*  /news/:splat  301");
-lines.push("");
-
 writeFileSync(resolve(DIST, "_redirects"), lines.join("\n"), "utf-8");
 
 console.log(`✓ Generated ${matches.length} match ID redirects → dist/_redirects`);

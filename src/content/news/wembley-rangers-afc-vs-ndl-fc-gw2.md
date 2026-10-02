@@ -1,6 +1,6 @@
 ---
-title: "Wembley Rangers AFC and NDL FC Finish 2-2 in Hard-Fought GW2 Draw"
-date: 2026-05-26
+title: "Wembley Rangers AFC and NDL FC Play Out 2-2 Draw in Gameweek 2"
+date: 2026-03-23
 category: "Match Report"
 excerpt: "Wembley Rangers AFC 2-2 NDL FC — Gameweek 2 match report. Domingos Pires (9 goals) leads Wembley Rangers AFC's attack. Game Changers: Onside (0) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Fan Site"
@@ -9,12 +9,12 @@ featured: false
 
 ## Match Summary — Wembley Rangers AFC 2-2 NDL FC
 
-Tensions were high at Baller Arena as **Wembley Rangers AFC** squared off against **NDL FC** in a compelling advert for Baller League football — competitive, dramatic, and hard-fought.
+Football took center stage at Baller Arena when **Wembley Rangers AFC** met **NDL FC** in a compelling advert for Baller League football — competitive, dramatic, and hard-fought.
 
-NDL FC, sitting pretty in the Final Four places at 3rd, knew a win here would tighten their grip. The final whistle confirmed a **2-2 draw**, a result that felt about right in a match where both sides gave everything. The Game Changer window — **Onside** and **The Line** — proved pivotal, contributing **1** of the match's **4** goals.
+The final whistle confirmed a **2-2 draw**, a result that felt about right in a match where both sides gave everything. The Game Changer window — **Onside** and **The Line** — proved pivotal, contributing **1** of the match's **4** goals.
 
-**Wembley Rangers AFC form (before GW2):** ✅ ❌ (W-L)  
-**NDL FC form (before GW2):** ❌ ✅ (L-W)
+**Wembley Rangers AFC form (before GW2):** ❌ ✅ ❌ (L-W-L)  
+**NDL FC form (before GW2):** ❌ ❌ ✅ (L-L-W)
 
 ---
 
@@ -22,11 +22,11 @@ NDL FC, sitting pretty in the Final Four places at 3rd, knew a win here would ti
 
 ### First Half
 
-Barely a dozen minutes had passed when **Onside** transformed the match into something altogether different — yet for all the altered rules, the defences stood tall and the deadlock remained stubbornly intact. The two sides trudged off level at the break — nothing separating them in what was shaping up to be a classic arm-wrestle.
+At the 12th minute, the **Onside** Game Changer roared into action — but the goalkeepers and back-lines rose to the occasion, keeping the scoreboard operator idle throughout the activation. By the interval it was impossible to call a winner. The contest was beautifully balanced, with everything still to play for.
 
 ### Second Half
 
-The tension was palpable at the restart, and the **The Line** Game Changer at 27 minutes only dialled it up — and it delivered **1** goal at just the right moment to breathe fresh life into the match. Both sides strained every sinew for a winner but the decisive blow never landed. A draw was the fairest outcome in a match where no team deserved to lose.
+The 27th minute brought the **The Line** Game Changer thundering into the match — a moment that would prove pivotal — and it delivered **1** goal at just the right moment to breathe fresh life into the match. Late drama threatened but never materialised, both teams having to accept a point apiece in what felt like a war of attrition.
 
 ---
 
@@ -36,8 +36,8 @@ The goals arrived in a dramatic sequence that told the story of the match:
 
 - **10′** — **Isaac Modi** (NDL FC) drew first blood
 - **20′** — **Callam Gardner** (Wembley Rangers AFC) slotted
-- **23′** — **Kristian Campbell** (Wembley Rangers AFC) found the target
-- **29′** — **Sam Fitzgerald** (NDL FC) found the target
+- **23′** — **Kristian Campbell** (Wembley Rangers AFC) slotted
+- **29′** — **Sam Fitzgerald** (NDL FC) struck
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -70,15 +70,18 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Callam Gardner | 1 | 0 | 0 | 0 |
-| Kristian Campbell | 1 | 0 | 0 | 0 |
+| Callam Gardner | 1 | 0 | 3 | 1 |
+| Kristian Campbell | 1 | 0 | 1 | 9 |
+| Max Pitman | 0 | 1 | 0 | 20 |
 
 ### NDL FC
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Sam Fitzgerald | 1 | 0 | 0 | 0 |
-| Isaac Modi | 1 | 0 | 0 | 0 |
+| Sam Fitzgerald | 1 | 0 | 7 | 23 |
+| Isaac Modi | 1 | 0 | 5 | 4 |
+| Ciaran Clark | 0 | 1 | 3 | 29 |
+| Dara Dada | 0 | 1 | 2 | 7 |
 
 
 
@@ -90,35 +93,35 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Domingos Pires | 9 | 2 | 10 |
-| Callam Gardner | 7 | 1 | 9 |
-| Kristian Campbell | 3 | 1 | 9 |
-| Ben Long | 2 | 1 | 8 |
-| Abdulahi Abdulazeez | 1 | 0 | 7 |
+| Domingos Pires | 9 | 2 | 11 |
+| Callam Gardner | 7 | 1 | 10 |
+| Finlay Chadwick | 4 | 0 | 10 |
+| Kristian Campbell | 3 | 1 | 10 |
+| Ben Long | 2 | 1 | 9 |
 
 ### NDL FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Dara Dada | 8 | 5 | 10 |
-| Sam Fitzgerald | 8 | 4 | 10 |
-| Isaac Modi | 6 | 1 | 10 |
-| Joshua Parker | 6 | 3 | 7 |
-| Kevin Weggen | 6 | 0 | 0 |
+| Sam Fitzgerald | 10 | 4 | 13 |
+| Dara Dada | 9 | 5 | 13 |
+| Isaac Modi | 7 | 2 | 13 |
+| Josh Parker | 7 | 3 | 9 |
+| Kevin Weggen | 7 | 0 | 8 |
 
 **Key Attacking Threats**
 
-- **Domingos Pires** — Wembley Rangers AFC's talisman with **9 goals** from **10 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Dara Dada** — NDL FC's leading marksman with **8 goals** from **10 outings**, plus **5 assists**. NDL FC look to him whenever they need a moment of magic in the final third.
+- **Domingos Pires** — Wembley Rangers AFC's talisman with **9 goals** from **11 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Sam Fitzgerald** — NDL FC's leading marksman with **10 goals** from **13 outings**, plus **4 assists**. NDL FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **Wembley Rangers AFC** entered this match averaging **3.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **NDL FC**, by contrast, arrived with an average of **4.4 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **Wembley Rangers AFC** entered this match averaging **3.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **NDL FC**, by contrast, arrived with an average of **4.4 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.3 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -132,12 +135,12 @@ This was the **maiden competitive meeting** between Wembley Rangers AFC and NDL 
 
 ## Table Impact
 
-Wembley Rangers AFC stayed at **6th**, ndl fc climbed to **2nd**.
+Wembley Rangers AFC dropped to **10th**, ndl fc climbed to **2nd**.
 
 | Team | Before GW2 | After GW2 |
 |------|-------------|-------------|
-| Wembley Rangers AFC | 6th | 6th |
-| NDL FC | 3rd | 2nd |
+| Wembley Rangers AFC | 9th | 10th |
+| NDL FC | 5th | 2nd |
 
 
 ---
@@ -156,6 +159,7 @@ Wembley Rangers AFC stayed at **6th**, ndl fc climbed to **2nd**.
 ## Match Facts
 
 - **1 of 4 goals (25%)** came during Game Changer activations
+- Sam Fitzgerald heads NDL FC's scoring charts with **10 goals**, a tally any forward would be proud of
 
 ---
 
