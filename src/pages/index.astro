@@ -154,13 +154,13 @@ const schema = {
             <span class="hero-metric-sub">{leader.pts} pts</span>
           </a>
           <a href={`/players/${topScorer.slug}`} class="hero-metric">
-            <img src={`/players/${topScorer.slug}.webp`} alt="" class="hero-metric-img hero-metric-img--round" width="40" height="40" loading="lazy" onerror="this.style.visibility='hidden'" />
+            <img src={`/players/thumb/${topScorer.slug}.webp`} alt="" class="hero-metric-img hero-metric-img--round" width="40" height="40" loading="lazy" onerror="this.style.visibility='hidden'" />
             <span class="hero-metric-label">Top scorer</span>
             <span class="hero-metric-value">{topScorer.name}</span>
             <span class="hero-metric-sub">{s3(topScorer).goals} goals</span>
           </a>
           <a href={`/players/${topAssist.slug}`} class="hero-metric">
-            <img src={`/players/${topAssist.slug}.webp`} alt="" class="hero-metric-img hero-metric-img--round" width="40" height="40" loading="lazy" onerror="this.style.visibility='hidden'" />
+            <img src={`/players/thumb/${topAssist.slug}.webp`} alt="" class="hero-metric-img hero-metric-img--round" width="40" height="40" loading="lazy" onerror="this.style.visibility='hidden'" />
             <span class="hero-metric-label">Most assists</span>
             <span class="hero-metric-value">{topAssist.name}</span>
             <span class="hero-metric-sub">{s3(topAssist).assists} assists</span>
@@ -191,12 +191,12 @@ const schema = {
         <MiniLeaderboard
           title="Top Scorers"
           icon="⚽"
-          rows={topScorers.map((p: any) => ({ name: p.name, url: `/players/${p.slug}`, photo: `/players/${p.slug}.webp`, team: p.team, teamLogo: `/logos/${p.teamSlug}.svg`, value: s3(p).goals }))}
+          rows={topScorers.map((p: any) => ({ name: p.name, url: `/players/${p.slug}`, photo: `/players/thumb/${p.slug}.webp`, team: p.team, teamLogo: `/logos/${p.teamSlug}.svg`, value: s3(p).goals }))}
         />
         <MiniLeaderboard
           title="Top Assists"
           icon="🅰️"
-          rows={topAssists.map((p: any) => ({ name: p.name, url: `/players/${p.slug}`, photo: `/players/${p.slug}.webp`, team: p.team, teamLogo: `/logos/${p.teamSlug}.svg`, value: s3(p).assists }))}
+          rows={topAssists.map((p: any) => ({ name: p.name, url: `/players/${p.slug}`, photo: `/players/thumb/${p.slug}.webp`, team: p.team, teamLogo: `/logos/${p.teamSlug}.svg`, value: s3(p).assists }))}
         />
         <MiniLeaderboard
           title="Best Defence"

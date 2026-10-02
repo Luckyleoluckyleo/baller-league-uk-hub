@@ -215,7 +215,7 @@ const schema = {
                   <td class="text-muted">{p.number || '—'}</td>
                   <td>
                     <a href={`/players/${p.slug}`} class="td-team-name" style="gap: 6px;">
-                      <img src={`/players/${p.slug}.webp`} alt={p.name} class="player-thumb-xs" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
+                      <img src={`/players/thumb/${p.slug}.webp`} alt={p.name} class="player-thumb-xs" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
                       <span class="player-thumb-fallback-xs">{p.name.split(' ').map((n: string) => n[0]).join('').slice(0,2).toUpperCase()}</span>
                       <span>{p.name}</span>
                     </a>
