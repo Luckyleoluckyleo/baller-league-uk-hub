@@ -4,7 +4,9 @@
 
 A static Astro website providing stats, tables, teams, players, gamechanger analysis, and news for Baller League UK — a 6v6 celebrity football league. Hosted on Netlify at `ballerleagueukhub.com`.
 
-**Tech stack:** Astro 4 (SSG), vanilla CSS, GitHub + Netlify CI/CD
+**Tech stack:** Astro 4 (SSG), vanilla CSS + vanilla JS, `sharp` for OG image generation, GitHub + Netlify CI/CD.
+
+> **No frontend framework and no chart library.** All interactivity (GW nav, season tabs, h2h picker, player search/sort, frequency tables) is hand-written inline `<script>`. Do not add React/Vue/Chart.js — match the existing style.
 
 ---
 
@@ -13,12 +15,13 @@ A static Astro website providing stats, tables, teams, players, gamechanger anal
 ### Every gameweek:
 
 **Step 1 — Update fixtures (MANUAL)**
-Edit `src/data/fixtures.json` with next gameweek's fixtures. The Baller League site usually posts them mid-week. Format:
+Edit `src/data/fixtures.json` with next gameweek's fixtures. The Baller League site usually posts them mid-week.
+
 ```json
 {
   "upcoming": [
     {
-      "gameweek": 11,
+      "gameweek": 13,
       "homeTeam": "NDL FC",
       "homeSlug": "ndl-fc",
       "homeEmoji": "🏆",
@@ -28,23 +31,27 @@ Edit `src/data/fixtures.json` with next gameweek's fixtures. The Baller League s
       "date": "18 May 2026",
       "time": "18:00"
     }
-    // ... 6 fixtures total
   ],
   "results": []
 }
 ```
 
+Notes:
+- Only `upcoming` drives generated content. `results[]` is currently read by **nothing** — see Known Issues.
+- Knockout games use a `stage` field (`"Semi-Final"`, `"Final"`). Pages test for `.round`, not `.stage` — another Known Issue.
+- **If `upcoming` is empty, `generate-previews.mjs` writes nothing** and all existing `*-preview.md` files become orphans. This is the current state of the repo.
+
 **Step 2 — Run the update**
 ```bash
 npm run update
 ```
-This scrapes ALL fresh data, regenerates match reports and previews, builds the site. Takes ~2-3 minutes.
+Scrapes all fresh data, regenerates match reports/previews/OG images, builds the site. Takes ~2–3 minutes.
 
 **Step 3 — Preview locally (optional)**
 ```bash
 npm run dev
 ```
-Opens dev server at `http://localhost:4321`. Check the site looks right.
+Dev server at `http://localhost:4321`.
 
 **Step 4 — Deploy**
 ```bash
@@ -52,185 +59,400 @@ git add -A
 git commit -m "GW{week} update"
 git push
 ```
-Netlify auto-deploys on push. Site goes live in ~2 minutes.
+Netlify auto-deploys on push (~2 min).
 
 ### If something goes wrong:
 
-- **Stale data?** Delete `scripts/.cache/*.html` and re-run `npm run update`
-- **Player stats wrong?** Delete `scripts/.cache-players/player-*.html` and re-run `npm run update`
-- **Missing matches?** Game IDs may have gone beyond 350 (the scan ceiling). Increase it in `scripts/scrape.mjs` (search for `350`).
-- **Site broken?** Run `npm run build` directly to see the error, then run `npm run dev` to debug.
+| Symptom | Fix |
+|---|---|
+| Stale match data | Delete `scripts/.cache/*.html`, re-run `npm run update` |
+| Wrong player stats | Delete `scripts/.cache-players/player-*.html`, re-run |
+| Missing matches | Game IDs may have passed the scan ceiling of **350** (`scripts/scrape.mjs`, appears twice — the loop bound and the log string) |
+| Match reports missing for older seasons | `npm run update` only generates **Season 3**. Run `node scripts/generate-reports.mjs --season=all` manually |
+| No previews generated | `fixtures.json` → `upcoming` is empty |
+| Build broken | `npm run build` directly for the real error, then `npm run dev` |
+| OG image script crashes on `sharp` | `sharp` is undeclared in `package.json` — see Known Issues |
+
+---
+
+## Architecture: two stages
+
+The pipeline splits cleanly into two halves that never talk to each other. Understanding this is the single most useful thing in this file.
+
+```
+STAGE 1 — SCRAPE (network I/O, cached, non-deterministic)
+  ballerleague.uk
+    ├─ scrape.mjs          → src/data/gamechangers.json   (123 matches, 3 seasons)
+    ├─ scrape-ep.mjs       → src/data/table.json          (mutates ONLY `ep`)
+    └─ scrape-players.mjs  → src/data/players.json        (162 players, S3 only)
+
+STAGE 2 — GENERATE + BUILD (pure functions of the JSON, deterministic)
+  generate-reports.mjs    → src/content/news/{h}-vs-{a}-gw{n}.md
+  generate-previews.mjs   → src/content/news/{h}-vs-{a}-gw{n}-preview.md
+  generate-og.mjs         → public/og-default.png
+  generate-og-images.mjs  → public/og/{slug}.png
+  astro build             → dist/
+  generate-redirects.mjs  → dist/_redirects      (post-build)
+  generate-sitemap.mjs    → dist/sitemap.xml     (post-build)
+```
+
+**Stage 1 is allowed to be wrong/temporary. Stage 2 is a pure function of Stage 1's output.** If you need to change how content reads, edit Stage 2. If you need different data, edit Stage 1.
+
+`scripts/update.mjs` runs both stages in order and **fails fast** (`process.exit(1)` on first failure) — there is no partial-state recovery.
+
+---
+
+## Source of truth
+
+> **`src/data/gamechangers.json` is authoritative.**
+
+Every W/D/L/GF/GA/GD/PTS figure on the site is **recomputed at build time from raw match results** in `gamechangers.json`. Pages do their own local computation; there is no shared lib (see below).
+
+`src/data/table.json` is **not** the league table. It is effectively:
+1. A carrier for team metadata (`slug`, `emoji`) that pages need for lookups
+2. A holder for `ep` (Extra Points), the one value that cannot be derived from match data
+
+Everything else in `table.json` (`played`, `won`, `gf`, `pts`, …) is **stale by design** and gets overwritten in-page. This is why a `table.json` stuck at `played: 9` while the scraper holds 12 gameweeks does not break the site. **Do not "fix" table.json by hand** — edit the computation or the scraper instead.
+
+Likewise `src/data/players.json` is a **separate scrape** from match data, and contains **Season 3 only**. S1/S2 player stats are not available anywhere.
 
 ---
 
 ## Project structure
 
 ```
-bluk-hub/
-├── astro.config.mjs          # Site config: URL, output mode (static)
-├── netlify.toml              # Netlify build settings
-├── package.json              # Dependencies + scripts
-├── AGENTS.md                 # This file
-├── public/                   # Static files served as-is
-│   ├── ads.txt               # Google AdSense publisher file
-│   ├── robots.txt            # SEO: crawl rules + sitemap link
-│   ├── favicon.svg
-│   ├── logo.svg
-│   ├── logos/                # Team logo SVGs
-│   ├── managers/             # Manager headshot images
-│   ├── players/              # Player headshot images
-│   └── google*.html          # Google Search Console verification
-├── scripts/                  # Build-time data pipeline
-│   ├── scrape.mjs            # Scrapes match results → gamechangers.json
-│   ├── scrape-ep.mjs         # Scrapes EP values → table.json
-│   ├── scrape-players.mjs    # Scrapes player stats (via AJAX) → players.json
-│   ├── generate-reports.mjs  # Generates rich match reports → content/news/
-│   ├── generate-previews.mjs # Generates fixture previews → content/news/
-│   ├── generate-og.mjs       # Generates OG image → dist/
-│   ├── generate-sitemap.mjs  # Generates sitemap.xml → dist/
-│   ├── update.mjs            # Master pipeline: runs all of the above + build
-│   ├── .cache/               # HTTP cache for match page scraping
-│   └── .cache-players/       # HTTP cache for player page scraping (main + AJAX)
-├── src/
-│   ├── components/           # Reusable Astro components
-│   │   ├── Nav.astro         # Navigation bar
-│   │   ├── Footer.astro      # Footer
-│   │   ├── TeamCard.astro    # Team card component
-│   │   ├── PlayerCard.astro  # Player card component
-│   │   └── NewsCard.astro    # News card component
-│   ├── layouts/
-│   │   └── Base.astro        # Root layout: <html>, <head>, SEO meta, JSON-LD schemas, AdSense
-│   ├── pages/                # Routes (file-based routing)
-│   │   ├── index.astro       # Homepage (mini table, recent results, upcoming, news)
-│   │   ├── table.astro       # League table + fixtures + results (client-side GW nav)
-│   │   ├── roundup/[gw].astro # Per-gameweek roundup (SSG: 1 page per GW)
-│   │   ├── roundup/index.astro # Redirect to latest GW
-│   │   ├── teams/[slug].astro # Team detail (hero, form bar, stats cards, results grid, mini table, squad)
-│   │   ├── teams/index.astro  # All teams overview
-│   │   ├── players/[slug].astro # Player detail page (~162 pages)
-│   │   ├── players/index.astro  # All players + leaderboard
-│   │   ├── news/[slug].astro   # News article page (match reports + previews)
-│   │   ├── news/index.astro    # All news listing
-│   │   ├── match/[slug].astro  # Match detail page — descriptive slug: /match/s3-ndl-fc-vs-gold-devils-fc-gw10/
-│   │   ├── rules.astro         # Rules & format guide
-│   │   ├── gamechangers.astro  # Gamechanger analysis (client-side charts + tables)
-│   │   ├── h2h.astro           # Head-to-head comparison tool
-│   │   ├── watch.astro         # Where to watch
-│   │   ├── compare.astro       # Redirect to rules
-│   │   └── 404.astro           # 404 page
-│   ├── data/                 # JSON data files (auto-generated or manual)
-│   │   ├── gamechangers.json # All match results across seasons (AUTO — scrape.mjs)
-│   │   ├── players.json      # Player stats: goals, assists, apps (AUTO — scrape-players.mjs)
-│   │   ├── table.json        # Standings — EP values only (AUTO — scrape-ep.mjs)
-│   │   └── fixtures.json     # Upcoming fixtures (MANUAL — update weekly)
-│   ├── content/              # Markdown content collections
-│   │   ├── news/             # Auto-generated match reports + previews
-│   │   ├── teams/            # Team profiles (written content — static)
-│   │   ├── players/          # Player profiles (written content — static)
-│   │   └── config.ts         # Content collection definitions
-│   └── styles/
-│       └── global.css        # Global styles + CSS custom properties
-└── dist/                     # Build output (gitignored, deployed to Netlify)
+baller-league-uk-hub/
+├── astro.config.mjs          # site: https://ballerleagueukhub.com, output: static
+├── netlify.toml              # build cmd, NODE_VERSION=20, 2 static redirects
+├── package.json              # scripts + deps
+├── AGENTS.md                 # this file
+├── tsconfig.json
+├── public/
+│   ├── ads.txt               # AdSense publisher file
+│   ├── robots.txt
+│   ├── favicon.svg, logo.svg
+│   ├── og-default.svg/.png   # default OG (PNG is generated)
+│   ├── og/                   # per-article OG images (86 PNGs, generated)
+│   ├── logos/                # 12 team logo SVGs
+│   ├── managers/             # 12 manager headshots (.webp)
+│   ├── players/              # player headshots (.webp)
+│   ├── admin/                # Decap CMS (index.html + config.yml)
+│   └── google*.html          # Search Console verification
+├── scripts/                  # 11 scripts — see Scripts reference
+│   ├── update.mjs            # orchestrator (8 stages)
+│   ├── scrape.mjs            # match results
+│   ├── scrape-ep.mjs         # EP values
+│   ├── scrape-players.mjs    # player stats
+│   ├── scrape-assets.mjs     # team logos  ⚠ NOT in pipeline
+│   ├── generate-reports.mjs  # match reports
+│   ├── generate-previews.mjs # fixture previews
+│   ├── generate-og.mjs       # default OG PNG
+│   ├── generate-og-images.mjs# per-article OG PNGs
+│   ├── generate-redirects.mjs# dist/_redirects  (post-build)
+│   ├── generate-sitemap.mjs  # dist/sitemap.xml (post-build)
+│   ├── .cache/               # gitignored — match page HTML
+│   └── .cache-players/       # gitignored — player page HTML + AJAX
+└── src/
+    ├── components/           # Nav, Footer, Breadcrumb, TeamCard, PlayerCard, NewsCard
+    ├── layouts/
+    │   └── Base.astro        # <head>, SEO meta, JSON-LD, AdSense, breadcrumb
+    ├── pages/                # 26 files — see Routes
+    ├── data/                 # the 4 JSON files that drive everything
+    │   ├── gamechangers.json # AUTO — all matches, all seasons
+    │   ├── players.json      # AUTO — player stats (S3 only)
+    │   ├── table.json        # AUTO (ep only) — team metadata carrier
+    │   └── fixtures.json     # MANUAL — upcoming + results
+    ├── content/              # 4 collections
+    │   ├── teams/    (12)    # hand-written profiles
+    │   ├── players/  (44)    # hand-written profiles
+    │   ├── managers/ (13)    # hand-written profiles
+    │   ├── news/     (88)    # 72 generated reports + 14 generated previews + 2 hand-written
+    │   └── config.ts         # collection schemas
+    └── styles/
+        └── global.css        # design tokens + shared classes
 ```
+
+### There is no `src/lib/` or `src/utils/`
+
+Standings computation, match-slug construction, team/emoji lookup, and player-name→slug linking are **duplicated inline in every page that needs them**. This is the main source of inconsistency in the codebase. When changing slug or standings logic, grep for it — you will find 5+ copies.
+
+---
+
+## Scripts reference
+
+| Script | Reads | Writes | In `npm run update`? | Flags |
+|---|---|---|---|---|
+| `update.mjs` | — | — | entrypoint | — |
+| `scrape.mjs` | `scripts/.cache/{id}.html` (read-through) | `src/data/gamechangers.json` | 1/9 | — |
+| `scrape-standings.mjs` | `gamechangers.json` + `/en/game/{id}` | `src/data/standings.json`, `table.json` (`ep`) | 2/9 | — |
+| `scrape-players.mjs` | `scripts/.cache-players/` | `src/data/players.json` | 3/9 | — |
+| `generate-reports.mjs` | all data JSON | `src/content/news/{h}-vs-{a}-gw{n}.md` | 4/9 | `--season=all` |
+| `generate-previews.mjs` | all data JSON | `src/content/news/{h}-vs-{a}-gw{n}-preview.md` | 5/9 | — |
+| `generate-og.mjs` | `public/og-default.svg` | `public/og-default.png` | 6/9 | — |
+| `generate-og-images.mjs` | `src/content/news/*.md` | `public/og/{slug}.png` | 7/9 | — |
+| `verify-data.mjs` | `gamechangers.json`, `players.json`, `standings.json` | stdout (exits 1 on mismatch) | 8/9 | `1 2 3` (season filter) |
+| `generate-redirects.mjs` | `gamechangers.json` | `dist/_redirects` | via build | — |
+| `generate-sitemap.mjs` | `dist/**` | `dist/sitemap.xml` | via build | — |
+| `scrape-ep.mjs` | `scripts/.cache/*.html`, `table.json` | `src/data/table.json` (`ep` only) | **⚠ superseded by `scrape-standings.mjs`** | — |
+| `scrape-assets.mjs` | — | `public/logos/{slug}.svg` | **⚠ NO — manual only** | — |
+
+**`generate-reports.mjs --season=all` is the only CLI flag in the generation scripts.** `verify-data.mjs` accepts optional season numbers. No script reads `process.env`.
+
+### Cache policy
+- `scripts/.cache/{id}.html` — match pages. Cache clearing is **deliberately commented out** in `update.mjs`. Old gameweeks are final and load instantly; new gameweeks aren't in cache so they fetch live. No invalidation, ever.
+- `scripts/.cache-players/` — three cache types: `list-page-{n}.html`, `player-{slug}.html`, `player-{slug}-s3.html`. Same no-invalidation policy.
+- `scrape-ep.mjs` has no cache of its own — it *consumes* `scrape.mjs`'s cache. It is **superseded by `scrape-standings.mjs`** (which also captures historical seasons) and is no longer in the pipeline.
+
+### Scrape mechanics worth knowing
+- **Match ID scan:** `ballerleague.uk/en/game/{id}` for IDs 1–450, in batches of 10 via `Promise.all`, 100 ms between batches. A page is a UK match if its header has **two recognised team names** (matched via the `bl-gameday-team-name` blocks; the `logo_{id}.svg` is a fallback since some logos come from a CDN without an id). HTTP 302 is followed by recursing into the `location` header's game ID.
+- **Teams are franchises keyed by official id/name, not display name.** The same franchise is renamed between seasons (`MVPs United`→`Prime`, `26ers`→`Gold Devils`, `Trebol FC`→`NDL`, `Santan FC`→`Clutch`, `F.C RTW`→`Rukkas`); `TEAMS` in `scrape.mjs` maps every historical name to one slug. `homeName`/`awayName` keep the season-accurate label; `homeTeam` is the canonical site name.
+- **Season detection is by match date:** two seasons per year — spring (Mar–Jun) and autumn (Sep–Feb). `S1=2025 spring, S2=2025 autumn (→Jan 2026), S3=2026 spring, S4=2026 autumn…`. Falls back to id ranges (`>=145`→S3, `>=70`→S2, else S1) when a date is missing.
+- **Goal detection** catches `Goal`, `Penalty`, and `Own Goal` timeline labels; GC goals come from `⚽` minute markers (12–15 min = first-half GC, 27–29 = second-half GC). GC labels are normalised via `GC_MAP` (`1v1`→`1on1`, `Fair Play`→`fairplay`, …).
+- **Player stats** are parsed per row from `#player-stats-container` (`G, A, S, T, PTY, R, C, P`). Tier-A extras (shots/passes/tackles/saves) come from `players.json`'s `detailed` map.
+- **`scrape-players.mjs` must hit the AJAX endpoint.** Player pages load S3 stats via JavaScript; the scraper extracts the S3 season ID from the `<select>` and fetches `/ajax/player/{slug}/stats/{seasonId}` directly. Skipping this yields wrong stats.
+- **`scrape-standings.mjs` is season-agnostic:** it reads the latest `gameId` per season from `gamechangers.json`, fetches that game page's `STANDINGS` table, writes `standings.json`, and syncs `table.json` EP. New seasons are picked up automatically.
+
+---
+
+## Data files
+
+### `src/data/gamechangers.json` — `{ definitions, seasons }`
+207 matches: **S1 = 69, S2 = 69, S3 = 69** (GWs 1–12 each; GW12 = Final Four, 3 games).
+
+```jsonc
+{
+  "definitions": { "firstHalf": [...], "secondHalf": [...] },  // 6 GC definitions
+  "seasons": {
+    "3": {
+      "label": "Season 3", "labelShort": "S3",
+      "matches": [{
+        "gameweek": 1,
+        "homeTeam": "Yanited", "homeSlug": "yanited", "homeEmoji": "👑",
+        "awayTeam": "N5 FC",    "awaySlug": "n5-fc",    "awayEmoji": "5️⃣",
+        "homeScore": 7, "awayScore": 2,
+        "gamechanger1": { "type": "plusone", "goalsScored": 3 },
+        "gamechanger2": { "type": "theline", "goalsScored": 1 },
+        "playerStats": [{ "name": "...", "team": "sds-fc", "goals": 2, "assists": 0, "...": 0 }],
+        "goalscorers":  [{ "minute": 29, "player": "Tyler Winters" }],
+        "matchDate": "24 Mar 2026",
+        "matchTime": "17:35"
+      }]
+    }
+  }
+}
+```
+
+Gotchas:
+- `playerStats[].team` is a **slug**; `goalscorers[]` has **no team field** — downstream must infer the scorer's side.
+- GC types are `onside` | `plusone` | `3play` (first half), `1on1` | `theline` | `fairplay` (second half), or `unknown`.
+- **GW11 + GW12 (Final Four / playoffs) are `type: "unknown"`** in both halves — those matches legitimately have no Game Changer. Several scripts and pages special-case this with a `|| m.gameweek === 12` carve-out.
+- GW12 packs **both semi-finals and the Final** into `gameweek: 12` with no `stage` field. Stage info lives only in `fixtures.json`.
+- `matchTime` can contain raw HTML from the source site.
+
+### `src/data/players.json` — `{ players: [...] }`
+182 players. Fields: `slug`, `name`, `team`, `teamSlug`, `position`, `age`, `number`, `seasons: { "3": { apps, goals, assists, detailed: {...} } }`.
+- **Season 3 is the only key that ever appears.**
+- `detailed` has ~16–23 keys per player and the set varies per player — it is not a fixed schema. Keys are scraped verbatim, so one contains an un-decoded `&amp;` entity.
+- `age` is `null` for all players (upstream regex never matches).
+
+### `src/data/table.json` — array of 12
+```jsonc
+{ "pos": 1, "team": "NDL FC", "slug": "ndl-fc", "emoji": "🏆",
+  "played": 9, "won": 6, "drawn": 2, "lost": 1,
+  "gf": 44, "ga": 30, "gd": 14, "ep": 0, "pts": 20 }
+```
+See **Source of truth** above. For the current season it carries the correct final table (EP synced by `scrape-standings.mjs`).
+
+### `src/data/standings.json` — `{ "1": [...], "2": [...], "3": [...] }`
+Official final table per season (one entry per team: `teamId, pos, team, slug, played, won, drawn, lost, gd, ep, pts`), captured by `scrape-standings.mjs`. This is the authoritative source for historical EP and is read by `verify-data.mjs` and the season pages.
+
+### `src/data/fixtures.json` — `{ upcoming, results }`
+Currently `upcoming: []` and `results` holds the 3 GW12 knockout games with a `stage` field.
+
+---
+
+## Routes
+
+26 files in `src/pages/`.
+
+**Static**
+| Route | Purpose |
+|---|---|
+| `/` | Homepage — mini table, recent results, upcoming, news |
+| `/table` | League table + fixtures + results, client-side GW nav |
+| `/gamechangers` | GC analysis — frequency, sequences, ratios, all client-side |
+| `/h2h` | Head-to-head comparison tool (team A/B pickers) |
+| `/rules` | Rules & format guide (largest static page, 25 KB) |
+| `/faq` | FAQ + FAQPage schema |
+| `/guide` | Viewing / participation guide |
+| `/records` | All-time records |
+| `/final-four` | **Playoff bracket page (40 KB — the largest file in the repo)** |
+| `/watch` | Where to watch |
+| `/sitemap` | Human-facing HTML sitemap page |
+| `/404` | Not found |
+
+**Dynamic**
+| Route | Notes |
+|---|---|
+| `/teams/`, `/teams/[slug]` | Index + detail (26 KB — hero, form bar, stats, squad) |
+| `/players/`, `/players/[slug]` | Index (search/filter/sort) + detail (162 pages) |
+| `/managers/`, `/managers/[slug]` | Manager profiles |
+| `/news/`, `/news/[slug]` | Article listing (category filter) + article |
+| `/match/[slug]` | Match scorecard, GC analysis, prev/next nav |
+| `/roundup/[gw]`, `/roundup/index` | Per-gameweek roundup; index is a meta-refresh redirect to latest GW |
+| `/season/[seasonId]`, `/season/index` | Season hub with client-side tab switching |
+
+**Endpoint**
+| Route | Notes |
+|---|---|
+| `/rss.xml` | `rss.xml.ts` — Astro endpoint, prerendered from the `news` collection |
 
 ---
 
 ## Data flow
 
 ```
-ballerleague.uk (official site)
-    ↓  scrape.mjs (scans game IDs 1-350, caches pages)
-gamechangers.json ────────────→ table.astro (computed W/D/L/GF/GA/PTS)
-    │                              ↓
-    │                         index.astro (mini table, recent results)
-    │                              ↓
-    │                         teams/[slug].astro (form, results, stats cards, mini table)
-    │
-    ├──→ roundup/[gw].astro (per-GW results + top performers)
-    ├──→ match/[slug].astro (scorecard, GC analysis, match report link, prev/next nav)
-    ├──→ players/index.astro (leaderboards — goals, assists, appearances, GC goals)
-    ├──→ gamechangers.astro (frequency, sequences, ratios, charts — all client-side)
-    └──→ h2h.astro (featured rivalry + comparison tool)
+ballerleague.uk
+    ↓ scrape.mjs (IDs 1–350, cached)          ↓ scrape-ep.mjs        ↓ scrape-players.mjs (+AJAX)
+gamechangers.json ──┬──→ table.astro, index.astro, teams/[slug].astro,
+                    │      h2h.astro, gamechangers.astro, records.astro,
+                    │      final-four.astro, season/[seasonId].astro
+                    ├──→ roundup/[gw].astro
+                    ├──→ match/[slug].astro
+                    └──→ players/index.astro (leaderboards)
 
-ballerleague.uk (official site)
-    ↓  scrape-ep.mjs
-table.json (EP values only — W/D/L/GF/GA/PTS computed from gamechangers.json)
+players.json ───────┬──→ players/[slug].astro, players/index.astro
+                    └──→ teams/[slug].astro (squad), managers/[slug].astro
 
-ballerleague.uk (official site)
-    ↓  scrape-players.mjs (main page + AJAX endpoint for S3 stats)
-players.json ────────────────→ players/[slug].astro (goals, assists, apps, detailed stats)
-    │                              ↓
-    │                         players/index.astro (leaderboard)
-    │                              ↓
-    │                         teams/[slug].astro (squad table sorted by goals)
-    │
-    ├──→ generate-reports.mjs ──→ content/news/*.md → news/[slug].astro
-    └──→ generate-previews.mjs ──→ content/news/*.md (reads from fixtures.json)
+table.json (ep + metadata) ──→ table.astro, teams/[slug].astro, generate-reports.mjs
+fixtures.json (upcoming) ─────→ index.astro, table.astro, watch.astro, guide.astro,
+                                 teams/[slug].astro, generate-previews.mjs
+
+gamechangers.json + players.json + table.json + fixtures.json
+                    └──→ generate-reports.mjs ──→ content/news/*.md ──→ news/[slug].astro
+                                 generate-previews.mjs ──→ content/news/*.md
+                                 generate-og-images.mjs ──→ public/og/*.png
+
+hand-written content: teams/, players/, managers/ ──→ their [slug] pages
 ```
 
 ---
 
 ## Key technical details
 
-### Scraping pipeline (`npm run update`)
-
-Runs in order:
-1. **scrape.mjs** — Scans `ballerleague.uk/en/game/{id}` for IDs 1-350. Finds UK matches by detecting 2+ team names near the score. Parses: scores, gameweek, teams, Game Changer activations, goal timeline, per-match player stats, goalscorers. Output: `gamechangers.json`.
-   - Season detection: ID >= 145 → S3, ID >= 73 → S2, else → S1
-   - Goal detection: catches "Goal", "Penalty", and "Own Goal" labels
-   - Cache: `scripts/.cache/{id}.html` — old GWs load instantly, new GWs fetch fresh
-   - Scan ceiling: 350 (edit if new gameweeks push IDs higher)
-2. **scrape-ep.mjs** — Fetches the official standings page, extracts EP values per team. Output: `table.json`.
-3. **scrape-players.mjs** — Discovers players from `/en/players?page={n}`, then fetches each player page AND an AJAX endpoint (`/ajax/player/{slug}/stats/{seasonId}`) for correct S3 stats. Output: `players.json`.
-   - Cache: `scripts/.cache-players/player-{slug}.html` and `player-{slug}-s3.html`
-4. **generate-reports.mjs** — Generated rich, narrative match reports with varied templates, player-centric storytelling, tactical commentary. Output: `content/news/{homeSlug}-vs-{awaySlug}-gw{gw}.md`.
-5. **generate-previews.mjs** — Creates fixture previews from `fixtures.json`. Output: `content/news/{homeSlug}-vs-{awaySlug}-gw{gw}-preview.md`.
-6. **generate-og.mjs** — Generates Open Graph image. Output: `dist/og-default.png`.
-7. **astro build** + **generate-sitemap.mjs** — Builds static site to `dist/`, then crawls it for sitemap.xml.
-
-### Cache policy
-- Match and player page caches are NOT cleared on each run (unlike the old behavior). Old GW data is final and loads from cache instantly. New GW pages cache-bust automatically because they don't exist in cache yet.
-- If you need a full re-scrape: delete `scripts/.cache/*.html` and `scripts/.cache-players/player-*.html` before running.
-
 ### Standings computation
-W/D/L/GF/GA/GD/PTS are **automatically computed** from match data in `gamechangers.json` at build time. Only EP (Extra Points) is scraped from the official site into `table.json`. Everything else in `table.json` is overridden during the build.
+Recomputed per-page from `gamechangers.json`. `pts = won*3 + drawn + ep`. Sort is `pts` → `gd` → `gf`. `generate-reports.mjs` additionally computes "before gameweek N" standings per report.
 
-### Player stats — AJAX endpoint
-The Baller League player pages load Season 3 stats via JavaScript (AJAX). The scraper (`scrape-players.mjs`) extracts the S3 season ID from the `<select>` dropdown and fetches the AJAX endpoint directly (`/ajax/player/{slug}/stats/{seasonId}`). This ensures accurate S3 stats (goals, assists, apps, detailed stats).
+### Two different match slug schemes — don't confuse them
+- **Match pages** (`match/[slug].astro`): `s{season}-{homeSlug}-vs-{awaySlug}-gw{gw}`
+  → `/match/s3-ndl-fc-vs-gold-devils-fc-gw10/`
+- **News articles** (`generate-reports.mjs`): `{homeSlug}-vs-{awaySlug}-gw{gw}` — **no season prefix**
+  → `/news/ndl-fc-vs-gold-devils-fc-gw10/`
 
-### Match URL slugs
-Match pages use descriptive SEO-friendly slugs: `/match/s{season}-{homeSlug}-vs-{awaySlug}-gw{gw}/`. Example: `/match/s3-ndl-fc-vs-gold-devils-fc-gw10/`. All linking pages (homepage, table, roundup, team detail, h2h) generate these slugs consistently.
+The missing season prefix causes real collisions across seasons and is a known bug (see below).
 
-### Page auto-update status
-All pages auto-update from scraped data with every `npm run update`. The only manual dependency is `fixtures.json` for the "Upcoming Fixtures" section on the homepage and league table.
+### `scrape-assets.mjs` is orphaned
+It duplicates the `TEAM_LOGO_MAP` that also lives in `scrape-players.mjs` — two sources of truth for the same mapping. Nothing invokes it.
+
+### Content collections
+Defined in `src/content/config.ts`: `teams`, `players`, `managers`, `news`.
+
+### Editing content
+- **Hand-written** (edit freely): `src/content/teams/`, `players/`, `managers/`, and the two editorial articles `rico-chambers-transfer.md` and `yanited-ginge-match-report.md`.
+- **Generated** (do NOT hand-edit — overwritten or orphaned on next run): everything in `src/content/news/` matching `*-gw{n}.md` and `*-preview.md`.
+
+**Decap CMS** is mounted at `/admin` (static files in `public/admin/`, git-gateway backend). Its collections are `news`, `players`, and `league_table` → which edits `src/data/table.json` directly.
+
+### Redirects — four separate mechanisms
+1. `netlify.toml` — `/compare` → `/rules` (301)
+2. `netlify.toml` — `/admin` → `/admin/index.html` (200)
+3. `scripts/generate-redirects.mjs` → `dist/_redirects` (post-build) — legacy numeric `/match/{n}/` → `/match/s{season}-…` (301, 1-based index in JSON iteration order S1→S2→S3), **plus a wildcard `/match/s3-*` → `/news/:splat`** (see Known Issues)
+4. `src/pages/roundup/index.astro` — meta-refresh redirect to the latest GW
 
 ### SEO
-- Structured data (JSON-LD) on every page: WebSite, SportsOrganization, SportsTeam, Person (`SportsEvent` for match pages)
-- BreadcrumbList injected via client-side JS on every page
-- Auto-generated sitemap.xml with ~378 URLs, proper priorities and change frequencies
-- Google Search Console verified (`google*.html` in `public/`)
-- Meta keywords, descriptions, OG/Twitter cards, canonical URLs on every page
-- `robots.txt` references sitemap, allows all crawlers
-- Match pages have descriptive keyword-rich slugs for search engines
+- JSON-LD on every page via `Base.astro`: `WebSite`, `SportsOrganization`, `SportsTeam`, `Person`, `SportsEvent` (match pages), `FAQPage`, `VideoObject`
+- `Breadcrumb.astro` injects `BreadcrumbList` client-side
+- `rss.xml.ts` + human-facing `/sitemap` page
+- Per-article OG images in `public/og/`, default `og-default.png`
+- `robots.txt` references `sitemap.xml`; Search Console verified via `public/google*.html`
+- `generate-sitemap.mjs` crawls `dist/`, excludes `404`, `compare/`, `roundup/`, `admin*`, `google*`, and **`match/s3-*`**
 
 ### AdSense
-AdSense script in `Base.astro` with publisher ID `ca-pub-7873503560434517`. `ads.txt` in `public/`.
+Publisher ID `ca-pub-7873503560434517` in `Base.astro`; `ads.txt` in `public/`.
 
 ### Domain
-Primary domain: `ballerleagueukhub.com` (configured in `astro.config.mjs`). Netlify handles SSL.
+`ballerleagueukhub.com` (in `astro.config.mjs`). Netlify handles SSL.
 
 ---
 
 ## Available commands
 
 | Command | Purpose |
-|---------|---------|
-| `npm run update` | Full weekly pipeline: scrape → generate → build |
+|---|---|
+| `npm run update` | Full pipeline: scrape → generate → build (8 stages) |
 | `npm run dev` | Dev server at `http://localhost:4321` |
-| `npm run build` | Build dist/ + sitemap |
+| `npm run build` | `astro build` + `generate-redirects.mjs` + `generate-sitemap.mjs` |
 | `npm run preview` | Preview built site |
 | `node scripts/scrape.mjs` | Scrape match results only |
-| `node scripts/scrape-ep.mjs` | Scrape EP values only |
+| `node scripts/scrape-ep.mjs` | Scrape EP values only *(requires `scrape.mjs` cache first)* |
 | `node scripts/scrape-players.mjs` | Scrape player stats only |
-| `node scripts/generate-reports.mjs` | Generate match reports only |
-| `node scripts/generate-previews.mjs` | Generate fixture previews only |
+| `node scripts/generate-reports.mjs` | Match reports, **Season 3 only** |
+| `node scripts/generate-reports.mjs --season=all` | Match reports, all seasons ⚠ drops 3 colliding slugs |
+| `node scripts/generate-previews.mjs` | Fixture previews (needs non-empty `upcoming`) |
+| `node scripts/generate-og-images.mjs` | Per-article OG images |
+| `node scripts/generate-redirects.mjs` | `dist/_redirects` *(post-build only)* |
+| `node scripts/generate-sitemap.mjs` | `dist/sitemap.xml` *(post-build only)* |
+| `node scripts/scrape-assets.mjs` | Download team logos — **manual, not in pipeline** |
+
+---
+
+## Known Issues / Tech Debt
+
+Ordered by severity. Each is real and present in the current code.
+
+### High
+
+- ✅ **FIXED — `generate-redirects.mjs` wildcard removed.** `/match/s3-*  /news/:splat  301` has been deleted; the numeric legacy redirects remain.
+
+- **`generate-reports.mjs` slugs have no season prefix.** Three `{home}-vs-{away}-gw{n}` keys exist in more than one season (`wembley-rangers-afc-vs-n5-fc-gw4`, `deportrio-vs-yanited-gw5`, `ndl-fc-vs-sds-fc-gw12`). The `seen` Set dedupes by slug, so `--season=all` silently drops the S3 version of `ndl-fc-vs-sds-fc-gw12`: 102 matches pass the GC filter, 101 files are written. The other two collisions are currently masked because their Season 1 entries are filtered out by `gc1 === "unknown"` — they will start dropping the moment S1 scraping improves.
+  *Fix: prefix slugs with `s{season}-` and add a redirect map, or key `seen` on `season+slug`.*
+
+- **`sharp` is undeclared in `package.json`.** `generate-og.mjs` and `generate-og-images.mjs` both `import sharp from "sharp"`. It resolves only because Astro lists it as an `optionalDependency`. Any `npm ci --omit=optional`, or an Astro release dropping it, breaks stages 6 and 7.
+  *Fix: `npm install --save sharp`.*
+
+### Medium
+
+- ✅ **FIXED — `generate-sitemap.mjs` no longer excludes `match/s3-*`.** All 207 match pages are now in `sitemap.xml`.
+
+- **`generate-previews.mjs` — `getRecord()` compares a name against a slug.** Called as `getRecord(hH2H, home)` where `home` is a display name, but the function compares `m.homeSlug === team`. Never true, so the away-side goal difference is used for every row and the home W/L tally in previews is **always inverted**. Adjacent: `hH2H[0]` is treated as "last meeting" without sorting.
+
+- **`scrape.mjs:378` silently rewrites data.** `if (match.gc1 === "theline") { match.gc1 = "onside"; match._fixed = true; }` — applied only to `gc1`, never `gc2`. Falsifies scraped data to paper over an unknown parsing case.
+
+- ✅ **FIXED — match dates now come from the header's ISO `<time>` attribute**, and season is derived from the date (spring/autumn), so S4 auto-detects.
+
+- **Generators never delete stale markdown.** `generate-reports.mjs` / `generate-previews.mjs` only write. The stale GW9/GW11 report orphans were cleaned this pass; the 14 historical `*-preview.md` files remain until S4 fixtures populate `upcoming`.
+
+- **`generate-sitemap.mjs:31` — `<lastmod>` is file mtime**, which equals build time for every freshly generated page. Every URL reports "now" on every deploy, which trains crawlers to ignore the field.
+
+### Low
+
+- **`fixtures.json` `results[]` is read by nothing** — no script, no page.
+- **`stage` vs `round` mismatch.** `fixtures.json` writes `stage`; `table.astro:9` reads `fixturesData.upcoming[0]?.round`. Nothing ever writes `round`, so that check is permanently false.
+- **`scrape-ep.mjs`** is superseded by `scrape-standings.mjs` and no longer runs in the pipeline.
+- ✅ **FIXED — `scrape.mjs` scan ceiling/log** now reads `1-450` from a single `SCAN_MAX`.
+- ✅ **FIXED — `generate-og-images.mjs`** now renders the real score and canonical team names.
+- **`players.json`** — one `detailed` key retains an un-decoded `&amp;` HTML entity; `age` is `null` for all players.
+- **`TEAM_LOGO_MAP` is duplicated** in `scrape-players.mjs` and `scrape-assets.mjs`, and has no entry for team id `333`.
+- **`u` variable shadowing** in `generate-sitemap.mjs` — `walk()` and `getPriority()` use different `u` bindings for the URL.
+- **`upcomingGW` always falls back to `maxGW`** across several pages because `fixtures.upcoming[0]` is `undefined` when the array is empty.
+
+### Dead code
+
+- `@astrojs/sitemap` is in `dependencies` but `astro.config.mjs` has no `integrations` array — the sitemap is hand-rolled instead.
+- `generate-og.mjs` imports `writeFileSync` and never uses it.
+- `generate-redirects.mjs` imports `rmSync`/`existsSync`-era leftovers via `update.mjs`'s commented-out cache-clearing block.
+
+### Architectural debt (not bugs)
+
+- **No `src/lib/`.** Standings computation, match-slug construction, team/emoji lookup, and player-name→slug linking are duplicated inline in 5+ pages. Any change to slug or standings logic must be applied in every copy. This is the highest-value refactor available.
+- **The `roundup/` and `compare/` exclusions in the sitemap are stale** — `compare.astro` no longer exists (it is a Netlify 301 now).
