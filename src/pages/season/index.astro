@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import gcData from '../../data/gamechangers.json';
+import standings from '../../data/standings.json';
 
 const seasonIds = ['1', '2', '3'];
 
@@ -30,7 +31,8 @@ function computeSeason(sid: string) {
     return { team, played: r.played, won: r.won, drawn: r.drawn, lost: r.lost, gf: r.gf, ga: r.ga, gd: r.gf - r.ga, pts: r.won * 3 + r.drawn };
   });
   table.sort((a, b) => b.pts - a.pts || b.gd - a.gd || b.gf - a.gf);
-  const champion = table[0]?.team;
+  const official = (standings as Record<string, any[]>)[sid];
+  const champion = official?.[0]?.team || table[0]?.team;
 
   return {
     id: sid,

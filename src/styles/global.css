@@ -527,6 +527,27 @@ hr { border: none; border-top: 1px solid var(--border); margin: var(--space-xl) 
   table th, table td { padding: 10px 10px; }
 }
 
+/* === RESPONSIVE TABLES === */
+@media (max-width: 640px) {
+  /* Stack rows into cards (each cell needs a data-label) */
+  .table-cards thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .table-cards, .table-cards tbody, .table-cards tr, .table-cards td { display: block; width: 100%; }
+  .table-cards tbody tr { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); margin-bottom: var(--space-sm); padding: var(--space-sm) var(--space-md); }
+  .table-cards tbody td { display: flex; justify-content: space-between; align-items: center; gap: var(--space-md); padding: 5px 0; border: none; text-align: right; }
+  .table-cards tbody td::before { content: attr(data-label); color: var(--text-muted); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.06em; font-weight: 700; }
+  .table-cards tbody td[data-label="Player"] { text-align: left; font-size: 0.95rem; }
+  .table-cards tbody td[data-label="Player"]::before,
+  .table-cards tbody td[data-label="#"] { display: none; }
+
+  /* Standings: hide non-essential columns so it fits without scrolling */
+  .standings-compact th:nth-child(4), .standings-compact td:nth-child(4),
+  .standings-compact th:nth-child(5), .standings-compact td:nth-child(5),
+  .standings-compact th:nth-child(6), .standings-compact td:nth-child(6),
+  .standings-compact th:nth-child(7), .standings-compact td:nth-child(7),
+  .standings-compact th:nth-child(8), .standings-compact td:nth-child(8),
+  .standings-compact th:nth-child(10), .standings-compact td:nth-child(10) { display: none; }
+}
+
 /* === REDUCED MOTION === */
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }

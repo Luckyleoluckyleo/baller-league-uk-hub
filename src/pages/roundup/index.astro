@@ -1,19 +1,84 @@
 ---
+import Base from '../../layouts/Base.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
 import gcData from '../../data/gamechangers.json';
 
 const s3Matches = (gcData.seasons['3']?.matches as any[] || []).filter((m: any) => m.homeScore > 0 || m.awayScore > 0);
-const gws = [...new Set(s3Matches.map((m: any) => m.gameweek))].sort((a: any, b: any) => b - a);
-const maxGW = gws[0] ?? 8;
+const gws = [...new Set(s3Matches.map((m: any) => m.gameweek))].sort((a: any, b: any) => a - b);
+const latestGW = gws.length ? Math.max(...gws) : 0;
+
+const summaries = gws.map((gw) => {
+  const ms = s3Matches.filter((m: any) => m.gameweek === gw);
+  const goals = ms.reduce((n: number, m: any) => n + m.homeScore + m.awayScore, 0);
+  const biggest = [...ms].sort((a: any, b: any) => Math.abs(b.homeScore - b.awayScore) - Math.abs(a.homeScore - a.awayScore))[0];
+  return { gw, matches: ms.length, goals, biggest };
+});
+
+const totalGoals = s3Matches.reduce((n: number, m: any) => n + m.homeScore + m.awayScore, 0);
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Baller League UK Weekly Roundups",
+  "description": `Every Baller League UK Season 3 gameweek roundup — ${s3Matches.length} matches and ${totalGoals} goals.`,
+  "about": { "@type": "SportsOrganization", "name": "Baller League UK", "sport": "Football" },
+};
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="refresh" content={`0;url=/roundup/${maxGW}`} />
-  <meta name="robots" content="noindex, follow" />
-  <title>Redirecting to Latest Roundup — Baller League UK Hub</title>
-</head>
-<body>
-  <p>Redirecting to <a href={`/roundup/${maxGW}`}>latest gameweek</a>...</p>
-</body>
-</html>
+
+<Base
+  title="Baller League UK Weekly Roundups — Every Gameweek"
+  description={`Every Baller League UK Season 3 gameweek roundup. Results, top scorers and the biggest wins from all ${gws.length} rounds — ${totalGoals} goals in total.`}
+  keywords="weekly roundup, gameweek, results, standings, Baller League UK, Season 3"
+  schema={schema}
+>
+  <div class="page-header">
+    <div class="container">
+      <Breadcrumb items={[{name:'Home',url:'/'},{name:'Roundup'}]} />
+      <div class="section-label">Season 3 · {gws.length} Gameweeks</div>
+      <h1>Weekly Roundups</h1>
+      <p class="section-subtitle">Results, top performers and the biggest wins from every gameweek of Baller League UK Season 3.</p>
+    </div>
+  </div>
+
+  <div class="container roundup-page">
+    <div class="roundup-grid">
+      {summaries.map((s) => (
+        <a href={`/roundup/${s.gw}`} class={`roundup-card card ${s.gw === latestGW ? 'latest' : ''}`}>
+          <div class="card-body">
+            <div class="roundup-head">
+              <span class="roundup-gw">Gameweek {s.gw}</span>
+              {s.gw === latestGW && <span class="roundup-latest">Latest</span>}
+            </div>
+            <div class="roundup-stats">
+              <div class="roundup-stat"><span class="roundup-num">{s.goals}</span><span class="roundup-lbl">Goals</span></div>
+              <div class="roundup-stat"><span class="roundup-num">{s.matches}</span><span class="roundup-lbl">Matches</span></div>
+            </div>
+            {s.biggest && (
+              <div class="roundup-big">
+                Biggest win: <strong>{s.biggest.homeTeam} {s.biggest.homeScore}–{s.biggest.awayScore} {s.biggest.awayTeam}</strong>
+              </div>
+            )}
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</Base>
+
+<style>
+.roundup-page { padding-bottom: var(--space-3xl); }
+.roundup-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-lg); }
+.roundup-card { text-decoration: none; display: block; }
+.roundup-card.latest { border-color: var(--green); box-shadow: var(--shadow-green); }
+.roundup-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: var(--space-md); }
+.roundup-gw { font-family: var(--font-display); font-size: 1.3rem; color: var(--text-primary); }
+.roundup-latest { font-size: 0.62rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; color: var(--green); background: var(--green-glow); border: 1px solid rgba(0,230,118,0.3); padding: 2px 8px; border-radius: var(--radius-full); }
+.roundup-stats { display: flex; gap: var(--space-xl); margin-bottom: var(--space-md); }
+.roundup-stat { display: flex; flex-direction: column; }
+.roundup-num { font-family: var(--font-display); font-size: 1.9rem; color: var(--green); line-height: 1; }
+.roundup-lbl { font-size: 0.68rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; }
+.roundup-big { font-size: 0.82rem; color: var(--text-secondary); }
+.roundup-big strong { color: var(--text-primary); }
+@media (max-width: 1024px) { .roundup-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 640px) { .roundup-grid { grid-template-columns: 1fr; } }
+</style>

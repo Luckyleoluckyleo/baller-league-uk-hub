@@ -61,6 +61,30 @@ const teamStatRows = match ? [
   { label: 'Red Cards', home: sumFor(match.homeSlug, 'redCards'), away: sumFor(match.awaySlug, 'redCards') },
 ].filter((r) => r.home > 0 || r.away > 0) : [];
 
+// Head-to-head: previous meetings between these two franchises (any season).
+const h2h = match
+  ? allMatches
+      .slice(0, currentIdx)
+      .filter((x) =>
+        (x.match.homeSlug === match.homeSlug && x.match.awaySlug === match.awaySlug) ||
+        (x.match.homeSlug === match.awaySlug && x.match.awaySlug === match.homeSlug))
+      .slice(-6)
+      .reverse()
+  : [];
+const h2hRecord = h2h.reduce(
+  (acc, x) => {
+    const m = x.match;
+    const homeIsHome = m.homeSlug === match!.homeSlug;
+    const hScore = homeIsHome ? m.homeScore : m.awayScore;
+    const aScore = homeIsHome ? m.awayScore : m.homeScore;
+    if (hScore > aScore) acc.w++;
+    else if (hScore < aScore) acc.l++;
+    else acc.d++;
+    return acc;
+  },
+  { w: 0, d: 0, l: 0 },
+);
+
 const prevMatch = currentIdx > 0 ? allMatches[currentIdx - 1] : null;
 const nextMatch = currentIdx >= 0 && currentIdx + 1 < allMatches.length ? allMatches[currentIdx + 1] : null;
 
@@ -134,6 +158,30 @@ const schema = match ? {
             </div>
           </div>
         </div>
+
+        <!-- HEAD TO HEAD -->
+        {h2h.length > 0 && (
+          <div class="card h2h-card">
+            <div class="card-body">
+              <div class="section-label">Head-to-Head</div>
+              <div class="h2h-summary">
+                <span class="h2h-team">{match.homeTeam}</span>
+                <span class="h2h-record">{h2hRecord.w}W <span class="h2h-sep">&middot;</span> {h2hRecord.d}D <span class="h2h-sep">&middot;</span> {h2hRecord.l}L</span>
+                <span class="h2h-team">{match.awayTeam}</span>
+              </div>
+              <ul class="h2h-list">
+                {h2h.map((x: any) => (
+                  <li class="h2h-row">
+                    <a href={`/match/${x.slug}`} class="h2h-row-link">
+                      <span class="h2h-season">S{x.season} &middot; GW{x.match.gameweek}</span>
+                      <span class="h2h-fixture">{x.match.homeName || x.match.homeTeam} <strong>{x.match.homeScore}–{x.match.awayScore}</strong> {x.match.awayName || x.match.awayTeam}</span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        )}
 
         <!-- GC ANALYSIS -->
         <div class="gc-analysis-grid">
@@ -242,6 +290,20 @@ const schema = match ? {
 .scorecard-score { display: flex; align-items: center; gap: var(--space-md); }
 .score-num { font-family: var(--font-display); font-size: 3.5rem; color: var(--text-primary); }
 .score-sep { font-size: 2rem; color: var(--text-muted); }
+
+.h2h-card { border: 1px solid var(--border); }
+.h2h-summary { display: flex; align-items: center; justify-content: space-between; gap: var(--space-md); margin-bottom: var(--space-md); font-weight: 700; font-size: 0.9rem; }
+.h2h-team { color: var(--text-primary); }
+.h2h-record { color: var(--green); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.h2h-sep { color: var(--text-muted); }
+.h2h-list { list-style: none; display: flex; flex-direction: column; margin: 0; padding: 0; }
+.h2h-row { border-bottom: 1px solid var(--border-subtle); }
+.h2h-row:last-child { border-bottom: none; }
+.h2h-row-link { display: flex; align-items: center; justify-content: space-between; gap: var(--space-md); padding: 8px 0; }
+.h2h-row-link:hover .h2h-fixture { color: var(--green); }
+.h2h-season { font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; white-space: nowrap; }
+.h2h-fixture { font-size: 0.85rem; color: var(--text-secondary); text-align: right; }
+.h2h-fixture strong { color: var(--text-primary); }
 
 .gc-analysis-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-lg); }
 .gc-analysis-card { }

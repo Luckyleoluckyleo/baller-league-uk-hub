@@ -49,6 +49,19 @@ const snapshot = {
 };
 const totalGoals = enriched.reduce((n, p) => n + (p.seasons?.['3']?.goals || 0), 0);
 
+// One combined leaderboard, switched by a category selector.
+const leaderboards = [
+  { key: 'goals', title: 'Top Scorers', icon: '⚽', label: 'G', rows: rank('goals') },
+  { key: 'assists', title: 'Top Assists', icon: '🅰️', label: 'A', rows: rank('assists') },
+  { key: 'apps', title: 'Most Appearances', icon: '🏟️', label: 'Apps', rows: rank('apps') },
+  { key: 'shots', title: 'Most Shots', icon: '🎯', label: 'SH', rows: rank('Total Shots') },
+  { key: 'saves', title: 'Most Saves', icon: '🧤', label: 'SV', rows: rank('Saves Made') },
+  { key: 'passes', title: 'Most Passes', icon: '🔗', label: 'P', rows: rank('Total Passes') },
+  { key: 'tackles', title: 'Most Tackles', icon: '🛡️', label: 'T', rows: rank('Total Tackles') },
+  { key: 'duels', title: 'Most Duels Won', icon: '💪', label: 'D', rows: rank('Duels won') },
+  { key: 'minutes', title: 'Most Minutes', icon: '⏱️', label: 'MIN', rows: rank('Time Played') },
+];
+
 const teams = [...new Set(enriched.filter(p => p.team).map(p => p.team))].sort() as string[];
 const positions = [...new Set(enriched.filter(p => p.position).map(p => p.position))].sort() as string[];
 
@@ -95,114 +108,21 @@ const schema = {
       ]}
     />
 
-    <!-- LEADERBOARD -->
+    <!-- LEADERBOARD SELECTOR -->
     <section>
       <div class="section-label">Leaderboards</div>
       <h2 class="section-title">Top Performers</h2>
-      <div class="leaderboard-grid">
-        <!-- Goals -->
-        <div class="card lb-card">
-          <div class="card-body">
-            <h3 class="lb-title">&#x26BD; Top Scorers</h3>
-            <div class="lb-table-wrap">
-              <table class="lb-table">
-                <thead><tr><th>#</th><th>Player</th><th>Team</th><th class="num-col">G</th></tr></thead>
-                <tbody>
-                  {byGoals.slice(0, 10).map((p, i) => (
-                    <tr class={i < 3 ? 'top-row' : ''}>
-                      <td class="lb-rank">{i + 1}</td>
-                      <td>
-                        <div class="lb-player">
-                          <img src={`/players/thumb/${p.slug}.webp`} alt={p.name} class="player-thumb" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
-                          <span class="player-thumb-fallback lb-avatar">{initials(p.name)}</span>
-                          <a href={`/players/${p.slug}`} class="td-team-name" style="gap: 0;">{p.name}</a>
-                        </div>
-                      </td>
-                      <td class="lb-team">
-                        {p.teamSlug ? <a href={`/teams/${p.teamSlug}`} class="text-green">{p.team}</a> : <span class="text-muted">—</span>}
-                      </td>
-                      <td class="num-col pts-cell">{p.seasons?.['3']?.goals ?? 0}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-
-        <!-- Assists -->
-        <div class="card lb-card">
-          <div class="card-body">
-            <h3 class="lb-title">&#x1F91D; Top Assists</h3>
-            <div class="lb-table-wrap">
-              <table class="lb-table">
-                <thead><tr><th>#</th><th>Player</th><th>Team</th><th class="num-col">A</th></tr></thead>
-                <tbody>
-                  {[...enriched].sort((a, b) => (b.seasons?.['3']?.assists || 0) - (a.seasons?.['3']?.assists || 0)).slice(0, 10).map((p, i) => (
-                    <tr class={i < 3 ? 'top-row' : ''}>
-                      <td class="lb-rank">{i + 1}</td>
-                      <td>
-                        <div class="lb-player">
-                          <img src={`/players/thumb/${p.slug}.webp`} alt={p.name} class="player-thumb" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
-                          <span class="player-thumb-fallback lb-avatar">{initials(p.name)}</span>
-                          <a href={`/players/${p.slug}`} class="td-team-name" style="gap: 0;">{p.name}</a>
-                        </div>
-                      </td>
-                      <td class="lb-team">
-                        {p.teamSlug ? <a href={`/teams/${p.teamSlug}`} class="text-green">{p.team}</a> : <span class="text-muted">—</span>}
-                      </td>
-                      <td class="num-col pts-cell">{p.seasons?.['3']?.assists ?? 0}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-
-        <!-- Appearances -->
-        <div class="card lb-card">
-          <div class="card-body">
-            <h3 class="lb-title">&#x1F3DF;&#xFE0F; Most Appearances</h3>
-            <div class="lb-table-wrap">
-              <table class="lb-table">
-                <thead><tr><th>#</th><th>Player</th><th>Team</th><th class="num-col">Apps</th></tr></thead>
-                <tbody>
-                  {[...enriched].sort((a, b) => (b.seasons?.['3']?.apps || 0) - (a.seasons?.['3']?.apps || 0)).slice(0, 10).map((p, i) => (
-                    <tr class={i < 3 ? 'top-row' : ''}>
-                      <td class="lb-rank">{i + 1}</td>
-                      <td>
-                        <div class="lb-player">
-                          <img src={`/players/thumb/${p.slug}.webp`} alt={p.name} class="player-thumb" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
-                          <span class="player-thumb-fallback lb-avatar">{initials(p.name)}</span>
-                          <a href={`/players/${p.slug}`} class="td-team-name" style="gap: 0;">{p.name}</a>
-                        </div>
-                      </td>
-                      <td class="lb-team">
-                        {p.teamSlug ? <a href={`/teams/${p.teamSlug}`} class="text-green">{p.team}</a> : <span class="text-muted">—</span>}
-                      </td>
-                      <td class="num-col pts-cell">{p.seasons?.['3']?.apps ?? 0}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
+      <div class="lb-tabs" id="lb-tabs" role="tablist" aria-label="Leaderboard category">
+        {leaderboards.map((lb, i) => (
+          <button type="button" role="tab" id={`lbtab-${lb.key}`} aria-controls={`lbpanel-${lb.key}`} aria-selected={i === 0 ? 'true' : 'false'} tabindex={i === 0 ? 0 : -1} class={`lb-tab ${i === 0 ? 'active' : ''}`} data-lb={lb.key}>{lb.icon} {lb.title}</button>
+        ))}
       </div>
-    </section>
-
-    <!-- DETAILED STAT LEADERBOARDS -->
-    <section>
-      <div class="section-label">Detailed Stats</div>
-      <h2 class="section-title">More Leaderboards</h2>
-      <div class="leaderboard-grid">
-        <StatLeaderboard title="Most Shots" icon="&#x1F3AF;" valueLabel="SH" rows={rank('Total Shots')} />
-        <StatLeaderboard title="Most Saves" icon="&#x1F9E4;" valueLabel="SV" rows={rank('Saves Made')} />
-        <StatLeaderboard title="Most Passes" icon="&#x1F517;" valueLabel="P" rows={rank('Total Passes')} />
-        <StatLeaderboard title="Most Tackles" icon="&#x1F6E1;&#xFE0F;" valueLabel="T" rows={rank('Total Tackles')} />
-        <StatLeaderboard title="Most Duels Won" icon="&#x1F4AA;" valueLabel="D" rows={rank('Duels won')} />
-        <StatLeaderboard title="Most Minutes" icon="&#x23F1;&#xFE0F;" valueLabel="MIN" rows={rank('Time Played')} />
+      <div class="lb-panels">
+        {leaderboards.map((lb, i) => (
+          <div role="tabpanel" id={`lbpanel-${lb.key}`} aria-labelledby={`lbtab-${lb.key}`} data-lb={lb.key} class="lb-panel" hidden={i !== 0}>
+            <StatLeaderboard title={lb.title} icon={lb.icon} valueLabel={lb.label} rows={lb.rows} />
+          </div>
+        ))}
       </div>
     </section>
 
@@ -223,7 +143,7 @@ const schema = {
     <div class="card">
       <div class="card-body" style="padding: 0;">
         <div class="table-wrap" style="border-radius: var(--radius-lg);">
-          <table id="players-table">
+          <table id="players-table" class="table-cards">
             <caption class="visually-hidden">All Baller League UK Season 3 players — goals, assists, appearances, shots, passes, tackles and saves. Columns are sortable.</caption>
             <thead>
               <tr>
@@ -243,8 +163,8 @@ const schema = {
             <tbody>
               {byGoals.map((p, i) => (
                 <tr class="player-row" data-name={p.name.toLowerCase()} data-team={p.team || ''} data-position={p.position || ''} data-goals={p.seasons?.['3']?.goals || 0} data-assists={p.seasons?.['3']?.assists || 0} data-apps={p.seasons?.['3']?.apps || 0} data-shots={metric(p, 'Total Shots')} data-passes={metric(p, 'Total Passes')} data-tackles={metric(p, 'Total Tackles')} data-saves={metric(p, 'Saves Made')}>
-                  <td class="text-muted" style="width: 40px;">{i + 1}</td>
-                  <td>
+                  <td class="text-muted" style="width: 40px;" data-label="#">{i + 1}</td>
+                  <td data-label="Player">
                     <div class="lb-player">
                       <a href={`/players/${p.slug}`} class="td-team-name" style="gap: 6px;">
                         <img src={`/players/thumb/${p.slug}.webp`} alt={p.name} class="player-thumb" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
@@ -253,15 +173,15 @@ const schema = {
                       </a>
                     </div>
                   </td>
-                  <td>{p.teamSlug ? <a href={`/teams/${p.teamSlug}`} class="text-green" style="font-size: 0.88rem;">{p.team}</a> : <span class="text-muted">—</span>}</td>
-                  <td><span class="badge badge-green" style="font-size: 0.7rem;">{p.position || '—'}</span></td>
-                  <td class="num-col pts-cell">{p.seasons?.['3']?.goals ?? 0}</td>
-                  <td class="num-col">{p.seasons?.['3']?.assists ?? 0}</td>
-                  <td class="num-col">{p.seasons?.['3']?.apps ?? 0}</td>
-                  <td class="num-col">{metric(p, 'Total Shots')}</td>
-                  <td class="num-col">{metric(p, 'Total Passes')}</td>
-                  <td class="num-col">{metric(p, 'Total Tackles')}</td>
-                  <td class="num-col">{metric(p, 'Saves Made')}</td>
+                  <td data-label="Team">{p.teamSlug ? <a href={`/teams/${p.teamSlug}`} class="text-green" style="font-size: 0.88rem;">{p.team}</a> : <span class="text-muted">—</span>}</td>
+                  <td data-label="Pos"><span class="badge badge-green" style="font-size: 0.7rem;">{p.position || '—'}</span></td>
+                  <td class="num-col pts-cell" data-label="Goals">{p.seasons?.['3']?.goals ?? 0}</td>
+                  <td class="num-col" data-label="Assists">{p.seasons?.['3']?.assists ?? 0}</td>
+                  <td class="num-col" data-label="Apps">{p.seasons?.['3']?.apps ?? 0}</td>
+                  <td class="num-col" data-label="Shots">{metric(p, 'Total Shots')}</td>
+                  <td class="num-col" data-label="Passes">{metric(p, 'Total Passes')}</td>
+                  <td class="num-col" data-label="Tackles">{metric(p, 'Total Tackles')}</td>
+                  <td class="num-col" data-label="Saves">{metric(p, 'Saves Made')}</td>
                 </tr>
               ))}
             </tbody>
@@ -303,6 +223,36 @@ const schema = {
   teamFilter.addEventListener('change', apply);
   posFilter.addEventListener('change', apply);
 
+  // Leaderboard category tabs
+  const lbTabs = document.getElementById('lb-tabs');
+  if (lbTabs) {
+    const tabs = Array.from(lbTabs.querySelectorAll<HTMLButtonElement>('.lb-tab'));
+    const panels = Array.from(document.querySelectorAll<HTMLElement>('.lb-panel'));
+    const select = (key: string) => {
+      tabs.forEach((t) => {
+        const on = t.dataset.lb === key;
+        t.classList.toggle('active', on);
+        t.setAttribute('aria-selected', on ? 'true' : 'false');
+        t.tabIndex = on ? 0 : -1;
+      });
+      panels.forEach((p) => { p.hidden = p.dataset.lb !== key; });
+    };
+    lbTabs.addEventListener('click', (e) => {
+      const btn = (e.target as HTMLElement).closest('.lb-tab');
+      if (btn) select((btn as HTMLElement).dataset.lb!);
+    });
+    lbTabs.addEventListener('keydown', (e) => {
+      const idx = tabs.indexOf(document.activeElement as HTMLButtonElement);
+      if (idx === -1) return;
+      let next = -1;
+      if (e.key === 'ArrowRight' || e.key === 'ArrowDown') next = (idx + 1) % tabs.length;
+      else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') next = (idx - 1 + tabs.length) % tabs.length;
+      else if (e.key === 'Home') next = 0;
+      else if (e.key === 'End') next = tabs.length - 1;
+      if (next !== -1) { e.preventDefault(); tabs[next].focus(); select(tabs[next].dataset.lb!); }
+    });
+  }
+
   // Sortable columns
   document.querySelectorAll<HTMLTableCellElement>('.sortable').forEach(th => {
     th.addEventListener('click', () => {
@@ -328,6 +278,18 @@ const schema = {
 
 /* Leaderboard */
 .leaderboard-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: var(--space-lg); }
+
+/* Leaderboard selector */
+.lb-tabs { display: flex; flex-wrap: wrap; gap: var(--space-sm); margin-bottom: var(--space-lg); }
+.lb-tab {
+  padding: 8px 14px; border-radius: var(--radius-full);
+  background: var(--bg-card); border: 1px solid var(--border);
+  color: var(--text-secondary); font-size: 0.82rem; font-weight: 600;
+  cursor: pointer; transition: all var(--transition); font-family: inherit;
+}
+.lb-tab:hover { border-color: var(--green); color: var(--text-primary); }
+.lb-tab.active { background: var(--green-glow); border-color: var(--green); color: var(--green); }
+.lb-panel[hidden] { display: none; }
 .lb-card { }
 .lb-title { font-size: 0.82rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-muted); margin-bottom: var(--space-md); font-family: var(--font-body); }
 .lb-table-wrap { }

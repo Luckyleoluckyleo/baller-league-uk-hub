@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
+import StatStrip from '../../components/StatStrip.astro';
 import gcData from '../../data/gamechangers.json';
 import standings from '../../data/standings.json';
 
@@ -15,6 +16,11 @@ const leagueMatches = sMatches.filter((m: any) => m.gameweek <= 11);
 
 const gws = [...new Set(sMatches.map((m: any) => m.gameweek))].sort((a: any, b: any) => a - b);
 const totalGoals = sMatches.reduce((s: number, m: any) => s + m.homeScore + m.awayScore, 0);
+const avgGoals = sMatches.length ? (totalGoals / sMatches.length).toFixed(1) : '0';
+// Top scorer for this season, tallied from the match goal timelines.
+const scorerTally: Record<string, number> = {};
+for (const m of sMatches) for (const g of (m.goalscorers || [])) scorerTally[g.player] = (scorerTally[g.player] || 0) + 1;
+const topScorer = Object.entries(scorerTally).sort((a, b) => b[1] - a[1])[0];
 const records: Record<string, { played: number; won: number; drawn: number; lost: number; gf: number; ga: number }> = {};
 const nameBySlug: Record<string, string> = {};
 for (const m of leagueMatches) {
@@ -102,6 +108,15 @@ const schema = {
   </div>
 
   <div class="container season-detail-page">
+    <StatStrip
+      stats={[
+        { icon: '🏆', label: 'League leaders', value: table[0]?.team, sub: `${table[0]?.pts} pts` },
+        { icon: '⚽', label: 'Top scorer', value: topScorer?.[0], sub: `${topScorer?.[1]} goals` },
+        { icon: '🥅', label: 'Total goals', value: totalGoals, sub: `${sMatches.length} matches` },
+        { icon: '📊', label: 'Goals / game', value: avgGoals, sub: `Season ${seasonId}` },
+      ]}
+    />
+
     <div class="season-nav">
       {[1, 2, 3].map(sid => (
         <a href={`/season/${sid}`} class={`season-nav-link ${String(sid) === seasonId ? 'active' : ''}`}>

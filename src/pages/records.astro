@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
+import StatStrip from '../components/StatStrip.astro';
 import gcData from '../data/gamechangers.json';
 
 const allMatches: any[] = [];
@@ -92,6 +93,15 @@ const schema = {
   </div>
 
   <div class="container records-page">
+
+    <StatStrip
+      stats={[
+        { icon: '💥', label: 'Biggest win', value: `${Math.abs(biggestWin.homeScore - biggestWin.awayScore)} goals`, sub: `${biggestWin.homeTeam} ${biggestWin.homeScore}–${biggestWin.awayScore} ${biggestWin.awayTeam}` },
+        { icon: '🎪', label: 'Highest-scoring match', value: `${highestScoring.homeScore + highestScoring.awayScore} goals`, sub: `${highestScoring.homeTeam} ${highestScoring.homeScore}–${highestScoring.awayScore} ${highestScoring.awayTeam}` },
+        { icon: '⚽', label: 'All-time top scorer', value: topScorersAllTime[0]?.[0], sub: `${topScorersAllTime[0]?.[1]} goals` },
+        { icon: '⚡', label: 'Most GC goals (match)', value: mostGCGoals, sub: mostGCMatch ? `${mostGCMatch.homeTeam} v ${mostGCMatch.awayTeam}` : '' },
+      ]}
+    />
 
     <!-- TOP SCORERS -->
     <section class="records-section">

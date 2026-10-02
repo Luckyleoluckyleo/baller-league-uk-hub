@@ -7,7 +7,7 @@ const DIST_DIR = resolve(__dirname, "..", "dist");
 const SITE = "https://ballerleagueukhub.com";
 
 function isExcluded(url) {
-  if (url === "404" || url === "compare/" || url === "roundup/") return true;
+  if (url === "404" || url === "compare/") return true;
   if (url.startsWith("admin") || url.startsWith("google")) return true;
   return false;
 }
