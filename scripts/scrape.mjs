@@ -21,27 +21,35 @@ const GC_DEFS = {
   ],
 };
 
+// Franchises carry a stable official team id across seasons; the display name
+// changes (e.g. "MVPs United" -> "Prime", "Trebol FC" -> "NDL"). We key on the
+// id, not the name, so historical seasons are detected correctly.
 const TEAMS = [
-  { name: "NDL FC", slug: "ndl-fc", emoji: "🏆" },
-  { name: "Prime FC", slug: "prime-fc", emoji: "⚡" },
-  { name: "SDS FC", slug: "sds-fc", emoji: "🟢" },
-  { name: "Deportrio", slug: "deportrio", emoji: "🔴" },
-  { name: "Yanited", slug: "yanited", emoji: "👑" },
-  { name: "Clutch FC", slug: "clutch-fc", emoji: "✊" },
-  { name: "N5 FC", slug: "n5-fc", emoji: "5️⃣" },
-  { name: "Wembley Rangers AFC", slug: "wembley-rangers-afc", emoji: "🏟️" },
-  { name: "Gold Devils FC", slug: "gold-devils-fc", emoji: "👿" },
-  { name: "VZN FC", slug: "vzn-fc", emoji: "👁️" },
-  { name: "Rukkas FC", slug: "rukkas-fc", emoji: "💀" },
-  { name: "Community FC", slug: "community-fc", emoji: "🤝" },
+  { id: 330, slug: "yanited", emoji: "👑", canonical: "Yanited", names: { 1: "Yanited", 2: "Yanited", 3: "Yanited" } },
+  { id: 331, slug: "wembley-rangers-afc", emoji: "🏟️", canonical: "Wembley Rangers AFC", names: { 1: "Wembley Rangers", 2: "Wembley Rangers", 3: "Wembley Rangers" } },
+  { id: 332, slug: "vzn-fc", emoji: "👁️", canonical: "VZN FC", names: { 1: "VZN", 2: "VZN", 3: "VZN" } },
+  { id: 334, slug: "sds-fc", emoji: "🟢", canonical: "SDS FC", names: { 1: "SDS", 2: "SDS", 3: "SDS" } },
+  { id: 337, slug: "n5-fc", emoji: "5️⃣", canonical: "N5 FC", names: { 1: "N5", 2: "N5", 3: "N5" } },
+  { id: 339, slug: "m7-fc", emoji: "7️⃣", canonical: "M7", names: { 1: "M7", 2: "M7" } },
+  { id: 340, slug: "deportrio", emoji: "🔴", canonical: "Deportrio", names: { 1: "Deportrio", 2: "Deportrio", 3: "Deportrio" } },
+  { id: 342, slug: "ndl-fc", emoji: "🏆", canonical: "NDL FC", names: { 1: "Trebol FC", 2: "NDL", 3: "NDL" } },
+  { id: 343, slug: "clutch-fc", emoji: "✊", canonical: "Clutch FC", names: { 1: "Santan FC", 2: "Clutch", 3: "Clutch" } },
+  { id: 344, slug: "rukkas-fc", emoji: "💀", canonical: "Rukkas FC", names: { 1: "F.C RTW", 2: "Rukkas", 3: "Rukkas" } },
+  { id: 345, slug: "prime-fc", emoji: "⚡", canonical: "Prime FC", names: { 1: "MVPs United", 2: "MVPs United", 3: "Prime" } },
+  { id: 346, slug: "gold-devils-fc", emoji: "👿", canonical: "Gold Devils FC", names: { 1: "26ers", 2: "26ers", 3: "Gold Devils" } },
+  { id: 347, slug: "community-fc", emoji: "🤝", canonical: "Community FC", names: { 3: "Community Team" } },
 ];
-const TEAM_SET = new Set(TEAMS.map((t) => t.name));
-const TEAM_MAP = Object.fromEntries(TEAMS.map((t) => [t.name, t]));
+const TEAM_BY_ID = Object.fromEntries(TEAMS.map((t) => [t.id, t]));
+// The same franchise is renamed between seasons, so map every historical name to its team.
+const NAME_TO_TEAM = {};
+for (const t of TEAMS) for (const n of Object.values(t.names)) NAME_TO_TEAM[n] = t;
 
 const GC_MAP = {
   "plus one": "plusone", "the line": "theline",
-  "3play": "3play", "3play": "3play", "3 play": "3play", "3 Play": "3play",
-  "onside": "onside", "1:1": "1on1", "1-on-1": "1on1", "fairplay": "fairplay",
+  "3play": "3play", "3 play": "3play",
+  "onside": "onside",
+  "1:1": "1on1", "1-on-1": "1on1", "1v1": "1on1", "1 v 1": "1on1",
+  "fairplay": "fairplay", "fair play": "fairplay",
 };
 
 // ---- Fetch ----
@@ -123,8 +131,11 @@ function parsePlayerStats(html, homeSlug, awaySlug) {
     }
 
     if (cells.length >= 8) {
-      const teamMap = getPlayerTeamMap();
-      const teamSlug = teamMap[name.toLowerCase()] || null;
+      // The team beside the player row (logo id) is the reliable per-match source;
+      // fall back to the global name map only if the row has no team logo.
+      const logoId = (rowHtml.match(/logo_(\d+)\.svg/) || [])[1];
+      const fromLogo = logoId ? TEAM_BY_ID[Number(logoId)] : null;
+      const teamSlug = fromLogo ? fromLogo.slug : (getPlayerTeamMap()[name.toLowerCase()] || null);
 
       players.push({
         name,
@@ -185,7 +196,13 @@ function parseGoalscorersFromTimeline(html) {
 }
 
 function parseMatch(html, gameId) {
-  const scoreM = html.match(/>\s*(\d{1,2})\s*-\s*(\d{1,2})\s*</);
+  const headerStart = html.indexOf("bl-gameday-header");
+  const headerEnd = headerStart !== -1
+    ? (html.indexOf("bl-gameday-name", headerStart) !== -1 ? html.indexOf("bl-gameday-name", headerStart) : headerStart + 9000)
+    : html.length;
+  const header = html.slice(Math.max(0, headerStart), headerEnd);
+
+  const scoreM = header.match(/>\s*(\d{1,2})\s*-\s*(\d{1,2})\s*</);
   if (!scoreM) return null;
   const score = { home: parseInt(scoreM[1]), away: parseInt(scoreM[2]) };
 
@@ -193,64 +210,46 @@ function parseMatch(html, gameId) {
   const gwM = html.match(/GAMEDAY\s*(\d{1,2})/i);
   if (gwM) {
     gameday = parseInt(gwM[1]);
+  } else if (/GAMEDAY\s*(F4)/i.test(html)) {
+    gameday = 12;
   } else {
-    const f4M = html.match(/GAMEDAY\s*(F4)/i);
-    if (f4M) {
-      gameday = 12;
-    } else {
-      return null;
-    }
+    return null;
   }
 
-  // Parse match date/time
-  const dateM = html.match(/<p class="bl-gameday-date[^"]*">\s*(.+?)\s*<\/p>/);
-  const timeM = html.match(/<p class="bl-gameday-hour[^"]*">\s*(.+?)\s*<\/p>/);
-  const rawDate = dateM ? dateM[1].trim() : null;
-  const rawTime = timeM ? timeM[1].trim() : null;
+  // Identify teams from the header. Names are the reliable signal (some logos are
+  // served from a CDN without an id); the logo id is a fallback for pages whose
+  // header names are missing.
+  const headerNames = [...header.matchAll(/bl-gameday-team-name[^"]*uk-visible@m[^"]*"[^>]*>([^<]+)</g)].map((m) => m[1].trim());
+  const logoIds = [...header.matchAll(/logo_(\d+)\.svg"[^>]*bl-gameday-team-logo/g)].map((m) => Number(m[1]));
+  const ht = NAME_TO_TEAM[headerNames[0]] || TEAM_BY_ID[logoIds[0]];
+  const at = NAME_TO_TEAM[headerNames[1]] || TEAM_BY_ID[logoIds[1]];
+  if (!ht || !at) return null;
+  const homeTeam = ht.canonical;
+  const awayTeam = at.canonical;
+  const homeName = headerNames[0] || ht.canonical;
+  const awayName = headerNames[1] || at.canonical;
 
-  // "MONDAY 16 MARCH" -> "16 Mar 2026"
+  // Date/time from the header's ISO <time datetime="YYYY-MM-DDTHH:MM:SS...">
+  const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
   let matchDate = null;
-  if (rawDate) {
-    const months = { JANUARY: "Jan", FEBRUARY: "Feb", MARCH: "Mar", APRIL: "Apr", MAY: "May", JUNE: "Jun", JULY: "Jul", AUGUST: "Aug", SEPTEMBER: "Sep", OCTOBER: "Oct", NOVEMBER: "Nov", DECEMBER: "Dec" };
-    const parts = rawDate.split(/\s+/);
-    if (parts.length >= 3) {
-      const day = parts[1];
-      const month = months[parts[2].toUpperCase()] || parts[2];
-      matchDate = `${day} ${month} 2026`;
-    } else {
-      matchDate = rawDate;
-    }
-  }
+  const dtM = header.match(/datetime="(\d{4})-(\d{2})-(\d{2})T/);
+  if (dtM) matchDate = `${parseInt(dtM[3])} ${MONTHS[parseInt(dtM[2]) - 1]} ${dtM[1]}`;
+  const timeM = header.match(/<time[^>]*>(\d{1,2}:\d{2})<\/time>/) || header.match(/bl-gameday-hour[^>]*>\s*([\d:]{4,5})/);
+  const rawTime = timeM ? timeM[1] : null;
 
-  const scoreIdx = html.search(/>\s*\d{1,2}\s*-\s*\d{1,2}\s*</);
-  const near = html.slice(Math.max(0, scoreIdx - 5000), Math.min(html.length, scoreIdx + 2000));
-
-  const teamHits = [];
-  for (const t of TEAM_SET) {
-    let pos = 0;
-    while ((pos = near.indexOf(t, pos)) !== -1) {
-      teamHits.push(t);
-      pos += t.length;
-    }
-  }
-  if (teamHits.length < 2) return null;
-
-  const unique = [...new Set(teamHits)];
-  if (unique.length < 2) return null;
-
-  const count = {};
-  for (const t of teamHits) count[t] = (count[t] || 0) + 1;
-  const [a, b] = unique;
-  const homeTeam = (count[a] || 0) >= (count[b] || 0) ? a : b;
-  const awayTeam = homeTeam === a ? b : a;
-
+  // Two seasons per year: a spring season (Mar-Jun) and an autumn season (Sep-Feb).
+  // S1=2025 spring, S2=2025 autumn (->Jan 2026), S3=2026 spring, S4=2026 autumn...
+  // Derive from the match date so new seasons are auto-detected; fall back to id ranges.
   let season;
-  if (gameId >= 145) season = 3;
-  else if (gameId >= 73) season = 2;
-  else season = 1;
-
-  const ht = TEAM_MAP[homeTeam] || { slug: homeTeam.toLowerCase().replace(/\s+/g, "-"), emoji: "⚽" };
-  const at = TEAM_MAP[awayTeam] || { slug: awayTeam.toLowerCase().replace(/\s+/g, "-"), emoji: "⚽" };
+  if (dtM) {
+    const year = parseInt(dtM[1]);
+    const month = parseInt(dtM[2]);
+    if (month >= 9) season = (year - 2025) * 2 + 2;
+    else if (month <= 2) season = (year - 2026) * 2 + 2;
+    else season = (year - 2025) * 2 + 1;
+  } else {
+    season = gameId >= 145 ? 3 : gameId >= 70 ? 2 : 1;
+  }
 
   // Parse Game Changers and goal minutes from timeline
   const tlStart = html.indexOf("TIMELINE");
@@ -314,9 +313,9 @@ function parseMatch(html, gameId) {
   const goalscorers = parseGoalscorersFromTimeline(html);
 
   return {
-    season, gameweek: gameday,
-    homeTeam, homeSlug: ht.slug, homeEmoji: ht.emoji,
-    awayTeam, awaySlug: at.slug, awayEmoji: at.emoji,
+    season, gameId, gameweek: gameday,
+    homeTeam, homeSlug: ht.slug, homeEmoji: ht.emoji, homeName,
+    awayTeam, awaySlug: at.slug, awayEmoji: at.emoji, awayName,
     homeScore: score.home, awayScore: score.away,
     gc1, gc2, gc1Goals, gc2Goals,
     playerStats,
@@ -328,23 +327,21 @@ function parseMatch(html, gameId) {
 // ---- Main ----
 
 async function main() {
-  console.log("Scanning game IDs 1-250 for UK matches...\n");
+  const SCAN_MAX = 450;
+  console.log(`Scanning game IDs 1-${SCAN_MAX} for UK matches...\n`);
 
   const allIds = [];
-  for (let batchStart = 1; batchStart <= 350; batchStart += 10) {
+  for (let batchStart = 1; batchStart <= SCAN_MAX; batchStart += 10) {
     const batch = [];
-    for (let id = batchStart; id < batchStart + 10 && id <= 350; id++) batch.push(id);
+    for (let id = batchStart; id < batchStart + 10 && id <= SCAN_MAX; id++) batch.push(id);
 
     const results = await Promise.all(
       batch.map(async (id) => {
         const html = await fetchHtml(id);
         if (!html || html.length < 5000) return null;
-        const scoreIdx = html.search(/>\s*\d{1,2}\s*-\s*\d{1,2}\s*</);
-        if (scoreIdx === -1) return null;
-        const near = html.slice(Math.max(0, scoreIdx - 5000), Math.min(html.length, scoreIdx + 2000));
-        let ukTeamCount = 0;
-        for (const t of TEAM_SET) { if (near.includes(t)) ukTeamCount++; }
-        return ukTeamCount >= 2 ? id : null;
+        const names = [...html.matchAll(/bl-gameday-team-name[^"]*uk-visible@m[^"]*"[^>]*>([^<]+)</g)].map((m) => m[1].trim());
+        if (names.length < 2) return null;
+        return NAME_TO_TEAM[names[0]] && NAME_TO_TEAM[names[1]] ? id : null;
       })
     );
 
@@ -352,7 +349,7 @@ async function main() {
     for (const id of results) { if (id) { allIds.push(id); found = true; } }
     if (!found && allIds.length > 0) {
       const lastFound = allIds[allIds.length - 1];
-      if (batchStart > lastFound + 50) {
+      if (batchStart > lastFound + 150) {
         console.log(`  No UK games after ID ${lastFound}, stopping.`);
         break;
       }
@@ -399,8 +396,9 @@ async function main() {
         labelShort: `S${s}`,
         matches: arr.map((m) => ({
           gameweek: m.gameweek,
-          homeTeam: m.homeTeam, homeSlug: m.homeSlug, homeEmoji: m.homeEmoji,
-          awayTeam: m.awayTeam, awaySlug: m.awaySlug, awayEmoji: m.awayEmoji,
+          gameId: m.gameId,
+          homeTeam: m.homeTeam, homeSlug: m.homeSlug, homeEmoji: m.homeEmoji, homeName: m.homeName,
+          awayTeam: m.awayTeam, awaySlug: m.awaySlug, awayEmoji: m.awayEmoji, awayName: m.awayName,
           homeScore: m.homeScore, awayScore: m.awayScore,
           gamechanger1: { type: m.gc1 || "unknown", goalsScored: m.gc1Goals },
           gamechanger2: { type: m.gc2 || "unknown", goalsScored: m.gc2Goals },
