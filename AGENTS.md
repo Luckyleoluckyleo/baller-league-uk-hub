@@ -242,7 +242,7 @@ Standings computation, the active-season constant, form guide, and match-slug co
 | `generate-redirects.mjs` | `gamechangers.json` | `dist/_redirects` | via build | — |
 | `generate-sitemap.mjs` | `dist/**`, `dist/lastmod.json` | `dist/sitemap.xml` | via build | — |
 | `ping-indexnow.mjs` | `dist/sitemap.xml` | POST to `api.indexnow.org` | 16/16 | — |
-| `generate-video.mjs` | `gamechangers.json`, `players.json`, `table.json` | `output/*.mp4` | **⚠ NO — manual, needs ffmpeg** | `--season=`, `--gw=`, `--type=` |
+| `generate-video.mjs` | `gamechangers.json`, `players.json`, `table.json` | `output/*.mp4` | **⚠ NO — manual, needs ffmpeg** | `--season=`, `--gw=`, `--type=results\|scorers\|table\|preview`, `--fixture=`, `--mute` |
 | `optimize-images.mjs` | `public/players`, `public/managers`, `public/teams` | resized `.webp` | **⚠ NO — manual only** | — |
 | `scrape-ep.mjs` | `scripts/.cache/*.html`, `table.json` | `src/data/table.json` (`ep` only) | **⚠ superseded by `scrape-standings.mjs`** | — |
 | `scrape-assets.mjs` | — | `public/logos/{slug}.svg` | **⚠ NO — manual only** | — |
@@ -451,7 +451,7 @@ Defined in `src/content/config.ts`: `teams`, `players`, `managers`, `news`.
 - `ping-indexnow.mjs` notifies Bing/IndexNow after each build (key at `public/<key>.txt`)
 - **Analytics:** GA4 wired in `Base.astro` (disabled until `GA_ID` is set to a real `G-…` ID)
 - **Growth playbook:** `docs/backlink-targets.md` — outreach targets + linkable assets (`/data`, `/records`, `/gamechangers`)
-- **Short-form video:** `npm run video` → vertical MP4s in `output/` (results/scorers/table) from our own data. Manual, needs ffmpeg (`npm i ffmpeg-static --no-save`); post them by hand — no copyrighted footage, no bot posting.
+- **Short-form video:** `npm run video` → animated vertical MP4s in `output/` (types: `results` / `scorers` / `table` / `preview` H2H) from our own data, with a **synthesised (royalty-free) music bed**. Manual, needs ffmpeg (`npm i ffmpeg-static --no-save`); post them by hand — no copyrighted footage, no bot posting.
 
 ### AdSense
 Publisher ID `ca-pub-7873503560434517` in `Base.astro`; `ads.txt` in `public/`.

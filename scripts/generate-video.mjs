@@ -47,11 +47,78 @@ const arg = (name, def) => {
 const seasons = gcData.seasons;
 const seasonKeys = Object.keys(seasons).map(Number).sort((a, b) => b - a);
 const seasonWithResults = seasonKeys.find((s) => seasons[String(s)].matches.some((m) => m.homeScore > 0 || m.awayScore > 0));
-const SEASON = String(arg("season", seasonWithResults ?? seasonKeys[0]));
-const matches = seasons[SEASON].matches.filter((m) => m.homeScore > 0 || m.awayScore > 0);
+const TYPE = arg("type", "results");
+const MUTE = process.argv.includes("--mute");
+const FIXTURES = read("src/data/fixtures.json").upcoming || [];
+const isPreview = TYPE === "preview" || TYPE === "h2h";
+const SEASON = String(arg("season", (isPreview ? FIXTURES[0]?.season : seasonWithResults) ?? seasonWithResults ?? seasonKeys[0]));
+const matches = (seasons[SEASON]?.matches || []).filter((m) => m.homeScore > 0 || m.awayScore > 0);
 const gwsPlayed = [...new Set(matches.map((m) => m.gameweek))].sort((a, b) => a - b);
 const GW = Number(arg("gw", gwsPlayed[gwsPlayed.length - 1] ?? 1));
-const TYPE = arg("type", "results");
+
+// ─── music bed (synthesised in-code → royalty-free, reproducible) ─
+function writeWav(path, samples, sr = 44100, ch = 2) {
+  const n = samples.length;
+  const buf = Buffer.alloc(44 + n * ch * 2);
+  buf.write("RIFF", 0); buf.writeUInt32LE(36 + n * ch * 2, 4); buf.write("WAVE", 8);
+  buf.write("fmt ", 12); buf.writeUInt32LE(16, 16); buf.writeUInt16LE(1, 20); buf.writeUInt16LE(ch, 22);
+  buf.writeUInt32LE(sr, 24); buf.writeUInt32LE(sr * ch * 2, 28); buf.writeUInt16LE(ch * 2, 32); buf.writeUInt16LE(16, 34);
+  buf.write("data", 36); buf.writeUInt32LE(n * ch * 2, 40);
+  let o = 44;
+  for (let i = 0; i < n; i++) {
+    const s = Math.max(-1, Math.min(1, samples[i]));
+    const v = (s < 0 ? s * 32768 : s * 32767) | 0;
+    buf.writeInt16LE(v, o); buf.writeInt16LE(v, o + 2); o += 4;
+  }
+  writeFileSync(path, buf);
+}
+
+// A gentle, looping electronic bed: Am–F–C–G pad + bass + arpeggio + soft drums.
+function synthMusic(dur) {
+  const sr = 44100, n = Math.floor(dur * sr), out = new Float32Array(n);
+  const beat = 60 / 100, bar = beat * 4;
+  const chords = [
+    { root: 110.0, notes: [220.0, 261.63, 329.63] }, // Am
+    { root: 87.31, notes: [174.61, 220.0, 261.63] },  // F
+    { root: 130.81, notes: [261.63, 329.63, 392.0] },// C
+    { root: 98.0, notes: [196.0, 246.94, 293.66] },  // G
+  ];
+  const tone = (start, d, freq, amp, type = "sine", atk = 0.01, rel = 0.15) => {
+    const s0 = Math.floor(start * sr), s1 = Math.min(n, Math.floor((start + d) * sr));
+    for (let i = s0; i < s1; i++) {
+      const t = (i - s0) / sr;
+      const env = Math.min(1, t / atk) * Math.min(1, (d - t) / rel);
+      const ph = 2 * Math.PI * freq * t;
+      const v = type === "triangle" ? 2 * Math.abs(2 * ((freq * t) % 1) - 1) - 1 : Math.sin(ph);
+      out[i] += v * amp * Math.max(0, Math.min(1, env));
+    }
+  };
+  const kick = (start, amp) => {
+    const s0 = Math.floor(start * sr), len = Math.floor(0.14 * sr);
+    for (let i = 0; i < len && s0 + i < n; i++) { const t = i / sr; out[s0 + i] += Math.sin(2 * Math.PI * lerp(130, 48, t / 0.14) * t) * amp * Math.exp(-t * 18); }
+  };
+  const hat = (start, amp) => {
+    const s0 = Math.floor(start * sr), len = Math.floor(0.05 * sr);
+    for (let i = 0; i < len && s0 + i < n; i++) { const t = i / sr; out[s0 + i] += (Math.random() * 2 - 1) * amp * Math.exp(-t * 60); }
+  };
+  const bars = Math.ceil(dur / bar) + 1;
+  for (let b = 0; b < bars; b++) {
+    const t0 = b * bar, ch = chords[b % 4];
+    for (const f of ch.notes) tone(t0, bar * 0.98, f, 0.06, "sine", 0.6, 0.8);
+    tone(t0, beat * 1.6, ch.root, 0.18, "sine", 0.02, 0.4);
+    tone(t0 + 2 * beat, beat * 1.6, ch.root, 0.16, "sine", 0.02, 0.4);
+    for (let k = 0; k < 8; k++) tone(t0 + k * (beat / 2), beat * 0.5, ch.notes[k % 3] * 2, 0.045, "triangle", 0.005, 0.25);
+    kick(t0, 0.5); kick(t0 + 2 * beat, 0.45);
+    for (let k = 0; k < 4; k++) hat(t0 + k * beat + beat / 2, 0.04);
+  }
+  let peak = 0; for (let i = 0; i < n; i++) peak = Math.max(peak, Math.abs(out[i]));
+  const g = peak > 0 ? 0.4 / peak : 1, fade = sr;
+  for (let i = 0; i < n; i++) {
+    let v = Math.tanh(out[i] * g * 1.2) / 1.2;
+    out[i] = v * Math.min(1, i / fade) * Math.min(1, (n - i) / fade);
+  }
+  return out;
+}
 
 // ─── math helpers ─────────────────────────────────────────────────
 const clamp = (x, a = 0, b = 1) => Math.min(b, Math.max(a, x));
@@ -246,6 +313,125 @@ function sceneOutro(lt) {
     <text x="${W / 2}" y="${1180}" text-anchor="middle" opacity="${a(0.6)}" font-family="${FONT}" font-size="40" font-weight="600" fill="#8b9bb8">Follow for matchday updates</text>`;
 }
 
+// ─── preview (H2H) data helpers ───────────────────────────────────
+const FORM_COLORS = { W: "#00e676", D: "#ffd600", L: "#ff6b35" };
+
+function latestCompletedSeason() {
+  return seasonKeys.find((s) => seasons[String(s)].matches.some((m) => m.homeScore > 0 || m.awayScore > 0));
+}
+function teamForm(slug, season) {
+  const ms = seasons[String(season)].matches
+    .filter((m) => (m.homeSlug === slug || m.awaySlug === slug) && (m.homeScore > 0 || m.awayScore > 0))
+    .sort((a, b) => a.gameweek - b.gameweek);
+  return ms.slice(-5).map((m) => {
+    const home = m.homeSlug === slug;
+    const gf = home ? m.homeScore : m.awayScore, ga = home ? m.awayScore : m.homeScore;
+    return gf > ga ? "W" : gf < ga ? "L" : "D";
+  });
+}
+function h2hRecord(a, b) {
+  let aw = 0, bw = 0, d = 0; const games = [];
+  for (const s of Object.keys(seasons)) {
+    for (const m of seasons[s].matches) {
+      if (m.homeScore <= 0 && m.awayScore <= 0) continue;
+      if (![m.homeSlug, m.awaySlug].includes(a) || ![m.homeSlug, m.awaySlug].includes(b)) continue;
+      const aHome = m.homeSlug === a;
+      const ag = aHome ? m.homeScore : m.awayScore, bg = aHome ? m.awayScore : m.homeScore;
+      if (ag > bg) aw++; else if (ag < bg) bw++; else d++;
+      games.push({ season: Number(s), gameweek: m.gameweek, aScore: ag, bScore: bg });
+    }
+  }
+  games.sort((x, y) => x.season - y.season || x.gameweek - y.gameweek);
+  return { aw, bw, d, last: games[games.length - 1] || null };
+}
+function standingFor(slug, season) {
+  const rows = computeTable(seasons[String(season)].matches.filter((m) => m.gameweek <= 11), season);
+  return rows.find((r) => r.slug === slug) || null;
+}
+
+// ─── preview scenes ───────────────────────────────────────────────
+function scenePreviewIntro(fx, uriH, uriA, lt) {
+  const p = ease(clamp(lt / 0.6)), dx = (1 - p) * 80;
+  const pop = easeBack(clamp((lt - 0.4) / 0.5));
+  const fit = (n) => (n.length > 16 ? 40 : n.length > 11 ? 46 : 54);
+  const fh = fit(fx.homeTeam), fa = fit(fx.awayTeam);
+  return `
+    <text x="60" y="470" font-family="${FONT}" font-size="46" font-weight="700" fill="#5b6b85" letter-spacing="6">MATCH PREVIEW</text>
+    <g opacity="${p}" transform="translate(${-dx},0)">
+      ${logoBadge(fx.homeSlug, uriH, 270, 800, 240, clamp(p * 1.05))}
+      <text x="270" y="990" text-anchor="middle" font-family="${FONT}" font-size="${fh}" font-weight="800" fill="#ffffff">${esc(fx.homeTeam)}</text>
+    </g>
+    <g opacity="${p}" transform="translate(${dx},0)">
+      ${logoBadge(fx.awaySlug, uriA, 810, 800, 240, clamp(p * 1.05))}
+      <text x="810" y="990" text-anchor="middle" font-family="${FONT}" font-size="${fa}" font-weight="800" fill="#ffffff">${esc(fx.awayTeam)}</text>
+    </g>
+    <g transform="translate(540,808) scale(${pop})" opacity="${ease(clamp((lt - 0.4) / 0.4))}">
+      <text text-anchor="middle" font-family="${FONT}" font-size="72" font-weight="800" fill="url(#accent)">VS</text>
+    </g>
+    <text x="540" y="1145" text-anchor="middle" opacity="${ease(clamp((lt - 0.8) / 0.5))}" font-family="${FONT}" font-size="42" font-weight="600" fill="#8b9bb8">Gameweek ${fx.gameweek} · ${esc(fx.date)} · ${esc(fx.time)}</text>`;
+}
+
+function sceneForm(fx, formH, formA, lt, season) {
+  const titleP = ease(clamp(lt / 0.5));
+  const block = (y, slug, name, chips, delay) => {
+    const p = ease(clamp((lt - delay) / 0.5));
+    let s = `<g opacity="${p}">
+      <rect x="60" y="${y - 46}" width="10" height="150" rx="5" fill="${color(slug)}"/>
+      <text x="100" y="${y - 4}" font-family="${FONT}" font-size="50" font-weight="800" fill="#ffffff">${esc(name)}</text>`;
+    chips.forEach((c, i) => {
+      const cp = clamp(easeBack(clamp((lt - delay - 0.15 - i * 0.1) / 0.4)), 0, 1.15);
+      const cx = 100 + i * 86;
+      s += `<g transform="translate(${cx},${y + 30}) scale(${cp})" opacity="${clamp(cp)}">
+        <rect width="66" height="66" rx="14" fill="${FORM_COLORS[c]}" opacity="0.16"/>
+        <rect width="66" height="66" rx="14" fill="none" stroke="${FORM_COLORS[c]}" stroke-width="3"/>
+        <text x="33" y="45" text-anchor="middle" font-family="${FONT}" font-size="34" font-weight="800" fill="${FORM_COLORS[c]}">${c}</text>
+      </g>`;
+    });
+    return s + "</g>";
+  };
+  return `<text x="60" y="${470 - (1 - titleP) * 30}" opacity="${titleP}" font-family="${FONT}" font-size="66" font-weight="800" fill="#ffffff">RECENT FORM</text>
+    <text x="60" y="540" opacity="${titleP}" font-family="${FONT}" font-size="38" font-weight="600" fill="#8b9bb8">Last 5 · Season ${season}</text>
+    ${block(760, fx.homeSlug, fx.homeTeam, formH, 0.3)}
+    ${block(1030, fx.awaySlug, fx.awayTeam, formA, 0.55)}`;
+}
+
+function sceneH2H(fx, rec, lt) {
+  const titleP = ease(clamp(lt / 0.5));
+  const cols = [
+    { x: 270, label: fx.homeTeam, v: rec.aw, col: "#00e676" },
+    { x: 540, label: "Draws", v: rec.d, col: "#ffd600" },
+    { x: 810, label: fx.awayTeam, v: rec.bw, col: "#00b0ff" },
+  ];
+  let out = `<text x="60" y="${470 - (1 - titleP) * 30}" opacity="${titleP}" font-family="${FONT}" font-size="66" font-weight="800" fill="#ffffff">HEAD TO HEAD</text>`;
+  cols.forEach((c, i) => {
+    const p = ease(clamp((lt - 0.3 - i * 0.15) / 0.6));
+    out += `<text x="${c.x}" y="830" text-anchor="middle" font-family="${FONT}" font-size="150" font-weight="800" fill="${c.col}" opacity="${p}">${Math.round(c.v * p)}</text>
+      <text x="${c.x}" y="910" text-anchor="middle" opacity="${ease(clamp((lt - 0.5) / 0.5))}" font-family="${FONT}" font-size="36" font-weight="700" fill="#8b9bb8">${esc(c.label)}</text>`;
+  });
+  if (rec.last) {
+    out += `<text x="540" y="1070" text-anchor="middle" opacity="${ease(clamp((lt - 1.0) / 0.6))}" font-family="${FONT}" font-size="40" font-weight="600" fill="#c8d2e0">Last meeting: ${esc(fx.homeTeam)} ${rec.last.aScore}-${rec.last.bScore} ${esc(fx.awayTeam)}</text>`;
+  }
+  return out + `<text x="540" y="1130" text-anchor="middle" opacity="${ease(clamp((lt - 1.1) / 0.6))}" font-family="${FONT}" font-size="34" font-weight="600" fill="#5b6b85">All-time meetings</text>`;
+}
+
+function scenePositions(fx, posH, posA, lt, season) {
+  const titleP = ease(clamp(lt / 0.5));
+  const row = (y, slug, name, st, delay) => {
+    const p = ease(clamp((lt - delay) / 0.5));
+    return `<g opacity="${p}" transform="translate(${(1 - p) * 60},0)">
+      <rect x="60" y="${y - 58}" width="${W - 120}" height="100" rx="18" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+      <rect x="90" y="${y - 20}" width="14" height="30" rx="4" fill="${color(slug)}"/>
+      <text x="130" y="${y + 2}" font-family="${FONT}" font-size="54" font-weight="800" fill="#ffffff">${esc(name)}</text>
+      <text x="${W - 250}" y="${y + 2}" text-anchor="end" font-family="${FONT}" font-size="54" font-weight="800" fill="#00e676">${st ? "#" + st.pos : "-"}</text>
+      <text x="${W - 100}" y="${y + 2}" text-anchor="end" font-family="${FONT}" font-size="42" font-weight="700" fill="#8b9bb8">${st ? st.pts : 0} pts</text>
+    </g>`;
+  };
+  return `<text x="60" y="${470 - (1 - titleP) * 30}" opacity="${titleP}" font-family="${FONT}" font-size="66" font-weight="800" fill="#ffffff">IN THE TABLE</text>
+    <text x="60" y="540" opacity="${titleP}" font-family="${FONT}" font-size="38" font-weight="600" fill="#8b9bb8">Final standings · Season ${season}</text>
+    ${row(780, fx.homeSlug, fx.homeTeam, posH, 0.3)}
+    ${row(940, fx.awaySlug, fx.awayTeam, posA, 0.5)}`;
+}
+
 // ─── ffmpeg resolution ────────────────────────────────────────────
 async function resolveFfmpeg() {
   try {
@@ -259,6 +445,21 @@ async function resolveFfmpeg() {
 async function buildScenes() {
   const scenes = [];
   const seasonTable = computeTable(matches.filter((m) => m.gameweek <= 11), SEASON);
+  if (isPreview) {
+    const fx = FIXTURES[Number(arg("fixture", 0))];
+    if (!fx) { console.error("No upcoming fixture found (fixtures.json `upcoming` is empty)."); process.exit(1); }
+    const uriH = await logoDataUri(fx.homeSlug), uriA = await logoDataUri(fx.awaySlug);
+    const comp = latestCompletedSeason();
+    const formH = teamForm(fx.homeSlug, comp), formA = teamForm(fx.awaySlug, comp);
+    const rec = h2hRecord(fx.homeSlug, fx.awaySlug);
+    const posH = standingFor(fx.homeSlug, comp), posA = standingFor(fx.awaySlug, comp);
+    scenes.push({ dur: 3.4, render: (lt) => scenePreviewIntro(fx, uriH, uriA, lt) });
+    scenes.push({ dur: 4.2, render: (lt) => sceneForm(fx, formH, formA, lt, comp) });
+    if (rec.aw + rec.bw + rec.d > 0) scenes.push({ dur: 4.2, render: (lt) => sceneH2H(fx, rec, lt) });
+    if (posH || posA) scenes.push({ dur: 4.2, render: (lt) => scenePositions(fx, posH, posA, lt, comp) });
+    scenes.push({ dur: 3.2, render: (lt) => sceneOutro(lt) });
+    return { scenes, name: "preview", gw: fx.gameweek };
+  }
   if (TYPE === "scorers") {
     scenes.push({ dur: 3.0, render: (lt) => sceneIntro(lt) });
     scenes.push({ dur: 5.5, render: (lt) => sceneScorers(lt, SEASON) });
@@ -288,7 +489,7 @@ async function buildScenes() {
 // ─── render + encode ──────────────────────────────────────────────
 async function main() {
   const ffmpeg = await resolveFfmpeg();
-  const { scenes, name } = await buildScenes();
+  const { scenes, name, gw } = await buildScenes();
 
   const FADE = 0.5;
   const starts = [];
@@ -321,10 +522,20 @@ async function main() {
   }
   console.log(`\r  ${frames}/${frames} frames rendered.`);
 
-  const outFile = resolve(OUT_DIR, `baller-league-s${SEASON}-gw${GW}-${name}.mp4`);
+  const outFile = resolve(OUT_DIR, `baller-league-s${SEASON}-gw${gw ?? GW}-${name}.mp4`);
+
+  let musicPath = null;
+  if (!MUTE) {
+    musicPath = resolve(TMP_DIR, "music.wav");
+    console.log("Synthesising music bed...");
+    writeWav(musicPath, synthMusic(total));
+  }
+
   const args = [
     "-y", "-framerate", String(FPS), "-i", resolve(TMP_DIR, "f-%04d.png"),
+    ...(musicPath ? ["-i", musicPath] : []),
     "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p",
+    ...(musicPath ? ["-c:a", "aac", "-b:a", "160k", "-shortest"] : []),
     "-movflags", "+faststart", outFile,
   ];
   console.log("Encoding with ffmpeg...");
