@@ -3,7 +3,7 @@ title: "Prime FC Annihilate Wembley Rangers AFC 7-1 in Statement Victory — GW7
 date: 2026-04-27
 category: "Match Report"
 excerpt: "Prime FC 7-1 Wembley Rangers AFC — Gameweek 7 match report. Francis Mampolo (22 goals) leads Prime FC's attack. Game Changers: Plus One (0) & The Line (4). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

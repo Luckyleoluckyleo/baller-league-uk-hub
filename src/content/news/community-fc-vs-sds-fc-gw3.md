@@ -3,7 +3,7 @@ title: "SDS FC Too Strong for Community FC in 3-7 Victory — GW3"
 date: 2026-03-30
 category: "Match Report"
 excerpt: "Community FC 3-7 SDS FC — Gameweek 3 match report. Alex Byrne (12 goals) leads Community FC's attack. Game Changers: Onside (0) & 1-on-1 (5). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: true
 ---
 

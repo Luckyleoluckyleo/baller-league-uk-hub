@@ -3,7 +3,7 @@ title: "Gameweek 11 Preview: Gold Devils FC vs Wembley Rangers AFC"
 date: 2026-05-19
 category: "Preview"
 excerpt: "Gold Devils FC (10th) host Wembley Rangers AFC (5th) in Gameweek 11. Bilal Sayoud (8 goals) leads Gold Devils FC."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

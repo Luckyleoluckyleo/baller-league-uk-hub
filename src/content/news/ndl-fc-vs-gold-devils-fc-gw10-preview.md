@@ -3,7 +3,7 @@ title: "Gameweek 10 Preview: NDL FC vs Gold Devils FC"
 date: 2026-05-12
 category: "Preview"
 excerpt: "NDL FC (1st) host Gold Devils FC (10th) in Gameweek 10. Dara Dada (8 goals) leads NDL FC."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

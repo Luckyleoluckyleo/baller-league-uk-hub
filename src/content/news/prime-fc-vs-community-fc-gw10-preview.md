@@ -3,7 +3,7 @@ title: "Gameweek 10 Preview: Prime FC vs Community FC"
 date: 2026-05-12
 category: "Preview"
 excerpt: "Prime FC (4th) host Community FC (11th) in Gameweek 10. Francis Gerard Mampolo (17 goals) leads Prime FC."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

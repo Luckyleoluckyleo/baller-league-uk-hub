@@ -3,7 +3,7 @@ title: "Deportrio Brush Gold Devils FC Aside 6-2 in Confident Showing — GW1"
 date: 2026-03-16
 category: "Match Report"
 excerpt: "Deportrio 6-2 Gold Devils FC — Gameweek 1 match report. Jay Emmanuel-Thomas (21 goals) leads Deportrio's attack. Game Changers: 3Play (2) & 1-on-1 (2). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

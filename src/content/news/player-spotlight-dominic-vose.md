@@ -3,7 +3,7 @@ title: "Player Spotlight: Dominic Vose — RTG FC"
 date: 2026-10-11
 category: "Feature"
 excerpt: "A closer look at Dominic Vose, midfielder for RTG FC in Baller League UK Season 4 — career, honours and what he brings to the 6v6 game."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

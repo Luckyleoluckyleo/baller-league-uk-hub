@@ -3,7 +3,7 @@ title: "Gameweek 10 Preview: Deportrio vs Rukkas FC"
 date: 2026-05-12
 category: "Preview"
 excerpt: "Deportrio (2nd) host Rukkas FC (12th) in Gameweek 10. Jay Emmanuel-Thomas (18 goals) leads Deportrio."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

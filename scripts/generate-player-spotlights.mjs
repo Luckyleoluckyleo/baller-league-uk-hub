@@ -77,7 +77,7 @@ for (const file of files) {
   const title = `Player Spotlight: ${name} — ${teamName}`;
   const excerpt = `A closer look at ${name}${position ? `, ${position.toLowerCase()}` : ""}${teamName ? ` for ${teamName}` : ""} in Baller League UK Season ${CURRENT_SEASON} — career, honours and what he brings to the 6v6 game.`;
 
-  let s = `---\ntitle: "${title}"\ndate: ${dateStr}\ncategory: "Feature"\nexcerpt: "${excerpt.replace(/"/g, "'")}"\nauthor: "Baller League UK Fan Site"\nfeatured: false\n---\n\n`;
+  let s = `---\ntitle: "${title}"\ndate: ${dateStr}\ncategory: "Feature"\nexcerpt: "${excerpt.replace(/"/g, "'")}"\nauthor: "Baller League UK Hub"\nfeatured: false\n---\n\n`;
   s += `## ${name}: Baller League UK Player Spotlight\n\n`;
   s += `**${name}**${position ? ` is a ${position.toLowerCase()}` : ""}${teamName ? ` for **${teamName}**` : ""} in Baller League UK Season ${CURRENT_SEASON}. `;
   if (formerClubs.length) s += `A former ${joinList(formerClubs)} player, he brings genuine professional experience to the 6v6 format.\n\n`;

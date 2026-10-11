@@ -3,7 +3,7 @@ title: "Clutch FC Scrape Past Yanited 5-4 in Tight GW9 Contest"
 date: 2026-05-08
 category: "Match Report"
 excerpt: "Clutch FC 5-4 Yanited — Gameweek 9 match report. Tyler Winters (14 goals) leads Clutch FC's attack. Game Changers: Plus One (3) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

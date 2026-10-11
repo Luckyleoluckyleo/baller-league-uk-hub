@@ -63,6 +63,20 @@ const teamGoalDiff = teamGoalsFor - teamGoalsAgainst;
 const teamAvgGoals = teamGames ? (teamGoalsFor / teamGames).toFixed(1) : '0.0';
 const teamCleanSheets = seasonLeague.filter((m: any) => (m.homeSlug === data.urlSlug && m.awayScore === 0) || (m.awaySlug === data.urlSlug && m.homeScore === 0)).length;
 
+// Related coverage: this club's history + season preview + every match report/preview
+// that features them. Links the ~90 auto-generated articles from the team page so
+// they're discovered and inherit relevance.
+const allNews = await getCollection('news');
+const coverage = allNews
+  .filter((a) => {
+    const s = a.slug;
+    if (s === `baller-league-team-history-${data.urlSlug}`) return true;
+    if (s === `season-${SEASON}-team-preview-${data.urlSlug}`) return true;
+    return s.includes(`${data.urlSlug}-vs-`) || s.includes(`-vs-${data.urlSlug}-`);
+  })
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .slice(0, 8);
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "SportsTeam",
@@ -165,6 +179,23 @@ const firstManagerSlug = (data.manager.split(',')[0] || '').trim().toLowerCase()
     <div class="team-content-block">
       <Content />
     </div>
+
+    {coverage.length > 0 && (
+      <section class="team-coverage">
+        <div class="section-header">
+          <div class="section-label">Reading</div>
+          <h2 class="section-title">{data.name} in the news</h2>
+        </div>
+        <ul class="team-coverage-list">
+          {coverage.map((a: any) => (
+            <li>
+              <a href={`/news/${a.slug}`}>{a.data.title}</a>
+              <span class="tc-cat"> · {a.data.category}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
 
     <!-- SQUAD -->
     <section class="squad-section">

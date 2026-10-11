@@ -16,6 +16,10 @@ export async function getStaticPaths() {
 const contentPlayers = await getCollection('players');
 const contentBySlug = Object.fromEntries(contentPlayers.map((p) => [p.slug, p]));
 
+// Featured spotlight article, if one exists for this player.
+const allNews = await getCollection('news');
+const spotlight = allNews.find((a) => a.slug === `player-spotlight-${Astro.props.playerSlug}`);
+
 const { playerSlug } = Astro.props;
 const scraped = (playerData.players as any[]).find((p) => p.slug === playerSlug);
 const entry = contentBySlug[playerSlug];
@@ -251,6 +255,18 @@ const colorSoft = teamColorSoft(player?.teamSlug, 0.18);
                       <span class="profile-person-meta">{t.seasons?.[statsSeason]?.goals ?? 0} G</span>
                     </a>
                   ))}
+                </div>
+              </div>
+            )}
+
+            {spotlight && (
+              <div class="profile-card">
+                <h2 class="profile-h2">Featured</h2>
+                <div class="profile-articles">
+                  <a href={`/news/${spotlight.slug}`}>
+                    <span class="pa-cat">{spotlight.data.category}</span>
+                    <span class="pa-title">{spotlight.data.title}</span>
+                  </a>
                 </div>
               </div>
             )}

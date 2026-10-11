@@ -3,7 +3,7 @@ title: "Yanited and VZN FC Split the Points in 3-3 GW1 Stalemate"
 date: 2026-03-16
 category: "Match Report"
 excerpt: "Yanited 3-3 VZN FC — Gameweek 1 match report. Kadell Daniel (16 goals) leads Yanited's attack. Game Changers: Onside (4) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

@@ -3,7 +3,7 @@ title: "Wembley Rangers AFC Pip Clutch FC 3-2 in Tense GW10 Encounter"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "Wembley Rangers AFC 3-2 Clutch FC — Gameweek 10 match report. Domingos Pires (9 goals) leads Wembley Rangers AFC's attack. Game Changers: Onside (0) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

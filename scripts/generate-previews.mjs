@@ -180,7 +180,7 @@ title: "${title}"
 date: ${iso}
 category: "Preview"
 excerpt: "${excerpt.replace(/"/g, "'")}"
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

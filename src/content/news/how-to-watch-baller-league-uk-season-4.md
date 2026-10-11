@@ -3,7 +3,7 @@ title: "How to Watch Baller League UK Season 4 (Online, Free and Everywhere)"
 date: 2026-10-11
 category: "Explainer"
 excerpt: "Baller League UK Season 4 is online-only. Here is exactly how, where and when to watch every Monday-night matchday — plus where to follow results and stats."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

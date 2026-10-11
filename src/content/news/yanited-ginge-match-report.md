@@ -3,7 +3,7 @@ title: "Yanited Dominate Gameweek 8 with Emphatic 5-2 Victory Over Ginge FC"
 date: 2025-04-26
 category: "Match Report"
 excerpt: "KSI's Yanited put on a Baller League masterclass as they crushed Ginge FC 5-2 in Gameweek 8, with Marcus Bell scoring a stunning hat-trick to extend his golden boot lead."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: true
 ---
 

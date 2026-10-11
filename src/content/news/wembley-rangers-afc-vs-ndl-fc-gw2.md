@@ -3,7 +3,7 @@ title: "Wembley Rangers AFC and NDL FC Play Out 2-2 Draw in Gameweek 2"
 date: 2026-03-23
 category: "Match Report"
 excerpt: "Wembley Rangers AFC 2-2 NDL FC — Gameweek 2 match report. Domingos Pires (9 goals) leads Wembley Rangers AFC's attack. Game Changers: Onside (0) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

@@ -3,7 +3,7 @@ title: "Baller League UK Glossary: Every Term and Rule Explained"
 date: 2026-10-01
 category: "Explainer"
 excerpt: "New to Baller League UK? From Game Changers and wildcards to EP and the Final Four, here is every term, rule and bit of jargon explained in plain English."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

@@ -3,7 +3,7 @@ title: "SDS FC and Deportrio Deadlocked at 2-2 in GW7"
 date: 2026-04-27
 category: "Match Report"
 excerpt: "SDS FC 2-2 Deportrio — Gameweek 7 match report. Kazaiah Sterling (9 goals) leads SDS FC's attack. Game Changers: 3Play (3) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

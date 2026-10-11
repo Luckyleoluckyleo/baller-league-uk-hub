@@ -3,7 +3,7 @@ title: "Community FC Pip VZN FC 4-3 in Tense GW4 Encounter"
 date: 2026-04-06
 category: "Match Report"
 excerpt: "Community FC 4-3 VZN FC — Gameweek 4 match report. Alex Byrne (12 goals) leads Community FC's attack. Game Changers: 3Play (1) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

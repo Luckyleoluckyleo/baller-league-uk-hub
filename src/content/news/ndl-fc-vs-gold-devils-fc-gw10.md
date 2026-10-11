@@ -3,7 +3,7 @@ title: "NDL FC See Off Gold Devils FC 4-2 in Gameweek 10"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "NDL FC 4-2 Gold Devils FC — Gameweek 10 match report. Sam Fitzgerald (10 goals) leads NDL FC's attack. Game Changers: 3Play (5) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

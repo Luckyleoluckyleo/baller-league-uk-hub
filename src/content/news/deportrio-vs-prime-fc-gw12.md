@@ -3,7 +3,7 @@ title: "Prime FC See Off Deportrio 3-5 in Gameweek 12"
 date: 2026-05-25
 category: "Match Report"
 excerpt: "Deportrio 3-5 Prime FC — Gameweek 12 match report. Jay Emmanuel-Thomas (21 goals) leads Deportrio's attack. Game Changers: Plus One (2) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

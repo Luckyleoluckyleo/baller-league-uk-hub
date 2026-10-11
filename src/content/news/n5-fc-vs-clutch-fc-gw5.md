@@ -3,7 +3,7 @@ title: "Clutch FC Narrowly Beat N5 FC 5-6 in GW5 Nail-biter"
 date: 2026-04-13
 category: "Match Report"
 excerpt: "N5 FC 5-6 Clutch FC — Gameweek 5 match report. Michael Hill (19 goals) leads N5 FC's attack. Game Changers: Onside (1) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: true
 ---
 

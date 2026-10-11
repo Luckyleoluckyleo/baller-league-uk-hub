@@ -3,7 +3,7 @@ title: "Which Game Changer Scores the Most Goals? The Data Behind the Rule Twist
 date: 2026-09-30
 category: "Explainer"
 excerpt: "We crunched every Game Changer activation in Baller League UK history. Some rule changes produce three times as many goals as others — here's the data."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

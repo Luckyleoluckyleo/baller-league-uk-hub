@@ -1,10 +1,21 @@
-import { writeFileSync, readdirSync, statSync } from "fs";
+import { writeFileSync, readFileSync, readdirSync, existsSync } from "fs";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DIST_DIR = resolve(__dirname, "..", "dist");
 const SITE = "https://ballerleagueukhub.com";
+
+// Real content dates emitted by src/pages/lastmod.json.ts during the build. Used so
+// <lastmod> reflects when content actually changed, not when the site was rebuilt.
+const LASTMOD_PATH = resolve(DIST_DIR, "lastmod.json");
+let lastmodByPath = {};
+if (existsSync(LASTMOD_PATH)) {
+  try {
+    lastmodByPath = JSON.parse(readFileSync(LASTMOD_PATH, "utf8"));
+  } catch {}
+}
+
 
 function isExcluded(url) {
   if (url === "404" || url === "compare/") return true;
@@ -27,8 +38,8 @@ function walk(dir, base = "") {
         .replace(/\.html$/, "");
       if (!isExcluded(url)) {
         const fullUrl = `${SITE}/${url}`;
-        const { mtime } = statSync(full);
-        results.push({ url: fullUrl, path: rel, mtime });
+        const lastmod = lastmodByPath[`/${url}`];
+        results.push({ url: fullUrl, path: rel, lastmod });
       }
     }
   }
@@ -61,8 +72,7 @@ function getChangefreq(url) {
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${pages.map(p => `  <url>
-    <loc>${p.url}</loc>
-    <lastmod>${p.mtime.toISOString()}</lastmod>
+    <loc>${p.url}</loc>${p.lastmod ? `\n    <lastmod>${p.lastmod}</lastmod>` : ""}
     <changefreq>${getChangefreq(p.url)}</changefreq>
     <priority>${getPriority(p.url)}</priority>
   </url>`).join("\n")}

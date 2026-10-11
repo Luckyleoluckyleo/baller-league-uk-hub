@@ -101,7 +101,7 @@ function buildTeamPreview(slug) {
   const title = `${name} — Baller League UK Season ${CURRENT_SEASON} Preview & Squad`;
   const excerpt = `Everything you need to know about ${name} for Baller League UK Season ${CURRENT_SEASON}: their manager, key players, opening fixture and season outlook.`;
 
-  let s = `---\ntitle: "${title}"\ndate: ${dateStr}\ncategory: "Team Preview"\nexcerpt: "${excerpt.replace(/"/g, "'")}"\nauthor: "Baller League UK Fan Site"\nfeatured: false\n---\n\n`;
+  let s = `---\ntitle: "${title}"\ndate: ${dateStr}\ncategory: "Team Preview"\nexcerpt: "${excerpt.replace(/"/g, "'")}"\nauthor: "Baller League UK Hub"\nfeatured: false\n---\n\n`;
   s += `## ${name}: Season ${CURRENT_SEASON} Preview\n\n`;
   s += `${meta.description ? meta.description + " " : ""}Here is the full lowdown on ${name} ahead of Baller League UK Season ${CURRENT_SEASON} — the manager, the squad, the opening fixture and what to expect.\n\n`;
 

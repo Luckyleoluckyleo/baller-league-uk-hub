@@ -3,7 +3,7 @@ title: "Deportrio Scrape Past N5 FC 2-3 in Tight GW11 Contest"
 date: 2026-05-18
 category: "Match Report"
 excerpt: "N5 FC 2-3 Deportrio — Gameweek 11 match report. Michael Hill (19 goals) leads N5 FC's attack. Game Changers: 3Play (2) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

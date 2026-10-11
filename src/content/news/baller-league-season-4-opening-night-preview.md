@@ -3,7 +3,7 @@ title: "Season 4 Opening Night: Every Gameweek 1 Fixture Previewed"
 date: 2026-10-11
 category: "Preview"
 excerpt: "Baller League UK Season 4 kicks off on Monday 12 October 2026 with six fixtures. Here is a quick guide to every Gameweek 1 match — teams, managers and kick-off times."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: true
 ---
 

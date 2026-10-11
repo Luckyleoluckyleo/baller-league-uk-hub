@@ -3,7 +3,7 @@ title: "Prime FC Obliterate Yanited 1-8 in Crushing GW6 Display"
 date: 2026-04-20
 category: "Match Report"
 excerpt: "Yanited 1-8 Prime FC — Gameweek 6 match report. Kadell Daniel (16 goals) leads Yanited's attack. Game Changers: 3Play (3) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

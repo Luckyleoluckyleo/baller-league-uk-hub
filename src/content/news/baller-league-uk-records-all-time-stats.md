@@ -3,7 +3,7 @@ title: "Baller League UK Records: The All-Time Stats Behind the League"
 date: 2026-10-05
 category: "Explainer"
 excerpt: "Over 200 matches and 1,500 goals so far — we crunch the numbers to reveal Baller League UK's all-time records, top scorers and highest-scoring games ahead of Season 4."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

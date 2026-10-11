@@ -705,6 +705,22 @@ a.profile-club:hover { transform: translateY(-2px); box-shadow: 0 10px 28px var(
 .profile-person:hover .profile-person-name { color: var(--team-color); }
 .profile-person-meta { font-size: 0.78rem; font-weight: 700; color: var(--team-color); }
 
+/* Related / coverage article lists (team + player pages) */
+.profile-articles { display: flex; flex-direction: column; gap: var(--space-sm); }
+.profile-articles a { display: flex; flex-direction: column; gap: 2px; text-decoration: none; padding-bottom: var(--space-sm); border-bottom: 1px solid var(--border-subtle); }
+.profile-articles a:last-child { border-bottom: none; padding-bottom: 0; }
+.profile-articles .pa-cat { font-size: 0.64rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); }
+.profile-articles .pa-title { font-size: 0.88rem; font-weight: 600; color: var(--text-primary); line-height: 1.35; }
+.profile-articles a:hover .pa-title { color: var(--green); }
+
+.team-coverage { margin-top: var(--space-2xl); }
+.team-coverage-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-sm) var(--space-xl); }
+.team-coverage-list li { border-bottom: 1px solid var(--border-subtle); padding-bottom: var(--space-sm); }
+.team-coverage-list a { font-weight: 600; color: var(--text-primary); }
+.team-coverage-list a:hover { color: var(--green); }
+.team-coverage-list .tc-cat { color: var(--text-muted); font-size: 0.76rem; font-weight: 400; }
+@media (max-width: 640px) { .team-coverage-list { grid-template-columns: 1fr; } }
+
 @media (max-width: 900px) {
   .profile-layout { flex-direction: column; }
   .profile-side { width: 100%; }

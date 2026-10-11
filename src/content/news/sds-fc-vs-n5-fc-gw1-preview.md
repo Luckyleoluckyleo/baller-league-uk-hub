@@ -3,7 +3,7 @@ title: "Gameweek 1 Preview: SDS FC vs N5 FC — Team News, Key Players & Predict
 date: 2026-10-11
 category: "Preview"
 excerpt: "SDS FC meet N5 FC in Gameweek 1 of Baller League UK Season 4 on 12 October 2026 (19:30). Team news, key players, head-to-head and our prediction."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

@@ -3,7 +3,7 @@ title: "Yanited Beat Community FC 5-3 in Entertaining GW2 Clash"
 date: 2026-03-23
 category: "Match Report"
 excerpt: "Yanited 5-3 Community FC — Gameweek 2 match report. Kadell Daniel (16 goals) leads Yanited's attack. Game Changers: Plus One (1) & 1-on-1 (0). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

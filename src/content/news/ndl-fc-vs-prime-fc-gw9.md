@@ -3,7 +3,7 @@ title: "NDL FC See Off Prime FC 5-3 in Gameweek 9"
 date: 2026-05-08
 category: "Match Report"
 excerpt: "NDL FC 5-3 Prime FC — Gameweek 9 match report. Sam Fitzgerald (10 goals) leads NDL FC's attack. Game Changers: 3Play (3) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

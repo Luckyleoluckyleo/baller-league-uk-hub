@@ -3,7 +3,7 @@ title: "Baller League UK Ends Sky Sports Deal — Matches Go Online-Only for Sea
 date: 2026-08-20
 category: "Announcement"
 excerpt: "Baller League UK's partnership with Sky Sports has come to an end, with the league moving to an online-only broadcast model ahead of Season 4."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

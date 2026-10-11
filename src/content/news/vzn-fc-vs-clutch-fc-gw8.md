@@ -3,7 +3,7 @@ title: "VZN FC Pip Clutch FC 2-1 in Tense GW8 Encounter"
 date: 2026-05-04
 category: "Match Report"
 excerpt: "VZN FC 2-1 Clutch FC — Gameweek 8 match report. George Nikaj (10 goals) leads VZN FC's attack. Game Changers: Onside (1) & Game Changer (0). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

@@ -3,7 +3,7 @@ title: "Gameweek 10 Preview: Clutch FC vs Wembley Rangers AFC"
 date: 2026-05-12
 category: "Preview"
 excerpt: "Clutch FC (9th) host Wembley Rangers AFC (5th) in Gameweek 10. Alfie Matthews (12 goals) leads Clutch FC."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

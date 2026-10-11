@@ -3,7 +3,7 @@ title: "Wembley Rangers AFC Edge Yanited 2-1 in GW8 Thriller"
 date: 2026-05-04
 category: "Match Report"
 excerpt: "Wembley Rangers AFC 2-1 Yanited — Gameweek 8 match report. Domingos Pires (9 goals) leads Wembley Rangers AFC's attack. Game Changers: Onside (1) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

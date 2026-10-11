@@ -3,7 +3,7 @@ title: "Gameweek 10 Preview: SDS FC vs Yanited"
 date: 2026-05-12
 category: "Preview"
 excerpt: "SDS FC (3rd) host Yanited (6th) in Gameweek 10. Connor Wood (6 goals) leads SDS FC."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

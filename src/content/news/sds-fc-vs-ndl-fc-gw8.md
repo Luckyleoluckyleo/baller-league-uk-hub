@@ -3,7 +3,7 @@ title: "SDS FC and NDL FC Finish 3-3 in Hard-Fought GW8 Draw"
 date: 2026-05-04
 category: "Match Report"
 excerpt: "SDS FC 3-3 NDL FC — Gameweek 8 match report. Kazaiah Sterling (9 goals) leads SDS FC's attack. Game Changers: Plus One (2) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

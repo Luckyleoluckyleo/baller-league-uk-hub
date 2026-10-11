@@ -3,7 +3,7 @@ title: "Deportrio Run Riot Against Community FC in 3-9 Demolition — GW6"
 date: 2026-04-20
 category: "Match Report"
 excerpt: "Community FC 3-9 Deportrio — Gameweek 6 match report. Alex Byrne (12 goals) leads Community FC's attack. Game Changers: Plus One (3) & 1-on-1 (5). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: true
 ---
 

@@ -3,7 +3,7 @@ title: "Season 3 Revisited: How Prime FC Were Crowned Baller League UK Champions
 date: 2026-10-04
 category: "Feature"
 excerpt: "Prime FC won Baller League UK Season 3 in front of a sold-out O2 Arena. Here is the story of their title run — the regular season, the Final Four and the Final."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

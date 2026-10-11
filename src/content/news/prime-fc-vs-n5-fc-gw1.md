@@ -3,7 +3,7 @@ title: "Prime FC Cruise Past N5 FC in 7-3 Rout — GW1"
 date: 2026-03-16
 category: "Match Report"
 excerpt: "Prime FC 7-3 N5 FC — Gameweek 1 match report. Francis Mampolo (22 goals) leads Prime FC's attack. Game Changers: 3Play (1) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: true
 ---
 

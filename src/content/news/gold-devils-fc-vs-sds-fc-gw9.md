@@ -3,7 +3,7 @@ title: "Gold Devils FC Beat SDS FC 2-0 in Entertaining GW9 Clash"
 date: 2026-05-08
 category: "Match Report"
 excerpt: "Gold Devils FC 2-0 SDS FC — Gameweek 9 match report. Bilal Sayoud (9 goals) leads Gold Devils FC's attack. Game Changers: Onside (0) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

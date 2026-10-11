@@ -3,7 +3,7 @@ title: "SDS FC Claim 3-5 Win Over Clutch FC in GW4"
 date: 2026-04-06
 category: "Match Report"
 excerpt: "Clutch FC 3-5 SDS FC — Gameweek 4 match report. Tyler Winters (14 goals) leads Clutch FC's attack. Game Changers: Plus One (3) & The Line (2). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

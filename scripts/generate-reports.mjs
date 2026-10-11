@@ -978,7 +978,7 @@ title: "${title}"
 date: ${dateStr}
 category: "Match Report"
 excerpt: "${excerpt}"
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: ${totalGoals >= 10}
 ---
 

@@ -3,7 +3,7 @@ title: "Deportrio Edge Yanited 5-4 in GW5 Thriller"
 date: 2026-04-13
 category: "Match Report"
 excerpt: "Deportrio 5-4 Yanited — Gameweek 5 match report. Jay Emmanuel-Thomas (21 goals) leads Deportrio's attack. Game Changers: 3Play (2) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

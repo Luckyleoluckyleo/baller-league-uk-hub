@@ -3,7 +3,7 @@ title: "Baller League UK Season 4 Predictions: Champions, Dark Horses & Golden B
 date: 2026-10-11
 category: "Feature"
 excerpt: "Who wins Baller League UK Season 4? We preview the contenders, pick out the dark horses and name our Golden Boot favourite ahead of the 12 October kick-off."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: true
 ---
 

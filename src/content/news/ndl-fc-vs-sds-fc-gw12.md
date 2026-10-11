@@ -3,7 +3,7 @@ title: "NDL FC Down SDS FC 3-1 in Hard-Fought GW12 Battle"
 date: 2026-05-25
 category: "Match Report"
 excerpt: "NDL FC 3-1 SDS FC — Gameweek 12 match report. Sam Fitzgerald (10 goals) leads NDL FC's attack. Game Changers: Onside (0) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

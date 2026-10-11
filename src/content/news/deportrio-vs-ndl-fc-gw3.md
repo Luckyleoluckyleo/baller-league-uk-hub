@@ -3,7 +3,7 @@ title: "NDL FC Down Deportrio 3-6 in Hard-Fought GW3 Battle"
 date: 2026-03-30
 category: "Match Report"
 excerpt: "Deportrio 3-6 NDL FC — Gameweek 3 match report. Jay Emmanuel-Thomas (21 goals) leads Deportrio's attack. Game Changers: Plus One (1) & 1-on-1 (5). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

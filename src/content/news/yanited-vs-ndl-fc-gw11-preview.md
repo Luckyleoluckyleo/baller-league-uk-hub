@@ -3,7 +3,7 @@ title: "Gameweek 11 Preview: Yanited vs NDL FC"
 date: 2026-05-19
 category: "Preview"
 excerpt: "Yanited (6th) host NDL FC (1st) in Gameweek 11. Kadell Daniel (14 goals) leads Yanited."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

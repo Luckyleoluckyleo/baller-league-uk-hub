@@ -3,7 +3,7 @@ title: "N5 FC Overpower Community FC 1-5 in Dominant Display — GW7"
 date: 2026-04-27
 category: "Match Report"
 excerpt: "Community FC 1-5 N5 FC — Gameweek 7 match report. Alex Byrne (12 goals) leads Community FC's attack. Game Changers: Onside (1) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

@@ -3,7 +3,7 @@ title: "Rukkas FC and Deportrio Play Out 2-2 Draw in Gameweek 10"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "Rukkas FC 2-2 Deportrio — Gameweek 10 match report. Mussa Bham (9 goals) leads Rukkas FC's attack. Game Changers: Onside (0) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

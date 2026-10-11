@@ -3,7 +3,7 @@ title: "Gameweek 10 Preview: N5 FC vs VZN FC"
 date: 2026-05-12
 category: "Preview"
 excerpt: "N5 FC (7th) host VZN FC (8th) in Gameweek 10. Michael Hill (18 goals) leads N5 FC."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

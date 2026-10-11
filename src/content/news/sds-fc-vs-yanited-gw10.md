@@ -3,7 +3,7 @@ title: "SDS FC and Yanited Play Out 6-6 Classic in Gameweek 10"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "SDS FC 6-6 Yanited — Gameweek 10 match report. Kazaiah Sterling (9 goals) leads SDS FC's attack. Game Changers: 3Play (4) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: true
 ---
 

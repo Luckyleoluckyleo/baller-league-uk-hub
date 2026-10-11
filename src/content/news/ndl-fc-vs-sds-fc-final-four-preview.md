@@ -3,7 +3,7 @@ title: "Final Four Semi-Final 1 Preview: NDL FC vs SDS FC"
 date: 2026-05-20
 category: "Preview"
 excerpt: "NDL FC (1st, 26 pts) face SDS FC (4th, 20 pts) in the first Baller League UK Season 3 Final Four semi-final at The O2 London. Niko Omilana's league leaders take on Tobi Brown's defending Season 1 champions. Full preview with H2H history, key players, and Game Changer analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: true
 ---
 

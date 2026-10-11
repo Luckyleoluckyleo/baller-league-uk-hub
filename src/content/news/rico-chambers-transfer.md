@@ -3,7 +3,7 @@ title: "Transfer Window: Rico Chambers Joins Elba United in Season's Biggest Dea
 date: 2025-04-20
 category: "Transfer News"
 excerpt: "Elba United have bolstered their attack with the signing of Rico Chambers in what is believed to be the largest player acquisition of Baller League UK Season 1."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

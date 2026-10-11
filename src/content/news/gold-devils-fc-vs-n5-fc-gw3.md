@@ -3,7 +3,7 @@ title: "N5 FC See Off Gold Devils FC 3-5 in Gameweek 3"
 date: 2026-03-30
 category: "Match Report"
 excerpt: "Gold Devils FC 3-5 N5 FC — Gameweek 3 match report. Bilal Sayoud (9 goals) leads Gold Devils FC's attack. Game Changers: 3Play (2) & Game Changer (0). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

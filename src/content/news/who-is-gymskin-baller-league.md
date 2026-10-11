@@ -3,7 +3,7 @@ title: "Who is Gymskin? The Viral TikTok Star Linked With a Baller League UK Man
 date: 2026-10-02
 category: "Community"
 excerpt: "Gymskin has gone from viral TikTok dances to sharing a stage with Madonna — and he's now being linked with a manager role in Baller League UK Season 4."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

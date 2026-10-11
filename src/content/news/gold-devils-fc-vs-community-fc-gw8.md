@@ -3,7 +3,7 @@ title: "Gold Devils FC and Community FC Share 4-4 Goal Fest in GW8"
 date: 2026-05-04
 category: "Match Report"
 excerpt: "Gold Devils FC 4-4 Community FC — Gameweek 8 match report. Bilal Sayoud (9 goals) leads Gold Devils FC's attack. Game Changers: 3Play (3) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

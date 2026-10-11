@@ -3,7 +3,7 @@ title: "Season 4 Line-up Confirmed: Every Team, Manager and Big Signing"
 date: 2026-10-06
 category: "Announcement"
 excerpt: "Baller League UK Season 4 is confirmed. Here is the full 12-team line-up, every manager in the dugout, and the big-name signings arriving for the new campaign."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: true
 ---
 

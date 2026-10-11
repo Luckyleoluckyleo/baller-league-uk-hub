@@ -3,7 +3,7 @@ title: "Yanited and Gold Devils FC Play Out 2-2 Draw in Gameweek 7"
 date: 2026-04-27
 category: "Match Report"
 excerpt: "Yanited 2-2 Gold Devils FC — Gameweek 7 match report. Kadell Daniel (16 goals) leads Yanited's attack. Game Changers: Onside (2) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

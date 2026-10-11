@@ -86,7 +86,7 @@ function buildHistory(slug) {
   const title = `${name} — Baller League UK All-Time Record & History`;
   const excerpt = `${name} in numbers: their all-time Baller League UK record, season-by-season finishes, top scorers and standout results across every season.`;
 
-  let s = `---\ntitle: "${title}"\ndate: ${dateStr}\ncategory: "Feature"\nexcerpt: "${excerpt.replace(/"/g, "'")}"\nauthor: "Baller League UK Fan Site"\nfeatured: false\n---\n\n`;
+  let s = `---\ntitle: "${title}"\ndate: ${dateStr}\ncategory: "Feature"\nexcerpt: "${excerpt.replace(/"/g, "'")}"\nauthor: "Baller League UK Hub"\nfeatured: false\n---\n\n`;
   s += `## ${name}: All-Time Baller League UK Record\n\n`;
   s += `**${name}** have played **${played}** matches in Baller League UK across ${seasonsPlayed.length} seasons, winning **${won}**, drawing **${drawn}** and losing **${lost}** — a win rate of **${winPct}%**. They have scored **${gf}** goals and conceded **${ga}** (goal difference **${gd >= 0 ? "+" : ""}${gd}**).\n\n`;
 

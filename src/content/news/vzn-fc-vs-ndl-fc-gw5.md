@@ -3,7 +3,7 @@ title: "NDL FC Edge VZN FC 4-5 in GW5 Thriller"
 date: 2026-04-13
 category: "Match Report"
 excerpt: "VZN FC 4-5 NDL FC — Gameweek 5 match report. George Nikaj (10 goals) leads VZN FC's attack. Game Changers: Onside (1) & 1-on-1 (5). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

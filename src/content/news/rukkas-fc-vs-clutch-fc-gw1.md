@@ -3,7 +3,7 @@ title: "Rukkas FC Down Clutch FC 7-5 in Hard-Fought GW1 Battle"
 date: 2026-03-16
 category: "Match Report"
 excerpt: "Rukkas FC 7-5 Clutch FC — Gameweek 1 match report. Mussa Bham (9 goals) leads Rukkas FC's attack. Game Changers: Onside (2) & 1-on-1 (2). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: true
 ---
 

@@ -3,7 +3,7 @@ title: "Gameweek 11 Preview: SDS FC vs Rukkas FC"
 date: 2026-05-19
 category: "Preview"
 excerpt: "SDS FC (3rd) host Rukkas FC (12th) in Gameweek 11. Connor Wood (6 goals) leads SDS FC."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

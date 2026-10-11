@@ -3,7 +3,7 @@ title: "VZN FC Too Strong for Rukkas FC in 7-3 Victory — GW7"
 date: 2026-04-27
 category: "Match Report"
 excerpt: "VZN FC 7-3 Rukkas FC — Gameweek 7 match report. George Nikaj (10 goals) leads VZN FC's attack. Game Changers: Plus One (2) & The Line (2). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: true
 ---
 

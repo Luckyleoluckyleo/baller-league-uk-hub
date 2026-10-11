@@ -3,7 +3,7 @@ title: "Season 4 Transfers: The Ex-Professionals Joining Baller League UK"
 date: 2026-10-10
 category: "Feature"
 excerpt: "Ben Mee, Joleon Lescott, Ciaran Clark and more — Baller League UK Season 4 is welcoming a wave of former professionals. Here is who is arriving and where they fit."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

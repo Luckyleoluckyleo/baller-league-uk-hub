@@ -43,6 +43,20 @@ schemas.push({
   "description": "The unofficial Baller League UK fan hub. Live table, fixtures, team profiles, player stats, Gamechanger analysis, roundups and news."
 });
 
+schemas.push({
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Baller League UK Hub",
+  "url": "https://ballerleagueukhub.com",
+  "logo": "https://ballerleagueukhub.com/og-default.png",
+  "description": "Independent, fan-run stats and news hub for Baller League UK.",
+  "sameAs": [
+    "https://www.youtube.com/@BallerLeagueUK",
+    "https://www.twitch.tv/ballerleagueuk",
+    "https://twitter.com/BallerLeagueUK"
+  ]
+});
+
 const jsonLd = JSON.stringify(schemas.length === 1 ? schemas[0] : { "@context": "https://schema.org", "@graph": schemas });
 ---
 

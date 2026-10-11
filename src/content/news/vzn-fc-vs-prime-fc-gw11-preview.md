@@ -3,7 +3,7 @@ title: "Gameweek 11 Preview: VZN FC vs Prime FC"
 date: 2026-05-19
 category: "Preview"
 excerpt: "VZN FC (8th) host Prime FC (4th) in Gameweek 11. George Nikaj (9 goals) leads VZN FC."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

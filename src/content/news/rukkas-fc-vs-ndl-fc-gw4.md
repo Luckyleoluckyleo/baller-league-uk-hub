@@ -3,7 +3,7 @@ title: "NDL FC See Off Rukkas FC 4-6 in Gameweek 4"
 date: 2026-04-06
 category: "Match Report"
 excerpt: "Rukkas FC 4-6 NDL FC — Gameweek 4 match report. Mussa Bham (9 goals) leads Rukkas FC's attack. Game Changers: Plus One (2) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: true
 ---
 

@@ -3,7 +3,7 @@ title: "Baller League UK Season 4 Managers: The Full Dugout Line-up"
 date: 2026-10-09
 category: "Feature"
 excerpt: "From KSI and Jens Lehmann to Jay-Jay Okocha and Alex Iwobi, here is every confirmed manager in the Baller League UK Season 4 dugouts — and the stories behind them."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

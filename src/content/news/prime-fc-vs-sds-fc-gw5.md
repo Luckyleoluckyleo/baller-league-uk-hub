@@ -3,7 +3,7 @@ title: "Prime FC and SDS FC Finish 2-2 in Hard-Fought GW5 Draw"
 date: 2026-04-13
 category: "Match Report"
 excerpt: "Prime FC 2-2 SDS FC — Gameweek 5 match report. Francis Mampolo (22 goals) leads Prime FC's attack. Game Changers: 3Play (2) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

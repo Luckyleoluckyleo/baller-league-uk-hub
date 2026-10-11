@@ -3,7 +3,7 @@ title: "Clutch FC See Off Deportrio 1-4 in Gameweek 2"
 date: 2026-03-23
 category: "Match Report"
 excerpt: "Deportrio 1-4 Clutch FC — Gameweek 2 match report. Jay Emmanuel-Thomas (21 goals) leads Deportrio's attack. Game Changers: 3Play (0) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

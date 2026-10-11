@@ -3,7 +3,7 @@ title: "Baller League Arena: Venue and Tickets Guide"
 date: 2026-10-02
 category: "Explainer"
 excerpt: "Everything you need to know about attending a Baller League UK matchday — the venue, the format of the night, ticket types and how to get there."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

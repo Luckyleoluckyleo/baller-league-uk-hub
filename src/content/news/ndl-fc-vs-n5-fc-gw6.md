@@ -3,7 +3,7 @@ title: "N5 FC Claim 4-6 Win Over NDL FC in GW6"
 date: 2026-04-20
 category: "Match Report"
 excerpt: "NDL FC 4-6 N5 FC — Gameweek 6 match report. Sam Fitzgerald (10 goals) leads NDL FC's attack. Game Changers: 3Play (4) & 1-on-1 (1). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: true
 ---
 

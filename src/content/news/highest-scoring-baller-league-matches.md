@@ -3,7 +3,7 @@ title: "The Highest-Scoring Baller League UK Matches Ever"
 date: 2026-09-29
 category: "Feature"
 excerpt: "A 17-goal thriller, a 9-5, and a pair of 8-6s — these are the most goal-crazy matches in Baller League UK history, with links to every report."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

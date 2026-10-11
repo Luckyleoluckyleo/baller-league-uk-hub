@@ -3,7 +3,7 @@ title: "Deportrio See Off Prime FC 8-6 in Gameweek 8"
 date: 2026-05-04
 category: "Match Report"
 excerpt: "Deportrio 8-6 Prime FC — Gameweek 8 match report. Jay Emmanuel-Thomas (21 goals) leads Deportrio's attack. Game Changers: 3Play (5) & The Line (2). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: true
 ---
 

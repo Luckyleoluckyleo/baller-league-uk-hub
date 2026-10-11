@@ -3,7 +3,7 @@ title: "N5 FC Beat VZN FC 3-5 in Entertaining GW10 Clash"
 date: 2026-05-11
 category: "Match Report"
 excerpt: "VZN FC 3-5 N5 FC — Gameweek 10 match report. George Nikaj (10 goals) leads VZN FC's attack. Game Changers: Plus One (2) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

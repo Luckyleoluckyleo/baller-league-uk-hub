@@ -3,7 +3,7 @@ title: "Yanited See Off N5 FC 8-6 in Gameweek 4"
 date: 2026-04-06
 category: "Match Report"
 excerpt: "Yanited 8-6 N5 FC — Gameweek 4 match report. Kadell Daniel (16 goals) leads Yanited's attack. Game Changers: 3Play (4) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: true
 ---
 

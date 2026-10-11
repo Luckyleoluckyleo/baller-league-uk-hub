@@ -3,7 +3,7 @@ title: "Prime FC Cruise Past Clutch FC in 6-2 Rout — GW3"
 date: 2026-03-30
 category: "Match Report"
 excerpt: "Prime FC 6-2 Clutch FC — Gameweek 3 match report. Francis Mampolo (22 goals) leads Prime FC's attack. Game Changers: 3Play (2) & 1-on-1 (2). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

@@ -47,15 +47,25 @@ const formattedDate = data.date.toLocaleDateString('en-GB', {
   weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'
 });
 
+const siteBase = (Astro.site ?? new URL('https://ballerleagueukhub.com')).toString().replace(/\/$/, '');
+const ogImageUrl = `${siteBase}/og/${article.slug}.png`;
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": data.title,
   "description": data.excerpt,
+  "image": [ogImageUrl],
   "datePublished": data.date.toISOString(),
   "dateModified": data.date.toISOString(),
+  "articleSection": data.category,
   "author": { "@type": "Organization", "name": data.author },
-  "publisher": { "@type": "Organization", "name": "Baller League UK Hub", "url": "https://ballerleagueukhub.com" },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Baller League UK Hub",
+    "url": siteBase,
+    "logo": { "@type": "ImageObject", "url": `${siteBase}/og-default.png`, "width": 1200, "height": 630 }
+  },
   "mainEntityOfPage": { "@type": "WebPage", "@id": new URL(Astro.url.pathname, Astro.site ?? 'https://ballerleagueukhub.com').toString() }
 };
 

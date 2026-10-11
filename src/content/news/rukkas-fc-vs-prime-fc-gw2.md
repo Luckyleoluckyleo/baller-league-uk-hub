@@ -3,7 +3,7 @@ title: "Prime FC Cruise Past Rukkas FC in 3-8 Rout — GW2"
 date: 2026-03-23
 category: "Match Report"
 excerpt: "Rukkas FC 3-8 Prime FC — Gameweek 2 match report. Mussa Bham (9 goals) leads Rukkas FC's attack. Game Changers: Plus One (4) & 1-on-1 (2). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: true
 ---
 

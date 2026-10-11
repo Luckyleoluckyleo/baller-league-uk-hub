@@ -3,7 +3,7 @@ title: "Baller League UK Season 4: Everything You Need to Know"
 date: 2026-10-02
 category: "Announcement"
 excerpt: "Season 4 kicks off on Monday 12 October 2026 at the brand-new Baller League Arena in Dagenham — here's the full format, schedule, managers and how to get tickets."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: true
 ---
 

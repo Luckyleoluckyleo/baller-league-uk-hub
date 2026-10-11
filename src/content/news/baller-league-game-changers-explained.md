@@ -3,7 +3,7 @@ title: "Game Changers Explained: How Baller League UK's Rule Twists Work"
 date: 2026-10-08
 category: "Explainer"
 excerpt: "Six rule changes, triggered twice per match, that turn Baller League UK games on their head. Here is exactly how the Game Changers work — and how teams win them."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

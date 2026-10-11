@@ -3,7 +3,7 @@ title: "The 20 Greatest Goalscorers in Baller League UK History"
 date: 2026-09-28
 category: "Feature"
 excerpt: "From Francis Mampolo's record haul to the modern marksmen chasing him down — here are the top 20 scorers in Baller League UK history."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

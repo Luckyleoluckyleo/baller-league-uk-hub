@@ -3,7 +3,7 @@ title: "Wembley Rangers AFC and VZN FC Play Out 3-3 Draw in Gameweek 3"
 date: 2026-03-30
 category: "Match Report"
 excerpt: "Wembley Rangers AFC 3-3 VZN FC — Gameweek 3 match report. Domingos Pires (9 goals) leads Wembley Rangers AFC's attack. Game Changers: 3Play (2) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

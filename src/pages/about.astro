@@ -1,0 +1,85 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import { CURRENT_SEASON } from '../lib/league';
+
+const updated = new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "About Baller League UK Hub",
+    "url": "https://ballerleagueukhub.com/about",
+    "description": "About Baller League UK Hub — the independent fan-run stats, table and news site for the Baller League UK 6v6 competition.",
+    "about": { "@type": "SportsOrganization", "name": "Baller League UK", "sport": "Football" }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Baller League UK Hub",
+    "url": "https://ballerleagueukhub.com",
+    "logo": "https://ballerleagueukhub.com/og-default.png",
+    "description": "Independent, fan-run stats and news hub for Baller League UK: live table, fixtures, results, team and player profiles, Gamechanger analysis and match reports.",
+    "sameAs": [
+      "https://www.youtube.com/@BallerLeagueUK",
+      "https://www.twitch.tv/ballerleagueuk",
+      "https://twitter.com/BallerLeagueUK"
+    ]
+  }
+];
+---
+
+<Base
+  title="About Baller League UK Hub"
+  description="About Baller League UK Hub — the independent, fan-run home of Baller League UK stats, tables, results and news. How we source and verify our data."
+  keywords="about Baller League UK Hub, who runs Baller League UK Hub, Baller League UK stats source, unofficial fan site"
+  schema={schema}
+>
+  <div class="page-header">
+    <div class="container">
+      <Breadcrumb items={[{name:'Home',url:'/'},{name:'About'}]} />
+      <div class="section-label">Who we are</div>
+      <h1>About Baller League UK Hub</h1>
+      <p class="section-subtitle">An independent, fan-run home for everything Baller League UK — stats, tables, results and news, updated every matchday.</p>
+    </div>
+  </div>
+
+  <div class="container about-page">
+    <article class="about-body prose">
+      <p><strong>Baller League UK Hub</strong> is an independent fan project covering the Baller League UK — the 6-a-side celebrity and influencer football competition. We track every match, goal, Gamechanger and table movement, and pull it together into one fast, ad-light place to follow the league.</p>
+
+      <h2>What we cover</h2>
+      <ul>
+        <li><strong>Live league table</strong> and per-matchday results, recalculated from official match data.</li>
+        <li><strong>Fixtures and previews</strong> for every gameweek, including kick-off times.</li>
+        <li><strong>Team, player and manager profiles</strong> with squads, form and season stats.</li>
+        <li><strong>Gamechanger analysis</strong> — which rules score most, and when.</li>
+        <li><strong>Match reports, roundups and club histories</strong>, published automatically after each matchday.</li>
+      </ul>
+
+      <h2>How we source our data</h2>
+      <p>Our figures are compiled from publicly available match pages and official league standings. League tables, form and goal difference are <strong>recomputed from raw match results</strong> rather than copied, and we run an automated check against the official tables after every update. Where a value cannot be derived from results — such as EP (Extra Points) — we take it from the official standings.</p>
+      <p>Content is generated and published through an automated pipeline that runs after each Monday matchday, so tables, results and reports are refreshed within hours of the final whistle.</p>
+
+      <h2>Independence &amp; corrections</h2>
+      <p>This is an <strong>unofficial fan site</strong>. We are not affiliated with, endorsed by or connected to Baller League, its teams, its managers or its partners. Team names, logos and trademarks belong to their respective owners and are used for identification and commentary only.</p>
+      <p>We aim to be accurate, but data can occasionally lag or contain errors. If you spot something wrong, we welcome corrections through the social channels linked in the footer.</p>
+
+      <h2>Advertising</h2>
+      <p>This site is supported by advertising (Google AdSense). Ads do not influence our editorial content or the stats we publish.</p>
+
+      <p class="about-updated">Last reviewed: {updated} · Currently covering Season {CURRENT_SEASON}.</p>
+    </article>
+  </div>
+</Base>
+
+<style>
+  .about-page { padding-bottom: var(--space-3xl); }
+  .about-body { max-width: 760px; }
+  .about-body h2 { font-size: 1.5rem; margin: var(--space-xl) 0 var(--space-md); }
+  .about-body p, .about-body li { color: var(--text-secondary); line-height: 1.8; }
+  .about-body ul { padding-left: var(--space-xl); display: flex; flex-direction: column; gap: var(--space-sm); margin-bottom: var(--space-md); }
+  .about-body a { color: var(--green); }
+  .about-updated { margin-top: var(--space-xl); color: var(--text-muted); font-size: 0.85rem; }
+</style>

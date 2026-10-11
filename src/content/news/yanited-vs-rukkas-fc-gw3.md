@@ -3,7 +3,7 @@ title: "Yanited Scrape Past Rukkas FC 2-1 in Tight GW3 Contest"
 date: 2026-03-30
 category: "Match Report"
 excerpt: "Yanited 2-1 Rukkas FC — Gameweek 3 match report. Kadell Daniel (16 goals) leads Yanited's attack. Game Changers: Onside (1) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

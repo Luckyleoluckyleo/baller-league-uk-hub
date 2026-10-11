@@ -3,7 +3,7 @@ title: "Rukkas FC See Off Gold Devils FC 2-0 in Gameweek 5"
 date: 2026-04-13
 category: "Match Report"
 excerpt: "Rukkas FC 2-0 Gold Devils FC — Gameweek 5 match report. Mussa Bham (9 goals) leads Rukkas FC's attack. Game Changers: Plus One (1) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

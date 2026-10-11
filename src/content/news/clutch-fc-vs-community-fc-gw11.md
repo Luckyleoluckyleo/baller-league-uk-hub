@@ -3,7 +3,7 @@ title: "Clutch FC Claim 8-6 Win Over Community FC in GW11"
 date: 2026-05-18
 category: "Match Report"
 excerpt: "Clutch FC 8-6 Community FC — Gameweek 11 match report. Tyler Winters (14 goals) leads Clutch FC's attack. Game Changers: 3Play (2) & 1-on-1 (7). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: true
 ---
 

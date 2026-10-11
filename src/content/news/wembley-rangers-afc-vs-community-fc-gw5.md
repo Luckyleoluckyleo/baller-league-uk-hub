@@ -3,7 +3,7 @@ title: "Wembley Rangers AFC Overpower Community FC 5-1 in Dominant Display — G
 date: 2026-04-13
 category: "Match Report"
 excerpt: "Wembley Rangers AFC 5-1 Community FC — Gameweek 5 match report. Domingos Pires (9 goals) leads Wembley Rangers AFC's attack. Game Changers: 3Play (2) & 1-on-1 (2). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

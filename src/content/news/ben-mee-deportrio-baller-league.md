@@ -3,7 +3,7 @@ title: "Ben Mee Signs for Baller League UK: Ex-Burnley Captain Joins Deportrio"
 date: 2026-09-29
 category: "Transfer News"
 excerpt: "Former Burnley captain Ben Mee has come out of retirement to sign with Deportrio, joining Joleon Lescott in a star-studded Baller League UK squad."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: true
 ---
 

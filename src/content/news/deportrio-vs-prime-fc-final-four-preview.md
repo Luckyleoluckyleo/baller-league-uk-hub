@@ -3,7 +3,7 @@ title: "Final Four Semi-Final 2 Preview: Deportrio vs Prime FC"
 date: 2026-05-20
 category: "Preview"
 excerpt: "Deportrio (2nd, 23 pts) face Prime FC (3rd, 21 pts) in the second Baller League UK Season 3 Final Four semi-final at The O2 London. Micah Richards' high-scoring Deportrio take on KSI's attacking powerhouse. Head-to-head history, key player analysis, and GC matchup."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: true
 ---
 

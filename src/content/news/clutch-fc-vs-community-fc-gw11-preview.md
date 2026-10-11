@@ -3,7 +3,7 @@ title: "Gameweek 11 Preview: Clutch FC vs Community FC"
 date: 2026-05-19
 category: "Preview"
 excerpt: "Clutch FC (9th) host Community FC (11th) in Gameweek 11. Alfie Matthews (12 goals) leads Clutch FC."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

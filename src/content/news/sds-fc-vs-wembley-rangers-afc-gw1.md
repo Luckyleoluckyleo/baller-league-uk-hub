@@ -3,7 +3,7 @@ title: "SDS FC Edge Wembley Rangers AFC 3-2 in GW1 Thriller"
 date: 2026-03-16
 category: "Match Report"
 excerpt: "SDS FC 3-2 Wembley Rangers AFC — Gameweek 1 match report. Kazaiah Sterling (9 goals) leads SDS FC's attack. Game Changers: Plus One (1) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

@@ -3,7 +3,7 @@ title: "P17 FC — Baller League UK All-Time Record & History"
 date: 2026-10-11
 category: "Feature"
 excerpt: "P17 FC in numbers: their all-time Baller League UK record, season-by-season finishes, top scorers and standout results across every season."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

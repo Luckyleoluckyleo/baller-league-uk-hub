@@ -3,7 +3,7 @@ title: "Yanited Edge NDL FC 4-3 in GW11 Thriller"
 date: 2026-05-18
 category: "Match Report"
 excerpt: "Yanited 4-3 NDL FC — Gameweek 11 match report. Kadell Daniel (16 goals) leads Yanited's attack. Game Changers: Plus One (2) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

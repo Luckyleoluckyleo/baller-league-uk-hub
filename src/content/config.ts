@@ -64,7 +64,7 @@ const newsCollection = defineCollection({
     date:     z.date(),
     category: z.string(),
     excerpt:  z.string(),
-    author:   z.string().default('Baller League UK'),
+    author:   z.string().default('Baller League UK Hub'),
     featured: z.boolean().default(false),
   }),
 });

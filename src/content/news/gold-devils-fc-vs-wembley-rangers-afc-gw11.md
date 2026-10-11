@@ -3,7 +3,7 @@ title: "Gold Devils FC Claim 2-0 Win Over Wembley Rangers AFC in GW11"
 date: 2026-05-18
 category: "Match Report"
 excerpt: "Gold Devils FC 2-0 Wembley Rangers AFC — Gameweek 11 match report. Bilal Sayoud (9 goals) leads Gold Devils FC's attack. Game Changers: Onside (0) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

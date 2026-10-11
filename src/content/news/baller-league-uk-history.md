@@ -3,7 +3,7 @@ title: "Baller League UK: A Complete History (Season 1 to Season 4)"
 date: 2026-10-03
 category: "Explainer"
 excerpt: "Every champion, every season. Here is the complete history of Baller League UK — from its 2025 debut through to the 2026 Season 4 reboot."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

@@ -3,7 +3,7 @@ title: "NDL FC — Baller League UK Season 4 Preview & Squad"
 date: 2026-10-11
 category: "Team Preview"
 excerpt: "Everything you need to know about NDL FC for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

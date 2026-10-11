@@ -3,7 +3,7 @@ title: "Inside N5 FC: Jens Lehmann's Ex-Premier League Squad"
 date: 2026-10-11
 category: "Feature"
 excerpt: "Arsenal legend Jens Lehmann isn't the only big name at N5 FC — the squad is packed with former Premier League and Championship regulars. Here's who's in it."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 

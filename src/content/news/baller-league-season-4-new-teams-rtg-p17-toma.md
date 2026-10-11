@@ -3,7 +3,7 @@ title: "RTG FC, P17 FC and Toma: Season 4's New Names Explained"
 date: 2026-10-07
 category: "Feature"
 excerpt: "Two famous Baller League UK franchises have new identities and a brand-new club has joined the league. Here is the story behind RTG FC, P17 FC and Toma."
-author: "Baller League UK Fan Site"
+author: "Baller League UK Hub"
 featured: false
 ---
 
