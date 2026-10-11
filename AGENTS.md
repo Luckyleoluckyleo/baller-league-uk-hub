@@ -154,7 +154,7 @@ baller-league-uk-hub/
 │   ├── players/              # player headshots (.webp)
 │   ├── admin/                # Decap CMS (index.html + config.yml)
 │   └── google*.html          # Search Console verification
-├── scripts/                  # 22 scripts — see Scripts reference
+├── scripts/                  # 23 scripts — see Scripts reference
 │   ├── update.mjs            # orchestrator (16 stages)
 │   ├── scrape-fixtures.mjs   # upcoming fixtures from /en/matches
 │   ├── scrape.mjs            # match results
@@ -176,6 +176,7 @@ baller-league-uk-hub/
 │   ├── generate-redirects.mjs# dist/_redirects  (post-build)
 │   ├── generate-sitemap.mjs  # dist/sitemap.xml (post-build)
 │   ├── ping-indexnow.mjs     # notify Bing/IndexNow  (post-build)
+│   ├── generate-video.mjs    # short-form data videos  ⚠ manual, needs ffmpeg
 │   ├── season4-news.mjs      # S4 news monitor  ⚠ manual, not in pipeline
 │   ├── .cache/               # gitignored — match page HTML + s4-seen.json
 │   └── .cache-players/       # gitignored — player page HTML + AJAX
@@ -241,6 +242,7 @@ Standings computation, the active-season constant, form guide, and match-slug co
 | `generate-redirects.mjs` | `gamechangers.json` | `dist/_redirects` | via build | — |
 | `generate-sitemap.mjs` | `dist/**`, `dist/lastmod.json` | `dist/sitemap.xml` | via build | — |
 | `ping-indexnow.mjs` | `dist/sitemap.xml` | POST to `api.indexnow.org` | 16/16 | — |
+| `generate-video.mjs` | `gamechangers.json`, `players.json`, `table.json` | `output/*.mp4` | **⚠ NO — manual, needs ffmpeg** | `--season=`, `--gw=`, `--type=` |
 | `optimize-images.mjs` | `public/players`, `public/managers`, `public/teams` | resized `.webp` | **⚠ NO — manual only** | — |
 | `scrape-ep.mjs` | `scripts/.cache/*.html`, `table.json` | `src/data/table.json` (`ep` only) | **⚠ superseded by `scrape-standings.mjs`** | — |
 | `scrape-assets.mjs` | — | `public/logos/{slug}.svg` | **⚠ NO — manual only** | — |
@@ -449,6 +451,7 @@ Defined in `src/content/config.ts`: `teams`, `players`, `managers`, `news`.
 - `ping-indexnow.mjs` notifies Bing/IndexNow after each build (key at `public/<key>.txt`)
 - **Analytics:** GA4 wired in `Base.astro` (disabled until `GA_ID` is set to a real `G-…` ID)
 - **Growth playbook:** `docs/backlink-targets.md` — outreach targets + linkable assets (`/data`, `/records`, `/gamechangers`)
+- **Short-form video:** `npm run video` → vertical MP4s in `output/` (results/scorers/table) from our own data. Manual, needs ffmpeg (`npm i ffmpeg-static --no-save`); post them by hand — no copyrighted footage, no bot posting.
 
 ### AdSense
 Publisher ID `ca-pub-7873503560434517` in `Base.astro`; `ads.txt` in `public/`.

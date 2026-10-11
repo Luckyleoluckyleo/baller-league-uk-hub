@@ -6,3 +6,4 @@ dist/
 .astro/
 scripts/.cache/
 scripts/.cache-players/
+output/

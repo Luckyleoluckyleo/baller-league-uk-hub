@@ -8,7 +8,8 @@
     "build": "astro build && node scripts/generate-redirects.mjs && node scripts/generate-sitemap.mjs",
     "preview": "astro preview",
     "fixtures": "node scripts/scrape-fixtures.mjs",
-    "update": "node scripts/update.mjs"
+    "update": "node scripts/update.mjs",
+    "video": "node scripts/generate-video.mjs"
   },
   "dependencies": {
     "astro": "^4.16.0",
