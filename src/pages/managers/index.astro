@@ -45,6 +45,11 @@ const schema = {
   </div>
 
   <div class="container managers-page">
+    <p class="page-intro">
+      Every Baller League UK club is fronted by a celebrity or footballing manager — from Premier League and international
+      legends to YouTube and social-media superstars. Here are the {totalManagers} Baller League UK managers of
+      Season {CURRENT_SEASON}, grouped by their teams, with each manager's role, squad and current league record.
+    </p>
     <div class="managers-grid">
       {groups.map(group => {
         const first = group.managers[0];
@@ -92,6 +97,7 @@ const schema = {
 
 <style>
 .managers-page { padding-bottom: var(--space-3xl); }
+.page-intro { max-width: 820px; color: var(--text-secondary); line-height: 1.8; margin-bottom: var(--space-xl); }
 .managers-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: var(--space-lg); }
 .manager-card { text-decoration: none; transition: transform var(--transition), box-shadow var(--transition); }
 .manager-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-green); }

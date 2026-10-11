@@ -46,6 +46,7 @@ const updateDate = new Date().toLocaleDateString('en-GB', { day: 'numeric', mont
           <li><a href="/roundup">Weekly Roundup</a></li>
           <li><a href="/watch">Where to Watch</a></li>
           <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>
           <li><a href="/sitemap">Sitemap</a></li>
         </ul>
       </div>
@@ -68,6 +69,11 @@ const updateDate = new Date().toLocaleDateString('en-GB', { day: 'numeric', mont
         Baller League UK Hub — An unofficial fan site. Not affiliated with or endorsed by Baller League or its partners.
       </p>
       <p class="footer-copy">© {new Date().getFullYear()} Baller League UK Hub &middot; Stats updated {updateDate}</p>
+      <p class="footer-legal">
+        <a href="/privacy">Privacy Policy</a> &middot;
+        <a href="/terms">Terms of Use</a> &middot;
+        <a href="/contact">Contact</a>
+      </p>
     </div>
   </div>
 </footer>
@@ -136,6 +142,9 @@ const updateDate = new Date().toLocaleDateString('en-GB', { day: 'numeric', mont
 }
 .footer-disclaimer { font-size: 0.76rem; color: var(--text-muted); max-width: 500px; }
 .footer-copy { font-size: 0.76rem; color: var(--text-muted); white-space: nowrap; }
+.footer-legal { font-size: 0.76rem; color: var(--text-muted); white-space: nowrap; }
+.footer-legal a { color: var(--text-muted); }
+.footer-legal a:hover { color: var(--green); }
 
 @media (max-width: 900px) {
   .footer-grid { grid-template-columns: 1fr 1fr; }

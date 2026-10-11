@@ -45,6 +45,12 @@ const schema = {
   </div>
 
   <div class="container teams-page">
+    <p class="page-intro">
+      Baller League UK is a 6-a-side celebrity football league built around <strong>12 teams</strong>, each fronted by a
+      famous manager. Season {CURRENT_SEASON} runs across 11 Monday-night matchdays at the Baller League Arena in Dagenham,
+      with the top four reaching the Final Four playoffs. Below is every Baller League UK team for Season {CURRENT_SEASON} —
+      tap any club for its manager, squad, form, results and current league position.
+    </p>
     <StatStrip
       stats={[
         { icon: '🏆', label: 'Defending champions', value: 'Prime FC', sub: 'Season 3 winners', href: '/teams/prime-fc' },
@@ -71,6 +77,7 @@ const schema = {
 
 <style>
 .teams-page { padding-bottom: var(--space-3xl); }
+.page-intro { max-width: 820px; color: var(--text-secondary); line-height: 1.8; margin-bottom: var(--space-xl); }
 .teams-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));

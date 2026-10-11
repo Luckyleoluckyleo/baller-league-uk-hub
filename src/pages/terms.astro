@@ -1,0 +1,68 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+
+const updated = new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Terms of Use",
+  "url": "https://ballerleagueukhub.com/terms",
+  "description": "Terms of Use for Baller League UK Hub — an independent, unofficial fan site."
+};
+---
+
+<Base
+  title="Terms of Use — Baller League UK Hub"
+  description="Terms of Use for Baller League UK Hub: an independent, unofficial fan site providing Baller League UK stats, tables and news."
+  keywords="Baller League UK Hub terms of use, disclaimer, unofficial fan site"
+  schema={schema}
+>
+  <div class="page-header">
+    <div class="container">
+      <Breadcrumb items={[{name:'Home',url:'/'},{name:'Terms of Use'}]} />
+      <div class="section-label">Legal</div>
+      <h1>Terms of Use</h1>
+      <p class="section-subtitle">Last updated: {updated}</p>
+    </div>
+  </div>
+
+  <div class="container legal-page">
+    <article class="legal-body prose">
+      <p>By using ballerleagueukhub.com (the "site") you agree to these Terms of Use. If you do not agree, please do not use the site.</p>
+
+      <h2>An unofficial fan site</h2>
+      <p><strong>Baller League UK Hub is an independent, unofficial fan site.</strong> We are not affiliated with, endorsed by, sponsored by, or connected to Baller League, its teams, managers, players, broadcasters or any of their partners. All team names, logos, trademarks and related marks are the property of their respective owners and are used on this site for identification, commentary and informational purposes only.</p>
+
+      <h2>Information and accuracy</h2>
+      <p>We compile statistics, tables, fixtures, results and editorial content from publicly available sources and present them in good faith. While we aim to be accurate, all content is provided <strong>"as is" and without warranty of any kind</strong>. Data may be incomplete, delayed or contain errors. You should not rely on this site as an official source. Always check official Baller League channels for definitive information.</p>
+
+      <h2>Acceptable use</h2>
+      <p>You agree not to misuse the site, including by attempting to disrupt or overload it, scraping it at a rate that harms service for others, or using its content in a way that infringes the rights of others.</p>
+
+      <h2>Intellectual property</h2>
+      <p>The site's own design, original written analysis and compiled data presentation are our content. Third-party trademarks and media remain the property of their owners. You may link to our pages and quote short excerpts with attribution and a link back to the source page.</p>
+
+      <h2>External links</h2>
+      <p>The site links to third-party websites (for example official ticket, streaming and league pages). We do not control and are not responsible for their content, availability or practices.</p>
+
+      <h2>Advertising</h2>
+      <p>The site displays advertising (including via Google AdSense). Advertisements do not constitute an endorsement by us, and we are not responsible for advertised products or services.</p>
+
+      <h2>Limitation of liability</h2>
+      <p>To the fullest extent permitted by law, we are not liable for any loss or damage arising from your use of, or reliance on, the site or its content.</p>
+
+      <h2>Changes</h2>
+      <p>We may update these terms from time to time. Continued use of the site after changes are posted constitutes acceptance of the updated terms. Questions? Email <a href="mailto:contact@ballerleagueukhub.com">contact@ballerleagueukhub.com</a>.</p>
+    </article>
+  </div>
+</Base>
+
+<style>
+  .legal-page { padding-bottom: var(--space-3xl); }
+  .legal-body { max-width: 760px; }
+  .legal-body h2 { font-size: 1.4rem; margin: var(--space-xl) 0 var(--space-md); }
+  .legal-body p { color: var(--text-secondary); line-height: 1.8; margin-bottom: var(--space-md); }
+  .legal-body a { color: var(--green); }
+</style>

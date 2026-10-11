@@ -1,0 +1,77 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "name": "Contact Baller League UK Hub",
+  "url": "https://ballerleagueukhub.com/contact",
+  "description": "Contact Baller League UK Hub with corrections, feedback or media enquiries."
+};
+---
+
+<Base
+  title="Contact — Baller League UK Hub"
+  description="Get in touch with Baller League UK Hub for corrections, feedback, data queries or media and sponsorship enquiries."
+  keywords="contact Baller League UK Hub, corrections, feedback"
+  schema={schema}
+>
+  <div class="page-header">
+    <div class="container">
+      <Breadcrumb items={[{name:'Home',url:'/'},{name:'Contact'}]} />
+      <div class="section-label">Get in touch</div>
+      <h1>Contact Us</h1>
+      <p class="section-subtitle">Spotted an error, or want to work with us? We'd like to hear from you.</p>
+    </div>
+  </div>
+
+  <div class="container contact-page">
+    <div class="contact-grid">
+      <section class="contact-card card">
+        <div class="card-body">
+          <h2>Email</h2>
+          <p>The fastest way to reach us is by email. We read everything, and we aim to reply to genuine enquiries within a few working days.</p>
+          <p class="contact-email"><a href="mailto:contact@ballerleagueukhub.com">contact@ballerleagueukhub.com</a></p>
+        </div>
+      </section>
+
+      <section class="contact-card card">
+        <div class="card-body">
+          <h2>Corrections</h2>
+          <p>If a table, score, squad list or stat looks wrong, tell us the page URL and what should be different. We check figures against official match data and fix genuine errors quickly.</p>
+        </div>
+      </section>
+
+      <section class="contact-card card">
+        <div class="card-body">
+          <h2>Media &amp; sponsorship</h2>
+          <p>For advertising, sponsorship or collaboration enquiries, please get in touch by email with a short outline and we'll send our media kit.</p>
+        </div>
+      </section>
+
+      <section class="contact-card card">
+        <div class="card-body">
+          <h2>Follow the league</h2>
+          <p>For everything official, follow Baller League UK directly. This is an independent fan site and is not affiliated with the league.</p>
+          <ul class="contact-links">
+            <li><a href="https://www.youtube.com/@BallerLeagueUK" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+            <li><a href="https://www.twitch.tv/ballerleagueuk" target="_blank" rel="noopener noreferrer">Twitch</a></li>
+            <li><a href="https://twitter.com/BallerLeagueUK" target="_blank" rel="noopener noreferrer">X / Twitter</a></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .contact-page { padding-bottom: var(--space-3xl); }
+  .contact-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-lg); }
+  .contact-card h2 { font-size: 1.15rem; margin-bottom: var(--space-sm); }
+  .contact-card p { color: var(--text-secondary); line-height: 1.7; }
+  .contact-email a { font-size: 1.1rem; font-weight: 700; color: var(--green); }
+  .contact-links { list-style: none; display: flex; gap: var(--space-lg); margin-top: var(--space-sm); padding: 0; }
+  .contact-links a { color: var(--green); font-weight: 600; }
+  @media (max-width: 700px) { .contact-grid { grid-template-columns: 1fr; } }
+</style>

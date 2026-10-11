@@ -1,0 +1,74 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+
+const updated = new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Privacy Policy",
+  "url": "https://ballerleagueukhub.com/privacy",
+  "description": "Privacy Policy for Baller League UK Hub — cookies, analytics, advertising and your data rights."
+};
+---
+
+<Base
+  title="Privacy Policy — Baller League UK Hub"
+  description="How Baller League UK Hub handles cookies, analytics, advertising and your personal data, including your UK GDPR rights."
+  keywords="Baller League UK Hub privacy policy, cookies, advertising, GDPR"
+  schema={schema}
+>
+  <div class="page-header">
+    <div class="container">
+      <Breadcrumb items={[{name:'Home',url:'/'},{name:'Privacy Policy'}]} />
+      <div class="section-label">Legal</div>
+      <h1>Privacy Policy</h1>
+      <p class="section-subtitle">Last updated: {updated}</p>
+    </div>
+  </div>
+
+  <div class="container legal-page">
+    <article class="legal-body prose">
+      <p>This Privacy Policy explains how <strong>Baller League UK Hub</strong> ("we", "us", "the site") collects and uses information when you visit ballerleagueukhub.com. We are an independent, unofficial fan site and are not affiliated with Baller League or its partners.</p>
+
+      <h2>Who we are</h2>
+      <p>The data controller for this website is Baller League UK Hub. For any privacy question or request, contact us at <a href="mailto:contact@ballerleagueukhub.com">contact@ballerleagueukhub.com</a>.</p>
+
+      <h2>Information we collect</h2>
+      <p>We do not ask you to create an account or submit personal information to use the site. We may automatically collect limited, non-identifying technical data such as your approximate location (country), device type, browser, referring page and the pages you view. This is used in aggregate to understand how the site is used.</p>
+
+      <h2>Cookies</h2>
+      <p>Cookies are small text files placed on your device. We use them, and allow selected third parties to use them, for the purposes below. You can control or delete cookies through your browser settings; disabling cookies may affect how parts of the site work.</p>
+
+      <h2>Advertising</h2>
+      <p>This site is supported by advertising. We use <strong>Google AdSense</strong> to display ads. Google and its partners may use cookies (including the DoubleClick/Google advertising cookies) to serve ads based on your prior visits to this and other websites. You can learn more and manage your ad personalisation at <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener noreferrer">Google Ads Settings</a>. In the EEA/UK, personalised advertising is served only where permitted by consent. Third-party vendors' use of advertising cookies is governed by their own privacy policies.</p>
+
+      <h2>Analytics</h2>
+      <p>We may use privacy-respecting analytics to measure aggregate traffic (for example page views and referring sources). This data is not used to identify you personally.</p>
+
+      <h2>Legal basis and your rights</h2>
+      <p>Where we process personal data, we rely on our legitimate interests in operating and improving the site, and on consent where required for advertising cookies. Under the UK GDPR you have the right to access, correct, or erase personal data we hold about you, to object to or restrict processing, and to withdraw consent. To exercise any of these rights, email <a href="mailto:contact@ballerleagueukhub.com">contact@ballerleagueukhub.com</a>. You also have the right to complain to the UK Information Commissioner's Office (ICO) at <a href="https://ico.org.uk" target="_blank" rel="noopener noreferrer">ico.org.uk</a>.</p>
+
+      <h2>Children</h2>
+      <p>This site is not directed at children under 13, and we do not knowingly collect personal data from them.</p>
+
+      <h2>External links</h2>
+      <p>The site contains links to third-party websites (for example official league, ticket and broadcast pages). We are not responsible for the privacy practices or content of those sites.</p>
+
+      <h2>Changes to this policy</h2>
+      <p>We may update this policy from time to time. Material changes will be reflected in the "last updated" date above.</p>
+
+      <p class="legal-updated">Baller League UK Hub is an unofficial fan site and is not affiliated with, endorsed by, or connected to Baller League or its partners.</p>
+    </article>
+  </div>
+</Base>
+
+<style>
+  .legal-page { padding-bottom: var(--space-3xl); }
+  .legal-body { max-width: 760px; }
+  .legal-body h2 { font-size: 1.4rem; margin: var(--space-xl) 0 var(--space-md); }
+  .legal-body p { color: var(--text-secondary); line-height: 1.8; margin-bottom: var(--space-md); }
+  .legal-body a { color: var(--green); }
+  .legal-updated { margin-top: var(--space-xl); color: var(--text-muted); font-size: 0.85rem; }
+</style>

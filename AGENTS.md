@@ -327,7 +327,7 @@ Hand-maintained notes for the upcoming season: `dates`, `venue`, `format`, `matc
 
 ## Routes
 
-30 files in `src/pages/` (32 routes counting dynamic patterns).
+33 files in `src/pages/` (35 routes counting dynamic patterns).
 
 **Static**
 | Route | Purpose |
@@ -344,6 +344,9 @@ Hand-maintained notes for the upcoming season: `dates`, `venue`, `format`, `matc
 | `/fixtures` | Season schedule — matchday dates, upcoming fixtures, kick-off times |
 | `/watch` | Where to watch |
 | `/about` | About the hub — mission, sourcing, independence disclaimer, Organization schema |
+| `/contact` | Contact page — corrections, media/sponsorship enquiries |
+| `/privacy` | Privacy Policy (cookies, AdSense, UK GDPR rights) |
+| `/terms` | Terms of Use / disclaimer |
 | `/season-4` | **Season 4 hub** — dates, venue, format, matchdays, signings, manager watch, tickets, S4 news |
 | `/sitemap` | Human-facing HTML sitemap page |
 | `/404` | Not found |
