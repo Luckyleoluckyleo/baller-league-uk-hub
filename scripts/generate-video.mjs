@@ -49,6 +49,9 @@ const seasonKeys = Object.keys(seasons).map(Number).sort((a, b) => b - a);
 const seasonWithResults = seasonKeys.find((s) => seasons[String(s)].matches.some((m) => m.homeScore > 0 || m.awayScore > 0));
 const TYPE = arg("type", "results");
 const MUTE = process.argv.includes("--mute");
+// AAC is the standard for social uploads; use --audio=mp3 if your own player
+// can't decode AAC (e.g. some Windows N editions without the Media Feature Pack).
+const AUDIO = arg("audio", "aac");
 const FIXTURES = read("src/data/fixtures.json").upcoming || [];
 const isPreview = TYPE === "preview" || TYPE === "h2h";
 const SEASON = String(arg("season", (isPreview ? FIXTURES[0]?.season : seasonWithResults) ?? seasonWithResults ?? seasonKeys[0]));
@@ -535,7 +538,7 @@ async function main() {
   }
   console.log(`\r  ${frames}/${frames} frames rendered.`);
 
-  const outFile = resolve(OUT_DIR, `baller-league-s${SEASON}-gw${gw ?? GW}-${name}.mp4`);
+  const outFile = resolve(OUT_DIR, `baller-league-s${SEASON}-gw${gw ?? GW}-${name}${AUDIO === "aac" ? "" : `-${AUDIO}audio`}.mp4`);
 
   let musicPath = null;
   if (!MUTE) {
@@ -544,11 +547,17 @@ async function main() {
     writeWav(musicPath, synthMusic(total));
   }
 
+  const audioArgs = AUDIO === "mp3"
+    ? ["-c:a", "libmp3lame", "-b:a", "192k"]
+    : AUDIO === "pcm"
+      ? ["-c:a", "pcm_s16le"]
+      : ["-c:a", "aac", "-b:a", "160k"];
+
   const args = [
     "-y", "-framerate", String(FPS), "-i", resolve(TMP_DIR, "f-%04d.png"),
     ...(musicPath ? ["-i", musicPath] : []),
     "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p",
-    ...(musicPath ? ["-c:a", "aac", "-b:a", "160k", "-shortest"] : []),
+    ...(musicPath ? [...audioArgs, "-shortest"] : []),
     "-movflags", "+faststart", outFile,
   ];
   console.log("Encoding with ffmpeg...");

@@ -242,7 +242,7 @@ Standings computation, the active-season constant, form guide, and match-slug co
 | `generate-redirects.mjs` | `gamechangers.json` | `dist/_redirects` | via build | — |
 | `generate-sitemap.mjs` | `dist/**`, `dist/lastmod.json` | `dist/sitemap.xml` | via build | — |
 | `ping-indexnow.mjs` | `dist/sitemap.xml` | POST to `api.indexnow.org` | 16/16 | — |
-| `generate-video.mjs` | `gamechangers.json`, `players.json`, `table.json` | `output/*.mp4` | **⚠ NO — manual, needs ffmpeg** | `--season=`, `--gw=`, `--type=results\|scorers\|table\|preview`, `--fixture=`, `--mute` |
+| `generate-video.mjs` | `gamechangers.json`, `players.json`, `table.json` | `output/*.mp4` | **⚠ NO — manual, needs ffmpeg** | `--season=`, `--gw=`, `--type=results\|scorers\|table\|preview`, `--fixture=`, `--audio=aac\|mp3\|pcm`, `--mute` |
 | `optimize-images.mjs` | `public/players`, `public/managers`, `public/teams` | resized `.webp` | **⚠ NO — manual only** | — |
 | `scrape-ep.mjs` | `scripts/.cache/*.html`, `table.json` | `src/data/table.json` (`ep` only) | **⚠ superseded by `scrape-standings.mjs`** | — |
 | `scrape-assets.mjs` | — | `public/logos/{slug}.svg` | **⚠ NO — manual only** | — |
