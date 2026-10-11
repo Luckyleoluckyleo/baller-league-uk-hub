@@ -1,0 +1,88 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import { CURRENT_SEASON } from '../lib/league';
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Media Kit & Advertising",
+  "url": "https://ballerleagueukhub.com/media-kit",
+  "description": "Baller League UK Hub media kit — audience, coverage and advertising opportunities."
+};
+---
+
+<Base
+  title="Media Kit &amp; Advertising — Baller League UK Hub"
+  description="Partner with Baller League UK Hub. Audience, coverage and advertising opportunities for brands targeting UK football and creator-culture fans."
+  keywords="Baller League UK Hub advertising, media kit, sponsorship, partnership"
+  schema={schema}
+>
+  <div class="page-header">
+    <div class="container">
+      <Breadcrumb items={[{name:'Home',url:'/'},{name:'Media Kit'}]} />
+      <div class="section-label">Work with us</div>
+      <h1>Media Kit &amp; Advertising</h1>
+      <p class="section-subtitle">Reach an engaged UK audience following Baller League UK — the 6v6 celebrity football league.</p>
+    </div>
+  </div>
+
+  <div class="container kit-page">
+    <section class="profile-card">
+      <h2 class="kit-h2">Who we are</h2>
+      <p class="kit-p">
+        <strong>Baller League UK Hub</strong> is an independent fan site dedicated to Baller League UK. We cover every
+        match, table movement, signing and Game Changer with fast, data-driven pages — a live league table, fixtures,
+        team, player and manager profiles, Game Changer analysis, match reports and weekly roundups.
+      </p>
+      <ul class="kit-facts">
+        <li><strong>12</strong> team profiles &amp; <strong>146</strong> player profiles</li>
+        <li>Full match coverage: results, reports, previews and roundups</li>
+        <li>Updated automatically after every Monday matchday</li>
+        <li>Currently covering <strong>Season {CURRENT_SEASON}</strong></li>
+      </ul>
+    </section>
+
+    <section class="profile-card">
+      <h2 class="kit-h2">Our audience</h2>
+      <p class="kit-p">
+        Visitors are primarily UK-based fans of football, 6-a-side and creator culture — an engaged, young-skewing
+        audience that follows the league week to week and its celebrity managers and ex-pro players.
+      </p>
+      <p class="kit-p">Detailed traffic and audience metrics are available on request.</p>
+    </section>
+
+    <section class="profile-card">
+      <h2 class="kit-h2">Advertising &amp; partnership options</h2>
+      <ul class="kit-list">
+        <li><strong>Display advertising</strong> — standard ad placements across high-traffic pages (table, teams, news).</li>
+        <li><strong>Sponsored content</strong> — clearly-labelled articles or roundup highlights relevant to the audience.</li>
+        <li><strong>Campaign features</strong> — homepage or section takeovers around key matchdays and season moments.</li>
+        <li><strong>Data &amp; media</strong> — licensing or citation of our Baller League UK dataset.</li>
+      </ul>
+      <p class="kit-p">We only partner with relevant, trustworthy brands and keep the reading experience fast and uncluttered.</p>
+    </section>
+
+    <section class="profile-card">
+      <h2 class="kit-h2">Get in touch</h2>
+      <p class="kit-p">Email us with a short outline of what you have in mind and we'll send full metrics.</p>
+      <p class="kit-email"><a href="mailto:contact@ballerleagueukhub.com">contact@ballerleagueukhub.com</a></p>
+      <p class="kit-note">Baller League UK Hub is an independent, unofficial fan site and is not affiliated with Baller League or its partners.</p>
+    </section>
+  </div>
+</Base>
+
+<style>
+  .kit-page { padding-bottom: var(--space-3xl); display: flex; flex-direction: column; gap: var(--space-lg); max-width: 900px; }
+  .kit-h2 { font-size: 1.2rem; margin-bottom: var(--space-md); }
+  .kit-p { color: var(--text-secondary); line-height: 1.8; margin-bottom: var(--space-md); }
+  .kit-facts { list-style: none; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-sm) var(--space-lg); }
+  .kit-facts li { color: var(--text-secondary); position: relative; padding-left: 20px; }
+  .kit-facts li::before { content: '▸'; position: absolute; left: 0; color: var(--green); }
+  .kit-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: var(--space-sm); margin-bottom: var(--space-md); }
+  .kit-list li { color: var(--text-secondary); line-height: 1.7; position: relative; padding-left: 20px; }
+  .kit-list li::before { content: '▸'; position: absolute; left: 0; color: var(--green); }
+  .kit-email a { font-size: 1.15rem; font-weight: 700; color: var(--green); }
+  .kit-note { color: var(--text-muted); font-size: 0.82rem; margin-top: var(--space-md); }
+  @media (max-width: 560px) { .kit-facts { grid-template-columns: 1fr; } }
+</style>

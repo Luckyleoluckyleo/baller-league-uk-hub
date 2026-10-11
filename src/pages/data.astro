@@ -1,0 +1,119 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import gcData from '../data/gamechangers.json';
+import playerData from '../data/players.json';
+
+const seasons = gcData.seasons as Record<string, { matches: any[] }>;
+const seasonKeys = Object.keys(seasons);
+const allMatches = seasonKeys.flatMap((s) => seasons[s].matches);
+const played = allMatches.filter((m) => m.homeScore > 0 || m.awayScore > 0);
+const players = playerData.players as any[];
+
+const totalGoals = played.reduce((n, m) => n + m.homeScore + m.awayScore, 0);
+const gcDefs = (gcData.definitions as any) || {};
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Baller League UK match & player dataset",
+  "description": `Open dataset of ${allMatches.length} Baller League UK matches across ${seasonKeys.length} seasons, including scores, Game Changers, goalscorers and per-player stats.`,
+  "url": "https://ballerleagueukhub.com/data",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": { "@type": "Organization", "name": "Baller League UK Hub", "url": "https://ballerleagueukhub.com" },
+  "isAccessibleForFree": true,
+  "keywords": ["Baller League UK", "football", "6v6", "match results", "player statistics", "Game Changer"]
+};
+---
+
+<Base
+  title="Baller League UK Data — Free Open Dataset"
+  description={`Free, machine-readable Baller League UK dataset: ${allMatches.length} matches across ${seasonKeys.length} seasons with scores, Game Changers, goalscorers and player stats. Free to cite with attribution.`}
+  keywords="Baller League UK data, open dataset, Baller League stats CSV JSON, Baller League API, match results data"
+  schema={schema}
+>
+  <div class="page-header">
+    <div class="container">
+      <Breadcrumb items={[{name:'Home',url:'/'},{name:'Data'}]} />
+      <div class="section-label">Open data</div>
+      <h1>Baller League UK Data</h1>
+      <p class="section-subtitle">A free, machine-readable dataset of Baller League UK matches and player stats — free to use and cite with attribution.</p>
+    </div>
+  </div>
+
+  <div class="container data-page">
+    <div class="data-stats">
+      <div class="data-stat"><span class="data-num">{allMatches.length}</span><span class="data-lbl">Matches</span></div>
+      <div class="data-stat"><span class="data-num">{seasonKeys.length}</span><span class="data-lbl">Seasons</span></div>
+      <div class="data-stat"><span class="data-num">{players.length}</span><span class="data-lbl">Players</span></div>
+      <div class="data-stat"><span class="data-num">{totalGoals}</span><span class="data-lbl">Goals recorded</span></div>
+    </div>
+
+    <section class="profile-card">
+      <h2 class="data-h2">Downloads</h2>
+      <div class="data-downloads">
+        <a class="data-dl" href="/data/gamechangers.json" download>
+          <span class="data-dl-name">gamechangers.json</span>
+          <span class="data-dl-desc">Every match, all seasons — scores, Game Changers, goalscorers and per-match player stats.</span>
+        </a>
+        <a class="data-dl" href="/data/players.json" download>
+          <span class="data-dl-name">players.json</span>
+          <span class="data-dl-desc">Player profiles with per-season appearances, goals, assists and detailed stats.</span>
+        </a>
+        <a class="data-dl" href="/sitemap.xml">
+          <span class="data-dl-name">sitemap.xml</span>
+          <span class="data-dl-desc">Every page on the site, for crawlers and indexers.</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="profile-card">
+      <h2 class="data-h2">What's in the match dataset</h2>
+      <ul class="data-fields">
+        <li><code>gameweek</code>, <code>homeTeam</code>/<code>awayTeam</code>, <code>homeSlug</code>/<code>awaySlug</code></li>
+        <li><code>homeScore</code>, <code>awayScore</code></li>
+        <li><code>gamechanger1</code>, <code>gamechanger2</code> — type and goals scored during each</li>
+        <li><code>goalscorers[]</code> — minute and player</li>
+        <li><code>playerStats[]</code> — per-player goals, assists, shots, tackles, passes and more</li>
+        <li><code>matchDate</code>, <code>matchTime</code></li>
+      </ul>
+      <p class="data-note">
+        Game Changer types: first half — <strong>Onside</strong>, <strong>Plus One</strong>, <strong>3Play</strong>;
+        second half — <strong>1-on-1</strong>, <strong>The Line</strong>, <strong>Fairplay</strong>. Source: {Object.keys(gcDefs).length ? 'official match pages' : 'official match pages'}.
+      </p>
+    </section>
+
+    <section class="profile-card">
+      <h2 class="data-h2">Using this data</h2>
+      <p class="data-note">
+        You're welcome to use, analyse and republish this data for free under
+        <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>.
+        Please credit <strong>"Baller League UK Hub"</strong> with a link to
+        <a href="https://ballerleagueukhub.com/data">ballerleagueukhub.com/data</a>. This is an independent, unofficial
+        dataset compiled from publicly available match information and may contain errors — verify against official
+        sources before relying on it.
+      </p>
+      <p class="data-note">Found a problem or want a field we don't expose? <a href="/contact">Get in touch</a>.</p>
+    </section>
+  </div>
+</Base>
+
+<style>
+  .data-page { padding-bottom: var(--space-3xl); display: flex; flex-direction: column; gap: var(--space-lg); }
+  .data-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--space-md); }
+  .data-stat { background: linear-gradient(160deg, var(--bg-elevated), var(--bg-card)); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: var(--space-lg); text-align: center; }
+  .data-num { display: block; font-family: var(--font-display); font-size: 2.4rem; line-height: 1; color: var(--green); }
+  .data-lbl { display: block; margin-top: var(--space-xs); font-size: 0.7rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-muted); }
+  .data-h2 { font-size: 1.2rem; margin-bottom: var(--space-md); }
+  .data-downloads { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: var(--space-md); }
+  .data-dl { display: flex; flex-direction: column; gap: 4px; padding: var(--space-md); background: var(--bg-primary); border: 1px solid var(--border); border-radius: var(--radius); text-decoration: none; transition: border-color var(--transition), transform var(--transition); }
+  .data-dl:hover { border-color: var(--green); transform: translateY(-2px); }
+  .data-dl-name { font-family: var(--font-body); font-weight: 700; color: var(--green); }
+  .data-dl-desc { font-size: 0.85rem; color: var(--text-secondary); line-height: 1.5; }
+  .data-fields { list-style: none; padding: 0; display: flex; flex-direction: column; gap: var(--space-sm); margin-bottom: var(--space-md); }
+  .data-fields li { color: var(--text-secondary); font-size: 0.9rem; }
+  .data-fields code { background: var(--bg-primary); border: 1px solid var(--border); border-radius: 4px; padding: 1px 6px; font-size: 0.82rem; color: var(--green); }
+  .data-note { color: var(--text-secondary); line-height: 1.7; margin-bottom: var(--space-sm); }
+  .data-note a { color: var(--green); }
+  @media (max-width: 700px) { .data-stats { grid-template-columns: 1fr 1fr; } }
+</style>

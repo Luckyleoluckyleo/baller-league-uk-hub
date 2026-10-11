@@ -327,7 +327,7 @@ Hand-maintained notes for the upcoming season: `dates`, `venue`, `format`, `matc
 
 ## Routes
 
-33 files in `src/pages/` (35 routes counting dynamic patterns).
+37 files in `src/pages/` (39 routes counting dynamic patterns).
 
 **Static**
 | Route | Purpose |
@@ -347,6 +347,8 @@ Hand-maintained notes for the upcoming season: `dates`, `venue`, `format`, `matc
 | `/contact` | Contact page — corrections, media/sponsorship enquiries |
 | `/privacy` | Privacy Policy (cookies, AdSense, UK GDPR rights) |
 | `/terms` | Terms of Use / disclaimer |
+| `/data` | **Open dataset hub** — downloadable match/player JSON (`Dataset` schema); endpoints at `/data/gamechangers.json`, `/data/players.json` |
+| `/media-kit` | Media kit & advertising — audience, options, contact (for outreach/sponsors) |
 | `/season-4` | **Season 4 hub** — dates, venue, format, matchdays, signings, manager watch, tickets, S4 news |
 | `/sitemap` | Human-facing HTML sitemap page |
 | `/404` | Not found |
@@ -445,6 +447,8 @@ Defined in `src/content/config.ts`: `teams`, `players`, `managers`, `news`.
 - `robots.txt` references `sitemap.xml`; Search Console verified via `public/google*.html`
 - `generate-sitemap.mjs` crawls `dist/`, excludes `404`, `compare/`, `admin*`, `google*`; `<lastmod>` comes from `dist/lastmod.json` (real content dates)
 - `ping-indexnow.mjs` notifies Bing/IndexNow after each build (key at `public/<key>.txt`)
+- **Analytics:** GA4 wired in `Base.astro` (disabled until `GA_ID` is set to a real `G-…` ID)
+- **Growth playbook:** `docs/backlink-targets.md` — outreach targets + linkable assets (`/data`, `/records`, `/gamechangers`)
 
 ### AdSense
 Publisher ID `ca-pub-7873503560434517` in `Base.astro`; `ads.txt` in `public/`.
