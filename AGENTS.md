@@ -82,7 +82,7 @@ Netlify auto-deploys on push (~2 min).
 | Stale match data | Delete `scripts/.cache/*.html`, re-run `npm run update` |
 | Wrong player stats | Delete `scripts/.cache-players/player-*.html`, re-run |
 | Missing matches | Game IDs may have passed the scan ceiling of **450** (`scripts/scrape.mjs`, the `SCAN_MAX` constant) |
-| Match reports missing for older seasons | `npm run update` only generates **Season 3**. Run `node scripts/generate-reports.mjs --season=all` manually |
+| Match reports missing for older seasons | `npm run update` now generates the **current season** automatically (from `fixtures.json.upcoming[0].season`). Use `node scripts/generate-reports.mjs --season=all` to (re)build every season |
 | No previews generated | `scrape-fixtures` found no upcoming gameweek (current one complete) or `fixtures.json.upcoming` is empty |
 | Build broken | `npm run build` directly for the real error, then `npm run dev` |
 | OG image script crashes on `sharp` | `sharp` is undeclared in `package.json` — see Known Issues |
@@ -227,7 +227,7 @@ Standings computation, the active-season constant, form guide, and match-slug co
 | `scrape-standings.mjs` | `gamechangers.json` + `/en/game/{id}` | `src/data/standings.json`, `table.json` (`ep`) | 3/15 | — |
 | `scrape-players.mjs` | `scripts/.cache-players/` | `src/data/players.json` | 4/15 | — |
 | `generate-placeholders.mjs` | `players.json`, `content/players/` | `public/players/*.webp` (missing only) | 5/15 | — |
-| `generate-reports.mjs` | all data JSON | `src/content/news/{h}-vs-{a}-gw{n}.md` | 6/15 | `--season=all` |
+| `generate-reports.mjs` | all data JSON | `src/content/news/{h}-vs-{a}-gw{n}.md` | 6/15 | `--season=all` (default: current season) |
 | `generate-previews.mjs` | all data JSON | `src/content/news/{h}-vs-{a}-gw{n}-preview.md` | 7/15 | — |
 | `generate-team-previews.mjs` | data JSON + `content/teams/` | `src/content/news/season-{n}-team-preview-*.md` | 8/15 | — |
 | `generate-player-spotlights.mjs` | `content/players/` + `players.json` | `src/content/news/player-spotlight-*.md` | 9/15 | — |
@@ -243,7 +243,7 @@ Standings computation, the active-season constant, form guide, and match-slug co
 | `scrape-assets.mjs` | — | `public/logos/{slug}.svg` | **⚠ NO — manual only** | — |
 | `season4-news.mjs` | Google News RSS | stdout + `scripts/.cache/s4-seen.json` | **⚠ NO — manual monitor** | `--all`, `--days=N` |
 
-**`generate-reports.mjs --season=all` is the main CLI flag in the generation scripts.** `verify-data.mjs` accepts optional season numbers; `scrape-fixtures.mjs` accepts `--file <path>`; `season4-news.mjs` accepts `--all` / `--days=N`. No script reads `process.env`.
+**`generate-reports.mjs` now defaults to the current season** (from `fixtures.json.upcoming[0].season`), so the weekly pipeline regenerates the live season's reports unattended; `--season=all` still rebuilds every season (⚠ drops colliding slugs). `verify-data.mjs` accepts optional season numbers; `scrape-fixtures.mjs` accepts `--file <path>`; `season4-news.mjs` accepts `--all` / `--days=N`. No script reads `process.env`.
 
 ### Cache policy
 - `scripts/.cache/{id}.html` — match pages. Cache clearing is **deliberately commented out** in `update.mjs`. Old gameweeks are final and load instantly; new gameweeks aren't in cache so they fetch live. No invalidation, ever.
@@ -258,7 +258,7 @@ Standings computation, the active-season constant, form guide, and match-slug co
 - **Goal detection** catches `Goal`, `Penalty`, and `Own Goal` timeline labels; GC goals come from `⚽` minute markers (12–15 min = first-half GC, 27–29 = second-half GC). GC labels are normalised via `GC_MAP` (`1v1`→`1on1`, `Fair Play`→`fairplay`, …).
 - **Player stats** are parsed per row from `#player-stats-container` (`G, A, S, T, PTY, R, C, P`). Tier-A extras (shots/passes/tackles/saves) come from `players.json`'s `detailed` map.
 - **`scrape-players.mjs` must hit the AJAX endpoint.** Player pages load per-season stats via JavaScript; the scraper reads every `<option>Season N</option>` from the season `<select>` and fetches `/ajax/player/{slug}/stats/{seasonId}` for each, storing them all under `seasons[N]`. Skipping this yields wrong stats. Team is read from the page's `data-current-team` JSON (falling back to the `logo_{id}` map). The player-page cache must be cleared (`scripts/.cache-players/`) when the season changes, since it never auto-invalidates.
-- **`scrape-standings.mjs` is season-agnostic:** it reads the latest `gameId` per season from `gamechangers.json`, fetches that game page's `STANDINGS` table, writes `standings.json`, and syncs `table.json` EP. New seasons are picked up automatically.
+- **`scrape-standings.mjs` is season-agnostic:** it reads the latest `gameId` per season from `gamechangers.json`, fetches that game page's `STANDINGS` table, writes `standings.json`, and syncs `table.json` EP. New seasons are picked up automatically. It **merges** into `standings.json` (rather than overwriting), so a current season that has fixtures but no played games yet keeps its seeded entry; EP sync targets the **current season** (`fixtures.json.upcoming[0].season`), not merely the newest scraped one.
 
 ---
 
@@ -455,7 +455,7 @@ Publisher ID `ca-pub-7873503560434517` in `Base.astro`; `ads.txt` in `public/`.
 | `node scripts/scrape-standings.mjs` | Scrape official standings + EP only |
 | `node scripts/scrape-ep.mjs` | Scrape EP values only *(superseded; requires `scrape.mjs` cache first)* |
 | `node scripts/scrape-players.mjs` | Scrape player stats only |
-| `node scripts/generate-reports.mjs` | Match reports, **Season 3 only** |
+| `node scripts/generate-reports.mjs` | Match reports, **current season** (default) |
 | `node scripts/generate-reports.mjs --season=all` | Match reports, all seasons ⚠ drops 3 colliding slugs |
 | `node scripts/generate-previews.mjs` | Fixture previews (needs non-empty `upcoming`) |
 | `node scripts/generate-og-images.mjs` | Per-article OG images |

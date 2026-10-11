@@ -9,6 +9,17 @@ const TABLE_PATH = resolve(ROOT, "src", "data", "table.json");
 
 const SITE = "https://ballerleague.uk";
 const GC_PATH = resolve(ROOT, "src", "data", "gamechangers.json");
+const FIXTURES_PATH = resolve(ROOT, "src", "data", "fixtures.json");
+
+// The season the site currently presents — mirrors CURRENT_SEASON in src/lib/league.ts.
+// Used to sync table.json EP from the right season, not merely the newest scraped one.
+function currentSeason() {
+  try {
+    const fx = JSON.parse(readFileSync(FIXTURES_PATH, "utf8"));
+    if (fx.upcoming?.[0]?.season != null) return String(fx.upcoming[0].season);
+  } catch {}
+  return null;
+}
 
 // A representative (latest) game page per season carries that season's final league table.
 // Prefer real game ids recorded in gamechangers.json so new seasons are picked up automatically.
@@ -52,7 +63,13 @@ function parseStandings(html) {
   }));
 }
 
-const out = {};
+// Merge into the existing file so seasons we cannot scrape yet (e.g. a current
+// season that has fixtures but no played games) are preserved, not wiped.
+let out = {};
+try {
+  out = JSON.parse(readFileSync(OUT_PATH, "utf8"));
+} catch {}
+
 for (const [season, id] of Object.entries(seasonGameIds())) {
   const res = await fetch(`${SITE}/en/game/${id}`, {
     headers: { "user-agent": "Mozilla/5.0 (compatible; ballerleagueukhub/1.0)" },
@@ -72,8 +89,10 @@ console.log(`Standings written: ${OUT_PATH}`);
 // Keep table.json (the current-season metadata carrier) EP values in sync.
 try {
   const tableData = JSON.parse(readFileSync(TABLE_PATH, "utf8"));
-  const latestKey = Object.keys(out).sort((a, b) => Number(b) - Number(a))[0];
-  const latest = out[latestKey] || [];
+  const target =
+    currentSeason() ??
+    Object.keys(out).sort((a, b) => Number(b) - Number(a))[0];
+  const latest = out[target] || [];
   const epBySlug = Object.fromEntries(latest.map((r) => [r.slug, r.ep]));
   let changed = 0;
   for (const row of tableData) {

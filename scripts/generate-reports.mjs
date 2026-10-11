@@ -16,13 +16,30 @@ const playerData = JSON.parse(readFileSync(PLAYERS_PATH, "utf8"));
 const tableData = JSON.parse(readFileSync(TABLE_PATH, "utf8"));
 const fixturesData = JSON.parse(readFileSync(FIXTURES_PATH, "utf8"));
 
-const allMatches = Object.values(gcData.seasons).flatMap(s => s.matches)
-  .filter(m => (m.homeScore > 0 || m.awayScore > 0) && (m.gamechanger1.type !== "unknown" || m.gameweek === 12));
+const isPlayed = (m) => (m.homeScore > 0 || m.awayScore > 0) && (m.gamechanger1.type !== "unknown" || m.gameweek === 12);
 
-const targetSeason = process.argv.includes("--season=all") ? null : "3";
-const matches = targetSeason
-  ? gcData.seasons[targetSeason]?.matches.filter(m => (m.homeScore > 0 || m.awayScore > 0) && (m.gamechanger1.type !== "unknown" || m.gameweek === 12)) || []
-  : allMatches;
+// Map every match to its season so a report reads the stats of the season it belongs to.
+const seasonOfGame = {};
+for (const [s, data] of Object.entries(gcData.seasons)) for (const m of data.matches) seasonOfGame[m.gameId] = s;
+
+// Default to the current season — the one the upcoming fixtures belong to — so
+// `npm run update` regenerates the live season's reports automatically each week.
+const CURRENT_SEASON =
+  fixturesData.upcoming?.[0]?.season ??
+  Math.max(...Object.keys(gcData.seasons).map(Number));
+
+const targetSeason = process.argv.includes("--season=all") ? null : String(CURRENT_SEASON);
+
+// Form / head-to-head / "before gameweek N" standings are scoped to the season being
+// reported, not every season mixed together.
+const allMatches = targetSeason
+  ? (gcData.seasons[targetSeason]?.matches || []).filter(isPlayed)
+  : Object.values(gcData.seasons).flatMap(s => s.matches).filter(isPlayed);
+
+const matches = allMatches;
+
+// Which season's player stats a report reads; set per-match inside generateReport().
+let statsSeason = targetSeason || "3";
 
 const players = playerData.players;
 
@@ -31,8 +48,8 @@ const players = playerData.players;
 function pick(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
 
 function getTopScorers(teamSlug, limit = 5) {
-  const squad = players.filter(p => p.teamSlug === teamSlug && (p.seasons?.["3"]?.goals || 0) > 0);
-  squad.sort((a, b) => (b.seasons?.["3"]?.goals || 0) - (a.seasons?.["3"]?.goals || 0));
+  const squad = players.filter(p => p.teamSlug === teamSlug && (p.seasons?.[statsSeason]?.goals || 0) > 0);
+  squad.sort((a, b) => (b.seasons?.[statsSeason]?.goals || 0) - (a.seasons?.[statsSeason]?.goals || 0));
   return squad.slice(0, limit);
 }
 
@@ -650,7 +667,7 @@ function keyPerformersSection(home, away, homeScorers, awayScorers) {
   } else {
     s += `| Player | Goals | Assists | Apps |\n|--------|-------|---------|------|\n`;
     for (const p of homeScorers) {
-      const st = p.seasons?.["3"] || {};
+      const st = p.seasons?.[statsSeason] || {};
       s += `| ${p.name} | ${st.goals || 0} | ${st.assists || 0} | ${st.apps || 0} |\n`;
     }
     s += '\n';
@@ -662,7 +679,7 @@ function keyPerformersSection(home, away, homeScorers, awayScorers) {
   } else {
     s += `| Player | Goals | Assists | Apps |\n|--------|-------|---------|------|\n`;
     for (const p of awayScorers) {
-      const st = p.seasons?.["3"] || {};
+      const st = p.seasons?.[statsSeason] || {};
       s += `| ${p.name} | ${st.goals || 0} | ${st.assists || 0} | ${st.apps || 0} |\n`;
     }
     s += '\n';
@@ -674,7 +691,7 @@ function keyPerformersSection(home, away, homeScorers, awayScorers) {
   if (homeScorer || awayScorer) {
     s += `**Key Attacking Threats**\n\n`;
     if (homeScorer) {
-      const hs = homeScorer.seasons?.["3"] || {};
+      const hs = homeScorer.seasons?.[statsSeason] || {};
       s += `- **${homeScorer.name}** — ${home}'s talisman with **${hs.goals || 0} goals** from **${hs.apps || 0} appearances**`;
       if (hs.assists > 0) s += ` and **${hs.assists} assists**`;
       s += `. `;
@@ -684,7 +701,7 @@ function keyPerformersSection(home, away, homeScorers, awayScorers) {
       s += `\n`;
     }
     if (awayScorer) {
-      const as = awayScorer.seasons?.["3"] || {};
+      const as = awayScorer.seasons?.[statsSeason] || {};
       s += `- **${awayScorer.name}** — ${away}'s leading marksman with **${as.goals || 0} goals** from **${as.apps || 0} outings**`;
       if (as.assists > 0) s += `, plus **${as.assists} assists**`;
       s += `. `;
@@ -810,11 +827,11 @@ function matchFacts(home, away, hs, as, gc1, gc2, gc1g, gc2g, gw, margin, homeTo
   if (margin <= 1 && hs !== as) facts.push(`A **one-goal game** decided by the narrowest of margins — the small details made all the difference`);
 
   if (homeTopScorer) {
-    const hg = homeTopScorer.seasons?.["3"]?.goals || 0;
+    const hg = homeTopScorer.seasons?.[statsSeason]?.goals || 0;
     if (hg >= 10) facts.push(`${homeTopScorer.name} continues to lead ${home} with **${hg} goals** — firmly among the league's elite marksmen`);
   }
   if (awayTopScorer) {
-    const ag = awayTopScorer.seasons?.["3"]?.goals || 0;
+    const ag = awayTopScorer.seasons?.[statsSeason]?.goals || 0;
     if (ag >= 10) facts.push(`${awayTopScorer.name} heads ${away}'s scoring charts with **${ag} goals**, a tally any forward would be proud of`);
   }
 
@@ -901,6 +918,7 @@ function titleVariations(home, away, hs, as, gw, winner, loser, margin) {
 // ─── Report Generator ─────────────────────────────────────────
 
 function generateReport(match) {
+  statsSeason = seasonOfGame[match.gameId] || targetSeason || "3";
   const home = match.homeTeam;
   const away = match.awayTeam;
   const hs = match.homeScore;
@@ -945,7 +963,7 @@ function generateReport(match) {
   const slug = `${match.homeSlug}-vs-${match.awaySlug}-gw${gw}`.toLowerCase().replace(/[^a-z0-9-]/g, "-");
 
   const excerpt = `${home} ${hs}-${as} ${away} — Gameweek ${gw} match report. ` +
-    (homeTopScorer ? `${homeTopScorer.name} (${homeTopScorer.seasons?.["3"]?.goals || 0} goals) leads ${home}'s attack. ` : "") +
+    (homeTopScorer ? `${homeTopScorer.name} (${homeTopScorer.seasons?.[statsSeason]?.goals || 0} goals) leads ${home}'s attack. ` : "") +
     `Game Changers: ${gc1} (${gc1g}) & ${gc2} (${gc2g}). ` +
     `Read the full match report, player stats, table impact and head-to-head analysis.`;
 

@@ -54,8 +54,16 @@ async function render(svg, photoPath, outFile) {
 
 // Players
 let pCount = 0;
+
+// Show the latest season a player actually has appearances in (auto-tracks the
+// current season once games are played), falling back to their newest season.
+const statSeasonOf = (p) => {
+  const keys = Object.keys(p.seasons || {}).map(Number).sort((a, b) => b - a);
+  return String(keys.find((k) => (p.seasons?.[k]?.apps || 0) > 0) ?? keys[0] ?? "3");
+};
+
 for (const p of players) {
-  const s = p.seasons?.["3"] || {};
+  const s = p.seasons?.[statSeasonOf(p)] || {};
   const sub = `${p.team} · ${s.goals || 0} goals · ${s.assists || 0} assists`;
   const svg = baseSvg("PLAYER PROFILE", p.name, sub);
   await render(svg, path.join(rootDir, `public/players/${p.slug}.webp`), path.join(ogPlayers, `${p.slug}.png`));
