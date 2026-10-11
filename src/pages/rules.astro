@@ -1,41 +1,56 @@
 ---
 import Base from '../layouts/Base.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
+import { CURRENT_SEASON } from '../lib/league';
+import season4 from '../data/season4.json';
 
-const schema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Baller League UK Rules & Format",
-  "description": "Complete rules and format guide for Baller League UK: 6v6, 30-minute matches, Game Changers at 12' and 27', no corner kicks, 11-game season with Final Four playoffs.",
-  "mainEntity": [
-    { "@type": "Question", "name": "How does Baller League work?", "acceptedAnswer": { "@type": "Answer", "text": "Baller League UK is 6-a-side football with 30-minute matches (two 15-minute halves), unlimited rolling substitutions, and celebrity managers." } },
-    { "@type": "Question", "name": "What are the Baller League Gamechanger rules?", "acceptedAnswer": { "@type": "Answer", "text": "Game Changers are random rule changes activated at the 12th and 27th minute of each match. First-half options are Onside, Plus One, and 3Play. Second-half options are 1-on-1, The Line, and Fairplay." } },
-    { "@type": "Question", "name": "Are there corner kicks in Baller League UK?", "acceptedAnswer": { "@type": "Answer", "text": "No. Traditional corner kicks are replaced by direct penalty kicks." } },
-    { "@type": "Question", "name": "How many teams are in Baller League UK?", "acceptedAnswer": { "@type": "Answer", "text": "12 teams compete in Baller League UK Season 3 over 11 gameweeks, with the top 4 qualifying for the Final Four playoffs." } },
-    { "@type": "Question", "name": "How does the Baller League UK scoring system work?", "acceptedAnswer": { "@type": "Answer", "text": "A win earns 3 points, a draw earns 1 point, and the penalty shootout winner earns 1 additional bonus point. Losses earn 0 points." } },
-    { "@type": "Question", "name": "How do players join Baller League UK?", "acceptedAnswer": { "@type": "Answer", "text": "Players join Baller League UK through a Combine and Draft system. Grassroots and semi-pro players attend trial days (the Combine), and team managers select their squads during an official Draft event before the season begins." } },
-    { "@type": "Question", "name": "What is the Wildcard Rule in Baller League?", "acceptedAnswer": { "@type": "Answer", "text": "The Wildcard rule allows teams to bring in special guest players—often former professional footballers or celebrities—for a single gameweek. These players are not part of the permanent drafted squad but can significantly impact a match." } },
-    { "@type": "Question", "name": "Who owns Baller League?", "acceptedAnswer": { "@type": "Answer", "text": "The original Baller League was founded in Germany by Mats Hummels and Lukas Podolski. The UK expansion features prominent founders and presidents including Felix Starr, with team owners like KSI, Micah Richards, and Tobi Brown." } },
-    { "@type": "Question", "name": "Where is Baller League UK filmed?", "acceptedAnswer": { "@type": "Answer", "text": "Regular season matches are filmed at a purpose-built indoor arena in London, specifically designed for fast-paced 6-a-side football with a live studio audience. The Final Four playoffs take place at major venues like The O2 Arena." } },
-    { "@type": "Question", "name": "How much do Baller League players get paid?", "acceptedAnswer": { "@type": "Answer", "text": "While exact salaries are officially undisclosed, players are compensated for their participation. The primary draws for players are the exposure, the high-quality facilities, and the chance to compete alongside ex-pros and influencers for the championship trophy." } }
-  ]
-};
+const venue = season4.venue;
+const firstMD = season4.matchdays?.[0]?.date;
+const lastMD = season4.matchdays?.[season4.matchdays.length - 1]?.date;
+
+const faqs = [
+  { q: "How does Baller League UK work?", a: "Baller League UK is 6-a-side football played indoors. Each match is 30 minutes, split into two 15-minute halves with a short half-time break and unlimited rolling substitutions. Twelve teams play 11 Monday-night matchdays, and the top four reach the Final Four playoffs to decide the champion." },
+  { q: "What are the Game Changers?", a: "Twice per match — at the 12th minute and the 27th minute — a 'wheel of fortune' randomly selects a rule change. It applies for the final three minutes of that half. First-half options are Onside, Plus One and 3Play; second-half options are 1-on-1, The Line and Fairplay." },
+  { q: "Are there corner kicks in Baller League UK?", a: "Corners are tallied rather than taken. When a team wins three corners, it is awarded a penalty. Play restarts with a goal kick." },
+  { q: "Is there an offside rule in Baller League UK?", a: "Yes. Offside applies, with an offside line between the halfway line and the penalty area. It is only suspended during the Onside Game Changer, and offside is not in effect during a kick-in." },
+  { q: "How does the scoring system work?", a: "A win is worth 3 points, a draw 1 point each, and a loss 0. In addition, the winner of the matchday penalty-shootout challenge (the Penalty Point) earns one extra point — shown as EP on the league table." },
+  { q: "How many players are in a squad?", a: "Each team can register up to 12 permanent players, plus a manager and a coach. Teams may also nominate up to two wildcard players per matchday." },
+  { q: "How do the playoffs work?", a: "After 11 matchdays, the top four teams qualify for the Final Four Day. The 1st-placed team plays 4th and 2nd plays 3rd in the semi-finals, with the winners meeting in the Final to be crowned champions." },
+  { q: "Where is Baller League UK played?", a: `Matches are played at ${venue.name} in Dagenham, London (Eastbrook Studios, Yew Tree Avenue, RM10 7FN).` },
+  { q: "Who won previous seasons?", a: "SDS FC won Season 1, Wembley Rangers AFC won Season 2 and Prime FC won Season 3. See the full history on the seasons archive." }
+];
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": `Baller League UK Rules & Format — Season ${CURRENT_SEASON} Guide`,
+    "description": "The complete Baller League UK rules and format guide: 6v6, 30-minute matches, Game Changers, time penalties, corners, scoring and the Final Four.",
+    "author": { "@type": "Organization", "name": "Baller League UK Hub" },
+    "dateModified": new Date().toISOString().split('T')[0],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(f => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })),
+  },
+];
 ---
 
 <Base
-  title="Baller League UK Rules, Format & FAQs (Ultimate 2026 Guide)"
-  description="Complete guide to Baller League UK rules: 6v6 format, Game Changers, the Draft system, Wildcards, and full FAQs. Everything you need to know."
+  title={`Baller League UK Rules & Format — Season ${CURRENT_SEASON} Guide`}
+  description="The complete Baller League UK rules for Season 4: 6v6 format, two 15-minute halves, Game Changers, kick-ins, corners, time penalties, wildcards, scoring and the Final Four playoffs."
   schema={schema}
-  keywords="rules, format, Game Changer, 6v6, offside, corner kicks, season structure, playoffs, Final Four, how to join baller league, baller league draft, wildcard rule"
+  keywords="Baller League rules, Baller League UK format, how does Baller League work, 6v6 rules, Game Changers, offside, kick-ins, corners, time penalties, EP, Final Four"
   type="article"
 >
 
   <div class="page-header">
     <div class="container">
       <Breadcrumb items={[{name:'Home',url:'/'},{name:'Rules'}]} />
-      <div class="section-label">Official Guide</div>
-      <h1>Baller League UK — Rules & Format</h1>
-      <p class="section-subtitle">Everything you need to know about how Baller League UK works — from kick-off to the Final Four.</p>
+      <div class="section-label">Official Guide · Season {CURRENT_SEASON}</div>
+      <h1>Baller League UK — Rules &amp; Format</h1>
+      <p class="section-subtitle">Everything you need to know about how Baller League UK works — from kick-off to the Final Four. Based on the official Season {CURRENT_SEASON} rulebook.</p>
     </div>
   </div>
 
@@ -44,261 +59,255 @@ const schema = {
     <!-- QUICK SUMMARY STATS -->
     <div class="rules-summary grid-4">
       <div class="stat-box"><div class="stat-box-number">6v6</div><div class="stat-box-label">Players per side</div></div>
-      <div class="stat-box"><div class="stat-box-number">30</div><div class="stat-box-label">Minutes per match</div></div>
-      <div class="stat-box"><div class="stat-box-number">11</div><div class="stat-box-label">Regular season games</div></div>
-      <div class="stat-box"><div class="stat-box-number">12</div><div class="stat-box-label">Teams competing</div></div>
+      <div class="stat-box"><div class="stat-box-number">2×15</div><div class="stat-box-label">Minute halves</div></div>
+      <div class="stat-box"><div class="stat-box-number">12</div><div class="stat-box-label">Teams</div></div>
+      <div class="stat-box"><div class="stat-box-number">11</div><div class="stat-box-label">Matchdays</div></div>
     </div>
 
     <div class="rules-content">
 
-      <!-- SECTION 1 -->
+      <!-- 1. FORMAT -->
       <div class="rule-block card" id="format">
         <div class="card-body">
           <div class="rule-icon">⚽</div>
           <h2>The Basic Format</h2>
-          <p>Baller League UK is a six-a-side football competition played in a purpose-built indoor arena. Each team fields six players at a time — five outfield players and one goalkeeper. Matches last 30 minutes, played as two 15-minute halves with no half-time break.</p>
-
-          <h3>Team Structure</h3>
+          <p>Baller League UK is a six-a-side football competition played indoors. Each team fields a maximum of <strong>six players</strong> at a time — five outfield players and a goalkeeper — and a team must have at least <strong>four players</strong> on the pitch for the match to continue.</p>
           <ul class="rule-list">
-            <li><strong>6 players</strong> on the pitch per team at any one time</li>
-            <li><strong>Rolling substitutions</strong> — teams can make unlimited substitutions during play</li>
-            <li>Each team is managed by a <strong>celebrity or influencer manager</strong> who picks the starting lineup and tactics</li>
-            <li>Teams can include <strong>professional footballers, semi-pros, and select influencer players</strong></li>
+            <li>Matches last <strong>30 minutes</strong>: two 15-minute halves with a <strong>4–5 minute half-time break</strong>, after which the teams change ends</li>
+            <li><strong>Rolling substitutions</strong> — players can be substituted on the fly, as often as the team likes</li>
+            <li>Played on a <strong>50 × 29 metre</strong> artificial pitch with <strong>5.5 × 2.2 metre</strong> goals</li>
+            <li>Each team is led by a <strong>manager and a coach</strong>, who handle tactics, line-ups and substitutions</li>
           </ul>
         </div>
       </div>
 
-      <!-- SECTION 2 - DRAFT & RECRUITMENT -->
-      <div class="rule-block card" id="draft">
+      <!-- 2. SQUAD / DRAFT -->
+      <div class="rule-block card" id="squad">
         <div class="card-body">
           <div class="rule-icon">📝</div>
-          <h2>Player Recruitment & The Draft</h2>
-          <p>Unlike traditional football leagues where teams sign players on long contracts, Baller League UK uses an American sports-style Draft system to ensure competitive balance.</p>
+          <h2>Squads, Wildcards &amp; Transfers</h2>
+          <p>Each team can register <strong>up to 12 permanent players</strong>, plus a manager and a coach. To keep the league competitive, squads are assembled through a draft and can be adjusted during the season.</p>
 
           <div class="key-rules-grid">
             <div class="key-rule yes-rule">
-              <span class="key-rule-badge yes">STEP 1</span>
-              <h4>The Combine (Trials)</h4>
-              <p>Before the season begins, grassroots, semi-pro, and amateur players apply to join. Selected players are invited to <strong>The Combine</strong>, a grueling trial day where they showcase their skills in front of all 12 team managers.</p>
+              <span class="key-rule-badge yes">DRAFT</span>
+              <h4>Player Recruitment</h4>
+              <p>Players enter the league via trials and a draft, where managers build their squads from the pool of grassroots, semi-pro and select players.</p>
             </div>
             <div class="key-rule yes-rule">
-              <span class="key-rule-badge yes">STEP 2</span>
-              <h4>The Draft</h4>
-              <p>Following the Combine, a live Draft event takes place. Managers take turns selecting players to build their 11-man squads. This ensures that the talent is spread evenly across the league.</p>
+              <span class="key-rule-badge yes">PER MATCHDAY</span>
+              <h4>Wildcards</h4>
+              <p>Each team may nominate up to <strong>two wildcard players per matchday</strong> — often ex-pros or special guests — outside the permanent squad. A wildcard can only play for one team per season.</p>
+            </div>
+            <div class="key-rule yes-rule">
+              <span class="key-rule-badge yes">AFTER MATCHDAY 5</span>
+              <h4>Transfer Window</h4>
+              <p>A trading window opens after Matchday 5: each team can make one direct trade with another team, plus one Wildcard or Draft Pool trade.</p>
             </div>
             <div class="key-rule no-rule">
-              <span class="key-rule-badge">SPECIAL EXCEPTION</span>
-              <h4>The Wildcard Rule (Gamechangers)</h4>
-              <p>Managers are allowed to bring in "Wildcard" players for a single gameweek. These are usually <strong>former professional footballers or high-profile celebrities</strong> (e.g., Bakary Sako) who aren't part of the drafted squad but act as secret weapons to secure a crucial win.</p>
+              <span class="key-rule-badge">DEADLINE</span>
+              <h4>Eligibility Lists</h4>
+              <p>Teams must submit an eligible squad list of 10 players (8 squad + up to 2 wildcards) before each matchday. Players not on the list cannot feature.</p>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- SECTION 3 -->
+      <!-- 3. KEY RULE DIFFERENCES -->
       <div class="rule-block card" id="rules">
         <div class="card-body">
           <div class="rule-icon">🚫</div>
-          <h2>Key Rule Differences</h2>
-          <p>Baller League UK deliberately removes several traditional football rules to increase goals, action, and entertainment. Here's what's different:</p>
+          <h2>How the Rules Differ From Football</h2>
+          <p>Baller League removes or rewrites several traditional rules to keep the game fast, high-scoring and easy to follow.</p>
 
           <div class="key-rules-grid">
             <div class="key-rule no-rule">
-              <span class="key-rule-badge">REMOVED</span>
-              <h4>❌ No Corner Kicks</h4>
-              <p>Traditional corner kicks are replaced by direct penalty kicks. Whenever the ball goes out for what would have been a corner, the attacking team is awarded a direct penalty instead.</p>
+              <span class="key-rule-badge">KICK-INS, NOT THROW-INS</span>
+              <h4>Kick-ins</h4>
+              <p>When the ball goes out of play over the touchline, it is kicked back in rather than thrown. Offside is not in effect during a kick-in, and opponents must retreat two metres.</p>
+            </div>
+            <div class="key-rule yes-rule">
+              <span class="key-rule-badge yes">3 = 1</span>
+              <h4>Corners Become Penalties</h4>
+              <p>Corners are counted, not taken. Win <strong>three corners</strong> and your team is awarded a <strong>penalty</strong>. The restart after a corner is a goal kick.</p>
             </div>
             <div class="key-rule yes-rule">
               <span class="key-rule-badge yes">INCLUDED</span>
-              <h4>✅ Offside Rule (except during Onside GC)</h4>
-              <p>Offside rules apply throughout normal play. The only exception is when the <strong>Onside Game Changer</strong> is activated at the 12th minute — during that period, all offside rules are suspended.</p>
+              <h4>Offside Applies</h4>
+              <p>Offside is in play, using a dedicated offside line between the halfway line and the penalty area. It is only suspended during the Onside Game Changer.</p>
+            </div>
+            <div class="key-rule no-rule">
+              <span class="key-rule-badge">NO YELLOW CARDS</span>
+              <h4>Two-Minute Time Penalties</h4>
+              <p>Instead of yellow cards, the referee issues a <strong>two-minute time penalty</strong> (sin-bin), served on the penalty bench. Players can receive multiple in a game.</p>
+            </div>
+            <div class="key-rule no-rule">
+              <span class="key-rule-badge">RED CARD</span>
+              <h4>Sendings-off</h4>
+              <p>A red card means the player leaves the pitch and cannot be replaced. Their team plays <strong>two minutes short-handed</strong>, or until they concede.</p>
             </div>
             <div class="key-rule yes-rule">
-              <span class="key-rule-badge yes">INCLUDED</span>
-              <h4>✅ Penalty Shootouts</h4>
-              <p>If a match is level after 30 minutes, the result goes straight to a penalty shootout to determine the winner. Drawn results are not possible in the final standings.</p>
+              <span class="key-rule-badge yes">10 SECONDS</span>
+              <h4>Penalties</h4>
+              <p>A penalty is a one-on-one: the taker runs from the centre line against the goalkeeper with a single attempt, completed within 10 seconds.</p>
             </div>
             <div class="key-rule yes-rule">
-              <span class="key-rule-badge yes">INCLUDED</span>
-              <h4>✅ Golden Goal Option</h4>
-              <p>In some match formats, teams can enter an overtime period where the first team to score wins the match instantly — the classic golden goal rule.</p>
+              <span class="key-rule-badge yes">VAR</span>
+              <h4>Manager Challenges</h4>
+              <p>Managers can use a flag to challenge a goal, corner, red card or two-minute penalty (up to three successful-retained challenges). The on-field decision stands unless clearly disproved.</p>
+            </div>
+            <div class="key-rule no-rule">
+              <span class="key-rule-badge">30s CLOCK</span>
+              <h4>Shot Clocks</h4>
+              <p>During the 3Play and 1-on-1 Game Changers, a shot clock (30 seconds and 15 seconds respectively) forces teams to attack quickly or turn the ball over.</p>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- SECTION 4 - GAME CHANGERS -->
+      <!-- 4. GAME CHANGERS -->
       <div class="rule-block card gamechanger-card" id="gamechanger">
         <div class="card-body">
           <div class="rule-icon">⚡</div>
           <div class="gc-badge">The Signature Rule</div>
           <h2>Game Changers</h2>
-          <p class="gc-intro">Twice per match — at the <strong>12th minute</strong> (1st half) and <strong>27th minute</strong> (2nd half) — a random Game Changer is activated, temporarily rewriting the rules. Each half has three possible Game Changers, drawn randomly before the match.</p>
+          <p class="gc-intro">Twice per match, a <strong>wheel of fortune</strong> randomly selects a rule change. In the <strong>first half it activates at the 12th minute</strong> and in the <strong>second half at the 27th minute</strong>, applying for the final three minutes of that half. The chosen rule affects both teams equally.</p>
 
-          <h3 style="margin-top: var(--space-xl); margin-bottom: var(--space-lg); color: var(--green);">1st Half — Activated at 12'</h3>
+          <h3 style="margin-top: var(--space-xl); margin-bottom: var(--space-lg); color: var(--green);">1st Half — activated at 12'</h3>
           <div class="gc-rules">
             <div class="gc-rule">
               <span class="gc-rule-num">01</span>
               <div>
                 <h4>🏃 Onside</h4>
-                <p>All offside rules are suspended. Attacking players can position themselves freely anywhere on the pitch — creating chaos and opening up the game.</p>
+                <p>All offside rules are suspended. Players may position themselves freely anywhere on the pitch — expect chaos and a flurry of chances.</p>
               </div>
             </div>
             <div class="gc-rule">
               <span class="gc-rule-num">02</span>
               <div>
                 <h4>➕ Plus One</h4>
-                <p>The game restarts as a 1v1 (plus goalkeepers). After each goal, both teams add one outfield player, building back up to full 5v5 play. Every goal changes the match state.</p>
+                <p>The game restarts as a 1v1 (plus goalkeepers). After each goal, both teams add one outfield player, building up to full 5v5. No time penalties in this mode — fouls give away a penalty instead.</p>
               </div>
             </div>
             <div class="gc-rule">
               <span class="gc-rule-num">03</span>
               <div>
                 <h4>⏱️ 3Play</h4>
-                <p>Teams shrink to 3-a-side (including goalkeeper). A 30-second shot clock forces rapid attacks — lose the ball or let the clock expire and it's a turnover. Fast, fierce, relentless.</p>
+                <p>Teams shrink to three-a-side, goalkeeper included. A 30-second shot clock runs per possession — lose the ball or run out of time and it is a turnover.</p>
               </div>
             </div>
           </div>
 
-          <h3 style="margin-top: var(--space-xl); margin-bottom: var(--space-lg); color: var(--purple);">2nd Half — Activated at 27'</h3>
+          <h3 style="margin-top: var(--space-xl); margin-bottom: var(--space-lg); color: var(--purple);">2nd Half — activated at 27'</h3>
           <div class="gc-rules">
             <div class="gc-rule">
               <span class="gc-rule-num">04</span>
               <div>
                 <h4>⚔️ 1-on-1</h4>
-                <p>The game becomes a one-on-one duel. Each player stays in their own half with a 15-second shot clock per possession — pure skill, no hiding.</p>
+                <p>A one-on-one duel. Each player stays in their own half with a 15-second shot clock per possession. Pure individual skill, with nowhere to hide.</p>
               </div>
             </div>
             <div class="gc-rule">
               <span class="gc-rule-num">05</span>
               <div>
                 <h4>📏 The Line</h4>
-                <p>Goals scored from in front of the offside line count <strong>double</strong>. Rewards precision and long-range brilliance — every shot from distance becomes a game-changer.</p>
+                <p>Goals scored from in front of the offside line — in the attacking half — count <strong>double</strong>. Long-range shooting suddenly becomes the most valuable skill on the pitch.</p>
               </div>
             </div>
             <div class="gc-rule">
               <span class="gc-rule-num">06</span>
               <div>
                 <h4>🟥 Fairplay</h4>
-                <p>Any foul, handball, or dissent = <strong>immediate send-off</strong> with no replacement. Finish the match with whoever is left standing — discipline or disaster.</p>
+                <p>Any foul, deliberate handball or dissent results in an <strong>immediate send-off</strong> with no replacement. Discipline is everything.</p>
               </div>
             </div>
           </div>
 
           <div class="gc-callout">
-            <strong>⚡ Why it matters:</strong> A team with a lethal striker might pray for 1-on-1. A disciplined side wants Fairplay. The draw before each match can make or break a gameweek. See our <a href="/gamechangers" style="color: var(--green);">Gamechanger Analysis</a> to discover which types produce the most goals.
+            <strong>⚡ Why it matters:</strong> A lethal finisher wants 1-on-1, a disciplined side wants Fairplay, and a defence-first team dreads Plus One. The draw each half can decide a match — and the season. See our <a href="/news/baller-league-game-changers-explained">Game Changers explained</a> guide, or the full <a href="/gamechangers">Gamechanger analysis</a>.
           </div>
         </div>
       </div>
 
-      <!-- SECTION 5 - SEASON FORMAT -->
+      <!-- 5. SEASON FORMAT -->
       <div class="rule-block card" id="season">
         <div class="card-body">
           <div class="rule-icon">🏆</div>
           <h2>Season Format</h2>
 
-          <h3>Regular Season (11 Gameweeks)</h3>
-          <p>All 12 teams compete over 11 gameweeks. Each gameweek features multiple matches. Points are awarded as follows:</p>
+          <h3>Regular Season — 11 Matchdays</h3>
+          <p>All 12 teams play over 11 Monday-night matchdays, each team playing once per matchday (every team plays every other team once). Matchdays run from <strong>{firstMD}</strong> to <strong>{lastMD}</strong>.</p>
           <ul class="rule-list">
             <li><strong>Win:</strong> 3 points</li>
-            <li><strong>Draw (after 90 min, before penalty shootout):</strong> 1 point each</li>
-            <li><strong>Penalty Shootout Win:</strong> 1 additional bonus point for the winner</li>
+            <li><strong>Draw:</strong> 1 point each</li>
             <li><strong>Loss:</strong> 0 points</li>
+            <li><strong>EP (Extra Point):</strong> each matchday a penalty-shootout challenge (the Penalty Point) runs between matches; its winner earns <strong>+1 point</strong>, shown as EP on the <a href="/table">league table</a></li>
           </ul>
+          <p>Where teams finish level on points, the tie is broken by goal difference, then goals scored, then the head-to-head result — and a shoot-out if still level.</p>
 
-          <h3>Final Four Playoffs</h3>
-          <p>At the end of the regular season, the <strong>top 4 teams</strong> qualify for the Final Four — a knockout tournament to decide the Baller League UK champion.</p>
+          <h3>Final Four Day</h3>
+          <p>After 11 matchdays, the <strong>top four teams</strong> qualify for the Final Four, held on a single day at the end of the season.</p>
           <ul class="rule-list">
-            <li><strong>Semi-final 1:</strong> 1st vs 4th place</li>
-            <li><strong>Semi-final 2:</strong> 2nd vs 3rd place</li>
-            <li><strong>Grand Final:</strong> Two semi-final winners meet in the championship match</li>
+            <li><strong>Semi-final 1:</strong> 1st vs 4th</li>
+            <li><strong>Semi-final 2:</strong> 2nd vs 3rd</li>
+            <li><strong>Final:</strong> the two semi-final winners meet to decide the champion</li>
           </ul>
-          <p>The Game Changer rule applies in all playoff matches.</p>
+          <p>The Game Changers apply in every playoff match. If a Final Four tie is level after 30 minutes, it goes to a penalty shootout.</p>
         </div>
       </div>
 
-      <!-- SECTION 6 - MANAGERS -->
+      <!-- 6. MANAGERS -->
       <div class="rule-block card" id="managers">
         <div class="card-body">
           <div class="rule-icon">🎽</div>
-          <h2>Managers & Team Ownership</h2>
-          <p>Each Baller League UK team is led by a celebrity manager — a recognisable face from football, entertainment, or social media. Managers are responsible for:</p>
-          <ul class="rule-list">
-            <li>Picking the starting lineup for each gameweek</li>
-            <li>Deciding tactics and substitutions during matches</li>
-            <li>Signing and releasing players during transfer windows</li>
-            <li>Representing the team in pre and post-match interviews</li>
-          </ul>
-          <p>Some teams also have an <strong>owner or president</strong> (such as KSI at Prime FC) who sits above the manager and makes high-level decisions including player recruitment.</p>
-          <a href="/teams" class="btn btn-secondary" style="margin-top: var(--space-md);">Meet All 12 Managers</a>
+          <h2>Managers &amp; Touchline</h2>
+          <p>Every team is fronted by a celebrity or footballing manager, supported by a coach. The manager sets the tone and represents the club, while on matchdays the dugout has real influence through substitutions, the manager's VAR challenge and handling the Game Changers.</p>
+          <a href="/managers" class="btn btn-secondary" style="margin-top: var(--space-md);">Meet the Managers</a>
         </div>
       </div>
 
-      <!-- SECTION 7 - FAQ -->
+      <!-- 7. FAQ -->
       <div class="rule-block card" id="faq">
         <div class="card-body">
           <div class="rule-icon">❓</div>
-          <h2>Frequently Asked Questions</h2>
+          <h2>Rules FAQ</h2>
           <div class="faq-list">
-            <details class="faq-item">
-              <summary>How do players join Baller League UK?</summary>
-              <p>Players join Baller League UK through a Combine and Draft system. Grassroots and semi-pro players attend trial days (the Combine), and team managers select their squads during an official Draft event before the season begins.</p>
-            </details>
-            <details class="faq-item">
-              <summary>What is the Wildcard Rule in Baller League?</summary>
-              <p>The Wildcard rule allows teams to bring in special guest players—often former professional footballers or celebrities—for a single gameweek. These players are not part of the permanent drafted squad but can significantly impact a match.</p>
-            </details>
-            <details class="faq-item">
-              <summary>Who owns Baller League?</summary>
-              <p>The original Baller League was founded in Germany by Mats Hummels and Lukas Podolski. The UK expansion features prominent founders and presidents including Felix Starr, with team owners like KSI, Micah Richards, and Tobi Brown.</p>
-            </details>
-            <details class="faq-item">
-              <summary>Where is Baller League UK filmed?</summary>
-              <p>Regular season matches are filmed at a purpose-built indoor arena in London, specifically designed for fast-paced 6-a-side football with a live studio audience. The Final Four playoffs take place at major venues like The O2 Arena.</p>
-            </details>
-            <details class="faq-item">
-              <summary>How much do Baller League players get paid?</summary>
-              <p>While exact salaries are officially undisclosed, players are compensated for their participation. The primary draws for players are the exposure, the high-quality facilities, and the chance to compete alongside ex-pros and influencers for the championship trophy.</p>
-            </details>
-            <details class="faq-item">
-              <summary>How does Baller League work?</summary>
-              <p>Baller League UK is 6-a-side football with 30-minute matches (two 15-minute halves), unlimited rolling substitutions, and celebrity managers. Each team fields six players at a time — five outfield players and one goalkeeper — in a purpose-built indoor arena.</p>
-            </details>
-            <details class="faq-item">
-              <summary>What are the Baller League Gamechanger rules?</summary>
-              <p>Game Changers are random rule changes activated at the 12th and 27th minute of each match. First-half options are Onside (no offsides), Plus One (progressive 1v1 build-up), and 3Play (3v3 with a 30-second shot clock). Second-half options are 1-on-1 (individual duels), The Line (double goals from distance), and Fairplay (instant red cards for fouls).</p>
-            </details>
-            <details class="faq-item">
-              <summary>Are there corner kicks in Baller League UK?</summary>
-              <p>No. Traditional corner kicks are replaced by direct penalty kicks. Whenever the ball would normally go out for a corner, the attacking team is awarded a direct penalty instead — increasing goal opportunities and keeping the action flowing.</p>
-            </details>
+            {faqs.map(f => (
+              <details class="faq-item">
+                <summary>{f.q}</summary>
+                <p>{f.a}</p>
+              </details>
+            ))}
           </div>
+          <a href="/faq" class="btn btn-ghost" style="margin-top: var(--space-lg);">More questions? Read the full FAQ →</a>
         </div>
       </div>
 
     </div>
 
-    <!-- SIDEBAR CTA -->
+    <!-- SIDEBAR -->
     <aside class="rules-aside">
       <div class="card aside-card">
         <div class="card-body">
-          <h4>Quick Navigation</h4>
+          <h4>On this page</h4>
           <ul class="aside-links">
             <li><a href="#format">Basic Format</a></li>
-            <li><a href="#draft">The Draft & Wildcards</a></li>
-            <li><a href="#rules">Key Rule Differences</a></li>
+            <li><a href="#squad">Squads &amp; Wildcards</a></li>
+            <li><a href="#rules">How the Rules Differ</a></li>
             <li><a href="#gamechanger">Game Changers</a></li>
             <li><a href="#season">Season Format</a></li>
             <li><a href="#managers">Managers</a></li>
-            <li><a href="#faq">FAQs</a></li>
+            <li><a href="#faq">Rules FAQ</a></li>
           </ul>
         </div>
       </div>
       <div class="card aside-card">
         <div class="card-body">
-          <h4>Related Pages</h4>
+          <h4>Related</h4>
           <ul class="aside-links">
-            <li><a href="/compare">Kings League vs Baller League</a></li>
+            <li><a href="/faq">Frequently Asked Questions</a></li>
+            <li><a href="/news/baller-league-game-changers-explained">Game Changers Explained</a></li>
+            <li><a href="/news/baller-league-uk-glossary">Baller League Glossary</a></li>
             <li><a href="/teams">All 12 Teams</a></li>
             <li><a href="/table">Current Standings</a></li>
             <li><a href="/watch">Where to Watch</a></li>
@@ -323,7 +332,6 @@ const schema = {
 .rules-content { display: flex; flex-direction: column; gap: var(--space-lg); }
 .rules-aside { display: flex; flex-direction: column; gap: var(--space-lg); align-self: start; position: sticky; top: calc(var(--nav-height) + 24px); }
 
-.rule-block { }
 .rule-icon { font-size: 2.4rem; margin-bottom: var(--space-md); }
 .rule-block h2 { margin-bottom: var(--space-md); }
 .rule-block h3 { font-size: 1.1rem; margin-top: var(--space-lg); margin-bottom: var(--space-sm); color: var(--text-primary); font-family: var(--font-body); font-weight: 700; }
@@ -375,9 +383,9 @@ const schema = {
   color: var(--text-secondary);
   line-height: 1.6;
 }
+.gc-callout a { color: var(--green); text-decoration: underline; text-underline-offset: 2px; }
 
 /* Aside */
-.aside-card { }
 .aside-card h4 { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); margin-bottom: var(--space-md); }
 .aside-links { list-style: none; display: flex; flex-direction: column; gap: var(--space-sm); }
 .aside-links li a { font-size: 0.88rem; color: var(--text-secondary); transition: color var(--transition); }

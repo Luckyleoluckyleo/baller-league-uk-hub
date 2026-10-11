@@ -11,7 +11,7 @@ const schema = [
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Where to Watch Baller League UK",
-    "description": "Find out where to watch Baller League UK live. Stream on Sky Sports and Twitch. Catch highlights on YouTube.",
+    "description": "Find out where to watch Baller League UK Season 4 online. Live streams on YouTube, Twitch and Kick, plus highlights and full match replays.",
     "about": { "@type": "SportsOrganization", "name": "Baller League UK", "sport": "Football" },
   },
   {
@@ -42,9 +42,9 @@ const schema = [
 ---
 
 <Base
-  title="Where to Watch Baller League UK — Sky Sports, Twitch & YouTube"
-  description="Find out where to watch Baller League UK live. Stream on Sky Sports and Twitch. Catch highlights on YouTube. Full schedule and social links."
-  keywords="watch live, Sky Sports, Twitch, YouTube, stream, highlights, schedule"
+  title="Where to Watch Baller League UK — Live Streams & Highlights"
+  description="Find out where to watch Baller League UK Season 4 online. Live streams on YouTube, Twitch and Kick, plus highlights, replays and the full schedule."
+  keywords="watch Baller League UK, Baller League live stream, Baller League online, YouTube, Twitch, Kick, highlights, schedule"
   schema={schema}
 >
 
@@ -53,7 +53,7 @@ const schema = [
       <Breadcrumb items={[{name:'Home',url:'/'},{name:'Watch'}]} />
       <div class="section-label">Live & On Demand</div>
       <h1>Where to Watch</h1>
-      <p class="section-subtitle">Catch every match live or on demand across Sky Sports, Twitch and YouTube.</p>
+      <p class="section-subtitle">Season 4 is online-only — every matchday streams free across YouTube, Twitch and Kick.</p>
     </div>
   </div>
 
@@ -61,15 +61,14 @@ const schema = [
 
     <div class="watch-platforms">
 
-      <div class="card watch-card sky-card">
+      <div class="card watch-card kick-card">
         <div class="watch-card-body">
-          <div class="watch-platform-label">Live Broadcast</div>
-          <h2>Sky Sports</h2>
-          <p>All Baller League UK games are broadcast live on <strong>Sky Sports</strong>. Available on Sky Sports Mix and Sky Sports Football.</p>
+          <div class="watch-platform-label">Free Live Stream</div>
+          <h2>Kick</h2>
+          <p>Watch <strong>for free</strong> on the league's Kick channel, with community chat alongside the live stream.</p>
           <div class="watch-details">
-            <span class="badge badge-green">Live Matches</span>
-            <span class="badge badge-purple">Match Replays</span>
-            <span class="badge badge-orange">Analysis</span>
+            <span class="badge badge-purple">Free to Watch</span>
+            <span class="badge badge-green">Live Chat</span>
           </div>
         </div>
       </div>
@@ -89,12 +88,13 @@ const schema = [
 
       <div class="card watch-card youtube-card">
         <div class="watch-card-body">
-          <div class="watch-platform-label">Highlights & VODs</div>
+          <div class="watch-platform-label">Live &amp; On Demand</div>
           <h2>YouTube</h2>
-          <p>The official channel publishes match highlights, goals compilations, behind-the-scenes content, and full match VODs.</p>
+          <p>The official channel streams live matchday coverage and publishes highlights, goals compilations, behind-the-scenes content and full match replays.</p>
           <div class="watch-details">
+            <span class="badge badge-green">Live Streams</span>
             <span class="badge badge-orange">Highlights</span>
-            <span class="badge badge-green">Full Match VODs</span>
+            <span class="badge badge-green">Full Match Replays</span>
           </div>
           <a href="https://www.youtube.com/@BallerLeagueUK" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="margin-top: var(--space-lg);">YouTube Channel</a>
         </div>
@@ -154,7 +154,7 @@ const schema = [
 .watch-platforms { display: flex; flex-direction: column; gap: var(--space-lg); margin-bottom: var(--space-2xl); }
 
 .watch-card { display: flex; padding: var(--space-xl); }
-.sky-card { border-left: 3px solid #0072ce; }
+.kick-card { border-left: 3px solid #53fc18; }
 .twitch-card { border-left: 3px solid var(--purple); }
 .youtube-card { border-left: 3px solid #ff0000; }
 .watch-card-body { flex: 1; }
