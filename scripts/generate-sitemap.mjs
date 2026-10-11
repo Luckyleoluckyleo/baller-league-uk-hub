@@ -36,6 +36,11 @@ function walk(dir, base = "") {
         .replace(/\\/g, "/")
         .replace(/index\.html$/, "")
         .replace(/\.html$/, "");
+      // Skip pages marked noindex so the sitemap only advertises canonical, indexable URLs.
+      if (entry.name.endsWith(".html")) {
+        const head = readFileSync(full, "utf8");
+        if (/name="robots"[^>]*content="noindex/i.test(head)) continue;
+      }
       if (!isExcluded(url)) {
         const fullUrl = `${SITE}/${url}`;
         const lastmod = lastmodByPath[`/${url}`];

@@ -33,6 +33,14 @@ function extractTeams(slug: string): { home: string; away: string } | null {
 
 const matchTeams = extractTeams(article.slug);
 
+// Thin/redundant pages are kept for users (and internal links) but removed from the
+// index so the site's overall quality isn't diluted — helps the AdSense "low value
+// content" signal. A preview is superseded by its match report once the game is played.
+const baseSlug = article.slug.replace(/-preview$/, "");
+const isStalePreview = data.category === 'Preview' && allNews.some(a => a.slug === baseSlug);
+const isSpotlight = article.slug.startsWith('player-spotlight-');
+const noindexArticle = isSpotlight || isStalePreview;
+
 const related = allNews
   .filter(a => a.slug !== article.slug && extractGW(a.slug) === currentGW && currentGW > 0)
   .sort((a, b) => a.data.title.localeCompare(b.data.title))
@@ -83,7 +91,7 @@ const catClass =
   image={`/og/${article.slug}.png`}
   type="article"
   schema={schema}
-      noindex={false}
+      noindex={noindexArticle}
 >
   <div class="page-header">
     <div class="container article-header">

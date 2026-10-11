@@ -439,6 +439,7 @@ Defined in `src/content/config.ts`: `teams`, `players`, `managers`, `news`.
 - `news/[slug]` emits `NewsArticle` with an absolute `image` (per-article OG PNG), `articleSection` and publisher logo
 - `Breadcrumb.astro` renders `BreadcrumbList` server-side (`set:html`)
 - **Internal linking:** `teams/[slug]` lists its club-history/preview/match-report articles ("in the news"); `players/[slug]` links the player-spotlight article — so generated news is discovered from entity pages
+- **Thin-content control:** `news/[slug]` emits `robots noindex` for player spotlights and for previews whose match has since been played (superseded by the report). The pages stay live for users/links but are excluded from the index. `generate-sitemap.mjs` also skips any page carrying `noindex`.
 - `rss.xml.ts` + human-facing `/sitemap` page
 - Per-article OG images in `public/og/`, default `og-default.png`
 - `robots.txt` references `sitemap.xml`; Search Console verified via `public/google*.html`
