@@ -11,6 +11,8 @@ on:
   schedule:
     # Mondays 23:30 UTC (~after the final whistle of the Monday matchday).
     - cron: "30 23 * * 1"
+    # Tuesday 08:00 UTC — safety net if the Monday run was too early or missed.
+    - cron: "0 8 * * 2"
   workflow_dispatch:
 
 permissions:
