@@ -61,7 +61,7 @@ Here is how the two sides finished up last season (Season 3), most recent result
 
 VZN FC and RTG FC have met **3** times before. VZN FC have won **0**, RTG FC have won **2**, with **1** draw.
 
-The most recent meeting came in Gameweek 10 of Season 1, when the match finished **Yanited 6-1 VZN FC**.
+The most recent meeting came in Gameweek 10 of Season 1, when the match finished **RTG FC 6-1 VZN FC**.
 
 ## Game Changer Watch
 

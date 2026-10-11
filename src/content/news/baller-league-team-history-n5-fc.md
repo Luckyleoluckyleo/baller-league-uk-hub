@@ -23,19 +23,19 @@ Their best finish came in **Season 2**, finishing **6th** on **19 points**.
 
 ## Top scorers (all-time club)
 
-- **Bryan Ly** — 21 goals, 2 assists
-- **[Michael Hill](/players/michael-hill)** — 21 goals, 6 assists
-- **[Martyn Waghorn](/players/martyn-waghorn)** — 15 goals, 4 assists
+- **[Michael Hill](/players/michael-hill)** — 22 goals, 7 assists
 - **[Joe Bennett](/players/joe-bennett)** — 15 goals, 3 assists
 - **[Hani Berchiche](/players/hani-berchiche)** — 11 goals, 3 assists
+- **[Kieron Freeman](/players/kieron-freeman)** — 3 goals, 6 assists
+- **[Jezreel Davies](/players/jezreel-davies-2)** — 3 goals, 5 assists
 
 ## Biggest win
 
-N5 FC's biggest win was a **8-1** victory over **Rukkas FC** (Season 3).
+N5 FC's biggest win was a **8-1** victory over **P17 FC** (Season 3).
 
 ## Highest-scoring game
 
-The most goals N5 FC have been involved in was a **14-goal** thriller: **Yanited 8-6 N5 FC** (Season 3).
+The most goals N5 FC have been involved in was a **14-goal** thriller: **RTG FC 8-6 N5 FC** (Season 3).
 
 ## Follow N5 FC
 

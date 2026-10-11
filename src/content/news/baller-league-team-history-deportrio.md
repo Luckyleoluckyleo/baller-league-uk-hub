@@ -23,11 +23,11 @@ Their best finish came in **Season 1**, finishing **1st** on **23 points**.
 
 ## Top scorers (all-time club)
 
-- **[Francis Mampolo](/players/francis-gerard-mampolo)** — 23 goals, 4 assists
 - **[Jay Emmanuel-Thomas](/players/jay-emmanuel-thomas)** — 21 goals, 9 assists
-- **Bakary Sako** — 12 goals, 1 assists
 - **[Marvin Sordell](/players/marvin-sordell)** — 11 goals, 3 assists
-- **Sahid Kamara** — 11 goals, 3 assists
+- **[Adam Dawson](/players/adam-dawson)** — 9 goals, 4 assists
+- **[Jack McConnell](/players/jack-mcconnell)** — 6 goals, 2 assists
+- **[Martyn Waghorn](/players/martyn-waghorn)** — 6 goals, 2 assists
 
 ## Biggest win
 

@@ -24,14 +24,14 @@ Their best finish came in **Season 1**, finishing **2nd** on **23 points**.
 ## Top scorers (all-time club)
 
 - **[Edy Maieco](/players/braulio-valera-pinto-maieco)** — 38 goals, 1 assists
-- **[Francis Mampolo](/players/francis-gerard-mampolo)** — 22 goals, 5 assists
+- **[Francis Mampolo](/players/francis-gerard-mampolo)** — 25 goals, 5 assists
 - **[Timmy Abraham](/players/timmy-abraham)** — 19 goals, 4 assists
-- **Sakariya Hassan** — 10 goals, 8 assists
-- **[Montel McKenzie](/players/montel-mckenzie)** — 10 goals, 15 assists
+- **[Montel McKenzie](/players/montel-mckenzie)** — 11 goals, 16 assists
+- **[Mauro Vilhete](/players/mauro-vilhete)** — 2 goals, 7 assists
 
 ## Biggest win
 
-Prime FC's biggest win was a **8-1** victory over **Yanited** (Season 3).
+Prime FC's biggest win was a **8-1** victory over **RTG FC** (Season 3).
 
 ## Highest-scoring game
 

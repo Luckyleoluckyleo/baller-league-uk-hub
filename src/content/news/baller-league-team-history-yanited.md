@@ -24,10 +24,10 @@ Their best finish came in **Season 1**, finishing **3rd** on **22 points**.
 ## Top scorers (all-time club)
 
 - **[Kadell Daniel](/players/kadell-daniel)** — 26 goals, 8 assists
-- **[Tyler Winters](/players/tyler-winters)** — 13 goals, 3 assists
-- **Bryan Ly** — 9 goals, 3 assists
-- **John Bostock** — 8 goals, 4 assists
-- **Pique Humble** — 6 goals, 2 assists
+- **[Tyrell Miller-Rodney](/players/tyrell-miller-rodney)** — 6 goals, 5 assists
+- **[Calum Butcher](/players/calum-butcher)** — 2 goals, 5 assists
+- **[Tommy Willard](/players/tommy-willard)** — 1 goals, 0 assists
+- **[Dominic Vose](/players/dominic-vose)** — 0 goals, 0 assists
 
 ## Biggest win
 
@@ -35,7 +35,7 @@ RTG FC's biggest win was a **7-2** victory over **N5 FC** (Season 1).
 
 ## Highest-scoring game
 
-The most goals RTG FC have been involved in was a **14-goal** thriller: **M7 7-7 Yanited** (Season 2).
+The most goals RTG FC have been involved in was a **14-goal** thriller: **M7 7-7 RTG FC** (Season 2).
 
 ## Follow RTG FC
 

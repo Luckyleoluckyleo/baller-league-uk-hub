@@ -25,9 +25,9 @@ Their best finish came in **Season 2**, finishing **4th** on **20 points**.
 
 - **[Domingos Pires](/players/domingos-pires)** — 31 goals, 7 assists
 - **[Chiekh Thiam](/players/chiekh-thiam)** — 16 goals, 4 assists
-- **[Sandro Camara](/players/sandro-camara)** — 11 goals, 2 assists
+- **[Sandro Camara](/players/sandro-camara)** — 13 goals, 2 assists
 - **[Callam Gardner](/players/callam-gardner)** — 9 goals, 1 assists
-- **Rúben Júnior** — 6 goals, 0 assists
+- **[Kristian Campbell](/players/kristian-campbell)** — 5 goals, 1 assists
 
 ## Biggest win
 
@@ -35,7 +35,7 @@ Wembley Rangers AFC's biggest win was a **8-3** victory over **N5 FC** (Season 3
 
 ## Highest-scoring game
 
-The most goals Wembley Rangers AFC have been involved in was a **12-goal** thriller: **Yanited 5-7 Wembley Rangers AFC** (Season 1).
+The most goals Wembley Rangers AFC have been involved in was a **12-goal** thriller: **RTG FC 5-7 Wembley Rangers AFC** (Season 1).
 
 ## Follow Wembley Rangers AFC
 

@@ -24,10 +24,10 @@ Their best finish came in **Season 1**, finishing **6th** on **19 points**.
 ## Top scorers (all-time club)
 
 - **[Richard Afrane-Kesey](/players/richard-afrane-kesey)** — 18 goals, 1 assists
+- **[Tyler Winters](/players/tyler-winters)** — 15 goals, 2 assists
 - **[Alfie Matthews](/players/alfie-matthews)** — 13 goals, 6 assists
-- **[Tyler Winters](/players/tyler-winters)** — 12 goals, 1 assists
-- **Evans Kouassi** — 7 goals, 1 assists
 - **[Joshua Sumbunu](/players/joshua-sumbunu)** — 5 goals, 3 assists
+- **[Albie Sheehan](/players/albie-sheehan)** — 4 goals, 1 assists
 
 ## Biggest win
 

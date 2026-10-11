@@ -61,7 +61,7 @@ Here is how the two sides finished up last season (Season 3), most recent result
 
 NDL FC and P17 FC have met **3** times before. NDL FC have won **2**, P17 FC have won **1**, with **0** draws.
 
-The most recent meeting came in Gameweek 6 of Season 2, when the match finished **NDL FC 4-7 Rukkas FC**.
+The most recent meeting came in Gameweek 6 of Season 2, when the match finished **NDL FC 4-7 P17 FC**.
 
 ## Game Changer Watch
 

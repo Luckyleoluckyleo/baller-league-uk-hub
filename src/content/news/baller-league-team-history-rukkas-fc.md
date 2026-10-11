@@ -24,18 +24,18 @@ Their best finish came in **Season 2**, finishing **9th** on **13 points**.
 ## Top scorers (all-time club)
 
 - **[Mussa Bham](/players/mussa-bham)** — 14 goals, 3 assists
-- **[Ergys Pepaj](/players/ergys-pepaj)** — 13 goals, 5 assists
-- **[Dara Dada](/players/dara-dada)** — 10 goals, 1 assists
-- **David Oupoh** — 7 goals, 1 assists
-- **[Emmanuel Robe](/players/emmanuel-robe)** — 5 goals, 4 assists
+- **[Amin Belaid](/players/amin-belaid)** — 3 goals, 2 assists
+- **[Ben Long](/players/ben-long)** — 1 goals, 0 assists
+- **[Jesus Abreu](/players/jesus-abreu)** — 1 goals, 0 assists
+- **[Ross Derham](/players/ross-derham)** — 0 goals, 1 assists
 
 ## Biggest win
 
-P17 FC's biggest win was a **7-3** victory over **Yanited** (Season 2).
+P17 FC's biggest win was a **7-3** victory over **RTG FC** (Season 2).
 
 ## Highest-scoring game
 
-The most goals P17 FC have been involved in was a **14-goal** thriller: **M7 9-5 Rukkas FC** (Season 1).
+The most goals P17 FC have been involved in was a **14-goal** thriller: **M7 9-5 P17 FC** (Season 1).
 
 ## Follow P17 FC
 

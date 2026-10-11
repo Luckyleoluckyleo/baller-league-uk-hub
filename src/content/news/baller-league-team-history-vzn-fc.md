@@ -24,14 +24,14 @@ Their best finish came in **Season 1**, finishing **7th** on **19 points**.
 ## Top scorers (all-time club)
 
 - **[Florian Kastrati](/players/florian-kastrati)** — 24 goals, 5 assists
-- **[Josh Parker](/players/joshua-parker)** — 11 goals, 5 assists
-- **George Nikaj** — 10 goals, 5 assists
-- **[Dan Bowry](/players/daniel-bowry)** — 7 goals, 4 assists
-- **[Yasin Ben El-Mhanni](/players/yasin-ben-el-mhanni)** — 7 goals, 1 assists
+- **[Eddie Allsopp](/players/eddie-allsopp)** — 3 goals, 0 assists
+- **[Frankie Leonard](/players/frankie-leonard)** — 3 goals, 3 assists
+- **[Danny Bassett](/players/danny-bassett)** — 1 goals, 0 assists
+- **[Jacob Mensah](/players/jacob-mensah)** — 1 goals, 0 assists
 
 ## Biggest win
 
-VZN FC's biggest win was a **7-3** victory over **Rukkas FC** (Season 3).
+VZN FC's biggest win was a **7-3** victory over **P17 FC** (Season 3).
 
 ## Highest-scoring game
 

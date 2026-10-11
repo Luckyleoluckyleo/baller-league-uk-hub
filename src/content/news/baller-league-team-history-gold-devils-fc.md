@@ -24,10 +24,10 @@ Their best finish came in **Season 2**, finishing **5th** on **19 points**.
 ## Top scorers (all-time club)
 
 - **[Bilal Sayoud](/players/bilal-sayoud)** — 41 goals, 16 assists
-- **[Salim Nassor](/players/salim-nassor)** — 4 goals, 2 assists
-- **Luqman Kassim** — 4 goals, 2 assists
+- **[Connor Wood](/players/connor-wood)** — 7 goals, 3 assists
 - **[Kojo Apenteng](/players/kojo-apenteng)** — 3 goals, 4 assists
-- **[Ryan Gondoh](/players/ryan-gondoh)** — 3 goals, 1 assists
+- **[Marvel Ekpiteta](/players/marvel-ekpiteta)** — 2 goals, 0 assists
+- **[Tarik Gidaree](/players/tarik-gidaree-2)** — 0 goals, 0 assists
 
 ## Biggest win
 

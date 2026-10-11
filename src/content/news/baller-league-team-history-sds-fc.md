@@ -24,18 +24,18 @@ Their best finish came in **Season 2**, finishing **3rd** on **20 points**.
 ## Top scorers (all-time club)
 
 - **[Kazaiah Sterling](/players/kazaiah-sterling)** — 42 goals, 19 assists
-- **Michael Folivi** — 11 goals, 2 assists
-- **[David Marques Castanho](/players/david-marques-castanho)** — 11 goals, 12 assists
 - **[Camilo Restrepo](/players/camilo-restrepo)** — 11 goals, 8 assists
-- **[Danny Bassett](/players/danny-bassett)** — 8 goals, 2 assists
+- **[Nya Kirby](/players/nya-kirby)** — 7 goals, 1 assists
+- **[Youssef Chentouf](/players/youssef-chentouf)** — 6 goals, 2 assists
+- **[Amine Sassi](/players/amine-sassi)** — 3 goals, 0 assists
 
 ## Biggest win
 
-SDS FC's biggest win was a **9-3** victory over **Rukkas FC** (Season 3).
+SDS FC's biggest win was a **9-3** victory over **P17 FC** (Season 3).
 
 ## Highest-scoring game
 
-The most goals SDS FC have been involved in was a **12-goal** thriller: **SDS FC 6-6 Yanited** (Season 3).
+The most goals SDS FC have been involved in was a **12-goal** thriller: **SDS FC 6-6 RTG FC** (Season 3).
 
 ## Follow SDS FC
 

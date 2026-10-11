@@ -23,11 +23,11 @@ Their best finish came in **Season 3**, finishing **1st** on **26 points**.
 
 ## Top scorers (all-time club)
 
-- **[Amin Belaid](/players/amin-belaid)** — 30 goals, 19 assists
-- **[Kevin Weggen](/players/kevin-weggen)** — 17 goals, 3 assists
 - **[Isaac Modi](/players/isaac-modi)** — 15 goals, 6 assists
-- **[Tyler Winters](/players/tyler-winters)** — 12 goals, 3 assists
+- **[Dara Dada](/players/dara-dada)** — 11 goals, 6 assists
 - **[Sam Fitzgerald](/players/sam-fitzgerald)** — 10 goals, 4 assists
+- **[Josh Parker](/players/joshua-parker)** — 5 goals, 1 assists
+- **[David Marques Castanho](/players/david-marques-castanho)** — 3 goals, 1 assists
 
 ## Biggest win
 
