@@ -18,62 +18,44 @@ const glow = teamColorSoft(slug, 0.30);
 const firstManagerSlug = (manager.split(',')[0] || '').trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 ---
 <a href={`/teams/${slug}`} class="team-card" style={`--team-color:${color}; --team-soft:${soft}; --team-glow:${glow};`}>
+  <img class="tc-hero" src={`/teams/${slug}.webp`} alt={name} loading="lazy" onerror="this.style.display='none'" />
+  <div class="tc-overlay"></div>
+
   {position && <span class="tc-pos">#{position}</span>}
+  {points !== undefined && <span class="tc-pts-badge">{points} pts</span>}
 
-  <div class="tc-crest-ring">
-    <img
-      src={`/logos/${slug}.svg`}
-      alt={name}
-      class="tc-crest"
-      loading="lazy"
-      onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
-    />
-    <span class="tc-crest-emoji">{emoji}</span>
-  </div>
+  <img class="tc-crest" src={`/logos/${slug}.svg`} alt={name} loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='block'" />
+  <span class="tc-crest-emoji">{emoji}</span>
 
-  <h2 class="tc-name">{name}</h2>
-
-  <div class="tc-manager">
-    <img
-      src={`/managers/${firstManagerSlug}.webp`}
-      alt={manager}
-      class="tc-manager-photo"
-      loading="lazy"
-      onerror="this.style.visibility='hidden'"
-    />
-    <span class="tc-manager-meta">
-      <span class="tc-role">{managerRole}</span>
+  <div class="tc-info">
+    <h2 class="tc-name">{name}</h2>
+    <span class="tc-manager">
+      <img
+        class="tc-manager-avatar"
+        src={`/managers/${firstManagerSlug}.webp`}
+        alt={manager}
+        loading="lazy"
+        onerror="this.style.display='none'"
+      />
       <span class="tc-manager-name">{manager}</span>
     </span>
   </div>
 
-  <div class="tc-footer">
-    <span class="tc-pts">{points !== undefined ? <><strong>{points}</strong> pts</> : '—'}</span>
-    <span class="tc-arrow">View team →</span>
-  </div>
+  <span class="tc-cta">View team →</span>
 </a>
 
 <style>
 .team-card {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  gap: var(--space-md);
-  padding: var(--space-2xl) var(--space-lg) var(--space-lg);
+  display: block;
   border-radius: var(--radius-xl);
   overflow: hidden;
+  aspect-ratio: 1 / 1;
   text-decoration: none;
-  background:
-    radial-gradient(80% 55% at 50% 0%, var(--team-glow) 0%, transparent 62%),
-    linear-gradient(180deg, var(--bg-card) 0%, var(--bg-secondary) 100%);
+  background: var(--bg-elevated);
   border: 1px solid var(--border);
+  isolation: isolate;
   transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
-}
-.team-card::before {
-  content: ''; position: absolute; inset: 0 0 auto 0; height: 4px;
-  background: var(--team-color);
 }
 .team-card:hover {
   transform: translateY(-4px);
@@ -81,52 +63,79 @@ const firstManagerSlug = (manager.split(',')[0] || '').trim().toLowerCase().repl
   box-shadow: 0 18px 50px var(--team-glow);
 }
 
+.tc-hero {
+  position: absolute; inset: 0; z-index: 0;
+  width: 100%; height: 100%; object-fit: cover;
+  transition: transform 0.5s ease;
+}
+.team-card:hover .tc-hero { transform: scale(1.06); }
+
+.tc-overlay {
+  position: absolute; inset: 0; z-index: 1;
+  background:
+    radial-gradient(120% 80% at 50% 0%, var(--team-glow) 0%, transparent 55%),
+    linear-gradient(180deg, rgba(6,6,14,0.15) 0%, rgba(6,6,14,0.5) 48%, rgba(6,6,14,0.92) 100%);
+}
+
 .tc-pos {
-  position: absolute; top: var(--space-md); left: var(--space-md);
+  position: absolute; top: var(--space-md); left: var(--space-md); z-index: 3;
   font-family: var(--font-display); font-size: 1rem; line-height: 1.5;
-  color: var(--team-color); background: var(--team-soft);
-  border: 1px solid var(--team-color); border-radius: var(--radius-full);
-  padding: 2px 12px;
+  color: #fff; background: rgba(0,0,0,0.45); border: 1px solid var(--team-color);
+  border-radius: var(--radius-full); padding: 2px 12px;
+  backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);
+}
+.tc-pts-badge {
+  position: absolute; top: var(--space-md); right: var(--space-md); z-index: 3;
+  font-size: 0.7rem; font-weight: 700; color: #fff; background: rgba(0,0,0,0.45);
+  border: 1px solid var(--border); border-radius: var(--radius-full); padding: 3px 10px;
+  backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);
 }
 
-.tc-crest-ring {
-  width: 128px; height: 128px; border-radius: 50%;
-  display: flex; align-items: center; justify-content: center;
-  position: relative; flex-shrink: 0;
-  background: radial-gradient(circle at 50% 42%, var(--team-soft), transparent 72%);
-  border: 2px solid var(--team-color);
-  box-shadow: 0 0 0 8px var(--team-soft), 0 16px 40px var(--team-glow);
+.tc-crest {
+  position: absolute; z-index: 2; top: 8%; left: 50%; transform: translateX(-50%);
+  width: 150px; height: 150px; object-fit: contain;
+  filter: drop-shadow(0 12px 28px rgba(0,0,0,0.6));
 }
-.tc-crest { width: 62%; height: 62%; object-fit: contain; filter: drop-shadow(0 8px 18px rgba(0,0,0,0.5)); }
-.tc-crest-emoji { display: none; font-size: 3rem; }
+.tc-crest-emoji {
+  position: absolute; z-index: 2; top: 8%; left: 50%; transform: translateX(-50%);
+  display: none; font-size: 5.5rem; line-height: 1; filter: drop-shadow(0 12px 28px rgba(0,0,0,0.6));
+}
 
+.tc-info {
+  position: absolute; left: 0; right: 0; bottom: 0; z-index: 3;
+  padding: var(--space-lg);
+  display: flex; flex-direction: column; align-items: center; gap: var(--space-sm);
+  text-align: center;
+}
 .tc-name {
   font-family: var(--font-display);
-  font-size: 2rem; line-height: 1; letter-spacing: 0.01em;
-  color: var(--text-primary); margin: 0;
+  font-size: 1.9rem; line-height: 1; letter-spacing: 0.01em;
+  color: #fff; margin: 0;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.6);
 }
+.tc-manager { display: inline-flex; align-items: center; gap: 12px; }
+.tc-manager-avatar {
+  width: 88px; height: 88px; border-radius: 50%; object-fit: cover;
+  border: 3px solid var(--team-color); background: var(--bg-elevated); flex-shrink: 0;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.55);
+}
+.tc-manager-name { font-size: 1.05rem; font-weight: 700; color: rgba(255,255,255,0.92); }
 
-.tc-manager { display: inline-flex; align-items: center; gap: var(--space-sm); }
-.tc-manager-photo {
-  width: 52px; height: 52px; border-radius: 50%; object-fit: cover;
-  border: 2px solid var(--team-color); background: var(--bg-elevated); flex-shrink: 0;
+.tc-cta {
+  position: absolute; z-index: 3; top: 50%; left: 50%;
+  transform: translate(-50%, -50%) translateY(10px);
+  opacity: 0; pointer-events: none;
+  font-size: 0.7rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase;
+  color: #06121f; background: var(--team-color);
+  border-radius: var(--radius-full); padding: 9px 18px;
+  transition: opacity var(--transition), transform var(--transition);
 }
-.tc-manager-meta { display: flex; flex-direction: column; line-height: 1.15; text-align: left; }
-.tc-role { font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--text-muted); }
-.tc-manager-name { font-size: 0.95rem; font-weight: 700; color: var(--text-primary); }
-
-.tc-footer {
-  display: flex; align-items: center; justify-content: space-between;
-  width: 100%; margin-top: var(--space-sm);
-  padding-top: var(--space-md); border-top: 1px solid var(--border-subtle);
-}
-.tc-pts { font-size: 0.9rem; color: var(--text-secondary); }
-.tc-pts strong { font-family: var(--font-display); font-size: 1.5rem; color: var(--team-color); margin-right: 4px; }
-.tc-arrow { font-size: 0.82rem; font-weight: 700; color: var(--text-muted); transition: color var(--transition), transform var(--transition); }
-.team-card:hover .tc-arrow { color: var(--team-color); transform: translateX(3px); }
+.team-card:hover .tc-cta,
+.team-card:focus-visible .tc-cta { opacity: 1; transform: translate(-50%, -50%) translateY(0); }
 
 @media (max-width: 480px) {
-  .tc-crest-ring { width: 104px; height: 104px; }
+  .tc-crest { width: 110px; height: 110px; }
+  .tc-manager-avatar { width: 64px; height: 64px; }
   .tc-name { font-size: 1.7rem; }
 }
 </style>

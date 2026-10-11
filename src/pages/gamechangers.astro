@@ -11,8 +11,20 @@ const totalGCEvents = allMatches.reduce((n, m) => n
   + (m.gamechanger1 && m.gamechanger1.type !== 'unknown' ? 1 : 0)
   + (m.gamechanger2 && m.gamechanger2.type !== 'unknown' ? 1 : 0), 0);
 
-const currentSeason = '3';
+// Default to the newest season that actually has results (auto-updates each season).
+const playedSeasons = Object.entries(seasons)
+  .filter(([, s]) => (s.matches as any[]).some((m) => m.homeScore > 0 || m.awayScore > 0))
+  .map(([k]) => Number(k))
+  .sort((a, b) => b - a);
+const currentSeason = String(playedSeasons[0] ?? Math.max(...Object.keys(seasons).map(Number)));
 const currentSeasonData = seasons[currentSeason as keyof typeof seasons];
+
+const faqs = [
+  { q: "What are Game Changers in Baller League UK?", a: "Game Changers are random rule changes activated twice per match — at the 12th and 27th minutes — applying for the final three minutes of each half. The six types are Onside, Plus One and 3Play (first half), and 1-on-1, The Line and Fairplay (second half)." },
+  { q: "Which Game Changer produces the most goals?", a: "The 1-on-1 and 3Play Game Changers produce the most goals per activation, while Fairplay produces the fewest." },
+  { q: "When do Game Changers happen?", a: "The first-half Game Changer activates at the 12th minute and the second-half one at the 27th minute. A 60-second countdown signals each change." },
+  { q: "How are Game Changers selected?", a: "A 'wheel of fortune' randomly selects the Game Changer for each half, and it applies to both teams equally." }
+];
 
 // Headline insights for the current season.
 const gcName = (id?: string) => {
@@ -41,22 +53,29 @@ const gcStats = (matches: any[]) => {
     perMatch: matches.length ? (goals / matches.length).toFixed(1) : '0',
   };
 };
-const s3gc = gcStats(seasons['3'].matches as any[]);
+const seasonGc = gcStats(currentSeasonData.matches as any[]);
 
-const schema = {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "name": "Baller League UK – Gamechanger Analysis",
-  "description": "Statistical analysis of every Gamechanger activation across all Baller League UK seasons.",
-  "author": { "@type": "Organization", "name": "Baller League UK Hub" },
-  "datePublished": "2026-01-01",
-  "dateModified": new Date().toISOString().split('T')[0],
-};
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "name": "Baller League UK – Gamechanger Analysis",
+    "description": "Statistical analysis of every Gamechanger activation across all Baller League UK seasons.",
+    "author": { "@type": "Organization", "name": "Baller League UK Hub" },
+    "datePublished": "2026-01-01",
+    "dateModified": new Date().toISOString().split('T')[0],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(f => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })),
+  },
+];
 ---
 
 <Base
   title="Gamechanger Analysis — Baller League UK Stats"
-  description="Statistical breakdown of every Gamechanger activation: frequency, sequence patterns, and goal ratios across all 3 Baller League UK seasons. Discover which Gamechanger produces the most goals."
+  description={`Statistical breakdown of every Gamechanger activation: frequency, sequence patterns, and goal ratios across all ${Object.keys(seasons).length} Baller League UK seasons. Discover which Gamechanger produces the most goals.`}
   schema={schema}
   keywords="Game Changer stats, Onside, Plus One, 3Play, 1-on-1, The Line, Fairplay, GC goals, analysis"
   type="article"
@@ -77,14 +96,14 @@ const schema = {
 
     <StatStrip
       stats={[
-        { icon: '🥇', label: 'Most-used 1st half', value: gcName(s3gc.topFirstId), sub: `${s3gc.topFirstPct}% of activations` },
-        { icon: '🥈', label: 'Most-used 2nd half', value: gcName(s3gc.topSecondId), sub: `${s3gc.topSecondPct}% of activations` },
-        { icon: '⚽', label: 'Goals in GCs', value: s3gc.goals, sub: `${s3gc.perMatch} per match` },
-        { icon: '🔁', label: 'Activations', value: s3gc.activations, sub: 'Season 3' },
+        { icon: '🥇', label: 'Most-used 1st half', value: gcName(seasonGc.topFirstId), sub: `${seasonGc.topFirstPct}% of activations` },
+        { icon: '🥈', label: 'Most-used 2nd half', value: gcName(seasonGc.topSecondId), sub: `${seasonGc.topSecondPct}% of activations` },
+        { icon: '⚽', label: 'Goals in GCs', value: seasonGc.goals, sub: `${seasonGc.perMatch} per match` },
+        { icon: '🔁', label: 'Activations', value: seasonGc.activations, sub: currentSeasonData.label },
       ]}
     />
 
-    <div class="season-tabs" id="season-tabs" role="group" aria-label="Filter analysis by season">
+    <div class="season-tabs" id="season-tabs" data-default-season={currentSeason} role="group" aria-label="Filter analysis by season">
       {Object.entries(seasons).reverse().map(([key, s]) => (
         <button type="button" class={`season-tab ${key === currentSeason ? 'active' : ''}`} data-season={key} aria-pressed={key === currentSeason ? 'true' : 'false'}>{s.label} ({s.matches.length})</button>
       ))}
@@ -122,7 +141,7 @@ const schema = {
     <section class="gc-section" id="teams">
       <div class="section-header">
         <h2>Team GC Goals</h2>
-        <p>Game Changer goals scored and conceded by each team, attributed from the goal timeline. Season 3 is fully attributed; earlier seasons are partial.</p>
+        <p>Game Changer goals scored and conceded by each team, attributed from the goal timeline. {currentSeasonData.label} is fully attributed; earlier seasons are partial.</p>
       </div>
       <div class="card">
         <div class="card-body" id="team-gc-effectiveness"></div>
@@ -177,6 +196,27 @@ const schema = {
             })}
           </tbody>
         </table>
+      </div>
+    </section>
+
+    <section class="gc-section" id="faq">
+      <div class="section-header">
+        <h2>Game Changer FAQ</h2>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <div class="faq-list">
+            {faqs.map(f => (
+              <details class="faq-item">
+                <summary>{f.q}</summary>
+                <p>{f.a}</p>
+              </details>
+            ))}
+          </div>
+          <p style="margin-top: var(--space-lg); font-size: 0.9rem; color: var(--text-secondary);">
+            New to the rules? Read the <a href="/rules" style="color: var(--green);">full rules &amp; format guide</a> or our <a href="/news/baller-league-game-changers-explained" style="color: var(--green);">Game Changers explained</a> article.
+          </p>
+        </div>
       </div>
     </section>
 
@@ -397,7 +437,8 @@ const schema = {
     renderMatchTable(matches, label);
   }
 
-  renderAll('3');
+  const defaultSeason = document.getElementById('season-tabs')?.getAttribute('data-default-season') || '3';
+  renderAll(defaultSeason);
 
   document.querySelectorAll('.season-tab').forEach(tab => {
     tab.addEventListener('click', () => {
@@ -484,6 +525,15 @@ const schema = {
 .gc-tag-second { background: var(--purple-glow); color: var(--purple-light); }
 .gc-cell { text-align: center; }
 .td-score { font-weight: 700; color: var(--text-primary); text-align: center; font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+/* FAQ */
+.faq-list { display: flex; flex-direction: column; gap: var(--space-sm); }
+.faq-item { background: var(--bg-elevated); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+.faq-item summary { padding: var(--space-md); font-weight: 600; font-size: 0.95rem; color: var(--text-primary); cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; }
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary::after { content: '+'; font-size: 1.2rem; color: var(--green); font-weight: 700; margin-left: var(--space-sm); }
+.faq-item[open] summary::after { content: '−'; }
+.faq-item p { padding: 0 var(--space-md) var(--space-md); font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6; margin: 0; }
 
 @media (max-width: 768px) {
   .freq-grid { grid-template-columns: 1fr; }

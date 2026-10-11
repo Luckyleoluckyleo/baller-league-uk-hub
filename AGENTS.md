@@ -182,7 +182,7 @@ baller-league-uk-hub/
     │                         #   NewsCard, StatStrip, StatLeaderboard, MiniLeaderboard
     ├── layouts/
     │   └── Base.astro        # <head>, SEO meta, JSON-LD, AdSense, skip-link
-    ├── pages/                # 27 files — see Routes
+    ├── pages/                # 28 files — see Routes
     ├── lib/
     │   └── league.ts         # shared: CURRENT_SEASON, standingsFor, formFor, matchSlug
     ├── data/                 # the 6 JSON files that drive everything
@@ -238,7 +238,7 @@ Standings computation, the active-season constant, form guide, and match-slug co
 | `verify-data.mjs` | `gamechangers.json`, `players.json`, `standings.json` | stdout (exits 1 on mismatch) | 14/15 | season filter (e.g. `1 2 3`); no args = all seasons |
 | `generate-redirects.mjs` | `gamechangers.json` | `dist/_redirects` | via build | — |
 | `generate-sitemap.mjs` | `dist/**` | `dist/sitemap.xml` | via build | — |
-| `optimize-images.mjs` | `public/players`, `public/managers` | resized `.webp` | **⚠ NO — manual only** | — |
+| `optimize-images.mjs` | `public/players`, `public/managers`, `public/teams` | resized `.webp` | **⚠ NO — manual only** | — |
 | `scrape-ep.mjs` | `scripts/.cache/*.html`, `table.json` | `src/data/table.json` (`ep` only) | **⚠ superseded by `scrape-standings.mjs`** | — |
 | `scrape-assets.mjs` | — | `public/logos/{slug}.svg` | **⚠ NO — manual only** | — |
 | `season4-news.mjs` | Google News RSS | stdout + `scripts/.cache/s4-seen.json` | **⚠ NO — manual monitor** | `--all`, `--days=N` |
@@ -324,7 +324,7 @@ Hand-maintained notes for the upcoming season: `dates`, `venue`, `format`, `matc
 
 ## Routes
 
-26 files in `src/pages/` (28 routes counting dynamic patterns).
+27 files in `src/pages/` (29 routes counting dynamic patterns).
 
 **Static**
 | Route | Purpose |
@@ -338,6 +338,7 @@ Hand-maintained notes for the upcoming season: `dates`, `venue`, `format`, `matc
 | `/guide` | Viewing / participation guide |
 | `/records` | All-time records |
 | `/final-four` | **Playoff bracket page (40 KB — the largest file in the repo)** |
+| `/fixtures` | Season schedule — matchday dates, upcoming fixtures, kick-off times |
 | `/watch` | Where to watch |
 | `/season-4` | **Season 4 hub** — dates, venue, format, matchdays, signings, manager watch, tickets, S4 news |
 | `/sitemap` | Human-facing HTML sitemap page |

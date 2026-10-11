@@ -1,7 +1,7 @@
 ---
 name: "Wembley Rangers AFC"
 urlSlug: "wembley-rangers-afc"
-manager: "Ian Wright, Alan Shearer"
+manager: "To be announced"
 managerRole: "Co-Managers"
 emoji: "🏟️"
 primaryColor: "#00e676"

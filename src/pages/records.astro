@@ -37,48 +37,54 @@ allMatches.forEach(m => {
   if (gc > mostGCGoals) { mostGCMatch = m; mostGCGoals = gc; }
 });
 
-// Season champions
-const champions: { season: string; team: string; record: string }[] = [];
-[1, 2, 3].forEach(s => {
-  const sid = String(s);
-  const ms = (gcData.seasons[sid]?.matches || []).filter((m: any) => m.homeScore > 0 || m.awayScore > 0);
-  const teams = [...new Set(ms.flatMap((m: any) => [m.homeTeam, m.awayTeam]))];
-  const records: Record<string, any> = {};
-  ms.forEach(m => {
-    if (!records[m.homeTeam]) records[m.homeTeam] = { w: 0, d: 0, l: 0 };
-    if (!records[m.awayTeam]) records[m.awayTeam] = { w: 0, d: 0, l: 0 };
-    if (m.homeScore > m.awayScore) { records[m.homeTeam].w++; records[m.awayTeam].l++; }
-    else if (m.awayScore > m.homeScore) { records[m.awayTeam].w++; records[m.homeTeam].l++; }
-    else { records[m.homeTeam].d++; records[m.awayTeam].d++; }
-  });
-  const table = teams.map(t => ({ team: t, pts: records[t].w * 3 + records[t].d, w: records[t].w, d: records[t].d, l: records[t].l }));
-  table.sort((a, b) => b.pts - a.pts);
-  if (table.length > 0) {
-    champions.push({ season: `Season ${sid}`, team: table[0].team, record: `${table[0].w}W–${table[0].d}D–${table[0].l}L · ${table[0].pts}pts` });
-  }
-});
+// Actual playoff champions (see /news/baller-league-uk-history).
+const CHAMPIONS: Record<string, string> = { "1": "SDS FC", "2": "Wembley Rangers AFC", "3": "Prime FC" };
+const champions = Object.keys(gcData.seasons)
+  .map(Number).sort((a, b) => a - b)
+  .filter((s) => CHAMPIONS[String(s)])
+  .map((s) => ({ season: `Season ${s}`, team: CHAMPIONS[String(s)] }));
 
 // Goals per season
-const seasonGoals = [1, 2, 3].map(s => {
-  const ms = (gcData.seasons[String(s)]?.matches || []).filter((m: any) => m.homeScore > 0 || m.awayScore > 0);
-  const goals = ms.reduce((t: number, m: any) => t + m.homeScore + m.awayScore, 0);
-  return { season: `Season ${s}`, matches: ms.length, goals, avg: (goals / ms.length).toFixed(1) };
-});
+const seasonGoals = Object.keys(gcData.seasons)
+  .map(Number).sort((a, b) => a - b)
+  .map(s => {
+    const ms = (gcData.seasons[String(s)]?.matches || []).filter((m: any) => m.homeScore > 0 || m.awayScore > 0);
+    const goals = ms.reduce((t: number, m: any) => t + m.homeScore + m.awayScore, 0);
+    return ms.length ? { season: `Season ${s}`, matches: ms.length, goals, avg: (goals / ms.length).toFixed(1) } : null;
+  })
+  .filter(Boolean);
 
-const schema = {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "name": "Baller League UK — All-Time Records & Statistics",
-  "description": `All-time Baller League UK records: top goalscorers, biggest wins, highest scoring matches, season champions and stats across ${allMatches.length} matches and ${totalGoals} goals.`,
-  "author": { "@type": "Organization", "name": "Baller League UK Hub" },
-  "datePublished": "2026-05-01",
-  "dateModified": new Date().toISOString().split('T')[0],
-};
+const seasonCount = Object.keys(gcData.seasons).length;
+const avgGoals = (totalGoals / allMatches.length).toFixed(1);
+
+const faqs = [
+  { q: "Who has scored the most goals in Baller League UK?", a: `${topScorersAllTime[0]?.[0]} is the all-time leading scorer with ${topScorersAllTime[0]?.[1]} goals.` },
+  { q: "What is the highest-scoring Baller League UK match?", a: `The highest-scoring match was ${highestScoring.homeTeam} ${highestScoring.homeScore}-${highestScoring.awayScore} ${highestScoring.awayTeam} (Season ${highestScoring.season}), with ${highestScoring.homeScore + highestScoring.awayScore} goals.` },
+  { q: "Who has won Baller League UK?", a: "SDS FC won Season 1, Wembley Rangers AFC won Season 2 and Prime FC won Season 3." },
+  { q: "How many goals are scored in Baller League UK?", a: `Across all seasons, ${totalGoals} goals have been scored in ${allMatches.length} matches — an average of ${avgGoals} per game.` }
+];
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "name": "Baller League UK — All-Time Records & Statistics",
+    "description": `All-time Baller League UK records: top goalscorers, biggest wins, highest scoring matches, season champions and stats across ${allMatches.length} matches and ${totalGoals} goals.`,
+    "author": { "@type": "Organization", "name": "Baller League UK Hub" },
+    "datePublished": "2026-05-01",
+    "dateModified": new Date().toISOString().split('T')[0],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(f => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })),
+  },
+];
 ---
 
 <Base
   title="Baller League UK Records — All-Time Stats & History"
-  description={`All-time Baller League UK records and statistics: top goalscorers, biggest wins, highest scoring matches, season champions across ${allMatches.length} matches and all 3 seasons.`}
+  description={`All-time Baller League UK records and statistics: top goalscorers, biggest wins, highest scoring matches, season champions across ${allMatches.length} matches and all ${seasonCount} seasons.`}
   schema={schema}
   keywords="Baller League UK records, all-time stats, top scorers, biggest wins, highest scoring, season champions, records"
   type="article"
@@ -183,14 +189,13 @@ const schema = {
       <div class="card">
         <table class="records-table">
           <thead>
-            <tr><th>Season</th><th>Champion</th><th class="col-num">Record</th></tr>
+            <tr><th>Season</th><th>Champion</th></tr>
           </thead>
           <tbody>
             {champions.map(c => (
               <tr>
                 <td><strong>{c.season}</strong></td>
                 <td><span class="champion-name">🏆 {c.team}</span></td>
-                <td class="col-num text-muted" style="font-size:0.85rem;">{c.record}</td>
               </tr>
             ))}
           </tbody>
@@ -240,8 +245,26 @@ const schema = {
       </section>
     )}
 
+    <section class="records-section">
+      <h2 class="records-h2">Records FAQ</h2>
+      <div class="card">
+        <div class="card-body">
+          <div class="faq-list">
+            {faqs.map(f => (
+              <details class="faq-item">
+                <summary>{f.q}</summary>
+                <p>{f.a}</p>
+              </details>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+
     <div class="records-cta">
-      <a href="/season" class="btn btn-secondary">Season Archive</a>
+      <a href="/news/baller-league-uk-records-all-time-stats" class="btn btn-secondary">Records Explained</a>
+      <a href="/news/highest-scoring-baller-league-matches" class="btn btn-ghost">Highest-Scoring Games</a>
+      <a href="/season" class="btn btn-ghost">Season Archive</a>
       <a href="/gamechangers" class="btn btn-ghost">Gamechanger Analysis</a>
       <a href="/table" class="btn btn-ghost">Current Table</a>
     </div>
@@ -266,6 +289,15 @@ const schema = {
 .champion-name { color: var(--green); font-weight: 700; }
 
 .records-cta { display: flex; gap: var(--space-sm); justify-content: center; flex-wrap: wrap; margin-top: var(--space-xl); }
+
+/* FAQ */
+.faq-list { display: flex; flex-direction: column; gap: var(--space-sm); }
+.faq-item { background: var(--bg-elevated); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+.faq-item summary { padding: var(--space-md); font-weight: 600; font-size: 0.95rem; color: var(--text-primary); cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; }
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary::after { content: '+'; font-size: 1.2rem; color: var(--green); font-weight: 700; margin-left: var(--space-sm); }
+.faq-item[open] summary::after { content: '−'; }
+.faq-item p { padding: 0 var(--space-md) var(--space-md); font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6; margin: 0; }
 
 @media (max-width: 640px) {
   .records-table { font-size: 0.8rem; }

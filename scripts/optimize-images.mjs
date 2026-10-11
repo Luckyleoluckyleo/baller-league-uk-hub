@@ -78,3 +78,36 @@ for (const file of readdirSync(playersDir).filter((f) => /\.webp$/i.test(f))) {
   thumbs++;
 }
 console.log(`Generated ${thumbs} player thumbnails (96x96)`);
+
+// Team hero images — used as the /teams card backgrounds (displayed up to ~400px
+// wide, so 900px gives a crisp 2x). The originals are 0.4–1.4MB each.
+const teamsDir = resolve(ROOT, "public/teams");
+if (existsSync(teamsDir)) {
+  let heroes = 0;
+  let hBefore = 0;
+  let hAfter = 0;
+  for (const file of readdirSync(teamsDir).filter((f) => /\.webp$/i.test(f))) {
+    const p = join(teamsDir, file);
+    const size = statSync(p).size;
+    hBefore += size;
+    const input = readFileSync(p);
+    const meta = await sharp(input).metadata();
+    if ((meta.width || 0) <= 900) {
+      hAfter += size;
+      continue;
+    }
+    const buf = await sharp(input)
+      .rotate()
+      .resize({ width: 900, withoutEnlargement: true })
+      .webp({ quality: 72 })
+      .toBuffer();
+    if (buf.length < size) {
+      writeFileSync(p, buf);
+      hAfter += buf.length;
+      heroes++;
+    } else {
+      hAfter += size;
+    }
+  }
+  console.log(`Optimised ${heroes} team hero images: ${Math.round(hBefore / 1024)}KB -> ${Math.round(hAfter / 1024)}KB`);
+}

@@ -1,0 +1,169 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import StatStrip from '../components/StatStrip.astro';
+import fixturesData from '../data/fixtures.json';
+import season4 from '../data/season4.json';
+import { CURRENT_SEASON } from '../lib/league';
+
+const upcoming = fixturesData.upcoming;
+const matchdays = (season4.matchdays || []) as { n: number; date: string }[];
+const venue = season4.venue;
+const firstMD = matchdays[0]?.date;
+const lastMD = matchdays[matchdays.length - 1]?.date;
+
+function previewSlug(match: any): string {
+  if (match.round) return `${match.homeSlug}-vs-${match.awaySlug}-final-four-preview`;
+  return `${match.homeSlug}-vs-${match.awaySlug}-gw${match.gameweek}-preview`;
+}
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": `Baller League UK Season ${CURRENT_SEASON} Fixtures`,
+  "description": `Fixtures, dates and kick-off times for Baller League UK Season ${CURRENT_SEASON}.`,
+  "itemListElement": upcoming.map((f: any, i: number) => ({
+    "@type": "ListItem",
+    "position": i + 1,
+    "item": {
+      "@type": "SportsEvent",
+      "name": `${f.homeTeam} vs ${f.awayTeam}`,
+      "startDate": f.date,
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": { "@type": "Place", "name": venue.name },
+      "competitor": [
+        { "@type": "SportsTeam", "name": f.homeTeam },
+        { "@type": "SportsTeam", "name": f.awayTeam }
+      ]
+    }
+  }))
+};
+---
+
+<Base
+  title={`Baller League UK Fixtures & Schedule ${CURRENT_SEASON} — Dates, Times & Results`}
+  description={`Full Baller League UK Season ${CURRENT_SEASON} fixtures and schedule: every Monday matchday, kick-off times, upcoming games and results. Tickets, venue and how to watch.`}
+  schema={schema}
+  keywords={`Baller League fixtures, Baller League schedule, Baller League ${CURRENT_SEASON}, Baller League dates, Baller League start date, Baller League matchday`}
+>
+
+  <div class="page-header">
+    <div class="container">
+      <Breadcrumb items={[{name:'Home',url:'/'},{name:'Fixtures'}]} />
+      <div class="section-label">Season {CURRENT_SEASON} · Schedule</div>
+      <h1>Fixtures &amp; Schedule</h1>
+      <p class="section-subtitle">Every Baller League UK matchday for Season {CURRENT_SEASON} — dates, kick-off times and upcoming fixtures. Matches are played on Monday nights from {firstMD} to {lastMD}.</p>
+    </div>
+  </div>
+
+  <div class="container fixtures-page">
+
+    <StatStrip
+      stats={[
+        { icon: '📅', label: 'Starts', value: firstMD },
+        { icon: '🔁', label: 'Matchdays', value: season4.format.regularSeasonMatchdays, sub: 'every Monday' },
+        { icon: '⚽', label: 'Games a night', value: season4.format.matchesPerMatchday, sub: '6 fixtures' },
+        { icon: '🏟️', label: 'Venue', value: venue.name, sub: 'Dagenham, London' },
+      ]}
+    />
+
+    <!-- UPCOMING -->
+    <section class="fx-section">
+      <div class="section-header flex-between">
+        <div>
+          <div class="section-label">Upcoming</div>
+          <h2 class="section-title">{upcoming[0] ? `Gameweek ${upcoming[0].gameweek} Fixtures` : 'Next Fixtures'}</h2>
+        </div>
+        <a href="/season-4" class="view-all">Season {CURRENT_SEASON} hub</a>
+      </div>
+      {upcoming.length > 0 ? (
+        <div class="fx-list">
+          {upcoming.map((f: any) => (
+            <a href={`/news/${previewSlug(f)}`} class="fx-card">
+              <div class="fx-time">{f.time}</div>
+              <div class="fx-team fx-home">
+                <img src={`/logos/${f.homeSlug}.svg`} alt="" onerror="this.style.visibility='hidden'" />
+                <span>{f.homeTeam}</span>
+              </div>
+              <div class="fx-mid">
+                <span class="fx-vs">vs</span>
+                <span class="fx-date">{f.date}</span>
+              </div>
+              <div class="fx-team fx-away">
+                <span>{f.awayTeam}</span>
+                <img src={`/logos/${f.awaySlug}.svg`} alt="" onerror="this.style.visibility='hidden'" />
+              </div>
+            </a>
+          ))}
+        </div>
+      ) : (
+        <div class="card" style="padding: var(--space-lg); text-align: center;">
+          <p class="text-muted">The next fixture list will appear here once the league confirms it. Meanwhile, see the <a href="/season-4" style="color: var(--green);">season schedule</a>.</p>
+        </div>
+      )}
+    </section>
+
+    <!-- SCHEDULE -->
+    <section class="fx-section">
+      <div class="section-header">
+        <div class="section-label">Season {CURRENT_SEASON}</div>
+        <h2 class="section-title">Full Matchday Schedule</h2>
+      </div>
+      <div class="md-grid">
+        {matchdays.map((m) => (
+          <div class="md-item">
+            <span class="md-num">MD{m.n}</span>
+            <span class="md-date">{m.date}</span>
+          </div>
+        ))}
+      </div>
+      <p class="fx-note">Each matchday features all 12 teams across six fixtures, kicking off from around 17:30 to 22:20. The top four after Matchday 11 reach the Final Four.</p>
+    </section>
+
+    <div class="fx-cta">
+      <a href="/table" class="btn btn-primary">Results &amp; Table</a>
+      <a href="/watch" class="btn btn-secondary">How to Watch</a>
+      <a href="/teams" class="btn btn-ghost">All 12 Teams</a>
+    </div>
+
+  </div>
+</Base>
+
+<style>
+.fixtures-page { padding-bottom: var(--space-3xl); display: flex; flex-direction: column; gap: var(--space-2xl); }
+
+.fx-list { display: flex; flex-direction: column; gap: var(--space-sm); }
+.fx-card {
+  display: grid;
+  grid-template-columns: 64px 1fr 120px 1fr;
+  align-items: center;
+  gap: var(--space-md);
+  background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: var(--space-md) var(--space-lg);
+  text-decoration: none;
+  transition: border-color var(--transition), transform var(--transition);
+}
+.fx-card:hover { border-color: var(--green); transform: translateY(-2px); }
+.fx-time { font-family: var(--font-display); font-size: 1.3rem; color: var(--green); font-variant-numeric: tabular-nums; }
+.fx-team { display: flex; align-items: center; gap: var(--space-sm); font-weight: 700; color: var(--text-primary); font-size: 1rem; }
+.fx-team img { width: 30px; height: 30px; object-fit: contain; flex-shrink: 0; }
+.fx-home { justify-content: flex-end; text-align: right; }
+.fx-away { justify-content: flex-start; }
+.fx-mid { display: flex; flex-direction: column; align-items: center; }
+.fx-vs { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted); }
+.fx-date { font-size: 0.72rem; color: var(--text-muted); }
+
+.md-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: var(--space-sm); }
+.md-item { display: flex; align-items: center; justify-content: space-between; gap: var(--space-sm); background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: var(--space-sm) var(--space-md); }
+.md-num { font-family: var(--font-display); font-size: 1.1rem; color: var(--green); }
+.md-date { font-size: 0.85rem; color: var(--text-secondary); }
+.fx-note { margin-top: var(--space-lg); font-size: 0.9rem; color: var(--text-muted); }
+
+.fx-cta { display: flex; gap: var(--space-sm); flex-wrap: wrap; }
+
+@media (max-width: 700px) {
+  .fx-card { grid-template-columns: 1fr; text-align: center; gap: 6px; }
+  .fx-team, .fx-home, .fx-away { justify-content: center; }
+  .fx-home { flex-direction: row-reverse; }
+}
+</style>

@@ -9,12 +9,23 @@ const nameBySlug: Record<string, string> = {};
 for (const p of (playerData.players as any[])) nameBySlug[p.name.toLowerCase()] = p.slug;
 
 export function getStaticPaths() {
-  const s3Matches = (gcData.seasons['3']?.matches as any[] || []).filter((m: any) => m.homeScore > 0 || m.awayScore > 0);
-  const gws = [...new Set(s3Matches.map((m: any) => m.gameweek))].sort((a: any, b: any) => a - b);
+  const played = Object.entries(gcData.seasons)
+    .filter(([, s]: any) => s.matches.some((m: any) => m.homeScore > 0 || m.awayScore > 0))
+    .map(([k]) => Number(k))
+    .sort((a, b) => b - a);
+  const season = String(played[0] ?? Math.max(...Object.keys(gcData.seasons).map(Number)));
+  const seasonMatches = ((gcData.seasons[season]?.matches as any[]) || []).filter((m: any) => m.homeScore > 0 || m.awayScore > 0);
+  const gws = [...new Set(seasonMatches.map((m: any) => m.gameweek))].sort((a: any, b: any) => a - b);
   return gws.map(gw => ({ params: { gw: String(gw) } }));
 }
 
-const s3Matches = (gcData.seasons['3']?.matches as any[] || []).filter((m: any) => m.homeScore > 0 || m.awayScore > 0);
+const playedSeasons = Object.entries(gcData.seasons)
+  .filter(([, s]: any) => s.matches.some((m: any) => m.homeScore > 0 || m.awayScore > 0))
+  .map(([k]) => Number(k))
+  .sort((a, b) => b - a);
+const SEASON = String(playedSeasons[0] ?? Math.max(...Object.keys(gcData.seasons).map(Number)));
+
+const s3Matches = (gcData.seasons[SEASON]?.matches as any[] || []).filter((m: any) => m.homeScore > 0 || m.awayScore > 0);
 const gws = [...new Set(s3Matches.map((m: any) => m.gameweek))].sort((a: any, b: any) => b - a);
 const maxGW = gws[0] ?? 8;
 const requestedGW = Number(Astro.params.gw);
@@ -77,22 +88,22 @@ const schema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": `Gameweek ${requestedGW} Roundup — Baller League UK`,
-  "description": `Full Gameweek ${requestedGW} roundup: ${gwMatches.length} matches, ${totalGoals} goals, GC stats and top performers from Baller League UK Season 3.`,
+  "description": `Full Gameweek ${requestedGW} roundup: ${gwMatches.length} matches, ${totalGoals} goals, GC stats and top performers from Baller League UK Season ${SEASON}.`,
   "about": { "@type": "SportsOrganization", "name": "Baller League UK", "sport": "Football" },
 };
 ---
 
 <Base
   title={`Gameweek ${requestedGW} Roundup — Baller League UK Hub`}
-  description={`Full Gameweek ${requestedGW} roundup: all ${gwMatches.length} match results, total goals, GC stats, and top performers from Baller League UK Season 3.`}
-  keywords={`gameweek ${requestedGW}, roundup, results, goals, match report, Season 3`}
+  description={`Full Gameweek ${requestedGW} roundup: all ${gwMatches.length} match results, total goals, GC stats, and top performers from Baller League UK Season ${SEASON}.`}
+  keywords={`gameweek ${requestedGW}, roundup, results, goals, match report, Season ${SEASON}`}
   schema={schema}
 >
 
   <div class="page-header">
     <div class="container">
       <Breadcrumb items={[{name:'Home',url:'/'},{name:'Roundup',url:'/roundup'},{name:`GW${requestedGW}`}]} />
-      <div class="section-label">Season 3</div>
+      <div class="section-label">Season {SEASON}</div>
       <h1>Gameweek {requestedGW} Roundup</h1>
       <p class="section-subtitle">
         {gwMatches.length} matches · {totalGoals} goals · {totalGCGoals} GC goals

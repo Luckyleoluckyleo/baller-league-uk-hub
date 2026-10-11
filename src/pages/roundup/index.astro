@@ -3,40 +3,46 @@ import Base from '../../layouts/Base.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import gcData from '../../data/gamechangers.json';
 
-const s3Matches = (gcData.seasons['3']?.matches as any[] || []).filter((m: any) => m.homeScore > 0 || m.awayScore > 0);
-const gws = [...new Set(s3Matches.map((m: any) => m.gameweek))].sort((a: any, b: any) => a - b);
+// Roundups track the latest season that has results (auto-updates each season).
+const playedSeasons = Object.entries(gcData.seasons)
+  .filter(([, s]: any) => s.matches.some((m: any) => m.homeScore > 0 || m.awayScore > 0))
+  .map(([k]) => Number(k))
+  .sort((a, b) => b - a);
+const SEASON = String(playedSeasons[0] ?? Math.max(...Object.keys(gcData.seasons).map(Number)));
+const seasonMatches = ((gcData.seasons[SEASON]?.matches as any[]) || []).filter((m: any) => m.homeScore > 0 || m.awayScore > 0);
+const gws = [...new Set(seasonMatches.map((m: any) => m.gameweek))].sort((a: any, b: any) => a - b);
 const latestGW = gws.length ? Math.max(...gws) : 0;
 
 const summaries = gws.map((gw) => {
-  const ms = s3Matches.filter((m: any) => m.gameweek === gw);
+  const ms = seasonMatches.filter((m: any) => m.gameweek === gw);
   const goals = ms.reduce((n: number, m: any) => n + m.homeScore + m.awayScore, 0);
   const biggest = [...ms].sort((a: any, b: any) => Math.abs(b.homeScore - b.awayScore) - Math.abs(a.homeScore - a.awayScore))[0];
   return { gw, matches: ms.length, goals, biggest };
 });
 
-const totalGoals = s3Matches.reduce((n: number, m: any) => n + m.homeScore + m.awayScore, 0);
+const totalGoals = seasonMatches.reduce((n: number, m: any) => n + m.homeScore + m.awayScore, 0);
 
 const schema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Baller League UK Weekly Roundups",
-  "description": `Every Baller League UK Season 3 gameweek roundup — ${s3Matches.length} matches and ${totalGoals} goals.`,
+  "description": `Every Baller League UK Season ${SEASON} gameweek roundup — ${seasonMatches.length} matches and ${totalGoals} goals.`,
   "about": { "@type": "SportsOrganization", "name": "Baller League UK", "sport": "Football" },
 };
 ---
 
 <Base
   title="Baller League UK Weekly Roundups — Every Gameweek"
-  description={`Every Baller League UK Season 3 gameweek roundup. Results, top scorers and the biggest wins from all ${gws.length} rounds — ${totalGoals} goals in total.`}
-  keywords="weekly roundup, gameweek, results, standings, Baller League UK, Season 3"
+  description={`Every Baller League UK Season ${SEASON} gameweek roundup. Results, top scorers and the biggest wins from all ${gws.length} rounds — ${totalGoals} goals in total.`}
+  keywords={`weekly roundup, gameweek, results, standings, Baller League UK, Season ${SEASON}`}
   schema={schema}
 >
   <div class="page-header">
     <div class="container">
       <Breadcrumb items={[{name:'Home',url:'/'},{name:'Roundup'}]} />
-      <div class="section-label">Season 3 · {gws.length} Gameweeks</div>
+      <div class="section-label">Season {SEASON} · {gws.length} Gameweeks</div>
       <h1>Weekly Roundups</h1>
-      <p class="section-subtitle">Results, top performers and the biggest wins from every gameweek of Baller League UK Season 3.</p>
+      <p class="section-subtitle">Results, top performers and the biggest wins from every gameweek of Baller League UK Season {SEASON}.</p>
     </div>
   </div>
 

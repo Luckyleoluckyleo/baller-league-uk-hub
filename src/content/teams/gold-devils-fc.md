@@ -1,7 +1,7 @@
 ---
 name: "Gold Devils FC"
 urlSlug: "gold-devils-fc"
-manager: "Mark Goldbridge"
+manager: "Mark Goldbridge, Spencer Owen"
 managerRole: "Manager"
 emoji: "👿"
 primaryColor: "#00e676"
