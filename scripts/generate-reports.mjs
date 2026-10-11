@@ -658,6 +658,56 @@ function matchPerformersSection(playerStats, homeSlug, awaySlug, home, away, goa
   return s;
 }
 
+// ─── Unique per-match data (derived from this match's raw player stats) ──────────
+// These vary from game to game even when the surrounding narrative repeats, so every
+// report carries genuinely distinct, verifiable detail.
+
+const playerByName = Object.fromEntries(players.map((p) => [p.name.toLowerCase(), p]));
+
+function playerOfTheMatch(playerStats) {
+  const pool = (playerStats || []).filter((p) => (p.goals || 0) + (p.assists || 0) + (p.shots || 0) > 0);
+  if (!pool.length) return null;
+  const score = (p) => (p.goals || 0) * 3 + (p.assists || 0) * 2 + (p.shots || 0) * 0.3 + (p.tackles || 0) * 0.1;
+  const best = [...pool].sort((a, b) => score(b) - score(a))[0];
+  return { ...best, team: playerByName[best.name.toLowerCase()]?.team || null, slug: playerByName[best.name.toLowerCase()]?.slug || null };
+}
+
+function matchTotals(playerStats) {
+  const t = { goals: 0, assists: 0, shots: 0, tackles: 0, passes: 0, players: 0 };
+  for (const p of playerStats || []) {
+    t.goals += p.goals || 0; t.assists += p.assists || 0; t.shots += p.shots || 0;
+    t.tackles += p.tackles || 0; t.passes += p.passes || 0; t.players += 1;
+  }
+  return t;
+}
+
+function playerOfTheMatchSection(potm) {
+  if (!potm) return '';
+  const g = potm.goals || 0, a = potm.assists || 0, sh = potm.shots || 0;
+  const name = potm.slug ? `[${potm.name}](/players/${potm.slug})` : `**${potm.name}**`;
+  const line = [];
+  if (g) line.push(`**${g}** goal${g === 1 ? '' : 's'}`);
+  if (a) line.push(`**${a}** assist${a === 1 ? '' : 's'}`);
+  if (sh) line.push(`**${sh}** shot${sh === 1 ? '' : 's'}`);
+  const team = potm.team ? ` for ${potm.team}` : '';
+  return `${name}${team} was the pick of the bunch with ${line.join(', ')}.\n`;
+}
+
+function byTheNumbersSection(totals, gcTotal, totalGoals, goalscorers) {
+  const scorers = new Set((goalscorers || []).map((g) => g.player.toLowerCase())).size;
+  const gcShare = totalGoals ? Math.round((gcTotal / totalGoals) * 100) : 0;
+  const rows = [
+    ['Goals', String(totalGoals)],
+    ['Game Changer goals', `${gcTotal} (${gcShare}% of all goals)`],
+    ['Different goalscorers', String(scorers)],
+    ['Total shots', String(totals.shots)],
+    ['Assists', String(totals.assists)],
+    ['Tackles', String(totals.tackles)],
+    ['Passes', String(totals.passes)],
+  ];
+  return `| Metric | Value |\n|--------|-------|\n${rows.map(([k, v]) => `| ${k} | ${v} |`).join('\n')}\n`;
+}
+
 function keyPerformersSection(home, away, homeScorers, awayScorers) {
   let s = '';
 
@@ -958,6 +1008,9 @@ function generateReport(match) {
   const goalscorers = match.goalscorers || [];
   const playerStats = match.playerStats || [];
 
+  const potm = playerOfTheMatch(playerStats);
+  const totals = matchTotals(playerStats);
+
   const title = titleVariations(home, away, hs, as, gw, winner, loser, Math.abs(margin));
 
   const slug = `${match.homeSlug}-vs-${match.awaySlug}-gw${gw}`.toLowerCase().replace(/[^a-z0-9-]/g, "-");
@@ -988,6 +1041,7 @@ ${matchSummaryNarrative(home, away, hs, as, gw, homePosBefore, awayPosBefore, ho
 
 ${homeForm.length > 0 ? `**${home} form (before GW${gw}):** ${formString(homeForm)} (${formStringText(homeForm)})  \n` : ""}${awayForm.length > 0 ? `**${away} form (before GW${gw}):** ${formString(awayForm)} (${formStringText(awayForm)})` : ""}
 
+${potm ? `---\n\n## ⭐ Player of the Match\n\n${playerOfTheMatchSection(potm)}\n` : ""}
 ---
 
 ## How the Match Unfolded
@@ -1052,6 +1106,12 @@ ${tableImpactSection(home, away, match.homeSlug, match.awaySlug, homePosBefore, 
 | GC Goals | ${gcTotal} | ${gcTotal} |
 | GC 1st Half (${gc1}) | ${gc1g} | ${gc1g} |
 | GC 2nd Half (${gc2}) | ${gc2g} | ${gc2g} |
+
+---
+
+## By the Numbers
+
+${byTheNumbersSection(totals, gcTotal, totalGoals, goalscorers)}
 
 ---
 

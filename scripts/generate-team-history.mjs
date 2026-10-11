@@ -12,6 +12,11 @@ const tableData = read("src/data/table.json");
 const standings = read("src/data/standings.json");
 const playerData = read("src/data/players.json");
 const fixturesData = read("src/data/fixtures.json");
+const season4 = read("src/data/season4.json");
+
+const managerFor = (slug) => (season4.managers || []).find((m) => m.teamSlug === slug);
+const squadFor = (slug) => players.filter((p) => p.teamSlug === slug);
+const nextFixtureFor = (slug) => (fixturesData.upcoming || []).find((f) => f.homeSlug === slug || f.awaySlug === slug);
 
 if (!existsSync(CONTENT_DIR)) mkdirSync(CONTENT_DIR, { recursive: true });
 
@@ -87,6 +92,41 @@ function buildHistory(slug) {
   const excerpt = `${name} in numbers: their all-time Baller League UK record, season-by-season finishes, top scorers and standout results across every season.`;
 
   let s = `---\ntitle: "${title}"\ndate: ${dateStr}\ncategory: "Feature"\nexcerpt: "${excerpt.replace(/"/g, "'")}"\nauthor: "Baller League UK Hub"\nfeatured: false\n---\n\n`;
+  if (played === 0) {
+    // New / returning club with no completed matches yet — build a real profile
+    // (manager, squad, opening fixture, outlook) instead of a near-empty page.
+    const mgr = managerFor(slug);
+    const squad = squadFor(slug).sort((a, b) =>
+      (b.seasons?.[String(CURRENT_SEASON)]?.goals || 0) - (a.seasons?.[String(CURRENT_SEASON)]?.goals || 0));
+    const nf = nextFixtureFor(slug);
+
+    s += `## A new club for Season ${CURRENT_SEASON}\n\n`;
+    s += `**${name}** are one of the newest clubs in Baller League UK, joining the competition for Season ${CURRENT_SEASON}.`;
+    if (mgr) s += ` They are managed by **${mgr.name}**.`;
+    s += ` As a new franchise they have no completed-season record yet — this page will fill in with their results, top scorers and finishes as the campaign unfolds.\n\n`;
+
+    if (nf) {
+      const opp = nf.homeSlug === slug ? nf.awayTeam : nf.homeTeam;
+      const venueWord = nf.homeSlug === slug ? 'at home to' : 'away to';
+      s += `## Opening fixture\n\n`;
+      s += `${name} begin their campaign ${venueWord} **${opp}** in Gameweek ${nf.gameweek} on **${nf.date}**, with kick-off at ${nf.time}.\n\n`;
+    }
+
+    if (squad.length) {
+      const withStats = squad.filter((p) => (p.seasons?.[String(CURRENT_SEASON)]?.apps || 0) > 0);
+      s += `## Season ${CURRENT_SEASON} squad\n\n`;
+      s += `| Player | Pos |${withStats.length ? ' Apps | G |' : ''}\n|--------|-----|${withStats.length ? '------|---|' : ''}\n`;
+      for (const p of squad) {
+        const st = p.seasons?.[String(CURRENT_SEASON)] || {};
+        const link = p.slug ? `[${p.name}](/players/${p.slug})` : p.name;
+        s += `| ${link} | ${p.position || '—'} |${withStats.length ? ` ${st.apps || 0} | ${st.goals || 0} |` : ''}\n`;
+      }
+      s += `\n`;
+    }
+
+    s += `## Outlook\n\n`;
+    s += `Every point counts in Baller League UK, with the top four reaching the Final Four playoffs. Follow ${name}'s progress on their [team page](/teams/${slug}) and the live [league table](/table).\n\n`;
+  } else {
   s += `## ${name}: All-Time Baller League UK Record\n\n`;
   s += `**${name}** have played **${played}** matches in Baller League UK across ${seasonsPlayed.length} seasons, winning **${won}**, drawing **${drawn}** and losing **${lost}** — a win rate of **${winPct}%**. They have scored **${gf}** goals and conceded **${ga}** (goal difference **${gd >= 0 ? "+" : ""}${gd}**).\n\n`;
 
@@ -101,6 +141,7 @@ function buildHistory(slug) {
     s += `Their best finish came in **Season ${best.season}**, finishing **${best.pos}${ordinal(best.pos)}** on **${best.pts} points**.\n\n`;
   } else {
     s += `${name} are yet to complete a season in the competition.\n\n`;
+  }
   }
 
   if (topScorers.length) {
