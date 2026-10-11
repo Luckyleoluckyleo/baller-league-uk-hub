@@ -2,112 +2,54 @@
 import Base from '../layouts/Base.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
 import StatStrip from '../components/StatStrip.astro';
-import tableData from '../data/table.json';
 import fixturesData from '../data/fixtures.json';
-import gcData from '../data/gamechangers.json';
 import playersData from '../data/players.json';
+import { CURRENT_SEASON, playedMatches, standingsFor, formFor, matchSlug } from '../lib/league';
 
 const updateDate = new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
 const isFinalFour = fixturesData.upcoming[0]?.round != null;
-const upcomingGW = fixturesData.upcoming[0]?.gameweek ?? 10;
+const upcomingGW = fixturesData.upcoming[0]?.gameweek ?? 1;
 
-// Build results by gameweek from scraped data
-const s3Matches = (gcData.seasons['3']?.matches as any[] || []).filter((m: any) => m.homeScore > 0 || m.awayScore > 0);
-const s3League = s3Matches.filter((m: any) => m.gameweek <= 11);
-const gws = [...new Set(s3Matches.map((m: any) => m.gameweek))].sort((a: any, b: any) => b - a);
-const maxGW = gws[0] ?? 8;
+// Played matches for the current season (regular season incl. playoffs).
+const currentMatches = playedMatches(CURRENT_SEASON);
+const gws = [...new Set(currentMatches.map((m) => m.gameweek))].sort((a, b) => b - a);
+const maxGW = gws[0] ?? 0;
 
-// Compute GP, W/D/L, GF/GA from league match data (excl Final Four)
-const records: Record<string, { played: number; won: number; drawn: number; lost: number; gf: number; ga: number }> = {};
-for (const m of s3League) {
-  if (!records[m.homeTeam]) records[m.homeTeam] = { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0 };
-  if (!records[m.awayTeam]) records[m.awayTeam] = { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0 };
-  records[m.homeTeam].played++;
-  records[m.awayTeam].played++;
-  records[m.homeTeam].gf += m.homeScore;
-  records[m.homeTeam].ga += m.awayScore;
-  records[m.awayTeam].gf += m.awayScore;
-  records[m.awayTeam].ga += m.homeScore;
-  if (m.homeScore > m.awayScore) { records[m.homeTeam].won++; records[m.awayTeam].lost++; }
-  else if (m.awayScore > m.homeScore) { records[m.awayTeam].won++; records[m.homeTeam].lost++; }
-  else { records[m.homeTeam].drawn++; records[m.awayTeam].drawn++; }
-}
-
-// Merge computed data into table, keep PTS & EP from table.json as manual overrides
-let computedTable = tableData.map(row => {
-  const r = records[row.team] || { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0 };
-  const gd = r.gf - r.ga;
-  const pts = r.won * 3 + r.drawn * 1 + (row.ep || 0);
-  return {
-    ...row,
-    played: r.played || row.played,
-    won: r.won,
-    drawn: r.drawn,
-    lost: r.lost,
-    gf: r.gf,
-    ga: r.ga,
-    gd,
-    pts,
-  };
-});
-
-// Sort by pts desc, gd desc, gf desc
-computedTable.sort((a, b) => b.pts - a.pts || b.gd - a.gd || b.gf - a.gf);
-computedTable = computedTable.map((row, i) => ({ ...row, pos: i + 1 }));
+// Table is computed centrally: from results once games are played, else the official table.
+const computedTable = standingsFor(CURRENT_SEASON);
 
 // ---- Snapshot stats for the header strip ----
 const players = playersData.players as any[];
-const s3of = (p: any) => p.seasons?.['3'] || {};
+const seasonOf = (p: any) => p.seasons?.[String(CURRENT_SEASON)] || {};
 const leader = computedTable[0];
-const topScorer = [...players].sort((a, b) => (s3of(b).goals || 0) - (s3of(a).goals || 0))[0];
+const topScorer = [...players].sort((a, b) => (seasonOf(b).goals || 0) - (seasonOf(a).goals || 0))[0];
 const bestDefence = [...computedTable].sort((a, b) => a.ga - b.ga)[0];
-const totalGoals = s3Matches.reduce((n: number, m: any) => n + m.homeScore + m.awayScore, 0);
-const avgGoals = s3Matches.length ? (totalGoals / s3Matches.length).toFixed(1) : '0';
+const totalGoals = currentMatches.reduce((n, m) => n + m.homeScore + m.awayScore, 0);
+const avgGoals = currentMatches.length ? (totalGoals / currentMatches.length).toFixed(1) : '0';
 
 // Build results by gameweek
 const resultsByGW: Record<number, any[]> = {};
-for (const m of s3Matches) {
+for (const m of currentMatches) {
   if (!resultsByGW[m.gameweek]) resultsByGW[m.gameweek] = [];
   resultsByGW[m.gameweek].push(m);
-}
-for (const arr of Object.values(resultsByGW)) {
-  arr.sort((a: any, b: any) => (a._gameId || 0) - (b._gameId || 0));
-}
-
-function matchSlug(match: any): string {
-  return `${match.homeSlug}-vs-${match.awaySlug}-gw${match.gameweek}`;
 }
 
 function previewSlug(match: any): string {
   if (match.round) return `${match.homeSlug}-vs-${match.awaySlug}-final-four-preview`;
   return `${match.homeSlug}-vs-${match.awaySlug}-gw${match.gameweek}-preview`;
 }
-
-function getForm(slug: string): { label: string; cls: string }[] {
-  const m = s3Matches
-    .filter((x: any) => (x.homeSlug === slug || x.awaySlug === slug))
-    .sort((a: any, b: any) => b.gameweek - a.gameweek)
-    .slice(0, 5);
-  return m.map((x: any) => {
-    const isHome = x.homeSlug === slug;
-    const gd = isHome ? x.homeScore - x.awayScore : x.awayScore - x.homeScore;
-    if (gd > 0) return { label: 'W', cls: 'form-win' };
-    if (gd < 0) return { label: 'L', cls: 'form-loss' };
-    return { label: 'D', cls: 'form-draw' };
-  });
-}
 ---
 
 <Base
-  title={`Baller League UK Table — Season 3 Standings & Gameweek ${maxGW} Results`}
-  description={`Baller League UK Season 3 league table. Full standings, Gameweek ${maxGW} results, upcoming GW${upcomingGW} fixtures, team form and goals stats.`}
-  keywords="league table, standings, fixtures, results, gameweek, Season 3, playoffs, top 4"
+  title={`Baller League UK Table — Season ${CURRENT_SEASON} Standings${maxGW ? ` & Gameweek ${maxGW} Results` : ''}`}
+  description={`Baller League UK Season ${CURRENT_SEASON} league table. Full standings${maxGW ? `, Gameweek ${maxGW} results` : ''}, upcoming GW${upcomingGW} fixtures, team form and goals stats.`}
+  keywords={`league table, standings, fixtures, results, gameweek, Season ${CURRENT_SEASON}, playoffs, top 4`}
 >
 
   <div class="page-header">
     <div class="container">
       <Breadcrumb items={[{name:'Home',url:'/'},{name:'Table'}]} />
-      <div class="section-label">Season 3 · Gameweek {maxGW} of 11</div>
+      <div class="section-label">Season {CURRENT_SEASON}{maxGW ? ` · Gameweek ${maxGW} of 11` : ' · Pre-season'}</div>
       <h1>League Table & Fixtures</h1>
       <p class="section-subtitle">Current standings. Top 4 qualify for the Final Four playoffs. EP = Extra Points from the Pressure Point challenge.</p>
     </div>
@@ -118,7 +60,7 @@ function getForm(slug: string): { label: string; cls: string }[] {
     <StatStrip
       stats={[
         { icon: '🏆', label: 'Leaders', value: leader.team, sub: `${leader.pts} pts`, href: `/teams/${leader.slug}` },
-        { icon: '⚽', label: 'Top scorer', value: topScorer.name, sub: `${s3of(topScorer).goals} goals`, href: `/players/${topScorer.slug}` },
+        { icon: '⚽', label: 'Top scorer', value: topScorer.name, sub: `${seasonOf(topScorer).goals || 0} goals`, href: `/players/${topScorer.slug}` },
         { icon: '🛡️', label: 'Best defence', value: bestDefence.team, sub: `${bestDefence.ga} conceded`, href: `/teams/${bestDefence.slug}` },
         { icon: '🥅', label: 'Goals / game', value: avgGoals, sub: `${totalGoals} total` },
       ]}
@@ -167,7 +109,7 @@ function getForm(slug: string): { label: string; cls: string }[] {
               <td class={row.gd > 0 ? 'text-green' : row.gd < 0 ? 'text-orange' : ''}>{row.gd > 0 ? `+${row.gd}` : row.gd}</td>
               <td class={row.ep > 0 ? 'text-gold' : 'text-muted'}>{row.ep > 0 ? `+${row.ep}` : row.ep}</td>
               <td class="form-cell">
-                {getForm(row.slug).map(f => (
+                {formFor(row.slug, CURRENT_SEASON).map(f => (
                   <span class={`form-badge ${f.cls}`}>{f.label}</span>
                 ))}
               </td>
@@ -184,9 +126,14 @@ function getForm(slug: string): { label: string; cls: string }[] {
       <div>
         <div class="section-header">
           <div class="section-label">Results</div>
-          <h2 class="section-title" id="results-gw-title">Gameweek {maxGW}</h2>
+          <h2 class="section-title" id="results-gw-title">{maxGW > 0 ? `Gameweek ${maxGW}` : `Season ${CURRENT_SEASON}`}</h2>
         </div>
 
+        {maxGW === 0 ? (
+          <div class="card" style="padding: var(--space-lg); text-align: center;">
+            <p class="text-muted">Season {CURRENT_SEASON} kicks off soon — results will appear here after the first gameweek.</p>
+          </div>
+        ) : (<>
         <div class="gw-nav" id="table-gw-nav" role="tablist" aria-label="Gameweek results">
           {gws.map(gw => (
             <button
@@ -231,6 +178,7 @@ function getForm(slug: string): { label: string; cls: string }[] {
             </div>
           ))}
         </div>
+        </>)}
       </div>
 
       <!-- UPCOMING -->
@@ -270,7 +218,7 @@ function getForm(slug: string): { label: string; cls: string }[] {
     <div class="update-note card">
       <div class="card-body update-inner">
         <span>🔄</span>
-        <p>Table and results updated after each gameweek. Stats refreshed {updateDate}. {isFinalFour ? 'Next up: Final Four at The O2, 25 May 2026.' : `Upcoming fixtures for Gameweek ${upcomingGW}.`}</p>
+        <p>Table and results updated after each gameweek. Stats refreshed {updateDate}. {isFinalFour ? 'Next up: Final Four.' : `Upcoming fixtures for Gameweek ${upcomingGW}.`}</p>
       </div>
     </div>
 

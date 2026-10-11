@@ -2,21 +2,20 @@
 import Base from '../layouts/Base.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
 import { getCollection } from 'astro:content';
-import tableData from '../data/table.json';
 import fixturesData from '../data/fixtures.json';
-import gcData from '../data/gamechangers.json';
+import { CURRENT_SEASON, standingsFor } from '../lib/league';
 
-const teams = await getCollection('teams');
-const s3Matches = (gcData.seasons['3']?.matches as any[] || []).filter((m: any) => m.homeScore > 0 || m.awayScore > 0);
-const gws = [...new Set(s3Matches.map((m: any) => m.gameweek))].sort((a: any, b: any) => a - b);
-const maxGW = gws[gws.length - 1] ?? 10;
+const allTeams = await getCollection('teams');
+const standings = standingsFor(CURRENT_SEASON);
+const standingBySlug: Record<string, any> = Object.fromEntries(standings.map((s) => [s.slug, s]));
+const teams = allTeams.filter((t) => standingBySlug[t.data.urlSlug]);
 const upcoming = fixturesData.upcoming;
 
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  "name": "Baller League UK Season 3 — Ultimate Guide",
-  "description": "The complete reference guide to Baller League UK Season 3. All 12 teams, celebrity managers, rules, Game Changers, schedule, how to watch, and league table.",
+  "name": `Baller League UK Season ${CURRENT_SEASON} — Ultimate Guide`,
+  "description": `The complete reference guide to Baller League UK Season ${CURRENT_SEASON}. All 12 teams, celebrity managers, rules, Game Changers, schedule, how to watch, and league table.`,
   "author": { "@type": "Organization", "name": "Baller League UK Hub" },
   "datePublished": "2026-02-01",
   "dateModified": new Date().toISOString().split('T')[0],
@@ -24,18 +23,18 @@ const schema = {
 ---
 
 <Base
-  title="Baller League UK Season 3 — Ultimate Guide"
-  description="The complete Baller League UK Season 3 reference. All 12 teams, celebrity managers, rules & format, Game Changers explained, fixture schedule, how to watch, and league standings."
+  title={`Baller League UK Season ${CURRENT_SEASON} — Ultimate Guide`}
+  description={`The complete Baller League UK Season ${CURRENT_SEASON} reference. All 12 teams, celebrity managers, rules & format, Game Changers explained, fixture schedule, how to watch, and league standings.`}
   schema={schema}
-  keywords="Baller League UK guide, Season 3 guide, teams, managers, rules, Game Changers, fixtures, watch, schedule, standings"
+  keywords={`Baller League UK guide, Season ${CURRENT_SEASON} guide, teams, managers, rules, Game Changers, fixtures, watch, schedule, standings`}
   type="article"
 >
   <div class="page-header">
     <div class="container">
       <Breadcrumb items={[{name:'Home',url:'/'},{name:'Guide'}]} />
       <div class="section-label">The Complete Reference</div>
-      <h1>Baller League UK Season 3 — Ultimate Guide</h1>
-      <p class="section-subtitle">Everything you need to know about Baller League UK Season 3 — teams, managers, rules, Game Changers, fixtures, and how to watch.</p>
+      <h1>Baller League UK Season {CURRENT_SEASON} — Ultimate Guide</h1>
+      <p class="section-subtitle">Everything you need to know about Baller League UK Season {CURRENT_SEASON} — teams, managers, rules, Game Changers, fixtures, and how to watch.</p>
     </div>
   </div>
 
@@ -59,7 +58,7 @@ const schema = {
       <h2 class="guide-h2">The 12 Teams</h2>
       <div class="guide-teams-grid">
         {teams.map(team => {
-          const standing = tableData.find(t => t.slug === team.data.urlSlug);
+          const standing = standingBySlug[team.data.urlSlug];
           return (
             <a href={`/teams/${team.data.urlSlug}`} class="guide-team-card card">
               <div class="card-body">
@@ -71,7 +70,7 @@ const schema = {
                   </div>
                 </div>
                 <p class="guide-team-desc">{team.data.description}</p>
-                {standing && (
+                {standing && standing.played > 0 && (
                   <span class="badge badge-green">#{standing.pos} · {standing.won}W–{standing.drawn}D–{standing.lost}L</span>
                 )}
               </div>

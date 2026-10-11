@@ -4,10 +4,9 @@ import NewsCard from '../components/NewsCard.astro';
 import TeamCard from '../components/TeamCard.astro';
 import MiniLeaderboard from '../components/MiniLeaderboard.astro';
 import { getCollection } from 'astro:content';
-import tableData from '../data/table.json';
 import fixturesData from '../data/fixtures.json';
-import gcData from '../data/gamechangers.json';
 import playersData from '../data/players.json';
+import { CURRENT_SEASON, playedMatches, standingsFor, formFor, matchSlug } from '../lib/league';
 
 const updateDate = new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
 
@@ -23,73 +22,33 @@ const latestNews = allNews
   .sort((a, b) => extractGW(b.slug) - extractGW(a.slug))
   .slice(0, 3);
 
-const top3 = tableData.slice(0, 3);
 const upcomingFixtures = fixturesData.upcoming;
 const isFinalFour = upcomingFixtures[0]?.round != null;
-const upcomingGW = upcomingFixtures[0]?.gameweek ?? 10;
+const upcomingGW = upcomingFixtures[0]?.gameweek ?? 1;
 
-// Latest gameweek results from scraped data
-const s3Matches = (gcData.seasons['3']?.matches as any[] || []).filter((m: any) => m.homeScore > 0 || m.awayScore > 0);
-const s3League = s3Matches.filter((m: any) => m.gameweek <= 11);
-const gws = [...new Set(s3Matches.map((m: any) => m.gameweek))].sort((a: any, b: any) => b - a);
-const lastGW = gws[0] ?? 8;
-const recentResults = s3Matches.filter((m: any) => m.gameweek === lastGW);
+// Played matches for the current season.
+const currentMatches = playedMatches(CURRENT_SEASON);
+const gws = [...new Set(currentMatches.map((m) => m.gameweek))].sort((a, b) => b - a);
+const lastGW = gws[0] ?? 0;
+const recentResults = currentMatches.filter((m) => m.gameweek === lastGW);
 
-// Compute GP, W/D/L, GF/GA for table (league only, excl Final Four)
-const records: Record<string, { played: number; won: number; drawn: number; lost: number; gf: number; ga: number }> = {};
-for (const m of s3League) {
-  if (!records[m.homeTeam]) records[m.homeTeam] = { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0 };
-  if (!records[m.awayTeam]) records[m.awayTeam] = { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0 };
-  records[m.homeTeam].played++;
-  records[m.awayTeam].played++;
-  records[m.homeTeam].gf += m.homeScore;
-  records[m.homeTeam].ga += m.awayScore;
-  records[m.awayTeam].gf += m.awayScore;
-  records[m.awayTeam].ga += m.homeScore;
-  if (m.homeScore > m.awayScore) { records[m.homeTeam].won++; records[m.awayTeam].lost++; }
-  else if (m.awayScore > m.homeScore) { records[m.awayTeam].won++; records[m.homeTeam].lost++; }
-  else { records[m.homeTeam].drawn++; records[m.awayTeam].drawn++; }
-}
-const computedTable = tableData.map(row => {
-  const r = records[row.team] || { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0 };
-  const gd = r.gf - r.ga;
-  const pts = r.won * 3 + r.drawn * 1 + (row.ep || 0);
-  return { ...row, played: r.played, won: r.won, drawn: r.drawn, lost: r.lost, gf: r.gf, ga: r.ga, gd, pts };
-});
-computedTable.sort((a, b) => b.pts - a.pts || b.gd - a.gd || b.gf - a.gf);
-computedTable.forEach((row, i) => { row.pos = i + 1; });
+// Table is computed centrally: from results once played, else the official table.
+const computedTable = standingsFor(CURRENT_SEASON);
 
-// ---- Season 3 leaderboards (for the hero + at-a-glance section) ----
+// ---- Leaderboards (latest season that actually has stats) ----
 const players = playersData.players as any[];
-const s3 = (p: any) => p.seasons?.['3'] || {};
-const detail = (p: any, key: string) => (s3(p).detailed ? s3(p).detailed[key] : 0) || 0;
-const topScorers = [...players].sort((a, b) => (s3(b).goals || 0) - (s3(a).goals || 0)).slice(0, 5);
-const topAssists = [...players].sort((a, b) => (s3(b).assists || 0) - (s3(a).assists || 0)).slice(0, 5);
-const topShots = [...players].sort((a, b) => detail(b, 'Total Shots') - detail(a, 'Total Shots')).slice(0, 5);
+const hasCurrentStats = players.some((p: any) => (p.seasons?.[String(CURRENT_SEASON)]?.apps || 0) > 0);
+const statsSeason = String(hasCurrentStats ? CURRENT_SEASON : CURRENT_SEASON - 1);
+const st = (p: any) => p.seasons?.[statsSeason] || {};
+const detail = (p: any, key: string) => (st(p).detailed ? st(p).detailed[key] : 0) || 0;
+const topScorers = [...players].sort((a, b) => (st(b).goals || 0) - (st(a).goals || 0)).slice(0, 5);
+const topAssists = [...players].sort((a, b) => (st(b).assists || 0) - (st(a).assists || 0)).slice(0, 5);
 const bestDefence = [...computedTable].sort((a, b) => a.ga - b.ga).slice(0, 5);
 const leader = computedTable[0];
 const topScorer = topScorers[0];
 const topAssist = topAssists[0];
-const totalGoals = s3Matches.reduce((n: number, m: any) => n + m.homeScore + m.awayScore, 0);
-const avgGoals = s3Matches.length ? (totalGoals / s3Matches.length).toFixed(1) : '0';
-
-function getForm(slug: string): { label: string; cls: string }[] {
-  const m = s3Matches
-    .filter((x: any) => (x.homeSlug === slug || x.awaySlug === slug))
-    .sort((a: any, b: any) => b.gameweek - a.gameweek)
-    .slice(0, 5);
-  return m.map((x: any) => {
-    const isHome = x.homeSlug === slug;
-    const gd = isHome ? x.homeScore - x.awayScore : x.awayScore - x.homeScore;
-    if (gd > 0) return { label: 'W', cls: 'form-win' };
-    if (gd < 0) return { label: 'L', cls: 'form-loss' };
-    return { label: 'D', cls: 'form-draw' };
-  });
-}
-
-function matchSlug(match: any): string {
-  return `${match.homeSlug}-vs-${match.awaySlug}-gw${match.gameweek}`;
-}
+const totalGoals = currentMatches.reduce((n, m) => n + m.homeScore + m.awayScore, 0);
+const avgGoals = currentMatches.length ? (totalGoals / currentMatches.length).toFixed(1) : '0';
 
 function previewSlug(match: any): string {
   if (match.round) return `${match.homeSlug}-vs-${match.awaySlug}-final-four-preview`;
@@ -126,7 +85,7 @@ const schema = {
     <div class="hero-grid-bg"></div>
     <div class="container hero-inner">
       <div class="hero-copy">
-        <div class="hero-eyebrow">{isFinalFour ? '🏆 Season 3 complete — Prime FC are champions' : `⚽ Season 3 — Gameweek ${upcomingGW} of 11`}</div>
+        <div class="hero-eyebrow">{lastGW > 0 ? `⚽ Season ${CURRENT_SEASON} — Gameweek ${lastGW} of 11` : `⚽ Season ${CURRENT_SEASON} kicks off 12 October`}</div>
         <h1 class="hero-title">
           Your Hub for
           <span class="accent">Baller League UK</span>
@@ -141,9 +100,9 @@ const schema = {
         </div>
       </div>
 
-      <aside class="hero-panel" aria-label="Season 3 at a glance">
+      <aside class="hero-panel" aria-label={`Season ${CURRENT_SEASON} at a glance`}>
         <div class="hero-panel-head">
-          <span class="hero-panel-title">Season 3 at a glance</span>
+          <span class="hero-panel-title">Season {CURRENT_SEASON} at a glance</span>
           <span class="hero-panel-sub">{totalGoals} goals &middot; {avgGoals} per game</span>
         </div>
         <div class="hero-panel-grid">
@@ -157,13 +116,13 @@ const schema = {
             <img src={`/players/thumb/${topScorer.slug}.webp`} alt="" class="hero-metric-img hero-metric-img--round" width="40" height="40" loading="lazy" onerror="this.style.visibility='hidden'" />
             <span class="hero-metric-label">Top scorer</span>
             <span class="hero-metric-value">{topScorer.name}</span>
-            <span class="hero-metric-sub">{s3(topScorer).goals} goals</span>
+            <span class="hero-metric-sub">{st(topScorer).goals || 0} goals</span>
           </a>
           <a href={`/players/${topAssist.slug}`} class="hero-metric">
             <img src={`/players/thumb/${topAssist.slug}.webp`} alt="" class="hero-metric-img hero-metric-img--round" width="40" height="40" loading="lazy" onerror="this.style.visibility='hidden'" />
             <span class="hero-metric-label">Most assists</span>
             <span class="hero-metric-value">{topAssist.name}</span>
-            <span class="hero-metric-sub">{s3(topAssist).assists} assists</span>
+            <span class="hero-metric-sub">{st(topAssist).assists || 0} assists</span>
           </a>
           <a href={`/teams/${bestDefence[0].slug}`} class="hero-metric">
             <img src={`/logos/${bestDefence[0].slug}.svg`} alt="" class="hero-metric-img" width="40" height="40" loading="lazy" onerror="this.remove()" />
@@ -182,7 +141,7 @@ const schema = {
     <div class="container">
       <div class="section-header flex-between">
         <div>
-          <div class="section-label">Season 3</div>
+          <div class="section-label">Season {statsSeason}</div>
           <h2 class="section-title">Leaderboards</h2>
         </div>
         <a href="/players" class="view-all">All Players</a>
@@ -191,12 +150,12 @@ const schema = {
         <MiniLeaderboard
           title="Top Scorers"
           icon="⚽"
-          rows={topScorers.map((p: any) => ({ name: p.name, url: `/players/${p.slug}`, photo: `/players/thumb/${p.slug}.webp`, team: p.team, teamLogo: `/logos/${p.teamSlug}.svg`, value: s3(p).goals }))}
+          rows={topScorers.map((p: any) => ({ name: p.name, url: `/players/${p.slug}`, photo: `/players/thumb/${p.slug}.webp`, team: p.team, teamLogo: `/logos/${p.teamSlug}.svg`, value: st(p).goals }))}
         />
         <MiniLeaderboard
           title="Top Assists"
           icon="🅰️"
-          rows={topAssists.map((p: any) => ({ name: p.name, url: `/players/${p.slug}`, photo: `/players/thumb/${p.slug}.webp`, team: p.team, teamLogo: `/logos/${p.teamSlug}.svg`, value: s3(p).assists }))}
+          rows={topAssists.map((p: any) => ({ name: p.name, url: `/players/${p.slug}`, photo: `/players/thumb/${p.slug}.webp`, team: p.team, teamLogo: `/logos/${p.teamSlug}.svg`, value: st(p).assists }))}
         />
         <MiniLeaderboard
           title="Best Defence"
@@ -221,7 +180,7 @@ const schema = {
 
       <div class="table-wrap home-table-wrap">
         <table class="standings-compact">
-          <caption class="visually-hidden">Baller League UK Season 3 table — top of the standings with form and points.</caption>
+          <caption class="visually-hidden">Baller League UK Season {CURRENT_SEASON} table — top of the standings with form and points.</caption>
           <thead>
             <tr>
               <th scope="col">#</th>
@@ -258,7 +217,7 @@ const schema = {
                 <td class={row.gd > 0 ? 'text-green' : row.gd < 0 ? 'text-orange' : ''}>{row.gd > 0 ? `+${row.gd}` : row.gd}</td>
                 <td class={row.ep > 0 ? 'text-gold' : 'text-muted'}>{row.ep > 0 ? `+${row.ep}` : row.ep}</td>
                 <td class="form-cell" style="display:flex;gap:3px;">
-                  {getForm(row.slug).map(f => (
+                  {formFor(row.slug, CURRENT_SEASON).map(f => (
                     <span class={`form-badge ${f.cls}`}>{f.label}</span>
                   ))}
                 </td>
@@ -324,6 +283,7 @@ const schema = {
               <h2 class="section-title">Recent Results</h2>
             </div>
           </div>
+          {recentResults.length > 0 ? (
           <div class="fixtures-list">
             {recentResults.map(r => (
               <a href={`/news/${matchSlug(r)}`} class="fixture-card fixture-result-card">
@@ -342,6 +302,16 @@ const schema = {
               </a>
             ))}
           </div>
+          ) : (
+            <div class="card empty-state">
+              <div class="card-body">
+                <div class="empty-icon" aria-hidden="true">📅</div>
+                <p class="empty-title">Season {CURRENT_SEASON} kicks off 12 October</p>
+                <p class="empty-desc">Six matches every Monday from the new Baller League Arena in Dagenham.</p>
+                <a href="/season-4" class="btn btn-secondary">Season 4 preview</a>
+              </div>
+            </div>
+          )}
         </div>
 
       </div>

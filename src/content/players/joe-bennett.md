@@ -1,19 +1,15 @@
 ---
 name: "Joe Bennett"
-slug: "joe-bennett"
 team: "n5-fc"
 teamName: "N5 FC"
 position: "Defender"
 nationality: "England"
-goals: 14
-assists: 3
-appearances: 10
-number: 10
 initials: "JB"
+bio: "Former Aston Villa and Cardiff City left-back."
+formerClubs: ["Aston Villa", "Cardiff City", "Blackburn Rovers", "Wigan Athletic"]
+honours: ["Premier League promotion with Cardiff City (2017–18)"]
 ---
 
-Joe Bennett is a defender for N5 FC in Baller League UK Season 3. With 14 goals and 3 assists in 10 appearances, Bennett has been one of the standout performers this season.
+Joe Bennett is an experienced left-back who came through at **Middlesbrough** before joining **Aston Villa**, where he spent several seasons in the Premier League and Championship. A reliable, attacking full-back, he helped **Cardiff City** win promotion to the Premier League in 2017–18.
 
-Playing under manager Jens Lehmann, Bennett has become a key part of N5 FC's attacking setup in the fast-paced 6v6 format. His goal tally of 14 makes him one of the league's most prolific finishers and a genuine Golden Boot contender.
-
-*Player statistics are for Season 3 and are updated each gameweek via the data pipeline.*
+Bennett brings top-level defensive experience and a quality left foot to N5 FC, where his crossing and set-piece delivery are a real weapon.

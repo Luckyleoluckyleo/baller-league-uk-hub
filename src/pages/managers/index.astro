@@ -2,81 +2,84 @@
 import Base from '../../layouts/Base.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import { getCollection } from 'astro:content';
-import tableData from '../../data/table.json';
+import { CURRENT_SEASON, standingsFor } from '../../lib/league';
 
 const managers = await getCollection('managers');
+const teams = await getCollection('teams');
+const teamNameBySlug: Record<string, string> = Object.fromEntries(teams.map((t) => [t.data.urlSlug, t.data.name]));
 
-const byTeam: Record<string, { team: string; teamName: string; managers: typeof managers }> = {};
-for (const m of managers) {
-  if (!byTeam[m.data.team]) byTeam[m.data.team] = { team: m.data.team, teamName: m.data.teamName, managers: [] };
-  byTeam[m.data.team].managers.push(m);
-}
-const teamGroups = Object.values(byTeam).sort((a, b) => {
-  const sa = tableData.find(t => t.slug === a.team);
-  const sb = tableData.find(t => t.slug === b.team);
-  return (sa?.pos ?? 99) - (sb?.pos ?? 99);
+const standings = standingsFor(CURRENT_SEASON);
+
+const groups = standings.map((s) => {
+  const teamManagers = managers
+    .filter((m) => m.data.active !== false && m.data.team === s.slug)
+    .sort((a, b) => a.data.name.localeCompare(b.data.name));
+  return { slug: s.slug, teamName: teamNameBySlug[s.slug] || s.team, managers: teamManagers, standing: s };
 });
+const totalManagers = groups.reduce((n, g) => n + g.managers.length, 0);
 
 const schema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Baller League UK Managers — Celebrity Profiles",
-  "description": "Meet all 13 managers of Baller League UK Season 3. From KSI and Angry Ginge to Ian Wright and Alan Shearer — get the full celebrity manager lineup.",
+  "description": `Meet the managers of Baller League UK Season ${CURRENT_SEASON}. From KSI and Niko Omilana to Jay-Jay Okocha and Alex Iwobi — the full celebrity manager line-up.`,
   "about": { "@type": "SportsOrganization", "name": "Baller League UK", "sport": "Football" }
 };
 ---
 
 <Base
-  title="Baller League UK Managers — Celebrity Profiles"
-  description="Meet all the celebrity managers of Baller League UK Season 3 — KSI, Angry Ginge, Niko Omilana, Mark Goldbridge, Ian Wright, Alan Shearer and more. Manager profiles with photos and team records."
+  title={`Baller League UK Managers — Celebrity Profiles (Season ${CURRENT_SEASON})`}
+  description={`Meet the celebrity managers of Baller League UK Season ${CURRENT_SEASON} — KSI, Niko Omilana, Mark Goldbridge, Jay-Jay Okocha, Alex Iwobi, Jens Lehmann and more. Manager profiles with photos and team records.`}
   schema={schema}
-  keywords="Baller League UK managers, celebrity managers, KSI Baller League, Angry Ginge, Niko Omilana, Ian Wright, Alan Shearer, Mark Goldbridge"
+  keywords={`Baller League UK managers, celebrity managers, KSI Baller League, Niko Omilana, Jay-Jay Okocha, Alex Iwobi, Jens Lehmann, Mark Goldbridge, Season ${CURRENT_SEASON}`}
 >
   <div class="page-header">
     <div class="container">
       <Breadcrumb items={[{name:'Home',url:'/'},{name:'Managers'}]} />
-      <div class="section-label">Season 3</div>
+      <div class="section-label">Season {CURRENT_SEASON}</div>
       <h1>Baller League UK Managers</h1>
       <p class="section-subtitle">
-        13 celebrity managers across 12 teams. From Premier League legends to YouTube superstars.
+        {totalManagers} managers across {groups.length} teams. From Premier League legends to YouTube superstars.
       </p>
     </div>
   </div>
 
   <div class="container managers-page">
     <div class="managers-grid">
-      {teamGroups.map(group => {
-        const standing = tableData.find(t => t.slug === group.team);
+      {groups.map(group => {
         const first = group.managers[0];
-        const coManagers = group.managers;
+        const img = first ? `/managers/${first.data.image || first.slug}.webp` : `/managers/${group.slug}.webp`;
         return (
            <div class="manager-card card">
-            <a href={`/teams/${group.team}`} class="manager-card-img-wrap">
+            <a href={`/teams/${group.slug}`} class="manager-card-img-wrap">
               <img
-                src={`/managers/${first.data.image || group.team}.webp`}
-                alt={first.data.name}
+                src={img}
+                alt={first?.data.name || group.teamName}
                 class="manager-card-img"
                 loading="lazy"
+                onerror="this.style.visibility='hidden'"
               />
               <img
-                src={`/logos/${group.team}.svg`}
+                src={`/logos/${group.slug}.svg`}
                 alt={group.teamName}
                 class="manager-card-badge"
                 onerror="this.hidden=true"
               />
             </a>
             <div class="card-body">
-              {coManagers.map((m, i) => (
-                <a href={`/managers/${m.slug}`} class="manager-card-name-link">{m.data.name}</a>
-              ))}
-              <div class="manager-card-role">{first.data.role}</div>
+              {group.managers.length > 0
+                ? group.managers.map((m) => (
+                    <a href={`/managers/${m.slug}`} class="manager-card-name-link">{m.data.name}</a>
+                  ))
+                : <span class="manager-card-name-link manager-card-tba">To be announced</span>}
+              <div class="manager-card-role">{first?.data.role || 'Manager'}</div>
               <div class="manager-card-team">
-                {group.teamName} {standing ? `(${standing.won}W–${standing.drawn}D–${standing.lost}L)` : ''}
+                {group.teamName}{group.standing && group.standing.played ? ` (${group.standing.won}W–${group.standing.drawn}D–${group.standing.lost}L)` : ''}
               </div>
-              {standing && (
+              {group.standing && group.standing.played > 0 && (
                 <div class="manager-card-pos">
-                  <span class="badge badge-green">#{standing.pos}</span>
-                  {standing.pts} pts · GD {standing.gd >= 0 ? '+' : ''}{standing.gd}
+                  <span class="badge badge-green">#{group.standing.pos}</span>
+                  {group.standing.pts} pts · GD {group.standing.gd >= 0 ? '+' : ''}{group.standing.gd}
                 </div>
               )}
             </div>
@@ -92,7 +95,7 @@ const schema = {
 .managers-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: var(--space-lg); }
 .manager-card { text-decoration: none; transition: transform var(--transition), box-shadow var(--transition); }
 .manager-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-green); }
-.manager-card-img-wrap { position: relative; aspect-ratio: 1; overflow: hidden; display: block; }
+.manager-card-img-wrap { position: relative; aspect-ratio: 1; overflow: hidden; display: block; background: var(--bg-elevated); }
 .manager-card-img { width: 100%; height: 100%; object-fit: cover; }
 .manager-card-badge {
   position: absolute; top: 8px; right: 8px; width: 64px; height: 64px;
@@ -102,6 +105,7 @@ const schema = {
 .manager-card-name-link { font-family: var(--font-display); font-size: 1.2rem; color: var(--text-primary); text-decoration: none; display: inline-block; transition: color var(--transition); }
 .manager-card-name-link:hover { color: var(--green); }
 .manager-card-name-link + .manager-card-name-link::before { content: ' & '; color: var(--text-muted); }
+.manager-card-tba { color: var(--text-muted); font-style: italic; }
 .manager-card-role { font-size: 0.75rem; color: var(--green); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: var(--space-sm); font-weight: 700; }
 .manager-card-team { font-size: 0.9rem; color: var(--text-secondary); font-weight: 600; margin-bottom: var(--space-xs); }
 .manager-card-pos { font-size: 0.85rem; color: var(--text-muted); }

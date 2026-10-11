@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import NewsCard from '../../components/NewsCard.astro';
 import { getCollection } from 'astro:content';
+import { CURRENT_SEASON } from '../../lib/league';
 
 const allNews = await getCollection('news');
 
@@ -42,9 +43,9 @@ const schema = {
   <div class="page-header">
     <div class="container">
       <Breadcrumb items={[{name:'Home',url:'/'},{name:'News'}]} />
-      <div class="section-label">Season 3</div>
+      <div class="section-label">Season {CURRENT_SEASON}</div>
       <h1>News & Reports</h1>
-      <p class="section-subtitle">Match reports, previews, transfer updates and social media from Baller League UK.</p>
+      <p class="section-subtitle">Match reports, previews, team and player features, transfer updates and analysis from Baller League UK.</p>
     </div>
   </div>
 

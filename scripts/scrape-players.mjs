@@ -8,7 +8,7 @@ const CACHE_DIR = resolve(__dirname, ".cache-players");
 if (!existsSync(CACHE_DIR)) mkdirSync(CACHE_DIR, { recursive: true });
 
 const TEAM_LOGO_MAP = {
-  "330": { slug: "yanited", name: "Yanited" },
+  "330": { slug: "yanited", name: "RTG FC" },
   "331": { slug: "wembley-rangers-afc", name: "Wembley Rangers AFC" },
   "332": { slug: "vzn-fc", name: "VZN FC" },
   "334": { slug: "sds-fc", name: "SDS FC" },
@@ -16,10 +16,11 @@ const TEAM_LOGO_MAP = {
   "340": { slug: "deportrio", name: "Deportrio" },
   "342": { slug: "ndl-fc", name: "NDL FC" },
   "343": { slug: "clutch-fc", name: "Clutch FC" },
-  "344": { slug: "rukkas-fc", name: "Rukkas FC" },
+  "344": { slug: "rukkas-fc", name: "P17 FC" },
   "345": { slug: "prime-fc", name: "Prime FC" },
   "346": { slug: "gold-devils-fc", name: "Gold Devils FC" },
   "347": { slug: "community-fc", name: "Community FC" },
+  "348": { slug: "toma", name: "Toma" },
 };
 
 async function fetchCached(url, cacheName) {
@@ -102,6 +103,24 @@ function parseStatsFromAjaxHtml(ajaxHtml) {
   };
 }
 
+// The player page embeds the current club as a JSON blob in data-current-team,
+// which is the most reliable team source (survives logo/png/svg changes).
+function parseTeamFromDataset(html) {
+  const m = html.match(/data-current-team="([^"]*)"/);
+  if (!m) return null;
+  const raw = m[1]
+    .replace(/&quot;/g, '"')
+    .replace(/&#0?39;|&apos;/g, "'")
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>');
+  try {
+    const obj = JSON.parse(raw);
+    if (obj && obj.slug) return { slug: obj.slug, name: obj.name };
+  } catch {}
+  return null;
+}
+
 function parsePlayerMeta(html, slug) {
   const result = {
     slug,
@@ -130,28 +149,28 @@ function parsePlayerMeta(html, slug) {
   const numM = html.match(/>(?:#|No\.?\s*)(\d{1,2})\s*</);
   if (numM) result.number = parseInt(numM[1]);
 
-  const logoM = html.match(/logo_(\d{3})\.svg/);
-  if (logoM) {
-    const team = TEAM_LOGO_MAP[logoM[1]];
-    if (team) {
-      result.team = team.name;
-      result.teamSlug = team.slug;
+  const datasetTeam = parseTeamFromDataset(html);
+  if (datasetTeam) {
+    result.team = datasetTeam.name;
+    result.teamSlug = datasetTeam.slug;
+  } else {
+    const logoM = html.match(/logo_(\d{3})\.(?:png|svg)/);
+    if (logoM) {
+      const team = TEAM_LOGO_MAP[logoM[1]];
+      if (team) {
+        result.team = team.name;
+        result.teamSlug = team.slug;
+      }
     }
   }
 
   return result;
 }
 
-function extractS3SeasonId(html) {
-  // Find <option value="X">Season 3</option> or similar
-  const optM = html.match(/<option\s+value="(\d+)"[^>]*>\s*Season 3\s*<\/option>/);
-  if (optM) return optM[1];
-
-  // Alternative: find by selected
-  const selM = html.match(/<option\s+value="(\d+)"\s+selected[^>]*>\s*Season 3\s*<\/option>/);
-  if (selM) return selM[1];
-
-  return null;
+function extractSeasonOptions(html) {
+  // Each <option value="6">Season 3</option> maps an internal season id to a season number.
+  return [...html.matchAll(/<option\s+value="(\d+)"[^>]*>\s*Season\s+(\d+)\s*<\/option>/g)]
+    .map((m) => ({ id: m[1], season: Number(m[2]) }));
 }
 
 function extractAjaxEndpoint(html) {
@@ -182,30 +201,33 @@ async function main() {
       continue;
     }
 
-    // Fetch Season 3 stats via AJAX
-    const s3SeasonId = extractS3SeasonId(html);
+    // Fetch every season shown in the page's season picker via the AJAX endpoint.
+    const seasonOptions = extractSeasonOptions(html);
     const ajaxEndpoint = extractAjaxEndpoint(html);
 
-    if (s3SeasonId && ajaxEndpoint) {
-      const ajaxUrl = ajaxEndpoint.replace("SEASON_ID", s3SeasonId);
-      const ajaxCacheName = `player-${slug}-s3.html`;
-      const ajaxHtml = await fetchCached(ajaxUrl, ajaxCacheName);
-      if (ajaxHtml) {
-        const s3Stats = parseStatsFromAjaxHtml(ajaxHtml);
-        player.seasons = {
-          "3": {
-            apps: s3Stats.apps,
-            goals: s3Stats.goals,
-            assists: s3Stats.assists,
-            detailed: s3Stats.detailed,
-          },
-        };
+    if (ajaxEndpoint && seasonOptions.length) {
+      const seasons = {};
+      for (const { id, season } of seasonOptions) {
+        const ajaxUrl = ajaxEndpoint.replace("SEASON_ID", id);
+        const ajaxCacheName = `player-${slug}-s${season}.html`;
+        const ajaxHtml = await fetchCached(ajaxUrl, ajaxCacheName);
+        if (ajaxHtml) {
+          const stats = parseStatsFromAjaxHtml(ajaxHtml);
+          seasons[String(season)] = {
+            apps: stats.apps,
+            goals: stats.goals,
+            assists: stats.assists,
+            detailed: stats.detailed,
+          };
+        }
+        await new Promise((r) => setTimeout(r, 100));
       }
+      if (Object.keys(seasons).length) player.seasons = seasons;
     }
 
     players.push(player);
-    const s3 = player.seasons?.["3"];
-    console.log(`  [${i + 1}/${slugs.length}] ${player.name} (${player.team || "?"}) — ${player.position || "?"}${s3 ? ` [${s3.goals}G/${s3.apps}A]` : ""}`);
+    const latest = player.seasons?.["4"] || player.seasons?.["3"];
+    console.log(`  [${i + 1}/${slugs.length}] ${player.name} (${player.team || "?"}) — ${player.position || "?"}${latest ? ` [${latest.goals}G/${latest.apps}Apps]` : ""}`);
 
     if (i % 3 === 2) await new Promise(r => setTimeout(r, 150));
   }

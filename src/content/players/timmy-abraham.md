@@ -1,19 +1,14 @@
 ---
 name: "Timmy Abraham"
-slug: "timmy-abraham"
 team: "prime-fc"
 teamName: "Prime FC"
 position: "Striker"
 nationality: "England"
-goals: 7
-assists: 2
-appearances: 10
-number: 9
 initials: "TA"
+bio: "Former Fulham academy striker and brother of England international Tammy Abraham."
+formerClubs: ["Fulham", "Cheltenham Town", "Bristol Rovers"]
 ---
 
-Timmy Abraham is a striker for Prime FC in Baller League UK Season 3. With 7 goals and 2 assists in 10 appearances, Abraham has been one of the standout performers this season.
+Timmy Abraham is a striker who came through the **Fulham** academy, following in the footsteps of his older brother, the England international **Tammy Abraham**. A strong, mobile forward, he gained senior experience on loan in the Football League before continuing his career in the lower divisions.
 
-Playing under manager KSI, Abraham has become a key part of Prime FC's attacking setup in the fast-paced 6v6 format. His consistent performances have been crucial to Prime FC's campaign this season.
-
-*Player statistics are for Season 3 and are updated each gameweek via the data pipeline.*
+At Prime FC he adds another genuine goalscoring option to a squad already packed with attacking talent.

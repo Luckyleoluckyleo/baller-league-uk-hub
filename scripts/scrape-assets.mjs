@@ -19,21 +19,35 @@ const LOGO_IDS = {
   "vzn-fc": 332,
   "rukkas-fc": 344,
   "community-fc": 347,
+  "toma": 348,
 };
 
 async function download(slug, id) {
-  const url = `https://ballerleague.uk/uploads/teams/logo_${id}.svg`;
-  try {
-    const resp = await fetch(url);
-    if (!resp.ok) { console.log(`  ${slug}: HTTP ${resp.status}`); return false; }
-    const svg = await resp.text();
-    writeFileSync(resolve(OUT_DIR, `${slug}.svg`), svg);
-    console.log(`  ${slug}: downloaded (${svg.length} bytes)`);
-    return true;
-  } catch (e) {
-    console.log(`  ${slug}: error - ${e.message}`);
-    return false;
+  // The official site now serves PNG logos (SVG was used previously), so try SVG
+  // first and fall back to wrapping the PNG in an SVG so pages can keep the
+  // `/logos/{slug}.svg` convention.
+  for (const ext of ["svg", "png"]) {
+    const url = `https://ballerleague.uk/uploads/teams/logo_${id}.${ext}`;
+    try {
+      const resp = await fetch(url);
+      if (!resp.ok) continue;
+      if (ext === "svg") {
+        writeFileSync(resolve(OUT_DIR, `${slug}.svg`), await resp.text());
+      } else {
+        const buf = Buffer.from(await resp.arrayBuffer());
+        const w = buf.readUInt32BE(16);
+        const h = buf.readUInt32BE(20);
+        const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}"><image width="${w}" height="${h}" href="data:image/png;base64,${buf.toString("base64")}"/></svg>`;
+        writeFileSync(resolve(OUT_DIR, `${slug}.svg`), svg);
+      }
+      console.log(`  ${slug}: downloaded (${ext})`);
+      return true;
+    } catch (e) {
+      /* try next extension */
+    }
   }
+  console.log(`  ${slug}: not found`);
+  return false;
 }
 
 console.log("Downloading team logos...");

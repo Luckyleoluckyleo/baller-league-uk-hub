@@ -3,172 +3,223 @@ import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const CONTENT_DIR = resolve(__dirname, "..", "src", "content", "news");
-const MATCHES_PATH = resolve(__dirname, "..", "src", "data", "gamechangers.json");
-const PLAYERS_PATH = resolve(__dirname, "..", "src", "data", "players.json");
-const TABLE_PATH = resolve(__dirname, "..", "src", "data", "table.json");
-const FIXTURES_PATH = resolve(__dirname, "..", "src", "data", "fixtures.json");
+const ROOT = resolve(__dirname, "..");
+const CONTENT_DIR = resolve(ROOT, "src", "content", "news");
+
+const read = (p) => JSON.parse(readFileSync(resolve(ROOT, p), "utf8"));
+const gcData = read("src/data/gamechangers.json");
+const playerData = read("src/data/players.json");
+const tableData = read("src/data/table.json");
+const fixturesData = read("src/data/fixtures.json");
+const season4 = read("src/data/season4.json");
 
 if (!existsSync(CONTENT_DIR)) mkdirSync(CONTENT_DIR, { recursive: true });
 
-const gcData = JSON.parse(readFileSync(MATCHES_PATH, "utf8"));
-const playerData = JSON.parse(readFileSync(PLAYERS_PATH, "utf8"));
-const tableData = JSON.parse(readFileSync(TABLE_PATH, "utf8"));
-const fixturesData = JSON.parse(readFileSync(FIXTURES_PATH, "utf8"));
-
-const allMatches = Object.values(gcData.seasons).flatMap(s => s.matches)
-  .filter(m => m.homeScore > 0 || m.awayScore > 0);
-
 const players = playerData.players;
 const upcoming = fixturesData.upcoming;
+const allMatches = Object.values(gcData.seasons).flatMap((s) => s.matches).filter((m) => m.homeScore > 0 || m.awayScore > 0);
 
-function getTopScorer(teamSlug) {
-  const squad = players.filter(p => p.teamSlug === teamSlug && (p.seasons?.["3"]?.goals || 0) > 0);
-  squad.sort((a, b) => (b.seasons?.["3"]?.goals || 0) - (a.seasons?.["3"]?.goals || 0));
-  return squad[0] || null;
-}
+// Map each game to its season so historical references read correctly.
+const seasonOfGame = {};
+for (const [s, data] of Object.entries(gcData.seasons)) for (const m of data.matches) seasonOfGame[m.gameId] = s;
 
-function getTeamPosition(slug) { const t = tableData.find(r => r.slug === slug); return t ? t.pos : null; }
+// ─── Season context ────────────────────────────────────────────
+const CURRENT_SEASON = upcoming[0]?.season ?? Math.max(...Object.keys(gcData.seasons).map(Number));
+const currentMatches = (gcData.seasons[String(CURRENT_SEASON)]?.matches || []).filter((m) => m.homeScore > 0 || m.awayScore > 0);
+const preSeason = currentMatches.length === 0;
+// The most recent season that actually has results (used for "last season" context).
+const statsSeason = String(
+  Object.keys(gcData.seasons)
+    .map(Number)
+    .sort((a, b) => b - a)
+    .find((s) => (gcData.seasons[String(s)]?.matches || []).some((m) => m.homeScore > 0 || m.awayScore > 0)) ?? CURRENT_SEASON - 1
+);
 
-function getForm(slug) {
-  const teamMatches = allMatches
-    .filter(m => (m.homeSlug === slug || m.awaySlug === slug))
-    .sort((a, b) => b.gameweek - a.gameweek)
-    .slice(0, 5);
-  return teamMatches.map(m => {
-    const isHome = m.homeSlug === slug;
-    const gd = isHome ? m.homeScore - m.awayScore : m.awayScore - m.homeScore;
-    if (gd > 0) return "W";
-    if (gd < 0) return "L";
-    return "D";
-  });
-}
+const teamByName = Object.fromEntries(tableData.map((t) => [t.slug, t]));
+const managerFor = (slug) => (season4.managers || []).find((m) => m.teamSlug === slug);
+const changeFor = (slug) => (season4.teamChanges || []).find((c) => (c.team || "").toLowerCase() === (teamByName[slug]?.team || "").toLowerCase());
 
-function getH2H(t1, t2) {
-  return allMatches.filter(m =>
-    (m.homeSlug === t1 && m.awaySlug === t2) || (m.homeSlug === t2 && m.awaySlug === t1)
-  );
-}
+const seasonLabel = `Season ${CURRENT_SEASON}`;
+const formLabel = preSeason ? `last season (Season ${statsSeason})` : `this season`;
 
-function getTeamGCStats(slug) {
-  const matches = allMatches.filter(m => m.homeSlug === slug || m.awaySlug === slug);
-  let totalGC = 0;
-  let count = 0;
-  for (const m of matches) {
-    totalGC += (m.gamechanger1?.goalsScored || 0) + (m.gamechanger2?.goalsScored || 0);
-    count++;
-  }
-  return { avg: count > 0 ? (totalGC / count).toFixed(1) : "0.0", total: totalGC };
-}
-
-function ordinalSuffix(n) {
+function ordinal(n) {
   if (n > 3 && n < 21) return "th";
-  const mod = n % 10;
-  if (mod === 1) return "st";
-  if (mod === 2) return "nd";
-  if (mod === 3) return "rd";
-  return "th";
+  const m = n % 10;
+  return m === 1 ? "st" : m === 2 ? "nd" : m === 3 ? "rd" : "th";
 }
 
-function generatePreview(fixture) {
+function keyPlayers(slug, limit = 5) {
+  return players
+    .filter((p) => p.teamSlug === slug && (p.seasons?.[statsSeason]?.apps || 0) > 0)
+    .sort((a, b) => (b.seasons?.[statsSeason]?.goals || 0) - (a.seasons?.[statsSeason]?.goals || 0))
+    .slice(0, limit);
+}
+
+function teamForm(slug) {
+  return allMatches
+    .filter((m) => m.homeSlug === slug || m.awaySlug === slug)
+    .sort((a, b) => b.gameweek - a.gameweek)
+    .slice(0, 5)
+    .map((m) => {
+      const isHome = m.homeSlug === slug;
+      const gd = isHome ? m.homeScore - m.awayScore : m.awayScore - m.homeScore;
+      return gd > 0 ? "W" : gd < 0 ? "L" : "D";
+    });
+}
+
+function h2h(a, b) {
+  const ms = allMatches
+    .filter((m) => (m.homeSlug === a && m.awaySlug === b) || (m.homeSlug === b && m.awaySlug === a))
+    .sort((x, y) => x.gameweek - y.gameweek);
+  let aw = 0, bw = 0, dr = 0;
+  for (const m of ms) {
+    const aIsHome = m.homeSlug === a;
+    const aGoals = aIsHome ? m.homeScore : m.awayScore;
+    const bGoals = aIsHome ? m.awayScore : m.homeScore;
+    if (aGoals > bGoals) aw++;
+    else if (bGoals > aGoals) bw++;
+    else dr++;
+  }
+  return { played: ms.length, aw, bw, dr, last: ms[ms.length - 1] || null };
+}
+
+function gcRate(slug) {
+  const ms = allMatches.filter((m) => m.homeSlug === slug || m.awaySlug === slug);
+  const total = ms.reduce((s, m) => s + (m.gamechanger1?.goalsScored || 0) + (m.gamechanger2?.goalsScored || 0), 0);
+  return { total, avg: ms.length ? (total / ms.length).toFixed(1) : "0.0" };
+}
+
+function playerLine(p) {
+  const st = p.seasons?.[statsSeason] || {};
+  return `- **${p.name}**${p.position ? ` (${p.position})` : ""} — ${st.goals || 0} goals, ${st.assists || 0} assists in ${st.apps || 0} appearance${st.apps === 1 ? "" : "s"} in Season ${statsSeason}.`;
+}
+
+function teamSection(slug, teamName) {
+  const mgr = managerFor(slug);
+  const change = changeFor(slug);
+  const players = keyPlayers(slug);
+
+  let s = `### ${teamName}\n\n`;
+  if (mgr) {
+    s += `Managed by **${mgr.name}**${change?.status === "confirmed" && change.note ? `. ${change.note}` : ""}\n\n`;
+  }
+  if (players.length) {
+    s += `**Ones to watch**\n\n${players.map(playerLine).join("\n")}\n\n`;
+  } else {
+    s += `Squad details for ${teamName} are still being confirmed ahead of the new season.\n\n`;
+  }
+  return s;
+}
+
+function buildPreview(fixture) {
   const home = fixture.homeTeam;
   const away = fixture.awayTeam;
   const hSlug = fixture.homeSlug;
   const aSlug = fixture.awaySlug;
   const gw = fixture.gameweek;
 
-  const homePos = getTeamPosition(hSlug);
-  const awayPos = getTeamPosition(aSlug);
-  const homeForm = getForm(hSlug);
-  const awayForm = getForm(aSlug);
-  const hScorer = getTopScorer(hSlug);
-  const aScorer = getTopScorer(aSlug);
-  const hH2H = getH2H(hSlug, aSlug);
-  const hGC = getTeamGCStats(hSlug);
-  const aGC = getTeamGCStats(aSlug);
-
-  const h2hRecord = getRecord(hH2H, home);
-  const h2hLast = hH2H.length > 0 ? hH2H[0] : null;
+  const homeMgr = managerFor(hSlug);
+  const awayMgr = managerFor(aSlug);
+  const homeForm = teamForm(hSlug);
+  const awayForm = teamForm(aSlug);
+  const head = h2h(hSlug, aSlug);
+  const hGC = gcRate(hSlug);
+  const aGC = gcRate(aSlug);
+  const dateStr = fixture.date || "";
+  const timeStr = fixture.time || "";
 
   const slug = `${hSlug}-vs-${aSlug}-gw${gw}-preview`.toLowerCase().replace(/[^a-z0-9-]/g, "-");
-  const date = new Date().toISOString().split("T")[0];
+  const iso = new Date().toISOString().split("T")[0];
 
-  const title = `Gameweek ${gw} Preview: ${home} vs ${away}`;
+  const title = `Gameweek ${gw} Preview: ${home} vs ${away} — Team News, Key Players & Prediction`;
+  const excerpt = `${home} meet ${away} in Gameweek ${gw} of Baller League UK ${seasonLabel}${dateStr ? ` on ${dateStr}` : ""}${timeStr ? ` (${timeStr})` : ""}. Team news, key players, head-to-head and our prediction.`;
 
-  const excerpt = `${home} (${homePos || "?"}${ordinalSuffix(homePos || 0)}) host ${away} (${awayPos || "?"}${ordinalSuffix(awayPos || 0)}) in Gameweek ${gw}. ${hScorer ? `${hScorer.name} (${hScorer.seasons?.["3"]?.goals || 0} goals) leads ${home}.` : ""}`;
+  const intro = `The new Baller League UK season gets under way as **${home}** take on **${away}** in Gameweek ${gw}${dateStr ? ` on **${dateStr}**` : ""}${timeStr ? `, with kick-off at **${timeStr}**` : ""}. It is the first competitive outing of ${seasonLabel} for both clubs, and the opening night at the Baller League Arena in Dagenham promises the usual mix of fast 6v6 football, celebrity dugouts and the game-changing rule twists that make the league so watchable.`;
 
-  const formBadge = (l) => l;
+  const contextPara = preSeason
+    ? `Season ${CURRENT_SEASON} marks a fresh start. Yanited have been rebranded as **RTG FC**, Rukkas FC are now **P17 FC**, and **Toma** join the league as a brand-new franchise — but the format remains the same: 12 teams, 11 Monday-night matchdays and a Final Four deciding the champion.`
+    : `Every point matters in ${seasonLabel}. With the top four reaching the Final Four at the end of the regular season, ${home} and ${away} both know a fast start could shape their entire campaign.`;
+
+  let formSection = "";
+  if (homeForm.length || awayForm.length) {
+    formSection += `\n## Form Guide\n\n`;
+    formSection += `Here is how the two sides finished up ${formLabel}, most recent result first (W = win, D = draw, L = loss):\n\n`;
+    formSection += `- **${home}:** ${homeForm.length ? homeForm.join(" · ") : "—"}\n`;
+    formSection += `- **${away}:** ${awayForm.length ? awayForm.join(" · ") : "—"}\n`;
+  }
+
+  let h2hSection = `\n## Head-to-Head\n\n`;
+  if (head.played === 0) {
+    h2hSection += `**${home}** and **${away}** have never met in Baller League UK — Gameweek ${gw} will be their first-ever competitive encounter.\n`;
+  } else {
+    h2hSection += `${home} and ${away} have met **${head.played}** time${head.played > 1 ? "s" : ""} before. ${home} have won **${head.aw}**, ${away} have won **${head.bw}**, with **${head.dr}** draw${head.dr === 1 ? "" : "s"}.\n`;
+    if (head.last) {
+      const lastSeason = seasonOfGame[head.last.gameId];
+      h2hSection += `\nThe most recent meeting came in Gameweek ${head.last.gameweek}${lastSeason ? ` of Season ${lastSeason}` : ""}, when the match finished **${head.last.homeTeam} ${head.last.homeScore}-${head.last.awayScore} ${head.last.awayTeam}**.\n`;
+    }
+  }
+
+  const gcSection = `\n## Game Changer Watch\n\n`
+    + `Both teams will need to be ready for the rule changes that arrive at the 12th and 27th minutes. Last season, **${home}** averaged **${hGC.avg}** Game Changer goals per match (${hGC.total} in total), while **${away}** averaged **${aGC.avg}** (${aGC.total}). `;
+
+  const managerSection = (homeMgr || awayMgr)
+    ? `\n## The Dugouts\n\n`
+      + (homeMgr ? `**${home}** are led by **${homeMgr.name}**.\n\n` : "")
+      + (awayMgr ? `**${away}** are led by **${awayMgr.name}**.\n\n` : "")
+      + `The manager battle on the touchline — and the personalities involved — is half the fun in the Baller League.\n`
+    : "";
+
+  const prediction = preSeason
+    ? `With no competitive form to go on yet, this one is genuinely hard to call. Both squads have been reshaped over the summer, and the opening night of a new season is notorious for surprises. Expect goals, a loud crowd and at least one Game Changer turning the game on its head.`
+    : `On recent evidence there is little to separate them. We are backing a tight, high-scoring contest in which the Game Changer windows — and whichever forward takes his chances — decide the outcome.`;
+
+  const howToWatch = `Matches stream online for ${seasonLabel} after the league's move away from traditional broadcast. Check our [where to watch guide](/watch) for the latest ways to follow every gameweek, and bookmark the [live table](/table) for results as they happen.`;
 
   const content = `---
 title: "${title}"
-date: ${date}
+date: ${iso}
 category: "Preview"
-excerpt: "${excerpt}"
+excerpt: "${excerpt.replace(/"/g, "'")}"
 author: "Baller League UK Fan Site"
 featured: false
 ---
 
 ## ${home} vs ${away} — Gameweek ${gw} Preview
 
-${home} (${homePos}${ordinalSuffix(homePos || 0)} in the table) host ${away} (${awayPos}${ordinalSuffix(awayPos || 0)}) at Baller Arena in Gameweek ${gw}. 
-${homePos && awayPos && homePos < awayPos
-    ? `${home} come into this fixture above ${away} in the standings and will look to extend that advantage.`
-    : homePos && awayPos
-    ? `${away} sit above ${home} in the table and will aim to maintain their position.`
-    : "Both teams will be eager to claim a crucial three points."}
+${intro}
 
-## Form Guide
+${contextPara}
 
-**${home}**: ${homeForm.map(l => formBadge(l)).join(" - ")} (last ${homeForm.length} matches)
-**${away}**: ${awayForm.map(l => formBadge(l)).join(" - ")} (last ${awayForm.length} matches)
+## Team News
 
-## Head-to-Head
-
-${hH2H.length > 0
-    ? `These sides have met ${hH2H.length} time${hH2H.length > 1 ? "s" : ""} before. ${home} have won ${h2hRecord.w}, ${away} have won ${h2hRecord.l}, with ${h2hRecord.d} draw${h2hRecord.d !== 1 ? "s" : ""}.`
-    : "These sides have yet to meet in Baller League competition — this will be their first encounter!"}
-${h2hLast ? `The last meeting saw ${h2hLast.homeTeam} defeat ${h2hLast.awayTeam} ${h2hLast.homeScore}-${h2hLast.awayScore}.` : ""}
-
-## Key Players
-
-${hScorer ? `**${hScorer.name}** — ${home}'s top scorer with ${hScorer.seasons?.["3"]?.goals || 0} goals and ${hScorer.seasons?.["3"]?.assists || 0} assists this season${hScorer.position ? ` (${hScorer.position})` : ""}.` : ""}
-${aScorer ? `**${aScorer.name}** — leads ${away}'s attack with ${aScorer.seasons?.["3"]?.goals || 0} goals in ${aScorer.seasons?.["3"]?.apps || 0} appearances.` : ""}
-
-## Game Changer X-Factor
-
-${home} average **${hGC.avg}** goals per match during Game Changer periods (${hGC.total} total).
-${away} average **${aGC.avg}** GC goals per match (${aGC.total} total).
+${teamSection(hSlug, home)}
+${teamSection(aSlug, away)}
+${managerSection}${formSection}${h2hSection}${gcSection}
 
 ## Prediction
 
-${homePos && awayPos && homePos < awayPos
-    ? `Based on current form and league position, ${home} go into this match as slight favourites, but ${away} have the quality to cause an upset.`
-    : awayPos && homePos && awayPos < homePos
-    ? `${away} hold the upper hand on paper, but ${home} will be dangerous on home turf.`
-    : "This is a closely matched contest on paper. Expect goals, drama, and the Game Changer to play a decisive role."}
+${prediction}
+
+## How to Watch
+
+${howToWatch}
+
+---
+
+*Preview published by [Baller League UK Hub](https://ballerleagueukhub.com) — the unofficial fan hub for Baller League UK ${seasonLabel}.*
+
+*Follow the new season with our [Season ${CURRENT_SEASON} hub](/season-4), the [full league table](/table) and [every team's squad](/teams).*
 `;
 
   return { slug, content };
 }
 
-function getRecord(matches, team) {
-  let w = 0, d = 0, l = 0;
-  for (const m of matches) {
-    const gd = m.homeSlug === team ? m.homeScore - m.awayScore : m.awayScore - m.homeScore;
-    if (gd > 0) w++; else if (gd < 0) l++; else d++;
-  }
-  return { w, d, l };
-}
-
-console.log(`Generating previews for ${upcoming.length} upcoming fixtures...\n`);
-
+console.log(`Generating previews for ${upcoming.length} upcoming fixtures (${seasonLabel})...\n`);
 let generated = 0;
 for (const fixture of upcoming) {
-  const { slug, content } = generatePreview(fixture);
-  const filePath = resolve(CONTENT_DIR, `${slug}.md`);
-  writeFileSync(filePath, content);
+  const { slug, content } = buildPreview(fixture);
+  writeFileSync(resolve(CONTENT_DIR, `${slug}.md`), content);
   generated++;
   console.log(`  ${slug}.md`);
 }
-
 console.log(`\nDone! ${generated} previews generated.`);

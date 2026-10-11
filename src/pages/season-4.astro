@@ -8,11 +8,16 @@ import season4 from '../data/season4.json';
 
 const allNews = await getCollection('news');
 const s4Slugs = [
-  'baller-league-season-4-guide',
+  'baller-league-season-4-opening-night-preview',
+  'how-to-watch-baller-league-uk-season-4',
   'baller-league-season-4-teams-managers-transfers',
-  'ben-mee-deportrio-baller-league',
-  'baller-league-sky-sports-online-only',
-  'who-is-gymskin-baller-league',
+  'baller-league-season-4-new-teams-rtg-p17-toma',
+  'baller-league-season-4-managers-confirmed',
+  'baller-league-season-4-transfers-ex-pros',
+  'inside-n5-fc-ex-premier-league-squad',
+  'baller-league-game-changers-explained',
+  'baller-league-uk-records-all-time-stats',
+  'baller-league-season-4-guide',
 ];
 const s4News = s4Slugs
   .map((s) => allNews.find((a) => a.slug === s))
@@ -106,6 +111,22 @@ const schema = {
       </section>
     )}
 
+    <!-- TEAMS -->
+    {season4.teams?.length > 0 && (
+      <section>
+        <div class="section-label">Line-up</div>
+        <h2 class="section-title">Season 4 Teams</h2>
+        <div class="s4-managers">
+          {season4.teams.map((t) => (
+            <a href={`/teams/${t.slug}`} class="s4-manager">
+              <span class="s4-manager-name">{t.name}</span>
+              <span class="s4-manager-team">{t.manager}</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
     <!-- MANAGERS -->
     <section>
       <div class="section-label">Managers</div>
@@ -128,7 +149,7 @@ const schema = {
       {season4.teamChanges?.length > 0 && (
         <div class="s4-changes">
           {season4.teamChanges.map((c) => (
-            <p class="s4-rumour"><strong>{c.team}:</strong> {c.note} <span class="s4-tag">unconfirmed</span></p>
+            <p class="s4-rumour"><strong>{c.team}:</strong> {c.note} <span class="s4-tag">{c.status || 'unconfirmed'}</span></p>
           ))}
         </div>
       )}

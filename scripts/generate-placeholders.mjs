@@ -14,26 +14,63 @@ const contentSlugs = fs.existsSync(contentDir)
   : [];
 const allSlugs = [...new Set([...players.map((p) => p.slug), ...contentSlugs])];
 
-function placeholder(name, size) {
-  const initials = name.split(" ").map((w) => w[0]).join("").slice(0, 2).toUpperCase();
+// Club accent colours (kept in sync with src/lib/league.ts TEAM_COLORS).
+const TEAM_COLORS = {
+  "clutch-fc": "#e11d48",
+  deportrio: "#e5153c",
+  "gold-devils-fc": "#f5a623",
+  "n5-fc": "#3b82f6",
+  "ndl-fc": "#f59e0b",
+  "rukkas-fc": "#8b5cf6",
+  "prime-fc": "#22c55e",
+  yanited: "#ef4444",
+  "sds-fc": "#10b981",
+  toma: "#a855f7",
+  "vzn-fc": "#38bdf8",
+  "wembley-rangers-afc": "#fb7185",
+  "m7-fc": "#94a3b8",
+  "community-fc": "#14b8a6",
+};
+
+// A neutral player silhouette on a dark gradient, haloed in the club colour —
+// used whenever no real headshot is available.
+function placeholder(size, color) {
+  const c = size / 2;
+  const accent = color || "#00e676";
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#1e2d48"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22314f"/>
       <stop offset="1" stop-color="#0f1625"/>
     </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="44%" r="58%">
+      <stop offset="0" stop-color="${accent}" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="${accent}" stop-opacity="0"/>
+    </radialGradient>
   </defs>
-  <rect width="${size}" height="${size}" fill="url(#g)"/>
-  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="${size * 0.42}" fill="#00e676">${initials}</text>
-</svg>`;
+  <rect width="${size}" height="${size}" fill="url(#bg)"/>
+  <rect width="${size}" height="${size}" fill="url(#halo)"/>
+  <g fill="#c7d2e0">
+    <circle cx="${c}" cy="${size * 0.36}" r="${size * 0.125}"/>
+    <path d="M ${size * 0.2} ${size * 0.87}
+             C ${size * 0.2} ${size * 0.59} ${size * 0.33} ${size * 0.5} ${c} ${size * 0.5}
+             C ${size * 0.67} ${size * 0.5} ${size * 0.8} ${size * 0.59} ${size * 0.8} ${size * 0.87} Z"/>
+  </g>
+  </svg>`;
   return sharp(Buffer.from(svg)).webp({ quality: 82 }).toBuffer();
 }
 
-const names = Object.fromEntries(players.map((p) => [p.slug, p.name]));
-for (const slug of contentSlugs) {
-  if (!names[slug]) {
-    const body = fs.readFileSync(path.join(contentDir, `${slug}.md`), "utf-8");
-    names[slug] = (body.match(/^name:\s*"?([^"\n]+)"?/m) || [])[1]?.trim() || slug;
+const teams = Object.fromEntries(players.map((p) => [p.slug, p.teamSlug]));
+
+async function isPlaceholder(file) {
+  try {
+    // Read into a buffer first: sharp(path) keeps a file handle open on Windows,
+    // which blocks the subsequent overwrite.
+    const buf = fs.readFileSync(file);
+    const meta = await sharp(buf).metadata();
+    return meta.width === 320 && meta.height === 320;
+  } catch {
+    return false;
   }
 }
 
@@ -41,9 +78,15 @@ let n = 0;
 for (const slug of allSlugs) {
   const main = path.join(rootDir, `public/players/${slug}.webp`);
   const thumb = path.join(rootDir, `public/players/thumb/${slug}.webp`);
-  if (fs.existsSync(main)) continue;
-  fs.writeFileSync(main, await placeholder(names[slug] || slug, 320));
-  fs.writeFileSync(thumb, await placeholder(names[slug] || slug, 96));
+  const color = TEAM_COLORS[teams[slug]] || "#00e676";
+
+  if (fs.existsSync(main)) {
+    // Keep real headshots; only replace generated 320x320 placeholders.
+    if (!(await isPlaceholder(main))) continue;
+  }
+
+  fs.writeFileSync(main, await placeholder(320, color));
+  fs.writeFileSync(thumb, await placeholder(96, color));
   n++;
 }
 

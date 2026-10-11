@@ -25,19 +25,23 @@ const GC_DEFS = {
 // changes (e.g. "MVPs United" -> "Prime", "Trebol FC" -> "NDL"). We key on the
 // id, not the name, so historical seasons are detected correctly.
 const TEAMS = [
-  { id: 330, slug: "yanited", emoji: "👑", canonical: "Yanited", names: { 1: "Yanited", 2: "Yanited", 3: "Yanited" } },
-  { id: 331, slug: "wembley-rangers-afc", emoji: "🏟️", canonical: "Wembley Rangers AFC", names: { 1: "Wembley Rangers", 2: "Wembley Rangers", 3: "Wembley Rangers" } },
-  { id: 332, slug: "vzn-fc", emoji: "👁️", canonical: "VZN FC", names: { 1: "VZN", 2: "VZN", 3: "VZN" } },
-  { id: 334, slug: "sds-fc", emoji: "🟢", canonical: "SDS FC", names: { 1: "SDS", 2: "SDS", 3: "SDS" } },
-  { id: 337, slug: "n5-fc", emoji: "5️⃣", canonical: "N5 FC", names: { 1: "N5", 2: "N5", 3: "N5" } },
+  // Yanited rebranded to RTG FC for Season 4 (franchise id unchanged).
+  { id: 330, slug: "yanited", emoji: "👑", canonical: "RTG FC", names: { 1: "Yanited", 2: "Yanited", 3: "Yanited", 4: "RTG FC" } },
+  { id: 331, slug: "wembley-rangers-afc", emoji: "🏟️", canonical: "Wembley Rangers AFC", names: { 1: "Wembley Rangers", 2: "Wembley Rangers", 3: "Wembley Rangers", 4: "Wembley Rangers" } },
+  { id: 332, slug: "vzn-fc", emoji: "👁️", canonical: "VZN FC", names: { 1: "VZN", 2: "VZN", 3: "VZN", 4: "VZN" } },
+  { id: 334, slug: "sds-fc", emoji: "🟢", canonical: "SDS FC", names: { 1: "SDS", 2: "SDS", 3: "SDS", 4: "SDS" } },
+  { id: 337, slug: "n5-fc", emoji: "5️⃣", canonical: "N5 FC", names: { 1: "N5", 2: "N5", 3: "N5", 4: "N5" } },
   { id: 339, slug: "m7-fc", emoji: "7️⃣", canonical: "M7", names: { 1: "M7", 2: "M7" } },
-  { id: 340, slug: "deportrio", emoji: "🔴", canonical: "Deportrio", names: { 1: "Deportrio", 2: "Deportrio", 3: "Deportrio" } },
-  { id: 342, slug: "ndl-fc", emoji: "🏆", canonical: "NDL FC", names: { 1: "Trebol FC", 2: "NDL", 3: "NDL" } },
-  { id: 343, slug: "clutch-fc", emoji: "✊", canonical: "Clutch FC", names: { 1: "Santan FC", 2: "Clutch", 3: "Clutch" } },
-  { id: 344, slug: "rukkas-fc", emoji: "💀", canonical: "Rukkas FC", names: { 1: "F.C RTW", 2: "Rukkas", 3: "Rukkas" } },
-  { id: 345, slug: "prime-fc", emoji: "⚡", canonical: "Prime FC", names: { 1: "MVPs United", 2: "MVPs United", 3: "Prime" } },
-  { id: 346, slug: "gold-devils-fc", emoji: "👿", canonical: "Gold Devils FC", names: { 1: "26ers", 2: "26ers", 3: "Gold Devils" } },
+  { id: 340, slug: "deportrio", emoji: "🔴", canonical: "Deportrio", names: { 1: "Deportrio", 2: "Deportrio", 3: "Deportrio", 4: "Deportrio" } },
+  { id: 342, slug: "ndl-fc", emoji: "🏆", canonical: "NDL FC", names: { 1: "Trebol FC", 2: "NDL", 3: "NDL", 4: "NDL" } },
+  { id: 343, slug: "clutch-fc", emoji: "✊", canonical: "Clutch FC", names: { 1: "Santan FC", 2: "Clutch", 3: "Clutch", 4: "Clutch" } },
+  // Rukkas FC rebranded to P17 FC for Season 4 (franchise id unchanged).
+  { id: 344, slug: "rukkas-fc", emoji: "💀", canonical: "P17 FC", names: { 1: "F.C RTW", 2: "Rukkas", 3: "Rukkas", 4: "P17 FC" } },
+  { id: 345, slug: "prime-fc", emoji: "⚡", canonical: "Prime FC", names: { 1: "MVPs United", 2: "MVPs United", 3: "Prime", 4: "Prime" } },
+  { id: 346, slug: "gold-devils-fc", emoji: "👿", canonical: "Gold Devils FC", names: { 1: "26ers", 2: "26ers", 3: "Gold Devils", 4: "Gold Devils" } },
   { id: 347, slug: "community-fc", emoji: "🤝", canonical: "Community FC", names: { 3: "Community Team" } },
+  // New Season 4 franchise.
+  { id: 348, slug: "toma", emoji: "🎩", canonical: "Toma", names: { 4: "Toma" } },
 ];
 const TEAM_BY_ID = Object.fromEntries(TEAMS.map((t) => [t.id, t]));
 // The same franchise is renamed between seasons, so map every historical name to its team.

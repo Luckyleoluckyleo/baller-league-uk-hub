@@ -1,19 +1,16 @@
 ---
 name: "Kazaiah Sterling"
-slug: "kazaiah-sterling"
 team: "sds-fc"
 teamName: "SDS FC"
-position: "Midfielder"
+position: "Striker"
 nationality: "England"
-goals: 5
-assists: 7
-appearances: 10
 number: 45
 initials: "KS"
+bio: "Former Tottenham Hotspur forward and a Baller League goalscorer."
+formerClubs: ["Tottenham Hotspur", "Doncaster Rovers", "Sunderland", "Leyton Orient"]
+honours: ["England youth international"]
 ---
 
-Kazaiah Sterling is a midfielder for SDS FC in Baller League UK Season 3. With 5 goals and 7 assists in 10 appearances, Sterling has been one of the standout performers this season.
+Kazaiah Sterling is a forward who came through the **Tottenham Hotspur** academy and went on to play first-team football on loan at the likes of **Doncaster Rovers**, **Sunderland** and **Leyton Orient**. Quick and direct, he was one of the most highly-rated young attackers in English youth football.
 
-Playing under manager Tobi Brown, Sterling has become a key part of SDS FC's attacking setup in the fast-paced 6v6 format. His consistent performances have been crucial to SDS FC's campaign this season.
-
-*Player statistics are for Season 3 and are updated each gameweek via the data pipeline.*
+In the Baller League, Sterling has become one of the league's most reliable goalscorers — exactly the profile that thrives when the Game Changers open the game up.

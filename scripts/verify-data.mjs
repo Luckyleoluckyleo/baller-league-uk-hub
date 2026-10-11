@@ -116,8 +116,9 @@ function checkPlayers() {
 }
 
 function main() {
-  const wanted = process.argv.slice(2).filter((a) => ["1", "2", "3"].includes(a));
-  const seasons = wanted.length ? wanted : ["1", "2", "3"];
+  const all = Object.keys(gc.seasons).sort((a, b) => Number(a) - Number(b));
+  const wanted = process.argv.slice(2).filter((a) => all.includes(a));
+  const seasons = wanted.length ? wanted : all;
 
   console.log("Baller League UK — data verification vs official (src/data/standings.json)\n");
 
@@ -126,6 +127,10 @@ function main() {
     const official = standings[s] || [];
     const epBySlug = Object.fromEntries(official.map((r) => [r.slug, r.ep || 0]));
     console.log(`\n===== Season ${s} =====`);
+    if (!matches.length) {
+      console.log(`  pre-season — no matches yet (skipped)`);
+      continue;
+    }
     checkStructural(matches);
     checkInternal(matches);
     checkStandings(computeStandings(matches, epBySlug), official);

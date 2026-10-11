@@ -1,5 +1,78 @@
 {
-  "upcoming": [],
+  "upcoming": [
+    {
+      "gameweek": 1,
+      "season": 4,
+      "homeTeam": "Deportrio",
+      "homeSlug": "deportrio",
+      "homeEmoji": "🔴",
+      "awayTeam": "Wembley Rangers AFC",
+      "awaySlug": "wembley-rangers-afc",
+      "awayEmoji": "🏟️",
+      "date": "12 October 2026",
+      "time": "17:30"
+    },
+    {
+      "gameweek": 1,
+      "season": 4,
+      "homeTeam": "VZN FC",
+      "homeSlug": "vzn-fc",
+      "homeEmoji": "👁️",
+      "awayTeam": "RTG FC",
+      "awaySlug": "yanited",
+      "awayEmoji": "👑",
+      "date": "12 October 2026",
+      "time": "18:30"
+    },
+    {
+      "gameweek": 1,
+      "season": 4,
+      "homeTeam": "SDS FC",
+      "homeSlug": "sds-fc",
+      "homeEmoji": "🟢",
+      "awayTeam": "N5 FC",
+      "awaySlug": "n5-fc",
+      "awayEmoji": "5️⃣",
+      "date": "12 October 2026",
+      "time": "19:30"
+    },
+    {
+      "gameweek": 1,
+      "season": 4,
+      "homeTeam": "NDL FC",
+      "homeSlug": "ndl-fc",
+      "homeEmoji": "🏆",
+      "awayTeam": "P17 FC",
+      "awaySlug": "rukkas-fc",
+      "awayEmoji": "💀",
+      "date": "12 October 2026",
+      "time": "20:25"
+    },
+    {
+      "gameweek": 1,
+      "season": 4,
+      "homeTeam": "Toma",
+      "homeSlug": "toma",
+      "homeEmoji": "🎩",
+      "awayTeam": "Gold Devils FC",
+      "awaySlug": "gold-devils-fc",
+      "awayEmoji": "👿",
+      "date": "12 October 2026",
+      "time": "21:20"
+    },
+    {
+      "gameweek": 1,
+      "season": 4,
+      "homeTeam": "Prime FC",
+      "homeSlug": "prime-fc",
+      "homeEmoji": "⚡",
+      "awayTeam": "Clutch FC",
+      "awaySlug": "clutch-fc",
+      "awayEmoji": "✊",
+      "date": "12 October 2026",
+      "time": "22:15"
+    }
+  ],
   "results": [
     {
       "gameweek": 12,

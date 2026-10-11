@@ -5,6 +5,7 @@ import StatLeaderboard from '../../components/StatLeaderboard.astro';
 import StatStrip from '../../components/StatStrip.astro';
 import playerData from '../../data/players.json';
 import gcData from '../../data/gamechangers.json';
+import { CURRENT_SEASON } from '../../lib/league';
 
 const players = playerData.players;
 const gcMatches = Object.values(gcData.seasons).flatMap((s: any) => s.matches);
@@ -24,13 +25,21 @@ const enrich = (p: any): Player => ({
 
 const enriched: Player[] = players.map(enrich);
 
+// The season shown: the current one if any player has stats, else the latest with stats.
+const statsSeason = String(
+  [...new Set(enriched.flatMap((p) => Object.keys(p.seasons ?? {})))]
+    .map(Number)
+    .sort((a, b) => b - a)
+    .find((k) => enriched.some((p) => (p.seasons?.[k]?.apps || 0) > 0)) ?? CURRENT_SEASON
+);
+
 // Sort by goals for display
-const byGoals = [...enriched].sort((a, b) => (b.seasons?.['3']?.goals || 0) - (a.seasons?.['3']?.goals || 0));
+const byGoals = [...enriched].sort((a, b) => (b.seasons?.[statsSeason]?.goals || 0) - (a.seasons?.[statsSeason]?.goals || 0));
 const byGCGoals = [...enriched].sort((a, b) => (b._gcGoals || 0) - (a._gcGoals || 0));
 
 // Detailed per-player metrics scraped from the official player pages.
 const metric = (p: any, key: string): number => {
-  const s = p.seasons?.['3'] || {};
+  const s = p.seasons?.[statsSeason] || {};
   if (key === 'goals' || key === 'assists' || key === 'apps') return s[key] || 0;
   return (s.detailed && s.detailed[key]) || 0;
 };
@@ -47,7 +56,7 @@ const snapshot = {
   shots: rank('Total Shots', 1)[0],
   saves: rank('Saves Made', 1)[0],
 };
-const totalGoals = enriched.reduce((n, p) => n + (p.seasons?.['3']?.goals || 0), 0);
+const totalGoals = enriched.reduce((n, p) => n + (p.seasons?.[statsSeason]?.goals || 0), 0);
 
 // One combined leaderboard, switched by a category selector.
 const leaderboards = [
@@ -74,22 +83,22 @@ const schema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Baller League UK Players",
-  "description": "All Baller League UK players for Season 3 with goals, assists, appearances and detailed stats. Leaderboards and filtering.",
+  "description": `All Baller League UK players for Season ${statsSeason} with goals, assists, appearances and detailed stats. Leaderboards and filtering.`,
   "about": { "@type": "SportsOrganization", "name": "Baller League UK", "sport": "Football" },
 };
 ---
 
 <Base
   title="Baller League UK Players — Stats, Goals & Player Profiles"
-  description="Browse all Baller League UK players for Season 3. Leaderboards by goals and GC goals, search by name, filter by team or position."
-  keywords="players, goals, assists, stats, top scorers, squad, Season 3"
+  description={`Browse all Baller League UK players for Season ${statsSeason}. Leaderboards by goals and GC goals, search by name, filter by team or position.`}
+  keywords={`players, goals, assists, stats, top scorers, squad, Season ${statsSeason}`}
   schema={schema}
 >
 
   <div class="page-header">
     <div class="container">
       <Breadcrumb items={[{name:'Home',url:'/'},{name:'Players'}]} />
-      <div class="section-label">Season 3 — {enriched.length} Players</div>
+      <div class="section-label">Season {statsSeason} — {enriched.length} Players</div>
       <h1>Player Database</h1>
       <p class="section-subtitle">
         Full directory of every Baller League UK player with stats. Leaderboards, search and filter to find any player.
@@ -144,7 +153,7 @@ const schema = {
       <div class="card-body" style="padding: 0;">
         <div class="table-wrap" style="border-radius: var(--radius-lg);">
           <table id="players-table" class="table-cards">
-            <caption class="visually-hidden">All Baller League UK Season 3 players — goals, assists, appearances, shots, passes, tackles and saves. Columns are sortable.</caption>
+            <caption class="visually-hidden">All Baller League UK Season {statsSeason} players — goals, assists, appearances, shots, passes, tackles and saves. Columns are sortable.</caption>
             <thead>
               <tr>
                 <th scope="col">#</th>
@@ -162,7 +171,7 @@ const schema = {
             </thead>
             <tbody>
               {byGoals.map((p, i) => (
-                <tr class="player-row" data-name={p.name.toLowerCase()} data-team={p.team || ''} data-position={p.position || ''} data-goals={p.seasons?.['3']?.goals || 0} data-assists={p.seasons?.['3']?.assists || 0} data-apps={p.seasons?.['3']?.apps || 0} data-shots={metric(p, 'Total Shots')} data-passes={metric(p, 'Total Passes')} data-tackles={metric(p, 'Total Tackles')} data-saves={metric(p, 'Saves Made')}>
+                <tr class="player-row" data-name={p.name.toLowerCase()} data-team={p.team || ''} data-position={p.position || ''} data-goals={p.seasons?.[statsSeason]?.goals || 0} data-assists={p.seasons?.[statsSeason]?.assists || 0} data-apps={p.seasons?.[statsSeason]?.apps || 0} data-shots={metric(p, 'Total Shots')} data-passes={metric(p, 'Total Passes')} data-tackles={metric(p, 'Total Tackles')} data-saves={metric(p, 'Saves Made')}>
                   <td class="text-muted" style="width: 40px;" data-label="#">{i + 1}</td>
                   <td data-label="Player">
                     <div class="lb-player">
@@ -175,9 +184,9 @@ const schema = {
                   </td>
                   <td data-label="Team">{p.teamSlug ? <a href={`/teams/${p.teamSlug}`} class="text-green" style="font-size: 0.88rem;">{p.team}</a> : <span class="text-muted">—</span>}</td>
                   <td data-label="Pos"><span class="badge badge-green" style="font-size: 0.7rem;">{p.position || '—'}</span></td>
-                  <td class="num-col pts-cell" data-label="Goals">{p.seasons?.['3']?.goals ?? 0}</td>
-                  <td class="num-col" data-label="Assists">{p.seasons?.['3']?.assists ?? 0}</td>
-                  <td class="num-col" data-label="Apps">{p.seasons?.['3']?.apps ?? 0}</td>
+                  <td class="num-col pts-cell" data-label="Goals">{p.seasons?.[statsSeason]?.goals ?? 0}</td>
+                  <td class="num-col" data-label="Assists">{p.seasons?.[statsSeason]?.assists ?? 0}</td>
+                  <td class="num-col" data-label="Apps">{p.seasons?.[statsSeason]?.apps ?? 0}</td>
                   <td class="num-col" data-label="Shots">{metric(p, 'Total Shots')}</td>
                   <td class="num-col" data-label="Passes">{metric(p, 'Total Passes')}</td>
                   <td class="num-col" data-label="Tackles">{metric(p, 'Total Tackles')}</td>

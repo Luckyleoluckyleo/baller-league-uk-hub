@@ -7,6 +7,7 @@
     "start": "astro dev",
     "build": "astro build && node scripts/generate-redirects.mjs && node scripts/generate-sitemap.mjs",
     "preview": "astro preview",
+    "fixtures": "node scripts/scrape-fixtures.mjs",
     "update": "node scripts/update.mjs"
   },
   "dependencies": {

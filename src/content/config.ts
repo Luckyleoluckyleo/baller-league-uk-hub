@@ -34,6 +34,9 @@ const playersCollection = defineCollection({
     appearances: z.number().default(0),
     number:      z.number().optional(),
     initials:    z.string().optional(),
+    bio:         z.string().optional(),            // one-line summary shown under the name
+    formerClubs: z.array(z.string()).optional(),   // previous clubs / career history
+    honours:     z.array(z.string()).optional(),   // notable achievements
   }),
 });
 
@@ -46,6 +49,10 @@ const managersCollection = defineCollection({
     role:        z.string().default('Manager'),
     emoji:       z.string().default('⚽'),
     image:       z.string().optional(),
+    nationality: z.string().optional(),
+    active:      z.boolean().default(true),   // false for former managers (kept for history)
+    formerClubs: z.array(z.string()).optional(),
+    honours:     z.array(z.string()).optional(),
     bio:         z.string(),
   }),
 });

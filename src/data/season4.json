@@ -36,41 +36,66 @@
     "ballerBundle": "Multiple consecutive matchdays (3–4 nights)",
     "ballerPass": "All 11 regular-season matchdays"
   },
+  "teams": [
+    { "name": "Clutch", "slug": "clutch-fc", "manager": "Chloe Kelly", "status": "confirmed" },
+    { "name": "Deportrio", "slug": "deportrio", "manager": "Micah Richards", "status": "confirmed" },
+    { "name": "Gold Devils", "slug": "gold-devils-fc", "manager": "Mark Goldbridge, Spencer Owen", "status": "confirmed" },
+    { "name": "N5", "slug": "n5-fc", "manager": "Jens Lehmann", "status": "confirmed" },
+    { "name": "NDL", "slug": "ndl-fc", "manager": "Niko Omilana", "status": "confirmed" },
+    { "name": "P17 FC", "slug": "rukkas-fc", "manager": "Alex Iwobi", "status": "confirmed", "note": "Rebrand of Rukkas FC (franchise id 344)." },
+    { "name": "Prime", "slug": "prime-fc", "manager": "KSI", "status": "confirmed" },
+    { "name": "RTG FC", "slug": "yanited", "manager": "Danny Aarons", "status": "confirmed", "note": "Rebrand of Yanited (franchise id 330)." },
+    { "name": "SDS", "slug": "sds-fc", "manager": "Sharky", "status": "confirmed" },
+    { "name": "Toma", "slug": "toma", "manager": "Jay-Jay Okocha", "status": "confirmed", "note": "New Season 4 franchise (id 348)." },
+    { "name": "VZN", "slug": "vzn-fc", "manager": "Tobi Brown (TBJZL)", "status": "confirmed" },
+    { "name": "Wembley Rangers", "slug": "wembley-rangers-afc", "manager": "To be announced", "status": "unconfirmed" }
+  ],
   "managers": [
-    { "name": "KSI", "teamSlug": "prime-fc", "teamName": "Prime", "status": "returning" },
-    { "name": "Niko Omilana", "teamSlug": "ndl-fc", "teamName": "NDL", "status": "returning" },
-    { "name": "Micah Richards", "teamSlug": "deportrio", "teamName": "Deportrio", "status": "returning" },
-    { "name": "Daniel Sturridge", "teamSlug": "deportrio", "teamName": "Deportrio", "status": "returning" },
-    { "name": "Chloe Kelly", "teamSlug": "clutch-fc", "teamName": "Clutch", "status": "returning" },
-    { "name": "Mark Goldbridge", "teamSlug": "gold-devils-fc", "teamName": "Gold Devils", "status": "returning" },
-    { "name": "Jens Lehmann", "teamSlug": "n5-fc", "teamName": "N5", "status": "returning" },
-    { "name": "Idris Elba", "teamSlug": "rukkas-fc", "teamName": "Rukkas", "status": "returning" },
-    { "name": "Sharky", "teamSlug": "sds-fc", "teamName": "SDS", "status": "returning" },
-    { "name": "Tobi Brown (TBJZL)", "teamSlug": "vzn-fc", "teamName": "VZN", "status": "returning" },
-    { "name": "Ian Wright & Alan Shearer", "teamSlug": "wembley-rangers-afc", "teamName": "Wembley Rangers", "status": "returning" },
-    { "name": "TBC", "teamSlug": null, "teamName": "TBD", "status": "unconfirmed" }
+    { "name": "KSI", "teamSlug": "prime-fc", "teamName": "Prime", "status": "confirmed" },
+    { "name": "Niko Omilana", "teamSlug": "ndl-fc", "teamName": "NDL", "status": "confirmed" },
+    { "name": "Micah Richards", "teamSlug": "deportrio", "teamName": "Deportrio", "status": "confirmed" },
+    { "name": "Chloe Kelly", "teamSlug": "clutch-fc", "teamName": "Clutch", "status": "confirmed" },
+    { "name": "Mark Goldbridge", "teamSlug": "gold-devils-fc", "teamName": "Gold Devils", "status": "confirmed" },
+    { "name": "Spencer Owen", "teamSlug": "gold-devils-fc", "teamName": "Gold Devils", "status": "confirmed" },
+    { "name": "Jens Lehmann", "teamSlug": "n5-fc", "teamName": "N5", "status": "confirmed" },
+    { "name": "Alex Iwobi", "teamSlug": "rukkas-fc", "teamName": "P17 FC", "status": "confirmed" },
+    { "name": "Danny Aarons", "teamSlug": "yanited", "teamName": "RTG FC", "status": "confirmed" },
+    { "name": "Sharky", "teamSlug": "sds-fc", "teamName": "SDS", "status": "confirmed" },
+    { "name": "Jay-Jay Okocha", "teamSlug": "toma", "teamName": "Toma", "status": "confirmed" },
+    { "name": "Tobi Brown (TBJZL)", "teamSlug": "vzn-fc", "teamName": "VZN", "status": "confirmed" },
+    { "name": "TBC", "teamSlug": "wembley-rangers-afc", "teamName": "Wembley Rangers", "status": "unconfirmed" }
   ],
   "teamChanges": [
     {
-      "team": "Yanited",
-      "note": "Listed as a former team (managed by Angry Ginge, Seasons 1–3) after Season 3. Not in the Season 4 line-up per Wikipedia (25 September 2026).",
-      "status": "unconfirmed"
+      "team": "RTG FC",
+      "note": "Yanited (managed by Angry Ginge in Seasons 1–3) rebranded to RTG FC for Season 4, now managed by Danny Aarons. Franchise id 330 unchanged.",
+      "status": "confirmed"
     },
     {
-      "team": "TBD",
-      "note": "A 12th team is listed as TBD for Season 4 — could be a new franchise or a rebrand.",
-      "status": "unconfirmed"
+      "team": "P17 FC",
+      "note": "Rukkas FC (Idris Elba) rebranded to P17 FC for Season 4, managed by Alex Iwobi. Franchise id 344 unchanged.",
+      "status": "confirmed"
+    },
+    {
+      "team": "Toma",
+      "note": "New Season 4 franchise (id 348), managed by Jay-Jay Okocha.",
+      "status": "confirmed"
+    },
+    {
+      "team": "Community FC",
+      "note": "Rostered in Season 3 but not part of the Season 4 line-up.",
+      "status": "confirmed"
     }
   ],
   "prospectiveManagers": [
     {
       "name": "Gymskin",
       "status": "rumoured",
-      "note": "Viral TikTok/Kick streamer (Madonna 'Into the Groove' trend). Appeared and was interviewed at Baller League UK in 2026, and managed the 'Creators team' at the Season 3 Final Four (announced 18 May 2026). Widely linked with a full team manager role for Season 4, but not confirmed by the league.",
+      "teamSlug": "wembley-rangers-afc",
+      "teamName": "Wembley Rangers",
+      "note": "Widely linked with the Wembley Rangers manager role for Season 4 — the 12th team's boss has not yet been announced by the league.",
       "sources": [
         "https://kick.com/gymskin",
-        "https://x.com/BallerLeagueUK/status/2056443526070571247",
-        "https://www.youtube.com/watch?v=5cuGxoOoaxI",
         "https://www.instagram.com/reel/DXXgjGKDCZm/"
       ]
     }
@@ -108,8 +133,7 @@
     {
       "title": "Ex-Premier League captain, 37, signs up for Baller League months after retiring",
       "source": "The Sun",
-      "date": "29 September 2026",
-      "status": "name unconfirmed — investigate"
+      "date": "29 September 2026"
     },
     {
       "title": "Sky Sports to stop showing breakthrough football league in major change",
@@ -153,8 +177,9 @@
     { "name": "Baller League UK Instagram (SEASON 4: 12TH OCTOBER)", "url": "https://www.instagram.com/ballerleagueuk/" }
   ],
   "notes": [
-    "Season 4 begins 12 October 2026 — fixtures and squads should appear on ballerleague.uk/en soon.",
-    "The scraper's date-based season detection will collect S4 match data automatically once games are played.",
-    "Confirm the S4 team line-up and managers from the official Teams page once updated."
+    "Season 4 begins 12 October 2026 — fixtures and squads are now live on ballerleague.uk/en.",
+    "Season 4 line-up confirmed: Clutch, Deportrio, Gold Devils, N5, NDL, P17 FC, Prime, RTG FC, SDS, Toma, VZN, Wembley Rangers.",
+    "The scraper's date-based season detection collects S4 match data automatically once games are played.",
+    "The date-based season detection assigns autumn (Sep–Feb) matches to even seasons, so S4 is picked up automatically."
   ]
 }

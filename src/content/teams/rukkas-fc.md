@@ -1,13 +1,13 @@
 ---
-name: "Rukkas FC"
+name: "P17 FC"
 urlSlug: "rukkas-fc"
-manager: "Idris Elba"
+manager: "Alex Iwobi"
 managerRole: "Manager"
 emoji: "💀"
 primaryColor: "#00e676"
 founded: 2025
 homeCity: "London"
-description: "Idris Elba's Rukkas FC bring star power to every gameweek."
+description: "Alex Iwobi's P17 FC — the rebranded Rukkas — bring Premier League pedigree to Season 4."
 wins: 0
 draws: 0
 losses: 0
@@ -16,6 +16,6 @@ goalsAgainst: 0
 points: 0
 ---
 
-Rukkas FC are managed by the one and only **Idris Elba** — the award-winning actor, DJ, producer, and global icon. Elba's involvement in Baller League UK has brought unprecedented mainstream attention to the competition, and his Rukkas FC side carry the star power of their manager with a confident, expressive style of play.
+P17 FC are the Season 4 rebrand of **Rukkas FC**, now managed by **Alex Iwobi** — the Nigeria international and Premier League winger who came through the ranks at Arsenal before spells with Everton and Fulham. Iwobi is a genuine top-flight talent whose flair, close control and football brain make him a perfect fit for the fast, technical 6v6 format.
 
-The team play with flair and creativity, encouraged by Elba's cool-headed leadership from the touchline. While results have been mixed, Rukkas FC have shown flashes of brilliance and possess the individual talent to trouble any team on their day. Elba's presence alone makes Rukkas one of the league's most talked-about teams, and his commitment to the project demonstrates that the Baller League is serious entertainment. When the music stops and the football starts, Rukkas FC are always box office.
+His arrival signals real ambition. Under Iwobi, P17 FC are expected to play expansive, attack-minded football, with an emphasis on quick combinations and improvisation — the kind of style that flourishes in the Game Changer windows. The squad is young, hungry and technically gifted, and Iwobi's day-to-day experience at the elite level gives them a coach who has lived the pressures of the professional game.

@@ -1,0 +1,51 @@
+name: Weekly S4 update
+
+# Runs the full Baller League UK pipeline after Monday-night matchdays and
+# commits the refreshed data + generated content. Netlify deploys on the push.
+#
+# NOTE: this needs no extra secret — it uses the built-in GITHUB_TOKEN with
+# `contents: write`. If the site repo moves, or you want the push to trigger
+# other GitHub workflows, swap in a fine-grained PAT secret instead.
+
+on:
+  schedule:
+    # Mondays 23:30 UTC (~after the final whistle of the Monday matchday).
+    - cron: "30 23 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-s4-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run full update (scrape → generate → verify → build)
+        run: npm run update
+
+      - name: Commit and push if anything changed
+        run: |
+          git config user.name "baller-hub-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add -A
+            git commit -m "chore: automated weekly update"
+            git push
+          else
+            echo "No changes to commit."
+          fi

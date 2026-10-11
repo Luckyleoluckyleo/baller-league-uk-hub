@@ -4,51 +4,53 @@ import Breadcrumb from '../../components/Breadcrumb.astro';
 import TeamCard from '../../components/TeamCard.astro';
 import StatStrip from '../../components/StatStrip.astro';
 import { getCollection } from 'astro:content';
-import tableData from '../../data/table.json';
 import playersData from '../../data/players.json';
+import { CURRENT_SEASON, standingsFor } from '../../lib/league';
 
 const teams = await getCollection('teams');
-const teamsWithStandings = teams.map(team => {
-  const standing = tableData.find(t => t.slug === team.data.urlSlug);
-  return { ...team, standing };
-}).sort((a, b) => (a.standing?.pos ?? 99) - (b.standing?.pos ?? 99));
+const standings = standingsFor(CURRENT_SEASON);
+const standingBySlug: Record<string, any> = Object.fromEntries(standings.map((s) => [s.slug, s]));
 
-const leader = tableData[0];
-const bestDefence = [...tableData].sort((a, b) => a.ga - b.ga)[0];
-const s3of = (p: any) => p.seasons?.['3'] || {};
-const topScorer = [...(playersData.players as any[])].sort((a, b) => (s3of(b).goals || 0) - (s3of(a).goals || 0))[0];
+// Show only the current-season line-up (historical teams remain reachable by URL).
+const teamsWithStandings = teams
+  .filter((team) => standingBySlug[team.data.urlSlug])
+  .map((team) => ({ ...team, standing: standingBySlug[team.data.urlSlug] }))
+  .sort((a, b) => (a.standing?.pos ?? 99) - (b.standing?.pos ?? 99));
+
+const seasonOf = (p: any) => p.seasons?.[String(CURRENT_SEASON)] || {};
+const topScorer = [...(playersData.players as any[])].sort((a, b) => (seasonOf(b).goals || 0) - (seasonOf(a).goals || 0))[0];
 
 const schema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Baller League UK Teams",
-  "description": "All 12 teams competing in Baller League UK Season 3, with managers, squads and league positions.",
+  "description": `All 12 teams competing in Baller League UK Season ${CURRENT_SEASON}, with managers, squads and league positions.`,
   "about": { "@type": "SportsOrganization", "name": "Baller League UK", "sport": "Football" },
 };
 ---
 
 <Base
-  title="Baller League UK Teams — All 12 Teams, Managers & Squad Lists"
-  description="Browse all 12 Baller League UK teams. Find out who each manager is, view squad lists, check the league table standings and explore team profiles."
-  keywords="teams, managers, squads, KSI, Angry Ginge, Niko Omilana, Sharky, Mark Goldbridge"
+  title={`Baller League UK Teams — All 12 Teams, Managers & Squad Lists (Season ${CURRENT_SEASON})`}
+  description={`Browse all 12 Baller League UK Season ${CURRENT_SEASON} teams. Find out who each manager is, view squad lists, check the league table standings and explore team profiles.`}
+  keywords={`teams, managers, squads, Season ${CURRENT_SEASON}, KSI, Niko Omilana, Sharky, Mark Goldbridge, Alex Iwobi`}
   schema={schema}
 >
   <div class="page-header">
     <div class="container">
       <Breadcrumb items={[{name:'Home',url:'/'},{name:'Teams'}]} />
-      <div class="section-label">Season 3</div>
+      <div class="section-label">Season {CURRENT_SEASON}</div>
       <h1>All 12 Teams</h1>
-      <p class="section-subtitle">Every team competing in Baller League UK Season 3, ranked by current league position.</p>
+      <p class="section-subtitle">Every team competing in Baller League UK Season {CURRENT_SEASON}.</p>
     </div>
   </div>
 
   <div class="container teams-page">
     <StatStrip
       stats={[
-        { icon: '🏆', label: 'Champions', value: 'Prime FC', sub: 'Final winners', href: '/teams/prime-fc' },
-        { icon: '🥇', label: 'League leaders', value: leader.team, sub: `${leader.pts} pts`, href: `/teams/${leader.slug}` },
-        { icon: '⚽', label: 'Top scorer', value: topScorer.name, sub: `${s3of(topScorer).goals} goals`, href: `/players/${topScorer.slug}` },
-        { icon: '🛡️', label: 'Best defence', value: bestDefence.team, sub: `${bestDefence.ga} conceded`, href: `/teams/${bestDefence.slug}` },
+        { icon: '🏆', label: 'Defending champions', value: 'Prime FC', sub: 'Season 3 winners', href: '/teams/prime-fc' },
+        { icon: '📅', label: 'Season 4 starts', value: '12 Oct 2026', sub: '11 matchdays' },
+        { icon: '⚽', label: 'Top scorer', value: topScorer.name, sub: `${seasonOf(topScorer).goals || 0} goals`, href: `/players/${topScorer.slug}` },
+        { icon: '👥', label: 'Teams', value: `${teamsWithStandings.length}`, sub: '12 managers' },
       ]}
     />
     <div class="teams-grid">
@@ -71,7 +73,7 @@ const schema = {
 .teams-page { padding-bottom: var(--space-3xl); }
 .teams-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: var(--space-xl);
   margin-bottom: var(--space-2xl);
 }
@@ -82,7 +84,7 @@ const schema = {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 560px) {
   .teams-grid { 
     grid-template-columns: 1fr; 
   }
