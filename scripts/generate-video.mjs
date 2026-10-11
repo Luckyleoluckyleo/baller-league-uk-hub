@@ -57,25 +57,26 @@ const gwsPlayed = [...new Set(matches.map((m) => m.gameweek))].sort((a, b) => a 
 const GW = Number(arg("gw", gwsPlayed[gwsPlayed.length - 1] ?? 1));
 
 // ─── music bed (synthesised in-code → royalty-free, reproducible) ─
-function writeWav(path, samples, sr = 44100, ch = 2) {
-  const n = samples.length;
-  const buf = Buffer.alloc(44 + n * ch * 2);
-  buf.write("RIFF", 0); buf.writeUInt32LE(36 + n * ch * 2, 4); buf.write("WAVE", 8);
-  buf.write("fmt ", 12); buf.writeUInt32LE(16, 16); buf.writeUInt16LE(1, 20); buf.writeUInt16LE(ch, 22);
-  buf.writeUInt32LE(sr, 24); buf.writeUInt32LE(sr * ch * 2, 28); buf.writeUInt16LE(ch * 2, 32); buf.writeUInt16LE(16, 34);
-  buf.write("data", 36); buf.writeUInt32LE(n * ch * 2, 40);
+function writeWav(path, interleaved, channels = 2, sr = 44100) {
+  const bytes = interleaved.length * 2;
+  const buf = Buffer.alloc(44 + bytes);
+  buf.write("RIFF", 0); buf.writeUInt32LE(36 + bytes, 4); buf.write("WAVE", 8);
+  buf.write("fmt ", 12); buf.writeUInt32LE(16, 16); buf.writeUInt16LE(1, 20); buf.writeUInt16LE(channels, 22);
+  buf.writeUInt32LE(sr, 24); buf.writeUInt32LE(sr * channels * 2, 28); buf.writeUInt16LE(channels * 2, 32); buf.writeUInt16LE(16, 34);
+  buf.write("data", 36); buf.writeUInt32LE(bytes, 40);
   let o = 44;
-  for (let i = 0; i < n; i++) {
-    const s = Math.max(-1, Math.min(1, samples[i]));
-    const v = (s < 0 ? s * 32768 : s * 32767) | 0;
-    buf.writeInt16LE(v, o); buf.writeInt16LE(v, o + 2); o += 4;
+  for (let i = 0; i < interleaved.length; i++) {
+    const s = Math.max(-1, Math.min(1, interleaved[i]));
+    buf.writeInt16LE((s < 0 ? s * 32768 : s * 32767) | 0, o); o += 2;
   }
   writeFileSync(path, buf);
 }
 
 // A gentle, looping electronic bed: Am–F–C–G pad + bass + arpeggio + soft drums.
+// Stereo, mixed to a clearly audible level (normalised + soft-clipped).
 function synthMusic(dur) {
-  const sr = 44100, n = Math.floor(dur * sr), out = new Float32Array(n);
+  const sr = 44100, n = Math.floor(dur * sr);
+  const L = new Float32Array(n), R = new Float32Array(n);
   const beat = 60 / 100, bar = beat * 4;
   const chords = [
     { root: 110.0, notes: [220.0, 261.63, 329.63] }, // Am
@@ -83,41 +84,53 @@ function synthMusic(dur) {
     { root: 130.81, notes: [261.63, 329.63, 392.0] },// C
     { root: 98.0, notes: [196.0, 246.94, 293.66] },  // G
   ];
-  const tone = (start, d, freq, amp, type = "sine", atk = 0.01, rel = 0.15) => {
+  const add = (start, d, freq, amp, type = "sine", atk = 0.01, rel = 0.2, pan = 0) => {
     const s0 = Math.floor(start * sr), s1 = Math.min(n, Math.floor((start + d) * sr));
+    const a = (clamp(pan, -1, 1) + 1) / 2 * Math.PI / 2;
+    const gl = Math.cos(a), gr = Math.sin(a);
     for (let i = s0; i < s1; i++) {
       const t = (i - s0) / sr;
       const env = Math.min(1, t / atk) * Math.min(1, (d - t) / rel);
       const ph = 2 * Math.PI * freq * t;
       const v = type === "triangle" ? 2 * Math.abs(2 * ((freq * t) % 1) - 1) - 1 : Math.sin(ph);
-      out[i] += v * amp * Math.max(0, Math.min(1, env));
+      const s = v * amp * Math.max(0, Math.min(1, env));
+      L[i] += s * gl; R[i] += s * gr;
     }
   };
   const kick = (start, amp) => {
-    const s0 = Math.floor(start * sr), len = Math.floor(0.14 * sr);
-    for (let i = 0; i < len && s0 + i < n; i++) { const t = i / sr; out[s0 + i] += Math.sin(2 * Math.PI * lerp(130, 48, t / 0.14) * t) * amp * Math.exp(-t * 18); }
+    const s0 = Math.floor(start * sr), len = Math.floor(0.16 * sr);
+    for (let i = 0; i < len && s0 + i < n; i++) { const t = i / sr; const v = Math.sin(2 * Math.PI * lerp(130, 46, t / 0.16) * t) * amp * Math.exp(-t * 16); L[s0 + i] += v; R[s0 + i] += v; }
   };
   const hat = (start, amp) => {
     const s0 = Math.floor(start * sr), len = Math.floor(0.05 * sr);
-    for (let i = 0; i < len && s0 + i < n; i++) { const t = i / sr; out[s0 + i] += (Math.random() * 2 - 1) * amp * Math.exp(-t * 60); }
+    for (let i = 0; i < len && s0 + i < n; i++) { const t = i / sr; const v = (Math.random() * 2 - 1) * amp * Math.exp(-t * 55); L[s0 + i] += v * 0.7; R[s0 + i] += v; }
   };
   const bars = Math.ceil(dur / bar) + 1;
   for (let b = 0; b < bars; b++) {
     const t0 = b * bar, ch = chords[b % 4];
-    for (const f of ch.notes) tone(t0, bar * 0.98, f, 0.06, "sine", 0.6, 0.8);
-    tone(t0, beat * 1.6, ch.root, 0.18, "sine", 0.02, 0.4);
-    tone(t0 + 2 * beat, beat * 1.6, ch.root, 0.16, "sine", 0.02, 0.4);
-    for (let k = 0; k < 8; k++) tone(t0 + k * (beat / 2), beat * 0.5, ch.notes[k % 3] * 2, 0.045, "triangle", 0.005, 0.25);
-    kick(t0, 0.5); kick(t0 + 2 * beat, 0.45);
-    for (let k = 0; k < 4; k++) hat(t0 + k * beat + beat / 2, 0.04);
+    // warm pad (whole bar)
+    for (const f of ch.notes) add(t0, bar * 0.98, f, 0.11, "sine", 0.5, 0.7, 0);
+    // bass on beats 1 & 3
+    add(t0, beat * 1.7, ch.root, 0.24, "sine", 0.02, 0.4, 0);
+    add(t0 + 2 * beat, beat * 1.5, ch.root, 0.20, "sine", 0.02, 0.4, 0);
+    // arpeggio (8ths), panned right
+    for (let k = 0; k < 8; k++) add(t0 + k * (beat / 2), beat * 0.55, ch.notes[k % 3] * 2, 0.11, "triangle", 0.005, 0.28, 0.35);
+    // lead note on the downbeat (octave up), panned left
+    add(t0, bar * 0.5, ch.notes[2] * 2, 0.09, "sine", 0.04, 0.5, -0.3);
+    // drums
+    kick(t0, 0.32); kick(t0 + 2 * beat, 0.28);
+    for (let k = 0; k < 4; k++) hat(t0 + k * beat + beat / 2, 0.05);
   }
-  let peak = 0; for (let i = 0; i < n; i++) peak = Math.max(peak, Math.abs(out[i]));
-  const g = peak > 0 ? 0.4 / peak : 1, fade = sr;
+  let peak = 0;
+  for (let i = 0; i < n; i++) peak = Math.max(peak, Math.abs(L[i]), Math.abs(R[i]));
+  const g = peak > 0 ? 0.85 / peak : 1, fade = sr;
+  const mix = new Float32Array(n * 2);
   for (let i = 0; i < n; i++) {
-    let v = Math.tanh(out[i] * g * 1.2) / 1.2;
-    out[i] = v * Math.min(1, i / fade) * Math.min(1, (n - i) / fade);
+    const fi = Math.min(1, i / fade) * Math.min(1, (n - i) / fade);
+    mix[i * 2] = Math.tanh(L[i] * g * 1.1) / 1.1 * fi;
+    mix[i * 2 + 1] = Math.tanh(R[i] * g * 1.1) / 1.1 * fi;
   }
-  return out;
+  return mix;
 }
 
 // ─── math helpers ─────────────────────────────────────────────────
