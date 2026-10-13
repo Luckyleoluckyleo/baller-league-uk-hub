@@ -1,6 +1,6 @@
 ---
 title: "RTG FC — Baller League UK Season 4 Preview & Squad"
-date: 2026-10-11
+date: 2026-10-13
 category: "Team Preview"
 excerpt: "Everything you need to know about RTG FC for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
 author: "Baller League UK Hub"
@@ -23,14 +23,14 @@ RTG FC are led by [Danny Aarons](/managers/danny-aarons). Their experience and p
 
 ## Squad and ones to watch
 
-Here are some of RTG FC's players to watch, with last season's (Season 3) figures where available:
+Here are some of RTG FC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Kadell Daniel](/players/kadell-daniel)** (Striker) — 16 goals and 3 assists in 8 appearances.
-- **[Tyrell Miller-Rodney](/players/tyrell-miller-rodney)** (Midfielder) — 6 goals and 5 assists in 10 appearances.
-- **[Zaid Al Hussaini](/players/zaid-al-hussaini)** (Midfielder) — 4 goals and 6 assists in 11 appearances.
-- **[Tommy Willard](/players/tommy-willard)** (Striker) — 1 goals and 0 assists in 5 appearances.
-- **[Calum Butcher](/players/calum-butcher)** (Midfielder) — 0 goals and 0 assists in 8 appearances.
-- **[Joshua Emmanuel](/players/joshua-emmanuel)** (Defender) — 0 goals and 1 assists in 9 appearances.
+- **[Kadell Daniel](/players/kadell-daniel)** (Striker) — 1 goals and 0 assists in 1 appearance.
+- **[Tyrell Miller-Rodney](/players/tyrell-miller-rodney)** (Midfielder) — 1 goals and 1 assists in 1 appearance.
+- **[Zaid Al Hussaini](/players/zaid-al-hussaini)** (Midfielder) — 1 goals and 1 assists in 1 appearance.
+- **[Alfie Cerulli](/players/alfie-cerulli)** (Striker) — 1 goals and 0 assists in 1 appearance.
+- **[Calum Butcher](/players/calum-butcher)** (Midfielder) — 0 goals and 0 assists in 1 appearance.
+- **[Joshua Emmanuel](/players/joshua-emmanuel)** (Defender) — 0 goals and 0 assists in 1 appearance.
 
 See the full squad on the [RTG FC team page](/teams/yanited).
 

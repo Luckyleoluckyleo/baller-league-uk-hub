@@ -1,6 +1,6 @@
 ---
 title: "Wembley Rangers AFC — Baller League UK Season 4 Preview & Squad"
-date: 2026-10-11
+date: 2026-10-13
 category: "Team Preview"
 excerpt: "Everything you need to know about Wembley Rangers AFC for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
 author: "Baller League UK Hub"
@@ -21,14 +21,14 @@ Wembley Rangers AFC's manager has not yet been confirmed by the league. Keep an 
 
 ## Squad and ones to watch
 
-Here are some of Wembley Rangers AFC's players to watch, with last season's (Season 3) figures where available:
+Here are some of Wembley Rangers AFC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Domingos Pires](/players/domingos-pires)** (Striker) — 9 goals and 2 assists in 11 appearances.
-- **[Callam Gardner](/players/callam-gardner)** (Striker) — 7 goals and 1 assists in 10 appearances.
-- **[Sandro Camara](/players/sandro-camara)** (Midfielder) — 7 goals and 1 assists in 10 appearances.
-- **[Finlay Chadwick](/players/finlay-chadwick)** (Midfielder) — 4 goals and 0 assists in 10 appearances.
-- **[Adrian Tajik](/players/adrian-tajik)** (Striker) — 3 goals and 0 assists in 10 appearances.
-- **[Kristian Campbell](/players/kristian-campbell)** (Defender) — 3 goals and 1 assists in 10 appearances.
+- **[Callam Gardner](/players/callam-gardner)** (Striker) — 2 goals and 0 assists in 1 appearance.
+- **[Chiekh Thiam](/players/chiekh-thiam)** (Defender) — 1 goals and 0 assists in 1 appearance.
+- **[Domingos Pires](/players/domingos-pires)** (Striker) — 1 goals and 0 assists in 1 appearance.
+- **[Dominic Morgan-Griffiths](/players/dominic-morgan-griffiths)** (Midfielder) — 0 goals and 1 assists in 1 appearance.
+- **[Finlay Chadwick](/players/finlay-chadwick)** (Midfielder) — 0 goals and 0 assists in 1 appearance.
+- **[Kristian Campbell](/players/kristian-campbell)** (Defender) — 0 goals and 1 assists in 1 appearance.
 
 See the full squad on the [Wembley Rangers AFC team page](/teams/wembley-rangers-afc).
 

@@ -1,6 +1,6 @@
 ---
 title: "Player Spotlight: Martyn Waghorn — Deportrio"
-date: 2026-10-11
+date: 2026-10-13
 category: "Feature"
 excerpt: "A closer look at Martyn Waghorn, striker for Deportrio in Baller League UK Season 4 — career, honours and what he brings to the 6v6 game."
 author: "Baller League UK Hub"
@@ -27,7 +27,7 @@ Martyn Waghorn built his professional career at Sunderland, Leicester City, Rang
 
 | Season | Apps | Goals | Assists |
 |--------|------|-------|---------|
-| 3 | 3 | 3 | 2 |
+| 4 | 1 | 1 | 0 |
 
 See his full stats on his [player profile](/players/martyn-waghorn).
 

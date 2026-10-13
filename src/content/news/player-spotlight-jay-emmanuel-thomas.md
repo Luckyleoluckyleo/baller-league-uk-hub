@@ -1,6 +1,6 @@
 ---
 title: "Player Spotlight: Jay Emmanuel-Thomas — Deportrio"
-date: 2026-10-11
+date: 2026-10-13
 category: "Feature"
 excerpt: "A closer look at Jay Emmanuel-Thomas, striker for Deportrio in Baller League UK Season 4 — career, honours and what he brings to the 6v6 game."
 author: "Baller League UK Hub"
@@ -28,7 +28,7 @@ Jay Emmanuel-Thomas built his professional career at Arsenal, Bristol City, Quee
 
 | Season | Apps | Goals | Assists |
 |--------|------|-------|---------|
-| 3 | 12 | 21 | 9 |
+| 4 | 1 | 3 | 0 |
 
 See his full stats on his [player profile](/players/jay-emmanuel-thomas).
 

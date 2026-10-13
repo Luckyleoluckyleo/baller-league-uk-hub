@@ -1,6 +1,6 @@
 ---
 title: "Player Spotlight: Charlie Colkett — VZN FC"
-date: 2026-10-11
+date: 2026-10-13
 category: "Feature"
 excerpt: "A closer look at Charlie Colkett, midfielder for VZN FC in Baller League UK Season 4 — career, honours and what he brings to the 6v6 game."
 author: "Baller League UK Hub"
@@ -18,6 +18,14 @@ A set-piece specialist with excellent vision, Colkett gives VZN a creative heart
 ## Career
 
 Charlie Colkett built his professional career at Chelsea, Swindon Town, Bristol Rovers and Crewe Alexandra. That grounding in the full-sided game — the positioning, the decision-making and the technical standards — translates neatly to the fast, high-tempo Baller League, where the Game Changers demand quick thinking and composure under pressure.
+
+## Baller League record
+
+| Season | Apps | Goals | Assists |
+|--------|------|-------|---------|
+| 4 | 1 | 0 | 0 |
+
+See his full stats on his [player profile](/players/charlie-colkett).
 
 ---
 

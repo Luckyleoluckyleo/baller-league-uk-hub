@@ -1,6 +1,6 @@
 ---
 title: "Gold Devils FC — Baller League UK Season 4 Preview & Squad"
-date: 2026-10-11
+date: 2026-10-13
 category: "Team Preview"
 excerpt: "Everything you need to know about Gold Devils FC for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
 author: "Baller League UK Hub"
@@ -21,14 +21,14 @@ Gold Devils FC are led by [Mark Goldbridge](/managers/mark-goldbridge) and [Spen
 
 ## Squad and ones to watch
 
-Here are some of Gold Devils FC's players to watch, with last season's (Season 3) figures where available:
+Here are some of Gold Devils FC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Bilal Sayoud](/players/bilal-sayoud)** (Striker) — 9 goals and 8 assists in 11 appearances.
-- **[Connor Wood](/players/connor-wood)** (Defender) — 6 goals and 3 assists in 11 appearances.
-- **[Marvel Ekpiteta](/players/marvel-ekpiteta)** (Defender) — 2 goals and 0 assists in 10 appearances.
-- **[Dimitri Nicolaou](/players/dimitri-nicolaou)** (Midfielder) — 2 goals and 0 assists in 9 appearances.
-- **[Kojo Apenteng](/players/kojo-apenteng)** (Defender) — 0 goals and 1 assists in 9 appearances.
-- **[Louie Johnson](/players/louie-johnson)** (Midfielder) — 0 goals and 2 assists in 7 appearances.
+- **[Bilal Sayoud](/players/bilal-sayoud)** (Striker) — 1 goals and 0 assists in 1 appearance.
+- **[Marvel Ekpiteta](/players/marvel-ekpiteta)** (Defender) — 1 goals and 0 assists in 1 appearance.
+- **[Misha Djemaili](/players/misha-djmaili)** (Defender) — 1 goals and 0 assists in 1 appearance.
+- **[Connor Wood](/players/connor-wood)** (Defender) — 0 goals and 1 assists in 1 appearance.
+- **[Kojo Apenteng](/players/kojo-apenteng)** (Defender) — 0 goals and 0 assists in 1 appearance.
+- **[Louie Johnson](/players/louie-johnson)** (Midfielder) — 0 goals and 0 assists in 1 appearance.
 
 See the full squad on the [Gold Devils FC team page](/teams/gold-devils-fc).
 

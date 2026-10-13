@@ -1,6 +1,6 @@
 ---
 title: "Prime FC — Baller League UK Season 4 Preview & Squad"
-date: 2026-10-11
+date: 2026-10-13
 category: "Team Preview"
 excerpt: "Everything you need to know about Prime FC for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
 author: "Baller League UK Hub"
@@ -21,14 +21,14 @@ Prime FC are led by [KSI](/managers/ksi). Their experience and personality will 
 
 ## Squad and ones to watch
 
-Here are some of Prime FC's players to watch, with last season's (Season 3) figures where available:
+Here are some of Prime FC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Francis Mampolo](/players/francis-gerard-mampolo)** (Striker) — 22 goals and 5 assists in 13 appearances.
-- **[Edy Maieco](/players/braulio-valera-pinto-maieco)** (Striker) — 12 goals and 1 assists in 13 appearances.
-- **[Timmy Abraham](/players/timmy-abraham)** (Striker) — 7 goals and 3 assists in 12 appearances.
-- **[Montel McKenzie](/players/montel-mckenzie)** (Defender) — 4 goals and 7 assists in 13 appearances.
-- **[Salim Nassor](/players/salim-nassor)** (Midfielder) — 4 goals and 2 assists in 10 appearances.
-- **[Mauro Vilhete](/players/mauro-vilhete)** (Midfielder) — 1 goals and 6 assists in 13 appearances.
+- **[Francis Mampolo](/players/francis-gerard-mampolo)** (Striker) — 1 goals and 0 assists in 1 appearance.
+- **[Montel McKenzie](/players/montel-mckenzie)** (Defender) — 1 goals and 0 assists in 1 appearance.
+- **[Timmy Abraham](/players/timmy-abraham)** (Striker) — 1 goals and 0 assists in 1 appearance.
+- **[Edy Maieco](/players/braulio-valera-pinto-maieco)** (Striker) — 0 goals and 0 assists in 1 appearance.
+- **[Mauro Vilhete](/players/mauro-vilhete)** (Midfielder) — 0 goals and 0 assists in 1 appearance.
+- **[Nathan Okome](/players/nathan-okome)** (Defender) — 0 goals and 0 assists in 1 appearance.
 
 See the full squad on the [Prime FC team page](/teams/prime-fc).
 
@@ -40,6 +40,6 @@ Every matchday is a Monday night, with the regular season running for **11 gamew
 
 ## Season outlook
 
-Prime FC will fancy their chances of a strong season if they can convert last year's promise into points. The margins in this league are famously small.
+Consistency will be the aim for Prime FC as they look to build on recent campaigns and push towards the Final Four.
 
 Follow Prime FC all season long on the [teams hub](/teams) and keep up with standings on the live [league table](/table).

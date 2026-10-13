@@ -1,6 +1,6 @@
 ---
 title: "Player Spotlight: Mauro Vilhete — Prime FC"
-date: 2026-10-11
+date: 2026-10-13
 category: "Feature"
 excerpt: "A closer look at Mauro Vilhete, midfielder for Prime FC in Baller League UK Season 4 — career, honours and what he brings to the 6v6 game."
 author: "Baller League UK Hub"
@@ -27,7 +27,7 @@ Mauro Vilhete built his professional career at Barnet and São Martinho. That gr
 
 | Season | Apps | Goals | Assists |
 |--------|------|-------|---------|
-| 3 | 13 | 1 | 6 |
+| 4 | 1 | 0 | 0 |
 
 See his full stats on his [player profile](/players/mauro-vilhete).
 

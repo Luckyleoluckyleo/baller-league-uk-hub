@@ -1,6 +1,6 @@
 ---
 title: "Player Spotlight: Josh Parker — NDL FC"
-date: 2026-10-11
+date: 2026-10-13
 category: "Feature"
 excerpt: "A closer look at Josh Parker, striker for NDL FC in Baller League UK Season 4 — career, honours and what he brings to the 6v6 game."
 author: "Baller League UK Hub"

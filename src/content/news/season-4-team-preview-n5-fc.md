@@ -1,6 +1,6 @@
 ---
 title: "N5 FC — Baller League UK Season 4 Preview & Squad"
-date: 2026-10-11
+date: 2026-10-13
 category: "Team Preview"
 excerpt: "Everything you need to know about N5 FC for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
 author: "Baller League UK Hub"
@@ -21,14 +21,14 @@ N5 FC are led by [Jens Lehmann](/managers/jens-lehmann). Their experience and pe
 
 ## Squad and ones to watch
 
-Here are some of N5 FC's players to watch, with last season's (Season 3) figures where available:
+Here are some of N5 FC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Michael Hill](/players/michael-hill)** (Midfielder) — 19 goals and 6 assists in 11 appearances.
-- **[Joe Bennett](/players/joe-bennett)** (Defender) — 15 goals and 3 assists in 11 appearances.
-- **[Jezreel Davies](/players/jezreel-davies)** (Midfielder) — 3 goals and 5 assists in 10 appearances.
-- **[Jezreel Davies](/players/jezreel-davies-2)** (Midfielder) — 3 goals and 5 assists in 10 appearances.
-- **[Mustapha Carayol](/players/mustapha-carayol)** (Midfielder) — 2 goals and 2 assists in 7 appearances.
-- **[Nile Ranger](/players/nile-ranger)** (Striker) — 2 goals and 0 assists in 6 appearances.
+- **[Hani Berchiche](/players/hani-berchiche)** (Defender) — 1 goals and 0 assists in 1 appearance.
+- **[Francis Amartey](/players/francis-amartey)** (Striker) — 1 goals and 0 assists in 1 appearance.
+- **[Addison Garnett](/players/addison-garnett)** (Defender) — 0 goals and 0 assists in 1 appearance.
+- **[Joe Bennett](/players/joe-bennett)** (Defender) — 0 goals and 0 assists in 1 appearance.
+- **[Michael Hill](/players/michael-hill)** (Midfielder) — 0 goals and 0 assists in 1 appearance.
+- **[Mustapha Carayol](/players/mustapha-carayol)** (Midfielder) — 0 goals and 0 assists in 1 appearance.
 
 See the full squad on the [N5 FC team page](/teams/n5-fc).
 

@@ -1,6 +1,6 @@
 ---
 title: "Player Spotlight: Junior Morias — P17 FC"
-date: 2026-10-11
+date: 2026-10-13
 category: "Feature"
 excerpt: "A closer look at Junior Morias, striker for P17 FC in Baller League UK Season 4 — career, honours and what he brings to the 6v6 game."
 author: "Baller League UK Hub"

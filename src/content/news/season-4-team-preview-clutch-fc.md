@@ -1,6 +1,6 @@
 ---
 title: "Clutch FC — Baller League UK Season 4 Preview & Squad"
-date: 2026-10-11
+date: 2026-10-13
 category: "Team Preview"
 excerpt: "Everything you need to know about Clutch FC for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
 author: "Baller League UK Hub"
@@ -21,14 +21,14 @@ Clutch FC are led by [Chloe Kelly](/managers/chloe-kelly). Their experience and 
 
 ## Squad and ones to watch
 
-Here are some of Clutch FC's players to watch, with last season's (Season 3) figures where available:
+Here are some of Clutch FC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Tyler Winters](/players/tyler-winters)** (Striker) — 14 goals and 2 assists in 11 appearances.
-- **[Alfie Matthews](/players/alfie-matthews)** (Striker) — 13 goals and 6 assists in 11 appearances.
-- **[Alex Byrne](/players/alex-byrne)** (Striker) — 12 goals and 9 assists in 10 appearances.
-- **[Richard Afrane-Kesey](/players/richard-afrane-kesey)** (Striker) — 6 goals and 1 assists in 9 appearances.
-- **[Ibrahim Ugradar](/players/ibrahim-ugradar)** (Goalkeeper) — 1 goals and 2 assists in 10 appearances.
-- **[Remy Clerima](/players/remy-clerima)** (Defender) — 1 goals and 3 assists in 10 appearances.
+- **[Alex Byrne](/players/alex-byrne)** (Striker) — 4 goals and 0 assists in 1 appearance.
+- **[Joshua Sumbunu](/players/joshua-sumbunu-2)** (Defender) — 1 goals and 0 assists in 1 appearance.
+- **[Albie Sheehan](/players/albie-sheehan)** (Defender) — 0 goals and 0 assists in 1 appearance.
+- **[Alfie Matthews](/players/alfie-matthews)** (Striker) — 0 goals and 2 assists in 1 appearance.
+- **[Erick Kenko](/players/erick-kenko)** (Midfielder) — 0 goals and 0 assists in 1 appearance.
+- **[Ibrahim Ugradar](/players/ibrahim-ugradar)** (Goalkeeper) — 0 goals and 0 assists in 1 appearance.
 
 See the full squad on the [Clutch FC team page](/teams/clutch-fc).
 
@@ -40,6 +40,6 @@ Every matchday is a Monday night, with the regular season running for **11 gamew
 
 ## Season outlook
 
-Clutch FC will fancy their chances of a strong season if they can convert last year's promise into points. The margins in this league are famously small.
+Consistency will be the aim for Clutch FC as they look to build on recent campaigns and push towards the Final Four.
 
 Follow Clutch FC all season long on the [teams hub](/teams) and keep up with standings on the live [league table](/table).

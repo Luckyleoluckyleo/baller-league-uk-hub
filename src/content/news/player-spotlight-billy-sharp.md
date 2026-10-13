@@ -1,6 +1,6 @@
 ---
 title: "Player Spotlight: Billy Sharp — N5 FC"
-date: 2026-10-11
+date: 2026-10-13
 category: "Feature"
 excerpt: "A closer look at Billy Sharp, striker for N5 FC in Baller League UK Season 4 — career, honours and what he brings to the 6v6 game."
 author: "Baller League UK Hub"
@@ -24,6 +24,14 @@ Billy Sharp built his professional career at Sheffield United, Southampton, Leed
 - Championship top scorer (2018–19)
 - Multiple EFL promotions
 - Over 200 career league goals
+
+## Baller League record
+
+| Season | Apps | Goals | Assists |
+|--------|------|-------|---------|
+| 4 | 1 | 0 | 0 |
+
+See his full stats on his [player profile](/players/billy-sharp).
 
 ---
 

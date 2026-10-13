@@ -1,6 +1,6 @@
 ---
 title: "SDS FC — Baller League UK Season 4 Preview & Squad"
-date: 2026-10-11
+date: 2026-10-13
 category: "Team Preview"
 excerpt: "Everything you need to know about SDS FC for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
 author: "Baller League UK Hub"
@@ -21,14 +21,14 @@ SDS FC are led by [Sharky](/managers/sharky). Their experience and personality w
 
 ## Squad and ones to watch
 
-Here are some of SDS FC's players to watch, with last season's (Season 3) figures where available:
+Here are some of SDS FC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Kazaiah Sterling](/players/kazaiah-sterling)** (Midfielder) — 9 goals and 7 assists in 12 appearances.
-- **[Ergys Pepaj](/players/ergys-pepaj)** (Midfielder) — 8 goals and 2 assists in 13 appearances.
-- **[Camilo Restrepo](/players/camilo-restrepo)** (Midfielder) — 5 goals and 3 assists in 11 appearances.
-- **[Amine Sassi](/players/amine-sassi)** (Midfielder) — 3 goals and 3 assists in 12 appearances.
-- **[J'ardell Stirling](/players/j-ardell-stirling)** (Defender) — 3 goals and 4 assists in 12 appearances.
-- **[Nya Kirby](/players/nya-kirby)** (Midfielder) — 3 goals and 0 assists in 11 appearances.
+- **[Kazaiah Sterling](/players/kazaiah-sterling)** (Midfielder) — 1 goals and 1 assists in 1 appearance.
+- **[Youssef Chentouf](/players/youssef-chentouf)** (Striker) — 1 goals and 0 assists in 1 appearance.
+- **[Amine Sassi](/players/amine-sassi)** (Midfielder) — 0 goals and 0 assists in 1 appearance.
+- **[Hafed Al Droubi](/players/hafed-al-droubi)** (Goalkeeper) — 0 goals and 0 assists in 1 appearance.
+- **[J'ardell Stirling](/players/j-ardell-stirling)** (Defender) — 0 goals and 0 assists in 1 appearance.
+- **[Nya Kirby](/players/nya-kirby)** (Midfielder) — 0 goals and 0 assists in 1 appearance.
 
 See the full squad on the [SDS FC team page](/teams/sds-fc).
 
@@ -40,6 +40,6 @@ Every matchday is a Monday night, with the regular season running for **11 gamew
 
 ## Season outlook
 
-SDS FC will fancy their chances of a strong season if they can convert last year's promise into points. The margins in this league are famously small.
+Consistency will be the aim for SDS FC as they look to build on recent campaigns and push towards the Final Four.
 
 Follow SDS FC all season long on the [teams hub](/teams) and keep up with standings on the live [league table](/table).

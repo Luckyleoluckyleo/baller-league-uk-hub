@@ -1,6 +1,6 @@
 ---
 title: "NDL FC — Baller League UK Season 4 Preview & Squad"
-date: 2026-10-11
+date: 2026-10-13
 category: "Team Preview"
 excerpt: "Everything you need to know about NDL FC for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
 author: "Baller League UK Hub"
@@ -21,14 +21,14 @@ NDL FC are led by [Niko Omilana](/managers/niko-omilana). Their experience and p
 
 ## Squad and ones to watch
 
-Here are some of NDL FC's players to watch, with last season's (Season 3) figures where available:
+Here are some of NDL FC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Sam Fitzgerald](/players/sam-fitzgerald)** (Midfielder) — 10 goals and 4 assists in 13 appearances.
-- **[Dara Dada](/players/dara-dada)** (Midfielder) — 9 goals and 5 assists in 13 appearances.
-- **[Isaac Modi](/players/isaac-modi)** (Midfielder) — 7 goals and 2 assists in 13 appearances.
-- **[Josh Parker](/players/joshua-parker)** (Striker) — 7 goals and 3 assists in 9 appearances.
-- **[Dan Bowry](/players/daniel-bowry)** (Defender) — 4 goals and 2 assists in 11 appearances.
-- **[David Marques Castanho](/players/david-marques-castanho)** (Midfielder) — 4 goals and 2 assists in 10 appearances.
+- **[Sam Fitzgerald](/players/sam-fitzgerald)** (Midfielder) — 3 goals and 0 assists in 1 appearance.
+- **[Josh Parker](/players/joshua-parker)** (Striker) — 1 goals and 0 assists in 1 appearance.
+- **[Amadou Kassaraté](/players/amadou-kassarate)** (Defender) — 0 goals and 0 assists in 1 appearance.
+- **[Dan Bowry](/players/daniel-bowry)** (Defender) — 0 goals and 0 assists in 1 appearance.
+- **[Dara Dada](/players/dara-dada)** (Midfielder) — 0 goals and 0 assists in 1 appearance.
+- **[David Marques Castanho](/players/david-marques-castanho)** (Midfielder) — 0 goals and 0 assists in 1 appearance.
 
 See the full squad on the [NDL FC team page](/teams/ndl-fc).
 

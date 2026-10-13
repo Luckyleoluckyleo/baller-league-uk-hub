@@ -1,6 +1,6 @@
 ---
 title: "Deportrio — Baller League UK Season 4 Preview & Squad"
-date: 2026-10-11
+date: 2026-10-13
 category: "Team Preview"
 excerpt: "Everything you need to know about Deportrio for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
 author: "Baller League UK Hub"
@@ -21,14 +21,14 @@ Deportrio are led by [Micah Richards](/managers/micah-richards). Their experienc
 
 ## Squad and ones to watch
 
-Here are some of Deportrio's players to watch, with last season's (Season 3) figures where available:
+Here are some of Deportrio's players to watch, with last season's (Season 4) figures where available:
 
-- **[Jay Emmanuel-Thomas](/players/jay-emmanuel-thomas)** (Striker) — 21 goals and 9 assists in 12 appearances.
-- **[Joshua Abbott](/players/joshua-abbott)** (Defender) — 7 goals and 2 assists in 12 appearances.
-- **[Kevin Weggen](/players/kevin-weggen)** (Midfielder) — 7 goals and 0 assists in 8 appearances.
-- **[Emmanuel Robe](/players/emmanuel-robe)** (Striker) — 5 goals and 3 assists in 11 appearances.
-- **[Martyn Waghorn](/players/martyn-waghorn)** (Striker) — 3 goals and 2 assists in 3 appearances.
-- **[Marvin Sordell](/players/marvin-sordell)** (Striker) — 2 goals and 1 assists in 8 appearances.
+- **[Jay Emmanuel-Thomas](/players/jay-emmanuel-thomas)** (Striker) — 3 goals and 0 assists in 1 appearance.
+- **[Rodney Ajayi](/players/rodney-ajayi)** (Striker) — 2 goals and 0 assists in 1 appearance.
+- **[Kevin Weggen](/players/kevin-weggen)** (Midfielder) — 2 goals and 1 assists in 1 appearance.
+- **[Emmanuel Robe](/players/emmanuel-robe)** (Striker) — 1 goals and 0 assists in 1 appearance.
+- **[Martyn Waghorn](/players/martyn-waghorn)** (Striker) — 1 goals and 0 assists in 1 appearance.
+- **[Adam Dawson](/players/adam-dawson)** (Midfielder) — 0 goals and 0 assists in 1 appearance.
 
 See the full squad on the [Deportrio team page](/teams/deportrio).
 

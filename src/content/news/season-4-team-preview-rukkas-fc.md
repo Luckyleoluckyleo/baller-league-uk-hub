@@ -1,6 +1,6 @@
 ---
 title: "P17 FC — Baller League UK Season 4 Preview & Squad"
-date: 2026-10-11
+date: 2026-10-13
 category: "Team Preview"
 excerpt: "Everything you need to know about P17 FC for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
 author: "Baller League UK Hub"
@@ -23,14 +23,14 @@ P17 FC are led by [Alex Iwobi](/managers/alex-iwobi). Their experience and perso
 
 ## Squad and ones to watch
 
-Here are some of P17 FC's players to watch, with last season's (Season 3) figures where available:
+Here are some of P17 FC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Mussa Bham](/players/mussa-bham)** (Striker) — 9 goals and 1 assists in 11 appearances.
-- **[Amin Belaid](/players/amin-belaid)** (Striker) — 3 goals and 8 assists in 13 appearances.
-- **[Ben Long](/players/ben-long)** (Defender) — 2 goals and 1 assists in 9 appearances.
-- **[Jesus Abreu](/players/jesus-abreu)** (Midfielder) — 1 goals and 0 assists in 4 appearances.
-- **[Ciaran Clark](/players/ciaran-clark)** (Defender) — 0 goals and 1 assists in 10 appearances.
-- **[Ross Derham](/players/ross-derham)** (Midfielder) — 0 goals and 0 assists in 2 appearances.
+- **[Amin Belaid](/players/amin-belaid)** (Striker) — 3 goals and 0 assists in 1 appearance.
+- **[Dajon Golding](/players/dajon-golding)** (Striker) — 1 goals and 0 assists in 1 appearance.
+- **[Ben Long](/players/ben-long)** (Defender) — 0 goals and 0 assists in 1 appearance.
+- **[Ciaran Clark](/players/ciaran-clark)** (Defender) — 0 goals and 0 assists in 1 appearance.
+- **[Jesus Abreu](/players/jesus-abreu)** (Midfielder) — 0 goals and 0 assists in 1 appearance.
+- **[Mussa Bham](/players/mussa-bham)** (Striker) — 0 goals and 0 assists in 1 appearance.
 
 See the full squad on the [P17 FC team page](/teams/rukkas-fc).
 
@@ -42,6 +42,6 @@ Every matchday is a Monday night, with the regular season running for **11 gamew
 
 ## Season outlook
 
-With a new identity and a fresh voice in the dugout, P17 FC enter the season with a point to prove. A fast start would do wonders for momentum.
+P17 FC are one of the great unknowns of the new campaign — a rebranded side with everything to play for and a squad keen to make an early statement.
 
 Follow P17 FC all season long on the [teams hub](/teams) and keep up with standings on the live [league table](/table).

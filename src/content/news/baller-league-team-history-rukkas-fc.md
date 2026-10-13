@@ -1,6 +1,6 @@
 ---
 title: "P17 FC — Baller League UK All-Time Record & History"
-date: 2026-10-11
+date: 2026-10-13
 category: "Feature"
 excerpt: "P17 FC in numbers: their all-time Baller League UK record, season-by-season finishes, top scorers and standout results across every season."
 author: "Baller League UK Hub"
@@ -9,7 +9,7 @@ featured: false
 
 ## P17 FC: All-Time Baller League UK Record
 
-**P17 FC** have played **33** matches in Baller League UK across 3 seasons, winning **8**, drawing **5** and losing **20** — a win rate of **24%**. They have scored **105** goals and conceded **142** (goal difference **-37**).
+**P17 FC** have played **34** matches in Baller League UK across 4 seasons, winning **9**, drawing **5** and losing **20** — a win rate of **26%**. They have scored **111** goals and conceded **146** (goal difference **-35**).
 
 ## Season-by-season
 
@@ -18,16 +18,17 @@ featured: false
 | 1 | 11th | 11 | 2 | 2 | 7 | -15 | 10 |
 | 2 | 9th | 11 | 3 | 2 | 6 | -4 | 13 |
 | 3 | 11th | 11 | 3 | 1 | 7 | -18 | 10 |
+| 4 | 2nd | 1 | 1 | 0 | 0 | +2 | 3 |
 
-Their best finish came in **Season 2**, finishing **9th** on **13 points**.
+Their best finish came in **Season 4**, finishing **2nd** on **3 points**.
 
 ## Top scorers (all-time club)
 
 - **[Mussa Bham](/players/mussa-bham)** — 14 goals, 3 assists
-- **[Amin Belaid](/players/amin-belaid)** — 3 goals, 2 assists
+- **[Amin Belaid](/players/amin-belaid)** — 6 goals, 2 assists
+- **[Steven Kodra](/players/steven-kodra-2)** — 2 goals, 0 assists
 - **[Ben Long](/players/ben-long)** — 1 goals, 0 assists
 - **[Jesus Abreu](/players/jesus-abreu)** — 1 goals, 0 assists
-- **[Ross Derham](/players/ross-derham)** — 0 goals, 1 assists
 
 ## Biggest win
 

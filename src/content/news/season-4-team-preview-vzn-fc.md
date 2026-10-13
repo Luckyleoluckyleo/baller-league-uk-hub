@@ -1,6 +1,6 @@
 ---
 title: "VZN FC — Baller League UK Season 4 Preview & Squad"
-date: 2026-10-11
+date: 2026-10-13
 category: "Team Preview"
 excerpt: "Everything you need to know about VZN FC for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
 author: "Baller League UK Hub"
@@ -21,14 +21,14 @@ VZN FC are led by [Tobi Brown (TBJZL)](/managers/tobi-brown-tbjzl). Their experi
 
 ## Squad and ones to watch
 
-Here are some of VZN FC's players to watch, with last season's (Season 3) figures where available:
+Here are some of VZN FC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Florian Kastrati](/players/florian-kastrati)** (Midfielder) — 6 goals and 1 assists in 11 appearances.
-- **[Danny Bassett](/players/danny-bassett)** (Striker) — 5 goals and 2 assists in 11 appearances.
-- **[Stefan Ilic](/players/stefan-ilic)** (Midfielder) — 4 goals and 4 assists in 12 appearances.
-- **[Frankie Leonard](/players/frankie-leonard)** (Goalkeeper) — 3 goals and 3 assists in 9 appearances.
-- **[Eddie Allsopp](/players/eddie-allsopp)** (Midfielder) — 2 goals and 2 assists in 9 appearances.
-- **[Jacob Mensah](/players/jacob-mensah)** (Defender) — 1 goals and 0 assists in 7 appearances.
+- **[Eddie Simon](/players/eddie-simon)** (Striker) — 2 goals and 0 assists in 1 appearance.
+- **[Terell Thomas](/players/terell-thomas)** (Defender) — 2 goals and 0 assists in 1 appearance.
+- **[Florian Kastrati](/players/florian-kastrati)** (Midfielder) — 1 goals and 0 assists in 1 appearance.
+- **[Danny Bassett](/players/danny-bassett)** (Striker) — 0 goals and 1 assists in 1 appearance.
+- **[Stefan Ilic](/players/stefan-ilic)** (Midfielder) — 0 goals and 0 assists in 1 appearance.
+- **[Zion Nditi](/players/zion-nditi)** (Defender) — 0 goals and 0 assists in 1 appearance.
 
 See the full squad on the [VZN FC team page](/teams/vzn-fc).
 

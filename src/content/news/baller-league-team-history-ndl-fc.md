@@ -1,6 +1,6 @@
 ---
 title: "NDL FC — Baller League UK All-Time Record & History"
-date: 2026-10-11
+date: 2026-10-13
 category: "Feature"
 excerpt: "NDL FC in numbers: their all-time Baller League UK record, season-by-season finishes, top scorers and standout results across every season."
 author: "Baller League UK Hub"
@@ -9,7 +9,7 @@ featured: false
 
 ## NDL FC: All-Time Baller League UK Record
 
-**NDL FC** have played **36** matches in Baller League UK across 3 seasons, winning **20**, drawing **5** and losing **11** — a win rate of **56%**. They have scored **158** goals and conceded **132** (goal difference **+26**).
+**NDL FC** have played **37** matches in Baller League UK across 4 seasons, winning **20**, drawing **5** and losing **12** — a win rate of **54%**. They have scored **162** goals and conceded **138** (goal difference **+24**).
 
 ## Season-by-season
 
@@ -18,15 +18,16 @@ featured: false
 | 1 | 5th | 11 | 6 | 2 | 3 | +9 | 20 |
 | 2 | 2nd | 11 | 6 | 1 | 4 | +6 | 20 |
 | 3 | 1st | 11 | 7 | 2 | 2 | +15 | 26 |
+| 4 | 9th | 1 | 0 | 0 | 1 | -2 | 0 |
 
 Their best finish came in **Season 3**, finishing **1st** on **26 points**.
 
 ## Top scorers (all-time club)
 
 - **[Isaac Modi](/players/isaac-modi)** — 15 goals, 6 assists
+- **[Sam Fitzgerald](/players/sam-fitzgerald)** — 13 goals, 4 assists
 - **[Dara Dada](/players/dara-dada)** — 11 goals, 6 assists
-- **[Sam Fitzgerald](/players/sam-fitzgerald)** — 10 goals, 4 assists
-- **[Josh Parker](/players/joshua-parker)** — 5 goals, 1 assists
+- **[Josh Parker](/players/joshua-parker)** — 6 goals, 1 assists
 - **[David Marques Castanho](/players/david-marques-castanho)** — 3 goals, 1 assists
 
 ## Biggest win

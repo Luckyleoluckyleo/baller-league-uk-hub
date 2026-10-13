@@ -1,6 +1,6 @@
 ---
 title: "Gameweek 1 Preview: VZN FC vs RTG FC — Team News, Key Players & Prediction"
-date: 2026-10-11
+date: 2026-10-13
 category: "Preview"
 excerpt: "VZN FC meet RTG FC in Gameweek 1 of Baller League UK Season 4 on 12 October 2026 (18:30). Team news, key players, head-to-head and our prediction."
 author: "Baller League UK Hub"
@@ -11,7 +11,7 @@ featured: false
 
 The new Baller League UK season gets under way as **VZN FC** take on **RTG FC** in Gameweek 1 on **12 October 2026**, with kick-off at **18:30**. It is the first competitive outing of Season 4 for both clubs, and the opening night at the Baller League Arena in Dagenham promises the usual mix of fast 6v6 football, celebrity dugouts and the game-changing rule twists that make the league so watchable.
 
-Season 4 marks a fresh start. Yanited have been rebranded as **RTG FC**, Rukkas FC are now **P17 FC**, and **Toma** join the league as a brand-new franchise — but the format remains the same: 12 teams, 11 Monday-night matchdays and a Final Four deciding the champion.
+Every point matters in Season 4. With the top four reaching the Final Four at the end of the regular season, VZN FC and RTG FC both know a fast start could shape their entire campaign.
 
 ## Team News
 
@@ -21,11 +21,11 @@ Managed by **Tobi Brown (TBJZL)**
 
 **Ones to watch**
 
-- **Florian Kastrati** (Midfielder) — 6 goals, 1 assists in 11 appearances in Season 3.
-- **Danny Bassett** (Striker) — 5 goals, 2 assists in 11 appearances in Season 3.
-- **Stefan Ilic** (Midfielder) — 4 goals, 4 assists in 12 appearances in Season 3.
-- **Frankie Leonard** (Goalkeeper) — 3 goals, 3 assists in 9 appearances in Season 3.
-- **Eddie Allsopp** (Midfielder) — 2 goals, 2 assists in 9 appearances in Season 3.
+- **Eddie Simon** (Striker) — 2 goals, 0 assists in 1 appearance in Season 4.
+- **Terell Thomas** (Defender) — 2 goals, 0 assists in 1 appearance in Season 4.
+- **Florian Kastrati** (Midfielder) — 1 goals, 0 assists in 1 appearance in Season 4.
+- **Danny Bassett** (Striker) — 0 goals, 1 assists in 1 appearance in Season 4.
+- **Stefan Ilic** (Midfielder) — 0 goals, 0 assists in 1 appearance in Season 4.
 
 
 ### RTG FC
@@ -34,11 +34,11 @@ Managed by **Danny Aarons**. Yanited (managed by Angry Ginge in Seasons 1–3) r
 
 **Ones to watch**
 
-- **Kadell Daniel** (Striker) — 16 goals, 3 assists in 8 appearances in Season 3.
-- **Tyrell Miller-Rodney** (Midfielder) — 6 goals, 5 assists in 10 appearances in Season 3.
-- **Zaid Al Hussaini** (Midfielder) — 4 goals, 6 assists in 11 appearances in Season 3.
-- **Tommy Willard** (Striker) — 1 goals, 0 assists in 5 appearances in Season 3.
-- **Calum Butcher** (Midfielder) — 0 goals, 0 assists in 8 appearances in Season 3.
+- **Kadell Daniel** (Striker) — 1 goals, 0 assists in 1 appearance in Season 4.
+- **Tyrell Miller-Rodney** (Midfielder) — 1 goals, 1 assists in 1 appearance in Season 4.
+- **Zaid Al Hussaini** (Midfielder) — 1 goals, 1 assists in 1 appearance in Season 4.
+- **Alfie Cerulli** (Striker) — 1 goals, 0 assists in 1 appearance in Season 4.
+- **Calum Butcher** (Midfielder) — 0 goals, 0 assists in 1 appearance in Season 4.
 
 
 
@@ -52,24 +52,24 @@ The manager battle on the touchline — and the personalities involved — is ha
 
 ## Form Guide
 
-Here is how the two sides finished up last season (Season 3), most recent result first (W = win, D = draw, L = loss):
+Here is how the two sides finished up this season, most recent result first (W = win, D = draw, L = loss):
 
 - **VZN FC:** D · W · L · L · L
 - **RTG FC:** L · L · L · W · W
 
 ## Head-to-Head
 
-VZN FC and RTG FC have met **3** times before. VZN FC have won **0**, RTG FC have won **2**, with **1** draw.
+VZN FC and RTG FC have met **4** times before. VZN FC have won **1**, RTG FC have won **2**, with **1** draw.
 
 The most recent meeting came in Gameweek 10 of Season 1, when the match finished **RTG FC 6-1 VZN FC**.
 
 ## Game Changer Watch
 
-Both teams will need to be ready for the rule changes that arrive at the 12th and 27th minutes. Last season, **VZN FC** averaged **2.7** Game Changer goals per match (88 in total), while **RTG FC** averaged **3.4** (115). 
+Both teams will need to be ready for the rule changes that arrive at the 12th and 27th minutes. Last season, **VZN FC** averaged **2.8** Game Changer goals per match (94 in total), while **RTG FC** averaged **3.5** (121). 
 
 ## Prediction
 
-With no competitive form to go on yet, this one is genuinely hard to call. Both squads have been reshaped over the summer, and the opening night of a new season is notorious for surprises. Expect goals, a loud crowd and at least one Game Changer turning the game on its head.
+On recent evidence there is little to separate them. We are backing a tight, high-scoring contest in which the Game Changer windows — and whichever forward takes his chances — decide the outcome.
 
 ## How to Watch
 
