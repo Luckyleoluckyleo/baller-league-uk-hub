@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Toma 1-3 Gold Devils FC
 
-A pivotal Gameweek 1 encounter saw **Toma** go head-to-head with **Gold Devils FC** in a thoroughly entertaining contest with plenty of talking points.
+The crowd at Baller Arena were treated to a spectacle as **Toma** faced **Gold Devils FC** in a thoroughly entertaining contest with plenty of talking points.
 
 When the dust settled, it was **Gold Devils FC** who emerged **1-3** victors. The Game Changer window — **Plus One** and **Fairplay** — proved pivotal, contributing **3** of the match's **4** goals.
 
@@ -28,11 +28,11 @@ When the dust settled, it was **Gold Devils FC** who emerged **1-3** victors. Th
 
 ### First Half
 
-At the 12th minute, the **Plus One** Game Changer roared into action — the period yielded **2** goals, just enough to set the contest alight. Gold Devils FC controlled the tempo and carried a deserved lead into the interval, their composure and cutting edge proving the difference.
+Twelve minutes in and the **Plus One** Game Changer came alive, reshaping the contest entirely — a **2-goal** window that gave the half an electric pulse. Gold Devils FC controlled the tempo and carried a deserved lead into the interval, their composure and cutting edge proving the difference.
 
 ### Second Half
 
-After the restart, the **Fairplay** Game Changer detonated at the 27th minute, turning the dial up to eleven — the **1** goal it produced came at a crucial juncture, swinging momentum decisively. The final exchanges were fraught with tension. Toma threw everything forward in search of a route back, but Gold Devils FC held their nerve, defending with grit and intelligence to protect what they had.
+The second half resumed with all to play for, and at the 27-minute mark the **Fairplay** Game Changer cranked up the intensity once more — and it delivered **1** goal at just the right moment to breathe fresh life into the match. The final exchanges were fraught with tension. Toma threw everything forward in search of a route back, but Gold Devils FC held their nerve, defending with grit and intelligence to protect what they had.
 
 ---
 
@@ -41,9 +41,9 @@ After the restart, the **Fairplay** Game Changer detonated at the 27th minute, t
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **12′** — **Bilal Sayoud** (Gold Devils FC) drew first blood
-- **14′** — **Misha Djemaili** (Gold Devils FC) converted
-- **23′** — **Marvel Ekpiteta** (Gold Devils FC) slotted
-- **28′** — **Joshua Phillips** (Toma) struck
+- **14′** — **Misha Djemaili** (Gold Devils FC) struck
+- **23′** — **Marvel Ekpiteta** (Gold Devils FC) struck
+- **28′** — **Joshua Phillips** (Toma) scored
 
 | Minute | Player | Team |
 |--------|--------|------|

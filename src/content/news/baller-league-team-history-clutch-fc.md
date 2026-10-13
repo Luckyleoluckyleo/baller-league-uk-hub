@@ -27,7 +27,7 @@ Their best finish came in **Season 4**, finishing **3rd** on **3 points**.
 - **[Richard Afrane-Kesey](/players/richard-afrane-kesey)** — 18 goals, 1 assists
 - **[Tyler Winters](/players/tyler-winters)** — 15 goals, 3 assists
 - **[Alfie Matthews](/players/alfie-matthews)** — 13 goals, 8 assists
-- **[Joshua Sumbunu](/players/joshua-sumbunu-2)** — 6 goals, 3 assists
+- **[Joshua Sumbunu](/players/joshua-sumbunu)** — 6 goals, 3 assists
 - **[Albie Sheehan](/players/albie-sheehan)** — 4 goals, 1 assists
 
 ## Biggest win

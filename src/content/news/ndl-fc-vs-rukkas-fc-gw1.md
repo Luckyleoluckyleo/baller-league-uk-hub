@@ -1,5 +1,5 @@
 ---
-title: "P17 FC Beat NDL FC 4-6 in Entertaining GW1 Clash"
+title: "P17 FC See Off NDL FC 4-6 in Gameweek 1"
 date: 2026-10-12
 category: "Match Report"
 excerpt: "NDL FC 4-6 P17 FC — Gameweek 1 match report. Sam Fitzgerald (3 goals) leads NDL FC's attack. Game Changers: Plus One (2) & 1-on-1 (5). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,7 +9,7 @@ featured: true
 
 ## Match Summary — NDL FC 4-6 P17 FC
 
-Football took center stage at Baller Arena when **NDL FC** met **P17 FC** in a rollercoaster of emotions that had everything you could want from a Baller League match.
+Baller Arena played host to an absorbing Gameweek 1 clash as **NDL FC** locked horns with **P17 FC** in what would prove to be a rollercoaster of emotions that had everything you could want from a Baller League match.
 
 When the dust settled, it was **P17 FC** who emerged **4-6** victors. The Game Changer window — **Plus One** and **1-on-1** — proved pivotal, contributing **7** of the match's **10** goals.
 
@@ -28,11 +28,11 @@ When the dust settled, it was **P17 FC** who emerged **4-6** victors. The Game C
 
 ### First Half
 
-Barely a dozen minutes had passed when **Plus One** transformed the match into something altogether different — a **2-goal** window that gave the half an electric pulse. P17 FC held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
+Twelve minutes in and the **Plus One** Game Changer came alive, reshaping the contest entirely — the period yielded **2** goals, just enough to set the contest alight. P17 FC controlled the tempo and carried a deserved lead into the interval, their composure and cutting edge proving the difference.
 
 ### Second Half
 
-If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **1-on-1** entered the fray — once again the goals rained down, **5** of them, raw and relentless. The final exchanges were fraught with tension. NDL FC threw everything forward in search of a route back, but P17 FC held their nerve, defending with grit and intelligence to protect what they had. This was Baller League at its most chaotic and brilliant — **10** goals, endless drama, and a match nobody in attendance will forget in a hurry.
+After the restart, the **1-on-1** Game Changer detonated at the 27th minute, turning the dial up to eleven — and the mayhem resumed. **5** more goals erupted during the window, transforming the contest into a full-blown classic. The final exchanges were fraught with tension. NDL FC threw everything forward in search of a route back, but P17 FC held their nerve, defending with grit and intelligence to protect what they had. This was Baller League at its most chaotic and brilliant — **10** goals, endless drama, and a match nobody in attendance will forget in a hurry.
 
 ---
 
@@ -40,16 +40,16 @@ If the first half was intriguing, the second was about to become unmissable. At 
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **2′** — **Amin Belaid** (P17 FC) drew first blood
-- **12′** — **Dajon Golding** (P17 FC) slotted
-- **14′** — **Amin Belaid** (P17 FC) converted
-- **16′** — **Amin Belaid** (P17 FC) slotted
+- **2′** — **Amin Belaid** (P17 FC) broke the deadlock
+- **12′** — **Dajon Golding** (P17 FC) struck
+- **14′** — **Amin Belaid** (P17 FC) netted
+- **16′** — **Amin Belaid** (P17 FC) converted
 - **26′** — **Josh Parker** (NDL FC) found the target
-- **27′** — **Sam Fitzgerald** (NDL FC) converted
-- **27′** — **Sam Fitzgerald** (NDL FC) scored
-- **27′** — **Steven Kodra** (P17 FC) netted
-- **28′** — **Sam Fitzgerald** (NDL FC) converted
-- **28′** — **Steven Kodra** (P17 FC) converted
+- **27′** — **Sam Fitzgerald** (NDL FC) slotted
+- **27′** — **Sam Fitzgerald** (NDL FC) netted
+- **27′** — **Steven Kodra** (P17 FC) found the target
+- **28′** — **Sam Fitzgerald** (NDL FC) found the target
+- **28′** — **Steven Kodra** (P17 FC) netted
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -86,7 +86,7 @@ The **1-on-1** activation was particularly devastating, producing **5** goals th
 
 ### NDL FC
 
-**Sam Fitzgerald** was NDL FC's standout performer, bagging **3 goals** in a display of clinical finishing that powered his side's effort.
+The standout for NDL FC was undoubtedly **Sam Fitzgerald**, whose **3-goal** haul was the foundation of everything good about their display.
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|

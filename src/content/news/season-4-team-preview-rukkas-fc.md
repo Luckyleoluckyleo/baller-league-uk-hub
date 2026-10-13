@@ -42,6 +42,6 @@ Every matchday is a Monday night, with the regular season running for **11 gamew
 
 ## Season outlook
 
-P17 FC are one of the great unknowns of the new campaign — a rebranded side with everything to play for and a squad keen to make an early statement.
+With a new identity and a fresh voice in the dugout, P17 FC enter the season with a point to prove. A fast start would do wonders for momentum.
 
 Follow P17 FC all season long on the [teams hub](/teams) and keep up with standings on the live [league table](/table).

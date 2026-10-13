@@ -28,7 +28,7 @@ Their best finish came in **Season 2**, finishing **6th** on **19 points**.
 - **[Joe Bennett](/players/joe-bennett)** — 15 goals, 3 assists
 - **[Hani Berchiche](/players/hani-berchiche)** — 12 goals, 3 assists
 - **[Kieron Freeman](/players/kieron-freeman)** — 3 goals, 6 assists
-- **[Jezreel Davies](/players/jezreel-davies-2)** — 3 goals, 5 assists
+- **[Jezreel Davies](/players/jezreel-davies)** — 3 goals, 5 assists
 
 ## Biggest win
 

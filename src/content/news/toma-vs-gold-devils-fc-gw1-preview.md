@@ -24,7 +24,7 @@ Managed by **Jay-Jay Okocha**. New Season 4 franchise (id 348), managed by Jay-J
 - **Joshua Phillips** (Striker) — 1 goals, 0 assists in 1 appearance in Season 4.
 - **Arezki Hamouchene** (Midfielder) — 0 goals, 0 assists in 1 appearance in Season 4.
 - **Yasin Ben El-Mhanni** (Striker) — 0 goals, 0 assists in 1 appearance in Season 4.
-- **Charlie Pavey** (Midfielder) — 0 goals, 0 assists in 1 appearance in Season 4.
+- **Charlie James Pavey** (Midfielder) — 0 goals, 0 assists in 1 appearance in Season 4.
 - **Hugo Fisher** (Goalkeeper) — 0 goals, 0 assists in 1 appearance in Season 4.
 
 

@@ -26,9 +26,9 @@ Here are some of Toma's players to watch, with last season's (Season 4) figures 
 - **[Joshua Phillips](/players/joshua-phillips)** (Striker) — 1 goals and 0 assists in 1 appearance.
 - **[Arezki Hamouchene](/players/arezki-hamouchene)** (Midfielder) — 0 goals and 0 assists in 1 appearance.
 - **[Yasin Ben El-Mhanni](/players/yasin-ben-el-mhanni)** (Striker) — 0 goals and 0 assists in 1 appearance.
-- **[Charlie Pavey](/players/charlie-pavey)** (Midfielder) — 0 goals and 0 assists in 1 appearance.
+- **[Charlie James Pavey](/players/charlie-pavey)** (Midfielder) — 0 goals and 0 assists in 1 appearance.
 - **[Hugo Fisher](/players/hugo-fisher)** (Goalkeeper) — 0 goals and 0 assists in 1 appearance.
-- **[Ibrahim Bangura](/players/ibrahim-bangura)** (Defender) — 0 goals and 0 assists in 1 appearance.
+- **[Ibrahim Rasheed Bangura](/players/ibrahim-bangura)** (Defender) — 0 goals and 0 assists in 1 appearance.
 
 See the full squad on the [Toma team page](/teams/toma).
 
@@ -40,6 +40,6 @@ Every matchday is a Monday night, with the regular season running for **11 gamew
 
 ## Season outlook
 
-Toma will fancy their chances of a strong season if they can convert last year's promise into points. The margins in this league are famously small.
+Consistency will be the aim for Toma as they look to build on recent campaigns and push towards the Final Four.
 
 Follow Toma all season long on the [teams hub](/teams) and keep up with standings on the live [league table](/table).

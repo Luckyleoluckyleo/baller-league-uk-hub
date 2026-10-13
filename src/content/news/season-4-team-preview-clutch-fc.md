@@ -24,7 +24,7 @@ Clutch FC are led by [Chloe Kelly](/managers/chloe-kelly). Their experience and 
 Here are some of Clutch FC's players to watch, with last season's (Season 4) figures where available:
 
 - **[Alex Byrne](/players/alex-byrne)** (Striker) — 4 goals and 0 assists in 1 appearance.
-- **[Joshua Sumbunu](/players/joshua-sumbunu-2)** (Defender) — 1 goals and 0 assists in 1 appearance.
+- **[Joshua Sumbunu](/players/joshua-sumbunu)** (Defender) — 1 goals and 0 assists in 1 appearance.
 - **[Albie Sheehan](/players/albie-sheehan)** (Defender) — 0 goals and 0 assists in 1 appearance.
 - **[Alfie Matthews](/players/alfie-matthews)** (Striker) — 0 goals and 2 assists in 1 appearance.
 - **[Erick Kenko](/players/erick-kenko)** (Midfielder) — 0 goals and 0 assists in 1 appearance.
