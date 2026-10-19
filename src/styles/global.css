@@ -500,6 +500,7 @@ hr { border: none; border-top: 1px solid var(--border); margin: var(--space-xl) 
 .table-wrap::-webkit-scrollbar-thumb { background: var(--green-mid); border-radius: var(--radius-full); }
 .table-wrap::-webkit-scrollbar-thumb:hover { background: var(--green); }
 .table-wrap { scrollbar-width: thin; scrollbar-color: var(--green-mid) var(--bg-elevated); }
+.table-scroll-hint { display: none; }
 
 /* === SELECTION === */
 ::selection { background: var(--green-glow-strong); color: var(--green); }
@@ -541,13 +542,10 @@ hr { border: none; border-top: 1px solid var(--border); margin: var(--space-xl) 
   .table-cards tbody td[data-label="Player"]::before,
   .table-cards tbody td[data-label="#"] { display: none; }
 
-  /* Standings: hide non-essential columns so it fits without scrolling */
-  .standings-compact th:nth-child(4), .standings-compact td:nth-child(4),
-  .standings-compact th:nth-child(5), .standings-compact td:nth-child(5),
-  .standings-compact th:nth-child(6), .standings-compact td:nth-child(6),
-  .standings-compact th:nth-child(7), .standings-compact td:nth-child(7),
-  .standings-compact th:nth-child(8), .standings-compact td:nth-child(8),
-  .standings-compact th:nth-child(10), .standings-compact td:nth-child(10) { display: none; }
+  /* Standings: keep every column and let the wrapper scroll horizontally. */
+  .standings-compact { min-width: 780px; }
+  .standings-table { -webkit-overflow-scrolling: touch; }
+  .table-scroll-hint { display: inline-flex; align-items: center; margin-left: auto; font-size: 0.8rem; color: var(--text-muted); }
 }
 
 /* === REDUCED MOTION === */
