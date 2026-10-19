@@ -60,10 +60,17 @@ const GC_MAP = {
 
 async function fetchHtml(id) {
   const cachePath = resolve(CACHE_DIR, `${id}.html`);
+  let cachedRaw = null;
   try {
     if (existsSync(cachePath)) {
       const raw = readFileSync(cachePath, "utf8");
-      if (raw.length > 5000) return raw;
+      if (raw.length > 5000) {
+        // A scheduled page is not final. If a pre-match page was cached, refetch
+        // it so the cache cannot mask the result once the game has been played.
+        const status = raw.match(/id="match-flow-data">[\s\S]*?"status"\s*:\s*"([^"]+)"/);
+        if (status && status[1] === "scheduled") cachedRaw = raw;
+        else return raw;
+      }
     }
   } catch {}
   const url = `https://ballerleague.uk/en/game/${id}`;
@@ -77,13 +84,13 @@ async function fetchHtml(id) {
           if (gidM) return fetchHtml(Number(gidM[1]));
         }
       }
-      return null;
+      return cachedRaw;
     }
     const text = await resp.text();
     try { writeFileSync(cachePath, text); } catch {}
     return text;
   } catch (e) {
-    return null;
+    return cachedRaw;
   }
 }
 

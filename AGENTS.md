@@ -26,7 +26,7 @@ A static Astro website providing stats, tables, teams, players, gamechanger anal
 ### Every gameweek:
 
 **Step 1 — Fixtures (AUTOMATIC)**
-`scripts/scrape-fixtures.mjs` reads the next gameweek from `ballerleague.uk/en/matches` and writes `src/data/fixtures.json`. Slugs come straight from the match links (`.../game/214?season=season-4&gameday=1&team1=deportrio&team2=wembley-rangers-afc`); dates come from `season4.json`'s `matchdays`. It runs first in `npm run update`.
+`scripts/scrape-fixtures.mjs` reads the next gameweek from `ballerleague.uk/en/matches` and writes `src/data/fixtures.json`. Slugs come straight from the match links (`.../game/214?season=season-4&gameday=1&team1=deportrio&team2=wembley-rangers-afc`); dates come from `season4.json`'s `matchdays`. If `/en/matches` is stale (it often keeps showing the completed gameweek), the scraper probes game pages after the highest known `gameId` and collects the earliest scheduled gameweek (`status: "scheduled"`), so GW2+ fixtures are picked up even when the list page lags. It runs first in `npm run update`.
 
 ```json
 {
@@ -50,7 +50,7 @@ A static Astro website providing stats, tables, teams, players, gamechanger anal
 
 Notes:
 - Only `upcoming` drives generated content. `results[]` is currently read by **nothing** — see Known Issues.
-- The page only server-renders the **current season's active gameweek**, and the season/date switchers are JS-only — so the scraper reads the default view. If the gameweek is already complete it logs "No upcoming fixtures found" and leaves `fixtures.json` unchanged.
+- The page only server-renders the **current season's active gameweek**, and the season/date switchers are JS-only — so the scraper reads the default view. If the gameweek is already complete and the list has not moved on, the scraper falls back to probing individual game pages for the next scheduled gameweek. It only leaves `fixtures.json` unchanged when no future fixtures are published yet.
 - Run it standalone with `npm run fixtures`; debug against a saved page with `node scripts/scrape-fixtures.mjs --file <path>`.
 - **Fallback:** if the scraper can't find fixtures, hand-edit `src/data/fixtures.json` as above (every `upcoming` entry now needs a `season` field).
 - Knockout games use a `stage` field (`"Semi-Final"`, `"Final"`). Pages test for `.round`, not `.stage` — another Known Issue.
@@ -225,7 +225,7 @@ Standings computation, the active-season constant, form guide, and match-slug co
 | Script | Reads | Writes | In `npm run update`? | Flags |
 |---|---|---|---|---|
 | `update.mjs` | — | — | entrypoint | — |
-| `scrape-fixtures.mjs` | `/en/matches` (live, no cache) | `src/data/fixtures.json` (`upcoming`) | 1/16 | `--file <path>` |
+| `scrape-fixtures.mjs` | `/en/matches` + next-game pages (live, no cache) | `src/data/fixtures.json` (`upcoming`) | 1/16 | `--file <path>` |
 | `scrape.mjs` | `scripts/.cache/{id}.html` (read-through) | `src/data/gamechangers.json` | 2/16 | — |
 | `scrape-standings.mjs` | `gamechangers.json` + `/en/game/{id}` | `src/data/standings.json`, `table.json` (`ep`) | 3/16 | — |
 | `scrape-players.mjs` | `scripts/.cache-players/` | `src/data/players.json` | 4/16 | — |
@@ -251,7 +251,7 @@ Standings computation, the active-season constant, form guide, and match-slug co
 **`generate-reports.mjs` now defaults to the current season** (from `fixtures.json.upcoming[0].season`), so the weekly pipeline regenerates the live season's reports unattended; `--season=all` still rebuilds every season (⚠ drops colliding slugs). `verify-data.mjs` accepts optional season numbers; `scrape-fixtures.mjs` accepts `--file <path>`; `season4-news.mjs` accepts `--all` / `--days=N`. No script reads `process.env`.
 
 ### Cache policy
-- `scripts/.cache/{id}.html` — match pages. Cache clearing is **deliberately commented out** in `update.mjs`. Old gameweeks are final and load instantly; new gameweeks aren't in cache so they fetch live. No invalidation, ever.
+- `scripts/.cache/{id}.html` — match pages. Cache clearing is **deliberately commented out** in `update.mjs`. Old gameweeks are final and load instantly; new gameweeks aren't in cache so they fetch live. The one exception: a cached page whose `match-flow-data` status is `"scheduled"` is refetched, so a pre-match page can never mask the result once the game has been played.
 - `scripts/.cache-players/` — three cache types: `list-page-{n}.html`, `player-{slug}.html`, `player-{slug}-s{n}.html`. Same no-invalidation policy; **clear it when the season changes**.
 - `scrape-fixtures.mjs` keeps **no cache** — `/en/matches` is a live list that changes weekly, so it always fetches fresh.
 - `scrape-ep.mjs` has no cache of its own — it *consumes* `scrape.mjs`'s cache. It is **superseded by `scrape-standings.mjs`** (which also captures historical seasons) and is no longer in the pipeline.

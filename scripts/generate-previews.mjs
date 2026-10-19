@@ -17,7 +17,14 @@ if (!existsSync(CONTENT_DIR)) mkdirSync(CONTENT_DIR, { recursive: true });
 
 const players = playerData.players;
 const upcoming = fixturesData.upcoming;
-const allMatches = Object.values(gcData.seasons).flatMap((s) => s.matches).filter((m) => m.homeScore > 0 || m.awayScore > 0);
+// Keep the season on every match: gameweek numbers repeat each season, so
+// ordering by gameweek alone mixes S3 GW12 into an S4 GW2 form guide.
+const allMatches = Object.entries(gcData.seasons)
+  .flatMap(([season, s]) =>
+    s.matches
+      .filter((m) => m.homeScore > 0 || m.awayScore > 0)
+      .map((m) => ({ ...m, season: Number(season) }))
+  );
 
 // Map each game to its season so historical references read correctly.
 const seasonOfGame = {};
@@ -57,7 +64,7 @@ function keyPlayers(slug, limit = 5) {
 
 function teamForm(slug) {
   return allMatches
-    .filter((m) => m.homeSlug === slug || m.awaySlug === slug)
+    .filter((m) => m.season === Number(statsSeason) && (m.homeSlug === slug || m.awaySlug === slug))
     .sort((a, b) => b.gameweek - a.gameweek)
     .slice(0, 5)
     .map((m) => {
@@ -70,7 +77,7 @@ function teamForm(slug) {
 function h2h(a, b) {
   const ms = allMatches
     .filter((m) => (m.homeSlug === a && m.awaySlug === b) || (m.homeSlug === b && m.awaySlug === a))
-    .sort((x, y) => x.gameweek - y.gameweek);
+    .sort((x, y) => (x.season - y.season) || (x.gameweek - y.gameweek));
   let aw = 0, bw = 0, dr = 0;
   for (const m of ms) {
     const aIsHome = m.homeSlug === a;
@@ -83,8 +90,12 @@ function h2h(a, b) {
   return { played: ms.length, aw, bw, dr, last: ms[ms.length - 1] || null };
 }
 
+// Use a single completed season so the average is comparable. During pre-season
+// that is the latest played season; once the new season starts it is the one before.
+const gcSeason = preSeason ? Number(statsSeason) : CURRENT_SEASON - 1;
+
 function gcRate(slug) {
-  const ms = allMatches.filter((m) => m.homeSlug === slug || m.awaySlug === slug);
+  const ms = allMatches.filter((m) => m.season === gcSeason && (m.homeSlug === slug || m.awaySlug === slug));
   const total = ms.reduce((s, m) => s + (m.gamechanger1?.goalsScored || 0) + (m.gamechanger2?.goalsScored || 0), 0);
   return { total, avg: ms.length ? (total / ms.length).toFixed(1) : "0.0" };
 }
@@ -134,11 +145,13 @@ function buildPreview(fixture) {
   const title = `Gameweek ${gw} Preview: ${home} vs ${away} — Team News, Key Players & Prediction`;
   const excerpt = `${home} meet ${away} in Gameweek ${gw} of Baller League UK ${seasonLabel}${dateStr ? ` on ${dateStr}` : ""}${timeStr ? ` (${timeStr})` : ""}. Team news, key players, head-to-head and our prediction.`;
 
-  const intro = `The new Baller League UK season gets under way as **${home}** take on **${away}** in Gameweek ${gw}${dateStr ? ` on **${dateStr}**` : ""}${timeStr ? `, with kick-off at **${timeStr}**` : ""}. It is the first competitive outing of ${seasonLabel} for both clubs, and the opening night at the Baller League Arena in Dagenham promises the usual mix of fast 6v6 football, celebrity dugouts and the game-changing rule twists that make the league so watchable.`;
+  const intro = preSeason || gw === 1
+    ? `The new Baller League UK season gets under way as **${home}** take on **${away}** in Gameweek ${gw}${dateStr ? ` on **${dateStr}**` : ""}${timeStr ? `, with kick-off at **${timeStr}**` : ""}. It is the first competitive outing of ${seasonLabel} for both clubs, and the opening night at the Baller League Arena in Dagenham promises the usual mix of fast 6v6 football, celebrity dugouts and the game-changing rule twists that make the league so watchable.`
+    : `**${home}** host **${away}** in Gameweek ${gw} of Baller League UK ${seasonLabel}${dateStr ? ` on **${dateStr}**` : ""}${timeStr ? `, with kick-off at **${timeStr}**` : ""}. Both sides are looking to build momentum at the Baller League Arena in Dagenham, with the usual mix of fast 6v6 football, celebrity dugouts and the game-changing rule twists that make the league so watchable.`;
 
   const contextPara = preSeason
     ? `Season ${CURRENT_SEASON} marks a fresh start. Yanited have been rebranded as **RTG FC**, Rukkas FC are now **P17 FC**, and **Toma** join the league as a brand-new franchise — but the format remains the same: 12 teams, 11 Monday-night matchdays and a Final Four deciding the champion.`
-    : `Every point matters in ${seasonLabel}. With the top four reaching the Final Four at the end of the regular season, ${home} and ${away} both know a fast start could shape their entire campaign.`;
+    : `Every point matters in ${seasonLabel}. With the top four reaching the Final Four at the end of the regular season, ${home} and ${away} both know this is a chance to climb the table.`;
 
   let formSection = "";
   if (homeForm.length || awayForm.length) {
