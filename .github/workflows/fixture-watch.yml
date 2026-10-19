@@ -1,0 +1,64 @@
+name: Fixture watch
+
+# The official site sometimes publishes the next gameweek's fixtures after the
+# Monday-night update. This lightweight job checks Tuesday-Thursday and only
+# regenerates previews when fixtures.json actually changes.
+on:
+  schedule:
+    - cron: "0 10 * * 2-4"
+    - cron: "0 17 * * 2-4"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Share the weekly update's group so the two workflows never push at once.
+concurrency:
+  group: weekly-s4-update
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Check for new fixtures
+        id: fixtures
+        run: |
+          node scripts/scrape-fixtures.mjs
+          if git diff --quiet -- src/data/fixtures.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No fixture changes."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "New fixtures found."
+          fi
+
+      - name: Generate previews and OG images
+        if: steps.fixtures.outputs.changed == 'true'
+        run: |
+          node scripts/generate-previews.mjs
+          node scripts/generate-og-images.mjs
+
+      - name: Build
+        if: steps.fixtures.outputs.changed == 'true'
+        run: npm run build
+
+      - name: Commit and push
+        if: steps.fixtures.outputs.changed == 'true'
+        run: |
+          git config user.name "baller-hub-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git commit -m "chore: refresh fixtures and previews"
+          git push

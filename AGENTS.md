@@ -216,6 +216,7 @@ Standings computation, the active-season constant, form guide, and match-slug co
 - **`/gw-update`** (`.opencode/command/gw-update.md`) — the weekly ritual: set `fixtures.json` → `npm run update` → `verify-data` → commit/push.
 - **`baller-maintainer`** (`.opencode/agent/baller-maintainer.md`) — a project primary agent (Tab to switch) with the domain prompt + permissions.
 - **Weekly GitHub Action** (`.github/workflows/weekly-s4-update.yml`) — Monday-night cron that runs `npm run update` and commits the result; uses the built-in `GITHUB_TOKEN` (`contents: write`), no secret required. Netlify deploys on the push.
+- **Fixture watch** (`.github/workflows/fixture-watch.yml`) — Tue–Thu 10:00/17:00 UTC check for late-published fixtures. It only regenerates previews and OG images when `fixtures.json` changes, so it never causes daily content churn.
 - These files are **not** loaded until opencode restarts.
 
 ---
