@@ -139,7 +139,7 @@ The **Final Four** playoff then decides the Season 4 champion.
 
 ## Follow the season
 
-Bookmark the [league table](/table), [fixtures](/fixtures), [teams](/teams), [managers](/managers) and [news](/news) pages for the latest. Every matchday we publish previews before kick-off and reports, player stats and table updates immediately after the final whistle. The [Season 4 hub](/season-4) also tracks the venue, format, signings and manager news.
+Bookmark the [league table](/table), [fixtures](/fixtures), [teams](/teams), [players](/players), [managers](/managers) and [news](/news) pages for the latest. Every matchday we publish previews before kick-off and reports, player stats and table updates immediately after the final whistle. The [Season 4 hub](/season-4) also tracks the venue, format, signings and manager news.
 
 ## Sources
 

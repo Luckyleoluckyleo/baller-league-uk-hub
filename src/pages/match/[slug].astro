@@ -51,6 +51,10 @@ const allNews = await getCollection('news');
 const reportSlug = match ? `${match.homeSlug}-vs-${match.awaySlug}-gw${match.gameweek}` : null;
 const hasReport = reportSlug ? allNews.some((a) => a.slug === reportSlug) : false;
 
+// Keep the archive accessible but out of the index for the two oldest seasons:
+// Google is crawling these pages and declining to index them anyway.
+const isOldSeasonMatch = match ? Number(match.season) <= 2 : false;
+
 const gc1def = gcData.definitions.firstHalf.find(g => g.id === match?.gamechanger1?.type) || gcData.definitions.secondHalf.find(g => g.id === match?.gamechanger1?.type);
 const gc2def = gcData.definitions.secondHalf.find(g => g.id === match?.gamechanger2?.type);
 const totalGCGoals = (match?.gamechanger1?.goalsScored || 0) + (match?.gamechanger2?.goalsScored || 0);
@@ -123,6 +127,7 @@ const schema = match ? {
   title={match ? `${match.homeTeam} ${match.homeScore}-${match.awayScore} ${match.awayTeam} — Gameweek ${match.gameweek}` : 'Match Not Found'}
   description={match ? `Full match detail for ${match.homeTeam} vs ${match.awayTeam} (${match.homeScore}-${match.awayScore}) — Gameweek ${match.gameweek}, Season ${match.season}. Gamechanger analysis, goals and timeline.` : 'Match not found.'}
   schema={schema}
+  noindex={isOldSeasonMatch}
 >
 
   {!match ? (

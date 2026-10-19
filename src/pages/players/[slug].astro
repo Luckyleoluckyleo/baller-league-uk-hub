@@ -134,6 +134,12 @@ const schema = [personSchema, faqSchema].filter(Boolean);
 
 const color = teamColor(player?.teamSlug);
 const colorSoft = teamColorSoft(player?.teamSlug, 0.18);
+
+// Auto-generated historical players have little unique content. Keep them
+// accessible, but out of the index; hand-written profiles and current S4
+// players stay indexable.
+const hasCurrentSeasonApps = (player?.seasons?.[String(CURRENT_SEASON)]?.apps || 0) > 0;
+const isThinHistoricalPlayer = !entry && !hasCurrentSeasonApps;
 ---
 
 <Base
@@ -141,6 +147,7 @@ const colorSoft = teamColorSoft(player?.teamSlug, 0.18);
   description={player ? `${player.name}${stats ? ` — ${stats.goals ?? 0} goals, ${stats.assists ?? 0} assists in ${stats.apps ?? 0} apps for ${player.team} in Baller League UK Season ${statsSeason}.` : ''}` : 'Player not found.'}
   schema={schema}
   image={player ? `/og/players/${player.slug}.png` : undefined}
+  noindex={isThinHistoricalPlayer}
   keywords={player ? `${player.name}, ${player.team}, Baller League UK player, ${player.position ?? ''}, Season ${statsSeason}` : ''}
 >
 

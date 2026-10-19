@@ -20,3 +20,14 @@
   from = "/managers/tobi-brown-tbjzl"
   to = "/managers/tobi-brown"
   status = 301
+
+# Legacy player slug from an older players.json scrape.
+[[redirects]]
+  from = "/players/charlie-james-pavey"
+  to = "/players/charlie-pavey/"
+  status = 301
+
+[[redirects]]
+  from = "/players/charlie-james-pavey/"
+  to = "/players/charlie-pavey/"
+  status = 301

@@ -43,15 +43,39 @@ function extractTeams(slug: string): { home: string; away: string } | null {
   return { home: m[1], away: m[2] };
 }
 
+// Match reports have no season in their slug. Resolve it against the fixture;
+// when the same fixture exists in several seasons, the latest report wins.
+function reportSeasonFor(slug: string): number | null {
+  const m = slug.match(/^(.+?)-vs-(.+?)-gw(\d+)$/);
+  if (!m) return null;
+  const home = m[1], away = m[2], gw = Number(m[3]);
+  let season: number | null = null;
+  for (const [key, seasonData] of Object.entries(gcData.seasons)) {
+    const hit = (seasonData.matches as any[]).some(
+      (x) => x.homeSlug === home && x.awaySlug === away && x.gameweek === gw
+    );
+    if (hit) season = Math.max(season ?? 0, Number(key));
+  }
+  return season;
+}
+
 const matchTeams = extractTeams(article.slug);
 
 // Thin/redundant pages are kept for users (and internal links) but removed from the
 // index so the site's overall quality isn't diluted — helps the AdSense "low value
 // content" signal. A preview is superseded by its match report once the game is played.
 const baseSlug = article.slug.replace(/-preview$/, "");
-const isStalePreview = data.category === 'Preview' && allNews.some(a => a.slug === baseSlug);
+const isGeneratedMatchPreview = /^.+?-vs-.+?-gw\d+-preview$/.test(article.slug);
+const isStalePreview = data.category === 'Preview' && (
+  allNews.some(a => a.slug === baseSlug) ||
+  // A generated match preview older than two days is for a match that has
+  // already been played, even if no report was generated for it.
+  (isGeneratedMatchPreview && Date.now() - data.date.getTime() > 2 * 24 * 60 * 60 * 1000)
+);
 const isSpotlight = article.slug.startsWith('player-spotlight-');
-const noindexArticle = isSpotlight || isStalePreview;
+const reportSeason = data.category === 'Match Report' ? reportSeasonFor(article.slug) : null;
+const isOldSeasonReport = reportSeason !== null && reportSeason <= 2;
+const noindexArticle = isSpotlight || isStalePreview || isOldSeasonReport;
 
 const related = allNews
   .filter(a => a.slug !== article.slug && extractGW(a.slug) === currentGW && currentGW > 0)
