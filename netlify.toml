@@ -31,3 +31,45 @@
   from = "/players/charlie-james-pavey/"
   to = "/players/charlie-pavey/"
   status = 301
+
+# Old preview/report URLs that were removed. Point them at the live report or
+# match page rather than leaving a crawlable 404.
+[[redirects]]
+  from = "/news/clutch-fc-vs-yanited-gw9-preview/"
+  to = "/news/clutch-fc-vs-yanited-gw9/"
+  status = 301
+
+[[redirects]]
+  from = "/news/gold-devils-fc-vs-sds-fc-gw9-preview/"
+  to = "/news/gold-devils-fc-vs-sds-fc-gw9/"
+  status = 301
+
+[[redirects]]
+  from = "/news/n5-fc-vs-wembley-rangers-afc-gw9-preview/"
+  to = "/news/n5-fc-vs-wembley-rangers-afc-gw9/"
+  status = 301
+
+[[redirects]]
+  from = "/news/community-fc-vs-rukkas-fc-gw9-preview/"
+  to = "/news/community-fc-vs-rukkas-fc-gw9/"
+  status = 301
+
+[[redirects]]
+  from = "/news/deportrio-vs-vzn-fc-gw9-preview/"
+  to = "/news/deportrio-vs-vzn-fc-gw9/"
+  status = 301
+
+[[redirects]]
+  from = "/news/ndl-fc-vs-prime-fc-gw9-preview/"
+  to = "/news/ndl-fc-vs-prime-fc-gw9/"
+  status = 301
+
+[[redirects]]
+  from = "/news/rukkas-fc-vs-vzn-fc-gw2"
+  to = "/match/s2-rukkas-fc-vs-vzn-fc-gw2/"
+  status = 301
+
+[[redirects]]
+  from = "/news/yanited-vs-ndl-fc-gw9"
+  to = "/match/s2-yanited-vs-ndl-fc-gw9/"
+  status = 301
