@@ -204,4 +204,4 @@ Their next fixture is yet to be confirmed — check back for the Gameweek 11 sch
 
 *All stats via [Baller League UK Hub](https://ballerleagueukhub.com). Match reports auto-generated from official data.*
 
-*Looking for more Gameweek 11 coverage? Check out the [full GW11 roundup](/roundup/11) for all 6 matches, stats, and analysis.*
+*Browse the [weekly roundups](/roundup) for the latest gameweek summaries, stats and analysis.*

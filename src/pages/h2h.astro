@@ -126,9 +126,11 @@ const schema = {
             <h4 style="margin-bottom: var(--space-md);">Recent Meetings</h4>
             <div class="h2h-matches">
               {topRivalry.matches.slice(0, 5).map((m: any) => {
-                const newsSlug = `${m.homeSlug}-vs-${m.awaySlug}-gw${m.gameweek}`;
+                // Link to the match page: unlike news reports it exists for every
+                // match, so historical rows never point at a missing article.
+                const matchHref = `/match/s${m._season}-${m.homeSlug}-vs-${m.awaySlug}-gw${m.gameweek}`;
                 return (
-                  <a href={`/news/${newsSlug}`} class="h2h-match-row">
+                  <a href={matchHref} class="h2h-match-row">
                     <span class="text-muted" style="font-size: 0.8rem;">GW{m.gameweek}</span>
                     <span><a href={`/teams/${teamSlugs[m.homeTeam]}`}>{m.homeTeam}</a></span>
                     <span class="h2h-match-score">{m.homeScore}–{m.awayScore}</span>

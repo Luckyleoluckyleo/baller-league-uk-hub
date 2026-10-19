@@ -203,4 +203,4 @@ With the Season 3 playoffs complete and the champions crowned, Prime FC's campai
 
 *All stats via [Baller League UK Hub](https://ballerleagueukhub.com). Match reports auto-generated from official data.*
 
-*Looking for more Gameweek 12 coverage? Check out the [full GW12 roundup](/roundup/12) for all 3 matches, stats, and analysis.*
+*Browse the [weekly roundups](/roundup) for the latest gameweek summaries, stats and analysis.*

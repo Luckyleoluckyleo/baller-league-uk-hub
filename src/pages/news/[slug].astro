@@ -3,6 +3,8 @@
 import Base from '../../layouts/Base.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import { getCollection } from 'astro:content';
+import gcData from '../../data/gamechangers.json';
+import { CURRENT_SEASON } from '../../lib/league';
 
 export async function getStaticPaths() {
   const articles = await getCollection('news');
@@ -24,6 +26,16 @@ function extractGW(slug: string): number {
 }
 
 const currentGW = extractGW(article.slug);
+
+// Roundup pages only exist for gameweeks played in the current season. Hide the
+// link on older reports rather than pointing at a route that was never built.
+const currentSeasonMatches = (gcData.seasons[String(CURRENT_SEASON)]?.matches || []) as any[];
+const roundupGws = new Set(
+  currentSeasonMatches
+    .filter((m) => m.homeScore > 0 || m.awayScore > 0)
+    .map((m) => m.gameweek)
+);
+const hasRoundup = currentGW > 0 && roundupGws.has(currentGW);
 
 function extractTeams(slug: string): { home: string; away: string } | null {
   const m = slug.match(/^(.+?)-vs-(.+?)-gw\d+/i);
@@ -149,7 +161,7 @@ const catClass =
                 <li><a href={`/teams/${matchTeams.home}`}>{matchTeams.home.split('-').map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}</a></li>
                 <li><a href={`/teams/${matchTeams.away}`}>{matchTeams.away.split('-').map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}</a></li>
                 <li><a href={`/h2h?t1=${matchTeams.home}&t2=${matchTeams.away}`}>H2H Comparison</a></li>
-                {currentGW > 0 && <li><a href={`/roundup/${currentGW}`}>GW{currentGW} Roundup</a></li>}
+                {hasRoundup && <li><a href={`/roundup/${currentGW}`}>GW{currentGW} Roundup</a></li>}
               </ul>
             </div>
           </div>

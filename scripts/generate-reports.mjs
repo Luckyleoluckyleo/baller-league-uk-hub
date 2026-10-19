@@ -1129,7 +1129,9 @@ ${whatNextSection(home, away, homeNext, awayNext, gw)}
 
 *All stats via [Baller League UK Hub](https://ballerleagueukhub.com). Match reports auto-generated from official data.*
 
-*Looking for more Gameweek ${gw} coverage? Check out the [full GW${gw} roundup](/roundup/${gw}) for all ${matches.filter(m => m.gameweek === gw).length} matches, stats, and analysis.*
+${statsSeason === String(CURRENT_SEASON)
+  ? `*Looking for more Gameweek ${gw} coverage? Check out the [full GW${gw} roundup](/roundup/${gw}) for all ${matches.filter(m => m.gameweek === gw).length} matches, stats, and analysis.*`
+  : `*Browse the [weekly roundups](/roundup) for the latest gameweek summaries, stats and analysis.*`}
 `;
 
   return { slug, content };

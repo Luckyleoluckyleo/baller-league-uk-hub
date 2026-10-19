@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import gcData from '../../data/gamechangers.json';
+import { getCollection } from 'astro:content';
 
 function buildSlug(m: any, season: string) {
   return `s${season}-${m.homeSlug}-vs-${m.awaySlug}-gw${m.gameweek}`;
@@ -43,6 +44,12 @@ const match = slugMap[slug] || null;
 if (!match) {
   Astro.response.status = 404;
 }
+
+// Only link to a report that actually exists. Older seasons were not all
+// generated, and linking to missing /news slugs created crawlable 404s.
+const allNews = await getCollection('news');
+const reportSlug = match ? `${match.homeSlug}-vs-${match.awaySlug}-gw${match.gameweek}` : null;
+const hasReport = reportSlug ? allNews.some((a) => a.slug === reportSlug) : false;
 
 const gc1def = gcData.definitions.firstHalf.find(g => g.id === match?.gamechanger1?.type) || gcData.definitions.secondHalf.find(g => g.id === match?.gamechanger1?.type);
 const gc2def = gcData.definitions.secondHalf.find(g => g.id === match?.gamechanger2?.type);
@@ -257,11 +264,13 @@ const schema = match ? {
         )}
 
         <!-- MATCH REPORT LINK -->
-        <div class="card gc-summary-card">
-          <div class="card-body text-center">
-            <a href={`/news/${match.homeSlug}-vs-${match.awaySlug}-gw${match.gameweek}`} class="btn btn-primary">Read Match Report</a>
+        {hasReport && (
+          <div class="card gc-summary-card">
+            <div class="card-body text-center">
+              <a href={`/news/${reportSlug}`} class="btn btn-primary">Read Match Report</a>
+            </div>
           </div>
-        </div>
+        )}
 
         <!-- NAVIGATION -->
         <div class="match-navigation">

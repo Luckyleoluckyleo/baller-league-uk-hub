@@ -47,6 +47,8 @@ function getH2H(s1: string, s2: string) {
       gw: m.gameweek,
       home: m.homeTeam,
       away: m.awayTeam,
+      homeSlug: m.homeSlug,
+      awaySlug: m.awaySlug,
       hs: m.homeScore,
       as: m.awayScore,
     }))
@@ -214,7 +216,7 @@ const schema = {
             {semi1.h2h.length > 0 ? (
               <div class="ff-h2h-table">
                 {semi1.h2h.map(m => (
-                  <a href={`/news/ndl-fc-vs-sds-fc-gw${m.gw}`} class="ff-h2h-row">
+                  <a href={`/match/s3-${m.homeSlug}-vs-${m.awaySlug}-gw${m.gw}`} class="ff-h2h-row">
                     <span class="gw">GW{m.gw}</span>
                     <span class="match">{m.home} <strong>{m.hs}–{m.as}</strong> {m.away}</span>
                     <span class="result">{m.hs > m.as ? `${m.home} won` : m.as > m.hs ? `${m.away} won` : 'Draw'}</span>
@@ -270,7 +272,7 @@ const schema = {
             {semi2.h2h.length > 0 ? (
               <div class="ff-h2h-table">
                 {semi2.h2h.map(m => (
-                  <a href={`/news/deportrio-vs-prime-fc-gw${m.gw}`} class="ff-h2h-row">
+                  <a href={`/match/s3-${m.homeSlug}-vs-${m.awaySlug}-gw${m.gw}`} class="ff-h2h-row">
                     <span class="gw">GW{m.gw}</span>
                     <span class="match">{m.home} <strong>{m.hs}–{m.as}</strong> {m.away}</span>
                     <span class="result">{m.hs > m.as ? `${m.home} won` : m.as > m.hs ? `${m.away} won` : 'Draw'}</span>

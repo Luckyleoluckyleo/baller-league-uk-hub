@@ -2,10 +2,24 @@
 import Base from '../layouts/Base.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
 import { getCollection } from 'astro:content';
+import gcData from '../data/gamechangers.json';
 
 const teams = await getCollection('teams');
 const allNews = await getCollection('news');
 const allPlayers = await getCollection('players');
+const managers = await getCollection('managers');
+
+// Roundup pages are built for the latest season with results only.
+const playedSeasons = Object.entries(gcData.seasons)
+  .filter(([, s]: any) => s.matches.some((m: any) => m.homeScore > 0 || m.awayScore > 0))
+  .map(([k]) => Number(k))
+  .sort((a, b) => b - a);
+const roundupSeason = String(playedSeasons[0] ?? Math.max(...Object.keys(gcData.seasons).map(Number)));
+const roundupGws = [...new Set(
+  ((gcData.seasons[roundupSeason]?.matches as any[]) || [])
+    .filter((m: any) => m.homeScore > 0 || m.awayScore > 0)
+    .map((m: any) => m.gameweek)
+)].sort((a: any, b: any) => a - b);
 
 const newsByCategory: Record<string, any[]> = {};
 for (const a of allNews) {
@@ -79,20 +93,16 @@ const schema = {
       </section>
 
       <section class="sitemap-section">
-        <h2>Managers ({teams.length})</h2>
+        <h2>Managers ({managers.length})</h2>
         <ul>
-          {teams.map(t => {
-            const name = t.data.manager.split(',')[0].trim();
-            const slug = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-            return <li><a href={`/managers/${slug}`}>{name}</a></li>;
-          })}
+          {managers.map(m => <li><a href={`/managers/${m.slug}`}>{m.data.name}</a></li>)}
         </ul>
       </section>
 
       <section class="sitemap-section">
-        <h2>Roundups</h2>
+        <h2>Season {roundupSeason} Roundups</h2>
         <ul>
-          {[1,2,3,4,5,6,7,8,9,10].map(gw => (
+          {roundupGws.map(gw => (
             <li><a href={`/roundup/${gw}`}>Gameweek {gw} Roundup</a></li>
           ))}
         </ul>

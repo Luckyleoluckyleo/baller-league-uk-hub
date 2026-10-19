@@ -19,6 +19,10 @@ const { team } = Astro.props;
 const { data } = team;
 const { Content } = await team.render();
 
+// Only link to managers that have a profile page (TBC/M7 placeholders do not).
+const managers = await getCollection('managers');
+const managerSlugs = new Set(managers.map((m) => m.slug));
+
 const SEASON = CURRENT_SEASON;
 const SEASON_KEY = String(SEASON);
 const seasonOf = (p: any) => p.seasons?.[SEASON_KEY] || {};
@@ -77,25 +81,32 @@ const coverage = allNews
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
   .slice(0, 8);
 
+const color = teamColor(data.urlSlug);
+const colorSoft = teamColorSoft(data.urlSlug, 0.18);
+// Use the first named manager in the <title>: keeps it readable for clubs with
+// co-managers while still answering "who manages <team>" queries.
+const primaryManagerRaw = (data.manager.split(',')[0] || '').trim();
+const primaryManager = /^to be announced$/i.test(primaryManagerRaw) ? 'TBC' : primaryManagerRaw;
+const managerBlurb = primaryManager === 'TBC'
+  ? 'with the manager still to be confirmed'
+  : `managed by ${data.manager}`;
+const firstManagerSlug = primaryManager.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "SportsTeam",
   "name": data.name,
   "sport": "Football",
-  "coach": { "@type": "Person", "name": data.manager },
+  "coach": { "@type": "Person", "name": primaryManager },
   "memberOf": { "@type": "SportsOrganization", "name": "Baller League UK" }
 };
-
-const color = teamColor(data.urlSlug);
-const colorSoft = teamColorSoft(data.urlSlug, 0.18);
-const firstManagerSlug = (data.manager.split(',')[0] || '').trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 ---
 
 <Base
-  title={`${data.name} — Baller League UK Team Profile`}
-  description={`${data.name} managed by ${data.manager}. View squad, player stats, recent results, upcoming fixtures and form guide for ${data.name} in Baller League UK Season ${SEASON}.`}
+  title={`${data.name} — Manager ${primaryManager}, Squad & Fixtures | Baller League UK`}
+  description={`${data.name} in Baller League UK Season ${SEASON}, ${managerBlurb}. View the ${data.name} squad, player stats, results, fixtures and form guide.`}
   schema={schema}
-  keywords={`${data.name}, ${data.manager}, Baller League UK team, Season 3, squad, results`}
+  keywords={`${data.name}, ${data.name} Baller League, ${data.manager}, Baller League UK team, Season ${SEASON}, squad, fixtures, results`}
 >
 
   <div class="team-header" style={`--team-color:${color}; --team-soft:${colorSoft}; --team-glow:${teamColorSoft(data.urlSlug, 0.30)};`}>
@@ -144,7 +155,11 @@ const firstManagerSlug = (data.manager.split(',')[0] || '').trim().toLowerCase()
               {data.manager.split(',').map((name: string, i: number) => {
                 const mslug = name.trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
                 return (
-                  <>{i > 0 && <span class="team-manager-amp"> & </span>}<a href={`/managers/${mslug}`} class="team-manager-link">{name.trim()}</a></>
+                  <>{i > 0 && <span class="team-manager-amp"> & </span>}
+                    {managerSlugs.has(mslug)
+                      ? <a href={`/managers/${mslug}`} class="team-manager-link">{name.trim()}</a>
+                      : <span class="team-manager-link">{name.trim()}</span>}
+                  </>
                 );
               })}
             </span>

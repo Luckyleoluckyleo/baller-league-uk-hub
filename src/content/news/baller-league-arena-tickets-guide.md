@@ -1,6 +1,6 @@
 ---
 title: "Baller League Arena: Venue and Tickets Guide"
-date: 2026-10-02
+date: 2026-10-19
 category: "Explainer"
 excerpt: "Everything you need to know about attending a Baller League UK matchday — the venue, the format of the night, ticket types and how to get there."
 author: "Baller League UK Hub"
@@ -11,9 +11,11 @@ featured: false
 
 Baller League UK Season 4 is staged at the **Baller League Arena** — a purpose-built studio venue at **Eastbrook Studios** on Yew Tree Avenue in **Dagenham, London (RM10 7FN)**. It is an indoor arena designed around the league's fast, television-friendly 6v6 format, with a close, atmospheric crowd right on top of the action.
 
+Season 4 is now live, having opened on **Monday 12 October 2026**. For results, the current table and the latest fixtures, see our [Baller League UK Season 4 guide](/news/baller-league-season-4-guide).
+
 ## What a matchday looks like
 
-Matchdays are held on **Monday nights**, with **six matches** running back-to-back from around **17:30 to 22:15**. Because all 12 teams are in action on the same night, a single ticket covers a full evening of football — usually with a Game Changer twist or two along the way. If you are new to the league, our [Game Changers explained](/news/baller-league-game-changers-explained) guide is worth a read before you go.
+Matchdays are held on **Monday nights**, with **six matches** running back-to-back and kick-offs from around **17:15 to 21:50**. Because all 12 teams are in action on the same night, a single ticket covers a full evening of football — usually with a Game Changer twist or two along the way. If you are new to the league, our [Game Changers explained](/news/baller-league-game-changers-explained) guide is worth a read before you go.
 
 ## Ticket options
 
@@ -31,7 +33,7 @@ The arena is in **Dagenham, East London**, an area well served by public transpo
 
 ## Tips for your first visit
 
-1. **Arrive early.** With six matches across the night, getting in before the 17:30 kick-off lets you settle in and catch warm-ups.
+1. **Arrive early.** With six matches across the night, getting in before the first kick-off (around 17:15) lets you settle in and catch warm-ups.
 2. **Expect non-stop action.** Matches are short, back-to-back and high-scoring — the atmosphere builds quickly.
 3. **Follow the Game Changers.** The big moments often arrive at the 12th and 27th minutes of each match. Keep an eye on the big screen.
 4. **Check the schedule.** Not every matchday features the same teams; confirm who is playing on the [table and fixtures page](/table).

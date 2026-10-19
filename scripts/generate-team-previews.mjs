@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync, mkdirSync, existsSync } from "fs";
+import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync } from "fs";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
 
@@ -6,6 +6,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, "..");
 const CONTENT_DIR = resolve(ROOT, "src", "content", "news");
 const TEAMS_DIR = resolve(ROOT, "src", "content", "teams");
+const MANAGERS_DIR = resolve(ROOT, "src", "content", "managers");
 
 const read = (p) => JSON.parse(readFileSync(resolve(ROOT, p), "utf8"));
 const tableData = read("src/data/table.json");
@@ -31,8 +32,23 @@ const statsSeason = String(
 const managersFor = (slug) => (season4.managers || []).filter((m) => m.teamSlug === slug);
 const changeFor = (slug) => (season4.teamChanges || []).find((c) => (c.note || "").toLowerCase().includes((tableData.find((t) => t.slug === slug)?.team || "").toLowerCase()));
 
+// Map the display name in season4.json to the manager content filename
+// (e.g. "Tobi Brown (TBJZL)" -> "tobi-brown"), so generated previews don't
+// invent slugs like /managers/tobi-brown-tbjzl.
+const managerSlugByName = (() => {
+  const map = {};
+  if (!existsSync(MANAGERS_DIR)) return map;
+  for (const file of readdirSync(MANAGERS_DIR).filter((f) => f.endsWith(".md"))) {
+    const raw = readFileSync(resolve(MANAGERS_DIR, file), "utf8");
+    const m = raw.match(/^name:\s*"?(.*?)"?\s*$/m);
+    if (m) map[m[1].trim().toLowerCase()] = file.replace(/\.md$/, "");
+  }
+  return map;
+})();
+
 function mgrSlug(name) {
-  return name.trim().toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  return managerSlugByName[name.trim().toLowerCase()]
+    || name.trim().toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }
 
 function teamContent(slug) {

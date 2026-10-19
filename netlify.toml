@@ -14,3 +14,9 @@
   from = "/admin"
   to = "/admin/index.html"
   status = 200
+
+# Legacy manager slug generated before the name -> content-file mapping existed.
+[[redirects]]
+  from = "/managers/tobi-brown-tbjzl"
+  to = "/managers/tobi-brown"
+  status = 301
