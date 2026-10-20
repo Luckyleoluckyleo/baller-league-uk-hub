@@ -1,6 +1,6 @@
 ---
 title: "Toma — Baller League UK Season 4 Preview & Squad"
-date: 2026-10-13
+date: 2026-10-20
 category: "Team Preview"
 excerpt: "Everything you need to know about Toma for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
 author: "Baller League UK Hub"
@@ -23,18 +23,18 @@ Toma are led by [Jay-Jay Okocha](/managers/jay-jay-okocha). Their experience and
 
 Here are some of Toma's players to watch, with last season's (Season 4) figures where available:
 
-- **[Joshua Phillips](/players/joshua-phillips)** (Striker) — 1 goals and 0 assists in 1 appearance.
-- **[Arezki Hamouchene](/players/arezki-hamouchene)** (Midfielder) — 0 goals and 0 assists in 1 appearance.
-- **[Yasin Ben El-Mhanni](/players/yasin-ben-el-mhanni)** (Striker) — 0 goals and 0 assists in 1 appearance.
-- **[Charlie James Pavey](/players/charlie-pavey)** (Midfielder) — 0 goals and 0 assists in 1 appearance.
-- **[Hugo Fisher](/players/hugo-fisher)** (Goalkeeper) — 0 goals and 0 assists in 1 appearance.
-- **[Ibrahim Rasheed Bangura](/players/ibrahim-bangura)** (Defender) — 0 goals and 0 assists in 1 appearance.
+- **[Arezki Hamouchene](/players/arezki-hamouchene)** (Midfielder) — 2 goals and 0 assists in 2 appearances.
+- **[Joshua Phillips](/players/joshua-phillips)** (Striker) — 2 goals and 0 assists in 2 appearances.
+- **[Junior Dixon](/players/junior-dixon)** (Striker) — 2 goals and 0 assists in 2 appearances.
+- **[Praise Ogbebor](/players/praise-ogbebor)** (Striker) — 1 goals and 0 assists in 2 appearances.
+- **[Yasin Ben El-Mhanni](/players/yasin-ben-el-mhanni)** (Striker) — 0 goals and 0 assists in 2 appearances.
+- **[Alexander Kokoshi](/players/alexander-kokoshi)** (Midfielder) — 0 goals and 0 assists in 1 appearance.
 
 See the full squad on the [Toma team page](/teams/toma).
 
 ## Season 4 fixtures
 
-Toma open their campaign in **Gameweek 1** against **[Gold Devils FC](/teams/gold-devils-fc)** on **12 October 2026**, with kick-off at **21:20** at home.
+Toma open their campaign in **Gameweek 3** against **[Prime FC](/teams/prime-fc)** on **26 October 2026**, with kick-off at **21:50** on the road.
 
 Every matchday is a Monday night, with the regular season running for **11 gameweeks** and the top four reaching the **Final Four**.
 

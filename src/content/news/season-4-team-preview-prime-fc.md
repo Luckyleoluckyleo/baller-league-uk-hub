@@ -1,6 +1,6 @@
 ---
 title: "Prime FC — Baller League UK Season 4 Preview & Squad"
-date: 2026-10-13
+date: 2026-10-20
 category: "Team Preview"
 excerpt: "Everything you need to know about Prime FC for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
 author: "Baller League UK Hub"
@@ -23,18 +23,18 @@ Prime FC are led by [KSI](/managers/ksi). Their experience and personality will 
 
 Here are some of Prime FC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Francis Mampolo](/players/francis-gerard-mampolo)** (Striker) — 1 goals and 0 assists in 1 appearance.
-- **[Montel McKenzie](/players/montel-mckenzie)** (Defender) — 1 goals and 0 assists in 1 appearance.
-- **[Timmy Abraham](/players/timmy-abraham)** (Striker) — 1 goals and 0 assists in 1 appearance.
-- **[Edy Maieco](/players/braulio-valera-pinto-maieco)** (Striker) — 0 goals and 0 assists in 1 appearance.
-- **[Mauro Vilhete](/players/mauro-vilhete)** (Midfielder) — 0 goals and 0 assists in 1 appearance.
-- **[Nathan Okome](/players/nathan-okome)** (Defender) — 0 goals and 0 assists in 1 appearance.
+- **[Timmy Abraham](/players/timmy-abraham)** (Striker) — 3 goals and 0 assists in 2 appearances.
+- **[Francis Mampolo](/players/francis-gerard-mampolo)** (Striker) — 1 goals and 1 assists in 2 appearances.
+- **[Joshua Rusoke](/players/josh-rusoke)** (Defender) — 1 goals and 0 assists in 1 appearance.
+- **[Mauro Vilhete](/players/mauro-vilhete)** (Midfielder) — 1 goals and 1 assists in 2 appearances.
+- **[Montel McKenzie](/players/montel-mckenzie)** (Defender) — 1 goals and 0 assists in 2 appearances.
+- **[Erico Henrique Esteves De Sousa](/players/erico-sousa)** (Striker) — 1 goals and 0 assists in 2 appearances.
 
 See the full squad on the [Prime FC team page](/teams/prime-fc).
 
 ## Season 4 fixtures
 
-Prime FC open their campaign in **Gameweek 1** against **[Clutch FC](/teams/clutch-fc)** on **12 October 2026**, with kick-off at **22:15** at home.
+Prime FC open their campaign in **Gameweek 3** against **[Toma](/teams/toma)** on **26 October 2026**, with kick-off at **21:50** at home.
 
 Every matchday is a Monday night, with the regular season running for **11 gameweeks** and the top four reaching the **Final Four**.
 

@@ -1,6 +1,6 @@
 ---
 title: "RTG FC — Baller League UK All-Time Record & History"
-date: 2026-10-13
+date: 2026-10-20
 category: "Feature"
 excerpt: "RTG FC in numbers: their all-time Baller League UK record, season-by-season finishes, top scorers and standout results across every season."
 author: "Baller League UK Hub"
@@ -9,7 +9,7 @@ featured: false
 
 ## RTG FC: All-Time Baller League UK Record
 
-**RTG FC** have played **35** matches in Baller League UK across 4 seasons, winning **13**, drawing **8** and losing **14** — a win rate of **37%**. They have scored **132** goals and conceded **129** (goal difference **+3**).
+**RTG FC** have played **36** matches in Baller League UK across 4 seasons, winning **13**, drawing **9** and losing **14** — a win rate of **36%**. They have scored **138** goals and conceded **135** (goal difference **+3**).
 
 ## Season-by-season
 
@@ -18,17 +18,17 @@ featured: false
 | 1 | 3rd | 11 | 7 | 1 | 3 | +17 | 22 |
 | 2 | 10th | 11 | 2 | 4 | 5 | -5 | 10 |
 | 3 | 9th | 11 | 4 | 3 | 4 | -4 | 15 |
-| 4 | 8th | 1 | 0 | 0 | 1 | -1 | 0 |
+| 4 | 9th | 2 | 0 | 1 | 1 | -1 | 1 |
 
 Their best finish came in **Season 1**, finishing **3rd** on **22 points**.
 
 ## Top scorers (all-time club)
 
-- **[Kadell Daniel](/players/kadell-daniel)** — 27 goals, 8 assists
-- **[Tyrell Miller-Rodney](/players/tyrell-miller-rodney)** — 7 goals, 6 assists
+- **[Kadell Daniel](/players/kadell-daniel)** — 30 goals, 9 assists
+- **[Tyrell Miller-Rodney](/players/tyrell-miller-rodney)** — 8 goals, 7 assists
 - **[Calum Butcher](/players/calum-butcher)** — 2 goals, 5 assists
-- **[Zaid Al Hussaini](/players/zaid-al-hussaini)** — 1 goals, 2 assists
-- **[Tommy Willard](/players/tommy-willard)** — 1 goals, 0 assists
+- **[Alfie Cerulli](/players/alfie-cerulli)** — 2 goals, 0 assists
+- **[Zaid Al Hussaini](/players/zaid-al-hussaini)** — 1 goals, 4 assists
 
 ## Biggest win
 

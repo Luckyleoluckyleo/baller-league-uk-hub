@@ -1,6 +1,6 @@
 ---
 title: "Player Spotlight: Terell Thomas — VZN FC"
-date: 2026-10-13
+date: 2026-10-20
 category: "Feature"
 excerpt: "A closer look at Terell Thomas, defender for VZN FC in Baller League UK Season 4 — career, honours and what he brings to the 6v6 game."
 author: "Baller League UK Hub"
@@ -27,7 +27,7 @@ Terell Thomas built his professional career at Arsenal (youth), Charlton Athleti
 
 | Season | Apps | Goals | Assists |
 |--------|------|-------|---------|
-| 4 | 1 | 2 | 0 |
+| 4 | 2 | 2 | 0 |
 
 See his full stats on his [player profile](/players/terell-thomas).
 

@@ -1,6 +1,6 @@
 ---
 title: "Toma — Baller League UK All-Time Record & History"
-date: 2026-10-13
+date: 2026-10-20
 category: "Feature"
 excerpt: "Toma in numbers: their all-time Baller League UK record, season-by-season finishes, top scorers and standout results across every season."
 author: "Baller League UK Hub"
@@ -9,27 +9,27 @@ featured: false
 
 ## Toma: All-Time Baller League UK Record
 
-**Toma** have played **1** matches in Baller League UK across 4 seasons, winning **0**, drawing **0** and losing **1** — a win rate of **0%**. They have scored **1** goals and conceded **3** (goal difference **-2**).
+**Toma** have played **2** matches in Baller League UK across 4 seasons, winning **0**, drawing **1** and losing **1** — a win rate of **0%**. They have scored **7** goals and conceded **9** (goal difference **-2**).
 
 ## Season-by-season
 
 | Season | Pos | Pld | W | D | L | GD | Pts |
 |--------|-----|-----|---|---|---|----|-----|
-| 4 | 11th | 1 | 0 | 0 | 1 | -2 | 0 |
+| 4 | 10th | 2 | 0 | 1 | 1 | -2 | 1 |
 
-Their best finish came in **Season 4**, finishing **11th** on **0 points**.
+Their best finish came in **Season 4**, finishing **10th** on **1 points**.
 
 ## Top scorers (all-time club)
 
-- **[Joshua Phillips](/players/joshua-phillips)** — 1 goals, 0 assists
+- **[Joshua Phillips](/players/joshua-phillips)** — 2 goals, 0 assists
+- **[Junior Dixon](/players/junior-dixon)** — 2 goals, 0 assists
+- **[Arezki Hamouchene](/players/arezki-hamouchene)** — 2 goals, 0 assists
+- **[Praise Ogbebor](/players/praise-ogbebor)** — 1 goals, 0 assists
 - **[Matas Skarna](/players/matas-skarna)** — 0 goals, 1 assists
-- **[Hugo Fisher](/players/hugo-fisher)** — 0 goals, 0 assists
-- **[Yasin Ben El-Mhanni](/players/yasin-ben-el-mhanni)** — 0 goals, 0 assists
-- **[Praise Ogbebor](/players/praise-ogbebor)** — 0 goals, 0 assists
 
 ## Highest-scoring game
 
-The most goals Toma have been involved in was a **4-goal** thriller: **Toma 1-3 Gold Devils FC** (Season 4).
+The most goals Toma have been involved in was a **12-goal** thriller: **RTG FC 6-6 Toma** (Season 4).
 
 ## Follow Toma
 

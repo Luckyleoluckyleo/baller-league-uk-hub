@@ -2,14 +2,14 @@
 title: "SDS FC and N5 FC Finish 2-2 in Hard-Fought GW1 Draw"
 date: 2026-10-12
 category: "Match Report"
-excerpt: "SDS FC 2-2 N5 FC — Gameweek 1 match report. Kazaiah Sterling (1 goals) leads SDS FC's attack. Game Changers: Onside (1) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "SDS FC 2-2 N5 FC — Gameweek 1 match report. Kazaiah Sterling (3 goals) leads SDS FC's attack. Game Changers: Onside (1) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
 
 ## Match Summary — SDS FC 2-2 N5 FC
 
-The lights were bright at Baller Arena on Gameweek 1, where **SDS FC** and **N5 FC** served up a match that ebbed and flowed, keeping everyone guessing until the final whistle.
+The crowd at Baller Arena were treated to a spectacle as **SDS FC** faced **N5 FC** in a match that ebbed and flowed, keeping everyone guessing until the final whistle.
 
 The final whistle confirmed a **2-2 draw**, a result that felt about right in a match where both sides gave everything. The Game Changer window — **Onside** and **The Line** — proved pivotal, contributing **1** of the match's **4** goals.
 
@@ -28,11 +28,11 @@ The final whistle confirmed a **2-2 draw**, a result that felt about right in a 
 
 ### First Half
 
-Twelve minutes in and the **Onside** Game Changer came alive, reshaping the contest entirely — a **1-goal** window that gave the half an electric pulse. Half-time arrived with honours even, both managers undoubtedly pleased with elements of their side's performance.
+The first half sprang into life at the 12-minute mark with the **Onside** Game Changer flicking the switch — a **1-goal** window that gave the half an electric pulse. By the interval it was impossible to call a winner. The contest was beautifully balanced, with everything still to play for.
 
 ### Second Half
 
-After the restart, the **The Line** Game Changer detonated at the 27th minute, turning the dial up to eleven — yet both sides held their nerve superbly through the rule change, refusing to blink. Both sides strained every sinew for a winner but the decisive blow never landed. A draw was the fairest outcome in a match where no team deserved to lose.
+The 27th minute brought the **The Line** Game Changer thundering into the match — a moment that would prove pivotal — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. Both sides strained every sinew for a winner but the decisive blow never landed. A draw was the fairest outcome in a match where no team deserved to lose.
 
 ---
 
@@ -40,10 +40,10 @@ After the restart, the **The Line** Game Changer detonated at the 27th minute, t
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **13′** — **Francis Amartey** (N5 FC) opened the scoring
+- **13′** — **Francis Amartey** (N5 FC) broke the deadlock
 - **18′** — **Hani Berchiche** (N5 FC) converted
-- **21′** — **Youssef Chentouf** (SDS FC) fired home
-- **22′** — **Kazaiah Sterling** (SDS FC) scored
+- **21′** — **Youssef Chentouf** (SDS FC) struck
+- **22′** — **Kazaiah Sterling** (SDS FC) slotted
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -96,29 +96,34 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kazaiah Sterling | 1 | 1 | 1 |
-| Youssef Chentouf | 1 | 0 | 1 |
+| Kazaiah Sterling | 3 | 1 | 2 |
+| Amine Sassi | 1 | 0 | 2 |
+| Youssef Chentouf | 1 | 0 | 2 |
+| Ergys Pepaj | 1 | 1 | 2 |
+| Joshua Raymond Bohui | 1 | 0 | 2 |
 
 ### N5 FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Hani Berchiche | 1 | 0 | 1 |
+| Hani Berchiche | 2 | 0 | 2 |
+| Michael Hill | 1 | 0 | 2 |
+| Billy Sharp | 1 | 0 | 2 |
 | Francis Amartey | 1 | 0 | 1 |
 
 **Key Attacking Threats**
 
-- **Kazaiah Sterling** — SDS FC's talisman with **1 goals** from **1 appearances** and **1 assists**. A developing attacking presence with room to grow.
-- **Hani Berchiche** — N5 FC's leading marksman with **1 goals** from **1 outings**. Still finding his rhythm but showing promising signs.
+- **Kazaiah Sterling** — SDS FC's talisman with **3 goals** from **2 appearances** and **1 assists**. A developing attacking presence with room to grow.
+- **Hani Berchiche** — N5 FC's leading marksman with **2 goals** from **2 outings**. Still finding his rhythm but showing promising signs.
 
 
 ---
 
 ## Season Context
 
-With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **SDS FC** entered this match averaging **2.0 goals per game** — a number that reflected their struggles in front of goal this campaign. **N5 FC**, by contrast, arrived with an average of **2.0 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **SDS FC** entered this match averaging **3.5 goals per game** — a number that reflected their struggles in front of goal this campaign. **N5 FC**, by contrast, arrived with an average of **2.5 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **8.0 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **8.3 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -177,10 +182,10 @@ SDS FC held steady, n5 fc held steady.
 ## What's Next
 
 ### SDS FC
-Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
+Next up: **Gold Devils FC** in Gameweek 3. 
 
 ### N5 FC
-Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
+Next up: **Wembley Rangers AFC** in Gameweek 3. 
 
 
 

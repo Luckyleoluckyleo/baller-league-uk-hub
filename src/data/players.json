@@ -76,18 +76,23 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
-          "assists": 0,
+          "assists": 1,
           "detailed": {
-            "Total Passes": 3,
-            "Successful Long Passes": 1,
-            "Goals Conceded Outside Box": 1,
-            "Goals Conceded": 2,
-            "Successful Short Passes": 2,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 3,
-            "Time Played": 10,
-            "Open Play Passes": 3
+            "Total Passes": 17,
+            "Successful Passes Opposition Half": 7,
+            "Key Passes (Attempt Assists)": 2,
+            "Total Shots": 1,
+            "Forward Passes": 6,
+            "Successful Long Passes": 5,
+            "Goals Conceded Outside Box": 2,
+            "Goals Conceded": 3,
+            "Successful Short Passes": 11,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 16,
+            "Time Played": 21,
+            "Goal Assists": 1,
+            "Open Play Passes": 17
           }
         }
       }
@@ -172,20 +177,24 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 16,
+            "Total Passes": 17,
             "Successful Passes Opposition Half": 3,
-            "Duels won": 1,
-            "Forward Passes": 9,
+            "Total Shots": 1,
+            "Duels won": 2,
+            "Forward Passes": 10,
             "Successful Long Passes": 4,
-            "Goals Conceded": 2,
-            "Successful Short Passes": 7,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 11,
-            "Time Played": 13,
-            "Open Play Passes": 16
+            "Tackles Won": 1,
+            "Goals Conceded Outside Box": 1,
+            "Goals Conceded": 4,
+            "Successful Short Passes": 8,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 12,
+            "Time Played": 15,
+            "Total Tackles": 1,
+            "Open Play Passes": 17
           }
         }
       }
@@ -197,7 +206,7 @@
       "teamSlug": "wembley-rangers-afc",
       "position": "Striker",
       "age": null,
-      "number": 11,
+      "number": 99,
       "seasons": {
         "2": {
           "apps": 9,
@@ -245,6 +254,25 @@
             "Time Played": 122,
             "Total Tackles": 8,
             "Open Play Passes": 69
+          }
+        },
+        "4": {
+          "apps": 1,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {
+            "Total Passes": 12,
+            "Successful Passes Opposition Half": 4,
+            "Total Shots": 2,
+            "Duels won": 1,
+            "Forward Passes": 3,
+            "Goals Conceded": 1,
+            "Successful Short Passes": 6,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 6,
+            "Shots On Target (inc goals)": 2,
+            "Time Played": 14,
+            "Total Tackles": 1,
+            "Open Play Passes": 12
           }
         }
       }
@@ -330,7 +358,7 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 0,
           "detailed": {
@@ -338,7 +366,7 @@
             "Successful Long Passes": 1,
             "Successful Short Passes": 1,
             "Total Successful Passes (Excl Crosses &amp; Corners)": 2,
-            "Time Played": 2,
+            "Time Played": 3,
             "Open Play Passes": 1
           }
         }
@@ -380,25 +408,26 @@
           }
         },
         "4": {
-          "apps": 1,
-          "goals": 4,
+          "apps": 2,
+          "goals": 5,
           "assists": 0,
           "detailed": {
-            "Total Passes": 10,
-            "Successful Passes Opposition Half": 6,
-            "Key Passes (Attempt Assists)": 1,
-            "Total Shots": 5,
-            "Duels won": 6,
-            "Forward Passes": 3,
-            "Tackles Won": 2,
-            "Goals Conceded Outside Box": 2,
-            "Goals Conceded": 3,
-            "Successful Short Passes": 9,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 9,
-            "Shots On Target (inc goals)": 4,
-            "Time Played": 18,
-            "Total Tackles": 2,
-            "Open Play Passes": 8
+            "Total Passes": 24,
+            "Successful Passes Opposition Half": 11,
+            "Key Passes (Attempt Assists)": 3,
+            "Total Shots": 13,
+            "Duels won": 9,
+            "Forward Passes": 4,
+            "Successful Long Passes": 4,
+            "Tackles Won": 4,
+            "Goals Conceded Outside Box": 4,
+            "Goals Conceded": 7,
+            "Successful Short Passes": 16,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 20,
+            "Shots On Target (inc goals)": 9,
+            "Time Played": 42,
+            "Total Tackles": 4,
+            "Open Play Passes": 22
           }
         }
       }
@@ -490,27 +519,29 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
-          "assists": 2,
+          "assists": 4,
           "detailed": {
-            "Total Passes": 20,
-            "Successful Passes Opposition Half": 4,
-            "Key Passes (Attempt Assists)": 1,
-            "Total Shots": 5,
-            "Duels won": 4,
-            "Forward Passes": 3,
-            "Successful Long Passes": 4,
-            "Tackles Won": 1,
-            "Goals Conceded Outside Box": 2,
-            "Goals Conceded": 3,
-            "Successful Short Passes": 9,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 13,
-            "Shots On Target (inc goals)": 1,
-            "Time Played": 26,
-            "Total Tackles": 3,
-            "Goal Assists": 2,
-            "Open Play Passes": 18
+            "Total Passes": 59,
+            "Total Clearances": 1,
+            "Successful Passes Opposition Half": 19,
+            "Key Passes (Attempt Assists)": 6,
+            "Total Shots": 14,
+            "Duels won": 8,
+            "Forward Passes": 14,
+            "Successful Long Passes": 21,
+            "Tackles Won": 3,
+            "Goals Conceded Outside Box": 6,
+            "Goals Conceded": 9,
+            "GK Successful Distribution": 2,
+            "Successful Short Passes": 26,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 47,
+            "Shots On Target (inc goals)": 8,
+            "Time Played": 51,
+            "Total Tackles": 5,
+            "Goal Assists": 4,
+            "Open Play Passes": 50
           }
         }
       }
@@ -606,14 +637,13 @@
             "Successful Passes Opposition Half": 2,
             "Key Passes (Attempt Assists)": 2,
             "Total Shots": 2,
-            "Duels won": 2,
+            "Duels won": 1,
             "Goals Conceded Outside Box": 2,
             "Goals Conceded": 2,
             "Successful Short Passes": 4,
             "Total Successful Passes (Excl Crosses &amp; Corners)": 4,
             "Shots On Target (inc goals)": 1,
             "Time Played": 6,
-            "Total Tackles": 1,
             "Open Play Passes": 3
           }
         }
@@ -703,23 +733,25 @@
           }
         },
         "4": {
-          "apps": 1,
-          "goals": 3,
-          "assists": 0,
+          "apps": 2,
+          "goals": 5,
+          "assists": 2,
           "detailed": {
-            "Total Passes": 16,
-            "Successful Passes Opposition Half": 5,
-            "Key Passes (Attempt Assists)": 1,
-            "Total Shots": 6,
-            "Duels won": 1,
-            "Forward Passes": 3,
-            "Successful Long Passes": 4,
-            "Goals Conceded": 1,
-            "Successful Short Passes": 8,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 12,
-            "Shots On Target (inc goals)": 4,
-            "Time Played": 19,
-            "Open Play Passes": 14
+            "Total Passes": 40,
+            "Successful Passes Opposition Half": 18,
+            "Key Passes (Attempt Assists)": 6,
+            "Total Shots": 12,
+            "Duels won": 3,
+            "Forward Passes": 9,
+            "Successful Long Passes": 9,
+            "Goals Conceded Outside Box": 2,
+            "Goals Conceded": 5,
+            "Successful Short Passes": 23,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 32,
+            "Shots On Target (inc goals)": 6,
+            "Time Played": 42,
+            "Goal Assists": 2,
+            "Open Play Passes": 35
           }
         }
       }
@@ -808,26 +840,26 @@
           }
         },
         "4": {
-          "apps": 1,
-          "goals": 0,
+          "apps": 2,
+          "goals": 1,
           "assists": 0,
           "detailed": {
-            "Total Passes": 22,
-            "Successful Passes Opposition Half": 5,
-            "Key Passes (Attempt Assists)": 2,
-            "Total Shots": 2,
-            "Duels won": 1,
-            "Forward Passes": 3,
-            "Successful Long Passes": 5,
-            "Tackles Won": 1,
-            "Goals Conceded Outside Box": 1,
-            "Goals Conceded": 1,
-            "Successful Short Passes": 14,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 19,
-            "Shots On Target (inc goals)": 1,
-            "Time Played": 19,
-            "Total Tackles": 1,
-            "Open Play Passes": 21
+            "Total Passes": 48,
+            "Successful Passes Opposition Half": 13,
+            "Key Passes (Attempt Assists)": 6,
+            "Total Shots": 5,
+            "Duels won": 6,
+            "Forward Passes": 7,
+            "Successful Long Passes": 6,
+            "Tackles Won": 5,
+            "Goals Conceded Outside Box": 2,
+            "Goals Conceded": 2,
+            "Successful Short Passes": 34,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 40,
+            "Shots On Target (inc goals)": 2,
+            "Time Played": 42,
+            "Total Tackles": 6,
+            "Open Play Passes": 47
           }
         }
       }
@@ -864,23 +896,26 @@
           }
         },
         "4": {
-          "apps": 1,
-          "goals": 0,
+          "apps": 2,
+          "goals": 2,
           "assists": 0,
           "detailed": {
-            "Total Passes": 6,
-            "Successful Passes Opposition Half": 3,
-            "Key Passes (Attempt Assists)": 1,
-            "Total Shots": 2,
-            "Duels won": 1,
-            "Forward Passes": 1,
+            "Total Passes": 29,
+            "Successful Passes Opposition Half": 11,
+            "Key Passes (Attempt Assists)": 2,
+            "Total Shots": 8,
+            "Duels won": 4,
+            "Forward Passes": 9,
+            "Successful Long Passes": 2,
             "Tackles Won": 1,
-            "Successful Short Passes": 6,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 6,
-            "Shots On Target (inc goals)": 1,
-            "Time Played": 6,
-            "Total Tackles": 1,
-            "Open Play Passes": 6
+            "Goals Conceded Outside Box": 3,
+            "Goals Conceded": 3,
+            "Successful Short Passes": 24,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 26,
+            "Shots On Target (inc goals)": 4,
+            "Time Played": 22,
+            "Total Tackles": 3,
+            "Open Play Passes": 28
           }
         }
       }
@@ -975,19 +1010,19 @@
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 10,
-            "Total Clearances": 2,
+            "Total Passes": 9,
+            "Total Clearances": 3,
             "Successful Passes Opposition Half": 1,
             "Total Shots": 2,
             "Duels won": 2,
-            "Forward Passes": 5,
+            "Forward Passes": 4,
             "Successful Long Passes": 2,
             "Tackles Won": 1,
-            "Successful Short Passes": 5,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 7,
+            "Successful Short Passes": 4,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 6,
             "Time Played": 22,
             "Total Tackles": 1,
-            "Open Play Passes": 9
+            "Open Play Passes": 8
           }
         }
       }
@@ -1078,25 +1113,28 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 1,
-          "assists": 0,
+          "assists": 2,
           "detailed": {
-            "Total Passes": 16,
-            "Successful Passes Opposition Half": 5,
-            "Key Passes (Attempt Assists)": 2,
-            "Total Shots": 8,
-            "Duels won": 2,
-            "Forward Passes": 4,
-            "Successful Long Passes": 4,
-            "Tackles Won": 1,
-            "Goals Conceded": 1,
-            "Successful Short Passes": 11,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 15,
-            "Shots On Target (inc goals)": 4,
-            "Time Played": 20,
-            "Total Tackles": 1,
-            "Open Play Passes": 16
+            "Total Passes": 37,
+            "Total Clearances": 1,
+            "Successful Passes Opposition Half": 12,
+            "Key Passes (Attempt Assists)": 4,
+            "Total Shots": 18,
+            "Duels won": 3,
+            "Forward Passes": 11,
+            "Successful Long Passes": 8,
+            "Tackles Won": 2,
+            "Goals Conceded Outside Box": 3,
+            "Goals Conceded": 5,
+            "Successful Short Passes": 23,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 31,
+            "Shots On Target (inc goals)": 8,
+            "Time Played": 50,
+            "Total Tackles": 2,
+            "Goal Assists": 2,
+            "Open Play Passes": 36
           }
         }
       }
@@ -1160,25 +1198,25 @@
           }
         },
         "4": {
-          "apps": 1,
-          "goals": 2,
+          "apps": 2,
+          "goals": 3,
           "assists": 0,
           "detailed": {
-            "Total Passes": 10,
+            "Total Passes": 12,
             "Successful Passes Opposition Half": 5,
             "Key Passes (Attempt Assists)": 1,
-            "Total Shots": 5,
-            "Duels won": 2,
+            "Total Shots": 8,
+            "Duels won": 3,
             "Forward Passes": 2,
-            "Successful Long Passes": 3,
+            "Successful Long Passes": 5,
             "Goals Conceded Outside Box": 1,
             "Goals Conceded": 2,
             "Successful Short Passes": 5,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 8,
-            "Shots On Target (inc goals)": 4,
-            "Time Played": 10,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 10,
+            "Shots On Target (inc goals)": 6,
+            "Time Played": 22,
             "Total Tackles": 2,
-            "Open Play Passes": 8
+            "Open Play Passes": 10
           }
         }
       }
@@ -1267,24 +1305,27 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 14,
+            "Total Passes": 30,
             "Total Clearances": 2,
             "Successful Passes Opposition Half": 1,
-            "Total Shots": 1,
-            "Forward Passes": 3,
-            "Successful Long Passes": 1,
-            "Goals Conceded Outside Box": 3,
-            "Goals Conceded": 4,
-            "GK Successful Distribution": 1,
-            "Successful Short Passes": 10,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 11,
+            "Total Shots": 3,
+            "Duels won": 5,
+            "Forward Passes": 7,
+            "Successful Long Passes": 4,
+            "Tackles Won": 2,
+            "Goals Conceded Outside Box": 5,
+            "Goals Conceded": 8,
+            "GK Successful Distribution": 5,
+            "Successful Short Passes": 18,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 22,
             "Shots On Target (inc goals)": 1,
-            "Time Played": 11,
-            "Open Play Passes": 12
+            "Time Played": 28,
+            "Total Tackles": 5,
+            "Open Play Passes": 24
           }
         }
       }
@@ -1462,26 +1503,27 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 1,
           "assists": 0,
           "detailed": {
-            "Total Passes": 34,
-            "Successful Passes Opposition Half": 10,
-            "Key Passes (Attempt Assists)": 5,
-            "Total Shots": 6,
-            "Duels won": 6,
+            "Total Passes": 65,
+            "Total Clearances": 1,
+            "Successful Passes Opposition Half": 13,
+            "Key Passes (Attempt Assists)": 11,
+            "Total Shots": 11,
+            "Duels won": 11,
             "Forward Passes": 7,
-            "Successful Long Passes": 12,
+            "Successful Long Passes": 21,
             "Tackles Won": 1,
-            "Goals Conceded Outside Box": 1,
-            "Goals Conceded": 2,
-            "Successful Short Passes": 19,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 31,
-            "Shots On Target (inc goals)": 3,
-            "Time Played": 28,
-            "Total Tackles": 2,
-            "Open Play Passes": 31
+            "Goals Conceded Outside Box": 3,
+            "Goals Conceded": 5,
+            "Successful Short Passes": 41,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 62,
+            "Shots On Target (inc goals)": 7,
+            "Time Played": 52,
+            "Total Tackles": 3,
+            "Open Play Passes": 62
           }
         }
       }
@@ -1572,24 +1614,27 @@
           }
         },
         "4": {
-          "apps": 1,
-          "goals": 0,
+          "apps": 2,
+          "goals": 1,
           "assists": 0,
           "detailed": {
-            "Total Passes": 14,
-            "Total Clearances": 1,
-            "Successful Passes Opposition Half": 3,
-            "Key Passes (Attempt Assists)": 2,
-            "Duels won": 3,
-            "Forward Passes": 5,
-            "Successful Long Passes": 4,
-            "Tackles Won": 1,
-            "Goals Conceded": 1,
-            "Successful Short Passes": 6,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 10,
-            "Time Played": 26,
-            "Total Tackles": 3,
-            "Open Play Passes": 14
+            "Total Passes": 33,
+            "Total Clearances": 4,
+            "Successful Passes Opposition Half": 8,
+            "Key Passes (Attempt Assists)": 7,
+            "Total Shots": 3,
+            "Duels won": 8,
+            "Forward Passes": 15,
+            "Successful Long Passes": 11,
+            "Tackles Won": 4,
+            "Goals Conceded Outside Box": 4,
+            "Goals Conceded": 7,
+            "Successful Short Passes": 18,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 29,
+            "Shots On Target (inc goals)": 2,
+            "Time Played": 51,
+            "Total Tackles": 7,
+            "Open Play Passes": 32
           }
         }
       }
@@ -1654,25 +1699,27 @@
           }
         },
         "4": {
-          "apps": 1,
-          "goals": 0,
-          "assists": 1,
+          "apps": 2,
+          "goals": 1,
+          "assists": 2,
           "detailed": {
-            "Total Passes": 23,
-            "Successful Passes Opposition Half": 14,
-            "Key Passes (Attempt Assists)": 5,
-            "Total Shots": 4,
-            "Duels won": 6,
-            "Forward Passes": 4,
-            "Successful Long Passes": 8,
-            "Tackles Won": 2,
-            "Goals Conceded": 1,
-            "Successful Short Passes": 12,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 20,
-            "Time Played": 27,
-            "Total Tackles": 4,
-            "Goal Assists": 1,
-            "Open Play Passes": 20
+            "Total Passes": 43,
+            "Successful Passes Opposition Half": 22,
+            "Key Passes (Attempt Assists)": 9,
+            "Total Shots": 9,
+            "Duels won": 8,
+            "Forward Passes": 9,
+            "Successful Long Passes": 13,
+            "Tackles Won": 3,
+            "Goals Conceded Outside Box": 3,
+            "Goals Conceded": 5,
+            "Successful Short Passes": 22,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 35,
+            "Shots On Target (inc goals)": 2,
+            "Time Played": 57,
+            "Total Tackles": 5,
+            "Goal Assists": 2,
+            "Open Play Passes": 37
           }
         }
       }
@@ -1851,26 +1898,28 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 37,
-            "Saves made - parried": 7,
-            "Successful Passes Opposition Half": 11,
-            "Total Shots": 1,
-            "Duels won": 1,
-            "Forward Passes": 26,
-            "Successful Long Passes": 19,
-            "Goals Conceded Outside Box": 3,
-            "Goals Conceded": 4,
-            "GK Successful Distribution": 10,
-            "Successful Short Passes": 12,
-            "Penalties Saved": 1,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 31,
-            "Time Played": 24,
-            "Saves Made": 12,
-            "Open Play Passes": 25
+            "Total Passes": 81,
+            "Saves made - parried": 10,
+            "Total Clearances": 2,
+            "Successful Passes Opposition Half": 23,
+            "Key Passes (Attempt Assists)": 5,
+            "Total Shots": 5,
+            "Duels won": 2,
+            "Forward Passes": 49,
+            "Successful Long Passes": 34,
+            "Goals Conceded Outside Box": 6,
+            "Goals Conceded": 7,
+            "GK Successful Distribution": 32,
+            "Successful Short Passes": 28,
+            "Penalties Saved": 2,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 62,
+            "Time Played": 54,
+            "Saves Made": 18,
+            "Open Play Passes": 54
           }
         }
       }
@@ -1956,25 +2005,28 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 1,
           "detailed": {
-            "Total Passes": 16,
+            "Total Passes": 25,
             "Total Clearances": 1,
-            "Successful Passes Opposition Half": 6,
-            "Total Shots": 2,
-            "Duels won": 3,
-            "Forward Passes": 2,
-            "Successful Long Passes": 1,
-            "Tackles Won": 2,
-            "Successful Short Passes": 12,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 13,
-            "Shots On Target (inc goals)": 2,
-            "Time Played": 13,
-            "Total Tackles": 2,
+            "Successful Passes Opposition Half": 10,
+            "Key Passes (Attempt Assists)": 1,
+            "Total Shots": 3,
+            "Duels won": 7,
+            "Forward Passes": 4,
+            "Successful Long Passes": 2,
+            "Tackles Won": 4,
+            "Goals Conceded Outside Box": 2,
+            "Goals Conceded": 4,
+            "Successful Short Passes": 20,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 22,
+            "Shots On Target (inc goals)": 3,
+            "Time Played": 33,
+            "Total Tackles": 4,
             "Goal Assists": 1,
-            "Open Play Passes": 14
+            "Open Play Passes": 23
           }
         }
       }
@@ -2062,25 +2114,27 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 19,
-            "Successful Passes Opposition Half": 7,
-            "Total Shots": 9,
-            "Duels won": 6,
-            "Forward Passes": 6,
-            "Successful Long Passes": 2,
-            "Tackles Won": 2,
-            "Goals Conceded Outside Box": 1,
-            "Goals Conceded": 3,
-            "Successful Short Passes": 14,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 16,
-            "Shots On Target (inc goals)": 4,
-            "Time Played": 21,
-            "Total Tackles": 4,
-            "Open Play Passes": 18
+            "Total Passes": 34,
+            "Total Clearances": 2,
+            "Successful Passes Opposition Half": 11,
+            "Key Passes (Attempt Assists)": 1,
+            "Total Shots": 11,
+            "Duels won": 12,
+            "Forward Passes": 11,
+            "Successful Long Passes": 5,
+            "Tackles Won": 4,
+            "Goals Conceded Outside Box": 3,
+            "Goals Conceded": 5,
+            "Successful Short Passes": 21,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 26,
+            "Shots On Target (inc goals)": 6,
+            "Time Played": 44,
+            "Total Tackles": 8,
+            "Open Play Passes": 32
           }
         }
       }
@@ -2171,23 +2225,123 @@
           }
         },
         "4": {
+          "apps": 2,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {
+            "Total Passes": 9,
+            "Successful Passes Opposition Half": 2,
+            "Key Passes (Attempt Assists)": 1,
+            "Total Shots": 2,
+            "Duels won": 2,
+            "Forward Passes": 1,
+            "Successful Long Passes": 1,
+            "Goals Conceded Outside Box": 1,
+            "Goals Conceded": 4,
+            "Successful Short Passes": 7,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 8,
+            "Time Played": 30,
+            "Total Tackles": 1,
+            "Open Play Passes": 9
+          }
+        }
+      }
+    },
+    {
+      "slug": "david-oupoh",
+      "name": "David Oupoh",
+      "team": "Deportrio",
+      "teamSlug": "deportrio",
+      "position": "Striker",
+      "age": null,
+      "number": 13,
+      "seasons": {
+        "1": {
+          "apps": 3,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {
+            "Total Passes": 6,
+            "Successful Passes Opposition Half": 3,
+            "Key Passes (Attempt Assists)": 2,
+            "Duels won": 1,
+            "Forward Passes": 2,
+            "Tackles Won": 1,
+            "Goals Conceded Outside Box": 1,
+            "Goals Conceded": 1,
+            "Successful Short Passes": 6,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 6,
+            "Time Played": 7,
+            "Total Tackles": 1,
+            "Open Play Passes": 6
+          }
+        },
+        "2": {
+          "apps": 6,
+          "goals": 1,
+          "assists": 0,
+          "detailed": {
+            "Total Passes": 35,
+            "Successful Passes Opposition Half": 14,
+            "Key Passes (Attempt Assists)": 2,
+            "Total Shots": 8,
+            "Duels won": 9,
+            "Forward Passes": 2,
+            "Successful Long Passes": 5,
+            "Tackles Won": 2,
+            "Goals Conceded Outside Box": 2,
+            "Goals Conceded": 3,
+            "Successful Short Passes": 28,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 33,
+            "Shots On Target (inc goals)": 2,
+            "Time Played": 42,
+            "Total Tackles": 4,
+            "Open Play Passes": 34
+          }
+        },
+        "3": {
+          "apps": 11,
+          "goals": 6,
+          "assists": 1,
+          "detailed": {
+            "Total Passes": 68,
+            "Total Clearances": 3,
+            "Successful Passes Opposition Half": 28,
+            "Key Passes (Attempt Assists)": 8,
+            "Total Shots": 28,
+            "Duels won": 21,
+            "Forward Passes": 16,
+            "Successful Long Passes": 7,
+            "Tackles Won": 5,
+            "Goals Conceded Outside Box": 14,
+            "Goals Conceded": 18,
+            "Successful Short Passes": 47,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 54,
+            "Shots On Target (inc goals)": 14,
+            "Time Played": 149,
+            "Total Tackles": 9,
+            "Goal Assists": 1,
+            "Open Play Passes": 61
+          }
+        },
+        "4": {
           "apps": 1,
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 7,
+            "Total Passes": 5,
             "Successful Passes Opposition Half": 3,
             "Key Passes (Attempt Assists)": 1,
-            "Total Shots": 1,
+            "Total Shots": 2,
             "Duels won": 2,
             "Forward Passes": 1,
             "Successful Long Passes": 1,
+            "Goals Conceded Outside Box": 2,
             "Goals Conceded": 2,
-            "Successful Short Passes": 6,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 7,
+            "Successful Short Passes": 3,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 4,
             "Time Played": 16,
-            "Total Tackles": 1,
-            "Open Play Passes": 7
+            "Open Play Passes": 5
           }
         }
       }
@@ -2278,23 +2432,26 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 1,
           "assists": 0,
           "detailed": {
-            "Total Passes": 13,
-            "Successful Passes Opposition Half": 1,
-            "Key Passes (Attempt Assists)": 2,
-            "Total Shots": 11,
-            "Forward Passes": 2,
+            "Total Passes": 31,
+            "Total Clearances": 1,
+            "Successful Passes Opposition Half": 5,
+            "Key Passes (Attempt Assists)": 3,
+            "Total Shots": 14,
+            "Duels won": 1,
+            "Forward Passes": 9,
             "Successful Long Passes": 3,
-            "Goals Conceded Outside Box": 13,
-            "Goals Conceded": 13,
-            "Successful Short Passes": 7,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 10,
-            "Shots On Target (inc goals)": 8,
-            "Time Played": 12,
-            "Open Play Passes": 10
+            "Goals Conceded Outside Box": 14,
+            "Goals Conceded": 15,
+            "Successful Short Passes": 22,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 25,
+            "Shots On Target (inc goals)": 9,
+            "Time Played": 30,
+            "Total Tackles": 1,
+            "Open Play Passes": 27
           }
         }
       }
@@ -2384,25 +2541,28 @@
           }
         },
         "4": {
-          "apps": 1,
-          "goals": 0,
+          "apps": 2,
+          "goals": 1,
           "assists": 1,
           "detailed": {
-            "Total Passes": 14,
+            "Total Passes": 35,
             "Total Clearances": 2,
-            "Successful Passes Opposition Half": 8,
-            "Key Passes (Attempt Assists)": 2,
-            "Total Shots": 1,
-            "Duels won": 1,
-            "Forward Passes": 6,
-            "Successful Long Passes": 2,
-            "Goals Conceded Outside Box": 1,
-            "Goals Conceded": 1,
-            "Successful Short Passes": 11,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 13,
-            "Time Played": 11,
+            "Successful Passes Opposition Half": 13,
+            "Key Passes (Attempt Assists)": 4,
+            "Total Shots": 2,
+            "Duels won": 4,
+            "Forward Passes": 11,
+            "Successful Long Passes": 8,
+            "Tackles Won": 2,
+            "Goals Conceded Outside Box": 2,
+            "Goals Conceded": 3,
+            "Successful Short Passes": 21,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 29,
+            "Shots On Target (inc goals)": 1,
+            "Time Played": 36,
+            "Total Tackles": 2,
             "Goal Assists": 1,
-            "Open Play Passes": 14
+            "Open Play Passes": 35
           }
         }
       }
@@ -2573,26 +2733,26 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 22,
-            "Successful Passes Opposition Half": 9,
-            "Key Passes (Attempt Assists)": 3,
-            "Total Shots": 5,
-            "Duels won": 4,
-            "Forward Passes": 3,
-            "Successful Long Passes": 4,
+            "Total Passes": 34,
+            "Successful Passes Opposition Half": 14,
+            "Key Passes (Attempt Assists)": 5,
+            "Total Shots": 8,
+            "Duels won": 6,
+            "Forward Passes": 4,
+            "Successful Long Passes": 6,
             "Tackles Won": 2,
-            "Goals Conceded Outside Box": 3,
-            "Goals Conceded": 3,
-            "Successful Short Passes": 16,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 20,
-            "Shots On Target (inc goals)": 1,
-            "Time Played": 22,
-            "Total Tackles": 3,
-            "Open Play Passes": 22
+            "Goals Conceded Outside Box": 4,
+            "Goals Conceded": 5,
+            "Successful Short Passes": 23,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 29,
+            "Shots On Target (inc goals)": 2,
+            "Time Played": 36,
+            "Total Tackles": 4,
+            "Open Play Passes": 34
           }
         }
       }
@@ -2683,27 +2843,27 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 1,
           "assists": 0,
           "detailed": {
-            "Total Passes": 9,
-            "Successful Passes Opposition Half": 3,
-            "Key Passes (Attempt Assists)": 2,
-            "Total Shots": 2,
-            "Duels won": 5,
-            "Forward Passes": 3,
-            "Successful Long Passes": 2,
+            "Total Passes": 16,
+            "Successful Passes Opposition Half": 6,
+            "Key Passes (Attempt Assists)": 4,
+            "Total Shots": 3,
+            "Duels won": 8,
+            "Forward Passes": 4,
+            "Successful Long Passes": 3,
             "Tackles Won": 1,
-            "Goals Conceded Outside Box": 1,
-            "Goals Conceded": 1,
+            "Goals Conceded Outside Box": 3,
+            "Goals Conceded": 3,
             "GK Successful Distribution": 1,
-            "Successful Short Passes": 6,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 8,
-            "Shots On Target (inc goals)": 2,
-            "Time Played": 14,
-            "Total Tackles": 1,
-            "Open Play Passes": 7
+            "Successful Short Passes": 11,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 14,
+            "Shots On Target (inc goals)": 3,
+            "Time Played": 27,
+            "Total Tackles": 4,
+            "Open Play Passes": 13
           }
         }
       }
@@ -2873,20 +3033,25 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 9,
-            "Successful Passes Opposition Half": 1,
-            "Duels won": 4,
-            "Successful Long Passes": 1,
+            "Total Passes": 18,
+            "Successful Passes Opposition Half": 5,
+            "Key Passes (Attempt Assists)": 3,
+            "Total Shots": 2,
+            "Duels won": 5,
+            "Forward Passes": 3,
+            "Successful Long Passes": 6,
             "Tackles Won": 3,
-            "Successful Short Passes": 6,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 7,
-            "Time Played": 9,
-            "Total Tackles": 4,
-            "Open Play Passes": 9
+            "Goals Conceded Outside Box": 2,
+            "Goals Conceded": 2,
+            "Successful Short Passes": 9,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 15,
+            "Time Played": 21,
+            "Total Tackles": 5,
+            "Open Play Passes": 18
           }
         }
       }
@@ -3078,24 +3243,26 @@
           }
         },
         "4": {
-          "apps": 1,
-          "goals": 1,
+          "apps": 2,
+          "goals": 2,
           "assists": 0,
           "detailed": {
-            "Total Passes": 8,
-            "Successful Passes Opposition Half": 6,
-            "Key Passes (Attempt Assists)": 3,
-            "Total Shots": 3,
-            "Duels won": 4,
-            "Forward Passes": 2,
-            "Successful Long Passes": 1,
-            "Tackles Won": 1,
-            "Successful Short Passes": 7,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 8,
-            "Shots On Target (inc goals)": 2,
-            "Time Played": 18,
-            "Total Tackles": 2,
-            "Open Play Passes": 8
+            "Total Passes": 18,
+            "Successful Passes Opposition Half": 10,
+            "Key Passes (Attempt Assists)": 5,
+            "Total Shots": 8,
+            "Duels won": 6,
+            "Forward Passes": 3,
+            "Successful Long Passes": 5,
+            "Tackles Won": 3,
+            "Goals Conceded Outside Box": 2,
+            "Goals Conceded": 3,
+            "Successful Short Passes": 12,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 17,
+            "Shots On Target (inc goals)": 5,
+            "Time Played": 33,
+            "Total Tackles": 3,
+            "Open Play Passes": 17
           }
         }
       }
@@ -3184,26 +3351,27 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 1,
-          "assists": 0,
+          "assists": 1,
           "detailed": {
-            "Total Passes": 24,
-            "Successful Passes Opposition Half": 15,
-            "Key Passes (Attempt Assists)": 2,
-            "Total Shots": 2,
-            "Duels won": 3,
-            "Forward Passes": 4,
-            "Successful Long Passes": 4,
-            "Tackles Won": 1,
-            "Goals Conceded Outside Box": 2,
-            "Goals Conceded": 2,
-            "Successful Short Passes": 19,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 23,
-            "Shots On Target (inc goals)": 2,
-            "Time Played": 26,
-            "Total Tackles": 1,
-            "Open Play Passes": 24
+            "Total Passes": 40,
+            "Successful Passes Opposition Half": 24,
+            "Key Passes (Attempt Assists)": 3,
+            "Total Shots": 7,
+            "Duels won": 10,
+            "Forward Passes": 8,
+            "Successful Long Passes": 8,
+            "Tackles Won": 4,
+            "Goals Conceded Outside Box": 3,
+            "Goals Conceded": 4,
+            "Successful Short Passes": 29,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 37,
+            "Shots On Target (inc goals)": 4,
+            "Time Played": 53,
+            "Total Tackles": 7,
+            "Goal Assists": 1,
+            "Open Play Passes": 39
           }
         }
       }
@@ -3239,6 +3407,21 @@
             "Total Tackles": 3,
             "Goal Assists": 1,
             "Open Play Passes": 29
+          }
+        },
+        "4": {
+          "apps": 1,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {
+            "Total Passes": 1,
+            "Successful Passes Opposition Half": 1,
+            "Key Passes (Attempt Assists)": 1,
+            "Total Shots": 1,
+            "Successful Short Passes": 1,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 1,
+            "Time Played": 3,
+            "Open Play Passes": 1
           }
         }
       }
@@ -3335,26 +3518,29 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
-          "assists": 0,
+          "assists": 1,
           "detailed": {
-            "Total Passes": 41,
-            "Saves made - parried": 2,
-            "Total Clearances": 2,
-            "Successful Passes Opposition Half": 7,
-            "Key Passes (Attempt Assists)": 3,
-            "Duels won": 1,
-            "Forward Passes": 6,
-            "Successful Long Passes": 8,
-            "Goals Conceded Outside Box": 1,
-            "Goals Conceded": 2,
-            "GK Successful Distribution": 8,
-            "Successful Short Passes": 33,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 41,
-            "Time Played": 30,
-            "Saves Made": 7,
-            "Open Play Passes": 34
+            "Total Passes": 85,
+            "Saves made - parried": 4,
+            "Total Clearances": 4,
+            "Successful Passes Opposition Half": 12,
+            "Key Passes (Attempt Assists)": 4,
+            "Total Shots": 1,
+            "Duels won": 2,
+            "Forward Passes": 16,
+            "Successful Long Passes": 27,
+            "Goals Conceded Outside Box": 2,
+            "Goals Conceded": 3,
+            "GK Successful Distribution": 21,
+            "Successful Short Passes": 54,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 81,
+            "Time Played": 57,
+            "Total Tackles": 1,
+            "Saves Made": 11,
+            "Goal Assists": 1,
+            "Open Play Passes": 68
           }
         }
       }
@@ -3442,23 +3628,26 @@
           }
         },
         "4": {
-          "apps": 1,
-          "goals": 1,
+          "apps": 2,
+          "goals": 2,
           "assists": 0,
           "detailed": {
-            "Total Passes": 13,
-            "Successful Passes Opposition Half": 3,
+            "Total Passes": 28,
+            "Successful Passes Opposition Half": 7,
             "Key Passes (Attempt Assists)": 2,
-            "Total Shots": 4,
-            "Duels won": 1,
-            "Forward Passes": 2,
-            "Successful Long Passes": 3,
-            "Goals Conceded": 2,
-            "Successful Short Passes": 7,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 10,
-            "Shots On Target (inc goals)": 3,
-            "Time Played": 19,
-            "Open Play Passes": 13
+            "Total Shots": 7,
+            "Duels won": 7,
+            "Forward Passes": 7,
+            "Successful Long Passes": 8,
+            "Tackles Won": 1,
+            "Goals Conceded Outside Box": 1,
+            "Goals Conceded": 5,
+            "Successful Short Passes": 15,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 23,
+            "Shots On Target (inc goals)": 5,
+            "Time Played": 30,
+            "Total Tackles": 1,
+            "Open Play Passes": 28
           }
         }
       }
@@ -3549,27 +3738,27 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 34,
-            "Saves made - parried": 4,
-            "Total Clearances": 2,
-            "Successful Passes Opposition Half": 11,
+            "Total Passes": 60,
+            "Saves made - parried": 7,
+            "Total Clearances": 3,
+            "Successful Passes Opposition Half": 16,
             "Key Passes (Attempt Assists)": 1,
-            "Duels won": 2,
-            "Forward Passes": 28,
-            "Successful Long Passes": 15,
-            "Goals Conceded Outside Box": 1,
-            "Goals Conceded": 2,
-            "GK Successful Distribution": 8,
-            "Successful Short Passes": 6,
+            "Duels won": 3,
+            "Forward Passes": 43,
+            "Successful Long Passes": 25,
+            "Goals Conceded Outside Box": 6,
+            "Goals Conceded": 8,
+            "GK Successful Distribution": 24,
+            "Successful Short Passes": 17,
             "Penalties Saved": 1,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 21,
-            "Time Played": 28,
-            "Saves Made": 5,
-            "Open Play Passes": 26
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 42,
+            "Time Played": 51,
+            "Saves Made": 10,
+            "Open Play Passes": 42
           }
         }
       }
@@ -3660,25 +3849,29 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
-          "assists": 0,
+          "assists": 1,
           "detailed": {
-            "Total Passes": 19,
-            "Total Clearances": 1,
-            "Successful Passes Opposition Half": 12,
-            "Key Passes (Attempt Assists)": 4,
-            "Total Shots": 2,
-            "Duels won": 6,
-            "Forward Passes": 5,
-            "Successful Long Passes": 6,
+            "Total Passes": 33,
+            "Total Clearances": 2,
+            "Successful Passes Opposition Half": 17,
+            "Key Passes (Attempt Assists)": 10,
+            "Total Shots": 7,
+            "Duels won": 10,
+            "Forward Passes": 8,
+            "Successful Long Passes": 8,
             "Tackles Won": 2,
+            "Goals Conceded Outside Box": 1,
             "Goals Conceded": 3,
-            "Successful Short Passes": 12,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 18,
-            "Time Played": 24,
-            "Total Tackles": 4,
-            "Open Play Passes": 18
+            "GK Successful Distribution": 1,
+            "Successful Short Passes": 21,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 29,
+            "Shots On Target (inc goals)": 2,
+            "Time Played": 46,
+            "Total Tackles": 5,
+            "Goal Assists": 1,
+            "Open Play Passes": 31
           }
         }
       }
@@ -3770,24 +3963,26 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 44,
-            "Total Clearances": 3,
-            "Successful Passes Opposition Half": 20,
-            "Key Passes (Attempt Assists)": 4,
-            "Total Shots": 4,
-            "Duels won": 3,
-            "Forward Passes": 13,
-            "Successful Long Passes": 7,
+            "Total Passes": 87,
+            "Total Clearances": 5,
+            "Successful Passes Opposition Half": 32,
+            "Key Passes (Attempt Assists)": 9,
+            "Total Shots": 5,
+            "Duels won": 8,
+            "Forward Passes": 28,
+            "Successful Long Passes": 22,
+            "Tackles Won": 1,
             "Goals Conceded": 1,
-            "Successful Short Passes": 36,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 43,
-            "Shots On Target (inc goals)": 1,
-            "Time Played": 25,
-            "Open Play Passes": 44
+            "Successful Short Passes": 61,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 83,
+            "Shots On Target (inc goals)": 2,
+            "Time Played": 52,
+            "Total Tackles": 1,
+            "Open Play Passes": 86
           }
         }
       }
@@ -3867,6 +4062,24 @@
             "Time Played": 51,
             "Total Tackles": 1,
             "Open Play Passes": 62
+          }
+        },
+        "4": {
+          "apps": 1,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {
+            "Total Passes": 29,
+            "Successful Passes Opposition Half": 4,
+            "Key Passes (Attempt Assists)": 2,
+            "Total Shots": 1,
+            "Forward Passes": 8,
+            "Successful Long Passes": 7,
+            "Successful Short Passes": 19,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 26,
+            "Shots On Target (inc goals)": 1,
+            "Time Played": 11,
+            "Open Play Passes": 28
           }
         }
       }
@@ -4015,23 +4228,26 @@
           }
         },
         "4": {
-          "apps": 1,
-          "goals": 3,
-          "assists": 0,
+          "apps": 2,
+          "goals": 4,
+          "assists": 1,
           "detailed": {
-            "Total Passes": 16,
-            "Successful Passes Opposition Half": 6,
-            "Key Passes (Attempt Assists)": 2,
-            "Total Shots": 7,
-            "Forward Passes": 3,
-            "Successful Long Passes": 3,
-            "Goals Conceded Outside Box": 1,
-            "Goals Conceded": 2,
-            "Successful Short Passes": 9,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 12,
-            "Shots On Target (inc goals)": 4,
-            "Time Played": 12,
-            "Open Play Passes": 13
+            "Total Passes": 33,
+            "Successful Passes Opposition Half": 15,
+            "Key Passes (Attempt Assists)": 5,
+            "Total Shots": 17,
+            "Duels won": 2,
+            "Forward Passes": 5,
+            "Successful Long Passes": 12,
+            "Goals Conceded Outside Box": 3,
+            "Goals Conceded": 4,
+            "Successful Short Passes": 16,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 28,
+            "Shots On Target (inc goals)": 6,
+            "Time Played": 36,
+            "Total Tackles": 1,
+            "Goal Assists": 1,
+            "Open Play Passes": 28
           }
         }
       }
@@ -4068,22 +4284,26 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 8,
-            "Successful Passes Opposition Half": 3,
-            "Duels won": 3,
-            "Forward Passes": 5,
-            "Successful Long Passes": 2,
-            "Tackles Won": 1,
-            "Goals Conceded": 1,
-            "Successful Short Passes": 3,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 5,
-            "Time Played": 10,
-            "Total Tackles": 3,
-            "Open Play Passes": 8
+            "Total Passes": 26,
+            "Successful Passes Opposition Half": 2,
+            "Key Passes (Attempt Assists)": 1,
+            "Total Shots": 1,
+            "Duels won": 6,
+            "Forward Passes": 6,
+            "Successful Long Passes": 6,
+            "Tackles Won": 3,
+            "Goals Conceded Outside Box": 2,
+            "Goals Conceded": 4,
+            "Successful Short Passes": 14,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 20,
+            "Shots On Target (inc goals)": 1,
+            "Time Played": 35,
+            "Total Tackles": 6,
+            "Open Play Passes": 25
           }
         }
       }
@@ -4146,6 +4366,24 @@
             "Goal Assists": 5,
             "Open Play Passes": 179
           }
+        },
+        "4": {
+          "apps": 1,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {
+            "Total Passes": 7,
+            "Successful Passes Opposition Half": 1,
+            "Total Shots": 1,
+            "Forward Passes": 2,
+            "Successful Long Passes": 3,
+            "Goals Conceded": 1,
+            "Successful Short Passes": 4,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 7,
+            "Shots On Target (inc goals)": 1,
+            "Time Played": 8,
+            "Open Play Passes": 7
+          }
         }
       }
     },
@@ -4184,24 +4422,27 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
-          "assists": 0,
+          "assists": 1,
           "detailed": {
-            "Total Passes": 24,
-            "Successful Passes Opposition Half": 4,
-            "Key Passes (Attempt Assists)": 1,
-            "Total Shots": 1,
-            "Duels won": 3,
-            "Forward Passes": 4,
-            "Successful Long Passes": 4,
-            "Tackles Won": 1,
-            "Goals Conceded": 2,
-            "Successful Short Passes": 14,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 18,
-            "Time Played": 28,
-            "Total Tackles": 3,
-            "Open Play Passes": 24
+            "Total Passes": 48,
+            "Successful Passes Opposition Half": 12,
+            "Key Passes (Attempt Assists)": 2,
+            "Total Shots": 10,
+            "Duels won": 8,
+            "Forward Passes": 14,
+            "Successful Long Passes": 9,
+            "Tackles Won": 3,
+            "Goals Conceded Outside Box": 3,
+            "Goals Conceded": 6,
+            "Successful Short Passes": 29,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 38,
+            "Shots On Target (inc goals)": 3,
+            "Time Played": 53,
+            "Total Tackles": 5,
+            "Goal Assists": 1,
+            "Open Play Passes": 46
           }
         }
       }
@@ -4304,23 +4545,131 @@
           }
         },
         "4": {
+          "apps": 2,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {
+            "Total Passes": 21,
+            "Total Clearances": 1,
+            "Successful Passes Opposition Half": 4,
+            "Duels won": 2,
+            "Forward Passes": 5,
+            "Successful Long Passes": 6,
+            "Tackles Won": 2,
+            "Goals Conceded Outside Box": 4,
+            "Goals Conceded": 5,
+            "GK Successful Distribution": 1,
+            "Successful Short Passes": 13,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 19,
+            "Time Played": 23,
+            "Total Tackles": 2,
+            "Open Play Passes": 20
+          }
+        }
+      }
+    },
+    {
+      "slug": "josh-rusoke",
+      "name": "Joshua Rusoke",
+      "team": "Prime FC",
+      "teamSlug": "prime-fc",
+      "position": "Defender",
+      "age": null,
+      "number": 13,
+      "seasons": {
+        "1": {
+          "apps": 12,
+          "goals": 2,
+          "assists": 3,
+          "detailed": {
+            "Total Passes": 364,
+            "Total Clearances": 14,
+            "Successful Passes Opposition Half": 93,
+            "Key Passes (Attempt Assists)": 20,
+            "Total Shots": 14,
+            "Duels won": 20,
+            "Forward Passes": 113,
+            "Successful Long Passes": 108,
+            "Tackles Won": 9,
+            "Goals Conceded Outside Box": 23,
+            "Goals Conceded": 28,
+            "GK Successful Distribution": 1,
+            "Successful Short Passes": 209,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 317,
+            "Shots On Target (inc goals)": 7,
+            "Time Played": 299,
+            "Total Tackles": 15,
+            "Goal Assists": 3,
+            "Open Play Passes": 355
+          }
+        },
+        "2": {
+          "apps": 11,
+          "goals": 0,
+          "assists": 2,
+          "detailed": {
+            "Total Passes": 350,
+            "Total Clearances": 5,
+            "Successful Passes Opposition Half": 98,
+            "Key Passes (Attempt Assists)": 24,
+            "Total Shots": 16,
+            "Duels won": 19,
+            "Forward Passes": 129,
+            "Successful Long Passes": 105,
+            "Tackles Won": 9,
+            "Goals Conceded Outside Box": 17,
+            "Goals Conceded": 23,
+            "Successful Short Passes": 202,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 307,
+            "Shots On Target (inc goals)": 5,
+            "Time Played": 261,
+            "Total Tackles": 14,
+            "Goal Assists": 2,
+            "Open Play Passes": 339
+          }
+        },
+        "3": {
           "apps": 1,
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 10,
-            "Successful Passes Opposition Half": 3,
+            "Total Passes": 8,
+            "Total Clearances": 1,
+            "Successful Passes Opposition Half": 2,
+            "Key Passes (Attempt Assists)": 2,
             "Duels won": 3,
             "Forward Passes": 3,
             "Successful Long Passes": 3,
-            "Tackles Won": 3,
-            "Goals Conceded Outside Box": 2,
-            "Goals Conceded": 3,
-            "Successful Short Passes": 6,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 9,
-            "Time Played": 17,
-            "Total Tackles": 3,
-            "Open Play Passes": 10
+            "Tackles Won": 1,
+            "Goals Conceded Outside Box": 3,
+            "Goals Conceded": 4,
+            "Successful Short Passes": 5,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 8,
+            "Time Played": 11,
+            "Total Tackles": 2,
+            "Open Play Passes": 8
+          }
+        },
+        "4": {
+          "apps": 1,
+          "goals": 1,
+          "assists": 0,
+          "detailed": {
+            "Total Passes": 28,
+            "Total Clearances": 2,
+            "Successful Passes Opposition Half": 10,
+            "Key Passes (Attempt Assists)": 2,
+            "Total Shots": 2,
+            "Duels won": 1,
+            "Forward Passes": 3,
+            "Successful Long Passes": 6,
+            "Goals Conceded Outside Box": 1,
+            "Goals Conceded": 2,
+            "Successful Short Passes": 21,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 27,
+            "Shots On Target (inc goals)": 1,
+            "Time Played": 28,
+            "Open Play Passes": 26
           }
         }
       }
@@ -4404,26 +4753,27 @@
           }
         },
         "4": {
-          "apps": 1,
-          "goals": 1,
-          "assists": 0,
+          "apps": 2,
+          "goals": 4,
+          "assists": 1,
           "detailed": {
-            "Total Passes": 24,
-            "Successful Passes Opposition Half": 5,
+            "Total Passes": 43,
+            "Successful Passes Opposition Half": 7,
             "Key Passes (Attempt Assists)": 1,
-            "Total Shots": 6,
-            "Duels won": 7,
-            "Forward Passes": 7,
-            "Successful Long Passes": 2,
-            "Tackles Won": 4,
-            "Goals Conceded Outside Box": 3,
-            "Goals Conceded": 5,
-            "Successful Short Passes": 18,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 20,
-            "Shots On Target (inc goals)": 2,
-            "Time Played": 27,
-            "Total Tackles": 4,
-            "Open Play Passes": 22
+            "Total Shots": 12,
+            "Duels won": 14,
+            "Forward Passes": 8,
+            "Successful Long Passes": 3,
+            "Tackles Won": 6,
+            "Goals Conceded Outside Box": 6,
+            "Goals Conceded": 9,
+            "Successful Short Passes": 33,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 36,
+            "Shots On Target (inc goals)": 6,
+            "Time Played": 53,
+            "Total Tackles": 8,
+            "Goal Assists": 1,
+            "Open Play Passes": 37
           }
         }
       }
@@ -4516,27 +4866,28 @@
           }
         },
         "4": {
-          "apps": 1,
-          "goals": 1,
+          "apps": 2,
+          "goals": 3,
           "assists": 1,
           "detailed": {
-            "Total Passes": 42,
+            "Total Passes": 67,
             "Total Clearances": 1,
-            "Successful Passes Opposition Half": 22,
-            "Key Passes (Attempt Assists)": 8,
-            "Total Shots": 2,
-            "Duels won": 4,
-            "Forward Passes": 16,
-            "Successful Long Passes": 4,
+            "Successful Passes Opposition Half": 31,
+            "Key Passes (Attempt Assists)": 10,
+            "Total Shots": 8,
+            "Duels won": 9,
+            "Forward Passes": 27,
+            "Successful Long Passes": 11,
+            "Tackles Won": 2,
             "Goals Conceded Outside Box": 1,
             "Goals Conceded": 2,
-            "Successful Short Passes": 30,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 34,
-            "Shots On Target (inc goals)": 1,
-            "Time Played": 30,
-            "Total Tackles": 2,
+            "Successful Short Passes": 41,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 52,
+            "Shots On Target (inc goals)": 4,
+            "Time Played": 54,
+            "Total Tackles": 6,
             "Goal Assists": 1,
-            "Open Play Passes": 41
+            "Open Play Passes": 65
           }
         }
       }
@@ -4548,7 +4899,7 @@
       "teamSlug": "ndl-fc",
       "position": "Midfielder",
       "age": null,
-      "number": 11,
+      "number": 4,
       "seasons": {
         "1": {
           "apps": 1,
@@ -4615,6 +4966,18 @@
             "Goal Assists": 3,
             "Open Play Passes": 104
           }
+        },
+        "4": {
+          "apps": 1,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {
+            "Total Passes": 5,
+            "Successful Short Passes": 3,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 3,
+            "Time Played": 4,
+            "Open Play Passes": 5
+          }
         }
       }
     },
@@ -4676,6 +5039,25 @@
             "Total Tackles": 3,
             "Goal Assists": 2,
             "Open Play Passes": 228
+          }
+        },
+        "4": {
+          "apps": 1,
+          "goals": 0,
+          "assists": 1,
+          "detailed": {
+            "Total Passes": 36,
+            "Successful Passes Opposition Half": 12,
+            "Key Passes (Attempt Assists)": 5,
+            "Forward Passes": 10,
+            "Successful Long Passes": 6,
+            "Goals Conceded Outside Box": 3,
+            "Goals Conceded": 4,
+            "Successful Short Passes": 24,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 30,
+            "Time Played": 26,
+            "Goal Assists": 1,
+            "Open Play Passes": 36
           }
         }
       }
@@ -4764,22 +5146,24 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 4,
+            "Total Passes": 7,
+            "Saves made - parried": 1,
             "Total Clearances": 1,
             "Successful Passes Opposition Half": 2,
             "Key Passes (Attempt Assists)": 2,
             "Duels won": 2,
-            "Forward Passes": 1,
-            "Successful Long Passes": 1,
+            "Forward Passes": 4,
+            "Successful Long Passes": 2,
             "Goals Conceded": 1,
             "Successful Short Passes": 3,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 4,
-            "Time Played": 7,
-            "Open Play Passes": 3
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 5,
+            "Time Played": 9,
+            "Saves Made": 2,
+            "Open Play Passes": 6
           }
         }
       }
@@ -4862,23 +5246,25 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 1,
           "detailed": {
-            "Total Passes": 9,
-            "Successful Passes Opposition Half": 5,
+            "Total Passes": 17,
+            "Successful Passes Opposition Half": 6,
             "Key Passes (Attempt Assists)": 2,
-            "Total Shots": 4,
-            "Duels won": 3,
-            "Goals Conceded Outside Box": 8,
-            "Goals Conceded": 8,
-            "Successful Short Passes": 7,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 7,
+            "Total Shots": 7,
+            "Duels won": 4,
+            "Forward Passes": 1,
+            "Successful Long Passes": 1,
+            "Goals Conceded Outside Box": 9,
+            "Goals Conceded": 10,
+            "Successful Short Passes": 13,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 14,
             "Shots On Target (inc goals)": 2,
-            "Time Played": 13,
+            "Time Played": 29,
             "Goal Assists": 1,
-            "Open Play Passes": 9
+            "Open Play Passes": 16
           }
         }
       }
@@ -4917,25 +5303,27 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 9,
-            "Total Clearances": 1,
-            "Successful Passes Opposition Half": 2,
-            "Key Passes (Attempt Assists)": 1,
-            "Total Shots": 3,
-            "Duels won": 5,
-            "Forward Passes": 2,
-            "Successful Long Passes": 3,
+            "Total Passes": 19,
+            "Total Clearances": 2,
+            "Successful Passes Opposition Half": 4,
+            "Key Passes (Attempt Assists)": 2,
+            "Total Shots": 5,
+            "Duels won": 7,
+            "Forward Passes": 4,
+            "Successful Long Passes": 4,
             "Tackles Won": 1,
-            "Successful Short Passes": 4,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 7,
+            "Goals Conceded Outside Box": 3,
+            "Goals Conceded": 4,
+            "Successful Short Passes": 12,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 16,
             "Shots On Target (inc goals)": 1,
-            "Time Played": 19,
-            "Total Tackles": 3,
-            "Open Play Passes": 7
+            "Time Played": 44,
+            "Total Tackles": 4,
+            "Open Play Passes": 15
           }
         }
       }
@@ -5060,23 +5448,28 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 1,
           "assists": 0,
           "detailed": {
-            "Total Passes": 18,
-            "Successful Passes Opposition Half": 2,
+            "Total Passes": 49,
+            "Total Clearances": 3,
+            "Successful Passes Opposition Half": 5,
+            "Key Passes (Attempt Assists)": 2,
             "Total Shots": 4,
-            "Duels won": 1,
-            "Forward Passes": 2,
-            "Successful Long Passes": 3,
-            "GK Successful Distribution": 5,
-            "Successful Short Passes": 15,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 18,
+            "Duels won": 10,
+            "Forward Passes": 5,
+            "Successful Long Passes": 8,
+            "Tackles Won": 2,
+            "Goals Conceded Outside Box": 3,
+            "Goals Conceded": 4,
+            "GK Successful Distribution": 12,
+            "Successful Short Passes": 39,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 47,
             "Shots On Target (inc goals)": 3,
-            "Time Played": 19,
-            "Total Tackles": 1,
-            "Open Play Passes": 13
+            "Time Played": 45,
+            "Total Tackles": 4,
+            "Open Play Passes": 34
           }
         }
       }
@@ -5088,7 +5481,7 @@
       "teamSlug": "deportrio",
       "position": "Striker",
       "age": null,
-      "number": 88,
+      "number": 17,
       "seasons": {
         "1": {
           "apps": 11,
@@ -5162,6 +5555,23 @@
             "Total Tackles": 2,
             "Goal Assists": 1,
             "Open Play Passes": 137
+          }
+        },
+        "4": {
+          "apps": 1,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {
+            "Total Passes": 12,
+            "Successful Passes Opposition Half": 4,
+            "Key Passes (Attempt Assists)": 2,
+            "Total Shots": 1,
+            "Forward Passes": 3,
+            "Successful Long Passes": 6,
+            "Successful Short Passes": 4,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 10,
+            "Time Played": 10,
+            "Open Play Passes": 12
           }
         }
       }
@@ -5252,27 +5662,28 @@
           }
         },
         "4": {
-          "apps": 1,
-          "goals": 0,
-          "assists": 0,
+          "apps": 2,
+          "goals": 1,
+          "assists": 1,
           "detailed": {
-            "Total Passes": 40,
-            "Total Clearances": 1,
-            "Successful Passes Opposition Half": 19,
-            "Key Passes (Attempt Assists)": 3,
-            "Total Shots": 3,
-            "Duels won": 5,
-            "Forward Passes": 13,
-            "Successful Long Passes": 9,
-            "Tackles Won": 2,
-            "Goals Conceded Outside Box": 2,
-            "Goals Conceded": 2,
-            "Successful Short Passes": 26,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 35,
-            "Shots On Target (inc goals)": 2,
-            "Time Played": 21,
-            "Total Tackles": 3,
-            "Open Play Passes": 38
+            "Total Passes": 76,
+            "Total Clearances": 2,
+            "Successful Passes Opposition Half": 31,
+            "Key Passes (Attempt Assists)": 9,
+            "Total Shots": 7,
+            "Duels won": 6,
+            "Forward Passes": 22,
+            "Successful Long Passes": 18,
+            "Tackles Won": 4,
+            "Goals Conceded Outside Box": 3,
+            "Goals Conceded": 4,
+            "Successful Short Passes": 50,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 68,
+            "Shots On Target (inc goals)": 4,
+            "Time Played": 48,
+            "Total Tackles": 5,
+            "Goal Assists": 1,
+            "Open Play Passes": 74
           }
         }
       }
@@ -5365,6 +5776,30 @@
             "Goal Assists": 2,
             "Open Play Passes": 260
           }
+        },
+        "4": {
+          "apps": 1,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {
+            "Total Passes": 75,
+            "Saves made - parried": 6,
+            "Total Clearances": 1,
+            "Successful Passes Opposition Half": 9,
+            "Key Passes (Attempt Assists)": 3,
+            "Total Shots": 5,
+            "Forward Passes": 28,
+            "Successful Long Passes": 11,
+            "Goals Conceded Outside Box": 2,
+            "Goals Conceded": 4,
+            "GK Successful Distribution": 19,
+            "Successful Short Passes": 53,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 64,
+            "Shots On Target (inc goals)": 1,
+            "Time Played": 30,
+            "Saves Made": 7,
+            "Open Play Passes": 58
+          }
         }
       }
     },
@@ -5454,25 +5889,26 @@
           }
         },
         "4": {
-          "apps": 1,
-          "goals": 0,
+          "apps": 2,
+          "goals": 1,
           "assists": 0,
           "detailed": {
-            "Total Passes": 6,
-            "Successful Passes Opposition Half": 2,
+            "Total Passes": 15,
+            "Successful Passes Opposition Half": 4,
             "Key Passes (Attempt Assists)": 1,
-            "Total Shots": 3,
+            "Total Shots": 6,
             "Duels won": 2,
-            "Forward Passes": 2,
-            "Successful Long Passes": 1,
+            "Forward Passes": 5,
+            "Successful Long Passes": 3,
             "Tackles Won": 1,
-            "Goals Conceded": 2,
-            "Successful Short Passes": 4,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 5,
-            "Shots On Target (inc goals)": 2,
-            "Time Played": 13,
+            "Goals Conceded Outside Box": 2,
+            "Goals Conceded": 5,
+            "Successful Short Passes": 7,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 10,
+            "Shots On Target (inc goals)": 4,
+            "Time Played": 23,
             "Total Tackles": 2,
-            "Open Play Passes": 6
+            "Open Play Passes": 15
           }
         }
       }
@@ -5563,26 +5999,72 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 1,
           "assists": 0,
           "detailed": {
-            "Total Passes": 51,
-            "Successful Passes Opposition Half": 20,
-            "Key Passes (Attempt Assists)": 3,
-            "Total Shots": 4,
-            "Duels won": 4,
-            "Forward Passes": 16,
-            "Successful Long Passes": 9,
-            "Tackles Won": 1,
-            "Goals Conceded Outside Box": 5,
-            "Goals Conceded": 5,
-            "Successful Short Passes": 35,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 44,
+            "Total Passes": 87,
+            "Total Clearances": 1,
+            "Successful Passes Opposition Half": 30,
+            "Key Passes (Attempt Assists)": 4,
+            "Total Shots": 6,
+            "Duels won": 8,
+            "Forward Passes": 21,
+            "Successful Long Passes": 18,
+            "Tackles Won": 2,
+            "Goals Conceded Outside Box": 6,
+            "Goals Conceded": 8,
+            "Successful Short Passes": 60,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 78,
             "Shots On Target (inc goals)": 1,
-            "Time Played": 28,
-            "Total Tackles": 2,
-            "Open Play Passes": 50
+            "Time Played": 54,
+            "Total Tackles": 3,
+            "Open Play Passes": 84
+          }
+        }
+      }
+    },
+    {
+      "slug": "mulugeta-kidu",
+      "name": "Mulugeta Kidu",
+      "team": "Prime FC",
+      "teamSlug": "prime-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 12,
+      "seasons": {
+        "3": {
+          "apps": 11,
+          "goals": 1,
+          "assists": 3,
+          "detailed": {
+            "Total Passes": 209,
+            "Total Clearances": 6,
+            "Successful Passes Opposition Half": 47,
+            "Key Passes (Attempt Assists)": 19,
+            "Total Shots": 5,
+            "Duels won": 25,
+            "Forward Passes": 69,
+            "Successful Long Passes": 39,
+            "Tackles Won": 13,
+            "Goals Conceded Outside Box": 20,
+            "Goals Conceded": 33,
+            "Successful Short Passes": 134,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 173,
+            "Shots On Target (inc goals)": 1,
+            "Time Played": 221,
+            "Total Tackles": 21,
+            "Goal Assists": 3,
+            "Open Play Passes": 199
+          }
+        },
+        "4": {
+          "apps": 1,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {
+            "Total Clearances": 1,
+            "Time Played": 3
           }
         }
       }
@@ -5671,18 +6153,25 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
-          "assists": 0,
+          "assists": 1,
           "detailed": {
-            "Total Passes": 6,
+            "Total Passes": 10,
             "Total Clearances": 1,
-            "Successful Passes Opposition Half": 1,
-            "Successful Long Passes": 2,
-            "Successful Short Passes": 4,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 6,
-            "Time Played": 11,
-            "Open Play Passes": 6
+            "Successful Passes Opposition Half": 3,
+            "Total Shots": 2,
+            "Duels won": 4,
+            "Forward Passes": 2,
+            "Successful Long Passes": 3,
+            "Tackles Won": 3,
+            "Successful Short Passes": 5,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 8,
+            "Shots On Target (inc goals)": 1,
+            "Time Played": 24,
+            "Total Tackles": 4,
+            "Goal Assists": 1,
+            "Open Play Passes": 10
           }
         }
       }
@@ -5721,23 +6210,26 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 14,
-            "Key Passes (Attempt Assists)": 1,
-            "Total Shots": 1,
-            "Duels won": 1,
-            "Forward Passes": 5,
+            "Total Passes": 33,
+            "Successful Passes Opposition Half": 7,
+            "Key Passes (Attempt Assists)": 4,
+            "Total Shots": 2,
+            "Duels won": 4,
+            "Forward Passes": 10,
             "Successful Long Passes": 1,
-            "Tackles Won": 1,
-            "Successful Short Passes": 7,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 8,
+            "Tackles Won": 3,
+            "Goals Conceded Outside Box": 3,
+            "Goals Conceded": 3,
+            "Successful Short Passes": 23,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 24,
             "Shots On Target (inc goals)": 1,
-            "Time Played": 21,
-            "Total Tackles": 1,
-            "Open Play Passes": 13
+            "Time Played": 39,
+            "Total Tackles": 4,
+            "Open Play Passes": 30
           }
         }
       }
@@ -5899,18 +6391,26 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 1,
-            "Key Passes (Attempt Assists)": 1,
-            "Duels won": 1,
-            "Successful Long Passes": 1,
+            "Total Passes": 14,
+            "Successful Passes Opposition Half": 5,
+            "Key Passes (Attempt Assists)": 3,
+            "Total Shots": 1,
+            "Duels won": 5,
+            "Forward Passes": 1,
+            "Successful Long Passes": 4,
             "Tackles Won": 1,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 1,
-            "Time Played": 7,
-            "Total Tackles": 1
+            "Goals Conceded Outside Box": 1,
+            "Goals Conceded": 1,
+            "Successful Short Passes": 7,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 11,
+            "Shots On Target (inc goals)": 1,
+            "Time Played": 24,
+            "Total Tackles": 1,
+            "Open Play Passes": 11
           }
         }
       }
@@ -6089,21 +6589,22 @@
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 15,
+            "Total Passes": 17,
             "Total Clearances": 1,
-            "Successful Passes Opposition Half": 5,
+            "Successful Passes Opposition Half": 6,
             "Total Shots": 2,
-            "Duels won": 7,
-            "Forward Passes": 4,
+            "Duels won": 8,
+            "Forward Passes": 5,
             "Successful Long Passes": 2,
-            "Tackles Won": 3,
+            "Tackles Won": 2,
             "Goals Conceded Outside Box": 1,
             "Goals Conceded": 1,
             "Successful Short Passes": 11,
             "Total Successful Passes (Excl Crosses &amp; Corners)": 13,
+            "Shots On Target (inc goals)": 1,
             "Time Played": 26,
             "Total Tackles": 4,
-            "Open Play Passes": 15
+            "Open Play Passes": 17
           }
         }
       }
@@ -6188,6 +6689,26 @@
             "Goal Assists": 1,
             "Open Play Passes": 112
           }
+        },
+        "4": {
+          "apps": 1,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {
+            "Total Passes": 9,
+            "Successful Passes Opposition Half": 3,
+            "Key Passes (Attempt Assists)": 1,
+            "Total Shots": 2,
+            "Duels won": 2,
+            "Successful Long Passes": 1,
+            "Goals Conceded Outside Box": 2,
+            "Goals Conceded": 2,
+            "Successful Short Passes": 8,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 9,
+            "Shots On Target (inc goals)": 1,
+            "Time Played": 8,
+            "Open Play Passes": 6
+          }
         }
       }
     },
@@ -6251,26 +6772,26 @@
           }
         },
         "4": {
-          "apps": 1,
-          "goals": 2,
+          "apps": 2,
+          "goals": 4,
           "assists": 0,
           "detailed": {
-            "Total Passes": 10,
-            "Successful Passes Opposition Half": 5,
-            "Key Passes (Attempt Assists)": 4,
-            "Total Shots": 4,
-            "Duels won": 2,
-            "Forward Passes": 5,
-            "Successful Long Passes": 1,
+            "Total Passes": 27,
+            "Successful Passes Opposition Half": 10,
+            "Key Passes (Attempt Assists)": 5,
+            "Total Shots": 11,
+            "Duels won": 6,
+            "Forward Passes": 11,
+            "Successful Long Passes": 6,
             "Tackles Won": 1,
-            "Goals Conceded Outside Box": 3,
-            "Goals Conceded": 4,
-            "Successful Short Passes": 9,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 10,
-            "Shots On Target (inc goals)": 2,
-            "Time Played": 21,
+            "Goals Conceded Outside Box": 6,
+            "Goals Conceded": 7,
+            "Successful Short Passes": 15,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 21,
+            "Shots On Target (inc goals)": 6,
+            "Time Played": 51,
             "Total Tackles": 2,
-            "Open Play Passes": 10
+            "Open Play Passes": 27
           }
         }
       }
@@ -6478,23 +6999,27 @@
           }
         },
         "4": {
-          "apps": 1,
-          "goals": 3,
+          "apps": 2,
+          "goals": 4,
           "assists": 0,
           "detailed": {
-            "Total Passes": 28,
-            "Successful Passes Opposition Half": 13,
-            "Key Passes (Attempt Assists)": 6,
-            "Total Shots": 11,
-            "Duels won": 1,
-            "Forward Passes": 11,
-            "Successful Long Passes": 6,
-            "Goals Conceded": 1,
-            "Successful Short Passes": 16,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 22,
-            "Shots On Target (inc goals)": 6,
-            "Time Played": 18,
-            "Open Play Passes": 27
+            "Total Passes": 55,
+            "Total Clearances": 1,
+            "Successful Passes Opposition Half": 19,
+            "Key Passes (Attempt Assists)": 7,
+            "Total Shots": 14,
+            "Duels won": 7,
+            "Forward Passes": 21,
+            "Successful Long Passes": 12,
+            "Tackles Won": 1,
+            "Goals Conceded Outside Box": 1,
+            "Goals Conceded": 3,
+            "Successful Short Passes": 30,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 42,
+            "Shots On Target (inc goals)": 7,
+            "Time Played": 44,
+            "Total Tackles": 5,
+            "Open Play Passes": 50
           }
         }
       }
@@ -6587,23 +7112,28 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
-          "assists": 0,
+          "assists": 1,
           "detailed": {
-            "Total Passes": 19,
-            "Successful Passes Opposition Half": 11,
-            "Key Passes (Attempt Assists)": 3,
-            "Total Shots": 7,
-            "Forward Passes": 3,
-            "Successful Long Passes": 4,
-            "Goals Conceded Outside Box": 2,
-            "Goals Conceded": 2,
-            "Successful Short Passes": 14,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 18,
-            "Shots On Target (inc goals)": 3,
-            "Time Played": 20,
-            "Open Play Passes": 18
+            "Total Passes": 36,
+            "Total Clearances": 1,
+            "Successful Passes Opposition Half": 19,
+            "Key Passes (Attempt Assists)": 5,
+            "Total Shots": 12,
+            "Duels won": 4,
+            "Forward Passes": 8,
+            "Successful Long Passes": 11,
+            "Goals Conceded Outside Box": 3,
+            "Goals Conceded": 5,
+            "GK Successful Distribution": 1,
+            "Successful Short Passes": 22,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 33,
+            "Shots On Target (inc goals)": 2,
+            "Time Played": 38,
+            "Total Tackles": 2,
+            "Goal Assists": 1,
+            "Open Play Passes": 33
           }
         }
       }
@@ -6642,23 +7172,26 @@
           }
         },
         "4": {
-          "apps": 1,
-          "goals": 0,
+          "apps": 2,
+          "goals": 2,
           "assists": 0,
           "detailed": {
-            "Total Passes": 6,
-            "Total Clearances": 1,
-            "Successful Passes Opposition Half": 3,
-            "Key Passes (Attempt Assists)": 1,
-            "Total Shots": 2,
-            "Duels won": 4,
-            "Tackles Won": 1,
-            "Successful Short Passes": 6,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 6,
-            "Shots On Target (inc goals)": 1,
-            "Time Played": 15,
-            "Total Tackles": 3,
-            "Open Play Passes": 5
+            "Total Passes": 17,
+            "Total Clearances": 2,
+            "Successful Passes Opposition Half": 8,
+            "Key Passes (Attempt Assists)": 3,
+            "Total Shots": 5,
+            "Duels won": 8,
+            "Forward Passes": 4,
+            "Tackles Won": 2,
+            "Goals Conceded Outside Box": 2,
+            "Goals Conceded": 3,
+            "Successful Short Passes": 15,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 15,
+            "Shots On Target (inc goals)": 4,
+            "Time Played": 37,
+            "Total Tackles": 5,
+            "Open Play Passes": 16
           }
         }
       }
@@ -6723,24 +7256,26 @@
           }
         },
         "4": {
-          "apps": 1,
-          "goals": 0,
+          "apps": 2,
+          "goals": 1,
           "assists": 0,
           "detailed": {
-            "Total Passes": 25,
-            "Successful Passes Opposition Half": 9,
-            "Key Passes (Attempt Assists)": 3,
-            "Total Shots": 1,
-            "Duels won": 4,
-            "Forward Passes": 6,
-            "Successful Long Passes": 6,
-            "Tackles Won": 2,
-            "Goals Conceded": 1,
-            "Successful Short Passes": 14,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 20,
-            "Time Played": 15,
-            "Total Tackles": 2,
-            "Open Play Passes": 24
+            "Total Passes": 43,
+            "Successful Passes Opposition Half": 15,
+            "Key Passes (Attempt Assists)": 6,
+            "Total Shots": 3,
+            "Duels won": 9,
+            "Forward Passes": 10,
+            "Successful Long Passes": 10,
+            "Tackles Won": 4,
+            "Goals Conceded Outside Box": 1,
+            "Goals Conceded": 2,
+            "Successful Short Passes": 25,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 35,
+            "Shots On Target (inc goals)": 1,
+            "Time Played": 39,
+            "Total Tackles": 4,
+            "Open Play Passes": 42
           }
         }
       }
@@ -6828,22 +7363,25 @@
           }
         },
         "4": {
-          "apps": 1,
-          "goals": 1,
+          "apps": 2,
+          "goals": 3,
           "assists": 0,
           "detailed": {
-            "Total Passes": 8,
+            "Total Passes": 10,
             "Successful Passes Opposition Half": 2,
             "Key Passes (Attempt Assists)": 1,
-            "Total Shots": 1,
+            "Total Shots": 5,
+            "Duels won": 3,
             "Forward Passes": 2,
+            "Tackles Won": 1,
             "Goals Conceded Outside Box": 4,
-            "Goals Conceded": 4,
-            "Successful Short Passes": 5,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 5,
-            "Shots On Target (inc goals)": 1,
-            "Time Played": 18,
-            "Open Play Passes": 6
+            "Goals Conceded": 5,
+            "Successful Short Passes": 6,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 6,
+            "Shots On Target (inc goals)": 5,
+            "Time Played": 24,
+            "Total Tackles": 2,
+            "Open Play Passes": 8
           }
         }
       }
@@ -6932,26 +7470,27 @@
           }
         },
         "4": {
-          "apps": 1,
-          "goals": 0,
-          "assists": 1,
+          "apps": 2,
+          "goals": 3,
+          "assists": 2,
           "detailed": {
-            "Total Passes": 19,
-            "Successful Passes Opposition Half": 7,
-            "Key Passes (Attempt Assists)": 1,
-            "Total Shots": 3,
-            "Duels won": 3,
-            "Forward Passes": 1,
-            "Successful Long Passes": 2,
+            "Total Passes": 32,
+            "Successful Passes Opposition Half": 14,
+            "Key Passes (Attempt Assists)": 2,
+            "Total Shots": 11,
+            "Duels won": 6,
+            "Forward Passes": 3,
+            "Successful Long Passes": 4,
             "Tackles Won": 1,
-            "Goals Conceded Outside Box": 2,
-            "Goals Conceded": 3,
-            "Successful Short Passes": 14,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 16,
-            "Time Played": 26,
+            "Goals Conceded Outside Box": 7,
+            "Goals Conceded": 10,
+            "Successful Short Passes": 24,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 28,
+            "Shots On Target (inc goals)": 6,
+            "Time Played": 44,
             "Total Tackles": 2,
-            "Goal Assists": 1,
-            "Open Play Passes": 18
+            "Goal Assists": 2,
+            "Open Play Passes": 29
           }
         }
       }
@@ -6991,26 +7530,27 @@
           }
         },
         "4": {
-          "apps": 1,
-          "goals": 1,
-          "assists": 1,
+          "apps": 2,
+          "goals": 2,
+          "assists": 2,
           "detailed": {
-            "Total Passes": 18,
-            "Successful Passes Opposition Half": 8,
-            "Key Passes (Attempt Assists)": 2,
-            "Total Shots": 4,
-            "Duels won": 2,
-            "Forward Passes": 6,
+            "Total Passes": 27,
+            "Successful Passes Opposition Half": 14,
+            "Key Passes (Attempt Assists)": 3,
+            "Total Shots": 5,
+            "Duels won": 5,
+            "Forward Passes": 8,
             "Successful Long Passes": 3,
-            "Goals Conceded Outside Box": 3,
-            "Goals Conceded": 5,
-            "Successful Short Passes": 12,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 15,
-            "Shots On Target (inc goals)": 2,
-            "Time Played": 23,
-            "Total Tackles": 1,
-            "Goal Assists": 1,
-            "Open Play Passes": 18
+            "Tackles Won": 2,
+            "Goals Conceded Outside Box": 5,
+            "Goals Conceded": 7,
+            "Successful Short Passes": 20,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 23,
+            "Shots On Target (inc goals)": 3,
+            "Time Played": 41,
+            "Total Tackles": 3,
+            "Goal Assists": 2,
+            "Open Play Passes": 27
           }
         }
       }
@@ -7069,23 +7609,23 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 22,
-            "Successful Passes Opposition Half": 10,
+            "Total Passes": 30,
+            "Successful Passes Opposition Half": 11,
             "Key Passes (Attempt Assists)": 1,
-            "Total Shots": 1,
+            "Total Shots": 3,
             "Duels won": 1,
             "Forward Passes": 10,
             "Successful Long Passes": 4,
             "Goals Conceded Outside Box": 1,
             "Goals Conceded": 1,
-            "Successful Short Passes": 15,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 19,
-            "Time Played": 23,
-            "Open Play Passes": 22
+            "Successful Short Passes": 22,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 26,
+            "Time Played": 27,
+            "Open Play Passes": 29
           }
         }
       }
@@ -7172,25 +7712,26 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 1,
           "assists": 0,
           "detailed": {
-            "Total Passes": 7,
-            "Successful Passes Opposition Half": 3,
-            "Key Passes (Attempt Assists)": 1,
-            "Total Shots": 4,
-            "Duels won": 1,
-            "Forward Passes": 3,
-            "Successful Long Passes": 3,
+            "Total Passes": 17,
+            "Successful Passes Opposition Half": 8,
+            "Key Passes (Attempt Assists)": 3,
+            "Total Shots": 6,
+            "Duels won": 3,
+            "Forward Passes": 4,
+            "Successful Long Passes": 4,
+            "Tackles Won": 1,
             "Goals Conceded Outside Box": 1,
             "Goals Conceded": 1,
-            "Successful Short Passes": 3,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 6,
-            "Shots On Target (inc goals)": 2,
-            "Time Played": 10,
-            "Total Tackles": 1,
-            "Open Play Passes": 7
+            "Successful Short Passes": 11,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 15,
+            "Shots On Target (inc goals)": 4,
+            "Time Played": 28,
+            "Total Tackles": 2,
+            "Open Play Passes": 17
           }
         }
       }
@@ -7280,28 +7821,28 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 1,
-          "assists": 1,
+          "assists": 3,
           "detailed": {
-            "Total Passes": 15,
+            "Total Passes": 23,
             "Total Clearances": 1,
-            "Successful Passes Opposition Half": 5,
-            "Key Passes (Attempt Assists)": 2,
+            "Successful Passes Opposition Half": 10,
+            "Key Passes (Attempt Assists)": 4,
             "Total Shots": 2,
-            "Duels won": 9,
-            "Forward Passes": 3,
-            "Successful Long Passes": 2,
-            "Tackles Won": 2,
-            "Goals Conceded Outside Box": 1,
-            "Goals Conceded": 1,
-            "Successful Short Passes": 11,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 13,
+            "Duels won": 10,
+            "Forward Passes": 4,
+            "Successful Long Passes": 5,
+            "Tackles Won": 3,
+            "Goals Conceded Outside Box": 2,
+            "Goals Conceded": 4,
+            "Successful Short Passes": 16,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 21,
             "Shots On Target (inc goals)": 1,
-            "Time Played": 18,
-            "Total Tackles": 3,
-            "Goal Assists": 1,
-            "Open Play Passes": 14
+            "Time Played": 29,
+            "Total Tackles": 4,
+            "Goal Assists": 3,
+            "Open Play Passes": 23
           }
         }
       }
@@ -7385,27 +7926,27 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 39,
-            "Total Clearances": 1,
-            "Successful Passes Opposition Half": 7,
-            "Key Passes (Attempt Assists)": 4,
+            "Total Passes": 68,
+            "Total Clearances": 2,
+            "Successful Passes Opposition Half": 12,
+            "Key Passes (Attempt Assists)": 5,
             "Total Shots": 2,
             "Duels won": 8,
-            "Forward Passes": 11,
-            "Successful Long Passes": 6,
-            "Tackles Won": 5,
-            "Goals Conceded Outside Box": 3,
-            "Goals Conceded": 3,
-            "Successful Short Passes": 22,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 28,
+            "Forward Passes": 22,
+            "Successful Long Passes": 8,
+            "Tackles Won": 3,
+            "Goals Conceded Outside Box": 5,
+            "Goals Conceded": 5,
+            "Successful Short Passes": 40,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 48,
             "Shots On Target (inc goals)": 1,
-            "Time Played": 27,
+            "Time Played": 41,
             "Total Tackles": 7,
-            "Open Play Passes": 37
+            "Open Play Passes": 65
           }
         }
       }
@@ -7470,21 +8011,22 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 3,
+            "Total Passes": 7,
             "Successful Passes Opposition Half": 2,
-            "Key Passes (Attempt Assists)": 2,
+            "Key Passes (Attempt Assists)": 3,
             "Total Shots": 1,
             "Duels won": 1,
+            "Forward Passes": 1,
             "Goals Conceded Outside Box": 1,
-            "Goals Conceded": 1,
-            "Successful Short Passes": 3,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 3,
-            "Time Played": 6,
-            "Open Play Passes": 3
+            "Goals Conceded": 2,
+            "Successful Short Passes": 6,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 6,
+            "Time Played": 18,
+            "Open Play Passes": 7
           }
         }
       }
@@ -7567,22 +8109,26 @@
           }
         },
         "4": {
-          "apps": 1,
-          "goals": 1,
+          "apps": 2,
+          "goals": 2,
           "assists": 0,
           "detailed": {
-            "Total Passes": 8,
-            "Successful Passes Opposition Half": 2,
+            "Total Passes": 18,
+            "Successful Passes Opposition Half": 6,
             "Key Passes (Attempt Assists)": 1,
-            "Total Shots": 3,
-            "Duels won": 1,
+            "Total Shots": 9,
+            "Duels won": 6,
             "Forward Passes": 1,
-            "Goals Conceded": 2,
-            "Successful Short Passes": 7,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 7,
-            "Shots On Target (inc goals)": 2,
-            "Time Played": 16,
-            "Open Play Passes": 6
+            "Successful Long Passes": 1,
+            "Tackles Won": 1,
+            "Goals Conceded Outside Box": 1,
+            "Goals Conceded": 4,
+            "Successful Short Passes": 12,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 13,
+            "Shots On Target (inc goals)": 6,
+            "Time Played": 40,
+            "Total Tackles": 2,
+            "Open Play Passes": 15
           }
         }
       }
@@ -7671,22 +8217,23 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 6,
-            "Successful Passes Opposition Half": 3,
+            "Total Passes": 12,
+            "Successful Passes Opposition Half": 4,
             "Key Passes (Attempt Assists)": 1,
-            "Total Shots": 3,
+            "Total Shots": 4,
+            "Forward Passes": 3,
             "Successful Long Passes": 1,
             "Goals Conceded Outside Box": 3,
             "Goals Conceded": 4,
-            "Successful Short Passes": 3,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 4,
-            "Shots On Target (inc goals)": 1,
-            "Time Played": 16,
-            "Open Play Passes": 5
+            "Successful Short Passes": 8,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 9,
+            "Shots On Target (inc goals)": 2,
+            "Time Played": 22,
+            "Open Play Passes": 10
           }
         }
       }
@@ -7783,22 +8330,26 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 10,
-            "Total Clearances": 2,
-            "Duels won": 6,
-            "Forward Passes": 5,
-            "Successful Long Passes": 2,
+            "Total Passes": 22,
+            "Total Clearances": 3,
+            "Successful Passes Opposition Half": 2,
+            "Key Passes (Attempt Assists)": 2,
+            "Duels won": 7,
+            "Forward Passes": 7,
+            "Successful Long Passes": 4,
             "Tackles Won": 2,
-            "Goals Conceded": 1,
-            "Successful Short Passes": 4,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 6,
-            "Time Played": 14,
-            "Total Tackles": 5,
-            "Open Play Passes": 10
+            "Goals Conceded Outside Box": 1,
+            "Goals Conceded": 2,
+            "GK Successful Distribution": 2,
+            "Successful Short Passes": 13,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 17,
+            "Time Played": 26,
+            "Total Tackles": 6,
+            "Open Play Passes": 19
           }
         }
       }
@@ -7889,24 +8440,24 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 14,
-            "Successful Passes Opposition Half": 6,
+            "Total Passes": 24,
+            "Successful Passes Opposition Half": 11,
             "Total Shots": 1,
-            "Duels won": 2,
-            "Forward Passes": 3,
-            "Successful Long Passes": 1,
-            "Tackles Won": 1,
+            "Duels won": 1,
+            "Forward Passes": 5,
+            "Successful Long Passes": 5,
             "Goals Conceded Outside Box": 1,
             "Goals Conceded": 1,
-            "Successful Short Passes": 11,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 12,
-            "Time Played": 17,
-            "Total Tackles": 2,
-            "Open Play Passes": 12
+            "GK Successful Distribution": 1,
+            "Successful Short Passes": 16,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 21,
+            "Time Played": 24,
+            "Total Tackles": 1,
+            "Open Play Passes": 20
           }
         }
       }
@@ -7997,25 +8548,28 @@
           }
         },
         "4": {
-          "apps": 1,
-          "goals": 0,
-          "assists": 0,
+          "apps": 2,
+          "goals": 1,
+          "assists": 1,
           "detailed": {
-            "Total Passes": 17,
-            "Successful Passes Opposition Half": 8,
-            "Key Passes (Attempt Assists)": 3,
-            "Total Shots": 5,
-            "Duels won": 1,
-            "Forward Passes": 2,
-            "Successful Long Passes": 2,
-            "Tackles Won": 1,
-            "Goals Conceded": 1,
-            "Successful Short Passes": 14,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 16,
-            "Shots On Target (inc goals)": 2,
-            "Time Played": 11,
-            "Total Tackles": 1,
-            "Open Play Passes": 16
+            "Total Passes": 41,
+            "Total Clearances": 1,
+            "Successful Passes Opposition Half": 19,
+            "Key Passes (Attempt Assists)": 5,
+            "Total Shots": 12,
+            "Duels won": 2,
+            "Forward Passes": 11,
+            "Successful Long Passes": 9,
+            "Tackles Won": 2,
+            "Goals Conceded Outside Box": 1,
+            "Goals Conceded": 2,
+            "Successful Short Passes": 24,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 33,
+            "Shots On Target (inc goals)": 6,
+            "Time Played": 31,
+            "Total Tackles": 2,
+            "Goal Assists": 1,
+            "Open Play Passes": 39
           }
         }
       }
@@ -8027,7 +8581,7 @@
       "teamSlug": "vzn-fc",
       "position": "Defender",
       "age": null,
-      "number": 21,
+      "number": 5,
       "seasons": {
         "3": {
           "apps": 7,
@@ -8049,6 +8603,23 @@
             "Time Played": 53,
             "Total Tackles": 1,
             "Open Play Passes": 44
+          }
+        },
+        "4": {
+          "apps": 1,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {
+            "Total Passes": 14,
+            "Successful Passes Opposition Half": 4,
+            "Forward Passes": 5,
+            "Successful Long Passes": 3,
+            "Goals Conceded Outside Box": 2,
+            "Goals Conceded": 4,
+            "Successful Short Passes": 9,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 12,
+            "Time Played": 14,
+            "Open Play Passes": 14
           }
         }
       }
@@ -8108,19 +8679,25 @@
           }
         },
         "4": {
-          "apps": 1,
-          "goals": 2,
-          "assists": 1,
+          "apps": 2,
+          "goals": 3,
+          "assists": 2,
           "detailed": {
-            "Total Passes": 1,
-            "Successful Passes Opposition Half": 1,
-            "Total Shots": 7,
-            "Successful Short Passes": 1,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 1,
-            "Shots On Target (inc goals)": 3,
-            "Time Played": 3,
-            "Goal Assists": 1,
-            "Open Play Passes": 1
+            "Total Passes": 12,
+            "Successful Passes Opposition Half": 4,
+            "Key Passes (Attempt Assists)": 1,
+            "Total Shots": 8,
+            "Duels won": 1,
+            "Forward Passes": 3,
+            "Successful Long Passes": 2,
+            "Goals Conceded Outside Box": 1,
+            "Goals Conceded": 1,
+            "Successful Short Passes": 8,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 10,
+            "Shots On Target (inc goals)": 4,
+            "Time Played": 10,
+            "Goal Assists": 2,
+            "Open Play Passes": 12
           }
         }
       }
@@ -8203,7 +8780,7 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 0,
           "detailed": {
@@ -8216,7 +8793,7 @@
             "Successful Short Passes": 2,
             "Total Successful Passes (Excl Crosses &amp; Corners)": 2,
             "Shots On Target (inc goals)": 1,
-            "Time Played": 6,
+            "Time Played": 7,
             "Open Play Passes": 2
           }
         }
@@ -8254,24 +8831,25 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 44,
-            "Saves made - parried": 3,
-            "Successful Passes Opposition Half": 6,
+            "Total Passes": 90,
+            "Saves made - parried": 5,
+            "Successful Passes Opposition Half": 15,
             "Key Passes (Attempt Assists)": 1,
             "Duels won": 1,
-            "Forward Passes": 21,
-            "Successful Long Passes": 13,
-            "Goals Conceded": 2,
-            "GK Successful Distribution": 18,
-            "Successful Short Passes": 19,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 32,
-            "Time Played": 30,
-            "Saves Made": 10,
-            "Open Play Passes": 29
+            "Forward Passes": 48,
+            "Successful Long Passes": 28,
+            "Goals Conceded Outside Box": 2,
+            "Goals Conceded": 7,
+            "GK Successful Distribution": 37,
+            "Successful Short Passes": 40,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 68,
+            "Time Played": 60,
+            "Saves Made": 16,
+            "Open Play Passes": 57
           }
         }
       }
@@ -8286,21 +8864,23 @@
       "number": 17,
       "seasons": {
         "4": {
-          "apps": 1,
-          "goals": 0,
+          "apps": 2,
+          "goals": 1,
           "assists": 0,
           "detailed": {
-            "Total Passes": 4,
+            "Total Passes": 5,
             "Successful Passes Opposition Half": 1,
             "Key Passes (Attempt Assists)": 1,
-            "Total Shots": 1,
-            "Duels won": 1,
+            "Total Shots": 3,
+            "Duels won": 2,
             "Forward Passes": 1,
-            "Successful Long Passes": 1,
+            "Successful Long Passes": 2,
+            "Goals Conceded": 1,
             "Successful Short Passes": 2,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 3,
-            "Time Played": 7,
-            "Open Play Passes": 4
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 4,
+            "Shots On Target (inc goals)": 1,
+            "Time Played": 12,
+            "Open Play Passes": 5
           }
         }
       }
@@ -8365,10 +8945,19 @@
       "number": 19,
       "seasons": {
         "4": {
-          "apps": 0,
+          "apps": 1,
           "goals": 0,
           "assists": 0,
-          "detailed": {}
+          "detailed": {
+            "Total Passes": 2,
+            "Successful Passes Opposition Half": 1,
+            "Forward Passes": 1,
+            "Successful Long Passes": 1,
+            "Successful Short Passes": 1,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 2,
+            "Time Played": 1,
+            "Open Play Passes": 2
+          }
         }
       }
     },
@@ -8382,10 +8971,21 @@
       "number": 17,
       "seasons": {
         "4": {
-          "apps": 0,
+          "apps": 1,
           "goals": 0,
           "assists": 0,
-          "detailed": {}
+          "detailed": {
+            "Total Passes": 2,
+            "Successful Passes Opposition Half": 2,
+            "Duels won": 1,
+            "Goals Conceded Outside Box": 2,
+            "Goals Conceded": 2,
+            "Successful Short Passes": 2,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 2,
+            "Time Played": 4,
+            "Total Tackles": 1,
+            "Open Play Passes": 2
+          }
         }
       }
     },
@@ -8399,21 +8999,24 @@
       "number": 33,
       "seasons": {
         "4": {
-          "apps": 1,
-          "goals": 1,
+          "apps": 2,
+          "goals": 2,
           "assists": 0,
           "detailed": {
-            "Total Passes": 2,
-            "Successful Passes Opposition Half": 1,
-            "Key Passes (Attempt Assists)": 1,
-            "Total Shots": 3,
-            "Goals Conceded Outside Box": 2,
-            "Goals Conceded": 4,
-            "Successful Short Passes": 1,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 1,
-            "Shots On Target (inc goals)": 2,
-            "Time Played": 18,
-            "Open Play Passes": 2
+            "Total Passes": 8,
+            "Successful Passes Opposition Half": 3,
+            "Total Shots": 11,
+            "Duels won": 6,
+            "Successful Long Passes": 1,
+            "Tackles Won": 2,
+            "Goals Conceded Outside Box": 4,
+            "Goals Conceded": 8,
+            "Successful Short Passes": 5,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 6,
+            "Shots On Target (inc goals)": 8,
+            "Time Played": 36,
+            "Total Tackles": 5,
+            "Open Play Passes": 6
           }
         }
       }
@@ -8428,10 +9031,18 @@
       "number": 7,
       "seasons": {
         "4": {
-          "apps": 0,
+          "apps": 1,
           "goals": 0,
           "assists": 0,
-          "detailed": {}
+          "detailed": {
+            "Total Passes": 1,
+            "Duels won": 2,
+            "Forward Passes": 1,
+            "Tackles Won": 2,
+            "Time Played": 2,
+            "Total Tackles": 2,
+            "Open Play Passes": 1
+          }
         }
       }
     },
@@ -8445,24 +9056,24 @@
       "number": 1,
       "seasons": {
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 40,
-            "Saves made - parried": 4,
-            "Successful Passes Opposition Half": 9,
-            "Key Passes (Attempt Assists)": 2,
-            "Forward Passes": 32,
-            "Successful Long Passes": 12,
-            "Goals Conceded Outside Box": 2,
-            "Goals Conceded": 3,
-            "GK Successful Distribution": 16,
-            "Successful Short Passes": 14,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 26,
-            "Time Played": 28,
-            "Saves Made": 8,
-            "Open Play Passes": 23
+            "Total Passes": 83,
+            "Saves made - parried": 5,
+            "Successful Passes Opposition Half": 17,
+            "Key Passes (Attempt Assists)": 7,
+            "Forward Passes": 54,
+            "Successful Long Passes": 27,
+            "Goals Conceded Outside Box": 5,
+            "Goals Conceded": 7,
+            "GK Successful Distribution": 33,
+            "Successful Short Passes": 35,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 62,
+            "Time Played": 53,
+            "Saves Made": 20,
+            "Open Play Passes": 57
           }
         }
       }
@@ -8477,24 +9088,27 @@
       "number": 6,
       "seasons": {
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 2,
           "detailed": {
-            "Total Passes": 25,
-            "Successful Passes Opposition Half": 8,
-            "Duels won": 2,
-            "Forward Passes": 12,
-            "Successful Long Passes": 9,
+            "Total Passes": 47,
+            "Successful Passes Opposition Half": 16,
+            "Key Passes (Attempt Assists)": 6,
+            "Total Shots": 3,
+            "Duels won": 3,
+            "Forward Passes": 16,
+            "Successful Long Passes": 20,
             "Tackles Won": 1,
-            "Goals Conceded Outside Box": 3,
-            "Goals Conceded": 4,
-            "Successful Short Passes": 11,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 20,
-            "Time Played": 26,
-            "Total Tackles": 1,
+            "Goals Conceded Outside Box": 6,
+            "Goals Conceded": 7,
+            "Successful Short Passes": 18,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 38,
+            "Shots On Target (inc goals)": 1,
+            "Time Played": 49,
+            "Total Tackles": 2,
             "Goal Assists": 2,
-            "Open Play Passes": 25
+            "Open Play Passes": 46
           }
         }
       }
@@ -8509,24 +9123,26 @@
       "number": 27,
       "seasons": {
         "4": {
-          "apps": 1,
-          "goals": 0,
+          "apps": 2,
+          "goals": 1,
           "assists": 0,
           "detailed": {
-            "Total Passes": 9,
-            "Successful Passes Opposition Half": 2,
+            "Total Passes": 22,
+            "Successful Passes Opposition Half": 8,
             "Key Passes (Attempt Assists)": 1,
-            "Total Shots": 1,
-            "Duels won": 2,
-            "Forward Passes": 3,
-            "Successful Long Passes": 1,
-            "Goals Conceded": 2,
-            "Successful Short Passes": 3,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 4,
-            "Shots On Target (inc goals)": 1,
-            "Time Played": 22,
-            "Total Tackles": 1,
-            "Open Play Passes": 8
+            "Total Shots": 6,
+            "Duels won": 4,
+            "Forward Passes": 4,
+            "Successful Long Passes": 3,
+            "Tackles Won": 1,
+            "Goals Conceded Outside Box": 1,
+            "Goals Conceded": 4,
+            "Successful Short Passes": 13,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 16,
+            "Shots On Target (inc goals)": 3,
+            "Time Played": 42,
+            "Total Tackles": 2,
+            "Open Play Passes": 20
           }
         }
       }
@@ -8566,23 +9182,23 @@
       "number": 4,
       "seasons": {
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 10,
-            "Successful Passes Opposition Half": 3,
+            "Total Passes": 9,
+            "Successful Passes Opposition Half": 4,
             "Key Passes (Attempt Assists)": 1,
             "Duels won": 1,
             "Successful Long Passes": 2,
             "Tackles Won": 1,
-            "Goals Conceded Outside Box": 1,
-            "Goals Conceded": 1,
+            "Goals Conceded Outside Box": 2,
+            "Goals Conceded": 2,
             "Successful Short Passes": 7,
             "Total Successful Passes (Excl Crosses &amp; Corners)": 9,
-            "Time Played": 11,
+            "Time Played": 20,
             "Total Tackles": 1,
-            "Open Play Passes": 10
+            "Open Play Passes": 9
           }
         }
       }
@@ -8597,25 +9213,25 @@
       "number": 14,
       "seasons": {
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 13,
-            "Successful Passes Opposition Half": 5,
+            "Total Passes": 17,
+            "Successful Passes Opposition Half": 7,
             "Key Passes (Attempt Assists)": 3,
-            "Total Shots": 1,
-            "Duels won": 1,
-            "Forward Passes": 2,
-            "Successful Long Passes": 3,
+            "Total Shots": 5,
+            "Duels won": 2,
+            "Forward Passes": 3,
+            "Successful Long Passes": 5,
             "Goals Conceded Outside Box": 1,
             "Goals Conceded": 1,
-            "Successful Short Passes": 8,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 11,
+            "Successful Short Passes": 10,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 15,
             "Shots On Target (inc goals)": 1,
-            "Time Played": 10,
+            "Time Played": 14,
             "Total Tackles": 1,
-            "Open Play Passes": 11
+            "Open Play Passes": 15
           }
         }
       }
@@ -8630,19 +9246,53 @@
       "number": 4,
       "seasons": {
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 4,
+            "Total Passes": 8,
             "Successful Passes Opposition Half": 2,
-            "Forward Passes": 2,
-            "Successful Long Passes": 1,
+            "Duels won": 2,
+            "Forward Passes": 5,
+            "Successful Long Passes": 2,
+            "Tackles Won": 2,
             "Goals Conceded": 1,
-            "Successful Short Passes": 2,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 3,
-            "Time Played": 3,
-            "Open Play Passes": 4
+            "Successful Short Passes": 5,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 7,
+            "Time Played": 8,
+            "Total Tackles": 2,
+            "Open Play Passes": 8
+          }
+        }
+      }
+    },
+    {
+      "slug": "courtney-senior",
+      "name": "Courtney Senior",
+      "team": "Clutch FC",
+      "teamSlug": "clutch-fc",
+      "position": "Midfielder",
+      "age": null,
+      "number": 12,
+      "seasons": {
+        "4": {
+          "apps": 1,
+          "goals": 0,
+          "assists": 1,
+          "detailed": {
+            "Total Passes": 9,
+            "Successful Passes Opposition Half": 4,
+            "Key Passes (Attempt Assists)": 1,
+            "Duels won": 3,
+            "Forward Passes": 1,
+            "Successful Long Passes": 2,
+            "Tackles Won": 2,
+            "Successful Short Passes": 6,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 8,
+            "Time Played": 9,
+            "Total Tackles": 2,
+            "Goal Assists": 1,
+            "Open Play Passes": 9
           }
         }
       }
@@ -8657,21 +9307,58 @@
       "number": 9,
       "seasons": {
         "4": {
+          "apps": 2,
+          "goals": 2,
+          "assists": 0,
+          "detailed": {
+            "Total Passes": 15,
+            "Successful Passes Opposition Half": 6,
+            "Key Passes (Attempt Assists)": 2,
+            "Total Shots": 14,
+            "Duels won": 2,
+            "Forward Passes": 2,
+            "Successful Long Passes": 1,
+            "Goals Conceded Outside Box": 1,
+            "Goals Conceded": 2,
+            "Successful Short Passes": 11,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 12,
+            "Shots On Target (inc goals)": 7,
+            "Time Played": 38,
+            "Open Play Passes": 15
+          }
+        }
+      }
+    },
+    {
+      "slug": "dan-wishart",
+      "name": "Dan Wishart",
+      "team": "RTG FC",
+      "teamSlug": "yanited",
+      "position": "Midfielder",
+      "age": null,
+      "number": 12,
+      "seasons": {
+        "4": {
           "apps": 1,
           "goals": 1,
           "assists": 0,
           "detailed": {
-            "Total Passes": 4,
-            "Successful Passes Opposition Half": 1,
-            "Total Shots": 6,
-            "Duels won": 1,
-            "Forward Passes": 2,
-            "Successful Long Passes": 1,
-            "Successful Short Passes": 1,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 2,
-            "Shots On Target (inc goals)": 5,
-            "Time Played": 18,
-            "Open Play Passes": 4
+            "Total Passes": 12,
+            "Total Clearances": 1,
+            "Successful Passes Opposition Half": 2,
+            "Key Passes (Attempt Assists)": 1,
+            "Total Shots": 3,
+            "Duels won": 2,
+            "Forward Passes": 5,
+            "Tackles Won": 2,
+            "Goals Conceded Outside Box": 3,
+            "Goals Conceded": 5,
+            "Successful Short Passes": 10,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 10,
+            "Shots On Target (inc goals)": 2,
+            "Time Played": 26,
+            "Total Tackles": 2,
+            "Open Play Passes": 11
           }
         }
       }
@@ -8742,26 +9429,31 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 37,
-            "Saves made - parried": 3,
+            "Total Passes": 86,
+            "Saves made - parried": 6,
             "Total Clearances": 1,
-            "Key Passes (Attempt Assists)": 3,
+            "Successful Passes Opposition Half": 10,
+            "Key Passes (Attempt Assists)": 4,
             "Total Shots": 3,
-            "Forward Passes": 17,
-            "Successful Long Passes": 7,
-            "Goals Conceded Outside Box": 1,
-            "Goals Conceded": 4,
-            "GK Successful Distribution": 14,
-            "Successful Short Passes": 28,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 35,
+            "Duels won": 1,
+            "Forward Passes": 48,
+            "Successful Long Passes": 20,
+            "Tackles Won": 1,
+            "Goals Conceded Outside Box": 3,
+            "Goals Conceded": 6,
+            "GK Successful Distribution": 28,
+            "Successful Short Passes": 52,
+            "Penalties Saved": 1,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 72,
             "Shots On Target (inc goals)": 1,
-            "Time Played": 28,
-            "Saves Made": 5,
-            "Open Play Passes": 26
+            "Time Played": 58,
+            "Total Tackles": 1,
+            "Saves Made": 16,
+            "Open Play Passes": 61
           }
         }
       }
@@ -8780,17 +9472,17 @@
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 6,
+            "Total Passes": 7,
             "Successful Passes Opposition Half": 3,
             "Key Passes (Attempt Assists)": 1,
             "Total Shots": 7,
-            "Duels won": 1,
+            "Duels won": 2,
             "Forward Passes": 2,
-            "Successful Short Passes": 5,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 5,
+            "Successful Short Passes": 6,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 6,
             "Shots On Target (inc goals)": 2,
-            "Time Played": 11,
-            "Open Play Passes": 6
+            "Time Played": 12,
+            "Open Play Passes": 7
           }
         }
       }
@@ -8824,24 +9516,24 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 2,
           "assists": 0,
           "detailed": {
-            "Total Passes": 4,
-            "Successful Passes Opposition Half": 1,
+            "Total Passes": 9,
+            "Successful Passes Opposition Half": 2,
             "Total Shots": 3,
             "Duels won": 1,
-            "Forward Passes": 1,
+            "Forward Passes": 2,
             "Tackles Won": 1,
             "Goals Conceded Outside Box": 3,
             "Goals Conceded": 3,
-            "Successful Short Passes": 2,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 2,
+            "Successful Short Passes": 6,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 6,
             "Shots On Target (inc goals)": 2,
-            "Time Played": 5,
+            "Time Played": 13,
             "Total Tackles": 1,
-            "Open Play Passes": 4
+            "Open Play Passes": 9
           }
         }
       }
@@ -8882,27 +9574,29 @@
       "number": 1,
       "seasons": {
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 1,
           "detailed": {
-            "Total Passes": 46,
-            "Saves made - parried": 7,
-            "Total Clearances": 1,
-            "Successful Passes Opposition Half": 8,
-            "Key Passes (Attempt Assists)": 2,
+            "Total Passes": 90,
+            "Saves made - parried": 5,
+            "Total Clearances": 2,
+            "Successful Passes Opposition Half": 20,
+            "Key Passes (Attempt Assists)": 8,
+            "Total Shots": 2,
             "Duels won": 1,
-            "Forward Passes": 28,
-            "Successful Long Passes": 14,
-            "Goals Conceded Outside Box": 3,
-            "Goals Conceded": 5,
-            "GK Successful Distribution": 16,
-            "Successful Short Passes": 21,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 35,
-            "Time Played": 30,
-            "Saves Made": 11,
+            "Forward Passes": 53,
+            "Successful Long Passes": 31,
+            "Goals Conceded Outside Box": 7,
+            "Goals Conceded": 11,
+            "GK Successful Distribution": 22,
+            "Successful Short Passes": 41,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 72,
+            "Shots On Target (inc goals)": 1,
+            "Time Played": 58,
+            "Saves Made": 14,
             "Goal Assists": 1,
-            "Open Play Passes": 32
+            "Open Play Passes": 69
           }
         }
       }
@@ -8943,21 +9637,20 @@
       "number": 6,
       "seasons": {
         "4": {
-          "apps": 1,
-          "goals": 0,
+          "apps": 2,
+          "goals": 1,
           "assists": 0,
           "detailed": {
-            "Total Passes": 7,
-            "Successful Passes Opposition Half": 1,
-            "Duels won": 2,
+            "Total Passes": 13,
+            "Successful Passes Opposition Half": 5,
+            "Total Shots": 1,
             "Forward Passes": 1,
             "Successful Long Passes": 1,
-            "Tackles Won": 1,
-            "Successful Short Passes": 5,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 6,
-            "Time Played": 8,
-            "Total Tackles": 1,
-            "Open Play Passes": 7
+            "Successful Short Passes": 11,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 12,
+            "Shots On Target (inc goals)": 1,
+            "Time Played": 13,
+            "Open Play Passes": 13
           }
         }
       }
@@ -8972,10 +9665,24 @@
       "number": 23,
       "seasons": {
         "4": {
-          "apps": 0,
+          "apps": 1,
           "goals": 0,
           "assists": 0,
-          "detailed": {}
+          "detailed": {
+            "Total Passes": 7,
+            "Successful Passes Opposition Half": 1,
+            "Key Passes (Attempt Assists)": 1,
+            "Duels won": 4,
+            "Successful Long Passes": 1,
+            "Tackles Won": 1,
+            "Goals Conceded Outside Box": 1,
+            "Goals Conceded": 2,
+            "Successful Short Passes": 6,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 7,
+            "Time Played": 9,
+            "Total Tackles": 3,
+            "Open Play Passes": 7
+          }
         }
       }
     },
@@ -9045,28 +9752,28 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 1,
           "detailed": {
-            "Total Passes": 43,
-            "Saves made - parried": 2,
+            "Total Passes": 77,
+            "Saves made - parried": 5,
             "Total Clearances": 1,
-            "Successful Passes Opposition Half": 10,
-            "Key Passes (Attempt Assists)": 2,
-            "Total Shots": 1,
-            "Forward Passes": 22,
-            "Successful Long Passes": 18,
-            "Goals Conceded Outside Box": 4,
-            "Goals Conceded": 4,
-            "GK Successful Distribution": 14,
-            "Successful Short Passes": 21,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 39,
+            "Successful Passes Opposition Half": 13,
+            "Key Passes (Attempt Assists)": 4,
+            "Total Shots": 2,
+            "Forward Passes": 38,
+            "Successful Long Passes": 23,
+            "Goals Conceded Outside Box": 7,
+            "Goals Conceded": 9,
+            "GK Successful Distribution": 23,
+            "Successful Short Passes": 42,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 65,
             "Shots On Target (inc goals)": 1,
-            "Time Played": 30,
-            "Saves Made": 5,
+            "Time Played": 58,
+            "Saves Made": 12,
             "Goal Assists": 1,
-            "Open Play Passes": 31
+            "Open Play Passes": 58
           }
         }
       }
@@ -9085,17 +9792,17 @@
           "goals": 0,
           "assists": 1,
           "detailed": {
-            "Total Passes": 5,
-            "Successful Passes Opposition Half": 3,
+            "Total Passes": 3,
+            "Successful Passes Opposition Half": 1,
             "Key Passes (Attempt Assists)": 1,
             "Total Shots": 1,
             "Forward Passes": 1,
             "Successful Long Passes": 1,
-            "Successful Short Passes": 4,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 5,
+            "Successful Short Passes": 2,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 3,
             "Time Played": 4,
             "Goal Assists": 1,
-            "Open Play Passes": 4
+            "Open Play Passes": 2
           }
         }
       }
@@ -9132,26 +9839,27 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
-          "assists": 0,
+          "assists": 2,
           "detailed": {
-            "Total Passes": 34,
-            "Saves made - parried": 2,
-            "Successful Passes Opposition Half": 2,
-            "Key Passes (Attempt Assists)": 1,
+            "Total Passes": 91,
+            "Saves made - parried": 6,
+            "Successful Passes Opposition Half": 10,
+            "Key Passes (Attempt Assists)": 3,
             "Total Shots": 1,
             "Duels won": 2,
-            "Forward Passes": 15,
-            "Successful Long Passes": 5,
-            "Goals Conceded Outside Box": 5,
-            "Goals Conceded": 5,
-            "GK Successful Distribution": 13,
-            "Successful Short Passes": 26,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 31,
-            "Time Played": 28,
-            "Saves Made": 2,
-            "Open Play Passes": 24
+            "Forward Passes": 39,
+            "Successful Long Passes": 23,
+            "Goals Conceded Outside Box": 6,
+            "Goals Conceded": 8,
+            "GK Successful Distribution": 27,
+            "Successful Short Passes": 57,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 80,
+            "Time Played": 58,
+            "Saves Made": 11,
+            "Goal Assists": 2,
+            "Open Play Passes": 66
           }
         }
       }
@@ -9166,24 +9874,24 @@
       "number": 1,
       "seasons": {
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 42,
-            "Saves made - parried": 3,
-            "Successful Passes Opposition Half": 3,
-            "Key Passes (Attempt Assists)": 1,
-            "Forward Passes": 22,
-            "Successful Long Passes": 14,
-            "Goals Conceded Outside Box": 2,
-            "Goals Conceded": 3,
-            "GK Successful Distribution": 17,
-            "Successful Short Passes": 19,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 33,
-            "Time Played": 30,
-            "Saves Made": 8,
-            "Open Play Passes": 27
+            "Total Passes": 65,
+            "Saves made - parried": 6,
+            "Successful Passes Opposition Half": 5,
+            "Key Passes (Attempt Assists)": 2,
+            "Forward Passes": 30,
+            "Successful Long Passes": 21,
+            "Goals Conceded Outside Box": 8,
+            "Goals Conceded": 9,
+            "GK Successful Distribution": 23,
+            "Successful Short Passes": 33,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 54,
+            "Time Played": 56,
+            "Saves Made": 15,
+            "Open Play Passes": 48
           }
         }
       }
@@ -9198,20 +9906,25 @@
       "number": 91,
       "seasons": {
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 9,
-            "Successful Passes Opposition Half": 5,
-            "Total Shots": 2,
-            "Forward Passes": 3,
-            "Successful Long Passes": 2,
-            "Successful Short Passes": 7,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 9,
+            "Total Passes": 23,
+            "Successful Passes Opposition Half": 12,
+            "Key Passes (Attempt Assists)": 1,
+            "Total Shots": 5,
+            "Duels won": 2,
+            "Forward Passes": 9,
+            "Successful Long Passes": 3,
+            "Goals Conceded Outside Box": 2,
+            "Goals Conceded": 2,
+            "Successful Short Passes": 16,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 19,
             "Shots On Target (inc goals)": 2,
-            "Time Played": 12,
-            "Open Play Passes": 9
+            "Time Played": 27,
+            "Total Tackles": 2,
+            "Open Play Passes": 23
           }
         }
       }
@@ -9275,13 +9988,14 @@
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 1,
+            "Total Passes": 2,
             "Total Clearances": 1,
+            "Forward Passes": 1,
             "Goals Conceded": 1,
-            "Successful Short Passes": 1,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 1,
+            "Successful Short Passes": 2,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 2,
             "Time Played": 2,
-            "Open Play Passes": 1
+            "Open Play Passes": 2
           }
         }
       }
@@ -9296,27 +10010,28 @@
       "number": 1,
       "seasons": {
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 48,
-            "Saves made - parried": 3,
-            "Total Clearances": 1,
-            "Successful Passes Opposition Half": 12,
-            "Key Passes (Attempt Assists)": 2,
+            "Total Passes": 101,
+            "Saves made - parried": 4,
+            "Total Clearances": 2,
+            "Successful Passes Opposition Half": 18,
+            "Key Passes (Attempt Assists)": 3,
             "Duels won": 1,
-            "Forward Passes": 32,
-            "Successful Long Passes": 18,
+            "Forward Passes": 64,
+            "Successful Long Passes": 29,
             "Tackles Won": 1,
-            "Goals Conceded": 1,
-            "GK Successful Distribution": 4,
-            "Successful Short Passes": 17,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 35,
-            "Time Played": 30,
+            "Goals Conceded Outside Box": 3,
+            "Goals Conceded": 5,
+            "GK Successful Distribution": 11,
+            "Successful Short Passes": 40,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 69,
+            "Time Played": 58,
             "Total Tackles": 1,
-            "Saves Made": 11,
-            "Open Play Passes": 44
+            "Saves Made": 15,
+            "Open Play Passes": 93
           }
         }
       }
@@ -9348,25 +10063,26 @@
       "number": 11,
       "seasons": {
         "4": {
-          "apps": 1,
-          "goals": 1,
+          "apps": 2,
+          "goals": 2,
           "assists": 0,
           "detailed": {
-            "Total Passes": 8,
-            "Successful Passes Opposition Half": 3,
-            "Key Passes (Attempt Assists)": 3,
-            "Total Shots": 4,
-            "Duels won": 5,
-            "Successful Long Passes": 2,
+            "Total Passes": 26,
+            "Successful Passes Opposition Half": 8,
+            "Key Passes (Attempt Assists)": 7,
+            "Total Shots": 8,
+            "Duels won": 8,
+            "Forward Passes": 5,
+            "Successful Long Passes": 6,
             "Tackles Won": 1,
-            "Goals Conceded Outside Box": 1,
-            "Goals Conceded": 1,
-            "Successful Short Passes": 4,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 6,
-            "Shots On Target (inc goals)": 2,
-            "Time Played": 18,
+            "Goals Conceded Outside Box": 6,
+            "Goals Conceded": 6,
+            "Successful Short Passes": 15,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 21,
+            "Shots On Target (inc goals)": 5,
+            "Time Played": 40,
             "Total Tackles": 1,
-            "Open Play Passes": 8
+            "Open Play Passes": 26
           }
         }
       }
@@ -9381,21 +10097,25 @@
       "number": 7,
       "seasons": {
         "4": {
-          "apps": 1,
-          "goals": 0,
+          "apps": 2,
+          "goals": 1,
           "assists": 0,
           "detailed": {
-            "Total Passes": 9,
-            "Successful Passes Opposition Half": 3,
-            "Total Shots": 7,
-            "Forward Passes": 3,
+            "Total Passes": 19,
+            "Successful Passes Opposition Half": 9,
+            "Key Passes (Attempt Assists)": 2,
+            "Total Shots": 11,
+            "Duels won": 2,
+            "Forward Passes": 6,
+            "Tackles Won": 1,
             "Goals Conceded Outside Box": 1,
             "Goals Conceded": 1,
-            "Successful Short Passes": 8,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 8,
-            "Shots On Target (inc goals)": 3,
-            "Time Played": 25,
-            "Open Play Passes": 8
+            "Successful Short Passes": 18,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 18,
+            "Shots On Target (inc goals)": 6,
+            "Time Played": 43,
+            "Total Tackles": 1,
+            "Open Play Passes": 18
           }
         }
       }
@@ -9435,24 +10155,26 @@
           }
         },
         "4": {
-          "apps": 1,
-          "goals": 1,
+          "apps": 2,
+          "goals": 2,
           "assists": 0,
           "detailed": {
-            "Total Passes": 22,
-            "Total Clearances": 1,
-            "Successful Passes Opposition Half": 6,
-            "Key Passes (Attempt Assists)": 2,
-            "Total Shots": 2,
-            "Forward Passes": 5,
-            "Successful Long Passes": 9,
-            "Goals Conceded Outside Box": 1,
-            "Goals Conceded": 2,
-            "Successful Short Passes": 11,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 20,
-            "Shots On Target (inc goals)": 2,
-            "Time Played": 19,
-            "Open Play Passes": 21
+            "Total Passes": 47,
+            "Total Clearances": 3,
+            "Successful Passes Opposition Half": 14,
+            "Key Passes (Attempt Assists)": 3,
+            "Total Shots": 4,
+            "Duels won": 3,
+            "Forward Passes": 12,
+            "Successful Long Passes": 21,
+            "Goals Conceded Outside Box": 5,
+            "Goals Conceded": 7,
+            "Successful Short Passes": 22,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 43,
+            "Shots On Target (inc goals)": 4,
+            "Time Played": 30,
+            "Total Tackles": 1,
+            "Open Play Passes": 46
           }
         }
       }
@@ -9467,24 +10189,24 @@
       "number": 9,
       "seasons": {
         "4": {
-          "apps": 1,
-          "goals": 0,
+          "apps": 2,
+          "goals": 2,
           "assists": 0,
           "detailed": {
-            "Total Passes": 19,
-            "Successful Passes Opposition Half": 6,
-            "Key Passes (Attempt Assists)": 1,
-            "Total Shots": 3,
-            "Duels won": 2,
-            "Forward Passes": 9,
-            "Successful Long Passes": 5,
-            "Goals Conceded Outside Box": 1,
-            "Goals Conceded": 1,
-            "Successful Short Passes": 13,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 18,
-            "Shots On Target (inc goals)": 2,
-            "Time Played": 16,
-            "Open Play Passes": 17
+            "Total Passes": 40,
+            "Successful Passes Opposition Half": 12,
+            "Key Passes (Attempt Assists)": 2,
+            "Total Shots": 8,
+            "Duels won": 4,
+            "Forward Passes": 13,
+            "Successful Long Passes": 7,
+            "Goals Conceded Outside Box": 5,
+            "Goals Conceded": 5,
+            "Successful Short Passes": 29,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 36,
+            "Shots On Target (inc goals)": 5,
+            "Time Played": 36,
+            "Open Play Passes": 36
           }
         }
       }
@@ -9499,10 +10221,41 @@
       "number": 24,
       "seasons": {
         "4": {
-          "apps": 0,
+          "apps": 1,
           "goals": 0,
           "assists": 0,
-          "detailed": {}
+          "detailed": {
+            "Total Passes": 1,
+            "Duels won": 1,
+            "Successful Short Passes": 1,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 1,
+            "Time Played": 4
+          }
+        }
+      }
+    },
+    {
+      "slug": "kyle-hudlin",
+      "name": "Kyle Hudlin",
+      "team": "RTG FC",
+      "teamSlug": "yanited",
+      "position": "Striker",
+      "age": null,
+      "number": 12,
+      "seasons": {
+        "4": {
+          "apps": 1,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {
+            "Total Passes": 2,
+            "Duels won": 1,
+            "Goals Conceded": 2,
+            "Successful Short Passes": 2,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 2,
+            "Time Played": 7,
+            "Open Play Passes": 1
+          }
         }
       }
     },
@@ -9516,26 +10269,27 @@
       "number": 28,
       "seasons": {
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 21,
-            "Total Clearances": 1,
-            "Successful Passes Opposition Half": 3,
-            "Key Passes (Attempt Assists)": 1,
-            "Duels won": 3,
-            "Forward Passes": 3,
-            "Successful Long Passes": 3,
-            "Tackles Won": 1,
-            "Goals Conceded Outside Box": 1,
-            "Goals Conceded": 2,
-            "GK Successful Distribution": 1,
-            "Successful Short Passes": 16,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 19,
-            "Time Played": 25,
-            "Total Tackles": 1,
-            "Open Play Passes": 20
+            "Total Passes": 65,
+            "Total Clearances": 2,
+            "Successful Passes Opposition Half": 11,
+            "Key Passes (Attempt Assists)": 4,
+            "Total Shots": 1,
+            "Duels won": 7,
+            "Forward Passes": 16,
+            "Successful Long Passes": 15,
+            "Tackles Won": 3,
+            "Goals Conceded Outside Box": 7,
+            "Goals Conceded": 8,
+            "GK Successful Distribution": 4,
+            "Successful Short Passes": 44,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 59,
+            "Time Played": 53,
+            "Total Tackles": 3,
+            "Open Play Passes": 60
           }
         }
       }
@@ -9570,25 +10324,25 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 10,
-            "Successful Passes Opposition Half": 6,
-            "Key Passes (Attempt Assists)": 4,
-            "Total Shots": 2,
-            "Duels won": 1,
-            "Forward Passes": 4,
-            "Successful Long Passes": 3,
-            "Goals Conceded Outside Box": 4,
-            "Goals Conceded": 4,
-            "Successful Short Passes": 7,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 10,
+            "Total Passes": 28,
+            "Successful Passes Opposition Half": 10,
+            "Key Passes (Attempt Assists)": 6,
+            "Total Shots": 3,
+            "Duels won": 2,
+            "Forward Passes": 6,
+            "Successful Long Passes": 9,
+            "Goals Conceded Outside Box": 5,
+            "Goals Conceded": 6,
+            "Successful Short Passes": 17,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 26,
             "Shots On Target (inc goals)": 1,
-            "Time Played": 10,
+            "Time Played": 26,
             "Total Tackles": 1,
-            "Open Play Passes": 9
+            "Open Play Passes": 27
           }
         }
       }
@@ -9687,22 +10441,22 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 1,
           "assists": 0,
           "detailed": {
-            "Total Passes": 5,
+            "Total Passes": 6,
             "Successful Passes Opposition Half": 3,
-            "Key Passes (Attempt Assists)": 2,
-            "Total Shots": 1,
+            "Key Passes (Attempt Assists)": 3,
+            "Total Shots": 2,
             "Duels won": 1,
-            "Forward Passes": 2,
+            "Forward Passes": 3,
             "Successful Long Passes": 2,
             "Successful Short Passes": 2,
             "Total Successful Passes (Excl Crosses &amp; Corners)": 4,
             "Shots On Target (inc goals)": 1,
-            "Time Played": 8,
-            "Open Play Passes": 4
+            "Time Played": 10,
+            "Open Play Passes": 5
           }
         }
       }
@@ -9734,25 +10488,26 @@
       "number": 20,
       "seasons": {
         "4": {
-          "apps": 1,
-          "goals": 0,
+          "apps": 2,
+          "goals": 1,
           "assists": 0,
           "detailed": {
-            "Total Passes": 10,
-            "Successful Passes Opposition Half": 6,
-            "Key Passes (Attempt Assists)": 2,
-            "Total Shots": 4,
-            "Duels won": 4,
-            "Forward Passes": 5,
+            "Total Passes": 33,
+            "Successful Passes Opposition Half": 16,
+            "Key Passes (Attempt Assists)": 4,
+            "Total Shots": 6,
+            "Duels won": 6,
+            "Forward Passes": 12,
+            "Successful Long Passes": 3,
             "Tackles Won": 2,
-            "Goals Conceded Outside Box": 1,
-            "Goals Conceded": 1,
-            "Successful Short Passes": 9,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 9,
-            "Shots On Target (inc goals)": 3,
-            "Time Played": 18,
+            "Goals Conceded Outside Box": 7,
+            "Goals Conceded": 7,
+            "Successful Short Passes": 28,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 31,
+            "Shots On Target (inc goals)": 5,
+            "Time Played": 46,
             "Total Tackles": 2,
-            "Open Play Passes": 10
+            "Open Play Passes": 33
           }
         }
       }
@@ -9840,6 +10595,41 @@
       }
     },
     {
+      "slug": "sam-roy-freeman",
+      "name": "Sam Roy Freeman",
+      "team": "Wembley Rangers AFC",
+      "teamSlug": "wembley-rangers-afc",
+      "position": "Goalkeeper",
+      "age": null,
+      "number": 12,
+      "seasons": {
+        "4": {
+          "apps": 1,
+          "goals": 0,
+          "assists": 0,
+          "detailed": {
+            "Total Passes": 49,
+            "Saves made - parried": 1,
+            "Total Clearances": 1,
+            "Successful Passes Opposition Half": 7,
+            "Key Passes (Attempt Assists)": 2,
+            "Total Shots": 3,
+            "Forward Passes": 24,
+            "Successful Long Passes": 13,
+            "Goals Conceded Outside Box": 5,
+            "Goals Conceded": 6,
+            "GK Successful Distribution": 12,
+            "Successful Short Passes": 27,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 40,
+            "Shots On Target (inc goals)": 2,
+            "Time Played": 23,
+            "Saves Made": 2,
+            "Open Play Passes": 36
+          }
+        }
+      }
+    },
+    {
       "slug": "sandro-da-costa",
       "name": "Sandro Da Costa",
       "team": "Prime FC",
@@ -9849,10 +10639,22 @@
       "number": 33,
       "seasons": {
         "4": {
-          "apps": 0,
+          "apps": 1,
           "goals": 0,
           "assists": 0,
-          "detailed": {}
+          "detailed": {
+            "Total Passes": 3,
+            "Key Passes (Attempt Assists)": 1,
+            "Total Shots": 1,
+            "Duels won": 1,
+            "Successful Long Passes": 2,
+            "Tackles Won": 1,
+            "Successful Short Passes": 1,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 3,
+            "Time Played": 6,
+            "Total Tackles": 1,
+            "Open Play Passes": 2
+          }
         }
       }
     },
@@ -9865,11 +10667,53 @@
       "age": null,
       "number": 11,
       "seasons": {
+        "2": {
+          "apps": 4,
+          "goals": 2,
+          "assists": 2,
+          "detailed": {
+            "Total Passes": 41,
+            "Total Clearances": 1,
+            "Successful Passes Opposition Half": 16,
+            "Key Passes (Attempt Assists)": 4,
+            "Total Shots": 15,
+            "Duels won": 2,
+            "Forward Passes": 4,
+            "Successful Long Passes": 7,
+            "Tackles Won": 1,
+            "Goals Conceded Outside Box": 6,
+            "Goals Conceded": 9,
+            "Successful Short Passes": 27,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 34,
+            "Shots On Target (inc goals)": 5,
+            "Time Played": 54,
+            "Total Tackles": 1,
+            "Goal Assists": 2,
+            "Open Play Passes": 40
+          }
+        },
         "4": {
-          "apps": 0,
-          "goals": 0,
-          "assists": 0,
-          "detailed": {}
+          "apps": 2,
+          "goals": 4,
+          "assists": 1,
+          "detailed": {
+            "Total Passes": 16,
+            "Successful Passes Opposition Half": 4,
+            "Key Passes (Attempt Assists)": 2,
+            "Total Shots": 20,
+            "Duels won": 5,
+            "Forward Passes": 1,
+            "Tackles Won": 1,
+            "Goals Conceded Outside Box": 2,
+            "Goals Conceded": 4,
+            "Successful Short Passes": 12,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 12,
+            "Shots On Target (inc goals)": 11,
+            "Time Played": 26,
+            "Total Tackles": 2,
+            "Goal Assists": 1,
+            "Open Play Passes": 16
+          }
         }
       }
     },
@@ -9883,22 +10727,23 @@
       "number": 10,
       "seasons": {
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 5,
-            "Successful Passes Opposition Half": 4,
+            "Total Passes": 10,
+            "Successful Passes Opposition Half": 5,
             "Key Passes (Attempt Assists)": 1,
-            "Total Shots": 2,
+            "Total Shots": 4,
             "Duels won": 1,
+            "Successful Long Passes": 1,
             "Goals Conceded": 1,
-            "Successful Short Passes": 5,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 5,
+            "Successful Short Passes": 9,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 10,
             "Shots On Target (inc goals)": 2,
-            "Time Played": 9,
+            "Time Played": 14,
             "Total Tackles": 1,
-            "Open Play Passes": 5
+            "Open Play Passes": 10
           }
         }
       }
@@ -9913,27 +10758,27 @@
       "number": 22,
       "seasons": {
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 2,
           "assists": 0,
           "detailed": {
-            "Total Passes": 33,
+            "Total Passes": 63,
             "Total Clearances": 1,
-            "Successful Passes Opposition Half": 15,
-            "Key Passes (Attempt Assists)": 2,
-            "Total Shots": 7,
-            "Duels won": 9,
-            "Forward Passes": 12,
-            "Successful Long Passes": 4,
-            "Tackles Won": 3,
-            "Goals Conceded Outside Box": 2,
-            "Goals Conceded": 2,
-            "Successful Short Passes": 26,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 30,
-            "Shots On Target (inc goals)": 4,
-            "Time Played": 28,
-            "Total Tackles": 4,
-            "Open Play Passes": 31
+            "Successful Passes Opposition Half": 24,
+            "Key Passes (Attempt Assists)": 4,
+            "Total Shots": 8,
+            "Duels won": 13,
+            "Forward Passes": 21,
+            "Successful Long Passes": 13,
+            "Tackles Won": 5,
+            "Goals Conceded Outside Box": 4,
+            "Goals Conceded": 6,
+            "Successful Short Passes": 43,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 56,
+            "Shots On Target (inc goals)": 5,
+            "Time Played": 56,
+            "Total Tackles": 7,
+            "Open Play Passes": 60
           }
         }
       }
@@ -9994,23 +10839,49 @@
           }
         },
         "4": {
-          "apps": 1,
+          "apps": 2,
           "goals": 0,
           "assists": 0,
           "detailed": {
-            "Total Passes": 6,
-            "Successful Passes Opposition Half": 4,
-            "Total Shots": 3,
-            "Duels won": 1,
+            "Total Passes": 11,
+            "Successful Passes Opposition Half": 7,
+            "Key Passes (Attempt Assists)": 1,
+            "Total Shots": 5,
+            "Duels won": 2,
             "Forward Passes": 2,
-            "Successful Long Passes": 1,
-            "Goals Conceded Outside Box": 1,
-            "Goals Conceded": 1,
-            "Successful Short Passes": 4,
-            "Total Successful Passes (Excl Crosses &amp; Corners)": 5,
-            "Time Played": 10,
-            "Total Tackles": 1,
-            "Open Play Passes": 6
+            "Successful Long Passes": 2,
+            "Tackles Won": 1,
+            "Goals Conceded Outside Box": 2,
+            "Goals Conceded": 2,
+            "Successful Short Passes": 8,
+            "Total Successful Passes (Excl Crosses &amp; Corners)": 10,
+            "Shots On Target (inc goals)": 2,
+            "Time Played": 23,
+            "Total Tackles": 2,
+            "Open Play Passes": 11
+          }
+        }
+      }
+    },
+    {
+      "slug": "tom-bender",
+      "name": "Tom Bender",
+      "team": "P17 FC",
+      "teamSlug": "rukkas-fc",
+      "position": "Defender",
+      "age": null,
+      "number": 12,
+      "seasons": {
+        "4": {
+          "apps": 1,
+          "goals": 1,
+          "assists": 0,
+          "detailed": {
+            "Total Shots": 1,
+            "Goals Conceded Outside Box": 2,
+            "Goals Conceded": 2,
+            "Shots On Target (inc goals)": 1,
+            "Time Played": 1
           }
         }
       }

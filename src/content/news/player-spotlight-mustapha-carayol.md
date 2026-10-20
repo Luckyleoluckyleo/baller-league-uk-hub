@@ -1,6 +1,6 @@
 ---
 title: "Player Spotlight: Mustapha Carayol — N5 FC"
-date: 2026-10-13
+date: 2026-10-20
 category: "Feature"
 excerpt: "A closer look at Mustapha Carayol, midfielder for N5 FC in Baller League UK Season 4 — career, honours and what he brings to the 6v6 game."
 author: "Baller League UK Hub"
@@ -27,7 +27,7 @@ Mustapha Carayol built his professional career at Middlesbrough, Bristol City, H
 
 | Season | Apps | Goals | Assists |
 |--------|------|-------|---------|
-| 4 | 1 | 0 | 0 |
+| 4 | 2 | 0 | 0 |
 
 See his full stats on his [player profile](/players/mustapha-carayol).
 

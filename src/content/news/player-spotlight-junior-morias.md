@@ -1,6 +1,6 @@
 ---
 title: "Player Spotlight: Junior Morias — P17 FC"
-date: 2026-10-13
+date: 2026-10-20
 category: "Feature"
 excerpt: "A closer look at Junior Morias, striker for P17 FC in Baller League UK Season 4 — career, honours and what he brings to the 6v6 game."
 author: "Baller League UK Hub"
@@ -18,6 +18,14 @@ His willingness to press, hold the ball up and shoot on sight makes him a natura
 ## Career
 
 Junior Morias built his professional career at Peterborough United, Dagenham & Redbridge and Boreham Wood. That grounding in the full-sided game — the positioning, the decision-making and the technical standards — translates neatly to the fast, high-tempo Baller League, where the Game Changers demand quick thinking and composure under pressure.
+
+## Baller League record
+
+| Season | Apps | Goals | Assists |
+|--------|------|-------|---------|
+| 4 | 1 | 0 | 0 |
+
+See his full stats on his [player profile](/players/junior-morias).
 
 ---
 

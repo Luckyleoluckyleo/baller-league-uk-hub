@@ -1,6 +1,6 @@
 ---
 title: "Deportrio — Baller League UK Season 4 Preview & Squad"
-date: 2026-10-13
+date: 2026-10-20
 category: "Team Preview"
 excerpt: "Everything you need to know about Deportrio for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
 author: "Baller League UK Hub"
@@ -23,23 +23,23 @@ Deportrio are led by [Micah Richards](/managers/micah-richards). Their experienc
 
 Here are some of Deportrio's players to watch, with last season's (Season 4) figures where available:
 
-- **[Jay Emmanuel-Thomas](/players/jay-emmanuel-thomas)** (Striker) — 3 goals and 0 assists in 1 appearance.
-- **[Rodney Ajayi](/players/rodney-ajayi)** (Striker) — 2 goals and 0 assists in 1 appearance.
-- **[Kevin Weggen](/players/kevin-weggen)** (Midfielder) — 2 goals and 1 assists in 1 appearance.
-- **[Emmanuel Robe](/players/emmanuel-robe)** (Striker) — 1 goals and 0 assists in 1 appearance.
+- **[Jay Emmanuel-Thomas](/players/jay-emmanuel-thomas)** (Striker) — 4 goals and 1 assists in 2 appearances.
+- **[Rodney Ajayi](/players/rodney-ajayi)** (Striker) — 4 goals and 0 assists in 2 appearances.
+- **[Kevin Weggen](/players/kevin-weggen)** (Midfielder) — 3 goals and 2 assists in 2 appearances.
+- **[Emmanuel Robe](/players/emmanuel-robe)** (Striker) — 1 goals and 0 assists in 2 appearances.
 - **[Martyn Waghorn](/players/martyn-waghorn)** (Striker) — 1 goals and 0 assists in 1 appearance.
-- **[Adam Dawson](/players/adam-dawson)** (Midfielder) — 0 goals and 0 assists in 1 appearance.
+- **[Adam Dawson](/players/adam-dawson)** (Midfielder) — 0 goals and 1 assists in 2 appearances.
 
 See the full squad on the [Deportrio team page](/teams/deportrio).
 
 ## Season 4 fixtures
 
-Deportrio open their campaign in **Gameweek 1** against **[Wembley Rangers AFC](/teams/wembley-rangers-afc)** on **12 October 2026**, with kick-off at **17:30** at home.
+Deportrio open their campaign in **Gameweek 3** against **[RTG FC](/teams/yanited)** on **26 October 2026**, with kick-off at **17:15** on the road.
 
 Every matchday is a Monday night, with the regular season running for **11 gameweeks** and the top four reaching the **Final Four**.
 
 ## Season outlook
 
-Deportrio will fancy their chances of a strong season if they can convert last year's promise into points. The margins in this league are famously small.
+Consistency will be the aim for Deportrio as they look to build on recent campaigns and push towards the Final Four.
 
 Follow Deportrio all season long on the [teams hub](/teams) and keep up with standings on the live [league table](/table).

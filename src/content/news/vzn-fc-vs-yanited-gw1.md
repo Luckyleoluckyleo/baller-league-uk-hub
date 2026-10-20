@@ -1,15 +1,15 @@
 ---
-title: "VZN FC Scrape Past RTG FC 5-4 in Tight GW1 Contest"
+title: "VZN FC Pip RTG FC 5-4 in Tense GW1 Encounter"
 date: 2026-10-12
 category: "Match Report"
-excerpt: "VZN FC 5-4 RTG FC — Gameweek 1 match report. Eddie Simon (2 goals) leads VZN FC's attack. Game Changers: Plus One (3) & The Line (3). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "VZN FC 5-4 RTG FC — Gameweek 1 match report. Florian Kastrati (2 goals) leads VZN FC's attack. Game Changers: Plus One (3) & The Line (3). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
 
 ## Match Summary — VZN FC 5-4 RTG FC
 
-All roads led to Baller Arena for Gameweek 1, where **VZN FC** and **RTG FC** produced a pulsating encounter that had fans on the edge of their seats from the first whistle to the last.
+A pivotal Gameweek 1 encounter saw **VZN FC** go head-to-head with **RTG FC** in a pulsating encounter that had fans on the edge of their seats from the first whistle to the last.
 
 When the dust settled, it was **VZN FC** who emerged **5-4** victors. The Game Changer window — **Plus One** and **The Line** — proved pivotal, contributing **6** of the match's **9** goals.
 
@@ -19,7 +19,7 @@ When the dust settled, it was **VZN FC** who emerged **5-4** victors. The Game C
 
 ## ⭐ Player of the Match
 
-[Terell Thomas](/players/terell-thomas) for VZN FC was the pick of the bunch with **2** goals, **7** shots.
+[Terell Thomas](/players/terell-thomas) for VZN FC was the pick of the bunch with **2** goals, **6** shots.
 
 
 ---
@@ -28,11 +28,11 @@ When the dust settled, it was **VZN FC** who emerged **5-4** victors. The Game C
 
 ### First Half
 
-At the 12th minute, the **Plus One** Game Changer roared into action — the result was chaos, in the best possible way. **3** goals poured in as both sides abandoned any defensive caution. VZN FC took a slender lead into half-time — nothing decisive, but enough to shift the psychological battle in their favour.
+Barely a dozen minutes had passed when **Plus One** transformed the match into something altogether different — and the goals flowed. **3** times the net bulged during the activation period, a frantic, breathless spell of attacking football. The sides went in with VZN FC just in front, a narrow advantage that kept everything delicately poised.
 
 ### Second Half
 
-After the restart, the **The Line** Game Changer detonated at the 27th minute, turning the dial up to eleven — and the mayhem resumed. **3** more goals erupted during the window, transforming the contest into a full-blown classic. It was edge-of-your-seat stuff in the closing minutes. RTG FC pressed and probed, but VZN FC's back-line stood firm — resilient, organised, and ultimately heroic.
+The tension was palpable at the restart, and the **The Line** Game Changer at 27 minutes only dialled it up — the defensive discipline of the first half evaporated as **3** goals thundered in during the activation. The final exchanges were fraught with tension. RTG FC threw everything forward in search of a route back, but VZN FC held their nerve, defending with grit and intelligence to protect what they had.
 
 ---
 
@@ -40,15 +40,15 @@ After the restart, the **The Line** Game Changer detonated at the 27th minute, t
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **2′** — **Florian Kastrati** (VZN FC) drew first blood
-- **12′** — **Zaid Al Hussaini** (RTG FC) scored
-- **13′** — **Kadell Daniel** (RTG FC) slotted
-- **14′** — **Tyrell Miller-Rodney** (RTG FC) struck
-- **17′** — **Alfie Cerulli** (RTG FC) struck
-- **18′** — **Eddie Simon** (VZN FC) struck
-- **27′** — **Terell Thomas** (VZN FC) fired home
-- **27′** — **Terell Thomas** (VZN FC) scored
-- **28′** — **Eddie Simon** (VZN FC) found the target
+- **2′** — **Florian Kastrati** (VZN FC) fired the opener
+- **12′** — **Zaid Al Hussaini** (RTG FC) fired home
+- **13′** — **Kadell Daniel** (RTG FC) converted
+- **14′** — **Tyrell Miller-Rodney** (RTG FC) slotted
+- **17′** — **Alfie Cerulli** (RTG FC) netted
+- **18′** — **Eddie Simon** (VZN FC) fired home
+- **27′** — **Terell Thomas** (VZN FC) converted
+- **27′** — **Terell Thomas** (VZN FC) found the target
+- **28′** — **Eddie Simon** (VZN FC) fired home
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -84,26 +84,26 @@ The **Plus One** activation was particularly devastating, producing **3** goals 
 
 ### VZN FC
 
-**Terell Thomas** was VZN FC's standout performer, bagging **2 goals** in a display of clinical finishing that powered his side's effort.
+The standout for VZN FC was undoubtedly **Terell Thomas**, whose **2-goal** haul was the foundation of everything good about their display.
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Terell Thomas | 2 | 0 | 7 | 30 |
+| Terell Thomas | 2 | 0 | 6 | 33 |
 | Eddie Simon | 2 | 0 | 3 | 2 |
 | Florian Kastrati | 1 | 0 | 3 | 8 |
 | Frankie Leonard | 0 | 1 | 1 | 39 |
-| Danny Bassett | 0 | 1 | 2 | 13 |
+| Danny Bassett | 0 | 1 | 2 | 14 |
 
 ### RTG FC
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Tyrell Miller-Rodney | 1 | 1 | 4 | 15 |
-| Zaid Al Hussaini | 1 | 1 | 2 | 13 |
-| Kadell Daniel | 1 | 0 | 6 | 20 |
+| Tyrell Miller-Rodney | 1 | 1 | 4 | 16 |
+| Zaid Al Hussaini | 1 | 1 | 2 | 12 |
+| Kadell Daniel | 1 | 0 | 5 | 21 |
 | Alfie Cerulli | 1 | 0 | 3 | 1 |
-| Elliot Krasniqi | 0 | 1 | 0 | 35 |
-| Fumnaya Shomotun | 0 | 1 | 1 | 5 |
+| Elliot Krasniqi | 0 | 1 | 0 | 34 |
+| Fumnaya Shomotun | 0 | 1 | 1 | 3 |
 
 
 
@@ -115,32 +115,33 @@ The **Plus One** activation was particularly devastating, producing **3** goals 
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Eddie Simon | 2 | 0 | 1 |
-| Terell Thomas | 2 | 0 | 1 |
-| Florian Kastrati | 1 | 0 | 1 |
+| Florian Kastrati | 2 | 0 | 2 |
+| Eddie Simon | 2 | 0 | 2 |
+| Terell Thomas | 2 | 0 | 2 |
 
 ### RTG FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kadell Daniel | 1 | 0 | 1 |
-| Tyrell Miller-Rodney | 1 | 1 | 1 |
-| Zaid Al Hussaini | 1 | 1 | 1 |
-| Alfie Cerulli | 1 | 0 | 1 |
+| Kadell Daniel | 4 | 1 | 2 |
+| Tyrell Miller-Rodney | 2 | 2 | 2 |
+| Alfie Cerulli | 2 | 0 | 2 |
+| Zaid Al Hussaini | 1 | 3 | 2 |
+| Dan Wishart | 1 | 0 | 1 |
 
 **Key Attacking Threats**
 
-- **Eddie Simon** — VZN FC's talisman with **2 goals** from **1 appearances**. A developing attacking presence with room to grow.
-- **Kadell Daniel** — RTG FC's leading marksman with **1 goals** from **1 outings**. Still finding his rhythm but showing promising signs.
+- **Florian Kastrati** — VZN FC's talisman with **2 goals** from **2 appearances**. A developing attacking presence with room to grow.
+- **Kadell Daniel** — RTG FC's leading marksman with **4 goals** from **2 outings**, plus **1 assists**. Still finding his rhythm but showing promising signs.
 
 
 ---
 
 ## Season Context
 
-With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **VZN FC** entered this match averaging **5.0 goals per game** — a number that reflected their struggles in front of goal this campaign. **RTG FC**, by contrast, arrived with an average of **4.0 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **VZN FC** entered this match averaging **3.0 goals per game** — a number that reflected their struggles in front of goal this campaign. **RTG FC**, by contrast, arrived with an average of **5.0 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **8.0 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **8.3 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -182,10 +183,10 @@ VZN FC held steady, rtg fc held steady.
 | Goals | 9 |
 | Game Changer goals | 6 (67% of all goals) |
 | Different goalscorers | 7 |
-| Total shots | 51 |
+| Total shots | 50 |
 | Assists | 6 |
 | Tackles | 30 |
-| Passes | 276 |
+| Passes | 281 |
 
 
 ---
@@ -201,10 +202,10 @@ VZN FC held steady, rtg fc held steady.
 ## What's Next
 
 ### VZN FC
-Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
+Next up: **P17 FC** in Gameweek 3. 
 
 ### RTG FC
-Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
+Next up: **Deportrio** in Gameweek 3. 
 
 
 

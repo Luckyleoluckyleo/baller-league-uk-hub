@@ -1,6 +1,6 @@
 ---
 title: "Clutch FC — Baller League UK Season 4 Preview & Squad"
-date: 2026-10-13
+date: 2026-10-20
 category: "Team Preview"
 excerpt: "Everything you need to know about Clutch FC for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
 author: "Baller League UK Hub"
@@ -23,18 +23,18 @@ Clutch FC are led by [Chloe Kelly](/managers/chloe-kelly). Their experience and 
 
 Here are some of Clutch FC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Alex Byrne](/players/alex-byrne)** (Striker) — 4 goals and 0 assists in 1 appearance.
-- **[Joshua Sumbunu](/players/joshua-sumbunu)** (Defender) — 1 goals and 0 assists in 1 appearance.
-- **[Albie Sheehan](/players/albie-sheehan)** (Defender) — 0 goals and 0 assists in 1 appearance.
-- **[Alfie Matthews](/players/alfie-matthews)** (Striker) — 0 goals and 2 assists in 1 appearance.
-- **[Erick Kenko](/players/erick-kenko)** (Midfielder) — 0 goals and 0 assists in 1 appearance.
-- **[Ibrahim Ugradar](/players/ibrahim-ugradar)** (Goalkeeper) — 0 goals and 0 assists in 1 appearance.
+- **[Alex Byrne](/players/alex-byrne)** (Striker) — 5 goals and 0 assists in 2 appearances.
+- **[Tyler Winters](/players/tyler-winters)** (Striker) — 3 goals and 2 assists in 2 appearances.
+- **[Joshua Sumbunu](/players/joshua-sumbunu)** (Defender) — 2 goals and 0 assists in 2 appearances.
+- **[Albie Sheehan](/players/albie-sheehan)** (Defender) — 0 goals and 0 assists in 2 appearances.
+- **[Alfie Matthews](/players/alfie-matthews)** (Striker) — 0 goals and 4 assists in 2 appearances.
+- **[Erick Kenko](/players/erick-kenko)** (Midfielder) — 0 goals and 0 assists in 2 appearances.
 
 See the full squad on the [Clutch FC team page](/teams/clutch-fc).
 
 ## Season 4 fixtures
 
-Clutch FC open their campaign in **Gameweek 1** against **[Prime FC](/teams/prime-fc)** on **12 October 2026**, with kick-off at **22:15** on the road.
+Clutch FC open their campaign in **Gameweek 3** against **[NDL FC](/teams/ndl-fc)** on **26 October 2026**, with kick-off at **21:00** at home.
 
 Every matchday is a Monday night, with the regular season running for **11 gameweeks** and the top four reaching the **Final Four**.
 
