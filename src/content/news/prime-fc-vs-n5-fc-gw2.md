@@ -1,5 +1,5 @@
 ---
-title: "Prime FC Claim 5-3 Win Over N5 FC in GW2"
+title: "Prime FC Down N5 FC 5-3 in Hard-Fought GW2 Battle"
 date: 2026-10-19
 category: "Match Report"
 excerpt: "Prime FC 5-3 N5 FC — Gameweek 2 match report. Timmy Abraham (3 goals) leads Prime FC's attack. Game Changers: Plus One (3) & The Line (2). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Prime FC 5-3 N5 FC
 
-The lights were bright at Baller Arena on Gameweek 2, where **Prime FC** and **N5 FC** served up a breathtaking goal-fest.
+The crowd at Baller Arena were treated to a spectacle as **Prime FC** faced **N5 FC** in an unforgettable thriller packed with drama and goals.
 
 When the dust settled, it was **Prime FC** who emerged **5-3** victors. The Game Changer window — **Plus One** and **The Line** — proved pivotal, contributing **5** of the match's **8** goals.
 
@@ -29,11 +29,11 @@ When the dust settled, it was **Prime FC** who emerged **5-3** victors. The Game
 
 ### First Half
 
-The first half sprang into life at the 12-minute mark with the **Plus One** Game Changer flicking the switch — the result was chaos, in the best possible way. **3** goals poured in as both sides abandoned any defensive caution. Prime FC controlled the tempo and carried a deserved lead into the interval, their composure and cutting edge proving the difference.
+The game's complexion changed at the 12th minute when the **Plus One** Game Changer activated — and the goals flowed. **3** times the net bulged during the activation period, a frantic, breathless spell of attacking football. Prime FC held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
 
 ### Second Half
 
-The 27th minute brought the **The Line** Game Changer thundering into the match — a moment that would prove pivotal — the **2** goals it produced came at a crucial juncture, swinging momentum decisively. The final exchanges were fraught with tension. N5 FC threw everything forward in search of a route back, but Prime FC held their nerve, defending with grit and intelligence to protect what they had.
+After the restart, the **The Line** Game Changer detonated at the 27th minute, turning the dial up to eleven — the **2** goals it produced came at a crucial juncture, swinging momentum decisively. It was edge-of-your-seat stuff in the closing minutes. N5 FC pressed and probed, but Prime FC's back-line stood firm — resilient, organised, and ultimately heroic.
 
 ---
 
@@ -41,14 +41,14 @@ The 27th minute brought the **The Line** Game Changer thundering into the match 
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **13′** — **Timmy Abraham** (Prime FC) broke the deadlock
-- **14′** — **Erico Henrique Esteves De Sousa** (Prime FC) fired home
+- **13′** — **Timmy Abraham** (Prime FC) fired the opener
+- **14′** — **Erico Henrique Esteves De Sousa** (Prime FC) scored
 - **14′** — **Michael Hill** (N5 FC) found the target
 - **20′** — **Billy Sharp** (N5 FC) found the target
-- **20′** — **Joshua Rusoke** (Prime FC) fired home
-- **23′** — **Hani Berchiche** (N5 FC) netted
-- **27′** — **Timmy Abraham** (Prime FC) struck
-- **28′** — **Mauro Vilhete** (Prime FC) fired home
+- **20′** — **Joshua Rusoke** (Prime FC) converted
+- **23′** — **Hani Berchiche** (N5 FC) struck
+- **27′** — **Timmy Abraham** (Prime FC) slotted
+- **28′** — **Mauro Vilhete** (Prime FC) slotted
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -89,6 +89,7 @@ The **Plus One** window was the more impactful, its **3** goals shifting the bal
 |--------|-------|---------|-------|--------|
 | Timmy Abraham | 2 | 0 | 4 | 1 |
 | Mauro Vilhete | 1 | 1 | 4 | 34 |
+| Joshua Rusoke | 1 | 0 | 2 | 27 |
 | Erico Henrique Esteves De Sousa | 1 | 0 | 1 | 6 |
 | Harvey Rees | 0 | 2 | 0 | 50 |
 | Francis Mampolo | 0 | 1 | 5 | 13 |

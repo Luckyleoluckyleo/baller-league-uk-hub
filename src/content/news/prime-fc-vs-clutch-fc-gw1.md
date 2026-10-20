@@ -1,5 +1,5 @@
 ---
-title: "Clutch FC See Off Prime FC 3-5 in Gameweek 1"
+title: "Clutch FC Beat Prime FC 3-5 in Entertaining GW1 Clash"
 date: 2026-10-12
 category: "Match Report"
 excerpt: "Prime FC 3-5 Clutch FC — Gameweek 1 match report. Timmy Abraham (3 goals) leads Prime FC's attack. Game Changers: 3Play (3) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Prime FC 3-5 Clutch FC
 
-A pivotal Gameweek 1 encounter saw **Prime FC** go head-to-head with **Clutch FC** in a pulsating encounter that had fans on the edge of their seats from the first whistle to the last.
+Football took center stage at Baller Arena when **Prime FC** met **Clutch FC** in a breathtaking goal-fest.
 
 When the dust settled, it was **Clutch FC** who emerged **3-5** victors. The Game Changer window — **3Play** and **The Line** — proved pivotal, contributing **4** of the match's **8** goals.
 
@@ -28,11 +28,11 @@ When the dust settled, it was **Clutch FC** who emerged **3-5** victors. The Gam
 
 ### First Half
 
-The game's complexion changed at the 12th minute when the **3Play** Game Changer activated — and the floodgates opened with **3** goals flying in, the crowd barely able to keep up with the relentless action. Clutch FC held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
+Twelve minutes in and the **3Play** Game Changer came alive, reshaping the contest entirely — the result was chaos, in the best possible way. **3** goals poured in as both sides abandoned any defensive caution. Clutch FC controlled the tempo and carried a deserved lead into the interval, their composure and cutting edge proving the difference.
 
 ### Second Half
 
-If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **The Line** entered the fray — and it delivered **1** goal at just the right moment to breathe fresh life into the match. It was edge-of-your-seat stuff in the closing minutes. Prime FC pressed and probed, but Clutch FC's back-line stood firm — resilient, organised, and ultimately heroic.
+The second half resumed with all to play for, and at the 27-minute mark the **The Line** Game Changer cranked up the intensity once more — and it delivered **1** goal at just the right moment to breathe fresh life into the match. The final exchanges were fraught with tension. Prime FC threw everything forward in search of a route back, but Clutch FC held their nerve, defending with grit and intelligence to protect what they had.
 
 ---
 
@@ -40,14 +40,14 @@ If the first half was intriguing, the second was about to become unmissable. At 
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **12′** — **Alex Byrne** (Clutch FC) broke the deadlock
-- **12′** — **Alex Byrne** (Clutch FC) scored
+- **12′** — **Alex Byrne** (Clutch FC) opened the scoring
+- **12′** — **Alex Byrne** (Clutch FC) converted
 - **15′** — **Timmy Abraham** (Prime FC) slotted
-- **17′** — **Joshua Sumbunu** (Clutch FC) struck
-- **17′** — **Montel McKenzie** (Prime FC) converted
-- **22′** — **Alex Byrne** (Clutch FC) slotted
-- **24′** — **Alex Byrne** (Clutch FC) converted
-- **29′** — **Francis Mampolo** (Prime FC) netted
+- **17′** — **Joshua Sumbunu** (Clutch FC) found the target
+- **17′** — **Montel McKenzie** (Prime FC) scored
+- **22′** — **Alex Byrne** (Clutch FC) netted
+- **24′** — **Alex Byrne** (Clutch FC) netted
+- **29′** — **Francis Mampolo** (Prime FC) scored
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -98,6 +98,7 @@ The **3Play** window was the more impactful, its **3** goals shifting the balanc
 | Joshua Sumbunu | 1 | 0 | 2 | 18 |
 | Alfie Matthews | 0 | 2 | 6 | 14 |
 | Tyler Winters | 0 | 1 | 2 | 16 |
+| Courtney Senior | 0 | 1 | 0 | 8 |
 
 
 

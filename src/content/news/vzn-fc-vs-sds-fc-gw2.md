@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — VZN FC 1-5 SDS FC
 
-Baller Arena buzzed with anticipation as **VZN FC** and **SDS FC** delivered a match that ebbed and flowed, keeping everyone guessing until the final whistle.
+Gameweek 2 delivered fireworks at Baller Arena with **VZN FC** taking on **SDS FC** in a thoroughly entertaining contest with plenty of talking points.
 
 When the dust settled, it was **SDS FC** who emerged **1-5** victors. The Game Changer window — **3Play** and **Fairplay** — proved pivotal, contributing **3** of the match's **6** goals.
 
@@ -29,11 +29,11 @@ When the dust settled, it was **SDS FC** who emerged **1-5** victors. The Game C
 
 ### First Half
 
-Twelve minutes in and the **3Play** Game Changer came alive, reshaping the contest entirely — a **2-goal** window that gave the half an electric pulse. SDS FC simply blew VZN FC away in a devastating opening period, sending a powerful message to everyone watching.
+The tactical landscape shifted dramatically at 12 minutes as the **3Play** Game Changer took hold — a **2-goal** window that gave the half an electric pulse. SDS FC were absolutely rampant, carving VZN FC open at will. By the break, they had built an intimidating lead that felt insurmountable.
 
 ### Second Half
 
-If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **Fairplay** entered the fray — the **1** goal it produced came at a crucial juncture, swinging momentum decisively. SDS FC managed the occasion expertly, balancing attacking ambition with game-control to see out a thoroughly deserved victory.
+After the restart, the **Fairplay** Game Changer detonated at the 27th minute, turning the dial up to eleven — the **1** goal it produced came at a crucial juncture, swinging momentum decisively. The scoreboard didn't flatter SDS FC — they were simply better in every department, and VZN FC had no complaints.
 
 ---
 
@@ -41,10 +41,10 @@ If the first half was intriguing, the second was about to become unmissable. At 
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **7′** — **Ergys Pepaj** (SDS FC) broke the deadlock
-- **13′** — **Florian Kastrati** (VZN FC) struck
+- **7′** — **Ergys Pepaj** (SDS FC) fired the opener
+- **13′** — **Florian Kastrati** (VZN FC) converted
 - **14′** — **Kazaiah Sterling** (SDS FC) struck
-- **26′** — **Amine Sassi** (SDS FC) converted
+- **26′** — **Amine Sassi** (SDS FC) struck
 - **26′** — **Joshua Raymond Bohui** (SDS FC) slotted
 - **28′** — **Kazaiah Sterling** (SDS FC) netted
 

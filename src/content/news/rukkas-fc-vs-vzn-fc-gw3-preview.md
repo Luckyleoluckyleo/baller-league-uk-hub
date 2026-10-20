@@ -22,7 +22,7 @@ Managed by **Alex Iwobi**. Rukkas FC (Idris Elba) rebranded to P17 FC for Season
 **Ones to watch**
 
 - **Amin Belaid** (Striker) — 5 goals, 2 assists in 2 appearances in Season 4.
-- **Steven Kodra** (Striker) — 4 goals, 1 assists in 2 appearances in Season 4.
+- **Steven Kodra** (Striker) — 4 goals, 0 assists in 2 appearances in Season 4.
 - **Dajon Golding** (Striker) — 2 goals, 0 assists in 2 appearances in Season 4.
 - **Ciaran Clark** (Defender) — 1 goals, 0 assists in 2 appearances in Season 4.
 - **Tom Bender** (Defender) — 1 goals, 0 assists in 1 appearance in Season 4.

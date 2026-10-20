@@ -1,5 +1,5 @@
 ---
-title: "SDS FC and N5 FC Finish 2-2 in Hard-Fought GW1 Draw"
+title: "SDS FC and N5 FC Split the Points in 2-2 GW1 Stalemate"
 date: 2026-10-12
 category: "Match Report"
 excerpt: "SDS FC 2-2 N5 FC — Gameweek 1 match report. Kazaiah Sterling (3 goals) leads SDS FC's attack. Game Changers: Onside (1) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — SDS FC 2-2 N5 FC
 
-The crowd at Baller Arena were treated to a spectacle as **SDS FC** faced **N5 FC** in a match that ebbed and flowed, keeping everyone guessing until the final whistle.
+All roads led to Baller Arena for Gameweek 1, where **SDS FC** and **N5 FC** produced a compelling advert for Baller League football — competitive, dramatic, and hard-fought.
 
 The final whistle confirmed a **2-2 draw**, a result that felt about right in a match where both sides gave everything. The Game Changer window — **Onside** and **The Line** — proved pivotal, contributing **1** of the match's **4** goals.
 
@@ -28,11 +28,11 @@ The final whistle confirmed a **2-2 draw**, a result that felt about right in a 
 
 ### First Half
 
-The first half sprang into life at the 12-minute mark with the **Onside** Game Changer flicking the switch — a **1-goal** window that gave the half an electric pulse. By the interval it was impossible to call a winner. The contest was beautifully balanced, with everything still to play for.
+The tactical landscape shifted dramatically at 12 minutes as the **Onside** Game Changer took hold — a **1-goal** window that gave the half an electric pulse. By the interval it was impossible to call a winner. The contest was beautifully balanced, with everything still to play for.
 
 ### Second Half
 
-The 27th minute brought the **The Line** Game Changer thundering into the match — a moment that would prove pivotal — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. Both sides strained every sinew for a winner but the decisive blow never landed. A draw was the fairest outcome in a match where no team deserved to lose.
+If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **The Line** entered the fray — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. Late drama threatened but never materialised, both teams having to accept a point apiece in what felt like a war of attrition.
 
 ---
 
@@ -40,10 +40,10 @@ The 27th minute brought the **The Line** Game Changer thundering into the match 
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **13′** — **Francis Amartey** (N5 FC) broke the deadlock
-- **18′** — **Hani Berchiche** (N5 FC) converted
-- **21′** — **Youssef Chentouf** (SDS FC) struck
-- **22′** — **Kazaiah Sterling** (SDS FC) slotted
+- **13′** — **Francis Amartey** (N5 FC) opened the scoring
+- **18′** — **Hani Berchiche** (N5 FC) fired home
+- **21′** — **Youssef Chentouf** (SDS FC) slotted
+- **22′** — **Kazaiah Sterling** (SDS FC) struck
 
 | Minute | Player | Team |
 |--------|--------|------|

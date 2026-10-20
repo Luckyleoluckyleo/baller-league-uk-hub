@@ -28,11 +28,11 @@ When the dust settled, it was **Gold Devils FC** who emerged **1-3** victors. Th
 
 ### First Half
 
-At the 12th minute, the **Plus One** Game Changer roared into action — a **2-goal** window that gave the half an electric pulse. Gold Devils FC held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
+Twelve minutes in and the **Plus One** Game Changer came alive, reshaping the contest entirely — a **2-goal** window that gave the half an electric pulse. Gold Devils FC held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
 
 ### Second Half
 
-The second half resumed with all to play for, and at the 27-minute mark the **Fairplay** Game Changer cranked up the intensity once more — and it delivered **1** goal at just the right moment to breathe fresh life into the match. The final exchanges were fraught with tension. Toma threw everything forward in search of a route back, but Gold Devils FC held their nerve, defending with grit and intelligence to protect what they had.
+The second half resumed with all to play for, and at the 27-minute mark the **Fairplay** Game Changer cranked up the intensity once more — the **1** goal it produced came at a crucial juncture, swinging momentum decisively. The final exchanges were fraught with tension. Toma threw everything forward in search of a route back, but Gold Devils FC held their nerve, defending with grit and intelligence to protect what they had.
 
 ---
 
@@ -41,8 +41,8 @@ The second half resumed with all to play for, and at the 27-minute mark the **Fa
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **12′** — **Bilal Sayoud** (Gold Devils FC) opened the scoring
-- **14′** — **Misha Djemaili** (Gold Devils FC) netted
-- **23′** — **Marvel Ekpiteta** (Gold Devils FC) slotted
+- **14′** — **Misha Djemaili** (Gold Devils FC) scored
+- **23′** — **Marvel Ekpiteta** (Gold Devils FC) found the target
 - **28′** — **Joshua Phillips** (Toma) netted
 
 | Minute | Player | Team |

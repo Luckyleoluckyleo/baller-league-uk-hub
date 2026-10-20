@@ -1,5 +1,5 @@
 ---
-title: "P17 FC Down NDL FC 4-6 in Hard-Fought GW1 Battle"
+title: "P17 FC See Off NDL FC 4-6 in Gameweek 1"
 date: 2026-10-12
 category: "Match Report"
 excerpt: "NDL FC 4-6 P17 FC — Gameweek 1 match report. Sam Fitzgerald (4 goals) leads NDL FC's attack. Game Changers: Plus One (2) & 1-on-1 (5). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,7 +9,7 @@ featured: true
 
 ## Match Summary — NDL FC 4-6 P17 FC
 
-Baller Arena buzzed with anticipation as **NDL FC** and **P17 FC** delivered a pulsating encounter that had fans on the edge of their seats from the first whistle to the last.
+A pivotal Gameweek 1 encounter saw **NDL FC** go head-to-head with **P17 FC** in a breathtaking goal-fest.
 
 When the dust settled, it was **P17 FC** who emerged **4-6** victors. The Game Changer window — **Plus One** and **1-on-1** — proved pivotal, contributing **7** of the match's **10** goals.
 
@@ -28,11 +28,11 @@ When the dust settled, it was **P17 FC** who emerged **4-6** victors. The Game C
 
 ### First Half
 
-Twelve minutes in and the **Plus One** Game Changer came alive, reshaping the contest entirely — the period yielded **2** goals, just enough to set the contest alight. P17 FC controlled the tempo and carried a deserved lead into the interval, their composure and cutting edge proving the difference.
+The tactical landscape shifted dramatically at 12 minutes as the **Plus One** Game Changer took hold — a **2-goal** window that gave the half an electric pulse. P17 FC held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
 
 ### Second Half
 
-If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **1-on-1** entered the fray — the defensive discipline of the first half evaporated as **5** goals thundered in during the activation. The final exchanges were fraught with tension. NDL FC threw everything forward in search of a route back, but P17 FC held their nerve, defending with grit and intelligence to protect what they had. The **10-goal** spectacle was the kind of match that Baller League was built for — pure, unfiltered entertainment.
+The tension was palpable at the restart, and the **1-on-1** Game Changer at 27 minutes only dialled it up — the defensive discipline of the first half evaporated as **5** goals thundered in during the activation. It was edge-of-your-seat stuff in the closing minutes. NDL FC pressed and probed, but P17 FC's back-line stood firm — resilient, organised, and ultimately heroic. The **10-goal** spectacle was the kind of match that Baller League was built for — pure, unfiltered entertainment.
 
 ---
 
@@ -41,12 +41,12 @@ If the first half was intriguing, the second was about to become unmissable. At 
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **2′** — **Amin Belaid** (P17 FC) opened the scoring
-- **12′** — **Dajon Golding** (P17 FC) fired home
-- **14′** — **Amin Belaid** (P17 FC) scored
-- **16′** — **Amin Belaid** (P17 FC) slotted
-- **26′** — **Josh Parker** (NDL FC) slotted
+- **12′** — **Dajon Golding** (P17 FC) netted
+- **14′** — **Amin Belaid** (P17 FC) slotted
+- **16′** — **Amin Belaid** (P17 FC) scored
+- **26′** — **Josh Parker** (NDL FC) fired home
+- **27′** — **Sam Fitzgerald** (NDL FC) converted
 - **27′** — **Sam Fitzgerald** (NDL FC) found the target
-- **27′** — **Sam Fitzgerald** (NDL FC) scored
 - **27′** — **Steven Kodra** (P17 FC) scored
 - **28′** — **Sam Fitzgerald** (NDL FC) struck
 - **28′** — **Steven Kodra** (P17 FC) slotted
@@ -123,7 +123,7 @@ The standout for NDL FC was undoubtedly **Sam Fitzgerald**, whose **3-goal** hau
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
 | Amin Belaid | 5 | 2 | 2 |
-| Steven Kodra | 4 | 1 | 2 |
+| Steven Kodra | 4 | 0 | 2 |
 | Dajon Golding | 2 | 0 | 2 |
 | Ciaran Clark | 1 | 0 | 2 |
 | Tom Bender | 1 | 0 | 1 |

@@ -42,6 +42,6 @@ Every matchday is a Monday night, with the regular season running for **11 gamew
 
 ## Season outlook
 
-With a new identity and a fresh voice in the dugout, RTG FC enter the season with a point to prove. A fast start would do wonders for momentum.
+RTG FC are one of the great unknowns of the new campaign — a rebranded side with everything to play for and a squad keen to make an early statement.
 
 Follow RTG FC all season long on the [teams hub](/teams) and keep up with standings on the live [league table](/table).

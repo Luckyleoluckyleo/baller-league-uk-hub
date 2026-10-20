@@ -26,7 +26,7 @@ P17 FC are led by [Alex Iwobi](/managers/alex-iwobi). Their experience and perso
 Here are some of P17 FC's players to watch, with last season's (Season 4) figures where available:
 
 - **[Amin Belaid](/players/amin-belaid)** (Striker) — 5 goals and 2 assists in 2 appearances.
-- **[Steven Kodra](/players/steven-kodra-2)** (Striker) — 4 goals and 1 assists in 2 appearances.
+- **[Steven Kodra](/players/steven-kodra-2)** (Striker) — 4 goals and 0 assists in 2 appearances.
 - **[Dajon Golding](/players/dajon-golding)** (Striker) — 2 goals and 0 assists in 2 appearances.
 - **[Ciaran Clark](/players/ciaran-clark)** (Defender) — 1 goals and 0 assists in 2 appearances.
 - **[Tom Bender](/players/tom-bender)** (Defender) — 1 goals and 0 assists in 1 appearance.
@@ -42,6 +42,6 @@ Every matchday is a Monday night, with the regular season running for **11 gamew
 
 ## Season outlook
 
-P17 FC are one of the great unknowns of the new campaign — a rebranded side with everything to play for and a squad keen to make an early statement.
+With a new identity and a fresh voice in the dugout, P17 FC enter the season with a point to prove. A fast start would do wonders for momentum.
 
 Follow P17 FC all season long on the [teams hub](/teams) and keep up with standings on the live [league table](/table).

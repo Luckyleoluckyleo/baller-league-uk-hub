@@ -28,7 +28,7 @@ Their best finish came in **Season 1**, finishing **2nd** on **23 points**.
 - **[Francis Mampolo](/players/francis-gerard-mampolo)** — 26 goals, 6 assists
 - **[Timmy Abraham](/players/timmy-abraham)** — 22 goals, 4 assists
 - **[Montel McKenzie](/players/montel-mckenzie)** — 12 goals, 16 assists
-- **[Mauro Vilhete](/players/mauro-vilhete)** — 3 goals, 8 assists
+- **[Joshua Rusoke](/players/josh-rusoke)** — 3 goals, 5 assists
 
 ## Biggest win
 

@@ -40,6 +40,6 @@ Every matchday is a Monday night, with the regular season running for **11 gamew
 
 ## Season outlook
 
-Consistency will be the aim for Prime FC as they look to build on recent campaigns and push towards the Final Four.
+Prime FC will fancy their chances of a strong season if they can convert last year's promise into points. The margins in this league are famously small.
 
 Follow Prime FC all season long on the [teams hub](/teams) and keep up with standings on the live [league table](/table).

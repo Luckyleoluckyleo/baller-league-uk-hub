@@ -26,7 +26,7 @@ Their best finish came in **Season 4**, finishing **2nd** on **6 points**.
 
 - **[Mussa Bham](/players/mussa-bham)** — 14 goals, 4 assists
 - **[Amin Belaid](/players/amin-belaid)** — 8 goals, 4 assists
-- **[Steven Kodra](/players/steven-kodra-2)** — 4 goals, 1 assists
+- **[Steven Kodra](/players/steven-kodra-2)** — 4 goals, 0 assists
 - **[Dajon Golding](/players/dajon-golding)** — 2 goals, 0 assists
 - **[Ciaran Clark](/players/ciaran-clark)** — 1 goals, 1 assists
 
