@@ -3,38 +3,26 @@
     {
       "gameweek": 3,
       "season": 4,
-      "homeTeam": "RTG FC",
-      "homeSlug": "yanited",
-      "homeEmoji": "👑",
-      "awayTeam": "Deportrio",
-      "awaySlug": "deportrio",
-      "awayEmoji": "🔴",
+      "homeTeam": "Wembley Rangers AFC",
+      "homeSlug": "wembley-rangers-afc",
+      "homeEmoji": "🏟️",
+      "awayTeam": "N5 FC",
+      "awaySlug": "n5-fc",
+      "awayEmoji": "5️⃣",
       "date": "26 October 2026",
       "time": "17:15"
     },
     {
       "gameweek": 3,
       "season": 4,
-      "homeTeam": "N5 FC",
-      "homeSlug": "n5-fc",
-      "homeEmoji": "5️⃣",
-      "awayTeam": "Wembley Rangers AFC",
-      "awaySlug": "wembley-rangers-afc",
-      "awayEmoji": "🏟️",
+      "homeTeam": "Prime FC",
+      "homeSlug": "prime-fc",
+      "homeEmoji": "⚡",
+      "awayTeam": "Toma",
+      "awaySlug": "toma",
+      "awayEmoji": "🎩",
       "date": "26 October 2026",
       "time": "18:05"
-    },
-    {
-      "gameweek": 3,
-      "season": 4,
-      "homeTeam": "P17 FC",
-      "homeSlug": "rukkas-fc",
-      "homeEmoji": "💀",
-      "awayTeam": "VZN FC",
-      "awaySlug": "vzn-fc",
-      "awayEmoji": "👁️",
-      "date": "26 October 2026",
-      "time": "19:00"
     },
     {
       "gameweek": 3,
@@ -46,7 +34,7 @@
       "awaySlug": "sds-fc",
       "awayEmoji": "🟢",
       "date": "26 October 2026",
-      "time": "20:05"
+      "time": "19:00"
     },
     {
       "gameweek": 3,
@@ -58,17 +46,29 @@
       "awaySlug": "ndl-fc",
       "awayEmoji": "🏆",
       "date": "26 October 2026",
+      "time": "20:05"
+    },
+    {
+      "gameweek": 3,
+      "season": 4,
+      "homeTeam": "P17 FC",
+      "homeSlug": "rukkas-fc",
+      "homeEmoji": "💀",
+      "awayTeam": "VZN FC",
+      "awaySlug": "vzn-fc",
+      "awayEmoji": "👁️",
+      "date": "26 October 2026",
       "time": "21:00"
     },
     {
       "gameweek": 3,
       "season": 4,
-      "homeTeam": "Prime FC",
-      "homeSlug": "prime-fc",
-      "homeEmoji": "⚡",
-      "awayTeam": "Toma",
-      "awaySlug": "toma",
-      "awayEmoji": "🎩",
+      "homeTeam": "RTG FC",
+      "homeSlug": "yanited",
+      "homeEmoji": "👑",
+      "awayTeam": "Deportrio",
+      "awaySlug": "deportrio",
+      "awayEmoji": "🔴",
       "date": "26 October 2026",
       "time": "21:50"
     }

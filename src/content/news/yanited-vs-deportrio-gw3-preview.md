@@ -1,15 +1,15 @@
 ---
 title: "Gameweek 3 Preview: RTG FC vs Deportrio — Team News, Key Players & Prediction"
-date: 2026-10-20
+date: 2026-10-21
 category: "Preview"
-excerpt: "RTG FC meet Deportrio in Gameweek 3 of Baller League UK Season 4 on 26 October 2026 (17:15). Team news, key players, head-to-head and our prediction."
+excerpt: "RTG FC meet Deportrio in Gameweek 3 of Baller League UK Season 4 on 26 October 2026 (21:50). Team news, key players, head-to-head and our prediction."
 author: "Baller League UK Hub"
 featured: false
 ---
 
 ## RTG FC vs Deportrio — Gameweek 3 Preview
 
-**RTG FC** host **Deportrio** in Gameweek 3 of Baller League UK Season 4 on **26 October 2026**, with kick-off at **17:15**. Both sides are looking to build momentum at the Baller League Arena in Dagenham, with the usual mix of fast 6v6 football, celebrity dugouts and the game-changing rule twists that make the league so watchable.
+**RTG FC** host **Deportrio** in Gameweek 3 of Baller League UK Season 4 on **26 October 2026**, with kick-off at **21:50**. Both sides are looking to build momentum at the Baller League Arena in Dagenham, with the usual mix of fast 6v6 football, celebrity dugouts and the game-changing rule twists that make the league so watchable.
 
 Every point matters in Season 4. With the top four reaching the Final Four at the end of the regular season, RTG FC and Deportrio both know this is a chance to climb the table.
 
