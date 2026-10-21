@@ -3,12 +3,12 @@
     {
       "gameweek": 3,
       "season": 4,
-      "homeTeam": "Wembley Rangers AFC",
-      "homeSlug": "wembley-rangers-afc",
-      "homeEmoji": "🏟️",
-      "awayTeam": "N5 FC",
-      "awaySlug": "n5-fc",
-      "awayEmoji": "5️⃣",
+      "homeTeam": "RTG FC",
+      "homeSlug": "yanited",
+      "homeEmoji": "👑",
+      "awayTeam": "Deportrio",
+      "awaySlug": "deportrio",
+      "awayEmoji": "🔴",
       "date": "26 October 2026",
       "time": "17:15"
     },
@@ -63,12 +63,12 @@
     {
       "gameweek": 3,
       "season": 4,
-      "homeTeam": "RTG FC",
-      "homeSlug": "yanited",
-      "homeEmoji": "👑",
-      "awayTeam": "Deportrio",
-      "awaySlug": "deportrio",
-      "awayEmoji": "🔴",
+      "homeTeam": "Wembley Rangers AFC",
+      "homeSlug": "wembley-rangers-afc",
+      "homeEmoji": "🏟️",
+      "awayTeam": "N5 FC",
+      "awaySlug": "n5-fc",
+      "awayEmoji": "5️⃣",
       "date": "26 October 2026",
       "time": "21:50"
     }
