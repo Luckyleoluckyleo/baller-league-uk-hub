@@ -1,6 +1,6 @@
 ---
 title: "Gameweek 3 Preview: Clutch FC vs NDL FC — Team News, Key Players & Prediction"
-date: 2026-10-21
+date: 2026-10-22
 category: "Preview"
 excerpt: "Clutch FC meet NDL FC in Gameweek 3 of Baller League UK Season 4 on 26 October 2026 (20:05). Team news, key players, head-to-head and our prediction."
 author: "Baller League UK Hub"

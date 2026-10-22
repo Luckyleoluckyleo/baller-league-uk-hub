@@ -1,6 +1,6 @@
 ---
 title: "Gameweek 3 Preview: P17 FC vs VZN FC — Team News, Key Players & Prediction"
-date: 2026-10-21
+date: 2026-10-22
 category: "Preview"
 excerpt: "P17 FC meet VZN FC in Gameweek 3 of Baller League UK Season 4 on 26 October 2026 (21:00). Team news, key players, head-to-head and our prediction."
 author: "Baller League UK Hub"
