@@ -1,15 +1,15 @@
 ---
-title: "SDS FC and N5 FC Split the Points in 2-2 GW1 Stalemate"
+title: "SDS FC and N5 FC Deadlocked at 2-2 in GW1"
 date: 2026-10-12
 category: "Match Report"
-excerpt: "SDS FC 2-2 N5 FC — Gameweek 1 match report. Kazaiah Sterling (3 goals) leads SDS FC's attack. Game Changers: Onside (1) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "SDS FC 2-2 N5 FC — Gameweek 1 match report. Kazaiah Sterling (4 goals) leads SDS FC's attack. Game Changers: Onside (1) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
 
 ## Match Summary — SDS FC 2-2 N5 FC
 
-All roads led to Baller Arena for Gameweek 1, where **SDS FC** and **N5 FC** produced a compelling advert for Baller League football — competitive, dramatic, and hard-fought.
+A pivotal Gameweek 1 encounter saw **SDS FC** go head-to-head with **N5 FC** in a compelling advert for Baller League football — competitive, dramatic, and hard-fought.
 
 The final whistle confirmed a **2-2 draw**, a result that felt about right in a match where both sides gave everything. The Game Changer window — **Onside** and **The Line** — proved pivotal, contributing **1** of the match's **4** goals.
 
@@ -28,11 +28,11 @@ The final whistle confirmed a **2-2 draw**, a result that felt about right in a 
 
 ### First Half
 
-The tactical landscape shifted dramatically at 12 minutes as the **Onside** Game Changer took hold — a **1-goal** window that gave the half an electric pulse. By the interval it was impossible to call a winner. The contest was beautifully balanced, with everything still to play for.
+Twelve minutes in and the **Onside** Game Changer came alive, reshaping the contest entirely — the period yielded **1** goal, just enough to set the contest alight. The two sides trudged off level at the break — nothing separating them in what was shaping up to be a classic arm-wrestle.
 
 ### Second Half
 
-If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **The Line** entered the fray — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. Late drama threatened but never materialised, both teams having to accept a point apiece in what felt like a war of attrition.
+The second half resumed with all to play for, and at the 27-minute mark the **The Line** Game Changer cranked up the intensity once more — yet both sides held their nerve superbly through the rule change, refusing to blink. Late drama threatened but never materialised, both teams having to accept a point apiece in what felt like a war of attrition.
 
 ---
 
@@ -40,10 +40,10 @@ If the first half was intriguing, the second was about to become unmissable. At 
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **13′** — **Francis Amartey** (N5 FC) opened the scoring
+- **13′** — **Francis Amartey** (N5 FC) broke the deadlock
 - **18′** — **Hani Berchiche** (N5 FC) fired home
-- **21′** — **Youssef Chentouf** (SDS FC) slotted
-- **22′** — **Kazaiah Sterling** (SDS FC) struck
+- **21′** — **Youssef Chentouf** (SDS FC) found the target
+- **22′** — **Kazaiah Sterling** (SDS FC) scored
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -96,34 +96,35 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kazaiah Sterling | 3 | 1 | 2 |
-| Amine Sassi | 1 | 0 | 2 |
-| Youssef Chentouf | 1 | 0 | 2 |
-| Ergys Pepaj | 1 | 1 | 2 |
-| Joshua Raymond Bohui | 1 | 0 | 2 |
+| Kazaiah Sterling | 4 | 1 | 3 |
+| Ergys Pepaj | 3 | 1 | 3 |
+| Amine Sassi | 2 | 0 | 3 |
+| Joshua Raymond Bohui | 2 | 0 | 3 |
+| Youssef Chentouf | 1 | 2 | 3 |
 
 ### N5 FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Hani Berchiche | 2 | 0 | 2 |
-| Michael Hill | 1 | 0 | 2 |
+| Hani Berchiche | 2 | 0 | 3 |
+| Michael Hill | 1 | 0 | 3 |
+| Mustapha Carayol | 1 | 0 | 3 |
 | Billy Sharp | 1 | 0 | 2 |
-| Francis Amartey | 1 | 0 | 1 |
+| Francis Amartey | 1 | 0 | 2 |
 
 **Key Attacking Threats**
 
-- **Kazaiah Sterling** — SDS FC's talisman with **3 goals** from **2 appearances** and **1 assists**. A developing attacking presence with room to grow.
-- **Hani Berchiche** — N5 FC's leading marksman with **2 goals** from **2 outings**. Still finding his rhythm but showing promising signs.
+- **Kazaiah Sterling** — SDS FC's talisman with **4 goals** from **3 appearances** and **1 assists**. A developing attacking presence with room to grow.
+- **Hani Berchiche** — N5 FC's leading marksman with **2 goals** from **3 outings**. Still finding his rhythm but showing promising signs.
 
 
 ---
 
 ## Season Context
 
-With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **SDS FC** entered this match averaging **3.5 goals per game** — a number that reflected their struggles in front of goal this campaign. **N5 FC**, by contrast, arrived with an average of **2.5 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **SDS FC** entered this match averaging **4.0 goals per game** — a number that reflected their struggles in front of goal this campaign. **N5 FC**, by contrast, arrived with an average of **2.0 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **8.3 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **8.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -182,10 +183,10 @@ SDS FC held steady, n5 fc held steady.
 ## What's Next
 
 ### SDS FC
-Next up: **Gold Devils FC** in Gameweek 3. 
+Next up: **NDL FC** in Gameweek 4. 
 
 ### N5 FC
-Next up: **Wembley Rangers AFC** in Gameweek 3. 
+Next up: **Gold Devils FC** in Gameweek 4. 
 
 
 

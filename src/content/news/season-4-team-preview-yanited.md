@@ -1,6 +1,6 @@
 ---
 title: "RTG FC — Baller League UK Season 4 Preview & Squad"
-date: 2026-10-20
+date: 2026-10-27
 category: "Team Preview"
 excerpt: "Everything you need to know about RTG FC for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
 author: "Baller League UK Hub"
@@ -25,18 +25,18 @@ RTG FC are led by [Danny Aarons](/managers/danny-aarons). Their experience and p
 
 Here are some of RTG FC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Kadell Daniel](/players/kadell-daniel)** (Striker) — 4 goals and 1 assists in 2 appearances.
-- **[Tyrell Miller-Rodney](/players/tyrell-miller-rodney)** (Midfielder) — 2 goals and 2 assists in 2 appearances.
-- **[Alfie Cerulli](/players/alfie-cerulli)** (Striker) — 2 goals and 0 assists in 2 appearances.
-- **[Zaid Al Hussaini](/players/zaid-al-hussaini)** (Midfielder) — 1 goals and 3 assists in 2 appearances.
-- **[Dan Wishart](/players/dan-wishart)** (Midfielder) — 1 goals and 0 assists in 1 appearance.
-- **[Calum Butcher](/players/calum-butcher)** (Midfielder) — 0 goals and 0 assists in 2 appearances.
+- **[Kadell Daniel](/players/kadell-daniel)** (Striker) — 5 goals and 1 assists in 3 appearances.
+- **[Alfie Cerulli](/players/alfie-cerulli)** (Striker) — 5 goals and 0 assists in 3 appearances.
+- **[Tyrell Miller-Rodney](/players/tyrell-miller-rodney)** (Midfielder) — 2 goals and 2 assists in 3 appearances.
+- **[Zaid Al Hussaini](/players/zaid-al-hussaini)** (Midfielder) — 1 goals and 4 assists in 3 appearances.
+- **[Dan Wishart](/players/dan-wishart)** (Midfielder) — 1 goals and 0 assists in 2 appearances.
+- **[Calum Butcher](/players/calum-butcher)** (Midfielder) — 0 goals and 0 assists in 3 appearances.
 
 See the full squad on the [RTG FC team page](/teams/yanited).
 
 ## Season 4 fixtures
 
-RTG FC open their campaign in **Gameweek 3** against **[Deportrio](/teams/deportrio)** on **26 October 2026**, with kick-off at **17:15** at home.
+RTG FC open their campaign in **Gameweek 4** against **[Clutch FC](/teams/clutch-fc)** on **2 November 2026**, with kick-off at **19:00** on the road.
 
 Every matchday is a Monday night, with the regular season running for **11 gameweeks** and the top four reaching the **Final Four**.
 

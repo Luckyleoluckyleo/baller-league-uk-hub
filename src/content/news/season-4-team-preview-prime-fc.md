@@ -1,6 +1,6 @@
 ---
 title: "Prime FC — Baller League UK Season 4 Preview & Squad"
-date: 2026-10-20
+date: 2026-10-27
 category: "Team Preview"
 excerpt: "Everything you need to know about Prime FC for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
 author: "Baller League UK Hub"
@@ -23,23 +23,23 @@ Prime FC are led by [KSI](/managers/ksi). Their experience and personality will 
 
 Here are some of Prime FC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Timmy Abraham](/players/timmy-abraham)** (Striker) — 3 goals and 0 assists in 2 appearances.
-- **[Francis Mampolo](/players/francis-gerard-mampolo)** (Striker) — 1 goals and 1 assists in 2 appearances.
-- **[Joshua Rusoke](/players/josh-rusoke)** (Defender) — 1 goals and 0 assists in 1 appearance.
-- **[Mauro Vilhete](/players/mauro-vilhete)** (Midfielder) — 1 goals and 1 assists in 2 appearances.
-- **[Montel McKenzie](/players/montel-mckenzie)** (Defender) — 1 goals and 0 assists in 2 appearances.
-- **[Erico Henrique Esteves De Sousa](/players/erico-sousa)** (Striker) — 1 goals and 0 assists in 2 appearances.
+- **[Timmy Abraham](/players/timmy-abraham)** (Striker) — 4 goals and 0 assists in 3 appearances.
+- **[Francis Mampolo](/players/francis-gerard-mampolo)** (Striker) — 2 goals and 2 assists in 3 appearances.
+- **[Salim Nassor](/players/salim-nassor)** (Midfielder) — 2 goals and 0 assists in 1 appearance.
+- **[Joshua Rusoke](/players/josh-rusoke)** (Defender) — 1 goals and 0 assists in 2 appearances.
+- **[Mauro Vilhete](/players/mauro-vilhete)** (Midfielder) — 1 goals and 1 assists in 3 appearances.
+- **[Montel McKenzie](/players/montel-mckenzie)** (Defender) — 1 goals and 1 assists in 3 appearances.
 
 See the full squad on the [Prime FC team page](/teams/prime-fc).
 
 ## Season 4 fixtures
 
-Prime FC open their campaign in **Gameweek 3** against **[Toma](/teams/toma)** on **26 October 2026**, with kick-off at **21:50** at home.
+Prime FC open their campaign in **Gameweek 4** against **[Wembley Rangers AFC](/teams/wembley-rangers-afc)** on **2 November 2026**, with kick-off at **20:05** at home.
 
 Every matchday is a Monday night, with the regular season running for **11 gameweeks** and the top four reaching the **Final Four**.
 
 ## Season outlook
 
-Prime FC will fancy their chances of a strong season if they can convert last year's promise into points. The margins in this league are famously small.
+Consistency will be the aim for Prime FC as they look to build on recent campaigns and push towards the Final Four.
 
 Follow Prime FC all season long on the [teams hub](/teams) and keep up with standings on the live [league table](/table).

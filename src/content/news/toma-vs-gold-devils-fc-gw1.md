@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — Toma 1-3 Gold Devils FC
 
-The Gameweek 1 spotlight fell on Baller Arena for **Toma** versus **Gold Devils FC** — a compelling advert for Baller League football — competitive, dramatic, and hard-fought.
+Baller Arena played host to an absorbing Gameweek 1 clash as **Toma** locked horns with **Gold Devils FC** in what would prove to be a compelling advert for Baller League football — competitive, dramatic, and hard-fought.
 
 When the dust settled, it was **Gold Devils FC** who emerged **1-3** victors. The Game Changer window — **Plus One** and **Fairplay** — proved pivotal, contributing **3** of the match's **4** goals.
 
@@ -28,11 +28,11 @@ When the dust settled, it was **Gold Devils FC** who emerged **1-3** victors. Th
 
 ### First Half
 
-Twelve minutes in and the **Plus One** Game Changer came alive, reshaping the contest entirely — a **2-goal** window that gave the half an electric pulse. Gold Devils FC held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
+The first half sprang into life at the 12-minute mark with the **Plus One** Game Changer flicking the switch — a **2-goal** window that gave the half an electric pulse. Gold Devils FC held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
 
 ### Second Half
 
-The second half resumed with all to play for, and at the 27-minute mark the **Fairplay** Game Changer cranked up the intensity once more — the **1** goal it produced came at a crucial juncture, swinging momentum decisively. The final exchanges were fraught with tension. Toma threw everything forward in search of a route back, but Gold Devils FC held their nerve, defending with grit and intelligence to protect what they had.
+The tension was palpable at the restart, and the **Fairplay** Game Changer at 27 minutes only dialled it up — and it delivered **1** goal at just the right moment to breathe fresh life into the match. It was edge-of-your-seat stuff in the closing minutes. Toma pressed and probed, but Gold Devils FC's back-line stood firm — resilient, organised, and ultimately heroic.
 
 ---
 
@@ -40,10 +40,10 @@ The second half resumed with all to play for, and at the 27-minute mark the **Fa
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **12′** — **Bilal Sayoud** (Gold Devils FC) opened the scoring
+- **12′** — **Bilal Sayoud** (Gold Devils FC) broke the deadlock
 - **14′** — **Misha Djemaili** (Gold Devils FC) scored
-- **23′** — **Marvel Ekpiteta** (Gold Devils FC) found the target
-- **28′** — **Joshua Phillips** (Toma) netted
+- **23′** — **Marvel Ekpiteta** (Gold Devils FC) netted
+- **28′** — **Joshua Phillips** (Toma) struck
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -98,34 +98,35 @@ The **Plus One** window was the more impactful, its **2** goals shifting the bal
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Arezki Hamouchene | 2 | 0 | 2 |
-| Joshua Phillips | 2 | 0 | 2 |
+| Arezki Hamouchene | 2 | 0 | 3 |
+| Joshua Phillips | 2 | 0 | 3 |
 | Junior Dixon | 2 | 0 | 2 |
-| Praise Ogbebor | 1 | 0 | 2 |
+| Yasin Ben El-Mhanni | 1 | 0 | 3 |
+| Charlie James Pavey | 1 | 0 | 3 |
 
 ### Gold Devils FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Tarik Gidaree | 2 | 0 | 2 |
-| Bilal Sayoud | 1 | 2 | 2 |
-| Connor Wood | 1 | 2 | 2 |
-| Marvel Ekpiteta | 1 | 0 | 2 |
+| Tarik Gidaree | 4 | 0 | 3 |
+| Bilal Sayoud | 3 | 2 | 3 |
+| Connor Wood | 1 | 3 | 3 |
+| Marvel Ekpiteta | 1 | 0 | 3 |
 | Misha Djemaili | 1 | 0 | 2 |
 
 **Key Attacking Threats**
 
-- **Arezki Hamouchene** — Toma's talisman with **2 goals** from **2 appearances**. A developing attacking presence with room to grow.
-- **Tarik Gidaree** — Gold Devils FC's leading marksman with **2 goals** from **2 outings**. Still finding his rhythm but showing promising signs.
+- **Arezki Hamouchene** — Toma's talisman with **2 goals** from **3 appearances**. A developing attacking presence with room to grow.
+- **Tarik Gidaree** — Gold Devils FC's leading marksman with **4 goals** from **3 outings**. Still finding his rhythm but showing promising signs.
 
 
 ---
 
 ## Season Context
 
-With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **Toma** entered this match averaging **3.5 goals per game** — a number that reflected their struggles in front of goal this campaign. **Gold Devils FC**, by contrast, arrived with an average of **3.0 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **Toma** entered this match averaging **3.7 goals per game** — a number that reflected their struggles in front of goal this campaign. **Gold Devils FC**, by contrast, arrived with an average of **3.3 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **8.3 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **8.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -184,10 +185,10 @@ Toma held steady, gold devils fc held steady.
 ## What's Next
 
 ### Toma
-Next up: **Prime FC** in Gameweek 3. 
+Next up: **VZN FC** in Gameweek 4. 
 
 ### Gold Devils FC
-Next up: **SDS FC** in Gameweek 3. 
+Next up: **N5 FC** in Gameweek 4. 
 
 
 

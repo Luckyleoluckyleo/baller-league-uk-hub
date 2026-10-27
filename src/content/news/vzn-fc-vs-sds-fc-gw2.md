@@ -1,5 +1,5 @@
 ---
-title: "SDS FC Overpower VZN FC 1-5 in Dominant Display — GW2"
+title: "SDS FC Cruise Past VZN FC in 1-5 Rout — GW2"
 date: 2026-10-19
 category: "Match Report"
 excerpt: "VZN FC 1-5 SDS FC — Gameweek 2 match report. Florian Kastrati (2 goals) leads VZN FC's attack. Game Changers: 3Play (2) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — VZN FC 1-5 SDS FC
 
-Gameweek 2 delivered fireworks at Baller Arena with **VZN FC** taking on **SDS FC** in a thoroughly entertaining contest with plenty of talking points.
+The Gameweek 2 spotlight fell on Baller Arena for **VZN FC** versus **SDS FC** — a compelling advert for Baller League football — competitive, dramatic, and hard-fought.
 
 When the dust settled, it was **SDS FC** who emerged **1-5** victors. The Game Changer window — **3Play** and **Fairplay** — proved pivotal, contributing **3** of the match's **6** goals.
 
@@ -29,11 +29,11 @@ When the dust settled, it was **SDS FC** who emerged **1-5** victors. The Game C
 
 ### First Half
 
-The tactical landscape shifted dramatically at 12 minutes as the **3Play** Game Changer took hold — a **2-goal** window that gave the half an electric pulse. SDS FC were absolutely rampant, carving VZN FC open at will. By the break, they had built an intimidating lead that felt insurmountable.
+Barely a dozen minutes had passed when **3Play** transformed the match into something altogether different — the period yielded **2** goals, just enough to set the contest alight. SDS FC simply blew VZN FC away in a devastating opening period, sending a powerful message to everyone watching.
 
 ### Second Half
 
-After the restart, the **Fairplay** Game Changer detonated at the 27th minute, turning the dial up to eleven — the **1** goal it produced came at a crucial juncture, swinging momentum decisively. The scoreboard didn't flatter SDS FC — they were simply better in every department, and VZN FC had no complaints.
+The tension was palpable at the restart, and the **Fairplay** Game Changer at 27 minutes only dialled it up — the **1** goal it produced came at a crucial juncture, swinging momentum decisively. SDS FC managed the occasion expertly, balancing attacking ambition with game-control to see out a thoroughly deserved victory.
 
 ---
 
@@ -41,12 +41,12 @@ After the restart, the **Fairplay** Game Changer detonated at the 27th minute, t
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **7′** — **Ergys Pepaj** (SDS FC) fired the opener
+- **7′** — **Ergys Pepaj** (SDS FC) broke the deadlock
 - **13′** — **Florian Kastrati** (VZN FC) converted
-- **14′** — **Kazaiah Sterling** (SDS FC) struck
-- **26′** — **Amine Sassi** (SDS FC) struck
-- **26′** — **Joshua Raymond Bohui** (SDS FC) slotted
-- **28′** — **Kazaiah Sterling** (SDS FC) netted
+- **14′** — **Kazaiah Sterling** (SDS FC) netted
+- **26′** — **Amine Sassi** (SDS FC) fired home
+- **26′** — **Joshua Raymond Bohui** (SDS FC) fired home
+- **28′** — **Kazaiah Sterling** (SDS FC) slotted
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -82,7 +82,7 @@ The **3Play** window was the more impactful, its **2** goals shifting the balanc
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
 | Florian Kastrati | 1 | 0 | 5 | 9 |
-| Stefan Ilic | 0 | 1 | 5 | 16 |
+| Stefan Ilic | 0 | 1 | 5 | 15 |
 
 ### SDS FC
 
@@ -106,33 +106,34 @@ The **3Play** window was the more impactful, its **2** goals shifting the balanc
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Florian Kastrati | 2 | 0 | 2 |
-| Eddie Simon | 2 | 0 | 2 |
+| Florian Kastrati | 2 | 0 | 3 |
+| Eddie Simon | 2 | 0 | 3 |
 | Terell Thomas | 2 | 0 | 2 |
+| Danny Bassett | 1 | 1 | 3 |
 
 ### SDS FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kazaiah Sterling | 3 | 1 | 2 |
-| Amine Sassi | 1 | 0 | 2 |
-| Youssef Chentouf | 1 | 0 | 2 |
-| Ergys Pepaj | 1 | 1 | 2 |
-| Joshua Raymond Bohui | 1 | 0 | 2 |
+| Kazaiah Sterling | 4 | 1 | 3 |
+| Ergys Pepaj | 3 | 1 | 3 |
+| Amine Sassi | 2 | 0 | 3 |
+| Joshua Raymond Bohui | 2 | 0 | 3 |
+| Youssef Chentouf | 1 | 2 | 3 |
 
 **Key Attacking Threats**
 
-- **Florian Kastrati** — VZN FC's talisman with **2 goals** from **2 appearances**. A developing attacking presence with room to grow.
-- **Kazaiah Sterling** — SDS FC's leading marksman with **3 goals** from **2 outings**, plus **1 assists**. Still finding his rhythm but showing promising signs.
+- **Florian Kastrati** — VZN FC's talisman with **2 goals** from **3 appearances**. A developing attacking presence with room to grow.
+- **Kazaiah Sterling** — SDS FC's leading marksman with **4 goals** from **3 outings**, plus **1 assists**. Still finding his rhythm but showing promising signs.
 
 
 ---
 
 ## Season Context
 
-With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **VZN FC** entered this match averaging **3.0 goals per game** — a number that reflected their struggles in front of goal this campaign. **SDS FC**, by contrast, arrived with an average of **3.5 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **VZN FC** entered this match averaging **2.3 goals per game** — a number that reflected their struggles in front of goal this campaign. **SDS FC**, by contrast, arrived with an average of **4.0 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **8.3 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **8.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -177,7 +178,7 @@ VZN FC dropped to **8th**, sds fc climbed to **3rd**.
 | Total shots | 40 |
 | Assists | 3 |
 | Tackles | 25 |
-| Passes | 287 |
+| Passes | 288 |
 
 
 ---
@@ -191,10 +192,10 @@ VZN FC dropped to **8th**, sds fc climbed to **3rd**.
 ## What's Next
 
 ### VZN FC
-Next up: **P17 FC** in Gameweek 3. 
+Next up: **Toma** in Gameweek 4. 
 
 ### SDS FC
-Next up: **Gold Devils FC** in Gameweek 3. 
+Next up: **NDL FC** in Gameweek 4. 
 
 
 

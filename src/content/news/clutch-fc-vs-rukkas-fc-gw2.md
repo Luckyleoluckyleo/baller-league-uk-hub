@@ -1,5 +1,5 @@
 ---
-title: "P17 FC Beat Clutch FC 5-7 in Entertaining GW2 Clash"
+title: "P17 FC Claim 5-7 Win Over Clutch FC in GW2"
 date: 2026-10-19
 category: "Match Report"
 excerpt: "Clutch FC 5-7 P17 FC — Gameweek 2 match report. Alex Byrne (5 goals) leads Clutch FC's attack. Game Changers: 3Play (5) & 1-on-1 (2). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,9 +9,9 @@ featured: true
 
 ## Match Summary — Clutch FC 5-7 P17 FC
 
-The Gameweek 2 spotlight fell on Baller Arena for **Clutch FC** versus **P17 FC** — a breathtaking goal-fest.
+The Gameweek 2 spotlight fell on Baller Arena for **Clutch FC** versus **P17 FC** — a pulsating encounter that had fans on the edge of their seats from the first whistle to the last.
 
-Clutch FC, sitting pretty in the Final Four places at 3rd, knew a win here would tighten their grip. When the dust settled, it was **P17 FC** who emerged **5-7** victors. The Game Changer window — **3Play** and **1-on-1** — proved pivotal, contributing **7** of the match's **12** goals.
+Clutch FC came in occupying a coveted playoff spot at 3rd, while P17 FC were desperate to crash the party. When the dust settled, it was **P17 FC** who emerged **5-7** victors. The Game Changer window — **3Play** and **1-on-1** — proved pivotal, contributing **7** of the match's **12** goals.
 
 **Clutch FC form (before GW2):** ✅ (W)  
 **P17 FC form (before GW2):** ✅ (W)
@@ -29,11 +29,11 @@ Clutch FC, sitting pretty in the Final Four places at 3rd, knew a win here would
 
 ### First Half
 
-The game's complexion changed at the 12th minute when the **3Play** Game Changer activated — and the floodgates opened with **5** goals flying in, the crowd barely able to keep up with the relentless action. P17 FC held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
+Twelve minutes in and the **3Play** Game Changer came alive, reshaping the contest entirely — the result was chaos, in the best possible way. **5** goals poured in as both sides abandoned any defensive caution. P17 FC held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
 
 ### Second Half
 
-After the restart, the **1-on-1** Game Changer detonated at the 27th minute, turning the dial up to eleven — and it delivered **2** goals at just the right moment to breathe fresh life into the match. It was edge-of-your-seat stuff in the closing minutes. Clutch FC pressed and probed, but P17 FC's back-line stood firm — resilient, organised, and ultimately heroic. This was Baller League at its most chaotic and brilliant — **12** goals, endless drama, and a match nobody in attendance will forget in a hurry.
+The tension was palpable at the restart, and the **1-on-1** Game Changer at 27 minutes only dialled it up — and it delivered **2** goals at just the right moment to breathe fresh life into the match. It was edge-of-your-seat stuff in the closing minutes. Clutch FC pressed and probed, but P17 FC's back-line stood firm — resilient, organised, and ultimately heroic. The **12-goal** spectacle was the kind of match that Baller League was built for — pure, unfiltered entertainment.
 
 ---
 
@@ -42,17 +42,17 @@ After the restart, the **1-on-1** Game Changer detonated at the 27th minute, tur
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **4′** — **Amin Belaid** (P17 FC) drew first blood
-- **10′** — **Ciaran Clark** (P17 FC) found the target
-- **12′** — **Alex Byrne** (Clutch FC) slotted
-- **12′** — **Tyler Winters** (Clutch FC) converted
-- **13′** — **Tom Bender** (P17 FC) fired home
-- **13′** — **Steven Kodra** (P17 FC) fired home
-- **14′** — **Tyler Winters** (Clutch FC) fired home
-- **23′** — **Dajon Golding** (P17 FC) converted
+- **10′** — **Ciaran Clark** (P17 FC) scored
+- **12′** — **Alex Byrne** (Clutch FC) fired home
+- **12′** — **Tyler Winters** (Clutch FC) scored
+- **13′** — **Tom Bender** (P17 FC) found the target
+- **13′** — **Steven Kodra** (P17 FC) struck
+- **14′** — **Tyler Winters** (Clutch FC) netted
+- **23′** — **Dajon Golding** (P17 FC) netted
 - **25′** — **Joshua Sumbunu** (Clutch FC) netted
-- **26′** — **Amin Belaid** (P17 FC) struck
-- **28′** — **Steven Kodra** (P17 FC) slotted
-- **28′** — **Tyler Winters** (Clutch FC) fired home
+- **26′** — **Amin Belaid** (P17 FC) netted
+- **28′** — **Steven Kodra** (P17 FC) scored
+- **28′** — **Tyler Winters** (Clutch FC) found the target
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -102,7 +102,7 @@ The **3Play** activation was particularly devastating, producing **5** goals tha
 
 ### P17 FC
 
-P17 FC had **Amin Belaid** to thank, the forward delivering a **2-goal** performance of the highest calibre. He also chipped in with **2 assists** for good measure.
+**Amin Belaid** led the charge for P17 FC, his **2 goals** a testament to the kind of ruthless finishing that makes him a nightmare for opposing defences. He also chipped in with **2 assists** for good measure.
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
@@ -123,33 +123,35 @@ P17 FC had **Amin Belaid** to thank, the forward delivering a **2-goal** perform
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Alex Byrne | 5 | 0 | 2 |
-| Tyler Winters | 3 | 2 | 2 |
-| Joshua Sumbunu | 2 | 0 | 2 |
+| Alex Byrne | 5 | 0 | 3 |
+| Tyler Winters | 3 | 2 | 3 |
+| Joshua Sumbunu | 3 | 0 | 3 |
+| Erick Kenko | 1 | 0 | 3 |
+| James Mulley | 1 | 0 | 2 |
 
 ### P17 FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Amin Belaid | 5 | 2 | 2 |
-| Steven Kodra | 4 | 0 | 2 |
-| Dajon Golding | 2 | 0 | 2 |
-| Ciaran Clark | 1 | 0 | 2 |
+| Amin Belaid | 7 | 2 | 3 |
+| Steven Kodra | 6 | 0 | 3 |
+| Dajon Golding | 3 | 0 | 3 |
+| Ciaran Clark | 1 | 1 | 3 |
 | Tom Bender | 1 | 0 | 1 |
 
 **Key Attacking Threats**
 
-- **Alex Byrne** — Clutch FC's talisman with **5 goals** from **2 appearances**. A developing attacking presence with room to grow.
-- **Amin Belaid** — P17 FC's leading marksman with **5 goals** from **2 outings**, plus **2 assists**. Still finding his rhythm but showing promising signs.
+- **Alex Byrne** — Clutch FC's talisman with **5 goals** from **3 appearances**. A developing attacking presence with room to grow.
+- **Amin Belaid** — P17 FC's leading marksman with **7 goals** from **3 outings**, plus **2 assists**. P17 FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **Clutch FC** entered this match averaging **5.0 goals per game** — a number that reflected their struggles in front of goal this campaign. **P17 FC**, by contrast, arrived with an average of **6.5 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **Clutch FC** entered this match averaging **4.3 goals per game** — a number that reflected their struggles in front of goal this campaign. **P17 FC**, by contrast, arrived with an average of **6.0 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **8.3 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **8.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -163,11 +165,11 @@ This was the **maiden competitive meeting** between Clutch FC and P17 FC — a h
 
 ## Table Impact
 
-Clutch FC dropped to **5th**, p17 fc stayed at **2nd**.
+Clutch FC dropped to **6th**, p17 fc stayed at **2nd**.
 
 | Team | Before GW2 | After GW2 |
 |------|-------------|-------------|
-| Clutch FC | 3rd | 5th |
+| Clutch FC | 3rd | 6th |
 | P17 FC | 2nd | 2nd |
 
 
@@ -209,10 +211,10 @@ Clutch FC dropped to **5th**, p17 fc stayed at **2nd**.
 ## What's Next
 
 ### Clutch FC
-Next up: **NDL FC** in Gameweek 3. 
+Next up: **RTG FC** in Gameweek 4. 
 
 ### P17 FC
-Next up: **VZN FC** in Gameweek 3. 
+Next up: **Deportrio** in Gameweek 4. 
 
 
 

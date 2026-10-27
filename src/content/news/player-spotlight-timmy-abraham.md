@@ -1,6 +1,6 @@
 ---
 title: "Player Spotlight: Timmy Abraham — Prime FC"
-date: 2026-10-20
+date: 2026-10-27
 category: "Feature"
 excerpt: "A closer look at Timmy Abraham, striker for Prime FC in Baller League UK Season 4 — career, honours and what he brings to the 6v6 game."
 author: "Baller League UK Hub"
@@ -23,7 +23,7 @@ Timmy Abraham built his professional career at Fulham, Cheltenham Town and Brist
 
 | Season | Apps | Goals | Assists |
 |--------|------|-------|---------|
-| 4 | 2 | 3 | 0 |
+| 4 | 3 | 4 | 0 |
 
 See his full stats on his [player profile](/players/timmy-abraham).
 

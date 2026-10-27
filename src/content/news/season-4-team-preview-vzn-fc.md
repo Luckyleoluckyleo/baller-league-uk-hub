@@ -1,6 +1,6 @@
 ---
 title: "VZN FC — Baller League UK Season 4 Preview & Squad"
-date: 2026-10-20
+date: 2026-10-27
 category: "Team Preview"
 excerpt: "Everything you need to know about VZN FC for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
 author: "Baller League UK Hub"
@@ -23,18 +23,18 @@ VZN FC are led by [Tobi Brown (TBJZL)](/managers/tobi-brown-tbjzl). Their experi
 
 Here are some of VZN FC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Florian Kastrati](/players/florian-kastrati)** (Midfielder) — 2 goals and 0 assists in 2 appearances.
-- **[Eddie Simon](/players/eddie-simon)** (Striker) — 2 goals and 0 assists in 2 appearances.
+- **[Florian Kastrati](/players/florian-kastrati)** (Midfielder) — 2 goals and 0 assists in 3 appearances.
+- **[Eddie Simon](/players/eddie-simon)** (Striker) — 2 goals and 0 assists in 3 appearances.
 - **[Terell Thomas](/players/terell-thomas)** (Defender) — 2 goals and 0 assists in 2 appearances.
-- **[Danny Bassett](/players/danny-bassett)** (Striker) — 0 goals and 1 assists in 2 appearances.
-- **[Stefan Ilic](/players/stefan-ilic)** (Midfielder) — 0 goals and 1 assists in 2 appearances.
-- **[Zion Nditi](/players/zion-nditi)** (Defender) — 0 goals and 0 assists in 2 appearances.
+- **[Danny Bassett](/players/danny-bassett)** (Striker) — 1 goals and 1 assists in 3 appearances.
+- **[Eric De Melo](/players/eric-de-melo)** (Midfielder) — 0 goals and 0 assists in 1 appearance.
+- **[Stefan Ilic](/players/stefan-ilic)** (Midfielder) — 0 goals and 1 assists in 3 appearances.
 
 See the full squad on the [VZN FC team page](/teams/vzn-fc).
 
 ## Season 4 fixtures
 
-VZN FC open their campaign in **Gameweek 3** against **[P17 FC](/teams/rukkas-fc)** on **26 October 2026**, with kick-off at **19:00** on the road.
+VZN FC open their campaign in **Gameweek 4** against **[Toma](/teams/toma)** on **2 November 2026**, with kick-off at **21:00** on the road.
 
 Every matchday is a Monday night, with the regular season running for **11 gameweeks** and the top four reaching the **Final Four**.
 

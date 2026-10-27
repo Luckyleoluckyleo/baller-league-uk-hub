@@ -1,15 +1,15 @@
 ---
-title: "P17 FC See Off NDL FC 4-6 in Gameweek 1"
+title: "P17 FC Beat NDL FC 4-6 in Entertaining GW1 Clash"
 date: 2026-10-12
 category: "Match Report"
-excerpt: "NDL FC 4-6 P17 FC — Gameweek 1 match report. Sam Fitzgerald (4 goals) leads NDL FC's attack. Game Changers: Plus One (2) & 1-on-1 (5). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "NDL FC 4-6 P17 FC — Gameweek 1 match report. Sam Fitzgerald (7 goals) leads NDL FC's attack. Game Changers: Plus One (2) & 1-on-1 (5). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: true
 ---
 
 ## Match Summary — NDL FC 4-6 P17 FC
 
-A pivotal Gameweek 1 encounter saw **NDL FC** go head-to-head with **P17 FC** in a breathtaking goal-fest.
+The Gameweek 1 spotlight fell on Baller Arena for **NDL FC** versus **P17 FC** — a rollercoaster of emotions that had everything you could want from a Baller League match.
 
 When the dust settled, it was **P17 FC** who emerged **4-6** victors. The Game Changer window — **Plus One** and **1-on-1** — proved pivotal, contributing **7** of the match's **10** goals.
 
@@ -28,11 +28,11 @@ When the dust settled, it was **P17 FC** who emerged **4-6** victors. The Game C
 
 ### First Half
 
-The tactical landscape shifted dramatically at 12 minutes as the **Plus One** Game Changer took hold — a **2-goal** window that gave the half an electric pulse. P17 FC held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
+At the 12th minute, the **Plus One** Game Changer roared into action — a **2-goal** window that gave the half an electric pulse. P17 FC held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
 
 ### Second Half
 
-The tension was palpable at the restart, and the **1-on-1** Game Changer at 27 minutes only dialled it up — the defensive discipline of the first half evaporated as **5** goals thundered in during the activation. It was edge-of-your-seat stuff in the closing minutes. NDL FC pressed and probed, but P17 FC's back-line stood firm — resilient, organised, and ultimately heroic. The **10-goal** spectacle was the kind of match that Baller League was built for — pure, unfiltered entertainment.
+If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **1-on-1** entered the fray — once again the goals rained down, **5** of them, raw and relentless. It was edge-of-your-seat stuff in the closing minutes. NDL FC pressed and probed, but P17 FC's back-line stood firm — resilient, organised, and ultimately heroic. This was Baller League at its most chaotic and brilliant — **10** goals, endless drama, and a match nobody in attendance will forget in a hurry.
 
 ---
 
@@ -40,16 +40,16 @@ The tension was palpable at the restart, and the **1-on-1** Game Changer at 27 m
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **2′** — **Amin Belaid** (P17 FC) opened the scoring
-- **12′** — **Dajon Golding** (P17 FC) netted
-- **14′** — **Amin Belaid** (P17 FC) slotted
-- **16′** — **Amin Belaid** (P17 FC) scored
+- **2′** — **Amin Belaid** (P17 FC) drew first blood
+- **12′** — **Dajon Golding** (P17 FC) struck
+- **14′** — **Amin Belaid** (P17 FC) scored
+- **16′** — **Amin Belaid** (P17 FC) slotted
 - **26′** — **Josh Parker** (NDL FC) fired home
-- **27′** — **Sam Fitzgerald** (NDL FC) converted
-- **27′** — **Sam Fitzgerald** (NDL FC) found the target
-- **27′** — **Steven Kodra** (P17 FC) scored
-- **28′** — **Sam Fitzgerald** (NDL FC) struck
-- **28′** — **Steven Kodra** (P17 FC) slotted
+- **27′** — **Sam Fitzgerald** (NDL FC) struck
+- **27′** — **Sam Fitzgerald** (NDL FC) slotted
+- **27′** — **Steven Kodra** (P17 FC) found the target
+- **28′** — **Sam Fitzgerald** (NDL FC) found the target
+- **28′** — **Steven Kodra** (P17 FC) fired home
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -86,7 +86,7 @@ The **1-on-1** activation was particularly devastating, producing **5** goals th
 
 ### NDL FC
 
-The standout for NDL FC was undoubtedly **Sam Fitzgerald**, whose **3-goal** haul was the foundation of everything good about their display.
+**Sam Fitzgerald** was NDL FC's standout performer, bagging **3 goals** in a display of clinical finishing that powered his side's effort.
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
@@ -95,7 +95,7 @@ The standout for NDL FC was undoubtedly **Sam Fitzgerald**, whose **3-goal** hau
 
 ### P17 FC
 
-**Amin Belaid** led the charge for P17 FC, his **3 goals** a testament to the kind of ruthless finishing that makes him a nightmare for opposing defences.
+P17 FC had **Amin Belaid** to thank, the forward delivering a **3-goal** performance of the highest calibre.
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
@@ -113,34 +113,35 @@ The standout for NDL FC was undoubtedly **Sam Fitzgerald**, whose **3-goal** hau
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Sam Fitzgerald | 4 | 0 | 2 |
-| Josh Parker | 2 | 0 | 2 |
-| Taufee Skandari | 1 | 0 | 2 |
-| Abdirahman Hasan Mohamud | 1 | 0 | 2 |
+| Sam Fitzgerald | 7 | 1 | 3 |
+| Taufee Skandari | 2 | 0 | 3 |
+| Josh Parker | 2 | 0 | 3 |
+| Dara Dada | 1 | 0 | 3 |
+| Isaac Modi | 1 | 1 | 3 |
 
 ### P17 FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Amin Belaid | 5 | 2 | 2 |
-| Steven Kodra | 4 | 0 | 2 |
-| Dajon Golding | 2 | 0 | 2 |
-| Ciaran Clark | 1 | 0 | 2 |
+| Amin Belaid | 7 | 2 | 3 |
+| Steven Kodra | 6 | 0 | 3 |
+| Dajon Golding | 3 | 0 | 3 |
+| Ciaran Clark | 1 | 1 | 3 |
 | Tom Bender | 1 | 0 | 1 |
 
 **Key Attacking Threats**
 
-- **Sam Fitzgerald** — NDL FC's talisman with **4 goals** from **2 appearances**. A developing attacking presence with room to grow.
-- **Amin Belaid** — P17 FC's leading marksman with **5 goals** from **2 outings**, plus **2 assists**. Still finding his rhythm but showing promising signs.
+- **Sam Fitzgerald** — NDL FC's talisman with **7 goals** from **3 appearances** and **1 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Amin Belaid** — P17 FC's leading marksman with **7 goals** from **3 outings**, plus **2 assists**. P17 FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **NDL FC** entered this match averaging **4.0 goals per game** — a number that reflected their struggles in front of goal this campaign. **P17 FC**, by contrast, arrived with an average of **6.5 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **NDL FC** entered this match averaging **4.7 goals per game** — a number that reflected their struggles in front of goal this campaign. **P17 FC**, by contrast, arrived with an average of **6.0 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **8.3 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **8.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -158,7 +159,7 @@ NDL FC held steady, p17 fc held steady.
 
 | Team | Before GW1 | After GW1 |
 |------|-------------|-------------|
-| NDL FC | — | 9th |
+| NDL FC | — | 10th |
 | P17 FC | — | 2nd |
 
 
@@ -200,10 +201,10 @@ NDL FC held steady, p17 fc held steady.
 ## What's Next
 
 ### NDL FC
-Next up: **Clutch FC** in Gameweek 3. 
+Next up: **SDS FC** in Gameweek 4. 
 
 ### P17 FC
-Next up: **VZN FC** in Gameweek 3. 
+Next up: **Deportrio** in Gameweek 4. 
 
 
 

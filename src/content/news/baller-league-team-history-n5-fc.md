@@ -1,6 +1,6 @@
 ---
 title: "N5 FC — Baller League UK All-Time Record & History"
-date: 2026-10-20
+date: 2026-10-27
 category: "Feature"
 excerpt: "N5 FC in numbers: their all-time Baller League UK record, season-by-season finishes, top scorers and standout results across every season."
 author: "Baller League UK Hub"
@@ -9,7 +9,7 @@ featured: false
 
 ## N5 FC: All-Time Baller League UK Record
 
-**N5 FC** have played **35** matches in Baller League UK across 4 seasons, winning **12**, drawing **3** and losing **20** — a win rate of **34%**. They have scored **127** goals and conceded **139** (goal difference **-12**).
+**N5 FC** have played **36** matches in Baller League UK across 4 seasons, winning **12**, drawing **3** and losing **21** — a win rate of **33%**. They have scored **128** goals and conceded **146** (goal difference **-18**).
 
 ## Season-by-season
 
@@ -18,14 +18,14 @@ featured: false
 | 1 | 12th | 11 | 1 | 1 | 9 | -19 | 5 |
 | 2 | 6th | 11 | 6 | 1 | 4 | +6 | 19 |
 | 3 | 8th | 11 | 5 | 0 | 6 | +3 | 15 |
-| 4 | 11th | 2 | 0 | 1 | 1 | -2 | 1 |
+| 4 | 12th | 3 | 0 | 1 | 2 | -8 | 1 |
 
 Their best finish came in **Season 2**, finishing **6th** on **19 points**.
 
 ## Top scorers (all-time club)
 
 - **[Michael Hill](/players/michael-hill)** — 23 goals, 7 assists
-- **[Joe Bennett](/players/joe-bennett)** — 15 goals, 4 assists
+- **[Joe Bennett](/players/joe-bennett)** — 15 goals, 5 assists
 - **[Hani Berchiche](/players/hani-berchiche)** — 13 goals, 3 assists
 - **[Kieron Freeman](/players/kieron-freeman)** — 3 goals, 7 assists
 - **[Jezreel Davies](/players/jezreel-davies)** — 3 goals, 5 assists

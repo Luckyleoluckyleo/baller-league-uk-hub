@@ -1,15 +1,15 @@
 ---
-title: "RTG FC and Toma Serve Up 6-6 Epic in GW2"
+title: "RTG FC and Toma Share 6-6 Goal Fest in GW2"
 date: 2026-10-19
 category: "Match Report"
-excerpt: "RTG FC 6-6 Toma — Gameweek 2 match report. Kadell Daniel (4 goals) leads RTG FC's attack. Game Changers: Onside (0) & 1-on-1 (4). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "RTG FC 6-6 Toma — Gameweek 2 match report. Kadell Daniel (5 goals) leads RTG FC's attack. Game Changers: Onside (0) & 1-on-1 (4). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: true
 ---
 
 ## Match Summary — RTG FC 6-6 Toma
 
-All roads led to Baller Arena for Gameweek 2, where **RTG FC** and **Toma** produced a breathtaking stalemate that somehow had no winner but absolutely no shortage of entertainment.
+Football took center stage at Baller Arena when **RTG FC** met **Toma** in a scoring bonanza that had the crowd on their feet — and somehow still ended level.
 
 The final whistle confirmed a **6-6 draw** in a contest that had absolutely everything — goals, drama, and relentless entertainment. The Game Changer window — **Onside** and **1-on-1** — proved pivotal, contributing **4** of the match's **12** goals.
 
@@ -29,11 +29,11 @@ The final whistle confirmed a **6-6 draw** in a contest that had absolutely ever
 
 ### First Half
 
-The game's complexion changed at the 12th minute when the **Onside** Game Changer activated — but remarkably, neither side could find the net. A tactical stalemate that owed as much to disciplined defending as to the specific rule change. By the interval it was impossible to call a winner. The contest was beautifully balanced, with everything still to play for.
+The game's complexion changed at the 12th minute when the **Onside** Game Changer activated — yet for all the altered rules, the defences stood tall and the deadlock remained stubbornly intact. The two sides trudged off level at the break — nothing separating them in what was shaping up to be a classic arm-wrestle.
 
 ### Second Half
 
-The 27th minute brought the **1-on-1** Game Changer thundering into the match — a moment that would prove pivotal — and the mayhem resumed. **4** more goals erupted during the window, transforming the contest into a full-blown classic. Late drama threatened but never materialised, both teams having to accept a point apiece in what felt like a war of attrition. This was Baller League at its most chaotic and brilliant — **12** goals, endless drama, and a match nobody in attendance will forget in a hurry.
+After the restart, the **1-on-1** Game Changer detonated at the 27th minute, turning the dial up to eleven — the defensive discipline of the first half evaporated as **4** goals thundered in during the activation. Late drama threatened but never materialised, both teams having to accept a point apiece in what felt like a war of attrition. This was Baller League at its most chaotic and brilliant — **12** goals, endless drama, and a match nobody in attendance will forget in a hurry.
 
 ---
 
@@ -41,18 +41,18 @@ The 27th minute brought the **1-on-1** Game Changer thundering into the match �
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **7′** — **Joshua Phillips** (Toma) broke the deadlock
-- **7′** — **Tyrell Miller-Rodney** (RTG FC) scored
-- **9′** — **Alfie Cerulli** (RTG FC) struck
-- **9′** — **Arezki Hamouchene** (Toma) converted
-- **16′** — **Arezki Hamouchene** (Toma) struck
+- **7′** — **Joshua Phillips** (Toma) opened the scoring
+- **7′** — **Tyrell Miller-Rodney** (RTG FC) fired home
+- **9′** — **Alfie Cerulli** (RTG FC) found the target
+- **9′** — **Arezki Hamouchene** (Toma) found the target
+- **16′** — **Arezki Hamouchene** (Toma) scored
 - **18′** — **Dan Wishart** (RTG FC) converted
-- **19′** — **Kadell Daniel** (RTG FC) converted
-- **24′** — **Praise Ogbebor** (Toma) slotted
-- **27′** — **Junior Dixon** (Toma) fired home
+- **19′** — **Kadell Daniel** (RTG FC) fired home
+- **24′** — **Praise Ogbebor** (Toma) converted
+- **27′** — **Junior Dixon** (Toma) scored
+- **27′** — **Kadell Daniel** (RTG FC) found the target
 - **27′** — **Kadell Daniel** (RTG FC) netted
-- **27′** — **Kadell Daniel** (RTG FC) struck
-- **29′** — **Junior Dixon** (Toma) slotted
+- **29′** — **Junior Dixon** (Toma) converted
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -95,7 +95,7 @@ The **1-on-1** window was the more impactful, its **4** goals shifting the balan
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Kadell Daniel | 3 | 1 | 7 | 15 |
+| Kadell Daniel | 3 | 1 | 7 | 16 |
 | Tyrell Miller-Rodney | 1 | 1 | 1 | 7 |
 | Dan Wishart | 1 | 0 | 3 | 10 |
 | Alfie Cerulli | 1 | 0 | 8 | 5 |
@@ -109,8 +109,8 @@ The **1-on-1** window was the more impactful, its **4** goals shifting the balan
 |--------|-------|---------|-------|--------|
 | Junior Dixon | 2 | 0 | 5 | 18 |
 | Arezki Hamouchene | 2 | 0 | 6 | 20 |
-| Joshua Phillips | 1 | 0 | 4 | 15 |
-| Praise Ogbebor | 1 | 0 | 2 | 22 |
+| Joshua Phillips | 1 | 0 | 4 | 16 |
+| Praise Ogbebor | 1 | 0 | 2 | 21 |
 
 
 
@@ -122,34 +122,35 @@ The **1-on-1** window was the more impactful, its **4** goals shifting the balan
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kadell Daniel | 4 | 1 | 2 |
-| Tyrell Miller-Rodney | 2 | 2 | 2 |
-| Alfie Cerulli | 2 | 0 | 2 |
-| Zaid Al Hussaini | 1 | 3 | 2 |
-| Dan Wishart | 1 | 0 | 1 |
+| Kadell Daniel | 5 | 1 | 3 |
+| Alfie Cerulli | 5 | 0 | 3 |
+| Tyrell Miller-Rodney | 2 | 2 | 3 |
+| Zaid Al Hussaini | 1 | 4 | 3 |
+| Dan Wishart | 1 | 0 | 2 |
 
 ### Toma — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Arezki Hamouchene | 2 | 0 | 2 |
-| Joshua Phillips | 2 | 0 | 2 |
+| Arezki Hamouchene | 2 | 0 | 3 |
+| Joshua Phillips | 2 | 0 | 3 |
 | Junior Dixon | 2 | 0 | 2 |
-| Praise Ogbebor | 1 | 0 | 2 |
+| Yasin Ben El-Mhanni | 1 | 0 | 3 |
+| Charlie James Pavey | 1 | 0 | 3 |
 
 **Key Attacking Threats**
 
-- **Kadell Daniel** — RTG FC's talisman with **4 goals** from **2 appearances** and **1 assists**. A developing attacking presence with room to grow.
-- **Arezki Hamouchene** — Toma's leading marksman with **2 goals** from **2 outings**. Still finding his rhythm but showing promising signs.
+- **Kadell Daniel** — RTG FC's talisman with **5 goals** from **3 appearances** and **1 assists**. A developing attacking presence with room to grow.
+- **Arezki Hamouchene** — Toma's leading marksman with **2 goals** from **3 outings**. Still finding his rhythm but showing promising signs.
 
 
 ---
 
 ## Season Context
 
-With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **RTG FC** entered this match averaging **5.0 goals per game** — a number that reflected their struggles in front of goal this campaign. **Toma**, by contrast, arrived with an average of **3.5 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **RTG FC** entered this match averaging **4.7 goals per game** — a number that reflected their struggles in front of goal this campaign. **Toma**, by contrast, arrived with an average of **3.7 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **8.3 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **8.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -163,11 +164,11 @@ This was the **maiden competitive meeting** between RTG FC and Toma — a histor
 
 ## Table Impact
 
-RTG FC dropped to **9th**, toma climbed to **10th**.
+RTG FC stayed at **9th**, toma climbed to **10th**.
 
 | Team | Before GW2 | After GW2 |
 |------|-------------|-------------|
-| RTG FC | 8th | 9th |
+| RTG FC | 9th | 9th |
 | Toma | 11th | 10th |
 
 
@@ -193,8 +194,8 @@ RTG FC dropped to **9th**, toma climbed to **10th**.
 | Different goalscorers | 8 |
 | Total shots | 49 |
 | Assists | 4 |
-| Tackles | 26 |
-| Passes | 279 |
+| Tackles | 25 |
+| Passes | 285 |
 
 
 ---
@@ -209,10 +210,10 @@ RTG FC dropped to **9th**, toma climbed to **10th**.
 ## What's Next
 
 ### RTG FC
-Next up: **Deportrio** in Gameweek 3. 
+Next up: **Clutch FC** in Gameweek 4. 
 
 ### Toma
-Next up: **Prime FC** in Gameweek 3. 
+Next up: **VZN FC** in Gameweek 4. 
 
 
 

@@ -1,8 +1,8 @@
 ---
-title: "Deportrio Too Strong for Wembley Rangers AFC in 9-4 Victory — GW1"
+title: "Deportrio Brush Wembley Rangers AFC Aside 9-4 in Confident Showing — GW1"
 date: 2026-10-12
 category: "Match Report"
-excerpt: "Deportrio 9-4 Wembley Rangers AFC — Gameweek 1 match report. Jay Emmanuel-Thomas (4 goals) leads Deportrio's attack. Game Changers: 3Play (4) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Deportrio 9-4 Wembley Rangers AFC — Gameweek 1 match report. Jay Emmanuel-Thomas (6 goals) leads Deportrio's attack. Game Changers: 3Play (4) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: true
 ---
@@ -28,11 +28,11 @@ When the dust settled, it was **Deportrio** who emerged **9-4** victors in a per
 
 ### First Half
 
-At the 12th minute, the **3Play** Game Changer roared into action — and the goals flowed. **4** times the net bulged during the activation period, a frantic, breathless spell of attacking football. Deportrio were absolutely rampant, carving Wembley Rangers AFC open at will. By the break, they had built an intimidating lead that felt insurmountable.
+Barely a dozen minutes had passed when **3Play** transformed the match into something altogether different — and the goals flowed. **4** times the net bulged during the activation period, a frantic, breathless spell of attacking football. Deportrio simply blew Wembley Rangers AFC away in a devastating opening period, sending a powerful message to everyone watching.
 
 ### Second Half
 
-The 27th minute brought the **1-on-1** Game Changer thundering into the match — a moment that would prove pivotal — the defensive discipline of the first half evaporated as **3** goals thundered in during the activation. Deportrio managed the occasion expertly, balancing attacking ambition with game-control to see out a thoroughly deserved victory. The **13-goal** spectacle was the kind of match that Baller League was built for — pure, unfiltered entertainment.
+The tension was palpable at the restart, and the **1-on-1** Game Changer at 27 minutes only dialled it up — once again the goals rained down, **3** of them, raw and relentless. Deportrio managed the occasion expertly, balancing attacking ambition with game-control to see out a thoroughly deserved victory. The **13-goal** spectacle was the kind of match that Baller League was built for — pure, unfiltered entertainment.
 
 ---
 
@@ -41,17 +41,17 @@ The 27th minute brought the **1-on-1** Game Changer thundering into the match �
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **1′** — **Domingos Pires** (Wembley Rangers AFC) fired the opener
-- **8′** — **Martyn Waghorn** (Deportrio) scored
-- **9′** — **Callam Gardner** (Wembley Rangers AFC) converted
-- **12′** — **Rodney Ajayi** (Deportrio) scored
-- **12′** — **Rodney Ajayi** (Deportrio) slotted
-- **13′** — **Chiekh Thiam** (Wembley Rangers AFC) scored
-- **14′** — **Jay Emmanuel-Thomas** (Deportrio) struck
-- **16′** — **Jay Emmanuel-Thomas** (Deportrio) converted
-- **22′** — **Emmanuel Robe** (Deportrio) slotted
-- **23′** — **Callam Gardner** (Wembley Rangers AFC) scored
-- **27′** — **Kevin Weggen** (Deportrio) slotted
-- **28′** — **Kevin Weggen** (Deportrio) slotted
+- **8′** — **Martyn Waghorn** (Deportrio) slotted
+- **9′** — **Callam Gardner** (Wembley Rangers AFC) scored
+- **12′** — **Rodney Ajayi** (Deportrio) netted
+- **12′** — **Rodney Ajayi** (Deportrio) found the target
+- **13′** — **Chiekh Thiam** (Wembley Rangers AFC) fired home
+- **14′** — **Jay Emmanuel-Thomas** (Deportrio) scored
+- **16′** — **Jay Emmanuel-Thomas** (Deportrio) slotted
+- **22′** — **Emmanuel Robe** (Deportrio) struck
+- **23′** — **Callam Gardner** (Wembley Rangers AFC) converted
+- **27′** — **Kevin Weggen** (Deportrio) struck
+- **28′** — **Kevin Weggen** (Deportrio) netted
 - **29′** — **Jay Emmanuel-Thomas** (Deportrio) converted
 
 | Minute | Player | Team |
@@ -126,34 +126,35 @@ The standout for Deportrio was undoubtedly **Jay Emmanuel-Thomas**, whose **3-go
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Jay Emmanuel-Thomas | 4 | 1 | 2 |
-| Rodney Ajayi | 4 | 0 | 2 |
-| Kevin Weggen | 3 | 2 | 2 |
-| Emmanuel Robe | 1 | 0 | 2 |
+| Jay Emmanuel-Thomas | 6 | 2 | 3 |
+| Rodney Ajayi | 4 | 0 | 3 |
+| Kevin Weggen | 3 | 2 | 3 |
+| Emmanuel Robe | 2 | 0 | 3 |
 | Martyn Waghorn | 1 | 0 | 1 |
 
 ### Wembley Rangers AFC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Callam Gardner | 3 | 0 | 2 |
-| Chiekh Thiam | 1 | 0 | 2 |
-| Domingos Pires | 1 | 0 | 2 |
-| Dominic Morgan-Griffiths | 1 | 1 | 2 |
+| Callam Gardner | 5 | 0 | 3 |
+| Chiekh Thiam | 3 | 1 | 3 |
+| Domingos Pires | 2 | 1 | 3 |
+| Adrian Tajik | 1 | 0 | 2 |
+| Dominic Morgan-Griffiths | 1 | 2 | 3 |
 
 **Key Attacking Threats**
 
-- **Jay Emmanuel-Thomas** — Deportrio's talisman with **4 goals** from **2 appearances** and **1 assists**. A developing attacking presence with room to grow.
-- **Callam Gardner** — Wembley Rangers AFC's leading marksman with **3 goals** from **2 outings**. Still finding his rhythm but showing promising signs.
+- **Jay Emmanuel-Thomas** — Deportrio's talisman with **6 goals** from **3 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Callam Gardner** — Wembley Rangers AFC's leading marksman with **5 goals** from **3 outings**. Still finding his rhythm but showing promising signs.
 
 
 ---
 
 ## Season Context
 
-With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **Deportrio** entered this match averaging **6.5 goals per game** — a number that reflected their struggles in front of goal this campaign. **Wembley Rangers AFC**, by contrast, arrived with an average of **3.0 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **Deportrio** entered this match averaging **5.3 goals per game** — a number that reflected their struggles in front of goal this campaign. **Wembley Rangers AFC**, by contrast, arrived with an average of **4.3 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **8.3 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **8.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -214,10 +215,10 @@ Deportrio held steady, wembley rangers afc held steady.
 ## What's Next
 
 ### Deportrio
-Next up: **RTG FC** in Gameweek 3. 
+Next up: **P17 FC** in Gameweek 4. 
 
 ### Wembley Rangers AFC
-Next up: **N5 FC** in Gameweek 3. 
+Next up: **Prime FC** in Gameweek 4. 
 
 
 

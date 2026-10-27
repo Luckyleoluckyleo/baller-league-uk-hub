@@ -1,6 +1,6 @@
 ---
 title: "Clutch FC — Baller League UK Season 4 Preview & Squad"
-date: 2026-10-20
+date: 2026-10-27
 category: "Team Preview"
 excerpt: "Everything you need to know about Clutch FC for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
 author: "Baller League UK Hub"
@@ -23,23 +23,23 @@ Clutch FC are led by [Chloe Kelly](/managers/chloe-kelly). Their experience and 
 
 Here are some of Clutch FC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Alex Byrne](/players/alex-byrne)** (Striker) — 5 goals and 0 assists in 2 appearances.
-- **[Tyler Winters](/players/tyler-winters)** (Striker) — 3 goals and 2 assists in 2 appearances.
-- **[Joshua Sumbunu](/players/joshua-sumbunu)** (Defender) — 2 goals and 0 assists in 2 appearances.
-- **[Albie Sheehan](/players/albie-sheehan)** (Defender) — 0 goals and 0 assists in 2 appearances.
-- **[Alfie Matthews](/players/alfie-matthews)** (Striker) — 0 goals and 4 assists in 2 appearances.
-- **[Erick Kenko](/players/erick-kenko)** (Midfielder) — 0 goals and 0 assists in 2 appearances.
+- **[Alex Byrne](/players/alex-byrne)** (Striker) — 5 goals and 0 assists in 3 appearances.
+- **[Tyler Winters](/players/tyler-winters)** (Striker) — 3 goals and 2 assists in 3 appearances.
+- **[Joshua Sumbunu](/players/joshua-sumbunu)** (Defender) — 3 goals and 0 assists in 3 appearances.
+- **[Erick Kenko](/players/erick-kenko)** (Midfielder) — 1 goals and 0 assists in 3 appearances.
+- **[James Mulley](/players/james-mulley)** (Defender) — 1 goals and 0 assists in 2 appearances.
+- **[Albie Sheehan](/players/albie-sheehan)** (Defender) — 0 goals and 1 assists in 3 appearances.
 
 See the full squad on the [Clutch FC team page](/teams/clutch-fc).
 
 ## Season 4 fixtures
 
-Clutch FC open their campaign in **Gameweek 3** against **[NDL FC](/teams/ndl-fc)** on **26 October 2026**, with kick-off at **21:00** at home.
+Clutch FC open their campaign in **Gameweek 4** against **[RTG FC](/teams/yanited)** on **2 November 2026**, with kick-off at **19:00** at home.
 
 Every matchday is a Monday night, with the regular season running for **11 gameweeks** and the top four reaching the **Final Four**.
 
 ## Season outlook
 
-Clutch FC will fancy their chances of a strong season if they can convert last year's promise into points. The margins in this league are famously small.
+Consistency will be the aim for Clutch FC as they look to build on recent campaigns and push towards the Final Four.
 
 Follow Clutch FC all season long on the [teams hub](/teams) and keep up with standings on the live [league table](/table).

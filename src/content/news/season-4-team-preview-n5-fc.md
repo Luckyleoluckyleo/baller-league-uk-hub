@@ -1,6 +1,6 @@
 ---
 title: "N5 FC — Baller League UK Season 4 Preview & Squad"
-date: 2026-10-20
+date: 2026-10-27
 category: "Team Preview"
 excerpt: "Everything you need to know about N5 FC for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
 author: "Baller League UK Hub"
@@ -23,18 +23,18 @@ N5 FC are led by [Jens Lehmann](/managers/jens-lehmann). Their experience and pe
 
 Here are some of N5 FC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Hani Berchiche](/players/hani-berchiche)** (Defender) — 2 goals and 0 assists in 2 appearances.
-- **[Michael Hill](/players/michael-hill)** (Midfielder) — 1 goals and 0 assists in 2 appearances.
+- **[Hani Berchiche](/players/hani-berchiche)** (Defender) — 2 goals and 0 assists in 3 appearances.
+- **[Michael Hill](/players/michael-hill)** (Midfielder) — 1 goals and 0 assists in 3 appearances.
+- **[Mustapha Carayol](/players/mustapha-carayol)** (Midfielder) — 1 goals and 0 assists in 3 appearances.
 - **[Billy Sharp](/players/billy-sharp)** (Striker) — 1 goals and 0 assists in 2 appearances.
-- **[Francis Amartey](/players/francis-amartey)** (Striker) — 1 goals and 0 assists in 1 appearance.
-- **[Addison Garnett](/players/addison-garnett)** (Defender) — 0 goals and 0 assists in 2 appearances.
-- **[Jezreel Davies](/players/jezreel-davies)** (Midfielder) — 0 goals and 0 assists in 1 appearance.
+- **[Francis Amartey](/players/francis-amartey)** (Striker) — 1 goals and 0 assists in 2 appearances.
+- **[Addison Garnett](/players/addison-garnett)** (Defender) — 0 goals and 0 assists in 3 appearances.
 
 See the full squad on the [N5 FC team page](/teams/n5-fc).
 
 ## Season 4 fixtures
 
-N5 FC open their campaign in **Gameweek 3** against **[Wembley Rangers AFC](/teams/wembley-rangers-afc)** on **26 October 2026**, with kick-off at **18:05** at home.
+N5 FC open their campaign in **Gameweek 4** against **[Gold Devils FC](/teams/gold-devils-fc)** on **2 November 2026**, with kick-off at **18:05** on the road.
 
 Every matchday is a Monday night, with the regular season running for **11 gameweeks** and the top four reaching the **Final Four**.
 

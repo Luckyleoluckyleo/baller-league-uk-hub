@@ -1,6 +1,6 @@
 ---
 title: "Deportrio — Baller League UK All-Time Record & History"
-date: 2026-10-20
+date: 2026-10-27
 category: "Feature"
 excerpt: "Deportrio in numbers: their all-time Baller League UK record, season-by-season finishes, top scorers and standout results across every season."
 author: "Baller League UK Hub"
@@ -9,7 +9,7 @@ featured: false
 
 ## Deportrio: All-Time Baller League UK Record
 
-**Deportrio** have played **37** matches in Baller League UK across 4 seasons, winning **20**, drawing **7** and losing **10** — a win rate of **54%**. They have scored **148** goals and conceded **124** (goal difference **+24**).
+**Deportrio** have played **38** matches in Baller League UK across 4 seasons, winning **20**, drawing **7** and losing **11** — a win rate of **53%**. They have scored **151** goals and conceded **128** (goal difference **+23**).
 
 ## Season-by-season
 
@@ -18,13 +18,13 @@ featured: false
 | 1 | 1st | 11 | 7 | 1 | 3 | +5 | 23 |
 | 2 | 7th | 11 | 4 | 4 | 3 | +3 | 17 |
 | 3 | 2nd | 11 | 7 | 2 | 2 | +13 | 23 |
-| 4 | 1st | 2 | 2 | 0 | 0 | +6 | 6 |
+| 4 | 3rd | 3 | 2 | 0 | 1 | +5 | 6 |
 
 Their best finish came in **Season 1**, finishing **1st** on **23 points**.
 
 ## Top scorers (all-time club)
 
-- **[Jay Emmanuel-Thomas](/players/jay-emmanuel-thomas)** — 25 goals, 10 assists
+- **[Jay Emmanuel-Thomas](/players/jay-emmanuel-thomas)** — 27 goals, 11 assists
 - **[Marvin Sordell](/players/marvin-sordell)** — 11 goals, 3 assists
 - **[Adam Dawson](/players/adam-dawson)** — 9 goals, 5 assists
 - **[Martyn Waghorn](/players/martyn-waghorn)** — 7 goals, 2 assists

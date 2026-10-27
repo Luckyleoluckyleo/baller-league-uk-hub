@@ -1,6 +1,6 @@
 ---
 title: "Player Spotlight: Dominic Vose — RTG FC"
-date: 2026-10-20
+date: 2026-10-27
 category: "Feature"
 excerpt: "A closer look at Dominic Vose, midfielder for RTG FC in Baller League UK Season 4 — career, honours and what he brings to the 6v6 game."
 author: "Baller League UK Hub"
@@ -23,7 +23,7 @@ Dominic Vose built his professional career at West Ham United, Wrexham, Barnet a
 
 | Season | Apps | Goals | Assists |
 |--------|------|-------|---------|
-| 4 | 2 | 0 | 0 |
+| 4 | 3 | 0 | 1 |
 
 See his full stats on his [player profile](/players/dominic-vose).
 
