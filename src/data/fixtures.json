@@ -3,38 +3,14 @@
     {
       "gameweek": 4,
       "season": 4,
-      "homeTeam": "P17 FC",
-      "homeSlug": "rukkas-fc",
-      "homeEmoji": "💀",
-      "awayTeam": "Deportrio",
-      "awaySlug": "deportrio",
-      "awayEmoji": "🔴",
+      "homeTeam": "Toma",
+      "homeSlug": "toma",
+      "homeEmoji": "🎩",
+      "awayTeam": "VZN FC",
+      "awaySlug": "vzn-fc",
+      "awayEmoji": "👁️",
       "date": "2 November 2026",
       "time": "17:15"
-    },
-    {
-      "gameweek": 4,
-      "season": 4,
-      "homeTeam": "Gold Devils FC",
-      "homeSlug": "gold-devils-fc",
-      "homeEmoji": "👿",
-      "awayTeam": "N5 FC",
-      "awaySlug": "n5-fc",
-      "awayEmoji": "5️⃣",
-      "date": "2 November 2026",
-      "time": "18:05"
-    },
-    {
-      "gameweek": 4,
-      "season": 4,
-      "homeTeam": "Clutch FC",
-      "homeSlug": "clutch-fc",
-      "homeEmoji": "✊",
-      "awayTeam": "RTG FC",
-      "awaySlug": "yanited",
-      "awayEmoji": "👑",
-      "date": "2 November 2026",
-      "time": "19:00"
     },
     {
       "gameweek": 4,
@@ -46,19 +22,19 @@
       "awaySlug": "wembley-rangers-afc",
       "awayEmoji": "🏟️",
       "date": "2 November 2026",
-      "time": "20:05"
+      "time": "18:05"
     },
     {
       "gameweek": 4,
       "season": 4,
-      "homeTeam": "Toma",
-      "homeSlug": "toma",
-      "homeEmoji": "🎩",
-      "awayTeam": "VZN FC",
-      "awaySlug": "vzn-fc",
-      "awayEmoji": "👁️",
+      "homeTeam": "P17 FC",
+      "homeSlug": "rukkas-fc",
+      "homeEmoji": "💀",
+      "awayTeam": "Deportrio",
+      "awaySlug": "deportrio",
+      "awayEmoji": "🔴",
       "date": "2 November 2026",
-      "time": "21:00"
+      "time": "19:00"
     },
     {
       "gameweek": 4,
@@ -69,6 +45,30 @@
       "awayTeam": "SDS FC",
       "awaySlug": "sds-fc",
       "awayEmoji": "🟢",
+      "date": "2 November 2026",
+      "time": "20:05"
+    },
+    {
+      "gameweek": 4,
+      "season": 4,
+      "homeTeam": "Clutch FC",
+      "homeSlug": "clutch-fc",
+      "homeEmoji": "✊",
+      "awayTeam": "RTG FC",
+      "awaySlug": "yanited",
+      "awayEmoji": "👑",
+      "date": "2 November 2026",
+      "time": "21:00"
+    },
+    {
+      "gameweek": 4,
+      "season": 4,
+      "homeTeam": "Gold Devils FC",
+      "homeSlug": "gold-devils-fc",
+      "homeEmoji": "👿",
+      "awayTeam": "N5 FC",
+      "awaySlug": "n5-fc",
+      "awayEmoji": "5️⃣",
       "date": "2 November 2026",
       "time": "21:50"
     }

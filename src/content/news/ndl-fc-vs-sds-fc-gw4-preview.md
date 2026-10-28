@@ -1,15 +1,15 @@
 ---
 title: "Gameweek 4 Preview: NDL FC vs SDS FC — Team News, Key Players & Prediction"
-date: 2026-10-27
+date: 2026-10-28
 category: "Preview"
-excerpt: "NDL FC meet SDS FC in Gameweek 4 of Baller League UK Season 4 on 2 November 2026 (21:50). Team news, key players, head-to-head and our prediction."
+excerpt: "NDL FC meet SDS FC in Gameweek 4 of Baller League UK Season 4 on 2 November 2026 (20:05). Team news, key players, head-to-head and our prediction."
 author: "Baller League UK Hub"
 featured: false
 ---
 
 ## NDL FC vs SDS FC — Gameweek 4 Preview
 
-**NDL FC** host **SDS FC** in Gameweek 4 of Baller League UK Season 4 on **2 November 2026**, with kick-off at **21:50**. Both sides are looking to build momentum at the Baller League Arena in Dagenham, with the usual mix of fast 6v6 football, celebrity dugouts and the game-changing rule twists that make the league so watchable.
+**NDL FC** host **SDS FC** in Gameweek 4 of Baller League UK Season 4 on **2 November 2026**, with kick-off at **20:05**. Both sides are looking to build momentum at the Baller League Arena in Dagenham, with the usual mix of fast 6v6 football, celebrity dugouts and the game-changing rule twists that make the league so watchable.
 
 Every point matters in Season 4. With the top four reaching the Final Four at the end of the regular season, NDL FC and SDS FC both know this is a chance to climb the table.
 

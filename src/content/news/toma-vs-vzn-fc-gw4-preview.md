@@ -1,15 +1,15 @@
 ---
 title: "Gameweek 4 Preview: Toma vs VZN FC — Team News, Key Players & Prediction"
-date: 2026-10-27
+date: 2026-10-28
 category: "Preview"
-excerpt: "Toma meet VZN FC in Gameweek 4 of Baller League UK Season 4 on 2 November 2026 (21:00). Team news, key players, head-to-head and our prediction."
+excerpt: "Toma meet VZN FC in Gameweek 4 of Baller League UK Season 4 on 2 November 2026 (17:15). Team news, key players, head-to-head and our prediction."
 author: "Baller League UK Hub"
 featured: false
 ---
 
 ## Toma vs VZN FC — Gameweek 4 Preview
 
-**Toma** host **VZN FC** in Gameweek 4 of Baller League UK Season 4 on **2 November 2026**, with kick-off at **21:00**. Both sides are looking to build momentum at the Baller League Arena in Dagenham, with the usual mix of fast 6v6 football, celebrity dugouts and the game-changing rule twists that make the league so watchable.
+**Toma** host **VZN FC** in Gameweek 4 of Baller League UK Season 4 on **2 November 2026**, with kick-off at **17:15**. Both sides are looking to build momentum at the Baller League Arena in Dagenham, with the usual mix of fast 6v6 football, celebrity dugouts and the game-changing rule twists that make the league so watchable.
 
 Every point matters in Season 4. With the top four reaching the Final Four at the end of the regular season, Toma and VZN FC both know this is a chance to climb the table.
 
