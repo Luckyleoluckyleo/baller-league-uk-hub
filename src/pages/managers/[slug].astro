@@ -18,6 +18,7 @@ const { slug } = Astro.props;
 const managers = await getCollection('managers');
 const manager = managers.find(m => m.slug === slug);
 const data = manager?.data;
+const isActive = data ? data.active !== false : true;
 
 const SEASON = CURRENT_SEASON;
 const standing = standingsFor(SEASON).find((t) => t.slug === data?.team);
@@ -79,7 +80,7 @@ const schema = data ? [
     "@type": "Person",
     "name": data.name,
     "description": data.bio?.replace(/\n/g, ' ').trim() || `${data.name} manages ${data.teamName} in Baller League UK.`,
-    "jobTitle": data.role,
+    "jobTitle": data.active === false ? 'Former Manager' : data.role,
     "memberOf": { "@type": "SportsTeam", "name": data.teamName, "url": `https://ballerleagueukhub.com/teams/${data.team}`, "sport": "Football" },
     "affiliation": { "@type": "SportsTeam", "name": data.teamName, "sport": "Football" },
     "image": `https://ballerleagueukhub.com/og/managers/${slug}.png`,
@@ -111,7 +112,7 @@ const hasBackground = formerClubs.length > 0 || honours.length > 0;
 ) : (
   <Base
     title={`${data.name} — ${data.teamName} ${data.role} | Baller League UK`}
-    description={`${data.name} is the ${data.role.toLowerCase()} of ${data.teamName} in Baller League UK Season ${SEASON}. ${data.bio?.replace(/\n/g, ' ').trim().substring(0, 120)}...`}
+    description={`${isActive ? `${data.name} is the ${data.role.toLowerCase()} of ${data.teamName} in Baller League UK Season ${SEASON}.` : `${data.name} previously managed ${data.teamName} in Baller League UK.`} ${data.bio?.replace(/\n/g, ' ').trim().substring(0, 120)}...`}
     schema={schema}
     image={`/og/managers/${slug}.png`}
     keywords={`${data.name}, ${data.teamName}, Baller League UK manager, celebrity manager, ${data.role.toLowerCase()}`}
@@ -133,7 +134,9 @@ const hasBackground = formerClubs.length > 0 || honours.length > 0;
             </div>
             <div class="profile-hero-info">
               <div class="profile-eyebrow">
-                {data.role}{standing && standing.played > 0 ? ` · #${standing.pos} in league` : ''}
+                {isActive
+                  ? `${data.role}${standing && standing.played > 0 ? ` · #${standing.pos} in league` : ''}`
+                  : 'Former manager'}
               </div>
               <h1 class="profile-name">{data.name}</h1>
               <a href={`/teams/${data.team}`} class="profile-club">
@@ -186,7 +189,10 @@ const hasBackground = formerClubs.length > 0 || honours.length > 0;
           <aside class="profile-side">
             {standing && (
               <div class="profile-card">
-                <h2 class="profile-h2">{data.teamName} Record</h2>
+                <h2 class="profile-h2">{isActive ? `${data.teamName} Record` : `${data.teamName} today`}</h2>
+                {!isActive && (
+                  <p class="profile-note">Current club record — {data.name} is no longer in charge.</p>
+                )}
                 <dl class="profile-facts">
                   <div class="profile-fact"><dt>Wins</dt><dd>{standing.won}</dd></div>
                   <div class="profile-fact"><dt>Draws</dt><dd>{standing.drawn}</dd></div>
@@ -198,7 +204,7 @@ const hasBackground = formerClubs.length > 0 || honours.length > 0;
               </div>
             )}
 
-            {form.length > 0 && (
+            {isActive && form.length > 0 && (
               <div class="profile-card">
                 <h2 class="profile-h2">Recent Form</h2>
                 <div class="form-bar">
@@ -209,7 +215,7 @@ const hasBackground = formerClubs.length > 0 || honours.length > 0;
               </div>
             )}
 
-            {latestMatch && (
+            {isActive && latestMatch && (
               <div class="profile-card">
                 <h2 class="profile-h2">Latest Result</h2>
                 <a class="fixture-line" href={`/match/s${SEASON}-${matchSlug(latestMatch)}`}>
@@ -219,7 +225,7 @@ const hasBackground = formerClubs.length > 0 || honours.length > 0;
               </div>
             )}
 
-            {nextFixture && (
+            {isActive && nextFixture && (
               <div class="profile-card">
                 <h2 class="profile-h2">Next Fixture</h2>
                 <p class="fixture-line">{nextFixture.homeTeam} vs {nextFixture.awayTeam}</p>
@@ -227,7 +233,7 @@ const hasBackground = formerClubs.length > 0 || honours.length > 0;
               </div>
             )}
 
-            {rankedPlayers.length > 0 && (
+            {isActive && rankedPlayers.length > 0 && (
               <div class="profile-card">
                 <h2 class="profile-h2">Top Scorers</h2>
                 <div class="scorer-list">
@@ -254,6 +260,7 @@ const hasBackground = formerClubs.length > 0 || honours.length > 0;
 
 <style>
 .form-bar { display: flex; gap: 4px; flex-wrap: wrap; }
+.profile-note { font-size: 0.8rem; color: var(--text-muted); line-height: 1.5; margin-bottom: var(--space-sm); }
 .form-block { width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; border-radius: var(--radius-sm); font-size: 0.75rem; font-weight: 700; }
 .form-win { background: var(--green-glow); color: var(--green); }
 .form-draw { background: rgba(255,193,7,0.15); color: #ffc107; }

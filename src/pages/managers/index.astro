@@ -18,6 +18,11 @@ const groups = standings.map((s) => {
 });
 const totalManagers = groups.reduce((n, g) => n + g.managers.length, 0);
 
+// Former managers keep a profile page, but are not part of the current line-up.
+const formerManagers = managers
+  .filter((m) => m.data.active === false)
+  .sort((a, b) => a.data.name.localeCompare(b.data.name));
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
@@ -92,6 +97,24 @@ const schema = {
         );
       })}
     </div>
+
+    {formerManagers.length > 0 && (
+      <section class="former-managers">
+        <h2 class="former-title">Former Baller League UK managers</h2>
+        <p class="former-intro">
+          These managers previously led a Baller League UK club. Their profiles cover their spell in charge,
+          their football background and how their old club is doing now.
+        </p>
+        <ul class="former-grid">
+          {formerManagers.map((m) => (
+            <li class="former-card">
+              <a href={`/managers/${m.slug}`} class="former-name">{m.data.name}</a>
+              <span class="former-team">{m.data.teamName}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
   </div>
 </Base>
 
@@ -116,6 +139,15 @@ const schema = {
 .manager-card-team { font-size: 0.9rem; color: var(--text-secondary); font-weight: 600; margin-bottom: var(--space-xs); }
 .manager-card-pos { font-size: 0.85rem; color: var(--text-muted); }
 .manager-card-pos .badge { margin-right: 4px; }
+
+.former-managers { margin-top: var(--space-2xl); }
+.former-title { font-family: var(--font-display); font-size: 1.5rem; color: var(--text-primary); margin-bottom: var(--space-sm); }
+.former-intro { max-width: 820px; color: var(--text-secondary); line-height: 1.8; margin-bottom: var(--space-lg); }
+.former-grid { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: var(--space-md); }
+.former-card { border: 1px solid var(--border); border-radius: var(--radius-sm); padding: var(--space-md); background: var(--bg-card); }
+.former-name { font-family: var(--font-display); font-size: 1.05rem; color: var(--text-primary); transition: color var(--transition); }
+.former-name:hover { color: var(--green); }
+.former-team { display: block; font-size: 0.8rem; color: var(--text-muted); margin-top: 4px; }
 
 @media (max-width: 640px) {
   .managers-grid { grid-template-columns: 1fr 1fr; }
