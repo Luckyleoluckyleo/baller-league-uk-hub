@@ -3,6 +3,8 @@
 import Base from '../../layouts/Base.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import { getCollection } from 'astro:content';
+import { existsSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
 import gcData from '../../data/gamechangers.json';
 import { CURRENT_SEASON } from '../../lib/league';
 
@@ -100,7 +102,14 @@ const formattedUpdated = updatedDate?.toLocaleDateString('en-GB', {
 });
 
 const siteBase = (Astro.site ?? new URL('https://ballerleagueukhub.com')).toString().replace(/\/$/, '');
-const ogImageUrl = `${siteBase}/og/${article.slug}.png`;
+
+// Only match reports get a generated per-article OG image. Editorial articles
+// fall back to the default card so the meta tag never points at a 404.
+const hasOgImage = existsSync(
+  fileURLToPath(new URL(`../../../public/og/${article.slug}.png`, import.meta.url))
+);
+const ogImagePath = hasOgImage ? `/og/${article.slug}.png` : '/og-default.png';
+const ogImageUrl = `${siteBase}${ogImagePath}`;
 
 const schema = {
   "@context": "https://schema.org",
@@ -132,7 +141,7 @@ const catClass =
 <Base
   title={`${data.title} – Baller League UK`}
   description={data.excerpt}
-  image={`/og/${article.slug}.png`}
+  image={ogImagePath}
   type="article"
   schema={schema}
       noindex={noindexArticle}
