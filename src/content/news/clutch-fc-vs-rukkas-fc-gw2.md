@@ -1,5 +1,5 @@
 ---
-title: "P17 FC Claim 5-7 Win Over Clutch FC in GW2"
+title: "P17 FC See Off Clutch FC 5-7 in Gameweek 2"
 date: 2026-10-19
 category: "Match Report"
 excerpt: "Clutch FC 5-7 P17 FC — Gameweek 2 match report. Alex Byrne (5 goals) leads Clutch FC's attack. Game Changers: 3Play (5) & 1-on-1 (2). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,9 +9,9 @@ featured: true
 
 ## Match Summary — Clutch FC 5-7 P17 FC
 
-The Gameweek 2 spotlight fell on Baller Arena for **Clutch FC** versus **P17 FC** — a pulsating encounter that had fans on the edge of their seats from the first whistle to the last.
+Football took center stage at Baller Arena when **Clutch FC** met **P17 FC** in a breathtaking goal-fest.
 
-Clutch FC came in occupying a coveted playoff spot at 3rd, while P17 FC were desperate to crash the party. When the dust settled, it was **P17 FC** who emerged **5-7** victors. The Game Changer window — **3Play** and **1-on-1** — proved pivotal, contributing **7** of the match's **12** goals.
+Clutch FC, sitting pretty in the Final Four places at 3rd, knew a win here would tighten their grip. When the dust settled, it was **P17 FC** who emerged **5-7** victors. The Game Changer window — **3Play** and **1-on-1** — proved pivotal, contributing **7** of the match's **12** goals.
 
 **Clutch FC form (before GW2):** ✅ (W)  
 **P17 FC form (before GW2):** ✅ (W)
@@ -29,11 +29,11 @@ Clutch FC came in occupying a coveted playoff spot at 3rd, while P17 FC were des
 
 ### First Half
 
-Twelve minutes in and the **3Play** Game Changer came alive, reshaping the contest entirely — the result was chaos, in the best possible way. **5** goals poured in as both sides abandoned any defensive caution. P17 FC held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
+The first half sprang into life at the 12-minute mark with the **3Play** Game Changer flicking the switch — and the floodgates opened with **5** goals flying in, the crowd barely able to keep up with the relentless action. P17 FC controlled the tempo and carried a deserved lead into the interval, their composure and cutting edge proving the difference.
 
 ### Second Half
 
-The tension was palpable at the restart, and the **1-on-1** Game Changer at 27 minutes only dialled it up — and it delivered **2** goals at just the right moment to breathe fresh life into the match. It was edge-of-your-seat stuff in the closing minutes. Clutch FC pressed and probed, but P17 FC's back-line stood firm — resilient, organised, and ultimately heroic. The **12-goal** spectacle was the kind of match that Baller League was built for — pure, unfiltered entertainment.
+After the restart, the **1-on-1** Game Changer detonated at the 27th minute, turning the dial up to eleven — and it delivered **2** goals at just the right moment to breathe fresh life into the match. The final exchanges were fraught with tension. Clutch FC threw everything forward in search of a route back, but P17 FC held their nerve, defending with grit and intelligence to protect what they had. The **12-goal** spectacle was the kind of match that Baller League was built for — pure, unfiltered entertainment.
 
 ---
 
@@ -41,18 +41,18 @@ The tension was palpable at the restart, and the **1-on-1** Game Changer at 27 m
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **4′** — **Amin Belaid** (P17 FC) drew first blood
+- **4′** — **Amin Belaid** (P17 FC) opened the scoring
 - **10′** — **Ciaran Clark** (P17 FC) scored
-- **12′** — **Alex Byrne** (Clutch FC) fired home
+- **12′** — **Alex Byrne** (Clutch FC) scored
 - **12′** — **Tyler Winters** (Clutch FC) scored
-- **13′** — **Tom Bender** (P17 FC) found the target
-- **13′** — **Steven Kodra** (P17 FC) struck
-- **14′** — **Tyler Winters** (Clutch FC) netted
-- **23′** — **Dajon Golding** (P17 FC) netted
-- **25′** — **Joshua Sumbunu** (Clutch FC) netted
-- **26′** — **Amin Belaid** (P17 FC) netted
-- **28′** — **Steven Kodra** (P17 FC) scored
-- **28′** — **Tyler Winters** (Clutch FC) found the target
+- **13′** — **Tom Bender** (P17 FC) netted
+- **13′** — **Steven Kodra** (P17 FC) netted
+- **14′** — **Tyler Winters** (Clutch FC) found the target
+- **23′** — **Dajon Golding** (P17 FC) struck
+- **25′** — **Joshua Sumbunu** (Clutch FC) struck
+- **26′** — **Amin Belaid** (P17 FC) found the target
+- **28′** — **Steven Kodra** (P17 FC) struck
+- **28′** — **Tyler Winters** (Clutch FC) netted
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -84,6 +84,8 @@ The **3Play** activation was particularly devastating, producing **5** goals tha
 | 2nd Half (27′) | 1-on-1 | 2 |
 | **Total** | | **7** |
 
+
+**What those rules mean:** [3Play rules](/news/baller-league-game-changers-explained#gc-3play) · [1-on-1 rules](/news/baller-league-game-changers-explained#gc-1on1). Read the [full rules](/rules#gamechanger) or the [Game Changer explainer](/news/baller-league-game-changers-explained).
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "SDS FC Cruise Past VZN FC in 1-5 Rout — GW2"
+title: "SDS FC Overpower VZN FC 1-5 in Dominant Display — GW2"
 date: 2026-10-19
 category: "Match Report"
 excerpt: "VZN FC 1-5 SDS FC — Gameweek 2 match report. Florian Kastrati (2 goals) leads VZN FC's attack. Game Changers: 3Play (2) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — VZN FC 1-5 SDS FC
 
-The Gameweek 2 spotlight fell on Baller Arena for **VZN FC** versus **SDS FC** — a compelling advert for Baller League football — competitive, dramatic, and hard-fought.
+Gameweek 2 delivered fireworks at Baller Arena with **VZN FC** taking on **SDS FC** in a match that ebbed and flowed, keeping everyone guessing until the final whistle.
 
 When the dust settled, it was **SDS FC** who emerged **1-5** victors. The Game Changer window — **3Play** and **Fairplay** — proved pivotal, contributing **3** of the match's **6** goals.
 
@@ -29,11 +29,11 @@ When the dust settled, it was **SDS FC** who emerged **1-5** victors. The Game C
 
 ### First Half
 
-Barely a dozen minutes had passed when **3Play** transformed the match into something altogether different — the period yielded **2** goals, just enough to set the contest alight. SDS FC simply blew VZN FC away in a devastating opening period, sending a powerful message to everyone watching.
+The game's complexion changed at the 12th minute when the **3Play** Game Changer activated — a **2-goal** window that gave the half an electric pulse. SDS FC were absolutely rampant, carving VZN FC open at will. By the break, they had built an intimidating lead that felt insurmountable.
 
 ### Second Half
 
-The tension was palpable at the restart, and the **Fairplay** Game Changer at 27 minutes only dialled it up — the **1** goal it produced came at a crucial juncture, swinging momentum decisively. SDS FC managed the occasion expertly, balancing attacking ambition with game-control to see out a thoroughly deserved victory.
+After the restart, the **Fairplay** Game Changer detonated at the 27th minute, turning the dial up to eleven — and it delivered **1** goal at just the right moment to breathe fresh life into the match. SDS FC managed the occasion expertly, balancing attacking ambition with game-control to see out a thoroughly deserved victory.
 
 ---
 
@@ -41,12 +41,12 @@ The tension was palpable at the restart, and the **Fairplay** Game Changer at 27
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **7′** — **Ergys Pepaj** (SDS FC) broke the deadlock
-- **13′** — **Florian Kastrati** (VZN FC) converted
-- **14′** — **Kazaiah Sterling** (SDS FC) netted
-- **26′** — **Amine Sassi** (SDS FC) fired home
-- **26′** — **Joshua Raymond Bohui** (SDS FC) fired home
-- **28′** — **Kazaiah Sterling** (SDS FC) slotted
+- **7′** — **Ergys Pepaj** (SDS FC) drew first blood
+- **13′** — **Florian Kastrati** (VZN FC) scored
+- **14′** — **Kazaiah Sterling** (SDS FC) struck
+- **26′** — **Amine Sassi** (SDS FC) scored
+- **26′** — **Joshua Raymond Bohui** (SDS FC) struck
+- **28′** — **Kazaiah Sterling** (SDS FC) struck
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -72,6 +72,8 @@ The **3Play** window was the more impactful, its **2** goals shifting the balanc
 | 2nd Half (27′) | Fairplay | 1 |
 | **Total** | | **3** |
 
+
+**What those rules mean:** [3Play rules](/news/baller-league-game-changers-explained#gc-3play) · [Fairplay rules](/news/baller-league-game-changers-explained#gc-fairplay). Read the [full rules](/rules#gamechanger) or the [Game Changer explainer](/news/baller-league-game-changers-explained).
 
 ---
 

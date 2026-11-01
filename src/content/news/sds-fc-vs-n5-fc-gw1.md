@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — SDS FC 2-2 N5 FC
 
-A pivotal Gameweek 1 encounter saw **SDS FC** go head-to-head with **N5 FC** in a compelling advert for Baller League football — competitive, dramatic, and hard-fought.
+Football took center stage at Baller Arena when **SDS FC** met **N5 FC** in a thoroughly entertaining contest with plenty of talking points.
 
 The final whistle confirmed a **2-2 draw**, a result that felt about right in a match where both sides gave everything. The Game Changer window — **Onside** and **The Line** — proved pivotal, contributing **1** of the match's **4** goals.
 
@@ -28,11 +28,11 @@ The final whistle confirmed a **2-2 draw**, a result that felt about right in a 
 
 ### First Half
 
-Twelve minutes in and the **Onside** Game Changer came alive, reshaping the contest entirely — the period yielded **1** goal, just enough to set the contest alight. The two sides trudged off level at the break — nothing separating them in what was shaping up to be a classic arm-wrestle.
+At the 12th minute, the **Onside** Game Changer roared into action — a **1-goal** window that gave the half an electric pulse. By the interval it was impossible to call a winner. The contest was beautifully balanced, with everything still to play for.
 
 ### Second Half
 
-The second half resumed with all to play for, and at the 27-minute mark the **The Line** Game Changer cranked up the intensity once more — yet both sides held their nerve superbly through the rule change, refusing to blink. Late drama threatened but never materialised, both teams having to accept a point apiece in what felt like a war of attrition.
+The 27th minute brought the **The Line** Game Changer thundering into the match — a moment that would prove pivotal — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. Both sides strained every sinew for a winner but the decisive blow never landed. A draw was the fairest outcome in a match where no team deserved to lose.
 
 ---
 
@@ -40,10 +40,10 @@ The second half resumed with all to play for, and at the 27-minute mark the **Th
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **13′** — **Francis Amartey** (N5 FC) broke the deadlock
-- **18′** — **Hani Berchiche** (N5 FC) fired home
-- **21′** — **Youssef Chentouf** (SDS FC) found the target
-- **22′** — **Kazaiah Sterling** (SDS FC) scored
+- **13′** — **Francis Amartey** (N5 FC) opened the scoring
+- **18′** — **Hani Berchiche** (N5 FC) struck
+- **21′** — **Youssef Chentouf** (SDS FC) netted
+- **22′** — **Kazaiah Sterling** (SDS FC) found the target
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -67,6 +67,8 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 | 2nd Half (27′) | The Line | 0 |
 | **Total** | | **1** |
 
+
+**What those rules mean:** [Onside rules](/news/baller-league-game-changers-explained#gc-onside) · [The Line rules](/news/baller-league-game-changers-explained#gc-theline). Read the [full rules](/rules#gamechanger) or the [Game Changer explainer](/news/baller-league-game-changers-explained).
 
 ---
 

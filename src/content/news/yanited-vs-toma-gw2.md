@@ -1,5 +1,5 @@
 ---
-title: "RTG FC and Toma Share 6-6 Goal Fest in GW2"
+title: "RTG FC and Toma Play Out 6-6 Classic in Gameweek 2"
 date: 2026-10-19
 category: "Match Report"
 excerpt: "RTG FC 6-6 Toma — Gameweek 2 match report. Kadell Daniel (5 goals) leads RTG FC's attack. Game Changers: Onside (0) & 1-on-1 (4). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,7 +9,7 @@ featured: true
 
 ## Match Summary — RTG FC 6-6 Toma
 
-Football took center stage at Baller Arena when **RTG FC** met **Toma** in a scoring bonanza that had the crowd on their feet — and somehow still ended level.
+The lights were bright at Baller Arena on Gameweek 2, where **RTG FC** and **Toma** served up a breathtaking stalemate that somehow had no winner but absolutely no shortage of entertainment.
 
 The final whistle confirmed a **6-6 draw** in a contest that had absolutely everything — goals, drama, and relentless entertainment. The Game Changer window — **Onside** and **1-on-1** — proved pivotal, contributing **4** of the match's **12** goals.
 
@@ -29,11 +29,11 @@ The final whistle confirmed a **6-6 draw** in a contest that had absolutely ever
 
 ### First Half
 
-The game's complexion changed at the 12th minute when the **Onside** Game Changer activated — yet for all the altered rules, the defences stood tall and the deadlock remained stubbornly intact. The two sides trudged off level at the break — nothing separating them in what was shaping up to be a classic arm-wrestle.
+The game's complexion changed at the 12th minute when the **Onside** Game Changer activated — but remarkably, neither side could find the net. A tactical stalemate that owed as much to disciplined defending as to the specific rule change. By the interval it was impossible to call a winner. The contest was beautifully balanced, with everything still to play for.
 
 ### Second Half
 
-After the restart, the **1-on-1** Game Changer detonated at the 27th minute, turning the dial up to eleven — the defensive discipline of the first half evaporated as **4** goals thundered in during the activation. Late drama threatened but never materialised, both teams having to accept a point apiece in what felt like a war of attrition. This was Baller League at its most chaotic and brilliant — **12** goals, endless drama, and a match nobody in attendance will forget in a hurry.
+The 27th minute brought the **1-on-1** Game Changer thundering into the match — a moment that would prove pivotal — once again the goals rained down, **4** of them, raw and relentless. Both sides strained every sinew for a winner but the decisive blow never landed. A draw was the fairest outcome in a match where no team deserved to lose. The **12-goal** spectacle was the kind of match that Baller League was built for — pure, unfiltered entertainment.
 
 ---
 
@@ -41,18 +41,18 @@ After the restart, the **1-on-1** Game Changer detonated at the 27th minute, tur
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **7′** — **Joshua Phillips** (Toma) opened the scoring
-- **7′** — **Tyrell Miller-Rodney** (RTG FC) fired home
+- **7′** — **Joshua Phillips** (Toma) drew first blood
+- **7′** — **Tyrell Miller-Rodney** (RTG FC) found the target
 - **9′** — **Alfie Cerulli** (RTG FC) found the target
-- **9′** — **Arezki Hamouchene** (Toma) found the target
+- **9′** — **Arezki Hamouchene** (Toma) scored
 - **16′** — **Arezki Hamouchene** (Toma) scored
-- **18′** — **Dan Wishart** (RTG FC) converted
-- **19′** — **Kadell Daniel** (RTG FC) fired home
-- **24′** — **Praise Ogbebor** (Toma) converted
-- **27′** — **Junior Dixon** (Toma) scored
-- **27′** — **Kadell Daniel** (RTG FC) found the target
+- **18′** — **Dan Wishart** (RTG FC) scored
+- **19′** — **Kadell Daniel** (RTG FC) struck
+- **24′** — **Praise Ogbebor** (Toma) struck
+- **27′** — **Junior Dixon** (Toma) netted
 - **27′** — **Kadell Daniel** (RTG FC) netted
-- **29′** — **Junior Dixon** (Toma) converted
+- **27′** — **Kadell Daniel** (RTG FC) scored
+- **29′** — **Junior Dixon** (Toma) struck
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -84,6 +84,8 @@ The **1-on-1** window was the more impactful, its **4** goals shifting the balan
 | 2nd Half (27′) | 1-on-1 | 4 |
 | **Total** | | **4** |
 
+
+**What those rules mean:** [Onside rules](/news/baller-league-game-changers-explained#gc-onside) · [1-on-1 rules](/news/baller-league-game-changers-explained#gc-1on1). Read the [full rules](/rules#gamechanger) or the [Game Changer explainer](/news/baller-league-game-changers-explained).
 
 ---
 

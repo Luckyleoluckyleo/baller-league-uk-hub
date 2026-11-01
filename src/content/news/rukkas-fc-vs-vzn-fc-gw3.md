@@ -1,5 +1,5 @@
 ---
-title: "P17 FC Too Strong for VZN FC in 5-1 Victory — GW3"
+title: "P17 FC Cruise Past VZN FC in 5-1 Rout — GW3"
 date: 2026-10-26
 category: "Match Report"
 excerpt: "P17 FC 5-1 VZN FC — Gameweek 3 match report. Amin Belaid (7 goals) leads P17 FC's attack. Game Changers: Onside (2) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,7 +9,7 @@ featured: false
 
 ## Match Summary — P17 FC 5-1 VZN FC
 
-All roads led to Baller Arena for Gameweek 3, where **P17 FC** and **VZN FC** produced a compelling advert for Baller League football — competitive, dramatic, and hard-fought.
+Football took center stage at Baller Arena when **P17 FC** met **VZN FC** in a thoroughly entertaining contest with plenty of talking points.
 
 P17 FC, sitting pretty in the Final Four places at 2nd, knew a win here would tighten their grip. When the dust settled, it was **P17 FC** who emerged **5-1** victors. The Game Changer window — **Onside** and **The Line** — proved pivotal, contributing **3** of the match's **6** goals.
 
@@ -29,11 +29,11 @@ P17 FC, sitting pretty in the Final Four places at 2nd, knew a win here would ti
 
 ### First Half
 
-Twelve minutes in and the **Onside** Game Changer came alive, reshaping the contest entirely — a **2-goal** window that gave the half an electric pulse. P17 FC were absolutely rampant, carving VZN FC open at will. By the break, they had built an intimidating lead that felt insurmountable.
+The game's complexion changed at the 12th minute when the **Onside** Game Changer activated — a **2-goal** window that gave the half an electric pulse. P17 FC were absolutely rampant, carving VZN FC open at will. By the break, they had built an intimidating lead that felt insurmountable.
 
 ### Second Half
 
-If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **The Line** entered the fray — and it delivered **1** goal at just the right moment to breathe fresh life into the match. The scoreboard didn't flatter P17 FC — they were simply better in every department, and VZN FC had no complaints.
+After the restart, the **The Line** Game Changer detonated at the 27th minute, turning the dial up to eleven — and it delivered **1** goal at just the right moment to breathe fresh life into the match. P17 FC managed the occasion expertly, balancing attacking ambition with game-control to see out a thoroughly deserved victory.
 
 ---
 
@@ -42,11 +42,11 @@ If the first half was intriguing, the second was about to become unmissable. At 
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **8′** — **Danny Bassett** (VZN FC) opened the scoring
-- **13′** — **Dajon Golding** (P17 FC) struck
-- **14′** — **Amin Belaid** (P17 FC) slotted
-- **23′** — **Amin Belaid** (P17 FC) slotted
-- **24′** — **Steven Kodra** (P17 FC) found the target
-- **29′** — **Steven Kodra** (P17 FC) netted
+- **13′** — **Dajon Golding** (P17 FC) scored
+- **14′** — **Amin Belaid** (P17 FC) netted
+- **23′** — **Amin Belaid** (P17 FC) scored
+- **24′** — **Steven Kodra** (P17 FC) struck
+- **29′** — **Steven Kodra** (P17 FC) scored
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -73,13 +73,15 @@ The **Onside** window was the more impactful, its **2** goals shifting the balan
 | **Total** | | **3** |
 
 
+**What those rules mean:** [Onside rules](/news/baller-league-game-changers-explained#gc-onside) · [The Line rules](/news/baller-league-game-changers-explained#gc-theline). Read the [full rules](/rules#gamechanger) or the [Game Changer explainer](/news/baller-league-game-changers-explained).
+
 ---
 
 ## Match Performers
 
 ### P17 FC
 
-The standout for P17 FC was undoubtedly **Amin Belaid**, whose **2-goal** haul was the foundation of everything good about their display.
+**Amin Belaid** was P17 FC's standout performer, bagging **2 goals** in a display of clinical finishing that powered his side's effort.
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|

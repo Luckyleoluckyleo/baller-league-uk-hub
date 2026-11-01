@@ -9,7 +9,7 @@ featured: true
 
 ## Match Summary — NDL FC 4-6 P17 FC
 
-The Gameweek 1 spotlight fell on Baller Arena for **NDL FC** versus **P17 FC** — a rollercoaster of emotions that had everything you could want from a Baller League match.
+Football took center stage at Baller Arena when **NDL FC** met **P17 FC** in an unforgettable thriller packed with drama and goals.
 
 When the dust settled, it was **P17 FC** who emerged **4-6** victors. The Game Changer window — **Plus One** and **1-on-1** — proved pivotal, contributing **7** of the match's **10** goals.
 
@@ -28,11 +28,11 @@ When the dust settled, it was **P17 FC** who emerged **4-6** victors. The Game C
 
 ### First Half
 
-At the 12th minute, the **Plus One** Game Changer roared into action — a **2-goal** window that gave the half an electric pulse. P17 FC held the upper hand at the break, having shown just enough quality to edge ahead in a closely-fought half.
+The game's complexion changed at the 12th minute when the **Plus One** Game Changer activated — a **2-goal** window that gave the half an electric pulse. P17 FC controlled the tempo and carried a deserved lead into the interval, their composure and cutting edge proving the difference.
 
 ### Second Half
 
-If the first half was intriguing, the second was about to become unmissable. At 27 minutes, **1-on-1** entered the fray — once again the goals rained down, **5** of them, raw and relentless. It was edge-of-your-seat stuff in the closing minutes. NDL FC pressed and probed, but P17 FC's back-line stood firm — resilient, organised, and ultimately heroic. This was Baller League at its most chaotic and brilliant — **10** goals, endless drama, and a match nobody in attendance will forget in a hurry.
+The second half resumed with all to play for, and at the 27-minute mark the **1-on-1** Game Changer cranked up the intensity once more — and the mayhem resumed. **5** more goals erupted during the window, transforming the contest into a full-blown classic. The final exchanges were fraught with tension. NDL FC threw everything forward in search of a route back, but P17 FC held their nerve, defending with grit and intelligence to protect what they had. The **10-goal** spectacle was the kind of match that Baller League was built for — pure, unfiltered entertainment.
 
 ---
 
@@ -41,15 +41,15 @@ If the first half was intriguing, the second was about to become unmissable. At 
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **2′** — **Amin Belaid** (P17 FC) drew first blood
-- **12′** — **Dajon Golding** (P17 FC) struck
-- **14′** — **Amin Belaid** (P17 FC) scored
-- **16′** — **Amin Belaid** (P17 FC) slotted
-- **26′** — **Josh Parker** (NDL FC) fired home
+- **12′** — **Dajon Golding** (P17 FC) netted
+- **14′** — **Amin Belaid** (P17 FC) netted
+- **16′** — **Amin Belaid** (P17 FC) found the target
+- **26′** — **Josh Parker** (NDL FC) scored
 - **27′** — **Sam Fitzgerald** (NDL FC) struck
-- **27′** — **Sam Fitzgerald** (NDL FC) slotted
+- **27′** — **Sam Fitzgerald** (NDL FC) netted
 - **27′** — **Steven Kodra** (P17 FC) found the target
-- **28′** — **Sam Fitzgerald** (NDL FC) found the target
-- **28′** — **Steven Kodra** (P17 FC) fired home
+- **28′** — **Sam Fitzgerald** (NDL FC) netted
+- **28′** — **Steven Kodra** (P17 FC) found the target
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -80,6 +80,8 @@ The **1-on-1** activation was particularly devastating, producing **5** goals th
 | **Total** | | **7** |
 
 
+**What those rules mean:** [Plus One rules](/news/baller-league-game-changers-explained#gc-plus-one) · [1-on-1 rules](/news/baller-league-game-changers-explained#gc-1on1). Read the [full rules](/rules#gamechanger) or the [Game Changer explainer](/news/baller-league-game-changers-explained).
+
 ---
 
 ## Match Performers
@@ -95,7 +97,7 @@ The **1-on-1** activation was particularly devastating, producing **5** goals th
 
 ### P17 FC
 
-P17 FC had **Amin Belaid** to thank, the forward delivering a **3-goal** performance of the highest calibre.
+**Amin Belaid** led the charge for P17 FC, his **3 goals** a testament to the kind of ruthless finishing that makes him a nightmare for opposing defences.
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|

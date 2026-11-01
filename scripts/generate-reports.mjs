@@ -45,7 +45,26 @@ const players = playerData.players;
 
 // ─── Helpers ───────────────────────────────────────────────────
 
-function pick(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
+// Deterministic PRNG: regenerating a report must produce identical prose.
+// With Math.random() every pipeline run rewrites all narratives, which turns
+// the weekly bot commit into noise and makes diffs impossible to review.
+let rng = Math.random;
+
+function seedRng(seed) {
+  let h = 2166136261 >>> 0;
+  for (let i = 0; i < seed.length; i++) {
+    h ^= seed.charCodeAt(i);
+    h = Math.imul(h, 16777619) >>> 0;
+  }
+  rng = () => {
+    h ^= h << 13; h >>>= 0;
+    h ^= h >> 17;
+    h ^= h >>> 5;
+    return h / 4294967296;
+  };
+}
+
+function pick(arr) { return arr[Math.floor(rng() * arr.length)]; }
 
 function getTopScorers(teamSlug, limit = 5) {
   const squad = players.filter(p => p.teamSlug === teamSlug && (p.seasons?.[statsSeason]?.goals || 0) > 0);
@@ -181,6 +200,24 @@ function gcName(type) {
     unknown: "Game Changer",
   };
   return map[type] || type;
+}
+
+// Anchor ids on the Game Changers explainer, so each report can link the
+// activations it mentions to the rule that explains them.
+const GC_EXPLAINER = "/news/baller-league-game-changers-explained";
+
+const GC_ANCHORS = {
+  "Onside": "gc-onside",
+  "Plus One": "gc-plus-one",
+  "3Play": "gc-3play",
+  "1-on-1": "gc-1on1",
+  "The Line": "gc-theline",
+  "Fairplay": "gc-fairplay",
+};
+
+function gcRuleLink(label) {
+  const anchor = GC_ANCHORS[label];
+  return anchor ? `[${label} rules](${GC_EXPLAINER}#${anchor})` : null;
 }
 
 function teamGoals(teamSlug) {
@@ -589,6 +626,11 @@ function gcAnalysis(gc1, gc2, gc1g, gc2g, totalGoals, home, away, hs, as) {
   analysis += `| 2nd Half (27′) | ${gc2} | ${gc2g} |\n`;
   analysis += `| **Total** | | **${gcTotal}** |\n`;
 
+  const ruleLinks = [...new Set([gc1, gc2].map(gcRuleLink).filter(Boolean))];
+  if (ruleLinks.length) {
+    analysis += `\n\n**What those rules mean:** ${ruleLinks.join(" · ")}. Read the [full rules](/rules#gamechanger) or the [Game Changer explainer](${GC_EXPLAINER}).`;
+  }
+
   return analysis;
 }
 
@@ -968,6 +1010,7 @@ function titleVariations(home, away, hs, as, gw, winner, loser, margin) {
 // ─── Report Generator ─────────────────────────────────────────
 
 function generateReport(match) {
+  seedRng(`${match.homeSlug}-vs-${match.awaySlug}-gw${match.gameweek}`);
   statsSeason = seasonOfGame[match.gameId] || targetSeason || "3";
   const home = match.homeTeam;
   const away = match.awayTeam;

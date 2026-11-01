@@ -1,5 +1,5 @@
 ---
-title: "Prime FC and Toma Play Out 4-4 Classic in Gameweek 3"
+title: "Prime FC and Toma Share 4-4 Goal Fest in GW3"
 date: 2026-10-26
 category: "Match Report"
 excerpt: "Prime FC 4-4 Toma — Gameweek 3 match report. Timmy Abraham (4 goals) leads Prime FC's attack. Game Changers: Onside (0) & Fairplay (2). Read the full match report, player stats, table impact and head-to-head analysis."
@@ -9,9 +9,9 @@ featured: false
 
 ## Match Summary — Prime FC 4-4 Toma
 
-The lights were bright at Baller Arena on Gameweek 3, where **Prime FC** and **Toma** served up an end-to-end classic where neither side deserved to walk away empty-handed.
+Gameweek 3 delivered fireworks at Baller Arena with **Prime FC** taking on **Toma** in an end-to-end classic where neither side deserved to walk away empty-handed.
 
-Prime FC came in occupying a coveted playoff spot at 4th, while Toma were desperate to crash the party. The final whistle confirmed a **4-4 draw** in a contest that had absolutely everything — goals, drama, and relentless entertainment. The Game Changer window — **Onside** and **Fairplay** — proved pivotal, contributing **2** of the match's **8** goals.
+Prime FC, sitting pretty in the Final Four places at 4th, knew a win here would tighten their grip. The final whistle confirmed a **4-4 draw** in a contest that had absolutely everything — goals, drama, and relentless entertainment. The Game Changer window — **Onside** and **Fairplay** — proved pivotal, contributing **2** of the match's **8** goals.
 
 **Prime FC form (before GW3):** ✅ ❌ (W-L)  
 **Toma form (before GW3):** 🤝 ❌ (D-L)
@@ -29,11 +29,11 @@ Prime FC came in occupying a coveted playoff spot at 4th, while Toma were desper
 
 ### First Half
 
-At the 12th minute, the **Onside** Game Changer roared into action — yet for all the altered rules, the defences stood tall and the deadlock remained stubbornly intact. The two sides trudged off level at the break — nothing separating them in what was shaping up to be a classic arm-wrestle.
+The game's complexion changed at the 12th minute when the **Onside** Game Changer activated — but remarkably, neither side could find the net. A tactical stalemate that owed as much to disciplined defending as to the specific rule change. By the interval it was impossible to call a winner. The contest was beautifully balanced, with everything still to play for.
 
 ### Second Half
 
-The second half resumed with all to play for, and at the 27-minute mark the **Fairplay** Game Changer cranked up the intensity once more — and it delivered **2** goals at just the right moment to breathe fresh life into the match. Both sides strained every sinew for a winner but the decisive blow never landed. A draw was the fairest outcome in a match where no team deserved to lose.
+After the restart, the **Fairplay** Game Changer detonated at the 27th minute, turning the dial up to eleven — and it delivered **2** goals at just the right moment to breathe fresh life into the match. Both sides strained every sinew for a winner but the decisive blow never landed. A draw was the fairest outcome in a match where no team deserved to lose.
 
 ---
 
@@ -42,11 +42,11 @@ The second half resumed with all to play for, and at the 27-minute mark the **Fa
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **3′** — **Yasin Ben El-Mhanni** (Toma) opened the scoring
-- **9′** — **Kyron McKay** (Toma) netted
-- **17′** — **Timmy Abraham** (Prime FC) found the target
-- **17′** — **Charlie James Pavey** (Toma) fired home
+- **9′** — **Kyron McKay** (Toma) struck
+- **17′** — **Timmy Abraham** (Prime FC) netted
+- **17′** — **Charlie James Pavey** (Toma) struck
 - **21′** — **Salim Nassor** (Prime FC) netted
-- **26′** — **Salim Nassor** (Prime FC) netted
+- **26′** — **Salim Nassor** (Prime FC) found the target
 - **27′** — **Francis Mampolo** (Prime FC) struck
 - **29′** — **Joshua Rusoke** (Prime FC) scored
 
@@ -77,13 +77,15 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 | **Total** | | **2** |
 
 
+**What those rules mean:** [Onside rules](/news/baller-league-game-changers-explained#gc-onside) · [Fairplay rules](/news/baller-league-game-changers-explained#gc-fairplay). Read the [full rules](/rules#gamechanger) or the [Game Changer explainer](/news/baller-league-game-changers-explained).
+
 ---
 
 ## Match Performers
 
 ### Prime FC
 
-The standout for Prime FC was undoubtedly **Salim Nassor**, whose **2-goal** haul was the foundation of everything good about their display.
+**Salim Nassor** was Prime FC's standout performer, bagging **2 goals** in a display of clinical finishing that powered his side's effort.
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
