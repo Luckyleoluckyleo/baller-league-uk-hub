@@ -8,6 +8,7 @@
     "build": "astro build && node scripts/generate-redirects.mjs && node scripts/generate-sitemap.mjs",
     "preview": "astro preview",
     "fixtures": "node scripts/scrape-fixtures.mjs",
+    "guide": "node scripts/generate-season-guide.mjs",
     "update": "node scripts/update.mjs",
     "video": "node scripts/generate-video.mjs"
   },

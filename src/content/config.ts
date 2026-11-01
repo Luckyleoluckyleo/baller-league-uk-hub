@@ -62,6 +62,7 @@ const newsCollection = defineCollection({
   schema: z.object({
     title:    z.string(),
     date:     z.date(),
+    updated:  z.date().optional(),   // last substantive refresh (drives dateModified + sitemap lastmod)
     category: z.string(),
     excerpt:  z.string(),
     author:   z.string().default('Baller League UK Hub'),

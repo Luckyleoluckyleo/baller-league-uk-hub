@@ -1,8 +1,9 @@
 ---
 title: "Baller League UK Season 4: Everything You Need to Know"
 date: 2026-10-19
+updated: 2026-10-26
 category: "Announcement"
-excerpt: "Season 4 is live. Gameweek 1 results, the current table, Gameweek 2 fixtures, all 12 teams and managers, the Baller League Arena and how to get tickets — updated after every matchday."
+excerpt: "Season 4 is live — latest results, the current table, upcoming fixtures, all 12 teams and managers, the Baller League Arena and how to get tickets, updated automatically after every matchday."
 author: "Baller League UK Hub"
 featured: true
 ---
@@ -13,7 +14,9 @@ Baller League UK's fourth season is under way, having kicked off on **Monday 12 
 
 This is the season the league has been building towards, with more matches, closer access to the action and a stacked line-up of celebrity managers and former professionals.
 
-*Last updated: 19 October 2026, after Gameweek 1.*
+<!-- AUTO:last-updated -->
+*Last updated: Monday 26 October 2026, after Gameweek 3.*
+<!-- /AUTO:last-updated -->
 
 ## Season 4 at a glance
 
@@ -33,52 +36,62 @@ Every Monday night, six live matches kick off between **17:15 and 21:50**. As al
 
 New for Season 4, **each team can select two wildcard players per matchday**, meaning squads can be shuffled week to week. Expect former Premier League players, internationals, non-league standouts and some surprise names.
 
-## Gameweek 1 results
+<!-- AUTO:results -->
+## Latest results — Gameweek 3
 
-The opening night produced 48 goals across six matches. **Deportrio** set the early pace with a 9-4 win over **Wembley Rangers AFC**, while **P17 FC**, **Clutch FC**, **Gold Devils FC** and **VZN FC** also opened with victories.
+Six matches were played on **Monday 26 October 2026**.
 
-| Match | Score | Coverage |
+| Time | Result | Report |
 |---|---|---|
-| Deportrio vs Wembley Rangers AFC | **9-4** | [Match page](/match/s4-deportrio-vs-wembley-rangers-afc-gw1) · [Report](/news/deportrio-vs-wembley-rangers-afc-gw1) |
-| VZN FC vs RTG FC | **5-4** | [Match page](/match/s4-vzn-fc-vs-yanited-gw1) · [Report](/news/vzn-fc-vs-yanited-gw1) |
-| SDS FC vs N5 FC | **2-2** | [Match page](/match/s4-sds-fc-vs-n5-fc-gw1) · [Report](/news/sds-fc-vs-n5-fc-gw1) |
-| NDL FC vs P17 FC | **4-6** | [Match page](/match/s4-ndl-fc-vs-rukkas-fc-gw1) · [Report](/news/ndl-fc-vs-rukkas-fc-gw1) |
-| Prime FC vs Clutch FC | **3-5** | [Match page](/match/s4-prime-fc-vs-clutch-fc-gw1) · [Report](/news/prime-fc-vs-clutch-fc-gw1) |
-| Toma vs Gold Devils FC | **1-3** | [Match page](/match/s4-toma-vs-gold-devils-fc-gw1) · [Report](/news/toma-vs-gold-devils-fc-gw1) |
+| 17:15 | [Wembley Rangers AFC 7-1 N5 FC](/match/s4-wembley-rangers-afc-vs-n5-fc-gw3) | [Report](/news/wembley-rangers-afc-vs-n5-fc-gw3) |
+| 18:05 | [Prime FC 4-4 Toma](/match/s4-prime-fc-vs-toma-gw3) | [Report](/news/prime-fc-vs-toma-gw3) |
+| 19:00 | [Gold Devils FC 4-5 SDS FC](/match/s4-gold-devils-fc-vs-sds-fc-gw3) | [Report](/news/gold-devils-fc-vs-sds-fc-gw3) |
+| 20:05 | [Clutch FC 3-6 NDL FC](/match/s4-clutch-fc-vs-ndl-fc-gw3) | [Report](/news/clutch-fc-vs-ndl-fc-gw3) |
+| 21:00 | [P17 FC 5-1 VZN FC](/match/s4-rukkas-fc-vs-vzn-fc-gw3) | [Report](/news/rukkas-fc-vs-vzn-fc-gw3) |
+| 21:50 | [RTG FC 4-3 Deportrio](/match/s4-yanited-vs-deportrio-gw3) | [Report](/news/yanited-vs-deportrio-gw3) |
 
-## League table after Gameweek 1
+Every match page carries the full Gamechanger breakdown. Prefer a summary? Read the [Gameweek 3 roundup](/roundup/3).
+<!-- /AUTO:results -->
 
-| Pos | Team | P | W | D | L | GD | Pts |
-|---:|---|---:|---:|---:|---:|---:|---:|
-| 1 | [Deportrio](/teams/deportrio) | 1 | 1 | 0 | 0 | +5 | 3 |
-| 2 | [P17 FC](/teams/rukkas-fc) | 1 | 1 | 0 | 0 | +2 | 3 |
-| 3 | [Clutch FC](/teams/clutch-fc) | 1 | 1 | 0 | 0 | +2 | 3 |
-| 4 | [Gold Devils FC](/teams/gold-devils-fc) | 1 | 1 | 0 | 0 | +2 | 3 |
-| 5 | [VZN FC](/teams/vzn-fc) | 1 | 1 | 0 | 0 | +1 | 3 |
-| 6 | [SDS FC](/teams/sds-fc) | 1 | 0 | 1 | 0 | 0 | 2 |
-| 7 | [N5 FC](/teams/n5-fc) | 1 | 0 | 1 | 0 | 0 | 1 |
-| 8 | [RTG FC](/teams/yanited) | 1 | 0 | 0 | 1 | -1 | 0 |
-| 9 | [NDL FC](/teams/ndl-fc) | 1 | 0 | 0 | 1 | -2 | 0 |
-| 10 | [Prime FC](/teams/prime-fc) | 1 | 0 | 0 | 1 | -2 | 0 |
-| 11 | [Toma](/teams/toma) | 1 | 0 | 0 | 1 | -2 | 0 |
-| 12 | [Wembley Rangers AFC](/teams/wembley-rangers-afc) | 1 | 0 | 0 | 1 | -5 | 0 |
+<!-- AUTO:table -->
+## League table
+
+After Gameweek 3. EP = Extra Points from the Pressure Point challenge.
+
+| Pos | Team | P | W | D | L | GD | EP | Pts |
+|---:|---|---:|---:|---:|---:|---:|---:|---:|
+| 1 | [P17 FC](/teams/rukkas-fc) | 3 | 3 | 0 | 0 | +8 | 0 | 9 |
+| 2 | [SDS FC](/teams/sds-fc) | 3 | 2 | 1 | 0 | +5 | 2 | 9 |
+| 3 | [Deportrio](/teams/deportrio) | 3 | 2 | 0 | 1 | +5 | 0 | 6 |
+| 4 | [NDL FC](/teams/ndl-fc) | 3 | 2 | 0 | 1 | +3 | 0 | 6 |
+| 5 | [Prime FC](/teams/prime-fc) | 3 | 1 | 1 | 1 | 0 | 1 | 5 |
+| 6 | [RTG FC](/teams/yanited) | 3 | 1 | 1 | 1 | 0 | 0 | 4 |
+| 7 | [Gold Devils FC](/teams/gold-devils-fc) | 3 | 1 | 0 | 2 | 0 | 0 | 3 |
+| 8 | [Wembley Rangers AFC](/teams/wembley-rangers-afc) | 3 | 1 | 0 | 2 | -1 | 0 | 3 |
+| 9 | [Clutch FC](/teams/clutch-fc) | 3 | 1 | 0 | 2 | -3 | 0 | 3 |
+| 10 | [VZN FC](/teams/vzn-fc) | 3 | 1 | 0 | 2 | -7 | 0 | 3 |
+| 11 | [Toma](/teams/toma) | 3 | 0 | 2 | 1 | -2 | 0 | 2 |
+| 12 | [N5 FC](/teams/n5-fc) | 3 | 0 | 1 | 2 | -8 | 0 | 1 |
 
 The [live league table](/table) is recomputed after every matchday.
+<!-- /AUTO:table -->
 
-## Gameweek 2 fixtures
+<!-- AUTO:fixtures -->
+## Next fixtures — Gameweek 4
 
-All six matches are on **Monday 19 October 2026**.
+All six matches are on **Monday 2 November 2026**, kicking off from 17:15.
 
 | Time | Fixture | Preview |
 |---|---|---|
-| 17:15 | Prime FC vs N5 FC | [Preview](/news/prime-fc-vs-n5-fc-gw2-preview) |
-| 18:05 | Clutch FC vs P17 FC | [Preview](/news/clutch-fc-vs-rukkas-fc-gw2-preview) |
-| 19:00 | Deportrio vs Gold Devils FC | [Preview](/news/deportrio-vs-gold-devils-fc-gw2-preview) |
-| 20:05 | Wembley Rangers AFC vs NDL FC | [Preview](/news/wembley-rangers-afc-vs-ndl-fc-gw2-preview) |
-| 21:00 | RTG FC vs Toma | [Preview](/news/yanited-vs-toma-gw2-preview) |
-| 21:50 | VZN FC vs SDS FC | [Preview](/news/vzn-fc-vs-sds-fc-gw2-preview) |
+| 17:15 | Toma vs VZN FC | [Preview](/news/toma-vs-vzn-fc-gw4-preview) |
+| 18:05 | Prime FC vs Wembley Rangers AFC | [Preview](/news/prime-fc-vs-wembley-rangers-afc-gw4-preview) |
+| 19:00 | P17 FC vs Deportrio | [Preview](/news/rukkas-fc-vs-deportrio-gw4-preview) |
+| 20:05 | NDL FC vs SDS FC | [Preview](/news/ndl-fc-vs-sds-fc-gw4-preview) |
+| 21:00 | Clutch FC vs RTG FC | [Preview](/news/clutch-fc-vs-yanited-gw4-preview) |
+| 21:50 | Gold Devils FC vs N5 FC | [Preview](/news/gold-devils-fc-vs-n5-fc-gw4-preview) |
 
 The [fixtures page](/fixtures) carries the full season schedule and kick-off times.
+<!-- /AUTO:fixtures -->
 
 ## The teams and managers
 

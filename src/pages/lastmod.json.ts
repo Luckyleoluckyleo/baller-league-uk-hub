@@ -24,7 +24,12 @@ export const GET: APIRoute = async () => {
   const map: Record<string, string> = {};
 
   const news = await getCollection('news');
-  for (const a of news) map[`/news/${a.slug}/`] = a.data.date.toISOString();
+  for (const a of news) {
+    // Prefer the last substantive refresh (e.g. the auto-updated season guide)
+    // over the original publication date.
+    const last = a.data.updated ?? a.data.date;
+    map[`/news/${a.slug}/`] = last.toISOString();
+  }
 
   const gc = gcData as any;
   for (const [season, s] of Object.entries(gc.seasons)) {

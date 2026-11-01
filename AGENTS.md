@@ -104,6 +104,7 @@ STAGE 1 — SCRAPE (network I/O, cached, non-deterministic)
 STAGE 2 — GENERATE + BUILD (pure functions of the JSON, deterministic)
   generate-reports.mjs    → src/content/news/{h}-vs-{a}-gw{n}.md
   generate-previews.mjs   → src/content/news/{h}-vs-{a}-gw{n}-preview.md
+  generate-season-guide.mjs → AUTO blocks inside src/content/news/baller-league-season-{n}-guide.md
   generate-og.mjs         → public/og-default.png
   generate-og-images.mjs  → public/og/{slug}.png
   astro build             → dist/  (also emits dist/lastmod.json — see A3)
@@ -114,7 +115,7 @@ STAGE 2 — GENERATE + BUILD (pure functions of the JSON, deterministic)
 
 **Stage 1 is allowed to be wrong/temporary. Stage 2 is a pure function of Stage 1's output.** If you need to change how content reads, edit Stage 2. If you need different data, edit Stage 1.
 
-`scripts/update.mjs` runs both stages in order (**16 stages**) and **fails fast** (`process.exit(1)` on first failure) — there is no partial-state recovery. The one exception is `ping-indexnow.mjs`, which swallows errors so a failed notification ping never breaks a deploy.
+`scripts/update.mjs` runs both stages in order (**17 stages**) and **fails fast** (`process.exit(1)` on first failure) — there is no partial-state recovery. The one exception is `ping-indexnow.mjs`, which swallows errors so a failed notification ping never breaks a deploy.
 
 ---
 
@@ -154,8 +155,8 @@ baller-league-uk-hub/
 │   ├── players/              # player headshots (.webp)
 │   ├── admin/                # Decap CMS (index.html + config.yml)
 │   └── google*.html          # Search Console verification
-├── scripts/                  # 23 scripts — see Scripts reference
-│   ├── update.mjs            # orchestrator (16 stages)
+├── scripts/                  # 24 scripts — see Scripts reference
+│   ├── update.mjs            # orchestrator (17 stages)
 │   ├── scrape-fixtures.mjs   # upcoming fixtures from /en/matches
 │   ├── scrape.mjs            # match results
 │   ├── scrape-standings.mjs  # official standings + EP
@@ -164,6 +165,7 @@ baller-league-uk-hub/
 │   ├── scrape-assets.mjs     # team logos  ⚠ NOT in pipeline
 │   ├── generate-reports.mjs  # match reports (default: current season)
 │   ├── generate-previews.mjs # fixture previews
+│   ├── generate-season-guide.mjs # AUTO blocks in the season guide
 │   ├── generate-team-previews.mjs # per-team season previews
 │   ├── generate-player-spotlights.mjs # player spotlight articles
 │   ├── generate-team-history.mjs # per-club all-time record pages
@@ -226,23 +228,24 @@ Standings computation, the active-season constant, form guide, and match-slug co
 | Script | Reads | Writes | In `npm run update`? | Flags |
 |---|---|---|---|---|
 | `update.mjs` | — | — | entrypoint | — |
-| `scrape-fixtures.mjs` | `/en/matches` + next-game pages (live, no cache) | `src/data/fixtures.json` (`upcoming`) | 1/16 | `--file <path>` |
-| `scrape.mjs` | `scripts/.cache/{id}.html` (read-through) | `src/data/gamechangers.json` | 2/16 | — |
-| `scrape-standings.mjs` | `gamechangers.json` + `/en/game/{id}` | `src/data/standings.json`, `table.json` (`ep`) | 3/16 | — |
-| `scrape-players.mjs` | `scripts/.cache-players/` | `src/data/players.json` | 4/16 | — |
-| `generate-placeholders.mjs` | `players.json`, `content/players/` | `public/players/*.webp` (missing only) | 5/16 | — |
-| `generate-reports.mjs` | all data JSON | `src/content/news/{h}-vs-{a}-gw{n}.md` | 6/16 | `--season=all` (default: current season) |
-| `generate-previews.mjs` | all data JSON | `src/content/news/{h}-vs-{a}-gw{n}-preview.md` | 7/16 | — |
-| `generate-team-previews.mjs` | data JSON + `content/teams/` | `src/content/news/season-{n}-team-preview-*.md` | 8/16 | — |
-| `generate-player-spotlights.mjs` | `content/players/` + `players.json` | `src/content/news/player-spotlight-*.md` | 9/16 | — |
-| `generate-team-history.mjs` | `gamechangers.json` + `standings.json` | `src/content/news/baller-league-team-history-*.md` | 10/16 | — |
-| `generate-og.mjs` | `public/og-default.svg` | `public/og-default.png` | 11/16 | — |
-| `generate-og-images.mjs` | `src/content/news/*.md` | `public/og/{slug}.png` | 12/16 | — |
-| `generate-og-people.mjs` | `players.json`, managers | `public/og/players/*.png`, `public/og/managers/*.png` | 13/16 | — |
-| `verify-data.mjs` | `gamechangers.json`, `players.json`, `standings.json` | stdout (exits 1 on mismatch) | 14/16 | season filter (e.g. `1 2 3`); no args = all seasons |
+| `scrape-fixtures.mjs` | `/en/matches` + next-game pages (live, no cache) | `src/data/fixtures.json` (`upcoming`) | 1/17 | `--file <path>` |
+| `scrape.mjs` | `scripts/.cache/{id}.html` (read-through) | `src/data/gamechangers.json` | 2/17 | — |
+| `scrape-standings.mjs` | `gamechangers.json` + `/en/game/{id}` | `src/data/standings.json`, `table.json` (`ep`) | 3/17 | — |
+| `scrape-players.mjs` | `scripts/.cache-players/` | `src/data/players.json` | 4/17 | — |
+| `generate-placeholders.mjs` | `players.json`, `content/players/` | `public/players/*.webp` (missing only) | 5/17 | — |
+| `generate-reports.mjs` | all data JSON | `src/content/news/{h}-vs-{a}-gw{n}.md` | 6/17 | `--season=all` (default: current season) |
+| `generate-previews.mjs` | all data JSON | `src/content/news/{h}-vs-{a}-gw{n}-preview.md` | 7/17 | — |
+| `generate-season-guide.mjs` | `gamechangers.json`, `table.json`, `standings.json`, `fixtures.json` | `<!-- AUTO:… -->` blocks in `src/content/news/baller-league-season-{n}-guide.md` (prose untouched) | 8/17 | — |
+| `generate-team-previews.mjs` | data JSON + `content/teams/` | `src/content/news/season-{n}-team-preview-*.md` | 9/17 | — |
+| `generate-player-spotlights.mjs` | `content/players/` + `players.json` | `src/content/news/player-spotlight-*.md` | 10/17 | — |
+| `generate-team-history.mjs` | `gamechangers.json` + `standings.json` | `src/content/news/baller-league-team-history-*.md` | 11/17 | — |
+| `generate-og.mjs` | `public/og-default.svg` | `public/og-default.png` | 12/17 | — |
+| `generate-og-images.mjs` | `src/content/news/*.md` | `public/og/{slug}.png` | 13/17 | — |
+| `generate-og-people.mjs` | `players.json`, managers | `public/og/players/*.png`, `public/og/managers/*.png` | 14/17 | — |
+| `verify-data.mjs` | `gamechangers.json`, `players.json`, `standings.json` | stdout (exits 1 on mismatch) | 15/17 | season filter (e.g. `1 2 3`); no args = all seasons |
 | `generate-redirects.mjs` | `gamechangers.json` | `dist/_redirects` | via build | — |
 | `generate-sitemap.mjs` | `dist/**`, `dist/lastmod.json` | `dist/sitemap.xml` | via build | — |
-| `ping-indexnow.mjs` | `dist/sitemap.xml` | POST to `api.indexnow.org` | 16/16 | — |
+| `ping-indexnow.mjs` | `dist/sitemap.xml` | POST to `api.indexnow.org` | 17/17 | — |
 | `generate-video.mjs` | `gamechangers.json`, `players.json`, `table.json` | `output/*.mp4` | **⚠ NO — manual, needs ffmpeg** | `--season=`, `--gw=`, `--type=results\|scorers\|table\|preview`, `--fixture=`, `--audio=aac\|mp3\|pcm`, `--mute` |
 | `optimize-images.mjs` | `public/players`, `public/managers`, `public/teams` | resized `.webp` | **⚠ NO — manual only** | — |
 | `scrape-ep.mjs` | `scripts/.cache/*.html`, `table.json` | `src/data/table.json` (`ep` only) | **⚠ superseded by `scrape-standings.mjs`** | — |
@@ -423,6 +426,7 @@ It duplicates the `TEAM_LOGO_MAP` that also lives in `scrape-players.mjs` — tw
 Defined in `src/content/config.ts`: `teams`, `players`, `managers`, `news`.
 - `players` and `managers` support optional **background** fields: `bio` (one-liner), `formerClubs[]`, `honours[]`, `nationality`. Populated only for notable ex-pros/managers; the rest fall back to the generated blurb.
 - `managers` also has `active` (`false` = former manager, hidden from `/managers` but page kept).
+- `news` has an optional `updated` date (last substantive refresh). When present it beats `date` for JSON-LD `dateModified`, the visible "Updated …" stamp and the sitemap `<lastmod>`; `generate-season-guide.mjs` writes it automatically for the season guide. Listing order still uses `date`.
 
 ### Profile pages (shared design system)
 `teams/[slug]`, `players/[slug]` and `managers/[slug]` share the `.profile` visual system defined in `global.css` (not scoped): team-colour hero (`--team-color` / `--team-soft` from `teamColor()` in `src/lib/league.ts`), a large rounded photo, headline stats and a two-column `profile-main` / `profile-side` layout. Player/manager pages render a **Player Profile / About** card and an optional **Background** card (Previous Clubs chips + Honours list). To add a player's history, create `src/content/players/{slug}.md` with the background fields and a markdown bio.
@@ -430,6 +434,7 @@ Defined in `src/content/config.ts`: `teams`, `players`, `managers`, `news`.
 ### Editing content
 - **Hand-written** (edit freely): `src/content/teams/`, `players/`, `managers/`, and the two editorial articles `rico-chambers-transfer.md` and `yanited-ginge-match-report.md`.
 - **Generated** (do NOT hand-edit — overwritten or orphaned on next run): everything in `src/content/news/` matching `*-gw{n}.md` (match reports), `*-gw{n}-preview.md` (fixture previews), `season-{n}-team-preview-*.md` (team season previews), `player-spotlight-*.md` (auto-built player features) and `baller-league-team-history-*.md` (per-club all-time records).
+- **Partially generated:** `baller-league-season-{n}-guide.md`. The prose is hand-written and safe to edit, but anything between `<!-- AUTO:… -->` and `<!-- /AUTO:… -->` (`last-updated`, `results`, `table`, `fixtures`) is rewritten by `generate-season-guide.mjs` on every run. Add prose *outside* the markers.
 
 **Decap CMS** is mounted at `/admin` (static files in `public/admin/`, git-gateway backend). Its collections are `news`, `players`, and `league_table` → which edits `src/data/table.json` directly.
 
@@ -448,7 +453,7 @@ Defined in `src/content/config.ts`: `teams`, `players`, `managers`, `news`.
 - `rss.xml.ts` + human-facing `/sitemap` page
 - Per-article OG images in `public/og/`, default `og-default.png`
 - `robots.txt` references `sitemap.xml`; Search Console verified via `public/google*.html`
-- `generate-sitemap.mjs` crawls `dist/`, excludes `404`, `compare/`, `admin*`, `google*`; `<lastmod>` comes from `dist/lastmod.json` (real content dates)
+- `generate-sitemap.mjs` crawls `dist/`, excludes `404`, `compare/`, `admin*`, `google*`; `<lastmod>` comes from `dist/lastmod.json` (real content dates, with a news article's optional `updated` taking precedence over its `date`)
 - `ping-indexnow.mjs` notifies Bing/IndexNow after each build (key at `public/<key>.txt`)
 - **Analytics:** GA4 wired in `Base.astro` (disabled until `GA_ID` is set to a real `G-…` ID)
 - **Growth playbook:** `docs/backlink-targets.md` — outreach targets + linkable assets (`/data`, `/records`, `/gamechangers`)
@@ -466,7 +471,7 @@ Publisher ID `ca-pub-7873503560434517` in `Base.astro`; `ads.txt` in `public/`.
 
 | Command | Purpose |
 |---|---|
-| `npm run update` | Full pipeline: scrape → generate → build (16 stages) |
+| `npm run update` | Full pipeline: scrape → generate → build (17 stages) |
 | `npm run dev` | Dev server at `http://localhost:4321` |
 | `npm run build` | `astro build` + `generate-redirects.mjs` + `generate-sitemap.mjs` |
 | `npm run preview` | Preview built site |
@@ -477,6 +482,7 @@ Publisher ID `ca-pub-7873503560434517` in `Base.astro`; `ads.txt` in `public/`.
 | `node scripts/generate-reports.mjs` | Match reports, **current season** (default) |
 | `node scripts/generate-reports.mjs --season=all` | Match reports, all seasons ⚠ drops 3 colliding slugs |
 | `node scripts/generate-previews.mjs` | Fixture previews (needs non-empty `upcoming`) |
+| `node scripts/generate-season-guide.mjs` | Refresh the `AUTO:` blocks in the current season guide |
 | `node scripts/generate-og-images.mjs` | Per-article OG images |
 | `node scripts/generate-og-people.mjs` | Per-player + per-manager OG images |
 | `node scripts/generate-placeholders.mjs` | Placeholder player images (missing only) |

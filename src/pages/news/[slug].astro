@@ -91,6 +91,14 @@ const formattedDate = data.date.toLocaleDateString('en-GB', {
   weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'
 });
 
+// Only show an "Updated" stamp when the article was materially refreshed.
+const updatedDate = data.updated && data.updated.getTime() > data.date.getTime()
+  ? data.updated
+  : null;
+const formattedUpdated = updatedDate?.toLocaleDateString('en-GB', {
+  day: 'numeric', month: 'long', year: 'numeric'
+});
+
 const siteBase = (Astro.site ?? new URL('https://ballerleagueukhub.com')).toString().replace(/\/$/, '');
 const ogImageUrl = `${siteBase}/og/${article.slug}.png`;
 
@@ -101,7 +109,7 @@ const schema = {
   "description": data.excerpt,
   "image": [ogImageUrl],
   "datePublished": data.date.toISOString(),
-  "dateModified": data.date.toISOString(),
+  "dateModified": (data.updated ?? data.date).toISOString(),
   "articleSection": data.category,
   "author": { "@type": "Organization", "name": data.author },
   "publisher": {
@@ -138,6 +146,12 @@ const catClass =
         <span>By {data.author}</span>
         <span class="breadcrumb-sep">·</span>
         <time datetime={data.date.toISOString()}>{formattedDate}</time>
+        {updatedDate && (
+          <>
+            <span class="breadcrumb-sep">·</span>
+            <span>Updated {formattedUpdated}</span>
+          </>
+        )}
         <span class="breadcrumb-sep">·</span>
         <a href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(data.title)}&url=${encodeURIComponent(new URL(Astro.url.pathname, Astro.site ?? 'https://ballerleagueukhub.com').toString())}`} target="_blank" rel="noopener noreferrer" class="share-link" aria-label="Share on X" title="Share on X">𝕏 Share</a>
         <a href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(new URL(Astro.url.pathname, Astro.site ?? 'https://ballerleagueukhub.com').toString())}`} target="_blank" rel="noopener noreferrer" class="share-link" aria-label="Share on Facebook" title="Share on Facebook">📘 Share</a>
