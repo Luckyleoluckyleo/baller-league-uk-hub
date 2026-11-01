@@ -3,7 +3,8 @@ import Base from '../../layouts/Base.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import { getCollection } from 'astro:content';
 import playerData from '../../data/players.json';
-import { CURRENT_SEASON, playedMatches, standingsFor, teamColor, teamColorSoft } from '../../lib/league';
+import fixturesData from '../../data/fixtures.json';
+import { CURRENT_SEASON, playedMatches, standingsFor, matchSlug, teamColor, teamColorSoft } from '../../lib/league';
 
 const nameBySlug: Record<string, string> = {};
 for (const p of (playerData.players as any[])) nameBySlug[p.name.toLowerCase()] = p.slug;
@@ -41,6 +42,22 @@ function getForm(teamSlug: string): { label: string; cls: string }[] {
 }
 
 const form = data ? getForm(data.team) : [];
+
+// Current-season context: what happened last, and what's next. Keeps the page
+// useful for "who is X" searches instead of only describing the manager.
+const teamSlug = data?.team;
+
+const latestMatch = teamSlug
+  ? playedMatches(SEASON)
+      .filter((m) => m.homeSlug === teamSlug || m.awaySlug === teamSlug)
+      .sort((a, b) => b.gameweek - a.gameweek)[0] ?? null
+  : null;
+
+const nextFixture: any = teamSlug
+  ? (((fixturesData as any).upcoming ?? []) as any[])
+      .filter((f) => f.homeSlug === teamSlug || f.awaySlug === teamSlug)
+      .sort((a, b) => a.gameweek - b.gameweek)[0] ?? null
+  : null;
 
 const topPlayers = seasonMatches
   .flatMap((m: any) => {
@@ -176,6 +193,7 @@ const hasBackground = formerClubs.length > 0 || honours.length > 0;
                   <div class="profile-fact"><dt>Losses</dt><dd>{standing.lost}</dd></div>
                   <div class="profile-fact"><dt>Points</dt><dd>{standing.pts}</dd></div>
                   <div class="profile-fact"><dt>Goals</dt><dd>{standing.gf}–{standing.ga}</dd></div>
+                  <div class="profile-fact"><dt>Goal difference</dt><dd>{standing.gd > 0 ? `+${standing.gd}` : standing.gd}</dd></div>
                 </dl>
               </div>
             )}
@@ -188,6 +206,24 @@ const hasBackground = formerClubs.length > 0 || honours.length > 0;
                     <span class={`form-block ${f.cls}`} title={`Match ${i + 1}: ${f.label}`}>{f.label}</span>
                   ))}
                 </div>
+              </div>
+            )}
+
+            {latestMatch && (
+              <div class="profile-card">
+                <h2 class="profile-h2">Latest Result</h2>
+                <a class="fixture-line" href={`/match/s${SEASON}-${matchSlug(latestMatch)}`}>
+                  {latestMatch.homeTeam} {latestMatch.homeScore}–{latestMatch.awayScore} {latestMatch.awayTeam}
+                </a>
+                <p class="fixture-meta">Gameweek {latestMatch.gameweek}{latestMatch.matchDate ? ` · ${latestMatch.matchDate}` : ''}</p>
+              </div>
+            )}
+
+            {nextFixture && (
+              <div class="profile-card">
+                <h2 class="profile-h2">Next Fixture</h2>
+                <p class="fixture-line">{nextFixture.homeTeam} vs {nextFixture.awayTeam}</p>
+                <p class="fixture-meta">Gameweek {nextFixture.gameweek}{nextFixture.date ? ` · ${nextFixture.date}` : ''}{nextFixture.time ? ` · ${nextFixture.time}` : ''}</p>
               </div>
             )}
 
@@ -228,4 +264,7 @@ const hasBackground = formerClubs.length > 0 || honours.length > 0;
 .scorer-name { font-size: 0.9rem; color: var(--text-primary); font-weight: 500; }
 a.scorer-name:hover { color: var(--team-color); }
 .scorer-goals { font-size: 0.85rem; color: var(--team-color); font-weight: 600; }
+.fixture-line { display: block; font-size: 0.9rem; font-weight: 600; color: var(--text-primary); line-height: 1.45; }
+a.fixture-line:hover { color: var(--team-color); }
+.fixture-meta { font-size: 0.78rem; color: var(--text-muted); margin-top: 4px; }
 </style>
