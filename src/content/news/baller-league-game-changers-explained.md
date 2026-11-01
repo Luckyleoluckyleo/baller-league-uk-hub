@@ -21,37 +21,37 @@ Six rule sets, three activated in each half. The Game Changer is announced at th
 
 **Onside suspends the offside rule completely for the duration of the window.** With no last defender to beat, attackers can push as high as they like and defences have to cover the whole pitch.
 
-It has been activated **59 times** across the league's first three seasons and produced **51 goals** — a modest **0.86 per activation**. Teams defend it best by pressing the ball at source rather than trying to hold a line that no longer exists.
+It has been activated **59 times** across the league's first three seasons and produced **51 goals** — a modest **0.86 per activation**. Teams defend it best by pressing the ball at source rather than trying to hold a line that no longer exists. [Full breakdown: the Onside rule](/news/baller-league-onside-rule-explained).
 
 <h3 id="gc-plus-one">What is the Plus One Gamechanger?</h3>
 
-**Plus One restarts the game as a 1v1 and adds a player back to each side for every goal scored.** The match rebuilds towards 6v6, so each goal changes both the score and the numbers on the pitch.
+**Plus One restarts the game as a 1v1, goalkeepers included, and adds one outfield player to each side for every goal scored.** The match rebuilds towards full numbers, so each goal changes both the score and the shape of the game.
 
-Across Seasons 1–3 it has produced **131 goals in 68 activations (1.93 per activation)**. It is the only Game Changer where scoring directly reshapes the game, which makes conceding during the window doubly punishing.
+Across Seasons 1–3 it has produced **131 goals in 68 activations (1.93 per activation)**. Because every goal brings both sides closer to full numbers, the window starts at its most open and tightens as it goes. [Full breakdown: the Plus One rule](/news/baller-league-plus-one-rule-explained).
 
 <h3 id="gc-3play">What is the 3Play Gamechanger?</h3>
 
 **3Play turns the match into 3-a-side with a 30-second shot clock.** Lose possession, or fail to get a shot away in time, and the ball is turned over.
 
-It is the most frequently activated rule in the league — **78 times** in three seasons — and one of the most productive, with **201 goals at 2.58 per activation**. Space arrives quickly in 3v3, and so do goals.
+It is the most frequently activated rule in the league — **78 times** in three seasons — and one of the most productive, with **201 goals at 2.58 per activation**. Space arrives quickly in 3v3, and so do goals. [Full breakdown: the 3Play rule](/news/baller-league-3play-rule-explained).
 
 <h3 id="gc-1on1">What is the 1-on-1 Gamechanger?</h3>
 
 **1-on-1 isolates players in one-on-one duels, each confined to their own half with a 15-second shot clock.** Team structure disappears and individual defending becomes the entire game.
 
-Statistically it is the most explosive rule of the six: **202 goals in 72 activations, or 2.81 per activation**. If a match reaches the 27th minute level, expect the scoreline to move.
+Statistically it is the most explosive rule of the six: **202 goals in 72 activations, or 2.81 per activation**. If a match reaches the 27th minute level, expect the scoreline to move. [Full breakdown: the 1-on-1 rule](/news/baller-league-1-on-1-rule-explained).
 
 <h3 id="gc-theline">What is The Line Gamechanger?</h3>
 
-**The Line doubles any goal scored from beyond a marked line.** Long-range shooting stops being a low-percentage option and becomes the most valuable skill on the pitch.
+**The Line doubles any goal scored from in front of the offside line, in the attacking half.** Long-range shooting stops being a low-percentage option and becomes the most valuable skill on the pitch.
 
-It has produced just **57 goals in 72 activations (0.79 per activation)**. The rule changes what teams attempt more than it changes the score — players take the long shot they would normally turn down.
+It has produced just **57 goals in 72 activations (0.79 per activation)**. The rule changes what teams attempt more than it changes the score — players take the long shot they would normally turn down. [Full breakdown: The Line rule](/news/baller-league-the-line-rule-explained).
 
 <h3 id="gc-fairplay">What is the Fairplay Gamechanger?</h3>
 
 **Fairplay sends off any player who commits a foul, handles the ball or shows dissent — with no replacement.** One lapse in discipline leaves a team short for the rest of the window.
 
-It is the least productive rule for goals (**44 in 57 activations, 0.77 per activation**) and the most disruptive for shape. A red card here can decide a match without a single shot being taken.
+It is the least productive rule for goals (**44 in 57 activations, 0.77 per activation**) and the most disruptive for shape. A red card here can decide a match without a single shot being taken. [Full breakdown: the Fairplay rule](/news/baller-league-fairplay-rule-explained).
 
 ## Why the Game Changers matter
 
