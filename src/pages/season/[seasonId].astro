@@ -4,6 +4,7 @@ import Breadcrumb from '../../components/Breadcrumb.astro';
 import StatStrip from '../../components/StatStrip.astro';
 import gcData from '../../data/gamechangers.json';
 import standings from '../../data/standings.json';
+import { CURRENT_SEASON } from '../../lib/league';
 
 export function getStaticPaths() {
   return [1, 2, 3].map(id => ({ params: { seasonId: String(id) } }));
@@ -117,6 +118,11 @@ const schema = {
       ]}
     />
 
+    <p class="season-current-note">
+      This is the final Season {seasonId} table. For the current season, see the
+      <a href="/table">Baller League UK table</a>.
+    </p>
+
     <div class="season-nav">
       {[1, 2, 3].map(sid => (
         <a href={`/season/${sid}`} class={`season-nav-link ${String(sid) === seasonId ? 'active' : ''}`}>
@@ -217,6 +223,8 @@ const schema = {
 .season-detail-page { padding-bottom: var(--space-3xl); }
 
 .season-nav { display: flex; gap: 8px; margin-bottom: var(--space-xl); justify-content: center; }
+.season-current-note { max-width: 720px; margin: 0 auto var(--space-xl); text-align: center; font-size: 0.9rem; color: var(--text-muted); }
+.season-current-note a { color: var(--green); }
 .season-nav-link {
   background: var(--bg-card); color: var(--text-secondary); border: 1px solid var(--border);
   padding: 8px 24px; border-radius: var(--radius-sm); font-size: 0.95rem; font-weight: 600;

@@ -41,7 +41,7 @@ function previewSlug(match: any): string {
 ---
 
 <Base
-  title={`Baller League UK Table — Season ${CURRENT_SEASON} Standings${maxGW ? ` & Gameweek ${maxGW} Results` : ''}`}
+  title={`Baller League UK Table — Season ${CURRENT_SEASON} Standings`}
   description={`Baller League UK Season ${CURRENT_SEASON} league table. Full standings${maxGW ? `, Gameweek ${maxGW} results` : ''}, upcoming GW${upcomingGW} fixtures, team form and goals stats.`}
   keywords={`league table, standings, fixtures, results, gameweek, Season ${CURRENT_SEASON}, playoffs, top 4`}
 >
@@ -50,8 +50,8 @@ function previewSlug(match: any): string {
     <div class="container">
       <Breadcrumb items={[{name:'Home',url:'/'},{name:'Table'}]} />
       <div class="section-label">Season {CURRENT_SEASON}{maxGW ? ` · Gameweek ${maxGW} of 11` : ' · Pre-season'}</div>
-      <h1>League Table & Fixtures</h1>
-      <p class="section-subtitle">Current standings. Top 4 qualify for the Final Four playoffs. EP = Extra Points from the Pressure Point challenge.</p>
+      <h1>Baller League UK Table</h1>
+      <p class="section-subtitle">Season {CURRENT_SEASON} standings. Top 4 qualify for the Final Four playoffs. EP = Extra Points from the Pressure Point challenge.</p>
     </div>
   </div>
 
