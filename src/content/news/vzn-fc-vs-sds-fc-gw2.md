@@ -95,6 +95,7 @@ The **3Play** window was the more impactful, its **2** goals shifting the balanc
 | Kazaiah Sterling | 2 | 0 | 6 | 18 |
 | Ergys Pepaj | 1 | 1 | 7 | 17 |
 | Amine Sassi | 1 | 0 | 3 | 21 |
+| Josh Bohui | 1 | 0 | 4 | 10 |
 | Hafed Al Droubi | 0 | 1 | 1 | 40 |
 
 
@@ -108,10 +109,10 @@ The **3Play** window was the more impactful, its **2** goals shifting the balanc
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
 | Florian Kastrati | 4 | 1 | 4 |
+| Terell Thomas | 2 | 0 | 3 |
 | Dubem Eze | 2 | 1 | 3 |
 | Eddie Simon | 2 | 1 | 4 |
-| Terell Thomas | 2 | 0 | 3 |
-| Danny Bassett | 1 | 1 | 4 |
+| Stefan Ilic | 1 | 3 | 4 |
 
 ### SDS FC — Top Scorers (Season)
 

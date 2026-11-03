@@ -118,10 +118,10 @@ The **Plus One** activation was particularly devastating, producing **3** goals 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
 | Florian Kastrati | 4 | 1 | 4 |
+| Terell Thomas | 2 | 0 | 3 |
 | Dubem Eze | 2 | 1 | 3 |
 | Eddie Simon | 2 | 1 | 4 |
-| Terell Thomas | 2 | 0 | 3 |
-| Danny Bassett | 1 | 1 | 4 |
+| Stefan Ilic | 1 | 3 | 4 |
 
 ### RTG FC — Top Scorers (Season)
 
@@ -130,8 +130,8 @@ The **Plus One** activation was particularly devastating, producing **3** goals 
 | Kadell Daniel | 9 | 2 | 4 |
 | Alfie Cerulli | 6 | 0 | 4 |
 | Tyrell Miller-Rodney | 2 | 2 | 4 |
-| Joshua Emmanuel | 1 | 0 | 4 |
 | Zaid Al Hussaini | 1 | 4 | 4 |
+| Joshua Emmanuel | 1 | 0 | 4 |
 
 **Key Attacking Threats**
 

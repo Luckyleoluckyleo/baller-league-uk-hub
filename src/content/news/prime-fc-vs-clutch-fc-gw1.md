@@ -115,15 +115,15 @@ The **3Play** window was the more impactful, its **3** goals shifting the balanc
 | Timmy Abraham | 5 | 0 | 4 |
 | Francis Mampolo | 3 | 2 | 4 |
 | Salim Nassor | 2 | 0 | 2 |
-| Joshua Rusoke | 1 | 0 | 2 |
+| Montel McKenzie | 1 | 1 | 4 |
 | Mauro Vilhete | 1 | 1 | 4 |
 
 ### Clutch FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Alex Byrne | 6 | 0 | 4 |
 | Tyler Winters | 6 | 3 | 4 |
+| Alex Byrne | 6 | 0 | 4 |
 | Alfie Matthews | 3 | 5 | 4 |
 | Joshua Sumbunu | 3 | 0 | 4 |
 | Erick Kenko | 1 | 0 | 3 |
@@ -131,7 +131,7 @@ The **3Play** window was the more impactful, its **3** goals shifting the balanc
 **Key Attacking Threats**
 
 - **Timmy Abraham** — Prime FC's talisman with **5 goals** from **4 appearances**. A developing attacking presence with room to grow.
-- **Alex Byrne** — Clutch FC's leading marksman with **6 goals** from **4 outings**. Clutch FC look to him whenever they need a moment of magic in the final third.
+- **Tyler Winters** — Clutch FC's leading marksman with **6 goals** from **4 outings**, plus **3 assists**. Clutch FC look to him whenever they need a moment of magic in the final third.
 
 
 ---

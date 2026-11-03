@@ -2,7 +2,7 @@
 title: "Wembley Rangers AFC Run Riot Against N5 FC in 7-1 Demolition — GW3"
 date: 2026-10-26
 category: "Match Report"
-excerpt: "Wembley Rangers AFC 7-1 N5 FC — Gameweek 3 match report. Callam Gardner (5 goals) leads Wembley Rangers AFC's attack. Game Changers: 3Play (3) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Wembley Rangers AFC 7-1 N5 FC — Gameweek 3 match report. Domingos Pires (5 goals) leads Wembley Rangers AFC's attack. Game Changers: 3Play (3) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -113,11 +113,11 @@ The **3Play** window was the more impactful, its **3** goals shifting the balanc
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Callam Gardner | 5 | 0 | 4 |
 | Domingos Pires | 5 | 1 | 4 |
+| Callam Gardner | 5 | 0 | 4 |
 | Chiekh Thiam | 4 | 1 | 4 |
-| Adrian Tajik | 1 | 0 | 3 |
 | Dominic Morgan-Griffiths | 1 | 2 | 4 |
+| Adrian Tajik | 1 | 0 | 3 |
 
 ### N5 FC — Top Scorers (Season)
 
@@ -127,11 +127,11 @@ The **3Play** window was the more impactful, its **3** goals shifting the balanc
 | Joe Bennett | 2 | 2 | 4 |
 | Michael Hill | 2 | 1 | 4 |
 | Francis Amartey | 2 | 1 | 3 |
-| Mustapha Carayol | 1 | 0 | 4 |
+| Billy Sharp | 1 | 0 | 3 |
 
 **Key Attacking Threats**
 
-- **Callam Gardner** — Wembley Rangers AFC's talisman with **5 goals** from **4 appearances**. A developing attacking presence with room to grow.
+- **Domingos Pires** — Wembley Rangers AFC's talisman with **5 goals** from **4 appearances** and **1 assists**. A developing attacking presence with room to grow.
 - **Hani Berchiche** — N5 FC's leading marksman with **3 goals** from **4 outings**. Still finding his rhythm but showing promising signs.
 
 

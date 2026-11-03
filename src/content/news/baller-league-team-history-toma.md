@@ -24,8 +24,8 @@ Their best finish came in **Season 4**, finishing **12th** on **2 points**.
 - **[Joshua Phillips](/players/joshua-phillips)** — 2 goals, 0 assists
 - **[Yasin Ben El-Mhanni](/players/yasin-ben-el-mhanni)** — 2 goals, 0 assists
 - **[Praise Ogbebor](/players/praise-ogbebor)** — 2 goals, 1 assists
+- **[Ibrahim Bangura](/players/ibrahim-bangura)** — 2 goals, 1 assists
 - **[Junior Dixon](/players/junior-dixon)** — 2 goals, 1 assists
-- **[Arezki Hamouchene](/players/arezki-hamouchene)** — 2 goals, 0 assists
 
 ## Highest-scoring game
 

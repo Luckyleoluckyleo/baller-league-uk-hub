@@ -2,7 +2,7 @@
 title: "P17 FC See Off Clutch FC 5-7 in Gameweek 2"
 date: 2026-10-19
 category: "Match Report"
-excerpt: "Clutch FC 5-7 P17 FC — Gameweek 2 match report. Alex Byrne (6 goals) leads Clutch FC's attack. Game Changers: 3Play (5) & 1-on-1 (2). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Clutch FC 5-7 P17 FC — Gameweek 2 match report. Tyler Winters (6 goals) leads Clutch FC's attack. Game Changers: 3Play (5) & 1-on-1 (2). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: true
 ---
@@ -125,8 +125,8 @@ The **3Play** activation was particularly devastating, producing **5** goals tha
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Alex Byrne | 6 | 0 | 4 |
 | Tyler Winters | 6 | 3 | 4 |
+| Alex Byrne | 6 | 0 | 4 |
 | Alfie Matthews | 3 | 5 | 4 |
 | Joshua Sumbunu | 3 | 0 | 4 |
 | Erick Kenko | 1 | 0 | 3 |
@@ -142,7 +142,7 @@ The **3Play** activation was particularly devastating, producing **5** goals tha
 
 **Key Attacking Threats**
 
-- **Alex Byrne** — Clutch FC's talisman with **6 goals** from **4 appearances**. A reliable and consistent outlet who defences have learned to fear.
+- **Tyler Winters** — Clutch FC's talisman with **6 goals** from **4 appearances** and **3 assists**. A reliable and consistent outlet who defences have learned to fear.
 - **Amin Belaid** — P17 FC's leading marksman with **9 goals** from **4 outings**, plus **2 assists**. P17 FC look to him whenever they need a moment of magic in the final third.
 
 

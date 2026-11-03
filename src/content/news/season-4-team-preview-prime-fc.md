@@ -26,9 +26,9 @@ Here are some of Prime FC's players to watch, with last season's (Season 4) figu
 - **[Timmy Abraham](/players/timmy-abraham)** (Striker) — 5 goals and 0 assists in 4 appearances.
 - **[Francis Mampolo](/players/francis-gerard-mampolo)** (Striker) — 3 goals and 2 assists in 4 appearances.
 - **[Salim Nassor](/players/salim-nassor)** (Midfielder) — 2 goals and 0 assists in 2 appearances.
-- **[Joshua Rusoke](/players/josh-rusoke)** (Defender) — 1 goals and 0 assists in 2 appearances.
-- **[Mauro Vilhete](/players/mauro-vilhete)** (Midfielder) — 1 goals and 1 assists in 4 appearances.
 - **[Montel McKenzie](/players/montel-mckenzie)** (Defender) — 1 goals and 1 assists in 4 appearances.
+- **[Mauro Vilhete](/players/mauro-vilhete)** (Midfielder) — 1 goals and 1 assists in 4 appearances.
+- **[Erico Sousa](/players/erico-sousa)** (Striker) — 1 goals and 0 assists in 4 appearances.
 
 See the full squad on the [Prime FC team page](/teams/prime-fc).
 

@@ -2,7 +2,7 @@
 title: "Clutch FC Edge RTG FC 7-6 in GW4 Thriller"
 date: 2026-11-02
 category: "Match Report"
-excerpt: "Clutch FC 7-6 RTG FC — Gameweek 4 match report. Alex Byrne (6 goals) leads Clutch FC's attack. Game Changers: 3Play (5) & 1-on-1 (6). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Clutch FC 7-6 RTG FC — Gameweek 4 match report. Tyler Winters (6 goals) leads Clutch FC's attack. Game Changers: 3Play (5) & 1-on-1 (6). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: true
 ---
@@ -123,8 +123,8 @@ The **1-on-1** activation was particularly devastating, producing **6** goals th
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Alex Byrne | 6 | 0 | 4 |
 | Tyler Winters | 6 | 3 | 4 |
+| Alex Byrne | 6 | 0 | 4 |
 | Alfie Matthews | 3 | 5 | 4 |
 | Joshua Sumbunu | 3 | 0 | 4 |
 | Erick Kenko | 1 | 0 | 3 |
@@ -136,12 +136,12 @@ The **1-on-1** activation was particularly devastating, producing **6** goals th
 | Kadell Daniel | 9 | 2 | 4 |
 | Alfie Cerulli | 6 | 0 | 4 |
 | Tyrell Miller-Rodney | 2 | 2 | 4 |
-| Joshua Emmanuel | 1 | 0 | 4 |
 | Zaid Al Hussaini | 1 | 4 | 4 |
+| Joshua Emmanuel | 1 | 0 | 4 |
 
 **Key Attacking Threats**
 
-- **Alex Byrne** — Clutch FC's talisman with **6 goals** from **4 appearances**. A reliable and consistent outlet who defences have learned to fear.
+- **Tyler Winters** — Clutch FC's talisman with **6 goals** from **4 appearances** and **3 assists**. A reliable and consistent outlet who defences have learned to fear.
 - **Kadell Daniel** — RTG FC's leading marksman with **9 goals** from **4 outings**, plus **2 assists**. RTG FC look to him whenever they need a moment of magic in the final third.
 
 

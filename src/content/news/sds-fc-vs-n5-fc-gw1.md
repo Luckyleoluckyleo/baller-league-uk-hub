@@ -112,7 +112,7 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 | Joe Bennett | 2 | 2 | 4 |
 | Michael Hill | 2 | 1 | 4 |
 | Francis Amartey | 2 | 1 | 3 |
-| Mustapha Carayol | 1 | 0 | 4 |
+| Billy Sharp | 1 | 0 | 3 |
 
 **Key Attacking Threats**
 

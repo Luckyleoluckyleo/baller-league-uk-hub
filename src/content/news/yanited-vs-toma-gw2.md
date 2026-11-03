@@ -127,23 +127,23 @@ The **1-on-1** window was the more impactful, its **4** goals shifting the balan
 | Kadell Daniel | 9 | 2 | 4 |
 | Alfie Cerulli | 6 | 0 | 4 |
 | Tyrell Miller-Rodney | 2 | 2 | 4 |
-| Joshua Emmanuel | 1 | 0 | 4 |
 | Zaid Al Hussaini | 1 | 4 | 4 |
+| Joshua Emmanuel | 1 | 0 | 4 |
 
 ### Toma — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Arezki Hamouchene | 2 | 0 | 4 |
-| Yasin Ben El-Mhanni | 2 | 0 | 4 |
-| Ibrahim Bangura | 2 | 1 | 4 |
 | Joshua Phillips | 2 | 0 | 4 |
+| Yasin Ben El-Mhanni | 2 | 0 | 4 |
 | Junior Dixon | 2 | 1 | 3 |
+| Arezki Hamouchene | 2 | 0 | 4 |
+| Ibrahim Bangura | 2 | 1 | 4 |
 
 **Key Attacking Threats**
 
 - **Kadell Daniel** — RTG FC's talisman with **9 goals** from **4 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Arezki Hamouchene** — Toma's leading marksman with **2 goals** from **4 outings**. Still finding his rhythm but showing promising signs.
+- **Joshua Phillips** — Toma's leading marksman with **2 goals** from **4 outings**. Still finding his rhythm but showing promising signs.
 
 
 ---

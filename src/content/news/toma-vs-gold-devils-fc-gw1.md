@@ -2,7 +2,7 @@
 title: "Gold Devils FC Beat Toma 1-3 in Entertaining GW1 Clash"
 date: 2026-10-12
 category: "Match Report"
-excerpt: "Toma 1-3 Gold Devils FC — Gameweek 1 match report. Arezki Hamouchene (2 goals) leads Toma's attack. Game Changers: Plus One (2) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Toma 1-3 Gold Devils FC — Gameweek 1 match report. Joshua Phillips (2 goals) leads Toma's attack. Game Changers: Plus One (2) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -100,11 +100,11 @@ The **Plus One** window was the more impactful, its **2** goals shifting the bal
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Arezki Hamouchene | 2 | 0 | 4 |
-| Yasin Ben El-Mhanni | 2 | 0 | 4 |
-| Ibrahim Bangura | 2 | 1 | 4 |
 | Joshua Phillips | 2 | 0 | 4 |
+| Yasin Ben El-Mhanni | 2 | 0 | 4 |
 | Junior Dixon | 2 | 1 | 3 |
+| Arezki Hamouchene | 2 | 0 | 4 |
+| Ibrahim Bangura | 2 | 1 | 4 |
 
 ### Gold Devils FC — Top Scorers (Season)
 
@@ -118,7 +118,7 @@ The **Plus One** window was the more impactful, its **2** goals shifting the bal
 
 **Key Attacking Threats**
 
-- **Arezki Hamouchene** — Toma's talisman with **2 goals** from **4 appearances**. A developing attacking presence with room to grow.
+- **Joshua Phillips** — Toma's talisman with **2 goals** from **4 appearances**. A developing attacking presence with room to grow.
 - **Tarik Gidaree** — Gold Devils FC's leading marksman with **5 goals** from **4 outings**. Still finding his rhythm but showing promising signs.
 
 

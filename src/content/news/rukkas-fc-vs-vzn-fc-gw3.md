@@ -120,10 +120,10 @@ The **Onside** window was the more impactful, its **2** goals shifting the balan
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
 | Florian Kastrati | 4 | 1 | 4 |
+| Terell Thomas | 2 | 0 | 3 |
 | Dubem Eze | 2 | 1 | 3 |
 | Eddie Simon | 2 | 1 | 4 |
-| Terell Thomas | 2 | 0 | 3 |
-| Danny Bassett | 1 | 1 | 4 |
+| Stefan Ilic | 1 | 3 | 4 |
 
 **Key Attacking Threats**
 

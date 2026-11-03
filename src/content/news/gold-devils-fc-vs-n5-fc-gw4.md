@@ -2,7 +2,7 @@
 title: "N5 FC Beat Gold Devils FC 3-5 in Entertaining GW4 Clash"
 date: 2026-11-02
 category: "Match Report"
-excerpt: "Gold Devils FC 3-5 N5 FC — Gameweek 4 match report. Tarik Gidaree (5 goals) leads Gold Devils FC's attack. Game Changers: Plus One (3) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Gold Devils FC 3-5 N5 FC — Gameweek 4 match report. Tarik Gidaree (5 goals) leads Gold Devils FC's attack. Game Changers: Plus One (3) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -11,7 +11,7 @@ featured: false
 
 Gameweek 4 delivered fireworks at Baller Arena with **Gold Devils FC** taking on **N5 FC** in a breathtaking goal-fest.
 
-When the dust settled, it was **N5 FC** who emerged **3-5** victors. The Game Changer window — **Plus One** and **Fairplay** — proved pivotal, contributing **3** of the match's **8** goals.
+When the dust settled, it was **N5 FC** who emerged **3-5** victors. The Game Changer window — **Plus One** and **Fairplay** — proved pivotal, contributing **4** of the match's **8** goals.
 
 **Gold Devils FC form (before GW4):** ❌ ❌ ✅ (L-L-W)  
 **N5 FC form (before GW4):** ❌ ❌ 🤝 (L-L-D)
@@ -33,7 +33,7 @@ The first half sprang into life at the 12-minute mark with the **Plus One** Game
 
 ### Second Half
 
-The second half resumed with all to play for, and at the 27-minute mark the **Fairplay** Game Changer cranked up the intensity once more — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. The final exchanges were fraught with tension. Gold Devils FC threw everything forward in search of a route back, but N5 FC held their nerve, defending with grit and intelligence to protect what they had.
+The second half resumed with all to play for, and at the 27-minute mark the **Fairplay** Game Changer cranked up the intensity once more — and it delivered **1** goal at just the right moment to breathe fresh life into the match. The final exchanges were fraught with tension. Gold Devils FC threw everything forward in search of a route back, but N5 FC held their nerve, defending with grit and intelligence to protect what they had.
 
 ---
 
@@ -47,8 +47,8 @@ The goals arrived in a dramatic sequence that told the story of the match:
 - **14′** — **Dimitri Nicolaou** (Gold Devils FC) found the target
 - **17′** — **Luke May-Parrott** (Gold Devils FC) scored
 - **22′** — **Tarik Gidaree** (Gold Devils FC) struck
-- **30′** — **Michael Hill** (N5 FC) scored
-- **30′** — **Joe Bennett** (N5 FC) found the target
+- **29′** — **Joe Bennett** (N5 FC) scored
+- **30′** — **Michael Hill** (N5 FC) found the target
 
 | Minute | Player | Team |
 |--------|--------|------|
@@ -58,23 +58,23 @@ The goals arrived in a dramatic sequence that told the story of the match:
 | 14′ | Dimitri Nicolaou | Gold Devils FC |
 | 17′ | Luke May-Parrott | Gold Devils FC |
 | 22′ | Tarik Gidaree | Gold Devils FC |
+| 29′ | Joe Bennett | N5 FC |
 | 30′ | Michael Hill | N5 FC |
-| 30′ | Joe Bennett | N5 FC |
 
 
 ---
 
 ## Game Changer Impact — Plus One & Fairplay
 
-The Game Changer period left a genuine imprint on this fixture, with the **Plus One** and **Fairplay** activations generating **3** goals — **38%** of the match's total output.
+The Game Changer period left a genuine imprint on this fixture, with the **Plus One** and **Fairplay** activations generating **4** goals — **50%** of the match's total output.
 
 The **Plus One** window was the more impactful, its **3** goals shifting the balance of the contest at a critical moment. Matches where the GC contributes this significantly tend to be remembered — the rule modifications force teams out of their comfort zones and into pure reactive mode, which is where the best (and worst) of Baller League football is often found.
 
 | GC Activation | Type | Goals |
 |---------------|------|-------|
 | 1st Half (12′) | Plus One | 3 |
-| 2nd Half (27′) | Fairplay | 0 |
-| **Total** | | **3** |
+| 2nd Half (27′) | Fairplay | 1 |
+| **Total** | | **4** |
 
 
 **What those rules mean:** [Plus One rules](/news/baller-league-game-changers-explained#gc-plus-one) · [Fairplay rules](/news/baller-league-game-changers-explained#gc-fairplay). Read the [full rules](/rules#gamechanger) or the [Game Changer explainer](/news/baller-league-game-changers-explained).
@@ -126,7 +126,7 @@ The **Plus One** window was the more impactful, its **3** goals shifting the bal
 | Joe Bennett | 2 | 2 | 4 |
 | Michael Hill | 2 | 1 | 4 |
 | Francis Amartey | 2 | 1 | 3 |
-| Mustapha Carayol | 1 | 0 | 4 |
+| Billy Sharp | 1 | 0 | 3 |
 
 **Key Attacking Threats**
 
@@ -169,9 +169,9 @@ Gold Devils FC dropped to **11th**, n5 fc climbed to **10th**.
 | Stat | Gold Devils FC | N5 FC |
 |------|----------------|-------|
 | Goals | 3 | 5 |
-| GC Goals | 3 | 3 |
+| GC Goals | 4 | 4 |
 | GC 1st Half (Plus One) | 3 | 3 |
-| GC 2nd Half (Fairplay) | 0 | 0 |
+| GC 2nd Half (Fairplay) | 1 | 1 |
 
 ---
 
@@ -180,7 +180,7 @@ Gold Devils FC dropped to **11th**, n5 fc climbed to **10th**.
 | Metric | Value |
 |--------|-------|
 | Goals | 8 |
-| Game Changer goals | 3 (38% of all goals) |
+| Game Changer goals | 4 (50% of all goals) |
 | Different goalscorers | 7 |
 | Total shots | 49 |
 | Assists | 3 |
@@ -193,7 +193,7 @@ Gold Devils FC dropped to **11th**, n5 fc climbed to **10th**.
 ## Match Facts
 
 - A **8-goal thriller** that lived up to every pre-match expectation
-- **3 of 8 goals (38%)** came during Game Changer activations
+- **4 of 8 goals (50%)** came during Game Changer activations
 
 ---
 

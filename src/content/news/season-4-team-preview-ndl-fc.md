@@ -25,8 +25,8 @@ Here are some of NDL FC's players to watch, with last season's (Season 4) figure
 
 - **[Sam Fitzgerald](/players/sam-fitzgerald)** (Midfielder) — 7 goals and 1 assists in 4 appearances.
 - **[Isaac Modi](/players/isaac-modi)** (Midfielder) — 3 goals and 1 assists in 4 appearances.
-- **[Taufee Skandari](/players/taufee-skandari)** (Midfielder) — 2 goals and 0 assists in 4 appearances.
 - **[Josh Parker](/players/joshua-parker)** (Striker) — 2 goals and 0 assists in 4 appearances.
+- **[Taufee Skandari](/players/taufee-skandari)** (Midfielder) — 2 goals and 0 assists in 4 appearances.
 - **[Dara Dada](/players/dara-dada)** (Midfielder) — 1 goals and 0 assists in 4 appearances.
 - **[Abdirahman Mohamud](/players/abdi-mohamud)** (Striker) — 1 goals and 0 assists in 4 appearances.
 
@@ -38,6 +38,6 @@ NDL FC's opening fixture will be confirmed shortly. Visit the [Season 4 hub](/se
 
 ## Season outlook
 
-NDL FC will fancy their chances of a strong season if they can convert last year's promise into points. The margins in this league are famously small.
+Consistency will be the aim for NDL FC as they look to build on recent campaigns and push towards the Final Four.
 
 Follow NDL FC all season long on the [teams hub](/teams) and keep up with standings on the live [league table](/table).

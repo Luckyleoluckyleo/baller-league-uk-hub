@@ -23,11 +23,11 @@ Toma are led by [Jay-Jay Okocha](/managers/jay-jay-okocha). Their experience and
 
 Here are some of Toma's players to watch, with last season's (Season 4) figures where available:
 
-- **[Arezki Hamouchene](/players/arezki-hamouchene)** (Midfielder) — 2 goals and 0 assists in 4 appearances.
-- **[Yasin Ben El-Mhanni](/players/yasin-ben-el-mhanni)** (Striker) — 2 goals and 0 assists in 4 appearances.
-- **[Ibrahim Bangura](/players/ibrahim-bangura)** (Defender) — 2 goals and 1 assists in 4 appearances.
 - **[Joshua Phillips](/players/joshua-phillips)** (Striker) — 2 goals and 0 assists in 4 appearances.
+- **[Yasin Ben El-Mhanni](/players/yasin-ben-el-mhanni)** (Striker) — 2 goals and 0 assists in 4 appearances.
 - **[Junior Dixon](/players/junior-dixon)** (Striker) — 2 goals and 1 assists in 3 appearances.
+- **[Arezki Hamouchene](/players/arezki-hamouchene)** (Midfielder) — 2 goals and 0 assists in 4 appearances.
+- **[Ibrahim Bangura](/players/ibrahim-bangura)** (Defender) — 2 goals and 1 assists in 4 appearances.
 - **[Praise Ogbebor](/players/praise-ogbebor)** (Striker) — 2 goals and 1 assists in 4 appearances.
 
 See the full squad on the [Toma team page](/teams/toma).

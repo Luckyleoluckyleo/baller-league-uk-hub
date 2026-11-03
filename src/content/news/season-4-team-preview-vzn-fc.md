@@ -24,11 +24,11 @@ VZN FC are led by [Tobi Brown (TBJZL)](/managers/tobi-brown-tbjzl). Their experi
 Here are some of VZN FC's players to watch, with last season's (Season 4) figures where available:
 
 - **[Florian Kastrati](/players/florian-kastrati)** (Midfielder) — 4 goals and 1 assists in 4 appearances.
+- **[Terell Thomas](/players/terell-thomas)** (Defender) — 2 goals and 0 assists in 3 appearances.
 - **[Dubem Eze](/players/dubem-eze)** (Midfielder) — 2 goals and 1 assists in 3 appearances.
 - **[Eddie Simon](/players/eddie-simon)** (Striker) — 2 goals and 1 assists in 4 appearances.
-- **[Terell Thomas](/players/terell-thomas)** (Defender) — 2 goals and 0 assists in 3 appearances.
-- **[Danny Bassett](/players/danny-bassett)** (Striker) — 1 goals and 1 assists in 4 appearances.
 - **[Stefan Ilic](/players/stefan-ilic)** (Midfielder) — 1 goals and 3 assists in 4 appearances.
+- **[Danny Bassett](/players/danny-bassett)** (Striker) — 1 goals and 1 assists in 4 appearances.
 
 See the full squad on the [VZN FC team page](/teams/vzn-fc).
 
@@ -38,6 +38,6 @@ VZN FC's opening fixture will be confirmed shortly. Visit the [Season 4 hub](/se
 
 ## Season outlook
 
-Consistency will be the aim for VZN FC as they look to build on recent campaigns and push towards the Final Four.
+VZN FC will fancy their chances of a strong season if they can convert last year's promise into points. The margins in this league are famously small.
 
 Follow VZN FC all season long on the [teams hub](/teams) and keep up with standings on the live [league table](/table).

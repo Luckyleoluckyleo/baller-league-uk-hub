@@ -92,6 +92,7 @@ The **Plus One** window was the more impactful, its **3** goals shifting the bal
 | Timmy Abraham | 2 | 0 | 4 | 1 |
 | Mauro Vilhete | 1 | 1 | 4 | 34 |
 | Joshua Rusoke | 1 | 0 | 2 | 27 |
+| Erico Sousa | 1 | 0 | 1 | 6 |
 | Harvey Rees | 0 | 2 | 0 | 50 |
 | Francis Mampolo | 0 | 1 | 5 | 13 |
 
@@ -118,7 +119,7 @@ The **Plus One** window was the more impactful, its **3** goals shifting the bal
 | Timmy Abraham | 5 | 0 | 4 |
 | Francis Mampolo | 3 | 2 | 4 |
 | Salim Nassor | 2 | 0 | 2 |
-| Joshua Rusoke | 1 | 0 | 2 |
+| Montel McKenzie | 1 | 1 | 4 |
 | Mauro Vilhete | 1 | 1 | 4 |
 
 ### N5 FC — Top Scorers (Season)
@@ -129,7 +130,7 @@ The **Plus One** window was the more impactful, its **3** goals shifting the bal
 | Joe Bennett | 2 | 2 | 4 |
 | Michael Hill | 2 | 1 | 4 |
 | Francis Amartey | 2 | 1 | 3 |
-| Mustapha Carayol | 1 | 0 | 4 |
+| Billy Sharp | 1 | 0 | 3 |
 
 **Key Attacking Threats**
 

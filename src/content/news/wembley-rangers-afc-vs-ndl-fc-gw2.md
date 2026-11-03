@@ -2,7 +2,7 @@
 title: "NDL FC See Off Wembley Rangers AFC 2-4 in Gameweek 2"
 date: 2026-10-19
 category: "Match Report"
-excerpt: "Wembley Rangers AFC 2-4 NDL FC — Gameweek 2 match report. Callam Gardner (5 goals) leads Wembley Rangers AFC's attack. Game Changers: Plus One (3) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Wembley Rangers AFC 2-4 NDL FC — Gameweek 2 match report. Domingos Pires (5 goals) leads Wembley Rangers AFC's attack. Game Changers: Plus One (3) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -93,6 +93,7 @@ The **Plus One** window was the more impactful, its **3** goals shifting the bal
 | Josh Parker | 1 | 0 | 5 | 6 |
 | Sam Fitzgerald | 1 | 0 | 3 | 19 |
 | Taufee Skandari | 1 | 0 | 2 | 12 |
+| Abdirahman Mohamud | 1 | 0 | 2 | 1 |
 | Isaac Modi | 0 | 1 | 5 | 11 |
 
 
@@ -105,11 +106,11 @@ The **Plus One** window was the more impactful, its **3** goals shifting the bal
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Callam Gardner | 5 | 0 | 4 |
 | Domingos Pires | 5 | 1 | 4 |
+| Callam Gardner | 5 | 0 | 4 |
 | Chiekh Thiam | 4 | 1 | 4 |
-| Adrian Tajik | 1 | 0 | 3 |
 | Dominic Morgan-Griffiths | 1 | 2 | 4 |
+| Adrian Tajik | 1 | 0 | 3 |
 
 ### NDL FC — Top Scorers (Season)
 
@@ -117,13 +118,13 @@ The **Plus One** window was the more impactful, its **3** goals shifting the bal
 |--------|-------|---------|------|
 | Sam Fitzgerald | 7 | 1 | 4 |
 | Isaac Modi | 3 | 1 | 4 |
-| Taufee Skandari | 2 | 0 | 4 |
 | Josh Parker | 2 | 0 | 4 |
+| Taufee Skandari | 2 | 0 | 4 |
 | Dara Dada | 1 | 0 | 4 |
 
 **Key Attacking Threats**
 
-- **Callam Gardner** — Wembley Rangers AFC's talisman with **5 goals** from **4 appearances**. A developing attacking presence with room to grow.
+- **Domingos Pires** — Wembley Rangers AFC's talisman with **5 goals** from **4 appearances** and **1 assists**. A developing attacking presence with room to grow.
 - **Sam Fitzgerald** — NDL FC's leading marksman with **7 goals** from **4 outings**, plus **1 assists**. NDL FC look to him whenever they need a moment of magic in the final third.
 
 

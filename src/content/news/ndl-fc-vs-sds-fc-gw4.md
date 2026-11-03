@@ -87,7 +87,7 @@ The **The Line** window was the more impactful, its **3** goals shifting the bal
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Isaac Modi | 2 | 0 | 5 | 13 |
+| Isaac Modi | 2 | 0 | 5 | 14 |
 | Frank Keita | 0 | 1 | 0 | 27 |
 
 ### SDS FC
@@ -96,8 +96,9 @@ The **The Line** window was the more impactful, its **3** goals shifting the bal
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Kazaiah Sterling | 2 | 1 | 4 | 20 |
+| Kazaiah Sterling | 2 | 1 | 4 | 21 |
 | Ergys Pepaj | 1 | 1 | 4 | 9 |
+| Josh Bohui | 1 | 0 | 3 | 5 |
 | Youssef Chentouf | 1 | 0 | 7 | 3 |
 | Amine Sassi | 0 | 1 | 4 | 6 |
 
@@ -113,8 +114,8 @@ The **The Line** window was the more impactful, its **3** goals shifting the bal
 |--------|-------|---------|------|
 | Sam Fitzgerald | 7 | 1 | 4 |
 | Isaac Modi | 3 | 1 | 4 |
-| Taufee Skandari | 2 | 0 | 4 |
 | Josh Parker | 2 | 0 | 4 |
+| Taufee Skandari | 2 | 0 | 4 |
 | Dara Dada | 1 | 0 | 4 |
 
 ### SDS FC — Top Scorers (Season)
@@ -184,7 +185,7 @@ NDL FC dropped to **6th**, sds fc climbed to **1st**.
 | Total shots | 52 |
 | Assists | 4 |
 | Tackles | 19 |
-| Passes | 267 |
+| Passes | 272 |
 
 
 ---

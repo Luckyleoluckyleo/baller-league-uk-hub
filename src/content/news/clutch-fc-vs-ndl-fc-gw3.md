@@ -2,7 +2,7 @@
 title: "NDL FC See Off Clutch FC 3-6 in Gameweek 3"
 date: 2026-10-26
 category: "Match Report"
-excerpt: "Clutch FC 3-6 NDL FC — Gameweek 3 match report. Alex Byrne (6 goals) leads Clutch FC's attack. Game Changers: Plus One (2) & The Line (2). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Clutch FC 3-6 NDL FC — Gameweek 3 match report. Tyler Winters (6 goals) leads Clutch FC's attack. Game Changers: Plus One (2) & The Line (2). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -115,8 +115,8 @@ Matches where the GC contributes this significantly tend to be remembered — th
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Alex Byrne | 6 | 0 | 4 |
 | Tyler Winters | 6 | 3 | 4 |
+| Alex Byrne | 6 | 0 | 4 |
 | Alfie Matthews | 3 | 5 | 4 |
 | Joshua Sumbunu | 3 | 0 | 4 |
 | Erick Kenko | 1 | 0 | 3 |
@@ -127,13 +127,13 @@ Matches where the GC contributes this significantly tend to be remembered — th
 |--------|-------|---------|------|
 | Sam Fitzgerald | 7 | 1 | 4 |
 | Isaac Modi | 3 | 1 | 4 |
-| Taufee Skandari | 2 | 0 | 4 |
 | Josh Parker | 2 | 0 | 4 |
+| Taufee Skandari | 2 | 0 | 4 |
 | Dara Dada | 1 | 0 | 4 |
 
 **Key Attacking Threats**
 
-- **Alex Byrne** — Clutch FC's talisman with **6 goals** from **4 appearances**. A reliable and consistent outlet who defences have learned to fear.
+- **Tyler Winters** — Clutch FC's talisman with **6 goals** from **4 appearances** and **3 assists**. A reliable and consistent outlet who defences have learned to fear.
 - **Sam Fitzgerald** — NDL FC's leading marksman with **7 goals** from **4 outings**, plus **1 assists**. NDL FC look to him whenever they need a moment of magic in the final third.
 
 

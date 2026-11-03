@@ -2,7 +2,7 @@
 title: "VZN FC Beat Toma 4-6 in Entertaining GW4 Clash"
 date: 2026-11-02
 category: "Match Report"
-excerpt: "Toma 4-6 VZN FC — Gameweek 4 match report. Arezki Hamouchene (2 goals) leads Toma's attack. Game Changers: 3Play (2) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Toma 4-6 VZN FC — Gameweek 4 match report. Joshua Phillips (2 goals) leads Toma's attack. Game Changers: 3Play (2) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: true
 ---
@@ -89,8 +89,11 @@ The **3Play** window was the more impactful, its **2** goals shifting the balanc
 
 ### Toma
 
+**Ibrahim Bangura** was Toma's standout performer, bagging **2 goals** in a display of clinical finishing that powered his side's effort.
+
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
+| Ibrahim Bangura | 2 | 0 | 3 | 14 |
 | Praise Ogbebor | 1 | 1 | 3 | 11 |
 | Yasin Ben El-Mhanni | 1 | 0 | 3 | 23 |
 | Junior Dixon | 0 | 1 | 4 | 15 |
@@ -117,25 +120,25 @@ The **3Play** window was the more impactful, its **2** goals shifting the balanc
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Arezki Hamouchene | 2 | 0 | 4 |
-| Yasin Ben El-Mhanni | 2 | 0 | 4 |
-| Ibrahim Bangura | 2 | 1 | 4 |
 | Joshua Phillips | 2 | 0 | 4 |
+| Yasin Ben El-Mhanni | 2 | 0 | 4 |
 | Junior Dixon | 2 | 1 | 3 |
+| Arezki Hamouchene | 2 | 0 | 4 |
+| Ibrahim Bangura | 2 | 1 | 4 |
 
 ### VZN FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
 | Florian Kastrati | 4 | 1 | 4 |
+| Terell Thomas | 2 | 0 | 3 |
 | Dubem Eze | 2 | 1 | 3 |
 | Eddie Simon | 2 | 1 | 4 |
-| Terell Thomas | 2 | 0 | 3 |
-| Danny Bassett | 1 | 1 | 4 |
+| Stefan Ilic | 1 | 3 | 4 |
 
 **Key Attacking Threats**
 
-- **Arezki Hamouchene** — Toma's talisman with **2 goals** from **4 appearances**. A developing attacking presence with room to grow.
+- **Joshua Phillips** — Toma's talisman with **2 goals** from **4 appearances**. A developing attacking presence with room to grow.
 - **Florian Kastrati** — VZN FC's leading marksman with **4 goals** from **4 outings**, plus **1 assists**. Still finding his rhythm but showing promising signs.
 
 

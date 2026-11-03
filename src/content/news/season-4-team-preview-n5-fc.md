@@ -27,8 +27,8 @@ Here are some of N5 FC's players to watch, with last season's (Season 4) figures
 - **[Joe Bennett](/players/joe-bennett)** (Defender) — 2 goals and 2 assists in 4 appearances.
 - **[Michael Hill](/players/michael-hill)** (Midfielder) — 2 goals and 1 assists in 4 appearances.
 - **[Francis Amartey](/players/francis-amartey)** (Striker) — 2 goals and 1 assists in 3 appearances.
-- **[Mustapha Carayol](/players/mustapha-carayol)** (Midfielder) — 1 goals and 0 assists in 4 appearances.
 - **[Billy Sharp](/players/billy-sharp)** (Striker) — 1 goals and 0 assists in 3 appearances.
+- **[Mustapha Carayol](/players/mustapha-carayol)** (Midfielder) — 1 goals and 0 assists in 4 appearances.
 
 See the full squad on the [N5 FC team page](/teams/n5-fc).
 

@@ -30,7 +30,7 @@ Here are some of P17 FC's players to watch, with last season's (Season 4) figure
 - **[Dajon Golding](/players/dajon-golding)** (Striker) — 3 goals and 0 assists in 4 appearances.
 - **[Ciaran Clark](/players/ciaran-clark)** (Defender) — 1 goals and 2 assists in 4 appearances.
 - **[Ben Long](/players/ben-long)** (Defender) — 0 goals and 0 assists in 1 appearance.
-- **[Jesus Abreu](/players/jesus-abreu)** (Midfielder) — 0 goals and 0 assists in 4 appearances.
+- **[Mussa Bham](/players/mussa-bham)** (Striker) — 0 goals and 2 assists in 4 appearances.
 
 See the full squad on the [P17 FC team page](/teams/rukkas-fc).
 

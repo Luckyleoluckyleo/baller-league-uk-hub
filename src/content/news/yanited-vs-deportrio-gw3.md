@@ -115,8 +115,8 @@ The **3Play** window was the more impactful, its **4** goals shifting the balanc
 | Kadell Daniel | 9 | 2 | 4 |
 | Alfie Cerulli | 6 | 0 | 4 |
 | Tyrell Miller-Rodney | 2 | 2 | 4 |
-| Joshua Emmanuel | 1 | 0 | 4 |
 | Zaid Al Hussaini | 1 | 4 | 4 |
+| Joshua Emmanuel | 1 | 0 | 4 |
 
 ### Deportrio — Top Scorers (Season)
 

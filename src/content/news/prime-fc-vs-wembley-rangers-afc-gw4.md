@@ -114,23 +114,23 @@ The **1-on-1** activation was particularly devastating, producing **4** goals th
 | Timmy Abraham | 5 | 0 | 4 |
 | Francis Mampolo | 3 | 2 | 4 |
 | Salim Nassor | 2 | 0 | 2 |
-| Joshua Rusoke | 1 | 0 | 2 |
+| Montel McKenzie | 1 | 1 | 4 |
 | Mauro Vilhete | 1 | 1 | 4 |
 
 ### Wembley Rangers AFC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Callam Gardner | 5 | 0 | 4 |
 | Domingos Pires | 5 | 1 | 4 |
+| Callam Gardner | 5 | 0 | 4 |
 | Chiekh Thiam | 4 | 1 | 4 |
-| Adrian Tajik | 1 | 0 | 3 |
 | Dominic Morgan-Griffiths | 1 | 2 | 4 |
+| Adrian Tajik | 1 | 0 | 3 |
 
 **Key Attacking Threats**
 
 - **Timmy Abraham** — Prime FC's talisman with **5 goals** from **4 appearances**. A developing attacking presence with room to grow.
-- **Callam Gardner** — Wembley Rangers AFC's leading marksman with **5 goals** from **4 outings**. Still finding his rhythm but showing promising signs.
+- **Domingos Pires** — Wembley Rangers AFC's leading marksman with **5 goals** from **4 outings**, plus **1 assists**. Still finding his rhythm but showing promising signs.
 
 
 ---

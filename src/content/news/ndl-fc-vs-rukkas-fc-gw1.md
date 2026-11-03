@@ -117,8 +117,8 @@ The **1-on-1** activation was particularly devastating, producing **5** goals th
 |--------|-------|---------|------|
 | Sam Fitzgerald | 7 | 1 | 4 |
 | Isaac Modi | 3 | 1 | 4 |
-| Taufee Skandari | 2 | 0 | 4 |
 | Josh Parker | 2 | 0 | 4 |
+| Taufee Skandari | 2 | 0 | 4 |
 | Dara Dada | 1 | 0 | 4 |
 
 ### P17 FC — Top Scorers (Season)

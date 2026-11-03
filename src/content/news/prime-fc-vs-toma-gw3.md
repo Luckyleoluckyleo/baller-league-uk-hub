@@ -100,6 +100,8 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 |--------|-------|---------|-------|--------|
 | Yasin Ben El-Mhanni | 1 | 0 | 3 | 23 |
 | Kyron McKay | 1 | 0 | 3 | 35 |
+| Charlie Pavey | 1 | 0 | 2 | 8 |
+| Ibrahim Bangura | 0 | 1 | 2 | 13 |
 
 
 
@@ -114,23 +116,23 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 | Timmy Abraham | 5 | 0 | 4 |
 | Francis Mampolo | 3 | 2 | 4 |
 | Salim Nassor | 2 | 0 | 2 |
-| Joshua Rusoke | 1 | 0 | 2 |
+| Montel McKenzie | 1 | 1 | 4 |
 | Mauro Vilhete | 1 | 1 | 4 |
 
 ### Toma — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Arezki Hamouchene | 2 | 0 | 4 |
-| Yasin Ben El-Mhanni | 2 | 0 | 4 |
-| Ibrahim Bangura | 2 | 1 | 4 |
 | Joshua Phillips | 2 | 0 | 4 |
+| Yasin Ben El-Mhanni | 2 | 0 | 4 |
 | Junior Dixon | 2 | 1 | 3 |
+| Arezki Hamouchene | 2 | 0 | 4 |
+| Ibrahim Bangura | 2 | 1 | 4 |
 
 **Key Attacking Threats**
 
 - **Timmy Abraham** — Prime FC's talisman with **5 goals** from **4 appearances**. A developing attacking presence with room to grow.
-- **Arezki Hamouchene** — Toma's leading marksman with **2 goals** from **4 outings**. Still finding his rhythm but showing promising signs.
+- **Joshua Phillips** — Toma's leading marksman with **2 goals** from **4 outings**. Still finding his rhythm but showing promising signs.
 
 
 ---

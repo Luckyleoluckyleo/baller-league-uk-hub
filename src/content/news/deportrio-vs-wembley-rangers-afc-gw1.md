@@ -138,16 +138,16 @@ The **3Play** activation was particularly devastating, producing **4** goals tha
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Callam Gardner | 5 | 0 | 4 |
 | Domingos Pires | 5 | 1 | 4 |
+| Callam Gardner | 5 | 0 | 4 |
 | Chiekh Thiam | 4 | 1 | 4 |
-| Adrian Tajik | 1 | 0 | 3 |
 | Dominic Morgan-Griffiths | 1 | 2 | 4 |
+| Adrian Tajik | 1 | 0 | 3 |
 
 **Key Attacking Threats**
 
 - **Jay Emmanuel-Thomas** — Deportrio's talisman with **7 goals** from **4 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Callam Gardner** — Wembley Rangers AFC's leading marksman with **5 goals** from **4 outings**. Still finding his rhythm but showing promising signs.
+- **Domingos Pires** — Wembley Rangers AFC's leading marksman with **5 goals** from **4 outings**, plus **1 assists**. Still finding his rhythm but showing promising signs.
 
 
 ---

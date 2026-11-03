@@ -38,6 +38,6 @@ Deportrio's opening fixture will be confirmed shortly. Visit the [Season 4 hub](
 
 ## Season outlook
 
-Consistency will be the aim for Deportrio as they look to build on recent campaigns and push towards the Final Four.
+Deportrio will fancy their chances of a strong season if they can convert last year's promise into points. The margins in this league are famously small.
 
 Follow Deportrio all season long on the [teams hub](/teams) and keep up with standings on the live [league table](/table).

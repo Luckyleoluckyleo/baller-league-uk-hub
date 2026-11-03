@@ -104,6 +104,7 @@ The **Plus One** activation was particularly devastating, producing **4** goals 
 | Ergys Pepaj | 2 | 0 | 5 | 3 |
 | Kazaiah Sterling | 1 | 0 | 5 | 13 |
 | Amine Sassi | 1 | 0 | 7 | 3 |
+| Josh Bohui | 1 | 0 | 1 | 3 |
 | Youssef Chentouf | 0 | 2 | 0 | 3 |
 | Hafed Al Droubi | 0 | 1 | 0 | 44 |
 
