@@ -153,8 +153,8 @@ const honours: string[] = data?.honours ?? [];
   </Base>
 ) : (
   <Base
-    title={`${data.name} — ${data.teamName} ${data.role} | Baller League UK`}
-    description={`${isActive ? `${data.name} is the ${data.role.toLowerCase()} of ${data.teamName} in Baller League UK Season ${SEASON}.` : `${data.name} previously managed ${data.teamName} in Baller League UK.`} ${data.bio?.replace(/\n/g, ' ').trim().substring(0, 120)}...`}
+    title={`${data.name} — ${data.teamName} ${data.role}: Career, Record & Bio`}
+    description={`${isActive ? `${data.name} is the ${data.role.toLowerCase()} of ${data.teamName} in Baller League UK Season ${SEASON}.` : `${data.name} previously managed ${data.teamName} in Baller League UK.`} Career, honours, playing history and record.`}
     schema={schema}
     image={`/og/managers/${slug}.png`}
     keywords={`${data.name}, ${data.teamName}, Baller League UK manager, celebrity manager, ${data.role.toLowerCase()}`}

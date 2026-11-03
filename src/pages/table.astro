@@ -41,8 +41,8 @@ function previewSlug(match: any): string {
 ---
 
 <Base
-  title={`Baller League UK Table — Season ${CURRENT_SEASON} Standings`}
-  description={`Baller League UK Season ${CURRENT_SEASON} league table. Full standings${maxGW ? `, Gameweek ${maxGW} results` : ''}, upcoming GW${upcomingGW} fixtures, team form and goals stats.`}
+  title={`Baller League UK Table 2026 — Latest Standings & Results`}
+  description={`The live Baller League UK table for Season ${CURRENT_SEASON}: standings, form, results and the race for the Final Four.`}
   keywords={`league table, standings, fixtures, results, gameweek, Season ${CURRENT_SEASON}, playoffs, top 4`}
 >
 
@@ -222,6 +222,10 @@ function previewSlug(match: any): string {
         <p>Table and results updated after each gameweek. Stats refreshed {updateDate}. {isFinalFour ? 'Next up: Final Four.' : fixturesData.upcoming.length > 0 ? `Upcoming fixtures for Gameweek ${upcomingGW}.` : 'Next fixtures to be announced.'}</p>
       </div>
     </div>
+
+    <p style="margin-top: var(--space-lg); color: var(--text-secondary);">
+      New to Baller League UK? Read the <a href="/rules">full rules</a> or browse the <a href="/explainers">explainers</a>. Looking for a specific match? See the <a href="/reports">report archive</a>.
+    </p>
 
   </div>
 </Base>

@@ -111,24 +111,35 @@ const hasOgImage = existsSync(
 const ogImagePath = hasOgImage ? `/og/${article.slug}.png` : '/og-default.png';
 const ogImageUrl = `${siteBase}${ogImagePath}`;
 
-const schema = {
-  "@context": "https://schema.org",
-  "@type": "NewsArticle",
-  "headline": data.title,
-  "description": data.excerpt,
-  "image": [ogImageUrl],
-  "datePublished": data.date.toISOString(),
-  "dateModified": (data.updated ?? data.date).toISOString(),
-  "articleSection": data.category,
-  "author": { "@type": "Organization", "name": data.author },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Baller League UK Hub",
-    "url": siteBase,
-    "logo": { "@type": "ImageObject", "url": `${siteBase}/og-default.png`, "width": 1200, "height": 630 }
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": data.title,
+    "description": data.excerpt,
+    "image": [ogImageUrl],
+    "datePublished": data.date.toISOString(),
+    "dateModified": (data.updated ?? data.date).toISOString(),
+    "articleSection": data.category,
+    "author": { "@type": "Organization", "name": data.author },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Baller League UK Hub",
+      "url": siteBase,
+      "logo": { "@type": "ImageObject", "url": `${siteBase}/og-default.png`, "width": 1200, "height": 630 }
+    },
+    "mainEntityOfPage": { "@type": "WebPage", "@id": new URL(Astro.url.pathname, Astro.site ?? 'https://ballerleagueukhub.com').toString() }
   },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": new URL(Astro.url.pathname, Astro.site ?? 'https://ballerleagueukhub.com').toString() }
-};
+  ...(data.faqs?.length ? [{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": data.faqs.map((f: any) => ({
+      "@type": "Question",
+      "name": f.q,
+      "acceptedAnswer": { "@type": "Answer", "text": f.a }
+    }))
+  }] : [])
+];
 
 const catClass =
   data.category === 'Match Report'  ? 'cat-match'    :
@@ -139,7 +150,7 @@ const catClass =
 ---
 
 <Base
-  title={`${data.title} – Baller League UK`}
+    title={/Baller League UK/i.test(data.title) ? data.title : `${data.title} – Baller League UK`}
   description={data.excerpt}
   image={ogImagePath}
   type="article"
@@ -174,6 +185,19 @@ const catClass =
         <div class="card-body prose">
           <p class="article-excerpt">{data.excerpt}</p>
           <Content />
+          {data.faqs?.length ? (
+            <section class="article-faq">
+              <h2>Quick answers</h2>
+              <div class="faq-list">
+                {data.faqs.map((f: any) => (
+                  <details class="faq-item">
+                    <summary>{f.q}</summary>
+                    <p>{f.a}</p>
+                  </details>
+                ))}
+              </div>
+            </section>
+          ) : null}
         </div>
       </article>
 
@@ -267,6 +291,14 @@ const catClass =
 .prose :global(th) { padding: 10px 14px; text-align: left; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); border-bottom: 2px solid var(--border); }
 .prose :global(td) { padding: 8px 14px; font-size: 0.9rem; color: var(--text-secondary); border-bottom: 1px solid var(--border-subtle); }
 .prose :global(tr:last-child td) { border-bottom: none; }
+
+.article-faq { margin-top: var(--space-2xl); border-top: 1px solid var(--border); padding-top: var(--space-xl); }
+.article-faq h2 { font-size: 1.6rem; margin-bottom: var(--space-md); }
+.faq-list { display: flex; flex-direction: column; gap: var(--space-sm); }
+.faq-item { background: var(--bg-elevated); border: 1px solid var(--border); border-radius: var(--radius); }
+.faq-item summary { padding: var(--space-md); font-weight: 600; color: var(--text-primary); cursor: pointer; list-style: none; }
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item p { padding: 0 var(--space-md) var(--space-md); color: var(--text-secondary); line-height: 1.7; margin: 0; }
 
 @media (max-width: 900px) {
   .article-layout { grid-template-columns: 1fr; }

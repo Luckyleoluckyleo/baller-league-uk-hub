@@ -9,6 +9,7 @@ const firstMD = season4.matchdays?.[0]?.date;
 const lastMD = season4.matchdays?.[season4.matchdays.length - 1]?.date;
 
 const faqs = [
+  { q: "What are the rules of Baller League UK?", a: "Baller League UK is 6-a-side football with 30-minute matches (two 15-minute halves), rolling substitutions and two Game Changers per match. Offside applies, corners are counted (three earn a penalty), wildcards are allowed and the top four teams reach the Final Four." },
   { q: "How does Baller League UK work?", a: "Baller League UK is 6-a-side football played indoors. Each match is 30 minutes, split into two 15-minute halves with a short half-time break and unlimited rolling substitutions. Twelve teams play 11 Monday-night matchdays, and the top four reach the Final Four playoffs to decide the champion." },
   { q: "What are the Game Changers?", a: "Twice per match — at the 12th minute and the 27th minute — a 'wheel of fortune' randomly selects a rule change. It applies for the final three minutes of that half. First-half options are Onside, Plus One and 3Play; second-half options are 1-on-1, The Line and Fairplay." },
   { q: "Are there corner kicks in Baller League UK?", a: "Corners are tallied rather than taken. When a team wins three corners, it is awarded a penalty. Play restarts with a goal kick." },
@@ -29,7 +30,7 @@ const schema = [
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": `Baller League UK Rules & Format — Season ${CURRENT_SEASON} Guide`,
+    "headline": `Baller League UK Rules 2026 — Offside, Game Changers & Format`,
     "description": "The complete Baller League UK rules and format guide: 6v6, 30-minute matches, Game Changers, time penalties, corners, scoring and the Final Four.",
     "author": { "@type": "Organization", "name": "Baller League UK Hub" },
     "dateModified": new Date().toISOString().split('T')[0],
@@ -43,8 +44,8 @@ const schema = [
 ---
 
 <Base
-  title={`Baller League UK Rules & Format — Season ${CURRENT_SEASON} Guide`}
-  description="The complete Baller League UK rules for Season 4: 6v6 format, two 15-minute halves, Game Changers, kick-ins, corners, time penalties, wildcards, the draft, cards, scoring and the Final Four playoffs."
+  title="Baller League UK Rules 2026 — Offside, Game Changers & Format"
+  description="The full Baller League UK rulebook: 6v6, offside, corner penalties, Game Changers, wildcards, cards and the Final Four — updated for Season 4."
   schema={schema}
   keywords="Baller League rules, Baller League UK format, how does Baller League work, 6v6 rules, Game Changers, offside, kick-ins, corners, time penalties, EP, Final Four, draft, trials, wildcards, yellow cards, red cards"
   type="article"
@@ -61,6 +62,14 @@ const schema = [
         <a href="/news/baller-league-uk-glossary" class="btn btn-ghost btn-sm">Glossary</a>
       </div>
       <p class="text-muted" style="margin-top:var(--space-sm); font-size:0.8rem;">Last updated: 3 November 2026</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="card rule-quick-answer">
+      <div class="card-body">
+        <p><strong>Quick answer:</strong> Baller League UK is 6-a-side football with two 15-minute halves, rolling substitutions and two Game Changers per match (at 12' and 27'). Offside applies, three corners earn a penalty, wildcards are allowed, and the top four reach the Final Four.</p>
+      </div>
     </div>
   </div>
 
@@ -334,6 +343,10 @@ const schema = [
 </Base>
 
 <style>
+.rule-quick-answer { margin-bottom: var(--space-xl); border-left: 3px solid var(--green); background: linear-gradient(135deg, var(--green-glow), var(--bg-card)); }
+.rule-quick-answer p { margin: 0; color: var(--text-secondary); line-height: 1.7; }
+.rule-quick-answer strong { color: var(--text-primary); }
+
 .rules-layout {
   display: grid;
   grid-template-columns: 1fr 260px;

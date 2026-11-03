@@ -1,10 +1,17 @@
 ---
-title: "Baller League UK Season 4 Managers: The Full Dugout Line-up"
+title: "Baller League UK Season 4 Managers — Full Confirmed List"
 date: 2026-10-09
 category: "Feature"
 excerpt: "From KSI and Jens Lehmann to Jay-Jay Okocha and Alex Iwobi, here is every confirmed manager in the Baller League UK Season 4 dugouts — and the stories behind them."
 author: "Baller League UK Hub"
 featured: false
+faqs:
+  - q: "Who manages each Baller League UK team in Season 4?"
+    a: "Prime FC — KSI; NDL FC — Niko Omilana; Gold Devils FC — Mark Goldbridge and Spencer Owen; N5 FC — Jens Lehmann; Toma — Jay-Jay Okocha; P17 FC — Alex Iwobi; RTG FC — Danny Aarons; Deportrio — Micah Richards and Daniel Sturridge; Clutch FC — Chloe Kelly; SDS FC — Sharky; VZN FC — Tobi Brown; Wembley Rangers — TBC."
+  - q: "Which Baller League UK managers are former Premier League players?"
+    a: "Micah Richards, Daniel Sturridge, Jens Lehmann, Alex Iwobi and Jay-Jay Okocha all played in the Premier League. Alan Shearer and Ian Wright are former managers."
+  - q: "How many managers are in Baller League UK Season 4?"
+    a: "There are 13 current managers across the 12 clubs, plus four former managers with profiles on the site."
 ---
 
 ## The dugouts are set

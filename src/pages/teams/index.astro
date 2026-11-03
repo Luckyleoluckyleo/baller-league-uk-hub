@@ -20,18 +20,43 @@ const teamsWithStandings = teams
 const seasonOf = (p: any) => p.seasons?.[String(CURRENT_SEASON)] || {};
 const topScorer = [...(playersData.players as any[])].sort((a, b) => (seasonOf(b).goals || 0) - (seasonOf(a).goals || 0))[0];
 
-const schema = {
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  "name": "Baller League UK Teams",
-  "description": `All 12 teams competing in Baller League UK Season ${CURRENT_SEASON}, with managers, squads and league positions.`,
-  "about": { "@type": "SportsOrganization", "name": "Baller League UK", "sport": "Football" },
-};
+const faqs = [
+  { q: "How many teams are in Baller League UK?", a: `There are 12 teams in Baller League UK Season ${CURRENT_SEASON}, each with a celebrity or footballing manager.` },
+  { q: "Who manages the Baller League UK teams?", a: `The Season ${CURRENT_SEASON} dugouts include KSI (Prime FC), Niko Omilana (NDL FC), Mark Goldbridge and Spencer Owen (Gold Devils FC), Jens Lehmann (N5 FC), Jay-Jay Okocha (Toma), Alex Iwobi (P17 FC) and Danny Aarons (RTG FC).` },
+  { q: "How does the Baller League UK season work?", a: "Twelve teams play 11 Monday-night matchdays. The top four after the regular season qualify for the Final Four playoffs." },
+  { q: "Where are Baller League UK matches played?", a: "Matches are played at the Baller League Arena at Eastbrook Studios in Dagenham, London." },
+];
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Baller League UK Teams",
+    "description": `All 12 teams competing in Baller League UK Season ${CURRENT_SEASON}, with managers, squads and league positions.`,
+    "about": { "@type": "SportsOrganization", "name": "Baller League UK", "sport": "Football" },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": `Baller League UK Season ${CURRENT_SEASON} teams`,
+    "itemListElement": teamsWithStandings.map((t, i) => ({
+      "@type": "ListItem",
+      "position": i + 1,
+      "name": t.data.name,
+      "url": `https://ballerleagueukhub.com/teams/${t.data.urlSlug}/`,
+    })),
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })),
+  },
+];
 ---
 
 <Base
-  title={`Baller League UK Teams — All 12 Clubs & Squad Lists (Season ${CURRENT_SEASON})`}
-  description={`Browse all 12 Baller League UK Season ${CURRENT_SEASON} clubs. View squad lists, league positions and recent form, and explore every team profile.`}
+  title={`Baller League UK Teams 2026 — All 12 Clubs, Managers & Squads`}
+  description={`All 12 Baller League UK teams for Season ${CURRENT_SEASON} — managers, squads, form, fixtures and stats for every club, from Prime FC to Toma.`}
   keywords={`teams, managers, squads, Season ${CURRENT_SEASON}, KSI, Niko Omilana, Sharky, Mark Goldbridge, Alex Iwobi`}
   schema={schema}
 >
@@ -73,6 +98,24 @@ const schema = {
         />
       ))}
     </div>
+
+    <section class="teams-faq">
+      <div class="section-header">
+        <div>
+          <div class="section-label">Quick answers</div>
+          <h2 class="section-title">Baller League UK teams FAQ</h2>
+        </div>
+      </div>
+      <div class="faq-list">
+        {faqs.map((f) => (
+          <details class="faq-item">
+            <summary>{f.q}</summary>
+            <p>{f.a}</p>
+          </details>
+        ))}
+      </div>
+      <p class="teams-related">New to the league? Read the <a href="/rules">full rules</a>, browse the <a href="/explainers">explainers</a>, or see every <a href="/reports">match report</a>.</p>
+    </section>
   </div>
 </Base>
 
@@ -85,6 +128,15 @@ const schema = {
   gap: var(--space-xl);
   margin-bottom: var(--space-2xl);
 }
+
+.teams-faq { margin-top: var(--space-2xl); }
+.faq-list { display: flex; flex-direction: column; gap: var(--space-sm); }
+.faq-item { background: var(--bg-elevated); border: 1px solid var(--border); border-radius: var(--radius); }
+.faq-item summary { padding: var(--space-md); font-weight: 600; color: var(--text-primary); cursor: pointer; list-style: none; }
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item p { padding: 0 var(--space-md) var(--space-md); color: var(--text-secondary); line-height: 1.7; margin: 0; }
+.teams-related { margin-top: var(--space-lg); color: var(--text-secondary); }
+.teams-related a { color: var(--green); }
 
 @media (max-width: 1024px) {
   .teams-grid {

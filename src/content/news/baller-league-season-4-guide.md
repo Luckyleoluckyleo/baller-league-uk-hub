@@ -1,11 +1,22 @@
 ---
-title: "Baller League UK Season 4: Everything You Need to Know"
+title: "Baller League UK Season 4 Guide — Teams, Fixtures, Tickets & Table"
 date: 2026-10-19
 updated: 2026-11-02
 category: "Announcement"
-excerpt: "Season 4 is live — latest results, the current table, upcoming fixtures, all 12 teams and managers, the Baller League Arena and how to get tickets, updated automatically after every matchday."
+excerpt: "Season 4 explained: every team and manager, the fixture list, tickets, the current table and results — updated after every matchday."
 author: "Baller League UK Hub"
 featured: true
+faqs:
+  - q: "When does Baller League UK Season 4 start?"
+    a: "Season 4 started on Monday 12 October 2026 and runs until Monday 21 December 2026."
+  - q: "Where is Baller League UK Season 4 played?"
+    a: "Matches are played at the Baller League Arena at Eastbrook Studios, Yew Tree Avenue, Dagenham, London RM10 7FN."
+  - q: "How do I get Baller League UK tickets?"
+    a: "Tickets are sold through the league's official partner, Fever. See the Season 4 hub for Single Matchday, Baller Bundle and Baller Pass options."
+  - q: "How many teams and matchdays are in Season 4?"
+    a: "There are 12 teams and 11 Monday-night matchdays in the regular season, followed by the Final Four playoffs."
+  - q: "Who manages the teams in Season 4?"
+    a: "Managers include KSI (Prime FC), Niko Omilana (NDL FC), Jay-Jay Okocha (Toma), Alex Iwobi (P17 FC), Jens Lehmann (N5 FC) and Danny Aarons (RTG FC)."
 ---
 
 ## Baller League UK Season 4 is live
@@ -140,6 +151,8 @@ The event is family-friendly; under-16s must be accompanied by an adult. For the
 The **Final Four** playoff then decides the Season 4 champion.
 
 ## Follow the season
+
+New to the league? Start with the [rules](/rules) and the [explainers hub](/explainers), or get [tickets](/season-4#tickets) for the next matchday.
 
 Bookmark the [league table](/table), [fixtures](/fixtures), [teams](/teams), [players](/players), [managers](/managers) and [news](/news) pages for the latest. Every matchday we publish previews before kick-off and reports, player stats and table updates immediately after the final whistle. The [Season 4 hub](/season-4) also tracks the venue, format, signings and manager news.
 
