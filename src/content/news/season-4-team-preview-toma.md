@@ -1,10 +1,19 @@
 ---
-title: "Toma — Baller League UK Season 4 Preview & Squad"
+title: "Toma — Baller League UK Season 4 Preview, Squad & Fixtures"
 date: 2026-11-03
 category: "Team Preview"
-excerpt: "Everything you need to know about Toma for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
+excerpt: "Everything you need to know about Toma in Baller League UK Season 4: manager, key players, opening fixture, last season's finish and season outlook."
 author: "Baller League UK Hub"
 featured: false
+faqs:
+  - q: "Who manages Toma in Baller League UK Season 4?"
+    a: "Toma are managed by Jay-Jay Okocha."
+  - q: "Who are Toma's key players?"
+    a: "Joshua Phillips, Yasin Ben El-Mhanni, Junior Dixon are among the players to watch for Toma in Season 4."
+  - q: "When do Toma play next?"
+    a: "The next Toma fixture has not yet been confirmed."
+  - q: "Where did Toma finish last season?"
+    a: "Toma did not have a final table position in Season 3."
 ---
 
 ## Toma: Season 4 Preview
@@ -38,6 +47,6 @@ Toma's opening fixture will be confirmed shortly. Visit the [Season 4 hub](/seas
 
 ## Season outlook
 
-Toma will fancy their chances of a strong season if they can convert last year's promise into points. The margins in this league are famously small.
+Consistency will be the aim for Toma as they look to build on recent campaigns and push towards the Final Four.
 
 Follow Toma all season long on the [teams hub](/teams) and keep up with standings on the live [league table](/table).

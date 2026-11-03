@@ -1,10 +1,19 @@
 ---
-title: "RTG FC — Baller League UK Season 4 Preview & Squad"
+title: "RTG FC — Baller League UK Season 4 Preview, Squad & Fixtures"
 date: 2026-11-03
 category: "Team Preview"
-excerpt: "Everything you need to know about RTG FC for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
+excerpt: "Everything you need to know about RTG FC in Baller League UK Season 4: manager, key players, opening fixture, last season's finish and season outlook."
 author: "Baller League UK Hub"
 featured: false
+faqs:
+  - q: "Who manages RTG FC in Baller League UK Season 4?"
+    a: "RTG FC are managed by Danny Aarons."
+  - q: "Who are RTG FC's key players?"
+    a: "Kadell Daniel, Alfie Cerulli, Tyrell Miller-Rodney are among the players to watch for RTG FC in Season 4."
+  - q: "When do RTG FC play next?"
+    a: "The next RTG FC fixture has not yet been confirmed."
+  - q: "Where did RTG FC finish last season?"
+    a: "RTG FC finished 9 in the Season 3 table with 15 points."
 ---
 
 ## RTG FC: Season 4 Preview
@@ -40,6 +49,6 @@ RTG FC's opening fixture will be confirmed shortly. Visit the [Season 4 hub](/se
 
 ## Season outlook
 
-With a new identity and a fresh voice in the dugout, RTG FC enter the season with a point to prove. A fast start would do wonders for momentum.
+RTG FC are one of the great unknowns of the new campaign — a rebranded side with everything to play for and a squad keen to make an early statement.
 
 Follow RTG FC all season long on the [teams hub](/teams) and keep up with standings on the live [league table](/table).

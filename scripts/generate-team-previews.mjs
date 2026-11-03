@@ -23,6 +23,7 @@ const tableData = read("src/data/table.json");
 const playerData = read("src/data/players.json");
 const fixturesData = read("src/data/fixtures.json");
 const season4 = read("src/data/season4.json");
+const standingsData = read("src/data/standings.json");
 
 if (!existsSync(CONTENT_DIR)) mkdirSync(CONTENT_DIR, { recursive: true });
 
@@ -89,23 +90,32 @@ function teamFixture(slug) {
   return upcoming.find((f) => f.homeSlug === slug || f.awaySlug === slug) || null;
 }
 
+function pickFor(name, options) {
+  let h = 2166136261;
+  for (const c of name) {
+    h ^= c.charCodeAt(0);
+    h = Math.imul(h, 16777619) >>> 0;
+  }
+  return options[h % options.length];
+}
+
 function outlook(name, changeNote) {
   if (changeNote && /new .*franchise/i.test(changeNote)) {
-    return [
+    return pickFor(name, [
       `${name} are a brand-new entry, so there is no formbook to lean on — just a clean slate, a famous name in the dugout and the freedom to surprise everyone. An opening-night statement would announce them perfectly.`,
       `As newcomers, ${name} arrive with no pressure and plenty of intrigue. If their squad clicks early, they could be the story of the season.`,
-    ][Math.floor(Math.random() * 2)];
+    ]);
   }
   if (changeNote && /rebrand/i.test(changeNote)) {
-    return [
+    return pickFor(name, [
       `With a new identity and a fresh voice in the dugout, ${name} enter the season with a point to prove. A fast start would do wonders for momentum.`,
       `${name} are one of the great unknowns of the new campaign — a rebranded side with everything to play for and a squad keen to make an early statement.`,
-    ][Math.floor(Math.random() * 2)];
+    ]);
   }
-  return [
+  return pickFor(name, [
     `Consistency will be the aim for ${name} as they look to build on recent campaigns and push towards the Final Four.`,
     `${name} will fancy their chances of a strong season if they can convert last year's promise into points. The margins in this league are famously small.`,
-  ][Math.floor(Math.random() * 2)];
+  ]);
 }
 
 function buildTeamPreview(slug) {
@@ -117,19 +127,31 @@ function buildTeamPreview(slug) {
   const { list: squad, hasStats } = squadPlayers(slug);
   const fixture = teamFixture(slug);
 
-  const mgrNames = managerList.map((m) => m.name).join(" and ");
+  const mgrNames = managerList.map((m) => m.name).join(" and ") || "TBC";
+  const priorSeason = String(CURRENT_SEASON - 1);
+  const priorRow = (standingsData[priorSeason] || []).find((r) => r.slug === slug);
+  const keyPlayers = squad.slice(0, 3).map((p) => p.name);
+  const faqs = [
+    { q: `Who manages ${name} in Baller League UK Season ${CURRENT_SEASON}?`, a: mgrNames === "TBC" ? `The ${name} manager has not yet been confirmed.` : `${name} are managed by ${mgrNames}.` },
+    { q: `Who are ${name}'s key players?`, a: keyPlayers.length ? `${keyPlayers.join(", ")} are among the players to watch for ${name} in Season ${CURRENT_SEASON}.` : `The ${name} squad is being finalised ahead of Season ${CURRENT_SEASON}.` },
+    { q: `When do ${name} play next?`, a: fixture ? `${name} ${fixture.homeSlug === slug ? "host" : "visit"} ${fixture.homeSlug === slug ? fixture.awayTeam : fixture.homeTeam}${fixture.date ? ` on ${fixture.date}` : ""}${fixture.time ? ` at ${fixture.time}` : ""}.` : `The next ${name} fixture has not yet been confirmed.` },
+    { q: `Where did ${name} finish last season?`, a: priorRow ? `${name} finished ${priorRow.pos} in the Season ${priorSeason} table with ${priorRow.pts} points.` : `${name} did not have a final table position in Season ${priorSeason}.` },
+  ];
   const mgrLinks = managerList
     .filter((m) => /[A-Za-z]/.test(m.name) && !m.name.includes("TBC") && !m.name.toLowerCase().includes("to be announced"))
     .map((m) => `[${m.name}](/managers/${mgrSlug(m.name)})`)
     .join(" and ");
 
   const dateStr = new Date().toISOString().split("T")[0];
-  const title = `${name} — Baller League UK Season ${CURRENT_SEASON} Preview & Squad`;
-  const excerpt = `Everything you need to know about ${name} for Baller League UK Season ${CURRENT_SEASON}: their manager, key players, opening fixture and season outlook.`;
+  const title = `${name} — Baller League UK Season ${CURRENT_SEASON} Preview, Squad & Fixtures`;
+  const excerpt = `Everything you need to know about ${name} in Baller League UK Season ${CURRENT_SEASON}: manager, key players, opening fixture, last season's finish and season outlook.`;
 
-  let s = `---\ntitle: "${title}"\ndate: ${dateStr}\ncategory: "Team Preview"\nexcerpt: "${excerpt.replace(/"/g, "'")}"\nauthor: "Baller League UK Hub"\nfeatured: false\n---\n\n`;
+  const yaml = (v) => String(v).replace(/\\/g, "\\\\").replace(/"/g, '\\"');
+  const faqYaml = faqs.map((f) => `  - q: "${yaml(f.q)}"\n    a: "${yaml(f.a)}"`).join("\n");
+  let s = `---\ntitle: "${title}"\ndate: ${dateStr}\ncategory: "Team Preview"\nexcerpt: "${excerpt.replace(/"/g, "'")}"\nauthor: "Baller League UK Hub"\nfeatured: false\nfaqs:\n${faqYaml}\n---\n\n`;
   s += `## ${name}: Season ${CURRENT_SEASON} Preview\n\n`;
-  s += `${meta.description ? meta.description + " " : ""}Here is the full lowdown on ${name} ahead of Baller League UK Season ${CURRENT_SEASON} — the manager, the squad, the opening fixture and what to expect.\n\n`;
+  const intro = meta.description && !/season 3/i.test(meta.description) ? meta.description + " " : "";
+  s += `${intro}Here is the full lowdown on ${name} ahead of Baller League UK Season ${CURRENT_SEASON} — the manager, the squad, the opening fixture and what to expect.\n\n`;
 
   if (meta.body) {
     s += `${meta.body}\n\n`;

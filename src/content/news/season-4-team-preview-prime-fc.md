@@ -1,15 +1,24 @@
 ---
-title: "Prime FC — Baller League UK Season 4 Preview & Squad"
+title: "Prime FC — Baller League UK Season 4 Preview, Squad & Fixtures"
 date: 2026-11-03
 category: "Team Preview"
-excerpt: "Everything you need to know about Prime FC for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
+excerpt: "Everything you need to know about Prime FC in Baller League UK Season 4: manager, key players, opening fixture, last season's finish and season outlook."
 author: "Baller League UK Hub"
 featured: false
+faqs:
+  - q: "Who manages Prime FC in Baller League UK Season 4?"
+    a: "Prime FC are managed by KSI."
+  - q: "Who are Prime FC's key players?"
+    a: "Timmy Abraham, Francis Mampolo, Salim Nassor are among the players to watch for Prime FC in Season 4."
+  - q: "When do Prime FC play next?"
+    a: "The next Prime FC fixture has not yet been confirmed."
+  - q: "Where did Prime FC finish last season?"
+    a: "Prime FC finished 3 in the Season 3 table with 21 points."
 ---
 
 ## Prime FC: Season 4 Preview
 
-KSI's Prime FC are pushing for the title in Season 3. Here is the full lowdown on Prime FC ahead of Baller League UK Season 4 — the manager, the squad, the opening fixture and what to expect.
+Here is the full lowdown on Prime FC ahead of Baller League UK Season 4 — the manager, the squad, the opening fixture and what to expect.
 
 Prime FC are the flagship team of Baller League UK, founded and led by **KSI** — one of the biggest content creators on the planet. As President and Manager, KSI has assembled a formidable squad that plays with the same explosive energy and confidence that defines his career. Prime FC are known for their free-scoring, attacking approach, often overwhelming opponents with relentless pressure and creative flair in the final third.
 

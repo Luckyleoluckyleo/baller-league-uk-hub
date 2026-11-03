@@ -1,15 +1,24 @@
 ---
-title: "Deportrio — Baller League UK Season 4 Preview & Squad"
+title: "Deportrio — Baller League UK Season 4 Preview, Squad & Fixtures"
 date: 2026-11-03
 category: "Team Preview"
-excerpt: "Everything you need to know about Deportrio for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
+excerpt: "Everything you need to know about Deportrio in Baller League UK Season 4: manager, key players, opening fixture, last season's finish and season outlook."
 author: "Baller League UK Hub"
 featured: false
+faqs:
+  - q: "Who manages Deportrio in Baller League UK Season 4?"
+    a: "Deportrio are managed by Micah Richards."
+  - q: "Who are Deportrio's key players?"
+    a: "Jay Emmanuel-Thomas, Rodney Ajayi, Kevin Weggen are among the players to watch for Deportrio in Season 4."
+  - q: "When do Deportrio play next?"
+    a: "The next Deportrio fixture has not yet been confirmed."
+  - q: "Where did Deportrio finish last season?"
+    a: "Deportrio finished 2 in the Season 3 table with 23 points."
 ---
 
 ## Deportrio: Season 4 Preview
 
-The co-managed Deportrio are pushing for silverware in Season 3. Here is the full lowdown on Deportrio ahead of Baller League UK Season 4 — the manager, the squad, the opening fixture and what to expect.
+Here is the full lowdown on Deportrio ahead of Baller League UK Season 4 — the manager, the squad, the opening fixture and what to expect.
 
 Deportrio are one of the most complete teams in Baller League UK, co-managed by a dream partnership of Premier League pedigree: **Micah Richards** and **Daniel Sturridge**. Richards — a title-winning defender with Manchester City and one of football's most charismatic pundits — handles the defensive structure and team organisation. Sturridge — a former Liverpool and England striker with a golden touch in front of goal — oversees the attacking play.
 

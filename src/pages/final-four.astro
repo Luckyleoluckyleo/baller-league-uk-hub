@@ -63,7 +63,16 @@ teams.forEach(t => {
   (t as any).topScorers = getTopScorers(t.slug);
 });
 
-const schema = {
+const finalFourFaqs = [
+  { q: "What is the Baller League UK Final Four?", a: "The Final Four is the playoff finale: the top four teams from the 11-gameweek regular season play two semi-finals and a final to decide the champion." },
+  { q: "When is the Baller League UK Final Four?", a: "The Season 3 Final Four was played on Monday 25 May 2026 at The O2, London. Future editions will be announced by the league." },
+  { q: "Where is the Final Four played?", a: "Season 3 was held at The O2 Arena in London. Baller League UK regular-season matchdays are played at the Baller League Arena in Dagenham." },
+  { q: "How do I get Final Four tickets?", a: "Tickets are sold through the official venue and ticketing partner. See the arena and tickets hub for the latest options." },
+  { q: "Who has won the Baller League UK Final Four?", a: "SDS FC won Season 1, Wembley Rangers won Season 2 and Prime FC won Season 3." },
+];
+
+const schema = [
+  {
   "@context": "https://schema.org",
   "@type": "SportsEvent",
   "name": "Baller League UK Season 3 Final Four",
@@ -81,14 +90,20 @@ const schema = {
     { "@type": "SportsTeam", "name": "Prime FC", "url": "https://ballerleagueukhub.com/teams/prime-fc" },
     { "@type": "SportsTeam", "name": "SDS FC", "url": "https://ballerleagueukhub.com/teams/sds-fc" }
   ]
-};
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": finalFourFaqs.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })),
+  },
+];
 ---
 
 <Base
-  title="Baller League UK Final Four 2026 — Teams, Matchups, H2H & Preview"
-  description="The Baller League UK Season 3 Final Four at The O2 London on Monday 25 May 2026. NDL FC vs SDS FC and Deportrio vs Prime FC in the semi-finals. Full team profiles, H2H history, key players, and format guide."
+  title="Baller League UK Final Four 2026 — Format, Results, Tickets & Past Winners"
+  description="How the Baller League UK Final Four works: semi-finals, final, Season 3 results, past winners, tickets and the road from the regular-season table."
   schema={schema}
-  keywords="Baller League Final Four, The O2, NDL FC, Deportrio, Prime FC, SDS FC, semi-final, playoffs, champion, 25 May 2026"
+  keywords="Baller League Final Four, Baller League Final Four 2026, final four tickets, final four format, The O2, NDL FC, Deportrio, Prime FC, SDS FC, semi-final, playoffs, champion"
 >
   <div class="page-header ff-header">
     <div class="container">
@@ -415,6 +430,19 @@ const schema = {
           <span>Get Tickets</span>
         </a>
       </div>
+    </section>
+
+    <section class="ff-section">
+      <h2 class="ff-section-title">Final Four FAQ</h2>
+      <div class="faq-list">
+        {finalFourFaqs.map((f) => (
+          <details class="faq-item">
+            <summary>{f.q}</summary>
+            <p>{f.a}</p>
+          </details>
+        ))}
+      </div>
+      <p class="ff-related">See the <a href="/season/3">Season 3 archive</a> for the full table and results, or the <a href="/arena">arena and tickets hub</a> for venue and ticket information.</p>
     </section>
 
   </div>
@@ -1322,4 +1350,12 @@ const schema = {
   .ff-h2h-row { flex-direction: column; gap: 8px; text-align: center; }
   .ff-h2h-row .result { text-align: center; }
 }
+
+.faq-list { display: flex; flex-direction: column; gap: var(--space-sm); }
+.faq-item { background: var(--bg-elevated); border: 1px solid var(--border); border-radius: var(--radius); }
+.faq-item summary { padding: var(--space-md); font-weight: 600; color: var(--text-primary); cursor: pointer; list-style: none; }
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item p { padding: 0 var(--space-md) var(--space-md); color: var(--text-secondary); line-height: 1.7; margin: 0; }
+.ff-related { margin-top: var(--space-lg); color: var(--text-secondary); }
+.ff-related a { color: var(--green); }
 </style>

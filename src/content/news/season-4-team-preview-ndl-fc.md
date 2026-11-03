@@ -1,15 +1,24 @@
 ---
-title: "NDL FC — Baller League UK Season 4 Preview & Squad"
+title: "NDL FC — Baller League UK Season 4 Preview, Squad & Fixtures"
 date: 2026-11-03
 category: "Team Preview"
-excerpt: "Everything you need to know about NDL FC for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
+excerpt: "Everything you need to know about NDL FC in Baller League UK Season 4: manager, key players, opening fixture, last season's finish and season outlook."
 author: "Baller League UK Hub"
 featured: false
+faqs:
+  - q: "Who manages NDL FC in Baller League UK Season 4?"
+    a: "NDL FC are managed by Niko Omilana."
+  - q: "Who are NDL FC's key players?"
+    a: "Sam Fitzgerald, Isaac Modi, Josh Parker are among the players to watch for NDL FC in Season 4."
+  - q: "When do NDL FC play next?"
+    a: "The next NDL FC fixture has not yet been confirmed."
+  - q: "Where did NDL FC finish last season?"
+    a: "NDL FC finished 1 in the Season 3 table with 26 points."
 ---
 
 ## NDL FC: Season 4 Preview
 
-Niko Omilana's NDL FC sit top of the Season 3 table. Here is the full lowdown on NDL FC ahead of Baller League UK Season 4 — the manager, the squad, the opening fixture and what to expect.
+Here is the full lowdown on NDL FC ahead of Baller League UK Season 4 — the manager, the squad, the opening fixture and what to expect.
 
 NDL FC are the team to beat in Baller League UK. Under the management of YouTube star **Niko Omilana** — who famously ran for Mayor of London — NDL FC have established themselves as the league's gold standard, combining attacking flair with ruthless efficiency. Their squad is packed with goalscorers who thrive on the fast-paced 6v6 format, and Niko's sharp tactical instincts keep them one step ahead of the competition.
 

@@ -1,10 +1,19 @@
 ---
-title: "Wembley Rangers AFC — Baller League UK Season 4 Preview & Squad"
+title: "Wembley Rangers AFC — Baller League UK Season 4 Preview, Squad & Fixtures"
 date: 2026-11-03
 category: "Team Preview"
-excerpt: "Everything you need to know about Wembley Rangers AFC for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
+excerpt: "Everything you need to know about Wembley Rangers AFC in Baller League UK Season 4: manager, key players, opening fixture, last season's finish and season outlook."
 author: "Baller League UK Hub"
 featured: false
+faqs:
+  - q: "Who manages Wembley Rangers AFC in Baller League UK Season 4?"
+    a: "The Wembley Rangers AFC manager has not yet been confirmed."
+  - q: "Who are Wembley Rangers AFC's key players?"
+    a: "Domingos Pires, Callam Gardner, Chiekh Thiam are among the players to watch for Wembley Rangers AFC in Season 4."
+  - q: "When do Wembley Rangers AFC play next?"
+    a: "The next Wembley Rangers AFC fixture has not yet been confirmed."
+  - q: "Where did Wembley Rangers AFC finish last season?"
+    a: "Wembley Rangers AFC finished 5 in the Season 3 table with 18 points."
 ---
 
 ## Wembley Rangers AFC: Season 4 Preview

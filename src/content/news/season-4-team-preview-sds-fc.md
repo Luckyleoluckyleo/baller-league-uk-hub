@@ -1,10 +1,19 @@
 ---
-title: "SDS FC — Baller League UK Season 4 Preview & Squad"
+title: "SDS FC — Baller League UK Season 4 Preview, Squad & Fixtures"
 date: 2026-11-03
 category: "Team Preview"
-excerpt: "Everything you need to know about SDS FC for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
+excerpt: "Everything you need to know about SDS FC in Baller League UK Season 4: manager, key players, opening fixture, last season's finish and season outlook."
 author: "Baller League UK Hub"
 featured: false
+faqs:
+  - q: "Who manages SDS FC in Baller League UK Season 4?"
+    a: "SDS FC are managed by Sharky."
+  - q: "Who are SDS FC's key players?"
+    a: "Kazaiah Sterling, Ergys Pepaj, Josh Bohui are among the players to watch for SDS FC in Season 4."
+  - q: "When do SDS FC play next?"
+    a: "The next SDS FC fixture has not yet been confirmed."
+  - q: "Where did SDS FC finish last season?"
+    a: "SDS FC finished 4 in the Season 3 table with 20 points."
 ---
 
 ## SDS FC: Season 4 Preview
@@ -38,6 +47,6 @@ SDS FC's opening fixture will be confirmed shortly. Visit the [Season 4 hub](/se
 
 ## Season outlook
 
-SDS FC will fancy their chances of a strong season if they can convert last year's promise into points. The margins in this league are famously small.
+Consistency will be the aim for SDS FC as they look to build on recent campaigns and push towards the Final Four.
 
 Follow SDS FC all season long on the [teams hub](/teams) and keep up with standings on the live [league table](/table).

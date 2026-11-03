@@ -1,10 +1,19 @@
 ---
-title: "P17 FC — Baller League UK Season 4 Preview & Squad"
+title: "P17 FC — Baller League UK Season 4 Preview, Squad & Fixtures"
 date: 2026-11-03
 category: "Team Preview"
-excerpt: "Everything you need to know about P17 FC for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
+excerpt: "Everything you need to know about P17 FC in Baller League UK Season 4: manager, key players, opening fixture, last season's finish and season outlook."
 author: "Baller League UK Hub"
 featured: false
+faqs:
+  - q: "Who manages P17 FC in Baller League UK Season 4?"
+    a: "P17 FC are managed by Alex Iwobi."
+  - q: "Who are P17 FC's key players?"
+    a: "Amin Belaid, Steven Kodra, Dajon Golding are among the players to watch for P17 FC in Season 4."
+  - q: "When do P17 FC play next?"
+    a: "The next P17 FC fixture has not yet been confirmed."
+  - q: "Where did P17 FC finish last season?"
+    a: "P17 FC finished 11 in the Season 3 table with 10 points."
 ---
 
 ## P17 FC: Season 4 Preview

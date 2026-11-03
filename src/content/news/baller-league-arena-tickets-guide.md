@@ -1,11 +1,22 @@
 ---
-title: "Baller League Arena: Venue and Tickets Guide"
+title: "Baller League Arena: Tickets, Travel & Matchday Guide (2026)"
 date: 2026-10-19
 updated: 2026-11-03
 category: "Explainer"
-excerpt: "Everything you need to know about attending a Baller League UK matchday — the venue, the format of the night, ticket types and how to get there."
+excerpt: "Everything you need to know about attending a Baller League UK matchday: the Baller League Arena in Dagenham, ticket options, travel and how to buy."
 author: "Baller League UK Hub"
 featured: false
+faqs:
+  - q: "Where is the Baller League Arena?"
+    a: "The Baller League Arena is at Eastbrook Studios, Yew Tree Avenue, Dagenham, London RM10 7FN."
+  - q: "How do I buy Baller League UK tickets?"
+    a: "Tickets are sold through the official partner, Fever. Choose Single Matchday, Baller Bundle or Baller Pass."
+  - q: "What time do Baller League matchdays start?"
+    a: "Monday matchdays run from around 17:15 to 21:50, with six matches back-to-back."
+  - q: "How do I get to the Baller League Arena?"
+    a: "The arena is in Dagenham, East London, served by the District line and National Rail. Check TfL and National Rail before travelling."
+  - q: "Can I watch Baller League UK online?"
+    a: "Yes — Season 4 is streamed online-only. See the where to watch guide for options."
 ---
 
 ## A new home for Season 4

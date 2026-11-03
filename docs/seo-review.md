@@ -69,6 +69,13 @@ GSC split some pages between `/path` and `/path/` (e.g. `/teams/toma` 221 + `/te
 - **Table page**: visible FAQ and `FAQPage` schema covering points, EP, leader and Final Four qualification.
 - **Keyword research**: `scripts/keyword-research.mjs` writes `docs/keyword-opportunities.csv` (536 UK autocomplete ideas, US terms filtered out). Run manually with `node scripts/keyword-research.mjs`.
 
+## Phase B shipped (2026-11-03)
+
+- **Season archive pages** (`/season/1`, `/season/2`, `/season/3`): query-focused titles/descriptions, champion + runner-up banner, top scorers, Final Four results and `FAQPage` schema.
+- **Final Four page**: new title/description for “Final Four 2026”, competitive format, tickets and past-winner queries; visible FAQ + `FAQPage` schema and links to the season archive/arena.
+- **Team preview articles**: new titles/excerpts, per-team FAQs (manager, key players, next fixture, last season’s finish), rendered FAQ + `FAQPage` schema; deterministic outlook text so weekly runs no longer churn prose.
+- **Tickets guide**: updated title/excerpt and venue/travel/ticket FAQs.
+
 ## Follow-up review (target: 2026-11-24, after 2–3 weeks)
 
 1. Export GSC again for the last 28 days.

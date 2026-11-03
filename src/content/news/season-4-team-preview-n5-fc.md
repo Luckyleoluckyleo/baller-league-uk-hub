@@ -1,15 +1,24 @@
 ---
-title: "N5 FC — Baller League UK Season 4 Preview & Squad"
+title: "N5 FC — Baller League UK Season 4 Preview, Squad & Fixtures"
 date: 2026-11-03
 category: "Team Preview"
-excerpt: "Everything you need to know about N5 FC for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
+excerpt: "Everything you need to know about N5 FC in Baller League UK Season 4: manager, key players, opening fixture, last season's finish and season outlook."
 author: "Baller League UK Hub"
 featured: false
+faqs:
+  - q: "Who manages N5 FC in Baller League UK Season 4?"
+    a: "N5 FC are managed by Jens Lehmann."
+  - q: "Who are N5 FC's key players?"
+    a: "Hani Berchiche, Joe Bennett, Michael Hill are among the players to watch for N5 FC in Season 4."
+  - q: "When do N5 FC play next?"
+    a: "The next N5 FC fixture has not yet been confirmed."
+  - q: "Where did N5 FC finish last season?"
+    a: "N5 FC finished 8 in the Season 3 table with 15 points."
 ---
 
 ## N5 FC: Season 4 Preview
 
-Jens Lehmann's N5 FC are an improving force in Season 3. Here is the full lowdown on N5 FC ahead of Baller League UK Season 4 — the manager, the squad, the opening fixture and what to expect.
+Here is the full lowdown on N5 FC ahead of Baller League UK Season 4 — the manager, the squad, the opening fixture and what to expect.
 
 N5 FC are managed by German football royalty: **Jens Lehmann**, the former Arsenal and Germany goalkeeper who was a key part of the legendary "Invincibles" squad that went an entire Premier League season unbeaten. Lehmann's CV — which includes spells at Borussia Dortmund, AC Milan, and Arsenal — makes him one of the most qualified tacticians in Baller League UK.
 

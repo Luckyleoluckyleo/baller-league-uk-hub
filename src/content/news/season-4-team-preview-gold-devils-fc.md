@@ -1,15 +1,24 @@
 ---
-title: "Gold Devils FC — Baller League UK Season 4 Preview & Squad"
+title: "Gold Devils FC — Baller League UK Season 4 Preview, Squad & Fixtures"
 date: 2026-11-03
 category: "Team Preview"
-excerpt: "Everything you need to know about Gold Devils FC for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
+excerpt: "Everything you need to know about Gold Devils FC in Baller League UK Season 4: manager, key players, opening fixture, last season's finish and season outlook."
 author: "Baller League UK Hub"
 featured: false
+faqs:
+  - q: "Who manages Gold Devils FC in Baller League UK Season 4?"
+    a: "Gold Devils FC are managed by Mark Goldbridge and Spencer Owen."
+  - q: "Who are Gold Devils FC's key players?"
+    a: "Tarik Gidaree, Bilal Sayoud, Connor Wood are among the players to watch for Gold Devils FC in Season 4."
+  - q: "When do Gold Devils FC play next?"
+    a: "The next Gold Devils FC fixture has not yet been confirmed."
+  - q: "Where did Gold Devils FC finish last season?"
+    a: "Gold Devils FC finished 7 in the Season 3 table with 17 points."
 ---
 
 ## Gold Devils FC: Season 4 Preview
 
-Mark Goldbridge's Gold Devils are a competitive force in Season 3. Here is the full lowdown on Gold Devils FC ahead of Baller League UK Season 4 — the manager, the squad, the opening fixture and what to expect.
+Here is the full lowdown on Gold Devils FC ahead of Baller League UK Season 4 — the manager, the squad, the opening fixture and what to expect.
 
 Gold Devils FC are managed by **Mark Goldbridge** — the voice behind The United Stand, one of the largest football fan channels on YouTube. Goldbridge brings a lifetime of football obsession and unfiltered passion to the Baller League, and his Gold Devils side are a direct reflection of their manager: hard-working, opinionated, and never short of fight.
 

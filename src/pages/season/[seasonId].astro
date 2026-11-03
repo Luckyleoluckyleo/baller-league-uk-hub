@@ -4,6 +4,7 @@ import Breadcrumb from '../../components/Breadcrumb.astro';
 import StatStrip from '../../components/StatStrip.astro';
 import gcData from '../../data/gamechangers.json';
 import standings from '../../data/standings.json';
+import playerData from '../../data/players.json';
 import { CURRENT_SEASON } from '../../lib/league';
 
 export function getStaticPaths() {
@@ -76,26 +77,55 @@ const sortedGWs = Object.keys(resultsByGW).map(Number).sort((a, b) => a - b);
 
 const top4 = table.slice(0, 4);
 
-const schema = {
-  "@context": "https://schema.org",
-  "@type": "SportsEvent",
-  "name": `Baller League UK Season ${seasonId}`,
-  "description": `Full standings and results for Baller League UK Season ${seasonId}. ${teams.length} teams, ${sMatches.length} matches, ${totalGoals} goals.`,
-  "sport": "Football",
-  "eventStatus": "https://schema.org/EventCompleted",
-  "image": "https://ballerleagueukhub.com/og-default.png",
-  "startDate": new Date(sMatches[0]?.matchDate || '2024-01-01').toISOString(),
-  "endDate": new Date(sMatches[sMatches.length - 1]?.matchDate || '2024-01-01').toISOString(),
-  "offers": { "@type": "Offer", "url": "https://ballerleague.uk", "availability": "https://schema.org/SoldOut", "price": "0", "priceCurrency": "GBP" },
-  "organizer": { "@type": "SportsOrganization", "name": "Baller League UK" },
-};
+const gw12 = sMatches
+  .filter((m: any) => m.gameweek === 12)
+  .sort((a: any, b: any) => (a.gameId || 0) - (b.gameId || 0));
+const finalMatch = gw12.length ? gw12[gw12.length - 1] : null;
+const champion = finalMatch
+  ? finalMatch.homeScore > finalMatch.awayScore ? finalMatch.homeTeam : finalMatch.awayTeam
+  : null;
+const runnerUp = finalMatch
+  ? finalMatch.homeScore > finalMatch.awayScore ? finalMatch.awayTeam : finalMatch.homeTeam
+  : null;
+const finalScore = finalMatch ? `${finalMatch.homeScore}-${finalMatch.awayScore}` : null;
+const topScorers = Object.entries(scorerTally).sort((a, b) => b[1] - a[1]).slice(0, 5);
+const playerSlugByName = Object.fromEntries((playerData.players as any[]).map((p: any) => [p.name, p.slug]));
+
+const seasonFaqs = [
+  { q: `Who won Baller League UK Season ${seasonId}?`, a: champion ? `${champion} won the Baller League UK Season ${seasonId} Final Four${finalScore ? `, beating ${runnerUp} ${finalScore} in the final` : ""}.` : `The Season ${seasonId} champion is not yet available.` },
+  { q: `Who finished top of the Season ${seasonId} table?`, a: table[0] ? `${table[0].team} finished top of the regular-season table with ${table[0].pts} points.` : `The Season ${seasonId} table is not yet available.` },
+  { q: `Who was the top scorer in Season ${seasonId}?`, a: topScorer ? `${topScorer[0]} scored ${topScorer[1]} goals in Baller League UK Season ${seasonId}.` : `The Season ${seasonId} top scorer is not yet available.` },
+  { q: `How did the Season ${seasonId} Final Four work?`, a: `The top four teams after 11 gameweeks qualified for the Final Four: two semi-finals and a final to decide the champion.` },
+  { q: `When was Baller League UK Season ${seasonId}?`, a: sMatches.length ? `${sMatches[0].matchDate} to ${sMatches[sMatches.length - 1].matchDate}.` : `The Season ${seasonId} dates are not yet available.` },
+];
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "SportsEvent",
+    "name": `Baller League UK Season ${seasonId}`,
+    "description": `Full standings and results for Baller League UK Season ${seasonId}. ${teams.length} teams, ${sMatches.length} matches, ${totalGoals} goals.`,
+    "sport": "Football",
+    "eventStatus": "https://schema.org/EventCompleted",
+    "image": "https://ballerleagueukhub.com/og-default.png",
+    "startDate": new Date(sMatches[0]?.matchDate || '2024-01-01').toISOString(),
+    "endDate": new Date(sMatches[sMatches.length - 1]?.matchDate || '2024-01-01').toISOString(),
+    "offers": { "@type": "Offer", "url": "https://ballerleague.uk", "availability": "https://schema.org/SoldOut", "price": "0", "priceCurrency": "GBP" },
+    "organizer": { "@type": "SportsOrganization", "name": "Baller League UK" },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": seasonFaqs.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })),
+  },
+];
 ---
 
 <Base
-  title={`Baller League UK Season ${seasonId} — Standings & Results`}
-  description={`Full Season ${seasonId} standings for Baller League UK. ${teams.length} teams, ${sMatches.length} matches, ${totalGoals} total goals across ${gws.length} gameweeks. Full table with wins, draws, losses, goals, and points.`}
+  title={`Baller League UK Season ${seasonId} — Table, Results & Winner`}
+  description={`Baller League UK Season ${seasonId}: final table, results, top scorer and Final Four.${champion ? ` ${champion} won the championship${finalScore ? `, beating ${runnerUp} ${finalScore}` : ""}.` : ""}`}
   schema={schema}
-  keywords={`Season ${seasonId}, standings, table, results, Baller League UK, teams, champions`}
+  keywords={`Baller League UK Season ${seasonId} table, Season ${seasonId} winner, Season ${seasonId} results, top scorer, Final Four, Baller League UK history`}
 >
   <div class="page-header">
     <div class="container">
@@ -117,6 +147,17 @@ const schema = {
         { icon: '📊', label: 'Goals / game', value: avgGoals, sub: `Season ${seasonId}` },
       ]}
     />
+
+    {champion && finalMatch && (
+      <div class="season-champion-banner card">
+        <div class="card-body">
+          <span class="season-champion-label">Season {seasonId} champions</span>
+          <h2 class="season-champion-name">{champion}</h2>
+          <p>{champion} beat {runnerUp} {finalScore} in the Final.</p>
+          <a href={`/match/s${seasonId}-${finalMatch.homeSlug}-vs-${finalMatch.awaySlug}-gw12`}>View the final →</a>
+        </div>
+      </div>
+    )}
 
     <p class="season-current-note">
       This is the final Season {seasonId} table. For the current season, see the
@@ -173,6 +214,41 @@ const schema = {
     </div>
     <p class="table-scroll-hint" aria-hidden="true">Swipe to see all stats →</p>
 
+    {topScorers.length > 0 && (
+      <section class="season-top-scorers">
+        <h2 class="season-section-title">Season {seasonId} top scorers</h2>
+        <div class="scorer-grid">
+          {topScorers.map(([name, goals], i) => (
+            <a href={playerSlugByName[name] ? `/players/${playerSlugByName[name]}` : '/players'} class="scorer-card card">
+              <div class="card-body">
+                <span class="scorer-rank">#{i + 1}</span>
+                <span class="scorer-name">{name}</span>
+                <span class="scorer-goals">{goals} goal{goals === 1 ? '' : 's'}</span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {gw12.length > 0 && (
+      <section class="season-final-four">
+        <h2 class="season-section-title">Season {seasonId} Final Four</h2>
+        <div class="season-matches-grid">
+          {gw12.map((m: any, i: number) => (
+            <a href={`/match/s${seasonId}-${m.homeSlug}-vs-${m.awaySlug}-gw12`} class="season-match-card">
+              <div class="sm-teams">
+                <span class="sm-team"><strong>{m.homeName || m.homeTeam}</strong></span>
+                <span class="sm-score">{m.homeScore} – {m.awayScore}</span>
+                <span class="sm-team"><strong>{m.awayName || m.awayTeam}</strong></span>
+              </div>
+              <span class="ff-stage">{i === gw12.length - 1 ? 'Final' : `Semi-final ${i + 1}`}</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
     <div class="season-cta">
       <a href="/season" class="btn btn-ghost">&larr; All Seasons</a>
       <a href="/table" class="btn btn-secondary">Current Season Table</a>
@@ -215,6 +291,23 @@ const schema = {
         ))}
       </div>
     )}
+
+    <section class="season-faq">
+      <div class="section-header">
+        <div>
+          <div class="section-label">Quick answers</div>
+          <h2 class="section-title">Season {seasonId} FAQ</h2>
+        </div>
+      </div>
+      <div class="faq-list">
+        {seasonFaqs.map((f) => (
+          <details class="faq-item">
+            <summary>{f.q}</summary>
+            <p>{f.a}</p>
+          </details>
+        ))}
+      </div>
+    </section>
 
   </div>
 </Base>
@@ -274,6 +367,31 @@ const schema = {
 .sm-team:first-child { text-align: right; }
 .sm-team:last-child { text-align: left; }
 .sm-score { font-family: var(--font-display); font-size: 1.3rem; color: var(--text-primary); white-space: nowrap; }
+
+.season-champion-banner { margin-bottom: var(--space-xl); border-left: 3px solid var(--green); background: linear-gradient(135deg, var(--green-glow), var(--bg-card)); }
+.season-champion-label { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--text-muted); }
+.season-champion-name { font-family: var(--font-display); font-size: 2.2rem; color: var(--text-primary); margin: var(--space-xs) 0 var(--space-sm); }
+.season-champion-banner p { color: var(--text-secondary); margin-bottom: var(--space-sm); }
+.season-champion-banner a { color: var(--green); font-weight: 600; }
+
+.season-top-scorers { margin-top: var(--space-2xl); }
+.scorer-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: var(--space-sm); }
+.scorer-card { text-decoration: none; }
+.scorer-card:hover { border-color: var(--green); }
+.scorer-card .card-body { display: flex; align-items: center; gap: var(--space-sm); }
+.scorer-rank { color: var(--text-muted); font-size: 0.78rem; font-weight: 700; }
+.scorer-name { flex: 1; color: var(--text-primary); font-weight: 600; font-size: 0.9rem; }
+.scorer-goals { color: var(--green); font-size: 0.8rem; font-weight: 700; }
+
+.season-final-four { margin-top: var(--space-2xl); }
+.ff-stage { display: inline-block; margin-top: var(--space-sm); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); }
+
+.season-faq { margin-top: var(--space-2xl); }
+.faq-list { display: flex; flex-direction: column; gap: var(--space-sm); }
+.faq-item { background: var(--bg-elevated); border: 1px solid var(--border); border-radius: var(--radius); }
+.faq-item summary { padding: var(--space-md); font-weight: 600; color: var(--text-primary); cursor: pointer; list-style: none; }
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item p { padding: 0 var(--space-md) var(--space-md); color: var(--text-secondary); line-height: 1.7; margin: 0; }
 
 @media (max-width: 640px) {
   .standings-table { font-size: 0.8rem; }
