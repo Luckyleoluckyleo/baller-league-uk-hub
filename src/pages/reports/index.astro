@@ -1,0 +1,139 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import { getCollection } from 'astro:content';
+import {
+  playedSeasonNumbers,
+  playedSeasonMatches,
+  gameweeksFor,
+  reportSlug,
+  gwHubUrl,
+  teamHubUrl,
+} from '../../lib/reports';
+
+const news = await getCollection('news');
+const teams = await getCollection('teams');
+const reportSlugs = new Set(
+  news.filter((a) => a.data.category === 'Match Report').map((a) => a.slug)
+);
+
+const seasons = playedSeasonNumbers().map((season) => {
+  const gws = gameweeksFor(season)
+    .slice()
+    .sort((a, b) => b - a)
+    .map((gw) => {
+      const matches = playedSeasonMatches(season).filter((m) => m.gameweek === gw);
+      const reports = matches.filter((m) => reportSlugs.has(reportSlug(m))).length;
+      return { gw, matches, reports };
+    });
+  return { season, gws };
+});
+
+const totalMatches = seasons.reduce(
+  (n, s) => n + s.gws.reduce((x, g) => x + g.matches.length, 0),
+  0
+);
+const totalReports = seasons.reduce(
+  (n, s) => n + s.gws.reduce((x, g) => x + g.reports, 0),
+  0
+);
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Baller League UK Match Reports Archive",
+  "description": `Every Baller League UK match report, grouped by season and gameweek. ${totalReports} reports across ${totalMatches} matches.`,
+  "about": { "@type": "SportsOrganization", "name": "Baller League UK", "sport": "Football" },
+};
+---
+
+<Base
+  title="Baller League UK Match Reports — Every Gameweek"
+  description={`Browse every Baller League UK match report by season and gameweek. ${totalReports} reports across ${totalMatches} matches, with scorelines, Game Changers and player stats.`}
+  keywords="Baller League UK match reports, gameweek reports, results, match archive"
+  schema={schema}
+>
+  <div class="page-header">
+    <div class="container">
+      <Breadcrumb items={[{ name: 'Home', url: '/' }, { name: 'Match Reports' }]} />
+      <div class="section-label">Archive</div>
+      <h1>Match Reports</h1>
+      <p class="section-subtitle">
+        {totalReports} reports across {totalMatches} matches — browse by season and gameweek.
+      </p>
+      <div class="reports-hero-links">
+        <a href="/news" class="btn btn-secondary btn-sm">Latest news</a>
+        <a href="/roundup" class="btn btn-ghost btn-sm">Weekly roundups</a>
+        <a href="/table" class="btn btn-ghost btn-sm">League table</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container reports-page">
+    {seasons.map(({ season, gws }) => (
+      <section class="reports-season">
+        <div class="section-header flex-between">
+          <div>
+            <div class="section-label">Season {season}</div>
+            <h2 class="section-title">Season {season} reports</h2>
+          </div>
+          <a href={`/season/${season}`} class="view-all">Season hub</a>
+        </div>
+        <div class="gw-card-grid">
+          {gws.map((g) => (
+            <a href={gwHubUrl(season, g.gw)} class="gw-card card">
+              <div class="card-body">
+                <span class="gw-card-num">GW{g.gw}</span>
+                <span class="gw-card-meta">
+                  {g.matches.length} match{g.matches.length === 1 ? '' : 'es'} · {g.reports} report{g.reports === 1 ? '' : 's'}
+                </span>
+                <span class="gw-card-link">View reports →</span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    ))}
+
+    <section class="reports-teams">
+      <div class="section-header flex-between">
+        <div>
+          <div class="section-label">By club</div>
+          <h2 class="section-title">Team report archives</h2>
+        </div>
+        <a href="/teams" class="view-all">All teams</a>
+      </div>
+      <div class="team-link-grid">
+        {teams
+          .slice()
+          .sort((a, b) => a.data.name.localeCompare(b.data.name))
+          .map((t) => (
+            <a href={teamHubUrl(t.data.urlSlug)} class="team-report-link card">
+              <div class="card-body">
+                <img src={`/logos/${t.data.urlSlug}.svg`} alt="" class="team-report-logo" onerror="this.style.display='none'" />
+                <span>{t.data.name}</span>
+              </div>
+            </a>
+          ))}
+      </div>
+    </section>
+  </div>
+</Base>
+
+<style>
+.reports-page { padding-bottom: var(--space-3xl); }
+.reports-hero-links { display: flex; flex-wrap: wrap; gap: var(--space-sm); margin-top: var(--space-md); }
+.reports-season { margin-bottom: var(--space-2xl); }
+.gw-card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: var(--space-sm); }
+.gw-card { text-decoration: none; transition: transform 0.15s ease, border-color 0.15s ease; }
+.gw-card:hover { transform: translateY(-2px); border-color: var(--green); }
+.gw-card-num { display: block; font-family: var(--font-display); font-size: 1.7rem; color: var(--text-primary); line-height: 1; }
+.gw-card-meta { display: block; font-size: 0.8rem; color: var(--text-muted); margin-top: 4px; }
+.gw-card-link { display: inline-block; font-size: 0.78rem; font-weight: 600; color: var(--green); margin-top: var(--space-sm); }
+.reports-teams { margin-top: var(--space-2xl); }
+.team-link-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: var(--space-sm); }
+.team-report-link { text-decoration: none; }
+.team-report-link:hover { border-color: var(--green); }
+.team-report-link .card-body { display: flex; align-items: center; gap: var(--space-sm); font-size: 0.9rem; font-weight: 600; }
+.team-report-logo { width: 28px; height: 28px; object-fit: contain; }
+</style>

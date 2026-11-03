@@ -283,6 +283,7 @@ const schema = match ? {
             <a href={`/match/${prevMatch.slug}`} class="btn btn-ghost">&larr; Previous Match</a>
           )}
           <a href="/gamechangers" class="btn btn-ghost">All Matches</a>
+          <a href={`/reports/season-${match.season}/gw${match.gameweek}`} class="btn btn-ghost">All GW{match.gameweek} Reports</a>
           {nextMatch && (
             <a href={`/match/${nextMatch.slug}`} class="btn btn-ghost">Next Match &rarr;</a>
           )}

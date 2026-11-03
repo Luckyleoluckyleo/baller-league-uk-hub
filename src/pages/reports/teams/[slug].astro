@@ -1,0 +1,188 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Breadcrumb from '../../../components/Breadcrumb.astro';
+import { getCollection } from 'astro:content';
+import {
+  playedSeasonNumbers,
+  teamMatches,
+  reportSlug,
+  reportUrl,
+  matchUrl,
+  gwHubUrl,
+} from '../../../lib/reports';
+
+export async function getStaticPaths() {
+  const teams = await getCollection('teams');
+  return teams.map((team) => ({
+    params: { slug: team.data.urlSlug },
+    props: { team },
+  }));
+}
+
+const { team } = Astro.props as { team: any };
+const slug: string = team.data.urlSlug;
+const name: string = team.data.name;
+
+const news = await getCollection('news');
+const reportSlugs = new Set(
+  news.filter((a) => a.data.category === 'Match Report').map((a) => a.slug)
+);
+
+const seasons = playedSeasonNumbers()
+  .map((season) => ({ season, matches: teamMatches(slug, season) }))
+  .filter((s) => s.matches.length > 0);
+
+let won = 0, drawn = 0, lost = 0, gf = 0, ga = 0, reports = 0;
+for (const { matches } of seasons) {
+  for (const m of matches) {
+    const isHome = m.homeSlug === slug;
+    const scored = isHome ? m.homeScore : m.awayScore;
+    const conceded = isHome ? m.awayScore : m.homeScore;
+    gf += scored;
+    ga += conceded;
+    if (scored > conceded) won++;
+    else if (scored < conceded) lost++;
+    else drawn++;
+    if (reportSlugs.has(reportSlug(m))) reports++;
+  }
+}
+const total = won + drawn + lost;
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": `${name} Match Reports & Results — Baller League UK`,
+  "description": `Every ${name} match report and result across all Baller League UK seasons: ${total} matches, ${won} wins, ${reports} reports.`,
+  "about": { "@type": "SportsTeam", "name": name, "sport": "Football" },
+};
+---
+
+<Base
+  title={`${name} Match Reports & Results — All Seasons | Baller League UK`}
+  description={`Every ${name} match report and result across all Baller League UK seasons. ${total} matches: ${won}W ${drawn}D ${lost}L, ${gf} goals scored, ${reports} full reports.`}
+  keywords={`${name} match reports, ${name} results, Baller League UK ${name}, ${name} fixtures`}
+  schema={schema}
+>
+  <div class="page-header">
+    <div class="container">
+      <Breadcrumb
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Match Reports', url: '/reports' },
+          { name: name },
+        ]}
+      />
+      <div class="section-label">All seasons</div>
+      <h1>{name} Match Reports</h1>
+      <p class="section-subtitle">
+        Every {name} result across Baller League UK, with a link to the full match report where available.
+      </p>
+      <div class="team-report-actions">
+        <a href={`/teams/${slug}`} class="btn btn-secondary btn-sm">{name} profile</a>
+        <a href="/reports" class="btn btn-ghost btn-sm">All reports</a>
+        <a href="/news" class="btn btn-ghost btn-sm">Latest news</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container team-report-page">
+    <div class="team-record-strip">
+      <div class="record-item"><span class="record-val">{total}</span><span class="record-lbl">Matches</span></div>
+      <div class="record-item"><span class="record-val">{won}</span><span class="record-lbl">Won</span></div>
+      <div class="record-item"><span class="record-val">{drawn}</span><span class="record-lbl">Drawn</span></div>
+      <div class="record-item"><span class="record-val">{lost}</span><span class="record-lbl">Lost</span></div>
+      <div class="record-item"><span class="record-val">{gf}</span><span class="record-lbl">For</span></div>
+      <div class="record-item"><span class="record-val">{ga}</span><span class="record-lbl">Against</span></div>
+      <div class="record-item"><span class="record-val">{reports}</span><span class="record-lbl">Reports</span></div>
+    </div>
+
+    {seasons.length === 0 && (
+      <div class="card"><div class="card-body text-center"><p class="text-muted">No completed matches yet.</p></div></div>
+    )}
+
+    {seasons.map(({ season, matches }) => (
+      <section class="team-season-block">
+        <div class="section-header flex-between">
+          <div>
+            <div class="section-label">Season {season}</div>
+            <h2 class="section-title">Season {season}</h2>
+          </div>
+          <a href={`/season/${season}`} class="view-all">Season hub</a>
+        </div>
+        <div class="team-match-list">
+          {matches.map((m) => {
+            const isHome = m.homeSlug === slug;
+            const scored = isHome ? m.homeScore : m.awayScore;
+            const conceded = isHome ? m.awayScore : m.homeScore;
+            const opponent = isHome ? m.awayTeam : m.homeTeam;
+            const opponentSlug = isHome ? m.awaySlug : m.homeSlug;
+            const outcome = scored > conceded ? 'W' : scored < conceded ? 'L' : 'D';
+            const hasReport = reportSlugs.has(reportSlug(m));
+            return (
+              <article class="team-match-row card">
+                <div class="card-body">
+                  <a href={gwHubUrl(season, m.gameweek)} class="tm-gw">GW{m.gameweek}</a>
+                  <div class={`tm-outcome tm-${outcome.toLowerCase()}`}>{outcome}</div>
+                  <div class="tm-score">{scored}–{conceded}</div>
+                  <div class="tm-opponent">
+                    <span class="tm-vs">{isHome ? 'vs' : 'at'}</span>
+                    <a href={`/teams/${opponentSlug}`} class="tm-opponent-link">{opponent}</a>
+                  </div>
+                  <div class="tm-actions">
+                    <a href={matchUrl(m)} class="tm-link">Match page</a>
+                    {hasReport ? (
+                      <a href={reportUrl(m)} class="tm-link tm-report">Read report →</a>
+                    ) : (
+                      <span class="tm-noreport">No report</span>
+                    )}
+                  </div>
+                </div>
+              </article>
+            );
+          })}
+        </div>
+      </section>
+    ))}
+  </div>
+</Base>
+
+<style>
+.team-report-page { padding-bottom: var(--space-3xl); }
+.team-report-actions { display: flex; flex-wrap: wrap; gap: var(--space-sm); margin-top: var(--space-md); }
+.team-record-strip {
+  display: flex; flex-wrap: wrap; gap: var(--space-xl); margin-bottom: var(--space-2xl);
+  padding: var(--space-lg) var(--space-xl); background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+}
+.record-item { text-align: center; min-width: 52px; }
+.record-val { display: block; font-family: var(--font-display); font-size: 1.8rem; color: var(--text-primary); line-height: 1; }
+.record-lbl { display: block; font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin-top: 4px; }
+.team-season-block { margin-bottom: var(--space-2xl); }
+.team-match-list { display: flex; flex-direction: column; gap: var(--space-sm); }
+.team-match-row .card-body {
+  display: grid; grid-template-columns: 60px 36px 70px 1fr auto; align-items: center; gap: var(--space-md);
+}
+.tm-gw { font-size: 0.72rem; font-weight: 700; color: var(--text-muted); text-decoration: none; }
+.tm-gw:hover { color: var(--green); }
+.tm-outcome {
+  width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center;
+  font-size: 0.72rem; font-weight: 800;
+}
+.tm-w { background: rgba(0, 230, 118, 0.15); color: var(--green); }
+.tm-d { background: rgba(255, 214, 0, 0.12); color: var(--gold); }
+.tm-l { background: rgba(255, 107, 53, 0.12); color: var(--orange); }
+.tm-score { font-family: var(--font-display); font-size: 1.5rem; color: var(--text-primary); }
+.tm-opponent { min-width: 0; color: var(--text-secondary); font-size: 0.92rem; }
+.tm-vs { color: var(--text-muted); margin-right: 4px; }
+.tm-opponent-link { color: var(--text-primary); text-decoration: none; }
+.tm-opponent-link:hover { color: var(--green); }
+.tm-actions { display: flex; align-items: center; gap: var(--space-md); flex-wrap: wrap; }
+.tm-link { font-size: 0.78rem; color: var(--text-secondary); text-decoration: none; }
+.tm-link:hover { color: var(--green); }
+.tm-report { color: var(--green); font-weight: 600; }
+.tm-noreport { font-size: 0.75rem; color: var(--text-muted); }
+@media (max-width: 760px) {
+  .team-match-row .card-body { grid-template-columns: 48px 30px 54px 1fr; }
+  .tm-actions { grid-column: 1 / -1; justify-content: flex-end; }
+}
+</style>

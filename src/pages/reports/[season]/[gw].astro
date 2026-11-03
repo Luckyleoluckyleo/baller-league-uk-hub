@@ -1,0 +1,174 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Breadcrumb from '../../../components/Breadcrumb.astro';
+import { getCollection } from 'astro:content';
+import {
+  playedSeasonNumbers,
+  gameweeksFor,
+  gameweekMatches,
+  reportSlug,
+  reportUrl,
+  matchUrl,
+  gwHubUrl,
+  teamHubUrl,
+} from '../../../lib/reports';
+
+export function getStaticPaths() {
+  return playedSeasonNumbers().flatMap((season) =>
+    gameweeksFor(season).map((gw) => ({
+      params: { season: `season-${season}`, gw: `gw${gw}` },
+      props: { season, gw },
+    }))
+  );
+}
+
+const { season, gw } = Astro.props as { season: number; gw: number };
+
+const news = await getCollection('news');
+const reportSlugs = new Set(
+  news.filter((a) => a.data.category === 'Match Report').map((a) => a.slug)
+);
+
+const matches = gameweekMatches(season, gw);
+const reports = matches.filter((m) => reportSlugs.has(reportSlug(m))).length;
+const totalGoals = matches.reduce((n, m) => n + m.homeScore + m.awayScore, 0);
+const gcGoals = matches.reduce(
+  (n, m) => n + (m.gamechanger1?.goalsScored || 0) + (m.gamechanger2?.goalsScored || 0),
+  0
+);
+
+const gws = gameweeksFor(season);
+const prevGW = gws.filter((g) => g < gw).pop() ?? null;
+const nextGW = gws.find((g) => g > gw) ?? null;
+const currentPlayedSeason = playedSeasonNumbers()[0];
+
+function gcName(type?: string): string {
+  const map: Record<string, string> = {
+    onside: 'Onside',
+    plusone: 'Plus One',
+    '3play': '3Play',
+    '1on1': '1-on-1',
+    theline: 'The Line',
+    fairplay: 'Fairplay',
+  };
+  return map[type || ''] || type || '—';
+}
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": `Season ${season} Gameweek ${gw} Match Reports — Baller League UK`,
+  "description": `Every Season ${season} Gameweek ${gw} match report: ${matches.length} matches, ${totalGoals} goals and ${reports} full reports.`,
+  "about": { "@type": "SportsOrganization", "name": "Baller League UK", "sport": "Football" },
+};
+---
+
+<Base
+  title={`Season ${season} Gameweek ${gw} Match Reports | Baller League UK`}
+  description={`Season ${season} Gameweek ${gw} match reports and results: ${matches.length} matches, ${totalGoals} goals, Game Changers and player stats.`}
+  keywords={`Baller League UK Season ${season} Gameweek ${gw}, match reports, results, GW${gw}`}
+  schema={schema}
+>
+  <div class="page-header">
+    <div class="container">
+      <Breadcrumb
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Match Reports', url: '/reports' },
+          { name: `Season ${season}`, url: `/season/${season}` },
+          { name: `GW${gw}` },
+        ]}
+      />
+      <div class="section-label">Season {season} · Gameweek {gw}</div>
+      <h1>Gameweek {gw} Match Reports</h1>
+      <p class="section-subtitle">
+        {matches.length} match{matches.length === 1 ? '' : 'es'} · {totalGoals} goals · {reports} report{reports === 1 ? '' : 's'}
+      </p>
+    </div>
+  </div>
+
+  <div class="container gw-hub-page">
+    <div class="gw-nav">
+      {gws.map((g) => (
+        <a href={gwHubUrl(season, g)} class={`gw-nav-link ${g === gw ? 'active' : ''}`}>GW{g}</a>
+      ))}
+    </div>
+
+    <div class="gw-stat-grid">
+      <div class="stat-box"><div class="stat-box-number">{matches.length}</div><div class="stat-box-label">Matches</div></div>
+      <div class="stat-box"><div class="stat-box-number">{totalGoals}</div><div class="stat-box-label">Goals</div></div>
+      <div class="stat-box"><div class="stat-box-number">{gcGoals}</div><div class="stat-box-label">GC Goals</div></div>
+      <div class="stat-box"><div class="stat-box-number">{reports}</div><div class="stat-box-label">Reports</div></div>
+    </div>
+
+    <div class="report-grid">
+      {matches.map((m) => {
+        const hasReport = reportSlugs.has(reportSlug(m));
+        return (
+          <article class="report-card card">
+            <div class="card-body">
+              <div class="report-meta">
+                <span class="badge badge-gw">GW{gw}</span>
+                {m.matchDate && <span class="report-date">{m.matchDate}</span>}
+              </div>
+              <div class="report-scoreline">
+                <a href={teamHubUrl(m.homeSlug)} class="report-team home">{m.homeTeam}</a>
+                <span class="report-score">{m.homeScore}–{m.awayScore}</span>
+                <a href={teamHubUrl(m.awaySlug)} class="report-team away">{m.awayTeam}</a>
+              </div>
+              <div class="report-gc">
+                <span class="gc-tag">{gcName(m.gamechanger1?.type)} ({m.gamechanger1?.goalsScored || 0})</span>
+                <span class="gc-tag">{gcName(m.gamechanger2?.type)} ({m.gamechanger2?.goalsScored || 0})</span>
+              </div>
+              <div class="report-actions">
+                <a href={matchUrl(m)} class="btn btn-ghost btn-sm">Match page</a>
+                {hasReport ? (
+                  <a href={reportUrl(m)} class="btn btn-primary btn-sm">Read report</a>
+                ) : (
+                  <span class="report-noreport">No report yet</span>
+                )}
+              </div>
+            </div>
+          </article>
+        );
+      })}
+    </div>
+
+    <div class="gw-footer-nav">
+      {prevGW !== null && <a href={gwHubUrl(season, prevGW)} class="btn btn-ghost">← GW{prevGW}</a>}
+      <a href="/reports" class="btn btn-ghost">All reports</a>
+      {currentPlayedSeason === season && <a href={`/roundup/${gw}`} class="btn btn-ghost">GW{gw} roundup</a>}
+      <a href={`/season/${season}`} class="btn btn-ghost">Season {season} hub</a>
+      {nextGW !== null && <a href={gwHubUrl(season, nextGW)} class="btn btn-ghost">GW{nextGW} →</a>}
+    </div>
+  </div>
+</Base>
+
+<style>
+.gw-hub-page { padding-bottom: var(--space-3xl); }
+.gw-nav { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: var(--space-xl); }
+.gw-nav-link {
+  background: var(--bg-card); color: var(--text-secondary); border: 1px solid var(--border);
+  padding: 6px 14px; border-radius: var(--radius-sm); font-size: 0.85rem; font-weight: 600;
+  text-decoration: none; transition: all var(--transition);
+}
+.gw-nav-link:hover { border-color: var(--green); color: var(--green); }
+.gw-nav-link.active { background: var(--green-glow); border-color: var(--green); color: var(--green); }
+.gw-stat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--space-sm); margin-bottom: var(--space-xl); }
+.report-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--space-md); }
+.report-meta { display: flex; align-items: center; justify-content: space-between; gap: var(--space-sm); margin-bottom: var(--space-sm); }
+.report-date { font-size: 0.78rem; color: var(--text-muted); }
+.report-scoreline { display: flex; align-items: center; justify-content: space-between; gap: var(--space-sm); margin-bottom: var(--space-sm); }
+.report-team { font-size: 0.95rem; font-weight: 600; color: var(--text-primary); text-decoration: none; }
+.report-team:hover { color: var(--green); }
+.report-team.away { text-align: right; }
+.report-score { font-family: var(--font-display); font-size: 1.6rem; color: var(--text-primary); white-space: nowrap; }
+.report-gc { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: var(--space-md); }
+.gc-tag { font-size: 0.68rem; color: var(--text-muted); background: var(--bg-elevated); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 2px 8px; }
+.report-actions { display: flex; align-items: center; gap: var(--space-sm); flex-wrap: wrap; }
+.report-noreport { font-size: 0.78rem; color: var(--text-muted); }
+.gw-footer-nav { display: flex; justify-content: center; gap: var(--space-sm); flex-wrap: wrap; margin-top: var(--space-2xl); }
+@media (max-width: 640px) {
+  .gw-stat-grid { grid-template-columns: 1fr 1fr; }
+}
+</style>

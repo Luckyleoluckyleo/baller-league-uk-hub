@@ -341,6 +341,7 @@ Hand-maintained notes for the upcoming season: `dates`, `venue`, `format`, `matc
 |---|---|
 | `/` | Homepage — mini table, recent results, upcoming, news |
 | `/table` | League table + fixtures + results, client-side GW nav |
+| `/reports/` | Match-report archive — every season, gameweek cards + team report links |
 | `/gamechangers` | GC analysis — frequency, sequences, ratios, all client-side |
 | `/h2h` | Head-to-head comparison tool (team A/B pickers) |
 | `/rules` | Rules & format guide (largest static page, 25 KB) |
@@ -369,6 +370,8 @@ Hand-maintained notes for the upcoming season: `dates`, `venue`, `format`, `matc
 | `/news/`, `/news/[slug]` | Article listing (category filter) + article |
 | `/match/[slug]` | Match scorecard, GC analysis, prev/next nav |
 | `/roundup/[gw]`, `/roundup/index` | Per-gameweek roundup; index is a meta-refresh redirect to latest GW |
+| `/reports/season-[n]/gw[n]` | Per-season, per-gameweek report hub — results, GCs, match + report links |
+| `/reports/teams/[slug]` | Per-team report archive across every season |
 | `/season/[seasonId]`, `/season/index` | Season hub with client-side tab switching |
 
 **Endpoint**

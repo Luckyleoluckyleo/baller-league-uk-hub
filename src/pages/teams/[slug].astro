@@ -197,9 +197,12 @@ const schema = {
 
     {coverage.length > 0 && (
       <section class="team-coverage">
-        <div class="section-header">
-          <div class="section-label">Reading</div>
-          <h2 class="section-title">{data.name} in the news</h2>
+        <div class="section-header flex-between">
+          <div>
+            <div class="section-label">Reading</div>
+            <h2 class="section-title">{data.name} in the news</h2>
+          </div>
+          <a href={`/reports/teams/${data.urlSlug}`} class="view-all">All match reports →</a>
         </div>
         <ul class="team-coverage-list">
           {coverage.map((a: any) => (
@@ -417,6 +420,7 @@ const schema = {
     <!-- NAV -->
     <div class="team-cta">
       <a href="/teams" class="btn btn-ghost">All Teams</a>
+      <a href={`/reports/teams/${data.urlSlug}`} class="btn btn-ghost">Match Reports</a>
       <a href="/players" class="btn btn-ghost">All Players</a>
       <a href="/h2h" class="btn btn-ghost">Head-to-Head</a>
       <a href="/records" class="btn btn-ghost">All-Time Records</a>

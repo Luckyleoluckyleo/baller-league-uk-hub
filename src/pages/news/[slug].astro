@@ -209,6 +209,11 @@ const catClass =
                 <li><a href={`/teams/${matchTeams.away}`}>{matchTeams.away.split('-').map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}</a></li>
                 <li><a href={`/h2h?t1=${matchTeams.home}&t2=${matchTeams.away}`}>H2H Comparison</a></li>
                 {hasRoundup && <li><a href={`/roundup/${currentGW}`}>GW{currentGW} Roundup</a></li>}
+                {data.category === 'Match Report' && currentGW > 0 && (
+                  <li><a href={`/reports/season-${reportSeason ?? CURRENT_SEASON}/gw${currentGW}`}>All GW{currentGW} reports</a></li>
+                )}
+                <li><a href={`/reports/teams/${matchTeams.home}`}>All {matchTeams.home.split('-').map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')} reports</a></li>
+                <li><a href={`/reports/teams/${matchTeams.away}`}>All {matchTeams.away.split('-').map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')} reports</a></li>
               </ul>
             </div>
           </div>

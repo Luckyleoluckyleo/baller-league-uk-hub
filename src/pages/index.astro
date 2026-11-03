@@ -387,7 +387,10 @@ const schema = {
           <div class="section-label">Latest</div>
           <h2 class="section-title">News & Reports</h2>
         </div>
-        <a href="/news" class="view-all">All News</a>
+        <div style="display:flex; gap:var(--space-md); flex-wrap:wrap;">
+          <a href="/reports" class="view-all">All Reports</a>
+          <a href="/news" class="view-all">All News</a>
+        </div>
       </div>
       <div class="grid-3">
         {latestNews.map(article => (

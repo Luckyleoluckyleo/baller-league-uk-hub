@@ -155,8 +155,9 @@ const schema = {
 
     <!-- MATCH RESULTS -->
     <section>
-      <div class="section-header">
+      <div class="section-header flex-between">
         <h2 class="section-title">Results</h2>
+        <a href={`/reports/season-${SEASON}/gw${requestedGW}`} class="view-all">All GW{requestedGW} reports →</a>
       </div>
       <div class="roundup-matches">
         {gwMatches.map((m: any) => (
