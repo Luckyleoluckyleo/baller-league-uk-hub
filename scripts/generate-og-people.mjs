@@ -41,14 +41,28 @@ function baseSvg(kicker, title, subtitle) {
 </svg>`;
 }
 
-async function render(svg, photoPath, outFile) {
-  let img = sharp(Buffer.from(svg));
+async function render(svg, photoPath, outFile, logoPath) {
+  const composites = [];
   if (photoPath && fs.existsSync(photoPath)) {
     try {
       const circle = await circular(photoPath, 320);
-      img = sharp(Buffer.from(svg)).composite([{ input: circle, top: 200, left: 130 }]);
+      composites.push({ input: circle, top: 200, left: 130 });
     } catch {}
   }
+  // Real club badge instead of a text/emoji placeholder.
+  if (logoPath && fs.existsSync(logoPath)) {
+    try {
+      const size = 140;
+      const backdrop = Buffer.from(
+        `<svg width="${size + 40}" height="${size + 40}"><circle cx="${(size + 40) / 2}" cy="${(size + 40) / 2}" r="${(size + 16) / 2}" fill="rgba(15,22,37,0.92)" stroke="rgba(0,230,118,0.45)" stroke-width="2"/></svg>`
+      );
+      const logo = await sharp(logoPath).resize(size, size, { fit: "contain" }).png().toBuffer();
+      composites.push({ input: backdrop, top: 96, left: 986 });
+      composites.push({ input: logo, top: 116, left: 1006 });
+    } catch {}
+  }
+  let img = sharp(Buffer.from(svg));
+  if (composites.length) img = img.composite(composites);
   await img.png().toFile(outFile);
 }
 
@@ -84,7 +98,7 @@ for (const file of fs.readdirSync(mgrDir).filter((f) => f.endsWith(".md"))) {
   const slug = file.replace(".md", "");
   if (!name || !team) continue;
   const svg = baseSvg("MANAGER", name, `${role} · ${teamName}`);
-  await render(svg, path.join(rootDir, `public/managers/${image}.webp`), path.join(ogManagers, `${slug}.png`));
+  await render(svg, path.join(rootDir, `public/managers/${image}.webp`), path.join(ogManagers, `${slug}.png`), path.join(rootDir, `public/logos/${team}.svg`));
   mCount++;
 }
 

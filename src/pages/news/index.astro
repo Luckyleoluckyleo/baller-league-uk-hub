@@ -50,7 +50,10 @@ const schema = {
       <div class="section-label">Season {CURRENT_SEASON}</div>
       <h1>News & Reports</h1>
       <p class="section-subtitle">Match reports, previews, team and player features, transfer updates and analysis from Baller League UK.</p>
-      <a href="/reports" class="btn btn-secondary btn-sm" style="margin-top: var(--space-md);">Browse match reports by gameweek →</a>
+      <div style="display:flex; gap:var(--space-sm); flex-wrap:wrap; margin-top:var(--space-md);">
+        <a href="/reports" class="btn btn-secondary btn-sm">Browse match reports by gameweek →</a>
+        <a href="/explainers" class="btn btn-ghost btn-sm">All explainers →</a>
+      </div>
     </div>
   </div>
 

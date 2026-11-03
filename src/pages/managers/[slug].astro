@@ -74,13 +74,62 @@ for (const g of topPlayers) {
 }
 const rankedPlayers = Object.values(playerTally).sort((a, b) => b.goals - a.goals).slice(0, 3);
 
+// Career / tenure data. `seasonsManaged` lets a manager's own record be shown
+// instead of the club's current record (important for former managers).
+const born = data?.born ? new Date(data.born) : null;
+const bornDisplay = born && !Number.isNaN(born.getTime())
+  ? born.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })
+  : null;
+const playingPosition = data?.playingPosition;
+const managerialCareer: string[] = data?.managerialCareer ?? [];
+const careerHighlights: string[] = data?.careerHighlights ?? [];
+const didYouKnow: string[] = data?.didYouKnow ?? [];
+
+const managedSeasons: number[] = data?.seasonsManaged?.length ? data.seasonsManaged : [SEASON];
+const managedMatches = data
+  ? managedSeasons
+      .flatMap((s) => playedMatches(s))
+      .filter((m) => m.homeSlug === data.team || m.awaySlug === data.team)
+  : [];
+const record = { played: managedMatches.length, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0 };
+for (const m of managedMatches) {
+  const isHome = m.homeSlug === data?.team;
+  const scored = isHome ? m.homeScore : m.awayScore;
+  const conceded = isHome ? m.awayScore : m.homeScore;
+  record.gf += scored;
+  record.ga += conceded;
+  if (scored > conceded) record.won++;
+  else if (scored < conceded) record.lost++;
+  else record.drawn++;
+}
+const ppg = record.played ? ((record.won * 3 + record.drawn) / record.played).toFixed(2) : '0.00';
+const seasonsLabel = managedSeasons.length === 1
+  ? `S${managedSeasons[0]}`
+  : `S${Math.min(...managedSeasons)}–S${Math.max(...managedSeasons)}`;
+
+const bioText = (data?.bio || '').replace(/\n/g, ' ').trim();
+const beforeBaller = [
+  ...(data?.formerClubs?.length ? [`Played for ${(data.formerClubs as string[]).slice(0, 4).join(', ')}.`] : []),
+  ...(data?.careerHighlights?.length ? [`${(data.careerHighlights as string[]).slice(0, 2).join('. ')}.`] : []),
+].join(' ');
+
+const managerFaqs = data ? [
+  { q: `Who is ${data.name}?`, a: `${data.name} is ${isActive ? `the ${data.role.toLowerCase()} of ${data.teamName}` : `a former manager of ${data.teamName}`} in Baller League UK. ${bioText}` },
+  { q: `Which Baller League UK team does ${data.name} manage?`, a: isActive ? `${data.name} manages ${data.teamName} in Baller League UK Season ${SEASON}.` : `${data.name} previously managed ${data.teamName} in Baller League UK.` },
+  { q: `What did ${data.name} do before Baller League?`, a: beforeBaller || `${data.name} is part of the Baller League UK management line-up.` },
+  { q: `What is ${data.name}'s Baller League UK record?`, a: record.played ? `${data.name}'s ${data.teamName} recorded ${record.won} wins, ${record.drawn} draws and ${record.lost} defeats in ${record.played} matches (${seasonsLabel}), scoring ${record.gf} and conceding ${record.ga} (${ppg} points per game).` : `${data.name}'s record is not yet available.` },
+] : [];
+
 const schema = data ? [
   {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": data.name,
-    "description": data.bio?.replace(/\n/g, ' ').trim() || `${data.name} manages ${data.teamName} in Baller League UK.`,
+    "description": bioText || `${data.name} manages ${data.teamName} in Baller League UK.`,
     "jobTitle": data.active === false ? 'Former Manager' : data.role,
+    ...(data.born ? { "birthDate": data.born } : {}),
+    ...(data.birthplace ? { "birthPlace": { "@type": "Place", "name": data.birthplace } } : {}),
+    ...(data.nationality ? { "nationality": data.nationality } : {}),
     "memberOf": { "@type": "SportsTeam", "name": data.teamName, "url": `https://ballerleagueukhub.com/teams/${data.team}`, "sport": "Football" },
     "affiliation": { "@type": "SportsTeam", "name": data.teamName, "sport": "Football" },
     "image": `https://ballerleagueukhub.com/og/managers/${slug}.png`,
@@ -88,13 +137,7 @@ const schema = data ? [
   {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": `Which team does ${data.name} manage in Baller League UK?`,
-        "acceptedAnswer": { "@type": "Answer", "text": `${data.name} is the ${data.role} of ${data.teamName} in Baller League UK.` },
-      },
-    ],
+    "mainEntity": managerFaqs.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })),
   },
 ] : undefined;
 
@@ -102,7 +145,6 @@ const color = teamColor(data?.team);
 const colorSoft = teamColorSoft(data?.team, 0.18);
 const formerClubs: string[] = data?.formerClubs ?? [];
 const honours: string[] = data?.honours ?? [];
-const hasBackground = formerClubs.length > 0 || honours.length > 0;
 ---
 
 {!data ? (
@@ -163,46 +205,95 @@ const hasBackground = formerClubs.length > 0 || honours.length > 0;
               </div>
             </section>
 
-            {hasBackground && (
+            {(formerClubs.length > 0 || !!playingPosition) && (
               <section class="profile-card">
-                <h2 class="profile-h2">Background</h2>
+                <h2 class="profile-h2">Playing career</h2>
+                {playingPosition && <p class="profile-note">Position: <strong>{playingPosition}</strong></p>}
                 {formerClubs.length > 0 && (
-                  <div class="profile-block">
-                    <h3 class="profile-h3">Career</h3>
-                    <div class="profile-chips">
-                      {formerClubs.map((club) => <span class="profile-chip">{club}</span>)}
-                    </div>
+                  <div class="profile-chips">
+                    {formerClubs.map((club) => <span class="profile-chip">{club}</span>)}
                   </div>
                 )}
-                {honours.length > 0 && (
-                  <div class="profile-block">
-                    <h3 class="profile-h3">Honours</h3>
-                    <ul class="profile-honours">
-                      {honours.map((h) => <li>{h}</li>)}
-                    </ul>
-                  </div>
-                )}
+              </section>
+            )}
+
+            {honours.length > 0 && (
+              <section class="profile-card">
+                <h2 class="profile-h2">Honours &amp; achievements</h2>
+                <ul class="profile-honours">
+                  {honours.map((h) => <li>{h}</li>)}
+                </ul>
+              </section>
+            )}
+
+            {careerHighlights.length > 0 && (
+              <section class="profile-card">
+                <h2 class="profile-h2">Before Baller League</h2>
+                <ul class="profile-honours">
+                  {careerHighlights.map((h) => <li>{h}</li>)}
+                </ul>
+              </section>
+            )}
+
+            {managerialCareer.length > 0 && (
+              <section class="profile-card">
+                <h2 class="profile-h2">Managerial career</h2>
+                <ul class="profile-honours">
+                  {managerialCareer.map((m) => <li>{m}</li>)}
+                </ul>
+              </section>
+            )}
+
+            {didYouKnow.length > 0 && (
+              <section class="profile-card">
+                <h2 class="profile-h2">Did you know?</h2>
+                <ul class="profile-honours">
+                  {didYouKnow.map((d) => <li>{d}</li>)}
+                </ul>
+              </section>
+            )}
+
+            {managerFaqs.length > 0 && (
+              <section class="profile-card">
+                <h2 class="profile-h2">Frequently asked questions</h2>
+                <div class="faq-list">
+                  {managerFaqs.map((f) => (
+                    <details class="faq-item">
+                      <summary>{f.q}</summary>
+                      <p>{f.a}</p>
+                    </details>
+                  ))}
+                </div>
               </section>
             )}
           </main>
 
           <aside class="profile-side">
-            {standing && (
-              <div class="profile-card">
-                <h2 class="profile-h2">{isActive ? `${data.teamName} Record` : `${data.teamName} today`}</h2>
-                {!isActive && (
-                  <p class="profile-note">Current club record — {data.name} is no longer in charge.</p>
-                )}
-                <dl class="profile-facts">
-                  <div class="profile-fact"><dt>Wins</dt><dd>{standing.won}</dd></div>
-                  <div class="profile-fact"><dt>Draws</dt><dd>{standing.drawn}</dd></div>
-                  <div class="profile-fact"><dt>Losses</dt><dd>{standing.lost}</dd></div>
-                  <div class="profile-fact"><dt>Points</dt><dd>{standing.pts}</dd></div>
-                  <div class="profile-fact"><dt>Goals</dt><dd>{standing.gf}–{standing.ga}</dd></div>
-                  <div class="profile-fact"><dt>Goal difference</dt><dd>{standing.gd > 0 ? `+${standing.gd}` : standing.gd}</dd></div>
-                </dl>
-              </div>
-            )}
+            <div class="profile-card">
+              <h2 class="profile-h2">Quick Facts</h2>
+              <dl class="profile-facts">
+                {data.nationality && <div class="profile-fact"><dt>Nationality</dt><dd>{data.nationality}</dd></div>}
+                {bornDisplay && <div class="profile-fact"><dt>Born</dt><dd>{bornDisplay}</dd></div>}
+                {data.birthplace && <div class="profile-fact"><dt>Birthplace</dt><dd>{data.birthplace}</dd></div>}
+                {playingPosition && <div class="profile-fact"><dt>Position</dt><dd>{playingPosition}</dd></div>}
+                <div class="profile-fact"><dt>Club</dt><dd><img src={`/logos/${data.team}.svg`} alt={data.teamName} class="profile-fact-crest" onerror="this.style.display='none'" /> <a href={`/teams/${data.team}`}>{data.teamName}</a></dd></div>
+                <div class="profile-fact"><dt>Seasons managed</dt><dd>{seasonsLabel}</dd></div>
+              </dl>
+            </div>
+
+            <div class="profile-card">
+              <h2 class="profile-h2">Record in charge</h2>
+              <p class="profile-note">{seasonsLabel} · {record.played} match{record.played === 1 ? '' : 'es'} with {data.teamName}</p>
+              <dl class="profile-facts">
+                <div class="profile-fact"><dt>Wins</dt><dd>{record.won}</dd></div>
+                <div class="profile-fact"><dt>Draws</dt><dd>{record.drawn}</dd></div>
+                <div class="profile-fact"><dt>Losses</dt><dd>{record.lost}</dd></div>
+                <div class="profile-fact"><dt>Goals</dt><dd>{record.gf}–{record.ga}</dd></div>
+                <div class="profile-fact"><dt>Goal difference</dt><dd>{record.gf - record.ga > 0 ? `+${record.gf - record.ga}` : record.gf - record.ga}</dd></div>
+                <div class="profile-fact"><dt>Points per game</dt><dd>{ppg}</dd></div>
+              </dl>
+              {!isActive && <p class="profile-note">Club now: <a href={`/teams/${data.team}`}>{data.teamName}</a>.</p>}
+            </div>
 
             {isActive && form.length > 0 && (
               <div class="profile-card">
@@ -250,6 +341,8 @@ const hasBackground = formerClubs.length > 0 || honours.length > 0;
             )}
 
             <a href={`/teams/${data.team}`} class="btn btn-secondary" style="display:block;text-align:center;">View {data.teamName} Squad</a>
+            <a href={`/reports/teams/${data.team}`} class="btn btn-ghost" style="display:block;text-align:center;">Match Reports</a>
+            <a href="/explainers" class="btn btn-ghost" style="display:block;text-align:center;">Explainers</a>
             <a href="/managers" class="btn btn-ghost" style="display:block;text-align:center;">All Managers</a>
           </aside>
         </div>
@@ -261,6 +354,12 @@ const hasBackground = formerClubs.length > 0 || honours.length > 0;
 <style>
 .form-bar { display: flex; gap: 4px; flex-wrap: wrap; }
 .profile-note { font-size: 0.8rem; color: var(--text-muted); line-height: 1.5; margin-bottom: var(--space-sm); }
+.profile-fact-crest { width: 20px; height: 20px; object-fit: contain; vertical-align: middle; margin-right: 6px; }
+.faq-list { display: flex; flex-direction: column; gap: var(--space-sm); margin-top: var(--space-sm); }
+.faq-item { background: var(--bg-elevated); border: 1px solid var(--border); border-radius: var(--radius); }
+.faq-item summary { padding: var(--space-md); font-weight: 600; font-size: 0.92rem; color: var(--text-primary); cursor: pointer; list-style: none; }
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item p { padding: 0 var(--space-md) var(--space-md); font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6; margin: 0; }
 .form-block { width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; border-radius: var(--radius-sm); font-size: 0.75rem; font-weight: 700; }
 .form-win { background: var(--green-glow); color: var(--green); }
 .form-draw { background: rgba(255,193,7,0.15); color: #ffc107; }

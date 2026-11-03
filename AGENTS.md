@@ -342,6 +342,7 @@ Hand-maintained notes for the upcoming season: `dates`, `venue`, `format`, `matc
 | `/` | Homepage — mini table, recent results, upcoming, news |
 | `/table` | League table + fixtures + results, client-side GW nav |
 | `/reports/` | Match-report archive — every season, gameweek cards + team report links |
+| `/explainers/` | Learn hub — rules, Game Changers, watch/tickets, history, records and FAQ |
 | `/gamechangers` | GC analysis — frequency, sequences, ratios, all client-side |
 | `/h2h` | Head-to-head comparison tool (team A/B pickers) |
 | `/rules` | Rules & format guide (largest static page, 25 KB) |
@@ -428,12 +429,12 @@ It duplicates the `TEAM_LOGO_MAP` that also lives in `scrape-players.mjs` — tw
 
 ### Content collections
 Defined in `src/content/config.ts`: `teams`, `players`, `managers`, `news`.
-- `players` and `managers` support optional **background** fields: `bio` (one-liner), `formerClubs[]`, `honours[]`, `nationality`. Populated only for notable ex-pros/managers; the rest fall back to the generated blurb.
+- `players` and `managers` support optional **background** fields: `bio`, `formerClubs[]`, `honours[]`, `nationality`. Managers additionally use `born` (ISO date), `birthplace`, `playingPosition`, `managerialCareer[]`, `careerHighlights[]`, `didYouKnow[]` and `seasonsManaged[]` (drives the manager's **Record in charge**). Populate these for every manager — the page renders Quick Facts, Playing career, Honours, Before Baller League, Managerial career, Did you know? and an auto FAQ.
 - `managers` also has `active` (`false` = former manager, hidden from `/managers` but page kept).
 - `news` has an optional `updated` date (last substantive refresh). When present it beats `date` for JSON-LD `dateModified`, the visible "Updated …" stamp and the sitemap `<lastmod>`; `generate-season-guide.mjs` writes it automatically for the season guide. Listing order still uses `date`.
 
 ### Profile pages (shared design system)
-`teams/[slug]`, `players/[slug]` and `managers/[slug]` share the `.profile` visual system defined in `global.css` (not scoped): team-colour hero (`--team-color` / `--team-soft` from `teamColor()` in `src/lib/league.ts`), a large rounded photo, headline stats and a two-column `profile-main` / `profile-side` layout. Player/manager pages render a **Player Profile / About** card and an optional **Background** card (Previous Clubs chips + Honours list). To add a player's history, create `src/content/players/{slug}.md` with the background fields and a markdown bio.
+`teams/[slug]`, `players/[slug]` and `managers/[slug]` share the `.profile` visual system defined in `global.css` (not scoped): team-colour hero (`--team-color` / `--team-soft` from `teamColor()` in `src/lib/league.ts`), a large rounded photo, headline stats and a two-column `profile-main` / `profile-side` layout. Manager pages render Quick Facts (real club badge), Playing career, Honours, Before Baller League, Managerial career, Did you know? and an auto FAQ, plus a computed **Record in charge**. Player pages render a **Player Profile / About** card and an optional **Background** card. To add a player's history, create `src/content/players/{slug}.md` with the background fields and a markdown bio.
 
 ### Editing content
 - **Hand-written** (edit freely): `src/content/teams/`, `players/`, `managers/`, and the two editorial articles `rico-chambers-transfer.md` and `yanited-ginge-match-report.md`.

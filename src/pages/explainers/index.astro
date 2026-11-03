@@ -1,0 +1,157 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import { getCollection } from 'astro:content';
+
+const news = await getCollection('news');
+const bySlug = Object.fromEntries(news.map((a) => [a.slug, a]));
+
+type Link = { href: string; title: string; desc: string };
+type Group = { id: string; label: string; title: string; intro: string; links: Link[] };
+
+const article = (slug: string, fallbackTitle: string, fallbackDesc = ''): Link => {
+  const a = bySlug[slug];
+  return {
+    href: a ? `/news/${a.slug}` : `/news/${slug}`,
+    title: a?.data.title ?? fallbackTitle,
+    desc: a?.data.excerpt ?? fallbackDesc,
+  };
+};
+
+const groups: Group[] = [
+  {
+    id: 'rules',
+    label: 'Rules',
+    title: 'Rules & format',
+    intro: 'How the 6v6 game works, from kick-ins and corners to the Game Changers.',
+    links: [
+      { href: '/rules', title: 'Baller League UK Rules & Format', desc: 'The complete Season 4 rulebook: format, squads, Game Changers, scoring and the Final Four.' },
+      article('baller-league-onside-rule-explained', 'Onside Rule Explained'),
+      article('baller-league-plus-one-rule-explained', 'Plus One Rule Explained'),
+      article('baller-league-3play-rule-explained', '3Play Rule Explained'),
+      article('baller-league-1-on-1-rule-explained', '1-on-1 Rule Explained'),
+      article('baller-league-the-line-rule-explained', 'The Line Rule Explained'),
+      article('baller-league-fairplay-rule-explained', 'Fairplay Rule Explained'),
+      article('baller-league-uk-glossary', 'Baller League UK Glossary', 'Every term and rule in one place.'),
+    ],
+  },
+  {
+    id: 'gamechangers',
+    label: 'Game Changers',
+    title: 'Game Changers',
+    intro: 'The rule twists that decide matches at the 12th and 27th minutes.',
+    links: [
+      article('baller-league-game-changers-explained', 'Game Changers Explained'),
+      article('which-game-changer-scores-most-goals', 'Which Game Changer Scores Most Goals?'),
+    ],
+  },
+  {
+    id: 'watch',
+    label: 'Watch & attend',
+    title: 'Watch & attend',
+    intro: 'How to watch every matchday, get to the arena and buy tickets.',
+    links: [
+      article('how-to-watch-baller-league-uk-season-4', 'How to Watch Baller League UK'),
+      article('baller-league-arena-tickets-guide', 'Baller League Arena: Venue & Tickets'),
+      { href: '/watch', title: 'Where to Watch', desc: 'Live streams, highlights and replays — online-only for Season 4.' },
+      { href: '/season-4#tickets', title: 'Tickets', desc: 'Single Matchday, Baller Bundle and Baller Pass — buy through the official ticketing partner.' },
+    ],
+  },
+  {
+    id: 'history',
+    label: 'History',
+    title: 'History & records',
+    intro: 'Every season, champion and all-time record behind the league.',
+    links: [
+      article('baller-league-uk-history', 'Baller League UK: A Complete History'),
+      article('baller-league-uk-records-all-time-stats', 'Baller League UK All-Time Records'),
+      { href: '/season', title: 'Season Archive', desc: 'Tables, results and champions from every Baller League UK season.' },
+      { href: '/records', title: 'All-Time Records', desc: 'Goals, appearances and the biggest scores in league history.' },
+    ],
+  },
+  {
+    id: 'help',
+    label: 'Help',
+    title: 'Help & FAQ',
+    intro: 'Quick answers and the newcomer guide.',
+    links: [
+      { href: '/faq', title: 'Frequently Asked Questions', desc: 'Short answers to the questions people ask most about Baller League UK.' },
+      { href: '/guide', title: 'Ultimate Guide', desc: 'A beginner-friendly guide to watching, following and understanding the league.' },
+    ],
+  },
+];
+
+const itemCount = groups.reduce((n, g) => n + g.links.length, 0);
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Baller League UK Explainers — Rules, Game Changers, History & Guides",
+  "description": `Understand Baller League UK: ${itemCount} explainers covering the rules, Game Changers, how to watch, tickets, history and records.`,
+  "about": { "@type": "SportsOrganization", "name": "Baller League UK", "sport": "Football" },
+  "hasPart": groups.flatMap((g) =>
+    g.links.map((l) => ({ "@type": "Article", "name": l.title, "url": `https://ballerleagueukhub.com${l.href}` }))
+  ),
+};
+---
+
+<Base
+  title="Baller League UK Explainers — Rules, Game Changers & Guides"
+  description={`Everything you need to understand Baller League UK: ${itemCount} explainers on the rules, Game Changers, how to watch, tickets, history and records.`}
+  keywords="Baller League UK explained, rules, Game Changers, how to watch, tickets, glossary, history, records"
+  schema={schema}
+>
+  <div class="page-header">
+    <div class="container">
+      <Breadcrumb items={[{ name: 'Home', url: '/' }, { name: 'Explainers' }]} />
+      <div class="section-label">Learn</div>
+      <h1>Baller League UK Explainers</h1>
+      <p class="section-subtitle">
+        Everything you need to understand the league — the rules, the Game Changers, how to watch, tickets, history and records.
+      </p>
+      <div class="explainer-actions">
+        <a href="/rules" class="btn btn-primary btn-sm">Full rules</a>
+        <a href="/news" class="btn btn-ghost btn-sm">Latest news</a>
+        <a href="/season-4#tickets" class="btn btn-gold btn-sm">Tickets</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container explainers-page">
+    {groups.map((group) => (
+      <section class="explainer-group" id={group.id}>
+        <div class="section-header">
+          <div>
+            <div class="section-label">{group.label}</div>
+            <h2 class="section-title">{group.title}</h2>
+          </div>
+        </div>
+        <p class="explainer-intro">{group.intro}</p>
+        <div class="explainer-grid">
+          {group.links.map((link) => (
+            <a href={link.href} class="explainer-card card">
+              <div class="card-body">
+                <h3 class="explainer-title">{link.title}</h3>
+                <p class="explainer-desc">{link.desc}</p>
+                <span class="explainer-read">Read →</span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    ))}
+  </div>
+</Base>
+
+<style>
+.explainers-page { padding-bottom: var(--space-3xl); }
+.explainer-actions { display: flex; flex-wrap: wrap; gap: var(--space-sm); margin-top: var(--space-md); }
+.explainer-group { margin-bottom: var(--space-2xl); scroll-margin-top: calc(var(--nav-height) + 20px); }
+.explainer-intro { max-width: 760px; color: var(--text-secondary); line-height: 1.7; margin-bottom: var(--space-lg); }
+.explainer-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: var(--space-md); }
+.explainer-card { text-decoration: none; transition: transform 0.15s ease, border-color 0.15s ease; }
+.explainer-card:hover { transform: translateY(-2px); border-color: var(--green); }
+.explainer-title { font-size: 1.05rem; color: var(--text-primary); line-height: 1.3; margin-bottom: var(--space-sm); }
+.explainer-desc { font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6; margin-bottom: var(--space-md); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.explainer-read { font-size: 0.78rem; font-weight: 600; color: var(--green); }
+</style>

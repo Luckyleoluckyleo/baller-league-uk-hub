@@ -7,6 +7,12 @@ emoji: "5️⃣"
 nationality: "Germany"
 formerClubs: ["Schalke 04", "AC Milan", "Borussia Dortmund", "Arsenal", "VfB Stuttgart"]
 honours: ["Premier League (2003–04, The Invincibles)", "FA Cup (2003–04)", "Bundesliga (2001–02)", "UEFA Cup (1996–97)"]
+born: "1969-11-10"
+birthplace: "Essen, Germany"
+playingPosition: "Goalkeeper"
+careerHighlights: ["Invincibles goalkeeper with Arsenal", "Germany international (61 caps)", "Bundesliga and UEFA Cup winner"]
+didYouKnow: ["Lehmann was sent off in the 2006 Champions League final.", "He was part of Arsenal's unbeaten 2003–04 Premier League season.", "He won 61 caps for Germany."]
+seasonsManaged: [4]
 bio: >
   Jens Lehmann is a football legend — the former Arsenal and Germany goalkeeper who was part of the iconic "Invincibles" squad that went an entire Premier League season unbeaten in 2003-04. Now he brings his elite-level experience to Baller League UK as manager of N5 FC. With a career spanning Borussia Dortmund, AC Milan, Arsenal, and Stuttgart, plus 61 caps for Germany, Lehmann's football knowledge is second to none. His no-nonsense German approach, combined with an intimate understanding of the game at the highest level, makes N5 FC a tactically astute and resilient side.
 ---

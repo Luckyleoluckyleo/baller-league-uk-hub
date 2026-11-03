@@ -51,8 +51,15 @@ const managersCollection = defineCollection({
     image:       z.string().optional(),
     nationality: z.string().optional(),
     active:      z.boolean().default(true),   // false for former managers (kept for history)
+    born:        z.string().optional(),       // ISO date, e.g. "1970-08-13"
+    birthplace:  z.string().optional(),
+    playingPosition: z.string().optional(),
     formerClubs: z.array(z.string()).optional(),
     honours:     z.array(z.string()).optional(),
+    managerialCareer:  z.array(z.string()).optional(),
+    careerHighlights:  z.array(z.string()).optional(),
+    didYouKnow:        z.array(z.string()).optional(),
+    seasonsManaged:    z.array(z.number()).optional(),
     bio:         z.string(),
   }),
 });
