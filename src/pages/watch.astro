@@ -6,6 +6,13 @@ import fixturesData from '../data/fixtures.json';
 const upcoming = fixturesData.upcoming;
 const upcomingGW = upcoming[0]?.gameweek ?? 10;
 
+const faqs = [
+  { q: "Is Baller League UK free to watch?", a: "Yes — Season 4 is streamed online-only for free across the league's YouTube, Twitch and Kick channels." },
+  { q: "Where can I watch Baller League UK?", a: "Live streams are available on YouTube, Twitch and Kick. Highlights and replays are posted on the official channels." },
+  { q: "What time do Baller League UK matches start?", a: "Matchdays are on Monday nights, with six matches running from around 17:15 to 21:50." },
+  { q: "Can I watch Baller League UK outside the UK?", a: "The online streams are accessible worldwide, but check the official channel availability for your country." },
+];
+
 const schema = [
   {
     "@context": "https://schema.org",
@@ -37,13 +44,18 @@ const schema = [
       "https://www.tiktok.com/@BallerLeagueUK",
       "https://twitter.com/BallerLeagueUK"
     ]
-  }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })),
+  },
 ];
 ---
 
 <Base
-  title="Where to Watch Baller League UK — Live Streams & Highlights"
-  description="Find out where to watch Baller League UK Season 4 online. Live streams on YouTube, Twitch and Kick, plus highlights, replays and the full schedule."
+  title="Where to Watch Baller League UK 2026 — Free Streams & Schedule"
+  description="How to watch Baller League UK Season 4 free: live streams on YouTube, Twitch and Kick, plus highlights, replays and the matchday schedule."
   keywords="watch Baller League UK, Baller League live stream, Baller League online, YouTube, Twitch, Kick, highlights, schedule"
   schema={schema}
 >
@@ -124,6 +136,20 @@ const schema = [
       </div>
     </div>
 
+    <section class="card watch-faq" style="margin-top: var(--space-xl);">
+      <div class="card-body">
+        <h2>Where to watch FAQ</h2>
+        <div class="faq-list">
+          {faqs.map((f) => (
+            <details class="faq-item">
+              <summary>{f.q}</summary>
+              <p>{f.a}</p>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+
     <!-- SOCIAL LINKS -->
     <div class="social-section">
       <h2 class="section-title">Follow Baller League UK</h2>
@@ -181,4 +207,10 @@ const schema = [
 @media (max-width: 768px) {
   .watch-card { flex-direction: column; }
 }
+
+.faq-list { display: flex; flex-direction: column; gap: var(--space-sm); margin-top: var(--space-sm); }
+.faq-item { background: var(--bg-elevated); border: 1px solid var(--border); border-radius: var(--radius); }
+.faq-item summary { padding: var(--space-md); font-weight: 600; color: var(--text-primary); cursor: pointer; list-style: none; }
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item p { padding: 0 var(--space-md) var(--space-md); color: var(--text-secondary); line-height: 1.7; margin: 0; }
 </style>

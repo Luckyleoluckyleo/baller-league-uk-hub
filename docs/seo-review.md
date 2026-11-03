@@ -76,6 +76,13 @@ GSC split some pages between `/path` and `/path/` (e.g. `/teams/toma` 221 + `/te
 - **Team preview articles**: new titles/excerpts, per-team FAQs (manager, key players, next fixture, last season’s finish), rendered FAQ + `FAQPage` schema; deterministic outlook text so weekly runs no longer churn prose.
 - **Tickets guide**: updated title/excerpt and venue/travel/ticket FAQs.
 
+## Phase C shipped (2026-11-03)
+
+- **Match pages**: result/report-focused titles and descriptions, visible FAQ (result, Game Changers, scorers, date) and `FAQPage` schema. S1/S2 remain noindex by design.
+- **Watch page**: “free streams & schedule” title/description, visible FAQ + `FAQPage` schema.
+- **Game Changers page**: new title/description targeting “Baller League UK Game Changers 2026” and stats intent.
+- Records already had visible FAQ + `FAQPage` schema; no change needed.
+
 ## Follow-up review (target: 2026-11-24, after 2–3 weeks)
 
 1. Export GSC again for the last 28 days.

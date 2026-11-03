@@ -59,6 +59,14 @@ const gc1def = gcData.definitions.firstHalf.find(g => g.id === match?.gamechange
 const gc2def = gcData.definitions.secondHalf.find(g => g.id === match?.gamechanger2?.type);
 const totalGCGoals = (match?.gamechanger1?.goalsScored || 0) + (match?.gamechanger2?.goalsScored || 0);
 
+const scorerNames = (match?.goalscorers || []).map((g: any) => g.player);
+const matchFaqs = match ? [
+  { q: `What was the result of ${match.homeTeam} vs ${match.awayTeam}?`, a: `${match.homeTeam} ${match.homeScore}-${match.awayScore} ${match.awayTeam} in Gameweek ${match.gameweek}, Baller League UK Season ${match.season}.` },
+  { q: `What were the Game Changers in ${match.homeTeam} vs ${match.awayTeam}?`, a: `${gc1def?.name || 'Unknown'} (${match.gamechanger1?.goalsScored || 0} goals) and ${gc2def?.name || 'Unknown'} (${match.gamechanger2?.goalsScored || 0} goals).` },
+  ...(scorerNames.length ? [{ q: `Who scored in ${match.homeTeam} vs ${match.awayTeam}?`, a: `${scorerNames.join(', ')}.` }] : []),
+  { q: `When was ${match.homeTeam} vs ${match.awayTeam}?`, a: match.matchDate ? `${match.matchDate}${match.matchTime ? ` at ${String(match.matchTime).replace(/<[^>]*>/g, '')}` : ''}.` : 'The match date is not available.' },
+] : [];
+
 // Per-team match stats, aggregated from the per-player columns.
 const matchPlayerStats = match?.playerStats || [];
 const sumFor = (slug: string, key: string) =>
@@ -105,7 +113,8 @@ const startDate = (() => {
   return isNaN(d.getTime()) ? undefined : d.toISOString();
 })();
 
-const schema = match ? {
+const schema = match ? [
+  {
   "@context": "https://schema.org",
   "@type": "SportsEvent",
   "name": `${match.homeTeam} vs ${match.awayTeam}`,
@@ -120,12 +129,18 @@ const schema = match ? {
   "awayTeam": { "@type": "SportsTeam", "name": match.awayTeam, "url": `https://ballerleagueukhub.com/teams/${match.awaySlug}` },
   "location": { "@type": "Place", "name": "Baller Arena" },
   "organizer": { "@type": "Organization", "name": "Baller League UK", "url": "https://ballerleague.uk" }
-} : undefined;
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": matchFaqs.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })),
+  },
+] : undefined;
 ---
 
 <Base
-  title={match ? `${match.homeTeam} ${match.homeScore}-${match.awayScore} ${match.awayTeam} — Gameweek ${match.gameweek}` : 'Match Not Found'}
-  description={match ? `Full match detail for ${match.homeTeam} vs ${match.awayTeam} (${match.homeScore}-${match.awayScore}) — Gameweek ${match.gameweek}, Season ${match.season}. Gamechanger analysis, goals and timeline.` : 'Match not found.'}
+  title={match ? `${match.homeTeam} ${match.homeScore}-${match.awayScore} ${match.awayTeam} — GW${match.gameweek} Result & Report` : 'Match Not Found'}
+  description={match ? `${match.homeTeam} ${match.homeScore}-${match.awayScore} ${match.awayTeam} in Gameweek ${match.gameweek}, Season ${match.season}. Full result, goalscorers, Game Changer analysis and player stats.` : 'Match not found.'}
   schema={schema}
   noindex={isOldSeasonMatch}
 >
@@ -277,6 +292,22 @@ const schema = match ? {
           </div>
         )}
 
+        {matchFaqs.length > 0 && (
+          <div class="card match-faq-card">
+            <div class="card-body">
+              <div class="section-label">Quick answers</div>
+              <div class="faq-list">
+                {matchFaqs.map((f) => (
+                  <details class="faq-item">
+                    <summary>{f.q}</summary>
+                    <p>{f.a}</p>
+                  </details>
+                ))}
+              </div>
+            </div>
+          </div>
+        )}
+
         <!-- NAVIGATION -->
         <div class="match-navigation">
           {prevMatch && (
@@ -355,4 +386,11 @@ const schema = match ? {
   .scorecard-main { flex-direction: column; gap: var(--space-md); }
   .scorecard-score { order: -1; }
 }
+
+.match-faq-card { margin-bottom: var(--space-lg); }
+.faq-list { display: flex; flex-direction: column; gap: var(--space-sm); margin-top: var(--space-sm); }
+.faq-item { background: var(--bg-elevated); border: 1px solid var(--border); border-radius: var(--radius); }
+.faq-item summary { padding: var(--space-md); font-weight: 600; color: var(--text-primary); cursor: pointer; list-style: none; }
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item p { padding: 0 var(--space-md) var(--space-md); color: var(--text-secondary); line-height: 1.7; margin: 0; }
 </style>
