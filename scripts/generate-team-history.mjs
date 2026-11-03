@@ -6,6 +6,16 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, "..");
 const CONTENT_DIR = resolve(ROOT, "src", "content", "news");
 
+// Evergreen pages keep their original publish date. Re-dating them on every run
+// made generated features look like fresh news and churned the sitemap.
+function preserveOriginalDate(filename, content) {
+  const path = resolve(CONTENT_DIR, filename);
+  if (!existsSync(path)) return content;
+  const prev = readFileSync(path, "utf8");
+  const m = prev.match(/^date:\s*(\d{4}-\d{2}-\d{2})/m);
+  return m ? content.replace(/^date:\s*\d{4}-\d{2}-\d{2}/m, `date: ${m[1]}`) : content;
+}
+
 const read = (p) => JSON.parse(readFileSync(resolve(ROOT, p), "utf8"));
 const gcData = read("src/data/gamechangers.json");
 const tableData = read("src/data/table.json");
@@ -177,7 +187,7 @@ console.log(`Generating ${teams.length} club history pages...\n`);
 let n = 0;
 for (const slug of teams) {
   const { slug: file, content } = buildHistory(slug);
-  writeFileSync(resolve(CONTENT_DIR, `${file}.md`), content);
+  writeFileSync(resolve(CONTENT_DIR, `${file}.md`), preserveOriginalDate(`${file}.md`, content));
   console.log(`  ${file}.md`);
   n++;
 }

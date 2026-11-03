@@ -14,12 +14,16 @@ function extractGameweek(slug: string): number | null {
 
 const enriched = allNews.map(a => ({ ...a, gameweek: extractGameweek(a.slug) }));
 
+// Match reports lead, then previews, then other news. Within each group the
+// newest date wins. Sorting by date alone let auto-generated evergreen pages
+// (team histories / spotlights, which are re-dated on every run) bury the
+// reports, so the category is the primary key.
+const categoryRank = (c: string) =>
+  c === 'Match Report' ? 0 : c === 'Preview' ? 1 : c === 'Transfer News' ? 2 : 3;
 const sorted = enriched.sort((a, b) => {
-  const catOrder = (c: string) => c === 'Preview' ? 1 : c === 'Match Report' ? 2 : 3;
-  const co = catOrder(a.data.category) - catOrder(b.data.category);
-  if (co !== 0) return co;
-  if (a.data.category === 'Preview') return (a.gameweek ?? 0) - (b.gameweek ?? 0);
-  return (b.gameweek ?? 0) - (a.gameweek ?? 0);
+  const rank = categoryRank(a.data.category) - categoryRank(b.data.category);
+  if (rank !== 0) return rank;
+  return b.data.date.getTime() - a.data.date.getTime();
 });
 
 const categories = [...new Set(allNews.map(a => a.data.category))].sort();

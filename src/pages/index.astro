@@ -18,9 +18,11 @@ function extractGW(slug: string): number {
   return m ? parseInt(m[1]) : 0;
 }
 
+// Newest reports first. Gameweek numbers repeat across seasons, so sorting by
+// GW alone surfaced last season's Final Four reports above this week's games.
 const latestNews = allNews
   .filter(a => a.data.category === 'Match Report')
-  .sort((a, b) => extractGW(b.slug) - extractGW(a.slug))
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime() || extractGW(b.slug) - extractGW(a.slug))
   .slice(0, 3);
 
 const upcomingFixtures = fixturesData.upcoming;
