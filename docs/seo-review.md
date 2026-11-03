@@ -60,6 +60,15 @@ GSC split some pages between `/path` and `/path/` (e.g. `/teams/toma` 221 + `/te
 - Added related links from table/fixtures/season guide into rules, explainers and reports.
 - `/table` no longer advertises "upcoming GW1 fixtures" when no next gameweek is published.
 
+## Phase A shipped (2026-11-03)
+
+- New **`/arena`** page: venue, travel, ticket types, official Fever link, matchday schedule and FAQ (`Place` + `FAQPage` schema). Linked from nav, footer, homepage, fixtures, season-4 and the tickets guide.
+- **Team pages**: per-team titles/descriptions with manager + table position, visible FAQ and `FAQPage` schema.
+- **Players hub**: new title/description, `ItemList` + `FAQPage` schema, visible FAQ and links to teams/managers/rules.
+- **Player pages**: query-focused titles and `url` in the `Person` schema.
+- **Table page**: visible FAQ and `FAQPage` schema covering points, EP, leader and Final Four qualification.
+- **Keyword research**: `scripts/keyword-research.mjs` writes `docs/keyword-opportunities.csv` (536 UK autocomplete ideas, US terms filtered out). Run manually with `node scripts/keyword-research.mjs`.
+
 ## Follow-up review (target: 2026-11-24, after 2–3 weeks)
 
 1. Export GSC again for the last 28 days.

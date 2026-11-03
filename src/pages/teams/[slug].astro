@@ -92,20 +92,46 @@ const managerBlurb = primaryManager === 'TBC'
   ? 'with the manager still to be confirmed'
   : `managed by ${data.manager}`;
 const firstManagerSlug = primaryManager.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const nextTeamFixture = teamUpcoming[0] ?? null;
+const teamFaqs = [
+  {
+    q: `Who manages ${data.name}?`,
+    a: primaryManager === 'TBC' ? `The ${data.name} manager has not yet been confirmed for Season ${SEASON}.` : `${data.name} are managed by ${data.manager}.`,
+  },
+  {
+    q: `Where are ${data.name} in the Baller League UK table?`,
+    a: standing ? `${data.name} are currently ${standing.pos} in the Baller League UK table with ${standing.pts} points from ${standing.played} matches (${standing.won}W ${standing.drawn}D ${standing.lost}L).` : `The ${data.name} table position is not yet available.`,
+  },
+  ...(topScorer ? [{
+    q: `Who is ${data.name}'s top scorer?`,
+    a: `${topScorer.name} leads ${data.name} with ${seasonOf(topScorer).goals || 0} goals in Baller League UK Season ${SEASON}.`,
+  }] : []),
+  {
+    q: `When do ${data.name} play next?`,
+    a: nextTeamFixture ? `${data.name} are next scheduled to play ${nextTeamFixture.homeSlug === data.urlSlug ? 'at home to' : 'away to'} ${nextTeamFixture.homeSlug === data.urlSlug ? nextTeamFixture.awayTeam : nextTeamFixture.homeTeam} on ${nextTeamFixture.date} at ${nextTeamFixture.time}.` : `The next ${data.name} fixture has not yet been confirmed.`,
+  },
+];
 
-const schema = {
-  "@context": "https://schema.org",
-  "@type": "SportsTeam",
-  "name": data.name,
-  "sport": "Football",
-  "coach": { "@type": "Person", "name": primaryManager },
-  "memberOf": { "@type": "SportsOrganization", "name": "Baller League UK" }
-};
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "SportsTeam",
+    "name": data.name,
+    "sport": "Football",
+    "coach": { "@type": "Person", "name": primaryManager },
+    "memberOf": { "@type": "SportsOrganization", "name": "Baller League UK" }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": teamFaqs.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })),
+  },
+];
 ---
 
 <Base
-  title={`${data.name} — Manager ${primaryManager}, Squad & Fixtures | Baller League UK`}
-  description={`${data.name} in Baller League UK Season ${SEASON}, ${managerBlurb}. View the ${data.name} squad, player stats, results, fixtures and form guide.`}
+  title={`${data.name} — ${primaryManager} Squad, Results & Stats | Baller League UK`}
+  description={`${data.name} in Baller League UK Season ${SEASON}${standing ? `, currently ${standing.pos} with ${standing.pts} points` : ''}. ${managerBlurb.charAt(0).toUpperCase() + managerBlurb.slice(1)} — squad, results, fixtures and form.`}
   schema={schema}
   keywords={`${data.name}, ${data.name} Baller League, ${data.manager}, Baller League UK team, Season ${SEASON}, squad, fixtures, results`}
 >
@@ -429,6 +455,23 @@ const schema = {
       </div>
     </section>
 
+    <section class="team-faq">
+      <div class="section-header">
+        <div>
+          <div class="section-label">Quick answers</div>
+          <h2 class="section-title">{data.name} FAQ</h2>
+        </div>
+      </div>
+      <div class="faq-list">
+        {teamFaqs.map((f) => (
+          <details class="faq-item">
+            <summary>{f.q}</summary>
+            <p>{f.a}</p>
+          </details>
+        ))}
+      </div>
+    </section>
+
     <!-- NAV -->
     <div class="team-cta">
       <a href="/teams" class="btn btn-ghost">All Teams</a>
@@ -736,3 +779,13 @@ const schema = {
   color: var(--green);
   border: 1px solid rgba(0,230,118,0.3);
 }
+
+/* ── FAQ ── */
+.team-faq { margin-top: var(--space-2xl); }
+.faq-list { display: flex; flex-direction: column; gap: var(--space-sm); }
+.faq-item { background: var(--bg-elevated); border: 1px solid var(--border); border-radius: var(--radius); }
+.faq-item summary { padding: var(--space-md); font-weight: 600; color: var(--text-primary); cursor: pointer; list-style: none; }
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item p { padding: 0 var(--space-md) var(--space-md); color: var(--text-secondary); line-height: 1.7; margin: 0; }
+</style>
+

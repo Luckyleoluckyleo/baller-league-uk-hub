@@ -99,6 +99,7 @@ const personSchema = player ? {
   "@type": "Person",
   "name": player.name,
   "jobTitle": player.position || 'Footballer',
+  "url": `https://ballerleagueukhub.com/players/${player.slug}/`,
   "description": stats
     ? `${player.name} – ${stats.goals ?? 0} goals, ${stats.assists ?? 0} assists in ${stats.apps ?? 0} appearances for ${player.team} in Baller League UK Season ${statsSeason}.`
     : `${player.name} plays for ${player.team} in Baller League UK.`,
@@ -108,26 +109,16 @@ const personSchema = player ? {
   "image": `https://ballerleagueukhub.com/players/${player.slug}.webp`,
 } : undefined;
 
+const faqItems = player ? [
+  { q: `Which team does ${player.name} play for?`, a: `${player.name} plays for ${player.team} in Baller League UK.` },
+  ...(player.position ? [{ q: `What position does ${player.name} play?`, a: `${player.name} plays as a ${player.position} for ${player.team} in Baller League UK.` }] : []),
+  ...(stats && stats.apps > 0 ? [{ q: `How many goals has ${player.name} scored in Baller League UK?`, a: `${player.name} has scored ${stats.goals ?? 0} goals and provided ${stats.assists ?? 0} assists in ${stats.apps} appearances for ${player.team} in Baller League UK Season ${statsSeason}.` }] : []),
+] : [];
+
 const faqSchema = player ? {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": `Which team does ${player.name} play for?`,
-      "acceptedAnswer": { "@type": "Answer", "text": `${player.name} plays for ${player.team} in Baller League UK.` },
-    },
-    ...(player.position ? [{
-      "@type": "Question",
-      "name": `What position does ${player.name} play?`,
-      "acceptedAnswer": { "@type": "Answer", "text": `${player.name} plays as a ${player.position} for ${player.team} in Baller League UK.` },
-    }] : []),
-    ...(stats && stats.apps > 0 ? [{
-      "@type": "Question",
-      "name": `How many goals has ${player.name} scored in Baller League UK?`,
-      "acceptedAnswer": { "@type": "Answer", "text": `${player.name} has scored ${stats.goals ?? 0} goals and provided ${stats.assists ?? 0} assists in ${stats.apps} appearances for ${player.team} in Baller League UK Season ${statsSeason}.` },
-    }] : []),
-  ],
+  "mainEntity": faqItems.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })),
 } : undefined;
 
 const schema = [personSchema, faqSchema].filter(Boolean);
@@ -143,7 +134,7 @@ const isThinHistoricalPlayer = !entry && !hasCurrentSeasonApps;
 ---
 
 <Base
-  title={player ? `${player.name} — Baller League UK Player Profile` : 'Player Not Found'}
+  title={player ? `${player.name} — ${player.team}${player.position ? ` ${player.position}` : ''}: Stats & Bio | Baller League UK` : 'Player Not Found'}
   description={player ? `${player.name}${stats ? ` — ${stats.goals ?? 0} goals, ${stats.assists ?? 0} assists in ${stats.apps ?? 0} apps for ${player.team} in Baller League UK Season ${statsSeason}.` : ''}` : 'Player not found.'}
   schema={schema}
   image={player ? `/og/players/${player.slug}.png` : undefined}
@@ -237,6 +228,20 @@ const isThinHistoricalPlayer = !entry && !hasCurrentSeasonApps;
                 </div>
               </section>
             )}
+
+            {faqItems.length > 0 && (
+              <section class="profile-card">
+                <h2 class="profile-h2">Quick answers</h2>
+                <div class="faq-list">
+                  {faqItems.map((f) => (
+                    <details class="faq-item">
+                      <summary>{f.q}</summary>
+                      <p>{f.a}</p>
+                    </details>
+                  ))}
+                </div>
+              </section>
+            )}
           </main>
 
           <aside class="profile-side">
@@ -286,3 +291,11 @@ const isThinHistoricalPlayer = !entry && !hasCurrentSeasonApps;
     </div>
   )}
 </Base>
+
+<style>
+.faq-list { display: flex; flex-direction: column; gap: var(--space-sm); }
+.faq-item { background: var(--bg-elevated); border: 1px solid var(--border); border-radius: var(--radius); }
+.faq-item summary { padding: var(--space-md); font-weight: 600; color: var(--text-primary); cursor: pointer; list-style: none; }
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item p { padding: 0 var(--space-md) var(--space-md); color: var(--text-secondary); line-height: 1.7; margin: 0; }
+</style>

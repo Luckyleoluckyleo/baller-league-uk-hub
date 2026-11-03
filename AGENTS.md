@@ -343,6 +343,7 @@ Hand-maintained notes for the upcoming season: `dates`, `venue`, `format`, `matc
 | `/table` | League table + fixtures + results, client-side GW nav |
 | `/reports/` | Match-report archive — every season, gameweek cards + team report links |
 | `/explainers/` | Learn hub — rules, Game Changers, watch/tickets, history, records and FAQ |
+| `/arena/` | Baller League Arena — venue, travel, ticket options and matchday schedule |
 | `/gamechangers` | GC analysis — frequency, sequences, ratios, all client-side |
 | `/h2h` | Head-to-head comparison tool (team A/B pickers) |
 | `/rules` | Rules & format guide (largest static page, 25 KB) |

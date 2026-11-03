@@ -38,12 +38,26 @@ function previewSlug(match: any): string {
   if (match.round) return `${match.homeSlug}-vs-${match.awaySlug}-final-four-preview`;
   return `${match.homeSlug}-vs-${match.awaySlug}-gw${match.gameweek}-preview`;
 }
+
+const faqs = [
+  { q: "How is the Baller League UK table calculated?", a: "Teams get 3 points for a win, 1 for a draw and 0 for a loss. Extra Points (EP) from the Pressure Point challenge are added, then teams are sorted by points, goal difference and goals scored." },
+  { q: "Who is top of the Baller League UK table?", a: leader ? `${leader.team} are top of the Season ${CURRENT_SEASON} table with ${leader.pts} points.` : "The table will update once matches are played." },
+  { q: "How many teams qualify for the Final Four?", a: "The top four teams in the regular-season table qualify for the Final Four playoffs." },
+  { q: "What is EP in the Baller League UK table?", a: "EP stands for Extra Points, awarded to the winner of the matchday Pressure Point penalty challenge." },
+];
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })),
+};
 ---
 
 <Base
   title={`Baller League UK Table 2026 — Latest Standings & Results`}
   description={`The live Baller League UK table for Season ${CURRENT_SEASON}: standings, form, results and the race for the Final Four.`}
   keywords={`league table, standings, fixtures, results, gameweek, Season ${CURRENT_SEASON}, playoffs, top 4`}
+  schema={schema}
 >
 
   <div class="page-header">
@@ -223,6 +237,23 @@ function previewSlug(match: any): string {
       </div>
     </div>
 
+    <section class="table-faq">
+      <div class="section-header">
+        <div>
+          <div class="section-label">Quick answers</div>
+          <h2 class="section-title">Baller League UK table FAQ</h2>
+        </div>
+      </div>
+      <div class="faq-list">
+        {faqs.map((f) => (
+          <details class="faq-item">
+            <summary>{f.q}</summary>
+            <p>{f.a}</p>
+          </details>
+        ))}
+      </div>
+    </section>
+
     <p style="margin-top: var(--space-lg); color: var(--text-secondary);">
       New to Baller League UK? Read the <a href="/rules">full rules</a> or browse the <a href="/explainers">explainers</a>. Looking for a specific match? See the <a href="/reports">report archive</a>.
     </p>
@@ -331,6 +362,13 @@ function previewSlug(match: any): string {
 .form-draw { background: rgba(255,214,0,0.12); color: var(--gold); }
 
 .update-note { border: 1px solid var(--border); }
+
+.table-faq { margin-top: var(--space-2xl); }
+.faq-list { display: flex; flex-direction: column; gap: var(--space-sm); }
+.faq-item { background: var(--bg-elevated); border: 1px solid var(--border); border-radius: var(--radius); }
+.faq-item summary { padding: var(--space-md); font-weight: 600; color: var(--text-primary); cursor: pointer; list-style: none; }
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item p { padding: 0 var(--space-md) var(--space-md); color: var(--text-secondary); line-height: 1.7; margin: 0; }
 .update-inner { display: flex; align-items: flex-start; gap: var(--space-md); }
 .update-inner p { margin: 0; font-size: 0.85rem; }
 
