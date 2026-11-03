@@ -161,14 +161,18 @@ const schema = {
     </section>
 
     <!-- TICKETS / WATCH -->
-    <section>
+    <section id="tickets">
       <div class="section-label">Tickets &amp; viewing</div>
       <h2 class="section-title">Get to a Matchday</h2>
       <div class="s4-grid s4-grid--2">
         <div class="card s4-card"><div class="card-body"><h3>🎟️ Single Matchday</h3><p>{season4.tickets.singleMatchday}</p></div></div>
-        <div class="card s4-card"><div class="card-body"><h3>📦 Baller Bundle</h3><p>{season4.tickets.ballerBundle}</p></div></div>
+        <div class="card s4-card"><div class="card-body"><h3>🎁 Baller Bundle</h3><p>{season4.tickets.ballerBundle}</p></div></div>
         <div class="card s4-card"><div class="card-body"><h3>🎫 Baller Pass</h3><p>{season4.tickets.ballerPass}</p></div></div>
         <div class="card s4-card"><div class="card-body"><h3>📺 Watch</h3><p>Matches move online-only for Season 4. See our <a href="/watch">where to watch</a> page.</p></div></div>
+      </div>
+      <div style="display:flex; gap:var(--space-sm); flex-wrap:wrap; margin-top:var(--space-lg);">
+        <a href={season4.ticketsUrl} target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">Buy tickets →</a>
+        <a href="/news/baller-league-arena-tickets-guide" class="btn btn-ghost">Venue &amp; tickets guide</a>
       </div>
     </section>
 

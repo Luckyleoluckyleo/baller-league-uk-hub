@@ -1,6 +1,7 @@
 ---
 title: "Baller League Arena: Venue and Tickets Guide"
 date: 2026-10-19
+updated: 2026-11-03
 category: "Explainer"
 excerpt: "Everything you need to know about attending a Baller League UK matchday — the venue, the format of the night, ticket types and how to get there."
 author: "Baller League UK Hub"
@@ -25,7 +26,7 @@ There are three main ways to attend, catering for casual fans and die-hards alik
 - **Baller Bundle** — a package of multiple consecutive matchdays (typically 3–4 nights).
 - **Baller Pass** — the full experience, covering all 11 regular-season matchdays.
 
-Tickets are sold through the league's official ticketing partner. For the latest availability and prices, check the [Season 4 hub](/season-4) and the official Baller League UK site.
+Tickets are sold through the league's official ticketing partner, **[Fever](https://feverup.com/m/778886)**. For the latest availability and prices, see the [Season 4 hub](/season-4#tickets) or [buy tickets on Fever](https://feverup.com/m/778886).
 
 ## Getting there
 

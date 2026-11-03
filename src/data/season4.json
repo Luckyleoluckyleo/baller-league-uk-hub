@@ -31,6 +31,7 @@
     { "n": 10, "date": "14 December 2026" },
     { "n": 11, "date": "21 December 2026" }
   ],
+  "ticketsUrl": "https://feverup.com/m/778886",
   "tickets": {
     "singleMatchday": "Access to all six matches on one Monday",
     "ballerBundle": "Multiple consecutive matchdays (3–4 nights)",
