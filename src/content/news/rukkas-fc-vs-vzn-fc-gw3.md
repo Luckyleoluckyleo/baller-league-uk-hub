@@ -2,7 +2,7 @@
 title: "P17 FC Cruise Past VZN FC in 5-1 Rout — GW3"
 date: 2026-10-26
 category: "Match Report"
-excerpt: "P17 FC 5-1 VZN FC — Gameweek 3 match report. Amin Belaid (7 goals) leads P17 FC's attack. Game Changers: Onside (2) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "P17 FC 5-1 VZN FC — Gameweek 3 match report. Amin Belaid (9 goals) leads P17 FC's attack. Game Changers: Onside (2) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -85,10 +85,12 @@ The **Onside** window was the more impactful, its **2** goals shifting the balan
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Amin Belaid | 2 | 0 | 4 | 16 |
+| Amin Belaid | 2 | 0 | 4 | 15 |
 | Steven Kodra | 2 | 0 | 3 | 6 |
 | Dajon Golding | 1 | 0 | 2 | 7 |
-| Ciaran Clark | 0 | 1 | 1 | 34 |
+| Alan Sanches Perez | 0 | 2 | 0 | 4 |
+| Archie Cunningham | 0 | 1 | 0 | 52 |
+| Ciaran Clark | 0 | 1 | 2 | 33 |
 | Mussa Bham | 0 | 1 | 1 | 6 |
 
 ### VZN FC
@@ -96,7 +98,7 @@ The **Onside** window was the more impactful, its **2** goals shifting the balan
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
 | Danny Bassett | 1 | 0 | 4 | 41 |
-| Dubem Eze | 0 | 1 | 7 | 13 |
+| Dubem Eze | 0 | 1 | 7 | 12 |
 
 
 
@@ -108,34 +110,34 @@ The **Onside** window was the more impactful, its **2** goals shifting the balan
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Amin Belaid | 7 | 2 | 3 |
-| Steven Kodra | 6 | 0 | 3 |
-| Dajon Golding | 3 | 0 | 3 |
-| Ciaran Clark | 1 | 1 | 3 |
-| Tom Bender | 1 | 0 | 1 |
+| Amin Belaid | 9 | 2 | 4 |
+| Steven Kodra | 6 | 0 | 4 |
+| Dajon Golding | 3 | 0 | 4 |
+| Ciaran Clark | 1 | 2 | 4 |
 
 ### VZN FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Florian Kastrati | 2 | 0 | 3 |
-| Eddie Simon | 2 | 0 | 3 |
-| Terell Thomas | 2 | 0 | 2 |
-| Danny Bassett | 1 | 1 | 3 |
+| Florian Kastrati | 4 | 1 | 4 |
+| Dubem Eze | 2 | 1 | 3 |
+| Eddie Simon | 2 | 1 | 4 |
+| Terell Thomas | 2 | 0 | 3 |
+| Danny Bassett | 1 | 1 | 4 |
 
 **Key Attacking Threats**
 
-- **Amin Belaid** — P17 FC's talisman with **7 goals** from **3 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Florian Kastrati** — VZN FC's leading marksman with **2 goals** from **3 outings**. Still finding his rhythm but showing promising signs.
+- **Amin Belaid** — P17 FC's talisman with **9 goals** from **4 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Florian Kastrati** — VZN FC's leading marksman with **4 goals** from **4 outings**, plus **1 assists**. Still finding his rhythm but showing promising signs.
 
 
 ---
 
 ## Season Context
 
-With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **P17 FC** entered this match averaging **6.0 goals per game** — a number that reflected their struggles in front of goal this campaign. **VZN FC**, by contrast, arrived with an average of **2.3 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **P17 FC** entered this match averaging **5.0 goals per game** — a number that reflected their struggles in front of goal this campaign. **VZN FC**, by contrast, arrived with an average of **3.3 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **8.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **8.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -178,8 +180,8 @@ P17 FC climbed to **1st**, vzn fc dropped to **10th**.
 | Game Changer goals | 3 (50% of all goals) |
 | Different goalscorers | 4 |
 | Total shots | 35 |
-| Assists | 5 |
-| Tackles | 15 |
+| Assists | 6 |
+| Tackles | 16 |
 | Passes | 323 |
 
 
@@ -194,10 +196,10 @@ P17 FC climbed to **1st**, vzn fc dropped to **10th**.
 ## What's Next
 
 ### P17 FC
-Next up: **Deportrio** in Gameweek 4. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 ### VZN FC
-Next up: **Toma** in Gameweek 4. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 
 

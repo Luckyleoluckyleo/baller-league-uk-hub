@@ -1,6 +1,6 @@
 ---
 title: "P17 FC — Baller League UK Season 4 Preview & Squad"
-date: 2026-10-27
+date: 2026-11-03
 category: "Team Preview"
 excerpt: "Everything you need to know about P17 FC for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
 author: "Baller League UK Hub"
@@ -25,20 +25,18 @@ P17 FC are led by [Alex Iwobi](/managers/alex-iwobi). Their experience and perso
 
 Here are some of P17 FC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Amin Belaid](/players/amin-belaid)** (Striker) — 7 goals and 2 assists in 3 appearances.
-- **[Steven Kodra](/players/steven-kodra-2)** (Striker) — 6 goals and 0 assists in 3 appearances.
-- **[Dajon Golding](/players/dajon-golding)** (Striker) — 3 goals and 0 assists in 3 appearances.
-- **[Ciaran Clark](/players/ciaran-clark)** (Defender) — 1 goals and 1 assists in 3 appearances.
-- **[Tom Bender](/players/tom-bender)** (Defender) — 1 goals and 0 assists in 1 appearance.
+- **[Amin Belaid](/players/amin-belaid)** (Striker) — 9 goals and 2 assists in 4 appearances.
+- **[Steven Kodra](/players/steven-kodra-2)** (Striker) — 6 goals and 0 assists in 4 appearances.
+- **[Dajon Golding](/players/dajon-golding)** (Striker) — 3 goals and 0 assists in 4 appearances.
+- **[Ciaran Clark](/players/ciaran-clark)** (Defender) — 1 goals and 2 assists in 4 appearances.
 - **[Ben Long](/players/ben-long)** (Defender) — 0 goals and 0 assists in 1 appearance.
+- **[Jesus Abreu](/players/jesus-abreu)** (Midfielder) — 0 goals and 0 assists in 4 appearances.
 
 See the full squad on the [P17 FC team page](/teams/rukkas-fc).
 
 ## Season 4 fixtures
 
-P17 FC open their campaign in **Gameweek 4** against **[Deportrio](/teams/deportrio)** on **2 November 2026**, with kick-off at **17:15** at home.
-
-Every matchday is a Monday night, with the regular season running for **11 gameweeks** and the top four reaching the **Final Four**.
+P17 FC's opening fixture will be confirmed shortly. Visit the [Season 4 hub](/season-4) for the full schedule.
 
 ## Season outlook
 

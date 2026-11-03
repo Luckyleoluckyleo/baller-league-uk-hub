@@ -186,7 +186,7 @@ function previewSlug(match: any): string {
       <div>
         <div class="section-header">
           <div class="section-label">Upcoming</div>
-          <h2 class="section-title">{isFinalFour ? 'Final Four' : `Gameweek ${upcomingGW} Fixtures`}</h2>
+          <h2 class="section-title">{isFinalFour ? 'Final Four' : fixturesData.upcoming.length > 0 ? `Gameweek ${upcomingGW} Fixtures` : 'Next Fixtures'}</h2>
         </div>
         <div class="fixtures-list">
           {fixturesData.upcoming.map(f => (
@@ -219,7 +219,7 @@ function previewSlug(match: any): string {
     <div class="update-note card">
       <div class="card-body update-inner">
         <span>🔄</span>
-        <p>Table and results updated after each gameweek. Stats refreshed {updateDate}. {isFinalFour ? 'Next up: Final Four.' : `Upcoming fixtures for Gameweek ${upcomingGW}.`}</p>
+        <p>Table and results updated after each gameweek. Stats refreshed {updateDate}. {isFinalFour ? 'Next up: Final Four.' : fixturesData.upcoming.length > 0 ? `Upcoming fixtures for Gameweek ${upcomingGW}.` : 'Next fixtures to be announced.'}</p>
       </div>
     </div>
 

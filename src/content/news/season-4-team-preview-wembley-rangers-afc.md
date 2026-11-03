@@ -1,6 +1,6 @@
 ---
 title: "Wembley Rangers AFC — Baller League UK Season 4 Preview & Squad"
-date: 2026-10-27
+date: 2026-11-03
 category: "Team Preview"
 excerpt: "Everything you need to know about Wembley Rangers AFC for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
 author: "Baller League UK Hub"
@@ -23,23 +23,21 @@ Wembley Rangers AFC's manager has not yet been confirmed by the league. Keep an 
 
 Here are some of Wembley Rangers AFC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Callam Gardner](/players/callam-gardner)** (Striker) — 5 goals and 0 assists in 3 appearances.
-- **[Chiekh Thiam](/players/chiekh-thiam)** (Defender) — 3 goals and 1 assists in 3 appearances.
-- **[Domingos Pires](/players/domingos-pires)** (Striker) — 2 goals and 1 assists in 3 appearances.
-- **[Adrian Tajik](/players/adrian-tajik)** (Striker) — 1 goals and 0 assists in 2 appearances.
-- **[Dominic Morgan-Griffiths](/players/dominic-morgan-griffiths)** (Midfielder) — 1 goals and 2 assists in 3 appearances.
-- **[Lassana Mendes](/players/lassana-mendes)** (Defender) — 1 goals and 1 assists in 3 appearances.
+- **[Callam Gardner](/players/callam-gardner)** (Striker) — 5 goals and 0 assists in 4 appearances.
+- **[Domingos Pires](/players/domingos-pires)** (Striker) — 5 goals and 1 assists in 4 appearances.
+- **[Chiekh Thiam](/players/chiekh-thiam)** (Defender) — 4 goals and 1 assists in 4 appearances.
+- **[Adrian Tajik](/players/adrian-tajik)** (Striker) — 1 goals and 0 assists in 3 appearances.
+- **[Dominic Morgan-Griffiths](/players/dominic-morgan-griffiths)** (Midfielder) — 1 goals and 2 assists in 4 appearances.
+- **[Finlay Chadwick](/players/finlay-chadwick)** (Midfielder) — 1 goals and 1 assists in 2 appearances.
 
 See the full squad on the [Wembley Rangers AFC team page](/teams/wembley-rangers-afc).
 
 ## Season 4 fixtures
 
-Wembley Rangers AFC open their campaign in **Gameweek 4** against **[Prime FC](/teams/prime-fc)** on **2 November 2026**, with kick-off at **20:05** on the road.
-
-Every matchday is a Monday night, with the regular season running for **11 gameweeks** and the top four reaching the **Final Four**.
+Wembley Rangers AFC's opening fixture will be confirmed shortly. Visit the [Season 4 hub](/season-4) for the full schedule.
 
 ## Season outlook
 
-Wembley Rangers AFC will fancy their chances of a strong season if they can convert last year's promise into points. The margins in this league are famously small.
+Consistency will be the aim for Wembley Rangers AFC as they look to build on recent campaigns and push towards the Final Four.
 
 Follow Wembley Rangers AFC all season long on the [teams hub](/teams) and keep up with standings on the live [league table](/table).

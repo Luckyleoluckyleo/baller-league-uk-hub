@@ -1,6 +1,6 @@
 ---
 title: "Player Spotlight: Nya Kirby — SDS FC"
-date: 2026-10-27
+date: 2026-11-03
 category: "Feature"
 excerpt: "A closer look at Nya Kirby, midfielder for SDS FC in Baller League UK Season 4 — career, honours and what he brings to the 6v6 game."
 author: "Baller League UK Hub"
@@ -27,7 +27,7 @@ Nya Kirby built his professional career at Crystal Palace, Blackpool and Tranmer
 
 | Season | Apps | Goals | Assists |
 |--------|------|-------|---------|
-| 4 | 2 | 0 | 0 |
+| 4 | 3 | 0 | 0 |
 
 See his full stats on his [player profile](/players/nya-kirby).
 

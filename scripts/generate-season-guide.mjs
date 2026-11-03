@@ -271,7 +271,9 @@ function buildFixtures() {
     return [
       "## Next fixtures",
       "",
-      "The regular season is complete — check the [league table](/table) for the final standings and the [Final Four](/final-four) page for the playoffs.",
+      latestGW >= 12
+        ? "The season is complete — check the [league table](/table) for the final standings and the [Final Four](/final-four) page for the playoffs."
+        : "The next set of fixtures has not been confirmed yet. Check the [fixtures page](/fixtures) for the full season schedule.",
     ].join("\n");
   }
 

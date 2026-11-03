@@ -2,7 +2,7 @@
 title: "RTG FC Edge Deportrio 4-3 in GW3 Thriller"
 date: 2026-10-26
 category: "Match Report"
-excerpt: "RTG FC 4-3 Deportrio — Gameweek 3 match report. Kadell Daniel (5 goals) leads RTG FC's attack. Game Changers: 3Play (4) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "RTG FC 4-3 Deportrio — Gameweek 3 match report. Kadell Daniel (9 goals) leads RTG FC's attack. Game Changers: 3Play (4) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -98,8 +98,8 @@ The **3Play** window was the more impactful, its **4** goals shifting the balanc
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Jay Emmanuel-Thomas | 2 | 1 | 5 | 14 |
-| Emmanuel Robe | 1 | 0 | 5 | 6 |
+| Jay Emmanuel-Thomas | 2 | 1 | 5 | 18 |
+| Emmanuel Robe | 1 | 0 | 4 | 9 |
 | David Oupoh | 0 | 1 | 3 | 6 |
 
 
@@ -112,35 +112,35 @@ The **3Play** window was the more impactful, its **4** goals shifting the balanc
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kadell Daniel | 5 | 1 | 3 |
-| Alfie Cerulli | 5 | 0 | 3 |
-| Tyrell Miller-Rodney | 2 | 2 | 3 |
-| Zaid Al Hussaini | 1 | 4 | 3 |
-| Dan Wishart | 1 | 0 | 2 |
+| Kadell Daniel | 9 | 2 | 4 |
+| Alfie Cerulli | 6 | 0 | 4 |
+| Tyrell Miller-Rodney | 2 | 2 | 4 |
+| Joshua Emmanuel | 1 | 0 | 4 |
+| Zaid Al Hussaini | 1 | 4 | 4 |
 
 ### Deportrio — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Jay Emmanuel-Thomas | 6 | 2 | 3 |
-| Rodney Ajayi | 4 | 0 | 3 |
-| Kevin Weggen | 3 | 2 | 3 |
-| Emmanuel Robe | 2 | 0 | 3 |
-| Martyn Waghorn | 1 | 0 | 1 |
+| Jay Emmanuel-Thomas | 7 | 2 | 4 |
+| Rodney Ajayi | 6 | 0 | 4 |
+| Kevin Weggen | 3 | 3 | 4 |
+| Emmanuel Robe | 2 | 0 | 4 |
+| Martyn Waghorn | 1 | 0 | 2 |
 
 **Key Attacking Threats**
 
-- **Kadell Daniel** — RTG FC's talisman with **5 goals** from **3 appearances** and **1 assists**. A developing attacking presence with room to grow.
-- **Jay Emmanuel-Thomas** — Deportrio's leading marksman with **6 goals** from **3 outings**, plus **2 assists**. Deportrio look to him whenever they need a moment of magic in the final third.
+- **Kadell Daniel** — RTG FC's talisman with **9 goals** from **4 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Jay Emmanuel-Thomas** — Deportrio's leading marksman with **7 goals** from **4 outings**, plus **2 assists**. Deportrio look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **RTG FC** entered this match averaging **4.7 goals per game** — a number that reflected their struggles in front of goal this campaign. **Deportrio**, by contrast, arrived with an average of **5.3 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **RTG FC** entered this match averaging **5.0 goals per game** — a number that reflected their struggles in front of goal this campaign. **Deportrio**, by contrast, arrived with an average of **4.8 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **8.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **8.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -184,8 +184,8 @@ RTG FC climbed to **6th**, deportrio dropped to **3rd**.
 | Different goalscorers | 4 |
 | Total shots | 35 |
 | Assists | 4 |
-| Tackles | 14 |
-| Passes | 257 |
+| Tackles | 15 |
+| Passes | 282 |
 
 
 ---
@@ -200,10 +200,10 @@ RTG FC climbed to **6th**, deportrio dropped to **3rd**.
 ## What's Next
 
 ### RTG FC
-Next up: **Clutch FC** in Gameweek 4. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 ### Deportrio
-Next up: **P17 FC** in Gameweek 4. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 
 

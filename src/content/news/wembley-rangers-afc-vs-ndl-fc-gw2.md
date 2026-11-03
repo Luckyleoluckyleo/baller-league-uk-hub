@@ -42,7 +42,7 @@ The second half resumed with all to play for, and at the 27-minute mark the **Th
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **12′** — **Josh Parker** (NDL FC) opened the scoring
-- **13′** — **Abdirahman Hasan Mohamud** (NDL FC) struck
+- **13′** — **Abdirahman Mohamud** (NDL FC) struck
 - **14′** — **Sam Fitzgerald** (NDL FC) struck
 - **16′** — **Callam Gardner** (Wembley Rangers AFC) netted
 - **20′** — **Taufee Skandari** (NDL FC) netted
@@ -51,7 +51,7 @@ The goals arrived in a dramatic sequence that told the story of the match:
 | Minute | Player | Team |
 |--------|--------|------|
 | 12′ | Josh Parker | NDL FC |
-| 13′ | Abdirahman Hasan Mohamud | NDL FC |
+| 13′ | Abdirahman Mohamud | NDL FC |
 | 14′ | Sam Fitzgerald | NDL FC |
 | 16′ | Callam Gardner | Wembley Rangers AFC |
 | 20′ | Taufee Skandari | NDL FC |
@@ -93,7 +93,6 @@ The **Plus One** window was the more impactful, its **3** goals shifting the bal
 | Josh Parker | 1 | 0 | 5 | 6 |
 | Sam Fitzgerald | 1 | 0 | 3 | 19 |
 | Taufee Skandari | 1 | 0 | 2 | 12 |
-| Abdirahman Hasan Mohamud | 1 | 0 | 2 | 1 |
 | Isaac Modi | 0 | 1 | 5 | 11 |
 
 
@@ -106,35 +105,35 @@ The **Plus One** window was the more impactful, its **3** goals shifting the bal
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Callam Gardner | 5 | 0 | 3 |
-| Chiekh Thiam | 3 | 1 | 3 |
-| Domingos Pires | 2 | 1 | 3 |
-| Adrian Tajik | 1 | 0 | 2 |
-| Dominic Morgan-Griffiths | 1 | 2 | 3 |
+| Callam Gardner | 5 | 0 | 4 |
+| Domingos Pires | 5 | 1 | 4 |
+| Chiekh Thiam | 4 | 1 | 4 |
+| Adrian Tajik | 1 | 0 | 3 |
+| Dominic Morgan-Griffiths | 1 | 2 | 4 |
 
 ### NDL FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Sam Fitzgerald | 7 | 1 | 3 |
-| Taufee Skandari | 2 | 0 | 3 |
-| Josh Parker | 2 | 0 | 3 |
-| Dara Dada | 1 | 0 | 3 |
-| Isaac Modi | 1 | 1 | 3 |
+| Sam Fitzgerald | 7 | 1 | 4 |
+| Isaac Modi | 3 | 1 | 4 |
+| Taufee Skandari | 2 | 0 | 4 |
+| Josh Parker | 2 | 0 | 4 |
+| Dara Dada | 1 | 0 | 4 |
 
 **Key Attacking Threats**
 
-- **Callam Gardner** — Wembley Rangers AFC's talisman with **5 goals** from **3 appearances**. A developing attacking presence with room to grow.
-- **Sam Fitzgerald** — NDL FC's leading marksman with **7 goals** from **3 outings**, plus **1 assists**. NDL FC look to him whenever they need a moment of magic in the final third.
+- **Callam Gardner** — Wembley Rangers AFC's talisman with **5 goals** from **4 appearances**. A developing attacking presence with room to grow.
+- **Sam Fitzgerald** — NDL FC's leading marksman with **7 goals** from **4 outings**, plus **1 assists**. NDL FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **Wembley Rangers AFC** entered this match averaging **4.3 goals per game** — a number that reflected their struggles in front of goal this campaign. **NDL FC**, by contrast, arrived with an average of **4.7 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **Wembley Rangers AFC** entered this match averaging **4.8 goals per game** — a number that reflected their struggles in front of goal this campaign. **NDL FC**, by contrast, arrived with an average of **4.0 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **8.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **8.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -193,10 +192,10 @@ Wembley Rangers AFC stayed at **12th**, ndl fc climbed to **7th**.
 ## What's Next
 
 ### Wembley Rangers AFC
-Next up: **Prime FC** in Gameweek 4. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 ### NDL FC
-Next up: **SDS FC** in Gameweek 4. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 
 

@@ -2,7 +2,7 @@
 title: "Prime FC and Toma Share 4-4 Goal Fest in GW3"
 date: 2026-10-26
 category: "Match Report"
-excerpt: "Prime FC 4-4 Toma — Gameweek 3 match report. Timmy Abraham (4 goals) leads Prime FC's attack. Game Changers: Onside (0) & Fairplay (2). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Prime FC 4-4 Toma — Gameweek 3 match report. Timmy Abraham (5 goals) leads Prime FC's attack. Game Changers: Onside (0) & Fairplay (2). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -11,7 +11,7 @@ featured: false
 
 Gameweek 3 delivered fireworks at Baller Arena with **Prime FC** taking on **Toma** in an end-to-end classic where neither side deserved to walk away empty-handed.
 
-Prime FC, sitting pretty in the Final Four places at 4th, knew a win here would tighten their grip. The final whistle confirmed a **4-4 draw** in a contest that had absolutely everything — goals, drama, and relentless entertainment. The Game Changer window — **Onside** and **Fairplay** — proved pivotal, contributing **2** of the match's **8** goals.
+The final whistle confirmed a **4-4 draw** in a contest that had absolutely everything — goals, drama, and relentless entertainment. The Game Changer window — **Onside** and **Fairplay** — proved pivotal, contributing **2** of the match's **8** goals.
 
 **Prime FC form (before GW3):** ✅ ❌ (W-L)  
 **Toma form (before GW3):** 🤝 ❌ (D-L)
@@ -29,11 +29,11 @@ Prime FC, sitting pretty in the Final Four places at 4th, knew a win here would 
 
 ### First Half
 
-The game's complexion changed at the 12th minute when the **Onside** Game Changer activated — but remarkably, neither side could find the net. A tactical stalemate that owed as much to disciplined defending as to the specific rule change. By the interval it was impossible to call a winner. The contest was beautifully balanced, with everything still to play for.
+The game's complexion changed at the 12th minute when the **Onside** Game Changer activated — yet for all the altered rules, the defences stood tall and the deadlock remained stubbornly intact. The two sides trudged off level at the break — nothing separating them in what was shaping up to be a classic arm-wrestle.
 
 ### Second Half
 
-After the restart, the **Fairplay** Game Changer detonated at the 27th minute, turning the dial up to eleven — and it delivered **2** goals at just the right moment to breathe fresh life into the match. Both sides strained every sinew for a winner but the decisive blow never landed. A draw was the fairest outcome in a match where no team deserved to lose.
+The 27th minute brought the **Fairplay** Game Changer thundering into the match — a moment that would prove pivotal — and it delivered **2** goals at just the right moment to breathe fresh life into the match. Both sides strained every sinew for a winner but the decisive blow never landed. A draw was the fairest outcome in a match where no team deserved to lose.
 
 ---
 
@@ -43,19 +43,19 @@ The goals arrived in a dramatic sequence that told the story of the match:
 
 - **3′** — **Yasin Ben El-Mhanni** (Toma) opened the scoring
 - **9′** — **Kyron McKay** (Toma) struck
-- **17′** — **Timmy Abraham** (Prime FC) netted
-- **17′** — **Charlie James Pavey** (Toma) struck
-- **21′** — **Salim Nassor** (Prime FC) netted
-- **26′** — **Salim Nassor** (Prime FC) found the target
-- **27′** — **Francis Mampolo** (Prime FC) struck
-- **29′** — **Joshua Rusoke** (Prime FC) scored
+- **17′** — **Timmy Abraham** (Prime FC) struck
+- **17′** — **Charlie Pavey** (Toma) netted
+- **21′** — **Salim Nassor** (Prime FC) struck
+- **26′** — **Salim Nassor** (Prime FC) netted
+- **27′** — **Francis Mampolo** (Prime FC) found the target
+- **29′** — **Joshua Rusoke** (Prime FC) struck
 
 | Minute | Player | Team |
 |--------|--------|------|
 | 3′ | Yasin Ben El-Mhanni | Toma |
 | 9′ | Kyron McKay | Toma |
 | 17′ | Timmy Abraham | Prime FC |
-| 17′ | Charlie James Pavey | Toma |
+| 17′ | Charlie Pavey | Toma |
 | 21′ | Salim Nassor | Prime FC |
 | 26′ | Salim Nassor | Prime FC |
 | 27′ | Francis Mampolo | Prime FC |
@@ -91,17 +91,15 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 |--------|-------|---------|-------|--------|
 | Salim Nassor | 2 | 0 | 2 | 4 |
 | Francis Mampolo | 1 | 1 | 8 | 3 |
-| Timmy Abraham | 1 | 0 | 3 | 3 |
+| Timmy Abraham | 1 | 0 | 3 | 4 |
 | Montel McKenzie | 0 | 1 | 3 | 24 |
 
 ### Toma
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Yasin Ben El-Mhanni | 1 | 0 | 3 | 25 |
+| Yasin Ben El-Mhanni | 1 | 0 | 3 | 23 |
 | Kyron McKay | 1 | 0 | 3 | 35 |
-| Charlie James Pavey | 1 | 0 | 2 | 6 |
-| Ibrahim Rasheed Bangura | 0 | 1 | 2 | 11 |
 
 
 
@@ -113,35 +111,35 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Timmy Abraham | 4 | 0 | 3 |
-| Francis Mampolo | 2 | 2 | 3 |
-| Salim Nassor | 2 | 0 | 1 |
+| Timmy Abraham | 5 | 0 | 4 |
+| Francis Mampolo | 3 | 2 | 4 |
+| Salim Nassor | 2 | 0 | 2 |
 | Joshua Rusoke | 1 | 0 | 2 |
-| Mauro Vilhete | 1 | 1 | 3 |
+| Mauro Vilhete | 1 | 1 | 4 |
 
 ### Toma — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Arezki Hamouchene | 2 | 0 | 3 |
-| Joshua Phillips | 2 | 0 | 3 |
-| Junior Dixon | 2 | 0 | 2 |
-| Yasin Ben El-Mhanni | 1 | 0 | 3 |
-| Charlie James Pavey | 1 | 0 | 3 |
+| Arezki Hamouchene | 2 | 0 | 4 |
+| Yasin Ben El-Mhanni | 2 | 0 | 4 |
+| Ibrahim Bangura | 2 | 1 | 4 |
+| Joshua Phillips | 2 | 0 | 4 |
+| Junior Dixon | 2 | 1 | 3 |
 
 **Key Attacking Threats**
 
-- **Timmy Abraham** — Prime FC's talisman with **4 goals** from **3 appearances**. A developing attacking presence with room to grow.
-- **Arezki Hamouchene** — Toma's leading marksman with **2 goals** from **3 outings**. Still finding his rhythm but showing promising signs.
+- **Timmy Abraham** — Prime FC's talisman with **5 goals** from **4 appearances**. A developing attacking presence with room to grow.
+- **Arezki Hamouchene** — Toma's leading marksman with **2 goals** from **4 outings**. Still finding his rhythm but showing promising signs.
 
 
 ---
 
 ## Season Context
 
-With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **Prime FC** entered this match averaging **4.0 goals per game** — a number that reflected their struggles in front of goal this campaign. **Toma**, by contrast, arrived with an average of **3.7 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **Prime FC** entered this match averaging **3.5 goals per game** — a number that reflected their struggles in front of goal this campaign. **Toma**, by contrast, arrived with an average of **3.8 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **8.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **8.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -155,11 +153,11 @@ This was the **maiden competitive meeting** between Prime FC and Toma — a hist
 
 ## Table Impact
 
-Prime FC dropped to **5th**, toma dropped to **11th**.
+Prime FC stayed at **5th**, toma dropped to **11th**.
 
 | Team | Before GW3 | After GW3 |
 |------|-------------|-------------|
-| Prime FC | 4th | 5th |
+| Prime FC | 5th | 5th |
 | Toma | 10th | 11th |
 
 
@@ -185,8 +183,8 @@ Prime FC dropped to **5th**, toma dropped to **11th**.
 | Different goalscorers | 7 |
 | Total shots | 38 |
 | Assists | 3 |
-| Tackles | 22 |
-| Passes | 285 |
+| Tackles | 21 |
+| Passes | 290 |
 
 
 ---
@@ -201,10 +199,10 @@ Prime FC dropped to **5th**, toma dropped to **11th**.
 ## What's Next
 
 ### Prime FC
-Next up: **Wembley Rangers AFC** in Gameweek 4. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 ### Toma
-Next up: **VZN FC** in Gameweek 4. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 
 

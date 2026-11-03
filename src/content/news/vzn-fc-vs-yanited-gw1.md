@@ -2,7 +2,7 @@
 title: "VZN FC Edge RTG FC 5-4 in GW1 Thriller"
 date: 2026-10-12
 category: "Match Report"
-excerpt: "VZN FC 5-4 RTG FC — Gameweek 1 match report. Florian Kastrati (2 goals) leads VZN FC's attack. Game Changers: Plus One (3) & The Line (3). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "VZN FC 5-4 RTG FC — Gameweek 1 match report. Florian Kastrati (4 goals) leads VZN FC's attack. Game Changers: Plus One (3) & The Line (3). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -117,34 +117,35 @@ The **Plus One** activation was particularly devastating, producing **3** goals 
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Florian Kastrati | 2 | 0 | 3 |
-| Eddie Simon | 2 | 0 | 3 |
-| Terell Thomas | 2 | 0 | 2 |
-| Danny Bassett | 1 | 1 | 3 |
+| Florian Kastrati | 4 | 1 | 4 |
+| Dubem Eze | 2 | 1 | 3 |
+| Eddie Simon | 2 | 1 | 4 |
+| Terell Thomas | 2 | 0 | 3 |
+| Danny Bassett | 1 | 1 | 4 |
 
 ### RTG FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kadell Daniel | 5 | 1 | 3 |
-| Alfie Cerulli | 5 | 0 | 3 |
-| Tyrell Miller-Rodney | 2 | 2 | 3 |
-| Zaid Al Hussaini | 1 | 4 | 3 |
-| Dan Wishart | 1 | 0 | 2 |
+| Kadell Daniel | 9 | 2 | 4 |
+| Alfie Cerulli | 6 | 0 | 4 |
+| Tyrell Miller-Rodney | 2 | 2 | 4 |
+| Joshua Emmanuel | 1 | 0 | 4 |
+| Zaid Al Hussaini | 1 | 4 | 4 |
 
 **Key Attacking Threats**
 
-- **Florian Kastrati** — VZN FC's talisman with **2 goals** from **3 appearances**. A developing attacking presence with room to grow.
-- **Kadell Daniel** — RTG FC's leading marksman with **5 goals** from **3 outings**, plus **1 assists**. Still finding his rhythm but showing promising signs.
+- **Florian Kastrati** — VZN FC's talisman with **4 goals** from **4 appearances** and **1 assists**. A developing attacking presence with room to grow.
+- **Kadell Daniel** — RTG FC's leading marksman with **9 goals** from **4 outings**, plus **2 assists**. RTG FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **VZN FC** entered this match averaging **2.3 goals per game** — a number that reflected their struggles in front of goal this campaign. **RTG FC**, by contrast, arrived with an average of **4.7 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **VZN FC** entered this match averaging **3.3 goals per game** — a number that reflected their struggles in front of goal this campaign. **RTG FC**, by contrast, arrived with an average of **5.0 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **8.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **8.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -205,10 +206,10 @@ VZN FC held steady, rtg fc held steady.
 ## What's Next
 
 ### VZN FC
-Next up: **Toma** in Gameweek 4. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 ### RTG FC
-Next up: **Clutch FC** in Gameweek 4. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 
 

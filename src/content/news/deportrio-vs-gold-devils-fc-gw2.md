@@ -2,7 +2,7 @@
 title: "Deportrio Scrape Past Gold Devils FC 4-3 in Tight GW2 Contest"
 date: 2026-10-19
 category: "Match Report"
-excerpt: "Deportrio 4-3 Gold Devils FC — Gameweek 2 match report. Jay Emmanuel-Thomas (6 goals) leads Deportrio's attack. Game Changers: Onside (0) & The Line (2). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Deportrio 4-3 Gold Devils FC — Gameweek 2 match report. Jay Emmanuel-Thomas (7 goals) leads Deportrio's attack. Game Changers: Onside (0) & The Line (2). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -11,7 +11,7 @@ featured: false
 
 Football took center stage at Baller Arena when **Deportrio** met **Gold Devils FC** in a nail-biter that could have swung either way, decided by the finest of details.
 
-Deportrio, sitting pretty in the Final Four places at 1st, knew a win here would tighten their grip. When the dust settled, it was **Deportrio** who emerged **4-3** victors. The Game Changer window — **Onside** and **The Line** — proved pivotal, contributing **2** of the match's **7** goals.
+Deportrio, sitting pretty in the Final Four places at 2nd, knew a win here would tighten their grip. When the dust settled, it was **Deportrio** who emerged **4-3** victors. The Game Changer window — **Onside** and **The Line** — proved pivotal, contributing **2** of the match's **7** goals.
 
 **Deportrio form (before GW2):** ✅ (W)  
 **Gold Devils FC form (before GW2):** ✅ (W)
@@ -112,35 +112,35 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Jay Emmanuel-Thomas | 6 | 2 | 3 |
-| Rodney Ajayi | 4 | 0 | 3 |
-| Kevin Weggen | 3 | 2 | 3 |
-| Emmanuel Robe | 2 | 0 | 3 |
-| Martyn Waghorn | 1 | 0 | 1 |
+| Jay Emmanuel-Thomas | 7 | 2 | 4 |
+| Rodney Ajayi | 6 | 0 | 4 |
+| Kevin Weggen | 3 | 3 | 4 |
+| Emmanuel Robe | 2 | 0 | 4 |
+| Martyn Waghorn | 1 | 0 | 2 |
 
 ### Gold Devils FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Tarik Gidaree | 4 | 0 | 3 |
-| Bilal Sayoud | 3 | 2 | 3 |
-| Connor Wood | 1 | 3 | 3 |
-| Marvel Ekpiteta | 1 | 0 | 3 |
-| Misha Djemaili | 1 | 0 | 2 |
+| Tarik Gidaree | 5 | 0 | 4 |
+| Bilal Sayoud | 3 | 2 | 4 |
+| Connor Wood | 1 | 3 | 4 |
+| Marvel Ekpiteta | 1 | 0 | 4 |
+| Dimitri Nicolaou | 1 | 0 | 4 |
 
 **Key Attacking Threats**
 
-- **Jay Emmanuel-Thomas** — Deportrio's talisman with **6 goals** from **3 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Tarik Gidaree** — Gold Devils FC's leading marksman with **4 goals** from **3 outings**. Still finding his rhythm but showing promising signs.
+- **Jay Emmanuel-Thomas** — Deportrio's talisman with **7 goals** from **4 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Tarik Gidaree** — Gold Devils FC's leading marksman with **5 goals** from **4 outings**. Still finding his rhythm but showing promising signs.
 
 
 ---
 
 ## Season Context
 
-With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **Deportrio** entered this match averaging **5.3 goals per game** — a number that reflected their struggles in front of goal this campaign. **Gold Devils FC**, by contrast, arrived with an average of **3.3 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **Deportrio** entered this match averaging **4.8 goals per game** — a number that reflected their struggles in front of goal this campaign. **Gold Devils FC**, by contrast, arrived with an average of **3.3 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **8.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **8.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -154,12 +154,12 @@ This was the **maiden competitive meeting** between Deportrio and Gold Devils FC
 
 ## Table Impact
 
-Deportrio stayed at **1st**, gold devils fc dropped to **5th**.
+Deportrio climbed to **1st**, gold devils fc dropped to **6th**.
 
 | Team | Before GW2 | After GW2 |
 |------|-------------|-------------|
-| Deportrio | 1st | 1st |
-| Gold Devils FC | 4th | 5th |
+| Deportrio | 2nd | 1st |
+| Gold Devils FC | 4th | 6th |
 
 
 ---
@@ -200,10 +200,10 @@ Deportrio stayed at **1st**, gold devils fc dropped to **5th**.
 ## What's Next
 
 ### Deportrio
-Next up: **P17 FC** in Gameweek 4. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 ### Gold Devils FC
-Next up: **N5 FC** in Gameweek 4. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 
 

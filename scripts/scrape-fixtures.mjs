@@ -225,7 +225,11 @@ async function main() {
   }
 
   if (upcomingRaw.length === 0) {
-    console.log("No upcoming fixtures found (current gameweek may be complete and the next one is not published). Leaving fixtures.json unchanged.");
+    console.log("No upcoming fixtures found (current gameweek may be complete and the next one is not published). Writing an empty upcoming list.");
+    const existing = existsSync(FIXTURES_PATH)
+      ? JSON.parse(readFileSync(FIXTURES_PATH, "utf8"))
+      : { results: [] };
+    writeFileSync(FIXTURES_PATH, JSON.stringify({ upcoming: [], results: existing.results || [] }, null, 2) + "\n");
     return;
   }
 

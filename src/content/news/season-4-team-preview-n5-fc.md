@@ -1,6 +1,6 @@
 ---
 title: "N5 FC — Baller League UK Season 4 Preview & Squad"
-date: 2026-10-27
+date: 2026-11-03
 category: "Team Preview"
 excerpt: "Everything you need to know about N5 FC for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
 author: "Baller League UK Hub"
@@ -23,23 +23,21 @@ N5 FC are led by [Jens Lehmann](/managers/jens-lehmann). Their experience and pe
 
 Here are some of N5 FC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Hani Berchiche](/players/hani-berchiche)** (Defender) — 2 goals and 0 assists in 3 appearances.
-- **[Michael Hill](/players/michael-hill)** (Midfielder) — 1 goals and 0 assists in 3 appearances.
-- **[Mustapha Carayol](/players/mustapha-carayol)** (Midfielder) — 1 goals and 0 assists in 3 appearances.
-- **[Billy Sharp](/players/billy-sharp)** (Striker) — 1 goals and 0 assists in 2 appearances.
-- **[Francis Amartey](/players/francis-amartey)** (Striker) — 1 goals and 0 assists in 2 appearances.
-- **[Addison Garnett](/players/addison-garnett)** (Defender) — 0 goals and 0 assists in 3 appearances.
+- **[Hani Berchiche](/players/hani-berchiche)** (Defender) — 3 goals and 0 assists in 4 appearances.
+- **[Joe Bennett](/players/joe-bennett)** (Defender) — 2 goals and 2 assists in 4 appearances.
+- **[Michael Hill](/players/michael-hill)** (Midfielder) — 2 goals and 1 assists in 4 appearances.
+- **[Francis Amartey](/players/francis-amartey)** (Striker) — 2 goals and 1 assists in 3 appearances.
+- **[Mustapha Carayol](/players/mustapha-carayol)** (Midfielder) — 1 goals and 0 assists in 4 appearances.
+- **[Billy Sharp](/players/billy-sharp)** (Striker) — 1 goals and 0 assists in 3 appearances.
 
 See the full squad on the [N5 FC team page](/teams/n5-fc).
 
 ## Season 4 fixtures
 
-N5 FC open their campaign in **Gameweek 4** against **[Gold Devils FC](/teams/gold-devils-fc)** on **2 November 2026**, with kick-off at **18:05** on the road.
-
-Every matchday is a Monday night, with the regular season running for **11 gameweeks** and the top four reaching the **Final Four**.
+N5 FC's opening fixture will be confirmed shortly. Visit the [Season 4 hub](/season-4) for the full schedule.
 
 ## Season outlook
 
-Consistency will be the aim for N5 FC as they look to build on recent campaigns and push towards the Final Four.
+N5 FC will fancy their chances of a strong season if they can convert last year's promise into points. The margins in this league are famously small.
 
 Follow N5 FC all season long on the [teams hub](/teams) and keep up with standings on the live [league table](/table).

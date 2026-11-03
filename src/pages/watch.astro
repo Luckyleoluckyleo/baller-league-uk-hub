@@ -105,7 +105,7 @@ const schema = [
     <!-- UPCOMING SCHEDULE -->
     <div class="card schedule-card">
       <div class="card-body">
-        <h2>Upcoming — Gameweek {upcomingGW}</h2>
+        <h2>{upcoming.length > 0 ? `Upcoming — Gameweek ${upcomingGW}` : 'Next fixtures to be announced'}</h2>
         <p class="text-muted" style="margin-bottom: var(--space-lg);">{upcoming[0]?.date}</p>
         <div class="schedule-list">
           {upcoming.map(f => (

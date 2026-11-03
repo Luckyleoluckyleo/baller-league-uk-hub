@@ -2,7 +2,7 @@
 title: "P17 FC See Off Clutch FC 5-7 in Gameweek 2"
 date: 2026-10-19
 category: "Match Report"
-excerpt: "Clutch FC 5-7 P17 FC — Gameweek 2 match report. Alex Byrne (5 goals) leads Clutch FC's attack. Game Changers: 3Play (5) & 1-on-1 (2). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Clutch FC 5-7 P17 FC — Gameweek 2 match report. Alex Byrne (6 goals) leads Clutch FC's attack. Game Changers: 3Play (5) & 1-on-1 (2). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: true
 ---
@@ -11,7 +11,7 @@ featured: true
 
 Football took center stage at Baller Arena when **Clutch FC** met **P17 FC** in a breathtaking goal-fest.
 
-Clutch FC, sitting pretty in the Final Four places at 3rd, knew a win here would tighten their grip. When the dust settled, it was **P17 FC** who emerged **5-7** victors. The Game Changer window — **3Play** and **1-on-1** — proved pivotal, contributing **7** of the match's **12** goals.
+Clutch FC, sitting pretty in the Final Four places at 1st, knew a win here would tighten their grip. When the dust settled, it was **P17 FC** who emerged **5-7** victors. The Game Changer window — **3Play** and **1-on-1** — proved pivotal, contributing **7** of the match's **12** goals.
 
 **Clutch FC form (before GW2):** ✅ (W)  
 **P17 FC form (before GW2):** ✅ (W)
@@ -125,35 +125,34 @@ The **3Play** activation was particularly devastating, producing **5** goals tha
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Alex Byrne | 5 | 0 | 3 |
-| Tyler Winters | 3 | 2 | 3 |
-| Joshua Sumbunu | 3 | 0 | 3 |
+| Alex Byrne | 6 | 0 | 4 |
+| Tyler Winters | 6 | 3 | 4 |
+| Alfie Matthews | 3 | 5 | 4 |
+| Joshua Sumbunu | 3 | 0 | 4 |
 | Erick Kenko | 1 | 0 | 3 |
-| James Mulley | 1 | 0 | 2 |
 
 ### P17 FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Amin Belaid | 7 | 2 | 3 |
-| Steven Kodra | 6 | 0 | 3 |
-| Dajon Golding | 3 | 0 | 3 |
-| Ciaran Clark | 1 | 1 | 3 |
-| Tom Bender | 1 | 0 | 1 |
+| Amin Belaid | 9 | 2 | 4 |
+| Steven Kodra | 6 | 0 | 4 |
+| Dajon Golding | 3 | 0 | 4 |
+| Ciaran Clark | 1 | 2 | 4 |
 
 **Key Attacking Threats**
 
-- **Alex Byrne** — Clutch FC's talisman with **5 goals** from **3 appearances**. A developing attacking presence with room to grow.
-- **Amin Belaid** — P17 FC's leading marksman with **7 goals** from **3 outings**, plus **2 assists**. P17 FC look to him whenever they need a moment of magic in the final third.
+- **Alex Byrne** — Clutch FC's talisman with **6 goals** from **4 appearances**. A reliable and consistent outlet who defences have learned to fear.
+- **Amin Belaid** — P17 FC's leading marksman with **9 goals** from **4 outings**, plus **2 assists**. P17 FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **Clutch FC** entered this match averaging **4.3 goals per game** — a number that reflected their struggles in front of goal this campaign. **P17 FC**, by contrast, arrived with an average of **6.0 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **Clutch FC** entered this match averaging **5.0 goals per game** — a number that reflected their struggles in front of goal this campaign. **P17 FC**, by contrast, arrived with an average of **5.0 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **8.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **8.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -167,12 +166,12 @@ This was the **maiden competitive meeting** between Clutch FC and P17 FC — a h
 
 ## Table Impact
 
-Clutch FC dropped to **6th**, p17 fc stayed at **2nd**.
+Clutch FC dropped to **4th**, p17 fc climbed to **2nd**.
 
 | Team | Before GW2 | After GW2 |
 |------|-------------|-------------|
-| Clutch FC | 3rd | 6th |
-| P17 FC | 2nd | 2nd |
+| Clutch FC | 1st | 4th |
+| P17 FC | 3rd | 2nd |
 
 
 ---
@@ -213,10 +212,10 @@ Clutch FC dropped to **6th**, p17 fc stayed at **2nd**.
 ## What's Next
 
 ### Clutch FC
-Next up: **RTG FC** in Gameweek 4. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 ### P17 FC
-Next up: **Deportrio** in Gameweek 4. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 
 

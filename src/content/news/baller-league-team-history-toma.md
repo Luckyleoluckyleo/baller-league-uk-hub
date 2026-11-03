@@ -1,6 +1,6 @@
 ---
 title: "Toma — Baller League UK All-Time Record & History"
-date: 2026-10-27
+date: 2026-11-03
 category: "Feature"
 excerpt: "Toma in numbers: their all-time Baller League UK record, season-by-season finishes, top scorers and standout results across every season."
 author: "Baller League UK Hub"
@@ -9,23 +9,23 @@ featured: false
 
 ## Toma: All-Time Baller League UK Record
 
-**Toma** have played **3** matches in Baller League UK across 4 seasons, winning **0**, drawing **2** and losing **1** — a win rate of **0%**. They have scored **11** goals and conceded **13** (goal difference **-2**).
+**Toma** have played **4** matches in Baller League UK across 4 seasons, winning **0**, drawing **2** and losing **2** — a win rate of **0%**. They have scored **15** goals and conceded **19** (goal difference **-4**).
 
 ## Season-by-season
 
 | Season | Pos | Pld | W | D | L | GD | Pts |
 |--------|-----|-----|---|---|---|----|-----|
-| 4 | 11th | 3 | 0 | 2 | 1 | -2 | 2 |
+| 4 | 12th | 4 | 0 | 2 | 2 | -4 | 2 |
 
-Their best finish came in **Season 4**, finishing **11th** on **2 points**.
+Their best finish came in **Season 4**, finishing **12th** on **2 points**.
 
 ## Top scorers (all-time club)
 
 - **[Joshua Phillips](/players/joshua-phillips)** — 2 goals, 0 assists
-- **[Junior Dixon](/players/junior-dixon)** — 2 goals, 0 assists
+- **[Yasin Ben El-Mhanni](/players/yasin-ben-el-mhanni)** — 2 goals, 0 assists
+- **[Praise Ogbebor](/players/praise-ogbebor)** — 2 goals, 1 assists
+- **[Junior Dixon](/players/junior-dixon)** — 2 goals, 1 assists
 - **[Arezki Hamouchene](/players/arezki-hamouchene)** — 2 goals, 0 assists
-- **[Yasin Ben El-Mhanni](/players/yasin-ben-el-mhanni)** — 1 goals, 0 assists
-- **[Praise Ogbebor](/players/praise-ogbebor)** — 1 goals, 0 assists
 
 ## Highest-scoring game
 

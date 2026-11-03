@@ -31,6 +31,7 @@ const upcomingGW = upcomingFixtures[0]?.gameweek ?? 1;
 const currentMatches = playedMatches(CURRENT_SEASON);
 const gws = [...new Set(currentMatches.map((m) => m.gameweek))].sort((a, b) => b - a);
 const lastGW = gws[0] ?? 0;
+const seasonFinished = lastGW >= 12;
 const recentResults = currentMatches.filter((m) => m.gameweek === lastGW);
 
 // Table is computed centrally: from results once played, else the official table.
@@ -297,8 +298,8 @@ const schema = {
         <div>
           <div class="section-header flex-between">
             <div>
-              <div class="section-label">{isFinalFour ? 'Final Four' : `Gameweek ${upcomingGW}`}</div>
-              <h2 class="section-title">{upcomingFixtures.length > 0 ? 'Upcoming Fixtures' : 'Season Complete'}</h2>
+              <div class="section-label">{isFinalFour ? 'Final Four' : upcomingFixtures.length > 0 ? `Gameweek ${upcomingGW}` : 'Upcoming'}</div>
+              <h2 class="section-title">{upcomingFixtures.length > 0 ? 'Upcoming Fixtures' : seasonFinished ? 'Season Complete' : 'Next Fixtures'}</h2>
             </div>
             <a href="/final-four" class="view-all">Final Four recap</a>
           </div>
@@ -326,9 +327,9 @@ const schema = {
             <div class="card empty-state">
               <div class="card-body">
                 <div class="empty-icon" aria-hidden="true">🏆</div>
-                <p class="empty-title">Season 3 is in the books</p>
-                <p class="empty-desc">Prime FC beat NDL FC 5-2 in the Final at The O2 to be crowned Baller League UK champions.</p>
-                <a href="/final-four" class="btn btn-secondary">See the Final Four</a>
+                <p class="empty-title">{seasonFinished ? `Season ${CURRENT_SEASON} is in the books` : 'Next fixtures to be announced'}</p>
+                <p class="empty-desc">{seasonFinished ? 'The Final Four has been decided - see how the playoffs finished.' : `Gameweek ${lastGW} is complete. The next set of fixtures will appear here once the league confirms them.`}</p>
+                <a href={seasonFinished ? '/final-four' : '/fixtures'} class="btn btn-secondary">{seasonFinished ? 'See the Final Four' : 'View the season schedule'}</a>
               </div>
             </div>
           )}

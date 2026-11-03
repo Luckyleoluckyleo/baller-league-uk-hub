@@ -1,6 +1,6 @@
 ---
 title: "Deportrio — Baller League UK Season 4 Preview & Squad"
-date: 2026-10-27
+date: 2026-11-03
 category: "Team Preview"
 excerpt: "Everything you need to know about Deportrio for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
 author: "Baller League UK Hub"
@@ -23,20 +23,18 @@ Deportrio are led by [Micah Richards](/managers/micah-richards). Their experienc
 
 Here are some of Deportrio's players to watch, with last season's (Season 4) figures where available:
 
-- **[Jay Emmanuel-Thomas](/players/jay-emmanuel-thomas)** (Striker) — 6 goals and 2 assists in 3 appearances.
-- **[Rodney Ajayi](/players/rodney-ajayi)** (Striker) — 4 goals and 0 assists in 3 appearances.
-- **[Kevin Weggen](/players/kevin-weggen)** (Midfielder) — 3 goals and 2 assists in 3 appearances.
-- **[Emmanuel Robe](/players/emmanuel-robe)** (Striker) — 2 goals and 0 assists in 3 appearances.
-- **[Martyn Waghorn](/players/martyn-waghorn)** (Striker) — 1 goals and 0 assists in 1 appearance.
+- **[Jay Emmanuel-Thomas](/players/jay-emmanuel-thomas)** (Striker) — 7 goals and 2 assists in 4 appearances.
+- **[Rodney Ajayi](/players/rodney-ajayi)** (Striker) — 6 goals and 0 assists in 4 appearances.
+- **[Kevin Weggen](/players/kevin-weggen)** (Midfielder) — 3 goals and 3 assists in 4 appearances.
+- **[Emmanuel Robe](/players/emmanuel-robe)** (Striker) — 2 goals and 0 assists in 4 appearances.
+- **[Martyn Waghorn](/players/martyn-waghorn)** (Striker) — 1 goals and 0 assists in 2 appearances.
 - **[Adam Dawson](/players/adam-dawson)** (Midfielder) — 0 goals and 1 assists in 3 appearances.
 
 See the full squad on the [Deportrio team page](/teams/deportrio).
 
 ## Season 4 fixtures
 
-Deportrio open their campaign in **Gameweek 4** against **[P17 FC](/teams/rukkas-fc)** on **2 November 2026**, with kick-off at **17:15** on the road.
-
-Every matchday is a Monday night, with the regular season running for **11 gameweeks** and the top four reaching the **Final Four**.
+Deportrio's opening fixture will be confirmed shortly. Visit the [Season 4 hub](/season-4) for the full schedule.
 
 ## Season outlook
 

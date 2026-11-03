@@ -1,6 +1,6 @@
 ---
 title: "SDS FC — Baller League UK Season 4 Preview & Squad"
-date: 2026-10-27
+date: 2026-11-03
 category: "Team Preview"
 excerpt: "Everything you need to know about SDS FC for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
 author: "Baller League UK Hub"
@@ -23,23 +23,21 @@ SDS FC are led by [Sharky](/managers/sharky). Their experience and personality w
 
 Here are some of SDS FC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Kazaiah Sterling](/players/kazaiah-sterling)** (Midfielder) — 4 goals and 1 assists in 3 appearances.
-- **[Ergys Pepaj](/players/ergys-pepaj)** (Midfielder) — 3 goals and 1 assists in 3 appearances.
-- **[Amine Sassi](/players/amine-sassi)** (Midfielder) — 2 goals and 0 assists in 3 appearances.
-- **[Joshua Raymond Bohui](/players/joshua-bohui)** (Striker) — 2 goals and 0 assists in 3 appearances.
-- **[Youssef Chentouf](/players/youssef-chentouf)** (Striker) — 1 goals and 2 assists in 3 appearances.
-- **[Hafed Al Droubi](/players/hafed-al-droubi)** (Goalkeeper) — 0 goals and 2 assists in 3 appearances.
+- **[Kazaiah Sterling](/players/kazaiah-sterling)** (Midfielder) — 6 goals and 2 assists in 4 appearances.
+- **[Ergys Pepaj](/players/ergys-pepaj)** (Midfielder) — 4 goals and 2 assists in 4 appearances.
+- **[Josh Bohui](/players/joshua-bohui)** (Striker) — 3 goals and 0 assists in 4 appearances.
+- **[Amine Sassi](/players/amine-sassi)** (Midfielder) — 2 goals and 1 assists in 4 appearances.
+- **[Youssef Chentouf](/players/youssef-chentouf)** (Striker) — 2 goals and 2 assists in 4 appearances.
+- **[Hafed Al Droubi](/players/hafed-al-droubi)** (Goalkeeper) — 0 goals and 2 assists in 4 appearances.
 
 See the full squad on the [SDS FC team page](/teams/sds-fc).
 
 ## Season 4 fixtures
 
-SDS FC open their campaign in **Gameweek 4** against **[NDL FC](/teams/ndl-fc)** on **2 November 2026**, with kick-off at **21:50** on the road.
-
-Every matchday is a Monday night, with the regular season running for **11 gameweeks** and the top four reaching the **Final Four**.
+SDS FC's opening fixture will be confirmed shortly. Visit the [Season 4 hub](/season-4) for the full schedule.
 
 ## Season outlook
 
-Consistency will be the aim for SDS FC as they look to build on recent campaigns and push towards the Final Four.
+SDS FC will fancy their chances of a strong season if they can convert last year's promise into points. The margins in this league are famously small.
 
 Follow SDS FC all season long on the [teams hub](/teams) and keep up with standings on the live [league table](/table).

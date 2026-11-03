@@ -2,7 +2,7 @@
 title: "SDS FC Edge Gold Devils FC 4-5 in GW3 Thriller"
 date: 2026-10-26
 category: "Match Report"
-excerpt: "Gold Devils FC 4-5 SDS FC — Gameweek 3 match report. Tarik Gidaree (4 goals) leads Gold Devils FC's attack. Game Changers: Plus One (4) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Gold Devils FC 4-5 SDS FC — Gameweek 3 match report. Tarik Gidaree (5 goals) leads Gold Devils FC's attack. Game Changers: Plus One (4) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -45,7 +45,7 @@ The goals arrived in a dramatic sequence that told the story of the match:
 - **13′** — **Amine Sassi** (SDS FC) found the target
 - **14′** — **Kazaiah Sterling** (SDS FC) netted
 - **15′** — **Tarik Gidaree** (Gold Devils FC) netted
-- **15′** — **Joshua Raymond Bohui** (SDS FC) netted
+- **15′** — **Josh Bohui** (SDS FC) netted
 - **25′** — **Tarik Gidaree** (Gold Devils FC) found the target
 - **27′** — **Ergys Pepaj** (SDS FC) scored
 - **28′** — **Bilal Sayoud** (Gold Devils FC) scored
@@ -57,7 +57,7 @@ The goals arrived in a dramatic sequence that told the story of the match:
 | 13′ | Amine Sassi | SDS FC |
 | 14′ | Kazaiah Sterling | SDS FC |
 | 15′ | Tarik Gidaree | Gold Devils FC |
-| 15′ | Joshua Raymond Bohui | SDS FC |
+| 15′ | Josh Bohui | SDS FC |
 | 25′ | Tarik Gidaree | Gold Devils FC |
 | 27′ | Ergys Pepaj | SDS FC |
 | 28′ | Bilal Sayoud | Gold Devils FC |
@@ -91,7 +91,7 @@ The **Plus One** activation was particularly devastating, producing **4** goals 
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Bilal Sayoud | 2 | 0 | 12 | 29 |
+| Bilal Sayoud | 2 | 0 | 12 | 31 |
 | Tarik Gidaree | 2 | 0 | 8 | 24 |
 | Connor Wood | 0 | 1 | 2 | 15 |
 
@@ -102,11 +102,10 @@ The **Plus One** activation was particularly devastating, producing **4** goals 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
 | Ergys Pepaj | 2 | 0 | 5 | 3 |
-| Kazaiah Sterling | 1 | 0 | 5 | 14 |
-| Amine Sassi | 1 | 0 | 6 | 3 |
-| Joshua Raymond Bohui | 1 | 0 | 1 | 3 |
+| Kazaiah Sterling | 1 | 0 | 5 | 13 |
+| Amine Sassi | 1 | 0 | 7 | 3 |
 | Youssef Chentouf | 0 | 2 | 0 | 3 |
-| Hafed Al Droubi | 0 | 1 | 0 | 41 |
+| Hafed Al Droubi | 0 | 1 | 0 | 44 |
 
 
 
@@ -118,35 +117,35 @@ The **Plus One** activation was particularly devastating, producing **4** goals 
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Tarik Gidaree | 4 | 0 | 3 |
-| Bilal Sayoud | 3 | 2 | 3 |
-| Connor Wood | 1 | 3 | 3 |
-| Marvel Ekpiteta | 1 | 0 | 3 |
-| Misha Djemaili | 1 | 0 | 2 |
+| Tarik Gidaree | 5 | 0 | 4 |
+| Bilal Sayoud | 3 | 2 | 4 |
+| Connor Wood | 1 | 3 | 4 |
+| Marvel Ekpiteta | 1 | 0 | 4 |
+| Dimitri Nicolaou | 1 | 0 | 4 |
 
 ### SDS FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kazaiah Sterling | 4 | 1 | 3 |
-| Ergys Pepaj | 3 | 1 | 3 |
-| Amine Sassi | 2 | 0 | 3 |
-| Joshua Raymond Bohui | 2 | 0 | 3 |
-| Youssef Chentouf | 1 | 2 | 3 |
+| Kazaiah Sterling | 6 | 2 | 4 |
+| Ergys Pepaj | 4 | 2 | 4 |
+| Josh Bohui | 3 | 0 | 4 |
+| Amine Sassi | 2 | 1 | 4 |
+| Youssef Chentouf | 2 | 2 | 4 |
 
 **Key Attacking Threats**
 
-- **Tarik Gidaree** — Gold Devils FC's talisman with **4 goals** from **3 appearances**. A developing attacking presence with room to grow.
-- **Kazaiah Sterling** — SDS FC's leading marksman with **4 goals** from **3 outings**, plus **1 assists**. Still finding his rhythm but showing promising signs.
+- **Tarik Gidaree** — Gold Devils FC's talisman with **5 goals** from **4 appearances**. A developing attacking presence with room to grow.
+- **Kazaiah Sterling** — SDS FC's leading marksman with **6 goals** from **4 outings**, plus **2 assists**. SDS FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **Gold Devils FC** entered this match averaging **3.3 goals per game** — a number that reflected their struggles in front of goal this campaign. **SDS FC**, by contrast, arrived with an average of **4.0 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **Gold Devils FC** entered this match averaging **3.3 goals per game** — a number that reflected their struggles in front of goal this campaign. **SDS FC**, by contrast, arrived with an average of **4.3 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **8.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **8.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -160,11 +159,11 @@ This was the **maiden competitive meeting** between Gold Devils FC and SDS FC �
 
 ## Table Impact
 
-Gold Devils FC dropped to **7th**, sds fc climbed to **2nd**.
+Gold Devils FC dropped to **8th**, sds fc climbed to **2nd**.
 
 | Team | Before GW3 | After GW3 |
 |------|-------------|-------------|
-| Gold Devils FC | 5th | 7th |
+| Gold Devils FC | 6th | 8th |
 | SDS FC | 3rd | 2nd |
 
 
@@ -188,10 +187,10 @@ Gold Devils FC dropped to **7th**, sds fc climbed to **2nd**.
 | Goals | 9 |
 | Game Changer goals | 7 (78% of all goals) |
 | Different goalscorers | 6 |
-| Total shots | 49 |
+| Total shots | 51 |
 | Assists | 5 |
 | Tackles | 10 |
-| Passes | 300 |
+| Passes | 302 |
 
 
 ---
@@ -207,10 +206,10 @@ Gold Devils FC dropped to **7th**, sds fc climbed to **2nd**.
 ## What's Next
 
 ### Gold Devils FC
-Next up: **N5 FC** in Gameweek 4. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 ### SDS FC
-Next up: **NDL FC** in Gameweek 4. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Clutch FC — Baller League UK Season 4 Preview & Squad"
-date: 2026-10-27
+date: 2026-11-03
 category: "Team Preview"
 excerpt: "Everything you need to know about Clutch FC for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
 author: "Baller League UK Hub"
@@ -23,20 +23,18 @@ Clutch FC are led by [Chloe Kelly](/managers/chloe-kelly). Their experience and 
 
 Here are some of Clutch FC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Alex Byrne](/players/alex-byrne)** (Striker) — 5 goals and 0 assists in 3 appearances.
-- **[Tyler Winters](/players/tyler-winters)** (Striker) — 3 goals and 2 assists in 3 appearances.
-- **[Joshua Sumbunu](/players/joshua-sumbunu)** (Defender) — 3 goals and 0 assists in 3 appearances.
+- **[Alex Byrne](/players/alex-byrne)** (Striker) — 6 goals and 0 assists in 4 appearances.
+- **[Tyler Winters](/players/tyler-winters)** (Striker) — 6 goals and 3 assists in 4 appearances.
+- **[Alfie Matthews](/players/alfie-matthews)** (Striker) — 3 goals and 5 assists in 4 appearances.
+- **[Joshua Sumbunu](/players/joshua-sumbunu)** (Defender) — 3 goals and 0 assists in 4 appearances.
 - **[Erick Kenko](/players/erick-kenko)** (Midfielder) — 1 goals and 0 assists in 3 appearances.
-- **[James Mulley](/players/james-mulley)** (Defender) — 1 goals and 0 assists in 2 appearances.
-- **[Albie Sheehan](/players/albie-sheehan)** (Defender) — 0 goals and 1 assists in 3 appearances.
+- **[James Mulley](/players/james-mulley)** (Defender) — 1 goals and 0 assists in 3 appearances.
 
 See the full squad on the [Clutch FC team page](/teams/clutch-fc).
 
 ## Season 4 fixtures
 
-Clutch FC open their campaign in **Gameweek 4** against **[RTG FC](/teams/yanited)** on **2 November 2026**, with kick-off at **19:00** at home.
-
-Every matchday is a Monday night, with the regular season running for **11 gameweeks** and the top four reaching the **Final Four**.
+Clutch FC's opening fixture will be confirmed shortly. Visit the [Season 4 hub](/season-4) for the full schedule.
 
 ## Season outlook
 

@@ -100,35 +100,35 @@ The **Plus One** window was the more impactful, its **2** goals shifting the bal
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Arezki Hamouchene | 2 | 0 | 3 |
-| Joshua Phillips | 2 | 0 | 3 |
-| Junior Dixon | 2 | 0 | 2 |
-| Yasin Ben El-Mhanni | 1 | 0 | 3 |
-| Charlie James Pavey | 1 | 0 | 3 |
+| Arezki Hamouchene | 2 | 0 | 4 |
+| Yasin Ben El-Mhanni | 2 | 0 | 4 |
+| Ibrahim Bangura | 2 | 1 | 4 |
+| Joshua Phillips | 2 | 0 | 4 |
+| Junior Dixon | 2 | 1 | 3 |
 
 ### Gold Devils FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Tarik Gidaree | 4 | 0 | 3 |
-| Bilal Sayoud | 3 | 2 | 3 |
-| Connor Wood | 1 | 3 | 3 |
-| Marvel Ekpiteta | 1 | 0 | 3 |
-| Misha Djemaili | 1 | 0 | 2 |
+| Tarik Gidaree | 5 | 0 | 4 |
+| Bilal Sayoud | 3 | 2 | 4 |
+| Connor Wood | 1 | 3 | 4 |
+| Marvel Ekpiteta | 1 | 0 | 4 |
+| Dimitri Nicolaou | 1 | 0 | 4 |
 
 **Key Attacking Threats**
 
-- **Arezki Hamouchene** — Toma's talisman with **2 goals** from **3 appearances**. A developing attacking presence with room to grow.
-- **Tarik Gidaree** — Gold Devils FC's leading marksman with **4 goals** from **3 outings**. Still finding his rhythm but showing promising signs.
+- **Arezki Hamouchene** — Toma's talisman with **2 goals** from **4 appearances**. A developing attacking presence with room to grow.
+- **Tarik Gidaree** — Gold Devils FC's leading marksman with **5 goals** from **4 outings**. Still finding his rhythm but showing promising signs.
 
 
 ---
 
 ## Season Context
 
-With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **Toma** entered this match averaging **3.7 goals per game** — a number that reflected their struggles in front of goal this campaign. **Gold Devils FC**, by contrast, arrived with an average of **3.3 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **Toma** entered this match averaging **3.8 goals per game** — a number that reflected their struggles in front of goal this campaign. **Gold Devils FC**, by contrast, arrived with an average of **3.3 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **8.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **8.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -187,10 +187,10 @@ Toma held steady, gold devils fc held steady.
 ## What's Next
 
 ### Toma
-Next up: **VZN FC** in Gameweek 4. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 ### Gold Devils FC
-Next up: **N5 FC** in Gameweek 4. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 
 

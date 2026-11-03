@@ -20,7 +20,7 @@ When the dust settled, it was **Wembley Rangers AFC** who emerged **7-1** victor
 
 ## ⭐ Player of the Match
 
-[Chiekh Thiam](/players/chiekh-thiam) for Wembley Rangers AFC was the pick of the bunch with **2** goals, **1** assist, **4** shots.
+[Chiekh Thiam](/players/chiekh-thiam) for Wembley Rangers AFC was the pick of the bunch with **2** goals, **1** assist, **5** shots.
 
 
 ---
@@ -89,19 +89,19 @@ The **3Play** window was the more impactful, its **3** goals shifting the balanc
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Chiekh Thiam | 2 | 1 | 4 | 27 |
+| Chiekh Thiam | 2 | 1 | 5 | 27 |
 | Callam Gardner | 2 | 0 | 6 | 10 |
-| Domingos Pires | 1 | 1 | 6 | 9 |
-| Lassana Mendes | 1 | 1 | 1 | 17 |
+| Domingos Pires | 1 | 1 | 7 | 9 |
+| Lassana Mendes | 1 | 1 | 1 | 18 |
 | Adrian Tajik | 1 | 0 | 7 | 13 |
-| Dominic Morgan-Griffiths | 0 | 1 | 0 | 17 |
+| Dominic Morgan-Griffiths | 0 | 1 | 0 | 16 |
 
 ### N5 FC
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
 | Mustapha Carayol | 1 | 0 | 4 | 9 |
-| Joe Bennett | 0 | 1 | 2 | 29 |
+| Joe Bennett | 0 | 1 | 3 | 31 |
 
 
 
@@ -113,35 +113,35 @@ The **3Play** window was the more impactful, its **3** goals shifting the balanc
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Callam Gardner | 5 | 0 | 3 |
-| Chiekh Thiam | 3 | 1 | 3 |
-| Domingos Pires | 2 | 1 | 3 |
-| Adrian Tajik | 1 | 0 | 2 |
-| Dominic Morgan-Griffiths | 1 | 2 | 3 |
+| Callam Gardner | 5 | 0 | 4 |
+| Domingos Pires | 5 | 1 | 4 |
+| Chiekh Thiam | 4 | 1 | 4 |
+| Adrian Tajik | 1 | 0 | 3 |
+| Dominic Morgan-Griffiths | 1 | 2 | 4 |
 
 ### N5 FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Hani Berchiche | 2 | 0 | 3 |
-| Michael Hill | 1 | 0 | 3 |
-| Mustapha Carayol | 1 | 0 | 3 |
-| Billy Sharp | 1 | 0 | 2 |
-| Francis Amartey | 1 | 0 | 2 |
+| Hani Berchiche | 3 | 0 | 4 |
+| Joe Bennett | 2 | 2 | 4 |
+| Michael Hill | 2 | 1 | 4 |
+| Francis Amartey | 2 | 1 | 3 |
+| Mustapha Carayol | 1 | 0 | 4 |
 
 **Key Attacking Threats**
 
-- **Callam Gardner** — Wembley Rangers AFC's talisman with **5 goals** from **3 appearances**. A developing attacking presence with room to grow.
-- **Hani Berchiche** — N5 FC's leading marksman with **2 goals** from **3 outings**. Still finding his rhythm but showing promising signs.
+- **Callam Gardner** — Wembley Rangers AFC's talisman with **5 goals** from **4 appearances**. A developing attacking presence with room to grow.
+- **Hani Berchiche** — N5 FC's leading marksman with **3 goals** from **4 outings**. Still finding his rhythm but showing promising signs.
 
 
 ---
 
 ## Season Context
 
-With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **Wembley Rangers AFC** entered this match averaging **4.3 goals per game** — a number that reflected their struggles in front of goal this campaign. **N5 FC**, by contrast, arrived with an average of **2.0 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **Wembley Rangers AFC** entered this match averaging **4.8 goals per game** — a number that reflected their struggles in front of goal this campaign. **N5 FC**, by contrast, arrived with an average of **2.8 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **8.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **8.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -155,11 +155,11 @@ This was the **maiden competitive meeting** between Wembley Rangers AFC and N5 F
 
 ## Table Impact
 
-Wembley Rangers AFC climbed to **8th**, n5 fc dropped to **12th**.
+Wembley Rangers AFC climbed to **9th**, n5 fc dropped to **12th**.
 
 | Team | Before GW3 | After GW3 |
 |------|-------------|-------------|
-| Wembley Rangers AFC | 12th | 8th |
+| Wembley Rangers AFC | 12th | 9th |
 | N5 FC | 11th | 12th |
 
 
@@ -183,10 +183,10 @@ Wembley Rangers AFC climbed to **8th**, n5 fc dropped to **12th**.
 | Goals | 8 |
 | Game Changer goals | 3 (38% of all goals) |
 | Different goalscorers | 6 |
-| Total shots | 43 |
+| Total shots | 48 |
 | Assists | 5 |
-| Tackles | 18 |
-| Passes | 300 |
+| Tackles | 26 |
+| Passes | 303 |
 
 
 ---
@@ -202,10 +202,10 @@ Wembley Rangers AFC climbed to **8th**, n5 fc dropped to **12th**.
 ## What's Next
 
 ### Wembley Rangers AFC
-Next up: **Prime FC** in Gameweek 4. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 ### N5 FC
-Next up: **Gold Devils FC** in Gameweek 4. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 
 

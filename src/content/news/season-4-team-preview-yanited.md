@@ -1,6 +1,6 @@
 ---
 title: "RTG FC — Baller League UK Season 4 Preview & Squad"
-date: 2026-10-27
+date: 2026-11-03
 category: "Team Preview"
 excerpt: "Everything you need to know about RTG FC for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
 author: "Baller League UK Hub"
@@ -25,23 +25,21 @@ RTG FC are led by [Danny Aarons](/managers/danny-aarons). Their experience and p
 
 Here are some of RTG FC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Kadell Daniel](/players/kadell-daniel)** (Striker) — 5 goals and 1 assists in 3 appearances.
-- **[Alfie Cerulli](/players/alfie-cerulli)** (Striker) — 5 goals and 0 assists in 3 appearances.
-- **[Tyrell Miller-Rodney](/players/tyrell-miller-rodney)** (Midfielder) — 2 goals and 2 assists in 3 appearances.
-- **[Zaid Al Hussaini](/players/zaid-al-hussaini)** (Midfielder) — 1 goals and 4 assists in 3 appearances.
-- **[Dan Wishart](/players/dan-wishart)** (Midfielder) — 1 goals and 0 assists in 2 appearances.
-- **[Calum Butcher](/players/calum-butcher)** (Midfielder) — 0 goals and 0 assists in 3 appearances.
+- **[Kadell Daniel](/players/kadell-daniel)** (Striker) — 9 goals and 2 assists in 4 appearances.
+- **[Alfie Cerulli](/players/alfie-cerulli)** (Striker) — 6 goals and 0 assists in 4 appearances.
+- **[Tyrell Miller-Rodney](/players/tyrell-miller-rodney)** (Midfielder) — 2 goals and 2 assists in 4 appearances.
+- **[Joshua Emmanuel](/players/joshua-emmanuel)** (Defender) — 1 goals and 0 assists in 4 appearances.
+- **[Zaid Al Hussaini](/players/zaid-al-hussaini)** (Midfielder) — 1 goals and 4 assists in 4 appearances.
+- **[Dan Wishart](/players/dan-wishart)** (Midfielder) — 1 goals and 0 assists in 3 appearances.
 
 See the full squad on the [RTG FC team page](/teams/yanited).
 
 ## Season 4 fixtures
 
-RTG FC open their campaign in **Gameweek 4** against **[Clutch FC](/teams/clutch-fc)** on **2 November 2026**, with kick-off at **19:00** on the road.
-
-Every matchday is a Monday night, with the regular season running for **11 gameweeks** and the top four reaching the **Final Four**.
+RTG FC's opening fixture will be confirmed shortly. Visit the [Season 4 hub](/season-4) for the full schedule.
 
 ## Season outlook
 
-RTG FC are one of the great unknowns of the new campaign — a rebranded side with everything to play for and a squad keen to make an early statement.
+With a new identity and a fresh voice in the dugout, RTG FC enter the season with a point to prove. A fast start would do wonders for momentum.
 
 Follow RTG FC all season long on the [teams hub](/teams) and keep up with standings on the live [league table](/table).

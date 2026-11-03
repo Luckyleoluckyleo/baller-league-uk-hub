@@ -1,6 +1,6 @@
 ---
 title: "Player Spotlight: Calum Butcher — RTG FC"
-date: 2026-10-27
+date: 2026-11-03
 category: "Feature"
 excerpt: "A closer look at Calum Butcher, midfielder for RTG FC in Baller League UK Season 4 — career, honours and what he brings to the 6v6 game."
 author: "Baller League UK Hub"

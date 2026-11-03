@@ -1,6 +1,6 @@
 ---
 title: "Gold Devils FC — Baller League UK All-Time Record & History"
-date: 2026-10-27
+date: 2026-11-03
 category: "Feature"
 excerpt: "Gold Devils FC in numbers: their all-time Baller League UK record, season-by-season finishes, top scorers and standout results across every season."
 author: "Baller League UK Hub"
@@ -9,7 +9,7 @@ featured: false
 
 ## Gold Devils FC: All-Time Baller League UK Record
 
-**Gold Devils FC** have played **36** matches in Baller League UK across 4 seasons, winning **13**, drawing **8** and losing **15** — a win rate of **36%**. They have scored **129** goals and conceded **128** (goal difference **+1**).
+**Gold Devils FC** have played **37** matches in Baller League UK across 4 seasons, winning **13**, drawing **8** and losing **16** — a win rate of **35%**. They have scored **132** goals and conceded **133** (goal difference **-1**).
 
 ## Season-by-season
 
@@ -18,7 +18,7 @@ featured: false
 | 1 | 9th | 11 | 3 | 3 | 5 | +0 | 13 |
 | 2 | 5th | 11 | 5 | 3 | 3 | +6 | 19 |
 | 3 | 7th | 11 | 4 | 2 | 5 | -5 | 17 |
-| 4 | 7th | 3 | 1 | 0 | 2 | +0 | 3 |
+| 4 | 11th | 4 | 1 | 0 | 3 | -2 | 3 |
 
 Their best finish came in **Season 2**, finishing **5th** on **19 points**.
 
@@ -26,7 +26,7 @@ Their best finish came in **Season 2**, finishing **5th** on **19 points**.
 
 - **[Bilal Sayoud](/players/bilal-sayoud)** — 44 goals, 18 assists
 - **[Connor Wood](/players/connor-wood)** — 8 goals, 6 assists
-- **[Tarik Gidaree](/players/tarik-gidaree)** — 4 goals, 0 assists
+- **[Tarik Gidaree](/players/tarik-gidaree)** — 5 goals, 0 assists
 - **[Kojo Apenteng](/players/kojo-apenteng)** — 3 goals, 4 assists
 - **[Marvel Ekpiteta](/players/marvel-ekpiteta)** — 3 goals, 0 assists
 

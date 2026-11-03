@@ -115,35 +115,34 @@ The **1-on-1** activation was particularly devastating, producing **5** goals th
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Sam Fitzgerald | 7 | 1 | 3 |
-| Taufee Skandari | 2 | 0 | 3 |
-| Josh Parker | 2 | 0 | 3 |
-| Dara Dada | 1 | 0 | 3 |
-| Isaac Modi | 1 | 1 | 3 |
+| Sam Fitzgerald | 7 | 1 | 4 |
+| Isaac Modi | 3 | 1 | 4 |
+| Taufee Skandari | 2 | 0 | 4 |
+| Josh Parker | 2 | 0 | 4 |
+| Dara Dada | 1 | 0 | 4 |
 
 ### P17 FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Amin Belaid | 7 | 2 | 3 |
-| Steven Kodra | 6 | 0 | 3 |
-| Dajon Golding | 3 | 0 | 3 |
-| Ciaran Clark | 1 | 1 | 3 |
-| Tom Bender | 1 | 0 | 1 |
+| Amin Belaid | 9 | 2 | 4 |
+| Steven Kodra | 6 | 0 | 4 |
+| Dajon Golding | 3 | 0 | 4 |
+| Ciaran Clark | 1 | 2 | 4 |
 
 **Key Attacking Threats**
 
-- **Sam Fitzgerald** — NDL FC's talisman with **7 goals** from **3 appearances** and **1 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Amin Belaid** — P17 FC's leading marksman with **7 goals** from **3 outings**, plus **2 assists**. P17 FC look to him whenever they need a moment of magic in the final third.
+- **Sam Fitzgerald** — NDL FC's talisman with **7 goals** from **4 appearances** and **1 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Amin Belaid** — P17 FC's leading marksman with **9 goals** from **4 outings**, plus **2 assists**. P17 FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **NDL FC** entered this match averaging **4.7 goals per game** — a number that reflected their struggles in front of goal this campaign. **P17 FC**, by contrast, arrived with an average of **6.0 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **NDL FC** entered this match averaging **4.0 goals per game** — a number that reflected their struggles in front of goal this campaign. **P17 FC**, by contrast, arrived with an average of **5.0 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **8.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **8.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -162,7 +161,7 @@ NDL FC held steady, p17 fc held steady.
 | Team | Before GW1 | After GW1 |
 |------|-------------|-------------|
 | NDL FC | — | 10th |
-| P17 FC | — | 2nd |
+| P17 FC | — | 3rd |
 
 
 ---
@@ -203,10 +202,10 @@ NDL FC held steady, p17 fc held steady.
 ## What's Next
 
 ### NDL FC
-Next up: **SDS FC** in Gameweek 4. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 ### P17 FC
-Next up: **Deportrio** in Gameweek 4. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 
 

@@ -48,6 +48,30 @@ const TEAM_BY_ID = Object.fromEntries(TEAMS.map((t) => [t.id, t]));
 const NAME_TO_TEAM = {};
 for (const t of TEAMS) for (const n of Object.values(t.names)) NAME_TO_TEAM[n] = t;
 
+// The official site periodically changes display names (e.g. "N5" -> "N5 FC").
+// Normalise suffixes and canonical names so an upstream rename can never cause
+// matches to be silently dropped from the scrape.
+function normalizeTeamName(name) {
+  return String(name || "")
+    .toLowerCase()
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim()
+    .replace(/\s+(?:fc|afc)$/, "")
+    .trim();
+}
+
+const NAME_TO_TEAM_NORM = {};
+for (const t of TEAMS) {
+  for (const n of [...Object.values(t.names), t.canonical]) {
+    NAME_TO_TEAM_NORM[normalizeTeamName(n)] = t;
+  }
+}
+
+function teamFor(name, logoId) {
+  return NAME_TO_TEAM[name] || NAME_TO_TEAM_NORM[normalizeTeamName(name)] || TEAM_BY_ID[logoId] || null;
+}
+
 const GC_MAP = {
   "plus one": "plusone", "the line": "theline",
   "3play": "3play", "3 play": "3play",
@@ -74,9 +98,15 @@ async function fetchHtml(id) {
     }
   } catch {}
   const url = `https://ballerleague.uk/en/game/${id}`;
-  try {
-    const resp = await fetch(url, { signal: AbortSignal.timeout(15000) });
-    if (!resp.ok) {
+  const headers = { "user-agent": "Mozilla/5.0 (compatible; ballerleagueukhub/1.0)" };
+  for (let attempt = 0; attempt < 4; attempt++) {
+    try {
+      const resp = await fetch(url, { headers, signal: AbortSignal.timeout(20000) });
+      if (resp.ok) {
+        const text = await resp.text();
+        try { writeFileSync(cachePath, text); } catch {}
+        return text;
+      }
       if (resp.status === 302) {
         const loc = resp.headers.get("location");
         if (loc) {
@@ -84,14 +114,12 @@ async function fetchHtml(id) {
           if (gidM) return fetchHtml(Number(gidM[1]));
         }
       }
-      return cachedRaw;
-    }
-    const text = await resp.text();
-    try { writeFileSync(cachePath, text); } catch {}
-    return text;
-  } catch (e) {
-    return cachedRaw;
+      // 404 is definitive; 429/5xx are worth retrying.
+      if (resp.status === 404) return cachedRaw;
+    } catch {}
+    await sleep(400 * (attempt + 1));
   }
+  return cachedRaw;
 }
 
 function sleep(ms) {
@@ -231,9 +259,9 @@ function parseMatch(html, gameId) {
   // served from a CDN without an id); the logo id is a fallback for pages whose
   // header names are missing.
   const headerNames = [...header.matchAll(/bl-gameday-team-name[^"]*uk-visible@m[^"]*"[^>]*>([^<]+)</g)].map((m) => m[1].trim());
-  const logoIds = [...header.matchAll(/logo_(\d+)\.svg"[^>]*bl-gameday-team-logo/g)].map((m) => Number(m[1]));
-  const ht = NAME_TO_TEAM[headerNames[0]] || TEAM_BY_ID[logoIds[0]];
-  const at = NAME_TO_TEAM[headerNames[1]] || TEAM_BY_ID[logoIds[1]];
+  const logoIds = [...header.matchAll(/logo_(\d+)\.(?:svg|png)"[^>]*bl-gameday-team-logo/g)].map((m) => Number(m[1]));
+  const ht = teamFor(headerNames[0], logoIds[0]);
+  const at = teamFor(headerNames[1], logoIds[1]);
   if (!ht || !at) return null;
   const homeTeam = ht.canonical;
   const awayTeam = at.canonical;
@@ -352,7 +380,8 @@ async function main() {
         if (!html || html.length < 5000) return null;
         const names = [...html.matchAll(/bl-gameday-team-name[^"]*uk-visible@m[^"]*"[^>]*>([^<]+)</g)].map((m) => m[1].trim());
         if (names.length < 2) return null;
-        return NAME_TO_TEAM[names[0]] && NAME_TO_TEAM[names[1]] ? id : null;
+        const logoIds = [...html.matchAll(/logo_(\d+)\.(?:svg|png)"[^>]*bl-gameday-team-logo/g)].map((m) => Number(m[1]));
+        return teamFor(names[0], logoIds[0]) && teamFor(names[1], logoIds[1]) ? id : null;
       })
     );
 
@@ -399,43 +428,69 @@ async function main() {
   }
   for (const arr of Object.values(seasons)) arr.sort((a, b) => a.gameweek - b.gameweek);
 
-  const output = {
-    definitions: GC_DEFS,
-    seasons: Object.fromEntries(
-      Object.entries(seasons).map(([s, arr]) => [s, {
-        label: `Season ${s}`,
-        labelShort: `S${s}`,
-        matches: arr.map((m) => ({
-          gameweek: m.gameweek,
-          gameId: m.gameId,
-          homeTeam: m.homeTeam, homeSlug: m.homeSlug, homeEmoji: m.homeEmoji, homeName: m.homeName,
-          awayTeam: m.awayTeam, awaySlug: m.awaySlug, awayEmoji: m.awayEmoji, awayName: m.awayName,
-          homeScore: m.homeScore, awayScore: m.awayScore,
-          gamechanger1: { type: m.gc1 || "unknown", goalsScored: m.gc1Goals },
-          gamechanger2: { type: m.gc2 || "unknown", goalsScored: m.gc2Goals },
-          playerStats: (m.playerStats || []).map(p => ({
-            name: p.name,
-            team: p.team,
-            goals: p.goals,
-            assists: p.assists,
-            shots: p.shots,
-            tackles: p.tackles,
-            penalties: p.penalties,
-            redCards: p.redCards,
-            corners: p.corners,
-            passes: p.passes,
-          })),
-          goalscorers: (m.goalscorers || []).map(g => ({
-            minute: g.minute,
-            player: g.player,
-          })),
-          matchDate: m.matchDate || null,
-          matchTime: m.matchTime || null,
+  const scrapedSeasons = Object.fromEntries(
+    Object.entries(seasons).map(([s, arr]) => [s, {
+      label: `Season ${s}`,
+      labelShort: `S${s}`,
+      matches: arr.map((m) => ({
+        gameweek: m.gameweek,
+        gameId: m.gameId,
+        homeTeam: m.homeTeam, homeSlug: m.homeSlug, homeEmoji: m.homeEmoji, homeName: m.homeName,
+        awayTeam: m.awayTeam, awaySlug: m.awaySlug, awayEmoji: m.awayEmoji, awayName: m.awayName,
+        homeScore: m.homeScore, awayScore: m.awayScore,
+        gamechanger1: { type: m.gc1 || "unknown", goalsScored: m.gc1Goals },
+        gamechanger2: { type: m.gc2 || "unknown", goalsScored: m.gc2Goals },
+        playerStats: (m.playerStats || []).map(p => ({
+          name: p.name,
+          team: p.team,
+          goals: p.goals,
+          assists: p.assists,
+          shots: p.shots,
+          tackles: p.tackles,
+          penalties: p.penalties,
+          redCards: p.redCards,
+          corners: p.corners,
+          passes: p.passes,
         })),
-      }]),
-    ),
-  };
+        goalscorers: (m.goalscorers || []).map(g => ({
+          minute: g.minute,
+          player: g.player,
+        })),
+        matchDate: m.matchDate || null,
+        matchTime: m.matchTime || null,
+      })),
+    }]),
+  );
 
+  // Never let a failed or renamed page delete a match we already have. Freshly
+  // scraped games win; any game missing from this run is carried over from the
+  // committed file. This keeps a transient upstream error from corrupting data.
+  let previous = null;
+  try { previous = JSON.parse(readFileSync(OUT_PATH, "utf8")); } catch {}
+  const outputSeasons = { ...scrapedSeasons };
+  let preserved = 0;
+  for (const [s, prevSeason] of Object.entries(previous?.seasons || {})) {
+    if (!outputSeasons[s]) {
+      outputSeasons[s] = prevSeason;
+      preserved += (prevSeason.matches || []).length;
+      continue;
+    }
+    const byId = new Map(outputSeasons[s].matches.map((m) => [m.gameId, m]));
+    let added = 0;
+    for (const m of prevSeason.matches || []) {
+      if (!byId.has(m.gameId)) { byId.set(m.gameId, m); added++; }
+    }
+    if (added) {
+      outputSeasons[s] = {
+        ...outputSeasons[s],
+        matches: [...byId.values()].sort((a, b) => a.gameweek - b.gameweek || (a.gameId || 0) - (b.gameId || 0)),
+      };
+      preserved += added;
+    }
+  }
+
+  const output = { definitions: GC_DEFS, seasons: outputSeasons };
+  if (preserved) console.log(`\n⚠️  Preserved ${preserved} previously-scraped match(es) missing from this run.`);
   writeFileSync(OUT_PATH, JSON.stringify(output, null, 2));
 
   const total = matches.length;
@@ -443,7 +498,7 @@ async function main() {
   const withStats = matches.filter((m) => m.playerStats?.length > 0).length;
   const withGoalscorers = matches.filter((m) => m.goalscorers?.length > 0).length;
   const withDates = matches.filter((m) => m.matchDate).length;
-  console.log(`\nDone! ${total} matches across ${Object.keys(seasons).length} seasons`);
+  console.log(`\nDone! ${total} matches across ${Object.keys(outputSeasons).length} seasons`);
   console.log(`${withGC}/${total} with Gamechanger data (${total * 2} GC events)`);
   console.log(`${withStats}/${total} with player stats (${matches.reduce((s, m) => s + (m.playerStats?.length || 0), 0)} player entries)`);
   console.log(`${withGoalscorers}/${total} with goal scorer data (${matches.reduce((s, m) => s + (m.goalscorers?.length || 0), 0)} goal events)`);

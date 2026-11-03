@@ -1,6 +1,6 @@
 ---
 title: "Toma — Baller League UK Season 4 Preview & Squad"
-date: 2026-10-27
+date: 2026-11-03
 category: "Team Preview"
 excerpt: "Everything you need to know about Toma for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
 author: "Baller League UK Hub"
@@ -23,23 +23,21 @@ Toma are led by [Jay-Jay Okocha](/managers/jay-jay-okocha). Their experience and
 
 Here are some of Toma's players to watch, with last season's (Season 4) figures where available:
 
-- **[Arezki Hamouchene](/players/arezki-hamouchene)** (Midfielder) — 2 goals and 0 assists in 3 appearances.
-- **[Joshua Phillips](/players/joshua-phillips)** (Striker) — 2 goals and 0 assists in 3 appearances.
-- **[Junior Dixon](/players/junior-dixon)** (Striker) — 2 goals and 0 assists in 2 appearances.
-- **[Yasin Ben El-Mhanni](/players/yasin-ben-el-mhanni)** (Striker) — 1 goals and 0 assists in 3 appearances.
-- **[Charlie James Pavey](/players/charlie-pavey)** (Midfielder) — 1 goals and 0 assists in 3 appearances.
-- **[Kyron McKay](/players/kyron-horsley-mckay)** (Defender) — 1 goals and 0 assists in 3 appearances.
+- **[Arezki Hamouchene](/players/arezki-hamouchene)** (Midfielder) — 2 goals and 0 assists in 4 appearances.
+- **[Yasin Ben El-Mhanni](/players/yasin-ben-el-mhanni)** (Striker) — 2 goals and 0 assists in 4 appearances.
+- **[Ibrahim Bangura](/players/ibrahim-bangura)** (Defender) — 2 goals and 1 assists in 4 appearances.
+- **[Joshua Phillips](/players/joshua-phillips)** (Striker) — 2 goals and 0 assists in 4 appearances.
+- **[Junior Dixon](/players/junior-dixon)** (Striker) — 2 goals and 1 assists in 3 appearances.
+- **[Praise Ogbebor](/players/praise-ogbebor)** (Striker) — 2 goals and 1 assists in 4 appearances.
 
 See the full squad on the [Toma team page](/teams/toma).
 
 ## Season 4 fixtures
 
-Toma open their campaign in **Gameweek 4** against **[VZN FC](/teams/vzn-fc)** on **2 November 2026**, with kick-off at **21:00** at home.
-
-Every matchday is a Monday night, with the regular season running for **11 gameweeks** and the top four reaching the **Final Four**.
+Toma's opening fixture will be confirmed shortly. Visit the [Season 4 hub](/season-4) for the full schedule.
 
 ## Season outlook
 
-Consistency will be the aim for Toma as they look to build on recent campaigns and push towards the Final Four.
+Toma will fancy their chances of a strong season if they can convert last year's promise into points. The margins in this league are famously small.
 
 Follow Toma all season long on the [teams hub](/teams) and keep up with standings on the live [league table](/table).

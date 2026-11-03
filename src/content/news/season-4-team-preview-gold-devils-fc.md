@@ -1,6 +1,6 @@
 ---
 title: "Gold Devils FC — Baller League UK Season 4 Preview & Squad"
-date: 2026-10-27
+date: 2026-11-03
 category: "Team Preview"
 excerpt: "Everything you need to know about Gold Devils FC for Baller League UK Season 4: their manager, key players, opening fixture and season outlook."
 author: "Baller League UK Hub"
@@ -23,23 +23,21 @@ Gold Devils FC are led by [Mark Goldbridge](/managers/mark-goldbridge) and [Spen
 
 Here are some of Gold Devils FC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Tarik Gidaree](/players/tarik-gidaree)** (Defender) — 4 goals and 0 assists in 3 appearances.
-- **[Bilal Sayoud](/players/bilal-sayoud)** (Striker) — 3 goals and 2 assists in 3 appearances.
-- **[Connor Wood](/players/connor-wood)** (Defender) — 1 goals and 3 assists in 3 appearances.
-- **[Marvel Ekpiteta](/players/marvel-ekpiteta)** (Defender) — 1 goals and 0 assists in 3 appearances.
-- **[Misha Djemaili](/players/misha-djmaili)** (Defender) — 1 goals and 0 assists in 2 appearances.
-- **[Kojo Apenteng](/players/kojo-apenteng)** (Defender) — 0 goals and 0 assists in 3 appearances.
+- **[Tarik Gidaree](/players/tarik-gidaree)** (Defender) — 5 goals and 0 assists in 4 appearances.
+- **[Bilal Sayoud](/players/bilal-sayoud)** (Striker) — 3 goals and 2 assists in 4 appearances.
+- **[Connor Wood](/players/connor-wood)** (Defender) — 1 goals and 3 assists in 4 appearances.
+- **[Marvel Ekpiteta](/players/marvel-ekpiteta)** (Defender) — 1 goals and 0 assists in 4 appearances.
+- **[Dimitri Nicolaou](/players/dimitri-nicolaou)** (Midfielder) — 1 goals and 0 assists in 4 appearances.
+- **[Luke May-Parrott](/players/luke-may-parrott)** (Striker) — 1 goals and 1 assists in 2 appearances.
 
 See the full squad on the [Gold Devils FC team page](/teams/gold-devils-fc).
 
 ## Season 4 fixtures
 
-Gold Devils FC open their campaign in **Gameweek 4** against **[N5 FC](/teams/n5-fc)** on **2 November 2026**, with kick-off at **18:05** at home.
-
-Every matchday is a Monday night, with the regular season running for **11 gameweeks** and the top four reaching the **Final Four**.
+Gold Devils FC's opening fixture will be confirmed shortly. Visit the [Season 4 hub](/season-4) for the full schedule.
 
 ## Season outlook
 
-Consistency will be the aim for Gold Devils FC as they look to build on recent campaigns and push towards the Final Four.
+Gold Devils FC will fancy their chances of a strong season if they can convert last year's promise into points. The margins in this league are famously small.
 
 Follow Gold Devils FC all season long on the [teams hub](/teams) and keep up with standings on the live [league table](/table).

@@ -2,7 +2,7 @@
 title: "RTG FC and Toma Play Out 6-6 Classic in Gameweek 2"
 date: 2026-10-19
 category: "Match Report"
-excerpt: "RTG FC 6-6 Toma — Gameweek 2 match report. Kadell Daniel (5 goals) leads RTG FC's attack. Game Changers: Onside (0) & 1-on-1 (4). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "RTG FC 6-6 Toma — Gameweek 2 match report. Kadell Daniel (9 goals) leads RTG FC's attack. Game Changers: Onside (0) & 1-on-1 (4). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: true
 ---
@@ -124,35 +124,35 @@ The **1-on-1** window was the more impactful, its **4** goals shifting the balan
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kadell Daniel | 5 | 1 | 3 |
-| Alfie Cerulli | 5 | 0 | 3 |
-| Tyrell Miller-Rodney | 2 | 2 | 3 |
-| Zaid Al Hussaini | 1 | 4 | 3 |
-| Dan Wishart | 1 | 0 | 2 |
+| Kadell Daniel | 9 | 2 | 4 |
+| Alfie Cerulli | 6 | 0 | 4 |
+| Tyrell Miller-Rodney | 2 | 2 | 4 |
+| Joshua Emmanuel | 1 | 0 | 4 |
+| Zaid Al Hussaini | 1 | 4 | 4 |
 
 ### Toma — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Arezki Hamouchene | 2 | 0 | 3 |
-| Joshua Phillips | 2 | 0 | 3 |
-| Junior Dixon | 2 | 0 | 2 |
-| Yasin Ben El-Mhanni | 1 | 0 | 3 |
-| Charlie James Pavey | 1 | 0 | 3 |
+| Arezki Hamouchene | 2 | 0 | 4 |
+| Yasin Ben El-Mhanni | 2 | 0 | 4 |
+| Ibrahim Bangura | 2 | 1 | 4 |
+| Joshua Phillips | 2 | 0 | 4 |
+| Junior Dixon | 2 | 1 | 3 |
 
 **Key Attacking Threats**
 
-- **Kadell Daniel** — RTG FC's talisman with **5 goals** from **3 appearances** and **1 assists**. A developing attacking presence with room to grow.
-- **Arezki Hamouchene** — Toma's leading marksman with **2 goals** from **3 outings**. Still finding his rhythm but showing promising signs.
+- **Kadell Daniel** — RTG FC's talisman with **9 goals** from **4 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Arezki Hamouchene** — Toma's leading marksman with **2 goals** from **4 outings**. Still finding his rhythm but showing promising signs.
 
 
 ---
 
 ## Season Context
 
-With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **RTG FC** entered this match averaging **4.7 goals per game** — a number that reflected their struggles in front of goal this campaign. **Toma**, by contrast, arrived with an average of **3.7 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **RTG FC** entered this match averaging **5.0 goals per game** — a number that reflected their struggles in front of goal this campaign. **Toma**, by contrast, arrived with an average of **3.8 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **8.1 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **8.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -212,10 +212,10 @@ RTG FC stayed at **9th**, toma climbed to **10th**.
 ## What's Next
 
 ### RTG FC
-Next up: **Clutch FC** in Gameweek 4. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 ### Toma
-Next up: **VZN FC** in Gameweek 4. 
+Their next fixture is yet to be confirmed — check back for the Gameweek 11 schedule. 
 
 
 

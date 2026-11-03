@@ -1,6 +1,6 @@
 ---
 title: "VZN FC — Baller League UK All-Time Record & History"
-date: 2026-10-27
+date: 2026-11-03
 category: "Feature"
 excerpt: "VZN FC in numbers: their all-time Baller League UK record, season-by-season finishes, top scorers and standout results across every season."
 author: "Baller League UK Hub"
@@ -9,7 +9,7 @@ featured: false
 
 ## VZN FC: All-Time Baller League UK Record
 
-**VZN FC** have played **36** matches in Baller League UK across 4 seasons, winning **11**, drawing **6** and losing **19** — a win rate of **31%**. They have scored **110** goals and conceded **141** (goal difference **-31**).
+**VZN FC** have played **37** matches in Baller League UK across 4 seasons, winning **12**, drawing **6** and losing **19** — a win rate of **32%**. They have scored **116** goals and conceded **145** (goal difference **-29**).
 
 ## Season-by-season
 
@@ -18,14 +18,14 @@ featured: false
 | 1 | 7th | 11 | 4 | 3 | 4 | -8 | 19 |
 | 2 | 12th | 11 | 3 | 1 | 7 | -10 | 10 |
 | 3 | 10th | 11 | 3 | 2 | 6 | -6 | 11 |
-| 4 | 10th | 3 | 1 | 0 | 2 | -7 | 3 |
+| 4 | 7th | 4 | 2 | 0 | 2 | -5 | 6 |
 
 Their best finish came in **Season 1**, finishing **7th** on **19 points**.
 
 ## Top scorers (all-time club)
 
-- **[Florian Kastrati](/players/florian-kastrati)** — 26 goals, 5 assists
-- **[Eddie Allsopp](/players/eddie-allsopp)** — 3 goals, 0 assists
+- **[Florian Kastrati](/players/florian-kastrati)** — 28 goals, 6 assists
+- **[Eddie Allsopp](/players/eddie-allsopp)** — 4 goals, 1 assists
 - **[Frankie Leonard](/players/frankie-leonard)** — 3 goals, 4 assists
 - **[Danny Bassett](/players/danny-bassett)** — 2 goals, 1 assists
 - **[Terell Thomas](/players/terell-thomas)** — 2 goals, 0 assists
