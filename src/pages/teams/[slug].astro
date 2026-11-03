@@ -22,6 +22,7 @@ const { Content } = await team.render();
 // Only link to managers that have a profile page (TBC/M7 placeholders do not).
 const managers = await getCollection('managers');
 const managerSlugs = new Set(managers.map((m) => m.slug));
+const formerManagers = managers.filter((m) => m.data.active === false && m.data.team === data.urlSlug);
 
 const SEASON = CURRENT_SEASON;
 const SEASON_KEY = String(SEASON);
@@ -165,6 +166,17 @@ const schema = {
             </span>
           </div>
         </div>
+
+        {formerManagers.length > 0 && (
+          <div class="former-managers-strip">
+            <span class="former-managers-label">Former managers</span>
+            <span class="former-managers-links">
+              {formerManagers.map((m, i) => (
+                <>{i > 0 && <span class="former-managers-sep"> · </span>}<a href={`/managers/${m.slug}`}>{m.data.name}</a></>
+              ))}
+            </span>
+          </div>
+        )}
 
         <p class="team-hero-desc">{data.description}</p>
 
@@ -526,6 +538,16 @@ const schema = {
 .ss-divider { width: 1px; height: 36px; background: var(--border); flex-shrink: 0; }
 .ss-pts .ss-val { color: var(--team-color); }
 .ss-ep .ss-val { color: var(--gold); }
+
+.former-managers-strip {
+  display: flex; align-items: center; gap: var(--space-sm); flex-wrap: wrap;
+  margin-top: var(--space-lg); padding: var(--space-sm) var(--space-md);
+  background: rgba(0, 0, 0, 0.2); border: 1px solid var(--border); border-radius: var(--radius);
+}
+.former-managers-label { font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--text-muted); }
+.former-managers-links a { color: var(--text-secondary); text-decoration: none; }
+.former-managers-links a:hover { color: var(--team-color); }
+.former-managers-sep { color: var(--text-muted); }
 
 .team-hero-desc {
   margin-top: var(--space-xl); max-width: 820px;

@@ -130,6 +130,8 @@ const schema = data ? [
     ...(data.born ? { "birthDate": data.born } : {}),
     ...(data.birthplace ? { "birthPlace": { "@type": "Place", "name": data.birthplace } } : {}),
     ...(data.nationality ? { "nationality": data.nationality } : {}),
+    "url": `https://ballerleagueukhub.com/managers/${slug}/`,
+    ...(data.sameAs?.length ? { "sameAs": data.sameAs } : {}),
     "memberOf": { "@type": "SportsTeam", "name": data.teamName, "url": `https://ballerleagueukhub.com/teams/${data.team}`, "sport": "Football" },
     "affiliation": { "@type": "SportsTeam", "name": data.teamName, "sport": "Football" },
     "image": `https://ballerleagueukhub.com/og/managers/${slug}.png`,

@@ -15,6 +15,7 @@ managerialCareer: ["Newcastle United (2009)"]
 careerHighlights: ["BBC Match of the Day pundit", "Premier League Hall of Fame inductee"]
 didYouKnow: ["Shearer scored 260 Premier League goals — still the all-time record.", "He turned down Manchester United to join his hometown club Newcastle in 1996.", "He briefly managed Newcastle United in 2009."]
 seasonsManaged: [1, 2, 3]
+sameAs: ["https://en.wikipedia.org/wiki/Alan_Shearer"]
 bio: >
   Alan Shearer is the Premier League's all-time record goalscorer with 260 goals, a Newcastle United and Blackburn Rovers legend, and a respected BBC Match of the Day pundit. He co-managed Wembley Rangers AFC in Baller League UK alongside Ian Wright, forming one of the most decorated management duos in the competition. Shearer's ruthless goalscoring instinct, tactical understanding, and deep knowledge of what it takes to win at the highest level gave the Rangers a formidable edge. His analytical, no-nonsense approach balanced the Rangers' attacking philosophy with steel and discipline.
 ---

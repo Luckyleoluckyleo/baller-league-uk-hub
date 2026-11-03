@@ -33,6 +33,19 @@ Weekly spikes line up with matchdays; traffic decays between gameweeks.
 - Rule queries sat on page 1/2 with almost no clicks: `baller league rules` (pos 10.21), `baller league uk rules` (9.39), `baller league offside rule` (9.8), `game changer rules` (12.33), `wildcard rules` (15.06).
 - Conclusion: ranking + snippet problem on `/rules`, likely accelerated by the 11 Oct rewrite.
 
+### Manager pages (28d)
+
+| Page | Clicks | Impressions | CTR | Position |
+|---|---:|---:|---:|---:|
+| `/managers/danny-aarons/` | 27 | 1,320 | 2.05% | 4.49 |
+| `/managers/jay-jay-okocha/` | 16 | 232 | 6.90% | 3.77 |
+| `/managers/alex-iwobi/` | 7 (split) | 471 (split) | ~1.5% | ~4.5–5 |
+| `/managers/spencer-owen/` | 5 | 138 | 3.62% | 5.43 |
+
+Queries: `jay jay okocha baller league` (70 impr, 13 clicks, 18.57%, pos 2.17), `danny aarons baller league` (141 impr, 9 clicks, 6.38%, pos 2.93), `danny aarons manager` (95 impr, 0 clicks, pos 4.09).
+
+Follow-up shipped: former-manager links on club pages (Wembley → Shearer/Wright, P17/Rukkas → Idris Elba, RTG/Yanited → Angry Ginge), `Person` schema `url` + `sameAs`, and a managers-hub FAQ/ItemList/schema overhaul. Technical check: all 17 manager pages are `index, follow` and present in `sitemap.xml`; use URL Inspection to request indexing for any that are not yet indexed.
+
 ### Duplicate URL variants
 
 GSC split some pages between `/path` and `/path/` (e.g. `/teams/toma` 221 + `/teams/toma/` 524). The no-slash URLs 301 to the slash version, but internal links often omitted the slash.
@@ -52,8 +65,8 @@ GSC split some pages between `/path` and `/path/` (e.g. `/teams/toma` 221 + `/te
 1. Export GSC again for the last 28 days.
 2. Compare the pages above — especially `/rules`, `/teams`, season guide, `/table`, and the manager template.
 3. Check rule-query positions/clicks: `baller league rules`, `baller league offside rule`, `baller league wildcard rules`, `baller league game changer rules`.
-4. Check whether slash/no-slash duplicate rows have consolidated.
-5. Confirm `/explainers/`, `/reports/` and the enriched manager pages are indexed.
+4. Check whether slash/no-slash duplicate rows have consolidated — especially the manager pages (`/managers/alex-iwobi` vs `/managers/alex-iwobi/`).
+5. Confirm `/explainers/`, `/reports/` and every `/managers/` page is indexed. Request indexing for any that are not.
 6. Record the new baseline here and decide the next actions (content depth vs internal links vs CTR iteration).
 
 Note: GSC data lags ~2–3 days; use the 28-day window ending the day before the review.

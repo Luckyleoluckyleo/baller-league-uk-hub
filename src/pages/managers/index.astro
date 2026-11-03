@@ -23,18 +23,43 @@ const formerManagers = managers
   .filter((m) => m.data.active === false)
   .sort((a, b) => a.data.name.localeCompare(b.data.name));
 
-const schema = {
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  "name": "Baller League UK Managers — Celebrity Profiles",
-  "description": `Meet the managers of Baller League UK Season ${CURRENT_SEASON}. From KSI and Niko Omilana to Jay-Jay Okocha and Alex Iwobi — the full celebrity manager line-up.`,
-  "about": { "@type": "SportsOrganization", "name": "Baller League UK", "sport": "Football" }
-};
+const faqs = [
+  { q: "Who manages each Baller League UK team in Season 4?", a: groups.map((g) => `${g.teamName} — ${g.managers.map((m) => m.data.name).join(" and ") || "TBC"}`).join("; ") + "." },
+  { q: "How many managers are in Baller League UK?", a: `There are ${totalManagers} current managers across ${groups.length} clubs in Season ${CURRENT_SEASON}, plus ${formerManagers.length} former managers with profiles on the site.` },
+  { q: "Which Baller League UK managers are former Premier League players?", a: "Micah Richards, Daniel Sturridge, Jens Lehmann, Alex Iwobi and Jay-Jay Okocha all played in the Premier League. Alan Shearer and Ian Wright are former Baller League managers." },
+  { q: "Where can I find a full manager profile?", a: "Every manager has a dedicated profile with career, honours, playing history, record in charge and related coverage. Browse the profiles above." },
+];
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Baller League UK Managers — Celebrity Profiles",
+    "description": `Meet the managers of Baller League UK Season ${CURRENT_SEASON}. From KSI and Niko Omilana to Jay-Jay Okocha and Alex Iwobi — the full celebrity manager line-up.`,
+    "about": { "@type": "SportsOrganization", "name": "Baller League UK", "sport": "Football" }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": `Baller League UK Season ${CURRENT_SEASON} managers`,
+    "itemListElement": managers.map((m, i) => ({
+      "@type": "ListItem",
+      "position": i + 1,
+      "name": m.data.name,
+      "url": `https://ballerleagueukhub.com/managers/${m.slug}/`,
+    })),
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })),
+  },
+];
 ---
 
 <Base
-  title={`Baller League UK Managers — Celebrity Profiles (Season ${CURRENT_SEASON})`}
-  description={`Meet the celebrity managers of Baller League UK Season ${CURRENT_SEASON} — KSI, Niko Omilana, Mark Goldbridge, Jay-Jay Okocha, Alex Iwobi, Jens Lehmann and more. Manager profiles with photos and team records.`}
+  title={`Baller League UK Managers 2026 — All 12 Clubs & Full Profiles`}
+  description={`Meet every Baller League UK manager in Season ${CURRENT_SEASON} — KSI, Niko Omilana, Jay-Jay Okocha, Jens Lehmann, Alex Iwobi and more, with team, career and record.`}
   schema={schema}
   keywords={`Baller League UK managers, celebrity managers, KSI Baller League, Niko Omilana, Jay-Jay Okocha, Alex Iwobi, Jens Lehmann, Mark Goldbridge, Season ${CURRENT_SEASON}`}
 >
@@ -115,6 +140,24 @@ const schema = {
         </ul>
       </section>
     )}
+
+    <section class="managers-faq">
+      <div class="section-header">
+        <div>
+          <div class="section-label">Quick answers</div>
+          <h2 class="section-title">Baller League UK managers FAQ</h2>
+        </div>
+      </div>
+      <div class="faq-list">
+        {faqs.map((f) => (
+          <details class="faq-item">
+            <summary>{f.q}</summary>
+            <p>{f.a}</p>
+          </details>
+        ))}
+      </div>
+      <p class="managers-related">Want the rules too? Read the <a href="/rules">full rulebook</a> or browse the <a href="/explainers">explainers hub</a>.</p>
+    </section>
   </div>
 </Base>
 
@@ -148,6 +191,15 @@ const schema = {
 .former-name { font-family: var(--font-display); font-size: 1.05rem; color: var(--text-primary); transition: color var(--transition); }
 .former-name:hover { color: var(--green); }
 .former-team { display: block; font-size: 0.8rem; color: var(--text-muted); margin-top: 4px; }
+
+.managers-faq { margin-top: var(--space-2xl); }
+.faq-list { display: flex; flex-direction: column; gap: var(--space-sm); }
+.faq-item { background: var(--bg-elevated); border: 1px solid var(--border); border-radius: var(--radius); }
+.faq-item summary { padding: var(--space-md); font-weight: 600; color: var(--text-primary); cursor: pointer; list-style: none; }
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item p { padding: 0 var(--space-md) var(--space-md); color: var(--text-secondary); line-height: 1.7; margin: 0; }
+.managers-related { margin-top: var(--space-lg); color: var(--text-secondary); }
+.managers-related a { color: var(--green); }
 
 @media (max-width: 640px) {
   .managers-grid { grid-template-columns: 1fr 1fr; }

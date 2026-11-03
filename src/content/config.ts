@@ -60,6 +60,7 @@ const managersCollection = defineCollection({
     careerHighlights:  z.array(z.string()).optional(),
     didYouKnow:        z.array(z.string()).optional(),
     seasonsManaged:    z.array(z.number()).optional(),
+    sameAs:            z.array(z.string().url()).optional(),
     bio:         z.string(),
   }),
 });
