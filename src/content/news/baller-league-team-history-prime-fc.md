@@ -9,7 +9,7 @@ featured: false
 
 ## Prime FC: All-Time Baller League UK Record
 
-**Prime FC** have played **41** matches in Baller League UK across 4 seasons, winning **18**, drawing **9** and losing **14** — a win rate of **44%**. They have scored **156** goals and conceded **131** (goal difference **+25**).
+**Prime FC** have played **42** matches in Baller League UK across 4 seasons, winning **18**, drawing **10** and losing **14** — a win rate of **43%**. They have scored **158** goals and conceded **133** (goal difference **+25**).
 
 ## Season-by-season
 
@@ -18,7 +18,7 @@ featured: false
 | 1 | 2nd | 11 | 7 | 1 | 3 | +4 | 23 |
 | 2 | 11th | 11 | 1 | 5 | 5 | -8 | 10 |
 | 3 | 3rd | 11 | 6 | 2 | 3 | +25 | 21 |
-| 4 | 8th | 4 | 1 | 1 | 2 | -4 | 5 |
+| 4 | 9th | 5 | 1 | 2 | 2 | -4 | 6 |
 
 Their best finish came in **Season 1**, finishing **2nd** on **23 points**.
 
@@ -26,7 +26,7 @@ Their best finish came in **Season 1**, finishing **2nd** on **23 points**.
 
 - **[Edy Maieco](/players/braulio-valera-pinto-maieco)** — 38 goals, 1 assists
 - **[Francis Mampolo](/players/francis-gerard-mampolo)** — 28 goals, 7 assists
-- **[Timmy Abraham](/players/timmy-abraham)** — 24 goals, 4 assists
+- **[Timmy Abraham](/players/timmy-abraham)** — 25 goals, 4 assists
 - **[Montel McKenzie](/players/montel-mckenzie)** — 12 goals, 17 assists
 - **[Joshua Rusoke](/players/josh-rusoke)** — 3 goals, 5 assists
 

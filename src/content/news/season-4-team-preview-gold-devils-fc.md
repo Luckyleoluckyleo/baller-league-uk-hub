@@ -9,7 +9,7 @@ faqs:
   - q: "Who manages Gold Devils FC in Baller League UK Season 4?"
     a: "Gold Devils FC are managed by Mark Goldbridge and Spencer Owen."
   - q: "Who are Gold Devils FC's key players?"
-    a: "Tarik Gidaree, Bilal Sayoud, Connor Wood are among the players to watch for Gold Devils FC in Season 4."
+    a: "Bilal Sayoud, Tarik Gidaree, Connor Wood are among the players to watch for Gold Devils FC in Season 4."
   - q: "When do Gold Devils FC play next?"
     a: "The next Gold Devils FC fixture has not yet been confirmed."
   - q: "Where did Gold Devils FC finish last season?"
@@ -32,12 +32,12 @@ Gold Devils FC are led by [Mark Goldbridge](/managers/mark-goldbridge) and [Spen
 
 Here are some of Gold Devils FC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Tarik Gidaree](/players/tarik-gidaree)** (Defender) — 5 goals and 0 assists in 4 appearances.
-- **[Bilal Sayoud](/players/bilal-sayoud)** (Striker) — 3 goals and 2 assists in 4 appearances.
-- **[Connor Wood](/players/connor-wood)** (Defender) — 1 goals and 3 assists in 4 appearances.
-- **[Marvel Ekpiteta](/players/marvel-ekpiteta)** (Defender) — 1 goals and 0 assists in 4 appearances.
-- **[Dimitri Nicolaou](/players/dimitri-nicolaou)** (Midfielder) — 1 goals and 0 assists in 4 appearances.
-- **[Luke May-Parrott](/players/luke-may-parrott)** (Striker) — 1 goals and 1 assists in 2 appearances.
+- **[Bilal Sayoud](/players/bilal-sayoud)** (Striker) — 5 goals and 2 assists in 5 appearances.
+- **[Tarik Gidaree](/players/tarik-gidaree)** (Defender) — 5 goals and 1 assists in 5 appearances.
+- **[Connor Wood](/players/connor-wood)** (Defender) — 2 goals and 3 assists in 5 appearances.
+- **[Luke May-Parrott](/players/luke-may-parrott)** (Striker) — 2 goals and 2 assists in 3 appearances.
+- **[Marvel Ekpiteta](/players/marvel-ekpiteta)** (Defender) — 1 goals and 0 assists in 5 appearances.
+- **[Dimitri Nicolaou](/players/dimitri-nicolaou)** (Midfielder) — 1 goals and 0 assists in 5 appearances.
 
 See the full squad on the [Gold Devils FC team page](/teams/gold-devils-fc).
 

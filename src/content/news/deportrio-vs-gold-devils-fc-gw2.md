@@ -112,35 +112,35 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Jay Emmanuel-Thomas | 7 | 2 | 4 |
-| Rodney Ajayi | 6 | 0 | 4 |
-| Kevin Weggen | 3 | 3 | 4 |
-| Emmanuel Robe | 2 | 0 | 4 |
-| Martyn Waghorn | 1 | 0 | 2 |
+| Jay Emmanuel-Thomas | 7 | 3 | 5 |
+| Kevin Weggen | 7 | 3 | 5 |
+| Rodney Ajayi | 6 | 0 | 5 |
+| Emmanuel Robe | 3 | 0 | 5 |
+| Martyn Waghorn | 3 | 0 | 3 |
 
 ### Gold Devils FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Tarik Gidaree | 5 | 0 | 4 |
-| Bilal Sayoud | 3 | 2 | 4 |
-| Connor Wood | 1 | 3 | 4 |
-| Marvel Ekpiteta | 1 | 0 | 4 |
-| Dimitri Nicolaou | 1 | 0 | 4 |
+| Bilal Sayoud | 5 | 2 | 5 |
+| Tarik Gidaree | 5 | 1 | 5 |
+| Connor Wood | 2 | 3 | 5 |
+| Luke May-Parrott | 2 | 2 | 3 |
+| Marvel Ekpiteta | 1 | 0 | 5 |
 
 **Key Attacking Threats**
 
-- **Jay Emmanuel-Thomas** — Deportrio's talisman with **7 goals** from **4 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Tarik Gidaree** — Gold Devils FC's leading marksman with **5 goals** from **4 outings**. Still finding his rhythm but showing promising signs.
+- **Jay Emmanuel-Thomas** — Deportrio's talisman with **7 goals** from **5 appearances** and **3 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Bilal Sayoud** — Gold Devils FC's leading marksman with **5 goals** from **5 outings**, plus **2 assists**. Still finding his rhythm but showing promising signs.
 
 
 ---
 
 ## Season Context
 
-With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **Deportrio** entered this match averaging **4.8 goals per game** — a number that reflected their struggles in front of goal this campaign. **Gold Devils FC**, by contrast, arrived with an average of **3.3 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **Deportrio** entered this match averaging **5.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **Gold Devils FC**, by contrast, arrived with an average of **3.4 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **8.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.9 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 

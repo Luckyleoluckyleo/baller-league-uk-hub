@@ -9,7 +9,7 @@ faqs:
   - q: "Who manages Toma in Baller League UK Season 4?"
     a: "Toma are managed by Jay-Jay Okocha."
   - q: "Who are Toma's key players?"
-    a: "Joshua Phillips, Yasin Ben El-Mhanni, Junior Dixon are among the players to watch for Toma in Season 4."
+    a: "Junior Dixon, Joshua Phillips, Yasin Ben El-Mhanni are among the players to watch for Toma in Season 4."
   - q: "When do Toma play next?"
     a: "The next Toma fixture has not yet been confirmed."
   - q: "Where did Toma finish last season?"
@@ -32,12 +32,12 @@ Toma are led by [Jay-Jay Okocha](/managers/jay-jay-okocha). Their experience and
 
 Here are some of Toma's players to watch, with last season's (Season 4) figures where available:
 
-- **[Joshua Phillips](/players/joshua-phillips)** (Striker) — 2 goals and 0 assists in 4 appearances.
-- **[Yasin Ben El-Mhanni](/players/yasin-ben-el-mhanni)** (Striker) — 2 goals and 0 assists in 4 appearances.
-- **[Junior Dixon](/players/junior-dixon)** (Striker) — 2 goals and 1 assists in 3 appearances.
+- **[Junior Dixon](/players/junior-dixon)** (Striker) — 4 goals and 2 assists in 4 appearances.
+- **[Joshua Phillips](/players/joshua-phillips)** (Striker) — 3 goals and 1 assists in 5 appearances.
+- **[Yasin Ben El-Mhanni](/players/yasin-ben-el-mhanni)** (Striker) — 2 goals and 0 assists in 5 appearances.
 - **[Arezki Hamouchene](/players/arezki-hamouchene)** (Midfielder) — 2 goals and 0 assists in 4 appearances.
-- **[Ibrahim Bangura](/players/ibrahim-bangura)** (Defender) — 2 goals and 1 assists in 4 appearances.
-- **[Praise Ogbebor](/players/praise-ogbebor)** (Striker) — 2 goals and 1 assists in 4 appearances.
+- **[Ibrahim Bangura](/players/ibrahim-bangura)** (Defender) — 2 goals and 1 assists in 5 appearances.
+- **[Praise Ogbebor](/players/praise-ogbebor)** (Striker) — 2 goals and 1 assists in 5 appearances.
 
 See the full squad on the [Toma team page](/teams/toma).
 

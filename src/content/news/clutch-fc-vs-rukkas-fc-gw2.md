@@ -2,7 +2,7 @@
 title: "P17 FC See Off Clutch FC 5-7 in Gameweek 2"
 date: 2026-10-19
 category: "Match Report"
-excerpt: "Clutch FC 5-7 P17 FC — Gameweek 2 match report. Tyler Winters (6 goals) leads Clutch FC's attack. Game Changers: 3Play (5) & 1-on-1 (2). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Clutch FC 5-7 P17 FC — Gameweek 2 match report. Tyler Winters (9 goals) leads Clutch FC's attack. Game Changers: 3Play (5) & 1-on-1 (2). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: true
 ---
@@ -45,7 +45,7 @@ The goals arrived in a dramatic sequence that told the story of the match:
 - **10′** — **Ciaran Clark** (P17 FC) scored
 - **12′** — **Alex Byrne** (Clutch FC) scored
 - **12′** — **Tyler Winters** (Clutch FC) scored
-- **13′** — **Tom Bender** (P17 FC) netted
+- **13′** — **Tom Bender** netted
 - **13′** — **Steven Kodra** (P17 FC) netted
 - **14′** — **Tyler Winters** (Clutch FC) found the target
 - **23′** — **Dajon Golding** (P17 FC) struck
@@ -60,7 +60,7 @@ The goals arrived in a dramatic sequence that told the story of the match:
 | 10′ | Ciaran Clark | P17 FC |
 | 12′ | Alex Byrne | Clutch FC |
 | 12′ | Tyler Winters | Clutch FC |
-| 13′ | Tom Bender | P17 FC |
+| 13′ | Tom Bender | — |
 | 13′ | Steven Kodra | P17 FC |
 | 14′ | Tyler Winters | Clutch FC |
 | 23′ | Dajon Golding | P17 FC |
@@ -112,7 +112,6 @@ The **3Play** activation was particularly devastating, producing **5** goals tha
 | Steven Kodra | 2 | 0 | 11 | 6 |
 | Ciaran Clark | 1 | 0 | 3 | 20 |
 | Dajon Golding | 1 | 0 | 8 | 10 |
-| Tom Bender | 1 | 0 | 1 | 0 |
 | Mussa Bham | 0 | 1 | 2 | 2 |
 
 
@@ -125,34 +124,34 @@ The **3Play** activation was particularly devastating, producing **5** goals tha
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Tyler Winters | 6 | 3 | 4 |
-| Alex Byrne | 6 | 0 | 4 |
-| Alfie Matthews | 3 | 5 | 4 |
-| Joshua Sumbunu | 3 | 0 | 4 |
-| Erick Kenko | 1 | 0 | 3 |
+| Tyler Winters | 9 | 3 | 5 |
+| Alex Byrne | 6 | 1 | 5 |
+| Alfie Matthews | 3 | 7 | 5 |
+| Joshua Sumbunu | 3 | 0 | 5 |
+| Richard Afrane-Kesey | 1 | 0 | 4 |
 
 ### P17 FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Amin Belaid | 9 | 2 | 4 |
-| Steven Kodra | 6 | 0 | 4 |
-| Dajon Golding | 3 | 0 | 4 |
-| Ciaran Clark | 1 | 2 | 4 |
+| Amin Belaid | 10 | 3 | 5 |
+| Steven Kodra | 7 | 0 | 5 |
+| Dajon Golding | 3 | 0 | 5 |
+| Ciaran Clark | 1 | 2 | 5 |
 
 **Key Attacking Threats**
 
-- **Tyler Winters** — Clutch FC's talisman with **6 goals** from **4 appearances** and **3 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Amin Belaid** — P17 FC's leading marksman with **9 goals** from **4 outings**, plus **2 assists**. P17 FC look to him whenever they need a moment of magic in the final third.
+- **Tyler Winters** — Clutch FC's talisman with **9 goals** from **5 appearances** and **3 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Amin Belaid** — P17 FC's leading marksman with **10 goals** from **5 outings**, plus **3 assists**. P17 FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **Clutch FC** entered this match averaging **5.0 goals per game** — a number that reflected their struggles in front of goal this campaign. **P17 FC**, by contrast, arrived with an average of **5.0 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **Clutch FC** entered this match averaging **4.8 goals per game** — a number that reflected their struggles in front of goal this campaign. **P17 FC**, by contrast, arrived with an average of **4.4 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **8.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.9 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -206,6 +205,7 @@ Clutch FC dropped to **4th**, p17 fc climbed to **2nd**.
 
 - A staggering **12-goal spectacle** — one of the highest-scoring matches in Baller League history
 - The GC period exploded with **7 goals** — an extraordinary return from just two rule-change windows
+- Amin Belaid heads P17 FC's scoring charts with **10 goals**, a tally any forward would be proud of
 
 ---
 

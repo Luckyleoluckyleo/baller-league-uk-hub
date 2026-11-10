@@ -27,7 +27,7 @@ Nya Kirby built his professional career at Crystal Palace, Blackpool and Tranmer
 
 | Season | Apps | Goals | Assists |
 |--------|------|-------|---------|
-| 4 | 3 | 0 | 0 |
+| 4 | 4 | 0 | 0 |
 
 See his full stats on his [player profile](/players/nya-kirby).
 

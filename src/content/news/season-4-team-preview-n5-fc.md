@@ -9,7 +9,7 @@ faqs:
   - q: "Who manages N5 FC in Baller League UK Season 4?"
     a: "N5 FC are managed by Jens Lehmann."
   - q: "Who are N5 FC's key players?"
-    a: "Hani Berchiche, Joe Bennett, Michael Hill are among the players to watch for N5 FC in Season 4."
+    a: "Joe Bennett, Francis Amartey, Hani Berchiche are among the players to watch for N5 FC in Season 4."
   - q: "When do N5 FC play next?"
     a: "The next N5 FC fixture has not yet been confirmed."
   - q: "Where did N5 FC finish last season?"
@@ -32,12 +32,12 @@ N5 FC are led by [Jens Lehmann](/managers/jens-lehmann). Their experience and pe
 
 Here are some of N5 FC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Hani Berchiche](/players/hani-berchiche)** (Defender) — 3 goals and 0 assists in 4 appearances.
-- **[Joe Bennett](/players/joe-bennett)** (Defender) — 2 goals and 2 assists in 4 appearances.
-- **[Michael Hill](/players/michael-hill)** (Midfielder) — 2 goals and 1 assists in 4 appearances.
-- **[Francis Amartey](/players/francis-amartey)** (Striker) — 2 goals and 1 assists in 3 appearances.
-- **[Billy Sharp](/players/billy-sharp)** (Striker) — 1 goals and 0 assists in 3 appearances.
-- **[Mustapha Carayol](/players/mustapha-carayol)** (Midfielder) — 1 goals and 0 assists in 4 appearances.
+- **[Joe Bennett](/players/joe-bennett)** (Defender) — 3 goals and 2 assists in 5 appearances.
+- **[Francis Amartey](/players/francis-amartey)** (Striker) — 3 goals and 1 assists in 4 appearances.
+- **[Hani Berchiche](/players/hani-berchiche)** (Defender) — 3 goals and 1 assists in 5 appearances.
+- **[Michael Hill](/players/michael-hill)** (Midfielder) — 2 goals and 1 assists in 5 appearances.
+- **[Billy Sharp](/players/billy-sharp)** (Striker) — 2 goals and 0 assists in 4 appearances.
+- **[Mustapha Carayol](/players/mustapha-carayol)** (Midfielder) — 2 goals and 0 assists in 5 appearances.
 
 See the full squad on the [N5 FC team page](/teams/n5-fc).
 

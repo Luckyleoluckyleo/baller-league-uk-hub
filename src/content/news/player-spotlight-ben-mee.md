@@ -28,7 +28,7 @@ Ben Mee built his professional career at Manchester City, Burnley and Brentford.
 
 | Season | Apps | Goals | Assists |
 |--------|------|-------|---------|
-| 4 | 3 | 0 | 2 |
+| 4 | 4 | 0 | 2 |
 
 See his full stats on his [player profile](/players/ben-mee).
 

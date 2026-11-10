@@ -27,7 +27,7 @@ Mauro Vilhete built his professional career at Barnet and São Martinho. That gr
 
 | Season | Apps | Goals | Assists |
 |--------|------|-------|---------|
-| 4 | 4 | 1 | 1 |
+| 4 | 5 | 1 | 1 |
 
 See his full stats on his [player profile](/players/mauro-vilhete).
 

@@ -112,35 +112,35 @@ The **3Play** window was the more impactful, its **4** goals shifting the balanc
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kadell Daniel | 9 | 2 | 4 |
-| Alfie Cerulli | 6 | 0 | 4 |
-| Tyrell Miller-Rodney | 2 | 2 | 4 |
-| Zaid Al Hussaini | 1 | 4 | 4 |
-| Joshua Emmanuel | 1 | 0 | 4 |
+| Kadell Daniel | 9 | 2 | 5 |
+| Alfie Cerulli | 7 | 0 | 5 |
+| Tyrell Miller-Rodney | 2 | 2 | 5 |
+| Zaid Al Hussaini | 1 | 4 | 5 |
+| Joshua Emmanuel | 1 | 0 | 5 |
 
 ### Deportrio — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Jay Emmanuel-Thomas | 7 | 2 | 4 |
-| Rodney Ajayi | 6 | 0 | 4 |
-| Kevin Weggen | 3 | 3 | 4 |
-| Emmanuel Robe | 2 | 0 | 4 |
-| Martyn Waghorn | 1 | 0 | 2 |
+| Jay Emmanuel-Thomas | 7 | 3 | 5 |
+| Kevin Weggen | 7 | 3 | 5 |
+| Rodney Ajayi | 6 | 0 | 5 |
+| Emmanuel Robe | 3 | 0 | 5 |
+| Martyn Waghorn | 3 | 0 | 3 |
 
 **Key Attacking Threats**
 
-- **Kadell Daniel** — RTG FC's talisman with **9 goals** from **4 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Jay Emmanuel-Thomas** — Deportrio's leading marksman with **7 goals** from **4 outings**, plus **2 assists**. Deportrio look to him whenever they need a moment of magic in the final third.
+- **Kadell Daniel** — RTG FC's talisman with **9 goals** from **5 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Jay Emmanuel-Thomas** — Deportrio's leading marksman with **7 goals** from **5 outings**, plus **3 assists**. Deportrio look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **RTG FC** entered this match averaging **5.0 goals per game** — a number that reflected their struggles in front of goal this campaign. **Deportrio**, by contrast, arrived with an average of **4.8 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **RTG FC** entered this match averaging **4.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **Deportrio**, by contrast, arrived with an average of **5.2 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **8.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.9 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 

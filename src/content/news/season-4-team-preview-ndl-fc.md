@@ -9,7 +9,7 @@ faqs:
   - q: "Who manages NDL FC in Baller League UK Season 4?"
     a: "NDL FC are managed by Niko Omilana."
   - q: "Who are NDL FC's key players?"
-    a: "Sam Fitzgerald, Isaac Modi, Josh Parker are among the players to watch for NDL FC in Season 4."
+    a: "Sam Fitzgerald, Dara Dada, Isaac Modi are among the players to watch for NDL FC in Season 4."
   - q: "When do NDL FC play next?"
     a: "The next NDL FC fixture has not yet been confirmed."
   - q: "Where did NDL FC finish last season?"
@@ -32,12 +32,12 @@ NDL FC are led by [Niko Omilana](/managers/niko-omilana). Their experience and p
 
 Here are some of NDL FC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Sam Fitzgerald](/players/sam-fitzgerald)** (Midfielder) — 7 goals and 1 assists in 4 appearances.
-- **[Isaac Modi](/players/isaac-modi)** (Midfielder) — 3 goals and 1 assists in 4 appearances.
-- **[Josh Parker](/players/joshua-parker)** (Striker) — 2 goals and 0 assists in 4 appearances.
-- **[Taufee Skandari](/players/taufee-skandari)** (Midfielder) — 2 goals and 0 assists in 4 appearances.
-- **[Dara Dada](/players/dara-dada)** (Midfielder) — 1 goals and 0 assists in 4 appearances.
-- **[Abdirahman Mohamud](/players/abdi-mohamud)** (Striker) — 1 goals and 0 assists in 4 appearances.
+- **[Sam Fitzgerald](/players/sam-fitzgerald)** (Midfielder) — 7 goals and 2 assists in 5 appearances.
+- **[Dara Dada](/players/dara-dada)** (Midfielder) — 3 goals and 0 assists in 5 appearances.
+- **[Isaac Modi](/players/isaac-modi)** (Midfielder) — 3 goals and 1 assists in 5 appearances.
+- **[Josh Parker](/players/joshua-parker)** (Striker) — 2 goals and 0 assists in 5 appearances.
+- **[Taufee Skandari](/players/taufee-skandari)** (Midfielder) — 2 goals and 0 assists in 5 appearances.
+- **[Abdirahman Mohamud](/players/abdi-mohamud)** (Striker) — 1 goals and 0 assists in 5 appearances.
 
 See the full squad on the [NDL FC team page](/teams/ndl-fc).
 

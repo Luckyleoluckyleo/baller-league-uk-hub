@@ -27,7 +27,7 @@ Terell Thomas built his professional career at Arsenal (youth), Charlton Athleti
 
 | Season | Apps | Goals | Assists |
 |--------|------|-------|---------|
-| 4 | 3 | 2 | 0 |
+| 4 | 4 | 2 | 0 |
 
 See his full stats on his [player profile](/players/terell-thomas).
 

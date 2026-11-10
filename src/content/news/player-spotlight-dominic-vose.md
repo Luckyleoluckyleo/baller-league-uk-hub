@@ -23,7 +23,7 @@ Dominic Vose built his professional career at West Ham United, Wrexham, Barnet a
 
 | Season | Apps | Goals | Assists |
 |--------|------|-------|---------|
-| 4 | 4 | 0 | 1 |
+| 4 | 5 | 0 | 1 |
 
 See his full stats on his [player profile](/players/dominic-vose).
 

@@ -2,7 +2,7 @@
 title: "Wembley Rangers AFC Run Riot Against N5 FC in 7-1 Demolition — GW3"
 date: 2026-10-26
 category: "Match Report"
-excerpt: "Wembley Rangers AFC 7-1 N5 FC — Gameweek 3 match report. Domingos Pires (5 goals) leads Wembley Rangers AFC's attack. Game Changers: 3Play (3) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Wembley Rangers AFC 7-1 N5 FC — Gameweek 3 match report. Callam Gardner (6 goals) leads Wembley Rangers AFC's attack. Game Changers: 3Play (3) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -113,35 +113,35 @@ The **3Play** window was the more impactful, its **3** goals shifting the balanc
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Domingos Pires | 5 | 1 | 4 |
-| Callam Gardner | 5 | 0 | 4 |
-| Chiekh Thiam | 4 | 1 | 4 |
-| Dominic Morgan-Griffiths | 1 | 2 | 4 |
-| Adrian Tajik | 1 | 0 | 3 |
+| Callam Gardner | 6 | 0 | 5 |
+| Domingos Pires | 5 | 1 | 5 |
+| Chiekh Thiam | 4 | 1 | 5 |
+| Dominic Morgan-Griffiths | 1 | 2 | 5 |
+| Adrian Tajik | 1 | 0 | 4 |
 
 ### N5 FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Hani Berchiche | 3 | 0 | 4 |
-| Joe Bennett | 2 | 2 | 4 |
-| Michael Hill | 2 | 1 | 4 |
-| Francis Amartey | 2 | 1 | 3 |
-| Billy Sharp | 1 | 0 | 3 |
+| Joe Bennett | 3 | 2 | 5 |
+| Francis Amartey | 3 | 1 | 4 |
+| Hani Berchiche | 3 | 1 | 5 |
+| Michael Hill | 2 | 1 | 5 |
+| Billy Sharp | 2 | 0 | 4 |
 
 **Key Attacking Threats**
 
-- **Domingos Pires** — Wembley Rangers AFC's talisman with **5 goals** from **4 appearances** and **1 assists**. A developing attacking presence with room to grow.
-- **Hani Berchiche** — N5 FC's leading marksman with **3 goals** from **4 outings**. Still finding his rhythm but showing promising signs.
+- **Callam Gardner** — Wembley Rangers AFC's talisman with **6 goals** from **5 appearances**. A reliable and consistent outlet who defences have learned to fear.
+- **Joe Bennett** — N5 FC's leading marksman with **3 goals** from **5 outings**, plus **2 assists**. Still finding his rhythm but showing promising signs.
 
 
 ---
 
 ## Season Context
 
-With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **Wembley Rangers AFC** entered this match averaging **4.8 goals per game** — a number that reflected their struggles in front of goal this campaign. **N5 FC**, by contrast, arrived with an average of **2.8 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **Wembley Rangers AFC** entered this match averaging **4.0 goals per game** — a number that reflected their struggles in front of goal this campaign. **N5 FC**, by contrast, arrived with an average of **3.2 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **8.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.9 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 

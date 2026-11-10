@@ -2,7 +2,7 @@
 title: "Clutch FC See Off Prime FC 3-5 in Gameweek 1"
 date: 2026-10-12
 category: "Match Report"
-excerpt: "Prime FC 3-5 Clutch FC — Gameweek 1 match report. Timmy Abraham (5 goals) leads Prime FC's attack. Game Changers: 3Play (3) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Prime FC 3-5 Clutch FC — Gameweek 1 match report. Timmy Abraham (6 goals) leads Prime FC's attack. Game Changers: 3Play (3) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -112,35 +112,35 @@ The **3Play** window was the more impactful, its **3** goals shifting the balanc
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Timmy Abraham | 5 | 0 | 4 |
-| Francis Mampolo | 3 | 2 | 4 |
-| Salim Nassor | 2 | 0 | 2 |
-| Montel McKenzie | 1 | 1 | 4 |
-| Mauro Vilhete | 1 | 1 | 4 |
+| Timmy Abraham | 6 | 0 | 5 |
+| Francis Mampolo | 3 | 2 | 5 |
+| Salim Nassor | 3 | 0 | 3 |
+| Montel McKenzie | 1 | 1 | 5 |
+| Mauro Vilhete | 1 | 1 | 5 |
 
 ### Clutch FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Tyler Winters | 6 | 3 | 4 |
-| Alex Byrne | 6 | 0 | 4 |
-| Alfie Matthews | 3 | 5 | 4 |
-| Joshua Sumbunu | 3 | 0 | 4 |
-| Erick Kenko | 1 | 0 | 3 |
+| Tyler Winters | 9 | 3 | 5 |
+| Alex Byrne | 6 | 1 | 5 |
+| Alfie Matthews | 3 | 7 | 5 |
+| Joshua Sumbunu | 3 | 0 | 5 |
+| Richard Afrane-Kesey | 1 | 0 | 4 |
 
 **Key Attacking Threats**
 
-- **Timmy Abraham** — Prime FC's talisman with **5 goals** from **4 appearances**. A developing attacking presence with room to grow.
-- **Tyler Winters** — Clutch FC's leading marksman with **6 goals** from **4 outings**, plus **3 assists**. Clutch FC look to him whenever they need a moment of magic in the final third.
+- **Timmy Abraham** — Prime FC's talisman with **6 goals** from **5 appearances**. A reliable and consistent outlet who defences have learned to fear.
+- **Tyler Winters** — Clutch FC's leading marksman with **9 goals** from **5 outings**, plus **3 assists**. Clutch FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **Prime FC** entered this match averaging **3.5 goals per game** — a number that reflected their struggles in front of goal this campaign. **Clutch FC**, by contrast, arrived with an average of **5.0 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **Prime FC** entered this match averaging **3.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **Clutch FC**, by contrast, arrived with an average of **4.8 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **8.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.9 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 

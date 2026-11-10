@@ -23,7 +23,7 @@ Nile Ranger built his professional career at Newcastle United, Swindon Town, Sou
 
 | Season | Apps | Goals | Assists |
 |--------|------|-------|---------|
-| 4 | 4 | 0 | 0 |
+| 4 | 5 | 0 | 0 |
 
 See his full stats on his [player profile](/players/nile-ranger).
 

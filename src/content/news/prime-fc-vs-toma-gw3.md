@@ -2,7 +2,7 @@
 title: "Prime FC and Toma Share 4-4 Goal Fest in GW3"
 date: 2026-10-26
 category: "Match Report"
-excerpt: "Prime FC 4-4 Toma — Gameweek 3 match report. Timmy Abraham (5 goals) leads Prime FC's attack. Game Changers: Onside (0) & Fairplay (2). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Prime FC 4-4 Toma — Gameweek 3 match report. Timmy Abraham (6 goals) leads Prime FC's attack. Game Changers: Onside (0) & Fairplay (2). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -113,35 +113,35 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Timmy Abraham | 5 | 0 | 4 |
-| Francis Mampolo | 3 | 2 | 4 |
-| Salim Nassor | 2 | 0 | 2 |
-| Montel McKenzie | 1 | 1 | 4 |
-| Mauro Vilhete | 1 | 1 | 4 |
+| Timmy Abraham | 6 | 0 | 5 |
+| Francis Mampolo | 3 | 2 | 5 |
+| Salim Nassor | 3 | 0 | 3 |
+| Montel McKenzie | 1 | 1 | 5 |
+| Mauro Vilhete | 1 | 1 | 5 |
 
 ### Toma — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Joshua Phillips | 2 | 0 | 4 |
-| Yasin Ben El-Mhanni | 2 | 0 | 4 |
-| Junior Dixon | 2 | 1 | 3 |
+| Junior Dixon | 4 | 2 | 4 |
+| Joshua Phillips | 3 | 1 | 5 |
+| Yasin Ben El-Mhanni | 2 | 0 | 5 |
 | Arezki Hamouchene | 2 | 0 | 4 |
-| Ibrahim Bangura | 2 | 1 | 4 |
+| Ibrahim Bangura | 2 | 1 | 5 |
 
 **Key Attacking Threats**
 
-- **Timmy Abraham** — Prime FC's talisman with **5 goals** from **4 appearances**. A developing attacking presence with room to grow.
-- **Joshua Phillips** — Toma's leading marksman with **2 goals** from **4 outings**. Still finding his rhythm but showing promising signs.
+- **Timmy Abraham** — Prime FC's talisman with **6 goals** from **5 appearances**. A reliable and consistent outlet who defences have learned to fear.
+- **Junior Dixon** — Toma's leading marksman with **4 goals** from **4 outings**, plus **2 assists**. Still finding his rhythm but showing promising signs.
 
 
 ---
 
 ## Season Context
 
-With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **Prime FC** entered this match averaging **3.5 goals per game** — a number that reflected their struggles in front of goal this campaign. **Toma**, by contrast, arrived with an average of **3.8 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **Prime FC** entered this match averaging **3.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **Toma**, by contrast, arrived with an average of **3.8 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **8.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.9 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 

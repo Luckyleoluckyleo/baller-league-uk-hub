@@ -124,35 +124,35 @@ The **1-on-1** window was the more impactful, its **4** goals shifting the balan
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kadell Daniel | 9 | 2 | 4 |
-| Alfie Cerulli | 6 | 0 | 4 |
-| Tyrell Miller-Rodney | 2 | 2 | 4 |
-| Zaid Al Hussaini | 1 | 4 | 4 |
-| Joshua Emmanuel | 1 | 0 | 4 |
+| Kadell Daniel | 9 | 2 | 5 |
+| Alfie Cerulli | 7 | 0 | 5 |
+| Tyrell Miller-Rodney | 2 | 2 | 5 |
+| Zaid Al Hussaini | 1 | 4 | 5 |
+| Joshua Emmanuel | 1 | 0 | 5 |
 
 ### Toma — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Joshua Phillips | 2 | 0 | 4 |
-| Yasin Ben El-Mhanni | 2 | 0 | 4 |
-| Junior Dixon | 2 | 1 | 3 |
+| Junior Dixon | 4 | 2 | 4 |
+| Joshua Phillips | 3 | 1 | 5 |
+| Yasin Ben El-Mhanni | 2 | 0 | 5 |
 | Arezki Hamouchene | 2 | 0 | 4 |
-| Ibrahim Bangura | 2 | 1 | 4 |
+| Ibrahim Bangura | 2 | 1 | 5 |
 
 **Key Attacking Threats**
 
-- **Kadell Daniel** — RTG FC's talisman with **9 goals** from **4 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Joshua Phillips** — Toma's leading marksman with **2 goals** from **4 outings**. Still finding his rhythm but showing promising signs.
+- **Kadell Daniel** — RTG FC's talisman with **9 goals** from **5 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Junior Dixon** — Toma's leading marksman with **4 goals** from **4 outings**, plus **2 assists**. Still finding his rhythm but showing promising signs.
 
 
 ---
 
 ## Season Context
 
-With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **RTG FC** entered this match averaging **5.0 goals per game** — a number that reflected their struggles in front of goal this campaign. **Toma**, by contrast, arrived with an average of **3.8 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **RTG FC** entered this match averaging **4.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **Toma**, by contrast, arrived with an average of **3.8 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **8.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.9 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 

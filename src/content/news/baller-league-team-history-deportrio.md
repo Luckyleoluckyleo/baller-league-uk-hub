@@ -9,7 +9,7 @@ featured: false
 
 ## Deportrio: All-Time Baller League UK Record
 
-**Deportrio** have played **39** matches in Baller League UK across 4 seasons, winning **21**, drawing **7** and losing **11** — a win rate of **54%**. They have scored **154** goals and conceded **130** (goal difference **+24**).
+**Deportrio** have played **40** matches in Baller League UK across 4 seasons, winning **21**, drawing **7** and losing **12** — a win rate of **53%**. They have scored **161** goals and conceded **138** (goal difference **+23**).
 
 ## Season-by-season
 
@@ -18,17 +18,17 @@ featured: false
 | 1 | 1st | 11 | 7 | 1 | 3 | +5 | 23 |
 | 2 | 7th | 11 | 4 | 4 | 3 | +3 | 17 |
 | 3 | 2nd | 11 | 7 | 2 | 2 | +13 | 23 |
-| 4 | 3rd | 4 | 3 | 0 | 1 | +6 | 9 |
+| 4 | 3rd | 5 | 3 | 0 | 2 | +5 | 9 |
 
 Their best finish came in **Season 1**, finishing **1st** on **23 points**.
 
 ## Top scorers (all-time club)
 
-- **[Jay Emmanuel-Thomas](/players/jay-emmanuel-thomas)** — 28 goals, 11 assists
+- **[Jay Emmanuel-Thomas](/players/jay-emmanuel-thomas)** — 28 goals, 12 assists
 - **[Marvin Sordell](/players/marvin-sordell)** — 11 goals, 3 assists
 - **[Adam Dawson](/players/adam-dawson)** — 9 goals, 5 assists
+- **[Martyn Waghorn](/players/martyn-waghorn)** — 9 goals, 2 assists
 - **[Rodney Ajayi](/players/rodney-ajayi)** — 9 goals, 2 assists
-- **[Martyn Waghorn](/players/martyn-waghorn)** — 7 goals, 2 assists
 
 ## Biggest win
 
@@ -36,7 +36,7 @@ Deportrio's biggest win was a **9-3** victory over **Community FC** (Season 3).
 
 ## Highest-scoring game
 
-The most goals Deportrio have been involved in was a **14-goal** thriller: **Deportrio 8-6 Prime FC** (Season 3).
+The most goals Deportrio have been involved in was a **15-goal** thriller: **Deportrio 7-8 VZN FC** (Season 4).
 
 ## Follow Deportrio
 

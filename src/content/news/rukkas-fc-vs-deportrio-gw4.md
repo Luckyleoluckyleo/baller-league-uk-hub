@@ -2,7 +2,7 @@
 title: "Deportrio Scrape Past P17 FC 2-3 in Tight GW4 Contest"
 date: 2026-11-02
 category: "Match Report"
-excerpt: "P17 FC 2-3 Deportrio — Gameweek 4 match report. Amin Belaid (9 goals) leads P17 FC's attack. Game Changers: Onside (0) & Fairplay (2). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "P17 FC 2-3 Deportrio — Gameweek 4 match report. Amin Belaid (10 goals) leads P17 FC's attack. Game Changers: Onside (0) & Fairplay (2). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -84,7 +84,7 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
 | Amin Belaid | 2 | 0 | 6 | 13 |
-| Ciaran Clark | 0 | 1 | 2 | 32 |
+| Ciaran Clark | 0 | 1 | 3 | 32 |
 
 ### Deportrio
 
@@ -92,8 +92,8 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Rodney Ajayi | 2 | 0 | 9 | 10 |
-| Jay Emmanuel-Thomas | 1 | 0 | 4 | 8 |
+| Rodney Ajayi | 2 | 0 | 9 | 12 |
+| Jay Emmanuel-Thomas | 1 | 0 | 4 | 7 |
 | Kevin Weggen | 0 | 1 | 3 | 10 |
 
 
@@ -106,34 +106,34 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Amin Belaid | 9 | 2 | 4 |
-| Steven Kodra | 6 | 0 | 4 |
-| Dajon Golding | 3 | 0 | 4 |
-| Ciaran Clark | 1 | 2 | 4 |
+| Amin Belaid | 10 | 3 | 5 |
+| Steven Kodra | 7 | 0 | 5 |
+| Dajon Golding | 3 | 0 | 5 |
+| Ciaran Clark | 1 | 2 | 5 |
 
 ### Deportrio — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Jay Emmanuel-Thomas | 7 | 2 | 4 |
-| Rodney Ajayi | 6 | 0 | 4 |
-| Kevin Weggen | 3 | 3 | 4 |
-| Emmanuel Robe | 2 | 0 | 4 |
-| Martyn Waghorn | 1 | 0 | 2 |
+| Jay Emmanuel-Thomas | 7 | 3 | 5 |
+| Kevin Weggen | 7 | 3 | 5 |
+| Rodney Ajayi | 6 | 0 | 5 |
+| Emmanuel Robe | 3 | 0 | 5 |
+| Martyn Waghorn | 3 | 0 | 3 |
 
 **Key Attacking Threats**
 
-- **Amin Belaid** — P17 FC's talisman with **9 goals** from **4 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Jay Emmanuel-Thomas** — Deportrio's leading marksman with **7 goals** from **4 outings**, plus **2 assists**. Deportrio look to him whenever they need a moment of magic in the final third.
+- **Amin Belaid** — P17 FC's talisman with **10 goals** from **5 appearances** and **3 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Jay Emmanuel-Thomas** — Deportrio's leading marksman with **7 goals** from **5 outings**, plus **3 assists**. Deportrio look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **7 gameweeks** left in the regular season, the stakes couldn't have been higher. **P17 FC** entered this match averaging **5.0 goals per game** — a number that reflected their struggles in front of goal this campaign. **Deportrio**, by contrast, arrived with an average of **4.8 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **7 gameweeks** left in the regular season, the stakes couldn't have been higher. **P17 FC** entered this match averaging **4.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **Deportrio**, by contrast, arrived with an average of **5.2 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **8.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.9 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -175,10 +175,10 @@ P17 FC dropped to **2nd**, deportrio stayed at **3rd**.
 | Goals | 5 |
 | Game Changer goals | 2 (40% of all goals) |
 | Different goalscorers | 3 |
-| Total shots | 50 |
+| Total shots | 52 |
 | Assists | 2 |
-| Tackles | 19 |
-| Passes | 271 |
+| Tackles | 18 |
+| Passes | 276 |
 
 
 ---
@@ -187,6 +187,7 @@ P17 FC dropped to **2nd**, deportrio stayed at **3rd**.
 
 - **2 of 5 goals (40%)** came during Game Changer activations
 - A **one-goal game** decided by the narrowest of margins — the small details made all the difference
+- Amin Belaid continues to lead P17 FC with **10 goals** — firmly among the league's elite marksmen
 
 ---
 

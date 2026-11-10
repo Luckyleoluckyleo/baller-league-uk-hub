@@ -9,7 +9,7 @@ faqs:
   - q: "Who manages Deportrio in Baller League UK Season 4?"
     a: "Deportrio are managed by Micah Richards."
   - q: "Who are Deportrio's key players?"
-    a: "Jay Emmanuel-Thomas, Rodney Ajayi, Kevin Weggen are among the players to watch for Deportrio in Season 4."
+    a: "Jay Emmanuel-Thomas, Kevin Weggen, Rodney Ajayi are among the players to watch for Deportrio in Season 4."
   - q: "When do Deportrio play next?"
     a: "The next Deportrio fixture has not yet been confirmed."
   - q: "Where did Deportrio finish last season?"
@@ -32,12 +32,12 @@ Deportrio are led by [Micah Richards](/managers/micah-richards). Their experienc
 
 Here are some of Deportrio's players to watch, with last season's (Season 4) figures where available:
 
-- **[Jay Emmanuel-Thomas](/players/jay-emmanuel-thomas)** (Striker) — 7 goals and 2 assists in 4 appearances.
-- **[Rodney Ajayi](/players/rodney-ajayi)** (Striker) — 6 goals and 0 assists in 4 appearances.
-- **[Kevin Weggen](/players/kevin-weggen)** (Midfielder) — 3 goals and 3 assists in 4 appearances.
-- **[Emmanuel Robe](/players/emmanuel-robe)** (Striker) — 2 goals and 0 assists in 4 appearances.
-- **[Martyn Waghorn](/players/martyn-waghorn)** (Striker) — 1 goals and 0 assists in 2 appearances.
-- **[Adam Dawson](/players/adam-dawson)** (Midfielder) — 0 goals and 1 assists in 3 appearances.
+- **[Jay Emmanuel-Thomas](/players/jay-emmanuel-thomas)** (Striker) — 7 goals and 3 assists in 5 appearances.
+- **[Kevin Weggen](/players/kevin-weggen)** (Midfielder) — 7 goals and 3 assists in 5 appearances.
+- **[Rodney Ajayi](/players/rodney-ajayi)** (Striker) — 6 goals and 0 assists in 5 appearances.
+- **[Emmanuel Robe](/players/emmanuel-robe)** (Striker) — 3 goals and 0 assists in 5 appearances.
+- **[Martyn Waghorn](/players/martyn-waghorn)** (Striker) — 3 goals and 0 assists in 3 appearances.
+- **[Adam Dawson](/players/adam-dawson)** (Midfielder) — 0 goals and 1 assists in 4 appearances.
 
 See the full squad on the [Deportrio team page](/teams/deportrio).
 

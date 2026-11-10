@@ -9,7 +9,7 @@ featured: false
 
 ## VZN FC: All-Time Baller League UK Record
 
-**VZN FC** have played **37** matches in Baller League UK across 4 seasons, winning **12**, drawing **6** and losing **19** — a win rate of **32%**. They have scored **116** goals and conceded **145** (goal difference **-29**).
+**VZN FC** have played **38** matches in Baller League UK across 4 seasons, winning **13**, drawing **6** and losing **19** — a win rate of **34%**. They have scored **124** goals and conceded **152** (goal difference **-28**).
 
 ## Season-by-season
 
@@ -18,17 +18,17 @@ featured: false
 | 1 | 7th | 11 | 4 | 3 | 4 | -8 | 19 |
 | 2 | 12th | 11 | 3 | 1 | 7 | -10 | 10 |
 | 3 | 10th | 11 | 3 | 2 | 6 | -6 | 11 |
-| 4 | 7th | 4 | 2 | 0 | 2 | -5 | 6 |
+| 4 | 6th | 5 | 3 | 0 | 2 | -4 | 9 |
 
-Their best finish came in **Season 1**, finishing **7th** on **19 points**.
+Their best finish came in **Season 4**, finishing **6th** on **9 points**.
 
 ## Top scorers (all-time club)
 
-- **[Florian Kastrati](/players/florian-kastrati)** — 28 goals, 6 assists
-- **[Eddie Allsopp](/players/eddie-allsopp)** — 4 goals, 1 assists
+- **[Florian Kastrati](/players/florian-kastrati)** — 29 goals, 6 assists
+- **[Eddie Allsopp](/players/eddie-allsopp)** — 5 goals, 1 assists
 - **[Frankie Leonard](/players/frankie-leonard)** — 3 goals, 4 assists
-- **[Danny Bassett](/players/danny-bassett)** — 2 goals, 1 assists
-- **[Terell Thomas](/players/terell-thomas)** — 2 goals, 0 assists
+- **[Stefan Ilic](/players/stefan-ilic)** — 3 goals, 5 assists
+- **[Dubem Eze](/players/dubem-eze)** — 3 goals, 1 assists
 
 ## Biggest win
 
@@ -36,7 +36,7 @@ VZN FC's biggest win was a **7-3** victory over **P17 FC** (Season 3).
 
 ## Highest-scoring game
 
-The most goals VZN FC have been involved in was a **13-goal** thriller: **VZN FC 7-6 N5 FC** (Season 1).
+The most goals VZN FC have been involved in was a **15-goal** thriller: **Deportrio 7-8 VZN FC** (Season 4).
 
 ## Follow VZN FC
 

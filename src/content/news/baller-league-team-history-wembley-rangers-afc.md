@@ -9,7 +9,7 @@ featured: false
 
 ## Wembley Rangers AFC: All-Time Baller League UK Record
 
-**Wembley Rangers AFC** have played **39** matches in Baller League UK across 4 seasons, winning **18**, drawing **6** and losing **15** — a win rate of **46%**. They have scored **132** goals and conceded **132** (goal difference **+0**).
+**Wembley Rangers AFC** have played **40** matches in Baller League UK across 4 seasons, winning **19**, drawing **6** and losing **15** — a win rate of **48%**. They have scored **133** goals and conceded **132** (goal difference **+1**).
 
 ## Season-by-season
 
@@ -18,7 +18,7 @@ featured: false
 | 1 | 10th | 11 | 3 | 2 | 6 | -6 | 11 |
 | 2 | 4th | 11 | 6 | 2 | 3 | +1 | 20 |
 | 3 | 5th | 11 | 5 | 2 | 4 | +0 | 18 |
-| 4 | 5th | 4 | 2 | 0 | 2 | +3 | 6 |
+| 4 | 4th | 5 | 3 | 0 | 2 | +4 | 9 |
 
 Their best finish came in **Season 2**, finishing **4th** on **20 points**.
 
@@ -26,7 +26,7 @@ Their best finish came in **Season 2**, finishing **4th** on **20 points**.
 
 - **[Domingos Pires](/players/domingos-pires)** — 36 goals, 8 assists
 - **[Chiekh Thiam](/players/chiekh-thiam)** — 20 goals, 5 assists
-- **[Callam Gardner](/players/callam-gardner)** — 14 goals, 1 assists
+- **[Callam Gardner](/players/callam-gardner)** — 15 goals, 1 assists
 - **[Sandro Camara](/players/sandro-camara)** — 13 goals, 2 assists
 - **[Kristian Campbell](/players/kristian-campbell)** — 5 goals, 2 assists
 

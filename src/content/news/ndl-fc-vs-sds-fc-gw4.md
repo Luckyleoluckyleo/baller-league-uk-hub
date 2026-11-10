@@ -112,35 +112,35 @@ The **The Line** window was the more impactful, its **3** goals shifting the bal
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Sam Fitzgerald | 7 | 1 | 4 |
-| Isaac Modi | 3 | 1 | 4 |
-| Josh Parker | 2 | 0 | 4 |
-| Taufee Skandari | 2 | 0 | 4 |
-| Dara Dada | 1 | 0 | 4 |
+| Sam Fitzgerald | 7 | 2 | 5 |
+| Dara Dada | 3 | 0 | 5 |
+| Isaac Modi | 3 | 1 | 5 |
+| Josh Parker | 2 | 0 | 5 |
+| Taufee Skandari | 2 | 0 | 5 |
 
 ### SDS FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kazaiah Sterling | 6 | 2 | 4 |
-| Ergys Pepaj | 4 | 2 | 4 |
-| Josh Bohui | 3 | 0 | 4 |
-| Amine Sassi | 2 | 1 | 4 |
-| Youssef Chentouf | 2 | 2 | 4 |
+| Kazaiah Sterling | 6 | 2 | 5 |
+| Ergys Pepaj | 4 | 2 | 5 |
+| Josh Bohui | 3 | 0 | 5 |
+| Amine Sassi | 2 | 1 | 5 |
+| Youssef Chentouf | 2 | 2 | 5 |
 
 **Key Attacking Threats**
 
-- **Sam Fitzgerald** — NDL FC's talisman with **7 goals** from **4 appearances** and **1 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Kazaiah Sterling** — SDS FC's leading marksman with **6 goals** from **4 outings**, plus **2 assists**. SDS FC look to him whenever they need a moment of magic in the final third.
+- **Sam Fitzgerald** — NDL FC's talisman with **7 goals** from **5 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Kazaiah Sterling** — SDS FC's leading marksman with **6 goals** from **5 outings**, plus **2 assists**. SDS FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **7 gameweeks** left in the regular season, the stakes couldn't have been higher. **NDL FC** entered this match averaging **4.0 goals per game** — a number that reflected their struggles in front of goal this campaign. **SDS FC**, by contrast, arrived with an average of **4.3 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **7 gameweeks** left in the regular season, the stakes couldn't have been higher. **NDL FC** entered this match averaging **3.8 goals per game** — a number that reflected their struggles in front of goal this campaign. **SDS FC**, by contrast, arrived with an average of **3.4 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **8.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.9 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 

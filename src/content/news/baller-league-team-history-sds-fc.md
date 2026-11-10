@@ -9,7 +9,7 @@ featured: false
 
 ## SDS FC: All-Time Baller League UK Record
 
-**SDS FC** have played **42** matches in Baller League UK across 4 seasons, winning **23**, drawing **8** and losing **11** — a win rate of **55%**. They have scored **164** goals and conceded **127** (goal difference **+37**).
+**SDS FC** have played **43** matches in Baller League UK across 4 seasons, winning **23**, drawing **8** and losing **12** — a win rate of **53%**. They have scored **164** goals and conceded **128** (goal difference **+36**).
 
 ## Season-by-season
 
@@ -18,7 +18,7 @@ featured: false
 | 1 | 4th | 11 | 6 | 1 | 4 | +12 | 20 |
 | 2 | 3rd | 11 | 6 | 2 | 3 | +4 | 20 |
 | 3 | 4th | 11 | 5 | 4 | 2 | +11 | 20 |
-| 4 | 1st | 4 | 3 | 1 | 0 | +8 | 12 |
+| 4 | 1st | 5 | 3 | 1 | 1 | +7 | 12 |
 
 Their best finish came in **Season 4**, finishing **1st** on **12 points**.
 

@@ -32,12 +32,12 @@ SDS FC are led by [Sharky](/managers/sharky). Their experience and personality w
 
 Here are some of SDS FC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Kazaiah Sterling](/players/kazaiah-sterling)** (Midfielder) — 6 goals and 2 assists in 4 appearances.
-- **[Ergys Pepaj](/players/ergys-pepaj)** (Midfielder) — 4 goals and 2 assists in 4 appearances.
-- **[Josh Bohui](/players/joshua-bohui)** (Striker) — 3 goals and 0 assists in 4 appearances.
-- **[Amine Sassi](/players/amine-sassi)** (Midfielder) — 2 goals and 1 assists in 4 appearances.
-- **[Youssef Chentouf](/players/youssef-chentouf)** (Striker) — 2 goals and 2 assists in 4 appearances.
-- **[Nya Kirby](/players/nya-kirby)** (Midfielder) — 0 goals and 0 assists in 3 appearances.
+- **[Kazaiah Sterling](/players/kazaiah-sterling)** (Midfielder) — 6 goals and 2 assists in 5 appearances.
+- **[Ergys Pepaj](/players/ergys-pepaj)** (Midfielder) — 4 goals and 2 assists in 5 appearances.
+- **[Josh Bohui](/players/joshua-bohui)** (Striker) — 3 goals and 0 assists in 5 appearances.
+- **[Amine Sassi](/players/amine-sassi)** (Midfielder) — 2 goals and 1 assists in 5 appearances.
+- **[Youssef Chentouf](/players/youssef-chentouf)** (Striker) — 2 goals and 2 assists in 5 appearances.
+- **[Nya Kirby](/players/nya-kirby)** (Midfielder) — 0 goals and 0 assists in 4 appearances.
 
 See the full squad on the [SDS FC team page](/teams/sds-fc).
 

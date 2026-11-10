@@ -128,35 +128,35 @@ The **3Play** activation was particularly devastating, producing **4** goals tha
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Jay Emmanuel-Thomas | 7 | 2 | 4 |
-| Rodney Ajayi | 6 | 0 | 4 |
-| Kevin Weggen | 3 | 3 | 4 |
-| Emmanuel Robe | 2 | 0 | 4 |
-| Martyn Waghorn | 1 | 0 | 2 |
+| Jay Emmanuel-Thomas | 7 | 3 | 5 |
+| Kevin Weggen | 7 | 3 | 5 |
+| Rodney Ajayi | 6 | 0 | 5 |
+| Emmanuel Robe | 3 | 0 | 5 |
+| Martyn Waghorn | 3 | 0 | 3 |
 
 ### Wembley Rangers AFC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Domingos Pires | 5 | 1 | 4 |
-| Callam Gardner | 5 | 0 | 4 |
-| Chiekh Thiam | 4 | 1 | 4 |
-| Dominic Morgan-Griffiths | 1 | 2 | 4 |
-| Adrian Tajik | 1 | 0 | 3 |
+| Callam Gardner | 6 | 0 | 5 |
+| Domingos Pires | 5 | 1 | 5 |
+| Chiekh Thiam | 4 | 1 | 5 |
+| Dominic Morgan-Griffiths | 1 | 2 | 5 |
+| Adrian Tajik | 1 | 0 | 4 |
 
 **Key Attacking Threats**
 
-- **Jay Emmanuel-Thomas** — Deportrio's talisman with **7 goals** from **4 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Domingos Pires** — Wembley Rangers AFC's leading marksman with **5 goals** from **4 outings**, plus **1 assists**. Still finding his rhythm but showing promising signs.
+- **Jay Emmanuel-Thomas** — Deportrio's talisman with **7 goals** from **5 appearances** and **3 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Callam Gardner** — Wembley Rangers AFC's leading marksman with **6 goals** from **5 outings**. Wembley Rangers AFC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **Deportrio** entered this match averaging **4.8 goals per game** — a number that reflected their struggles in front of goal this campaign. **Wembley Rangers AFC**, by contrast, arrived with an average of **4.8 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **Deportrio** entered this match averaging **5.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **Wembley Rangers AFC**, by contrast, arrived with an average of **4.0 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **8.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.9 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 

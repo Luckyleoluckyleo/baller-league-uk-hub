@@ -27,7 +27,7 @@ Kieron Freeman built his professional career at Sheffield United, Nottingham For
 
 | Season | Apps | Goals | Assists |
 |--------|------|-------|---------|
-| 4 | 3 | 0 | 1 |
+| 4 | 4 | 0 | 1 |
 
 See his full stats on his [player profile](/players/kieron-freeman).
 

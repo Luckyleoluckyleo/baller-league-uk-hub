@@ -2,7 +2,7 @@
 title: "NDL FC See Off Clutch FC 3-6 in Gameweek 3"
 date: 2026-10-26
 category: "Match Report"
-excerpt: "Clutch FC 3-6 NDL FC — Gameweek 3 match report. Tyler Winters (6 goals) leads Clutch FC's attack. Game Changers: Plus One (2) & The Line (2). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Clutch FC 3-6 NDL FC — Gameweek 3 match report. Tyler Winters (9 goals) leads Clutch FC's attack. Game Changers: Plus One (2) & The Line (2). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -115,35 +115,35 @@ Matches where the GC contributes this significantly tend to be remembered — th
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Tyler Winters | 6 | 3 | 4 |
-| Alex Byrne | 6 | 0 | 4 |
-| Alfie Matthews | 3 | 5 | 4 |
-| Joshua Sumbunu | 3 | 0 | 4 |
-| Erick Kenko | 1 | 0 | 3 |
+| Tyler Winters | 9 | 3 | 5 |
+| Alex Byrne | 6 | 1 | 5 |
+| Alfie Matthews | 3 | 7 | 5 |
+| Joshua Sumbunu | 3 | 0 | 5 |
+| Richard Afrane-Kesey | 1 | 0 | 4 |
 
 ### NDL FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Sam Fitzgerald | 7 | 1 | 4 |
-| Isaac Modi | 3 | 1 | 4 |
-| Josh Parker | 2 | 0 | 4 |
-| Taufee Skandari | 2 | 0 | 4 |
-| Dara Dada | 1 | 0 | 4 |
+| Sam Fitzgerald | 7 | 2 | 5 |
+| Dara Dada | 3 | 0 | 5 |
+| Isaac Modi | 3 | 1 | 5 |
+| Josh Parker | 2 | 0 | 5 |
+| Taufee Skandari | 2 | 0 | 5 |
 
 **Key Attacking Threats**
 
-- **Tyler Winters** — Clutch FC's talisman with **6 goals** from **4 appearances** and **3 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Sam Fitzgerald** — NDL FC's leading marksman with **7 goals** from **4 outings**, plus **1 assists**. NDL FC look to him whenever they need a moment of magic in the final third.
+- **Tyler Winters** — Clutch FC's talisman with **9 goals** from **5 appearances** and **3 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Sam Fitzgerald** — NDL FC's leading marksman with **7 goals** from **5 outings**, plus **2 assists**. NDL FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **Clutch FC** entered this match averaging **5.0 goals per game** — a number that reflected their struggles in front of goal this campaign. **NDL FC**, by contrast, arrived with an average of **4.0 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **Clutch FC** entered this match averaging **4.8 goals per game** — a number that reflected their struggles in front of goal this campaign. **NDL FC**, by contrast, arrived with an average of **3.8 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **8.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.9 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 

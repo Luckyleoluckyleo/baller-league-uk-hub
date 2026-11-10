@@ -28,7 +28,7 @@ Ciaran Clark built his professional career at Aston Villa, Newcastle United and 
 
 | Season | Apps | Goals | Assists |
 |--------|------|-------|---------|
-| 4 | 4 | 1 | 2 |
+| 4 | 5 | 1 | 2 |
 
 See his full stats on his [player profile](/players/ciaran-clark).
 

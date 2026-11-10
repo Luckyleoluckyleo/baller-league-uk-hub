@@ -2,7 +2,7 @@
 title: "Prime FC See Off N5 FC 5-3 in Gameweek 2"
 date: 2026-10-19
 category: "Match Report"
-excerpt: "Prime FC 5-3 N5 FC — Gameweek 2 match report. Timmy Abraham (5 goals) leads Prime FC's attack. Game Changers: Plus One (3) & The Line (2). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Prime FC 5-3 N5 FC — Gameweek 2 match report. Timmy Abraham (6 goals) leads Prime FC's attack. Game Changers: Plus One (3) & The Line (2). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -116,35 +116,35 @@ The **Plus One** window was the more impactful, its **3** goals shifting the bal
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Timmy Abraham | 5 | 0 | 4 |
-| Francis Mampolo | 3 | 2 | 4 |
-| Salim Nassor | 2 | 0 | 2 |
-| Montel McKenzie | 1 | 1 | 4 |
-| Mauro Vilhete | 1 | 1 | 4 |
+| Timmy Abraham | 6 | 0 | 5 |
+| Francis Mampolo | 3 | 2 | 5 |
+| Salim Nassor | 3 | 0 | 3 |
+| Montel McKenzie | 1 | 1 | 5 |
+| Mauro Vilhete | 1 | 1 | 5 |
 
 ### N5 FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Hani Berchiche | 3 | 0 | 4 |
-| Joe Bennett | 2 | 2 | 4 |
-| Michael Hill | 2 | 1 | 4 |
-| Francis Amartey | 2 | 1 | 3 |
-| Billy Sharp | 1 | 0 | 3 |
+| Joe Bennett | 3 | 2 | 5 |
+| Francis Amartey | 3 | 1 | 4 |
+| Hani Berchiche | 3 | 1 | 5 |
+| Michael Hill | 2 | 1 | 5 |
+| Billy Sharp | 2 | 0 | 4 |
 
 **Key Attacking Threats**
 
-- **Timmy Abraham** — Prime FC's talisman with **5 goals** from **4 appearances**. A developing attacking presence with room to grow.
-- **Hani Berchiche** — N5 FC's leading marksman with **3 goals** from **4 outings**. Still finding his rhythm but showing promising signs.
+- **Timmy Abraham** — Prime FC's talisman with **6 goals** from **5 appearances**. A reliable and consistent outlet who defences have learned to fear.
+- **Joe Bennett** — N5 FC's leading marksman with **3 goals** from **5 outings**, plus **2 assists**. Still finding his rhythm but showing promising signs.
 
 
 ---
 
 ## Season Context
 
-With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **Prime FC** entered this match averaging **3.5 goals per game** — a number that reflected their struggles in front of goal this campaign. **N5 FC**, by contrast, arrived with an average of **2.8 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **Prime FC** entered this match averaging **3.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **N5 FC**, by contrast, arrived with an average of **3.2 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **8.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.9 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 

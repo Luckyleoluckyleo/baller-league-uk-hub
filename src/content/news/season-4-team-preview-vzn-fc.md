@@ -9,7 +9,7 @@ faqs:
   - q: "Who manages VZN FC in Baller League UK Season 4?"
     a: "VZN FC are managed by Tobi Brown (TBJZL)."
   - q: "Who are VZN FC's key players?"
-    a: "Florian Kastrati, Terell Thomas, Dubem Eze are among the players to watch for VZN FC in Season 4."
+    a: "Florian Kastrati, Stefan Ilic, Dubem Eze are among the players to watch for VZN FC in Season 4."
   - q: "When do VZN FC play next?"
     a: "The next VZN FC fixture has not yet been confirmed."
   - q: "Where did VZN FC finish last season?"
@@ -32,12 +32,12 @@ VZN FC are led by [Tobi Brown (TBJZL)](/managers/tobi-brown-tbjzl). Their experi
 
 Here are some of VZN FC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Florian Kastrati](/players/florian-kastrati)** (Midfielder) — 4 goals and 1 assists in 4 appearances.
-- **[Terell Thomas](/players/terell-thomas)** (Defender) — 2 goals and 0 assists in 3 appearances.
-- **[Dubem Eze](/players/dubem-eze)** (Midfielder) — 2 goals and 1 assists in 3 appearances.
-- **[Eddie Simon](/players/eddie-simon)** (Striker) — 2 goals and 1 assists in 4 appearances.
-- **[Stefan Ilic](/players/stefan-ilic)** (Midfielder) — 1 goals and 3 assists in 4 appearances.
-- **[Danny Bassett](/players/danny-bassett)** (Striker) — 1 goals and 1 assists in 4 appearances.
+- **[Florian Kastrati](/players/florian-kastrati)** (Midfielder) — 5 goals and 1 assists in 5 appearances.
+- **[Stefan Ilic](/players/stefan-ilic)** (Midfielder) — 3 goals and 5 assists in 5 appearances.
+- **[Dubem Eze](/players/dubem-eze)** (Midfielder) — 3 goals and 1 assists in 4 appearances.
+- **[Terell Thomas](/players/terell-thomas)** (Defender) — 2 goals and 0 assists in 4 appearances.
+- **[Zion Nditi](/players/zion-nditi)** (Defender) — 2 goals and 0 assists in 4 appearances.
+- **[Eddie Allsopp](/players/eddie-allsopp)** (Midfielder) — 2 goals and 1 assists in 5 appearances.
 
 See the full squad on the [VZN FC team page](/teams/vzn-fc).
 

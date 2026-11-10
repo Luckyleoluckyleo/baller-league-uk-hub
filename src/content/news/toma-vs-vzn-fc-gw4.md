@@ -2,7 +2,7 @@
 title: "VZN FC Beat Toma 4-6 in Entertaining GW4 Clash"
 date: 2026-11-02
 category: "Match Report"
-excerpt: "Toma 4-6 VZN FC — Gameweek 4 match report. Joshua Phillips (2 goals) leads Toma's attack. Game Changers: 3Play (2) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Toma 4-6 VZN FC — Gameweek 4 match report. Junior Dixon (4 goals) leads Toma's attack. Game Changers: 3Play (2) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: true
 ---
@@ -120,35 +120,35 @@ The **3Play** window was the more impactful, its **2** goals shifting the balanc
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Joshua Phillips | 2 | 0 | 4 |
-| Yasin Ben El-Mhanni | 2 | 0 | 4 |
-| Junior Dixon | 2 | 1 | 3 |
+| Junior Dixon | 4 | 2 | 4 |
+| Joshua Phillips | 3 | 1 | 5 |
+| Yasin Ben El-Mhanni | 2 | 0 | 5 |
 | Arezki Hamouchene | 2 | 0 | 4 |
-| Ibrahim Bangura | 2 | 1 | 4 |
+| Ibrahim Bangura | 2 | 1 | 5 |
 
 ### VZN FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Florian Kastrati | 4 | 1 | 4 |
-| Terell Thomas | 2 | 0 | 3 |
-| Dubem Eze | 2 | 1 | 3 |
-| Eddie Simon | 2 | 1 | 4 |
-| Stefan Ilic | 1 | 3 | 4 |
+| Florian Kastrati | 5 | 1 | 5 |
+| Stefan Ilic | 3 | 5 | 5 |
+| Dubem Eze | 3 | 1 | 4 |
+| Terell Thomas | 2 | 0 | 4 |
+| Zion Nditi | 2 | 0 | 4 |
 
 **Key Attacking Threats**
 
-- **Joshua Phillips** — Toma's talisman with **2 goals** from **4 appearances**. A developing attacking presence with room to grow.
-- **Florian Kastrati** — VZN FC's leading marksman with **4 goals** from **4 outings**, plus **1 assists**. Still finding his rhythm but showing promising signs.
+- **Junior Dixon** — Toma's talisman with **4 goals** from **4 appearances** and **2 assists**. A developing attacking presence with room to grow.
+- **Florian Kastrati** — VZN FC's leading marksman with **5 goals** from **5 outings**, plus **1 assists**. Still finding his rhythm but showing promising signs.
 
 
 ---
 
 ## Season Context
 
-With **7 gameweeks** left in the regular season, the stakes couldn't have been higher. **Toma** entered this match averaging **3.8 goals per game** — a number that reflected their struggles in front of goal this campaign. **VZN FC**, by contrast, arrived with an average of **3.3 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **7 gameweeks** left in the regular season, the stakes couldn't have been higher. **Toma** entered this match averaging **3.8 goals per game** — a number that reflected their struggles in front of goal this campaign. **VZN FC**, by contrast, arrived with an average of **4.2 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **8.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.9 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 

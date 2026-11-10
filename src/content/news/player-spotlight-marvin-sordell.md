@@ -28,7 +28,7 @@ Marvin Sordell built his professional career at Watford, Bolton Wanderers, Burnl
 
 | Season | Apps | Goals | Assists |
 |--------|------|-------|---------|
-| 4 | 3 | 0 | 0 |
+| 4 | 4 | 0 | 0 |
 
 See his full stats on his [player profile](/players/marvin-sordell).
 

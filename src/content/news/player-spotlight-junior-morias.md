@@ -23,7 +23,7 @@ Junior Morias built his professional career at Peterborough United, Dagenham & R
 
 | Season | Apps | Goals | Assists |
 |--------|------|-------|---------|
-| 4 | 1 | 0 | 0 |
+| 4 | 2 | 0 | 0 |
 
 See his full stats on his [player profile](/players/junior-morias).
 

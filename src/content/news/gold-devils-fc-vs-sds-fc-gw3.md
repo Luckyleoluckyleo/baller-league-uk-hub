@@ -2,7 +2,7 @@
 title: "SDS FC Edge Gold Devils FC 4-5 in GW3 Thriller"
 date: 2026-10-26
 category: "Match Report"
-excerpt: "Gold Devils FC 4-5 SDS FC — Gameweek 3 match report. Tarik Gidaree (5 goals) leads Gold Devils FC's attack. Game Changers: Plus One (4) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Gold Devils FC 4-5 SDS FC — Gameweek 3 match report. Bilal Sayoud (5 goals) leads Gold Devils FC's attack. Game Changers: Plus One (4) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -118,35 +118,35 @@ The **Plus One** activation was particularly devastating, producing **4** goals 
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Tarik Gidaree | 5 | 0 | 4 |
-| Bilal Sayoud | 3 | 2 | 4 |
-| Connor Wood | 1 | 3 | 4 |
-| Marvel Ekpiteta | 1 | 0 | 4 |
-| Dimitri Nicolaou | 1 | 0 | 4 |
+| Bilal Sayoud | 5 | 2 | 5 |
+| Tarik Gidaree | 5 | 1 | 5 |
+| Connor Wood | 2 | 3 | 5 |
+| Luke May-Parrott | 2 | 2 | 3 |
+| Marvel Ekpiteta | 1 | 0 | 5 |
 
 ### SDS FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kazaiah Sterling | 6 | 2 | 4 |
-| Ergys Pepaj | 4 | 2 | 4 |
-| Josh Bohui | 3 | 0 | 4 |
-| Amine Sassi | 2 | 1 | 4 |
-| Youssef Chentouf | 2 | 2 | 4 |
+| Kazaiah Sterling | 6 | 2 | 5 |
+| Ergys Pepaj | 4 | 2 | 5 |
+| Josh Bohui | 3 | 0 | 5 |
+| Amine Sassi | 2 | 1 | 5 |
+| Youssef Chentouf | 2 | 2 | 5 |
 
 **Key Attacking Threats**
 
-- **Tarik Gidaree** — Gold Devils FC's talisman with **5 goals** from **4 appearances**. A developing attacking presence with room to grow.
-- **Kazaiah Sterling** — SDS FC's leading marksman with **6 goals** from **4 outings**, plus **2 assists**. SDS FC look to him whenever they need a moment of magic in the final third.
+- **Bilal Sayoud** — Gold Devils FC's talisman with **5 goals** from **5 appearances** and **2 assists**. A developing attacking presence with room to grow.
+- **Kazaiah Sterling** — SDS FC's leading marksman with **6 goals** from **5 outings**, plus **2 assists**. SDS FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **Gold Devils FC** entered this match averaging **3.3 goals per game** — a number that reflected their struggles in front of goal this campaign. **SDS FC**, by contrast, arrived with an average of **4.3 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **Gold Devils FC** entered this match averaging **3.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **SDS FC**, by contrast, arrived with an average of **3.4 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **8.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.9 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 

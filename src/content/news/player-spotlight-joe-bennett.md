@@ -27,7 +27,7 @@ Joe Bennett built his professional career at Aston Villa, Cardiff City, Blackbur
 
 | Season | Apps | Goals | Assists |
 |--------|------|-------|---------|
-| 4 | 4 | 2 | 2 |
+| 4 | 5 | 3 | 2 |
 
 See his full stats on his [player profile](/players/joe-bennett).
 

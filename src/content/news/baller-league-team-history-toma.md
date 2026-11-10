@@ -9,23 +9,23 @@ featured: false
 
 ## Toma: All-Time Baller League UK Record
 
-**Toma** have played **4** matches in Baller League UK across 4 seasons, winning **0**, drawing **2** and losing **2** — a win rate of **0%**. They have scored **15** goals and conceded **19** (goal difference **-4**).
+**Toma** have played **5** matches in Baller League UK across 4 seasons, winning **0**, drawing **2** and losing **3** — a win rate of **0%**. They have scored **19** goals and conceded **24** (goal difference **-5**).
 
 ## Season-by-season
 
 | Season | Pos | Pld | W | D | L | GD | Pts |
 |--------|-----|-----|---|---|---|----|-----|
-| 4 | 12th | 4 | 0 | 2 | 2 | -4 | 2 |
+| 4 | 12th | 5 | 0 | 2 | 3 | -5 | 2 |
 
 Their best finish came in **Season 4**, finishing **12th** on **2 points**.
 
 ## Top scorers (all-time club)
 
-- **[Joshua Phillips](/players/joshua-phillips)** — 2 goals, 0 assists
+- **[Junior Dixon](/players/junior-dixon)** — 4 goals, 2 assists
+- **[Joshua Phillips](/players/joshua-phillips)** — 3 goals, 1 assists
 - **[Yasin Ben El-Mhanni](/players/yasin-ben-el-mhanni)** — 2 goals, 0 assists
 - **[Praise Ogbebor](/players/praise-ogbebor)** — 2 goals, 1 assists
 - **[Ibrahim Bangura](/players/ibrahim-bangura)** — 2 goals, 1 assists
-- **[Junior Dixon](/players/junior-dixon)** — 2 goals, 1 assists
 
 ## Highest-scoring game
 

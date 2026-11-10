@@ -9,7 +9,7 @@ faqs:
   - q: "Who manages Wembley Rangers AFC in Baller League UK Season 4?"
     a: "The Wembley Rangers AFC manager has not yet been confirmed."
   - q: "Who are Wembley Rangers AFC's key players?"
-    a: "Domingos Pires, Callam Gardner, Chiekh Thiam are among the players to watch for Wembley Rangers AFC in Season 4."
+    a: "Callam Gardner, Domingos Pires, Chiekh Thiam are among the players to watch for Wembley Rangers AFC in Season 4."
   - q: "When do Wembley Rangers AFC play next?"
     a: "The next Wembley Rangers AFC fixture has not yet been confirmed."
   - q: "Where did Wembley Rangers AFC finish last season?"
@@ -32,12 +32,12 @@ Wembley Rangers AFC's manager has not yet been confirmed by the league. Keep an 
 
 Here are some of Wembley Rangers AFC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Domingos Pires](/players/domingos-pires)** (Striker) — 5 goals and 1 assists in 4 appearances.
-- **[Callam Gardner](/players/callam-gardner)** (Striker) — 5 goals and 0 assists in 4 appearances.
-- **[Chiekh Thiam](/players/chiekh-thiam)** (Defender) — 4 goals and 1 assists in 4 appearances.
-- **[Dominic Morgan-Griffiths](/players/dominic-morgan-griffiths)** (Midfielder) — 1 goals and 2 assists in 4 appearances.
-- **[Adrian Tajik](/players/adrian-tajik)** (Striker) — 1 goals and 0 assists in 3 appearances.
-- **[Finlay Chadwick](/players/finlay-chadwick)** (Midfielder) — 1 goals and 1 assists in 2 appearances.
+- **[Callam Gardner](/players/callam-gardner)** (Striker) — 6 goals and 0 assists in 5 appearances.
+- **[Domingos Pires](/players/domingos-pires)** (Striker) — 5 goals and 1 assists in 5 appearances.
+- **[Chiekh Thiam](/players/chiekh-thiam)** (Defender) — 4 goals and 1 assists in 5 appearances.
+- **[Dominic Morgan-Griffiths](/players/dominic-morgan-griffiths)** (Midfielder) — 1 goals and 2 assists in 5 appearances.
+- **[Adrian Tajik](/players/adrian-tajik)** (Striker) — 1 goals and 0 assists in 4 appearances.
+- **[Finlay Chadwick](/players/finlay-chadwick)** (Midfielder) — 1 goals and 1 assists in 3 appearances.
 
 See the full squad on the [Wembley Rangers AFC team page](/teams/wembley-rangers-afc).
 

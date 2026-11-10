@@ -2,7 +2,7 @@
 title: "Gold Devils FC Beat Toma 1-3 in Entertaining GW1 Clash"
 date: 2026-10-12
 category: "Match Report"
-excerpt: "Toma 1-3 Gold Devils FC — Gameweek 1 match report. Joshua Phillips (2 goals) leads Toma's attack. Game Changers: Plus One (2) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Toma 1-3 Gold Devils FC — Gameweek 1 match report. Junior Dixon (4 goals) leads Toma's attack. Game Changers: Plus One (2) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -100,35 +100,35 @@ The **Plus One** window was the more impactful, its **2** goals shifting the bal
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Joshua Phillips | 2 | 0 | 4 |
-| Yasin Ben El-Mhanni | 2 | 0 | 4 |
-| Junior Dixon | 2 | 1 | 3 |
+| Junior Dixon | 4 | 2 | 4 |
+| Joshua Phillips | 3 | 1 | 5 |
+| Yasin Ben El-Mhanni | 2 | 0 | 5 |
 | Arezki Hamouchene | 2 | 0 | 4 |
-| Ibrahim Bangura | 2 | 1 | 4 |
+| Ibrahim Bangura | 2 | 1 | 5 |
 
 ### Gold Devils FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Tarik Gidaree | 5 | 0 | 4 |
-| Bilal Sayoud | 3 | 2 | 4 |
-| Connor Wood | 1 | 3 | 4 |
-| Marvel Ekpiteta | 1 | 0 | 4 |
-| Dimitri Nicolaou | 1 | 0 | 4 |
+| Bilal Sayoud | 5 | 2 | 5 |
+| Tarik Gidaree | 5 | 1 | 5 |
+| Connor Wood | 2 | 3 | 5 |
+| Luke May-Parrott | 2 | 2 | 3 |
+| Marvel Ekpiteta | 1 | 0 | 5 |
 
 **Key Attacking Threats**
 
-- **Joshua Phillips** — Toma's talisman with **2 goals** from **4 appearances**. A developing attacking presence with room to grow.
-- **Tarik Gidaree** — Gold Devils FC's leading marksman with **5 goals** from **4 outings**. Still finding his rhythm but showing promising signs.
+- **Junior Dixon** — Toma's talisman with **4 goals** from **4 appearances** and **2 assists**. A developing attacking presence with room to grow.
+- **Bilal Sayoud** — Gold Devils FC's leading marksman with **5 goals** from **5 outings**, plus **2 assists**. Still finding his rhythm but showing promising signs.
 
 
 ---
 
 ## Season Context
 
-With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **Toma** entered this match averaging **3.8 goals per game** — a number that reflected their struggles in front of goal this campaign. **Gold Devils FC**, by contrast, arrived with an average of **3.3 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **Toma** entered this match averaging **3.8 goals per game** — a number that reflected their struggles in front of goal this campaign. **Gold Devils FC**, by contrast, arrived with an average of **3.4 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **8.2 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.9 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
