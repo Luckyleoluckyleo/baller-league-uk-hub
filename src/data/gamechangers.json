@@ -16289,7 +16289,7 @@
             },
             {
               "name": "Adam Hamdi",
-              "team": null,
+              "team": "gold-devils-fc",
               "goals": 0,
               "assists": 0,
               "shots": 1,
@@ -19701,7 +19701,7 @@
             },
             {
               "name": "Niklas Reichel",
-              "team": null,
+              "team": "ndl-fc",
               "goals": 0,
               "assists": 2,
               "shots": 1,
@@ -20076,7 +20076,7 @@
             },
             {
               "name": "Niklas Reichel",
-              "team": null,
+              "team": "ndl-fc",
               "goals": 0,
               "assists": 0,
               "shots": 0,
@@ -21430,7 +21430,7 @@
             },
             {
               "name": "Niklas Reichel",
-              "team": null,
+              "team": "ndl-fc",
               "goals": 0,
               "assists": 1,
               "shots": 1,
@@ -22110,7 +22110,7 @@
             },
             {
               "name": "Niklas Reichel",
-              "team": null,
+              "team": "ndl-fc",
               "goals": 0,
               "assists": 0,
               "shots": 0,
@@ -25350,7 +25350,7 @@
             },
             {
               "name": "Niklas Reichel",
-              "team": null,
+              "team": "ndl-fc",
               "goals": 0,
               "assists": 0,
               "shots": 1,
@@ -26214,7 +26214,7 @@
             },
             {
               "name": "Niklas Reichel",
-              "team": null,
+              "team": "ndl-fc",
               "goals": 0,
               "assists": 0,
               "shots": 0,
@@ -28922,7 +28922,7 @@
             },
             {
               "name": "Niklas Reichel",
-              "team": null,
+              "team": "ndl-fc",
               "goals": 0,
               "assists": 0,
               "shots": 0,
@@ -29098,7 +29098,7 @@
             },
             {
               "name": "Niklas Reichel",
-              "team": null,
+              "team": "ndl-fc",
               "goals": 0,
               "assists": 0,
               "shots": 0,
@@ -31414,7 +31414,7 @@
             },
             {
               "name": "Niklas Reichel",
-              "team": null,
+              "team": "ndl-fc",
               "goals": 0,
               "assists": 0,
               "shots": 0,
@@ -32834,7 +32834,7 @@
             },
             {
               "name": "Niklas Reichel",
-              "team": null,
+              "team": "ndl-fc",
               "goals": 0,
               "assists": 0,
               "shots": 1,
@@ -34858,7 +34858,7 @@
             },
             {
               "name": "Niklas Reichel",
-              "team": null,
+              "team": "ndl-fc",
               "goals": 0,
               "assists": 0,
               "shots": 0,
@@ -36650,7 +36650,7 @@
             },
             {
               "name": "Niklas Reichel",
-              "team": null,
+              "team": "ndl-fc",
               "goals": 0,
               "assists": 0,
               "shots": 0,
@@ -39258,7 +39258,7 @@
             },
             {
               "name": "Niklas Reichel",
-              "team": null,
+              "team": "ndl-fc",
               "goals": 0,
               "assists": 0,
               "shots": 0,
@@ -66654,7 +66654,7 @@
             },
             {
               "name": "Charlie Taylor",
-              "team": null,
+              "team": "clutch-fc",
               "goals": 0,
               "assists": 0,
               "shots": 0,
@@ -67938,7 +67938,7 @@
             },
             {
               "name": "Ruben Santos",
-              "team": null,
+              "team": "toma",
               "goals": 0,
               "assists": 0,
               "shots": 6,
@@ -68337,7 +68337,7 @@
           "awayScore": 4,
           "gamechanger1": {
             "type": "plusone",
-            "goalsScored": 1
+            "goalsScored": 2
           },
           "gamechanger2": {
             "type": "theline",
@@ -68378,7 +68378,7 @@
               "penalties": 0,
               "redCards": 0,
               "corners": 0,
-              "passes": 6
+              "passes": 5
             },
             {
               "name": "Connor Wood",
@@ -68390,7 +68390,7 @@
               "penalties": 0,
               "redCards": 0,
               "corners": 1,
-              "passes": 14
+              "passes": 15
             },
             {
               "name": "Richard Afrane-Kesey",
@@ -68414,7 +68414,7 @@
               "penalties": 0,
               "redCards": 0,
               "corners": 0,
-              "passes": 41
+              "passes": 40
             },
             {
               "name": "Tarik Gidaree",
@@ -68438,7 +68438,7 @@
               "penalties": 0,
               "redCards": 0,
               "corners": 0,
-              "passes": 28
+              "passes": 29
             },
             {
               "name": "Marvel Ekpiteta",
@@ -68466,7 +68466,7 @@
             },
             {
               "name": "Adam Hamdi",
-              "team": null,
+              "team": "gold-devils-fc",
               "goals": 0,
               "assists": 0,
               "shots": 0,
@@ -68510,11 +68510,11 @@
               "penalties": 0,
               "redCards": 0,
               "corners": 0,
-              "passes": 5
+              "passes": 6
             },
             {
               "name": "Charlie Taylor",
-              "team": null,
+              "team": "clutch-fc",
               "goals": 0,
               "assists": 0,
               "shots": 0,
@@ -68522,7 +68522,7 @@
               "penalties": 0,
               "redCards": 0,
               "corners": 0,
-              "passes": 59
+              "passes": 60
             },
             {
               "name": "Joshua Sumbunu",
@@ -68562,7 +68562,7 @@
             },
             {
               "name": "Abdullah Ali Jama Telli",
-              "team": null,
+              "team": "clutch-fc",
               "goals": 0,
               "assists": 0,
               "shots": 2,
@@ -68591,11 +68591,11 @@
               "player": "Connor Wood"
             },
             {
-              "minute": 17,
+              "minute": 14,
               "player": "Bilal Sayoud"
             },
             {
-              "minute": 13,
+              "minute": 12,
               "player": "Richard Afrane-Kesey"
             },
             {
@@ -69106,7 +69106,7 @@
             },
             {
               "name": "Niklas Reichel",
-              "team": null,
+              "team": "ndl-fc",
               "goals": 0,
               "assists": 0,
               "shots": 2,
