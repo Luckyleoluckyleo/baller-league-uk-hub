@@ -1,15 +1,15 @@
 ---
 title: "Gameweek 6 Preview: NDL FC vs Toma — Team News, Key Players & Prediction"
-date: 2026-11-10
+date: 2026-11-11
 category: "Preview"
-excerpt: "NDL FC meet Toma in Gameweek 6 of Baller League UK Season 4 on 16 November 2026 (21:50). Team news, key players, head-to-head and our prediction."
+excerpt: "NDL FC meet Toma in Gameweek 6 of Baller League UK Season 4 on 16 November 2026 (18:05). Team news, key players, head-to-head and our prediction."
 author: "Baller League UK Hub"
 featured: false
 ---
 
 ## NDL FC vs Toma — Gameweek 6 Preview
 
-**NDL FC** host **Toma** in Gameweek 6 of Baller League UK Season 4 on **16 November 2026**, with kick-off at **21:50**. Both sides are looking to build momentum at the Baller League Arena in Dagenham, with the usual mix of fast 6v6 football, celebrity dugouts and the game-changing rule twists that make the league so watchable.
+**NDL FC** host **Toma** in Gameweek 6 of Baller League UK Season 4 on **16 November 2026**, with kick-off at **18:05**. Both sides are looking to build momentum at the Baller League Arena in Dagenham, with the usual mix of fast 6v6 football, celebrity dugouts and the game-changing rule twists that make the league so watchable.
 
 Every point matters in Season 4. With the top four reaching the Final Four at the end of the regular season, NDL FC and Toma both know this is a chance to climb the table.
 
