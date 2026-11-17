@@ -47,11 +47,11 @@ The goals arrived in a dramatic sequence that told the story of the match:
 - **9′** — **Arezki Hamouchene** (Toma) scored
 - **16′** — **Arezki Hamouchene** (Toma) scored
 - **18′** — **Dan Wishart** (RTG FC) scored
-- **19′** — **Kadell Daniel** (RTG FC) struck
+- **19′** — **Kadell Daniel** (Toma) struck
 - **24′** — **Praise Ogbebor** (Toma) struck
 - **27′** — **Junior Dixon** (Toma) netted
-- **27′** — **Kadell Daniel** (RTG FC) netted
-- **27′** — **Kadell Daniel** (RTG FC) scored
+- **27′** — **Kadell Daniel** (Toma) netted
+- **27′** — **Kadell Daniel** (Toma) scored
 - **29′** — **Junior Dixon** (Toma) struck
 
 | Minute | Player | Team |
@@ -62,11 +62,11 @@ The goals arrived in a dramatic sequence that told the story of the match:
 | 9′ | Arezki Hamouchene | Toma |
 | 16′ | Arezki Hamouchene | Toma |
 | 18′ | Dan Wishart | RTG FC |
-| 19′ | Kadell Daniel | RTG FC |
+| 19′ | Kadell Daniel | Toma |
 | 24′ | Praise Ogbebor | Toma |
 | 27′ | Junior Dixon | Toma |
-| 27′ | Kadell Daniel | RTG FC |
-| 27′ | Kadell Daniel | RTG FC |
+| 27′ | Kadell Daniel | Toma |
+| 27′ | Kadell Daniel | Toma |
 | 29′ | Junior Dixon | Toma |
 
 
@@ -93,11 +93,8 @@ The **1-on-1** window was the more impactful, its **4** goals shifting the balan
 
 ### RTG FC
 
-**Kadell Daniel** was RTG FC's standout performer, bagging **3 goals** in a display of clinical finishing that powered his side's effort. As if scoring wasn't enough, he also turned provider with **1 assist**.
-
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Kadell Daniel | 3 | 1 | 7 | 16 |
 | Tyrell Miller-Rodney | 1 | 1 | 1 | 7 |
 | Dan Wishart | 1 | 0 | 3 | 10 |
 | Alfie Cerulli | 1 | 0 | 8 | 5 |
@@ -166,12 +163,12 @@ This was the **maiden competitive meeting** between RTG FC and Toma — a histor
 
 ## Table Impact
 
-RTG FC stayed at **9th**, toma climbed to **10th**.
+RTG FC dropped to **10th**, toma stayed at **11th**.
 
 | Team | Before GW2 | After GW2 |
 |------|-------------|-------------|
-| RTG FC | 9th | 9th |
-| Toma | 11th | 10th |
+| RTG FC | 9th | 10th |
+| Toma | 11th | 11th |
 
 
 ---

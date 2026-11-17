@@ -100,6 +100,7 @@ The **Plus One** window was the more impactful, its **3** goals shifting the bal
 | Joshua Sumbunu | 1 | 1 | 3 | 24 |
 | Alex Byrne | 1 | 0 | 3 | 4 |
 | Tyler Winters | 1 | 0 | 4 | 5 |
+| Abdullahi Telli | 1 | 0 | 1 | 2 |
 | Bayley Brown | 0 | 1 | 1 | 7 |
 
 

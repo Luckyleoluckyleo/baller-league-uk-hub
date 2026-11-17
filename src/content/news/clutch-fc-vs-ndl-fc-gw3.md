@@ -103,7 +103,6 @@ Matches where the GC contributes this significantly tend to be remembered — th
 | Sam Fitzgerald | 3 | 1 | 8 | 40 |
 | Isaac Modi | 1 | 0 | 4 | 9 |
 | Taufee Skandari | 1 | 0 | 7 | 23 |
-| Dara Dada | 1 | 0 | 3 | 18 |
 
 
 

@@ -41,15 +41,15 @@ The 27th minute brought the **Fairplay** Game Changer thundering into the match 
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **3′** — **Dara Dada** (NDL FC) drew first blood
-- **6′** — **Dara Dada** (NDL FC) found the target
+- **3′** — **Dara Dada** (RTG FC) drew first blood
+- **6′** — **Dara Dada** (RTG FC) found the target
 - **22′** — **Amadou Kassaraté** (NDL FC) scored
 - **22′** — **Alfie Cerulli** (RTG FC) netted
 
 | Minute | Player | Team |
 |--------|--------|------|
-| 3′ | Dara Dada | NDL FC |
-| 6′ | Dara Dada | NDL FC |
+| 3′ | Dara Dada | RTG FC |
+| 6′ | Dara Dada | RTG FC |
 | 22′ | Amadou Kassaraté | NDL FC |
 | 22′ | Alfie Cerulli | RTG FC |
 
@@ -77,18 +77,18 @@ The **Onside** and **Fairplay** windows came and went with neither side able to 
 
 ### NDL FC
 
-**Dara Dada** was NDL FC's standout performer, bagging **2 goals** in a display of clinical finishing that powered his side's effort.
-
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Dara Dada | 2 | 0 | 9 | 15 |
 | Amadou Kassaraté | 1 | 0 | 3 | 2 |
 | Sam Fitzgerald | 0 | 1 | 3 | 25 |
 
 ### RTG FC
 
+**Dara Dada** led the charge for RTG FC, his **2 goals** a testament to the kind of ruthless finishing that makes him a nightmare for opposing defences.
+
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
+| Dara Dada | 2 | 0 | 9 | 15 |
 | Alfie Cerulli | 1 | 0 | 6 | 5 |
 | Dan Wishart | 0 | 1 | 4 | 16 |
 
@@ -149,7 +149,7 @@ NDL FC climbed to **5th**, rtg fc dropped to **11th**.
 | Team | Before GW5 | After GW5 |
 |------|-------------|-------------|
 | NDL FC | 6th | 5th |
-| RTG FC | 9th | 11th |
+| RTG FC | 10th | 11th |
 
 
 ---

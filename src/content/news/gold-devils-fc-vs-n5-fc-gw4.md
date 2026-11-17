@@ -154,12 +154,12 @@ This was the **maiden competitive meeting** between Gold Devils FC and N5 FC —
 
 ## Table Impact
 
-Gold Devils FC dropped to **10th**, n5 fc climbed to **11th**.
+Gold Devils FC dropped to **11th**, n5 fc climbed to **9th**.
 
 | Team | Before GW4 | After GW4 |
 |------|-------------|-------------|
-| Gold Devils FC | 7th | 10th |
-| N5 FC | 12th | 11th |
+| Gold Devils FC | 7th | 11th |
+| N5 FC | 12th | 9th |
 
 
 ---

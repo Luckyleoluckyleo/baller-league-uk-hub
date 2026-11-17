@@ -89,7 +89,7 @@ The **3Play** activation was particularly devastating, producing **6** goals tha
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Jay Emmanuel-Thomas | 1 | 2 | 5 | 13 |
+| Jay Emmanuel-Thomas | 1 | 2 | 5 | 14 |
 | Daniel Atherton | 1 | 0 | 1 | 26 |
 | Martyn Waghorn | 1 | 0 | 5 | 16 |
 | Kevin Weggen | 1 | 0 | 2 | 1 |
@@ -105,6 +105,7 @@ The **3Play** activation was particularly devastating, producing **6** goals tha
 | Kieron Freeman | 2 | 0 | 2 | 14 |
 | Michael Hill | 1 | 1 | 6 | 19 |
 | Joe Bennett | 1 | 0 | 4 | 31 |
+| Harlee Dean | 0 | 1 | 2 | 18 |
 | Mustapha Carayol | 0 | 1 | 2 | 21 |
 | Billy Sharp | 0 | 1 | 3 | 15 |
 
@@ -190,8 +191,8 @@ Deportrio dropped to **4th**, n5 fc stayed at **8th**.
 | Different goalscorers | 8 |
 | Total shots | 51 |
 | Assists | 7 |
-| Tackles | 17 |
-| Passes | 279 |
+| Tackles | 16 |
+| Passes | 283 |
 
 
 ---

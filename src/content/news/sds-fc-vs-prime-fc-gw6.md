@@ -86,9 +86,9 @@ The **Plus One** window was the more impactful, its **2** goals shifting the bal
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
 | Ergys Pepaj | 1 | 0 | 7 | 7 |
-| Kazaiah Sterling | 1 | 0 | 6 | 13 |
-| Amine Sassi | 1 | 0 | 7 | 10 |
-| Youssef Chentouf | 0 | 1 | 3 | 5 |
+| Kazaiah Sterling | 1 | 0 | 6 | 12 |
+| Amine Sassi | 1 | 0 | 7 | 9 |
+| Youssef Chentouf | 0 | 1 | 3 | 6 |
 
 ### Prime FC
 
@@ -96,9 +96,9 @@ The **Plus One** window was the more impactful, its **2** goals shifting the bal
 |--------|-------|---------|-------|--------|
 | Timmy Abraham | 1 | 0 | 5 | 2 |
 | Edy Maieco | 1 | 0 | 3 | 7 |
-| Francis Mampolo | 1 | 0 | 12 | 8 |
+| Francis Mampolo | 1 | 0 | 12 | 10 |
 | Mauro Vilhete | 0 | 1 | 2 | 27 |
-| Erico Sousa | 0 | 1 | 0 | 14 |
+| Erico Sousa | 0 | 1 | 0 | 13 |
 
 
 
@@ -182,8 +182,8 @@ SDS FC stayed at **1st**, prime fc stayed at **9th**.
 | Different goalscorers | 7 |
 | Total shots | 58 |
 | Assists | 3 |
-| Tackles | 25 |
-| Passes | 201 |
+| Tackles | 23 |
+| Passes | 202 |
 
 
 ---

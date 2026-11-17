@@ -78,7 +78,7 @@ After Gameweek 6. EP = Extra Points from the Pressure Point challenge.
 | 5 | [NDL FC](/teams/ndl-fc) | 6 | 4 | 0 | 2 | +5 | 0 | 12 |
 | 6 | [VZN FC](/teams/vzn-fc) | 6 | 3 | 1 | 2 | -4 | 0 | 10 |
 | 7 | [Clutch FC](/teams/clutch-fc) | 6 | 2 | 2 | 2 | -2 | 1 | 9 |
-| 8 | [N5 FC](/teams/n5-fc) | 6 | 2 | 1 | 3 | -6 | 0 | 7 |
+| 8 | [N5 FC](/teams/n5-fc) | 6 | 2 | 1 | 3 | -6 | 1 | 8 |
 | 9 | [Prime FC](/teams/prime-fc) | 6 | 1 | 2 | 3 | -5 | 1 | 6 |
 | 10 | [Gold Devils FC](/teams/gold-devils-fc) | 6 | 1 | 1 | 4 | -5 | 1 | 5 |
 | 11 | [RTG FC](/teams/yanited) | 6 | 1 | 1 | 4 | -6 | 0 | 4 |

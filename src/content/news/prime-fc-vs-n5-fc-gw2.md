@@ -158,12 +158,12 @@ This was the **maiden competitive meeting** between Prime FC and N5 FC — a his
 
 ## Table Impact
 
-Prime FC climbed to **6th**, n5 fc dropped to **11th**.
+Prime FC climbed to **6th**, n5 fc dropped to **9th**.
 
 | Team | Before GW2 | After GW2 |
 |------|-------------|-------------|
 | Prime FC | 8th | 6th |
-| N5 FC | 7th | 11th |
+| N5 FC | 7th | 9th |
 
 
 ---

@@ -18,7 +18,7 @@ featured: false
 | 1 | 12th | 11 | 1 | 1 | 9 | -19 | 5 |
 | 2 | 6th | 11 | 6 | 1 | 4 | +6 | 19 |
 | 3 | 8th | 11 | 5 | 0 | 6 | +3 | 15 |
-| 4 | 8th | 6 | 2 | 1 | 3 | -6 | 7 |
+| 4 | 8th | 6 | 2 | 1 | 3 | -6 | 8 |
 
 Their best finish came in **Season 2**, finishing **6th** on **19 points**.
 

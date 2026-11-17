@@ -44,7 +44,7 @@ The goals arrived in a dramatic sequence that told the story of the match:
 - **3′** — **Yasin Ben El-Mhanni** (Toma) opened the scoring
 - **9′** — **Kyron McKay** (Toma) struck
 - **17′** — **Timmy Abraham** (Prime FC) struck
-- **17′** — **Charlie Pavey** (Toma) netted
+- **17′** — **Charlie Pavey** netted
 - **21′** — **Salim Nassor** (Prime FC) struck
 - **26′** — **Salim Nassor** (Prime FC) netted
 - **27′** — **Francis Mampolo** (Prime FC) found the target
@@ -55,7 +55,7 @@ The goals arrived in a dramatic sequence that told the story of the match:
 | 3′ | Yasin Ben El-Mhanni | Toma |
 | 9′ | Kyron McKay | Toma |
 | 17′ | Timmy Abraham | Prime FC |
-| 17′ | Charlie Pavey | Toma |
+| 17′ | Charlie Pavey | — |
 | 21′ | Salim Nassor | Prime FC |
 | 26′ | Salim Nassor | Prime FC |
 | 27′ | Francis Mampolo | Prime FC |
@@ -100,7 +100,6 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 |--------|-------|---------|-------|--------|
 | Yasin Ben El-Mhanni | 1 | 0 | 3 | 23 |
 | Kyron McKay | 1 | 0 | 3 | 35 |
-| Charlie Pavey | 1 | 0 | 2 | 8 |
 | Ibrahim Bangura | 0 | 1 | 2 | 13 |
 
 
@@ -155,12 +154,12 @@ This was the **maiden competitive meeting** between Prime FC and Toma — a hist
 
 ## Table Impact
 
-Prime FC climbed to **5th**, toma dropped to **11th**.
+Prime FC climbed to **5th**, toma stayed at **11th**.
 
 | Team | Before GW3 | After GW3 |
 |------|-------------|-------------|
 | Prime FC | 6th | 5th |
-| Toma | 10th | 11th |
+| Toma | 11th | 11th |
 
 
 ---

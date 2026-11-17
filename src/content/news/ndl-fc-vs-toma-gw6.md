@@ -41,13 +41,13 @@ After the restart, the **Fairplay** Game Changer detonated at the 27th minute, t
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **6′** — **Kadell Daniel** (Toma) drew first blood
+- **6′** — **Kadell Daniel** (NDL FC) drew first blood
 - **7′** — **Isaac Modi** (NDL FC) netted
 - **11′** — **Amadou Kassaraté** (NDL FC) scored
 
 | Minute | Player | Team |
 |--------|--------|------|
-| 6′ | Kadell Daniel | Toma |
+| 6′ | Kadell Daniel | NDL FC |
 | 7′ | Isaac Modi | NDL FC |
 | 11′ | Amadou Kassaraté | NDL FC |
 
@@ -78,6 +78,7 @@ The **Onside** and **Fairplay** windows came and went with neither side able to 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
 | Isaac Modi | 1 | 0 | 1 | 7 |
+| Kadell Daniel | 1 | 0 | 5 | 13 |
 | Amadou Kassaraté | 1 | 0 | 2 | 4 |
 | Didi | 0 | 1 | 0 | 7 |
 | Josh Parker | 0 | 1 | 3 | 8 |

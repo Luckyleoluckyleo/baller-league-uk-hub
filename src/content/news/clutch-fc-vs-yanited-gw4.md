@@ -105,11 +105,8 @@ The **1-on-1** activation was particularly devastating, producing **6** goals th
 
 ### RTG FC
 
-**Kadell Daniel** led the charge for RTG FC, his **4 goals** a testament to the kind of ruthless finishing that makes him a nightmare for opposing defences. He also chipped in with **1 assist** for good measure.
-
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Kadell Daniel | 4 | 1 | 13 | 18 |
 | Alfie Cerulli | 1 | 0 | 7 | 3 |
 | Joshua Emmanuel | 1 | 0 | 1 | 9 |
 
@@ -165,12 +162,12 @@ This was the **maiden competitive meeting** between Clutch FC and RTG FC — a h
 
 ## Table Impact
 
-Clutch FC climbed to **4th**, rtg fc dropped to **9th**.
+Clutch FC climbed to **4th**, rtg fc dropped to **10th**.
 
 | Team | Before GW4 | After GW4 |
 |------|-------------|-------------|
 | Clutch FC | 8th | 4th |
-| RTG FC | 6th | 9th |
+| RTG FC | 6th | 10th |
 
 
 ---

@@ -160,7 +160,7 @@ Wembley Rangers AFC climbed to **9th**, n5 fc dropped to **12th**.
 | Team | Before GW3 | After GW3 |
 |------|-------------|-------------|
 | Wembley Rangers AFC | 12th | 9th |
-| N5 FC | 11th | 12th |
+| N5 FC | 9th | 12th |
 
 
 ---

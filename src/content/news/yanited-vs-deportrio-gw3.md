@@ -41,7 +41,7 @@ The second half resumed with all to play for, and at the 27-minute mark the **Fa
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **11′** — **Kadell Daniel** (RTG FC) opened the scoring
+- **11′** — **Kadell Daniel** (Deportrio) opened the scoring
 - **12′** — **Alfie Cerulli** (RTG FC) struck
 - **12′** — **Jay Emmanuel-Thomas** (Deportrio) struck
 - **13′** — **Alfie Cerulli** (RTG FC) netted
@@ -51,7 +51,7 @@ The goals arrived in a dramatic sequence that told the story of the match:
 
 | Minute | Player | Team |
 |--------|--------|------|
-| 11′ | Kadell Daniel | RTG FC |
+| 11′ | Kadell Daniel | Deportrio |
 | 12′ | Alfie Cerulli | RTG FC |
 | 12′ | Jay Emmanuel-Thomas | Deportrio |
 | 13′ | Alfie Cerulli | RTG FC |
@@ -88,7 +88,6 @@ The **3Play** window was the more impactful, its **4** goals shifting the balanc
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
 | Alfie Cerulli | 3 | 0 | 6 | 7 |
-| Kadell Daniel | 1 | 0 | 4 | 16 |
 | Dominic Vose | 0 | 1 | 0 | 0 |
 | Zaid Al Hussaini | 0 | 1 | 1 | 5 |
 
@@ -158,7 +157,7 @@ RTG FC climbed to **6th**, deportrio dropped to **3rd**.
 
 | Team | Before GW3 | After GW3 |
 |------|-------------|-------------|
-| RTG FC | 9th | 6th |
+| RTG FC | 10th | 6th |
 | Deportrio | 1st | 3rd |
 
 

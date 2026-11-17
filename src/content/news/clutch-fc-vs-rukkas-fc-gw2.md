@@ -112,6 +112,7 @@ The **3Play** activation was particularly devastating, producing **5** goals tha
 | Steven Kodra | 2 | 0 | 11 | 6 |
 | Ciaran Clark | 1 | 0 | 3 | 20 |
 | Dajon Golding | 1 | 0 | 8 | 10 |
+| Tom Bender | 1 | 0 | 1 | 0 |
 | Mussa Bham | 0 | 1 | 2 | 2 |
 
 

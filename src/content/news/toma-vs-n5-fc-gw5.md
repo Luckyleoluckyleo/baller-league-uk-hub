@@ -162,7 +162,7 @@ Toma stayed at **12th**, n5 fc climbed to **8th**.
 | Team | Before GW5 | After GW5 |
 |------|-------------|-------------|
 | Toma | 12th | 12th |
-| N5 FC | 11th | 8th |
+| N5 FC | 9th | 8th |
 
 
 ---

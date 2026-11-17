@@ -26,9 +26,9 @@ Their best finish came in **Season 3**, finishing **1st** on **26 points**.
 
 - **[Isaac Modi](/players/isaac-modi)** — 19 goals, 7 assists
 - **[Sam Fitzgerald](/players/sam-fitzgerald)** — 17 goals, 6 assists
-- **[Dara Dada](/players/dara-dada)** — 14 goals, 6 assists
 - **[Josh Parker](/players/joshua-parker)** — 7 goals, 2 assists
 - **[Amadou Kassaraté](/players/amadou-kassarate)** — 4 goals, 0 assists
+- **[Didi](/players/david-marques-castanho)** — 3 goals, 2 assists
 
 ## Biggest win
 

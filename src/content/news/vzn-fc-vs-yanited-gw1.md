@@ -102,9 +102,7 @@ The **Plus One** activation was particularly devastating, producing **3** goals 
 |--------|-------|---------|-------|--------|
 | Tyrell Miller-Rodney | 1 | 1 | 4 | 16 |
 | Zaid Al Hussaini | 1 | 1 | 2 | 12 |
-| Kadell Daniel | 1 | 0 | 5 | 21 |
 | Alfie Cerulli | 1 | 0 | 3 | 1 |
-| Elliot Krasniqi | 0 | 1 | 0 | 34 |
 | Fumnaya Shomotun | 0 | 1 | 1 | 3 |
 
 

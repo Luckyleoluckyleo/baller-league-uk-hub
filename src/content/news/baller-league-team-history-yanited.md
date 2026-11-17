@@ -24,9 +24,9 @@ Their best finish came in **Season 1**, finishing **3rd** on **22 points**.
 
 ## Top scorers (all-time club)
 
-- **[Kadell Daniel](/players/kadell-daniel)** — 35 goals, 10 assists
 - **[Tyrell Miller-Rodney](/players/tyrell-miller-rodney)** — 8 goals, 7 assists
 - **[Alfie Cerulli](/players/alfie-cerulli)** — 7 goals, 0 assists
+- **[Dara Dada](/players/dara-dada)** — 6 goals, 0 assists
 - **[Calum Butcher](/players/calum-butcher)** — 2 goals, 5 assists
 - **[Joshua Emmanuel](/players/joshua-emmanuel)** — 1 goals, 1 assists
 

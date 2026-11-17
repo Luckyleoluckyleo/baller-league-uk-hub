@@ -20,7 +20,7 @@ P17 FC, sitting pretty in the Final Four places at 2nd, knew a win here would ti
 
 ## ⭐ Player of the Match
 
-[Dajon Golding](/players/dajon-golding) for P17 FC was the pick of the bunch with **1** goal, **4** shots.
+[Dajon Golding](/players/dajon-golding) for P17 FC was the pick of the bunch with **1** goal, **3** shots.
 
 
 ---
@@ -77,7 +77,7 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Dajon Golding | 1 | 0 | 4 | 5 |
+| Dajon Golding | 1 | 0 | 3 | 5 |
 | Ross Derham | 1 | 0 | 1 | 3 |
 | Junior Morias | 1 | 0 | 3 | 0 |
 | Ciaran Clark | 0 | 1 | 1 | 30 |
@@ -163,10 +163,10 @@ RTG FC stayed at **11th**, p17 fc stayed at **2nd**.
 | Goals | 3 |
 | Game Changer goals | 1 (33% of all goals) |
 | Different goalscorers | 3 |
-| Total shots | 46 |
+| Total shots | 45 |
 | Assists | 2 |
-| Tackles | 20 |
-| Passes | 292 |
+| Tackles | 19 |
+| Passes | 293 |
 
 
 ---

@@ -156,12 +156,12 @@ This was the **maiden competitive meeting** between Clutch FC and Gold Devils FC
 
 ## Table Impact
 
-Clutch FC dropped to **7th**, gold devils fc stayed at **10th**.
+Clutch FC dropped to **7th**, gold devils fc climbed to **10th**.
 
 | Team | Before GW5 | After GW5 |
 |------|-------------|-------------|
 | Clutch FC | 4th | 7th |
-| Gold Devils FC | 10th | 10th |
+| Gold Devils FC | 11th | 10th |
 
 
 ---
