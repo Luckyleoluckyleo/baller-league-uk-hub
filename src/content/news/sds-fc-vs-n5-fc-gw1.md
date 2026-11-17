@@ -2,7 +2,7 @@
 title: "SDS FC and N5 FC Deadlocked at 2-2 in GW1"
 date: 2026-10-12
 category: "Match Report"
-excerpt: "SDS FC 2-2 N5 FC — Gameweek 1 match report. Kazaiah Sterling (6 goals) leads SDS FC's attack. Game Changers: Onside (1) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "SDS FC 2-2 N5 FC — Gameweek 1 match report. Kazaiah Sterling (7 goals) leads SDS FC's attack. Game Changers: Onside (1) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -98,35 +98,35 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kazaiah Sterling | 6 | 2 | 5 |
-| Ergys Pepaj | 4 | 2 | 5 |
-| Josh Bohui | 3 | 0 | 5 |
-| Amine Sassi | 2 | 1 | 5 |
-| Youssef Chentouf | 2 | 2 | 5 |
+| Kazaiah Sterling | 7 | 2 | 6 |
+| Ergys Pepaj | 5 | 2 | 6 |
+| Amine Sassi | 3 | 1 | 6 |
+| Josh Bohui | 3 | 0 | 6 |
+| Youssef Chentouf | 2 | 3 | 6 |
 
 ### N5 FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Joe Bennett | 3 | 2 | 5 |
+| Joe Bennett | 4 | 2 | 6 |
+| Michael Hill | 3 | 2 | 6 |
 | Francis Amartey | 3 | 1 | 4 |
-| Hani Berchiche | 3 | 1 | 5 |
-| Michael Hill | 2 | 1 | 5 |
-| Billy Sharp | 2 | 0 | 4 |
+| Hani Berchiche | 3 | 1 | 6 |
+| Billy Sharp | 2 | 1 | 5 |
 
 **Key Attacking Threats**
 
-- **Kazaiah Sterling** — SDS FC's talisman with **6 goals** from **5 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Joe Bennett** — N5 FC's leading marksman with **3 goals** from **5 outings**, plus **2 assists**. Still finding his rhythm but showing promising signs.
+- **Kazaiah Sterling** — SDS FC's talisman with **7 goals** from **6 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Joe Bennett** — N5 FC's leading marksman with **4 goals** from **6 outings**, plus **2 assists**. Still finding his rhythm but showing promising signs.
 
 
 ---
 
 ## Season Context
 
-With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **SDS FC** entered this match averaging **3.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **N5 FC**, by contrast, arrived with an average of **3.2 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **SDS FC** entered this match averaging **3.5 goals per game** — a number that reflected their struggles in front of goal this campaign. **N5 FC**, by contrast, arrived with an average of **3.3 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.9 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 

@@ -2,7 +2,7 @@
 title: "Wembley Rangers AFC Edge SDS FC 0-1 in GW5 Thriller"
 date: 2026-11-09
 category: "Match Report"
-excerpt: "SDS FC 0-1 Wembley Rangers AFC — Gameweek 5 match report. Kazaiah Sterling (6 goals) leads SDS FC's attack. Game Changers: 3Play (1) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "SDS FC 0-1 Wembley Rangers AFC — Gameweek 5 match report. Kazaiah Sterling (7 goals) leads SDS FC's attack. Game Changers: 3Play (1) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -85,35 +85,35 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kazaiah Sterling | 6 | 2 | 5 |
-| Ergys Pepaj | 4 | 2 | 5 |
-| Josh Bohui | 3 | 0 | 5 |
-| Amine Sassi | 2 | 1 | 5 |
-| Youssef Chentouf | 2 | 2 | 5 |
+| Kazaiah Sterling | 7 | 2 | 6 |
+| Ergys Pepaj | 5 | 2 | 6 |
+| Amine Sassi | 3 | 1 | 6 |
+| Josh Bohui | 3 | 0 | 6 |
+| Youssef Chentouf | 2 | 3 | 6 |
 
 ### Wembley Rangers AFC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Callam Gardner | 6 | 0 | 5 |
-| Domingos Pires | 5 | 1 | 5 |
-| Chiekh Thiam | 4 | 1 | 5 |
-| Dominic Morgan-Griffiths | 1 | 2 | 5 |
-| Adrian Tajik | 1 | 0 | 4 |
+| Domingos Pires | 8 | 1 | 6 |
+| Callam Gardner | 6 | 0 | 6 |
+| Chiekh Thiam | 4 | 1 | 6 |
+| Adrian Tajik | 2 | 0 | 5 |
+| Finlay Chadwick | 2 | 1 | 4 |
 
 **Key Attacking Threats**
 
-- **Kazaiah Sterling** — SDS FC's talisman with **6 goals** from **5 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Callam Gardner** — Wembley Rangers AFC's leading marksman with **6 goals** from **5 outings**. Wembley Rangers AFC look to him whenever they need a moment of magic in the final third.
+- **Kazaiah Sterling** — SDS FC's talisman with **7 goals** from **6 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Domingos Pires** — Wembley Rangers AFC's leading marksman with **8 goals** from **6 outings**, plus **1 assists**. Wembley Rangers AFC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **6 gameweeks** left in the regular season, the stakes couldn't have been higher. **SDS FC** entered this match averaging **3.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **Wembley Rangers AFC**, by contrast, arrived with an average of **4.0 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **6 gameweeks** left in the regular season, the stakes couldn't have been higher. **SDS FC** entered this match averaging **3.5 goals per game** — a number that reflected their struggles in front of goal this campaign. **Wembley Rangers AFC**, by contrast, arrived with an average of **4.2 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.9 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -155,10 +155,10 @@ SDS FC stayed at **1st**, wembley rangers afc climbed to **4th**.
 | Goals | 1 |
 | Game Changer goals | 1 (100% of all goals) |
 | Different goalscorers | 1 |
-| Total shots | 35 |
+| Total shots | 37 |
 | Assists | 0 |
-| Tackles | 23 |
-| Passes | 336 |
+| Tackles | 26 |
+| Passes | 346 |
 
 
 ---

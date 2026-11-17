@@ -2,7 +2,7 @@
 title: "Clutch FC and Gold Devils FC Share 4-4 Goal Fest in GW5"
 date: 2026-11-09
 category: "Match Report"
-excerpt: "Clutch FC 4-4 Gold Devils FC — Gameweek 5 match report. Tyler Winters (9 goals) leads Clutch FC's attack. Game Changers: Plus One (2) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Clutch FC 4-4 Gold Devils FC — Gameweek 5 match report. Tyler Winters (10 goals) leads Clutch FC's attack. Game Changers: Plus One (2) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -114,35 +114,35 @@ The **Plus One** window was the more impactful, its **2** goals shifting the bal
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Tyler Winters | 9 | 3 | 5 |
-| Alex Byrne | 6 | 1 | 5 |
-| Alfie Matthews | 3 | 7 | 5 |
-| Joshua Sumbunu | 3 | 0 | 5 |
-| Richard Afrane-Kesey | 1 | 0 | 4 |
+| Tyler Winters | 10 | 3 | 6 |
+| Alex Byrne | 7 | 1 | 6 |
+| Joshua Sumbunu | 4 | 1 | 6 |
+| Alfie Matthews | 3 | 7 | 6 |
+| Abdullahi Telli | 1 | 0 | 2 |
 
 ### Gold Devils FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Bilal Sayoud | 5 | 2 | 5 |
-| Tarik Gidaree | 5 | 1 | 5 |
-| Connor Wood | 2 | 3 | 5 |
-| Luke May-Parrott | 2 | 2 | 3 |
-| Marvel Ekpiteta | 1 | 0 | 5 |
+| Bilal Sayoud | 6 | 2 | 6 |
+| Tarik Gidaree | 5 | 1 | 6 |
+| Luke May-Parrott | 3 | 2 | 4 |
+| Connor Wood | 2 | 3 | 6 |
+| Dimitri Nicolaou | 1 | 0 | 6 |
 
 **Key Attacking Threats**
 
-- **Tyler Winters** — Clutch FC's talisman with **9 goals** from **5 appearances** and **3 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Bilal Sayoud** — Gold Devils FC's leading marksman with **5 goals** from **5 outings**, plus **2 assists**. Still finding his rhythm but showing promising signs.
+- **Tyler Winters** — Clutch FC's talisman with **10 goals** from **6 appearances** and **3 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Bilal Sayoud** — Gold Devils FC's leading marksman with **6 goals** from **6 outings**, plus **2 assists**. Gold Devils FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **6 gameweeks** left in the regular season, the stakes couldn't have been higher. **Clutch FC** entered this match averaging **4.8 goals per game** — a number that reflected their struggles in front of goal this campaign. **Gold Devils FC**, by contrast, arrived with an average of **3.4 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **6 gameweeks** left in the regular season, the stakes couldn't have been higher. **Clutch FC** entered this match averaging **4.7 goals per game** — a number that reflected their struggles in front of goal this campaign. **Gold Devils FC**, by contrast, arrived with an average of **3.2 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.9 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -156,12 +156,12 @@ This was the **maiden competitive meeting** between Clutch FC and Gold Devils FC
 
 ## Table Impact
 
-Clutch FC dropped to **7th**, gold devils fc climbed to **10th**.
+Clutch FC dropped to **7th**, gold devils fc stayed at **10th**.
 
 | Team | Before GW5 | After GW5 |
 |------|-------------|-------------|
 | Clutch FC | 4th | 7th |
-| Gold Devils FC | 11th | 10th |
+| Gold Devils FC | 10th | 10th |
 
 
 ---
@@ -196,6 +196,7 @@ Clutch FC dropped to **7th**, gold devils fc climbed to **10th**.
 
 - A **8-goal thriller** that lived up to every pre-match expectation
 - **3 of 8 goals (38%)** came during Game Changer activations
+- Tyler Winters continues to lead Clutch FC with **10 goals** — firmly among the league's elite marksmen
 
 ---
 

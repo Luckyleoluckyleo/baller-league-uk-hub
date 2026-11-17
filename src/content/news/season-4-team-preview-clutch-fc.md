@@ -9,7 +9,7 @@ faqs:
   - q: "Who manages Clutch FC in Baller League UK Season 4?"
     a: "Clutch FC are managed by Chloe Kelly."
   - q: "Who are Clutch FC's key players?"
-    a: "Tyler Winters, Alex Byrne, Alfie Matthews are among the players to watch for Clutch FC in Season 4."
+    a: "Tyler Winters, Alex Byrne, Joshua Sumbunu are among the players to watch for Clutch FC in Season 4."
   - q: "When do Clutch FC play next?"
     a: "The next Clutch FC fixture has not yet been confirmed."
   - q: "Where did Clutch FC finish last season?"
@@ -32,12 +32,12 @@ Clutch FC are led by [Chloe Kelly](/managers/chloe-kelly). Their experience and 
 
 Here are some of Clutch FC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Tyler Winters](/players/tyler-winters)** (Striker) — 9 goals and 3 assists in 5 appearances.
-- **[Alex Byrne](/players/alex-byrne)** (Striker) — 6 goals and 1 assists in 5 appearances.
-- **[Alfie Matthews](/players/alfie-matthews)** (Striker) — 3 goals and 7 assists in 5 appearances.
-- **[Joshua Sumbunu](/players/joshua-sumbunu)** (Defender) — 3 goals and 0 assists in 5 appearances.
-- **[Richard Afrane-Kesey](/players/richard-afrane-kesey)** (Striker) — 1 goals and 0 assists in 4 appearances.
-- **[Erick Kenko](/players/erick-kenko)** (Midfielder) — 1 goals and 0 assists in 3 appearances.
+- **[Tyler Winters](/players/tyler-winters)** (Striker) — 10 goals and 3 assists in 6 appearances.
+- **[Alex Byrne](/players/alex-byrne)** (Striker) — 7 goals and 1 assists in 6 appearances.
+- **[Joshua Sumbunu](/players/joshua-sumbunu)** (Defender) — 4 goals and 1 assists in 6 appearances.
+- **[Alfie Matthews](/players/alfie-matthews)** (Striker) — 3 goals and 7 assists in 6 appearances.
+- **[Abdullahi Telli](/players/abdullahi-telli)** (Midfielder) — 1 goals and 0 assists in 2 appearances.
+- **[Richard Afrane-Kesey](/players/richard-afrane-kesey)** (Striker) — 1 goals and 0 assists in 5 appearances.
 
 See the full squad on the [Clutch FC team page](/teams/clutch-fc).
 

@@ -32,12 +32,12 @@ Deportrio are led by [Micah Richards](/managers/micah-richards). Their experienc
 
 Here are some of Deportrio's players to watch, with last season's (Season 4) figures where available:
 
-- **[Jay Emmanuel-Thomas](/players/jay-emmanuel-thomas)** (Striker) — 7 goals and 3 assists in 5 appearances.
-- **[Kevin Weggen](/players/kevin-weggen)** (Midfielder) — 7 goals and 3 assists in 5 appearances.
-- **[Rodney Ajayi](/players/rodney-ajayi)** (Striker) — 6 goals and 0 assists in 5 appearances.
-- **[Emmanuel Robe](/players/emmanuel-robe)** (Striker) — 3 goals and 0 assists in 5 appearances.
-- **[Martyn Waghorn](/players/martyn-waghorn)** (Striker) — 3 goals and 0 assists in 3 appearances.
-- **[Adam Dawson](/players/adam-dawson)** (Midfielder) — 0 goals and 1 assists in 4 appearances.
+- **[Jay Emmanuel-Thomas](/players/jay-emmanuel-thomas)** (Striker) — 8 goals and 5 assists in 6 appearances.
+- **[Kevin Weggen](/players/kevin-weggen)** (Midfielder) — 8 goals and 3 assists in 6 appearances.
+- **[Rodney Ajayi](/players/rodney-ajayi)** (Striker) — 6 goals and 0 assists in 6 appearances.
+- **[Martyn Waghorn](/players/martyn-waghorn)** (Striker) — 4 goals and 0 assists in 4 appearances.
+- **[Emmanuel Robe](/players/emmanuel-robe)** (Striker) — 3 goals and 0 assists in 6 appearances.
+- **[Daniel Atherton](/players/daniel-atherton)** (Goalkeeper) — 1 goals and 0 assists in 6 appearances.
 
 See the full squad on the [Deportrio team page](/teams/deportrio).
 

@@ -9,7 +9,7 @@ faqs:
   - q: "Who manages RTG FC in Baller League UK Season 4?"
     a: "RTG FC are managed by Danny Aarons."
   - q: "Who are RTG FC's key players?"
-    a: "Kadell Daniel, Alfie Cerulli, Tyrell Miller-Rodney are among the players to watch for RTG FC in Season 4."
+    a: "Alfie Cerulli, Dara Dada, Tyrell Miller-Rodney are among the players to watch for RTG FC in Season 4."
   - q: "When do RTG FC play next?"
     a: "The next RTG FC fixture has not yet been confirmed."
   - q: "Where did RTG FC finish last season?"
@@ -34,12 +34,12 @@ RTG FC are led by [Danny Aarons](/managers/danny-aarons). Their experience and p
 
 Here are some of RTG FC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Kadell Daniel](/players/kadell-daniel)** (Striker) — 9 goals and 2 assists in 5 appearances.
-- **[Alfie Cerulli](/players/alfie-cerulli)** (Striker) — 7 goals and 0 assists in 5 appearances.
-- **[Tyrell Miller-Rodney](/players/tyrell-miller-rodney)** (Midfielder) — 2 goals and 2 assists in 5 appearances.
-- **[Zaid Al Hussaini](/players/zaid-al-hussaini)** (Midfielder) — 1 goals and 4 assists in 5 appearances.
+- **[Alfie Cerulli](/players/alfie-cerulli)** (Striker) — 7 goals and 0 assists in 6 appearances.
+- **[Dara Dada](/players/dara-dada)** (Midfielder) — 3 goals and 0 assists in 6 appearances.
+- **[Tyrell Miller-Rodney](/players/tyrell-miller-rodney)** (Midfielder) — 2 goals and 2 assists in 6 appearances.
+- **[Zaid Al Hussaini](/players/zaid-al-hussaini)** (Midfielder) — 1 goals and 4 assists in 6 appearances.
+- **[Dan Wishart](/players/dan-wishart)** (Midfielder) — 1 goals and 1 assists in 5 appearances.
 - **[Joshua Emmanuel](/players/joshua-emmanuel)** (Defender) — 1 goals and 0 assists in 5 appearances.
-- **[Dan Wishart](/players/dan-wishart)** (Midfielder) — 1 goals and 1 assists in 4 appearances.
 
 See the full squad on the [RTG FC team page](/teams/yanited).
 

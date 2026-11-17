@@ -9,7 +9,7 @@ featured: false
 
 ## RTG FC: All-Time Baller League UK Record
 
-**RTG FC** have played **39** matches in Baller League UK across 4 seasons, winning **14**, drawing **9** and losing **16** — a win rate of **36%**. They have scored **149** goals and conceded **148** (goal difference **+1**).
+**RTG FC** have played **40** matches in Baller League UK across 4 seasons, winning **14**, drawing **9** and losing **17** — a win rate of **35%**. They have scored **149** goals and conceded **151** (goal difference **-2**).
 
 ## Season-by-season
 
@@ -18,7 +18,7 @@ featured: false
 | 1 | 3rd | 11 | 7 | 1 | 3 | +17 | 22 |
 | 2 | 10th | 11 | 2 | 4 | 5 | -5 | 10 |
 | 3 | 9th | 11 | 4 | 3 | 4 | -4 | 15 |
-| 4 | 11th | 5 | 1 | 1 | 3 | -3 | 4 |
+| 4 | 11th | 6 | 1 | 1 | 4 | -6 | 4 |
 
 Their best finish came in **Season 1**, finishing **3rd** on **22 points**.
 

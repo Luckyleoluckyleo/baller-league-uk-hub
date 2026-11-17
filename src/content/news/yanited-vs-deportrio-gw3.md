@@ -2,7 +2,7 @@
 title: "RTG FC Edge Deportrio 4-3 in GW3 Thriller"
 date: 2026-10-26
 category: "Match Report"
-excerpt: "RTG FC 4-3 Deportrio — Gameweek 3 match report. Kadell Daniel (9 goals) leads RTG FC's attack. Game Changers: 3Play (4) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "RTG FC 4-3 Deportrio — Gameweek 3 match report. Alfie Cerulli (7 goals) leads RTG FC's attack. Game Changers: 3Play (4) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -112,35 +112,35 @@ The **3Play** window was the more impactful, its **4** goals shifting the balanc
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kadell Daniel | 9 | 2 | 5 |
-| Alfie Cerulli | 7 | 0 | 5 |
-| Tyrell Miller-Rodney | 2 | 2 | 5 |
-| Zaid Al Hussaini | 1 | 4 | 5 |
-| Joshua Emmanuel | 1 | 0 | 5 |
+| Alfie Cerulli | 7 | 0 | 6 |
+| Dara Dada | 3 | 0 | 6 |
+| Tyrell Miller-Rodney | 2 | 2 | 6 |
+| Zaid Al Hussaini | 1 | 4 | 6 |
+| Dan Wishart | 1 | 1 | 5 |
 
 ### Deportrio — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Jay Emmanuel-Thomas | 7 | 3 | 5 |
-| Kevin Weggen | 7 | 3 | 5 |
-| Rodney Ajayi | 6 | 0 | 5 |
-| Emmanuel Robe | 3 | 0 | 5 |
-| Martyn Waghorn | 3 | 0 | 3 |
+| Jay Emmanuel-Thomas | 8 | 5 | 6 |
+| Kevin Weggen | 8 | 3 | 6 |
+| Rodney Ajayi | 6 | 0 | 6 |
+| Martyn Waghorn | 4 | 0 | 4 |
+| Emmanuel Robe | 3 | 0 | 6 |
 
 **Key Attacking Threats**
 
-- **Kadell Daniel** — RTG FC's talisman with **9 goals** from **5 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Jay Emmanuel-Thomas** — Deportrio's leading marksman with **7 goals** from **5 outings**, plus **3 assists**. Deportrio look to him whenever they need a moment of magic in the final third.
+- **Alfie Cerulli** — RTG FC's talisman with **7 goals** from **6 appearances**. A reliable and consistent outlet who defences have learned to fear.
+- **Jay Emmanuel-Thomas** — Deportrio's leading marksman with **8 goals** from **6 outings**, plus **5 assists**. Deportrio look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **RTG FC** entered this match averaging **4.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **Deportrio**, by contrast, arrived with an average of **5.2 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **RTG FC** entered this match averaging **3.5 goals per game** — a number that reflected their struggles in front of goal this campaign. **Deportrio**, by contrast, arrived with an average of **5.2 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.9 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 

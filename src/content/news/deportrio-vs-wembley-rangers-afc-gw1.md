@@ -2,7 +2,7 @@
 title: "Deportrio Overpower Wembley Rangers AFC 9-4 in Dominant Display — GW1"
 date: 2026-10-12
 category: "Match Report"
-excerpt: "Deportrio 9-4 Wembley Rangers AFC — Gameweek 1 match report. Jay Emmanuel-Thomas (7 goals) leads Deportrio's attack. Game Changers: 3Play (4) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Deportrio 9-4 Wembley Rangers AFC — Gameweek 1 match report. Jay Emmanuel-Thomas (8 goals) leads Deportrio's attack. Game Changers: 3Play (4) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: true
 ---
@@ -128,35 +128,35 @@ The **3Play** activation was particularly devastating, producing **4** goals tha
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Jay Emmanuel-Thomas | 7 | 3 | 5 |
-| Kevin Weggen | 7 | 3 | 5 |
-| Rodney Ajayi | 6 | 0 | 5 |
-| Emmanuel Robe | 3 | 0 | 5 |
-| Martyn Waghorn | 3 | 0 | 3 |
+| Jay Emmanuel-Thomas | 8 | 5 | 6 |
+| Kevin Weggen | 8 | 3 | 6 |
+| Rodney Ajayi | 6 | 0 | 6 |
+| Martyn Waghorn | 4 | 0 | 4 |
+| Emmanuel Robe | 3 | 0 | 6 |
 
 ### Wembley Rangers AFC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Callam Gardner | 6 | 0 | 5 |
-| Domingos Pires | 5 | 1 | 5 |
-| Chiekh Thiam | 4 | 1 | 5 |
-| Dominic Morgan-Griffiths | 1 | 2 | 5 |
-| Adrian Tajik | 1 | 0 | 4 |
+| Domingos Pires | 8 | 1 | 6 |
+| Callam Gardner | 6 | 0 | 6 |
+| Chiekh Thiam | 4 | 1 | 6 |
+| Adrian Tajik | 2 | 0 | 5 |
+| Finlay Chadwick | 2 | 1 | 4 |
 
 **Key Attacking Threats**
 
-- **Jay Emmanuel-Thomas** — Deportrio's talisman with **7 goals** from **5 appearances** and **3 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Callam Gardner** — Wembley Rangers AFC's leading marksman with **6 goals** from **5 outings**. Wembley Rangers AFC look to him whenever they need a moment of magic in the final third.
+- **Jay Emmanuel-Thomas** — Deportrio's talisman with **8 goals** from **6 appearances** and **5 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Domingos Pires** — Wembley Rangers AFC's leading marksman with **8 goals** from **6 outings**, plus **1 assists**. Wembley Rangers AFC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **Deportrio** entered this match averaging **5.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **Wembley Rangers AFC**, by contrast, arrived with an average of **4.0 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **Deportrio** entered this match averaging **5.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **Wembley Rangers AFC**, by contrast, arrived with an average of **4.2 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.9 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -174,7 +174,7 @@ Deportrio held steady, wembley rangers afc held steady.
 
 | Team | Before GW1 | After GW1 |
 |------|-------------|-------------|
-| Deportrio | — | 2nd |
+| Deportrio | — | 3rd |
 | Wembley Rangers AFC | — | 12th |
 
 

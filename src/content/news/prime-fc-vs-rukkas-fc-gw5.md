@@ -2,7 +2,7 @@
 title: "Prime FC and P17 FC Deadlocked at 2-2 in GW5"
 date: 2026-11-09
 category: "Match Report"
-excerpt: "Prime FC 2-2 P17 FC — Gameweek 5 match report. Timmy Abraham (6 goals) leads Prime FC's attack. Game Changers: Onside (2) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Prime FC 2-2 P17 FC — Gameweek 5 match report. Timmy Abraham (7 goals) leads Prime FC's attack. Game Changers: Onside (2) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -20,7 +20,7 @@ P17 FC, sitting pretty in the Final Four places at 2nd, knew a win here would ti
 
 ## ⭐ Player of the Match
 
-[Amin Belaid](/players/amin-belaid) for P17 FC was the pick of the bunch with **1** goal, **1** assist, **4** shots.
+[Amin Belaid](/players/amin-belaid) for P17 FC was the pick of the bunch with **1** goal, **1** assist, **2** shots.
 
 
 ---
@@ -86,8 +86,8 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Amin Belaid | 1 | 1 | 4 | 19 |
-| Steven Kodra | 1 | 0 | 2 | 7 |
+| Amin Belaid | 1 | 1 | 2 | 19 |
+| Steven Kodra | 1 | 0 | 2 | 8 |
 
 
 
@@ -99,34 +99,35 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Timmy Abraham | 6 | 0 | 5 |
-| Francis Mampolo | 3 | 2 | 5 |
+| Timmy Abraham | 7 | 0 | 6 |
+| Francis Mampolo | 4 | 2 | 6 |
 | Salim Nassor | 3 | 0 | 3 |
-| Montel McKenzie | 1 | 1 | 5 |
-| Mauro Vilhete | 1 | 1 | 5 |
+| Montel McKenzie | 1 | 1 | 6 |
+| Edy Maieco | 1 | 0 | 6 |
 
 ### P17 FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Amin Belaid | 10 | 3 | 5 |
-| Steven Kodra | 7 | 0 | 5 |
-| Dajon Golding | 3 | 0 | 5 |
-| Ciaran Clark | 1 | 2 | 5 |
+| Amin Belaid | 10 | 3 | 6 |
+| Steven Kodra | 7 | 1 | 6 |
+| Dajon Golding | 4 | 0 | 6 |
+| Ciaran Clark | 1 | 3 | 6 |
+| Junior Morias | 1 | 0 | 3 |
 
 **Key Attacking Threats**
 
-- **Timmy Abraham** — Prime FC's talisman with **6 goals** from **5 appearances**. A reliable and consistent outlet who defences have learned to fear.
-- **Amin Belaid** — P17 FC's leading marksman with **10 goals** from **5 outings**, plus **3 assists**. P17 FC look to him whenever they need a moment of magic in the final third.
+- **Timmy Abraham** — Prime FC's talisman with **7 goals** from **6 appearances**. A reliable and consistent outlet who defences have learned to fear.
+- **Amin Belaid** — P17 FC's leading marksman with **10 goals** from **6 outings**, plus **3 assists**. P17 FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **6 gameweeks** left in the regular season, the stakes couldn't have been higher. **Prime FC** entered this match averaging **3.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **P17 FC**, by contrast, arrived with an average of **4.4 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **6 gameweeks** left in the regular season, the stakes couldn't have been higher. **Prime FC** entered this match averaging **3.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **P17 FC**, by contrast, arrived with an average of **4.2 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.9 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -170,8 +171,8 @@ Prime FC dropped to **9th**, p17 fc stayed at **2nd**.
 | Different goalscorers | 4 |
 | Total shots | 44 |
 | Assists | 1 |
-| Tackles | 17 |
-| Passes | 264 |
+| Tackles | 19 |
+| Passes | 267 |
 
 
 ---

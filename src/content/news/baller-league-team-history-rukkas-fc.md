@@ -9,7 +9,7 @@ featured: false
 
 ## P17 FC: All-Time Baller League UK Record
 
-**P17 FC** have played **38** matches in Baller League UK across 4 seasons, winning **11**, drawing **6** and losing **21** — a win rate of **29%**. They have scored **127** goals and conceded **157** (goal difference **-30**).
+**P17 FC** have played **39** matches in Baller League UK across 4 seasons, winning **12**, drawing **6** and losing **21** — a win rate of **31%**. They have scored **130** goals and conceded **157** (goal difference **-27**).
 
 ## Season-by-season
 
@@ -18,17 +18,17 @@ featured: false
 | 1 | 11th | 11 | 2 | 2 | 7 | -15 | 10 |
 | 2 | 9th | 11 | 3 | 2 | 6 | -4 | 13 |
 | 3 | 11th | 11 | 3 | 1 | 7 | -18 | 10 |
-| 4 | 2nd | 5 | 3 | 1 | 1 | +7 | 10 |
+| 4 | 2nd | 6 | 4 | 1 | 1 | +10 | 13 |
 
-Their best finish came in **Season 4**, finishing **2nd** on **10 points**.
+Their best finish came in **Season 4**, finishing **2nd** on **13 points**.
 
 ## Top scorers (all-time club)
 
 - **[Mussa Bham](/players/mussa-bham)** — 14 goals, 5 assists
 - **[Amin Belaid](/players/amin-belaid)** — 13 goals, 5 assists
-- **[Steven Kodra](/players/steven-kodra-2)** — 7 goals, 0 assists
-- **[Dajon Golding](/players/dajon-golding)** — 3 goals, 0 assists
-- **[Ciaran Clark](/players/ciaran-clark)** — 1 goals, 3 assists
+- **[Steven Kodra](/players/steven-kodra-2)** — 7 goals, 1 assists
+- **[Dajon Golding](/players/dajon-golding)** — 4 goals, 0 assists
+- **[Ross Derham](/players/ross-derham)** — 1 goals, 1 assists
 
 ## Biggest win
 

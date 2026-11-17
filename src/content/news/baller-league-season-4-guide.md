@@ -1,7 +1,7 @@
 ---
 title: "Baller League UK Season 4 Guide — Teams, Fixtures, Tickets & Table"
 date: 2026-10-19
-updated: 2026-11-09
+updated: 2026-11-16
 category: "Announcement"
 excerpt: "Season 4 explained: every team and manager, the fixture list, tickets, the current table and results — updated after every matchday."
 author: "Baller League UK Hub"
@@ -26,7 +26,7 @@ Baller League UK's fourth season is under way, having kicked off on **Monday 12 
 This is the season the league has been building towards, with more matches, closer access to the action and a stacked line-up of celebrity managers and former professionals.
 
 <!-- AUTO:last-updated -->
-*Last updated: Monday 9 November 2026, after Gameweek 5.*
+*Last updated: Monday 16 November 2026, after Gameweek 6.*
 <!-- /AUTO:last-updated -->
 
 ## Season 4 at a glance
@@ -48,41 +48,41 @@ Every Monday night, six live matches kick off between **17:15 and 21:50**. As al
 New for Season 4, **each team can select two wildcard players per matchday**, meaning squads can be shuffled week to week. Expect former Premier League players, internationals, non-league standouts and some surprise names.
 
 <!-- AUTO:results -->
-## Latest results — Gameweek 5
+## Latest results — Gameweek 6
 
-Six matches were played on **Monday 9 November 2026**.
+Six matches were played on **Monday 16 November 2026**.
 
 | Time | Result | Report |
 |---|---|---|
-| 17:15 | [Toma 4-5 N5 FC](/match/s4-toma-vs-n5-fc-gw5) | [Report](/news/toma-vs-n5-fc-gw5) |
-| 18:05 | [Prime FC 2-2 P17 FC](/match/s4-prime-fc-vs-rukkas-fc-gw5) | [Report](/news/prime-fc-vs-rukkas-fc-gw5) |
-| 19:00 | [Clutch FC 4-4 Gold Devils FC](/match/s4-clutch-fc-vs-gold-devils-fc-gw5) | [Report](/news/clutch-fc-vs-gold-devils-fc-gw5) |
-| 20:05 | [Deportrio 7-8 VZN FC](/match/s4-deportrio-vs-vzn-fc-gw5) | [Report](/news/deportrio-vs-vzn-fc-gw5) |
-| 21:00 | [NDL FC 3-1 RTG FC](/match/s4-ndl-fc-vs-yanited-gw5) | [Report](/news/ndl-fc-vs-yanited-gw5) |
-| 21:50 | [SDS FC 0-1 Wembley Rangers AFC](/match/s4-sds-fc-vs-wembley-rangers-afc-gw5) | [Report](/news/sds-fc-vs-wembley-rangers-afc-gw5) |
+| 17:15 | [VZN FC 4-4 Clutch FC](/match/s4-vzn-fc-vs-clutch-fc-gw6) | [Report](/news/vzn-fc-vs-clutch-fc-gw6) |
+| 18:05 | [NDL FC 3-0 Toma](/match/s4-ndl-fc-vs-toma-gw6) | [Report](/news/ndl-fc-vs-toma-gw6) |
+| 19:00 | [Deportrio 5-4 N5 FC](/match/s4-deportrio-vs-n5-fc-gw6) | [Report](/news/deportrio-vs-n5-fc-gw6) |
+| 20:05 | [SDS FC 4-3 Prime FC](/match/s4-sds-fc-vs-prime-fc-gw6) | [Report](/news/sds-fc-vs-prime-fc-gw6) |
+| 21:00 | [Wembley Rangers AFC 5-2 Gold Devils FC](/match/s4-wembley-rangers-afc-vs-gold-devils-fc-gw6) | [Report](/news/wembley-rangers-afc-vs-gold-devils-fc-gw6) |
+| 21:50 | [RTG FC 0-3 P17 FC](/match/s4-yanited-vs-rukkas-fc-gw6) | [Report](/news/yanited-vs-rukkas-fc-gw6) |
 
-Every match page carries the full Gamechanger breakdown. Prefer a summary? Read the [Gameweek 5 roundup](/roundup/5).
+Every match page carries the full Gamechanger breakdown. Prefer a summary? Read the [Gameweek 6 roundup](/roundup/6).
 <!-- /AUTO:results -->
 
 <!-- AUTO:table -->
 ## League table
 
-After Gameweek 5. EP = Extra Points from the Pressure Point challenge.
+After Gameweek 6. EP = Extra Points from the Pressure Point challenge.
 
 | Pos | Team | P | W | D | L | GD | EP | Pts |
 |---:|---|---:|---:|---:|---:|---:|---:|---:|
-| 1 | [SDS FC](/teams/sds-fc) | 5 | 3 | 1 | 1 | +7 | 2 | 12 |
-| 2 | [P17 FC](/teams/rukkas-fc) | 5 | 3 | 1 | 1 | +7 | 0 | 10 |
-| 3 | [Deportrio](/teams/deportrio) | 5 | 3 | 0 | 2 | +5 | 0 | 9 |
-| 4 | [Wembley Rangers AFC](/teams/wembley-rangers-afc) | 5 | 3 | 0 | 2 | +4 | 0 | 9 |
-| 5 | [NDL FC](/teams/ndl-fc) | 5 | 3 | 0 | 2 | +2 | 0 | 9 |
-| 6 | [VZN FC](/teams/vzn-fc) | 5 | 3 | 0 | 2 | -4 | 0 | 9 |
-| 7 | [Clutch FC](/teams/clutch-fc) | 5 | 2 | 1 | 2 | -2 | 1 | 8 |
-| 8 | [N5 FC](/teams/n5-fc) | 5 | 2 | 1 | 2 | -5 | 0 | 7 |
-| 9 | [Prime FC](/teams/prime-fc) | 5 | 1 | 2 | 2 | -4 | 1 | 6 |
-| 10 | [Gold Devils FC](/teams/gold-devils-fc) | 5 | 1 | 1 | 3 | -2 | 0 | 4 |
-| 11 | [RTG FC](/teams/yanited) | 5 | 1 | 1 | 3 | -3 | 0 | 4 |
-| 12 | [Toma](/teams/toma) | 5 | 0 | 2 | 3 | -5 | 0 | 2 |
+| 1 | [SDS FC](/teams/sds-fc) | 6 | 4 | 1 | 1 | +8 | 2 | 15 |
+| 2 | [P17 FC](/teams/rukkas-fc) | 6 | 4 | 1 | 1 | +10 | 0 | 13 |
+| 3 | [Wembley Rangers AFC](/teams/wembley-rangers-afc) | 6 | 4 | 0 | 2 | +7 | 0 | 12 |
+| 4 | [Deportrio](/teams/deportrio) | 6 | 4 | 0 | 2 | +6 | 0 | 12 |
+| 5 | [NDL FC](/teams/ndl-fc) | 6 | 4 | 0 | 2 | +5 | 0 | 12 |
+| 6 | [VZN FC](/teams/vzn-fc) | 6 | 3 | 1 | 2 | -4 | 0 | 10 |
+| 7 | [Clutch FC](/teams/clutch-fc) | 6 | 2 | 2 | 2 | -2 | 1 | 9 |
+| 8 | [N5 FC](/teams/n5-fc) | 6 | 2 | 1 | 3 | -6 | 0 | 7 |
+| 9 | [Prime FC](/teams/prime-fc) | 6 | 1 | 2 | 3 | -5 | 1 | 6 |
+| 10 | [Gold Devils FC](/teams/gold-devils-fc) | 6 | 1 | 1 | 4 | -5 | 1 | 5 |
+| 11 | [RTG FC](/teams/yanited) | 6 | 1 | 1 | 4 | -6 | 0 | 4 |
+| 12 | [Toma](/teams/toma) | 6 | 0 | 2 | 4 | -8 | 0 | 2 |
 
 The [live league table](/table) is recomputed after every matchday.
 <!-- /AUTO:table -->

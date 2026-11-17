@@ -2,7 +2,7 @@
 title: "SDS FC Overpower VZN FC 1-5 in Dominant Display — GW2"
 date: 2026-10-19
 category: "Match Report"
-excerpt: "VZN FC 1-5 SDS FC — Gameweek 2 match report. Florian Kastrati (5 goals) leads VZN FC's attack. Game Changers: 3Play (2) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "VZN FC 1-5 SDS FC — Gameweek 2 match report. Stefan Ilic (6 goals) leads VZN FC's attack. Game Changers: 3Play (2) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -108,35 +108,35 @@ The **3Play** window was the more impactful, its **2** goals shifting the balanc
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Florian Kastrati | 5 | 1 | 5 |
-| Stefan Ilic | 3 | 5 | 5 |
-| Dubem Eze | 3 | 1 | 4 |
+| Stefan Ilic | 6 | 4 | 6 |
+| Florian Kastrati | 5 | 1 | 6 |
+| Dubem Eze | 3 | 1 | 5 |
 | Terell Thomas | 2 | 0 | 4 |
-| Zion Nditi | 2 | 0 | 4 |
+| Eddie Allsopp | 2 | 2 | 6 |
 
 ### SDS FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kazaiah Sterling | 6 | 2 | 5 |
-| Ergys Pepaj | 4 | 2 | 5 |
-| Josh Bohui | 3 | 0 | 5 |
-| Amine Sassi | 2 | 1 | 5 |
-| Youssef Chentouf | 2 | 2 | 5 |
+| Kazaiah Sterling | 7 | 2 | 6 |
+| Ergys Pepaj | 5 | 2 | 6 |
+| Amine Sassi | 3 | 1 | 6 |
+| Josh Bohui | 3 | 0 | 6 |
+| Youssef Chentouf | 2 | 3 | 6 |
 
 **Key Attacking Threats**
 
-- **Florian Kastrati** — VZN FC's talisman with **5 goals** from **5 appearances** and **1 assists**. A developing attacking presence with room to grow.
-- **Kazaiah Sterling** — SDS FC's leading marksman with **6 goals** from **5 outings**, plus **2 assists**. SDS FC look to him whenever they need a moment of magic in the final third.
+- **Stefan Ilic** — VZN FC's talisman with **6 goals** from **6 appearances** and **4 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Kazaiah Sterling** — SDS FC's leading marksman with **7 goals** from **6 outings**, plus **2 assists**. SDS FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **VZN FC** entered this match averaging **4.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **SDS FC**, by contrast, arrived with an average of **3.4 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **VZN FC** entered this match averaging **4.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **SDS FC**, by contrast, arrived with an average of **3.5 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.9 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 

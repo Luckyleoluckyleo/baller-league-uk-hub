@@ -27,7 +27,7 @@ Kazaiah Sterling built his professional career at Tottenham Hotspur, Doncaster R
 
 | Season | Apps | Goals | Assists |
 |--------|------|-------|---------|
-| 4 | 5 | 6 | 2 |
+| 4 | 6 | 7 | 2 |
 
 See his full stats on his [player profile](/players/kazaiah-sterling).
 

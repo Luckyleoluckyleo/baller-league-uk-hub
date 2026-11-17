@@ -9,7 +9,7 @@ faqs:
   - q: "Who manages SDS FC in Baller League UK Season 4?"
     a: "SDS FC are managed by Sharky."
   - q: "Who are SDS FC's key players?"
-    a: "Kazaiah Sterling, Ergys Pepaj, Josh Bohui are among the players to watch for SDS FC in Season 4."
+    a: "Kazaiah Sterling, Ergys Pepaj, Amine Sassi are among the players to watch for SDS FC in Season 4."
   - q: "When do SDS FC play next?"
     a: "The next SDS FC fixture has not yet been confirmed."
   - q: "Where did SDS FC finish last season?"
@@ -32,12 +32,12 @@ SDS FC are led by [Sharky](/managers/sharky). Their experience and personality w
 
 Here are some of SDS FC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Kazaiah Sterling](/players/kazaiah-sterling)** (Midfielder) — 6 goals and 2 assists in 5 appearances.
-- **[Ergys Pepaj](/players/ergys-pepaj)** (Midfielder) — 4 goals and 2 assists in 5 appearances.
-- **[Josh Bohui](/players/joshua-bohui)** (Striker) — 3 goals and 0 assists in 5 appearances.
-- **[Amine Sassi](/players/amine-sassi)** (Midfielder) — 2 goals and 1 assists in 5 appearances.
-- **[Youssef Chentouf](/players/youssef-chentouf)** (Striker) — 2 goals and 2 assists in 5 appearances.
-- **[Nya Kirby](/players/nya-kirby)** (Midfielder) — 0 goals and 0 assists in 4 appearances.
+- **[Kazaiah Sterling](/players/kazaiah-sterling)** (Midfielder) — 7 goals and 2 assists in 6 appearances.
+- **[Ergys Pepaj](/players/ergys-pepaj)** (Midfielder) — 5 goals and 2 assists in 6 appearances.
+- **[Amine Sassi](/players/amine-sassi)** (Midfielder) — 3 goals and 1 assists in 6 appearances.
+- **[Josh Bohui](/players/joshua-bohui)** (Striker) — 3 goals and 0 assists in 6 appearances.
+- **[Youssef Chentouf](/players/youssef-chentouf)** (Striker) — 2 goals and 3 assists in 6 appearances.
+- **[J'ardell Stirling](/players/j-ardell-stirling)** (Defender) — 1 goals and 1 assists in 6 appearances.
 
 See the full squad on the [SDS FC team page](/teams/sds-fc).
 

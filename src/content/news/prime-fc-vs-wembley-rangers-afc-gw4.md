@@ -2,7 +2,7 @@
 title: "Wembley Rangers AFC Cruise Past Prime FC in 2-6 Rout — GW4"
 date: 2026-11-02
 category: "Match Report"
-excerpt: "Prime FC 2-6 Wembley Rangers AFC — Gameweek 4 match report. Timmy Abraham (6 goals) leads Prime FC's attack. Game Changers: Plus One (2) & 1-on-1 (4). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Prime FC 2-6 Wembley Rangers AFC — Gameweek 4 match report. Timmy Abraham (7 goals) leads Prime FC's attack. Game Changers: Plus One (2) & 1-on-1 (4). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -111,35 +111,35 @@ The **1-on-1** activation was particularly devastating, producing **4** goals th
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Timmy Abraham | 6 | 0 | 5 |
-| Francis Mampolo | 3 | 2 | 5 |
+| Timmy Abraham | 7 | 0 | 6 |
+| Francis Mampolo | 4 | 2 | 6 |
 | Salim Nassor | 3 | 0 | 3 |
-| Montel McKenzie | 1 | 1 | 5 |
-| Mauro Vilhete | 1 | 1 | 5 |
+| Montel McKenzie | 1 | 1 | 6 |
+| Edy Maieco | 1 | 0 | 6 |
 
 ### Wembley Rangers AFC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Callam Gardner | 6 | 0 | 5 |
-| Domingos Pires | 5 | 1 | 5 |
-| Chiekh Thiam | 4 | 1 | 5 |
-| Dominic Morgan-Griffiths | 1 | 2 | 5 |
-| Adrian Tajik | 1 | 0 | 4 |
+| Domingos Pires | 8 | 1 | 6 |
+| Callam Gardner | 6 | 0 | 6 |
+| Chiekh Thiam | 4 | 1 | 6 |
+| Adrian Tajik | 2 | 0 | 5 |
+| Finlay Chadwick | 2 | 1 | 4 |
 
 **Key Attacking Threats**
 
-- **Timmy Abraham** — Prime FC's talisman with **6 goals** from **5 appearances**. A reliable and consistent outlet who defences have learned to fear.
-- **Callam Gardner** — Wembley Rangers AFC's leading marksman with **6 goals** from **5 outings**. Wembley Rangers AFC look to him whenever they need a moment of magic in the final third.
+- **Timmy Abraham** — Prime FC's talisman with **7 goals** from **6 appearances**. A reliable and consistent outlet who defences have learned to fear.
+- **Domingos Pires** — Wembley Rangers AFC's leading marksman with **8 goals** from **6 outings**, plus **1 assists**. Wembley Rangers AFC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **7 gameweeks** left in the regular season, the stakes couldn't have been higher. **Prime FC** entered this match averaging **3.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **Wembley Rangers AFC**, by contrast, arrived with an average of **4.0 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **7 gameweeks** left in the regular season, the stakes couldn't have been higher. **Prime FC** entered this match averaging **3.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **Wembley Rangers AFC**, by contrast, arrived with an average of **4.2 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.9 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 

@@ -110,34 +110,35 @@ The **Onside** window was the more impactful, its **2** goals shifting the balan
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Amin Belaid | 10 | 3 | 5 |
-| Steven Kodra | 7 | 0 | 5 |
-| Dajon Golding | 3 | 0 | 5 |
-| Ciaran Clark | 1 | 2 | 5 |
+| Amin Belaid | 10 | 3 | 6 |
+| Steven Kodra | 7 | 1 | 6 |
+| Dajon Golding | 4 | 0 | 6 |
+| Ciaran Clark | 1 | 3 | 6 |
+| Junior Morias | 1 | 0 | 3 |
 
 ### VZN FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Florian Kastrati | 5 | 1 | 5 |
-| Stefan Ilic | 3 | 5 | 5 |
-| Dubem Eze | 3 | 1 | 4 |
+| Stefan Ilic | 6 | 4 | 6 |
+| Florian Kastrati | 5 | 1 | 6 |
+| Dubem Eze | 3 | 1 | 5 |
 | Terell Thomas | 2 | 0 | 4 |
-| Zion Nditi | 2 | 0 | 4 |
+| Eddie Allsopp | 2 | 2 | 6 |
 
 **Key Attacking Threats**
 
-- **Amin Belaid** — P17 FC's talisman with **10 goals** from **5 appearances** and **3 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Florian Kastrati** — VZN FC's leading marksman with **5 goals** from **5 outings**, plus **1 assists**. Still finding his rhythm but showing promising signs.
+- **Amin Belaid** — P17 FC's talisman with **10 goals** from **6 appearances** and **3 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Stefan Ilic** — VZN FC's leading marksman with **6 goals** from **6 outings**, plus **4 assists**. VZN FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **P17 FC** entered this match averaging **4.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **VZN FC**, by contrast, arrived with an average of **4.2 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **P17 FC** entered this match averaging **4.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **VZN FC**, by contrast, arrived with an average of **4.2 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.9 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 

@@ -2,7 +2,7 @@
 title: "SDS FC Beat NDL FC 2-5 in Entertaining GW4 Clash"
 date: 2026-11-02
 category: "Match Report"
-excerpt: "NDL FC 2-5 SDS FC — Gameweek 4 match report. Sam Fitzgerald (7 goals) leads NDL FC's attack. Game Changers: Plus One (2) & The Line (3). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "NDL FC 2-5 SDS FC — Gameweek 4 match report. Kadell Daniel (10 goals) leads NDL FC's attack. Game Changers: Plus One (2) & The Line (3). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -112,35 +112,35 @@ The **The Line** window was the more impactful, its **3** goals shifting the bal
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Sam Fitzgerald | 7 | 2 | 5 |
-| Dara Dada | 3 | 0 | 5 |
-| Isaac Modi | 3 | 1 | 5 |
-| Josh Parker | 2 | 0 | 5 |
-| Taufee Skandari | 2 | 0 | 5 |
+| Kadell Daniel | 10 | 2 | 6 |
+| Sam Fitzgerald | 7 | 2 | 6 |
+| Isaac Modi | 4 | 1 | 6 |
+| Josh Parker | 2 | 1 | 6 |
+| Taufee Skandari | 2 | 1 | 6 |
 
 ### SDS FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kazaiah Sterling | 6 | 2 | 5 |
-| Ergys Pepaj | 4 | 2 | 5 |
-| Josh Bohui | 3 | 0 | 5 |
-| Amine Sassi | 2 | 1 | 5 |
-| Youssef Chentouf | 2 | 2 | 5 |
+| Kazaiah Sterling | 7 | 2 | 6 |
+| Ergys Pepaj | 5 | 2 | 6 |
+| Amine Sassi | 3 | 1 | 6 |
+| Josh Bohui | 3 | 0 | 6 |
+| Youssef Chentouf | 2 | 3 | 6 |
 
 **Key Attacking Threats**
 
-- **Sam Fitzgerald** — NDL FC's talisman with **7 goals** from **5 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Kazaiah Sterling** — SDS FC's leading marksman with **6 goals** from **5 outings**, plus **2 assists**. SDS FC look to him whenever they need a moment of magic in the final third.
+- **Kadell Daniel** — NDL FC's talisman with **10 goals** from **6 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Kazaiah Sterling** — SDS FC's leading marksman with **7 goals** from **6 outings**, plus **2 assists**. SDS FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **7 gameweeks** left in the regular season, the stakes couldn't have been higher. **NDL FC** entered this match averaging **3.8 goals per game** — a number that reflected their struggles in front of goal this campaign. **SDS FC**, by contrast, arrived with an average of **3.4 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **7 gameweeks** left in the regular season, the stakes couldn't have been higher. **NDL FC** entered this match averaging **3.7 goals per game** — a number that reflected their struggles in front of goal this campaign. **SDS FC**, by contrast, arrived with an average of **3.5 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.9 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -193,6 +193,7 @@ NDL FC dropped to **6th**, sds fc climbed to **1st**.
 ## Match Facts
 
 - **5 of 7 goals (71%)** came during Game Changer activations
+- Kadell Daniel continues to lead NDL FC with **10 goals** — firmly among the league's elite marksmen
 
 ---
 

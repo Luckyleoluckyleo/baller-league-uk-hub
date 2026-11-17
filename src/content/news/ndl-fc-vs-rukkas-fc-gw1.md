@@ -2,7 +2,7 @@
 title: "P17 FC Beat NDL FC 4-6 in Entertaining GW1 Clash"
 date: 2026-10-12
 category: "Match Report"
-excerpt: "NDL FC 4-6 P17 FC — Gameweek 1 match report. Sam Fitzgerald (7 goals) leads NDL FC's attack. Game Changers: Plus One (2) & 1-on-1 (5). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "NDL FC 4-6 P17 FC — Gameweek 1 match report. Kadell Daniel (10 goals) leads NDL FC's attack. Game Changers: Plus One (2) & 1-on-1 (5). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: true
 ---
@@ -115,34 +115,35 @@ The **1-on-1** activation was particularly devastating, producing **5** goals th
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Sam Fitzgerald | 7 | 2 | 5 |
-| Dara Dada | 3 | 0 | 5 |
-| Isaac Modi | 3 | 1 | 5 |
-| Josh Parker | 2 | 0 | 5 |
-| Taufee Skandari | 2 | 0 | 5 |
+| Kadell Daniel | 10 | 2 | 6 |
+| Sam Fitzgerald | 7 | 2 | 6 |
+| Isaac Modi | 4 | 1 | 6 |
+| Josh Parker | 2 | 1 | 6 |
+| Taufee Skandari | 2 | 1 | 6 |
 
 ### P17 FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Amin Belaid | 10 | 3 | 5 |
-| Steven Kodra | 7 | 0 | 5 |
-| Dajon Golding | 3 | 0 | 5 |
-| Ciaran Clark | 1 | 2 | 5 |
+| Amin Belaid | 10 | 3 | 6 |
+| Steven Kodra | 7 | 1 | 6 |
+| Dajon Golding | 4 | 0 | 6 |
+| Ciaran Clark | 1 | 3 | 6 |
+| Junior Morias | 1 | 0 | 3 |
 
 **Key Attacking Threats**
 
-- **Sam Fitzgerald** — NDL FC's talisman with **7 goals** from **5 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Amin Belaid** — P17 FC's leading marksman with **10 goals** from **5 outings**, plus **3 assists**. P17 FC look to him whenever they need a moment of magic in the final third.
+- **Kadell Daniel** — NDL FC's talisman with **10 goals** from **6 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Amin Belaid** — P17 FC's leading marksman with **10 goals** from **6 outings**, plus **3 assists**. P17 FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **NDL FC** entered this match averaging **3.8 goals per game** — a number that reflected their struggles in front of goal this campaign. **P17 FC**, by contrast, arrived with an average of **4.4 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **NDL FC** entered this match averaging **3.7 goals per game** — a number that reflected their struggles in front of goal this campaign. **P17 FC**, by contrast, arrived with an average of **4.2 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.9 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -161,7 +162,7 @@ NDL FC held steady, p17 fc held steady.
 | Team | Before GW1 | After GW1 |
 |------|-------------|-------------|
 | NDL FC | — | 10th |
-| P17 FC | — | 3rd |
+| P17 FC | — | 4th |
 
 
 ---
@@ -196,6 +197,7 @@ NDL FC held steady, p17 fc held steady.
 
 - A **10-goal thriller** that lived up to every pre-match expectation
 - The GC period exploded with **7 goals** — an extraordinary return from just two rule-change windows
+- Kadell Daniel continues to lead NDL FC with **10 goals** — firmly among the league's elite marksmen
 - Amin Belaid heads P17 FC's scoring charts with **10 goals**, a tally any forward would be proud of
 
 ---

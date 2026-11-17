@@ -98,10 +98,10 @@ The **3Play** activation was particularly devastating, producing **3** goals tha
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Harry Wright | 1 | 1 | 1 | 15 |
-| Joe Bennett | 1 | 0 | 7 | 23 |
+| Harry Wright | 1 | 1 | 1 | 17 |
+| Joe Bennett | 1 | 0 | 7 | 25 |
 | Mustapha Carayol | 1 | 0 | 6 | 5 |
-| Billy Sharp | 1 | 0 | 4 | 5 |
+| Billy Sharp | 1 | 0 | 4 | 7 |
 | Francis Amartey | 1 | 0 | 2 | 2 |
 | Hani Berchiche | 0 | 1 | 3 | 8 |
 
@@ -115,35 +115,35 @@ The **3Play** activation was particularly devastating, producing **3** goals tha
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Junior Dixon | 4 | 2 | 4 |
-| Joshua Phillips | 3 | 1 | 5 |
-| Yasin Ben El-Mhanni | 2 | 0 | 5 |
-| Arezki Hamouchene | 2 | 0 | 4 |
-| Ibrahim Bangura | 2 | 1 | 5 |
+| Junior Dixon | 4 | 2 | 5 |
+| Joshua Phillips | 3 | 1 | 6 |
+| Yasin Ben El-Mhanni | 2 | 0 | 6 |
+| Praise Ogbebor | 2 | 1 | 6 |
+| Arezki Hamouchene | 2 | 0 | 5 |
 
 ### N5 FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Joe Bennett | 3 | 2 | 5 |
+| Joe Bennett | 4 | 2 | 6 |
+| Michael Hill | 3 | 2 | 6 |
 | Francis Amartey | 3 | 1 | 4 |
-| Hani Berchiche | 3 | 1 | 5 |
-| Michael Hill | 2 | 1 | 5 |
-| Billy Sharp | 2 | 0 | 4 |
+| Hani Berchiche | 3 | 1 | 6 |
+| Billy Sharp | 2 | 1 | 5 |
 
 **Key Attacking Threats**
 
-- **Junior Dixon** — Toma's talisman with **4 goals** from **4 appearances** and **2 assists**. A developing attacking presence with room to grow.
-- **Joe Bennett** — N5 FC's leading marksman with **3 goals** from **5 outings**, plus **2 assists**. Still finding his rhythm but showing promising signs.
+- **Junior Dixon** — Toma's talisman with **4 goals** from **5 appearances** and **2 assists**. A developing attacking presence with room to grow.
+- **Joe Bennett** — N5 FC's leading marksman with **4 goals** from **6 outings**, plus **2 assists**. Still finding his rhythm but showing promising signs.
 
 
 ---
 
 ## Season Context
 
-With **6 gameweeks** left in the regular season, the stakes couldn't have been higher. **Toma** entered this match averaging **3.8 goals per game** — a number that reflected their struggles in front of goal this campaign. **N5 FC**, by contrast, arrived with an average of **3.2 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **6 gameweeks** left in the regular season, the stakes couldn't have been higher. **Toma** entered this match averaging **3.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **N5 FC**, by contrast, arrived with an average of **3.3 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.9 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -162,7 +162,7 @@ Toma stayed at **12th**, n5 fc climbed to **8th**.
 | Team | Before GW5 | After GW5 |
 |------|-------------|-------------|
 | Toma | 12th | 12th |
-| N5 FC | 10th | 8th |
+| N5 FC | 11th | 8th |
 
 
 ---
@@ -187,8 +187,8 @@ Toma stayed at **12th**, n5 fc climbed to **8th**.
 | Different goalscorers | 7 |
 | Total shots | 57 |
 | Assists | 4 |
-| Tackles | 10 |
-| Passes | 263 |
+| Tackles | 11 |
+| Passes | 272 |
 
 
 ---

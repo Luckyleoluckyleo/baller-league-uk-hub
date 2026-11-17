@@ -9,13 +9,13 @@ featured: false
 
 ## Toma: All-Time Baller League UK Record
 
-**Toma** have played **5** matches in Baller League UK across 4 seasons, winning **0**, drawing **2** and losing **3** — a win rate of **0%**. They have scored **19** goals and conceded **24** (goal difference **-5**).
+**Toma** have played **6** matches in Baller League UK across 4 seasons, winning **0**, drawing **2** and losing **4** — a win rate of **0%**. They have scored **19** goals and conceded **27** (goal difference **-8**).
 
 ## Season-by-season
 
 | Season | Pos | Pld | W | D | L | GD | Pts |
 |--------|-----|-----|---|---|---|----|-----|
-| 4 | 12th | 5 | 0 | 2 | 3 | -5 | 2 |
+| 4 | 12th | 6 | 0 | 2 | 4 | -8 | 2 |
 
 Their best finish came in **Season 4**, finishing **12th** on **2 points**.
 

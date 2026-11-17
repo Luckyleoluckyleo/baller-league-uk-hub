@@ -23,7 +23,7 @@ Timmy Abraham built his professional career at Fulham, Cheltenham Town and Brist
 
 | Season | Apps | Goals | Assists |
 |--------|------|-------|---------|
-| 4 | 5 | 6 | 0 |
+| 4 | 6 | 7 | 0 |
 
 See his full stats on his [player profile](/players/timmy-abraham).
 

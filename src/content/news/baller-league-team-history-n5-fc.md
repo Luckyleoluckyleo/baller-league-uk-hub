@@ -9,7 +9,7 @@ featured: false
 
 ## N5 FC: All-Time Baller League UK Record
 
-**N5 FC** have played **38** matches in Baller League UK across 4 seasons, winning **14**, drawing **3** and losing **21** — a win rate of **37%**. They have scored **138** goals and conceded **153** (goal difference **-15**).
+**N5 FC** have played **39** matches in Baller League UK across 4 seasons, winning **14**, drawing **3** and losing **22** — a win rate of **36%**. They have scored **142** goals and conceded **158** (goal difference **-16**).
 
 ## Season-by-season
 
@@ -18,17 +18,17 @@ featured: false
 | 1 | 12th | 11 | 1 | 1 | 9 | -19 | 5 |
 | 2 | 6th | 11 | 6 | 1 | 4 | +6 | 19 |
 | 3 | 8th | 11 | 5 | 0 | 6 | +3 | 15 |
-| 4 | 8th | 5 | 2 | 1 | 2 | -5 | 7 |
+| 4 | 8th | 6 | 2 | 1 | 3 | -6 | 7 |
 
 Their best finish came in **Season 2**, finishing **6th** on **19 points**.
 
 ## Top scorers (all-time club)
 
-- **[Michael Hill](/players/michael-hill)** — 24 goals, 8 assists
-- **[Joe Bennett](/players/joe-bennett)** — 18 goals, 5 assists
+- **[Michael Hill](/players/michael-hill)** — 25 goals, 9 assists
+- **[Joe Bennett](/players/joe-bennett)** — 19 goals, 5 assists
 - **[Hani Berchiche](/players/hani-berchiche)** — 14 goals, 4 assists
-- **[Mustapha Carayol](/players/mustapha-carayol)** — 4 goals, 2 assists
-- **[Kieron Freeman](/players/kieron-freeman)** — 3 goals, 7 assists
+- **[Kieron Freeman](/players/kieron-freeman)** — 5 goals, 7 assists
+- **[Mustapha Carayol](/players/mustapha-carayol)** — 4 goals, 3 assists
 
 ## Biggest win
 

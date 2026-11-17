@@ -2,7 +2,7 @@
 title: "NDL FC See Off Wembley Rangers AFC 2-4 in Gameweek 2"
 date: 2026-10-19
 category: "Match Report"
-excerpt: "Wembley Rangers AFC 2-4 NDL FC — Gameweek 2 match report. Callam Gardner (6 goals) leads Wembley Rangers AFC's attack. Game Changers: Plus One (3) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Wembley Rangers AFC 2-4 NDL FC — Gameweek 2 match report. Domingos Pires (8 goals) leads Wembley Rangers AFC's attack. Game Changers: Plus One (3) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -106,35 +106,35 @@ The **Plus One** window was the more impactful, its **3** goals shifting the bal
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Callam Gardner | 6 | 0 | 5 |
-| Domingos Pires | 5 | 1 | 5 |
-| Chiekh Thiam | 4 | 1 | 5 |
-| Dominic Morgan-Griffiths | 1 | 2 | 5 |
-| Adrian Tajik | 1 | 0 | 4 |
+| Domingos Pires | 8 | 1 | 6 |
+| Callam Gardner | 6 | 0 | 6 |
+| Chiekh Thiam | 4 | 1 | 6 |
+| Adrian Tajik | 2 | 0 | 5 |
+| Finlay Chadwick | 2 | 1 | 4 |
 
 ### NDL FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Sam Fitzgerald | 7 | 2 | 5 |
-| Dara Dada | 3 | 0 | 5 |
-| Isaac Modi | 3 | 1 | 5 |
-| Josh Parker | 2 | 0 | 5 |
-| Taufee Skandari | 2 | 0 | 5 |
+| Kadell Daniel | 10 | 2 | 6 |
+| Sam Fitzgerald | 7 | 2 | 6 |
+| Isaac Modi | 4 | 1 | 6 |
+| Josh Parker | 2 | 1 | 6 |
+| Taufee Skandari | 2 | 1 | 6 |
 
 **Key Attacking Threats**
 
-- **Callam Gardner** — Wembley Rangers AFC's talisman with **6 goals** from **5 appearances**. A reliable and consistent outlet who defences have learned to fear.
-- **Sam Fitzgerald** — NDL FC's leading marksman with **7 goals** from **5 outings**, plus **2 assists**. NDL FC look to him whenever they need a moment of magic in the final third.
+- **Domingos Pires** — Wembley Rangers AFC's talisman with **8 goals** from **6 appearances** and **1 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Kadell Daniel** — NDL FC's leading marksman with **10 goals** from **6 outings**, plus **2 assists**. NDL FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **Wembley Rangers AFC** entered this match averaging **4.0 goals per game** — a number that reflected their struggles in front of goal this campaign. **NDL FC**, by contrast, arrived with an average of **3.8 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **Wembley Rangers AFC** entered this match averaging **4.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **NDL FC**, by contrast, arrived with an average of **3.7 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.9 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -187,6 +187,7 @@ Wembley Rangers AFC stayed at **12th**, ndl fc climbed to **7th**.
 ## Match Facts
 
 - **4 of 6 goals (67%)** came during Game Changer activations
+- Kadell Daniel heads NDL FC's scoring charts with **10 goals**, a tally any forward would be proud of
 
 ---
 

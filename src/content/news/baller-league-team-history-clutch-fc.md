@@ -9,7 +9,7 @@ featured: false
 
 ## Clutch FC: All-Time Baller League UK Record
 
-**Clutch FC** have played **38** matches in Baller League UK across 4 seasons, winning **16**, drawing **4** and losing **18** — a win rate of **42%**. They have scored **145** goals and conceded **160** (goal difference **-15**).
+**Clutch FC** have played **39** matches in Baller League UK across 4 seasons, winning **16**, drawing **5** and losing **18** — a win rate of **41%**. They have scored **149** goals and conceded **164** (goal difference **-15**).
 
 ## Season-by-season
 
@@ -18,17 +18,17 @@ featured: false
 | 1 | 6th | 11 | 6 | 1 | 4 | +2 | 19 |
 | 2 | 8th | 11 | 3 | 2 | 6 | -11 | 14 |
 | 3 | 6th | 11 | 5 | 0 | 6 | -4 | 17 |
-| 4 | 7th | 5 | 2 | 1 | 2 | -2 | 8 |
+| 4 | 7th | 6 | 2 | 2 | 2 | -2 | 9 |
 
 Their best finish came in **Season 1**, finishing **6th** on **19 points**.
 
 ## Top scorers (all-time club)
 
-- **[Tyler Winters](/players/tyler-winters)** — 24 goals, 5 assists
+- **[Tyler Winters](/players/tyler-winters)** — 25 goals, 5 assists
 - **[Richard Afrane-Kesey](/players/richard-afrane-kesey)** — 19 goals, 1 assists
 - **[Alfie Matthews](/players/alfie-matthews)** — 16 goals, 13 assists
-- **[Joshua Sumbunu](/players/joshua-sumbunu)** — 8 goals, 3 assists
-- **[Alex Byrne](/players/alex-byrne)** — 6 goals, 1 assists
+- **[Joshua Sumbunu](/players/joshua-sumbunu)** — 9 goals, 4 assists
+- **[Alex Byrne](/players/alex-byrne)** — 7 goals, 1 assists
 
 ## Biggest win
 

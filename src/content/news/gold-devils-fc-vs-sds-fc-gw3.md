@@ -2,7 +2,7 @@
 title: "SDS FC Edge Gold Devils FC 4-5 in GW3 Thriller"
 date: 2026-10-26
 category: "Match Report"
-excerpt: "Gold Devils FC 4-5 SDS FC — Gameweek 3 match report. Bilal Sayoud (5 goals) leads Gold Devils FC's attack. Game Changers: Plus One (4) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Gold Devils FC 4-5 SDS FC — Gameweek 3 match report. Bilal Sayoud (6 goals) leads Gold Devils FC's attack. Game Changers: Plus One (4) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -11,7 +11,7 @@ featured: false
 
 Baller Arena played host to an absorbing Gameweek 3 clash as **Gold Devils FC** locked horns with **SDS FC** in what would prove to be an unforgettable thriller packed with drama and goals.
 
-SDS FC, sitting pretty in the Final Four places at 3rd, knew a win here would tighten their grip. When the dust settled, it was **SDS FC** who emerged **4-5** victors. The Game Changer window — **Plus One** and **1-on-1** — proved pivotal, contributing **7** of the match's **9** goals.
+Gold Devils FC, sitting pretty in the Final Four places at 4th, knew a win here would tighten their grip. When the dust settled, it was **SDS FC** who emerged **4-5** victors. The Game Changer window — **Plus One** and **1-on-1** — proved pivotal, contributing **7** of the match's **9** goals.
 
 **Gold Devils FC form (before GW3):** ❌ ✅ (L-W)  
 **SDS FC form (before GW3):** ✅ 🤝 (W-D)
@@ -118,35 +118,35 @@ The **Plus One** activation was particularly devastating, producing **4** goals 
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Bilal Sayoud | 5 | 2 | 5 |
-| Tarik Gidaree | 5 | 1 | 5 |
-| Connor Wood | 2 | 3 | 5 |
-| Luke May-Parrott | 2 | 2 | 3 |
-| Marvel Ekpiteta | 1 | 0 | 5 |
+| Bilal Sayoud | 6 | 2 | 6 |
+| Tarik Gidaree | 5 | 1 | 6 |
+| Luke May-Parrott | 3 | 2 | 4 |
+| Connor Wood | 2 | 3 | 6 |
+| Dimitri Nicolaou | 1 | 0 | 6 |
 
 ### SDS FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kazaiah Sterling | 6 | 2 | 5 |
-| Ergys Pepaj | 4 | 2 | 5 |
-| Josh Bohui | 3 | 0 | 5 |
-| Amine Sassi | 2 | 1 | 5 |
-| Youssef Chentouf | 2 | 2 | 5 |
+| Kazaiah Sterling | 7 | 2 | 6 |
+| Ergys Pepaj | 5 | 2 | 6 |
+| Amine Sassi | 3 | 1 | 6 |
+| Josh Bohui | 3 | 0 | 6 |
+| Youssef Chentouf | 2 | 3 | 6 |
 
 **Key Attacking Threats**
 
-- **Bilal Sayoud** — Gold Devils FC's talisman with **5 goals** from **5 appearances** and **2 assists**. A developing attacking presence with room to grow.
-- **Kazaiah Sterling** — SDS FC's leading marksman with **6 goals** from **5 outings**, plus **2 assists**. SDS FC look to him whenever they need a moment of magic in the final third.
+- **Bilal Sayoud** — Gold Devils FC's talisman with **6 goals** from **6 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Kazaiah Sterling** — SDS FC's leading marksman with **7 goals** from **6 outings**, plus **2 assists**. SDS FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **Gold Devils FC** entered this match averaging **3.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **SDS FC**, by contrast, arrived with an average of **3.4 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **Gold Devils FC** entered this match averaging **3.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **SDS FC**, by contrast, arrived with an average of **3.5 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.9 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -160,11 +160,11 @@ This was the **maiden competitive meeting** between Gold Devils FC and SDS FC �
 
 ## Table Impact
 
-Gold Devils FC dropped to **8th**, sds fc climbed to **2nd**.
+Gold Devils FC dropped to **7th**, sds fc climbed to **2nd**.
 
 | Team | Before GW3 | After GW3 |
 |------|-------------|-------------|
-| Gold Devils FC | 6th | 8th |
+| Gold Devils FC | 4th | 7th |
 | SDS FC | 3rd | 2nd |
 
 

@@ -120,35 +120,35 @@ The **3Play** window was the more impactful, its **2** goals shifting the balanc
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Junior Dixon | 4 | 2 | 4 |
-| Joshua Phillips | 3 | 1 | 5 |
-| Yasin Ben El-Mhanni | 2 | 0 | 5 |
-| Arezki Hamouchene | 2 | 0 | 4 |
-| Ibrahim Bangura | 2 | 1 | 5 |
+| Junior Dixon | 4 | 2 | 5 |
+| Joshua Phillips | 3 | 1 | 6 |
+| Yasin Ben El-Mhanni | 2 | 0 | 6 |
+| Praise Ogbebor | 2 | 1 | 6 |
+| Arezki Hamouchene | 2 | 0 | 5 |
 
 ### VZN FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Florian Kastrati | 5 | 1 | 5 |
-| Stefan Ilic | 3 | 5 | 5 |
-| Dubem Eze | 3 | 1 | 4 |
+| Stefan Ilic | 6 | 4 | 6 |
+| Florian Kastrati | 5 | 1 | 6 |
+| Dubem Eze | 3 | 1 | 5 |
 | Terell Thomas | 2 | 0 | 4 |
-| Zion Nditi | 2 | 0 | 4 |
+| Eddie Allsopp | 2 | 2 | 6 |
 
 **Key Attacking Threats**
 
-- **Junior Dixon** — Toma's talisman with **4 goals** from **4 appearances** and **2 assists**. A developing attacking presence with room to grow.
-- **Florian Kastrati** — VZN FC's leading marksman with **5 goals** from **5 outings**, plus **1 assists**. Still finding his rhythm but showing promising signs.
+- **Junior Dixon** — Toma's talisman with **4 goals** from **5 appearances** and **2 assists**. A developing attacking presence with room to grow.
+- **Stefan Ilic** — VZN FC's leading marksman with **6 goals** from **6 outings**, plus **4 assists**. VZN FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **7 gameweeks** left in the regular season, the stakes couldn't have been higher. **Toma** entered this match averaging **3.8 goals per game** — a number that reflected their struggles in front of goal this campaign. **VZN FC**, by contrast, arrived with an average of **4.2 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **7 gameweeks** left in the regular season, the stakes couldn't have been higher. **Toma** entered this match averaging **3.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **VZN FC**, by contrast, arrived with an average of **4.2 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.9 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -193,7 +193,7 @@ Toma dropped to **12th**, vzn fc climbed to **7th**.
 | Total shots | 43 |
 | Assists | 7 |
 | Tackles | 19 |
-| Passes | 274 |
+| Passes | 275 |
 
 
 ---

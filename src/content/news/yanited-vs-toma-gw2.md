@@ -2,7 +2,7 @@
 title: "RTG FC and Toma Play Out 6-6 Classic in Gameweek 2"
 date: 2026-10-19
 category: "Match Report"
-excerpt: "RTG FC 6-6 Toma — Gameweek 2 match report. Kadell Daniel (9 goals) leads RTG FC's attack. Game Changers: Onside (0) & 1-on-1 (4). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "RTG FC 6-6 Toma — Gameweek 2 match report. Alfie Cerulli (7 goals) leads RTG FC's attack. Game Changers: Onside (0) & 1-on-1 (4). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: true
 ---
@@ -20,7 +20,7 @@ The final whistle confirmed a **6-6 draw** in a contest that had absolutely ever
 
 ## ⭐ Player of the Match
 
-[Kadell Daniel](/players/kadell-daniel) for RTG FC was the pick of the bunch with **3** goals, **1** assist, **7** shots.
+[Kadell Daniel](/players/kadell-daniel) for NDL FC was the pick of the bunch with **3** goals, **1** assist, **7** shots.
 
 
 ---
@@ -124,35 +124,35 @@ The **1-on-1** window was the more impactful, its **4** goals shifting the balan
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kadell Daniel | 9 | 2 | 5 |
-| Alfie Cerulli | 7 | 0 | 5 |
-| Tyrell Miller-Rodney | 2 | 2 | 5 |
-| Zaid Al Hussaini | 1 | 4 | 5 |
-| Joshua Emmanuel | 1 | 0 | 5 |
+| Alfie Cerulli | 7 | 0 | 6 |
+| Dara Dada | 3 | 0 | 6 |
+| Tyrell Miller-Rodney | 2 | 2 | 6 |
+| Zaid Al Hussaini | 1 | 4 | 6 |
+| Dan Wishart | 1 | 1 | 5 |
 
 ### Toma — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Junior Dixon | 4 | 2 | 4 |
-| Joshua Phillips | 3 | 1 | 5 |
-| Yasin Ben El-Mhanni | 2 | 0 | 5 |
-| Arezki Hamouchene | 2 | 0 | 4 |
-| Ibrahim Bangura | 2 | 1 | 5 |
+| Junior Dixon | 4 | 2 | 5 |
+| Joshua Phillips | 3 | 1 | 6 |
+| Yasin Ben El-Mhanni | 2 | 0 | 6 |
+| Praise Ogbebor | 2 | 1 | 6 |
+| Arezki Hamouchene | 2 | 0 | 5 |
 
 **Key Attacking Threats**
 
-- **Kadell Daniel** — RTG FC's talisman with **9 goals** from **5 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Junior Dixon** — Toma's leading marksman with **4 goals** from **4 outings**, plus **2 assists**. Still finding his rhythm but showing promising signs.
+- **Alfie Cerulli** — RTG FC's talisman with **7 goals** from **6 appearances**. A reliable and consistent outlet who defences have learned to fear.
+- **Junior Dixon** — Toma's leading marksman with **4 goals** from **5 outings**, plus **2 assists**. Still finding his rhythm but showing promising signs.
 
 
 ---
 
 ## Season Context
 
-With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **RTG FC** entered this match averaging **4.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **Toma**, by contrast, arrived with an average of **3.8 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **RTG FC** entered this match averaging **3.5 goals per game** — a number that reflected their struggles in front of goal this campaign. **Toma**, by contrast, arrived with an average of **3.2 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.9 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 

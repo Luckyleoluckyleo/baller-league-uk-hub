@@ -106,34 +106,35 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Amin Belaid | 10 | 3 | 5 |
-| Steven Kodra | 7 | 0 | 5 |
-| Dajon Golding | 3 | 0 | 5 |
-| Ciaran Clark | 1 | 2 | 5 |
+| Amin Belaid | 10 | 3 | 6 |
+| Steven Kodra | 7 | 1 | 6 |
+| Dajon Golding | 4 | 0 | 6 |
+| Ciaran Clark | 1 | 3 | 6 |
+| Junior Morias | 1 | 0 | 3 |
 
 ### Deportrio — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Jay Emmanuel-Thomas | 7 | 3 | 5 |
-| Kevin Weggen | 7 | 3 | 5 |
-| Rodney Ajayi | 6 | 0 | 5 |
-| Emmanuel Robe | 3 | 0 | 5 |
-| Martyn Waghorn | 3 | 0 | 3 |
+| Jay Emmanuel-Thomas | 8 | 5 | 6 |
+| Kevin Weggen | 8 | 3 | 6 |
+| Rodney Ajayi | 6 | 0 | 6 |
+| Martyn Waghorn | 4 | 0 | 4 |
+| Emmanuel Robe | 3 | 0 | 6 |
 
 **Key Attacking Threats**
 
-- **Amin Belaid** — P17 FC's talisman with **10 goals** from **5 appearances** and **3 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Jay Emmanuel-Thomas** — Deportrio's leading marksman with **7 goals** from **5 outings**, plus **3 assists**. Deportrio look to him whenever they need a moment of magic in the final third.
+- **Amin Belaid** — P17 FC's talisman with **10 goals** from **6 appearances** and **3 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Jay Emmanuel-Thomas** — Deportrio's leading marksman with **8 goals** from **6 outings**, plus **5 assists**. Deportrio look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **7 gameweeks** left in the regular season, the stakes couldn't have been higher. **P17 FC** entered this match averaging **4.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **Deportrio**, by contrast, arrived with an average of **5.2 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **7 gameweeks** left in the regular season, the stakes couldn't have been higher. **P17 FC** entered this match averaging **4.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **Deportrio**, by contrast, arrived with an average of **5.2 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.9 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
