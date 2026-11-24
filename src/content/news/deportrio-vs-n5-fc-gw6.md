@@ -2,7 +2,7 @@
 title: "Deportrio Edge N5 FC 5-4 in GW6 Thriller"
 date: 2026-11-16
 category: "Match Report"
-excerpt: "Deportrio 5-4 N5 FC — Gameweek 6 match report. Jay Emmanuel-Thomas (8 goals) leads Deportrio's attack. Game Changers: 3Play (6) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Deportrio 5-4 N5 FC — Gameweek 6 match report. Kevin Weggen (10 goals) leads Deportrio's attack. Game Changers: 3Play (6) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -119,35 +119,35 @@ The **3Play** activation was particularly devastating, producing **6** goals tha
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Jay Emmanuel-Thomas | 8 | 5 | 6 |
-| Kevin Weggen | 8 | 3 | 6 |
-| Rodney Ajayi | 6 | 0 | 6 |
-| Martyn Waghorn | 4 | 0 | 4 |
-| Emmanuel Robe | 3 | 0 | 6 |
+| Kevin Weggen | 10 | 3 | 7 |
+| Jay Emmanuel-Thomas | 9 | 5 | 7 |
+| Rodney Ajayi | 8 | 0 | 7 |
+| Emmanuel Robe | 4 | 0 | 7 |
+| Martyn Waghorn | 4 | 0 | 5 |
 
 ### N5 FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Joe Bennett | 4 | 2 | 6 |
+| Francis Amartey | 5 | 1 | 5 |
+| Joe Bennett | 4 | 2 | 7 |
 | Michael Hill | 3 | 2 | 6 |
-| Francis Amartey | 3 | 1 | 4 |
-| Hani Berchiche | 3 | 1 | 6 |
-| Billy Sharp | 2 | 1 | 5 |
+| Kieron Freeman | 3 | 2 | 6 |
+| Hani Berchiche | 3 | 1 | 7 |
 
 **Key Attacking Threats**
 
-- **Jay Emmanuel-Thomas** — Deportrio's talisman with **8 goals** from **6 appearances** and **5 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Joe Bennett** — N5 FC's leading marksman with **4 goals** from **6 outings**, plus **2 assists**. Still finding his rhythm but showing promising signs.
+- **Kevin Weggen** — Deportrio's talisman with **10 goals** from **7 appearances** and **3 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Francis Amartey** — N5 FC's leading marksman with **5 goals** from **5 outings**, plus **1 assists**. Still finding his rhythm but showing promising signs.
 
 
 ---
 
 ## Season Context
 
-With **5 gameweeks** left in the regular season, the stakes couldn't have been higher. **Deportrio** entered this match averaging **5.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **N5 FC**, by contrast, arrived with an average of **3.3 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **5 gameweeks** left in the regular season, the stakes couldn't have been higher. **Deportrio** entered this match averaging **5.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **N5 FC**, by contrast, arrived with an average of **3.4 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.5 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -202,6 +202,7 @@ Deportrio dropped to **4th**, n5 fc stayed at **8th**.
 - A **9-goal thriller** that lived up to every pre-match expectation
 - The GC period exploded with **7 goals** — an extraordinary return from just two rule-change windows
 - A **one-goal game** decided by the narrowest of margins — the small details made all the difference
+- Kevin Weggen continues to lead Deportrio with **10 goals** — firmly among the league's elite marksmen
 
 ---
 

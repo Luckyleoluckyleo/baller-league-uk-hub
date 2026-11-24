@@ -9,7 +9,7 @@ featured: false
 
 ## NDL FC: All-Time Baller League UK Record
 
-**NDL FC** have played **42** matches in Baller League UK across 4 seasons, winning **24**, drawing **5** and losing **13** — a win rate of **57%**. They have scored **180** goals and conceded **149** (goal difference **+31**).
+**NDL FC** have played **43** matches in Baller League UK across 4 seasons, winning **25**, drawing **5** and losing **13** — a win rate of **58%**. They have scored **185** goals and conceded **153** (goal difference **+32**).
 
 ## Season-by-season
 
@@ -18,17 +18,17 @@ featured: false
 | 1 | 5th | 11 | 6 | 2 | 3 | +9 | 20 |
 | 2 | 2nd | 11 | 6 | 1 | 4 | +6 | 20 |
 | 3 | 1st | 11 | 7 | 2 | 2 | +15 | 26 |
-| 4 | 5th | 6 | 4 | 0 | 2 | +5 | 12 |
+| 4 | 3rd | 7 | 5 | 0 | 2 | +6 | 15 |
 
 Their best finish came in **Season 3**, finishing **1st** on **26 points**.
 
 ## Top scorers (all-time club)
 
 - **[Isaac Modi](/players/isaac-modi)** — 19 goals, 7 assists
-- **[Sam Fitzgerald](/players/sam-fitzgerald)** — 17 goals, 6 assists
-- **[Josh Parker](/players/joshua-parker)** — 7 goals, 2 assists
+- **[Sam Fitzgerald](/players/sam-fitzgerald)** — 19 goals, 6 assists
+- **[Josh Parker](/players/joshua-parker)** — 7 goals, 1 assists
+- **[Kadell Daniel](/players/kadell-daniel)** — 6 goals, 0 assists
 - **[Amadou Kassaraté](/players/amadou-kassarate)** — 4 goals, 0 assists
-- **[Didi](/players/david-marques-castanho)** — 3 goals, 2 assists
 
 ## Biggest win
 

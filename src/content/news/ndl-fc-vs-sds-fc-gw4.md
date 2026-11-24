@@ -2,7 +2,7 @@
 title: "SDS FC Beat NDL FC 2-5 in Entertaining GW4 Clash"
 date: 2026-11-02
 category: "Match Report"
-excerpt: "NDL FC 2-5 SDS FC — Gameweek 4 match report. Kadell Daniel (10 goals) leads NDL FC's attack. Game Changers: Plus One (2) & The Line (3). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "NDL FC 2-5 SDS FC — Gameweek 4 match report. Kadell Daniel (13 goals) leads NDL FC's attack. Game Changers: Plus One (2) & The Line (3). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -112,35 +112,35 @@ The **The Line** window was the more impactful, its **3** goals shifting the bal
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kadell Daniel | 10 | 2 | 6 |
-| Sam Fitzgerald | 7 | 2 | 6 |
-| Isaac Modi | 4 | 1 | 6 |
-| Josh Parker | 2 | 1 | 6 |
-| Taufee Skandari | 2 | 1 | 6 |
+| Kadell Daniel | 13 | 2 | 7 |
+| Sam Fitzgerald | 9 | 2 | 7 |
+| Isaac Modi | 4 | 1 | 7 |
+| Josh Parker | 2 | 0 | 7 |
+| Taufee Skandari | 2 | 1 | 7 |
 
 ### SDS FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kazaiah Sterling | 7 | 2 | 6 |
-| Ergys Pepaj | 5 | 2 | 6 |
-| Amine Sassi | 3 | 1 | 6 |
-| Josh Bohui | 3 | 0 | 6 |
-| Youssef Chentouf | 2 | 3 | 6 |
+| Kazaiah Sterling | 7 | 4 | 7 |
+| Ergys Pepaj | 5 | 2 | 7 |
+| Amine Sassi | 4 | 1 | 7 |
+| Josh Bohui | 3 | 0 | 7 |
+| J'ardell Stirling | 2 | 1 | 7 |
 
 **Key Attacking Threats**
 
-- **Kadell Daniel** — NDL FC's talisman with **10 goals** from **6 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Kazaiah Sterling** — SDS FC's leading marksman with **7 goals** from **6 outings**, plus **2 assists**. SDS FC look to him whenever they need a moment of magic in the final third.
+- **Kadell Daniel** — NDL FC's talisman with **13 goals** from **7 appearances** and **2 assists**. One of the league's elite finishers and the focal point of virtually every NDL FC attack.
+- **Kazaiah Sterling** — SDS FC's leading marksman with **7 goals** from **7 outings**, plus **4 assists**. SDS FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **7 gameweeks** left in the regular season, the stakes couldn't have been higher. **NDL FC** entered this match averaging **3.7 goals per game** — a number that reflected their struggles in front of goal this campaign. **SDS FC**, by contrast, arrived with an average of **3.5 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **7 gameweeks** left in the regular season, the stakes couldn't have been higher. **NDL FC** entered this match averaging **3.9 goals per game** — a number that reflected their struggles in front of goal this campaign. **SDS FC**, by contrast, arrived with an average of **3.3 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.5 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -154,12 +154,12 @@ This was the **maiden competitive meeting** between NDL FC and SDS FC — a hist
 
 ## Table Impact
 
-NDL FC dropped to **6th**, sds fc climbed to **1st**.
+NDL FC dropped to **6th**, sds fc stayed at **1st**.
 
 | Team | Before GW4 | After GW4 |
 |------|-------------|-------------|
 | NDL FC | 4th | 6th |
-| SDS FC | 2nd | 1st |
+| SDS FC | 1st | 1st |
 
 
 ---
@@ -193,7 +193,7 @@ NDL FC dropped to **6th**, sds fc climbed to **1st**.
 ## Match Facts
 
 - **5 of 7 goals (71%)** came during Game Changer activations
-- Kadell Daniel continues to lead NDL FC with **10 goals** — firmly among the league's elite marksmen
+- Kadell Daniel continues to lead NDL FC with **13 goals** — firmly among the league's elite marksmen
 
 ---
 

@@ -9,7 +9,7 @@ faqs:
   - q: "Who manages Deportrio in Baller League UK Season 4?"
     a: "Deportrio are managed by Micah Richards."
   - q: "Who are Deportrio's key players?"
-    a: "Jay Emmanuel-Thomas, Kevin Weggen, Rodney Ajayi are among the players to watch for Deportrio in Season 4."
+    a: "Kevin Weggen, Jay Emmanuel-Thomas, Rodney Ajayi are among the players to watch for Deportrio in Season 4."
   - q: "When do Deportrio play next?"
     a: "The next Deportrio fixture has not yet been confirmed."
   - q: "Where did Deportrio finish last season?"
@@ -32,12 +32,12 @@ Deportrio are led by [Micah Richards](/managers/micah-richards). Their experienc
 
 Here are some of Deportrio's players to watch, with last season's (Season 4) figures where available:
 
-- **[Jay Emmanuel-Thomas](/players/jay-emmanuel-thomas)** (Striker) — 8 goals and 5 assists in 6 appearances.
-- **[Kevin Weggen](/players/kevin-weggen)** (Midfielder) — 8 goals and 3 assists in 6 appearances.
-- **[Rodney Ajayi](/players/rodney-ajayi)** (Striker) — 6 goals and 0 assists in 6 appearances.
-- **[Martyn Waghorn](/players/martyn-waghorn)** (Striker) — 4 goals and 0 assists in 4 appearances.
-- **[Emmanuel Robe](/players/emmanuel-robe)** (Striker) — 3 goals and 0 assists in 6 appearances.
-- **[Daniel Atherton](/players/daniel-atherton)** (Goalkeeper) — 1 goals and 0 assists in 6 appearances.
+- **[Kevin Weggen](/players/kevin-weggen)** (Midfielder) — 10 goals and 3 assists in 7 appearances.
+- **[Jay Emmanuel-Thomas](/players/jay-emmanuel-thomas)** (Striker) — 9 goals and 5 assists in 7 appearances.
+- **[Rodney Ajayi](/players/rodney-ajayi)** (Striker) — 8 goals and 0 assists in 7 appearances.
+- **[Emmanuel Robe](/players/emmanuel-robe)** (Striker) — 4 goals and 0 assists in 7 appearances.
+- **[Martyn Waghorn](/players/martyn-waghorn)** (Striker) — 4 goals and 0 assists in 5 appearances.
+- **[Daniel Atherton](/players/daniel-atherton)** (Goalkeeper) — 1 goals and 0 assists in 7 appearances.
 
 See the full squad on the [Deportrio team page](/teams/deportrio).
 

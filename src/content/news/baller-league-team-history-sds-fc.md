@@ -9,7 +9,7 @@ featured: false
 
 ## SDS FC: All-Time Baller League UK Record
 
-**SDS FC** have played **44** matches in Baller League UK across 4 seasons, winning **24**, drawing **8** and losing **12** — a win rate of **55%**. They have scored **168** goals and conceded **131** (goal difference **+37**).
+**SDS FC** have played **45** matches in Baller League UK across 4 seasons, winning **24**, drawing **9** and losing **12** — a win rate of **53%**. They have scored **170** goals and conceded **133** (goal difference **+37**).
 
 ## Season-by-season
 
@@ -18,17 +18,17 @@ featured: false
 | 1 | 4th | 11 | 6 | 1 | 4 | +12 | 20 |
 | 2 | 3rd | 11 | 6 | 2 | 3 | +4 | 20 |
 | 3 | 4th | 11 | 5 | 4 | 2 | +11 | 20 |
-| 4 | 1st | 6 | 4 | 1 | 1 | +8 | 15 |
+| 4 | 1st | 7 | 4 | 2 | 1 | +8 | 17 |
 
-Their best finish came in **Season 4**, finishing **1st** on **15 points**.
+Their best finish came in **Season 4**, finishing **1st** on **17 points**.
 
 ## Top scorers (all-time club)
 
-- **[Kazaiah Sterling](/players/kazaiah-sterling)** — 49 goals, 21 assists
+- **[Kazaiah Sterling](/players/kazaiah-sterling)** — 49 goals, 23 assists
 - **[Camilo Restrepo](/players/camilo-restrepo)** — 11 goals, 8 assists
 - **[Youssef Chentouf](/players/youssef-chentouf)** — 8 goals, 5 assists
+- **[Amine Sassi](/players/amine-sassi)** — 7 goals, 1 assists
 - **[Nya Kirby](/players/nya-kirby)** — 7 goals, 1 assists
-- **[Amine Sassi](/players/amine-sassi)** — 6 goals, 1 assists
 
 ## Biggest win
 

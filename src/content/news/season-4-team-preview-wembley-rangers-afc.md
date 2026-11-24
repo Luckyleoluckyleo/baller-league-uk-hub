@@ -32,12 +32,12 @@ Wembley Rangers AFC's manager has not yet been confirmed by the league. Keep an 
 
 Here are some of Wembley Rangers AFC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Domingos Pires](/players/domingos-pires)** (Striker) — 8 goals and 1 assists in 6 appearances.
-- **[Callam Gardner](/players/callam-gardner)** (Striker) — 6 goals and 0 assists in 6 appearances.
-- **[Chiekh Thiam](/players/chiekh-thiam)** (Defender) — 4 goals and 1 assists in 6 appearances.
-- **[Adrian Tajik](/players/adrian-tajik)** (Striker) — 2 goals and 0 assists in 5 appearances.
-- **[Finlay Chadwick](/players/finlay-chadwick)** (Midfielder) — 2 goals and 1 assists in 4 appearances.
-- **[Dominic Morgan-Griffiths](/players/dominic-morgan-griffiths)** (Midfielder) — 1 goals and 3 assists in 6 appearances.
+- **[Domingos Pires](/players/domingos-pires)** (Striker) — 8 goals and 1 assists in 7 appearances.
+- **[Callam Gardner](/players/callam-gardner)** (Striker) — 7 goals and 0 assists in 7 appearances.
+- **[Chiekh Thiam](/players/chiekh-thiam)** (Defender) — 4 goals and 1 assists in 7 appearances.
+- **[Adrian Tajik](/players/adrian-tajik)** (Striker) — 2 goals and 0 assists in 6 appearances.
+- **[Finlay Chadwick](/players/finlay-chadwick)** (Midfielder) — 2 goals and 1 assists in 5 appearances.
+- **[Dominic Morgan-Griffiths](/players/dominic-morgan-griffiths)** (Midfielder) — 1 goals and 3 assists in 7 appearances.
 
 See the full squad on the [Wembley Rangers AFC team page](/teams/wembley-rangers-afc).
 

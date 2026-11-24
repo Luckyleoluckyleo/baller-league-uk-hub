@@ -2,7 +2,7 @@
 title: "Deportrio Overpower Wembley Rangers AFC 9-4 in Dominant Display — GW1"
 date: 2026-10-12
 category: "Match Report"
-excerpt: "Deportrio 9-4 Wembley Rangers AFC — Gameweek 1 match report. Jay Emmanuel-Thomas (8 goals) leads Deportrio's attack. Game Changers: 3Play (4) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Deportrio 9-4 Wembley Rangers AFC — Gameweek 1 match report. Kevin Weggen (10 goals) leads Deportrio's attack. Game Changers: 3Play (4) & 1-on-1 (3). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: true
 ---
@@ -128,35 +128,35 @@ The **3Play** activation was particularly devastating, producing **4** goals tha
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Jay Emmanuel-Thomas | 8 | 5 | 6 |
-| Kevin Weggen | 8 | 3 | 6 |
-| Rodney Ajayi | 6 | 0 | 6 |
-| Martyn Waghorn | 4 | 0 | 4 |
-| Emmanuel Robe | 3 | 0 | 6 |
+| Kevin Weggen | 10 | 3 | 7 |
+| Jay Emmanuel-Thomas | 9 | 5 | 7 |
+| Rodney Ajayi | 8 | 0 | 7 |
+| Emmanuel Robe | 4 | 0 | 7 |
+| Martyn Waghorn | 4 | 0 | 5 |
 
 ### Wembley Rangers AFC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Domingos Pires | 8 | 1 | 6 |
-| Callam Gardner | 6 | 0 | 6 |
-| Chiekh Thiam | 4 | 1 | 6 |
-| Adrian Tajik | 2 | 0 | 5 |
-| Finlay Chadwick | 2 | 1 | 4 |
+| Domingos Pires | 8 | 1 | 7 |
+| Callam Gardner | 7 | 0 | 7 |
+| Chiekh Thiam | 4 | 1 | 7 |
+| Adrian Tajik | 2 | 0 | 6 |
+| Finlay Chadwick | 2 | 1 | 5 |
 
 **Key Attacking Threats**
 
-- **Jay Emmanuel-Thomas** — Deportrio's talisman with **8 goals** from **6 appearances** and **5 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Domingos Pires** — Wembley Rangers AFC's leading marksman with **8 goals** from **6 outings**, plus **1 assists**. Wembley Rangers AFC look to him whenever they need a moment of magic in the final third.
+- **Kevin Weggen** — Deportrio's talisman with **10 goals** from **7 appearances** and **3 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Domingos Pires** — Wembley Rangers AFC's leading marksman with **8 goals** from **7 outings**, plus **1 assists**. Wembley Rangers AFC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **Deportrio** entered this match averaging **5.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **Wembley Rangers AFC**, by contrast, arrived with an average of **4.2 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **Deportrio** entered this match averaging **5.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **Wembley Rangers AFC**, by contrast, arrived with an average of **3.7 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.5 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -174,7 +174,7 @@ Deportrio held steady, wembley rangers afc held steady.
 
 | Team | Before GW1 | After GW1 |
 |------|-------------|-------------|
-| Deportrio | — | 3rd |
+| Deportrio | — | 4th |
 | Wembley Rangers AFC | — | 12th |
 
 
@@ -211,6 +211,7 @@ Deportrio held steady, wembley rangers afc held steady.
 - A staggering **13-goal spectacle** — one of the highest-scoring matches in Baller League history
 - The GC period exploded with **7 goals** — an extraordinary return from just two rule-change windows
 - The **5-goal margin** represented a statement victory, one of the most one-sided results of Gameweek 1
+- Kevin Weggen continues to lead Deportrio with **10 goals** — firmly among the league's elite marksmen
 
 ---
 

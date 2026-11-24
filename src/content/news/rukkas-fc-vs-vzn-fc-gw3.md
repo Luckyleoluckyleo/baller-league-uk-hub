@@ -2,7 +2,7 @@
 title: "P17 FC Cruise Past VZN FC in 5-1 Rout — GW3"
 date: 2026-10-26
 category: "Match Report"
-excerpt: "P17 FC 5-1 VZN FC — Gameweek 3 match report. Amin Belaid (10 goals) leads P17 FC's attack. Game Changers: Onside (2) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "P17 FC 5-1 VZN FC — Gameweek 3 match report. Amin Belaid (12 goals) leads P17 FC's attack. Game Changers: Onside (2) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -11,7 +11,7 @@ featured: false
 
 Football took center stage at Baller Arena when **P17 FC** met **VZN FC** in a thoroughly entertaining contest with plenty of talking points.
 
-P17 FC, sitting pretty in the Final Four places at 2nd, knew a win here would tighten their grip. When the dust settled, it was **P17 FC** who emerged **5-1** victors. The Game Changer window — **Onside** and **The Line** — proved pivotal, contributing **3** of the match's **6** goals.
+P17 FC, sitting pretty in the Final Four places at 3rd, knew a win here would tighten their grip. When the dust settled, it was **P17 FC** who emerged **5-1** victors. The Game Changer window — **Onside** and **The Line** — proved pivotal, contributing **3** of the match's **6** goals.
 
 **P17 FC form (before GW3):** ✅ ✅ (W-W)  
 **VZN FC form (before GW3):** ❌ ✅ (L-W)
@@ -110,35 +110,35 @@ The **Onside** window was the more impactful, its **2** goals shifting the balan
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Amin Belaid | 10 | 3 | 6 |
-| Steven Kodra | 7 | 1 | 6 |
-| Dajon Golding | 4 | 0 | 6 |
-| Ciaran Clark | 1 | 3 | 6 |
-| Junior Morias | 1 | 0 | 3 |
+| Amin Belaid | 12 | 3 | 7 |
+| Steven Kodra | 7 | 1 | 7 |
+| Dajon Golding | 4 | 1 | 7 |
+| Ciaran Clark | 1 | 3 | 7 |
+| Junior Morias | 1 | 0 | 4 |
 
 ### VZN FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Stefan Ilic | 6 | 4 | 6 |
-| Florian Kastrati | 5 | 1 | 6 |
-| Dubem Eze | 3 | 1 | 5 |
+| Florian Kastrati | 6 | 1 | 7 |
+| Stefan Ilic | 6 | 4 | 7 |
+| Dubem Eze | 3 | 2 | 6 |
 | Terell Thomas | 2 | 0 | 4 |
-| Eddie Allsopp | 2 | 2 | 6 |
+| Eddie Allsopp | 2 | 2 | 7 |
 
 **Key Attacking Threats**
 
-- **Amin Belaid** — P17 FC's talisman with **10 goals** from **6 appearances** and **3 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Stefan Ilic** — VZN FC's leading marksman with **6 goals** from **6 outings**, plus **4 assists**. VZN FC look to him whenever they need a moment of magic in the final third.
+- **Amin Belaid** — P17 FC's talisman with **12 goals** from **7 appearances** and **3 assists**. One of the league's elite finishers and the focal point of virtually every P17 FC attack.
+- **Florian Kastrati** — VZN FC's leading marksman with **6 goals** from **7 outings**, plus **1 assists**. VZN FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **P17 FC** entered this match averaging **4.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **VZN FC**, by contrast, arrived with an average of **4.2 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **P17 FC** entered this match averaging **3.9 goals per game** — a number that reflected their struggles in front of goal this campaign. **VZN FC**, by contrast, arrived with an average of **3.7 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.5 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -152,11 +152,11 @@ This was the **maiden competitive meeting** between P17 FC and VZN FC — a hist
 
 ## Table Impact
 
-P17 FC climbed to **1st**, vzn fc dropped to **10th**.
+P17 FC climbed to **2nd**, vzn fc dropped to **10th**.
 
 | Team | Before GW3 | After GW3 |
 |------|-------------|-------------|
-| P17 FC | 2nd | 1st |
+| P17 FC | 3rd | 2nd |
 | VZN FC | 8th | 10th |
 
 
@@ -191,7 +191,7 @@ P17 FC climbed to **1st**, vzn fc dropped to **10th**.
 ## Match Facts
 
 - **3 of 6 goals (50%)** came during Game Changer activations
-- Amin Belaid continues to lead P17 FC with **10 goals** — firmly among the league's elite marksmen
+- Amin Belaid continues to lead P17 FC with **12 goals** — firmly among the league's elite marksmen
 
 ---
 

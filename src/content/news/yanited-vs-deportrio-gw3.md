@@ -2,7 +2,7 @@
 title: "RTG FC Edge Deportrio 4-3 in GW3 Thriller"
 date: 2026-10-26
 category: "Match Report"
-excerpt: "RTG FC 4-3 Deportrio — Gameweek 3 match report. Alfie Cerulli (7 goals) leads RTG FC's attack. Game Changers: 3Play (4) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "RTG FC 4-3 Deportrio — Gameweek 3 match report. Alfie Cerulli (8 goals) leads RTG FC's attack. Game Changers: 3Play (4) & Fairplay (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -11,7 +11,7 @@ featured: false
 
 The lights were bright at Baller Arena on Gameweek 3, where **RTG FC** and **Deportrio** served up a nail-biter that could have swung either way, decided by the finest of details.
 
-Deportrio, sitting pretty in the Final Four places at 1st, knew a win here would tighten their grip. When the dust settled, it was **RTG FC** who emerged **4-3** victors. The Game Changer window — **3Play** and **Fairplay** — proved pivotal, contributing **5** of the match's **7** goals.
+Deportrio, sitting pretty in the Final Four places at 2nd, knew a win here would tighten their grip. When the dust settled, it was **RTG FC** who emerged **4-3** victors. The Game Changer window — **3Play** and **Fairplay** — proved pivotal, contributing **5** of the match's **7** goals.
 
 **RTG FC form (before GW3):** 🤝 ❌ (D-L)  
 **Deportrio form (before GW3):** ✅ ✅ (W-W)
@@ -111,35 +111,35 @@ The **3Play** window was the more impactful, its **4** goals shifting the balanc
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Alfie Cerulli | 7 | 0 | 6 |
-| Dara Dada | 3 | 0 | 6 |
-| Tyrell Miller-Rodney | 2 | 2 | 6 |
-| Zaid Al Hussaini | 1 | 4 | 6 |
-| Dan Wishart | 1 | 1 | 5 |
+| Alfie Cerulli | 8 | 0 | 7 |
+| Dara Dada | 4 | 0 | 7 |
+| Tyrell Miller-Rodney | 2 | 2 | 7 |
+| Zaid Al Hussaini | 1 | 5 | 7 |
+| Dan Wishart | 1 | 1 | 6 |
 
 ### Deportrio — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Jay Emmanuel-Thomas | 8 | 5 | 6 |
-| Kevin Weggen | 8 | 3 | 6 |
-| Rodney Ajayi | 6 | 0 | 6 |
-| Martyn Waghorn | 4 | 0 | 4 |
-| Emmanuel Robe | 3 | 0 | 6 |
+| Kevin Weggen | 10 | 3 | 7 |
+| Jay Emmanuel-Thomas | 9 | 5 | 7 |
+| Rodney Ajayi | 8 | 0 | 7 |
+| Emmanuel Robe | 4 | 0 | 7 |
+| Martyn Waghorn | 4 | 0 | 5 |
 
 **Key Attacking Threats**
 
-- **Alfie Cerulli** — RTG FC's talisman with **7 goals** from **6 appearances**. A reliable and consistent outlet who defences have learned to fear.
-- **Jay Emmanuel-Thomas** — Deportrio's leading marksman with **8 goals** from **6 outings**, plus **5 assists**. Deportrio look to him whenever they need a moment of magic in the final third.
+- **Alfie Cerulli** — RTG FC's talisman with **8 goals** from **7 appearances**. A reliable and consistent outlet who defences have learned to fear.
+- **Kevin Weggen** — Deportrio's leading marksman with **10 goals** from **7 outings**, plus **3 assists**. Deportrio look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **RTG FC** entered this match averaging **3.5 goals per game** — a number that reflected their struggles in front of goal this campaign. **Deportrio**, by contrast, arrived with an average of **5.2 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **RTG FC** entered this match averaging **3.3 goals per game** — a number that reflected their struggles in front of goal this campaign. **Deportrio**, by contrast, arrived with an average of **5.4 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.5 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -158,7 +158,7 @@ RTG FC climbed to **6th**, deportrio dropped to **3rd**.
 | Team | Before GW3 | After GW3 |
 |------|-------------|-------------|
 | RTG FC | 10th | 6th |
-| Deportrio | 1st | 3rd |
+| Deportrio | 2nd | 3rd |
 
 
 ---
@@ -193,6 +193,7 @@ RTG FC climbed to **6th**, deportrio dropped to **3rd**.
 
 - **5 of 7 goals (71%)** came during Game Changer activations
 - A **one-goal game** decided by the narrowest of margins — the small details made all the difference
+- Kevin Weggen heads Deportrio's scoring charts with **10 goals**, a tally any forward would be proud of
 
 ---
 

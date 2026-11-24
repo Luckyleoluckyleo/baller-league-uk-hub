@@ -87,7 +87,7 @@ The **1-on-1** window was the more impactful, its **2** goals shifting the balan
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Domingos Pires | 3 | 0 | 12 | 15 |
+| Domingos Pires | 3 | 0 | 12 | 14 |
 | Finlay Chadwick | 1 | 0 | 4 | 12 |
 | Adrian Tajik | 1 | 0 | 2 | 0 |
 | Dominic Morgan-Griffiths | 0 | 1 | 2 | 24 |
@@ -99,7 +99,7 @@ The **1-on-1** window was the more impactful, its **2** goals shifting the balan
 |--------|-------|---------|-------|--------|
 | Bilal Sayoud | 1 | 0 | 12 | 13 |
 | Luke May-Parrott | 1 | 0 | 1 | 7 |
-| Joseph Whitney | 0 | 1 | 1 | 33 |
+| Joseph Whitney | 0 | 1 | 1 | 31 |
 
 
 
@@ -111,35 +111,35 @@ The **1-on-1** window was the more impactful, its **2** goals shifting the balan
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Domingos Pires | 8 | 1 | 6 |
-| Callam Gardner | 6 | 0 | 6 |
-| Chiekh Thiam | 4 | 1 | 6 |
-| Adrian Tajik | 2 | 0 | 5 |
-| Finlay Chadwick | 2 | 1 | 4 |
+| Domingos Pires | 8 | 1 | 7 |
+| Callam Gardner | 7 | 0 | 7 |
+| Chiekh Thiam | 4 | 1 | 7 |
+| Adrian Tajik | 2 | 0 | 6 |
+| Finlay Chadwick | 2 | 1 | 5 |
 
 ### Gold Devils FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Bilal Sayoud | 6 | 2 | 6 |
-| Tarik Gidaree | 5 | 1 | 6 |
-| Luke May-Parrott | 3 | 2 | 4 |
-| Connor Wood | 2 | 3 | 6 |
-| Dimitri Nicolaou | 1 | 0 | 6 |
+| Bilal Sayoud | 7 | 3 | 7 |
+| Luke May-Parrott | 5 | 2 | 5 |
+| Tarik Gidaree | 5 | 2 | 7 |
+| Connor Wood | 2 | 3 | 7 |
+| Dimitri Nicolaou | 2 | 0 | 7 |
 
 **Key Attacking Threats**
 
-- **Domingos Pires** — Wembley Rangers AFC's talisman with **8 goals** from **6 appearances** and **1 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Bilal Sayoud** — Gold Devils FC's leading marksman with **6 goals** from **6 outings**, plus **2 assists**. Gold Devils FC look to him whenever they need a moment of magic in the final third.
+- **Domingos Pires** — Wembley Rangers AFC's talisman with **8 goals** from **7 appearances** and **1 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Bilal Sayoud** — Gold Devils FC's leading marksman with **7 goals** from **7 outings**, plus **3 assists**. Gold Devils FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **5 gameweeks** left in the regular season, the stakes couldn't have been higher. **Wembley Rangers AFC** entered this match averaging **4.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **Gold Devils FC**, by contrast, arrived with an average of **3.2 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **5 gameweeks** left in the regular season, the stakes couldn't have been higher. **Wembley Rangers AFC** entered this match averaging **3.7 goals per game** — a number that reflected their struggles in front of goal this campaign. **Gold Devils FC**, by contrast, arrived with an average of **3.3 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.5 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -181,10 +181,10 @@ Wembley Rangers AFC climbed to **3rd**, gold devils fc stayed at **10th**.
 | Goals | 7 |
 | Game Changer goals | 3 (43% of all goals) |
 | Different goalscorers | 5 |
-| Total shots | 42 |
+| Total shots | 44 |
 | Assists | 3 |
 | Tackles | 12 |
-| Passes | 268 |
+| Passes | 265 |
 
 
 ---

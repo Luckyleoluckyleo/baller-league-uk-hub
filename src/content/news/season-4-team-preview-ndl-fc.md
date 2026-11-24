@@ -32,11 +32,11 @@ NDL FC are led by [Niko Omilana](/managers/niko-omilana). Their experience and p
 
 Here are some of NDL FC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Kadell Daniel](/players/kadell-daniel)** (Striker) — 10 goals and 2 assists in 6 appearances.
-- **[Sam Fitzgerald](/players/sam-fitzgerald)** (Midfielder) — 7 goals and 2 assists in 6 appearances.
-- **[Isaac Modi](/players/isaac-modi)** (Midfielder) — 4 goals and 1 assists in 6 appearances.
-- **[Josh Parker](/players/joshua-parker)** (Striker) — 2 goals and 1 assists in 6 appearances.
-- **[Taufee Skandari](/players/taufee-skandari)** (Midfielder) — 2 goals and 1 assists in 6 appearances.
+- **[Kadell Daniel](/players/kadell-daniel)** (Striker) — 13 goals and 2 assists in 7 appearances.
+- **[Sam Fitzgerald](/players/sam-fitzgerald)** (Midfielder) — 9 goals and 2 assists in 7 appearances.
+- **[Isaac Modi](/players/isaac-modi)** (Midfielder) — 4 goals and 1 assists in 7 appearances.
+- **[Josh Parker](/players/joshua-parker)** (Striker) — 2 goals and 0 assists in 7 appearances.
+- **[Taufee Skandari](/players/taufee-skandari)** (Midfielder) — 2 goals and 1 assists in 7 appearances.
 - **[Amadou Kassaraté](/players/amadou-kassarate)** (Defender) — 2 goals and 0 assists in 5 appearances.
 
 See the full squad on the [NDL FC team page](/teams/ndl-fc).

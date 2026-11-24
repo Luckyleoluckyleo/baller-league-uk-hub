@@ -2,7 +2,7 @@
 title: "RTG FC and Toma Play Out 6-6 Classic in Gameweek 2"
 date: 2026-10-19
 category: "Match Report"
-excerpt: "RTG FC 6-6 Toma — Gameweek 2 match report. Alfie Cerulli (7 goals) leads RTG FC's attack. Game Changers: Onside (0) & 1-on-1 (4). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "RTG FC 6-6 Toma — Gameweek 2 match report. Alfie Cerulli (8 goals) leads RTG FC's attack. Game Changers: Onside (0) & 1-on-1 (4). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: true
 ---
@@ -121,25 +121,25 @@ The **1-on-1** window was the more impactful, its **4** goals shifting the balan
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Alfie Cerulli | 7 | 0 | 6 |
-| Dara Dada | 3 | 0 | 6 |
-| Tyrell Miller-Rodney | 2 | 2 | 6 |
-| Zaid Al Hussaini | 1 | 4 | 6 |
-| Dan Wishart | 1 | 1 | 5 |
+| Alfie Cerulli | 8 | 0 | 7 |
+| Dara Dada | 4 | 0 | 7 |
+| Tyrell Miller-Rodney | 2 | 2 | 7 |
+| Zaid Al Hussaini | 1 | 5 | 7 |
+| Dan Wishart | 1 | 1 | 6 |
 
 ### Toma — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
 | Junior Dixon | 4 | 2 | 5 |
-| Joshua Phillips | 3 | 1 | 6 |
-| Yasin Ben El-Mhanni | 2 | 0 | 6 |
-| Praise Ogbebor | 2 | 1 | 6 |
-| Arezki Hamouchene | 2 | 0 | 5 |
+| Joshua Phillips | 3 | 1 | 7 |
+| Yasin Ben El-Mhanni | 3 | 0 | 7 |
+| Praise Ogbebor | 3 | 1 | 7 |
+| Arezki Hamouchene | 2 | 0 | 6 |
 
 **Key Attacking Threats**
 
-- **Alfie Cerulli** — RTG FC's talisman with **7 goals** from **6 appearances**. A reliable and consistent outlet who defences have learned to fear.
+- **Alfie Cerulli** — RTG FC's talisman with **8 goals** from **7 appearances**. A reliable and consistent outlet who defences have learned to fear.
 - **Junior Dixon** — Toma's leading marksman with **4 goals** from **5 outings**, plus **2 assists**. Still finding his rhythm but showing promising signs.
 
 
@@ -147,9 +147,9 @@ The **1-on-1** window was the more impactful, its **4** goals shifting the balan
 
 ## Season Context
 
-With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **RTG FC** entered this match averaging **3.5 goals per game** — a number that reflected their struggles in front of goal this campaign. **Toma**, by contrast, arrived with an average of **3.2 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **RTG FC** entered this match averaging **3.3 goals per game** — a number that reflected their struggles in front of goal this campaign. **Toma**, by contrast, arrived with an average of **3.1 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.5 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 

@@ -2,7 +2,7 @@
 title: "P17 FC See Off RTG FC 0-3 in Gameweek 6"
 date: 2026-11-16
 category: "Match Report"
-excerpt: "RTG FC 0-3 P17 FC — Gameweek 6 match report. Alfie Cerulli (7 goals) leads RTG FC's attack. Game Changers: Plus One (1) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "RTG FC 0-3 P17 FC — Gameweek 6 match report. Alfie Cerulli (8 goals) leads RTG FC's attack. Game Changers: Plus One (1) & The Line (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -93,35 +93,35 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Alfie Cerulli | 7 | 0 | 6 |
-| Dara Dada | 3 | 0 | 6 |
-| Tyrell Miller-Rodney | 2 | 2 | 6 |
-| Zaid Al Hussaini | 1 | 4 | 6 |
-| Dan Wishart | 1 | 1 | 5 |
+| Alfie Cerulli | 8 | 0 | 7 |
+| Dara Dada | 4 | 0 | 7 |
+| Tyrell Miller-Rodney | 2 | 2 | 7 |
+| Zaid Al Hussaini | 1 | 5 | 7 |
+| Dan Wishart | 1 | 1 | 6 |
 
 ### P17 FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Amin Belaid | 10 | 3 | 6 |
-| Steven Kodra | 7 | 1 | 6 |
-| Dajon Golding | 4 | 0 | 6 |
-| Ciaran Clark | 1 | 3 | 6 |
-| Junior Morias | 1 | 0 | 3 |
+| Amin Belaid | 12 | 3 | 7 |
+| Steven Kodra | 7 | 1 | 7 |
+| Dajon Golding | 4 | 1 | 7 |
+| Ciaran Clark | 1 | 3 | 7 |
+| Junior Morias | 1 | 0 | 4 |
 
 **Key Attacking Threats**
 
-- **Alfie Cerulli** — RTG FC's talisman with **7 goals** from **6 appearances**. A reliable and consistent outlet who defences have learned to fear.
-- **Amin Belaid** — P17 FC's leading marksman with **10 goals** from **6 outings**, plus **3 assists**. P17 FC look to him whenever they need a moment of magic in the final third.
+- **Alfie Cerulli** — RTG FC's talisman with **8 goals** from **7 appearances**. A reliable and consistent outlet who defences have learned to fear.
+- **Amin Belaid** — P17 FC's leading marksman with **12 goals** from **7 outings**, plus **3 assists**. A proven match-winner who carries P17 FC's main goal threat game after game.
 
 
 ---
 
 ## Season Context
 
-With **5 gameweeks** left in the regular season, the stakes couldn't have been higher. **RTG FC** entered this match averaging **3.5 goals per game** — a number that reflected their struggles in front of goal this campaign. **P17 FC**, by contrast, arrived with an average of **4.2 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **5 gameweeks** left in the regular season, the stakes couldn't have been higher. **RTG FC** entered this match averaging **3.3 goals per game** — a number that reflected their struggles in front of goal this campaign. **P17 FC**, by contrast, arrived with an average of **3.9 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.5 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -174,7 +174,7 @@ RTG FC stayed at **11th**, p17 fc stayed at **2nd**.
 ## Match Facts
 
 - **1 of 3 goals (33%)** came during Game Changer activations
-- Amin Belaid heads P17 FC's scoring charts with **10 goals**, a tally any forward would be proud of
+- Amin Belaid heads P17 FC's scoring charts with **12 goals**, a tally any forward would be proud of
 
 ---
 

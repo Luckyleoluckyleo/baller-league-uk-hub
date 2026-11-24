@@ -27,7 +27,7 @@ Mustapha Carayol built his professional career at Middlesbrough, Bristol City, H
 
 | Season | Apps | Goals | Assists |
 |--------|------|-------|---------|
-| 4 | 6 | 2 | 1 |
+| 4 | 7 | 2 | 1 |
 
 See his full stats on his [player profile](/players/mustapha-carayol).
 

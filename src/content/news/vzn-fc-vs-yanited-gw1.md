@@ -2,7 +2,7 @@
 title: "VZN FC Edge RTG FC 5-4 in GW1 Thriller"
 date: 2026-10-12
 category: "Match Report"
-excerpt: "VZN FC 5-4 RTG FC — Gameweek 1 match report. Stefan Ilic (6 goals) leads VZN FC's attack. Game Changers: Plus One (3) & The Line (3). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "VZN FC 5-4 RTG FC — Gameweek 1 match report. Florian Kastrati (6 goals) leads VZN FC's attack. Game Changers: Plus One (3) & The Line (3). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -115,35 +115,35 @@ The **Plus One** activation was particularly devastating, producing **3** goals 
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Stefan Ilic | 6 | 4 | 6 |
-| Florian Kastrati | 5 | 1 | 6 |
-| Dubem Eze | 3 | 1 | 5 |
+| Florian Kastrati | 6 | 1 | 7 |
+| Stefan Ilic | 6 | 4 | 7 |
+| Dubem Eze | 3 | 2 | 6 |
 | Terell Thomas | 2 | 0 | 4 |
-| Eddie Allsopp | 2 | 2 | 6 |
+| Eddie Allsopp | 2 | 2 | 7 |
 
 ### RTG FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Alfie Cerulli | 7 | 0 | 6 |
-| Dara Dada | 3 | 0 | 6 |
-| Tyrell Miller-Rodney | 2 | 2 | 6 |
-| Zaid Al Hussaini | 1 | 4 | 6 |
-| Dan Wishart | 1 | 1 | 5 |
+| Alfie Cerulli | 8 | 0 | 7 |
+| Dara Dada | 4 | 0 | 7 |
+| Tyrell Miller-Rodney | 2 | 2 | 7 |
+| Zaid Al Hussaini | 1 | 5 | 7 |
+| Dan Wishart | 1 | 1 | 6 |
 
 **Key Attacking Threats**
 
-- **Stefan Ilic** — VZN FC's talisman with **6 goals** from **6 appearances** and **4 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Alfie Cerulli** — RTG FC's leading marksman with **7 goals** from **6 outings**. RTG FC look to him whenever they need a moment of magic in the final third.
+- **Florian Kastrati** — VZN FC's talisman with **6 goals** from **7 appearances** and **1 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Alfie Cerulli** — RTG FC's leading marksman with **8 goals** from **7 outings**. RTG FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **VZN FC** entered this match averaging **4.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **RTG FC**, by contrast, arrived with an average of **3.5 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **VZN FC** entered this match averaging **3.7 goals per game** — a number that reflected their struggles in front of goal this campaign. **RTG FC**, by contrast, arrived with an average of **3.3 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.5 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -161,7 +161,7 @@ VZN FC held steady, rtg fc held steady.
 
 | Team | Before GW1 | After GW1 |
 |------|-------------|-------------|
-| VZN FC | — | 5th |
+| VZN FC | — | 6th |
 | RTG FC | — | 9th |
 
 

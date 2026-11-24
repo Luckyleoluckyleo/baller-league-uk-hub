@@ -2,7 +2,7 @@
 title: "Clutch FC Edge RTG FC 7-6 in GW4 Thriller"
 date: 2026-11-02
 category: "Match Report"
-excerpt: "Clutch FC 7-6 RTG FC — Gameweek 4 match report. Tyler Winters (10 goals) leads Clutch FC's attack. Game Changers: 3Play (5) & 1-on-1 (6). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Clutch FC 7-6 RTG FC — Gameweek 4 match report. Tyler Winters (11 goals) leads Clutch FC's attack. Game Changers: 3Play (5) & 1-on-1 (6). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: true
 ---
@@ -120,35 +120,35 @@ The **1-on-1** activation was particularly devastating, producing **6** goals th
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Tyler Winters | 10 | 3 | 6 |
-| Alex Byrne | 7 | 1 | 6 |
-| Joshua Sumbunu | 4 | 1 | 6 |
-| Alfie Matthews | 3 | 7 | 6 |
-| Abdullahi Telli | 1 | 0 | 2 |
+| Tyler Winters | 11 | 3 | 7 |
+| Alex Byrne | 7 | 1 | 7 |
+| Joshua Sumbunu | 4 | 1 | 7 |
+| Alfie Matthews | 3 | 7 | 7 |
+| Abdullahi Telli | 2 | 0 | 3 |
 
 ### RTG FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Alfie Cerulli | 7 | 0 | 6 |
-| Dara Dada | 3 | 0 | 6 |
-| Tyrell Miller-Rodney | 2 | 2 | 6 |
-| Zaid Al Hussaini | 1 | 4 | 6 |
-| Dan Wishart | 1 | 1 | 5 |
+| Alfie Cerulli | 8 | 0 | 7 |
+| Dara Dada | 4 | 0 | 7 |
+| Tyrell Miller-Rodney | 2 | 2 | 7 |
+| Zaid Al Hussaini | 1 | 5 | 7 |
+| Dan Wishart | 1 | 1 | 6 |
 
 **Key Attacking Threats**
 
-- **Tyler Winters** — Clutch FC's talisman with **10 goals** from **6 appearances** and **3 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Alfie Cerulli** — RTG FC's leading marksman with **7 goals** from **6 outings**. RTG FC look to him whenever they need a moment of magic in the final third.
+- **Tyler Winters** — Clutch FC's talisman with **11 goals** from **7 appearances** and **3 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Alfie Cerulli** — RTG FC's leading marksman with **8 goals** from **7 outings**. RTG FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **7 gameweeks** left in the regular season, the stakes couldn't have been higher. **Clutch FC** entered this match averaging **4.7 goals per game** — a number that reflected their struggles in front of goal this campaign. **RTG FC**, by contrast, arrived with an average of **3.5 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **7 gameweeks** left in the regular season, the stakes couldn't have been higher. **Clutch FC** entered this match averaging **4.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **RTG FC**, by contrast, arrived with an average of **3.3 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.5 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -203,7 +203,7 @@ Clutch FC climbed to **4th**, rtg fc dropped to **10th**.
 - A staggering **13-goal spectacle** — one of the highest-scoring matches in Baller League history
 - The GC period exploded with **11 goals** — an extraordinary return from just two rule-change windows
 - A **one-goal game** decided by the narrowest of margins — the small details made all the difference
-- Tyler Winters continues to lead Clutch FC with **10 goals** — firmly among the league's elite marksmen
+- Tyler Winters continues to lead Clutch FC with **11 goals** — firmly among the league's elite marksmen
 
 ---
 

@@ -9,7 +9,7 @@ featured: false
 
 ## RTG FC: All-Time Baller League UK Record
 
-**RTG FC** have played **40** matches in Baller League UK across 4 seasons, winning **14**, drawing **9** and losing **17** — a win rate of **35%**. They have scored **149** goals and conceded **151** (goal difference **-2**).
+**RTG FC** have played **41** matches in Baller League UK across 4 seasons, winning **14**, drawing **10** and losing **17** — a win rate of **34%**. They have scored **151** goals and conceded **153** (goal difference **-2**).
 
 ## Season-by-season
 
@@ -18,15 +18,15 @@ featured: false
 | 1 | 3rd | 11 | 7 | 1 | 3 | +17 | 22 |
 | 2 | 10th | 11 | 2 | 4 | 5 | -5 | 10 |
 | 3 | 9th | 11 | 4 | 3 | 4 | -4 | 15 |
-| 4 | 11th | 6 | 1 | 1 | 4 | -6 | 4 |
+| 4 | 10th | 7 | 1 | 2 | 4 | -6 | 5 |
 
 Their best finish came in **Season 1**, finishing **3rd** on **22 points**.
 
 ## Top scorers (all-time club)
 
 - **[Tyrell Miller-Rodney](/players/tyrell-miller-rodney)** — 8 goals, 7 assists
-- **[Alfie Cerulli](/players/alfie-cerulli)** — 7 goals, 0 assists
-- **[Dara Dada](/players/dara-dada)** — 6 goals, 0 assists
+- **[Alfie Cerulli](/players/alfie-cerulli)** — 8 goals, 0 assists
+- **[Dara Dada](/players/dara-dada)** — 7 goals, 0 assists
 - **[Calum Butcher](/players/calum-butcher)** — 2 goals, 5 assists
 - **[Joshua Emmanuel](/players/joshua-emmanuel)** — 1 goals, 1 assists
 

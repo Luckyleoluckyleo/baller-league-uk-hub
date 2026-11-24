@@ -112,34 +112,34 @@ The **1-on-1** activation was particularly devastating, producing **4** goals th
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
 | Timmy Abraham | 7 | 0 | 6 |
-| Francis Mampolo | 4 | 2 | 6 |
+| Francis Mampolo | 5 | 3 | 7 |
+| Edy Maieco | 4 | 0 | 7 |
+| Mauro Vilhete | 3 | 4 | 7 |
 | Salim Nassor | 3 | 0 | 3 |
-| Montel McKenzie | 1 | 1 | 6 |
-| Edy Maieco | 1 | 0 | 6 |
 
 ### Wembley Rangers AFC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Domingos Pires | 8 | 1 | 6 |
-| Callam Gardner | 6 | 0 | 6 |
-| Chiekh Thiam | 4 | 1 | 6 |
-| Adrian Tajik | 2 | 0 | 5 |
-| Finlay Chadwick | 2 | 1 | 4 |
+| Domingos Pires | 8 | 1 | 7 |
+| Callam Gardner | 7 | 0 | 7 |
+| Chiekh Thiam | 4 | 1 | 7 |
+| Adrian Tajik | 2 | 0 | 6 |
+| Finlay Chadwick | 2 | 1 | 5 |
 
 **Key Attacking Threats**
 
 - **Timmy Abraham** — Prime FC's talisman with **7 goals** from **6 appearances**. A reliable and consistent outlet who defences have learned to fear.
-- **Domingos Pires** — Wembley Rangers AFC's leading marksman with **8 goals** from **6 outings**, plus **1 assists**. Wembley Rangers AFC look to him whenever they need a moment of magic in the final third.
+- **Domingos Pires** — Wembley Rangers AFC's leading marksman with **8 goals** from **7 outings**, plus **1 assists**. Wembley Rangers AFC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **7 gameweeks** left in the regular season, the stakes couldn't have been higher. **Prime FC** entered this match averaging **3.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **Wembley Rangers AFC**, by contrast, arrived with an average of **4.2 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **7 gameweeks** left in the regular season, the stakes couldn't have been higher. **Prime FC** entered this match averaging **3.9 goals per game** — a number that reflected their struggles in front of goal this campaign. **Wembley Rangers AFC**, by contrast, arrived with an average of **3.7 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.5 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 

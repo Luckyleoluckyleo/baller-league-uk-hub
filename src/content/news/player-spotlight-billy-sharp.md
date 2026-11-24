@@ -29,7 +29,7 @@ Billy Sharp built his professional career at Sheffield United, Southampton, Leed
 
 | Season | Apps | Goals | Assists |
 |--------|------|-------|---------|
-| 4 | 5 | 2 | 1 |
+| 4 | 6 | 2 | 1 |
 
 See his full stats on his [player profile](/players/billy-sharp).
 

@@ -110,25 +110,25 @@ The **Plus One** window was the more impactful, its **2** goals shifting the bal
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kazaiah Sterling | 7 | 2 | 6 |
-| Ergys Pepaj | 5 | 2 | 6 |
-| Amine Sassi | 3 | 1 | 6 |
-| Josh Bohui | 3 | 0 | 6 |
-| Youssef Chentouf | 2 | 3 | 6 |
+| Kazaiah Sterling | 7 | 4 | 7 |
+| Ergys Pepaj | 5 | 2 | 7 |
+| Amine Sassi | 4 | 1 | 7 |
+| Josh Bohui | 3 | 0 | 7 |
+| J'ardell Stirling | 2 | 1 | 7 |
 
 ### Prime FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
 | Timmy Abraham | 7 | 0 | 6 |
-| Francis Mampolo | 4 | 2 | 6 |
+| Francis Mampolo | 5 | 3 | 7 |
+| Edy Maieco | 4 | 0 | 7 |
+| Mauro Vilhete | 3 | 4 | 7 |
 | Salim Nassor | 3 | 0 | 3 |
-| Montel McKenzie | 1 | 1 | 6 |
-| Edy Maieco | 1 | 0 | 6 |
 
 **Key Attacking Threats**
 
-- **Kazaiah Sterling** — SDS FC's talisman with **7 goals** from **6 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Kazaiah Sterling** — SDS FC's talisman with **7 goals** from **7 appearances** and **4 assists**. A reliable and consistent outlet who defences have learned to fear.
 - **Timmy Abraham** — Prime FC's leading marksman with **7 goals** from **6 outings**. Prime FC look to him whenever they need a moment of magic in the final third.
 
 
@@ -136,9 +136,9 @@ The **Plus One** window was the more impactful, its **2** goals shifting the bal
 
 ## Season Context
 
-With **5 gameweeks** left in the regular season, the stakes couldn't have been higher. **SDS FC** entered this match averaging **3.5 goals per game** — a number that reflected their struggles in front of goal this campaign. **Prime FC**, by contrast, arrived with an average of **3.2 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **5 gameweeks** left in the regular season, the stakes couldn't have been higher. **SDS FC** entered this match averaging **3.3 goals per game** — a number that reflected their struggles in front of goal this campaign. **Prime FC**, by contrast, arrived with an average of **3.9 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.5 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 

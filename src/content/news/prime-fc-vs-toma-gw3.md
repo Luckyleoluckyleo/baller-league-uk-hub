@@ -113,20 +113,20 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
 | Timmy Abraham | 7 | 0 | 6 |
-| Francis Mampolo | 4 | 2 | 6 |
+| Francis Mampolo | 5 | 3 | 7 |
+| Edy Maieco | 4 | 0 | 7 |
+| Mauro Vilhete | 3 | 4 | 7 |
 | Salim Nassor | 3 | 0 | 3 |
-| Montel McKenzie | 1 | 1 | 6 |
-| Edy Maieco | 1 | 0 | 6 |
 
 ### Toma — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
 | Junior Dixon | 4 | 2 | 5 |
-| Joshua Phillips | 3 | 1 | 6 |
-| Yasin Ben El-Mhanni | 2 | 0 | 6 |
-| Praise Ogbebor | 2 | 1 | 6 |
-| Arezki Hamouchene | 2 | 0 | 5 |
+| Joshua Phillips | 3 | 1 | 7 |
+| Yasin Ben El-Mhanni | 3 | 0 | 7 |
+| Praise Ogbebor | 3 | 1 | 7 |
+| Arezki Hamouchene | 2 | 0 | 6 |
 
 **Key Attacking Threats**
 
@@ -138,9 +138,9 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 ## Season Context
 
-With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **Prime FC** entered this match averaging **3.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **Toma**, by contrast, arrived with an average of **3.2 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **Prime FC** entered this match averaging **3.9 goals per game** — a number that reflected their struggles in front of goal this campaign. **Toma**, by contrast, arrived with an average of **3.1 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.5 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 

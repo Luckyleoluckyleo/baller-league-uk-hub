@@ -2,7 +2,7 @@
 title: "P17 FC See Off Clutch FC 5-7 in Gameweek 2"
 date: 2026-10-19
 category: "Match Report"
-excerpt: "Clutch FC 5-7 P17 FC — Gameweek 2 match report. Tyler Winters (10 goals) leads Clutch FC's attack. Game Changers: 3Play (5) & 1-on-1 (2). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Clutch FC 5-7 P17 FC — Gameweek 2 match report. Tyler Winters (11 goals) leads Clutch FC's attack. Game Changers: 3Play (5) & 1-on-1 (2). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: true
 ---
@@ -125,35 +125,35 @@ The **3Play** activation was particularly devastating, producing **5** goals tha
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Tyler Winters | 10 | 3 | 6 |
-| Alex Byrne | 7 | 1 | 6 |
-| Joshua Sumbunu | 4 | 1 | 6 |
-| Alfie Matthews | 3 | 7 | 6 |
-| Abdullahi Telli | 1 | 0 | 2 |
+| Tyler Winters | 11 | 3 | 7 |
+| Alex Byrne | 7 | 1 | 7 |
+| Joshua Sumbunu | 4 | 1 | 7 |
+| Alfie Matthews | 3 | 7 | 7 |
+| Abdullahi Telli | 2 | 0 | 3 |
 
 ### P17 FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Amin Belaid | 10 | 3 | 6 |
-| Steven Kodra | 7 | 1 | 6 |
-| Dajon Golding | 4 | 0 | 6 |
-| Ciaran Clark | 1 | 3 | 6 |
-| Junior Morias | 1 | 0 | 3 |
+| Amin Belaid | 12 | 3 | 7 |
+| Steven Kodra | 7 | 1 | 7 |
+| Dajon Golding | 4 | 1 | 7 |
+| Ciaran Clark | 1 | 3 | 7 |
+| Junior Morias | 1 | 0 | 4 |
 
 **Key Attacking Threats**
 
-- **Tyler Winters** — Clutch FC's talisman with **10 goals** from **6 appearances** and **3 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Amin Belaid** — P17 FC's leading marksman with **10 goals** from **6 outings**, plus **3 assists**. P17 FC look to him whenever they need a moment of magic in the final third.
+- **Tyler Winters** — Clutch FC's talisman with **11 goals** from **7 appearances** and **3 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Amin Belaid** — P17 FC's leading marksman with **12 goals** from **7 outings**, plus **3 assists**. A proven match-winner who carries P17 FC's main goal threat game after game.
 
 
 ---
 
 ## Season Context
 
-With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **Clutch FC** entered this match averaging **4.7 goals per game** — a number that reflected their struggles in front of goal this campaign. **P17 FC**, by contrast, arrived with an average of **4.2 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **9 gameweeks** left in the regular season, the stakes couldn't have been higher. **Clutch FC** entered this match averaging **4.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **P17 FC**, by contrast, arrived with an average of **3.9 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.5 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -167,12 +167,12 @@ This was the **maiden competitive meeting** between Clutch FC and P17 FC — a h
 
 ## Table Impact
 
-Clutch FC dropped to **5th**, p17 fc climbed to **2nd**.
+Clutch FC dropped to **5th**, p17 fc climbed to **3rd**.
 
 | Team | Before GW2 | After GW2 |
 |------|-------------|-------------|
 | Clutch FC | 1st | 5th |
-| P17 FC | 4th | 2nd |
+| P17 FC | 5th | 3rd |
 
 
 ---
@@ -207,8 +207,8 @@ Clutch FC dropped to **5th**, p17 fc climbed to **2nd**.
 
 - A staggering **12-goal spectacle** — one of the highest-scoring matches in Baller League history
 - The GC period exploded with **7 goals** — an extraordinary return from just two rule-change windows
-- Tyler Winters continues to lead Clutch FC with **10 goals** — firmly among the league's elite marksmen
-- Amin Belaid heads P17 FC's scoring charts with **10 goals**, a tally any forward would be proud of
+- Tyler Winters continues to lead Clutch FC with **11 goals** — firmly among the league's elite marksmen
+- Amin Belaid heads P17 FC's scoring charts with **12 goals**, a tally any forward would be proud of
 
 ---
 

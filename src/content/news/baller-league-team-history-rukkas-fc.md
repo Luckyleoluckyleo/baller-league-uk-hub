@@ -9,7 +9,7 @@ featured: false
 
 ## P17 FC: All-Time Baller League UK Record
 
-**P17 FC** have played **39** matches in Baller League UK across 4 seasons, winning **12**, drawing **6** and losing **21** — a win rate of **31%**. They have scored **130** goals and conceded **157** (goal difference **-27**).
+**P17 FC** have played **40** matches in Baller League UK across 4 seasons, winning **12**, drawing **6** and losing **22** — a win rate of **30%**. They have scored **132** goals and conceded **160** (goal difference **-28**).
 
 ## Season-by-season
 
@@ -18,16 +18,16 @@ featured: false
 | 1 | 11th | 11 | 2 | 2 | 7 | -15 | 10 |
 | 2 | 9th | 11 | 3 | 2 | 6 | -4 | 13 |
 | 3 | 11th | 11 | 3 | 1 | 7 | -18 | 10 |
-| 4 | 2nd | 6 | 4 | 1 | 1 | +10 | 13 |
+| 4 | 4th | 7 | 4 | 1 | 2 | +9 | 13 |
 
-Their best finish came in **Season 4**, finishing **2nd** on **13 points**.
+Their best finish came in **Season 4**, finishing **4th** on **13 points**.
 
 ## Top scorers (all-time club)
 
+- **[Amin Belaid](/players/amin-belaid)** — 15 goals, 5 assists
 - **[Mussa Bham](/players/mussa-bham)** — 14 goals, 5 assists
-- **[Amin Belaid](/players/amin-belaid)** — 13 goals, 5 assists
 - **[Steven Kodra](/players/steven-kodra-2)** — 7 goals, 1 assists
-- **[Dajon Golding](/players/dajon-golding)** — 4 goals, 0 assists
+- **[Dajon Golding](/players/dajon-golding)** — 4 goals, 1 assists
 - **[Ross Derham](/players/ross-derham)** — 1 goals, 1 assists
 
 ## Biggest win

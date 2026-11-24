@@ -9,7 +9,7 @@ faqs:
   - q: "Who manages Prime FC in Baller League UK Season 4?"
     a: "Prime FC are managed by KSI."
   - q: "Who are Prime FC's key players?"
-    a: "Timmy Abraham, Francis Mampolo, Salim Nassor are among the players to watch for Prime FC in Season 4."
+    a: "Timmy Abraham, Francis Mampolo, Edy Maieco are among the players to watch for Prime FC in Season 4."
   - q: "When do Prime FC play next?"
     a: "The next Prime FC fixture has not yet been confirmed."
   - q: "Where did Prime FC finish last season?"
@@ -33,11 +33,11 @@ Prime FC are led by [KSI](/managers/ksi). Their experience and personality will 
 Here are some of Prime FC's players to watch, with last season's (Season 4) figures where available:
 
 - **[Timmy Abraham](/players/timmy-abraham)** (Striker) — 7 goals and 0 assists in 6 appearances.
-- **[Francis Mampolo](/players/francis-gerard-mampolo)** (Striker) — 4 goals and 2 assists in 6 appearances.
+- **[Francis Mampolo](/players/francis-gerard-mampolo)** (Striker) — 5 goals and 3 assists in 7 appearances.
+- **[Edy Maieco](/players/braulio-valera-pinto-maieco)** (Striker) — 4 goals and 0 assists in 7 appearances.
+- **[Mauro Vilhete](/players/mauro-vilhete)** (Midfielder) — 3 goals and 4 assists in 7 appearances.
 - **[Salim Nassor](/players/salim-nassor)** (Midfielder) — 3 goals and 0 assists in 3 appearances.
-- **[Montel McKenzie](/players/montel-mckenzie)** (Defender) — 1 goals and 1 assists in 6 appearances.
-- **[Edy Maieco](/players/braulio-valera-pinto-maieco)** (Striker) — 1 goals and 0 assists in 6 appearances.
-- **[Mauro Vilhete](/players/mauro-vilhete)** (Midfielder) — 1 goals and 2 assists in 6 appearances.
+- **[Montel McKenzie](/players/montel-mckenzie)** (Defender) — 2 goals and 3 assists in 7 appearances.
 
 See the full squad on the [Prime FC team page](/teams/prime-fc).
 

@@ -34,12 +34,12 @@ P17 FC are led by [Alex Iwobi](/managers/alex-iwobi). Their experience and perso
 
 Here are some of P17 FC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Amin Belaid](/players/amin-belaid)** (Striker) — 10 goals and 3 assists in 6 appearances.
-- **[Steven Kodra](/players/steven-kodra-2)** (Striker) — 7 goals and 1 assists in 6 appearances.
-- **[Dajon Golding](/players/dajon-golding)** (Striker) — 4 goals and 0 assists in 6 appearances.
-- **[Ciaran Clark](/players/ciaran-clark)** (Defender) — 1 goals and 3 assists in 6 appearances.
-- **[Junior Morias](/players/junior-morias)** (Striker) — 1 goals and 0 assists in 3 appearances.
-- **[Ross Derham](/players/ross-derham)** (Midfielder) — 1 goals and 0 assists in 5 appearances.
+- **[Amin Belaid](/players/amin-belaid)** (Striker) — 12 goals and 3 assists in 7 appearances.
+- **[Steven Kodra](/players/steven-kodra-2)** (Striker) — 7 goals and 1 assists in 7 appearances.
+- **[Dajon Golding](/players/dajon-golding)** (Striker) — 4 goals and 1 assists in 7 appearances.
+- **[Ciaran Clark](/players/ciaran-clark)** (Defender) — 1 goals and 3 assists in 7 appearances.
+- **[Junior Morias](/players/junior-morias)** (Striker) — 1 goals and 0 assists in 4 appearances.
+- **[Ross Derham](/players/ross-derham)** (Midfielder) — 1 goals and 0 assists in 6 appearances.
 
 See the full squad on the [P17 FC team page](/teams/rukkas-fc).
 

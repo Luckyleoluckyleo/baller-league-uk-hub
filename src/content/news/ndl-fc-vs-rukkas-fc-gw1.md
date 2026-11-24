@@ -2,7 +2,7 @@
 title: "P17 FC Beat NDL FC 4-6 in Entertaining GW1 Clash"
 date: 2026-10-12
 category: "Match Report"
-excerpt: "NDL FC 4-6 P17 FC — Gameweek 1 match report. Kadell Daniel (10 goals) leads NDL FC's attack. Game Changers: Plus One (2) & 1-on-1 (5). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "NDL FC 4-6 P17 FC — Gameweek 1 match report. Kadell Daniel (13 goals) leads NDL FC's attack. Game Changers: Plus One (2) & 1-on-1 (5). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: true
 ---
@@ -115,35 +115,35 @@ The **1-on-1** activation was particularly devastating, producing **5** goals th
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kadell Daniel | 10 | 2 | 6 |
-| Sam Fitzgerald | 7 | 2 | 6 |
-| Isaac Modi | 4 | 1 | 6 |
-| Josh Parker | 2 | 1 | 6 |
-| Taufee Skandari | 2 | 1 | 6 |
+| Kadell Daniel | 13 | 2 | 7 |
+| Sam Fitzgerald | 9 | 2 | 7 |
+| Isaac Modi | 4 | 1 | 7 |
+| Josh Parker | 2 | 0 | 7 |
+| Taufee Skandari | 2 | 1 | 7 |
 
 ### P17 FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Amin Belaid | 10 | 3 | 6 |
-| Steven Kodra | 7 | 1 | 6 |
-| Dajon Golding | 4 | 0 | 6 |
-| Ciaran Clark | 1 | 3 | 6 |
-| Junior Morias | 1 | 0 | 3 |
+| Amin Belaid | 12 | 3 | 7 |
+| Steven Kodra | 7 | 1 | 7 |
+| Dajon Golding | 4 | 1 | 7 |
+| Ciaran Clark | 1 | 3 | 7 |
+| Junior Morias | 1 | 0 | 4 |
 
 **Key Attacking Threats**
 
-- **Kadell Daniel** — NDL FC's talisman with **10 goals** from **6 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Amin Belaid** — P17 FC's leading marksman with **10 goals** from **6 outings**, plus **3 assists**. P17 FC look to him whenever they need a moment of magic in the final third.
+- **Kadell Daniel** — NDL FC's talisman with **13 goals** from **7 appearances** and **2 assists**. One of the league's elite finishers and the focal point of virtually every NDL FC attack.
+- **Amin Belaid** — P17 FC's leading marksman with **12 goals** from **7 outings**, plus **3 assists**. A proven match-winner who carries P17 FC's main goal threat game after game.
 
 
 ---
 
 ## Season Context
 
-With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **NDL FC** entered this match averaging **3.7 goals per game** — a number that reflected their struggles in front of goal this campaign. **P17 FC**, by contrast, arrived with an average of **4.2 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **NDL FC** entered this match averaging **3.9 goals per game** — a number that reflected their struggles in front of goal this campaign. **P17 FC**, by contrast, arrived with an average of **3.9 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.5 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -162,7 +162,7 @@ NDL FC held steady, p17 fc held steady.
 | Team | Before GW1 | After GW1 |
 |------|-------------|-------------|
 | NDL FC | — | 10th |
-| P17 FC | — | 4th |
+| P17 FC | — | 5th |
 
 
 ---
@@ -197,8 +197,8 @@ NDL FC held steady, p17 fc held steady.
 
 - A **10-goal thriller** that lived up to every pre-match expectation
 - The GC period exploded with **7 goals** — an extraordinary return from just two rule-change windows
-- Kadell Daniel continues to lead NDL FC with **10 goals** — firmly among the league's elite marksmen
-- Amin Belaid heads P17 FC's scoring charts with **10 goals**, a tally any forward would be proud of
+- Kadell Daniel continues to lead NDL FC with **13 goals** — firmly among the league's elite marksmen
+- Amin Belaid heads P17 FC's scoring charts with **12 goals**, a tally any forward would be proud of
 
 ---
 

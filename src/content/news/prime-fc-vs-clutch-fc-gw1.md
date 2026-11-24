@@ -113,34 +113,34 @@ The **3Play** window was the more impactful, its **3** goals shifting the balanc
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
 | Timmy Abraham | 7 | 0 | 6 |
-| Francis Mampolo | 4 | 2 | 6 |
+| Francis Mampolo | 5 | 3 | 7 |
+| Edy Maieco | 4 | 0 | 7 |
+| Mauro Vilhete | 3 | 4 | 7 |
 | Salim Nassor | 3 | 0 | 3 |
-| Montel McKenzie | 1 | 1 | 6 |
-| Edy Maieco | 1 | 0 | 6 |
 
 ### Clutch FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Tyler Winters | 10 | 3 | 6 |
-| Alex Byrne | 7 | 1 | 6 |
-| Joshua Sumbunu | 4 | 1 | 6 |
-| Alfie Matthews | 3 | 7 | 6 |
-| Abdullahi Telli | 1 | 0 | 2 |
+| Tyler Winters | 11 | 3 | 7 |
+| Alex Byrne | 7 | 1 | 7 |
+| Joshua Sumbunu | 4 | 1 | 7 |
+| Alfie Matthews | 3 | 7 | 7 |
+| Abdullahi Telli | 2 | 0 | 3 |
 
 **Key Attacking Threats**
 
 - **Timmy Abraham** — Prime FC's talisman with **7 goals** from **6 appearances**. A reliable and consistent outlet who defences have learned to fear.
-- **Tyler Winters** — Clutch FC's leading marksman with **10 goals** from **6 outings**, plus **3 assists**. Clutch FC look to him whenever they need a moment of magic in the final third.
+- **Tyler Winters** — Clutch FC's leading marksman with **11 goals** from **7 outings**, plus **3 assists**. Clutch FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **Prime FC** entered this match averaging **3.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **Clutch FC**, by contrast, arrived with an average of **4.7 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **10 gameweeks** left in the regular season, the stakes couldn't have been higher. **Prime FC** entered this match averaging **3.9 goals per game** — a number that reflected their struggles in front of goal this campaign. **Clutch FC**, by contrast, arrived with an average of **4.4 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.5 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -194,7 +194,7 @@ Prime FC held steady, clutch fc held steady.
 
 - A **8-goal thriller** that lived up to every pre-match expectation
 - **4 of 8 goals (50%)** came during Game Changer activations
-- Tyler Winters heads Clutch FC's scoring charts with **10 goals**, a tally any forward would be proud of
+- Tyler Winters heads Clutch FC's scoring charts with **11 goals**, a tally any forward would be proud of
 
 ---
 

@@ -2,7 +2,7 @@
 title: "VZN FC Edge Deportrio 7-8 in GW5 Thriller"
 date: 2026-11-09
 category: "Match Report"
-excerpt: "Deportrio 7-8 VZN FC — Gameweek 5 match report. Jay Emmanuel-Thomas (8 goals) leads Deportrio's attack. Game Changers: 3Play (3) & 1-on-1 (5). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Deportrio 7-8 VZN FC — Gameweek 5 match report. Kevin Weggen (10 goals) leads Deportrio's attack. Game Changers: 3Play (3) & 1-on-1 (5). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: true
 ---
@@ -131,35 +131,35 @@ The **1-on-1** activation was particularly devastating, producing **5** goals th
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Jay Emmanuel-Thomas | 8 | 5 | 6 |
-| Kevin Weggen | 8 | 3 | 6 |
-| Rodney Ajayi | 6 | 0 | 6 |
-| Martyn Waghorn | 4 | 0 | 4 |
-| Emmanuel Robe | 3 | 0 | 6 |
+| Kevin Weggen | 10 | 3 | 7 |
+| Jay Emmanuel-Thomas | 9 | 5 | 7 |
+| Rodney Ajayi | 8 | 0 | 7 |
+| Emmanuel Robe | 4 | 0 | 7 |
+| Martyn Waghorn | 4 | 0 | 5 |
 
 ### VZN FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Stefan Ilic | 6 | 4 | 6 |
-| Florian Kastrati | 5 | 1 | 6 |
-| Dubem Eze | 3 | 1 | 5 |
+| Florian Kastrati | 6 | 1 | 7 |
+| Stefan Ilic | 6 | 4 | 7 |
+| Dubem Eze | 3 | 2 | 6 |
 | Terell Thomas | 2 | 0 | 4 |
-| Eddie Allsopp | 2 | 2 | 6 |
+| Eddie Allsopp | 2 | 2 | 7 |
 
 **Key Attacking Threats**
 
-- **Jay Emmanuel-Thomas** — Deportrio's talisman with **8 goals** from **6 appearances** and **5 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Stefan Ilic** — VZN FC's leading marksman with **6 goals** from **6 outings**, plus **4 assists**. VZN FC look to him whenever they need a moment of magic in the final third.
+- **Kevin Weggen** — Deportrio's talisman with **10 goals** from **7 appearances** and **3 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Florian Kastrati** — VZN FC's leading marksman with **6 goals** from **7 outings**, plus **1 assists**. VZN FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **6 gameweeks** left in the regular season, the stakes couldn't have been higher. **Deportrio** entered this match averaging **5.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **VZN FC**, by contrast, arrived with an average of **4.2 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **6 gameweeks** left in the regular season, the stakes couldn't have been higher. **Deportrio** entered this match averaging **5.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **VZN FC**, by contrast, arrived with an average of **3.7 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.5 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -214,6 +214,7 @@ Deportrio stayed at **3rd**, vzn fc climbed to **6th**.
 - A staggering **15-goal spectacle** — one of the highest-scoring matches in Baller League history
 - The GC period exploded with **8 goals** — an extraordinary return from just two rule-change windows
 - A **one-goal game** decided by the narrowest of margins — the small details made all the difference
+- Kevin Weggen continues to lead Deportrio with **10 goals** — firmly among the league's elite marksmen
 
 ---
 

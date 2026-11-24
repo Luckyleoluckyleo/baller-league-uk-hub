@@ -121,34 +121,34 @@ The **3Play** window was the more impactful, its **2** goals shifting the balanc
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
 | Junior Dixon | 4 | 2 | 5 |
-| Joshua Phillips | 3 | 1 | 6 |
-| Yasin Ben El-Mhanni | 2 | 0 | 6 |
-| Praise Ogbebor | 2 | 1 | 6 |
-| Arezki Hamouchene | 2 | 0 | 5 |
+| Joshua Phillips | 3 | 1 | 7 |
+| Yasin Ben El-Mhanni | 3 | 0 | 7 |
+| Praise Ogbebor | 3 | 1 | 7 |
+| Arezki Hamouchene | 2 | 0 | 6 |
 
 ### VZN FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Stefan Ilic | 6 | 4 | 6 |
-| Florian Kastrati | 5 | 1 | 6 |
-| Dubem Eze | 3 | 1 | 5 |
+| Florian Kastrati | 6 | 1 | 7 |
+| Stefan Ilic | 6 | 4 | 7 |
+| Dubem Eze | 3 | 2 | 6 |
 | Terell Thomas | 2 | 0 | 4 |
-| Eddie Allsopp | 2 | 2 | 6 |
+| Eddie Allsopp | 2 | 2 | 7 |
 
 **Key Attacking Threats**
 
 - **Junior Dixon** — Toma's talisman with **4 goals** from **5 appearances** and **2 assists**. A developing attacking presence with room to grow.
-- **Stefan Ilic** — VZN FC's leading marksman with **6 goals** from **6 outings**, plus **4 assists**. VZN FC look to him whenever they need a moment of magic in the final third.
+- **Florian Kastrati** — VZN FC's leading marksman with **6 goals** from **7 outings**, plus **1 assists**. VZN FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **7 gameweeks** left in the regular season, the stakes couldn't have been higher. **Toma** entered this match averaging **3.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **VZN FC**, by contrast, arrived with an average of **4.2 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **7 gameweeks** left in the regular season, the stakes couldn't have been higher. **Toma** entered this match averaging **3.1 goals per game** — a number that reflected their struggles in front of goal this campaign. **VZN FC**, by contrast, arrived with an average of **3.7 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.5 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 

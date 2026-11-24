@@ -2,7 +2,7 @@
 title: "NDL FC See Off RTG FC 3-1 in Gameweek 5"
 date: 2026-11-09
 category: "Match Report"
-excerpt: "NDL FC 3-1 RTG FC — Gameweek 5 match report. Kadell Daniel (10 goals) leads NDL FC's attack. Game Changers: Onside (0) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "NDL FC 3-1 RTG FC — Gameweek 5 match report. Kadell Daniel (13 goals) leads NDL FC's attack. Game Changers: Onside (0) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -102,35 +102,35 @@ The **Onside** and **Fairplay** windows came and went with neither side able to 
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kadell Daniel | 10 | 2 | 6 |
-| Sam Fitzgerald | 7 | 2 | 6 |
-| Isaac Modi | 4 | 1 | 6 |
-| Josh Parker | 2 | 1 | 6 |
-| Taufee Skandari | 2 | 1 | 6 |
+| Kadell Daniel | 13 | 2 | 7 |
+| Sam Fitzgerald | 9 | 2 | 7 |
+| Isaac Modi | 4 | 1 | 7 |
+| Josh Parker | 2 | 0 | 7 |
+| Taufee Skandari | 2 | 1 | 7 |
 
 ### RTG FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Alfie Cerulli | 7 | 0 | 6 |
-| Dara Dada | 3 | 0 | 6 |
-| Tyrell Miller-Rodney | 2 | 2 | 6 |
-| Zaid Al Hussaini | 1 | 4 | 6 |
-| Dan Wishart | 1 | 1 | 5 |
+| Alfie Cerulli | 8 | 0 | 7 |
+| Dara Dada | 4 | 0 | 7 |
+| Tyrell Miller-Rodney | 2 | 2 | 7 |
+| Zaid Al Hussaini | 1 | 5 | 7 |
+| Dan Wishart | 1 | 1 | 6 |
 
 **Key Attacking Threats**
 
-- **Kadell Daniel** — NDL FC's talisman with **10 goals** from **6 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Alfie Cerulli** — RTG FC's leading marksman with **7 goals** from **6 outings**. RTG FC look to him whenever they need a moment of magic in the final third.
+- **Kadell Daniel** — NDL FC's talisman with **13 goals** from **7 appearances** and **2 assists**. One of the league's elite finishers and the focal point of virtually every NDL FC attack.
+- **Alfie Cerulli** — RTG FC's leading marksman with **8 goals** from **7 outings**. RTG FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **6 gameweeks** left in the regular season, the stakes couldn't have been higher. **NDL FC** entered this match averaging **3.7 goals per game** — a number that reflected their struggles in front of goal this campaign. **RTG FC**, by contrast, arrived with an average of **3.5 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **6 gameweeks** left in the regular season, the stakes couldn't have been higher. **NDL FC** entered this match averaging **3.9 goals per game** — a number that reflected their struggles in front of goal this campaign. **RTG FC**, by contrast, arrived with an average of **3.3 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.5 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -183,7 +183,7 @@ NDL FC climbed to **5th**, rtg fc dropped to **11th**.
 ## Match Facts
 
 - A rare clean sheet for both defences during the GC periods — neither the **Onside** nor the **Fairplay** forced a breakthrough
-- Kadell Daniel continues to lead NDL FC with **10 goals** — firmly among the league's elite marksmen
+- Kadell Daniel continues to lead NDL FC with **13 goals** — firmly among the league's elite marksmen
 
 ---
 

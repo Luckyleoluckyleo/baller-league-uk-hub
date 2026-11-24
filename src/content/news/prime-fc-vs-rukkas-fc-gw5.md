@@ -100,34 +100,34 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
 | Timmy Abraham | 7 | 0 | 6 |
-| Francis Mampolo | 4 | 2 | 6 |
+| Francis Mampolo | 5 | 3 | 7 |
+| Edy Maieco | 4 | 0 | 7 |
+| Mauro Vilhete | 3 | 4 | 7 |
 | Salim Nassor | 3 | 0 | 3 |
-| Montel McKenzie | 1 | 1 | 6 |
-| Edy Maieco | 1 | 0 | 6 |
 
 ### P17 FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Amin Belaid | 10 | 3 | 6 |
-| Steven Kodra | 7 | 1 | 6 |
-| Dajon Golding | 4 | 0 | 6 |
-| Ciaran Clark | 1 | 3 | 6 |
-| Junior Morias | 1 | 0 | 3 |
+| Amin Belaid | 12 | 3 | 7 |
+| Steven Kodra | 7 | 1 | 7 |
+| Dajon Golding | 4 | 1 | 7 |
+| Ciaran Clark | 1 | 3 | 7 |
+| Junior Morias | 1 | 0 | 4 |
 
 **Key Attacking Threats**
 
 - **Timmy Abraham** — Prime FC's talisman with **7 goals** from **6 appearances**. A reliable and consistent outlet who defences have learned to fear.
-- **Amin Belaid** — P17 FC's leading marksman with **10 goals** from **6 outings**, plus **3 assists**. P17 FC look to him whenever they need a moment of magic in the final third.
+- **Amin Belaid** — P17 FC's leading marksman with **12 goals** from **7 outings**, plus **3 assists**. A proven match-winner who carries P17 FC's main goal threat game after game.
 
 
 ---
 
 ## Season Context
 
-With **6 gameweeks** left in the regular season, the stakes couldn't have been higher. **Prime FC** entered this match averaging **3.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **P17 FC**, by contrast, arrived with an average of **4.2 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **6 gameweeks** left in the regular season, the stakes couldn't have been higher. **Prime FC** entered this match averaging **3.9 goals per game** — a number that reflected their struggles in front of goal this campaign. **P17 FC**, by contrast, arrived with an average of **3.9 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.5 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -180,7 +180,7 @@ Prime FC dropped to **9th**, p17 fc stayed at **2nd**.
 ## Match Facts
 
 - **2 of 4 goals (50%)** came during Game Changer activations
-- Amin Belaid heads P17 FC's scoring charts with **10 goals**, a tally any forward would be proud of
+- Amin Belaid heads P17 FC's scoring charts with **12 goals**, a tally any forward would be proud of
 
 ---
 

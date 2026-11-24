@@ -34,11 +34,11 @@ RTG FC are led by [Danny Aarons](/managers/danny-aarons). Their experience and p
 
 Here are some of RTG FC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Alfie Cerulli](/players/alfie-cerulli)** (Striker) — 7 goals and 0 assists in 6 appearances.
-- **[Dara Dada](/players/dara-dada)** (Midfielder) — 3 goals and 0 assists in 6 appearances.
-- **[Tyrell Miller-Rodney](/players/tyrell-miller-rodney)** (Midfielder) — 2 goals and 2 assists in 6 appearances.
-- **[Zaid Al Hussaini](/players/zaid-al-hussaini)** (Midfielder) — 1 goals and 4 assists in 6 appearances.
-- **[Dan Wishart](/players/dan-wishart)** (Midfielder) — 1 goals and 1 assists in 5 appearances.
+- **[Alfie Cerulli](/players/alfie-cerulli)** (Striker) — 8 goals and 0 assists in 7 appearances.
+- **[Dara Dada](/players/dara-dada)** (Midfielder) — 4 goals and 0 assists in 7 appearances.
+- **[Tyrell Miller-Rodney](/players/tyrell-miller-rodney)** (Midfielder) — 2 goals and 2 assists in 7 appearances.
+- **[Zaid Al Hussaini](/players/zaid-al-hussaini)** (Midfielder) — 1 goals and 5 assists in 7 appearances.
+- **[Dan Wishart](/players/dan-wishart)** (Midfielder) — 1 goals and 1 assists in 6 appearances.
 - **[Joshua Emmanuel](/players/joshua-emmanuel)** (Defender) — 1 goals and 0 assists in 5 appearances.
 
 See the full squad on the [RTG FC team page](/teams/yanited).

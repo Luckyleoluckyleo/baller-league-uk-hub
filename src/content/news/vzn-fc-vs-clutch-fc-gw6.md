@@ -2,7 +2,7 @@
 title: "VZN FC and Clutch FC Share 4-4 Goal Fest in GW6"
 date: 2026-11-16
 category: "Match Report"
-excerpt: "VZN FC 4-4 Clutch FC — Gameweek 6 match report. Stefan Ilic (6 goals) leads VZN FC's attack. Game Changers: Plus One (3) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "VZN FC 4-4 Clutch FC — Gameweek 6 match report. Florian Kastrati (6 goals) leads VZN FC's attack. Game Changers: Plus One (3) & The Line (1). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -113,35 +113,35 @@ The **Plus One** window was the more impactful, its **3** goals shifting the bal
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Stefan Ilic | 6 | 4 | 6 |
-| Florian Kastrati | 5 | 1 | 6 |
-| Dubem Eze | 3 | 1 | 5 |
+| Florian Kastrati | 6 | 1 | 7 |
+| Stefan Ilic | 6 | 4 | 7 |
+| Dubem Eze | 3 | 2 | 6 |
 | Terell Thomas | 2 | 0 | 4 |
-| Eddie Allsopp | 2 | 2 | 6 |
+| Eddie Allsopp | 2 | 2 | 7 |
 
 ### Clutch FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Tyler Winters | 10 | 3 | 6 |
-| Alex Byrne | 7 | 1 | 6 |
-| Joshua Sumbunu | 4 | 1 | 6 |
-| Alfie Matthews | 3 | 7 | 6 |
-| Abdullahi Telli | 1 | 0 | 2 |
+| Tyler Winters | 11 | 3 | 7 |
+| Alex Byrne | 7 | 1 | 7 |
+| Joshua Sumbunu | 4 | 1 | 7 |
+| Alfie Matthews | 3 | 7 | 7 |
+| Abdullahi Telli | 2 | 0 | 3 |
 
 **Key Attacking Threats**
 
-- **Stefan Ilic** — VZN FC's talisman with **6 goals** from **6 appearances** and **4 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Tyler Winters** — Clutch FC's leading marksman with **10 goals** from **6 outings**, plus **3 assists**. Clutch FC look to him whenever they need a moment of magic in the final third.
+- **Florian Kastrati** — VZN FC's talisman with **6 goals** from **7 appearances** and **1 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Tyler Winters** — Clutch FC's leading marksman with **11 goals** from **7 outings**, plus **3 assists**. Clutch FC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **5 gameweeks** left in the regular season, the stakes couldn't have been higher. **VZN FC** entered this match averaging **4.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **Clutch FC**, by contrast, arrived with an average of **4.7 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **5 gameweeks** left in the regular season, the stakes couldn't have been higher. **VZN FC** entered this match averaging **3.7 goals per game** — a number that reflected their struggles in front of goal this campaign. **Clutch FC**, by contrast, arrived with an average of **4.4 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.5 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -195,7 +195,7 @@ VZN FC stayed at **6th**, clutch fc stayed at **7th**.
 
 - A **8-goal thriller** that lived up to every pre-match expectation
 - **4 of 8 goals (50%)** came during Game Changer activations
-- Tyler Winters heads Clutch FC's scoring charts with **10 goals**, a tally any forward would be proud of
+- Tyler Winters heads Clutch FC's scoring charts with **11 goals**, a tally any forward would be proud of
 
 ---
 

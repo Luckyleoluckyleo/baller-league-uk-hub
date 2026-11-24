@@ -32,12 +32,12 @@ Clutch FC are led by [Chloe Kelly](/managers/chloe-kelly). Their experience and 
 
 Here are some of Clutch FC's players to watch, with last season's (Season 4) figures where available:
 
-- **[Tyler Winters](/players/tyler-winters)** (Striker) — 10 goals and 3 assists in 6 appearances.
-- **[Alex Byrne](/players/alex-byrne)** (Striker) — 7 goals and 1 assists in 6 appearances.
-- **[Joshua Sumbunu](/players/joshua-sumbunu)** (Defender) — 4 goals and 1 assists in 6 appearances.
-- **[Alfie Matthews](/players/alfie-matthews)** (Striker) — 3 goals and 7 assists in 6 appearances.
-- **[Abdullahi Telli](/players/abdullahi-telli)** (Midfielder) — 1 goals and 0 assists in 2 appearances.
-- **[Richard Afrane-Kesey](/players/richard-afrane-kesey)** (Striker) — 1 goals and 0 assists in 5 appearances.
+- **[Tyler Winters](/players/tyler-winters)** (Striker) — 11 goals and 3 assists in 7 appearances.
+- **[Alex Byrne](/players/alex-byrne)** (Striker) — 7 goals and 1 assists in 7 appearances.
+- **[Joshua Sumbunu](/players/joshua-sumbunu)** (Defender) — 4 goals and 1 assists in 7 appearances.
+- **[Alfie Matthews](/players/alfie-matthews)** (Striker) — 3 goals and 7 assists in 7 appearances.
+- **[Abdullahi Telli](/players/abdullahi-telli)** (Midfielder) — 2 goals and 0 assists in 3 appearances.
+- **[Richard Afrane-Kesey](/players/richard-afrane-kesey)** (Striker) — 2 goals and 0 assists in 6 appearances.
 
 See the full squad on the [Clutch FC team page](/teams/clutch-fc).
 

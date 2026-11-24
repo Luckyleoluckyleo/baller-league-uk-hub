@@ -2,7 +2,7 @@
 title: "N5 FC Beat Gold Devils FC 3-5 in Entertaining GW4 Clash"
 date: 2026-11-02
 category: "Match Report"
-excerpt: "Gold Devils FC 3-5 N5 FC — Gameweek 4 match report. Bilal Sayoud (6 goals) leads Gold Devils FC's attack. Game Changers: Plus One (3) & Fairplay (2). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Gold Devils FC 3-5 N5 FC — Gameweek 4 match report. Bilal Sayoud (7 goals) leads Gold Devils FC's attack. Game Changers: Plus One (3) & Fairplay (2). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -112,35 +112,35 @@ The **Plus One** window was the more impactful, its **3** goals shifting the bal
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Bilal Sayoud | 6 | 2 | 6 |
-| Tarik Gidaree | 5 | 1 | 6 |
-| Luke May-Parrott | 3 | 2 | 4 |
-| Connor Wood | 2 | 3 | 6 |
-| Dimitri Nicolaou | 1 | 0 | 6 |
+| Bilal Sayoud | 7 | 3 | 7 |
+| Luke May-Parrott | 5 | 2 | 5 |
+| Tarik Gidaree | 5 | 2 | 7 |
+| Connor Wood | 2 | 3 | 7 |
+| Dimitri Nicolaou | 2 | 0 | 7 |
 
 ### N5 FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Joe Bennett | 4 | 2 | 6 |
+| Francis Amartey | 5 | 1 | 5 |
+| Joe Bennett | 4 | 2 | 7 |
 | Michael Hill | 3 | 2 | 6 |
-| Francis Amartey | 3 | 1 | 4 |
-| Hani Berchiche | 3 | 1 | 6 |
-| Billy Sharp | 2 | 1 | 5 |
+| Kieron Freeman | 3 | 2 | 6 |
+| Hani Berchiche | 3 | 1 | 7 |
 
 **Key Attacking Threats**
 
-- **Bilal Sayoud** — Gold Devils FC's talisman with **6 goals** from **6 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Joe Bennett** — N5 FC's leading marksman with **4 goals** from **6 outings**, plus **2 assists**. Still finding his rhythm but showing promising signs.
+- **Bilal Sayoud** — Gold Devils FC's talisman with **7 goals** from **7 appearances** and **3 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Francis Amartey** — N5 FC's leading marksman with **5 goals** from **5 outings**, plus **1 assists**. Still finding his rhythm but showing promising signs.
 
 
 ---
 
 ## Season Context
 
-With **7 gameweeks** left in the regular season, the stakes couldn't have been higher. **Gold Devils FC** entered this match averaging **3.2 goals per game** — a number that reflected their struggles in front of goal this campaign. **N5 FC**, by contrast, arrived with an average of **3.3 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **7 gameweeks** left in the regular season, the stakes couldn't have been higher. **Gold Devils FC** entered this match averaging **3.3 goals per game** — a number that reflected their struggles in front of goal this campaign. **N5 FC**, by contrast, arrived with an average of **3.4 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.5 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 

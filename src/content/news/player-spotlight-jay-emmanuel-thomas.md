@@ -28,7 +28,7 @@ Jay Emmanuel-Thomas built his professional career at Arsenal, Bristol City, Quee
 
 | Season | Apps | Goals | Assists |
 |--------|------|-------|---------|
-| 4 | 6 | 8 | 5 |
+| 4 | 7 | 9 | 5 |
 
 See his full stats on his [player profile](/players/jay-emmanuel-thomas).
 

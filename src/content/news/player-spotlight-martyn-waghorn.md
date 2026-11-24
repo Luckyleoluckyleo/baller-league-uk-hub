@@ -27,7 +27,7 @@ Martyn Waghorn built his professional career at Sunderland, Leicester City, Rang
 
 | Season | Apps | Goals | Assists |
 |--------|------|-------|---------|
-| 4 | 4 | 4 | 0 |
+| 4 | 5 | 4 | 0 |
 
 See his full stats on his [player profile](/players/martyn-waghorn).
 

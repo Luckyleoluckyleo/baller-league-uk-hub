@@ -85,35 +85,35 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kazaiah Sterling | 7 | 2 | 6 |
-| Ergys Pepaj | 5 | 2 | 6 |
-| Amine Sassi | 3 | 1 | 6 |
-| Josh Bohui | 3 | 0 | 6 |
-| Youssef Chentouf | 2 | 3 | 6 |
+| Kazaiah Sterling | 7 | 4 | 7 |
+| Ergys Pepaj | 5 | 2 | 7 |
+| Amine Sassi | 4 | 1 | 7 |
+| Josh Bohui | 3 | 0 | 7 |
+| J'ardell Stirling | 2 | 1 | 7 |
 
 ### Wembley Rangers AFC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Domingos Pires | 8 | 1 | 6 |
-| Callam Gardner | 6 | 0 | 6 |
-| Chiekh Thiam | 4 | 1 | 6 |
-| Adrian Tajik | 2 | 0 | 5 |
-| Finlay Chadwick | 2 | 1 | 4 |
+| Domingos Pires | 8 | 1 | 7 |
+| Callam Gardner | 7 | 0 | 7 |
+| Chiekh Thiam | 4 | 1 | 7 |
+| Adrian Tajik | 2 | 0 | 6 |
+| Finlay Chadwick | 2 | 1 | 5 |
 
 **Key Attacking Threats**
 
-- **Kazaiah Sterling** — SDS FC's talisman with **7 goals** from **6 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Domingos Pires** — Wembley Rangers AFC's leading marksman with **8 goals** from **6 outings**, plus **1 assists**. Wembley Rangers AFC look to him whenever they need a moment of magic in the final third.
+- **Kazaiah Sterling** — SDS FC's talisman with **7 goals** from **7 appearances** and **4 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Domingos Pires** — Wembley Rangers AFC's leading marksman with **8 goals** from **7 outings**, plus **1 assists**. Wembley Rangers AFC look to him whenever they need a moment of magic in the final third.
 
 
 ---
 
 ## Season Context
 
-With **6 gameweeks** left in the regular season, the stakes couldn't have been higher. **SDS FC** entered this match averaging **3.5 goals per game** — a number that reflected their struggles in front of goal this campaign. **Wembley Rangers AFC**, by contrast, arrived with an average of **4.2 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **6 gameweeks** left in the regular season, the stakes couldn't have been higher. **SDS FC** entered this match averaging **3.3 goals per game** — a number that reflected their struggles in front of goal this campaign. **Wembley Rangers AFC**, by contrast, arrived with an average of **3.7 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.5 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 

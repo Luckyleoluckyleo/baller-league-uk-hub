@@ -2,7 +2,7 @@
 title: "NDL FC See Off Clutch FC 3-6 in Gameweek 3"
 date: 2026-10-26
 category: "Match Report"
-excerpt: "Clutch FC 3-6 NDL FC — Gameweek 3 match report. Tyler Winters (10 goals) leads Clutch FC's attack. Game Changers: Plus One (2) & The Line (2). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "Clutch FC 3-6 NDL FC — Gameweek 3 match report. Tyler Winters (11 goals) leads Clutch FC's attack. Game Changers: Plus One (2) & The Line (2). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -114,35 +114,35 @@ Matches where the GC contributes this significantly tend to be remembered — th
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Tyler Winters | 10 | 3 | 6 |
-| Alex Byrne | 7 | 1 | 6 |
-| Joshua Sumbunu | 4 | 1 | 6 |
-| Alfie Matthews | 3 | 7 | 6 |
-| Abdullahi Telli | 1 | 0 | 2 |
+| Tyler Winters | 11 | 3 | 7 |
+| Alex Byrne | 7 | 1 | 7 |
+| Joshua Sumbunu | 4 | 1 | 7 |
+| Alfie Matthews | 3 | 7 | 7 |
+| Abdullahi Telli | 2 | 0 | 3 |
 
 ### NDL FC — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kadell Daniel | 10 | 2 | 6 |
-| Sam Fitzgerald | 7 | 2 | 6 |
-| Isaac Modi | 4 | 1 | 6 |
-| Josh Parker | 2 | 1 | 6 |
-| Taufee Skandari | 2 | 1 | 6 |
+| Kadell Daniel | 13 | 2 | 7 |
+| Sam Fitzgerald | 9 | 2 | 7 |
+| Isaac Modi | 4 | 1 | 7 |
+| Josh Parker | 2 | 0 | 7 |
+| Taufee Skandari | 2 | 1 | 7 |
 
 **Key Attacking Threats**
 
-- **Tyler Winters** — Clutch FC's talisman with **10 goals** from **6 appearances** and **3 assists**. A reliable and consistent outlet who defences have learned to fear.
-- **Kadell Daniel** — NDL FC's leading marksman with **10 goals** from **6 outings**, plus **2 assists**. NDL FC look to him whenever they need a moment of magic in the final third.
+- **Tyler Winters** — Clutch FC's talisman with **11 goals** from **7 appearances** and **3 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Kadell Daniel** — NDL FC's leading marksman with **13 goals** from **7 outings**, plus **2 assists**. A proven match-winner who carries NDL FC's main goal threat game after game.
 
 
 ---
 
 ## Season Context
 
-With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **Clutch FC** entered this match averaging **4.7 goals per game** — a number that reflected their struggles in front of goal this campaign. **NDL FC**, by contrast, arrived with an average of **3.7 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **8 gameweeks** left in the regular season, the stakes couldn't have been higher. **Clutch FC** entered this match averaging **4.4 goals per game** — a number that reflected their struggles in front of goal this campaign. **NDL FC**, by contrast, arrived with an average of **3.9 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.5 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -196,8 +196,8 @@ Clutch FC dropped to **8th**, ndl fc climbed to **4th**.
 
 - A **9-goal thriller** that lived up to every pre-match expectation
 - **4 of 9 goals (44%)** came during Game Changer activations
-- Tyler Winters continues to lead Clutch FC with **10 goals** — firmly among the league's elite marksmen
-- Kadell Daniel heads NDL FC's scoring charts with **10 goals**, a tally any forward would be proud of
+- Tyler Winters continues to lead Clutch FC with **11 goals** — firmly among the league's elite marksmen
+- Kadell Daniel heads NDL FC's scoring charts with **13 goals**, a tally any forward would be proud of
 
 ---
 

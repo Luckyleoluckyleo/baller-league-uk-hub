@@ -2,7 +2,7 @@
 title: "NDL FC Beat Toma 3-0 in Entertaining GW6 Clash"
 date: 2026-11-16
 category: "Match Report"
-excerpt: "NDL FC 3-0 Toma — Gameweek 6 match report. Kadell Daniel (10 goals) leads NDL FC's attack. Game Changers: Onside (0) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "NDL FC 3-0 Toma — Gameweek 6 match report. Kadell Daniel (13 goals) leads NDL FC's attack. Game Changers: Onside (0) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -78,10 +78,9 @@ The **Onside** and **Fairplay** windows came and went with neither side able to 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
 | Isaac Modi | 1 | 0 | 1 | 7 |
-| Kadell Daniel | 1 | 0 | 5 | 13 |
+| Kadell Daniel | 1 | 0 | 5 | 14 |
 | Amadou Kassaraté | 1 | 0 | 2 | 4 |
 | Didi | 0 | 1 | 0 | 7 |
-| Josh Parker | 0 | 1 | 3 | 8 |
 | Taufee Skandari | 0 | 1 | 3 | 2 |
 
 
@@ -94,25 +93,25 @@ The **Onside** and **Fairplay** windows came and went with neither side able to 
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
-| Kadell Daniel | 10 | 2 | 6 |
-| Sam Fitzgerald | 7 | 2 | 6 |
-| Isaac Modi | 4 | 1 | 6 |
-| Josh Parker | 2 | 1 | 6 |
-| Taufee Skandari | 2 | 1 | 6 |
+| Kadell Daniel | 13 | 2 | 7 |
+| Sam Fitzgerald | 9 | 2 | 7 |
+| Isaac Modi | 4 | 1 | 7 |
+| Josh Parker | 2 | 0 | 7 |
+| Taufee Skandari | 2 | 1 | 7 |
 
 ### Toma — Top Scorers (Season)
 
 | Player | Goals | Assists | Apps |
 |--------|-------|---------|------|
 | Junior Dixon | 4 | 2 | 5 |
-| Joshua Phillips | 3 | 1 | 6 |
-| Yasin Ben El-Mhanni | 2 | 0 | 6 |
-| Praise Ogbebor | 2 | 1 | 6 |
-| Arezki Hamouchene | 2 | 0 | 5 |
+| Joshua Phillips | 3 | 1 | 7 |
+| Yasin Ben El-Mhanni | 3 | 0 | 7 |
+| Praise Ogbebor | 3 | 1 | 7 |
+| Arezki Hamouchene | 2 | 0 | 6 |
 
 **Key Attacking Threats**
 
-- **Kadell Daniel** — NDL FC's talisman with **10 goals** from **6 appearances** and **2 assists**. A reliable and consistent outlet who defences have learned to fear.
+- **Kadell Daniel** — NDL FC's talisman with **13 goals** from **7 appearances** and **2 assists**. One of the league's elite finishers and the focal point of virtually every NDL FC attack.
 - **Junior Dixon** — Toma's leading marksman with **4 goals** from **5 outings**, plus **2 assists**. Still finding his rhythm but showing promising signs.
 
 
@@ -120,9 +119,9 @@ The **Onside** and **Fairplay** windows came and went with neither side able to 
 
 ## Season Context
 
-With **5 gameweeks** left in the regular season, the stakes couldn't have been higher. **NDL FC** entered this match averaging **3.7 goals per game** — a number that reflected their struggles in front of goal this campaign. **Toma**, by contrast, arrived with an average of **3.2 per outing** — a figure that highlighted the work still to be done in the final third. 
+With **5 gameweeks** left in the regular season, the stakes couldn't have been higher. **NDL FC** entered this match averaging **3.9 goals per game** — a number that reflected their struggles in front of goal this campaign. **Toma**, by contrast, arrived with an average of **3.1 per outing** — a figure that highlighted the work still to be done in the final third. 
 
-The league-wide average stood at **7.6 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
+The league-wide average stood at **7.5 goals per game**, a benchmark that underlined the high-octane nature of Baller League football. 
 
 ---
 
@@ -164,10 +163,10 @@ NDL FC stayed at **5th**, toma stayed at **12th**.
 | Goals | 3 |
 | Game Changer goals | 0 (0% of all goals) |
 | Different goalscorers | 3 |
-| Total shots | 37 |
-| Assists | 3 |
+| Total shots | 35 |
+| Assists | 2 |
 | Tackles | 24 |
-| Passes | 282 |
+| Passes | 285 |
 
 
 ---
@@ -175,7 +174,7 @@ NDL FC stayed at **5th**, toma stayed at **12th**.
 ## Match Facts
 
 - A rare clean sheet for both defences during the GC periods — neither the **Onside** nor the **Fairplay** forced a breakthrough
-- Kadell Daniel continues to lead NDL FC with **10 goals** — firmly among the league's elite marksmen
+- Kadell Daniel continues to lead NDL FC with **13 goals** — firmly among the league's elite marksmen
 
 ---
 
