@@ -20,7 +20,7 @@ SDS FC, sitting pretty in the Final Four places at 1st, knew a win here would ti
 
 ## ⭐ Player of the Match
 
-[Alfie Cerulli](/players/alfie-cerulli) for RTG FC was the pick of the bunch with **1** goal, **10** shots.
+[Alfie Cerulli](/players/alfie-cerulli) for RTG FC was the pick of the bunch with **1** goal, **11** shots.
 
 
 ---
@@ -41,15 +41,15 @@ The 27th minute brought the **The Line** Game Changer thundering into the match 
 
 The goals arrived in a dramatic sequence that told the story of the match:
 
-- **12′** — **Dara Dada** (RTG FC) drew first blood
-- **14′** — **J&#039;ardell Stirling** netted
+- **13′** — **Dara Dada** (RTG FC) drew first blood
+- **15′** — **J&#039;ardell Stirling** netted
 - **20′** — **Alfie Cerulli** (RTG FC) struck
 - **21′** — **Amine Sassi** (SDS FC) found the target
 
 | Minute | Player | Team |
 |--------|--------|------|
-| 12′ | Dara Dada | RTG FC |
-| 14′ | J&#039;ardell Stirling | — |
+| 13′ | Dara Dada | RTG FC |
+| 15′ | J&#039;ardell Stirling | — |
 | 20′ | Alfie Cerulli | RTG FC |
 | 21′ | Amine Sassi | SDS FC |
 
@@ -79,15 +79,15 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Amine Sassi | 1 | 0 | 3 | 12 |
+| Amine Sassi | 1 | 0 | 4 | 12 |
 | Kazaiah Sterling | 0 | 2 | 3 | 11 |
 
 ### RTG FC
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Dara Dada | 1 | 0 | 6 | 16 |
-| Alfie Cerulli | 1 | 0 | 10 | 5 |
+| Dara Dada | 1 | 0 | 5 | 18 |
+| Alfie Cerulli | 1 | 0 | 11 | 5 |
 | Zaid Al Hussaini | 0 | 1 | 2 | 10 |
 
 
@@ -170,10 +170,10 @@ SDS FC stayed at **1st**, rtg fc climbed to **10th**.
 | Goals | 4 |
 | Game Changer goals | 2 (50% of all goals) |
 | Different goalscorers | 4 |
-| Total shots | 53 |
+| Total shots | 57 |
 | Assists | 3 |
-| Tackles | 23 |
-| Passes | 266 |
+| Tackles | 19 |
+| Passes | 265 |
 
 
 ---

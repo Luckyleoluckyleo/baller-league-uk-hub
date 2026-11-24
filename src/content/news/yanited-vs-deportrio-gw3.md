@@ -123,8 +123,8 @@ The **3Play** window was the more impactful, its **4** goals shifting the balanc
 |--------|-------|---------|------|
 | Kevin Weggen | 10 | 3 | 7 |
 | Jay Emmanuel-Thomas | 9 | 5 | 7 |
-| Rodney Ajayi | 8 | 0 | 7 |
-| Emmanuel Robe | 4 | 0 | 7 |
+| Rodney Ajayi | 7 | 0 | 7 |
+| Emmanuel Robe | 5 | 0 | 7 |
 | Martyn Waghorn | 4 | 0 | 5 |
 
 **Key Attacking Threats**

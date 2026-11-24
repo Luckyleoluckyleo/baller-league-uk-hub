@@ -26,8 +26,8 @@ Their best finish came in **Season 1**, finishing **1st** on **23 points**.
 
 - **[Jay Emmanuel-Thomas](/players/jay-emmanuel-thomas)** — 30 goals, 14 assists
 - **[Marvin Sordell](/players/marvin-sordell)** — 11 goals, 3 assists
-- **[Rodney Ajayi](/players/rodney-ajayi)** — 11 goals, 2 assists
 - **[Martyn Waghorn](/players/martyn-waghorn)** — 10 goals, 2 assists
+- **[Rodney Ajayi](/players/rodney-ajayi)** — 10 goals, 2 assists
 - **[Kevin Weggen](/players/kevin-weggen)** — 10 goals, 3 assists
 
 ## Biggest win

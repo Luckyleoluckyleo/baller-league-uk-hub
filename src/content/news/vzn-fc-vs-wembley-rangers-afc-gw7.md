@@ -2,7 +2,7 @@
 title: "VZN FC and Wembley Rangers AFC Deadlocked at 1-1 in GW7"
 date: 2026-11-23
 category: "Match Report"
-excerpt: "VZN FC 1-1 Wembley Rangers AFC — Gameweek 7 match report. Florian Kastrati (6 goals) leads VZN FC's attack. Game Changers: Onside (0) & Game Changer (0). Read the full match report, player stats, table impact and head-to-head analysis."
+excerpt: "VZN FC 1-1 Wembley Rangers AFC — Gameweek 7 match report. Florian Kastrati (6 goals) leads VZN FC's attack. Game Changers: Onside (0) & Fairplay (0). Read the full match report, player stats, table impact and head-to-head analysis."
 author: "Baller League UK Hub"
 featured: false
 ---
@@ -33,7 +33,7 @@ The game's complexion changed at the 12th minute when the **Onside** Game Change
 
 ### Second Half
 
-The second half resumed with all to play for, and at the 27-minute mark the **Game Changer** Game Changer cranked up the intensity once more — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. Both sides strained every sinew for a winner but the decisive blow never landed. A draw was the fairest outcome in a match where no team deserved to lose.
+The second half resumed with all to play for, and at the 27-minute mark the **Fairplay** Game Changer cranked up the intensity once more — but for all the tactical upheaval, the net remained undisturbed. Both defences had clearly done their homework. Both sides strained every sinew for a winner but the decisive blow never landed. A draw was the fairest outcome in a match where no team deserved to lose.
 
 ---
 
@@ -42,30 +42,30 @@ The second half resumed with all to play for, and at the 27-minute mark the **Ga
 The goals arrived in a dramatic sequence that told the story of the match:
 
 - **1′** — **Florian Kastrati** (VZN FC) opened the scoring
-- **55′** — **Callam Gardner** (Wembley Rangers AFC) found the target
+- **25′** — **Callam Gardner** (Wembley Rangers AFC) found the target
 
 | Minute | Player | Team |
 |--------|--------|------|
 | 1′ | Florian Kastrati | VZN FC |
-| 55′ | Callam Gardner | Wembley Rangers AFC |
+| 25′ | Callam Gardner | Wembley Rangers AFC |
 
 
 ---
 
-## Game Changer Impact — Onside & Game Changer
+## Game Changer Impact — Onside & Fairplay
 
 This was a statistical anomaly in the Baller League ecosystem: **zero goals** across two Game Changer activations.
 
-The **Onside** and **Game Changer** windows came and went with neither side able to capitalise on the modified rules. Defensive organisation won the day, with both teams demonstrating that even when the laws of the game shift beneath your feet, discipline and concentration can keep the door firmly shut. Matches like this serve as a reminder that Baller League isn't *all* about the GC — fundamentals still matter.
+The **Onside** and **Fairplay** windows came and went with neither side able to capitalise on the modified rules. Defensive organisation won the day, with both teams demonstrating that even when the laws of the game shift beneath your feet, discipline and concentration can keep the door firmly shut. Matches like this serve as a reminder that Baller League isn't *all* about the GC — fundamentals still matter.
 
 | GC Activation | Type | Goals |
 |---------------|------|-------|
 | 1st Half (12′) | Onside | 0 |
-| 2nd Half (27′) | Game Changer | 0 |
+| 2nd Half (27′) | Fairplay | 0 |
 | **Total** | | **0** |
 
 
-**What those rules mean:** [Onside rules](/news/baller-league-game-changers-explained#gc-onside). Read the [full rules](/rules#gamechanger) or the [Game Changer explainer](/news/baller-league-game-changers-explained).
+**What those rules mean:** [Onside rules](/news/baller-league-game-changers-explained#gc-onside) · [Fairplay rules](/news/baller-league-game-changers-explained#gc-fairplay). Read the [full rules](/rules#gamechanger) or the [Game Changer explainer](/news/baller-league-game-changers-explained).
 
 ---
 
@@ -75,8 +75,8 @@ The **Onside** and **Game Changer** windows came and went with neither side able
 
 | Player | Goals | Assists | Shots | Passes |
 |--------|-------|---------|-------|--------|
-| Florian Kastrati | 1 | 0 | 5 | 8 |
-| Dubem Eze | 0 | 1 | 4 | 4 |
+| Florian Kastrati | 1 | 0 | 5 | 9 |
+| Dubem Eze | 0 | 1 | 4 | 3 |
 
 ### Wembley Rangers AFC
 
@@ -153,7 +153,7 @@ VZN FC stayed at **6th**, wembley rangers afc dropped to **5th**.
 | Goals | 1 | 1 |
 | GC Goals | 0 | 0 |
 | GC 1st Half (Onside) | 0 | 0 |
-| GC 2nd Half (Game Changer) | 0 | 0 |
+| GC 2nd Half (Fairplay) | 0 | 0 |
 
 ---
 
@@ -164,10 +164,10 @@ VZN FC stayed at **6th**, wembley rangers afc dropped to **5th**.
 | Goals | 2 |
 | Game Changer goals | 0 (0% of all goals) |
 | Different goalscorers | 2 |
-| Total shots | 34 |
+| Total shots | 35 |
 | Assists | 1 |
-| Tackles | 27 |
-| Passes | 244 |
+| Tackles | 30 |
+| Passes | 249 |
 
 
 ---
@@ -175,7 +175,7 @@ VZN FC stayed at **6th**, wembley rangers afc dropped to **5th**.
 ## Match Facts
 
 - A tight defensive contest with just **2 goals** — proof that low-scoring doesn't mean low-drama
-- A rare clean sheet for both defences during the GC periods — neither the **Onside** nor the **Game Changer** forced a breakthrough
+- A rare clean sheet for both defences during the GC periods — neither the **Onside** nor the **Fairplay** forced a breakthrough
 
 ---
 

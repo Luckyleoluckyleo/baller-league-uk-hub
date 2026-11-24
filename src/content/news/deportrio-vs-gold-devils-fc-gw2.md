@@ -114,8 +114,8 @@ This was more a match decided by the regular 6v6 phases than by the GC intervent
 |--------|-------|---------|------|
 | Kevin Weggen | 10 | 3 | 7 |
 | Jay Emmanuel-Thomas | 9 | 5 | 7 |
-| Rodney Ajayi | 8 | 0 | 7 |
-| Emmanuel Robe | 4 | 0 | 7 |
+| Rodney Ajayi | 7 | 0 | 7 |
+| Emmanuel Robe | 5 | 0 | 7 |
 | Martyn Waghorn | 4 | 0 | 5 |
 
 ### Gold Devils FC — Top Scorers (Season)

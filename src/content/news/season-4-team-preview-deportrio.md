@@ -34,8 +34,8 @@ Here are some of Deportrio's players to watch, with last season's (Season 4) fig
 
 - **[Kevin Weggen](/players/kevin-weggen)** (Midfielder) — 10 goals and 3 assists in 7 appearances.
 - **[Jay Emmanuel-Thomas](/players/jay-emmanuel-thomas)** (Striker) — 9 goals and 5 assists in 7 appearances.
-- **[Rodney Ajayi](/players/rodney-ajayi)** (Striker) — 8 goals and 0 assists in 7 appearances.
-- **[Emmanuel Robe](/players/emmanuel-robe)** (Striker) — 4 goals and 0 assists in 7 appearances.
+- **[Rodney Ajayi](/players/rodney-ajayi)** (Striker) — 7 goals and 0 assists in 7 appearances.
+- **[Emmanuel Robe](/players/emmanuel-robe)** (Striker) — 5 goals and 0 assists in 7 appearances.
 - **[Martyn Waghorn](/players/martyn-waghorn)** (Striker) — 4 goals and 0 assists in 5 appearances.
 - **[Daniel Atherton](/players/daniel-atherton)** (Goalkeeper) — 1 goals and 0 assists in 7 appearances.
 
