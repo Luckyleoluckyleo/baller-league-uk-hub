@@ -37,7 +37,7 @@ const schemas = Array.isArray(schema) ? schema : schema ? [schema] : [];
 
 // Google Analytics 4 — set your Measurement ID (G-XXXXXXX) to enable tracking.
 // Leave the placeholder to keep analytics disabled (no request is made).
-const GA_ID = 'G-XXXXXXXXXX';
+const GA_ID = 'G-6HYD1WVBEY';
 const analyticsEnabled = /^G-[A-Z0-9]{6,}$/.test(GA_ID) && GA_ID !== 'G-XXXXXXXXXX';
 
 schemas.push({
@@ -91,7 +91,7 @@ const jsonLd = JSON.stringify(schemas.length === 1 ? schemas[0] : { "@context": 
   <!-- Google AdSense -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7873503560434517" crossorigin="anonymous"></script>
 
-  <!-- Google Analytics 4 (disabled until GA_ID is set) -->
+  <!-- Google Analytics 4 -->
   {analyticsEnabled && (
     <>
       <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}></script>

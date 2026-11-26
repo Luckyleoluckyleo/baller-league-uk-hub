@@ -6,14 +6,15 @@ the site shows **Ready** and the steps below are done.
 
 ## 1. GA4 Measurement ID
 
-1. Go to **analytics.google.com** → create a property for `ballerleagueukhub.com`.
-2. **Admin → Data streams → Web** → add `https://ballerleagueukhub.com`.
-3. Copy the **Measurement ID** (looks like `G-XXXXXXXXXX`).
-4. Paste it into `src/layouts/Base.astro`:
+**Current Measurement ID: `G-6HYD1WVBEY`** (wire in `src/layouts/Base.astro` as `GA_ID`;
+analytics loads automatically once it is a real `G-…` value).
 
-   ```ts
-   const GA_ID = 'G-XXXXXXXXXX'; // ← replace with your real ID
-   ```
+To replace it: **analytics.google.com → Admin → Data streams → Web → Measurement ID**
+(looks like `G-XXXXXXXXXX`), then update:
+
+```ts
+const GA_ID = 'G-6HYD1WVBEY';
+```
 
    Analytics only loads once `GA_ID` is a real `G-…` value (the placeholder keeps it off).
 
