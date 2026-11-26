@@ -52,9 +52,11 @@ export async function handler(event) {
       body: JSON.stringify({ email, groups: [String(groupId)], status: "unconfirmed" }),
     });
 
-    // 422 usually means "already subscribed" — treat as success so the user isn't confused.
-    if (!res.ok && res.status !== 422) {
-      console.error("Newsletter: MailerLite responded", res.status);
+    // Create is an upsert (existing emails return 200), so any non-2xx is a real
+    // error (e.g. an invalid group ID). Surface it instead of faking success.
+    if (!res.ok) {
+      const detail = await res.text().catch(() => "");
+      console.error("Newsletter: MailerLite error", res.status, detail.slice(0, 300));
       return redirect("/newsletter/?error=server");
     }
   } catch (err) {
