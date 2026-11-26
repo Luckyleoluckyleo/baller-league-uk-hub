@@ -60,6 +60,10 @@ const seasonStarted = currentMatches.length > 0;
 const nextFixture = upcomingFixtures[0] ?? null;
 const shortStart = (season4.startDate || '').replace(/\s*\d{4}$/, '');
 
+const homeDescription = seasonStarted && leader
+  ? `${leader.team} lead Baller League UK Season ${CURRENT_SEASON} after GW${lastGW}. Live table, results, fixtures, teams, managers and Game Changer stats — updated after every matchday.`
+  : `The unofficial Baller League UK hub: live table, latest results, fixtures, teams, managers, player stats and Game Changer analysis.`;
+
 function previewSlug(match: any): string {
   if (match.round) return `${match.homeSlug}-vs-${match.awaySlug}-final-four-preview`;
   return `${match.homeSlug}-vs-${match.awaySlug}-gw${match.gameweek}-preview`;
@@ -84,8 +88,8 @@ const schema = {
 ---
 
 <Base
-  title="Baller League UK — Live Table, Results, Fixtures & Game Changers"
-  description="The unofficial Baller League UK hub: live table, latest results, fixtures, teams, managers, player stats and Game Changer analysis."
+  title="Baller League UK 2026 — Live Table, Results, Fixtures & Game Changers"
+  description={homeDescription}
   schema={schema}
   keywords="fixtures, results, standings, teams, players, gameweek, roundup"
 >

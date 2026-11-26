@@ -5,10 +5,13 @@ import TeamCard from '../../components/TeamCard.astro';
 import StatStrip from '../../components/StatStrip.astro';
 import { getCollection } from 'astro:content';
 import playersData from '../../data/players.json';
-import { CURRENT_SEASON, standingsFor } from '../../lib/league';
+import { CURRENT_SEASON, playedMatches, standingsFor } from '../../lib/league';
 
 const teams = await getCollection('teams');
 const standings = standingsFor(CURRENT_SEASON);
+const played = playedMatches(CURRENT_SEASON);
+const maxGW = played.length ? Math.max(...played.map((m) => m.gameweek)) : 0;
+const leader = standings[0];
 const standingBySlug: Record<string, any> = Object.fromEntries(standings.map((s) => [s.slug, s]));
 
 // Show only the current-season line-up (historical teams remain reachable by URL).
@@ -55,15 +58,15 @@ const schema = [
 ---
 
 <Base
-  title={`Baller League UK Teams 2026 — All 12 Clubs, Managers & Squads`}
-  description={`All 12 Baller League UK teams for Season ${CURRENT_SEASON} — managers, squads, form, fixtures and stats for every club, from Prime FC to Toma.`}
+  title={`Baller League UK Teams 2026: All 12 Clubs, Managers & Squads`}
+  description={`All 12 Baller League UK teams for Season ${CURRENT_SEASON}${leader ? `, with ${leader.team} currently top` : ''} — every club's manager, squad, form, fixtures and league position.`}
   keywords={`teams, managers, squads, Season ${CURRENT_SEASON}, KSI, Niko Omilana, Sharky, Mark Goldbridge, Alex Iwobi`}
   schema={schema}
 >
   <div class="page-header">
     <div class="container">
       <Breadcrumb items={[{name:'Home',url:'/'},{name:'Teams'}]} />
-      <div class="section-label">Season {CURRENT_SEASON}</div>
+      <div class="section-label">Season {CURRENT_SEASON}{maxGW ? ` · Gameweek ${maxGW}` : ''}</div>
       <h1>All 12 Teams</h1>
       <p class="section-subtitle">Every team competing in Baller League UK Season {CURRENT_SEASON}.</p>
     </div>
@@ -79,10 +82,10 @@ const schema = [
     </p>
     <StatStrip
       stats={[
+        { icon: '📈', label: 'Current leaders', value: leader?.team ?? 'TBC', sub: leader ? `${leader.pts} pts · GW${maxGW}` : `Season ${CURRENT_SEASON}`, href: leader ? `/teams/${leader.slug}` : '/table' },
         { icon: '🏆', label: 'Defending champions', value: 'Prime FC', sub: 'Season 3 winners', href: '/teams/prime-fc' },
-        { icon: '📅', label: 'Season 4 starts', value: '12 Oct 2026', sub: '11 matchdays' },
         { icon: '⚽', label: 'Top scorer', value: topScorer.name, sub: `${seasonOf(topScorer).goals || 0} goals`, href: `/players/${topScorer.slug}` },
-        { icon: '👥', label: 'Teams', value: `${teamsWithStandings.length}`, sub: '12 managers' },
+        { icon: '👥', label: 'Teams', value: `${teamsWithStandings.length}`, sub: 'current line-up' },
       ]}
     />
     <div class="teams-grid">
