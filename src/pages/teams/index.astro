@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import TeamCard from '../../components/TeamCard.astro';
 import StatStrip from '../../components/StatStrip.astro';
+import AdSlot from '../../components/AdSlot.astro';
 import { getCollection } from 'astro:content';
 import playersData from '../../data/players.json';
 import { CURRENT_SEASON, playedMatches, standingsFor } from '../../lib/league';
@@ -88,6 +89,7 @@ const schema = [
         { icon: '👥', label: 'Teams', value: `${teamsWithStandings.length}`, sub: 'current line-up' },
       ]}
     />
+    <AdSlot placement="top" />
     <div class="teams-grid">
       {teamsWithStandings.map(team => (
         <TeamCard

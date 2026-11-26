@@ -2,6 +2,7 @@
 import Base from '../layouts/Base.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
 import StatStrip from '../components/StatStrip.astro';
+import AdSlot from '../components/AdSlot.astro';
 import fixturesData from '../data/fixtures.json';
 import playersData from '../data/players.json';
 import { CURRENT_SEASON, playedMatches, standingsFor, formFor, matchSlug } from '../lib/league';
@@ -174,6 +175,8 @@ const schema = {
         </tbody>
       </table>
     </div>
+
+    <AdSlot placement="inContent" />
 
     <div class="table-fixtures-grid">
 

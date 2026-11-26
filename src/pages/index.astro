@@ -3,6 +3,7 @@ import Base from '../layouts/Base.astro';
 import NewsCard from '../components/NewsCard.astro';
 import TeamCard from '../components/TeamCard.astro';
 import MiniLeaderboard from '../components/MiniLeaderboard.astro';
+import AdSlot from '../components/AdSlot.astro';
 import { getCollection } from 'astro:content';
 import fixturesData from '../data/fixtures.json';
 import playersData from '../data/players.json';
@@ -296,6 +297,8 @@ const schema = {
       <p class="table-note text-muted">🟢 Top 4 qualify for the Final Four playoffs &middot; Stats updated {updateDate}</p>
     </div>
   </section>
+
+  <div class="container"><AdSlot placement="top" /></div>
 
   <!-- FIXTURES AND RESULTS TWO-COL -->
   <section class="section section--sm" style="background: var(--bg-secondary); padding-top: var(--space-2xl); padding-bottom: var(--space-2xl);">

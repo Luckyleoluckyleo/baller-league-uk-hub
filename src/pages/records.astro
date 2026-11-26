@@ -2,6 +2,7 @@
 import Base from '../layouts/Base.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
 import StatStrip from '../components/StatStrip.astro';
+import AdSlot from '../components/AdSlot.astro';
 import gcData from '../data/gamechangers.json';
 
 const allMatches: any[] = [];
@@ -108,6 +109,8 @@ const schema = [
         { icon: '⚡', label: 'Most GC goals (match)', value: mostGCGoals, sub: mostGCMatch ? `${mostGCMatch.homeTeam} v ${mostGCMatch.awayTeam}` : '' },
       ]}
     />
+
+    <AdSlot placement="top" />
 
     <!-- TOP SCORERS -->
     <section class="records-section">

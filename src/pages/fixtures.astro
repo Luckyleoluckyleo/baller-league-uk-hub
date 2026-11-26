@@ -2,6 +2,7 @@
 import Base from '../layouts/Base.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
 import StatStrip from '../components/StatStrip.astro';
+import AdSlot from '../components/AdSlot.astro';
 import fixturesData from '../data/fixtures.json';
 import season4 from '../data/season4.json';
 import { CURRENT_SEASON } from '../lib/league';
@@ -71,6 +72,8 @@ const schema = {
         { icon: '🏟️', label: 'Venue', value: venue.name, sub: 'Dagenham, London' },
       ]}
     />
+
+    <AdSlot placement="top" />
 
     <!-- UPCOMING -->
     <section class="fx-section">
