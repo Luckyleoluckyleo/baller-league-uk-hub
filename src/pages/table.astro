@@ -23,6 +23,37 @@ const players = playersData.players as any[];
 const seasonOf = (p: any) => p.seasons?.[String(CURRENT_SEASON)] || {};
 const leader = computedTable[0];
 const topScorer = [...players].sort((a, b) => (seasonOf(b).goals || 0) - (seasonOf(a).goals || 0))[0];
+
+// ---- Visible "who's top / playoff race" summary (computed, so it's never stale) ----
+const topFour = computedTable.slice(0, 4);
+const fourth = computedTable[3];
+const fifth = computedTable[4];
+const hasResults = !!leader && leader.played > 0;
+const nextFixture = fixturesData.upcoming[0];
+
+function joinNames(names: string[]): string {
+  if (names.length <= 1) return names[0] ?? '';
+  return `${names.slice(0, -1).join(', ')} and ${names[names.length - 1]}`;
+}
+
+const standingsSummaryTop = hasResults
+  ? `${leader.team} lead the Baller League UK Season ${CURRENT_SEASON} table with ${leader.pts} points from ${leader.played} matches, ahead of ${computedTable[1].team} on ${computedTable[1].pts}.`
+  : `The Baller League UK Season ${CURRENT_SEASON} table updates as soon as the first matches are played.`;
+
+let standingsSummaryPlayoffs: string;
+if (hasResults && fourth && fifth) {
+  const teams = joinNames(topFour.map((r: any) => r.team));
+  const gap = fourth.pts - fifth.pts;
+  standingsSummaryPlayoffs = gap > 0
+    ? `The top four — ${teams} — occupy the Final Four playoff places, with ${fifth.team} ${fifth.pos}th and ${gap} point${gap === 1 ? '' : 's'} off the cut-off.`
+    : `The top four — ${teams} — occupy the Final Four playoff places, with ${fifth.team} level on points but outside on goal difference.`;
+} else {
+  standingsSummaryPlayoffs = 'The top four finishers qualify for the Final Four playoffs.';
+}
+
+const tableDescription = hasResults
+  ? `${leader.team} top the Baller League UK Season ${CURRENT_SEASON} table on ${leader.pts} points. See the latest standings, goal difference, form and the top-four Final Four playoff race — updated after every matchday.`
+  : `The Baller League UK Season ${CURRENT_SEASON} table: standings, goal difference, form and the race for the Final Four playoffs — updated after every matchday.`;
 const bestDefence = [...computedTable].sort((a, b) => a.ga - b.ga)[0];
 const totalGoals = currentMatches.reduce((n, m) => n + m.homeScore + m.awayScore, 0);
 const avgGoals = currentMatches.length ? (totalGoals / currentMatches.length).toFixed(1) : '0';
@@ -54,8 +85,8 @@ const schema = {
 ---
 
 <Base
-  title={`Baller League UK Table 2026 — Latest Standings & Results`}
-  description={`The live Baller League UK table for Season ${CURRENT_SEASON}: standings, form, results and the race for the Final Four.`}
+  title={`Baller League UK Table 2026: Standings, Points & Playoff Race`}
+  description={tableDescription}
   keywords={`league table, standings, fixtures, results, gameweek, Season ${CURRENT_SEASON}, playoffs, top 4`}
   schema={schema}
 >
@@ -70,6 +101,15 @@ const schema = {
   </div>
 
   <div class="container table-page">
+
+    <div class="table-summary card">
+      <div class="card-body">
+        <div class="section-label">Latest standings</div>
+        <p class="table-summary-lead">{standingsSummaryTop}</p>
+        <p class="table-summary-sub">{standingsSummaryPlayoffs}</p>
+        <p class="table-summary-meta">Updated {updateDate} · refreshes after every matchday{nextFixture ? ` · Next: ${nextFixture.homeTeam} vs ${nextFixture.awayTeam} (GW${nextFixture.gameweek}, ${nextFixture.date})` : ''}</p>
+      </div>
+    </div>
 
     <StatStrip
       stats={[
@@ -225,6 +265,11 @@ const schema = {
               </div>
             </a>
           ))}
+          {fixturesData.upcoming.length === 0 && (
+            <div class="card" style="padding: var(--space-lg); text-align: center;">
+              <p class="text-muted">Next fixtures will appear here once the league confirms them — see the <a href="/fixtures">full schedule</a>.</p>
+            </div>
+          )}
         </div>
       </div>
 
@@ -305,6 +350,12 @@ const schema = {
 
 <style>
 .table-page { padding-bottom: var(--space-3xl); }
+
+.table-summary { margin-bottom: var(--space-xl); border: 1px solid var(--border); }
+.table-summary .card-body { padding: var(--space-lg); }
+.table-summary-lead { font-size: 1.1rem; font-weight: 600; color: var(--text-primary); line-height: 1.6; margin: 0 0 var(--space-sm); }
+.table-summary-sub { color: var(--text-secondary); line-height: 1.7; margin: 0 0 var(--space-sm); }
+.table-summary-meta { color: var(--text-muted); font-size: 0.82rem; margin: 0; }
 
 .table-legend { display: flex; gap: var(--space-lg); margin-bottom: var(--space-lg); flex-wrap: wrap; }
 .legend-item { display: flex; align-items: center; gap: var(--space-sm); font-size: 0.9rem; color: var(--text-secondary); font-weight: 500; }
