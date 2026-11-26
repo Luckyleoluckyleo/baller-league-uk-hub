@@ -1,0 +1,34 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+---
+
+<Base
+  title="Almost there — confirm your Baller League UK newsletter"
+  description="Check your inbox to confirm your Baller League UK newsletter subscription."
+  noindex={true}
+>
+  <div class="page-header">
+    <div class="container">
+      <Breadcrumb items={[{name:'Home',url:'/'},{name:'Newsletter',url:'/newsletter'},{name:'Thanks'}]} />
+      <div class="section-label">Newsletter</div>
+      <h1>Check your inbox</h1>
+      <p class="section-subtitle">You're almost subscribed — confirm via the email we just sent.</p>
+    </div>
+  </div>
+
+  <div class="container thanks-page">
+    <div class="card">
+      <div class="card-body prose">
+        <p>We've sent a confirmation email to the address you entered. Click the link inside to activate your subscription (check your spam folder if it hasn't arrived within a few minutes).</p>
+        <p>Once confirmed, you'll get the <strong>Monday recap</strong> and <strong>Friday preview</strong> for every Baller League UK gameweek. You can unsubscribe in one click from any email.</p>
+        <p><a href="/table">See the latest table</a> while you wait, or <a href="/newsletter">read more about the newsletter</a>.</p>
+      </div>
+    </div>
+  </div>
+</Base>
+
+<style>
+.thanks-page { padding-bottom: var(--space-3xl); max-width: 720px; }
+.thanks-page .prose p { color: var(--text-secondary); line-height: 1.8; }
+</style>

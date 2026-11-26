@@ -1,0 +1,76 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import NewsletterSignup from '../components/NewsletterSignup.astro';
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Baller League UK Newsletter",
+  "url": "https://ballerleagueukhub.com/newsletter",
+  "description": "Weekly Baller League UK newsletter: Monday matchday recap and Friday preview, covering results, the table, top scorers and upcoming fixtures."
+};
+---
+
+<Base
+  title="Baller League UK Newsletter — Weekly Roundup & Preview"
+  description="Get the Baller League UK roundup by email: a Monday matchday recap and a Friday preview — results, table movement, top scorers and next fixtures. Free, twice a week."
+  keywords="Baller League UK newsletter, Baller League email, weekly roundup, Baller League results"
+  schema={schema}
+>
+  <div class="page-header">
+    <div class="container">
+      <Breadcrumb items={[{name:'Home',url:'/'},{name:'Newsletter'}]} />
+      <div class="section-label">Newsletter</div>
+      <h1>Baller League UK Newsletter</h1>
+      <p class="section-subtitle">A Monday recap and a Friday preview — straight to your inbox. Free, twice a week.</p>
+    </div>
+  </div>
+
+  <div class="container newsletter-page">
+    <p id="news-error" class="news-error" hidden></p>
+
+    <NewsletterSignup id="page" variant="card" heading="Get the Baller League UK roundup" />
+
+    <section class="newsletter-about">
+      <h2>What you'll get</h2>
+      <ul>
+        <li><strong>Monday recap:</strong> every result, the table movement that matters and the week's top scorers.</li>
+        <li><strong>Friday preview:</strong> the next gameweek's fixtures, key matchups and one stat to watch.</li>
+        <li><strong>Occasional extras:</strong> signings, Game Changer moments and season milestones.</li>
+      </ul>
+      <p>No accounts, no spam. One email twice a week, and you can unsubscribe in one click at any time.</p>
+    </section>
+  </div>
+</Base>
+
+<script is:inline>
+  (function () {
+    var params = new URLSearchParams(window.location.search);
+    if (!params.has('error')) return;
+    var el = document.getElementById('news-error');
+    if (!el) return;
+    el.hidden = false;
+    el.textContent = params.get('error') === 'server'
+      ? 'Sorry — something went wrong on our side. Please try again in a moment.'
+      : 'Please enter a valid email address and tick the consent box, then try again.';
+  })();
+</script>
+
+<style>
+.newsletter-page { padding-bottom: var(--space-3xl); max-width: 900px; }
+.news-error {
+  background: rgba(255, 107, 53, 0.12);
+  border: 1px solid var(--orange);
+  color: var(--text-primary);
+  border-radius: var(--radius-sm);
+  padding: var(--space-md);
+  margin-bottom: var(--space-lg);
+}
+.newsletter-about { margin-top: var(--space-2xl); }
+.newsletter-about h2 { font-family: var(--font-display); font-size: 1.5rem; color: var(--text-primary); margin-bottom: var(--space-md); }
+.newsletter-about ul { list-style: none; padding: 0; display: flex; flex-direction: column; gap: var(--space-sm); margin-bottom: var(--space-md); }
+.newsletter-about li { color: var(--text-secondary); line-height: 1.7; position: relative; padding-left: 20px; }
+.newsletter-about li::before { content: '▸'; position: absolute; left: 0; color: var(--green); }
+.newsletter-about p { color: var(--text-secondary); line-height: 1.8; }
+</style>

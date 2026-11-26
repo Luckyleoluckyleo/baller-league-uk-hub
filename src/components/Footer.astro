@@ -1,5 +1,6 @@
 ---
 import gcData from '../data/gamechangers.json';
+import NewsletterSignup from './NewsletterSignup.astro';
 
 const s3Matches = (gcData.seasons['3']?.matches as any[] || []).filter((m: any) => m.homeScore > 0 || m.awayScore > 0);
 const s3GWs = [...new Set(s3Matches.map((m: any) => m.gameweek))].sort((a: number, b: number) => a - b);
@@ -9,6 +10,7 @@ const updateDate = new Date().toLocaleDateString('en-GB', { day: 'numeric', mont
 <footer class="footer">
   <div class="container">
     <h2 class="visually-hidden">Site footer</h2>
+    <NewsletterSignup id="footer" variant="card" heading="Get the weekly roundup" />
     <div class="footer-grid">
 
       <div class="footer-brand">

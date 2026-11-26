@@ -1,0 +1,119 @@
+---
+interface Props {
+  variant?: 'band' | 'card';
+  id?: string;
+  heading?: string;
+  source?: string;
+}
+
+const {
+  variant = 'card',
+  id = `news-${Math.random().toString(36).slice(2, 8)}`,
+  heading = 'Get the Baller League UK roundup',
+  source = Astro.url?.pathname ?? '/',
+} = Astro.props;
+
+const emailId = `${id}-email`;
+const titleId = `${id}-title`;
+---
+
+<section class={`news-signup news-signup--${variant}`} aria-labelledby={titleId}>
+  <div class="news-signup-inner">
+    <div class="news-signup-copy">
+      <h2 id={titleId} class="news-signup-title">{heading}</h2>
+      <p class="news-signup-sub">
+        Monday recap + Friday preview: results, table movement, top scorers and the next fixtures.
+        One email, twice a week. No spam — unsubscribe anytime.
+      </p>
+    </div>
+
+    <form class="news-signup-form" action="/.netlify/functions/subscribe" method="POST">
+      <input type="hidden" name="source" value={source} />
+      <div class="news-signup-hp" aria-hidden="true">
+        <label>Company <input type="text" name="company" tabindex="-1" autocomplete="off" /></label>
+      </div>
+      <div class="news-signup-row">
+        <label class="visually-hidden" for={emailId}>Email address</label>
+        <input
+          id={emailId}
+          class="news-signup-input"
+          type="email"
+          name="email"
+          placeholder="you@example.com"
+          autocomplete="email"
+          required
+        />
+        <button class="btn btn-primary news-signup-btn" type="submit">Subscribe</button>
+      </div>
+      <label class="news-signup-consent">
+        <input type="checkbox" name="consent" value="yes" required />
+        <span>I agree to receive the newsletter and accept the <a href="/privacy">privacy policy</a>. Unsubscribe anytime.</span>
+      </label>
+    </form>
+  </div>
+</section>
+
+<style>
+.news-signup-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-xl);
+  align-items: center;
+}
+.news-signup--card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-elevated);
+  margin: var(--space-xl) 0;
+}
+.news-signup--card .news-signup-inner { padding: var(--space-lg); }
+.news-signup--band {
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+.news-signup--band .news-signup-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: var(--space-2xl) var(--space-md);
+}
+.news-signup-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.35rem, 3vw, 1.9rem);
+  color: var(--text-primary);
+  margin: 0 0 var(--space-sm);
+}
+.news-signup-sub { color: var(--text-secondary); line-height: 1.7; margin: 0; }
+.news-signup-form { display: flex; flex-direction: column; gap: var(--space-sm); }
+.news-signup-row { display: flex; gap: var(--space-sm); }
+.news-signup-input {
+  flex: 1;
+  min-width: 0;
+  padding: 0.7rem 0.9rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text-primary);
+  font: inherit;
+}
+.news-signup-input:focus-visible { outline: 2px solid var(--green); outline-offset: 1px; }
+.news-signup-btn { white-space: nowrap; }
+.news-signup-consent {
+  display: flex;
+  gap: var(--space-sm);
+  align-items: flex-start;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+.news-signup-consent input { margin-top: 3px; flex-shrink: 0; }
+.news-signup-consent a { color: var(--green); }
+.news-signup-hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+
+@media (max-width: 760px) {
+  .news-signup-inner { grid-template-columns: 1fr; gap: var(--space-md); }
+  .news-signup--band .news-signup-inner { padding: var(--space-xl) var(--space-md); }
+  .news-signup-row { flex-direction: column; }
+  .news-signup-btn { width: 100%; }
+}
+</style>

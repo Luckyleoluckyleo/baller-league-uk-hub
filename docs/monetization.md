@@ -59,3 +59,20 @@ Max one unit per page, reserved height to protect Core Web Vitals.
 At ~1,000 pageviews/month, AdSense ≈ **£2–£6/month**; the £60 payout threshold means a
 payout is a while off. Real near-term upside is **ticket affiliate + sponsorship**
 (see `/media-kit`), with SEO traffic growth as the long-term multiplier.
+
+## 7. Newsletter (MailerLite)
+
+Signup goes through a Netlify Function that adds the subscriber to a MailerLite group
+with **double opt-in**.
+
+- Function: `netlify/functions/subscribe.mjs` → posts to `/.netlify/functions/subscribe`.
+- Env vars (Netlify → Site configuration → Environment variables):
+  - `MAILERLITE_API_KEY` (secret; scopes: Builds + Functions + Runtime)
+  - `MAILERLITE_GROUP_ID` (numeric group id)
+- UI: `src/components/NewsletterSignup.astro` on the homepage band, footer and article
+  pages, plus `/newsletter` and `/newsletter/thanks` (the thanks page is `noindex`).
+- Top of site: nav "Newsletter" item + a desktop "Subscribe" button.
+- Cadence: **Monday recap + Friday preview** (single weekly send until the list grows).
+- Privacy: covered in `src/pages/privacy.astro` (MailerLite, consent, double opt-in).
+- Test after deploy: submit a real signup, confirm it appears in MailerLite and the
+  confirmation email arrives.

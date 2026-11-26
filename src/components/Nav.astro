@@ -29,6 +29,7 @@ const navItems = [
     { href: '/guide',       label: 'Guide'            },
     { href: '/faq',         label: 'FAQ'              },
   ]},
+  { href: '/newsletter',    label: 'Newsletter'       },
 ];
 
 const path = Astro.url.pathname;
@@ -74,6 +75,7 @@ function hasActiveChild(children: { href: string }[]) {
     </ul>
 
     <div class="nav-right">
+      <a href="/newsletter" class="btn btn-secondary btn-sm nav-subscribe">Subscribe</a>
       <a href="/arena" class="btn btn-gold btn-sm nav-tickets">Tickets</a>
       <a href="/watch" class="btn btn-primary btn-sm nav-cta">Watch Live</a>
       <button
@@ -261,6 +263,7 @@ function hasActiveChild(children: { href: string }[]) {
 @media (max-width: 900px) {
   .hamburger { display: flex; }
   .nav-cta { display: none; }
+  .nav-subscribe { display: none; }
 
   .nav-links {
     display: none;

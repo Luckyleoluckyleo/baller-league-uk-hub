@@ -3,6 +3,7 @@
 import Base from '../../layouts/Base.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import AdSlot from '../../components/AdSlot.astro';
+import NewsletterSignup from '../../components/NewsletterSignup.astro';
 import { getCollection } from 'astro:content';
 import { existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
@@ -187,6 +188,7 @@ const catClass =
           <p class="article-excerpt">{data.excerpt}</p>
           <Content />
           {!noindexArticle && <AdSlot placement="inContent" />}
+          {!noindexArticle && <NewsletterSignup id="article" variant="card" />}
           {data.faqs?.length ? (
             <section class="article-faq">
               <h2>Quick answers</h2>

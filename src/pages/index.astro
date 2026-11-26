@@ -4,6 +4,7 @@ import NewsCard from '../components/NewsCard.astro';
 import TeamCard from '../components/TeamCard.astro';
 import MiniLeaderboard from '../components/MiniLeaderboard.astro';
 import AdSlot from '../components/AdSlot.astro';
+import NewsletterSignup from '../components/NewsletterSignup.astro';
 import { getCollection } from 'astro:content';
 import fixturesData from '../data/fixtures.json';
 import playersData from '../data/players.json';
@@ -386,6 +387,9 @@ const schema = {
       </div>
     </div>
   </section>
+
+  <!-- NEWSLETTER -->
+  <NewsletterSignup id="home" variant="band" />
 
   <!-- LATEST NEWS -->
   <section class="section">
