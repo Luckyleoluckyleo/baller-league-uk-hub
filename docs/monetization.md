@@ -66,9 +66,12 @@ Signup goes through a Netlify Function that adds the subscriber to a MailerLite 
 with **double opt-in**.
 
 - Function: `netlify/functions/subscribe.mjs` → posts to `/.netlify/functions/subscribe`.
-- Env vars (Netlify → Site configuration → Environment variables):
+- Env var (Netlify → Site configuration → Environment variables):
   - `MAILERLITE_API_KEY` (secret; scopes: Builds + Functions + Runtime)
-  - `MAILERLITE_GROUP_ID` (numeric group id)
+- The "Newsletter" group ID (`205204446769054925`) lives in
+  `netlify/functions/subscribe.mjs` — group IDs aren't secret; update it there if you
+  switch groups. Double opt-in must be on under MailerLite → Subscribe settings →
+  "Double opt-in for API and integrations".
 - UI: `src/components/NewsletterSignup.astro` on the homepage band, footer and article
   pages, plus `/newsletter` and `/newsletter/thanks` (the thanks page is `noindex`).
 - Top of site: nav "Newsletter" item + a desktop "Subscribe" button.

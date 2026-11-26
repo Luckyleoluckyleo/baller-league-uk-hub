@@ -1,8 +1,11 @@
 // Netlify Function: newsletter signup → MailerLite.
-// Env vars required (Netlify → Site configuration → Environment variables):
-//   MAILERLITE_API_KEY   (secret)
-//   MAILERLITE_GROUP_ID  (numeric group id)
+// Required env var (Netlify → Site configuration → Environment variables):
+//   MAILERLITE_API_KEY  (secret — the only secret; keep it in Netlify only)
 const MAILERLITE_API = "https://connect.mailerlite.com/api/subscribers";
+
+// MailerLite "Newsletter" group ID. Group IDs are not secret, so it lives here.
+// Update this constant if you ever switch to a different group.
+const MAILERLITE_GROUP_ID = "205204446769054925";
 
 function redirect(location) {
   return { statusCode: 303, headers: { Location: location }, body: "" };
@@ -34,9 +37,8 @@ export async function handler(event) {
   if (!validEmail || !consent) return redirect("/newsletter/?error=1");
 
   const key = process.env.MAILERLITE_API_KEY;
-  const groupId = process.env.MAILERLITE_GROUP_ID;
-  if (!key || !groupId) {
-    console.error("Newsletter: missing MAILERLITE_API_KEY or MAILERLITE_GROUP_ID");
+  if (!key) {
+    console.error("Newsletter: missing MAILERLITE_API_KEY");
     return redirect("/newsletter/?error=server");
   }
 
@@ -49,7 +51,7 @@ export async function handler(event) {
         Authorization: `Bearer ${key}`,
       },
       // status "unconfirmed" triggers MailerLite's double opt-in confirmation email.
-      body: JSON.stringify({ email, groups: [String(groupId)], status: "unconfirmed" }),
+      body: JSON.stringify({ email, groups: [MAILERLITE_GROUP_ID], status: "unconfirmed" }),
     });
 
     // Create is an upsert (existing emails return 200), so any non-2xx is a real
